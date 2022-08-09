@@ -1,0 +1,13 @@
+{
+    "Validation.PasswordsDontMatch": "",
+    "Validation.RecoveryLinkIsUsed": "",
+    "Validation.UserDoesNotExists": "",
+    "Validation.IncorrectPassword": "",
+    "Validation.UserAlreadyExists": "",
+    "Error.UserDoesntExist": "",
+    "Error.UserNotFound": "",
+    "Error.WrongPassword": "",
+    "PasswordTooShort": "",
+    "Notice.Company": "",
+    "Notice.Step": ""
+}
