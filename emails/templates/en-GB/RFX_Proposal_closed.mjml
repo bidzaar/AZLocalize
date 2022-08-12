@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: 🔒 Приём предложений завершен
+Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
+
+Запрос переведен на этап Подведение итогов
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Proposal submission is closed</h1>
+          <p>
+            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+          <p>You can still upload or update your final offer or other documents in the "Commercial bid and documentation" section of <a href="@ProcedureContext.UrlProposal">your proposal</a>. </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

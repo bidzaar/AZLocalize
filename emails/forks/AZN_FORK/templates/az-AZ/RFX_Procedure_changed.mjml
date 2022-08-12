@@ -1,0 +1,33 @@
+<mjml>
+  <!-- 
+Тема: 🖐 @ProcedureContext.ProcedureOwnerCompanyName приглашает к сотрудничеству
+Получатель: владелец имейла, указанного при приглашении
+
+Организаьтор проигласил участника в запрос по имейлу
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Sorğu dəyişdirilib</h1>
+          <p>Dəyişikliklərlə tanış olun və təkliflərinizin aktuallığını yoxlayın. </p>
+          <p><b>Sorğu:</b> @ProcedureContext.ProcedureName<br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br />
+            <b>Bildiriş:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğu haqqında bildirişi endir</a><br />
+            <span style="white-space: pre-line"><b>Sorğuda dəyişiklik:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

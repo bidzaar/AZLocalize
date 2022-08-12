@@ -1,0 +1,39 @@
+<mjml>
+  <!-- 
+Тема: Сбой почтового сервера вашей компании
+Получатель: все УК компании
+
+Событие: Почтовый сервер компании не смог отправить приглашения участникам в запрос
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <mj-section background-color="#f9f9f9">
+      <mj-column>
+        <mj-text> </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 style="color: #CB0C00"><b>Произошел сбой почтового сервера вашей компании</b></h1>
+          <p class="mb0">Почтовый сервер <b>@CompanyContext.CompanyName</b> не смог отправить приглашения участникам в запрос, опубликованный на Procure.az.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-secondary">
+      <mj-column>
+        <mj-text>
+          <p>Не огорчайтесь: мы отправили эти приглашения через почтовый сервер Procure.az.</p>
+          <p>Чтобы адресаты получали письма через ваш почтовик, проверьте <a href="@ConfigurationContext.BaseUrl/smtp/settings" >настройки отправки приглашений</a> в профиле вашей компании.</p>
+          <p>Ранее Администратор вашей компании настроил отправку приглашений в запросы через почтовый сервер вашей компании.</p>
+        </mj-text>
+        <!-- <mj-text>@PixelContext.Html</mj-text> -->
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+  </mj-body>
+</mjml>

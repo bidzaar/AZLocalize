@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: 👋 Приглашаем в пул поставщиков
+Получатель:  УК, сотрудники с правами Прохождение аккредитации 
+
+Организатор пригласил компанию с площадки в пул поставщиков
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Приглашение в пул</h1>
+          <p>
+            <p>Приглашаем вашу компанию <b>@TargetContext.CompanyName</b> пройти аккредитацию в пуле поставщиков.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@PoolContext.PoolName</h1>
+          <p class="p75">
+            <p><b>Организатор:</b> @PoolContext.PoolOwnerCompanyName</p>
+        </mj-text>
+        <mj-button href="@PoolContext.Url">Перейти к пулу поставщиков</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

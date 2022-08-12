@@ -1,0 +1,26 @@
+﻿<mjml>
+  <!--
+Тема: Изменена настройка Только для проверенных
+Получатель: операторы колл-центра
+
+Пользователь опубликовал новую версию процедуры с измененной настройкой Только для проверенных
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>a
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <p>@ProcedureContext.ProcedureNumber</p>
+          <p>Организатор: @ProcedureContext.ProcedureOwnerCompanyName</p>
+          <p>Приём	 предложений: до @ProcedureContext.AcceptanceEndDate</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <!-- /footer -->
+  </mj-body>
+</mjml>
