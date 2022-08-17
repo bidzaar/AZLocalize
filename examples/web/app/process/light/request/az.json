@@ -1,0 +1,96 @@
+{
+  "pl": {
+    "request": {
+      "acceptance_end_date": {
+        "time_left": "Qalıb",
+        "title": "Təkliflərin qəbulu "
+      },
+      "actions": {
+        "cancel": "Sorğunu ləğv et",
+        "cancel_change": "Dəyişiklikləri ləğv et",
+        "cancel_stage": "Yeni mərhələni ləğv et",
+        "change_acceptance_end_date": "Təkliflərin qəbulu üçün son tarixi dəyişdirin",
+        "clone": "Klonlaşdır",
+        "delete": "Qaralamanı sil",
+        "end_change": "Dəyişiklikləri dərc et",
+        "end_round": "Təkliflərin qəbulunu tamamla",
+        "favourites": "Seçilmişlərə əlavə et",
+        "in_favourite": "Seçilmişlərdə",
+        "more": "Digər əməliyyatlar",
+        "new_stage": "Yeni bir mərhələ qur",
+        "notice_report": "Bildiriş yüklə",
+        "participate": "Təkliflərin hazırlnamasına başla\n",
+        "publish": "Sorğunu dərc et",
+        "publish_stage": "Yeni mərhələ elan et",
+        "refuse": "İştrakdan imtina et",
+        "return_to_summary": "Yekun nəticələrə qayıt",
+        "start_change": "Sorğunu dəyişdir",
+        "view_summary": "Sorğunun yekun nəticələrinə bax"
+      },
+      "blocked": {
+        "sub_title": "Sifarişçi sizi sorğusundan kənarlaşdırdı. Sorğu iştirakçıların sayı ilə məhduddur.\nSuallarınız var? Sifarişçi ilə əlaqə saxlayın.",
+        "title": "Sorğu məlumatları mövcud deyil"
+      },
+      "collapse": "Gizlət",
+      "general": {
+        "contact_info": {
+          "add_contact": "Təchizatçılarla ünsiyyət üçün bir şəxs təyin edin",
+          "title": "Əlaqəli şəxs"
+        },
+        "delivery_address": {
+          "add": "Malların çatdırılması və ya xidmətlərin göstərilməsi ünvanı",
+          "title": "Çatdırılma ünvanı"
+        },
+        "description_and_files": {
+          "add_files": "Texniki tapşırığı, spesifikasiyaları, müqavilə layihəsini və s. əlavə edin.",
+          "placeholder": "Sorğunuzun mövzusunu qeyd edin...",
+          "title": "Təsvir və sənədlər",
+          "warning_text": "Sənədlər təchizatçı şirkətlər üçün əlçatandır.\nDaxil olun və ya şirkəti qeydiyyatdan keçirin."
+        },
+        "nda": {
+          "sub_title": "İştirakçılar sorğunun təsvirinə sizin təsdiqinizdən sonra giriş izni əldə edəcəklər",
+          "title": "İlkin kvalifikasiya/NDA imzalama addımını aktivləşdirin"
+        },
+        "tags": {
+          "add": "Sorğunuzun mövzusunu açar sözlərlə təsvir edin",
+          "title": "Teqlər"
+        },
+        "title": "Təsvir və sənədlər"
+      },
+      "message_payment": {
+        "link": "Nə üçün ödəməli?",
+        "text": "Sorğuda iştirak pulsuzdur, depozitlər və vəsaitlərin bloklanması olmadan!"
+      },
+      "navigation": {
+        "content": "Məzmun",
+        "title": "Sorğunun məzmunu"
+      },
+      "participant_rules": {
+        "title": "Sorğu iştrakçıları üçün qaydalar"
+      },
+      "positions": {
+        "disabled": "Sorğu maddələri qeyd olunmayıb",
+        "empty": "Sorğu maddələrini qeyd edin",
+        "expand": "Daha ətraflı ({{value}})",
+        "open_editable": "Spesifikasiyanı ayarla",
+        "open_readonly": "Bütün maddələrin tam spesifikasiyası",
+        "settings": "Ayarla",
+        "title": "Maddələr üzrə spesifikasiya"
+      },
+      "questionnaire": {
+        "disabled": "Qeyri-qiymət tələb meyarları müəyyən edilməmişdir",
+        "empty": "İştirakçı anketini ayarla, təkliflərin qeyri-qiymət tələb meyarlarını və təkliflərin müqayisə meyarlarını təyin edin",
+        "expand": "Daha ətraflı",
+        "settings": "Ayarla",
+        "title": "Sorğunun qeyri-qiymət meyyarları",
+        "warning_text": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
+      },
+      "rules": {
+        "title": "Sorğunun keçirilmə qaydaları"
+      },
+      "tariff": {
+        "title": "Xidmət komissiyası"
+      }
+    }
+  }
+}

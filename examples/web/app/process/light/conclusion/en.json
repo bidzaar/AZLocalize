@@ -1,0 +1,254 @@
+{
+  "pl": {
+    "cnc": {
+      "enums": {
+        "reason": {
+          "0": "Other",
+          "1": "There are no suitable offers",
+          "2": "There is no need to make a request"
+        },
+        "commission": {
+          "0": "Invoice preparation",
+          "1": "Waiting for payment",
+          "2": "Partially paid",
+          "3": "Paid"
+        }
+      },
+      "forbidden": {
+        "title": {
+          "participant.canceled": "Request summary",
+          "owner.status": "Request summary",
+          "owner.version": "Request summary"
+        },
+        "message": {
+          "participant.canceled": "Unfortunately, this request was cancelled by owner.",
+          "owner.version": "Conclusion will be available after the stage of receiving bids.",
+          "owner.status": "The requester denied access to the bids of the participants at the stage of receiving bids."
+        }
+      },
+      "content": {
+        "common": {
+          "protocols": {
+            "title": "Protocols and documents of the tender commission",
+            "upload": "Publish minutes or other document",
+            "empty": "Protocols and documents of the tender commission are not uploaded"
+          },
+          "message": {
+            "default": {
+              "1": {
+                "header": "Results of the request",
+                "notice": "Will be available to participants after the request has been summarised by the organiser."
+              },
+              "2": {
+                "header": "Results of the request",
+                "notice": "Will be available to participants after the request has been summarised by the organiser."
+              },
+              "3": {
+                "header": "Request completed",
+                "notice": "The organiser has summed up the results and completed the request"
+              },
+              "4": {
+                "header": "Request canceled",
+                "notice": "The organiser has cancelled the request"
+              }
+            },
+            "orders": {
+              "winner": "Congratulations, уou have got an order!",
+              "looser": "The customer chose another company as the winner.",
+              "nobody": "Request completed without choosing a winner.",
+              "comment": "The organiser's comment",
+              "questions": "Do you have any questions?",
+              "message": "Contact the requester."
+            }
+          },
+          "requests": {
+            "text": "Find other requests for your profile",
+            "open": "Find requests"
+          },
+          "payment": {
+            "title": "Service operator commission",
+            "delay": "The invoice will be sent in {{ value }} days after the completion of the request",
+            "email": "Invoice sent to your company email",
+            "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"
+          }
+        },
+        "owner": {
+          "canceled": {
+            "title": "Canceled orders ({{value}})",
+            "order_title": "Canceled",
+            "reason": "Reason"
+          },
+          "documents": {
+            "title": "Stage documents",
+            "stages": {
+              "title": "Stage {{ index }}",
+              "active": "current stage"
+            },
+            "files": {
+              "comparison": "Comparison list",
+              "participants": "Participants",
+              "proposals": "Proposals history",
+              "versions": "Requests versions",
+              "messages": "Messages from chats"
+            }
+          },
+          "orders": {
+            "canceled": {
+              "stub": {
+                "text": "Request cancelled"
+              }
+            },
+            "finished": {
+              "stub": {
+                "text": "Request completed without order"
+              }
+            },
+            "active": {
+              "stub": {
+                "text": "There is no order",
+                "notice": "Place an order on the comparison tab"
+              },
+              "list": {
+                "title": "Order",
+                "contacts": {
+                  "title": "Contact person"
+                },
+                "documents": {
+                  "title": "Documents",
+                  "order": "Order",
+                  "proposal": "Proposal",
+                  "chat": "Chat with participant"
+                },
+                "reports": {
+                  "title": "Express reports",
+                  "notice": "Express reports help you quickly and easily find out the most important things about the counterparty. Available only for verified suppliers."
+                }
+              },
+              "actions": {
+                "clear": "Clear order",
+                "with": "Complete request",
+                "without": "Complete request without order",
+                "create": "Place an order"
+              },
+              "vat": {
+                "true": "incl. VAT",
+                "false": "excl. VAT"
+              }
+            },
+            "alternative": {
+              "tooltip": "Alternative suggestion - {{value}}",
+              "icon": "a"
+            },
+            "docs": {
+              "order": "Order",
+              "sentence": "Bid"
+            }
+          },
+          "participations": {
+            "title": "Participants",
+            "winners": "Winners",
+            "proposals": "Submitted bid",
+            "active": "Participated",
+            "total": "Total including invitees"
+          },
+          "savings": {
+            "title": {
+              "completed": {
+                "text": "Savings"
+              },
+              "progress": {
+                "text": "Possible savings",
+                "tooltip": "In case of completion of the request with ordering"
+              }
+            },
+            "stubs": {
+              "budget": {
+                "notice": "Request budget is not set",
+                "text": "Savings on the requested budget"
+              },
+              "proposals": {
+                "notice": "Calculations are available if:\n(1) Bid quantity is marked with \"Full contentment with the items and their quantity\",\n(2) The order contains a bid from one participant only",
+                "text": "Savings in comparison to the prices of participants' bids"
+              }
+            },
+            "values": {
+              "average": "in comparison to the average price of the initial bid",
+              "best": "in comparison to the price of the best initial bid",
+              "budget": "in comparison to the requested budget ({{ value }} {{ currency }})",
+              "custom": "for the customer",
+              "winner": "in comparison to the price of the initial winner's bid"
+            }
+          }
+        },
+        "participant": {
+          "orders": {
+            "title": "Order",
+            "my": "My proposal",
+            "alter": "Alternative {{ index }}"
+          },
+          "promo": {
+            "title": "Procure goods and services to fulfil the order",
+            "text": "Our managers will help you make your purchase as quickly as possible <b>for free</b>!",
+            "order": "Order a purchase"
+          }
+        },
+        "dialogs": {
+          "no_rights_to_complete": {
+            "title": "Not enough rights",
+            "text": "Only the owner can complete the request."
+          },
+          "messages_reports": {
+            "header": "Messages from chats",
+            "broadcast": "Channel with all participants",
+            "team": "Team chat",
+            "participants": "Chats with participants",
+            "empty": "There are no chats with participants"
+          },
+          "versions_reports": {
+            "header": "Request versions",
+            "history": "History of changes",
+            "notice": "Request's notice",
+            "draft": "draft",
+            "active": "active",
+            "inactive": "inactive"
+          },
+          "saving_editor": {
+            "header": "Savings",
+            "editable": {
+              "hint": "In request currency",
+              "text": "Savings amounted to:",
+              "cancel": "Cancel",
+              "next": "Save"
+            },
+            "readonly": {
+              "text": "Savings are available after request completion.",
+              "cancel": "Next"
+            }
+          },
+          "request_completion": {
+            "true": {
+              "header": "Request completion",
+              "text": "Your order:"
+            },
+            "false": {
+              "header": "Request completion without an order",
+              "text": "Your order has not been formed.",
+              "reason": "Specify the reason:",
+              "comment": "Reason..."
+            },
+            "vat": {
+              "true": "incl. VAT",
+              "false": "excl. VAT"
+            },
+            "actions": {
+              "cancel": "Cancel",
+              "submit": "Complete",
+              "success": "Request completed. Messages have been sent to participants"
+            }
+          }
+        }
+      }
+    }
+  }
+}
+

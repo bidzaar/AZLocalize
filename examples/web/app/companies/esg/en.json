@@ -1,0 +1,89 @@
+{
+  "cmp": {
+    "esg": {
+      "about": {
+        "label": "ESG - score",
+        "button": "More about ESG",
+        "description": {
+          "RUS_FORK": "The assessment methodology is based on international standards, taking into account Russian specifics and the National ESG standard proposed by the Higher School of Economics and \"Business Russia\""
+        }
+      },
+      "empty": {
+        "title": "Certification Failed",
+        "button": "Get certificate",
+        "description": {
+          "RUS_FORK": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG supplier"
+        }
+      },
+      "info": {
+        "popover": {
+          "title": "The company was evaluated in the following areas:",
+          "environmental": {
+            "0": "✔️ Clean and green technologies",
+            "1": "✔️ Impact on climate change",
+            "2": "✔️ The degree of pollution of the environment"
+          },
+          "social": {
+            "0": "✔️ Human capital, working conditions",
+            "1": "✔️ Relations with counterparties",
+            "2": "✔️ Social responsibility"
+          },
+          "corporate_governance": {
+            "0": "✔️ Management efficiency",
+            "1": "✔️ Transparency of operations",
+            "2": "✔️ Quality business ethics"
+          }
+        },
+        "statistics": {
+          "environmental": {
+            "title": "Environment",
+            "letter": "e"
+          },
+          "social": {
+            "title": "Social",
+            "letter": "s"
+          },
+          "corporate_governance": {
+            "title": "Corporate governance",
+            "letter": "g"
+          }
+        },
+        "documents": {
+          "title": "Certification reports",
+          "certificate": {
+            "title": "ESG-certificate",
+            "description": "ESG company status certificate"
+          },
+          "report": {
+            "title": "ESG-report",
+            "description": "Detailed report on the work of the company"
+          }
+        }
+      },
+      "footer": {
+        "date": "Certification received {{value}}",
+        "shared": "Share page"
+      },
+      "seo": {
+        "RUS_FORK": {
+          "title": "ESG-provider",
+          "description": {
+            "0": "The {{value}} company has a high level of compliance with ESG criteria and is fully involved in solving environmental, social and governance issues",
+            "1": "The {{value}} company meets the ESG criteria and is sufficiently involved in solving environmental, social and governance problems",
+            "2": "The {{value}} company meets the ESG criteria and is involved in solving environmental, social and governance issues"
+          },
+          "none": {
+            "title": "Certification has not been passed",
+            "description": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG supplier"
+          }
+        }
+      },
+      "dialog": {
+        "header": "Share link",
+        "text": "Share your certification on social media or send a link to colleagues",
+        "hint": "Press Ctrl + C to copy to clipboard",
+        "label": "Link"
+      }
+    }
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "rgs": {
+    "prt": {
+      "application": {
+        "actions": {
+          "change": "Müraciəti dəyişdirin",
+          "prepare": "Yeni müraciət hazırlayın",
+          "submit": "Müraciət et",
+          "view": "Müraciətə baxın"
+        }
+      },
+      "block": {
+        "title": "Reyestr anketi “{{value}}”",
+        "to_application": "Müraciətə"
+      },
+      "botzaar": {
+        "actions": {
+          "button": "Əməliyyatlar",
+          "create": "Yeni müraciət hazırlayın",
+          "refuse": "Reyestrdə akkreditasiyadan imtina edin",
+          "view": "Təqdim edilmiş müraciətə bax"
+        },
+        "message": {
+          "2": {
+            "text": "1.Reyestrdə akkreditasiya üçün müraciət hazırlayın \n2. Müraciəti təqdim edin \n3. Reyestr sahibinin qərarını gözləyin.",
+            "title": "Akkreditasiya davam edir"
+          },
+          "3": {
+            "date": "{{date}} tarixinə qədər",
+            "endless": "müddətsiz",
+            "text": "Akkreditasiya müddəti:",
+            "title": "Sizin şirkətiniz akkreditasiya olunub"
+          },
+          "4": {
+            "advice": "<b>Məsləhət:</b> Reyestr sahibi ilə əlaqə saxlayın və ya akkreditasiya üçün yeni müraciət hazırlayın.",
+            "reason": "<b>Səbəb:</b> {{ reason }}",
+            "text": "Reyestr sahibi şirkətinizi müvəqqəti olaraq reyestrdən çıxarıb.",
+            "title": "Akkreditasiya dayandırılıb"
+          },
+          "5": {
+            "advice": "<b>Məsləhət:</b> Akkreditasiya üçün yeni müraciət hazırlayın.",
+            "title": "Akkreditasiya müddəti başa çatıb"
+          },
+          "6": {
+            "reason": "<b>Səbəb:</b> {{ reason }}",
+            "title": "Şirkətiniz reyestrdən çıxarılıb"
+          },
+          "7": {
+            "advice": "<b>Məsləhət:</b> Akkreditasiya üçün yeni bir müraciət hazırlayın.",
+            "title": "Şirkətiniz akkreditasiyadan imtina etdi"
+          }
+        }
+      },
+      "dialogs": {
+        "error_dialog": {
+          "block_is_not_complete": {
+            "text": "Anketi tamamlayın və hərəkətləri təkrarlayın.",
+            "title": "Anket forması tamamlanmadı"
+          },
+          "blocked": {
+            "text": "Sizin şirkət reyestrdən çıxarıldı. Ətraflı məlumat üçün səhifəni yeniləyin.",
+            "title": "Müraciətlərin qəbulu mümkün deyil"
+          },
+          "close": "Bağlayın",
+          "obsolete": {
+            "text": "Reyestr sahibi anketi yenilədi. Müraciətinizi yeniləyin. Müraciətinizin  bütün bloklarının hazır olduğundan əmin olun və hərəkəti təkrarlayın.",
+            "title": "Müraciət müddəti bitmişdir"
+          },
+          "request_acceptance_closed": {
+            "notice": "Sualınız var? Reyestr sahibi ilə əlaqə saxlayın.",
+            "text": "Reyestrə müraciətlərin qəbulu başa çatıb.",
+            "title": "Müraciətlərin qəbulu mümkün deyil"
+          }
+        },
+        "invitation": {
+          "cancel": "Ləğv et",
+          "submit": "Başlamaq",
+          "title": "Reyestrdə akkreditasiyanı başlayın"
+        },
+        "no_application": {
+          "submit": "Bağlayın",
+          "text": "Mümkün olan səbəblər:<ul><li>• Müraciət təqdim olunma zamanı anket mövcud  olmayıb</li><li>• Qeydiyyat sahibi müraciəti təqdim etmədən şirkətinizi akkreditə etdi</li></ul>",
+          "title": "Şirkətiniz akkreditasiya üçün müraciət etməyib"
+        },
+        "not_accredited_in_related_error": {
+          "close": "Bağlayın",
+          "list_title": "Rеyestrlərdə akkreditasiyanı tamamlayın:",
+          "requirement": "Tələb reyestr sahibi tərəfindən “Akkreditasiya üçün ilkin şərt” bölməsində müəyyən edilir.",
+          "title": "Müraciətlərin qəbulu mümkün deyil"
+        },
+        "refuse": {
+          "cancel": "Ləğv et",
+          "reason": "Səbəb",
+          "submit": "İmtina et",
+          "title": "Akkreditasiyadan imtina edirsiniz?"
+        },
+        "submit": {
+          "cancel": "Ləğv et",
+          "submit": "Müraciət et",
+          "success_snack": "Müraciət baxılmaq üçün göndərilib",
+          "text": "Reyestr akkreditasiyası üçün müraciət edirsiniz?",
+          "title": "Müraciət edin"
+        }
+      }
+    }
+  }
+}

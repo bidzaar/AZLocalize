@@ -1,0 +1,36 @@
+{
+  "bdz.lbs": {
+    "assign_label": "Etiket təyin edin",
+    "choose": {
+      "apply": "Tətbiq et",
+      "create": "Yarat",
+      "title": "Etiket təyin edin"
+    },
+    "delete": {
+      "cancel": "Ləğv et",
+      "delete": "Sil",
+      "linked": "etiket ({{value}}) şirkətlərlə əlaqələndirilir",
+      "not_linked": "etiket şirkətlərlə əlaqəli deyil",
+      "title": "etiket silinsin?"
+    },
+    "edit": {
+      "cancel": "Ləğv et",
+      "create": "Yarat",
+      "delete": "Etiketi silin",
+      "save": "Yadda saxla",
+      "title_create": "Etiket yarat",
+      "title_edit": "etiketi redaktə edin"
+    },
+    "empty": "Etiketlər tapılmadı",
+    "filters": {
+      "empty": "Şirkətlərdən birinin profilini açın, sonra müvvafiq etiket yaradın Etiketlər sizə şirkətləri qruplaşdırmağa və onlara müxtəlif statuslar təyin etməyə kömək edəcək."
+    },
+    "no_labels": "Sizin etiketiniz yoxdur",
+    "search": "Axtarış...",
+    "show_labels": "Etiketləri göstərmək",
+    "validation": {
+      "notEmpty": "Xana boş olmamalıdır",
+      "required": "Xana tələb olunur"
+    }
+  }
+}

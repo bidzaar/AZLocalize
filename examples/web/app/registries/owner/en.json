@@ -1,0 +1,455 @@
+{
+  "rgs": {
+    "owner": {
+      "dashboard": {
+        "no_data": "No data to display",
+        "acceptance": {
+          "draft": "Draft",
+          "opened": "Acceptance of applications is open",
+          "closed": "Acceptance of applications is closed",
+          "actions": {
+            "open": {
+              "title": "Open acceptance of applications",
+              "menu": "Open",
+              "description": "Companies will be able to apply for accreditation in the registry."
+            },
+            "close": {
+              "title": "Close acceptance of applications",
+              "menu": "Close",
+              "description": "Acceptance of new applications will be terminated. Previously submitted applications are available for processing."
+            }
+          }
+        },
+        "main_actions": {
+          "add_company": {
+            "title": "Add companies",
+            "sub_title": "Add companies to expand the registry"
+          },
+          "delete": {
+            "title": "Delete"
+          },
+          "publish": {
+            "title": "Publish",
+            "dialog_title": "Delete the registry?",
+            "yes": "Delete",
+            "no": "Cancel"
+          },
+          "settings": {
+            "title": "Settings"
+          }
+        },
+        "charts": {
+          "accredited": {
+            "title": "Accredited companies",
+            "button": "Show all companies >",
+            "accredited": "Accredited",
+            "accredited_without_application": "Accredited without application"
+          },
+          "applications_pending": {
+            "title": "Applications pending",
+            "sub_title": "Company applications awaiting your decision",
+            "approved": "Approved",
+            "not_approved": "Not approved",
+            "button": "Go to requests >",
+            "applications_processed": "Applications processed"
+          },
+          "attraction_channels": {
+            "title": "Attraction channels",
+            "tooltip": "To configure the registries widget, go to the public page section of the company profile. Find a widget and place it on your site",
+            "profile": "Profile",
+            "widget": "Widget",
+            "invite": "Invite"
+          },
+          "expiring_accreditations": {
+            "title": "Accreditation lost",
+            "sub_title": "Companies that have lost their accreditation in the registry",
+            "blocked": "Blocked",
+            "stopped": "Accreditation suspended",
+            "refused": "Refused accreditation",
+            "expired": "Accreditation is expired"
+          },
+          "expire_soon": {
+            "title": "Expiring accreditations",
+            "sub_title": "Accreditations before the expiration date of less than 30 days",
+            "button": "Show companies >"
+          }
+        },
+        "internal": {
+          "title": "Additional fields",
+          "comment": "Comment",
+          "files": "Internal documents: accreditation regulations, checklists"
+        },
+        "draft_card": {
+          "title": "Settings",
+          "sub_title": "Configure the registry before publishing",
+          "configure": "Configure"
+        },
+        "actions": {
+          "settings": {
+            "title": "Description and parameters",
+            "sub_title": "Description and documents of the register, method and term of accreditation"
+          },
+          "questionnaire": {
+            "title": "Registry questionnaire",
+            "sub_title": "Blocks of the questionnaire, scoring, access to the application"
+          },
+          "access": {
+            "title": "User access",
+            "sub_title": "Access to the registry for user groups and their rights"
+          }
+        }
+      },
+      "settings": {
+        "title": "Description and parameters",
+        "btn": "To dashboard"
+      },
+      "automation": {
+        "title": "Scoring Registry Automation",
+        "subtitle": {
+          "left": "Scoring settings - in",
+          "right": "the registry questionnaire.",
+          "errors": {
+            "no_active_version": "The register does not contain a valid profile",
+            "no_active_formula": "The questionnaire does not contain a scoring formula",
+            "no_deferred_formula": "The questionnaire that comes into force does not contain a scoring formula"
+          }
+        },
+        "actions": {
+          "disable_automation": "Disable Automation",
+          "settings": "Settings"
+        },
+        "refuse": {
+          "title": "Automatic rejection of applications to the register",
+          "disabled": "Rejection of applications is disabled",
+          "text": "Reject orders with scoring less than {{value}}"
+        },
+        "ranking": {
+          "title": "Ranking of companies in the register",
+          "disabled": "Ranking disabled"
+        },
+        "empty": {
+          "title": "Automate the registry",
+          "subtitle": "Use scoring to automatically reject applications and rank companies in the registry",
+          "automate": "Automate"
+        },
+        "dialogs": {
+          "automation_turn_off": {
+            "title": "Disable automation",
+            "text": "Disable automatic rejection of applications and ranking of companies in the registry?",
+            "yes": "Disable automation",
+            "no": "Cancel"
+          },
+          "auto_reject": {
+            "title": "Automatic rejection of applications",
+            "checkbox": "Enable automatic rejection of applications to the registry",
+            "min_scoring": "Reject applications with a score of less than",
+            "info": "The setting is applied to new orders and does not affect previously submitted orders.",
+            "info_turned_off": "Automatic rejection of applications to the registry is disabled.\nPreviously rejected applications will not be restored.",
+            "cancel": "Cancel",
+            "submit": "Submit"
+          },
+          "scoring": {
+            "title": "Ranking of companies in the register",
+            "checkbox": "Enable ranking of companies in the registry by category",
+            "from": "from",
+            "greater": "and greater",
+            "less": "less than",
+            "add": "Add category",
+            "cancel": "Cancel",
+            "submit": "Submit",
+            "info": {
+              "true": "Ranking by category applies to companies whose claims contain a scoring.\nRecalculating categories may take some time.",
+              "false": "Ranking of companies in the registry by category is disabled"
+            }
+          },
+          "error": {
+            "title": "Registry automation not available",
+            "no_active_version": "The register does not contain a valid profile.\nSet up and deploy a scoring questionnaire to automate the registry.",
+            "no_active_formula": "The questionnaire does not contain a scoring formula.\nSet up and deploy a scoring questionnaire to automate the registry.",
+            "no_deferred_formula": "The questionnaire that comes into effect does not contain a scoring formula.\nSet up a questionnaire scoring to automate the registry.",
+            "close": "Close"
+          }
+        }
+      },
+      "stages": {
+        "title": "Accreditation Commission",
+        "empty": {
+          "title": "There are no groups with access to the registry",
+          "text": "Give the groups access to the registry to adjust the Accreditation Commission.",
+          "configure": "Configure access"
+        },
+        "list": {
+          "title": "Stages of the Commission's work ",
+          "notice": "During the stage, the groups work simultaneously. The veto blocks the decision on the company's accreditation and terminates the work of the commission ahead of schedule",
+          "stage": {
+            "title": "Stage",
+            "groups": {
+              "empty": "Add group to the stage",
+              "popup": {
+                "title": "Groups",
+                "apply": "Apply",
+                "veto": "Veto",
+                "empty": "There are no groups to add"
+              },
+              "decision": {
+                "title": "Decision on the company's accreditation in the registry",
+                "auto": "Automatically, after all stages"
+              }
+            }
+          },
+          "actions": {
+            "add_stage": "Add stage",
+            "add_group": "Add group"
+          }
+        },
+        "dialogs": {
+          "remove": {
+            "title": "Remove the stage?",
+            "cancel": "Cancel",
+            "confirm": "Remove"
+          }
+        }
+      },
+      "questionnaire_versions": {
+        "title": "Registry questionnaire",
+        "card_title": "Questionnaire version",
+        "version": "Version",
+        "did_not_come_into_force": "did not come into force",
+        "dates": {
+          "from": "from {{ value }}",
+          "to": "until {{ value }}"
+        },
+        "empty": {
+          "title": "Registry questionnaire",
+          "info": "Create registry questionnaire",
+          "create_questionnaire": "Create questionnaire"
+        },
+        "actions": {
+          "change": "Change",
+          "edit": "Edit",
+          "open": "Open",
+          "cancel": "Cancel"
+        },
+        "new_version_dialog": {
+          "title": "Change questionnaire",
+          "description": "Create a draft to change the questions, logic and scores in the new version of the questionnaire.",
+          "info": "Access settings do not require creating a new version.",
+          "cancel": "Cancel",
+          "submit": "Create draft"
+        }
+      },
+      "questionnaire_blocks": {
+        "title": "Questionnaire",
+        "questionnaire_card": {
+          "title": "Registry questionnaire",
+          "info": "Set up the questionnaire and provide access to view companies requests.",
+          "add_group": "Add group",
+          "add_block": "Add questionnaire block",
+          "no_groups": "Access to the block for groups is not granted",
+          "add_group_popover": {
+            "no_groups_info": "Set up access for groups included in the accreditation committee",
+            "no_groups_close": "Cancel"
+          },
+          "activate": "Activate",
+          "edit_groups": "Configure access"
+        },
+        "scoring": {
+          "title": "Scoring company assessment",
+          "subtitle": "Calculate the scoring score of the company's application based on the results of the survey.",
+          "category": "Category",
+          "scoring": "Scoring",
+          "customize_categories": "Customize categories",
+          "customize_scoring": "Customize scoring"
+        },
+        "formula": {
+          "title": "Scoring formula",
+          "empty": "Formula is not configured"
+        },
+        "dialogs": {
+          "add_block": {
+            "title": "Add block",
+            "title_edit": "Edit block name",
+            "name": "Name",
+            "submit": "Add",
+            "submit_edit": "Save",
+            "cancel": "Cancel",
+            "new": "New block"
+          },
+          "delete_block": {
+            "title": "Delete block",
+            "info": "It will be impossible to restore the block.\nCheck the correctness of the calculation of the scoring score after deleting the block.",
+            "cancel": "Cancel",
+            "delete": "Delete"
+          },
+          "delete_item": {
+            "group": {
+              "title": "Delete group",
+              "text": "The group and the questions it contains will be deleted. Move the questions to another group to save them.",
+              "cancel": "Cancel",
+              "submit": "Delete"
+            },
+            "object": {
+              "title": "Delete question",
+              "text": "Confirm the deletion of the question.",
+              "cancel": "Cancel",
+              "submit": "Delete"
+            }
+          },
+          "scoring": {
+            "title": "Categories",
+            "scoring_range": "Scoring range:",
+            "from": "from",
+            "to": "to",
+            "range_title": "Scoring, from and above",
+            "cancel": "Cancel",
+            "submit": "Save",
+            "add_category": "Add categories",
+            "validation": {
+              "scoring_rank": "Enter the correct scoring range",
+              "category_name": "Specify the names of the categories",
+              "category_scoring_range": "Fill in the scoring scale, the numbers follow in descending order."
+            },
+            "default_category_name": "New category"
+          },
+          "formula": {
+            "title": "Scoring calculation",
+            "cancel": "Cancel",
+            "save": "Save",
+            "error": {
+              "cant_parse": "Formula error",
+              "not_found": "Invalid operand: {{value}}",
+              "wrong_format": "Wrong format",
+              "parentheses_not_matched": "Wrong order of parentheses",
+              "square_brackets_not_matched": "Wrong order of square brackets",
+              "double_quotes_not_matched": "Wrong order of double quotes",
+              "single_quotes_not_matched": "Wrong order of single quotes",
+              "divided_by_zero": "Division by zero"
+            },
+            "validation_success": "The formula is correct"
+          }
+        }
+      },
+      "questionnaire_block": {
+        "empty_title": "Registry questionnaire block",
+        "empty_info": "Create the first section of the questionnaire block",
+        "create_button": "Create section",
+        "rank_operator": "Block points total",
+        "exchange": {
+          "title": "Import / Export",
+          "import": "Import questionnaire",
+          "export": "Export questionnaire"
+        }
+      },
+      "dialogs": {
+        "publish": {
+          "header": "Registry publication",
+          "publication": {
+            "text": "Registry publication..."
+          },
+          "validation": {
+            "text": "Validation before publishing..."
+          },
+          "default": {
+            "notice": "Registry will be available to receive applications for accreditation.",
+            "success": "Registry has been published",
+            "actions": {
+              "cancel": "Cancel",
+              "confirm": "Publish"
+            }
+          },
+          "messages": {
+            "Registry.ApprovalType": {
+              "title": "Method of inclusion in the registry"
+            },
+            "ByRequest": {
+              "Questionnaire.Deferred.NotExists": {
+                "title": "Questionnaire",
+                "text": "The register questionnaire has not been put into force. Рекомендуем ввести анкету в действие to obtain detailed information about the applicant company."
+              },
+              "Questionnaire.Active.NotExists": {
+                "title": "Questionnaire",
+                "text": "The registry doesn't contain a questionnaire. We recommend using the questionnaire to obtain detailed information about the applicant company."
+              }
+            },
+            "ByScore": {
+              "Questionnaire.Active.NoScoring": {
+                "title": "Questionnaire",
+                "text": "The questionnaire does not contain a scoring formula. Set up the scoring formula."
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "title": "Questionnaire",
+                "text": "The questionnaire that comes into force does not contain a scoring formula. Set up the scoring formula."
+              }
+            },
+            "ByAccreditation": {
+              "Commission.NotExists": {
+                "title": "Accreditation Commission",
+                "text": "The accreditation commission has not been set up to consider applications for inclusion in the registry.  Set up an accreditation commission or change method of inclusion in the registry."
+              },
+              "Questionnaire.Active.NotExists": {
+                "title": "Questionnaire",
+                "text": "The registry doesn't contain a questionnaire. The accreditation commission examines the applicant's questionnaire when making a decision on accreditation."
+              },
+              "Questionnaire.Active.NoScoring": {
+                "title": "Questionnaire",
+                "text": "The questionnaire does not contain a scoring formula. Set up the scoring formula."
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "title": "Questionnaire",
+                "text": "The questionnaire that comes into force does not contain a scoring formula. Set up the scoring formula."
+              }
+            }
+          }
+        },
+        "activate": {
+          "title": "Launch questionnaire",
+          "immediately": "Immediately",
+          "from_date": "From the specified date",
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "timezone": "MSK 00:01",
+          "immediately_snack": "The questionnaire has been launched",
+          "from_date_snack": "The questionnaire will come into force on the specified date",
+          "errors": {
+            "is_not_draft": "Questionnaire status has been changed",
+            "common_error": "The questionnaire block \"{{value}}\" contains configuration errors.",
+            "formula_variable_not_found": "The variable \"{{value}}\" was not found to calculate the scoring. Update the scoring formula.",
+            "empty": "The registry questionnaire is not configured. Set up a questionnaire to receive advanced information about the applicant company.",
+            "blocks_empty": "The register questionnaire block \"{{value}}\" does not contain any questions. Customize the profile or delete the block.",
+            "no_scoring": "The questionnaire does not contain a scoring formula. Set up the scoring formula and put the questionnaire into action."
+          },
+          "error_title": "The questionnaire contains an error",
+          "fix_error": "Correct any errors and retry the action.",
+          "close": "Close",
+          "check_loader": "Checking the questionnaire..."
+        },
+        "delete_draft": {
+          "title": "Delete draft",
+          "text": "It will be impossible to restore the draft of the questionnaire.",
+          "yes": "Delete",
+          "no": "Cancel"
+        },
+        "cancel_deferred": {
+          "title": "Cancel activation",
+          "text": "The questionnaire will be transferred to the “Draft” status.",
+          "yes": "Cancel activation",
+          "no": "Cancel",
+          "success_snack": "Application commissioning cancelled"
+        },
+        "import_questionnaire": {
+          "title": "Upload questionnaire from file",
+          "text": "Previously created sections and questions will be deleted.",
+          "cancel": "Cancel",
+          "choose": "Choose file",
+          "success": "The questionnaire from the file is loaded",
+          "errors": {
+            "version": "File \"{{ file }}\" contains an obsolete format. Use a new format. To do this, export the Questionnaire again and re-upload.",
+            "format": "File \"{{ file }}\" does not contain a Questionnaire. Choose another file or export the Questionnaire again and re-upload.",
+            "parsing": "File \"{{ file }}\" is damaged. Export the Questionnaire again and re-upload.",
+            "default": "An error has occurred. Please try again or try again later. If the problem persists, contact technical support."
+          }
+        }
+      }
+    }
+  }
+}

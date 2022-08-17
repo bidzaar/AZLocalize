@@ -1,0 +1,36 @@
+{
+  "req.inv": {
+    "companies": {
+      "success": "Dəvətlər göndərildi"
+    },
+    "similar": {
+      "header": {
+        "done": "Dəvət et",
+        "title": "İştirakçıları dəvət edin",
+        "invite": "[AT] Dəvət"
+      },
+      "list": {
+        "card": {
+          "invite": "Dəvət et",
+          "link": "Sorğunu aç",
+          "participants": "Təkliflər təqdim edən iştirakçılar"
+        },
+        "empty": {
+          "text": "Uyğun sorğuları axtarmaq üçün açar sözlər daxil edin. Axtarış sorğunun adı, təsviri və teqlər ilə aparılır"
+        },
+        "filters": {
+          "address": {
+            "title": "Çatdırılma ünvanı"
+          }
+        },
+        "header": {
+          "search": "Axtarış sorğunun adı, təsviri və teqləri ilə aparılır",
+          "title": "Sorğular"
+        },
+        "sorting": {
+          "participants": "İştirakçılar"
+        }
+      }
+    }
+  }
+}

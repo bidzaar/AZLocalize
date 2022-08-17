@@ -1,0 +1,26 @@
+{
+  "bdz.loc.components": {
+    "dialog": {
+      "cancel": "Ləğv et",
+      "header": "Yeri seçin",
+      "submit": "Yadda saxla"
+    },
+    "fields": {
+      "address": "Küçə, ev, ofis",
+      "country": "Ölkə",
+      "locality": "Şəhər / Ərazi",
+      "region": "Ölkə, bölgə və ya ərazi",
+      "state": "Region / Ərazi / Respublika"
+    },
+    "validation": {
+      "changed_location": {
+        "text": "Axtarış zamanı təklif olunan variantlardan birini seçin. Ünvan xanasında redaktə edilmiş mənada xəta baş verir",
+        "title": "Ünvan yadda saxlanılmayıb"
+      },
+      "invalid_location": "Yanlış ünvan",
+      "max_length": "Maksimal uzunluq {{value}}",
+      "not_empty": "Bu xananın doldurulması məcburidir",
+      "required_location": "Bu xananın doldurulması məcburidir"
+    }
+  }
+}

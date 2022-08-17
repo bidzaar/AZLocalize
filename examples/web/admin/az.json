@@ -1,0 +1,137 @@
+{
+  "common": {
+    "rights": {
+      "1": "Sifarişçi",
+      "2": "Təchizatçı",
+      "4": "Akkreditasiyalar",
+      "8": "Qrupların idrarə edilməsi",
+      "256": "Qrupların idarə olunması",
+      "512": "Reyestrlar",
+      "2048": "[AT] Hovuz akkreditasiya"
+    }
+  },
+  "controls": {
+    "list": {
+      "total": "Qeydlər: {{value}}"
+    }
+  },
+  "core": {
+    "marketplace": {
+      "name": "ProcureSaaS"
+    },
+    "navigation": {
+      "all_companies": "Bütün şirkətlər",
+      "buyers": "Sifarişçilər",
+      "merge_tags": "Teq konsolidasiyası",
+      "ratings": "Reytinq",
+      "requests": "Sorğular",
+      "stop_list": "Teqlərin stop-siyahısı",
+      "team": "Komanda",
+      "tariffs": "[AT] Tarif paketləri"
+    },
+    "user_toolbar": {
+      "login": "Daxil ol",
+      "logout": "Çıxış et",
+      "register": "Qeydiyyat"
+    }
+  },
+  "dashboard": {
+    "guest": {
+      "request_access": {
+        "action": "Mən ProcureSaaS komandasına qoşulmaq istəyirəm",
+        "text": "İdarəetmə panelinə giriş izni almaq üçün siz, ProcureSaaS komandasının üzvü olmalısınız",
+        "title": "Salam"
+      },
+      "wait_for_approval": {
+        "text": "sizin administrator statusunuzun təstiqini gözləyin",
+        "title": "müraciət təqdim olunub"
+      }
+    }
+  },
+  "errors": {
+    "common": {
+      "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın"
+    },
+    "http": {
+      "status": {
+        "400": "Səhv sorğu",
+        "401": "Sessiyanızın vaxtı bitdi. Səhifəni yenidən yükləyin və ya yenidən daxil olun",
+        "403": "Giriş qadağandır",
+        "404": "Resurs tapılmadı",
+        "405": "Üsula icazə verilmir",
+        "408": "Tələbin vaxt aşımı",
+        "409": "Etibarsız məlumatlar",
+        "413": "Fayl çox böyükdür",
+        "500": "Daxili server xətası",
+        "501": "Tətbiq olunmayıb",
+        "502": "Server xətası",
+        "503": "Xidmət mövcud deyil",
+        "504": "Gateway vaxt aşımı"
+      }
+    },
+    "logic": {
+      "UserManagement": {
+        "Admin": {
+          "BlockYourself": "Özünüzü bloklaya bilməzsiniz.",
+          "LastAdmin": "Siz - \"ProcureSaaS komandasının idarəedilməsi\" səlayihəti olan yeganə əməkdaşsınız. Səlayihəti başqa əməkdaşa ötürün və əməliyyatı təkrarlayın. "
+        }
+      },
+      "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın"
+    }
+  },
+  "filters": {
+    "clear": "təmizlə",
+    "clear_all": "təmizlə",
+    "filter": "filtrlə",
+    "hide": "filtrləri gizlət",
+    "more_filters": "daha çox filtrlər",
+    "operators": {
+      "date_after": "sonrakı tarix",
+      "date_before": "əvvəlki tarixi",
+      "equal": "bərabərdir",
+      "exact_date": "dəqiq tarix",
+      "greater_than": "böyük",
+      "greater_than_or_equal": "böyük və bərabər",
+      "less_than": "kiçik",
+      "less_than_or_equal": "kiçik və bərabər",
+      "not_equal": "bərabər deyil",
+      "period": "dövr",
+      "range": "diapazonda"
+    },
+    "placeholders": {
+      "end": "son",
+      "enter_number": "rəqəm daxil edin",
+      "enter_text_value": "mətn əlavə edin",
+      "from": ".",
+      "to": "."
+    },
+    "search": "axtar...",
+    "show": "filtrləri göstər",
+    "sorting": "çeşidlə",
+    "tooltip": "Axtarış aşağıdakı xanalarda aparılır: {{value}}"
+  },
+  "user_management": {
+    "badges": {
+      "filter": {
+        "empty": "Nişanlar tapılmadı",
+        "search": "Axtarış...",
+        "show": "Nişanları göstərin"
+      }
+    }
+  },
+  "validation": {
+    "file_too_large": "Fayl böyükdür",
+    "greater_than": "Dəyər {{value}} -dən böyük olmalıdır",
+    "invalid_date_format": "Yanlış tarix formatı",
+    "less_than": "Dəyər {{value}} -dən az olmalıdır",
+    "max": "Maksimum dəyər {{value}}",
+    "max_length": "Maksimum uzunluq {{value}}",
+    "min": "Minimum dəyər: {{value}}",
+    "min_length": "Minimal uzunluq {{value}}",
+    "notEmpty": "Sahə boş olmamalıdır",
+    "required": "Tələb edilən sahə",
+    "unsupported_file_format": "Dəstəklənməyən fayl formatı",
+    "wrong_code": "Səhv kod",
+    "wrong_format": "Səhv format"
+  }
+}

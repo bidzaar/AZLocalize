@@ -1,0 +1,49 @@
+{
+  "bdz.rqs": {
+    "status": {
+      "false": "not verified",
+      "true": "verified"
+    },
+    "viewer": {
+      "fields": {
+        "tin": "TIN: {{ tin }}"
+      },
+      "empty": {
+        "tin": "TIN is not specified",
+        "name": "Legal name is not specified"
+      }
+    },
+    "editor": {
+      "form": {
+        "name": {
+          "title": "Legal name of the company",
+          "notice": "As in the founding documents",
+          "label": "Company name"
+        },
+        "tin": {
+          "title": "TIN (tax identification number)",
+          "notice": "Your company's tax number in the country of registration",
+          "label": "Tax identification number",
+          "wrong_format": "Wrong format"
+        }
+      },
+      "dialog": {
+        "confirmation": {
+          "header": "Company requisites",
+          "warning": "Changing the requisites will require a re-verification of the company. The status <b>\"Verified\"</b> will be removed for the time of verification.",
+          "cancel": "Cancel",
+          "submit": "Save"
+        },
+        "loading": {
+          "header": "Company requisites"
+        },
+        "duplicate": {
+          "header": "It is not possible to change the requisites",
+          "admin": "The company with the specified requisites is already registered and verified on the site.",
+          "user": "The company with the specified requisites is already registered on the site.\nIf this is your company - contact the Bidzaar support team.",
+          "close": "Close"
+        }
+      }
+    }
+  }
+}

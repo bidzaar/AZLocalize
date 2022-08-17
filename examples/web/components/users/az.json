@@ -1,0 +1,15 @@
+{
+  "bdz.usr": {
+    "enums": {
+      "status": {
+        "0": "Təsdiq gözləyir",
+        "1": "Dəvət olunub",
+        "2": "Aktiv",
+        "3": "Blok edilib"
+      }
+    },
+    "roster": {
+      "empty": "Tələb olunan hüquqlara malik işçilər yoxdur. İşçilərə hüquqlar təyin etmək üçün şirkət meneceri ilə əlaqə saxlayın."
+    }
+  }
+}

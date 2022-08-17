@@ -1,0 +1,29 @@
+{
+  "merge": {
+    "actions": {
+      "clear": "Siyahını təmizləmək",
+      "merge": "Birləşdirmək"
+    },
+    "add_tags_actions": {
+      "input_cloud": "Buluddan seçmək",
+      "manual_input": "Əllə daxiletmə"
+    },
+    "confirmation_dialog": {
+      "cancel": "Ləğv et",
+      "merge": "Birləşdirmək",
+      "text": "Qrupdakı teqlər sorğularda və şirkət profillərində yaranan teqlərlə əvəz olunacaq",
+      "title": "Teqlərin birləşdirilməsi"
+    },
+    "description": "Teqləri daxil edin və ya birləşdirmək üçün buluddan seçin",
+    "empty": "Teqlər əlavə edilməyib...",
+    "manual_tags_dialog": {
+      "cancel": "Ləğv et",
+      "send": "Teqlərin axtarışı",
+      "text": "Teqlər vergül və ya sətir sonu ilə ayrılır. # simvolu nəzərə alınmır",
+      "title": "Teqləri daxil edin"
+    },
+    "success": "Teqlər birləşdirildi",
+    "tag_not_found": "Teq tapılmadı",
+    "title": "Teqlərin birləşdirilməsi"
+  }
+}

@@ -1,0 +1,63 @@
+{
+  "uns": {
+    "subscriptions": {
+      "content": {
+        "events": {
+          "ChatMessageRequiresNotificationEvent": "Новое сообщение в чате",
+          "FinishRoundProcedureEvent": "Досрочное завершение приёма предложений заказчиком",
+          "FinishRoundProcedureOrgEvent": "Досрочное завершение приёма предложений заказчиком",
+          "NoProposal24Event": "В закупку не подано предложений за 24 часа до завершения приёма предложений",
+          "NotifyCompaniesByProcedureTags": "Опубликован запрос с тегами, совпадающими с тегами профиля моей компании",
+          "NotifyProcedureFinishedWithOrderOrg": "Организатор завершил закупку c определением победителей",
+          "NotifyProcedureFinishedWithoutOrderOrg": "Организатор завершил закупку без определения победителей",
+          "ParticipantsLeaveProcedure": "Поставщик отказался от участия в закупке",
+          "ProcedureCanceledOrg": "Отмена проведения закупки",
+          "ProcedureChanged": "В закупку внесены изменения",
+          "ProcedureChangedOrg": "В закупку внесены изменения",
+          "ProcedureDigestReadyEvent": "Новые запросы по профилю моей компании (дайджест за сутки)",
+          "ProposalAddedEvent": "Поставщик подал предложение",
+          "ProposalChangedEvent": "Поставщик обновил ранее поданное предложение",
+          "PublishProcedureEventOrg": "Публикация закупки",
+          "RemindCompleteProfileNotification": "Уведомлять о том, что профиль компании заполнен не полностью",
+          "SummingUpProcedureReminderEvent": "48 часов до завершения приёма предложений",
+          "SummingUpProcedureOrgEvent": "Приём предложений завершён, запрос перешел на этап подведения итогов",
+          "SummingUpProcedureEvent": "Приём предложений завершён, запрос перешел на этап подведения итогов"
+        },
+        "groups": {
+          "BuyerActions": "Действия членов команды, изменение статуса закупки",
+          "Chats": "Сообщения в чатах",
+          "CompanyManagement": "Управление компанией",
+          "ParticipantNotifications": "Уведомления по запросам, в которых участвует моя компания",
+          "ProcedureNotifications": "Уведомления о новых запросах",
+          "SellerActions": "Действия поставщика"
+        },
+        "notice": "Получайте уведомления о важных событиях на почту:",
+        "language": "Язык уведомлений",
+        "rights": {
+          "Chats": {
+            "name": "Чаты",
+            "notice": "Уведомления о сообщениях в чатах запросов и аккредитаций"
+          },
+          "CompanyManagement": {
+            "name": "Управление компанией",
+            "notice": ""
+          },
+          "Purchases": {
+            "name": "Закупки",
+            "notice": "Уведомления для закупок, в которых вы являетесь членом команды."
+          },
+          "Sales": {
+            "name": "Продажи",
+            "notice": "Уведомления для закупок, в которых участвует ваша компания."
+          }
+        },
+        "title": "Настройка уведомлений",
+        "unsub": "Отключить все"
+      },
+      "header": {
+        "done": "Готово",
+        "title": "Уведомления"
+      }
+    }
+  }
+}

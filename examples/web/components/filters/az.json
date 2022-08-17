@@ -1,0 +1,67 @@
+{
+  "filters": {
+    "any": "İstənilən",
+    "clear": "Sil",
+    "clear_all": "Sil",
+    "collapse": "Gizlət",
+    "datasource": {
+      "collapse": "Gizlət",
+      "empty": "Sorğunuz üçün heç bir nəticə yoxdur",
+      "expand": "Hamısını göstər ({{value}})",
+      "search": "Axtar…"
+    },
+    "filter": "Filtr",
+    "hide": "Filtrləri gizlətmək",
+    "more": "Daha çox",
+    "more_filters": "Daha çox filtr",
+    "operators": {
+      "date_after": "Sonrakı tarix",
+      "date_before": "Əvvəlki tarix",
+      "equal": "Bərabərdir",
+      "exact_date": "Dəqiq tarix",
+      "greater_than": "Daha böyükdür",
+      "greater_than_or_equal": "Daha böyükdür və ya bərabərdir",
+      "less_than": "Daha az",
+      "less_than_or_equal": "Daha az və ya bərabərdir",
+      "not_equal": "Bərabər deyil",
+      "period": "Dövr",
+      "range": "Aralığı"
+    },
+    "panel": {
+      "apply_filters": "Tətbiq etmək",
+      "clear_all": "Hamısını sil",
+      "save": "Yadda saxla",
+      "title": "Filtrlər"
+    },
+    "placeholders": {
+      "date": "Tarix",
+      "end": "Son",
+      "enter_number": "Rəqəmi daxil edin",
+      "enter_text_value": "Mətn daxil edin",
+      "from": "From",
+      "start": "Başlama vaxtı",
+      "to": "to"
+    },
+    "queries": {
+      "delete_dialog": {
+        "cancel": "Ləğv et",
+        "delete": "Sil",
+        "title": "Filtri silmək"
+      },
+      "delete_snack": "Filtr silindi",
+      "save_dialog": {
+        "cancel": "Ləğv et",
+        "default_name": "Yeni filtr",
+        "name": "Filtr adı",
+        "save": "Yadda saxla",
+        "save_success": "Filtr yadda saxlanılır",
+        "title": "Filtri yadda saxlamaq"
+      },
+      "title": "Saxlanmış filtrlər: {{value}}"
+    },
+    "search": "Axtar…",
+    "show": "Filtrləri göstərmək",
+    "sorting": "Çeşidləmə",
+    "tooltip": "Aşağıdakı xanalar üzrə axtarış: {{value}}"
+  }
+}

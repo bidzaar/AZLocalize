@@ -1,0 +1,61 @@
+{
+  "bdz.cmp": {
+    "activity": {
+      "text": "Fəaliyyət göstəricisi. Yaşıl fəaliyyəti olan şirkətlər sorğulara daha tez-tez cavab verir və etibarlı təchizatçılardır"
+    },
+    "contact": {
+      "empty": "Əlaqə məlumatları yoxdur"
+    },
+    "enums": {
+      "employees": {
+        "0": "1—10",
+        "1": "11—50",
+        "2": "51—100",
+        "3": "101—250",
+        "4": "251—500",
+        "5": "500-dən çox"
+      },
+      "payment": {
+        "0": "İştirak pulsuzdur",
+        "1": "Yalnız təchizatçı",
+        "2": "Yalnız sifarişçi",
+        "3": "Əsasən təchizatçı",
+        "4": "Əsasən sifarişçi"
+      }
+    },
+    "marker_deleted": {
+      "text": "Silindi"
+    },
+    "marker_esg": {
+      "text": "Şirkət ESG sertifikatı almışdır",
+      "title": "ESG"
+    },
+    "marker_hidden": {
+      "text": "Siyahılarda görünmür"
+    },
+    "marker_phantom": {
+      "text": "fantom"
+    },
+    "marker_verify": {
+      "false": {
+        "more": "Ətraflı məlumat",
+        "text": "Bu şirkət keyfiyyətə nəzarət xidməti tərəfindən yoxlanılmayıb.",
+        "title": "Məlumat yoxlanılmayıb"
+      },
+      "true": {
+        "more": "Ətraflı məlumat",
+        "notice": "Bu şirkət keyfiyyətə nəzarət xidməti tərəfindən yoxlanılıb",
+        "text": "Yoxlanılmış təchizatçılar daha etibarlıdırlar və daha tez-tez sifarişlər alırlar",
+        "title": "ProcureSaaS tərəfindən təsdiqlənmişdir"
+      }
+    },
+    "number": {
+      "long": "Şirkət ID {{value}}",
+      "short": "ID {{value}}"
+    },
+    "stars": {
+      "more": "Ətraflı məlumat",
+      "text": "Şirkətin fəaliyyətinin və etibarlılığının qiymətləndirilməsi. Satınalma mütəxəssizləri təchizatçıları seçərkən reytinqi nəzərə alırlar"
+    }
+  }
+}

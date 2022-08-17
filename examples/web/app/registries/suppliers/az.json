@@ -1,0 +1,52 @@
+{
+  "rgs": {
+    "sup": {
+      "list": {
+        "actions": {
+          "invite": "Şirkətləri əlavə edin",
+          "report": "Şirkətlər siyahısını yükləyin"
+        },
+        "empty": {
+          "text": "Şirkətləri qeydiyyata dəvət edin",
+          "title": "Reyestr boşdur"
+        },
+        "filters": {
+          "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+          "expired_date": {
+            "options": {
+              "true": "Yalnız müddəti bitən"
+            },
+            "title": "Akkreditasiya müddəti bitmə tarixi"
+          },
+          "participant_status": {
+            "title": "Status"
+          },
+          "scoring": {
+            "title": "Hesablanma"
+          }
+        },
+        "header": {
+          "selected": "Seçilib",
+          "title": "Reyestrdə olan şirkətlər"
+        },
+        "row": {
+          "contact_placeholder": "Əlaqə məlumatı təqdim edilməyib"
+        },
+        "search": {
+          "tooltip": "Axtarış aşağıdakı sahələr üzrə aparılır: • Şirkətin adı"
+        },
+        "sorting": {
+          "company_name": {
+            "title": "Şirkətin adı"
+          },
+          "last_changes": {
+            "title": "Son dəyişikliklər"
+          },
+          "score": {
+            "title": "Hesablanma"
+          }
+        }
+      }
+    }
+  }
+}

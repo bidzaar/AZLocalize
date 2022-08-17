@@ -1,0 +1,40 @@
+{
+  "pl": {
+    "qst": {
+      "templates": {
+        "buttons": {
+          "save": "Save templates",
+          "list": "Template list"
+        },
+        "list": {
+          "empty": "Templates not saved"
+        },
+        "dialogs": {
+          "apply": {
+            "title": "Apply template",
+            "text": "The current non-price criteria will be replaced",
+            "cancel": "Cancel",
+            "submit": "Apply",
+            "success": "The template has been applied"
+          },
+          "remove": {
+            "title": "Remove template?",
+            "text": "The template will be irrevocably removed",
+            "cancel": "Cancel",
+            "submit": "Remove",
+            "success": "The template has been removed"
+          },
+          "create": {
+            "title": "Save template",
+            "text": "Save the current non-price criteria as a template for future use. The template will be available to all employees in your company",
+            "label": "Template's name",
+            "cancel": "Cancel",
+            "submit": "Save",
+            "success": "The template has been saved",
+            "default_value": "New template"
+          }
+        }
+      }
+    }
+  }
+}

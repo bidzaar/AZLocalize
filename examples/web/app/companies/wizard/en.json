@@ -1,0 +1,152 @@
+{
+  "cmp": {
+    "wizard": {
+      "register": {
+        "header": "Business information",
+        "steps": {
+          "create": {
+            "country": {
+              "header": "Country of company incorporation"
+            },
+            "manual": {
+              "header": "Your company details"
+            },
+            "dadata": {
+              "search": {
+                "header": "Search for company",
+                "title": "Company name or INN",
+                "notice": "Or full name for an IE",
+                "placeholder": "Company name or INN",
+                "requisites": "INN: {{ inn }}, KPP: {{ kpp }}",
+                "empty": {
+                  "title": "Company hasn't been found",
+                  "text": "Change the search query\nor",
+                  "switch": "provide company details yourself"
+                }
+              },
+              "approve": {
+                "inn": "INN",
+                "kpp": "KPP",
+                "address": "Legal address",
+                "cancel": "Other company",
+                "submit": "It is my company"
+              }
+            },
+            "search": {
+              "similar": {
+                "header": "Similar companies on the site",
+                "notice": "Join your company to work on its behalf or register a new company",
+                "tin": "TIN: {{ value }}",
+                "register": {
+                  "title": "Can't find your company?",
+                  "notice": "Register the company"
+                },
+                "actions": {
+                  "cancel": "Back",
+                  "join": "Join company",
+                  "register": "Register the company"
+                }
+              },
+              "identical": {
+                "header": "Your company has been already registered",
+                "notice": "A company with these details is already registered on the platform. Join your company to work on its behalf.",
+                "actions": {
+                  "join": "Join the company",
+                  "cancel": "It's not my company"
+                }
+              },
+              "join": {
+                "title": "Application has been sent",
+                "text": "You will be able to work on behalf of your company once your company administrator has confirmed the application.",
+                "submit": "Close",
+                "success": "Application has been sent"
+              }
+            },
+            "brand": {
+              "header": "Highlight your brand on the site",
+              "title": "Brand",
+              "notice": "Company name on the site to be recognised by counterparties",
+              "label": "Brand"
+            },
+            "contacts": {
+              "header": "How can counterparties find you?",
+              "email": {
+                "title": "Sales / Purchasing Email",
+                "label": "Sales / Purchasing Email"
+              },
+              "phone": {
+                "title": "Contact phone number",
+                "label": "Phone number"
+              },
+              "location": {
+                "title": "Legal address",
+                "label": "Specify address",
+                "tooltip": "Change address"
+              },
+              "site": {
+                "title": "Company website",
+                "label": "Official company website"
+              }
+            }
+          },
+          "editor": {
+            "areas": {
+              "header": "Specify the regions where you do business",
+              "notice": "Specify the countries, regions and cities where your company operates",
+              "append": "Add country, region or city"
+            },
+            "roles": {
+              "header": "What will you do at Bidzaar?",
+              "seller": {
+                "title": "I'm a vendor",
+                "notice": "I will supply goods or services"
+              },
+              "purchaser": {
+                "title": "I'm a purchaser",
+                "notice": "I will purchase goods or services"
+              }
+            },
+            "tags": {
+              "header": "What will you supply?",
+              "title": "Customers will find you by tags",
+              "notice": "Enter at least three tags, e.g:\nOffice furniture, Stationery, Office paper",
+              "append": "Add tags"
+            },
+            "finish": {
+              "header": "Your company is registered",
+              "seller": {
+                "title": "You can now sell goods and services",
+                "text": "• Participation is free of charge\n• No deposit is required for the application\n• Accreditation and EDS are not required"
+              },
+              "purchaser": {
+                "title": "Contact your personal manager\nto be authorized to place your requests"
+              }
+            }
+          },
+          "actions": {
+            "back": "Back",
+            "next": "Next",
+            "done": "Done"
+          }
+        }
+      },
+      "joining": {
+        "confirmation": {
+          "title": "Join to your company",
+          "text": "You will be able to work on behalf of your company once your company administrator has confirmed the application.",
+          "cancel": "Cancel",
+          "submit": "Join",
+          "success": "Application has been sent"
+        },
+        "unauthorized": {
+          "text": "Log in or register to perform an action.",
+          "cancel": "Cancel",
+          "submit": "Login / Register"
+        },
+        "loading": {
+          "title": "Join to your company"
+        }
+      }
+    }
+  }
+}

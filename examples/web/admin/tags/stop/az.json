@@ -1,0 +1,20 @@
+{
+  "stop": {
+    "confirmation_dialog": {
+      "add": "Əlavə et\n",
+      "cancel": "Ləğv et",
+      "text": "• Artıq dayanma teqlərində mövcud olan teqlər nəzərə alınmayacaq\n• Dayanma teqlərinə əlavə edilmiş teqlər buluddan, sorğulardan, reyestrlərdən, şirkət profillərindən silinəcək",
+      "title": "Teqləri dayanma teqlərinə əlavə edin"
+    },
+    "empty_list": "Teqlər əlavə edilməyib",
+    "header": {
+      "title": "Dayanma teqlərin siyahısı"
+    },
+    "manual_tags_dialog": {
+      "cancel": "Ləğv et",
+      "send": "Əlavə etmək\n",
+      "text": "Teqlər vergül və ya sətir sonu ilə ayrılır.",
+      "title": "Teqləri daxil edin"
+    }
+  }
+}

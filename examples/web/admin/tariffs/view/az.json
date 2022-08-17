@@ -1,0 +1,82 @@
+{
+  "trf.view": {
+    "details": {
+      "actions": {
+        "activate": "[AT] Hərəkətə daxil olun",
+        "deactivate": "[AT] Hərəkəti dayandırın",
+        "default": "[AT] Default tarif kimi qurmaq",
+        "delete": "[AT] Sil"
+      },
+      "default": {
+        "title": "[AT] Default tender növü",
+        "text": "[AT] Default tender növü Yeni sorğu təyin olunacaq"
+      },
+      "comment": {}
+    },
+    "tariff": {
+      "name": {
+        "placeholder": "[AT] Tarifin adı"
+      },
+      "code": {
+        "placeholder": "[AT] Kod (ID)"
+      },
+      "descr": {
+        "label": "[AT] Sifarişçi üçün təsvir",
+        "placeholder": "[AT] Sifarişçiyə bu tipin hansı şərtlərlə istifadə edildiyini anlamağa imkan verən tarifin qısa təsvirini verin..."
+      }
+    },
+    "conditions": {
+      "title": "[AT] Tarif şəbəkəsi",
+      "create": "[AT] Tarif gridini əlavə edin",
+      "empty": "[AT] Tarif grid əlavə deyil",
+      "card": {
+        "version": "[AT] Cari versiyası",
+        "to": "[AT] qədər"
+      },
+      "editor": {
+        "header": "[AT] Tarif şəbəkəsi",
+        "cancel": "[AT] Ləğv et",
+        "submit": "[AT] Əlavə et",
+        "append": "[AT] Tarifi özelleştirin",
+        "to": "[AT] Qədər",
+        "sum": "[AT] Məbləğ"
+      }
+    },
+    "dialogs": {
+      "deactivate": {
+        "header": "[AT] Tarifə son qoyulsun",
+        "text": "[AT] Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
+        "cancel": "[AT] Ləğv et",
+        "submit": "[AT] Hərəkəti dayandırın"
+      },
+      "delete": {
+        "header": "[AT] Qaralama sil",
+        "cancel": "[AT] Ləğv et",
+        "submit": "[AT] Sil"
+      },
+      "default": {
+        "header": "[AT] Diqqət!",
+        "text": "[AT] Tarif yeni sorğulara default olaraq tətbiq olunacaq.\nƏvvəlki default tarif tətbiq olunmayacaq",
+        "cancel": "[AT] Ləğv et",
+        "submit": "[AT] Default siçan seçin"
+      },
+      "activate": {
+        "header": "[AT] Hərəkətə daxil olun",
+        "text": "[AT] Tarif nəşr olunacaq və istifadəçilər sorğuların konfiqurasiyasında istifadə edə biləcəklər",
+        "cancel": "[AT] Ləğv et",
+        "submit": "[AT] Hərəkətə daxil olun",
+        "validation": {
+          "Tariff.Description.IsEmpty": "[AT] Təsvir göstərilməyib",
+          "Tariff.Name.IsEmpty": "[AT] Adı göstərilməyib",
+          "Tariff.Code.IsEmpty": "[AT] Kod göstərilməyib",
+          "Tariff.Conditions.HasNoActive": "[AT] Tarif grid xüsusi deyil"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "Tariffs.HasNoCorrectStatus": "[AT] Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin."
+    }
+  }
+}

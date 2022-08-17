@@ -1,0 +1,10 @@
+{
+  "tags": {
+    "shared": {
+      "actions": {
+        "manual_input": "Ручной ввод",
+        "from_cloud": "Выбрать из облака"
+      }
+    }
+  }
+}

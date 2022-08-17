@@ -1,0 +1,80 @@
+{
+  "cgr": {
+    "view": {
+      "header": {
+        "marks": {
+          "blocked": "Group deleted"
+        },
+        "actions": {
+          "block": "Delete group (reversible action)",
+          "unblock": "Restore group"
+        }
+      },
+      "general": {
+        "description": {
+          "label": "Group description",
+          "placeholder": "General group description..."
+        }
+      },
+      "users": {
+        "header": "Group members",
+        "empty": {
+          "title": "No employees added",
+          "text": "The list of group employees is not formed"
+        },
+        "item": {
+          "marks": {
+            "manager": "Group leader"
+          }
+        },
+        "actions": {
+          "append": "Add employee",
+          "remove": "Remove employee",
+          "appoint_manager": "Assign manager rights",
+          "remove_manager": "Remove manager rights"
+        }
+      },
+      "dialogs": {
+        "block": {
+          "title": "Delete group",
+          "text": "Action reversible",
+          "cancel": "Cancel",
+          "submit": "Delete",
+          "success": "Group has been deleted",
+          "error": "Failed to delete the group. Please try again or try again later. If the problem persists, contact technical support"
+        },
+        "unblock": {
+          "title": "Restore group",
+          "text": "",
+          "cancel": "Cancel",
+          "submit": "Restore",
+          "success": "Group has been restored",
+          "error": "Failed to restore the group. Please try again or try again later. If the problem persists, contact technical support"
+        },
+        "remove_user": {
+          "title": "Remove employee from group",
+          "text": "",
+          "cancel": "Cancel",
+          "submit": "Remove"
+        },
+        "demote_self": {
+          "title": "Attention!",
+          "text": "You are removing the group leader's right from you. To restore the rights contact a company employee with the \"Group Manager\" permission ",
+          "cancel": "Cancel",
+          "submit": "Continue"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "Group": {
+          "AlreadyExist": "A group with this name already exists"
+        }
+      }
+    }
+  }
+}
+
+

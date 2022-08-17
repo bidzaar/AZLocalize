@@ -1,0 +1,63 @@
+{
+  "uns": {
+    "subscriptions": {
+      "content": {
+        "events": {
+          "ChatMessageRequiresNotificationEvent": "New message in chat",
+          "FinishRoundProcedureEvent": "Early completion of the acceptance of bids by the customer",
+          "FinishRoundProcedureOrgEvent": "Early completion of the acceptance of bids by the customer",
+          "NoProposal24Event": "Bids were not submitted to the purchase 24 hours before the end of the bid acceptance",
+          "NotifyCompaniesByProcedureTags": "Published request with tags matching the tags of my company profile",
+          "NotifyProcedureFinishedWithOrderOrg": "The owner completed the purchase with selection of the winners",
+          "NotifyProcedureFinishedWithoutOrderOrg": "The owner completed the purchase without selection of the winners",
+          "ParticipantsLeaveProcedure": "The participant declined to submit a bid in the request",
+          "ProcedureCanceledOrg": "Cancellation of the purchase",
+          "ProcedureChanged": "Changes have been made to the purchase",
+          "ProcedureChangedOrg": "Changes have been made to the purchase",
+          "ProcedureDigestReadyEvent": "New requests corresponding to the profile of my company (digest per day)",
+          "ProposalAddedEvent": "The supplier has submitted bid",
+          "ProposalChangedEvent": "The supplier has updated the previously submitted bid",
+          "PublishProcedureEventOrg": "Publishing a purchase",
+          "RemindCompleteProfileNotification": "Receive notifications to completely fill the profile.",
+          "SummingUpProcedureReminderEvent": "48 hours before the end of accepting bids",
+          "SummingUpProcedureOrgEvent": "Acceptance of bids is completed, the request has moved to the stages of summing up",
+          "SummingUpProcedureEvent": "Acceptance of bids is completed, the request has moved to the stages of summing up"
+        },
+        "groups": {
+          "BuyerActions": "Actions of team members, changing the status of the purchase",
+          "Chats": "Messages in chats",
+          "CompanyManagement": "Company management",
+          "ParticipantNotifications": "Notifications for purchases in which my company is involved",
+          "ProcedureNotifications": "New request notifications",
+          "SellerActions": "Customer actions"
+        },
+        "notice": "Receive notifications of important events via mail:",
+        "language": "Notification language",
+        "rights": {
+          "Chats": {
+            "name": "Chats",
+            "notice": "Notifications of messages in chats of onboarding and requests."
+          },
+          "CompanyManagement": {
+            "name": "Company Management",
+            "notice": ""
+          },
+          "Purchases": {
+            "name": "Requests",
+            "notice": "Notifications for purchases in which you are a member of the team."
+          },
+          "Sales": {
+            "name": "Bids",
+            "notice": "Notifications for purchases in which your company participates."
+          }
+        },
+        "title": "Notification management",
+        "unsub": "Disable all"
+      },
+      "header": {
+        "done": "Done",
+        "title": "Notifications"
+      }
+    }
+  }
+}

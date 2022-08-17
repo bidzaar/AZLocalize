@@ -1,0 +1,29 @@
+{
+  "rgs": {
+    "gst": {
+      "botzaar": {
+        "auth": {
+          "title": "{{ value }} invites companies for cooperation.",
+          "text": "Login to Bidzaar to accept the invitation."
+        },
+        "company": {
+          "title": "{{ value }} invites companies for cooperation.",
+          "text": "Register a company to accept the invitation."
+        },
+        "join": {
+          "title": "{{ value }} invites companies for cooperation."
+        },
+        "actions": {
+          "auth": "Login to Bidzaar",
+          "company": "Register the company",
+          "join": "Accept invitation"
+        }
+      },
+      "application": {
+        "actions": {
+          "submit": "Submit application"
+        }
+      }
+    }
+  }
+}

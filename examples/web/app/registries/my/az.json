@@ -1,0 +1,45 @@
+{
+  "rgs": {
+    "my": {
+      "list": {
+        "empty": {
+          "text": "Reyestrlər sifarişçilər tərəfindən yaradılmış şirkətlərin siyahılarıdır. Sifarişçi profilində müvafiq reyestri tapın",
+          "title": "Şirkətiniz reyestrlərin üzvü deyil"
+        },
+        "filters": {
+          "company": {
+            "choose": "Sifarişçiləri seç",
+            "title": "Təşkilatçı"
+          },
+          "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+          "expired_date": {
+            "options": {
+              "true": "Yalnız vaxtı bitən"
+            },
+            "title": "Akkreditasiya müddəti"
+          },
+          "participant_status": {
+            "title": "Status"
+          },
+          "response_status": {
+            "title": "Müraciət"
+          }
+        },
+        "header": {
+          "title": "Mənim reyestrlərim"
+        },
+        "search": {
+          "tooltip": "Axtarış aşağıdakı xanalar üzrə aparılır: • Reyestr adı • Təşkilatçı"
+        },
+        "sorting": {
+          "last_changes": {
+            "title": "Son dəyişikliklər"
+          },
+          "name": {
+            "title": "Reyestr adı"
+          }
+        }
+      }
+    }
+  }
+}

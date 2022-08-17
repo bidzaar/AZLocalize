@@ -1,0 +1,79 @@
+{
+  "cmp": {
+    "smtp" : {
+      "header" : {
+        "title": "Sending invitation letters",
+        "btn": "To profile"
+      },
+      "content" : {
+        "title" : "Customize how invitations are sent to requests",
+        "setting": {
+          "default": {
+            "title": "Invite via Bidzaar",
+            "text": "Addressees receive invitations from Bidzaar (noreply@bidzaar.com in the Sender field)",
+            "btn": "Send test message",
+            "settings": "Server settings"
+          },
+          "custom": {
+            "title": "Invite via your mail server",
+            "text": "Addressees receive letters from your company (your company's mail in the Sender field).",
+            "sub_text": "In the event of a failure of your server, Bidzaar will notify you and send invitations to the addressees."
+          }
+        }
+      },
+      "dialog": {
+        "title": "Server settings",
+        "email": {
+          "label": "Email from which invitations will be sent",
+          "placeholder": "email@mail.com"
+        },
+        "name": {
+          "label": "Employee name or company department",
+          "placeholder": "John Smith"
+        },
+        "smtp": {
+          "label": "SMTP server of your company",
+          "placeholder": "smtp.mail.com"
+        },
+        "port": {
+          "label": "Port"
+        },
+        "username": {
+          "label": "Username for authorization on the SMTP server",
+          "placeholder": "Username"
+        },
+        "password": {
+          "label": "Password for authorization on the SMTP server",
+          "placeholder": "Password"
+        },
+        "ssl": {
+          "label": "Secure connection over SSL"
+        },
+        "error": "An error has occurred: {{error}}",
+        "actions": {
+          "cancel": "Cancel",
+          "save": "Save"
+        }
+      },
+      "test_message_dialog": {
+        "title": "Sending a test invitation",
+        "email": {
+          "label": "Recipient's email"
+        },
+        "success": {
+          "text": "Invite sent to {{value}}",
+          "info": "Didn't find an invitation? Check your Spam folder or check your inbox a little later."
+        },
+        "failure": {
+          "text": "Failed to send invitation to {{value}}",
+          "info": "Make sure that:\n1. Email of the recipient exists\n2. Server settings are correct"
+        },
+        "actions": {
+          "cancel": "Cancel",
+          "send": "Send",
+          "close": "Close"
+        }
+      }
+    }
+  }
+}

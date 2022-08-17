@@ -1,0 +1,26 @@
+{
+  "bdz.loc.components": {
+    "dialog": {
+      "header": "Select location",
+      "cancel": "Cancel",
+      "submit": "Submit"
+    },
+    "fields": {
+      "country": "Country",
+      "region": "Country, region or locality",
+      "state": "Region / Area / Republic",
+      "locality": "City / Locality",
+      "address": "Street, house, office"
+    },
+    "validation": {
+      "invalid_location": "Invalid address",
+      "required_location": "Required",
+      "not_empty": "Required",
+      "max_length": "Maximum length is {{ value }}",
+      "changed_location": {
+        "title": "Address is not saved",
+        "text": "Please select one of the suggested options when searching. Edited value in the address field causes an error"
+      }
+    }
+  }
+}

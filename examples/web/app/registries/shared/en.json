@@ -1,0 +1,226 @@
+{
+  "rgs": {
+    "shared": {
+      "header": {
+        "actions": {
+          "contact": "Contact person",
+          "profile": "Profile"
+        },
+        "dialog_contact": {
+          "title": "Contact person",
+          "button": "Company Profile"
+        }
+      },
+      "enum": {
+        "visibility": {
+          "0": "For all companies",
+          "1": "For invited companies only"
+        },
+        "approval": {
+          "1": "Upon submission of the application by the company",
+          "2": "Based on the result of the scoring assessment of the company application",
+          "3": "By the decision of the accreditation commission",
+          "4": "Without application"
+        },
+        "participant": {
+          "0": "Invited to registry",
+          "1": "Invitation viewed",
+          "2": "In the process of accreditation",
+          "3": "Accredited",
+          "4": "Accreditation suspended",
+          "5": "Accreditation expired",
+          "6": "Blocked",
+          "7": "Refused to be accredited"
+        },
+        "application": {
+          "1": "Preparation of the application",
+          "2": "Application pending",
+          "3": "Application rejected",
+          "4": "Application approved"
+        }
+      },
+      "filters": {
+        "registries": {
+          "title": "Registries",
+          "open": "Show all vendors",
+          "search": "Search...",
+          "expand": "Expand all ({{value}})",
+          "collapse": "Collapse",
+          "empty": {
+            "filter": "The search has not given any results",
+            "items": "Your company has not published any registries. You can create and publish a registry in the registry management section."
+          }
+        }
+      },
+      "forbidden": {
+        "default": {
+          "title": "You do not have access to this part of the registry.",
+          "text": "Contact your registry administrator to obtain rights in the registry.",
+          "link": "To the list of registries"
+        },
+        "rights": {
+          "title": "You do not have access to this part of the registry.",
+          "text": "Contact your registry administrator to obtain rights in the registry \"{{ value }}\".",
+          "link": "To the list of registries"
+        },
+        "archive": {
+          "title": "The work with the registry has been stopped.",
+          "text": "The registry \"{{ value }}\" is archived.\nHave questions? Contact your Registry Administrator.",
+          "link": "To the list of registries"
+        }
+      },
+      "application": {
+        "related": {
+          "title": "Before applying to the Vendor List, a vendor should be accredited in the related Vendors Lists:"
+        },
+        "blocks": {
+          "new": "Fill out the questionnaire",
+          "progress": "Complete the questionnaire",
+          "completed": "Questionnaire completed",
+          "open": "Open"
+        },
+        "process": {
+          "title": "Application for accreditation in the registry",
+          "empty": "You do not need to complete a vendor questionnaire to apply to this registry."
+        },
+        "declined": {
+          "title": "Application for accreditation rejected",
+          "reason": "Reason:"
+        },
+        "submitted": {
+          "title": "Application for accreditation submitted",
+          "text": "The registry owner is reviewing your application. We will let you know the result."
+        },
+        "obsolete": {
+          "title": "Application for accreditation in the registry",
+          "message": "The registry owner has changed the questionnaire. Prepare a new application.",
+          "notice": "Previously entered data is transferred to the new application. Check if they are correct."
+        }
+      },
+      "participation": {
+        "accreditation": {
+          "timer": "{{value}} left",
+          "infinite": "(in perpetuity)"
+        },
+        "scoring": {
+          "tooltip": "Scoring assessment of the application"
+        },
+        "actions": {
+          "button": "Actions",
+          "menu": {
+            "1": {
+              "title": "Exclude company from registry",
+              "description": "The company will be excluded from the registry and will not be able to initiate re-inclusion"
+            },
+            "2": {
+              "title": "Invite company to the registry",
+              "description": "The company will be able to reapply for inclusion in the registry"
+            },
+            "3": {
+              "title": "Suspend accreditation",
+              "description": "The company is temporarily losing its accreditation in this registry. To restore accreditation, a company can reapply"
+            },
+            "4": {
+              "title": "Restore accreditation",
+              "description": "The company's status in the registry will be restored"
+            },
+            "5": {
+              "title": "Request data update",
+              "description": "The company will receive a letter with a request to update the data specified in the application for accreditation in this registry"
+            }
+          },
+          "dialogs": {
+            "block": {
+              "title": "Exclude company from registry",
+              "text": "The company loses accreditation (if any) in this registry and cannot initiate re-inclusion for the restoration of accreditation. The action is reversible, you can invite the company to the registry again.",
+              "cancel": "Cancel",
+              "confirm": "Exclude",
+              "reason": {
+                "label": "Specify the reason...",
+                "hint": "The reason will be passed on to the employees of the excluded company"
+              }
+            },
+            "unblock": {
+              "title": "Invite company to the registry",
+              "text": "The company will be able to reapply for inclusion in the registry.",
+              "cancel": "Cancel",
+              "confirm": "Invite"
+            },
+            "suspend": {
+              "title": "Suspend accreditation",
+              "text": "The company loses accreditation in this registry, but can independently initiate a re-application. The action is reversible, you can restore the accreditation of the company in the future.",
+              "cancel": "Cancel",
+              "confirm": "Suspend accreditation",
+              "reason": {
+                "label": "Specify the reason...",
+                "hint": "The reason will be shown to employees of the company"
+              }
+            },
+            "unsuspend": {
+              "title": "Restore accreditation",
+              "text": "The company's status in the registry will be restored",
+              "cancel": "Cancel",
+              "confirm": "Restore"
+            },
+            "renew": {
+              "title": "Request data update",
+              "text": "The company will receive a letter with a request to update the data specified in the application for accreditation in this registry.",
+              "cancel": "Cancel",
+              "confirm": "Request update",
+              "reason": {
+                "label": "Specify the reason...",
+                "hint": "The reason will be shown to employees of the company"
+              },
+              "success": "Data update request has been sent"
+            }
+          }
+        },
+        "invite": {
+          "menu": {
+            "invite_by_link": {
+              "title": "Invite by link",
+              "descr": "Invitation link for onboarding in the vendor pool"
+            },
+            "invite_from_site": {
+              "title": "Invite from the platform",
+              "descr": "Companies will apply for onboarding in the vendor pool"
+            },
+            "accredit_from_site": {
+              "title": "Onboard from the platform",
+              "descr": "Companies will be onboarded in the vendor pool without filling out the questionnaire"
+            }
+          },
+          "dialogs": {
+            "invite_by_link": {
+              "title": "Invite by link",
+              "text": "Copy and send the link to the representative of the company you want to invite for accreditation in the registry.",
+              "hint": "Press Ctrl + C to copy to clipboard"
+            },
+            "invite_from_site": {
+              "title": "Choose companies",
+              "action": "Invite to the registry",
+              "snack": "Company invitations sent"
+            },
+            "accredit_from_site": {
+              "title": "Choose companies",
+              "action": "Accredit in the registry",
+              "snack": "Companies are accredited"
+            }
+          }
+        }
+      },
+      "dialogs": {
+        "no-rights": {
+          "header": "Action unavailable",
+          "text": "You are not eligible to apply for accreditation.\n\nContact your company administrator for the right to complete the action.",
+          "submit": "Got it"
+        },
+        "anonymous": {
+          "message": "Find your company or register your business on Bidzaar",
+          "notice": "Register yor company for free on\nBidzaar to be accredited in the registry",
+          "action": "Login and registration"
+        }
+      }
+    }
+  }
+}

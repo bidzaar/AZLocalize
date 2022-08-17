@@ -1,0 +1,19 @@
+{
+  "trf.cms.list": {
+    "header": {
+      "title": "Tarif paketləri",
+      "add": "Gediş haqqı paketi əlavə et"
+    },
+    "package": {
+      "customers": "Заказчики",
+      "label": "Редактировать"
+    },
+    "dialog": {
+      "title": "Пакет тарифов",
+      "input": "Наименование пакета",
+      "add": "Готово",
+      "cancel": "Отмена"
+    },
+    "empty": "Список пуст"
+  }
+}

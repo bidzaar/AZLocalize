@@ -1,0 +1,63 @@
+{
+  "errors": {
+    "logic": {
+      "Cognitive": {
+        "Ratings": {
+          "TaskInProgress": "Artıq reytinqin yenidən hesablanmasına başlanılıb"
+        }
+      }
+    }
+  },
+  "rts": {
+    "enums": {
+      "factors": {
+        "0": "Profilin tamlığı",
+        "1": "Satınalmalarda iştirakların sayı",
+        "2": "Satınalmalarda uduşların sayı",
+        "3": "Aktiv akkreditasiyaların sayı",
+        "4": "Yoxlanılmış şirkət",
+        "5": "Rəylər",
+        "6": "Nişanlar"
+      }
+    },
+    "ratings": {
+      "content": {
+        "criteria": {
+          "content": {
+            "factor": "Meyar",
+            "weight": "Çəki"
+          },
+          "header": {
+            "title": "meyarlar"
+          }
+        },
+        "editor": {
+          "cancel": "Ləğv et",
+          "inconsistent_bounds": "Aralığ artan ardıcıllıqla izlənməlidir",
+          "low_bound": "-",
+          "score": "xal",
+          "submit": "Yadda saxlamaq",
+          "success": "Data yadda saxlanıldı. Reytinq saat 01:00-da yenilənəcək",
+          "weight": "Çəki"
+        },
+        "statistics": {
+          "content": {
+            "recalculate": {
+              "hint": "Reytinqin yenidən hesablanması xidməti yavaşlata bilər, reytinqi yalnız lazım olduqda yeniləyə bilər.",
+              "snack": "Reytinqlərin yenidən hesablanmasına başlanılıb, bu bir az vaxt aparacaq",
+              "time": "Reytinq saat 01:00-da yenilənəcək.",
+              "tooltip": "Reytinqi yenidən hesablayın"
+            }
+          },
+          "header": {
+            "date": "-",
+            "title": "Təchizatçı reytinqi"
+          }
+        }
+      },
+      "header": {
+        "title": "Reytinq"
+      }
+    }
+  }
+}

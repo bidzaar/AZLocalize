@@ -1,0 +1,67 @@
+{
+  "filters": {
+    "clear": "Clear",
+    "clear_all": "Clear",
+    "filter": "Filter",
+    "more_filters": "More filters",
+    "operators": {
+      "date_after": "Date after",
+      "date_before": "Date before",
+      "equal": "Equals",
+      "exact_date": "Exact date",
+      "greater_than": "Greater than",
+      "greater_than_or_equal": "Greater than or equals",
+      "less_than": "Less than",
+      "less_than_or_equal": "Less than or equals",
+      "not_equal": "Does not equal",
+      "period": "Period",
+      "range": "Range"
+    },
+    "placeholders": {
+      "start": "Start",
+      "end": "End",
+      "enter_number": "Enter number",
+      "enter_text_value": "Enter text value",
+      "from": "From",
+      "to": "To",
+      "date": "Дата"
+    },
+    "search": "Search...",
+    "show": "Show filters",
+    "hide": "Hide filters",
+    "tooltip": "Search by the following fields: {{value}}",
+    "sorting": "Sorting",
+    "any": "Any",
+    "more": "More",
+    "collapse": "Collapse",
+    "panel": {
+      "title": "Filters",
+      "clear_all": "Clear all",
+      "apply_filters": "Apply",
+      "save": "Save"
+    },
+    "queries": {
+      "title": "Saved filters: {{value}}",
+      "save_dialog": {
+        "title": "Save filter",
+        "name": "Filter name",
+        "cancel": "Cancel",
+        "save": "Save",
+        "default_name": "New filter",
+        "save_success": "Filter is saved"
+      },
+      "delete_dialog": {
+        "title": "Remove filter",
+        "cancel": "Cancel",
+        "delete": "Remove"
+      },
+      "delete_snack": "Filter removed"
+    },
+    "datasource": {
+      "search": "Search...",
+      "empty": "There are no results for your request",
+      "collapse": "Collapse",
+      "expand": "Show all ({{ value }})"
+    }
+  }
+}

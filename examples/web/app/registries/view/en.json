@@ -1,0 +1,87 @@
+{
+  "rgs": {
+    "view": {
+      "settings": {
+        "main": {
+          "company": {
+            "profile": "Profile"
+          },
+          "name": {
+            "placeholder": "Registry name"
+          },
+          "descr": {
+            "title": "Description",
+            "placeholder": ""
+          },
+          "files": {
+            "title": "Documents",
+            "upload": "Upload registry documents"
+          },
+          "contact": {
+            "title": "Contact person",
+            "description": "Employee contacts not provided",
+            "tooltip": "The contact will be available to registry members after accepting the invitation",
+            "edit": "Edit"
+          },
+          "related": {
+            "title": "Requirements",
+            "description": "Before applying to the Vendor List, a vendor should be accredited in the related Vendors Lists",
+            "upload": "Choose related published registries",
+            "remove": "Remove",
+            "append": {
+              "title": "Add published registry",
+              "submit": "Add"
+            }
+          }
+        },
+        "parameters": {
+          "title": "Settings",
+          "visibility": {
+            "label": "Vendors List's Visibility"
+          },
+          "validity": {
+            "label": "Vendor's Accreditation Term",
+            "unit": "months",
+            "notice": "0 for indefinitely",
+            "infinite": "Indefinitely"
+          },
+          "language": {
+            "label": "Notification language",
+            "description": "The language in which the participants will receive the notification",
+            "snack_message": "Notification language changed"
+          },
+          "approval": {
+            "label": "Vendor's Approval",
+            "options": {
+              "scoring": {
+                "score": {
+                  "label": "Minimum scoring assessment for inclusion in the registry",
+                  "value": "Minimum scoring assessment for inclusion in the registry: {{ value }}"
+                }
+              },
+              "accreditation": {
+                "decline": {
+                  "label": "Reject the application based on the results of the scoring assessment "
+                },
+                "score": {
+                  "label": "Minimum scoring assessment for submitting an application for consideration by the Commission",
+                  "value": "Minimum scoring assessment for submitting an application for consideration by the Commission: {{ value }}"
+                },
+                "groups": {
+                  "empty": "Accreditation commission is not set",
+                  "configure": "Configure"
+                }
+              }
+            }
+          }
+        }
+      },
+      "questionnaire_version_status": {
+        "1": "Draft",
+        "2": "Actual",
+        "3": "Acted",
+        "4": "Comes into force"
+      }
+    }
+  }
+}
