@@ -1,0 +1,12 @@
+{
+  "req.evt": {
+    "header": "Sorğu jurnalı",
+    "empty": "Hadisələr tapılmadı",
+    "search": "Axtarış sətrlər üzrə aparılır: Hadisənin adı",
+    "actions": {
+      "open_request": "Sorğunu aç",
+      "open_chat": "Təşkilatçı ilə çat",
+      "open_participants": "İştirakçılar"
+    }
+  }
+}

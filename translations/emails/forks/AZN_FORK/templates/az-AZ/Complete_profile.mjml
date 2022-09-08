@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: 👻 Профиль компании на Procure.az
+Получатель: все УК на имейлы, указанные при логине
+
+Система уведомляет о незаполненном профиле компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Şirkətin profili tam deyil</h1>
+          <p class="p75"><b>Şirkət:</b> @CompanyContext.CompanyName</p>
+          <p class="p75">Təcrübəmizə görə profili tam olan şirkətlər işbirliyi təkliflərinə daha tez nail olurlar.</p>
+        </mj-text>
+        <mj-button href="@CompanyContext.Url">Profili doldur</mj-button>
+      </mj-column>
+    </mj-section>
+    
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

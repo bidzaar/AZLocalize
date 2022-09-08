@@ -1,0 +1,55 @@
+<mjml>
+  <!-- 
+Тема: 🔔 Приём предложений снова открыт!
+Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
+
+Организатор перевёл состояние запроса из Принятия решения в Прием предложений
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Təkliflər qəbulu yenidən açıqdır! 🔔</h1>
+          <p>Siz sorğuda təklifinizi təkmilləşdirə bilərsiniz:</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p><b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Çatdırılma ünvanı:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate</p>
+          <p style="white-space: pre-line"><b>Təsvir:</b> @ProcedureContext.Description</p>
+          <p><b>Təkliflər qəbulu yalnız ProcureSaaS platformasında aparılır</b></p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->    
+    <mj-include path="./__tpl/__spacer.mjml" />    
+    
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,31 @@
+<mjml>
+  <!-- 
+Тема: Запрос архива
+Получатель: сотрудник на свой имейл, указанный при логине
+
+При формировании отчёта на сервере произошла ошибка
+
+@Report.Type -- название отчёта
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Siz sorğulamışdınız @ReportContext.TypeName</h1>
+          <p>Arxivin formalaşdırılmasında xəta baş verib. Əməliyyatı təkrar edin və ya texniki dəstəyə müraciət edin. </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

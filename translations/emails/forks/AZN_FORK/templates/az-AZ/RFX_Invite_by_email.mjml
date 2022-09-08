@@ -1,0 +1,48 @@
+<mjml>
+  <!-- 
+Тема: 👋 Приглашение в тендер от @ProcedureContext.ProcedureOwnerCompanyName
+Получатель: владелец имейла, указанного при приглашении
+
+Организаьтор проигласил участника в запрос по имейлу
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <p><b>@ProcedureContext.ProcedureOwnerCompanyName</b> sizi tenderdə iştirak etməyə dəvət edir:</p>
+          <h1 style="font-weight:900">"@ProcedureContext.ProcedureName"</h1>
+          <p>
+            <!--<b>Заказчик:</b> ООО "Вектор"<br />-->
+            <b>Çatdırılma ünvanı:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br /><br />
+            <b><a href="@ProcedureContext.Url">Bildirişi və tender sənədlərini açın►</a>
+          </p>
+          <!--<p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>-->
+          <!--<p><b>Прием предложений производится исключительно на площадке Procure.az.com</b></p>-->
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-hint">
+      <mj-column>
+        <mj-text>
+          <p class="smal mb05">Tender ProcureSaaS platformasında keçirilir. Üstünlüklərimiz:</p>
+          <ol class="smal">
+            <li><b>Sürətli qeydiyyat</b> (akkreditasiya və elektron imza tələb olmadan)</li>
+            <li><b>Ödənişsiz iştirak</b></li>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Tender ilə tanış olun</mj-button>
+        <mj-text> </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary 
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <!--<mj-include path="./__tpl/__help.mjml" />-->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer --Б в тендере</mj-bodО> тендера>
+        </li

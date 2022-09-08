@@ -1,0 +1,25 @@
+<mjml>
+<!-- 
+Тема: 
+Плолучатель: 
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Hər vaxtınız xeyir, @TargetContext.FirstName!</h1>
+          <p style="white-space: pre-line; margin-bottom: 32px">@EmailPrecontext.Message</p>
+          <p class="small">ProcureSaaS komandası 💗</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

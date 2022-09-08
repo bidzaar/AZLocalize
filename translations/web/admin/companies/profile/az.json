@@ -1,0 +1,210 @@
+{
+  "cmp.profile": {
+    "company": {
+      "dialogs": {
+        "remove_supplier": {
+          "cancel": "Ləğv et",
+          "confirm": "İstisna etmək",
+          "text": "Sifarişçi şirkət vidcetində şirkətin olması istisna edilsin?"
+        }
+      },
+      "editor": {
+        "achievements": {
+          "header": "Nişanlar"
+        },
+        "chat": {
+          "header": "Şirkətlə çata keçid",
+          "label": "Sizin şərhiniz"
+        },
+        "common": {
+          "actions": {
+            "cancel": "Ləğv et",
+            "submit": "Tədbiq et",
+            "save": "[AT] Ozum satiram."
+          }
+        },
+        "crm": {
+          "header": "CRM-ə keçid",
+          "label": "CRM-də profilə keçid"
+        },
+        "esg": {
+          "actions": {
+            "cancel": "Ləğv et",
+            "submit": "Yadda saxla"
+          },
+          "category": "Kateqoriya göstərin",
+          "certificate": {
+            "title": "ESG sertifikatı",
+            "upload": "Sertifikatı yükləyin"
+          },
+          "enabled": "Şirkət sertifikatlıdır",
+          "header": "ESG sertifikatı",
+          "rating": {
+            "common": "Ümumi xal",
+            "ecology": "(E) Ekologiya",
+            "management": "(G) İdarəetmə",
+            "society": "(S) Cəmiyyət",
+            "title": "ESG reytinqi"
+          },
+          "report": {
+            "title": "ESG hesabatı",
+            "upload": "Hesabatı yükləyin"
+          }
+        },
+        "requisites": {
+          "success": "Şirkət rekvezitləri yeniləndi"
+        },
+        "rights": {
+          "header": "Şirkət hüquqları"
+        },
+        "suppliers": {
+          "header": "Sifarişçi şirkəti seçmək",
+          "hint": "Profil ID: 000-0000",
+          "label": "Şirkət ID-si",
+          "not_found": "Şirkət tapılmadı. Şirkət profilindən ID-ni kopyalayın"
+        },
+        "tags": {
+          "header": "Satın alınan teqlər",
+          "hint": "25 teqə qədər",
+          "label": "Kəmiyyət"
+        },
+        "tariff": {
+          "cancel": "Ləğv et",
+          "closed": "Qapalı sorğular pulsuzdur",
+          "conditions_title": "Ödəniş sxemi",
+          "default_rules": "Standart qaydalar",
+          "delete_dialog": {
+            "no": "Ləğv et",
+            "text": "Qazancdan ödəniş qaydaları ilkin vəziyyətinə sıfırlanacaq",
+            "title": "Standart qaydalar təyin edilsin?",
+            "yes": "Ödəniş qaydalarını sıfırlayın"
+          },
+          "header": "Qazanca olan ödənişlər qaydası",
+          "save": "Yadda saxla",
+          "sum": "Məbləğ",
+          "to": "kimi",
+          "who_pays": "Kim ödəyir"
+        },
+        "tariff_plan": {
+          "already_exists": "Oxşar VÖEN-i olan yoxlanılmış şirkət artıq mövcuddur",
+          "cancel": "Ləğv et",
+          "dates": "Tarifin qüvvədə olma müddəti",
+          "enabled": "Tarif aktivdir",
+          "header": "Tarif ayarları",
+          "name": "Tarif adı",
+          "submit": "Yadda saxla",
+          "success": "Tarif planı yeniləndi",
+          "taxFree": "Şirkət qalib gəldiyinə görə komissiya ödəmir"
+        },
+        "payment_rules": {
+          "header": "[AT] Qələbə üçün ödəniş qaydaları",
+          "fee": "[AT] Kim ödəyir",
+          "free": "[AT] Qapalı sorğular pulsuz həyata keçirilir"
+        }
+      },
+      "viewer": {
+        "achievements": {
+          "empty": "Nailiyyətlər təyin olunmayıb",
+          "header": "Nişanlar"
+        },
+        "employees": {
+          "title": "Əməkdaşlar"
+        },
+        "esg": {
+          "change": "Ayarla",
+          "enabled": {
+            "false": "Sönülüdür",
+            "true": "Yanılıdır"
+          },
+          "reports": {
+            "certificate": "ESG sertifikatı",
+            "report": "ESG hesabatı"
+          },
+          "title": "ESG sertifikatı"
+        },
+        "groups": {
+          "buyer_options": "Sifarişçinin seçimləri",
+          "company": "Şirkət məlumatları",
+          "rights_visibility": "Şirkət hüquqları və görünüşü",
+          "tariff": "Təchizatçı tarifi"
+        },
+        "header": {
+          "actions": {
+            "chat": "Şirkətlə çat",
+            "crm": "CRM",
+            "profile": "Profil"
+          },
+          "info": "ID: {{ number }} • Qeydiyyat: {{ date }}"
+        },
+        "is_shown": {
+          "hidden": "Şirkət siyahıdan gizlədilib",
+          "shown": "Şirkət siyahıda göstərilir",
+          "title": "Şirkət siyahılarında göstərin"
+        },
+        "requisites": {
+          "edit": "Redaktə et",
+          "empty": "Rekvezitlər təyin olunmayıb",
+          "header": "Əlavə rekvezitlər"
+        },
+        "rights": {
+          "empty": "Hüquqlar təyin olunmayıb",
+          "title": "Şirkət hüquqları"
+        },
+        "sections": {
+          "company": "Şirkət məlumatları",
+          "general": "Ümumi məlumat",
+          "purchaser": "Sifarişçinin seçimləri",
+          "supplier": "Təchizatçı tarifi"
+        },
+        "suppliers": {
+          "empty": "Şirkətlər-sifarişçilər göstərilməyib",
+          "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı"
+        },
+        "tags": {
+          "text": "Teqlər:",
+          "title": "Satın alınan teqlər"
+        },
+        "tariff": {
+          "closed": "/ qapalı sorğular pulsuzdur",
+          "from": ".",
+          "title": "Qazanca olan ödənişlər qaydası",
+          "to": "kimi",
+          "who_pays": "Kim ödəyir"
+        },
+        "tariff_plan": {
+          "change": "Ayarla",
+          "enabled": {
+            "false": "Söndürülüb",
+            "true": "Yanılıdır"
+          },
+          "tax_free": {
+            "false": "Şirkət komissiya ödəyir",
+            "true": "Şirkət heç bir komissiya ödəmir"
+          },
+          "title": "Tarif"
+        },
+        "payment_rules": {
+          "title": "[AT] Qələbə üçün ödəniş qaydaları",
+          "fee": "[AT] Kim ödəyir",
+          "free": "[AT] Qapalı sorğular pulsuz həyata keçirilir"
+        }
+      }
+    },
+    "enums": {
+      "tariff_fee": {
+        "0": "İştirak pulsuzdur",
+        "1": "Yalnız təchizatçı",
+        "2": "Yalnız sifarişçi",
+        "3": "Əsasən təchizatçı",
+        "4": "Əsasən sifarişçi"
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "VerifiedCompanyAlreadyExists": "Göstərilən rekvizitlərlə təsdiqlənmiş şirkət artıq mövcuddur"
+      }
+    }
+  }
+}

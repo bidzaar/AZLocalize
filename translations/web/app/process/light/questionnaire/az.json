@@ -1,0 +1,40 @@
+{
+  "pl": {
+    "qst": {
+      "templates": {
+        "buttons": {
+          "list": "Şablon siyahısı",
+          "save": "Şablonu yadda saxla"
+        },
+        "dialogs": {
+          "apply": {
+            "cancel": "Ləğv et",
+            "submit": "Yüklə",
+            "success": "Şablon yükləndi",
+            "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
+            "title": "Şablon yüklə"
+          },
+          "create": {
+            "cancel": "Ləğv et",
+            "default_value": "Yeni şablon",
+            "label": "Şablonun adı",
+            "submit": "Yadda saxla",
+            "success": "Şablon yadda saxla",
+            "text": "Cari qeyri-qiymət meyarlarını gələcək istifadə üçün şablon kimi yadda saxlayın. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
+            "title": "Şablonu yadda saxlayın"
+          },
+          "remove": {
+            "cancel": "Ləğv et",
+            "submit": "Sil",
+            "success": "Şablon silindi",
+            "text": "Şablon dönməz şəkildə silinəcək",
+            "title": "Şablon silinsin?"
+          }
+        },
+        "list": {
+          "empty": "Şablonlar yadda saxlanmayıb"
+        }
+      }
+    }
+  }
+}

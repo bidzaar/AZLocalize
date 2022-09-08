@@ -1,0 +1,25 @@
+    <!-- spacer -------------------------------------------- -->
+    <!--<mj-section padding-top="0" padding-bottom="0">
+      <mj-column>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+    <!-- /spacer -->
+    <!-- footer -------------------------------------------- -->
+    <mj-section mj-class="section-footer" css-class="footer">
+      <mj-column>
+        <mj-text align="center"><b>BIDZAAR LLC</b><br /><span class="smallest"><a href="tel:+74951208133">+7 (495) 120-81-33</a> • <a href="mailto:support@bidzaar.com">support@bidzaar.com</a> • <a href="https://bidzaar.com">bidzaar.com</a></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-footer" css-class="footer" padding-top="0">
+      <mj-column>
+        <mj-text align="center">
+          <span class="smallest">You received this email in accordance with Bidzaar User agreement.</span>
+          @PixelContext.Html
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+

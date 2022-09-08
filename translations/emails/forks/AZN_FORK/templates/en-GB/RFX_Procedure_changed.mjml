@@ -1,0 +1,33 @@
+<mjml>
+  <!-- 
+Тема: 🖐 @ProcedureContext.ProcedureOwnerCompanyName приглашает к сотрудничеству
+Получатель: владелец имейла, указанного при приглашении
+
+Организаьтор проигласил участника в запрос по имейлу
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Запрос изменён</h1>
+          <p>Ознакомьтесь с изменениями и проверьте актуальность своего предложения. </p>
+          <p><b>Запрос:</b> @ProcedureContext.ProcedureName<br />
+            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
+            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
+            <span style="white-space: pre-line"><b>Изменения в запросе:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

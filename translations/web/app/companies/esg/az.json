@@ -1,0 +1,100 @@
+{
+  "cmp": {
+    "esg": {
+      "about": {
+        "button": "ESG haqqında daha çox məlumat",
+        "description": {
+          "RUS_FORK": "Qiymətləndirmə metodologiyası Rusiyanın xüsusiyyətləri və Ali İqtisadiyyat Məktəbi və “Biznes Rusiya” tərəfindən təklif olunan Milli ESG standartı nəzərə alınmaqla beynəlxalq standartlara əsaslanır"
+        },
+        "label": "ESG - hesab"
+      },
+      "dialog": {
+        "header": "Keçidi paylaşın",
+        "hint": "Panoya kopyalamaq üçün Ctrl + C düyməsini basın",
+        "label": "Keçid",
+        "text": "Sertifikatınızı sosial mediada paylaşın və ya həmkarlarınıza link göndərin"
+      },
+      "empty": {
+        "button": "Sertifikat alın",
+        "description": {
+          "RUS_FORK": "Bidzaar Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunu asan və tez yoxlamaq üçün metodologiya hazırlayan ilk şirkət oldu. Sertifikat alın və ESG təchizatçısı statusunuzu əldə edin"
+        },
+        "title": "Sertifikatlaşdırma uğursuz oldu"
+      },
+      "footer": {
+        "date": "Sertifikatlaşdırma {{value}} alındı",
+        "shared": "Səhifəni paylaşın"
+      },
+      "info": {
+        "documents": {
+          "0": {
+            "title": "[AT] ESG-sertifikat",
+            "description": "[AT] Şirkətin ESG statusu sertifikatı"
+          },
+          "1": {
+            "title": "[AT] ESG-hesabat",
+            "description": "[AT] Şirkətin fəaliyyəti haqqında ətraflı hesabat"
+          },
+          "certificate": {
+            "description": "ESG şirkət statusu sertifikatı",
+            "title": "ESG Sertifikatı"
+          },
+          "report": {
+            "description": "Şirkətin işi haqqında ətraflı hesabat",
+            "title": "ESG-hesabat"
+          },
+          "title": "Sertifikatlaşdırma hesabatları"
+        },
+        "statistics": {
+          "popover": {
+            "corporate_governance": {
+              "0": "✔️ İdarəetmə səmərəliliyi",
+              "1": "✔️ Əməliyyatların şəffaflığı",
+              "2": "✔️ Keyfiyyətli biznes etikası"
+            },
+            "environmental": {
+              "0": "✔️ Təmiz və yaşıl texnologiyalar",
+              "1": "✔️ İqlim dəyişikliyinə təsir",
+              "2": "✔️ Ətraf mühitin çirklənmə dərəcəsi"
+            },
+            "social": {
+              "0": "✔️ İnsan kapitalı, iş şəraiti",
+              "1": "✔️ Qarşı tərəflərlə münasibətlər",
+              "2": "✔️ Sosial məsuliyyət"
+            },
+            "title": "Şirkət aşağıdakı sahələr üzrə qiymətləndirilmişdir:"
+          },
+          "corporate_governance": {
+            "letter": "g",
+            "title": "Korporativ idarəetmə",
+            "label": "corporate governance"
+          },
+          "environmental": {
+            "letter": "e",
+            "title": "Ətraf-mühit",
+            "label": "environmental"
+          },
+          "social": {
+            "letter": "s",
+            "title": "Sosial",
+            "label": "social"
+          }
+        }
+      },
+      "seo": {
+        "RUS_FORK": {
+          "description": {
+            "0": "{{value}} şirkəti ESG meyarlarına yüksək uyğunluq səviyyəsinə malikdir və ekoloji, sosial və idarəetmə məsələlərinin həllində tam iştirak edir",
+            "1": "{{value}} şirkəti ESG meyarlarına cavab verir və ətraf mühit, sosial və idarəetmə problemlərinin həllində kifayət qədər iştirak edir",
+            "2": "{{value}} şirkəti ESG meyarlarına cavab verir və ekoloji, sosial və idarəetmə məsələlərinin həllində iştirak edir"
+          },
+          "none": {
+            "description": "Bidzaar Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunu asan və tez yoxlamaq üçün metodologiya hazırlayan ilk şirkət oldu. Sertifikat alın və ESG təchizatçısı statusunuzu əldə edin",
+            "title": "Sertifikatlaşdırmadan keçməyib"
+          },
+          "title": "ESG-provayder"
+        }
+      }
+    }
+  }
+}

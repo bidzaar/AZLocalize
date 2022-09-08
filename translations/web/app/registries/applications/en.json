@@ -1,0 +1,35 @@
+{
+  "rgs": {
+    "aps": {
+      "list": {
+        "header": {
+          "title": "Applications in registry"
+        },
+        "empty": {
+          "title": "No applications have been received yet",
+          "text": "All incoming accreditation applications will be shown in this list"
+        },
+        "search": {
+          "tooltip": "Search is carried out by fields:\n• Company name"
+        },
+        "sorting": {
+          "company_name": {
+            "title": "Company name"
+          },
+          "last_changes": {
+            "title": "Last changes"
+          },
+          "scoring": {
+            "title": "Point score"
+          }
+        },
+        "filters": {
+          "application_status": {
+            "title": "Application status"
+          },
+          "empty": "No results were found for your request"
+        }
+      }
+    }
+  }
+}

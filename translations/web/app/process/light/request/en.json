@@ -1,0 +1,96 @@
+{
+  "pl": {
+    "request": {
+      "general": {
+        "title": "Summary",
+        "nda": {
+          "title": "Enable prequalification/NDA signing step",
+          "sub_title": "Participants gain access to the request description after your confirmation"
+        },
+        "description_and_files": {
+          "title": "Description and files",
+          "placeholder": "Specify the subject of your request...",
+          "add_files": "Add terms of reference, specifications, draft contract, etc.",
+          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site."
+        },
+        "contact_info": {
+          "title": "The contact person",
+          "add_contact": "Indicate a person for communication with suppliers"
+        },
+        "delivery_address": {
+          "title": "Delivery address",
+          "add": "Place of delivery of goods or services"
+        },
+        "tags": {
+          "title": "Tags",
+          "add": "Describe the subject of your request with keywords"
+        }
+      },
+      "positions": {
+        "title": "Goods and services",
+        "settings": "Settings",
+        "empty": "Provide the specification of purchased items for easy bid comparison",
+        "expand": "Expand all ({{value}})",
+        "disabled": "Request positions not specified",
+        "open_editable": "Customize specification",
+        "open_readonly": "Full specification of all positions"
+      },
+      "questionnaire": {
+        "title": "Questionnaire",
+        "settings": "Settings",
+        "empty": "Customize the participant questionnaire, set non-price request conditions and criteria for comparison of offers",
+        "expand": "Expand all",
+        "warning_text": "The information is available to supplier companies.\nLogin or register a company on the site.",
+        "disabled": "Non-price request criteria not defined"
+      },
+      "rules": {
+        "title": "Request rules"
+      },
+      "participant_rules": {
+        "title": "Rules for suppliers"
+      },
+      "tariff": {
+        "title": "Service commission"
+      },
+      "collapse": "Collapse",
+      "acceptance_end_date": {
+        "title": "Acceptance of proposals before",
+        "time_left": "Left"
+      },
+      "actions": {
+        "more": "More actions",
+        "publish": "Submit request",
+        "start_change": "Change request",
+        "end_change":"Publish changes",
+        "cancel_change": "Cancel changes",
+        "delete": "Delete draft",
+        "clone": "Dublicate",
+        "notice_report":"Download notice",
+        "cancel": "Cancel request",
+        "change_acceptance_end_date":"Change the deadline for accepting proposals",
+        "favourites": "Add to favorites",
+        "in_favourite": "In favourite",
+        "refuse": "Refuse to participate",
+        "participate": "Start preparation\nproposal",
+        "new_stage": "Set up a new stage",
+        "publish_stage": "Post new stage",
+        "cancel_stage": "Cancel new stage",
+        "view_summary": "View request summary",
+        "return_to_summary": "Return to summary",
+        "end_round": "Finish accepting offers"
+      },
+      "navigation": {
+        "title": "Request Content",
+        "content": "Content"
+      },
+      "blocked": {
+        "title": "Request details not available",
+        "sub_title": "The customer excluded you from the request. The request is limited to the number of participants.\nHave questions? Contact the customer."
+      },
+      "message_payment": {
+        "text": "Participation in the request is free, without deposits and funds blocking!",
+        "link": "What do I have to pay for?"
+      }
+    }
+  }
+}

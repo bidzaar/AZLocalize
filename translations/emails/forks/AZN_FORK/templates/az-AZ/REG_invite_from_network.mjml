@@ -1,0 +1,27 @@
+<mjml>
+  <!-- 
+Тема: 👋 Приглашение к сотрудничеству
+Получатель:  УК, РОЗ, сотрудники с правами Прохождение аккредитации 
+
+Организатор пригласил компанию с площадки в реестр поставщиков
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>@RegistryContext.OwnerCompanyName əməkdaşlığa dəvət edir</h1>         
+          <p><b>@CompanyContext.CompanyName</b> reyestrdə akkreditasiya keçmək üçün dəvət edirik:</p>
+          <h2>@RegistryContext.Name</h2>
+        </mj-text>
+        <mj-button href="@RegistryContext.Url">Dəvət ilə tanış olun</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

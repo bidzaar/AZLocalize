@@ -1,0 +1,68 @@
+{
+  "req.lst": {
+    "list": {
+      "card": {
+        "link": {
+          "open": ""
+        },
+        "links": {
+          "journal": "Sorğu jurnalı",
+          "open": "Platformada sorğu aç",
+          "participants": "İştirakçılar"
+        },
+        "publish": {
+          "date": "Dərc edilmişdir"
+        },
+        "stats": {
+          "participants": "İştirak etmişdir",
+          "proposals": "Təklifi olan iştirakçılar"
+        }
+      },
+      "empty": {
+        "text": "Sorğular tapılmadı"
+      },
+      "filters": {
+        "acceptanceEndDate": {
+          "title": "Təkliflər qəbulunun  son tarixi"
+        },
+        "address": {
+          "title": "Çatdırılma ünvanı"
+        },
+        "company": {
+          "choose": "Sifarişçiləri seçin",
+          "title": "Sifarişçi"
+        },
+        "proposals": {
+          "title": "Təkliflər"
+        },
+        "publishDate": {
+          "title": "Dərc olunma tarixi"
+        },
+        "responsible": {
+          "choose": "Komandanı göstər",
+          "title": "Məsuliyyətli"
+        },
+        "status": {
+          "title": "Sorğu statusu"
+        },
+        "open_type": {
+          "title": "[AT] Sorğu növü",
+          "options": {
+            "0": "[AT] Yalnız açıq",
+            "1": "[AT] Yalnız qapalı"
+          }
+        }
+      },
+      "header": {
+        "search": "Axtarış aşağıdakı sahələrdə aparılır: \nSorğu kodu, Sorğunun adı, Təşkilatçı şirkətin adı",
+        "title": "ProcureSaaS sorğuları"
+      },
+      "sorting": {
+        "acceptanceEndDate": "Təkliflərin qəbulu",
+        "finishDate": "Tamamlanıb\n",
+        "proposalsCount": "Təkliflər",
+        "publishDate": "Dərc edilmişdir"
+      }
+    }
+  }
+}

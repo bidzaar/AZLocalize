@@ -1,0 +1,226 @@
+{
+  "rgs": {
+    "shared": {
+      "application": {
+        "blocks": {
+          "completed": "Anket tamamlandı",
+          "new": "Anketi doldurun",
+          "open": "Açın",
+          "progress": "Anketin tamamlanması"
+        },
+        "declined": {
+          "reason": "Səbəb",
+          "title": "Akkreditasiya üçün müraciət imtina olundu"
+        },
+        "obsolete": {
+          "message": "Reyestr sahibi anketi dəyişib. Yeni anket hazırlayın.",
+          "notice": "Daha əvvəl daxil edilmiş məlumatlar yeni müraciyətə köçürülür. Düzgün olub-olmadığını yoxlayın.",
+          "title": "Reyestrdə akkreditasiya üçün müraciət"
+        },
+        "process": {
+          "empty": "Bu reyestrə müraciət etmək üçün təchizatçı anketini doldurmağa ehtiyac yoxdur.",
+          "title": "Reyestrdə akkreditasiya üçün müraciət"
+        },
+        "related": {
+          "title": "Təchizatcılar siyahısına müraciət etməzdən əvvəl təchizatcı müvafiq Təchizatcı siyahılarında akkreditasiyadan keçməlidir:"
+        },
+        "submitted": {
+          "text": "Reyestr sahibi müraciətinizi nəzərdən keçirir. Nəticəni sizə bildirəcəyik.",
+          "title": "Akkreditasiya üçün müraciət göndərildi"
+        }
+      },
+      "dialogs": {
+        "anonymous": {
+          "action": "Giriş və qeydiyyat",
+          "message": "Şirkətinizi tapın və ya biznesinizi ProcureSaaS-da qeydiyyatdan keçirin",
+          "notice": "Reyestrdə akkreditə olunmaq üçün şirkətinizi ProcureSaaS-da pulsuz qeydiyyatdan keçirin"
+        },
+        "no-rights": {
+          "header": "Əməliyyat mövcud deyil",
+          "submit": "Aydındır",
+          "text": "Siz akkreditasiya üçün müraciət etmək hüququna malik deyilsiniz. Hərəkəti tamamlamaq hüququ üçün şirkət administratorunuzla əlaqə saxlayın."
+        }
+      },
+      "enum": {
+        "application": {
+          "1": "Müraciətin hazırlanması",
+          "2": "Müraciət baxılmaqdadır",
+          "3": "Müraciət imtina olundu",
+          "4": "Müraciət təsdiqləndi"
+        },
+        "approval": {
+          "1": "Şirkət tərəfindən müraciət təqdim edildikdə",
+          "2": "Şirkət müraciətinin bal qiymətləndirilməsinin nəticəsi əsasında",
+          "3": "Akkreditasiya komissiyasının qərarı ilə",
+          "4": "Müraciyət olmadan"
+        },
+        "participant": {
+          "0": "Qeydiyyata dəvət olunur",
+          "1": "Dəvət baxıldı",
+          "2": "Akkreditasiya prosesində",
+          "3": "Akkreditasiya olunub",
+          "4": "Akkreditasiya dayandırılıb",
+          "5": "Akkreditasiya müddəti başa çatıb",
+          "6": "Bloklanıb",
+          "7": "Akkreditasiyadan imtina etdi"
+        },
+        "visibility": {
+          "0": "Bütün şirkətlər üçün",
+          "1": "Yalnız dəvət olunmuş şirkətlər üçün"
+        }
+      },
+      "filters": {
+        "registries": {
+          "collapse": "Gizlət",
+          "empty": {
+            "filter": "Axtarış heç bir nəticə vermədi",
+            "items": "Şirkətiniz heç bir reyestr dərc etməyib. Reyestrin idarə edilməsi bölməsində reyestr yarada və dərc edə bilərsiniz."
+          },
+          "expand": "Daha ətraflı ({{value}})",
+          "open": "Bütün təchizatçıları göstərmək",
+          "search": "Axtarış...",
+          "title": "Reyestrlər"
+        }
+      },
+      "forbidden": {
+        "archive": {
+          "link": "Riyestrlərin siyahısına",
+          "text": "“{{value}}” reyestri arxivləşdirilir.\nSualınız var? Reyestr administratoru ilə əlaqə saxlayın.",
+          "title": "Reyestrlə iş dayandırılıb."
+        },
+        "default": {
+          "link": "Riyestrlərin siyahısına",
+          "text": "Reyestrdə hüquqlar əldə etmək üçün reyestr administratorunuzla əlaqə saxlayın.",
+          "title": "Sizin reyestrin bu hissəsinə girişiniz yoxdur."
+        },
+        "rights": {
+          "link": "Riyestrlərin siyahısına",
+          "text": "“{{value}}” reyestrində hüquqları əldə etmək üçün  administratorunuzla əlaqə saxlayın.",
+          "title": "Sizin reyestrin bu hissəsinə girişiniz yoxdur."
+        }
+      },
+      "header": {
+        "actions": {
+          "contact": "Əlaqəli şəxs",
+          "profile": "Profil"
+        },
+        "dialog_contact": {
+          "button": "Şirkət Profili",
+          "title": "Əlaqəli şəxs"
+        }
+      },
+      "participation": {
+        "accreditation": {
+          "infinite": "(müddətsiz)",
+          "timer": "{{value}} left"
+        },
+        "actions": {
+          "button": "Əməliyyatlar",
+          "dialogs": {
+            "block": {
+              "cancel": "Ləğv et",
+              "confirm": "İstisna etmək",
+              "reason": {
+                "hint": "Səbəb istisna olunan şirkətin işçilərinə ötürüləcək",
+                "label": "Səbəbini qeyd edin..."
+              },
+              "text": "Şirkət bu reyestrdə akkreditasiyanı (əgər varsa) itirir və akkreditasiyanın bərpası üçün yenidən daxil olmağa başlaya bilməz. Hərəkət geri qaytarıla bilər, şirkəti yenidən reyestrə dəvət edə bilərsiniz.",
+              "title": "Şirkəti reyestrdən çıxarın"
+            },
+            "renew": {
+              "cancel": "Ləğv et",
+              "confirm": "Yeniləmə tələbi",
+              "reason": {
+                "hint": "Səbəb şirkətin işçilərinə göstəriləcək",
+                "label": "Səbəbini qeyd edin..."
+              },
+              "success": "Məlumat yeniləmə sorğusu göndərildi",
+              "text": "Şirkət bu reyestrdə akkreditasiya üçün müraciətdə göstərilən məlumatların yenilənməsi haqqında məktub alacaq.",
+              "title": "Məlumatların yenilənməsinə dair sorğu"
+            },
+            "suspend": {
+              "cancel": "Ləğv et",
+              "confirm": "Akkreditasiyanın dayandırılması",
+              "reason": {
+                "hint": "Səbəb şirkətin işçilərinə göstəriləcək",
+                "label": "Səbəbini qeyd edin..."
+              },
+              "text": "Şirkət bu reyestrdə akkreditasiyanı itirir, lakin müstəqil olaraq yenidən müraciət edə bilər. Hərəkət geri qaytarıla bilər, gələcəkdə şirkətin akkreditasiyasını bərpa edə bilərsiniz.",
+              "title": "Akkreditasiyanın dayandırılması"
+            },
+            "unblock": {
+              "cancel": "Ləğv et",
+              "confirm": "Dəvət edin",
+              "text": "Şirkət reyestrə daxil olmaq üçün yenidən müraciət edə biləcək.",
+              "title": "Şirkəti reyestrə dəvət edin"
+            },
+            "unsuspend": {
+              "cancel": "Ləğv et",
+              "confirm": "Bərpa etmək",
+              "text": "Reyestrdə şirkətin  statusu bərpa olunacaq",
+              "title": "Akkreditasiyanı bərpa edin"
+            }
+          },
+          "menu": {
+            "1": {
+              "description": "Şirkət reyestrdən çıxarılacaq və yenidən daxil ola bilməyəcək",
+              "title": "Şirkəti reyestrdən çıxarın"
+            },
+            "2": {
+              "description": "Şirkət reyestrə daxil olmaq üçün yenidən müraciət edə biləcək",
+              "title": "Şirkəti reyestrə dəvət edin"
+            },
+            "3": {
+              "description": "Şirkət müvəqqəti olaraq bu reyestrdə akkreditasiyasını itirir. Akkreditasiyanı bərpa etmək üçün şirkət yenidən müraciət edə bilər",
+              "title": "Akkreditasiyanın dayandırılması"
+            },
+            "4": {
+              "description": "Reyestrdə şirkətin  statusu bərpa olunacaq",
+              "title": "Akkreditasiyanı bərpa edin"
+            },
+            "5": {
+              "description": "Şirkət bu reyestrdə akkreditasiya üçün müraciətdə göstərilən məlumatların yenilənməsi haqqında məktub alacaq.",
+              "title": "Məlumatların yenilənməsinə dair sorğu"
+            }
+          }
+        },
+        "invite": {
+          "dialogs": {
+            "accredit_from_site": {
+              "action": "Reyestrdə akkreditasiya",
+              "snack": "Şirkətlər akkreditasiya olunub",
+              "title": "Şirkətləri seçin"
+            },
+            "invite_by_link": {
+              "hint": "Panoya kopyalamaq üçün Ctrl + C düyməsini basın",
+              "text": "Reyestrdə akkreditasiyaya dəvət etmək istədiyiniz şirkətin nümayəndəsinə linki kopyalıyın və göndərin.",
+              "title": "keçid ilə dəvət"
+            },
+            "invite_from_site": {
+              "action": "Reyestrə dəvət edin",
+              "snack": "Şirkət dəvətnamələri göndərildi",
+              "title": "Şirkətləri seçin"
+            }
+          },
+          "menu": {
+            "accredit_from_site": {
+              "descr": "Şirkətlər anket doldurmadan reyestrdə akkreditasiya alacaqlar",
+              "title": "Saytdan akkreditasiya"
+            },
+            "invite_by_link": {
+              "descr": "Reyestrdə akkreditasiya üçün dəvət keçidi",
+              "title": "keçid ilə dəvət"
+            },
+            "invite_from_site": {
+              "descr": "Şirkətlər reyestrdə akkreditasiya üçün müraciət edəcəklər",
+              "title": "Saytdan dəvət edin"
+            }
+          }
+        },
+        "scoring": {
+          "tooltip": "Müraciətin qiymətləndirilməsi"
+        }
+      }
+    }
+  }
+}

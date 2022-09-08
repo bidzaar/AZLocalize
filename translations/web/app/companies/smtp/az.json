@@ -1,0 +1,79 @@
+{
+  "cmp": {
+    "smtp": {
+      "content": {
+        "setting": {
+          "custom": {
+            "sub_text": "Serverinizdə nasazlıq olarsa, Bidzaar sizi xəbərdar edəcək və ünvanlara dəvət göndərəcək.",
+            "text": "Ünvanlar şirkətinizdən məktublar alırlar (Göndərən sahəsində şirkətin poçtu).",
+            "title": "Poçt serveriniz vasitəsilə dəvət edin"
+          },
+          "default": {
+            "btn": "Test ismarıcı göndər",
+            "settings": "Server ayarları",
+            "text": "Ünvanlar Bidzaar-dan dəvət alırlar (noreply@bidzaar.com Göndərən sahəsində)",
+            "title": "Bidzaar vasitəsilə dəvət"
+          }
+        },
+        "title": "Dəvətlərin sorğulara necə göndəriləcəyini fərdiləşdirin"
+      },
+      "dialog": {
+        "actions": {
+          "cancel": "Ləğv edin",
+          "save": "Yadda saxlayın"
+        },
+        "email": {
+          "label": "Dəvətlərin göndəriləcəyi e-poçt",
+          "placeholder": "email@mail.com"
+        },
+        "error": "Xəta baş verdi: {{error}}",
+        "name": {
+          "label": "İşçinin adı və ya şirkətin şöbəsi",
+          "placeholder": "John Smith"
+        },
+        "password": {
+          "label": "SMTP serverində avtorizasiya üçün şifrə",
+          "placeholder": "Şifrə"
+        },
+        "port": {
+          "label": "Liman"
+        },
+        "smtp": {
+          "label": "Şirkətinizin SMTP serveri",
+          "placeholder": "smtp.mail.com"
+        },
+        "ssl": {
+          "label": "SSL üzərindən təhlükəsiz əlaqə"
+        },
+        "title": "Server ayarları",
+        "username": {
+          "label": "SMTP serverində avtorizasiya üçün istifadəçi adı",
+          "placeholder": "İstifadəçi adı"
+        }
+      },
+      "header": {
+        "btn": "Profilə",
+        "title": "Dəvət məktublarının göndərilməsi"
+      },
+      "test_message_dialog": {
+        "actions": {
+          "cancel": "Ləğv edin",
+          "close": "Bağlayın",
+          "send": "Göndərin"
+        },
+        "email": {
+          "label": "Qəbul edənin e-poçtu"
+        },
+        "failure": {
+          "info": "Əmin olun: 1. Qəbul edənin e-poçtu mövcuddur 2. Server parametrləri düzgündür",
+          "text": "{{value}} ünvanına dəvət göndərmək alınmadı"
+        },
+        "success": {
+          "info": "Dəvəti tapmadınız? Spam qovluğunuzu yoxlayın və ya bir az sonra gələn məktublarınızı bir daha yoxlayın.",
+          "text": "Dəvət {{value}} ünvanına göndərildi"
+        },
+        "title": "Test dəvətinin göndərilməsi"
+      }
+    }
+  }
+}

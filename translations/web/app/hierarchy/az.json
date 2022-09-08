@@ -1,0 +1,139 @@
+{
+  "hrch": {
+    "list": {
+      "access_denied": "Qovluğa giriş qadağandır",
+      "clone_dialog": {
+        "cancel": "Ləğv et",
+        "clone": "Klonlaşdırmaq",
+        "description": "Anket, ayarlar və reyestrə giriş hüquqları reyestrin qaralamasına  ötürülür. Reyestr şirkətləri və proqramları köçürmədən klonlaşdırılır",
+        "label": "Reyestr adı",
+        "success": "Reyestr uğurla klonlaşdırıldı",
+        "title": "Reyestr Klonlaşdırması",
+        "title_additive": "Kopyala"
+      },
+      "create": "Yarat",
+      "delete_dialog": {
+        "cancel": "Ləğv et",
+        "delete": "Sil",
+        "error": {
+          "close": "Bağla",
+          "info": "<span class=\"breadcrumbs\">“ {{value}}”</span> qovluğunda obyektlər var.\nMaddələri fərqli bir qovluğa daşıyın və hərəkətləri təkrarlayın.",
+          "title": "Qovluq silinə bilməz"
+        },
+        "title": "Qovluğu sil"
+      },
+      "empty": {
+        "text": {
+          "registry": "Yeni reyestr yaradın və ya mövcud olanın yerini dəyişin"
+        },
+        "title": "Qovluq boşdur"
+      },
+      "empty_list": "Bağışlayın, heç bir reyestr mövcud deyil",
+      "folder_menu": {
+        "clone": "Klonlaşdırmaq",
+        "delete": "Sil",
+        "groups": "Qruplar və hüquqlar",
+        "move": "Yerini dəyiş",
+        "rename": "Adını dəyiş"
+      },
+      "groups_dialog": {
+        "done": "Hazırdır",
+        "groups": {
+          "add": "Qrup əlavə edin",
+          "add_tooltip": "İcazələrin tənzimlənməsi",
+          "empty": "Qrup əlavə edilməyib...",
+          "empty_permissions": "İcazələr təyin edilməyib",
+          "title": "Qruplar"
+        },
+        "title": "“{{value}}” üçün qruplar və giriş hüquqları",
+        "users": {
+          "admin_tooltip": "Qrup lideri",
+          "empty": "Qruplar əlavə edin və elementin icazələrini konfiqurasiya edin",
+          "empty_permissions": "Heç bir icazə təyin edilməyib",
+          "no_rights": "İşçiyə reyestrlərə giriş hüququ təyyin olunmayıb"
+        }
+      },
+      "move_dialog": {
+        "submit": "Yerini dəyiş"
+      },
+      "new_folder": "Yeni qovluq",
+      "new_folder_dialog": {
+        "cancel": "Ləğv et",
+        "create": "Yarat",
+        "label": "Qovluğun adı",
+        "rename_submit": "Təsdiqlə",
+        "rename_title": "Adını dəyiş",
+        "title": "Yeni qovluq"
+      },
+      "new_item": {
+        "registry": "Yeni reyestr"
+      },
+      "new_registry_dialog": {
+        "cancel": "Ləğv et",
+        "create": "Yarat",
+        "label": "Ad",
+        "title": "Yeni reyestr"
+      },
+      "permissions_dialog": {
+        "allowed_permissions": "Siyahı giriş imkanı olan  qrup icazələri ilə məhdudlaşır",
+        "cancel": "Ləğv et",
+        "group_title": "İcazə verilən hüquqlar",
+        "no_permissions": "Qrup üçün mövcud icazələr təyin edilməyib. Şöbə müdiri ilə əlaqə saxlayın",
+        "no_rights": "İşçinin Reyestr moduluna girişi yoxdur. Tənzimləmə icazələri şirkət administratoru tərəfindən giriş təmin edildikdən sonra mümkün olacaq",
+        "override": "Ötürülmüş icazələrin yenidən ",
+        "submit": "Hazırdır",
+        "user_title": "İstifadəçi icazələri"
+      },
+      "registry": {
+        "accreditations": {
+          "tooltip": "Akkreditə olunmuş şirkətlər"
+        },
+        "applications": {
+          "tooltip": "Baxılmamış müraciətlər"
+        },
+        "count": "Reyestrlər: {{value}}"
+      },
+      "registry_permissions": {
+        "1": {
+          "description": "Reyestrə daxil edilmiş şirkətlərin siyahısına baxın",
+          "title": "Şirkətlərə baxın"
+        },
+        "16": {
+          "description": "Anketdə dəyişikliklərin icrası, bağlanması, təsdiqi",
+          "title": "Reyestrin idarə edilməsi"
+        },
+        "2": {
+          "description": "Şirkət sorğularına baxmaq. Tətbiqdəki blokların görünməsi reyestr parametrlərində müəyyən edilir.",
+          "title": "Müraciətlərə bax"
+        },
+        "4": {
+          "description": "Şirkətlərin sorğularını təsdiqləyin. Akkreditasiya komissiyasının tərkibi reyestr parametrlərində müəyyən edilir.",
+          "title": "Razılaşdırma"
+        },
+        "8": {
+          "description": "Anketin və reyestr parametrlərinin konfiqurasiyası",
+          "title": "Reyestr parametri"
+        }
+      },
+      "registry_status": {
+        "0": "Qaralama",
+        "1": "Dərc olunub",
+        "2": "Bağlıdır"
+      },
+      "selection_dialog": {
+        "cancel": "Ləğv et",
+        "current_folder": "Cari qovluq"
+      },
+      "title": {
+        "registry": "Reyestrlər"
+      },
+      "users_dialog": {
+        "add_employee": "İşçi əlavə edin",
+        "admin": "Ana qovluq administratoru",
+        "close": "Bağlayın",
+        "info": "<span class=\"breadcrumbs\">“ {{value}}”</span> -ə giriş aşağıdakı imkanlara malikdir:",
+        "title": "Giriş ayarları"
+      }
+    }
+  }
+}

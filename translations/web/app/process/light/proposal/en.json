@@ -1,0 +1,130 @@
+{
+  "pl": {
+    "proposal": {
+      "nda": {
+        "title": {
+          "draft": "Prequalification / NDA",
+          "submitted": "Prequalification / NDA: application pending",
+          "rejected": "Prequalification / NDA: application rejected",
+          "accepted": "Prequalification / NDA passed",
+          "failed": "Prequalification / NDA failed"
+        },
+        "description": "Description of prequalification",
+        "files_title": "NDA prequalification application documents",
+        "files_info": "Upload the documents for review/filling out",
+        "your_application": "Your application for prequalification / NDA",
+        "add_files_text": "Add signed agreement and other required documents",
+        "add_files_update_text": "Add updated agreement and other required documents",
+        "send": "Send",
+        "errors": {
+          "empty": "Documents have not been uploaded",
+          "correct": "Correct and update the application"
+        }
+      },
+      "card": {
+        "title": {
+          "my": "My bid",
+          "alternative": "My alternative bid"
+        },
+        "rank": {
+          "by_proposal": "the rank of your proposal",
+          "by_position": "ranks by position",
+          "label": "Quantity with ranks: 1 (green positions), 2 (yellow), 3 or lower (red)"
+        },
+        "price": {
+          "title": "Price of your proposal",
+          "info": "Total price of your offer"
+        },
+        "positions": {
+          "title": "Items specification",
+          "action": "Fill in",
+          "statistics": {
+            "editable": "Filled {{ value }} from {{ count }} positions",
+            "notFull": "In stock: {{ stock }}, out of stock: {{ missing }}",
+            "full": "Full {{ count }} of {{ count }} positions",
+            "notFullSubmitted": "Submitted: {{ stock }}, out of stock: {{ missing }}",
+            "fullSubmitted": "Submitted {{ count }} from {{ count }} positions"
+          }
+        },
+        "questionnaire": {
+          "title": "Non-price criteria",
+          "action": "Answer",
+          "statistics": {
+            "editable": "Provided {{ value }} of {{ count }} responses",
+            "full": "Answers provided"
+          }
+        },
+        "documents": {
+          "title": "Commercial bid and documentation",
+          "sub_title": "Documents: {{value}}",
+          "action": "Attach",
+          "empty": "You can add all the documentation at the summing up.\nCustomers welcome the availability of a commercial offer."
+        },
+        "actions": {
+          "submit": "Submit bid",
+          "more": "More",
+          "change": "Change proposal",
+          "update": "Update proposal",
+          "cancel": "Cancel changes",
+          "recall": "Withdraw the offer",
+          "order_service": "Order service"
+        },
+        "with_vat": "incl. VAT",
+        "without_vat": "excl. VAT"
+      },
+      "alternative": {
+        "title": "Alternative proposal",
+        "info": "To start preparing an alternative proposal, click the button below.",
+        "prepare": "Prepare proposal"
+      },
+      "nonexistent": {
+        "title": "My proposal",
+        "info": "Request completed, proposal submission not possible"
+      },
+      "acceptance_end_date": {
+        "title": "Acceptance of proposals before",
+        "time_left": "Left"
+      },
+      "contact_info": {
+        "title": "Participant's contact person",
+        "change": "Change"
+      },
+      "actions": {
+        "refuse": "Refuse to participate"
+      },
+      "refused": {
+        "title": "Your company has refused to participate in the request",
+        "sub_title": "You can return to the request and submit an offer\nbefore the deadline for accepting offers {{value}}",
+        "return": "Return to the request"
+      },
+      "unavailable": {
+        "title": "Acceptance of offers is completed",
+        "message": "Chat with the customer"
+      },
+      "blocked": {
+        "title": "The customer excluded you from the request",
+        "sub_title": "You cannot participate in the request at the discretion of the customer.\nTo clarify the details, contact the customer"
+      },
+      "status": {
+        "0": "Not submitted",
+        "1": "Submitted",
+        "2": "Recalled",
+        "changing": "Changing"
+      },
+      "owner": {
+        "title": "Owner"
+      },
+      "confirm_recall_dialog": {
+        "title": "Withdraw the offer?",
+        "text": "To the customer and other participants this offer will be unavailable.\nOffer can be edited and submit again before summing up",
+        "cancel": "Cancel",
+        "submit": "Withdraw the offer"
+      },
+      "esg": {
+        "title": "Sustainable growth of your business",
+        "text": "Certify and get your ESG provider status",
+        "link": "More about ESG"
+      }
+    }
+  }
+}

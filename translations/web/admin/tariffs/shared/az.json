@@ -1,0 +1,17 @@
+{
+  "trf.shared": {
+    "default": "[AT] Default tarif",
+    "code": {
+      "value": "[AT] Kod: {{value}}",
+      "empty": "[AT] Kod göstərilməyib"
+    },
+    "name": {
+      "empty": "[AT] Adı göstərilməyib"
+    },
+    "status": {
+      "0": "[AT] Qaralama",
+      "1": "[AT] Fəaliyyət göstərən",
+      "2": "[AT] Fəaliyyət göstərən deyil"
+    }
+  }
+}

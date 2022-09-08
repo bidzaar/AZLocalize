@@ -1,0 +1,40 @@
+<mjml>
+  <!-- 
+Тема: 👋 @компания приглашает на Procure.az
+Получатель: пользователь на имейл, указанный УК при приглашении
+
+УК пригласил пользователя присоединиться к компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@CompanyContext.CompanyName Sizi ProcureSaaS-a dəvət edir</h1>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl@ActionUrlPrecontext.Url">Şirkətə qoşul</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <h2>ProcureSaaS – nədir?</h2>
+          <p><b>ProcureSaaS</b> – təchizatçıların və sifarişçilərin sosial şəbəkəsi prinsipi əsasında yaradılmış yeni tipli ticarət platformasıdır.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

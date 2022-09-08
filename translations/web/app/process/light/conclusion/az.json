@@ -1,0 +1,312 @@
+{
+  "pl": {
+    "cnc": {
+      "enums": {
+        "reason": {
+          "0": "Digər",
+          "1": "Müvafiq təkliflər yoxdur",
+          "2": "Ehtiyac yoxdur sorğu etmək"
+        },
+        "commission": {
+          "0": "Faktura hazırlanması",
+          "1": "Ödəniş gözləyir",
+          "2": "Qismən ödənilmiş",
+          "3": "Evde cekilmis"
+        }
+      },
+      "forbidden": {
+        "message": {
+          "owner.status": "Sorğuların qəbulu mərhələsində təşkilatçı iştrakçıların təkliflərinə girişi qadağan edib",
+          "owner.version": "Yekunların hazırlanması sorğunu dərc olunmasından sonra mümkündür",
+          "participant.canceled": "Təəssüf ki, bu sorğu sahibi tərəfindən ləğv edildi."
+        },
+        "title": {
+          "owner.status": "Sorğunun yekun nəticələri",
+          "owner.version": "Sorğunun yekun nəticələri",
+          "participant.canceled": "Sorğunun yekun nəticələri"
+        }
+      },
+      "content": {
+        "common": {
+          "protocols": {
+            "title": "Tender komissiyasının protokolları və sənədləri",
+            "upload": "Protokolu və ya digər sənədi dərc edin",
+            "empty": "[AT] Tender komissiyasının protokolları və sənədləri yüklənmir"
+          },
+          "message": {
+            "default": {
+              "1": {
+                "header": "[AT] Sorğunun nəticələri",
+                "notice": "[AT] Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
+              },
+              "2": {
+                "header": "[AT] Sorğunun nəticələri",
+                "notice": "[AT] Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
+              },
+              "3": {
+                "header": "[AT] Sorğu başa çatdı",
+                "notice": "[AT] Təşkilatçı yekun vurub və tələbi başa çatdırıb"
+              },
+              "4": {
+                "header": "[AT] Sorğu ləğv edildi",
+                "notice": "[AT] Təşkilatçı sorğunun keçirilməsini ləğv etdi"
+              }
+            },
+            "orders": {
+              "winner": "[AT] Tebrik edirik! Sifarişçi sizi qalib seçdi!",
+              "looser": "[AT] Sifarişçi başqa bir şirkətin qalibini seçdi",
+              "nobody": "[AT] Sorğu qalib seçilməsi olmadan başa",
+              "comment": "[AT] Təşkilatçının şərhləri",
+              "questions": "[AT] Sualınız varmı?",
+              "message": "[AT] Müştəri ilə əlaqə saxlayın."
+            }
+          },
+          "requests": {
+            "text": "[AT] Profilinizə görə digər sorğuları tapın",
+            "open": "[AT] Axtar"
+          },
+          "payment": {
+            "title": "[AT] Xidmət operatoru Komissiyası",
+            "delay": "[AT] Haqq-hesab vasitəsilə göndəriləcək {{ value }} sorğu başa çatdıqdan sonra gün",
+            "email": "[AT] Hesab sizin şirkətin e-poçtuna yönəlib",
+            "agreement": "[AT] Uyğun komissiya <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">İstifadəçi Saziş</a>"
+          }
+        },
+        "owner": {
+          "canceled_orders": {
+            "order_title": "Ləğv et",
+            "reason": "Səbəb",
+            "title": "Ləğv edilmiş sifarişlər ({{value}})"
+          },
+          "documents": {
+            "title": "Mərhələ sənədləri",
+            "stages": {
+              "active": "Cari",
+              "title": "Mərhələ {{ index }}"
+            },
+            "files": {
+              "comparison": "Müqayisə siyahısı",
+              "messages": "Çatlardan gələn mesajlar",
+              "participants": "Mərhələrin iştirakçıları",
+              "proposals": "Təkliflərin tarixçəsi",
+              "versions": "Sorğu növü"
+            }
+          },
+          "orders": {
+            "active": {
+              "actions": {
+                "clear": "Sorğunu sil",
+                "create": "Sifarişi formalaşdır",
+                "with": "Sorğunu tamamla",
+                "without": "Sifariş olmadan sorğunu tamamlayın"
+              },
+              "list": {
+                "contacts": {
+                  "title": "Əlaqəli şəxs"
+                },
+                "documents": {
+                  "chat": "İştirakçı ilə çat",
+                  "order": "Sifariş",
+                  "proposal": "Təklif",
+                  "title": "Sənədlər"
+                },
+                "reports": {
+                  "notice": "Express hesabatları qarşı tərəf haqqında ən vacib şeyləri tez və asanlıqla öyrənməyə kömək edir. Yalnız yoxlanılmış təchizatçılar üçün mövcuddur.",
+                  "title": "Ekspress hesabatlar"
+                },
+                "title": "Sifariş"
+              },
+              "stub": {
+                "notice": "Müqayisə bölməsində sifariş verin",
+                "text": "Sifariş yoxdur"
+              },
+              "vat": {
+                "false": "ƏDV-siz",
+                "true": "ƏDV daxil"
+              }
+            },
+            "alternative": {
+              "icon": "a",
+              "tooltip": "Alternativ təklif - {{value}}"
+            },
+            "canceled": {
+              "stub": {
+                "text": "Sorğu ləğv edildi"
+              }
+            },
+            "docs": {
+              "order": "Sifariş",
+              "sentence": "Cümlə"
+            },
+            "finished": {
+              "stub": {
+                "text": "Sorğu sifarişsiz tamamlandı"
+              }
+            }
+          },
+          "participations": {
+            "active": "İştirak etdi",
+            "proposals": "Təklif təqdim edilib",
+            "title": "İştirakçılar",
+            "total": "Dəvət olunanlar daxil olmaqla cəmi",
+            "winners": "Qaliblər"
+          },
+          "savings": {
+            "stubs": {
+              "budget": {
+                "notice": "Sorğunun büdcəsi təyin edillməyib",
+                "text": "Sorğunun büdcəsinə nisbətdə qənaət"
+              },
+              "proposals": {
+                "notice": "Hesablamalar aşağıdakı hallarda mümkündür: \n(1) Tender təklifinin həcmi “Maddələrdən və onların miqdarından tam razı” ilə qeyd olunarsa, \n(2) Sifariş yalnız bir iştirakçının təklifini ehtiva edir.",
+                "text": "İştirakçıların təkliflərinin qiymətləri ilə nisbətdə qənaət"
+              }
+            },
+            "title": {
+              "completed": {
+                "text": "Qənaət"
+              },
+              "progress": {
+                "text": "Mümkün qənaət",
+                "tooltip": "Sorğunun sifarişlə tamamlandığı halda"
+              }
+            },
+            "values": {
+              "average": "iştrakçıların ilkin təkliflərinin orta qiyməti ilə müqayisədə",
+              "best": "ən yaxşı ilkin təklifin qiyməti ilə müqayisədə",
+              "budget": "sorğu büdcəsinə nisbətdə ({{ value }} {{ currency }})",
+              "custom": "sifarişçinin fikrinə görə",
+              "winner": "qalibin başlanğıc təklifinin qiymətinə nisbətdə"
+            }
+          },
+          "canceled": {
+            "title": "[AT] Ləğv edilmiş sifarişlər ({dəyər}})",
+            "order_title": "[AT] Ləğv",
+            "reason": "[AT] Səbəb"
+          }
+        },
+        "dialogs": {
+          "messages_reports": {
+            "broadcast": "Bütün iştirakçılarla kanal",
+            "empty": "İştirakçılarla çat müvcud deyil",
+            "header": "Çatlardan gələn mesajlar",
+            "participants": "İştirakçılar ilə çat",
+            "team": "Komanda chatı"
+          },
+          "no_rights_to_complete": {
+            "text": "Yalnız sahibi sorğunu tamamlaya bilər.",
+            "title": "Yetərincə hüququ yoxdur"
+          },
+          "request_completion": {
+            "cancel": "ləğv et",
+            "header": {
+              "false": "Sifariş vermədən tamamlayın",
+              "true": "Sifariş verməklə tamamlayın"
+            },
+            "order": {
+              "false": {
+                "notEmpty": "Xana boş olmamalıdır",
+                "not_needed": "Sorğunun keçirilməsində ehtiyac yoxdur",
+                "not_suitable": "Uyğun təkliflər yoxdur",
+                "other": "Digər",
+                "placeholder": "Səbəb",
+                "reason": "Səbəbi göstərin:",
+                "required": "Tələb edilən xana",
+                "text": "Sifarişiniz formalaşmayıb."
+              },
+              "true": {
+                "text": "Sifarişiniz: "
+              },
+              "vat": {
+                "false": "ƏDV-siz",
+                "true": "ƏDV daxil"
+              }
+            },
+            "submit": "Tamamla",
+            "success": "Sorğu başa çatdı. İştirakçılara mesajlar göndərildi",
+            "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz",
+            "true": {
+              "header": "[AT] Sorğu başa",
+              "text": "[AT] Sizin sifariş:"
+            },
+            "false": {
+              "header": "[AT] Sifariş olmadan sorğunun tamamlanması",
+              "text": "[AT] Sifarişiniz formalaşmayıb.",
+              "reason": "[AT] Səbəbi göstərin:",
+              "comment": "[AT] Səbəb..."
+            },
+            "vat": {
+              "true": "[AT] ƏDV ilə",
+              "false": "[AT] ƏDV olmadan"
+            },
+            "actions": {
+              "cancel": "[AT] Ləğv et",
+              "submit": "[AT] Bitirin",
+              "success": "[AT] Sorğu başa çatdı. İştirakçılara mesajlar göndərilib"
+            }
+          },
+          "saving_editor": {
+            "editable": {
+              "cancel": "ləğv et",
+              "hint": "Sorğu valyutasında",
+              "next": "Yadda saxla",
+              "text": "Qənaət  təşkil etdi:"
+            },
+            "header": "Qənaət",
+            "readonly": {
+              "cancel": "Növbəti",
+              "text": "Qənaət sorğu tamamlandıqdan sonra mümkündür."
+            }
+          },
+          "versions_reports": {
+            "active": "aktiv",
+            "draft": "Qaralama",
+            "header": "Sorğu növləri",
+            "history": "Dəyişikliklər tarixçəsi",
+            "inactive": "Qeyri-aktiv",
+            "notice": "Sorğu bildirişi"
+          }
+        },
+        "participant": {
+          "message": {
+            "notice": {
+              "active": "Təşkilatçı tərəfindən sorğu yekunlaşdıqdan sonra hazır olacaq."
+            },
+            "text": {
+              "active": "Sorğuların yekun nəticələri",
+              "canceled": "Sorğu ləğv edildi",
+              "finished": "Sorğu tamamlandı"
+            }
+          },
+          "order": {
+            "chat": "Sifarişçi ilə əlaqə saxlayın",
+            "download": "Sifarişi yüklə",
+            "factoring": {
+              "phone": "Xidməti sifariş etmək və əlavə məlumat almaq üçün\nbizimlə telefonla əlaqə saxlayın",
+              "text": "Faktorinq, alıcı sifariş üçün ödəniş etməmişdən əvvəl satıcıya pulu almağa kömək edəcək. Bu, kassada pul boşluqlarının qarşısını alacaq.",
+              "title": "Sifariş faktorinqi"
+            },
+            "loser": "Müştəri qalib kimi başqa şirkəti seçdi.",
+            "nobody": "Sorğu qalib seçilmədən tamamlandı.",
+            "proposal": {
+              "alter": "Alternativ {{ index }}",
+              "my": "Mənim təklifim"
+            },
+            "questions": "Hər hansı bir sualınız var?",
+            "winner": "Təbrik edirik, sifariş aldınız!"
+          },
+          "orders": {
+            "title": "[AT] Sifariş",
+            "my": "[AT] Mənim təklifim",
+            "alter": "[AT] Alternativ {{ index }}"
+          },
+          "promo": {
+            "title": "[AT] Sifarişi yerinə yetirmək üçün mal və xidmətləri satın alın",
+            "text": "[AT] Bizim menecerlər sizə kömək edəcək <b>pulsuz</b> qısa müddət ərzində satın alın!",
+            "order": "[AT] Satın alma sifariş"
+          }
+        }
+      }
+    }
+  }
+}

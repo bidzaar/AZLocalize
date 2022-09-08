@@ -1,0 +1,61 @@
+{
+  "bdz.cmp": {
+    "enums": {
+      "employees": {
+        "0": "1–10",
+        "1": "11–50",
+        "2": "51–100",
+        "3": "101–250",
+        "4": "251–500",
+        "5": "more than 500"
+      },
+      "payment": {
+        "0": "Free participation",
+        "1": "Supplier only",
+        "2": "Customer only",
+        "3": "Predominantly supplier",
+        "4": "Predominantly customer"
+      }
+    },
+    "number": {
+      "short": "ID {{ value }}",
+      "long": "Company ID {{ value }}"
+    },
+    "stars": {
+      "text": "Assessment of the activity and reliability of the company. Customers consider rating when choosing suppliers",
+      "more": "Learn more"
+    },
+    "activity": {
+      "text": "Activity indicator. Companies with green activity respond to requests more often and are reliable suppliers"
+    },
+    "marker_verify": {
+      "false": {
+        "title": "Information is not verified",
+        "text": "This company has not been checked by the quality control service.",
+        "more": "Learn more"
+      },
+      "true": {
+        "title": "Verified by Bidzaar",
+        "notice": "This company has been checked\nby quality control service",
+        "text": "Proven suppliers are more trustworthy and receive orders more often",
+        "more": "Learn more"
+      }
+    },
+    "marker_phantom": {
+      "text": "phantom"
+    },
+    "marker_deleted": {
+      "text": "deleted"
+    },
+    "marker_hidden": {
+      "text": "does not appear in lists"
+    },
+    "marker_esg": {
+      "title": "ESG",
+      "text": "The company received ESG certification"
+    },
+    "contact": {
+      "empty": "No contact details"
+    }
+  }
+}

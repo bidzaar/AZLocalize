@@ -1,0 +1,50 @@
+<mjml>
+  <!-- 
+Тема: 🔒 Приём предложений завершен
+Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
+
+Запрос переведен на этап Подведение итогов
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 style="color:#AD1457">Sorğunu yekunlaşdırın və tamamlayın</h1>
+          <p><b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Yekunlaşdırma:</b>@ProcedureContext.AcceptanceEndDate</p>
+          <div style="padding: 16px; background: #CB0C00; color: #ffffff">
+            <p class="mb05 mt0"><b>Niyə sorğunu tamamlamaq vacibdir?</b></p>
+            <ul class="small">
+              <li>Müqavilənin pozulması riski yekunlaşdırma uzun müddət sürdüyü zaman artır</li>
+              <li>Təchizatçıların qiymət teklifləri öz aktuallığını itirə bilər</li>
+              <li>Şirkətinizin biznes reytingi enir</li>
+            </ul>
+          </div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p class="mb05"><b>Növbəti addımlarınız</b></p>
+          <ol>
+            <li>Çatda təchizatçılara təkliflərin nəzərdən keçirilmə gedişatı haqqında məlumat verin. <a href="@ProcedureContext.UrlProposal">Göndərilən təkliflər.</a></li>
+            <li><a href="@ProcedureContext.UrlConclusion">Əldə etmiş qənaəti nəzərdən keçirdin</a></li>
+            <li>Sorğunu qalibin seçilməsi və ya seçilməməsi ilə tamamlayın</li>
+          </ol>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+        <mj-text>          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

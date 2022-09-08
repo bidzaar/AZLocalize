@@ -1,0 +1,265 @@
+{
+  "bdz.qst": {
+    "request": {
+      "condition_types": {
+        "contains": "Ehtiva edir",
+        "doesnotcontains": "Tərkibində yoxdur",
+        "eq": "Bərabərdir",
+        "gt": " Daha böyükdür",
+        "gte": "Daha çox və ya bərabər",
+        "inrange": "Aralıqda",
+        "lt": "Daha az",
+        "lte": "Daha az və ya bərabərdir",
+        "neq": "Bərabər deyil",
+        "notnull": "",
+        "null": "",
+        "outofrange": "Diapazonda deyil"
+      },
+      "conditions": {
+        "0": "Bərabərdir",
+        "1": "Bərabər deyil",
+        "2": "Daha az",
+        "3": "Daha az və ya bərabərdir",
+        "4": "Daha böyükdür",
+        "5": "Daha çox və ya bərabərdir",
+        "6": "Aralıqda",
+        "7": "Diapazonda deyil",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "Cavab verilməyib"
+      },
+      "editor": {
+        "actions": {
+          "close": "Yadda saxla",
+          "close_and_create": "Yadda saxla və sual əlavə et",
+          "delete": "Sil"
+        },
+        "change_type_dialog": {
+          "cancel": "Ləğv et",
+          "change": "Dəyişmək",
+          "text": "Sual növünün dəyişdirilməsi keçid məntiqi məlumatlarının itirilməsi ilə nəticələnəcək",
+          "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
+        },
+        "defaults": {
+          "group": "Yeni qrup",
+          "input": "Yeni sual",
+          "select": "Yeni sual"
+        },
+        "fields": {
+          "comment": "Təsvir (məcburi deyil)",
+          "text": "Sualın mətni",
+          "type": "Cavab növü",
+          "group": "[AT] Bölmə adı"
+        },
+        "logic": {
+          "add_go_to": "Keçid əlavə edin",
+          "default_next_question": "Başqa şərt göstərilməyibsə, keçin",
+          "end_quiz": "Sorğunun növü",
+          "go_to": "o zaman keçid etmək",
+          "if_answer": "Cavab olarsa",
+          "next_question": "Növbəti sual",
+          "no_response_provided": "Cavab verilməyib",
+          "question_selector_dialog": {
+            "apply": "Tətbiq et",
+            "cancel": "Ləğv et",
+            "end_quiz": "Sorğunun sonu",
+            "found": "Tapılmışdır",
+            "go_to": "Keçmək",
+            "next_question": "Növbəti sual",
+            "next_questions": "Növbəti suallar",
+            "questions": "Suallar",
+            "search": "Axtarış..."
+          },
+          "validation": {
+            "wrong_target": "Keçid nöqtəsi mövcud sualın üstündədir. Keçid məntiqi looping qarşısını almaq üçün tətbiq edilmir."
+          },
+          "widgets": {
+            "number_range": {
+              "from": "from",
+              "in": "Aralıqda",
+              "out": "əhatə dairəsi xaricində",
+              "to": "to"
+            }
+          }
+        },
+        "parameters": {
+          "comments": "Cavab haqqında şərh yazmağa icazə vermək",
+          "files": "Cavab üçün faylların əlavə edilməsinə icazə vermək"
+        },
+        "points": {
+          "add_answer": "cavab əlavə etmək",
+          "answer": "Cavab",
+          "default_points": "Aşağıdakılardan başqa bütün cavablar üçün",
+          "notice": {
+            "multiple": {
+              "text": "Ümumi xal = Seçilmiş cavabların xallarının cəmi",
+              "title": "Sual üçün ümumi xal"
+            }
+          },
+          "point": "xal"
+        },
+        "tabs": {
+          "content": "Redaktor",
+          "logic": "Məntiq",
+          "parameters": "Parametrlər",
+          "points": "Xal"
+        },
+        "validation": {
+          "common": {
+            "pattern": "{{value}} — qadağan olunmuş simvollar",
+            "toggle": "Təsdiqləndirmə"
+          },
+          "number": {
+            "is_integer": "Tam ədədlər"
+          },
+          "number_range": {
+            "max": "Maksimal dəyər",
+            "min": "Minimal dəyər"
+          },
+          "tree": {
+            "required": "Cavab məcburidir"
+          },
+          "value_placeholders": {
+            "range": {
+              "end": "To...",
+              "start": "From..."
+            },
+            "value": {
+              "boolean": "",
+              "datetime": "Tarixi daxil edin...",
+              "input": "",
+              "multiple": "",
+              "number": "Nömrəni daxil edin...",
+              "select": ""
+            }
+          }
+        },
+        "widgets": {
+          "common": {
+            "answer": "Cavab:"
+          },
+          "formula": {
+            "editor": {
+              "controls": {
+                "actions": {
+                  "success_validation": "Formula düzgündür",
+                  "validate": "Təsdiqlə"
+                },
+                "operators": {
+                  "formulas": "Dəyişənlər",
+                  "groups": "Qrup üçün xalların cəmi",
+                  "operands": "Operandlar..."
+                }
+              }
+            },
+            "information": {
+              "description": "Operandlardan, ədədlərdən və +-*/() əməliyyatlardan istifadə edin. Ədədin tam və kəsr hissələrinin ayırıcısı nöqtədir, məsələn: 5.45. Yazdıqdan sonra formuladan yoxlayın.",
+              "name": "Formula"
+            },
+            "parameters": {
+              "precision": "Onluq yerlərin sayı"
+            },
+            "validation": {
+              "wrongFormat": "Formula xətası"
+            }
+          },
+          "select": {
+            "create": "seçimi əlavə edin",
+            "delete": "Seçimi sil",
+            "placeholder": "Cavab seçimini qeyd edin",
+            "text": "Seçim {{index}}"
+          },
+          "tree": {
+            "download_template": "Şablonu endir",
+            "error": {
+              "info": "Referans şablonuna baxın və yenidən cəhd edin",
+              "title": "Fayl yüklənməyib."
+            },
+            "loader_text": "Kataloq yüklənir...",
+            "upload": "Yeni kataloq yükləmək"
+          }
+        }
+      },
+      "list": {
+        "actions": {
+          "create_group": "Qrup əlavə edin",
+          "create_object": "Sual əlavə etmək",
+          "delete": "Sil",
+          "more": "Əlavə olaraq"
+        },
+        "condition": {
+          "tooltip": "Sual keçid məntiqini ehtiva edir"
+        },
+        "formula": {
+          "tooltip": " Dəyişən sual növü"
+        }
+      },
+      "validation_types": {
+        "boolean": "",
+        "datetime": "Tarix",
+        "input": "Xəttin uzunluğu",
+        "multiple": "Çoxsaylı seçim",
+        "number": "Rəqəm",
+        "select": "Tək seçim"
+      },
+      "visual_types": {
+        "attachment": "Qoşma",
+        "boolean": "Bəli/Xeyr",
+        "datetime": "Tarix",
+        "formula": "Dəyişən",
+        "group": "Qrup",
+        "input": "Mətn",
+        "multiple": "Çoxsaylı seçim",
+        "number": "Rəqəm",
+        "number_range": "Nömrə Aralığı",
+        "object": "Sual",
+        "select": "Tək seçim",
+        "tree": "Kataloqdan seçim"
+      }
+    },
+    "response": {
+      "wizard": {
+        "actions": {
+          "backward": {
+            "title": "Öncəki"
+          },
+          "forward": {
+            "title": "Növbəti"
+          },
+          "to_first": {
+            "title": "Əvvələ"
+          }
+        },
+        "item": {
+          "comment": {
+            "placeholder": "Şərh..."
+          },
+          "input": {
+            "placeholder": "Sizin cavab..."
+          },
+          "number": {
+            "placeholder": "Rəqəm..."
+          },
+          "datetime": {
+            "placeholder": "Tarix..."
+          },
+          "files": {
+            "upload": "Fayl yükləmək"
+          },
+          "number_range": {
+            "min": "Minimal dəyər",
+            "max": "Maksimal dəyər"
+          },
+          "final": {
+            "title": "Hazırdır!",
+            "info": "Anket bloku tamamlandı"
+          },
+          "tree": {
+            "empty": "Siyahıdan dəyər seçin və əlavə edin..."
+          }
+        }
+      }
+    }
+  }
+}

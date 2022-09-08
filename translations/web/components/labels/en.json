@@ -1,0 +1,36 @@
+{
+  "bdz.lbs": {
+    "edit": {
+      "title_create": "create label",
+      "title_edit": "edit label",
+      "create": "create",
+      "cancel": "cancel",
+      "save": "save",
+      "delete": "delete label"
+    },
+    "choose": {
+      "title": "Assign label",
+      "create": "create",
+      "apply": "apply"
+    },
+    "delete": {
+      "title": "remove label?",
+      "linked": "label is associated with companies: ({{value}})",
+      "not_linked": "label is not associated with companies",
+      "cancel": "cancel",
+      "delete": "delete"
+    },
+    "filters": {
+      "empty": "Open the profile of one of the companies, then create and label it.\nLabels will help you group companies and assign them different statuses."
+    },
+    "validation": {
+      "notEmpty": "Field must not be empty",
+      "required": "Field is required"
+    },
+    "assign_label": "Assign label",
+    "empty": "Labels are not found",
+    "no_labels": "You have no labels",
+    "search": "Search...",
+    "show_labels": "Show labels"
+  }
+}

@@ -1,0 +1,132 @@
+{
+  "prs": {
+    "dates": {
+      "canceled": "Ləğv edildi",
+      "created": "Yaranma tarixi",
+      "finished": "Tamamlanma tarixi",
+      "left": "{{value}} qaldı",
+      "published": "Dərc olunub",
+      "receive_offers_until": "Təkliflərin qəbulu "
+    },
+    "empty_list": "Sorğunuz üçün heç bir nəticə tapılmadı...",
+    "enums": {
+      "participant_business_status": {
+        "0": "Sifarişlər alınıb",
+        "1": "Təklif təqdim olunub",
+        "10": "Bloklanıb",
+        "2": "Təkliflərin hazırlanması",
+        "3": " İlkin kvalifikasiya və NDA sənədləri təqdim olundu",
+        "4": "İlkin kvalifikasiyaya hazırlıq",
+        "5": "Sorğuları nəzərdən keçirib",
+        "6": "Dəvətləri nəzərdən keçirib",
+        "7": "Dəvət edilib",
+        "8": "",
+        "9": "iştirakdan imtina"
+      },
+      "status": {
+        "0": "Qaralama",
+        "1": "Təkliflərin qəbulu",
+        "2": "Yekunlaşdırma",
+        "3": "Tamamlanmışdır",
+        "4": "Ləğv edilib"
+      }
+    },
+    "filters": {
+      "acceptance_end_date": {
+        "title": "Təklifin qəbulu"
+      },
+      "budget": {
+        "title": "Büdcə"
+      },
+      "creation_date": {
+        "title": "Yaranma tarixi"
+      },
+      "customer": {
+        "choose": "Sifarişçiləri seçin",
+        "title": "Sifarişçi"
+      },
+      "default": "defolt olaraq",
+      "favorite": {
+        "title": "★ İlk öncə seçilmişlər"
+      },
+      "finish_date": {
+        "title": "Tamamlanma tarixi"
+      },
+      "joins_count": {
+        "title": "iştirak edənlərin ümumi sayı"
+      },
+      "location": {
+        "title": "Çatdırılma yeri"
+      },
+      "participant_status": {
+        "title": "Satıcı statusu"
+      },
+      "participants_quantity": {
+        "title": "Dəvətlilər daxil olmaqla bütün iştirakçılar"
+      },
+      "publish_date": {
+        "title": "Dərc olunan tarix"
+      },
+      "search_tooltip": "Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Teqlər\n• Sifarişçi",
+      "status": {
+        "title": "Status"
+      },
+      "tags": {
+        "from_company": "Müvafiq teqlər əlavə edin +",
+        "title": "Sorğunun teqləri"
+      },
+      "team": {
+        "title": "Komanda"
+      },
+      "total_active_proposals": {
+        "title": "Təkliflərin miqdarı"
+      },
+      "type": {
+        "private": "Bağlı",
+        "public": "Açıq",
+        "title": "Sorğunun növü"
+      }
+    },
+    "list_item": {
+      "budget": "Büdcə",
+      "chats_tooltip": "Yeni mesajlar",
+      "order_price": "Sifarişin qiyməti",
+      "owners": "Sorğunun sahibləri ({{value}})"
+    },
+    "manager": {
+      "search_tooltip": "Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Sorğu teqləri"
+    },
+    "my": {
+      "create": "Sorğu yaratmaq",
+      "export": "Endir",
+      "manager_title": "Şirkətin bütün sorğuları",
+      "title": "Mənim sorğularım"
+    },
+    "participantions": {
+      "rank": "Rəqiblər arasında dərəcə reytingi",
+      "title": "Satınalmada iştirak"
+    },
+    "private": "Bağlı",
+    "public": {
+      "from": "from\n",
+      "left": "{{value}} qaldı",
+      "tarrifs_popover": {
+        "button": "Status əldə etmək",
+        "button_verified": "Yoxlama bitdi",
+        "text": "Sifarişçinin istəyi ilə iştirakçılar “Yoxlanmış Təchizatçı” statusuna malik olmalıdırlar.",
+        "title": "Yalnız yoxlanılmış təchizatçılar üçün sorğu"
+      },
+      "title": "Sorğunun axtarışı",
+      "until": "Əvvəl"
+    },
+    "rank": {
+      "label": "Təklifin dərəcəsi",
+      "not_available": "Təklif dərəcəsi təklifdəki maddəyə görə yayınmaya icazə verilmiş sorğular üçün hesablanmır"
+    },
+    "statistics": {
+      "participants": "İştirak etdi",
+      "proposals": "Təklifi olan iştirakçılar"
+    },
+    "views_count": "Baxışların miqdarı"
+  }
+}

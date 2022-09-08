@@ -1,0 +1,19 @@
+{
+  "req.positions": {
+    "title": "Maddə üzrə spesifikasiya",
+    "price": {
+      "auction": {
+        "label": "Min. vahid başına qiymət",
+        "tooltip": "Təchizatçının təklif edə biləcəyi ən aşağı qiymət / Təchizatçı daha aşağı qiymət təklif edə bilməz"
+      },
+      "reduction": {
+        "label": "Maks. vahid başına qiymət",
+        "tooltip": "Təchizatçının təklif edə biləcəyi ən yüksək qiymət / Təchizatçı göstərilən qiyməti keçə bilməz"
+      },
+      "price_up_down": {
+        "label": "Gözlənilən vahid qiyməti",
+        "tooltip": "Təchizatçıdan gözlənilən hər bir maddə üzrə qiymət / Müştəri müəyyən edilmiş və ya daha aşağı qiymət gözləyir"
+      }
+    }
+  }
+}

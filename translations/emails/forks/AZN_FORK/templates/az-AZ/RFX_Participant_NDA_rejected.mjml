@@ -1,0 +1,33 @@
+<mjml>
+  <!-- 
+Тема: Заявка на участию отклонена
+Получатель: сотрудники компании-участника с правом Продажина на имейлы, указанные при логине 
+
+Организатор отклонил заявку участника после рассмотрения заявки на предквалификацию / NDA
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h1> Sorğuda iştirak üçün müraciət imtina olundu </h1>
+          <h2> @TargetContext.CompanyName şirkətindən İlkin kvalifikasiya üçün müraciət imtina olundu</h2>
+          <p>
+            <b>Sorğu:</b> @ProcedureContext.ProcedureName <br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate </p>
+          <p>İmtina səbəbi sorğunun çatında qeyd olunub. Təkrar təklif sorğunun redaktəsindən sonra mümkündür.</p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,50 @@
+{
+  "bdz.rgs": {
+    "list": {
+      "0": {
+        "short": "Rights are not defined",
+        "long": "Rights are not defined"
+      },
+      "1": {
+        "short": "RFx",
+        "long": "RFx"
+      },
+      "2": {
+        "short": "Supplier",
+        "long": "Supplier"
+      },
+      "4": {
+        "short": "Request Accred.",
+        "long": "Request Accreditation"
+      },
+      "8": {
+        "short": "Manage Accred.",
+        "long": "Manage Accreditation Pools"
+      },
+      "16": {
+        "short": "CM",
+        "long": "Manage Company"
+      },
+      "128": {
+        "short": "CPO",
+        "long": "Chief Procurement Officer"
+      },
+      "256": {
+        "short": "Manage groups",
+        "long": "Manage groups"
+      },
+      "512": {
+        "short": "Vendor Registration",
+        "long": "Vendor Registration"
+      },
+      "1024": {
+        "short": "Vendor Lists",
+        "long": "Vendor Lists"
+      },
+      "2048": {
+        "short": "CVO",
+        "long": "Chief Vendor Officer"
+      }
+    }
+  }
+}

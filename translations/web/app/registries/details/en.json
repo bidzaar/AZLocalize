@@ -1,0 +1,210 @@
+{
+  "rgs": {
+    "dst": {
+      "accreditation": {
+        "header": {
+          "actions": "Actions"
+        },
+        "general": {
+          "title": "Registry \"{{ value }}\"",
+          "representer": {
+            "label": "Representer"
+          },
+          "participant": {
+            "label": "About company",
+            "details": "Company details"
+          },
+          "blocking": {
+            "label": "Reason for exclusion"
+          },
+          "refusing": {
+            "label": "Reason for refusal"
+          },
+          "accreditation": {
+            "label": "Included in registry",
+            "application": "Application",
+            "protocol": "Protocol of the commission work",
+            "open_application": "Open application",
+            "download_application": "Download application",
+            "scoring": {
+              "points": "Scoring: {{ value }}",
+              "category": "Category: {{ value }}"
+            }
+          },
+          "contact": {
+            "label": "Company contacts"
+          }
+        },
+        "application": {
+          "text": "Company {{ value }} has submitted a new application for consideration.",
+          "link": "Go to the new application"
+        }
+      },
+      "application": {
+        "header": {
+          "application": "Application \"{{ value }}\"",
+          "actions": "Actions"
+        },
+        "general": {
+          "title": "Application for accreditation",
+          "application_status": {
+            "label": "Application status",
+            "reason": "Reason:"
+          },
+          "registry": {
+            "label": "Registry"
+          },
+          "participant": {
+            "label": "From company",
+            "details": "Company details"
+          },
+          "representer": {
+            "label": "Representer"
+          },
+          "participant_status": {
+            "label": "Status in the registry",
+            "details": "Go to detail"
+          },
+          "scoring": {
+            "label": "Scoring"
+          },
+          "application": {
+            "open_application": "Open application",
+            "download_application": "Download application",
+            "download_protocol": "Protocol of the commission work"
+          }
+        }
+      },
+      "general": {
+        "accreditation_status": {
+          "details": "Go to details",
+          "reason": "Reason:"
+        },
+        "application_status": {
+          "details": "Go to details",
+          "reason": "Reason:"
+        },
+        "questionnaire": {
+          "open": "Open",
+          "download": "Download",
+          "scoring": {
+            "short": "Scoring: {{ value }}",
+            "long": "Scoring: {{ value }} / {{ max }}, {{ category }}"
+          }
+        },
+        "approvement": {
+          "report": "Report"
+        }
+      },
+      "stages": {
+        "header": {
+          "title": "Stages of the Commission's work"
+        },
+        "content": {
+          "stage": {
+            "title": "Stage {{ value }}"
+          },
+          "decision": {
+            "title": "Decision on the company's accreditation in the registry",
+            "auto": "Automatically, after all stages"
+          },
+          "group": {
+            "empty": "Approvers for the stage are not assigned",
+            "conclusions": {
+              "empty": "No ratings",
+              "count": "Ratings: {{ value }}",
+              "rating": "Rating: {{ value }} / {{ max }}"
+            }
+          }
+        }
+      },
+      "approval": {
+        "decision": {
+          "title": "Decision on the application",
+          "notice": "Your decision on the application as a member of the group \"{{ group }}\"",
+          "unavailable": "The \"{{group}}\" group cannot make a decision at the current stage of the commission's work. We will let you know when a decision is available."
+        },
+        "grade": {
+          "title": "Application evaluation",
+          "notice": "Your assessment of the application as a member of the group \"{{group}}\"",
+          "unavailable": "The \"{{group}}\" group cannot evaluate the application at the current stage of the commission's work. We will notify you when grading is available."
+        },
+        "final": {
+          "title": "Accreditation decision",
+          "notice": "Your decision on the application as a member of the group \"{{group}}\"",
+          "unavailable": "The \"{{group}}\" group cannot make a decision at the current stage of the commission's work. We will let you know when a decision is available."
+        },
+        "common": {
+          "actions": {
+            "change": {
+              "title": "Change rating",
+              "notice": "possibly before the completion of the current stage of the commission's work"
+            },
+            "decline": {
+              "title": "Reject the application",
+              "success": "Application rejected"
+            },
+            "assess": {
+              "title": "Rate the application"
+            },
+            "accept": {
+              "title": "Accredit the company",
+              "success": "The company is accredited"
+            },
+            "reject": {
+              "title": "Reject the application",
+              "success": "Application rejected"
+            }
+          },
+          "editable": {
+            "choice": {
+              "approve": "Approve the application",
+              "decline": "Reject the application",
+              "accept": "Accredit the company",
+              "reject": "Reject the application"
+            },
+            "participant": {
+              "title": "Rationale for the applicant",
+              "reason": "Reason for rejection"
+            },
+            "commission": {
+              "title": "Notice to the members of the commission",
+              "comment": "Comment",
+              "documents": "Documentation",
+              "grade": {
+                "of": "of",
+                "label": "Company valuation"
+              }
+            },
+            "duration": {
+              "title": {
+                "finite": "Period of accreditation in the registry, up to {{value}} months.",
+                "infinite": "The period of accreditation in the register is not set, 0 - perpetual accreditation"
+              },
+              "unit": "mont."
+            }
+          }
+        }
+
+      },
+      "reports": {
+        "header": {
+          "application": "Download application"
+        },
+        "sync": {
+          "title": "Document",
+          "comment": "Document without attachments",
+          "action": "Download document"
+        },
+        "async": {
+          "title": "Archive with attachments",
+          "comment": "In a while, you will receive a link to download the archive to your mail {{email}}",
+          "action": "Download archive",
+          "success": {
+            "application": "The archive is being prepared. Download link will be sent to your email"
+          }
+        }
+      }
+    }
+  }
+}

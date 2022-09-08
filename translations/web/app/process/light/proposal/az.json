@@ -1,0 +1,130 @@
+{
+  "pl": {
+    "proposal": {
+      "acceptance_end_date": {
+        "time_left": "qalıb",
+        "title": "Təkliflərin qəbulu "
+      },
+      "actions": {
+        "refuse": "İştrakdan imtina et"
+      },
+      "alternative": {
+        "info": "Alternativ təklif hazırlamağa başlamaq üçün aşağıdakı düyməyə klikləyin.",
+        "prepare": "Təklifi hazırlamaq",
+        "title": "Alternativ təklif"
+      },
+      "blocked": {
+        "sub_title": "Müştərinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
+        "title": "Müştəri sizi sorğusundan kənarlaşdırdı"
+      },
+      "card": {
+        "actions": {
+          "cancel": "Dəyişiklikləri ləğv et",
+          "change": "Təklifi dəyişdirin",
+          "more": "Ətraflı",
+          "order_service": "Xidmət sifariş et",
+          "recall": "Təklifi geri çəkin",
+          "submit": "Təklif ver",
+          "update": "Təklifi yenilə"
+        },
+        "documents": {
+          "action": "Əlavə et",
+          "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Müştərilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
+          "sub_title": "Sənədlər: {{value}}",
+          "title": "Kommersiya təklifi və sənədlər"
+        },
+        "positions": {
+          "action": "Doldur",
+          "statistics": {
+            "editable": "{{ count }} maddədən {{ value }} dolduruldu",
+            "full": "{{ count }} maddələrdən {{ count }} doldurulub",
+            "fullSubmitted": "{{ count }} maddələrdən {{ count }} təqdim olunub",
+            "notFull": "Stokda var: {{ value }}, stokda yoxdur: {{ missing }}",
+            "notFullSubmitted": "Təqdim edilib: {{ stock }}, stokda yoxdur: {{missing}}"
+          },
+          "title": "Maddələrin spesifikasiyası"
+        },
+        "price": {
+          "info": "Təklifinizin ümumi qiyməti",
+          "title": "Təklifinizin qiyməti"
+        },
+        "questionnaire": {
+          "action": "Cavab",
+          "statistics": {
+            "editable": "{{ count }} cavablardan {{ value }} təqdim olunub",
+            "full": "Cavablar verilmişdir"
+          },
+          "title": "Qeyri-qiymət meyarları"
+        },
+        "rank": {
+          "by_position": "maddələr üzrə dərəcələr",
+          "by_proposal": "təklifinizin dərəcəsi",
+          "label": "Dərəcələrlə maddələrin sayı: 1 (yaşıl), 2 (sarı), 3 və ya ondan az (qırmızı)"
+        },
+        "title": {
+          "alternative": "Mənim alternativ təklifim",
+          "my": "Mənim təklifim"
+        },
+        "with_vat": "ƏDV daxil",
+        "without_vat": "ƏDV-siz"
+      },
+      "confirm_recall_dialog": {
+        "cancel": "Ləğv et",
+        "submit": "Təklifi geri çəkin",
+        "text": "Sifarişçiyə və digər iştirakçılara bu təklif əlçatmaz olacaq.\nTəklifdə düzəliş etmək mümkündür və yekunlardan əvvəl yenidən təqdim edilə bilər",
+        "title": "Təklifi geri götürün?"
+      },
+      "contact_info": {
+        "change": "Dəyiş",
+        "title": "İştirakçının əlaqəli şəxsi"
+      },
+      "esg": {
+        "link": "ESG haqqında daha ətraflı",
+        "text": "Sertifikasiyanı keçin və ESG təchizatçısı statusunuzu əldə edin",
+        "title": "Biznesinizin davamlı inkişafı"
+      },
+      "nda": {
+        "add_files_text": "İmzalanmış müqaviləni və digər tələb olunan sənədləri əlavə edin",
+        "add_files_update_text": "Yenilənmiş müqaviləni və digər tələb olunan sənədləri əlavə edin",
+        "description": "İlkin qiymətləndirmənin təsviri",
+        "errors": {
+          "correct": "Müraciəti düzəlt və yenilə",
+          "empty": "Sənədlər yüklənməyib"
+        },
+        "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
+        "files_title": "NDA-nın ilkin qiymətləndirməsi üçün müraciət sənədləri",
+        "send": "Göndər",
+        "title": {
+          "accepted": "İlkin qiymətləndirmə/NDA keçdi",
+          "draft": "İlkin qiymətləndirmə / NDA",
+          "failed": "İlkin qiymətləndirmə / NDA uğursuz oldu",
+          "rejected": "İlkin qiymətləndirmə / NDA. Müraciətiniz imtina olundu",
+          "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır"
+        },
+        "your_application": "İlkin qiymətləndirmə üçün müraciət / NDA"
+      },
+      "nonexistent": {
+        "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",
+        "title": "Mənim təklifim"
+      },
+      "owner": {
+        "title": "Sifarişçi"
+      },
+      "refused": {
+        "return": "Sorğuya qayıt",
+        "sub_title": "Sorğuya qayıdıb təklif vermək, təkliflərin qəbulunun bitmə tarixinə kimi mümkündür {{value}}",
+        "title": "Sizin şirkət sorğuda iştrak etməkdən imtina edib"
+      },
+      "status": {
+        "0": "Təqdim edilməyib",
+        "1": "Göndərilib",
+        "2": "Geri çağrılıb",
+        "changing": "Dəyişiklik"
+      },
+      "unavailable": {
+        "message": "Sifarişçi ilə çat",
+        "title": "Sorğunun hazırkı statusunda təkliflərin təqdim edilməsi\nmümkün deyil"
+      }
+    }
+  }
+}

@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: ⛔ Отказ от аккредитации
+Получатель:  РУР, Управляющий реестром
+
+Компания-участник отказалась от аккредитации
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Отказ от аккредитации</h1>         
+          <p>Компания <b>@CompanyContext.CompanyName</b> отказалась от аккредитации в вашем реестре <b>"@RegistryContext.Name"</b>.</p>
+
+          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br />
+            <b>Дата отказа:</b> @ConfigurationContext.Date<br /><b>Причина:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url">Перейти к реестру</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,15 @@
+{
+  "bdz.esg": {
+    "enums": {
+      "categories": {
+        "0": "QIZIL",
+        "1": "GÜMÜŞ",
+        "2": "BÜRÜNC"
+      }
+    },
+    "filter": {
+      "label": "ESG Sertifikatlı Şirkətlər",
+      "link": "ESG haqqında daha çox məlumat"
+    }
+  }
+}

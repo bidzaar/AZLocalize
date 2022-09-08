@@ -1,0 +1,29 @@
+<mjml>
+  <!-- 
+Тема: ⛔ Аккредитация в реестре приостановлена
+Получатель:  УК, РОЗ, сотрудники с правами прохождение аккредитации 
+
+Организатор приостановил аккредитацию Участника
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Akkreditasiya dayandırılıb</h1>         
+          <p><b>"@RegistryContext.Name"</b> reyestirində <b>@CompanyContext.CompanyName</b>-nin akkreditasiyası dayandırılıb.</p>
+
+          <p><b>Reyestirin sahibi:</b> @RegistryContext.OwnerCompanyName<br /><b>Dayandırılmanın səbəbi:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url">Reyestra keç</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,47 @@
+{
+  "cgr": {
+    "items": {
+      "header": {
+
+      },
+      "empty": {
+        "title": "There are no added companies",
+        "text": "Companies can be added by an employee with the right to manage groups and members of the current group "
+      },
+      "search": {
+        "tooltip": "Search is carried out by fields:\n• Company name"
+      },
+      "sorting": {
+        "name": {
+          "title": "Name"
+        },
+        "added_date": {
+          "title": "Date of adding the company"
+        }
+      },
+      "filters": {
+        "added_date": {
+          "title": "Date added"
+        },
+        "empty": "No results were found for your request"
+      },
+      "item": {
+        "date": {
+          "added": "Added {{ value }}"
+        }
+      },
+      "actions": {
+        "add": "Add companies",
+        "remove": "Remove company"
+      },
+      "dialogs": {
+        "remove": {
+          "title": "Remove company from group",
+          "text": "",
+          "cancel": "Cancel",
+          "submit": "Remove"
+        }
+      }
+    }
+  }
+}

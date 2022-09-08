@@ -1,0 +1,92 @@
+{
+  "cmp.users": {
+    "enums": {
+      "rights": {
+        "0": {
+          "long": "Hüquqlar təyin edilməyib",
+          "short": "Hüquqlar təyin edilməyib"
+        },
+        "1": {
+          "long": "Sorğuların keçirilməsi",
+          "short": "Sorğuların keçirilməsi"
+        },
+        "2": {
+          "long": "Sorğuya təkliflərin verilməsi",
+          "short": "Təkliflərin təqdim edilməsi"
+        },
+        "4": {
+          "long": "Akkreditasiya üçün müraciət",
+          "short": "Akkreditasiyaya sorğu"
+        },
+        "8": {
+          "long": "Akkreditasiya qruplarının idarə edilməsi",
+          "short": "Qrupların idarəçiliyi"
+        },
+        "16": {
+          "long": "Təşkilatın idarə olunması",
+          "short": "УК"
+        },
+        "128": {
+          "long": "Satınalma şöbəsinin rəhbəri",
+          "short": "Satınalmalar üzrə rəhbər"
+        },
+        "256": {
+          "long": "Qrup rəhbərliyi",
+          "short": "Qrupların idarə olunması"
+        },
+        "512": {
+          "long": "Reyestrlər",
+          "short": "Reyestrlər"
+        },
+        "1024": {
+          "long": "Reyestrlar şöbəsinin rəhbəri",
+          "short": "Reyestrlərin rəhbəri"
+        },
+        "2048": {
+          "short": "[AT] Akkreditivin tələbi. hovuz",
+          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+        }
+      }
+    },
+    "list": {
+      "card": {
+        "rights": {
+          "empty": "Hüquqları yoxdur"
+        }
+      },
+      "empty": {
+        "absolute": "Şirkətdə hələ ProcureSaas-da qeydiyyatdan keçmiş işçiləri yoxdur",
+        "filtered": "Üzr istəyirik, bu sorğu üçün heç bir işçi tapa bilmədik..."
+      },
+      "filters": {
+        "rights": {
+          "title": "Hüquqlar"
+        },
+        "status": {
+          "title": "Status"
+        },
+        "statusChangedOn": {
+          "title": "Statusun dəyişmə tarixi"
+        }
+      },
+      "header": {
+        "search": "Axtarış işçinin adı və əlaqə məlumatları əsasında aparılır",
+        "title": "Şirkət əməkdaşları"
+      },
+      "preview": {
+        "approve": "Qəbul etmək",
+        "rights": {
+          "empty": "Hüquqlar təyin edilməyib",
+          "list": "İstifadəçi hüquqları"
+        },
+        "status": {
+          "date": "{{ value }} -dən"
+        }
+      },
+      "sorting": {
+        "name": "Ad",
+        "status": "Status"
+      }
+    }
+  }
+}

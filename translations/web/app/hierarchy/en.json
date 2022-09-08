@@ -1,0 +1,139 @@
+{
+  "hrch": {
+    "list": {
+      "title": {
+        "registry": "Registries"
+      },
+      "empty": {
+        "title": "Folder is empty",
+        "text": {
+          "registry": "Create a new registry or move an existing one"
+        }
+      },
+      "empty_list": "Sorry, no registries available",
+      "create": "Create",
+      "new_folder": "New folder",
+      "new_item": {
+        "registry": "New registry"
+      },
+      "folder_menu": {
+        "rename": "Rename",
+        "groups": "Groups and rights",
+        "move": "Move",
+        "delete": "Delete",
+        "clone": "Clone"
+      },
+      "clone_dialog": {
+        "title": "Clone Registry",
+        "label": "Registry name",
+        "description": "The questionnaire, settings and access rights to the registry are transferred to the draft registry.\nThe registry is cloned without transferring companies and applications.",
+        "cancel": "Cancel",
+        "clone": "Clone",
+        "success": "Registry successfully cloned",
+        "title_additive": " (copy)"
+      },
+      "selection_dialog": {
+        "current_folder": "Current folder",
+        "cancel": "Cancel"
+      },
+      "new_registry_dialog": {
+        "title": "New registry",
+        "label": "Name",
+        "create": "Create",
+        "cancel": "Cancel"
+      },
+      "new_folder_dialog": {
+        "title": "New folder",
+        "rename_title": "Rename",
+        "label": "Folder name",
+        "create": "Create",
+        "rename_submit": "Submit",
+        "cancel": "Cancel"
+      },
+      "users_dialog": {
+        "title": "Access settings",
+        "info": "Access to the <span class=\"breadcrumbs\">“{{value}}”</span> is available to:",
+        "add_employee": "Add employee",
+        "close": "Close",
+        "admin": "Parent folder administrator"
+      },
+      "delete_dialog": {
+        "title": "Delete folder",
+        "cancel": "Cancel",
+        "delete": "Delete",
+        "error": {
+          "title": "The folder cannot be deleted",
+          "info": "The <span class=\"breadcrumbs\">\"{{value}}\"</span> folder contains objects.\nMove the items to a different folder and repeat the action.",
+          "close": "Закрыть"
+        }
+      },
+      "move_dialog": {
+        "submit": "Move"
+      },
+      "registry_status": {
+        "0": "Draft",
+        "1": "Published",
+        "2": "Closed"
+      },
+      "registry": {
+        "accreditations": {
+          "tooltip": "Accredited companies"
+        },
+        "applications": {
+          "tooltip": "Unprocessed applications "
+        },
+        "count": "Registries: {{ value }}"
+      },
+      "access_denied": "Folder access denied",
+      "groups_dialog": {
+        "title": "Groups and access rights for «{{value}}»",
+        "done": "Done",
+        "groups": {
+          "title": "Groups",
+          "add": "Add group",
+          "add_tooltip": "Setting up permissions",
+          "empty": "No groups added...",
+          "empty_permissions": "No valid permissions assigned"
+        },
+        "users": {
+          "empty": "Add groups and configure item permissions",
+          "empty_permissions": "No permissions assigned",
+          "admin_tooltip": "Group leader",
+          "no_rights": "The employee is not assigned access rights to the registries"
+        }
+      },
+      "permissions_dialog": {
+        "group_title": "Allowed permissions",
+        "user_title": "User permissions",
+        "override": "Override inherited permissions",
+        "cancel": "Cancel",
+        "submit": "Done",
+        "no_rights": "The employee does not have access to the Registry module. Setting permissions will be available after providing access by the company administrator",
+        "no_permissions": "The available permissions for the group are not assigned. Contact the head of the department",
+        "allowed_permissions": "The list is limited by the allowed group permissions"
+      },
+      "registry_permissions": {
+        "1": {
+          "title": "View companies",
+          "description": "View the list of companies included in the register"
+        },
+        "2": {
+          "title": "View requests",
+          "description": "Viewing companies requests. The visibility of blocks in the application is determined in the registry settings."
+        },
+        "4": {
+          "title": "Approve",
+          "description": "Approve companies requests. The composition of the accreditation commission is determined in the registry settings."
+        },
+        "8": {
+          "title": "Registry setting",
+          "description": "Configuring the questionnaire and registry settings"
+        },
+        "16": {
+          "title": "Registry management",
+          "description": "Publication, closing, approval of changes to the questionnaire"
+        }
+      }
+    }
+  }
+}

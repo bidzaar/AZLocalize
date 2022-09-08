@@ -1,0 +1,16 @@
+{
+    "CompleteReason.DontNeedAnyMore": "Отпала потребность в проведении запроса",
+    "CompleteReason.NoSuitableProposalFound": "Нет подходящих предложений",
+    "ReportType.AllReceipt": "заказ",
+    "ReportType.AllReceiptArchive": "архив с заказом участнику",
+    "ReportType.CompanyProcedures": "запросы компании",
+    "ReportType.Comparison": "таблицу сравнения",
+    "ReportType.ComparisonArchive": "таблицу сравнения с вложениями",
+    "ReportType.MyProposal": "предложение",
+    "ReportType.MyProposalArchive": "предложение с вложениями",
+    "ReportType.Proposal": "предложение",
+    "ReportType.ProposalArchive": "предложение с вложениями",
+    "ReportType.ProposalHistory": "историю предложений по запросу",
+    "ReportType.Receipt": "заказ",
+    "ReportType.ReceiptArchive": "заказ с вложениями"
+}

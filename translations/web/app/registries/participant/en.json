@@ -1,0 +1,107 @@
+{
+  "rgs": {
+    "prt": {
+      "botzaar": {
+        "message": {
+          "2": {
+            "title": "Accreditation in progress",
+            "text": "1.Prepare an application for accreditation in the registry\n2. Submit an application\n3. Wait for the decision of the registry owner."
+          },
+          "3": {
+            "title": "Your company is accredited",
+            "text": "Accreditation period:",
+            "date": "until {{ date }}",
+            "endless": "indefinitely"
+          },
+          "4": {
+            "title": "Accreditation suspended",
+            "text": "The registry owner has temporarily excluded your company from the registry.",
+            "reason": "<b>Reason:</b> {{ reason }}",
+            "advice": "<b>Advice:</b> Contact the registry owner or prepare a new application for accreditation."
+          },
+          "5": {
+            "title": "Accreditation expired",
+            "advice": "<b>Advice:</b> Prepare a new application for accreditation."
+          },
+          "6": {
+            "title": "Your company has been excluded from the register",
+            "reason": "<b>Reason:</b> {{ reason }}"
+          },
+          "7": {
+            "title": "Your company has refused accreditation",
+            "advice": "<b>Advice:</b> Prepare a new application to be accredited."
+          }
+        },
+        "actions": {
+          "button": "Actions",
+          "refuse": "Refuse accreditation in the registry",
+          "view": "Open the application form",
+          "create": "Prepare a new application"
+        }
+      },
+      "application": {
+        "actions": {
+          "submit": "Submit application",
+          "prepare": "Prepare new application",
+          "view": "View application",
+          "change": "Change application"
+        }
+      },
+      "block": {
+        "title": "Register questionnaire \"{{value}}\"",
+        "to_application": "To application"
+      },
+      "dialogs": {
+        "submit": {
+          "title": "Apply",
+          "text": "Apply for registry accreditation?",
+          "submit": "Apply",
+          "cancel": "Cancel",
+          "success_snack": "The application has been sent for consideration"
+        },
+        "refuse": {
+          "title": "Refuse accreditation?",
+          "reason": "Reason",
+          "submit": "Refuse",
+          "cancel": "Cancel"
+        },
+        "invitation": {
+          "title": "Begin accreditation in the registry",
+          "submit": "Begin",
+          "cancel": "Cancel"
+        },
+        "no_application": {
+          "title": "Your company did not fill out the application form for accreditation in the registry.",
+          "text": "Possible reasons:<ul><li>• The application did not contain a questionnaire at the time of submission</li><li>• The registry owner accredited your company without submitting an application</li></ul>",
+          "submit": "Close"
+        },
+        "not_accredited_in_related_error": {
+          "title": "Application submission unavailable",
+          "list_title": "Complete the accreditation in the registries:",
+          "requirement": "The requirement is specified by the registry owner in the “Prerequisite for Accreditation” section.",
+          "close": "Close"
+        },
+        "error_dialog": {
+          "obsolete": {
+            "title": "Application is out of date",
+            "text": "The registry owner has updated the questionnaire. Update your application. Make sure that all blocks of the application are ready and repeat the action."
+          },
+          "block_is_not_complete": {
+            "title": "Application form not completed",
+            "text": "Complete the questionnaire and repeat the action."
+          },
+          "request_acceptance_closed": {
+            "title": "Application submission unavailable",
+            "text": "Acceptance of applications has been completed.",
+            "notice": "Have a questions? Contact the owner of the registry."
+          },
+          "blocked": {
+            "title": "Application submission unavailable",
+            "text": "Your company has been removed from the register. Refresh the page to see details."
+          },
+          "close": "Close"
+        }
+      }
+    }
+  }
+}

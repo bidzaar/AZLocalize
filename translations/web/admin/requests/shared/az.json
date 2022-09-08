@@ -1,0 +1,45 @@
+{
+  "req.shared": {
+    "comment": {
+      "add": "Şərh əlavə edin"
+    },
+    "dialogs": {
+      "comment": {
+        "cancel": "Ləğv et",
+        "header": "Şərh",
+        "label": "Sizin şərhiniz",
+        "submit": "Yadda saxla",
+        "success": "Şərh yeniləndi"
+      }
+    },
+    "header": {
+      "back": "Siyahıya qayıt",
+      "details": "Təfərrüatlar",
+      "publish": "{{ date }} tarixində dərc edilib",
+      "stats": {
+        "participants": "İştirak etmişdir",
+        "proposals": "Təklifi olan iştirakçılar"
+      }
+    },
+    "markers": {
+      "nda": "NDA",
+      "verify": "Yoxlanılmışlar üçün",
+      "private": "[AT] Qapalı sorğu"
+    },
+    "responsible": {
+      "assign": "Məsul şəxsi təyin edin",
+      "change": "Dəyişmək",
+      "remove": "Sil"
+    },
+    "status": {
+      "since": ".",
+      "until": "kimi"
+    },
+    "timer": {
+      "days": "gün",
+      "hours": "s.",
+      "minutes": "dəq.",
+      "past": "geri"
+    }
+  }
+}

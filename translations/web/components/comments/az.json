@@ -1,0 +1,18 @@
+{
+  "bdz.cmt": {
+    "item": {
+      "actions": {
+        "cancel": "Ləğv et",
+        "edit": "Redaktə etmək",
+        "remove": "Sil",
+        "save": "Yadda saxlamaq"
+      },
+      "remove": {
+        "cancel": "Ləğv et",
+        "submit": "Sil",
+        "title": "Şərh silinsin?"
+      },
+      "text": "[AT] Şərh"
+    }
+  }
+}

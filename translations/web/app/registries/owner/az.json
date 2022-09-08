@@ -1,0 +1,455 @@
+{
+  "rgs": {
+    "owner": {
+      "automation": {
+        "actions": {
+          "disable_automation": "Avtomatlaşdırmanı söndürün",
+          "settings": "Ayarlar"
+        },
+        "dialogs": {
+          "auto_reject": {
+            "cancel": "Ləğv et",
+            "checkbox": "Reyestrə müraciətlərin avtomatik imtina edilməsini aktivləşdirin",
+            "info": "Ayar yeni sifarişlərə tətbiq edilir və əvvəllər təqdim edilmiş sifarişlərə təsir göstərmir.",
+            "info_turned_off": "Reyestrə müraciətlərin avtomatik imtina edilməsi deaktiv edilib. İmtina olunmuş müraciətlər bərpa olunmur",
+            "min_scoring": "Göstərilən baldan aşağı olan müraciətləri imtina et",
+            "submit": "Təsdiqlə",
+            "title": "Müraciətlərin avtomatik imtina olunması"
+          },
+          "automation_turn_off": {
+            "no": "Ləğv et",
+            "text": "Müraciətlərin avtomatik imtina olunması və şirkətlərin  reyestrdə dərəcəsinin təyin olunması deaktiv edilsin?",
+            "title": "Avtomatlaşdırmanı söndürün",
+            "yes": "Avtomatlaşdırmanı söndürün"
+          },
+          "error": {
+            "close": "Bağlayın",
+            "no_active_formula": "Anketdə hesablanma formulu yoxdur.\nReestrin avtomatlaşdırılması üçün hesablanma anketi qurun və yerləşdirin.",
+            "no_active_version": "Reyestrdə anket yoxdur. Reyestri avtomatlaşdırmaq üçün hesablanma anketini quraşdırın və yerləşdirin.",
+            "no_deferred_formula": "Qüvvəyə minən  hesablama formulu yoxdur.\nReyestrin avtomatlaşdırılması üçün anket  hesablanmasını quraşdırın",
+            "title": "Reyestrin avtomatlaşdırılması mövcud deyil"
+          },
+          "scoring": {
+            "add": "Kateqoriya əlavə edin",
+            "cancel": "Ləğv et",
+            "checkbox": "Reyestrdə şirkətlərin dərəcələrinin təyin olunmasını aktivləşdirin",
+            "from": "from",
+            "greater": "və daha çox",
+            "info": {
+              "false": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması qeyri-aktivdir",
+              "true": "Kateqoriyaya görə sıralama müraciətlərində hesablanma olan şirkətlərə aiddir. Kateqoriyaların yenidən hesablanması bir qədər vaxt apara bilər."
+            },
+            "less": "kiçik",
+            "submit": "Təsdiqlə",
+            "title": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması"
+          }
+        },
+        "empty": {
+          "automate": "Avtomatlaşdırma",
+          "subtitle": "Müraciətləri avtomatik olaraq imtina etmək və şirkətləri reyestrdə sıralamaq üçün hesablanmalardan istifadə edin",
+          "title": "Reyestri avtomaşdırmaq"
+        },
+        "ranking": {
+          "disabled": "Reytinq deaktivdir",
+          "title": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması"
+        },
+        "refuse": {
+          "disabled": "Müraciətlərin imtina olunması deaktiv edilib",
+          "text": "{{value}} balından aşağı olan sifarişlərdən imtina etmək",
+          "title": "Reyestrə müraciətlərin avtomatik imtina olunması "
+        },
+        "subtitle": {
+          "errors": {
+            "no_active_formula": "Anketdə hesablama formulu yoxdur",
+            "no_active_version": "Reyestrdə anketl yoxdur",
+            "no_deferred_formula": "Qüvvəyə minən anketdə hesablama formulu yoxdur"
+          },
+          "left": "Skorinqin  ayarları",
+          "right": "Reyestr anketi"
+        },
+        "title": "Reyestrin skorinq-qiymətləndirilməsinin avtomatlaşdırılması"
+      },
+      "dashboard": {
+        "acceptance": {
+          "actions": {
+            "close": {
+              "description": "Yeni müraciətlərin qəbulu dayandırılacaq. Əvvəllər təqdim edilmiş müraciətlər emal üçün mövcuddur.",
+              "menu": "Bağlayın",
+              "title": "Müraciət qəbulunu bağlayın"
+            },
+            "open": {
+              "description": "Şirkətlər reyestrdə akkreditasiya üçün müraciət edə biləcəklər.",
+              "menu": "Açın",
+              "title": "Müraciətlər qəbulunun açılışı"
+            }
+          },
+          "closed": "Müraciətlər qəbulu bağlıdır",
+          "draft": "Qaralama",
+          "opened": "Müraciət qəbulu açıqdır"
+        },
+        "actions": {
+          "access": {
+            "sub_title": "İstifadəçi qrupları və onların hüquqları üçün reyestrə giriş",
+            "title": "İstifadəçi üçün giriş"
+          },
+          "questionnaire": {
+            "sub_title": "Anketin blokları, skorinq-qiymətləndirmə, müraciətə giriş",
+            "title": "Reyestr anketi"
+          },
+          "settings": {
+            "sub_title": "Reyestrin təsviri və sənədləri, akkreditasiya üsulu və müddəti",
+            "title": "Təsvir və ayarlar"
+          }
+        },
+        "charts": {
+          "accredited": {
+            "accredited": "Akkreditasiya olunub",
+            "accredited_without_application": "Müraciət etmədən akkreditasiya olunub",
+            "button": "Bütün şirkətləri göstər >",
+            "title": "Akkreditasiya olunmuş şirkətlər"
+          },
+          "applications_pending": {
+            "applications_processed": "Baxılmış müraciətlər",
+            "approved": "Təsdiqlənib",
+            "button": "MÜRACİƏTLƏRƏ KEÇİN >",
+            "not_approved": "İmtina olunub",
+            "sub_title": "Qərarınızı gözləyən şirkətlərin müraciətləri",
+            "title": "Baxılmaqda olan müraciətlər"
+          },
+          "attraction_channels": {
+            "invite": "Dəvət",
+            "profile": "Profil",
+            "title": "Cəlb edən kanallar",
+            "tooltip": "Reyestr vidcetini konfiqurasiya etmək üçün şirkət profilinin ictimai səhifə bölməsinə keçin. Vidgeti tapın və onu saytınıza yerləşdirin",
+            "widget": "Vidcet"
+          },
+          "expire_soon": {
+            "button": "Şirkətləri göstər >",
+            "sub_title": "Müddəti 30 gündən az qalmış akkreditasiyalar",
+            "title": "Müddəti bitməkdə olan akkreditasiyalar"
+          },
+          "expiring_accreditations": {
+            "blocked": "Bloklanıb",
+            "expired": "Akkreditasiyanın müddəti başa çatıb",
+            "refused": "Akkreditasiyadan imtina etdi",
+            "stopped": "Akkreditasiya dayandırılıb",
+            "sub_title": "Reyestrdə akkreditasiyasını itirmiş şirkətlər",
+            "title": "Akkreditasiya itirildi"
+          }
+        },
+        "draft_card": {
+          "configure": "Konfiqurasiya edin",
+          "sub_title": "Dərc etməzdən əvvəl reyestri tənzimləyin",
+          "title": "Ayarlar"
+        },
+        "internal": {
+          "comment": "Şərh",
+          "files": "Daxili sənədlər: akkreditasiya qaydaları, yoxlama siyahıları",
+          "title": "Əlavə xanalar"
+        },
+        "main_actions": {
+          "add_company": {
+            "sub_title": "Reyestrini genişləndirmək üçün şirkətləri əlavə edin",
+            "title": "Şirkətləri əlavə edin"
+          },
+          "delete": {
+            "title": "Sil"
+          },
+          "publish": {
+            "dialog_title": "Reyestr silinsin?",
+            "no": "Ləğv et",
+            "title": "Dərc et",
+            "yes": "Sil"
+          },
+          "settings": {
+            "title": "Ayarlar"
+          }
+        },
+        "no_data": "Göstərmək üçün heç bir məlumat yoxdur"
+      },
+      "dialogs": {
+        "activate": {
+          "cancel": "Ləğv et",
+          "check_loader": "Anket yoxlanılır...",
+          "close": "Bağlayın",
+          "error_title": "Anketdə səhv var",
+          "errors": {
+            "blocks_empty": "“{{value}}” Reyestrin anketində heç bir sual yoxdur. Anketi tənzimləyin və ya bloku silin.",
+            "common_error": "“{{value}}” sorğu bloku tənzimləmə səhvlərini ehtiva edir.",
+            "empty": "Reyestr anketi tənzimlənməyib. Müraciət edən şirkət haqqında qabaqcıl məlumat almaq üçün sorğu anketi qurun.",
+            "formula_variable_not_found": "Qiymətləndirmə hesablamaq üçün dəyişən “{{value}}”  tapılmadı. Qiymətləndirmə formulunu yeniləyin.",
+            "is_not_draft": "Anketin statusu dəyişdirildi",
+            "no_scoring": "Anketdə qiymətləndirmə formulu yoxdur. Qiymətləndirmə formulunu tənzimləyin və anketi işə salın."
+          },
+          "fix_error": "Səhvləri düzəldin və hərəkətə yenidən cəhd edin.",
+          "from_date": "Göstərilən tarixdən",
+          "from_date_snack": "Anket müəyyən edilmiş tarixdən qüvvəyə minəcək",
+          "immediately": "Dərhal",
+          "immediately_snack": "Anket işə salınıb",
+          "submit": "Təsdiqlə",
+          "timezone": "Bakı 00:01",
+          "title": "Anketi başladın"
+        },
+        "cancel_deferred": {
+          "no": "Ləğv et",
+          "success_snack": "Anketin işə başlanması ləğv edildi",
+          "text": "Anket “Lahiyə mərhələsi” statusuna keçəcək.",
+          "title": "Aktivləşdirməni ləğv et",
+          "yes": "Aktivləşdirməni ləğv et"
+        },
+        "delete_draft": {
+          "no": "Ləğv et",
+          "text": "Anketin qaralamasını bərpa etmək mümkün olmayacaqdır.",
+          "title": "Qaralamanı sil",
+          "yes": "Sil"
+        },
+        "import_questionnaire": {
+          "cancel": "Ləğv et",
+          "choose": "Fayl seçin",
+          "errors": {
+            "default": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın.",
+            "format": "“{{file}}” faylında anket mövcüd deyil. Digər fayl seçin və ya anketi yenidən endirin və yenidən yükləyin",
+            "parsing": "Fayl “{{file}}” zədələnmişdir. Anketi təkrar endirin və yenidən yükləyin",
+            "version": "“{{file}}” faylı köhnəlmiş formatı ehtiva edir. Yeni bir format istifadə edin. Bunu etmək üçün anketi endirin və yenidən yükləyin"
+          },
+          "success": "Anket yükləndi",
+          "text": "Əvvəlcədən yaradılmış bölmələr və suallar silinəcəkdir.",
+          "title": "Anketi fayldan yükləyin"
+        },
+        "publish": {
+          "default": {
+            "actions": {
+              "cancel": "Ləğv et",
+              "confirm": "Dərc et"
+            },
+            "notice": "Akkreditasiyaya müraciətləri qəbul etmək üçün reyestr mövcud olacaq.",
+            "success": "Reyestr dərc olundu"
+          },
+          "header": "Reyestrin dərc olunması",
+          "messages": {
+            "ByAccreditation": {
+              "Commission.NotExists": {
+                "text": "Reyestrə daxil edilməsi ilə bağlı müraciətlərin baxılması üçün akkreditasiya komissiyası yaradılmayıb. Akkreditasiya komissiyası yaradın və ya reyestrə daxil edilmə üsulunu dəyişdirin.",
+                "title": "Akkreditasiya Komissiyası"
+              },
+              "Questionnaire.Active.NoScoring": {
+                "text": "Anketdə hesablanma formulu yoxdur. Hesablanma formulunu qurun.",
+                "title": "Anket"
+              },
+              "Questionnaire.Active.NotExists": {
+                "text": "Reyestrdə anket mövcüd deyil. Akkreditasiya komissiyası akkreditasiya haqqında qərar qəbul edərkən ərizəçinin anketini yoxlayır.",
+                "title": "Anket"
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "text": "Qüvvəyə minən anketdə hesablanma formulu mövcüd deyil. Hesablanma formulunu tənzimləyin.",
+                "title": "Anket"
+              }
+            },
+            "ByRequest": {
+              "Questionnaire.Active.NotExists": {
+                "text": "Reyestrdə anket yoxdur. Müraciət edən şirkət haqqında ətraflı məlumat əldə etmək üçün anketdən istifadə etməyi tövsiyə edirik.",
+                "title": "Anket"
+              },
+              "Questionnaire.Deferred.NotExists": {
+                "text": "Reyestr anketi qüvvəyə minməyib. Müraciət edən şirkət haqqında ətraflı məlumat əldə etmək üçün sorğu anketini işə salmağı tövsiyə edirik.",
+                "title": "Anket"
+              }
+            },
+            "ByScore": {
+              "Questionnaire.Active.NoScoring": {
+                "text": "Anketdə hesablanma formulu mövcüd deyil. Hesablanma formulunu tənzimləyin",
+                "title": "Anket"
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "text": "Qüvvəyə minən anketdə hesablanma formulu mövcüd deyil. Hesablanma formulunu tənzimləyin.",
+                "title": "Anket"
+              }
+            },
+            "Registry.ApprovalType": {
+              "title": "Reyestrə daxil edilmə üsulu"
+            }
+          },
+          "publication": {
+            "text": "Reyestr dərc olunur..."
+          },
+          "validation": {
+            "text": "Dərcdən əvvəl yoxlama..."
+          }
+        }
+      },
+      "questionnaire_block": {
+        "create_button": "Bölmə yaradın",
+        "empty_info": "Anket blokunun birinci hissəsini yaradın",
+        "empty_title": "Reyestr anketinin bloku",
+        "exchange": {
+          "export": "Anketi endir",
+          "import": "Anket idxalı",
+          "title": "Yüklə/Endir"
+        },
+        "rank_operator": "Cəmi blok xalları"
+      },
+      "questionnaire_blocks": {
+        "dialogs": {
+          "add_block": {
+            "cancel": "Ləğv et",
+            "name": "Ad",
+            "new": "Yeni blok",
+            "submit": "Əlavə etmək",
+            "submit_edit": "Yadda saxla",
+            "title": "Blok əlavə edin",
+            "title_edit": "Blok adını redaktə edin"
+          },
+          "delete_block": {
+            "cancel": "Ləğv et",
+            "delete": "Sil",
+            "info": "Bloku bərpa etmək mümkün olmayacaq.\nBloku sildikdən sonra hesabın hesablanmasının düzgünlüyünü yoxlayın.",
+            "title": "Bloku sil"
+          },
+          "delete_item": {
+            "group": {
+              "cancel": "Ləğv et",
+              "submit": "Sil",
+              "text": "Qrup və ehtiva etdiyi suallar silinəcəkdir. Sualları saxlamaq üçün başqa bir qrupa keçirin.",
+              "title": "Qrupu sil"
+            },
+            "object": {
+              "cancel": "Ləğv et",
+              "submit": "Sil",
+              "text": "Sualın silinməsini təsdiqləyin.",
+              "title": "Sual sil"
+            }
+          },
+          "formula": {
+            "cancel": "Ləğv et",
+            "error": {
+              "cant_parse": "Formula xətası",
+              "divided_by_zero": "Sıfıra bölmə",
+              "double_quotes_not_matched": "Qoşa dırnaqların səhv sırası",
+              "not_found": "Yanlış operand: {{value}}",
+              "parentheses_not_matched": "Mötərizələrin səhv sırası",
+              "single_quotes_not_matched": "Tək dırnaqların səhv sırası",
+              "square_brackets_not_matched": "Kvadrat mötərizələrin səhv sırası",
+              "wrong_format": "Səhv format"
+            },
+            "save": "Yadda saxla",
+            "title": "Qiymətləndirmənin hesablanması",
+            "validation_success": "Formula düzgündür"
+          },
+          "scoring": {
+            "add_category": "Kateqoriyalar əlavə edin",
+            "cancel": "Ləğv et",
+            "default_category_name": "Yeni kateqoriya",
+            "from": "from",
+            "range_title": "Scoring, from and above",
+            "scoring_range": "Hesablanma diapozonu:",
+            "submit": "Yadda saxla",
+            "title": "Kateqoriyalar",
+            "to": "to",
+            "validation": {
+              "category_name": "Kateqoriyaların adlarını göstərin",
+              "category_scoring_range": "Qiymətləndirmə ölçüsünü doldurun, nömrələr azalan ardıcıllıqla izlənir",
+              "scoring_rank": "Skorinq-qiymətləndirmənin düzgün aralığını daxil edin"
+            }
+          }
+        },
+        "formula": {
+          "empty": "Formula tənzimlənməyib",
+          "title": "Hesablanma formulu"
+        },
+        "questionnaire_card": {
+          "activate": "Aktivləşdir",
+          "add_block": "Anket bloku əlavə edin",
+          "add_group": "Qrup əlavə edin",
+          "add_group_popover": {
+            "no_groups_close": "Ləğv et",
+            "no_groups_info": "Akkreditasiya komitəsinə daxil olan qruplar üçün giriş imkanı yarat"
+          },
+          "edit_groups": "Girişi tənzimləmək",
+          "info": "Anketi tənzimləyin və şirkətlərin sorğularına baxmaq imkanı təmin edin.",
+          "no_groups": "Qruplar üçün bloka giriş verilmir",
+          "title": "Reyestr anketi"
+        },
+        "scoring": {
+          "category": "Kateqoriya",
+          "customize_categories": "Kateqoriyalar tənzimləyin",
+          "customize_scoring": "Hesablanmanı tənzimləyin",
+          "scoring": "Hesablanma",
+          "subtitle": "Ankletləşmənin nəticələri əsasında müraciətin skorinq-qiymətləndirilməsinin aparılması",
+          "title": " Şirkətin skorinq qiymətləndirilməsi"
+        },
+        "title": "Anket"
+      },
+      "questionnaire_versions": {
+        "actions": {
+          "cancel": "Ləğv et",
+          "change": "Dəyişin",
+          "edit": "Redaktə et",
+          "open": "Açın"
+        },
+        "card_title": " Anket versiyası",
+        "dates": {
+          "from": "from {{ value }}",
+          "to": "{{value}} qədər"
+        },
+        "did_not_come_into_force": "qüvvəyə minmədi",
+        "empty": {
+          "create_questionnaire": "Anket yaradın",
+          "info": "Reyestr anketi yaradın",
+          "title": "Reyestr anketi"
+        },
+        "new_version_dialog": {
+          "cancel": "Ləğv et",
+          "description": "Anketin yeni versiyasında sualları, məntiqi və xalları dəyişdirmək üçün qaralama yaradın.",
+          "info": "Giriş ayarları yeni versiya yaratmağı tələb etmir.",
+          "submit": "Qaralama yaradın",
+          "title": "Anketi dəyişdirin"
+        },
+        "title": "Reyestr anketi",
+        "version": "Versiya"
+      },
+      "settings": {
+        "btn": "İdarə panelinə",
+        "title": "Təsvir və ayarlar"
+      },
+      "stages": {
+        "dialogs": {
+          "remove": {
+            "cancel": "Ləğv et",
+            "confirm": "Sil",
+            "title": "Mərhələ silinsin?"
+          }
+        },
+        "empty": {
+          "configure": "Girişi tənzimləmək",
+          "text": "Akkreditasiya Komissiyasını tənzimləmək üçün qruplara reyestrə giriş imkanı verin.",
+          "title": "Reyestrə girişi olan qruplar yoxdur"
+        },
+        "list": {
+          "actions": {
+            "add_group": "Qrup əlavə edin",
+            "add_stage": "Mərhələ əlavə edin"
+          },
+          "notice": "Mərhələdə qruplar eyni vaxtda işləyir. Veto şirkətin akkreditasiyası ilə bağlı qərarı bloklayır və komissiyanın işini vaxtından əvvəl dayandırır.",
+          "stage": {
+            "groups": {
+              "decision": {
+                "auto": "Avtomatik olaraq, bütün mərhələlərdən sonra",
+                "title": "Reyestrdə şirkətin akkreditasiyası haqqında qərarı"
+              },
+              "empty": "Qrupu mərhələyə əlavə edin",
+              "popup": {
+                "apply": "Tətbiq edin",
+                "empty": "Əlavə etmək üçün heç bir qrup yoxdur",
+                "title": "Qruplar",
+                "veto": "Veto"
+              }
+            },
+            "title": "Mərhələ"
+          },
+          "title": "Komissiya işinin mərhələləri"
+        },
+        "title": "Akkreditasiya Komissiyası"
+      }
+    }
+  }
+}

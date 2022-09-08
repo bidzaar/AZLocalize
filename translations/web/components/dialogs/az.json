@@ -1,0 +1,28 @@
+{
+  "bdz.dlg": {
+    "confirmation": {
+      "actions": {
+        "cancel": "XEYR",
+        "submit": "BƏLİ"
+      },
+      "error": {
+        "text": "Xahiş edirik hərəkəti yenidən təkrarlayın. Səhv davam edərsə, texniki dəstək ilə əlaqə saxlayın.",
+        "title": "Əməliyyatı yerinə yetirmək alınmadı"
+      }
+    },
+    "date": {
+      "actions": {
+        "cancel": "Ləğv et",
+        "clear": "Tarixi sil",
+        "clearCancel": "Ləğv et",
+        "clearSubmit": "Sil",
+        "submit": "Yadda saxla"
+      }
+    },
+    "notification": {
+      "actions": {
+        "confirm": "Tamam"
+      }
+    }
+  }
+}

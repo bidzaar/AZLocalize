@@ -1,0 +1,39 @@
+{
+  "bdz.tags": {
+    "cloud": {
+      "content": {
+        "choose": {
+          "content": {
+            "empty": "Buluddan teqləri seçmək"
+          },
+          "header": {
+            "title": "Seçilmiş teqlər: {{value}}"
+          }
+        },
+        "list": {
+          "content": {
+            "create": "Teq əlavə etmək",
+            "empty": {
+              "text": "Axtarış sorğusunu dəyişdirin və ya",
+              "title": "Teq tapılmadı"
+            },
+            "more": "Daha çox yükləmək"
+          },
+          "header": {
+            "search": "Axtarış...",
+            "total": "Teqlər: {{value}}"
+          }
+        }
+      },
+      "error": {
+        "Tags": {
+          "TagHasInStopList": "Əlavə edilmiş teq dayanma siyahısındadır."
+        }
+      },
+      "header": {
+        "accept": "Hazırdır",
+        "title": "Teq buludu"
+      }
+    }
+  }
+}
