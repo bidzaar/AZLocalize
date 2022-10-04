@@ -30,6 +30,7 @@
         "common": {
           "protocols": {
             "title": "Tender komissiyasının protokolları və sənədləri",
+            "notice": "[AT] Sənədlər saytın bütün istifadəçiləri üçün əlçatandır",
             "upload": "Protokolu və ya digər sənədi dərc edin",
             "empty": "[AT] Tender komissiyasının protokolları və sənədləri yüklənmir"
           },
@@ -180,7 +181,7 @@
             }
           },
           "canceled": {
-            "title": "[AT] Ləğv edilmiş sifarişlər ({dəyər}})",
+            "title": "[AT] Ləğv edilmiş sifarişlər ({{value}})",
             "order_title": "[AT] Ləğv",
             "reason": "[AT] Səbəb"
           }

@@ -1,0 +1,90 @@
+{
+  "ugr": {
+    "list": {
+      "header": {
+        "title": "web/app/ugroups/list: ugr.list.header.title"
+      },
+      "empty": {
+        "title": "web/app/ugroups/list: ugr.list.empty.title",
+        "text": "web/app/ugroups/list: ugr.list.empty.text"
+      },
+      "search": {
+        "tooltip": "web/app/ugroups/list: ugr.list.search.tooltip"
+      },
+      "sorting": {
+        "name": {
+          "title": "web/app/ugroups/list: ugr.list.sorting.name.title"
+        },
+        "last_changes": {
+          "title": "web/app/ugroups/list: ugr.list.sorting.last_changes.title"
+        },
+        "creation_date": {
+          "title": "web/app/ugroups/list: ugr.list.sorting.creation_date.title"
+        }
+      },
+      "filters": {
+        "last_changes": {
+          "title": "web/app/ugroups/list: ugr.list.filters.last_changes.title"
+        },
+        "creation_date": {
+          "title": "web/app/ugroups/list: ugr.list.filters.creation_date.title"
+        },
+        "my": {
+          "title": "web/app/ugroups/list: ugr.list.filters.my.title",
+          "options": {
+            "true": "web/app/ugroups/list: ugr.list.filters.my.options.true",
+            "false": "web/app/ugroups/list: ugr.list.filters.my.options.false"
+          }
+        },
+        "blocked": {
+          "title": "web/app/ugroups/list: ugr.list.filters.blocked.title",
+          "options": {
+            "true": "web/app/ugroups/list: ugr.list.filters.blocked.options.true",
+            "false": "web/app/ugroups/list: ugr.list.filters.blocked.options.false"
+          }
+        },
+        "users": {
+          "title": "web/app/ugroups/list: ugr.list.filters.users.title"
+        },
+        "empty": "web/app/ugroups/list: ugr.list.filters.empty"
+      },
+      "item": {
+        "dates": {
+          "created": "web/app/ugroups/list: ugr.list.item.dates.created",
+          "changed": "web/app/ugroups/list: ugr.list.item.dates.changed",
+          "separator": "web/app/ugroups/list: ugr.list.item.dates.separator"
+        },
+        "marks": {
+          "member": "web/app/ugroups/list: ugr.list.item.marks.member",
+          "blocked": "web/app/ugroups/list: ugr.list.item.marks.blocked"
+        }
+      },
+      "actions": {
+        "create": "web/app/ugroups/list: ugr.list.actions.create"
+      },
+      "dialogs": {
+        "create": {
+          "header": "web/app/ugroups/list: ugr.list.dialogs.create.header",
+          "form": {
+            "label": "web/app/ugroups/list: ugr.list.dialogs.create.form.label"
+          },
+          "errors": {
+            "duplicate": {
+              "reason": "web/app/ugroups/list: ugr.list.dialogs.create.errors.duplicate.reason",
+              "notice": "web/app/ugroups/list: ugr.list.dialogs.create.errors.duplicate.notice"
+            },
+            "default": {
+              "reason": "web/app/ugroups/list: ugr.list.dialogs.create.errors.default.reason",
+              "notice": "web/app/ugroups/list: ugr.list.dialogs.create.errors.default.notice"
+            }
+          },
+          "actions": {
+            "cancel": "web/app/ugroups/list: ugr.list.dialogs.create.actions.cancel",
+            "submit": "web/app/ugroups/list: ugr.list.dialogs.create.actions.submit"
+          },
+          "snack": "web/app/ugroups/list: ugr.list.dialogs.create.snack"
+        }
+      }
+    }
+  }
+}

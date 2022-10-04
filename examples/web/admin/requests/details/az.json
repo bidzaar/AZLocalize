@@ -49,6 +49,15 @@
       "view": "ətraflı",
       "dialog": {
         "edit": "sorğu tarifini dəyişdirin"
+      },
+      "payment_fee": {
+        "seller": "[AT] Qazanan təchizatçı ödəyir",
+        "purchaser": "[AT] Müştəri ödəyir",
+        "fee": {
+          "title": "[AT] Gediş haqqı tətbiq edilmir",
+          "text": "[AT] İştirak pulsuzdur",
+          "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
+        }
       }
     },
     "owner_rules": {
@@ -102,7 +111,7 @@
         "label": "təkliflərin qəbulu mərhələsində təşkilatçı",
         "enums": {
           "0": "iştirakçıların təkliflərini görür",
-          "1":"iştirakçıların təklifinin məzmununu görmür"
+          "1": "iştirakçıların təklifinin məzmununu görmür"
         }
       }
     }

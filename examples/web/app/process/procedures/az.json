@@ -85,6 +85,13 @@
         "private": "Bağlı",
         "public": "Açıq",
         "title": "Sorğunun növü"
+      },
+      "type_of_change": {
+        "title": "Sorğu növü",
+        "labels": {
+          "true": "Satınalma",
+          "false": "Satış"
+        }
       }
     },
     "list_item": {
@@ -124,8 +131,8 @@
       "not_available": "Təklif dərəcəsi təklifdəki maddəyə görə yayınmaya icazə verilmiş sorğular üçün hesablanmır"
     },
     "statistics": {
-      "participants": "İştirak etdi",
-      "proposals": "Təklifi olan iştirakçılar"
+      "proposals": "Participants of the current stage with an offer",
+      "participants": "Participated in the current stage"
     },
     "views_count": "Baxışların miqdarı"
   }

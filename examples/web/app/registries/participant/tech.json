@@ -1,0 +1,107 @@
+{
+  "rgs": {
+    "prt": {
+      "botzaar": {
+        "message": {
+          "2": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.2.title",
+            "text": "web/app/registries/participant: rgs.prt.botzaar.message.2.text"
+          },
+          "3": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.3.title",
+            "text": "web/app/registries/participant: rgs.prt.botzaar.message.3.text",
+            "date": "web/app/registries/participant: rgs.prt.botzaar.message.3.date",
+            "endless": "web/app/registries/participant: rgs.prt.botzaar.message.3.endless"
+          },
+          "4": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.4.title",
+            "text": "web/app/registries/participant: rgs.prt.botzaar.message.4.text",
+            "reason": "web/app/registries/participant: rgs.prt.botzaar.message.4.reason",
+            "advice": "web/app/registries/participant: rgs.prt.botzaar.message.4.advice"
+          },
+          "5": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.5.title",
+            "advice": "web/app/registries/participant: rgs.prt.botzaar.message.5.advice"
+          },
+          "6": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.6.title",
+            "reason": "web/app/registries/participant: rgs.prt.botzaar.message.6.reason"
+          },
+          "7": {
+            "title": "web/app/registries/participant: rgs.prt.botzaar.message.7.title",
+            "advice": "web/app/registries/participant: rgs.prt.botzaar.message.7.advice"
+          }
+        },
+        "actions": {
+          "button": "web/app/registries/participant: rgs.prt.botzaar.actions.button",
+          "refuse": "web/app/registries/participant: rgs.prt.botzaar.actions.refuse",
+          "view": "web/app/registries/participant: rgs.prt.botzaar.actions.view",
+          "create": "web/app/registries/participant: rgs.prt.botzaar.actions.create"
+        }
+      },
+      "application": {
+        "actions": {
+          "submit": "web/app/registries/participant: rgs.prt.application.actions.submit",
+          "prepare": "web/app/registries/participant: rgs.prt.application.actions.prepare",
+          "view": "web/app/registries/participant: rgs.prt.application.actions.view",
+          "change": "web/app/registries/participant: rgs.prt.application.actions.change"
+        }
+      },
+      "block": {
+        "title": "web/app/registries/participant: rgs.prt.block.title",
+        "to_application": "web/app/registries/participant: rgs.prt.block.to_application"
+      },
+      "dialogs": {
+        "submit": {
+          "title": "web/app/registries/participant: rgs.prt.dialogs.submit.title",
+          "text": "web/app/registries/participant: rgs.prt.dialogs.submit.text",
+          "submit": "web/app/registries/participant: rgs.prt.dialogs.submit.submit",
+          "cancel": "web/app/registries/participant: rgs.prt.dialogs.submit.cancel",
+          "success_snack": "web/app/registries/participant: rgs.prt.dialogs.submit.success_snack"
+        },
+        "refuse": {
+          "title": "web/app/registries/participant: rgs.prt.dialogs.refuse.title",
+          "reason": "web/app/registries/participant: rgs.prt.dialogs.refuse.reason",
+          "submit": "web/app/registries/participant: rgs.prt.dialogs.refuse.submit",
+          "cancel": "web/app/registries/participant: rgs.prt.dialogs.refuse.cancel"
+        },
+        "invitation": {
+          "title": "web/app/registries/participant: rgs.prt.dialogs.invitation.title",
+          "submit": "web/app/registries/participant: rgs.prt.dialogs.invitation.submit",
+          "cancel": "web/app/registries/participant: rgs.prt.dialogs.invitation.cancel"
+        },
+        "no_application": {
+          "title": "web/app/registries/participant: rgs.prt.dialogs.no_application.title",
+          "text": "web/app/registries/participant: rgs.prt.dialogs.no_application.text",
+          "submit": "web/app/registries/participant: rgs.prt.dialogs.no_application.submit"
+        },
+        "not_accredited_in_related_error": {
+          "title": "web/app/registries/participant: rgs.prt.dialogs.not_accredited_in_related_error.title",
+          "list_title": "web/app/registries/participant: rgs.prt.dialogs.not_accredited_in_related_error.list_title",
+          "requirement": "web/app/registries/participant: rgs.prt.dialogs.not_accredited_in_related_error.requirement",
+          "close": "web/app/registries/participant: rgs.prt.dialogs.not_accredited_in_related_error.close"
+        },
+        "error_dialog": {
+          "obsolete": {
+            "title": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.obsolete.title",
+            "text": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.obsolete.text"
+          },
+          "block_is_not_complete": {
+            "title": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.block_is_not_complete.title",
+            "text": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.block_is_not_complete.text"
+          },
+          "request_acceptance_closed": {
+            "title": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.request_acceptance_closed.title",
+            "text": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.request_acceptance_closed.text",
+            "notice": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.request_acceptance_closed.notice"
+          },
+          "blocked": {
+            "title": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.blocked.title",
+            "text": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.blocked.text"
+          },
+          "close": "web/app/registries/participant: rgs.prt.dialogs.error_dialog.close"
+        }
+      }
+    }
+  }
+}

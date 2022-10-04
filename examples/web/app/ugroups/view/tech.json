@@ -1,0 +1,78 @@
+{
+  "ugr": {
+    "view": {
+      "header": {
+        "marks": {
+          "blocked": "web/app/ugroups/view: ugr.view.header.marks.blocked"
+        },
+        "actions": {
+          "block": "web/app/ugroups/view: ugr.view.header.actions.block",
+          "unblock": "web/app/ugroups/view: ugr.view.header.actions.unblock"
+        }
+      },
+      "general": {
+        "description": {
+          "label": "web/app/ugroups/view: ugr.view.general.description.label",
+          "placeholder": "web/app/ugroups/view: ugr.view.general.description.placeholder"
+        }
+      },
+      "users": {
+        "header": "web/app/ugroups/view: ugr.view.users.header",
+        "empty": {
+          "title": "web/app/ugroups/view: ugr.view.users.empty.title",
+          "text": "web/app/ugroups/view: ugr.view.users.empty.text"
+        },
+        "item": {
+          "marks": {
+            "manager": "web/app/ugroups/view: ugr.view.users.item.marks.manager"
+          }
+        },
+        "actions": {
+          "append": "web/app/ugroups/view: ugr.view.users.actions.append",
+          "remove": "web/app/ugroups/view: ugr.view.users.actions.remove",
+          "appoint_manager": "web/app/ugroups/view: ugr.view.users.actions.appoint_manager",
+          "remove_manager": "web/app/ugroups/view: ugr.view.users.actions.remove_manager"
+        }
+      },
+      "dialogs": {
+        "block": {
+          "title": "web/app/ugroups/view: ugr.view.dialogs.block.title",
+          "text": "web/app/ugroups/view: ugr.view.dialogs.block.text",
+          "cancel": "web/app/ugroups/view: ugr.view.dialogs.block.cancel",
+          "submit": "web/app/ugroups/view: ugr.view.dialogs.block.submit",
+          "success": "web/app/ugroups/view: ugr.view.dialogs.block.success",
+          "error": "web/app/ugroups/view: ugr.view.dialogs.block.error"
+        },
+        "unblock": {
+          "title": "web/app/ugroups/view: ugr.view.dialogs.unblock.title",
+          "text": "web/app/ugroups/view: ugr.view.dialogs.unblock.text",
+          "cancel": "web/app/ugroups/view: ugr.view.dialogs.unblock.cancel",
+          "submit": "web/app/ugroups/view: ugr.view.dialogs.unblock.submit",
+          "success": "web/app/ugroups/view: ugr.view.dialogs.unblock.success",
+          "error": "web/app/ugroups/view: ugr.view.dialogs.unblock.error"
+        },
+        "remove_user": {
+          "title": "web/app/ugroups/view: ugr.view.dialogs.remove_user.title",
+          "text": "web/app/ugroups/view: ugr.view.dialogs.remove_user.text",
+          "cancel": "web/app/ugroups/view: ugr.view.dialogs.remove_user.cancel",
+          "submit": "web/app/ugroups/view: ugr.view.dialogs.remove_user.submit"
+        },
+        "demote_self": {
+          "title": "web/app/ugroups/view: ugr.view.dialogs.demote_self.title",
+          "text": "web/app/ugroups/view: ugr.view.dialogs.demote_self.text",
+          "cancel": "web/app/ugroups/view: ugr.view.dialogs.demote_self.cancel",
+          "submit": "web/app/ugroups/view: ugr.view.dialogs.demote_self.submit"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "Group": {
+          "AlreadyExist": "web/app/ugroups/view: errors.logic.UserManagement.Group.AlreadyExist"
+        }
+      }
+    }
+  }
+}

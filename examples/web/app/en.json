@@ -150,15 +150,6 @@
         },
         "tooltip": "Delete user"
       },
-      "dialog_selector": {
-        "add": "add",
-        "cancel": "cancel",
-        "empty": "no more employees :(",
-        "empty_purchases": "No assigned roles yet :(",
-        "single_choice_title": "users with rights:",
-        "single_choice_title_all": "users in company",
-        "title": "add users"
-      },
       "list": {
         "add_tooltip": "add user",
         "empty": "users not found",
@@ -872,6 +863,7 @@
       "questionnaire": "Requirements for participants and conditions of request",
       "team": "Users",
       "nda": "NDA",
+      "registries": "Registries",
       "cancel": "Cancel",
       "submit": "Duplicate"
     },
@@ -2359,7 +2351,8 @@
             "public": "Public page",
             "remove": "Delete company",
             "phantom": "Create phantom",
-            "smtp": "Invitations vendors to requests"
+            "smtp": "Invitations vendors to requests",
+            "categories": "Category Reference"
           }
         },
         "dialogs": {
@@ -2520,6 +2513,13 @@
       "cancel": "Cancel",
       "send_request": "Send request",
       "success": "Company verification request sent"
+    },
+    "users-selector-dialog": {
+      "empty": "There are no employees with the necessary rights. Contact the company manager to assign rights to employees.",
+      "search": "Search...",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "not-found": "No employees were found."
     }
   },
   "user_menu": {

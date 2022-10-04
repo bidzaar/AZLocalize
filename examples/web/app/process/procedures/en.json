@@ -76,7 +76,14 @@
         "title": "Place of delivery"
       },
       "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
-      "default": "Default"
+      "default": "Default",
+      "type_of_change": {
+        "title": "Request type",
+        "labels": {
+          "true": "Purchase",
+          "false": "Sales"
+        }
+      }
     },
     "dates": {
       "created": "Creation date",
@@ -118,8 +125,8 @@
       "order_price": "Order price"
     },
     "statistics": {
-      "proposals": "Participants with an offer",
-      "participants": "Participated"
+      "proposals": "Participants of the current stage with an offer",
+      "participants": "Participated in the current stage"
     },
     "empty_list": "No results were found for your request...",
     "private": "Closed",

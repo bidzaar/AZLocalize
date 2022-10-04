@@ -1,19 +1,72 @@
 {
   "trf.cms.list": {
     "header": {
-      "title": "Tariff Packages",
-      "add": "Add Tariff Package"
+      "title": "Customers on the tariff package",
+      "add": "Add customer",
+      "recordings": "Recordings: "
     },
-    "package": {
-      "customers": "Customers",
-      "label": "Edit"
+    "remove": "Cancel the tariff package",
+    "enums": {
+      "rights": {
+        "0": "Rights not assigned",
+        "1": "Buyer",
+        "2": "Supplier",
+        "4": "Accreditation",
+        "8": "Pool management",
+        "16": "CC",
+        "128": "Hands. procurement",
+        "512": "Registries",
+        "2048": "Accreditation in pools"
+      }
+    },
+    "invite": {
+      "header": {
+        "title": "Companies",
+        "add": "Add"
+      },
+      "list": {
+        "title": "Companies",
+        "selected_title": "Selected:",
+        "filters": {
+          "tags": "Company sells",
+          "rights": "Rights",
+          "badges": "Badges",
+          "location": "Location",
+          "areas": "Place of business",
+          "shown": {
+            "title": "Display",
+            "true": "Yes",
+            "false": "No"
+          },
+          "phantom": {
+            "title": "Phantoms",
+            "true": "Only phantoms",
+            "false": "Only not phantoms"
+          },
+          "verified": {
+            "title": "Verified Bidzaar",
+            "true": "Verified only",
+            "false": "Unchecked only"
+          }
+        },
+        "sort": {
+          "registration_date": "Registration date"
+        },
+        "search": "TIN, Brand, Legal Name, Company Code, Description, Legal Address, Tags, Phone, Email",
+        "empty": "Nothing was found for your query...",
+        "crm": "CRM",
+        "actions": {
+          "notify_users_tooltip": "Send email"
+        }
+      },
+      "success": "Companies added"
     },
     "dialog": {
-      "title": "Tariff package",
-      "input": "Package name",
-      "add": "done",
+      "title": "Cancel the tariff package",
+      "text": "The standard tariff package will be valid in the company's requests.",
+      "sub": "Apply",
       "cancel": "Cancel"
     },
-    "empty": "List is empty"
+    "empty": "Add customers for whom the tariff package will be applied"
   }
 }

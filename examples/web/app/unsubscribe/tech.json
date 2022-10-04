@@ -1,0 +1,63 @@
+{
+  "uns": {
+    "subscriptions": {
+      "content": {
+        "events": {
+          "ChatMessageRequiresNotificationEvent": "web/app/unsubscribe: uns.subscriptions.content.events.ChatMessageRequiresNotificationEvent",
+          "FinishRoundProcedureEvent": "web/app/unsubscribe: uns.subscriptions.content.events.FinishRoundProcedureEvent",
+          "FinishRoundProcedureOrgEvent": "web/app/unsubscribe: uns.subscriptions.content.events.FinishRoundProcedureOrgEvent",
+          "NoProposal24Event": "web/app/unsubscribe: uns.subscriptions.content.events.NoProposal24Event",
+          "NotifyCompaniesByProcedureTags": "web/app/unsubscribe: uns.subscriptions.content.events.NotifyCompaniesByProcedureTags",
+          "NotifyProcedureFinishedWithOrderOrg": "web/app/unsubscribe: uns.subscriptions.content.events.NotifyProcedureFinishedWithOrderOrg",
+          "NotifyProcedureFinishedWithoutOrderOrg": "web/app/unsubscribe: uns.subscriptions.content.events.NotifyProcedureFinishedWithoutOrderOrg",
+          "ParticipantsLeaveProcedure": "web/app/unsubscribe: uns.subscriptions.content.events.ParticipantsLeaveProcedure",
+          "ProcedureCanceledOrg": "web/app/unsubscribe: uns.subscriptions.content.events.ProcedureCanceledOrg",
+          "ProcedureChanged": "web/app/unsubscribe: uns.subscriptions.content.events.ProcedureChanged",
+          "ProcedureChangedOrg": "web/app/unsubscribe: uns.subscriptions.content.events.ProcedureChangedOrg",
+          "ProcedureDigestReadyEvent": "web/app/unsubscribe: uns.subscriptions.content.events.ProcedureDigestReadyEvent",
+          "ProposalAddedEvent": "web/app/unsubscribe: uns.subscriptions.content.events.ProposalAddedEvent",
+          "ProposalChangedEvent": "web/app/unsubscribe: uns.subscriptions.content.events.ProposalChangedEvent",
+          "PublishProcedureEventOrg": "web/app/unsubscribe: uns.subscriptions.content.events.PublishProcedureEventOrg",
+          "RemindCompleteProfileNotification": "web/app/unsubscribe: uns.subscriptions.content.events.RemindCompleteProfileNotification",
+          "SummingUpProcedureReminderEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureReminderEvent",
+          "SummingUpProcedureOrgEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureOrgEvent",
+          "SummingUpProcedureEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureEvent"
+        },
+        "groups": {
+          "BuyerActions": "web/app/unsubscribe: uns.subscriptions.content.groups.BuyerActions",
+          "Chats": "web/app/unsubscribe: uns.subscriptions.content.groups.Chats",
+          "CompanyManagement": "web/app/unsubscribe: uns.subscriptions.content.groups.CompanyManagement",
+          "ParticipantNotifications": "web/app/unsubscribe: uns.subscriptions.content.groups.ParticipantNotifications",
+          "ProcedureNotifications": "web/app/unsubscribe: uns.subscriptions.content.groups.ProcedureNotifications",
+          "SellerActions": "web/app/unsubscribe: uns.subscriptions.content.groups.SellerActions"
+        },
+        "notice": "web/app/unsubscribe: uns.subscriptions.content.notice",
+        "language": "web/app/unsubscribe: uns.subscriptions.content.language",
+        "rights": {
+          "Chats": {
+            "name": "web/app/unsubscribe: uns.subscriptions.content.rights.Chats.name",
+            "notice": "web/app/unsubscribe: uns.subscriptions.content.rights.Chats.notice"
+          },
+          "CompanyManagement": {
+            "name": "web/app/unsubscribe: uns.subscriptions.content.rights.CompanyManagement.name",
+            "notice": "web/app/unsubscribe: uns.subscriptions.content.rights.CompanyManagement.notice"
+          },
+          "Purchases": {
+            "name": "web/app/unsubscribe: uns.subscriptions.content.rights.Purchases.name",
+            "notice": "web/app/unsubscribe: uns.subscriptions.content.rights.Purchases.notice"
+          },
+          "Sales": {
+            "name": "web/app/unsubscribe: uns.subscriptions.content.rights.Sales.name",
+            "notice": "web/app/unsubscribe: uns.subscriptions.content.rights.Sales.notice"
+          }
+        },
+        "title": "web/app/unsubscribe: uns.subscriptions.content.title",
+        "unsub": "web/app/unsubscribe: uns.subscriptions.content.unsub"
+      },
+      "header": {
+        "done": "web/app/unsubscribe: uns.subscriptions.header.done",
+        "title": "web/app/unsubscribe: uns.subscriptions.header.title"
+      }
+    }
+  }
+}

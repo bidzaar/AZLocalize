@@ -1,0 +1,455 @@
+{
+  "rgs": {
+    "owner": {
+      "dashboard": {
+        "no_data": "web/app/registries/owner: rgs.owner.dashboard.no_data",
+        "acceptance": {
+          "draft": "web/app/registries/owner: rgs.owner.dashboard.acceptance.draft",
+          "opened": "web/app/registries/owner: rgs.owner.dashboard.acceptance.opened",
+          "closed": "web/app/registries/owner: rgs.owner.dashboard.acceptance.closed",
+          "actions": {
+            "open": {
+              "title": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.open.title",
+              "menu": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.open.menu",
+              "description": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.open.description"
+            },
+            "close": {
+              "title": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.close.title",
+              "menu": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.close.menu",
+              "description": "web/app/registries/owner: rgs.owner.dashboard.acceptance.actions.close.description"
+            }
+          }
+        },
+        "main_actions": {
+          "add_company": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.add_company.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.add_company.sub_title"
+          },
+          "delete": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.delete.title"
+          },
+          "publish": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.publish.title",
+            "dialog_title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.publish.dialog_title",
+            "yes": "web/app/registries/owner: rgs.owner.dashboard.main_actions.publish.yes",
+            "no": "web/app/registries/owner: rgs.owner.dashboard.main_actions.publish.no"
+          },
+          "settings": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.main_actions.settings.title"
+          }
+        },
+        "charts": {
+          "accredited": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.charts.accredited.title",
+            "button": "web/app/registries/owner: rgs.owner.dashboard.charts.accredited.button",
+            "accredited": "web/app/registries/owner: rgs.owner.dashboard.charts.accredited.accredited",
+            "accredited_without_application": "web/app/registries/owner: rgs.owner.dashboard.charts.accredited.accredited_without_application"
+          },
+          "applications_pending": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.sub_title",
+            "approved": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.approved",
+            "not_approved": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.not_approved",
+            "button": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.button",
+            "applications_processed": "web/app/registries/owner: rgs.owner.dashboard.charts.applications_pending.applications_processed"
+          },
+          "attraction_channels": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.charts.attraction_channels.title",
+            "tooltip": "web/app/registries/owner: rgs.owner.dashboard.charts.attraction_channels.tooltip",
+            "profile": "web/app/registries/owner: rgs.owner.dashboard.charts.attraction_channels.profile",
+            "widget": "web/app/registries/owner: rgs.owner.dashboard.charts.attraction_channels.widget",
+            "invite": "web/app/registries/owner: rgs.owner.dashboard.charts.attraction_channels.invite"
+          },
+          "expiring_accreditations": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.sub_title",
+            "blocked": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.blocked",
+            "stopped": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.stopped",
+            "refused": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.refused",
+            "expired": "web/app/registries/owner: rgs.owner.dashboard.charts.expiring_accreditations.expired"
+          },
+          "expire_soon": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.charts.expire_soon.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.charts.expire_soon.sub_title",
+            "button": "web/app/registries/owner: rgs.owner.dashboard.charts.expire_soon.button"
+          }
+        },
+        "internal": {
+          "title": "web/app/registries/owner: rgs.owner.dashboard.internal.title",
+          "comment": "web/app/registries/owner: rgs.owner.dashboard.internal.comment",
+          "files": "web/app/registries/owner: rgs.owner.dashboard.internal.files"
+        },
+        "draft_card": {
+          "title": "web/app/registries/owner: rgs.owner.dashboard.draft_card.title",
+          "sub_title": "web/app/registries/owner: rgs.owner.dashboard.draft_card.sub_title",
+          "configure": "web/app/registries/owner: rgs.owner.dashboard.draft_card.configure"
+        },
+        "actions": {
+          "settings": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.actions.settings.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.actions.settings.sub_title"
+          },
+          "questionnaire": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.actions.questionnaire.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.actions.questionnaire.sub_title"
+          },
+          "access": {
+            "title": "web/app/registries/owner: rgs.owner.dashboard.actions.access.title",
+            "sub_title": "web/app/registries/owner: rgs.owner.dashboard.actions.access.sub_title"
+          }
+        }
+      },
+      "settings": {
+        "title": "web/app/registries/owner: rgs.owner.settings.title",
+        "btn": "web/app/registries/owner: rgs.owner.settings.btn"
+      },
+      "automation": {
+        "title": "web/app/registries/owner: rgs.owner.automation.title",
+        "subtitle": {
+          "left": "web/app/registries/owner: rgs.owner.automation.subtitle.left",
+          "right": "web/app/registries/owner: rgs.owner.automation.subtitle.right",
+          "errors": {
+            "no_active_version": "web/app/registries/owner: rgs.owner.automation.subtitle.errors.no_active_version",
+            "no_active_formula": "web/app/registries/owner: rgs.owner.automation.subtitle.errors.no_active_formula",
+            "no_deferred_formula": "web/app/registries/owner: rgs.owner.automation.subtitle.errors.no_deferred_formula"
+          }
+        },
+        "actions": {
+          "disable_automation": "web/app/registries/owner: rgs.owner.automation.actions.disable_automation",
+          "settings": "web/app/registries/owner: rgs.owner.automation.actions.settings"
+        },
+        "refuse": {
+          "title": "web/app/registries/owner: rgs.owner.automation.refuse.title",
+          "disabled": "web/app/registries/owner: rgs.owner.automation.refuse.disabled",
+          "text": "web/app/registries/owner: rgs.owner.automation.refuse.text"
+        },
+        "ranking": {
+          "title": "web/app/registries/owner: rgs.owner.automation.ranking.title",
+          "disabled": "web/app/registries/owner: rgs.owner.automation.ranking.disabled"
+        },
+        "empty": {
+          "title": "web/app/registries/owner: rgs.owner.automation.empty.title",
+          "subtitle": "web/app/registries/owner: rgs.owner.automation.empty.subtitle",
+          "automate": "web/app/registries/owner: rgs.owner.automation.empty.automate"
+        },
+        "dialogs": {
+          "automation_turn_off": {
+            "title": "web/app/registries/owner: rgs.owner.automation.dialogs.automation_turn_off.title",
+            "text": "web/app/registries/owner: rgs.owner.automation.dialogs.automation_turn_off.text",
+            "yes": "web/app/registries/owner: rgs.owner.automation.dialogs.automation_turn_off.yes",
+            "no": "web/app/registries/owner: rgs.owner.automation.dialogs.automation_turn_off.no"
+          },
+          "auto_reject": {
+            "title": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.title",
+            "checkbox": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.checkbox",
+            "min_scoring": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.min_scoring",
+            "info": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.info",
+            "info_turned_off": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.info_turned_off",
+            "cancel": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.cancel",
+            "submit": "web/app/registries/owner: rgs.owner.automation.dialogs.auto_reject.submit"
+          },
+          "scoring": {
+            "title": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.title",
+            "checkbox": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.checkbox",
+            "from": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.from",
+            "greater": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.greater",
+            "less": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.less",
+            "add": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.add",
+            "cancel": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.cancel",
+            "submit": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.submit",
+            "info": {
+              "true": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.info.true",
+              "false": "web/app/registries/owner: rgs.owner.automation.dialogs.scoring.info.false"
+            }
+          },
+          "error": {
+            "title": "web/app/registries/owner: rgs.owner.automation.dialogs.error.title",
+            "no_active_version": "web/app/registries/owner: rgs.owner.automation.dialogs.error.no_active_version",
+            "no_active_formula": "web/app/registries/owner: rgs.owner.automation.dialogs.error.no_active_formula",
+            "no_deferred_formula": "web/app/registries/owner: rgs.owner.automation.dialogs.error.no_deferred_formula",
+            "close": "web/app/registries/owner: rgs.owner.automation.dialogs.error.close"
+          }
+        }
+      },
+      "stages": {
+        "title": "web/app/registries/owner: rgs.owner.stages.title",
+        "empty": {
+          "title": "web/app/registries/owner: rgs.owner.stages.empty.title",
+          "text": "web/app/registries/owner: rgs.owner.stages.empty.text",
+          "configure": "web/app/registries/owner: rgs.owner.stages.empty.configure"
+        },
+        "list": {
+          "title": "web/app/registries/owner: rgs.owner.stages.list.title",
+          "notice": "web/app/registries/owner: rgs.owner.stages.list.notice",
+          "stage": {
+            "title": "web/app/registries/owner: rgs.owner.stages.list.stage.title",
+            "groups": {
+              "empty": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.empty",
+              "popup": {
+                "title": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.popup.title",
+                "apply": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.popup.apply",
+                "veto": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.popup.veto",
+                "empty": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.popup.empty"
+              },
+              "decision": {
+                "title": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.decision.title",
+                "auto": "web/app/registries/owner: rgs.owner.stages.list.stage.groups.decision.auto"
+              }
+            }
+          },
+          "actions": {
+            "add_stage": "web/app/registries/owner: rgs.owner.stages.list.actions.add_stage",
+            "add_group": "web/app/registries/owner: rgs.owner.stages.list.actions.add_group"
+          }
+        },
+        "dialogs": {
+          "remove": {
+            "title": "web/app/registries/owner: rgs.owner.stages.dialogs.remove.title",
+            "cancel": "web/app/registries/owner: rgs.owner.stages.dialogs.remove.cancel",
+            "confirm": "web/app/registries/owner: rgs.owner.stages.dialogs.remove.confirm"
+          }
+        }
+      },
+      "questionnaire_versions": {
+        "title": "web/app/registries/owner: rgs.owner.questionnaire_versions.title",
+        "card_title": "web/app/registries/owner: rgs.owner.questionnaire_versions.card_title",
+        "version": "web/app/registries/owner: rgs.owner.questionnaire_versions.version",
+        "did_not_come_into_force": "web/app/registries/owner: rgs.owner.questionnaire_versions.did_not_come_into_force",
+        "dates": {
+          "from": "web/app/registries/owner: rgs.owner.questionnaire_versions.dates.from",
+          "to": "web/app/registries/owner: rgs.owner.questionnaire_versions.dates.to"
+        },
+        "empty": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_versions.empty.title",
+          "info": "web/app/registries/owner: rgs.owner.questionnaire_versions.empty.info",
+          "create_questionnaire": "web/app/registries/owner: rgs.owner.questionnaire_versions.empty.create_questionnaire"
+        },
+        "actions": {
+          "change": "web/app/registries/owner: rgs.owner.questionnaire_versions.actions.change",
+          "edit": "web/app/registries/owner: rgs.owner.questionnaire_versions.actions.edit",
+          "open": "web/app/registries/owner: rgs.owner.questionnaire_versions.actions.open",
+          "cancel": "web/app/registries/owner: rgs.owner.questionnaire_versions.actions.cancel"
+        },
+        "new_version_dialog": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_versions.new_version_dialog.title",
+          "description": "web/app/registries/owner: rgs.owner.questionnaire_versions.new_version_dialog.description",
+          "info": "web/app/registries/owner: rgs.owner.questionnaire_versions.new_version_dialog.info",
+          "cancel": "web/app/registries/owner: rgs.owner.questionnaire_versions.new_version_dialog.cancel",
+          "submit": "web/app/registries/owner: rgs.owner.questionnaire_versions.new_version_dialog.submit"
+        }
+      },
+      "questionnaire_blocks": {
+        "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.title",
+        "questionnaire_card": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.title",
+          "info": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.info",
+          "add_group": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.add_group",
+          "add_block": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.add_block",
+          "no_groups": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.no_groups",
+          "add_group_popover": {
+            "no_groups_info": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.add_group_popover.no_groups_info",
+            "no_groups_close": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.add_group_popover.no_groups_close"
+          },
+          "activate": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.activate",
+          "edit_groups": "web/app/registries/owner: rgs.owner.questionnaire_blocks.questionnaire_card.edit_groups"
+        },
+        "scoring": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.title",
+          "subtitle": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.subtitle",
+          "category": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.category",
+          "scoring": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.scoring",
+          "customize_categories": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.customize_categories",
+          "customize_scoring": "web/app/registries/owner: rgs.owner.questionnaire_blocks.scoring.customize_scoring"
+        },
+        "formula": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.formula.title",
+          "empty": "web/app/registries/owner: rgs.owner.questionnaire_blocks.formula.empty"
+        },
+        "dialogs": {
+          "add_block": {
+            "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.title",
+            "title_edit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.title_edit",
+            "name": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.name",
+            "submit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.submit",
+            "submit_edit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.submit_edit",
+            "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.cancel",
+            "new": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.add_block.new"
+          },
+          "delete_block": {
+            "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_block.title",
+            "info": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_block.info",
+            "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_block.cancel",
+            "delete": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_block.delete"
+          },
+          "delete_item": {
+            "group": {
+              "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.group.title",
+              "text": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.group.text",
+              "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.group.cancel",
+              "submit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.group.submit"
+            },
+            "object": {
+              "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.object.title",
+              "text": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.object.text",
+              "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.object.cancel",
+              "submit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.delete_item.object.submit"
+            }
+          },
+          "scoring": {
+            "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.title",
+            "scoring_range": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.scoring_range",
+            "from": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.from",
+            "to": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.to",
+            "range_title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.range_title",
+            "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.cancel",
+            "submit": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.submit",
+            "add_category": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.add_category",
+            "validation": {
+              "scoring_rank": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.validation.scoring_rank",
+              "category_name": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.validation.category_name",
+              "category_scoring_range": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.validation.category_scoring_range"
+            },
+            "default_category_name": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.scoring.default_category_name"
+          },
+          "formula": {
+            "title": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.title",
+            "cancel": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.cancel",
+            "save": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.save",
+            "error": {
+              "cant_parse": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.cant_parse",
+              "not_found": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.not_found",
+              "wrong_format": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.wrong_format",
+              "parentheses_not_matched": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.parentheses_not_matched",
+              "square_brackets_not_matched": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.square_brackets_not_matched",
+              "double_quotes_not_matched": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.double_quotes_not_matched",
+              "single_quotes_not_matched": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.single_quotes_not_matched",
+              "divided_by_zero": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.error.divided_by_zero"
+            },
+            "validation_success": "web/app/registries/owner: rgs.owner.questionnaire_blocks.dialogs.formula.validation_success"
+          }
+        }
+      },
+      "questionnaire_block": {
+        "empty_title": "web/app/registries/owner: rgs.owner.questionnaire_block.empty_title",
+        "empty_info": "web/app/registries/owner: rgs.owner.questionnaire_block.empty_info",
+        "create_button": "web/app/registries/owner: rgs.owner.questionnaire_block.create_button",
+        "rank_operator": "web/app/registries/owner: rgs.owner.questionnaire_block.rank_operator",
+        "exchange": {
+          "title": "web/app/registries/owner: rgs.owner.questionnaire_block.exchange.title",
+          "import": "web/app/registries/owner: rgs.owner.questionnaire_block.exchange.import",
+          "export": "web/app/registries/owner: rgs.owner.questionnaire_block.exchange.export"
+        }
+      },
+      "dialogs": {
+        "publish": {
+          "header": "web/app/registries/owner: rgs.owner.dialogs.publish.header",
+          "publication": {
+            "text": "web/app/registries/owner: rgs.owner.dialogs.publish.publication.text"
+          },
+          "validation": {
+            "text": "web/app/registries/owner: rgs.owner.dialogs.publish.validation.text"
+          },
+          "default": {
+            "notice": "web/app/registries/owner: rgs.owner.dialogs.publish.default.notice",
+            "success": "web/app/registries/owner: rgs.owner.dialogs.publish.default.success",
+            "actions": {
+              "cancel": "web/app/registries/owner: rgs.owner.dialogs.publish.default.actions.cancel",
+              "confirm": "web/app/registries/owner: rgs.owner.dialogs.publish.default.actions.confirm"
+            }
+          },
+          "messages": {
+            "Registry.ApprovalType": {
+              "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.Registry.ApprovalType.title"
+            },
+            "ByRequest": {
+              "Questionnaire.Deferred.NotExists": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByRequest.Questionnaire.Deferred.NotExists.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByRequest.Questionnaire.Deferred.NotExists.text"
+              },
+              "Questionnaire.Active.NotExists": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByRequest.Questionnaire.Active.NotExists.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByRequest.Questionnaire.Active.NotExists.text"
+              }
+            },
+            "ByScore": {
+              "Questionnaire.Active.NoScoring": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByScore.Questionnaire.Active.NoScoring.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByScore.Questionnaire.Active.NoScoring.text"
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByScore.Questionnaire.Deferred.NoScoring.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByScore.Questionnaire.Deferred.NoScoring.text"
+              }
+            },
+            "ByAccreditation": {
+              "Commission.NotExists": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Commission.NotExists.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Commission.NotExists.text"
+              },
+              "Questionnaire.Active.NotExists": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Active.NotExists.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Active.NotExists.text"
+              },
+              "Questionnaire.Active.NoScoring": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Active.NoScoring.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Active.NoScoring.text"
+              },
+              "Questionnaire.Deferred.NoScoring": {
+                "title": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Deferred.NoScoring.title",
+                "text": "web/app/registries/owner: rgs.owner.dialogs.publish.messages.ByAccreditation.Questionnaire.Deferred.NoScoring.text"
+              }
+            }
+          }
+        },
+        "activate": {
+          "title": "web/app/registries/owner: rgs.owner.dialogs.activate.title",
+          "immediately": "web/app/registries/owner: rgs.owner.dialogs.activate.immediately",
+          "from_date": "web/app/registries/owner: rgs.owner.dialogs.activate.from_date",
+          "cancel": "web/app/registries/owner: rgs.owner.dialogs.activate.cancel",
+          "submit": "web/app/registries/owner: rgs.owner.dialogs.activate.submit",
+          "timezone": "web/app/registries/owner: rgs.owner.dialogs.activate.timezone",
+          "immediately_snack": "web/app/registries/owner: rgs.owner.dialogs.activate.immediately_snack",
+          "from_date_snack": "web/app/registries/owner: rgs.owner.dialogs.activate.from_date_snack",
+          "errors": {
+            "is_not_draft": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.is_not_draft",
+            "common_error": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.common_error",
+            "formula_variable_not_found": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.formula_variable_not_found",
+            "empty": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.empty",
+            "blocks_empty": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.blocks_empty",
+            "no_scoring": "web/app/registries/owner: rgs.owner.dialogs.activate.errors.no_scoring"
+          },
+          "error_title": "web/app/registries/owner: rgs.owner.dialogs.activate.error_title",
+          "fix_error": "web/app/registries/owner: rgs.owner.dialogs.activate.fix_error",
+          "close": "web/app/registries/owner: rgs.owner.dialogs.activate.close",
+          "check_loader": "web/app/registries/owner: rgs.owner.dialogs.activate.check_loader"
+        },
+        "delete_draft": {
+          "title": "web/app/registries/owner: rgs.owner.dialogs.delete_draft.title",
+          "text": "web/app/registries/owner: rgs.owner.dialogs.delete_draft.text",
+          "yes": "web/app/registries/owner: rgs.owner.dialogs.delete_draft.yes",
+          "no": "web/app/registries/owner: rgs.owner.dialogs.delete_draft.no"
+        },
+        "cancel_deferred": {
+          "title": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.title",
+          "text": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.text",
+          "yes": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.yes",
+          "no": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.no",
+          "success_snack": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.success_snack"
+        },
+        "import_questionnaire": {
+          "title": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.title",
+          "text": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.text",
+          "cancel": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.cancel",
+          "choose": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.choose",
+          "success": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.success",
+          "errors": {
+            "format": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.format",
+            "parsing": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.parsing",
+            "version": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.version",
+            "default": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.default"
+          }
+        }
+      }
+    }
+  }
+}

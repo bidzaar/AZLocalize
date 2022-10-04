@@ -7,18 +7,49 @@
           "submitted": "Prequalification / NDA: application pending",
           "rejected": "Prequalification / NDA: application rejected",
           "accepted": "Prequalification / NDA passed",
-          "failed": "Prequalification / NDA failed"
+          "failed": "Prequalification / NDA failed",
+          "status": {
+            "0": "Application not submitted",
+            "1": "Application submitted",
+            "2": "Application rejected",
+            "3": "Completed"
+          }
         },
         "description": "Description of prequalification",
         "files_title": "NDA prequalification application documents",
         "files_info": "Upload the documents for review/filling out",
         "your_application": "Your application for prequalification / NDA",
-        "add_files_text": "Add signed agreement and other required documents",
+        "add_files_text": "Add the application documents",
         "add_files_update_text": "Add updated agreement and other required documents",
         "send": "Send",
         "errors": {
           "empty": "Documents have not been uploaded",
           "correct": "Correct and update the application"
+        },
+        "manual": {
+          "title": "Application for prequalification / NDA",
+          "message": {
+            "1": "Application under consideration by the customer",
+            "2": "Prepare and submit the application again"
+          },
+          "description": {
+            "text": "Go through prequalification / NDA to get acquainted with the documentation of the request. ",
+            "explanation": "It is required to complete prequalification and submit an offer before the deadline for accepting offers. Communication with the customer is in the request chat."
+          }
+        }
+      },
+      "registries": {
+        "title": "Accreditation",
+        "text": "To submit an offer, it is required to be accredited in these Customer registries:",
+        "open": "Open the registry",
+        "status": {
+          "false": "Not accredited",
+          "true": "Accredited"
+        },
+        "status_registry": {
+          "0": "In the process of accreditation",
+          "1": "Accredited before",
+          "2": "Not accredited"
         }
       },
       "card": {
@@ -110,9 +141,6 @@
         "1": "Submitted",
         "2": "Recalled",
         "changing": "Changing"
-      },
-      "owner": {
-        "title": "Owner"
       },
       "confirm_recall_dialog": {
         "title": "Withdraw the offer?",

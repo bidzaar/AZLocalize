@@ -1,0 +1,10 @@
+{
+  "tags": {
+    "shared": {
+      "actions": {
+        "manual_input": "web/admin/tags/shared: tags.shared.actions.manual_input",
+        "from_cloud": "web/admin/tags/shared: tags.shared.actions.from_cloud"
+      }
+    }
+  }
+}

@@ -1,19 +1,72 @@
 {
   "trf.cms.list": {
     "header": {
-      "title": "Tarif paketləri",
-      "add": "Gediş haqqı paketi əlavə et"
+      "title": "[AT] Tariflər paketində sifarişçilər",
+      "add": "[AT] Müştəri əlavə et",
+      "recordings": "[AT] Qeydlər:"
     },
-    "package": {
-      "customers": "Заказчики",
-      "label": "Редактировать"
+    "remove": "[AT] Tarif paketinin fəaliyyətini ləğv etmək",
+    "enums": {
+      "rights": {
+        "0": "[AT] hüquqlar təyin olunmayıb",
+        "1": "[AT] Qaynaqçı",
+        "2": "[AT] təchizatçı",
+        "4": "[AT] akkreditasiya",
+        "8": "[AT] hovuzların idarə edilməsi",
+        "16": "[AT] cinayət məcəlləsi",
+        "128": "[AT] əllər. satınalma",
+        "512": "[AT] reyestrlər",
+        "2048": "[AT] hovuzlarda akkreditasiya"
+      }
+    },
+    "invite": {
+      "header": {
+        "title": "[AT] şirkətlər",
+        "add": "[AT] əlavə et"
+      },
+      "list": {
+        "title": "[AT] şirkətlər",
+        "selected_title": "[AT] Seçilmiş:",
+        "filters": {
+          "tags": "[AT] Şirkət satır",
+          "rights": "[AT] Hüquq",
+          "badges": "[AT] Beyji",
+          "location": "[AT] Yer",
+          "areas": "[AT] Biznesin aparıldığı yer",
+          "shown": {
+            "title": "[AT] Ekran",
+            "true": "[AT] Bəli",
+            "false": "[AT] Xeyr"
+          },
+          "phantom": {
+            "title": "[AT] Phantoms",
+            "true": "[AT] Yalnız Phantoms",
+            "false": "[AT] Yalnız Phantoms"
+          },
+          "verified": {
+            "title": "[AT] Test Bidzaar",
+            "true": "[AT] Yalnız sübut",
+            "false": "[AT] Yalnız yoxlanılmamış"
+          }
+        },
+        "sort": {
+          "registration_date": "[AT] Qeydiyyat tarixi"
+        },
+        "search": "[AT] TİN, marka, hüquqi adı, şirkətin Kodu, Təsviri, hüquqi ünvanı, Tags, telefon, e-poçt",
+        "empty": "[AT] Sorğunuza görə heç bir şey tapılmadı...",
+        "crm": "[AT] CRM",
+        "actions": {
+          "notify_users_tooltip": "[AT] E-poçt göndər"
+        }
+      },
+      "success": "[AT] Şirkətlər əlavə"
     },
     "dialog": {
-      "title": "Пакет тарифов",
-      "input": "Наименование пакета",
-      "add": "Готово",
-      "cancel": "Отмена"
+      "title": "[AT] Tarif paketinin fəaliyyətini ləğv etmək",
+      "text": "[AT] Şirkətin sorğularında standart tarif paketi fəaliyyət göstərəcəkdir.",
+      "sub": "[AT] Müraciət",
+      "cancel": "[AT] Ləğv et"
     },
-    "empty": "Список пуст"
+    "empty": "[AT] Tarif paketinin tətbiq ediləcəyi sifarişçiləri əlavə edin"
   }
 }

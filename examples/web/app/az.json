@@ -150,15 +150,6 @@
         },
         "tooltip": "İstifadəçini sil"
       },
-      "dialog_selector": {
-        "add": "əlavə et",
-        "cancel": "Ləğv et",
-        "empty": "daha işçi yoxdur :(",
-        "empty_purchases": "Hələ təyin olunmuş rol yoxdur :(",
-        "single_choice_title": "hüquqları olan istifadəçilər:",
-        "single_choice_title_all": "şirkətdəki istifadəçilər",
-        "title": "əməkdaşları əlavə et"
-      },
       "list": {
         "add_tooltip": "əməkdaş əlavə et",
         "empty": "əməkdaşlar tapılmadı",
@@ -922,7 +913,7 @@
         "participants": "İştirakçılar",
         "positions": "Maddələr üzrə spesifikasiya",
         "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
-        "team": "Komanda"
+        "team": "Komanda",
       },
       "generalInfo": "Ümumi məlumat",
       "header": "Sorğunu klonlaşdır",
@@ -933,7 +924,8 @@
       "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
       "submit": "Klonlaşdırmaq",
       "team": "Komanda",
-      "nda": "[AT] NDA"
+      "nda": "[AT] NDA",
+      "registries": "[AT] Qeydiyyatlar"
     },
     "common": {
       "documents": "təchizatçı üçün sənədlər",
@@ -2324,7 +2316,8 @@
             "public": "İctimai səhifə",
             "remove": "Şirkəti sil",
             "smtp": "Təchizatçıların satınalmalara dəvət olunması",
-            "ugroups": "Əməkdaşlar qrupları"
+            "ugroups": "Əməkdaşlar qrupları",
+            "categories": "[AT] Kateqoriya kataloqu"
           }
         },
         "activity": {
@@ -2565,6 +2558,13 @@
       "title_link": "şirkətinizin profili",
       "title_postfix": ". Bu məlumatların doğru olduğundan əmin olun.",
       "title_prefix": "ProcureSaaS mütəxəssisləri göstərilən məlumatları yoxlayacaqlar"
+    },
+    "users-selector-dialog": {
+      "empty": "There are no employees with the necessary rights. Contact the company manager to assign rights to employees.",
+      "search": "Search...",
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "not-found": "No employees were found."
     },
     "rights": {
       "comment": "hüquqlar \"şirkəti idarə etmək\" hüququ olan istifadəçi tərəfindən müəyyən edilir",

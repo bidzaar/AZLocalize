@@ -1,0 +1,186 @@
+{
+  "cmp.profile": {
+    "enums": {
+      "tariff_fee": {
+        "0": "web/admin/companies/profile: cmp.profile.enums.tariff_fee.0",
+        "1": "web/admin/companies/profile: cmp.profile.enums.tariff_fee.1",
+        "2": "web/admin/companies/profile: cmp.profile.enums.tariff_fee.2",
+        "3": "web/admin/companies/profile: cmp.profile.enums.tariff_fee.3",
+        "4": "web/admin/companies/profile: cmp.profile.enums.tariff_fee.4"
+      }
+    },
+    "company": {
+      "viewer": {
+        "header": {
+          "info": "web/admin/companies/profile: cmp.profile.company.viewer.header.info",
+          "actions": {
+            "chat": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.chat",
+            "crm": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.crm",
+            "profile": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.profile"
+          }
+        },
+        "sections": {
+          "general": "web/admin/companies/profile: cmp.profile.company.viewer.sections.general",
+          "supplier": "web/admin/companies/profile: cmp.profile.company.viewer.sections.supplier",
+          "purchaser": "web/admin/companies/profile: cmp.profile.company.viewer.sections.purchaser",
+          "company": "web/admin/companies/profile: cmp.profile.company.viewer.sections.company"
+        },
+        "employees": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.employees.title"
+        },
+        "rights": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.rights.title",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.rights.empty"
+        },
+        "achievements": {
+          "header": "web/admin/companies/profile: cmp.profile.company.viewer.achievements.header",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.achievements.empty"
+        },
+        "tags": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.tags.title",
+          "text": "web/admin/companies/profile: cmp.profile.company.viewer.tags.text"
+        },
+        "suppliers": {
+          "header": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.header",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.empty"
+        },
+        "requisites": {
+          "header": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.header",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.empty",
+          "edit": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.edit"
+        },
+        "groups": {
+          "rights_visibility": "web/admin/companies/profile: cmp.profile.company.viewer.groups.rights_visibility",
+          "tariff": "web/admin/companies/profile: cmp.profile.company.viewer.groups.tariff",
+          "buyer_options": "web/admin/companies/profile: cmp.profile.company.viewer.groups.buyer_options",
+          "company": "web/admin/companies/profile: cmp.profile.company.viewer.groups.company"
+        },
+        "is_shown": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.is_shown.title",
+          "shown": "web/admin/companies/profile: cmp.profile.company.viewer.is_shown.shown",
+          "hidden": "web/admin/companies/profile: cmp.profile.company.viewer.is_shown.hidden"
+        },
+        "tariff_plan": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.title",
+          "change": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.change",
+          "tax_free": {
+            "true": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.tax_free.true",
+            "false": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.tax_free.false"
+          },
+          "enabled": {
+            "true": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.enabled.true",
+            "false": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.enabled.false"
+          }
+        },
+        "esg": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.esg.title",
+          "change": "web/admin/companies/profile: cmp.profile.company.viewer.esg.change",
+          "enabled": {
+            "true": "web/admin/companies/profile: cmp.profile.company.viewer.esg.enabled.true",
+            "false": "web/admin/companies/profile: cmp.profile.company.viewer.esg.enabled.false"
+          },
+          "reports": {
+            "certificate": "web/admin/companies/profile: cmp.profile.company.viewer.esg.reports.certificate",
+            "report": "web/admin/companies/profile: cmp.profile.company.viewer.esg.reports.report"
+          }
+        },
+        "payment_rules": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.title",
+          "fee": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.fee",
+          "free": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.free"
+        }
+      },
+      "editor": {
+        "crm": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.crm.header",
+          "label": "web/admin/companies/profile: cmp.profile.company.editor.crm.label"
+        },
+        "chat": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.chat.header",
+          "label": "web/admin/companies/profile: cmp.profile.company.editor.chat.label"
+        },
+        "tags": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.tags.header",
+          "label": "web/admin/companies/profile: cmp.profile.company.editor.tags.label",
+          "hint": "web/admin/companies/profile: cmp.profile.company.editor.tags.hint"
+        },
+        "rights": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.rights.header"
+        },
+        "achievements": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.achievements.header"
+        },
+        "suppliers": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.suppliers.header",
+          "label": "web/admin/companies/profile: cmp.profile.company.editor.suppliers.label",
+          "hint": "web/admin/companies/profile: cmp.profile.company.editor.suppliers.hint",
+          "not_found": "web/admin/companies/profile: cmp.profile.company.editor.suppliers.not_found"
+        },
+        "common": {
+          "actions": {
+            "cancel": "web/admin/companies/profile: cmp.profile.company.editor.common.actions.cancel",
+            "submit": "web/admin/companies/profile: cmp.profile.company.editor.common.actions.submit",
+            "save": "web/admin/companies/profile: cmp.profile.company.editor.common.actions.save"
+          }
+        },
+        "requisites": {
+          "success": "web/admin/companies/profile: cmp.profile.company.editor.requisites.success"
+        },
+        "tariff_plan": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.header",
+          "name": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.name",
+          "dates": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.dates",
+          "enabled": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.enabled",
+          "taxFree": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.taxFree",
+          "cancel": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.cancel",
+          "submit": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.submit",
+          "success": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.success",
+          "already_exists": "web/admin/companies/profile: cmp.profile.company.editor.tariff_plan.already_exists"
+        },
+        "esg": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.esg.header",
+          "enabled": "web/admin/companies/profile: cmp.profile.company.editor.esg.enabled",
+          "category": "web/admin/companies/profile: cmp.profile.company.editor.esg.category",
+          "certificate": {
+            "title": "web/admin/companies/profile: cmp.profile.company.editor.esg.certificate.title",
+            "upload": "web/admin/companies/profile: cmp.profile.company.editor.esg.certificate.upload"
+          },
+          "report": {
+            "title": "web/admin/companies/profile: cmp.profile.company.editor.esg.report.title",
+            "upload": "web/admin/companies/profile: cmp.profile.company.editor.esg.report.upload"
+          },
+          "rating": {
+            "title": "web/admin/companies/profile: cmp.profile.company.editor.esg.rating.title",
+            "common": "web/admin/companies/profile: cmp.profile.company.editor.esg.rating.common",
+            "ecology": "web/admin/companies/profile: cmp.profile.company.editor.esg.rating.ecology",
+            "society": "web/admin/companies/profile: cmp.profile.company.editor.esg.rating.society",
+            "management": "web/admin/companies/profile: cmp.profile.company.editor.esg.rating.management"
+          },
+          "actions": {
+            "cancel": "web/admin/companies/profile: cmp.profile.company.editor.esg.actions.cancel",
+            "submit": "web/admin/companies/profile: cmp.profile.company.editor.esg.actions.submit"
+          }
+        },
+        "payment_rules": {
+          "header": "web/admin/companies/profile: cmp.profile.company.editor.payment_rules.header",
+          "fee": "web/admin/companies/profile: cmp.profile.company.editor.payment_rules.fee",
+          "free": "web/admin/companies/profile: cmp.profile.company.editor.payment_rules.free"
+        }
+      },
+      "dialogs": {
+        "remove_supplier": {
+          "text": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.text",
+          "confirm": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.confirm",
+          "cancel": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.cancel"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "VerifiedCompanyAlreadyExists": "web/admin/companies/profile: errors.logic.UserManagement.VerifiedCompanyAlreadyExists"
+      }
+    }
+  }
+}

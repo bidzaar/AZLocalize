@@ -1,0 +1,92 @@
+{
+  "cmp": {
+    "esg": {
+      "about": {
+        "label": "web/app/companies/esg: cmp.esg.about.label",
+        "button": "web/app/companies/esg: cmp.esg.about.button",
+        "description": {
+          "RUS_FORK": "web/app/companies/esg: cmp.esg.about.description.RUS_FORK"
+        }
+      },
+      "empty": {
+        "title": "web/app/companies/esg: cmp.esg.empty.title",
+        "button": "web/app/companies/esg: cmp.esg.empty.button",
+        "description": {
+          "RUS_FORK": "web/app/companies/esg: cmp.esg.empty.description.RUS_FORK"
+        }
+      },
+      "info": {
+        "statistics": {
+          "popover": {
+            "title": "web/app/companies/esg: cmp.esg.info.statistics.popover.title",
+            "environmental": {
+              "0": "web/app/companies/esg: cmp.esg.info.statistics.popover.environmental.0",
+              "1": "web/app/companies/esg: cmp.esg.info.statistics.popover.environmental.1",
+              "2": "web/app/companies/esg: cmp.esg.info.statistics.popover.environmental.2"
+            },
+            "social": {
+              "0": "web/app/companies/esg: cmp.esg.info.statistics.popover.social.0",
+              "1": "web/app/companies/esg: cmp.esg.info.statistics.popover.social.1",
+              "2": "web/app/companies/esg: cmp.esg.info.statistics.popover.social.2"
+            },
+            "corporate_governance": {
+              "0": "web/app/companies/esg: cmp.esg.info.statistics.popover.corporate_governance.0",
+              "1": "web/app/companies/esg: cmp.esg.info.statistics.popover.corporate_governance.1",
+              "2": "web/app/companies/esg: cmp.esg.info.statistics.popover.corporate_governance.2"
+            }
+          },
+          "environmental": {
+            "title": "web/app/companies/esg: cmp.esg.info.statistics.environmental.title",
+            "label": "web/app/companies/esg: cmp.esg.info.statistics.environmental.label",
+            "letter": "web/app/companies/esg: cmp.esg.info.statistics.environmental.letter"
+          },
+          "social": {
+            "title": "web/app/companies/esg: cmp.esg.info.statistics.social.title",
+            "label": "web/app/companies/esg: cmp.esg.info.statistics.social.label",
+            "letter": "web/app/companies/esg: cmp.esg.info.statistics.social.letter"
+          },
+          "corporate_governance": {
+            "title": "web/app/companies/esg: cmp.esg.info.statistics.corporate_governance.title",
+            "label": "web/app/companies/esg: cmp.esg.info.statistics.corporate_governance.label",
+            "letter": "web/app/companies/esg: cmp.esg.info.statistics.corporate_governance.letter"
+          }
+        },
+        "documents": {
+          "0": {
+            "title": "web/app/companies/esg: cmp.esg.info.documents.0.title",
+            "description": "web/app/companies/esg: cmp.esg.info.documents.0.description"
+          },
+          "1": {
+            "title": "web/app/companies/esg: cmp.esg.info.documents.1.title",
+            "description": "web/app/companies/esg: cmp.esg.info.documents.1.description"
+          },
+          "title": "web/app/companies/esg: cmp.esg.info.documents.title"
+        }
+      },
+      "footer": {
+        "date": "web/app/companies/esg: cmp.esg.footer.date",
+        "shared": "web/app/companies/esg: cmp.esg.footer.shared"
+      },
+      "seo": {
+        "RUS_FORK": {
+          "title": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.title",
+          "description": {
+            "0": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.description.0",
+            "1": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.description.1",
+            "2": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.description.2"
+          },
+          "none": {
+            "title": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.none.title",
+            "description": "web/app/companies/esg: cmp.esg.seo.RUS_FORK.none.description"
+          }
+        }
+      },
+      "dialog": {
+        "header": "web/app/companies/esg: cmp.esg.dialog.header",
+        "text": "web/app/companies/esg: cmp.esg.dialog.text",
+        "hint": "web/app/companies/esg: cmp.esg.dialog.hint",
+        "label": "web/app/companies/esg: cmp.esg.dialog.label"
+      }
+    }
+  }
+}

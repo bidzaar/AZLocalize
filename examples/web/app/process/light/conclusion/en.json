@@ -29,7 +29,8 @@
       "content": {
         "common": {
           "protocols": {
-            "title": "Protocols and documents of the tender commission",
+            "title": "Public protocols and documents of the tender commission",
+            "notice": "Documents are available to all users of the site",
             "upload": "Publish minutes or other document",
             "empty": "Protocols and documents of the tender commission are not uploaded"
           },
@@ -66,7 +67,7 @@
             "open": "Find requests"
           },
           "payment": {
-            "title": "Service operator commission",
+            "title": "Service operator's Commission",
             "delay": "The invoice will be sent in {{ value }} days after the completion of the request",
             "email": "Invoice sent to your company email",
             "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"

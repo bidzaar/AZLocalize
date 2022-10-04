@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "brs": {
+      "list": {
+        "title": "web/app/companies/buyers: cmp.brs.list.title",
+        "empty": "web/app/companies/buyers: cmp.brs.list.empty"
+      },
+      "search": {
+        "placeholder": "web/app/companies/buyers: cmp.brs.search.placeholder"
+      },
+      "company": {
+        "link": "web/app/companies/buyers: cmp.brs.company.link"
+      },
+      "footer": {
+        "all": "web/app/companies/buyers: cmp.brs.footer.all"
+      }
+    }
+  }
+}

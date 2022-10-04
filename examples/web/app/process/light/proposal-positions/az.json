@@ -159,6 +159,10 @@
           "timer": {
             "title": "Vaxt qalıb",
             "tooltip": "Təklifin bitməyinə"
+          },
+          "reference_price": {
+            "title": "[AT] Qiymət dəyişikliyi addımı",
+            "tooltip": "[AT] Təklif qiymətini dəyişdirə biləcəyiniz addım"
           }
         },
         "table": {
@@ -170,7 +174,8 @@
             "response_availability": {
               "false": "Mövcud",
               "true": "Mövcud deyil"
-            }
+            },
+            "price_rule_error_tooltip": "[AT] Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə Müştəri tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})"
           },
           "header": {
             "request_count": "Miqdar",

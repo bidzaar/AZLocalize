@@ -56,5 +56,6 @@
     "FieldDelted": "• Удалено поле  {PreviousValue}",
     "NewStage": "Объявлен новый этап запроса",
     "MaxAlternativeProposalCountChanged": "• Возможность подачи альтернативных предложений изменена",
-    "IzmenenieOrientirovochnogoSrokaPodvedeniyaItogov": "• Изменение ориентировочного срока подведения итогов"
+    "IzmenenieOrientirovochnogoSrokaPodvedeniyaItogov": "• Изменение ориентировочного срока подведения итогов",
+    "ProcedureTariffChanged": "Комиссия оператора Сервиса по текущему Запросу изменена. Продолжение участия Поставщиков в процедуре Запроса означает согласие с изменениями, в случае несогласия Поставщик должен  отказаться от участия в Запросе."
 }

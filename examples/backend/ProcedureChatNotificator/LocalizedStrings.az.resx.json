@@ -92,5 +92,6 @@
     "ChangedPositions": "{header} {positions.added}{positions.changed}{positions.deleted}",
     "ChangedProcedure": "Sifarişçi sorğuya dəyişikliklər etdi. Təklifinizin uyğunluğunu yoxlayın!",
     "ChangeTeamMemberRights": "{UserName} üçün rol dəyişildi",
-    "DeleteTeamMember": "Əməkdaş komandadan uzaqlaşdırıldı: {UserName}."
+    "DeleteTeamMember": "Əməkdaş komandadan uzaqlaşdırıldı: {UserName}.",
+    "ProcedureTariffChanged": "Cari Sorğu üçün Xidmət operatorunun haqqı dəyişdirildi. Təchizatçıların Sorğu prosedurunda davamlı iştirakı dəyişikliklərin qəbul edilməsi deməkdir, fikir ayrılığı olduqda Təchizatçı Sorğuda iştirakdan imtina etməlidir."
 }

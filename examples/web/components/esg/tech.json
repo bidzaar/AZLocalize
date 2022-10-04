@@ -1,0 +1,15 @@
+{
+  "bdz.esg": {
+    "enums": {
+      "categories": {
+        "0": "web/components/esg: bdz.esg.enums.categories.0",
+        "1": "web/components/esg: bdz.esg.enums.categories.1",
+        "2": "web/components/esg: bdz.esg.enums.categories.2"
+      }
+    },
+    "filter": {
+      "label": "web/components/esg: bdz.esg.filter.label",
+      "link": "web/components/esg: bdz.esg.filter.link"
+    }
+  }
+}

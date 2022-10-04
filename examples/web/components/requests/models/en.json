@@ -69,6 +69,8 @@
         "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{ PositionName }}.</b> Incorrect price. Set \"Not available\", if there is no item.",
         "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{ PositionName }}.</b> Enter a price less than 99 billions.",
         "Process.Light.Proposal.Item.CustomField.Required": "<b>{{ PositionName }}.</b> Field \"{{ FieldName }}\" does not filled",
+        "Process.Light.Proposal.Item.ReferencePrice.Reduction": "<b>{{ PositionName }}.</b> Unit price must be reduced to {{ LowerThan }} {{BaseCurrency}} or lower, or set to the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
+        "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Unit price must be increased to {{ GreaterThan }} {{BaseCurrency}} or higher, or set to the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Procedure.VersionMismatch": "The customer changed the application, your proposal is no longer relevant. Review the changes and update the proposal."
       }
     }

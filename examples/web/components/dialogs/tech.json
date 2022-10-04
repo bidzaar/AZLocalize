@@ -1,0 +1,28 @@
+{
+  "bdz.dlg": {
+    "confirmation": {
+      "actions": {
+        "cancel": "web/components/dialogs: bdz.dlg.confirmation.actions.cancel",
+        "submit": "web/components/dialogs: bdz.dlg.confirmation.actions.submit"
+      },
+      "error": {
+        "title": "web/components/dialogs: bdz.dlg.confirmation.error.title",
+        "text": "web/components/dialogs: bdz.dlg.confirmation.error.text"
+      }
+    },
+    "notification": {
+      "actions": {
+        "confirm": "web/components/dialogs: bdz.dlg.notification.actions.confirm"
+      }
+    },
+    "date": {
+      "actions": {
+        "cancel": "web/components/dialogs: bdz.dlg.date.actions.cancel",
+        "submit": "web/components/dialogs: bdz.dlg.date.actions.submit",
+        "clear": "web/components/dialogs: bdz.dlg.date.actions.clear",
+        "clearCancel": "web/components/dialogs: bdz.dlg.date.actions.clearCancel",
+        "clearSubmit": "web/components/dialogs: bdz.dlg.date.actions.clearSubmit"
+      }
+    }
+  }
+}

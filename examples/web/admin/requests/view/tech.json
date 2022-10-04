@@ -1,0 +1,9 @@
+{
+  "req.view": {
+    "tabs": {
+      "details": "web/admin/requests/view: req.view.tabs.details",
+      "participants": "web/admin/requests/view: req.view.tabs.participants",
+      "events": "web/admin/requests/view: req.view.tabs.events"
+    }
+  }
+}

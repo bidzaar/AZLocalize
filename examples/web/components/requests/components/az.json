@@ -70,7 +70,7 @@
           "label": "alternativ təkliflərin sayı",
           "tooltip": "neçə alternativ təklifin iştirakçını təqdim edə biləcəyini göstərin",
           "error": "0-dan 10 sayını göstərin",
-          "count": "əsas cümlələrə əlavə olaraq mümkün təkliflər: {{dəyər }}",
+          "count": "əsas cümlələrə əlavə olaraq mümkün təkliflər: {{ value }}",
           "none": "alternativ təkliflər vermək qadağandır"
         },
         "price_null": "müəyyən Deyil",
@@ -132,8 +132,8 @@
       },
       "select": {
         "header": "Tariff of the request",
-        "notice": "Specify the tariff for the request. This will determine how much the suppliers' commission will be",
-        "submit": "Done"
+        "cancel": "Cancel",
+        "submit": "Submit"
       }
     }
   }

@@ -132,8 +132,8 @@
       },
       "select": {
         "header": "Tariff of the request",
-        "notice": "Specify the tariff for the request. This will determine how much the suppliers' commission will be",
-        "submit": "Done"
+        "cancel": "Cancel",
+        "submit": "Submit"
       }
     }
   }

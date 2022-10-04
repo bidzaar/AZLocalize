@@ -1,0 +1,18 @@
+{
+  "bdz.cmt": {
+    "item": {
+      "text": "web/components/comments: bdz.cmt.item.text",
+      "actions": {
+        "edit": "web/components/comments: bdz.cmt.item.actions.edit",
+        "remove": "web/components/comments: bdz.cmt.item.actions.remove",
+        "cancel": "web/components/comments: bdz.cmt.item.actions.cancel",
+        "save": "web/components/comments: bdz.cmt.item.actions.save"
+      },
+      "remove": {
+        "title": "web/components/comments: bdz.cmt.item.remove.title",
+        "submit": "web/components/comments: bdz.cmt.item.remove.submit",
+        "cancel": "web/components/comments: bdz.cmt.item.remove.cancel"
+      }
+    }
+  }
+}

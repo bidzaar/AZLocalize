@@ -32,6 +32,9 @@
       "error": {
         "Tags": {
           "TagHasInStopList": "The added tag is in the stop list."
+        },
+        "User": {
+          "HasNoCompany": "The current company is not selected"
         }
       }
     }

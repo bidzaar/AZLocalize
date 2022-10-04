@@ -1,0 +1,22 @@
+{
+    "SimplifiedEventType.ChangesEnded": "Sorğu dəyişdirildi",
+    "SimplifiedEventType.ParticipantBlocked": "Üzv bloklandı",
+    "SimplifiedEventType.ParticipantJoined": "İştirak təsdiqləndi",
+    "SimplifiedEventType.ParticipantPermittedToChangePrice": "Müştəri qiymət dəyişikliyi qaydasının pozulmasına yol verib",
+    "SimplifiedEventType.ParticipantRefused": "İştirakçı imtina etdi",
+    "SimplifiedEventType.ParticipantUnblocked": "Üzv kilidi açıldı",
+    "SimplifiedEventType.ProcedureCompleted": "Sorğu tamamlandı",
+    "SimplifiedEventType.ProcedureProlonged": "Təkliflərin avtomatik yenilənməsi",
+    "SimplifiedEventType.ProcedurePublished": "Sorğu dərc edilib",
+    "SimplifiedEventType.ProcedureTariffChanged": "Sorğu dərəcəsi dəyişdirildi",
+    "SimplifiedEventType.ProcedureUnCompleted": "Tamamlanmış sorğu debrifinq üçün geri qaytarıldı",
+    "SimplifiedEventType.ProposalGoDraftDueToMajorChange": "Təqdim olunan bütün təkliflər rədd edildi.",
+    "SimplifiedEventType.ProposalRecalled": "Təklif geri götürüldü",
+    "SimplifiedEventType.ProposalSubmitted": "Təklif təqdim edildi",
+    "SimplifiedEventType.ProposalValidationFail": "Etibarsız təklif təqdim edilib",
+    "SimplifiedEventType.StagePublished": "Yeni mərhələ nəşr olundu",
+    "SimplifiedEventType.SummingUp": "Təkliflər üçün çağırış bağlandı",
+    "SimplifiedEventType.UsersAdded": "Sorğu əmri. İşçi əlavə edildi",
+    "SimplifiedEventType.UsersDeleted": "Sorğu əmri. İşdən çıxarılan işçi",
+    "SimplifiedEventType.UsersRolesChanged": "Sorğu əmri. İşçinin rolu dəyişdi"
+}

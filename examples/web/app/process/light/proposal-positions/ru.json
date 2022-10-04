@@ -36,6 +36,10 @@
           },
           "actions": {
             "submit": "Обновить предложение"
+          },
+          "reference_price": {
+            "title": "Шаг изменения цены",
+            "tooltip": "Шаг, на который вы можете изменять цену предложения"
           }
         },
         "table": {
@@ -94,7 +98,8 @@
             "deviation_tooltip": "Отклонение от кол-ва в запросе",
             "free": "Бесплатно",
             "auction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) ниже минимальной цены за ед, указанной Заказчиком ({{startPrice}} {{currency}})",
-            "reduction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) превышает максимальную цену за ед, указанную Заказчиком ({{startPrice}} {{currency}})"
+            "reduction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) превышает максимальную цену за ед, указанную Заказчиком ({{startPrice}} {{currency}})",
+            "price_rule_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) нарушает шаг изменения цены, указанный Заказчиком ({{rule}})"
           }
         },
         "side": {

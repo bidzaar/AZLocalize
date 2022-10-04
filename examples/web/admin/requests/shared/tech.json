@@ -1,0 +1,45 @@
+{
+  "req.shared": {
+    "markers": {
+      "nda": "web/admin/requests/shared: req.shared.markers.nda",
+      "verify": "web/admin/requests/shared: req.shared.markers.verify",
+      "private": "web/admin/requests/shared: req.shared.markers.private"
+    },
+    "status": {
+      "until": "web/admin/requests/shared: req.shared.status.until",
+      "since": "web/admin/requests/shared: req.shared.status.since"
+    },
+    "timer": {
+      "minutes": "web/admin/requests/shared: req.shared.timer.minutes",
+      "hours": "web/admin/requests/shared: req.shared.timer.hours",
+      "days": "web/admin/requests/shared: req.shared.timer.days",
+      "past": "web/admin/requests/shared: req.shared.timer.past"
+    },
+    "comment": {
+      "add": "web/admin/requests/shared: req.shared.comment.add"
+    },
+    "responsible": {
+      "change": "web/admin/requests/shared: req.shared.responsible.change",
+      "remove": "web/admin/requests/shared: req.shared.responsible.remove",
+      "assign": "web/admin/requests/shared: req.shared.responsible.assign"
+    },
+    "header": {
+      "back": "web/admin/requests/shared: req.shared.header.back",
+      "publish": "web/admin/requests/shared: req.shared.header.publish",
+      "details": "web/admin/requests/shared: req.shared.header.details",
+      "stats": {
+        "proposals": "web/admin/requests/shared: req.shared.header.stats.proposals",
+        "participants": "web/admin/requests/shared: req.shared.header.stats.participants"
+      }
+    },
+    "dialogs": {
+      "comment": {
+        "header": "web/admin/requests/shared: req.shared.dialogs.comment.header",
+        "label": "web/admin/requests/shared: req.shared.dialogs.comment.label",
+        "cancel": "web/admin/requests/shared: req.shared.dialogs.comment.cancel",
+        "submit": "web/admin/requests/shared: req.shared.dialogs.comment.submit",
+        "success": "web/admin/requests/shared: req.shared.dialogs.comment.success"
+      }
+    }
+  }
+}

@@ -19,13 +19,15 @@
         "more": "Digər əməliyyatlar",
         "new_stage": "Yeni bir mərhələ qur",
         "notice_report": "Bildiriş yüklə",
-        "participate": "Təkliflərin hazırlnamasına başla\n",
+        "message": "Sifarişçiyə sual",
+        "participate": "Təkliflərin hazırlnamasına başla",
         "publish": "Sorğunu dərc et",
         "publish_stage": "Yeni mərhələ elan et",
         "refuse": "İştrakdan imtina et",
         "return_to_summary": "Yekun nəticələrə qayıt",
         "start_change": "Sorğunu dəyişdir",
-        "view_summary": "Sorğunun yekun nəticələrinə bax"
+        "view_summary": "Sorğunun yekun nəticələrinə bax",
+        "view_journal": "[AT] jurnalı açın"
       },
       "blocked": {
         "sub_title": "Sifarişçi sizi sorğusundan kənarlaşdırdı. Sorğu iştirakçıların sayı ilə məhduddur.\nSuallarınız var? Sifarişçi ilə əlaqə saxlayın.",
@@ -59,7 +61,8 @@
       },
       "message_payment": {
         "link": "Nə üçün ödəməli?",
-        "text": "Sorğuda iştirak pulsuzdur, depozitlər və vəsaitlərin bloklanması olmadan!"
+        "text": "Sorğuda iştirak pulsuzdur, depozitlər və vəsaitlərin bloklanması olmadan!",
+        "start": "Təkliflərin hazırlnamasına başla"
       },
       "navigation": {
         "content": "Məzmun",
@@ -67,6 +70,35 @@
       },
       "participant_rules": {
         "title": "Sorğu iştrakçıları üçün qaydalar"
+      },
+      "registries": {
+        "title": "[AT] iştirakçıların akkreditasiyası",
+        "text": "[AT] təklif vermək üçün iştirakçılar Sifarişçinin bu reyestrlərində akkreditasiyadan keçirlər:",
+        "add": "[AT] Qeydiyyat əlavə et",
+        "success": {
+          "add": "[AT] Əlavə rosters",
+          "delete": "[AT] Registry silindi"
+        },
+        "empty": "[AT] reyestrlər göstərilmir. Təkliflər üçün akkreditasiya tələb olunmur",
+        "item": {
+          "open": "[AT] qeydiyyat aç",
+          "remove": "[AT] Sil"
+        },
+        "dialoq": {
+          "title": "[AT] şirkətlərin reyestrləri",
+          "add": "[AT] Qeydiyyat əlavə et",
+          "cancel": "[AT] Ləğv et",
+          "empty": {
+            "text": "[AT] şirkətinizin dərc edilmiş reyestrləri yoxdur.",
+            "add": "[AT] reyestrləri idarə et",
+            "close":"[AT] aydındır"
+          },
+          "search": {
+            "placeholder": "[AT] tapın...",
+            "remove": "[AT] Sil",
+            "empty": "[AT] reyestrlər tapılmadı"
+          }
+        }
       },
       "positions": {
         "disabled": "Sorğu maddələri qeyd olunmayıb",

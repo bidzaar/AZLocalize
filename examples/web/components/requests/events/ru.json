@@ -26,6 +26,14 @@
         },
         "stage": {
           "title": "Этап"
+        },
+        "initiator": {
+          "title": "Источник события",
+          "options": {
+            "0": "Организатор",
+            "1": "Поставщик",
+            "2": "Площадка"
+          }
         }
       },
       "item": {
@@ -47,16 +55,23 @@
           "changes": "Изменения"
         },
         "completed": {
-          "empty": "Без заказа",
-          "order": "Заказ",
-          "price": "{{ price }} {{ currency }}",
-          "orderFor": "Заказ для {{ value }}"
+          "common": {
+            "empty": "Без заказа",
+            "order": "Заказ",
+            "price": "{{ price }} {{ currency }}",
+            "orderFor": "Заказ для {{ value }}"
+          },
+          "participant": {
+            "winner": "Заказчик выбрал вас победителем",
+            "loser": "Заказчик выбрал победителем другую компанию",
+            "nobody": "Запрос завершён без выбора победителя"
+          }
         },
         "tariff": "Тариф: {{ value }}"
       },
       "proposals": {
         "price": "{{ price }} {{ currency }}",
-        "primary": "Предложение",
+        "primary": "Основное",
         "alternative": "Альтернативное {{ index }}",
         "errors": "Предложение \"{{value}}\" содержит ошибки:"
       },

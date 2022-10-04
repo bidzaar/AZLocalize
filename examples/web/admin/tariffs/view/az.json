@@ -10,8 +10,7 @@
       "default": {
         "title": "[AT] Default tender növü",
         "text": "[AT] Default tender növü Yeni sorğu təyin olunacaq"
-      },
-      "comment": {}
+      }
     },
     "tariff": {
       "name": {
@@ -42,7 +41,19 @@
         "sum": "[AT] Məbləğ"
       }
     },
+    "comment": {
+      "add": "[AT] şərh əlavə et",
+      "edit": "[AT] şərhini dəyişdirin"
+    },
     "dialogs": {
+      "comment": {
+        "title": "[AT] şərh",
+        "hint": "[AT] şərh yalnız saytın administratorları üçün mövcuddur",
+        "placeholder": "[AT] Şərh daxil edin",
+        "save":"[AT] saxla",
+        "cancel": "[AT] Ləğv et",
+        "success": "[AT] şərh əlavə edildi"
+      },
       "deactivate": {
         "header": "[AT] Tarifə son qoyulsun",
         "text": "[AT] Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
@@ -69,6 +80,7 @@
           "Tariff.Description.IsEmpty": "[AT] Təsvir göstərilməyib",
           "Tariff.Name.IsEmpty": "[AT] Adı göstərilməyib",
           "Tariff.Code.IsEmpty": "[AT] Kod göstərilməyib",
+          "Tariff.Code.IsNotUnique": "The code is not unique",
           "Tariff.Conditions.HasNoActive": "[AT] Tarif grid xüsusi deyil"
         }
       }
@@ -76,7 +88,10 @@
   },
   "errors": {
     "logic": {
-      "Tariffs.HasNoCorrectStatus": "[AT] Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin."
+      "Tariffs": {
+        "HasNoCorrectStatus": "[AT] Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin.",
+        "IsNotUnique": "The tariff code must be unique."
+      }
     }
   }
 }

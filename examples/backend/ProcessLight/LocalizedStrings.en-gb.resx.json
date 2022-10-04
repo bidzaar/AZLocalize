@@ -1,0 +1,22 @@
+{
+    "SimplifiedEventType.ChangesEnded": "Request is changed",
+    "SimplifiedEventType.ParticipantBlocked": "Participant is blocked",
+    "SimplifiedEventType.ParticipantJoined": "Participation is confirmed",
+    "SimplifiedEventType.ParticipantPermittedToChangePrice": "The Purchaser authorised to break the price change rule by the Bidder",
+    "SimplifiedEventType.ParticipantRefused": "Participant refused",
+    "SimplifiedEventType.ParticipantUnblocked": "Participant is unblocked",
+    "SimplifiedEventType.ProcedureCompleted": "Request is completed",
+    "SimplifiedEventType.ProcedureProlonged": "Auto-renewal of bid acceptance",
+    "SimplifiedEventType.ProcedurePublished": "Request is published",
+    "SimplifiedEventType.ProcedureTariffChanged": "The tariff is changed",
+    "SimplifiedEventType.ProcedureUnCompleted": "Completed request is returned to conclusion stage",
+    "SimplifiedEventType.ProposalGoDraftDueToMajorChange": "All bids are rejected",
+    "SimplifiedEventType.ProposalRecalled": "Proposal is recalled",
+    "SimplifiedEventType.ProposalSubmitted": "Proposal is submitted",
+    "SimplifiedEventType.ProposalValidationFail": "Invalid proposal is submitted",
+    "SimplifiedEventType.StagePublished": "New stage is published",
+    "SimplifiedEventType.SummingUp": "Acceptance of bids is closed",
+    "SimplifiedEventType.UsersAdded": "Request Team. User is added",
+    "SimplifiedEventType.UsersDeleted": "Request Team. User is removed",
+    "SimplifiedEventType.UsersRolesChanged": "Request Team. User role is changed"
+}

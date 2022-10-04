@@ -1,0 +1,8 @@
+{
+  "pl": {
+    "journal": {
+      "header": "web/app/process/light/journal: pl.journal.header",
+      "search": "web/app/process/light/journal: pl.journal.search"
+    }
+  }
+}

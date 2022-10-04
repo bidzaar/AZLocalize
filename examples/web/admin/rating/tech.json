@@ -1,0 +1,63 @@
+{
+  "rts": {
+    "enums": {
+      "factors": {
+        "0": "web/admin/rating: rts.enums.factors.0",
+        "1": "web/admin/rating: rts.enums.factors.1",
+        "2": "web/admin/rating: rts.enums.factors.2",
+        "3": "web/admin/rating: rts.enums.factors.3",
+        "4": "web/admin/rating: rts.enums.factors.4",
+        "5": "web/admin/rating: rts.enums.factors.5",
+        "6": "web/admin/rating: rts.enums.factors.6"
+      }
+    },
+    "ratings": {
+      "header": {
+        "title": "web/admin/rating: rts.ratings.header.title"
+      },
+      "content": {
+        "statistics": {
+          "header": {
+            "title": "web/admin/rating: rts.ratings.content.statistics.header.title",
+            "date": "web/admin/rating: rts.ratings.content.statistics.header.date"
+          },
+          "content": {
+            "recalculate": {
+              "tooltip": "web/admin/rating: rts.ratings.content.statistics.content.recalculate.tooltip",
+              "snack": "web/admin/rating: rts.ratings.content.statistics.content.recalculate.snack",
+              "time": "web/admin/rating: rts.ratings.content.statistics.content.recalculate.time",
+              "hint": "web/admin/rating: rts.ratings.content.statistics.content.recalculate.hint"
+            }
+          }
+        },
+        "criteria": {
+          "header": {
+            "title": "web/admin/rating: rts.ratings.content.criteria.header.title"
+          },
+          "content": {
+            "factor": "web/admin/rating: rts.ratings.content.criteria.content.factor",
+            "weight": "web/admin/rating: rts.ratings.content.criteria.content.weight"
+          }
+        },
+        "editor": {
+          "weight": "web/admin/rating: rts.ratings.content.editor.weight",
+          "low_bound": "web/admin/rating: rts.ratings.content.editor.low_bound",
+          "score": "web/admin/rating: rts.ratings.content.editor.score",
+          "inconsistent_bounds": "web/admin/rating: rts.ratings.content.editor.inconsistent_bounds",
+          "cancel": "web/admin/rating: rts.ratings.content.editor.cancel",
+          "submit": "web/admin/rating: rts.ratings.content.editor.submit",
+          "success": "web/admin/rating: rts.ratings.content.editor.success"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "Cognitive": {
+        "Ratings": {
+          "TaskInProgress": "web/admin/rating: errors.logic.Cognitive.Ratings.TaskInProgress"
+        }
+      }
+    }
+  }
+}

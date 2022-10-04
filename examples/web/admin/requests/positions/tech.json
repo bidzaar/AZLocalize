@@ -1,0 +1,19 @@
+{
+  "req.positions": {
+    "title": "web/admin/requests/positions: req.positions.title",
+    "price": {
+      "auction": {
+        "label": "web/admin/requests/positions: req.positions.price.auction.label",
+        "tooltip": "web/admin/requests/positions: req.positions.price.auction.tooltip"
+      },
+      "reduction": {
+        "label": "web/admin/requests/positions: req.positions.price.reduction.label",
+        "tooltip": "web/admin/requests/positions: req.positions.price.reduction.tooltip"
+      },
+      "price_up_down": {
+        "label": "web/admin/requests/positions: req.positions.price.price_up_down.label",
+        "tooltip": "web/admin/requests/positions: req.positions.price.price_up_down.tooltip"
+      }
+    }
+  }
+}

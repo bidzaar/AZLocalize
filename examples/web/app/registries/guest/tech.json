@@ -1,0 +1,29 @@
+{
+  "rgs": {
+    "gst": {
+      "botzaar": {
+        "auth": {
+          "title": "web/app/registries/guest: rgs.gst.botzaar.auth.title",
+          "text": "web/app/registries/guest: rgs.gst.botzaar.auth.text"
+        },
+        "company": {
+          "title": "web/app/registries/guest: rgs.gst.botzaar.company.title",
+          "text": "web/app/registries/guest: rgs.gst.botzaar.company.text"
+        },
+        "join": {
+          "title": "web/app/registries/guest: rgs.gst.botzaar.join.title"
+        },
+        "actions": {
+          "auth": "web/app/registries/guest: rgs.gst.botzaar.actions.auth",
+          "company": "web/app/registries/guest: rgs.gst.botzaar.actions.company",
+          "join": "web/app/registries/guest: rgs.gst.botzaar.actions.join"
+        }
+      },
+      "application": {
+        "actions": {
+          "submit": "web/app/registries/guest: rgs.gst.application.actions.submit"
+        }
+      }
+    }
+  }
+}

@@ -1,19 +1,26 @@
 {
   "trf.pcg.list": {
     "header": {
-      "title": "Tarif paketləri",
-      "add": "Gediş haqqı paketi əlavə et"
+      "title": "[AT] tarif paketləri",
+      "add": "[AT] tarif paketini əlavə et",
+      "records": "[AT] Records: {{ value }}",
+      "search": "[AT] Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
     },
     "package": {
-      "customers": "Заказчики",
-      "label": "Редактировать"
+      "customers": "[AT] müştərilər",
+      "label": "[AT] redaktə et"
     },
     "dialog": {
-      "title": "Пакет тарифов",
-      "input": "Наименование пакета",
-      "add": "Готово",
-      "cancel": "Отмена"
+      "title": "[AT] tariflər paketi",
+      "input": "[AT] Paket adı",
+      "add": "[AT] Bitti",
+      "cancel": "[AT] Ləğv et",
+      "error": {
+        "title": "[AT] Bu Paket adı artıq mövcuddur",
+        "text": "[AT] tarifin digər adını göstərin"
+      }
     },
-    "empty": "Список пуст"
+    "empty": "[AT] tariflər əlavə edilmir",
+    "empty_search": "[AT] sizin sorğunuza görə heç bir şey tapılmadı..."
   }
 }

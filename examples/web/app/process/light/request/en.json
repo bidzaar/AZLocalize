@@ -49,8 +49,37 @@
       "participant_rules": {
         "title": "Rules for suppliers"
       },
+      "registries": {
+        "title": "Accreditation of participants",
+        "text": "To submit an offer, participants are accredited in these customer registries:",
+        "add": "Add registry",
+        "success": {
+          "add": "Registries added",
+          "delete": "Registry deleted"
+        },
+        "empty": "Registries are not specified. Accreditation is not required to submit proposals",
+        "item": {
+          "open": "Open registry",
+          "remove": "Delete"
+        },
+        "dialog": {
+          "title": "Company Registries",
+          "add": "Add Registry",
+          "cancel": "Cancel",
+          "empty": {
+            "text": "Your company does not have published registries.",
+            "add": "Manage registries",
+            "close": "Understood"
+          },
+          "search": {
+            "placeholder": "Find...",
+            "remove": "Delete",
+            "empty": "Registries not found"
+          }
+        }
+      },
       "tariff": {
-        "title": "Service commission"
+        "title": "Service operator's Commission"
       },
       "collapse": "Collapse",
       "acceptance_end_date": {
@@ -61,13 +90,14 @@
         "more": "More actions",
         "publish": "Submit request",
         "start_change": "Change request",
-        "end_change":"Publish changes",
+        "end_change": "Publish changes",
         "cancel_change": "Cancel changes",
         "delete": "Delete draft",
         "clone": "Dublicate",
-        "notice_report":"Download notice",
+        "notice_report": "Download notice",
+        "message": "Ask a question to owner",
         "cancel": "Cancel request",
-        "change_acceptance_end_date":"Change the deadline for accepting proposals",
+        "change_acceptance_end_date": "Change the deadline for accepting proposals",
         "favourites": "Add to favorites",
         "in_favourite": "In favourite",
         "refuse": "Refuse to participate",
@@ -76,6 +106,7 @@
         "publish_stage": "Post new stage",
         "cancel_stage": "Cancel new stage",
         "view_summary": "View request summary",
+        "view_journal": "Open the journal",
         "return_to_summary": "Return to summary",
         "end_round": "Finish accepting offers"
       },
@@ -89,7 +120,8 @@
       },
       "message_payment": {
         "text": "Participation in the request is free, without deposits and funds blocking!",
-        "link": "What do I have to pay for?"
+        "link": "What do I have to pay for?",
+        "start": "Start preparation proposal"
       }
     }
   }

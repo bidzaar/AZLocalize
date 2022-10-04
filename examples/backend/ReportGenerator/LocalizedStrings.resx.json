@@ -270,5 +270,14 @@
     "Order.VatNullOrderForParticipant": "Заказ для участника",
     "Order.VatOrderForParticipant": "Заказ для участника с НДС",
     "Positions.CountInOrder": "Кол-во в заказе",
-    "Order.SheetName": "Заказ"
+    "Order.SheetName": "Заказ",
+    "Bot.Name": "BotZaar",
+    "Brief.Text": "Выписка из итогов проведенного запроса",
+    "Brief.Caption": "По данному запросу определены следующие победители, получившие заказ на указанные суммы в ходе запроса.",
+    "Brief.TIN": "ИНН компании",
+    "Brief.Amount": "Сумма заказа",
+    "Brief.Total": "Итого",
+    "Brief.Empty": "Заказ не сформирован",
+    "Summary.QrCode": "Код для проверки заказа:",
+    "Brief.Title": "Итоги запроса"
 }

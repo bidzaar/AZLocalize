@@ -17,6 +17,20 @@
         "sub_title": "Müştərinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
         "title": "Müştəri sizi sorğusundan kənarlaşdırdı"
       },
+      "registries": {
+        "title": "[AT] akkreditasiya",
+        "text":"[AT] təklif vermək üçün Sifarişçinin bu reyestrlərində akkreditasiyadan keçmək tələb olunur:",
+        "open": "[AT] qeydiyyat aç",
+        "status": {
+          "false": "[AT] akkreditə olunmayıb",
+          "true": "[AT] akkreditə olunub"
+        },
+        "status_registry": {
+          "0": "[AT] akkreditasiya prosesində",
+          "1": "[AT] əvvəl akkreditə olunub",
+          "2": "[AT] akkreditə olunmayıb"
+        }
+      },
       "card": {
         "actions": {
           "cancel": "Dəyişiklikləri ləğv et",
@@ -86,6 +100,7 @@
       "nda": {
         "add_files_text": "İmzalanmış müqaviləni və digər tələb olunan sənədləri əlavə edin",
         "add_files_update_text": "Yenilənmiş müqaviləni və digər tələb olunan sənədləri əlavə edin",
+        "send": "Göndər",
         "description": "İlkin qiymətləndirmənin təsviri",
         "errors": {
           "correct": "Müraciəti düzəlt və yenilə",
@@ -93,22 +108,35 @@
         },
         "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
         "files_title": "NDA-nın ilkin qiymətləndirməsi üçün müraciət sənədləri",
-        "send": "Göndər",
+        "manual": {
+          "title": "[AT] preformed / NDA üçün ərizə",
+          "message": {
+            "1": "[AT] Sifarişçidən baxılması üçün ərizə",
+            "2": "[AT] hazırlanması və yenidən müraciət"
+          },
+          "description": {
+            "text": "[AT] sorğu sənədləri ilə tanış olmaq üçün əvvəlcədən / NİV-ə keçin. ",
+            "explanation": "[AT] əvvəlcədən təyin edilmiş tamamlama və təklif təqdim etmə təklifin qəbul müddətinin bitməsinə qədər tələb olunur. Müştəri ilə əlaqə-sorğu chat."
+          }
+        },
         "title": {
           "accepted": "İlkin qiymətləndirmə/NDA keçdi",
           "draft": "İlkin qiymətləndirmə / NDA",
           "failed": "İlkin qiymətləndirmə / NDA uğursuz oldu",
           "rejected": "İlkin qiymətləndirmə / NDA. Müraciətiniz imtina olundu",
-          "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır"
+          "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır",
+          "status": {
+            "0": "[AT] ərizə verilmir",
+            "1": "[AT] ərizə verilib",
+            "2": "[AT] ərizə rədd edildi",
+            "3": "[AT] tamamlandı"
+          }
         },
         "your_application": "İlkin qiymətləndirmə üçün müraciət / NDA"
       },
       "nonexistent": {
         "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",
         "title": "Mənim təklifim"
-      },
-      "owner": {
-        "title": "Sifarişçi"
       },
       "refused": {
         "return": "Sorğuya qayıt",

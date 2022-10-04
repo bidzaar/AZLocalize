@@ -69,6 +69,8 @@
         "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "Təklifin qiyməti qiymət dəyişikliklərinin qaydasını pozur. Tövsiyə olunan qiymət: <b>{{GreaterThan}} {{BaseCurrency}} və daha çox və ya {{LowerThan}} {{BaseCurrency}} və daha az</b>. Əvvəlki qiymətlə təklif təqdim etməyə icazə verilir.",
         "Process.Light.Proposal.Price.RuleMismatch.Reduction": "Təklifin qiyməti qiymət dəyişikliklərinin qaydasını pozur. Tövsiyə olunan qiymət: <b>{{LowerThan}} {{BaseCurrency}} və ya daha az</b>. Əvvəlki qiymətlə təklif təqdim etməyə icazə verilir.",
         "Process.Light.Proposal.Price.StartPrice.Auction": "Təklif qiyməti Sifarişçi tərəfindən göstərilən <b>{{LowerThan}} {{BaseCurrency}} minimal qiymətdən</b>aşağıdır.",
+        "Process.Light.Proposal.Item.ReferencePrice.Reduction": "[AT] <b>{{ PositionName }}.</b> Vahid qiyməti {{ LowerThan }} {{BaseCurrency}} və ya daha aşağı səviyyəyə endirilməli və ya əvvəlki qiymətə təyin edilməlidir ({{ PreviousPrice }} {{ BaseCurrency }})",
+        "Process.Light.Proposal.Item.ReferencePrice.Auction": "[AT] <b>{{ PositionName }}.</b> Vahid qiyməti {{ GreaterThan }} {{BaseCurrency}} və ya daha yüksək səviyyəyə qaldırılmalı və ya əvvəlki qiymətə təyin edilməlidir ({{ PreviousPrice }} {{ BaseCurrency }} )",
         "Process.Light.Proposal.Price.StartPrice.Reduction": "Təklif qiyməti Sifarişçi tərəfindən göstərilən <b>{{GreaterThan}} {{BaseCurrency}} maksimal qiymətdən</b>yüksəkdir."
       }
     }

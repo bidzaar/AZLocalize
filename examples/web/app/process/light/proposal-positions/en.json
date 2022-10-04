@@ -36,6 +36,10 @@
           },
           "actions": {
             "submit": "Update proposal"
+          },
+          "reference_price": {
+            "title": "Price change step",
+            "tooltip": "Step by which you can change the offer price"
           }
         },
         "table": {
@@ -94,7 +98,8 @@
             "deviation_tooltip": "Deviation from the quantity in the request",
             "free": "Free",
             "auction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})"
+            "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
+            "price_rule_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) violates the price change step specified by the Customer ({{rule}})"
           }
         },
         "side": {

@@ -1,0 +1,26 @@
+{
+  "trf.pcg.list": {
+    "header": {
+      "title": "web/admin/tariffs/packages-list: trf.pcg.list.header.title",
+      "add": "web/admin/tariffs/packages-list: trf.pcg.list.header.add",
+      "records": "web/admin/tariffs/packages-list: trf.pcg.list.header.records",
+      "search": "web/admin/tariffs/packages-list: trf.pcg.list.header.search"
+    },
+    "package": {
+      "customers": "web/admin/tariffs/packages-list: trf.pcg.list.package.customers",
+      "label": "web/admin/tariffs/packages-list: trf.pcg.list.package.label"
+    },
+    "dialog": {
+      "title": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.title",
+      "input": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.input",
+      "add": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.add",
+      "cancel": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.cancel",
+      "error": {
+        "title": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.error.title",
+        "text": "web/admin/tariffs/packages-list: trf.pcg.list.dialog.error.text"
+      }
+    },
+    "empty": "web/admin/tariffs/packages-list: trf.pcg.list.empty",
+    "empty_search": "web/admin/tariffs/packages-list: trf.pcg.list.empty_search"
+  }
+}

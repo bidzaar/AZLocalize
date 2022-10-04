@@ -92,5 +92,6 @@
     "RefuseNotification": "A refusal to participate in the request was recorded. The participant may change his mind and return to participation.",
     "RisePermitted": "You can change the price of your bid that violates the bidding rule once.",
     "RoundProcedure": "Attention, a new round of proposals has been announced! Improving the offer will increase your chances of winning!",
-    "UnCompleteProcedure": "The customer has returned the request to the debriefing stage. Reason: \"{Comment}\"."
+    "UnCompleteProcedure": "The customer has returned the request to the debriefing stage. Reason: \"{Comment}\".",
+    "ProcedureTariffChanged": "The Service operator's fee for the current Request has been changed. The continued participation of Suppliers in the Request procedure means acceptance of the changes, in case of disagreement, the Supplier must refuse to participate in the Request."
 }

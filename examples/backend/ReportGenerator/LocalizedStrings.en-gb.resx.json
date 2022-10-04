@@ -270,5 +270,13 @@
     "Order.VatNullOrderForParticipant": "Order for participant",
     "Order.VatOrderForParticipant": "Order for participant with VAT",
     "Positions.CountInOrder": "Qty in order",
-    "Order.SheetName": "Order"
+    "Order.SheetName": "Order",
+    "Brief.Amount": "Order price",
+    "Brief.Total": "Total",
+    "Brief.Empty": "The order has not been formed",
+    "Brief.Caption": "The following winners who received an order for the indicated amounts were determined during the request",
+    "Brief.Text": "An extract from the results of the completed request",
+    "Brief.TIN": "TIN of the company",
+    "Summary.QrCode": "Order verification code:",
+    "Brief.Title": "Results of the request"
 }
