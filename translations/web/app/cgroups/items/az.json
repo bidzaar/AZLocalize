@@ -1,0 +1,44 @@
+{
+  "cgr": {
+    "items": {
+      "actions": {
+        "add": "Şirkətləri əlavə et",
+        "remove": "Şirkəti sil"
+      },
+      "dialogs": {
+        "remove": {
+          "cancel": "Ləğv et",
+          "submit": "Sil",
+          "text": "",
+          "title": "Şirkəti qrupdan çıxarın"
+        }
+      },
+      "empty": {
+        "text": "Şirkətlər qrupları və mövcud qrupun üzvlərini idarə etmək hüququ olan işçi tərəfindən əlavə edilə bilər ",
+        "title": "Əlavə olunmuş şirkətlər mövcüd deyil"
+      },
+      "filters": {
+        "added_date": {
+          "title": "Tarix əlavə edildi"
+        },
+        "empty": "Sorğunuz üçün heç bir nəticə tapılmadı"
+      },
+      "item": {
+        "date": {
+          "added": "Əlavə edildi"
+        }
+      },
+      "search": {
+        "tooltip": "Axtarış sahə üzrə aparılır: • Şirkətin adı"
+      },
+      "sorting": {
+        "added_date": {
+          "title": "Şirkətin əlavə olunma tarixi"
+        },
+        "name": {
+          "title": "Ad"
+        }
+      }
+    }
+  }
+}

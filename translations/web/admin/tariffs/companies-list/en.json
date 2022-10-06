@@ -1,0 +1,19 @@
+{
+  "trf.cms.list": {
+    "header": {
+      "title": "Tariff Packages",
+      "add": "Add Tariff Package"
+    },
+    "package": {
+      "customers": "Customers",
+      "label": "Edit"
+    },
+    "dialog": {
+      "title": "Tariff package",
+      "input": "Package name",
+      "add": "done",
+      "cancel": "Cancel"
+    },
+    "empty": "List is empty"
+  }
+}

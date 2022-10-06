@@ -1,0 +1,2315 @@
+{
+  "errors": {
+    "logic": {
+      "Process": {
+        "Light": {
+          "Procedure": {
+            "DeliveryAddress": {
+              "Exists": "This place of delivery has already been added to the list"
+            },
+            "PositionsDisabled": "Goods and services are not included in the offer of the participant",
+            "QuestionnaireDisabled": "Supplier questionnaire not included in participant's offer",
+            "Version": {
+              "DraftNotFound": "Draft is not found"
+            },
+            "Participant": {
+              "VerificationRequiredError": "Only verified suppliers can submit an offer"
+            }
+          },
+          "Proposal": {
+            "DraftNotFound": "Bid draft is not found",
+            "MaxAlternativeProposalReached": "The maximum number of alternative offers has been reached"
+          },
+          "WrongNdaState": "Supplier's request processed",
+          "Nda": {
+            "ParticipantBlocked": "Supplier is blocked",
+            "ParticipantRefused": "Supplier declined to submit a bid"
+          }
+        }
+      }
+    }
+  },
+  "pl": {
+    "collapse_header": {
+      "close": "hide",
+      "open": "show"
+    },
+    "enums": {
+      "other_participants_visibility": {
+        "0": "Their bid only",
+        "1": "Place in bids ranking only",
+        "2": "Competitors bids - yes, names - no",
+        "3": "Competitors bids and names"
+      },
+      "owner_visibility": {
+        "0": "Can view participants` bids",
+        "1": "Can't view bids of other participants"
+      },
+      "participant_business_status": {
+        "0": {
+          "name": "Order received",
+          "tooltip": "The requester chose a supplier offer"
+        },
+        "1": {
+          "name": "Submitted bid",
+          "tooltip": "The supplier submitted an offer for request"
+        },
+        "2": {
+          "name": "Prepared bid",
+          "tooltip": "The supplier prepares an offer for request"
+        },
+        "3": {
+          "name": "Provided prequalification documents ",
+          "tooltip": "Supplier has applied for prequalification stage and is awaiting your decision"
+        },
+        "4": {
+          "name": "Prequalification preparation",
+          "tooltip": "The supplier prepares documents for prequalification stage"
+        },
+        "5": {
+          "name": "Viewed the request",
+          "tooltip": "The supplier opened the request description using the link from the invitation letter"
+        },
+        "6": {
+          "name": "Viewed the invitation",
+          "tooltip": "The supplier opened the invitation letter"
+        },
+        "7": {
+          "name": "Invited",
+          "tooltip": "An invitation has been sent to the supplier's email"
+        },
+        "8": {
+          "name": "Added",
+          "tooltip": "The invitation will be sent after the request is published"
+        },
+        "9": {
+          "name": "Rejected participation",
+          "tooltip": "The supplier declined to submit a bid in the request"
+        },
+        "10": {
+          "name": "Blocked",
+          "tooltip": "The requester of the request has blocked the supplier"
+        },
+        "11": {
+          "name": "Invited by email",
+          "tooltip": "Invitation Letter has been sent to supplier's email"
+        }
+      },
+      "proposal_deviation_type": {
+        "0": "Bid requirements met with the items and their quantity",
+        "1": "Allowed variance in items and quantity"
+      },
+      "status": {
+        "0": "Draft",
+        "1": "Submitted requests",
+        "2": "Pending requests",
+        "3": "Completed",
+        "4": "Cancelled"
+      },
+      "type_of_change": {
+        "0": "Participants can increase and decrease the price",
+        "1": "Reduction (participants can only decrease the price)",
+        "2": "Auction (participants can only increase the price)"
+      },
+      "vat": {
+        "false": "excl. VAT",
+        "true": "incl. VAT"
+      },
+      "vat_lower": {
+        "false": "excl. VAT",
+        "true": "incl. VAT"
+      },
+      "fee": {
+        "0": "",
+        "1": "Supplier",
+        "2": "Requester",
+        "3": "Supplier",
+        "4": "Requester"
+      },
+      "language": {
+        "0": "Русский",
+        "1": "English"
+      },
+      "invited_by": {
+        "0": "Other",
+        "1": "Owner",
+        "2": "Marketplace"
+      }
+    },
+    "view": {
+      "status": {
+        "0": "Draft",
+        "1": "Submitted requests",
+        "2": "Acceptance of bids ended, request on summing up stage",
+        "3": "Request completed",
+        "4": "Request canceled",
+        "until": "until {{ date }}"
+      },
+      "verification": {
+        "action": "Order service",
+        "verified": "Your company is verified"
+      },
+      "banner": {
+        "changing": {
+          "date": "Participants have access to the revision of the request from {{ value }}",
+          "state": "Publish your changes after editing is complete."
+        },
+        "new_stage": "Customize the order of events, block unaccepted participants, and publish a new request step.",
+        "proposal": {
+          "date": {
+            "left": "({{ value }} until the end of submission )",
+            "until": "Bids are accepted until {{ value }}"
+          },
+          "state": {
+            "false": "Bid is not submitted.",
+            "true": "Submit your bid after editing."
+          }
+        },
+        "verification": {
+          "text": "The customer accepts offers only from verified suppliers"
+        }
+      },
+      "comparison": {
+        "switcher": {
+          "list": "List",
+          "table": "Table"
+        },
+        "answer_cell": {
+          "hidden": "Information is hidden",
+          "no_answer": "No answer given",
+          "no_attachment": "No file uploaded",
+          "private": "The answer to the question is Private and is visible only to you, as the Organizer",
+          "private_participant": "The answer to the question is Private and only visible to you and the Organizer",
+          "comment": "Comment",
+          "widgets": {
+            "agreement": {
+              "agree": "Agree",
+              "disagree": "Disagree"
+            },
+            "attachment": {
+              "uploaded": "Uploaded files: {{value}}"
+            },
+            "boolean": {
+              "no": "No",
+              "yes": "Yes"
+            },
+            "multiple": {
+              "more": "more"
+            }
+          }
+        },
+        "answer_dialog": {
+          "comment": "Comment",
+          "comments_and_files": "Comment and files:",
+          "details_hidden": "Comments and competitor files are hidden"
+        },
+        "change_proposal_price_dialog": {
+          "best_proposal": "Best bid",
+          "cancel": "Cancel",
+          "change_step": "Changing step",
+          "down": "Down",
+          "important": "Important:",
+          "info": "the price will be changed proportionally for each item. Subject to rounding, a deviation from the indicated New Price is possible. To change prices for individual items, go to the Goods and Services in your offer.",
+          "new_price": "New price",
+          "reduction_step": "Reduction step",
+          "auction_step": "Price increase step",
+          "title": "bid price changing",
+          "title_reduction": "Decrease in the offer price",
+          "title_auction": "Increase in the offer price",
+          "up": "Up",
+          "update_price": "Update price",
+          "your_proposal": "Your bid",
+          "go_to_proposal": "Updating the price at the moment is not possible, you can submit an offer on the \"Bid\" tab",
+          "unavailable": {
+            "ok": "Close",
+            "text": "The bid is in change mode.\nChange the price on the bid tab and send the updated bid to the purchasing requester.",
+            "title": "Price change is not available now"
+          },
+          "errors": {
+            "refused": "Your company refused to participate in the request",
+            "blocked": "The customer excluded you from the request",
+            "draft": "The proposal is in the edit mode. Update the proposal on the \"Proposal\" tab",
+            "recalled": "The proposal was temporarily unavailable, please refresh the page and try again",
+            "reference_price_changed": "Other participants updated their bid. Please specify a new price"
+          }
+        },
+        "documents_cell": {
+          "documents": "Documents",
+          "no_files": "No files uploaded",
+          "participant_documents": "Participant documents",
+          "participant_documents_dialog": "Offer Documents",
+          "participant_nda_documents": "Prequalification stage documents"
+        },
+        "forbidden": {
+          "owner-version": {
+            "title": "Vendor bids are currently unavailable",
+            "text": "At the time of the change in the request for bids, the participants are not available.\nFinish editing to return to the suggestions."
+          },
+          "owner-draft": {
+            "title": "Vendor bids are currently unavailable",
+            "text": "The request has not been published. Participants did not submit proposals."
+          },
+          "owner-hidden": {
+            "title": "Vendor bids are currently unavailable",
+            "text": "The requester has denied access to the bids of the participants at the stage of accepting the bids. Bids will be available after the end of submission."
+          },
+          "guest": {
+            "title": "Competitors' bids",
+            "text": "Comparison is available after submitting your bid\n on the <span style=\"font-weight: 500\">\"Bid tab.\"</span>"
+          },
+          "empty": {
+            "title": "Competitors' bids",
+            "text": "Comparison is available after submitting your bid on the Bid tab."
+          }
+        },
+        "header_cells": {
+          "menu": {
+            "permit": {
+              "reduction": "Allow price increase",
+              "auction": "Allow price reduction"
+            },
+            "chat_participant": "Chat with a participant",
+            "deselect_positions": "Deselect bids",
+            "remove_from_procedure": "Block participant",
+            "remove_from_procedure_info": "Reversible action",
+            "select_all_positions": "Select all bids",
+            "show_profile": "Open supplier profile"
+          },
+          "not_full": "Variance in buyer requested quantity on some items",
+          "vat_title": "VAT",
+          "proposals": "BID SUMMARY",
+          "alternative": "Alternative",
+          "actions": "Actions",
+          "verified_tooltip": "Company is accredited in your company registry"
+        },
+        "list": {
+          "about_company": "about company",
+          "cancel_selection": "Cancel selection",
+          "change_price": "Change price",
+          "chose_proposal": "Choose bid",
+          "dillegence": "Participant risk assessment:",
+          "no_requisites": "Not provided",
+          "open_requisites": "Open",
+          "participant": "Participant",
+          "proposal_menu": {
+            "permit_rise": "Allow price increase",
+            "block_participant": "Block participant"
+          },
+          "publish_date": "Bid is submitted:",
+          "rate": "Bid rating and comment",
+          "rate_description": "Bid summary",
+          "requisites": "Company info",
+          "contact": "Contact person",
+          "scoring_private": "Information is available only to the requester team",
+          "vat": {
+            "false": "excl. VAT",
+            "true": "incl. VAT"
+          },
+          "vat_sum": "VAT sum",
+          "your_proposal": "Your bid"
+        },
+        "no_proposals": "No bids from participants have yet been received",
+        "position_cell": {
+          "from": "from",
+          "not_full_tooltip": "The position is presented in an incomplete volume",
+          "rank_tooltip": "Bid rank",
+          "add_to_order": "Add to order",
+          "in_order": "In order: {{count}} {{unit}} ",
+          "empty": "Not available",
+          "details": "Show details"
+        },
+        "position_info_dialog": {
+          "has_vat": "price incl. VAT",
+          "no_vat": "price excl. VAT",
+          "not_specified": "Not specified",
+          "price_for_unit": "Target cost per unit in request currency",
+          "price_not_specified": "Price is not specified",
+          "request": "Request"
+        },
+        "position_proposal_dialog": {
+          "files": "Files",
+          "proposal": {
+            "title": "Bid:",
+            "at_the_price_of": "at the price of",
+            "per_unit": "per unit"
+          },
+          "with_vat": "incl. VAT",
+          "without_vat": "excl. VAT",
+          "total": "Total",
+          "in_order": "In order:",
+          "add_all": "Add all\navailable quantity",
+          "cancel": "Cancel",
+          "save": "Save",
+          "comment": "Comment",
+          "add": "Add to the order",
+          "added_to_order": "Added to the order",
+          "delete": "Remove from the order",
+          "details_hidden": "Comments and competitor files are hidden",
+          "for_unit": "for a unit",
+          "has_vat": "prices incl. VAT",
+          "my_request": "My request",
+          "no_price": "Price is not specified",
+          "no_vat": "prices excl. VAT",
+          "order": "Order",
+          "update": "Update",
+          "error_count": "Order must be greater than 0",
+          "error_max_count": "Order more offer",
+          "success_snack": "Data saved"
+        },
+        "positions": "Item specification ({{value}})",
+        "question_dialog": {
+          "no_files_or_comment": "No comments and files",
+          "private": "Private answer"
+        },
+        "rank": "Proposal rank",
+        "rank_inaccessible": "Rank unavailable",
+        "selected_participants": "Selected offers",
+        "timer": "Time left",
+        "tooltips": {
+          "download_my_proposal_table": "Download my bid",
+          "download_proposal": "Download bid",
+          "customize_view": "Customize view"
+        },
+        "total_order_sum": "Order price",
+        "order_distribution": "Order distribution",
+        "order_price": "Order price",
+        "order_cell": {
+          "choose": "Choose proposal",
+          "selected": "Selected position {{value}} from {{count}}",
+          "full": "all positions"
+        },
+        "actions": {
+          "export": "Download",
+          "customize_view": "Customize view",
+          "fullscreen": "Fullscreen",
+          "close_fullscreen": "Collapse"
+        },
+        "export_list": {
+          "table": "Comparison table",
+          "order": "Order"
+        },
+        "customize_view_menu": {
+          "title": "Displayed fields",
+          "positions": "Item specification",
+          "questionnaire": "Non-price criteria"
+        },
+        "hidden_proposals_info": "Competitors' offers are hidden\nrequest settings",
+        "change_price": "Change price",
+        "fast_price_change_not_available_dialog": {
+          "title": "Fast price change not available",
+          "text": "The offer is under revision.\nFinish editing and update the proposal on the Proposal tab.",
+          "submit": "Go to offer",
+          "cancel": "Cancel"
+        },
+        "sorting": {
+          "button": "Proposals order",
+          "0": "First with the best price",
+          "1": "First with complete satisfaction",
+          "2": "First with the highest ranks by position",
+          "3": "First with order"
+        },
+        "group": {
+          "settings": "Settings"
+        },
+        "supplier_group": "Vendor profile",
+        "proposal_conclusion": "Final result",
+        "rating_dialog": {
+          "title": "Final result",
+          "sub_title": "Information available only to the request command",
+          "rating": "Rating",
+          "comment": "Comment",
+          "delete": "Delete rating",
+          "submit": "Submit",
+          "remove_dialog": {
+            "title": "Delete rating?",
+            "submit": "Delete",
+            "cancel": "Cancel"
+          }
+        },
+        "rating_cell": {
+          "empty": "Rate proposal"
+        }
+      },
+      "dialogs": {
+        "notification": {
+          "update_change": {
+            "title": "Request updated",
+            "text": "Check out the changes on the Request tab"
+          },
+          "status_changed": {
+            "title": "Acceptance of proposals completed",
+            "text": "The request has been transferred to the stage of summing up"
+          },
+          "completed": {
+            "title": "Request completed",
+            "text": "Check out the results in the \"Totals\" tab"
+          },
+          "canceled": {
+            "title": "Request canceled"
+          }
+        },
+        "cancel": {
+          "no": "Do not cancel",
+          "text": "The request will receive the status \"Canceled\" and will be available in the list of your requests. Participants will receive a notice of cancellation request.",
+          "title": "Cancel request?",
+          "yes": "Cancel request"
+        },
+        "cancel_changes": {
+          "no": "Cancel",
+          "text": "Remove changes to leave the request in its present form.",
+          "title": "Remove changes made to the request?",
+          "yes": "Remove"
+        },
+        "cancel_stage": {
+          "title": "Cancel the new stage?",
+          "no": "Cancel",
+          "yes": "Cancel stage"
+        },
+        "delete": {
+          "no": "cancel",
+          "text": "Delete the draft? Not possible to restore.",
+          "yes": "delete"
+        },
+        "offers": {
+          "header": {
+            "comparison": "Download comparison table",
+            "all-receipt": "Download order"
+          },
+          "options": {
+            "attachment": "Download with attached documents",
+            "selectable":Select the fields " of offers to download"
+          },
+          "columns": {
+            "8": "Quantity",
+            "16": "Price per unit, {{ currency }}",
+            "32": "Total w/o VAT, {{ currency }}",
+            "64": "VAT rate",
+            "128": "Total price incl. VAT, {{ currency }}",
+            "256": "Comment",
+            "512": "Price per unit in the participant's currency",
+            "1024": "Currency",
+            "2048": "Exchange rate",
+            "4096": "Rank by position",
+            "16384": "VAT, {{ currency }}"
+          },
+          "actions": {
+            "cancel": "Cancel",
+            "submit": "Download"
+          }
+        },
+        "download": {
+          "header": {
+            "comparison": "Download comparison table with files",
+            "order": "Download order",
+            "my-proposal": "Download bid",
+            "proposal": "Download bid",
+            "receipt": "Download order"
+          },
+          "async": {
+            "action": "Download archive",
+            "comment": "In a while, you will receive a link to download the archive to your mail {{ email }}",
+            "success": "The archive is being prepared. The download link will be sent to your email",
+            "title": "Archive with attachments",
+            "download": "Receive archive",
+            "cancel": "Cancel"
+          },
+          "async_file": {
+            "action": "Get document",
+            "title": "Document",
+            "text": "Preparing source language document. Download link will be sent to your email",
+            "success": "Document will be prepared soon",
+            "download": "Start document preparation",
+            "cancel": "cancel"
+          },
+          "no_orders": {
+            "title": "Order not formed",
+            "text": "To form an order, select a participant's offer or individual offer items",
+            "cancel": "I see"
+          },
+          "sync": {
+            "action": "Download document",
+            "comment": "Excel Table without attachments",
+            "title": "Document"
+          },
+          "actions": {
+            "cancel": "Cancel",
+            "download": "Download"
+          }
+        },
+        "finish_round": {
+          "cancel": "Cancel",
+          "header": "Complete the bidding round ahead of schedule",
+          "message": "Participants will not be able to submit or modify their proposals. After summarizing the round, you can announce a new bidding round.",
+          "next": "Complete round",
+          "success": "Bidding round completed",
+          "time": "End of the current bidding round:"
+        },
+        "leave": {
+          "header": "Decline to submit a bid",
+          "no": "Cancel",
+          "success": "You have declined to submit a bid in the request",
+          "text": "Your bid will not be saved if you decline to submit it",
+          "yes": "Refuse"
+        },
+        "requisites": {
+          "contact_person": "Contact person",
+          "tin": "TIN",
+          "more_requisites": "More details in the company profile"
+        },
+        "start_round": {
+          "cancel": "Cancel",
+          "error": "Date is expired. Please set another round ending date",
+          "header": "Announce a new bidding round",
+          "message": "New round gives participants a chance to improve their bids.\nEnd of the bidding round:",
+          "next": "Announce a new round",
+          "success": "New bidding round announced",
+          "time": "Round ending"
+        },
+        "validation": {
+          "title": {
+            "0": "Submit request",
+            "1": "Publish changes",
+            "2": "Publish stage"
+          },
+          "invalid": "Please correct the errors and re-publish",
+          "actions": {
+           ,
+            "cancel": "Cancel",
+            "submit": "Publish",
+            "close": "OK"
+          },
+          "changes": {
+            "major": {
+              "title": "The submitted bids will be rejected ({{value}} total)",
+              "notice": "Changes made require updating participants' bids."
+            },
+            "minor": {
+              "title": "What to do with the submitted proposals ({{value}} total)",
+              "notice": "The changes made may require an update of the participants' bids",
+              "options": {
+                "minor": "Save bids",
+                "major": "Reject and request an update of the bids"
+              }
+            }
+          },
+          "items": {
+            "AcceptanceEndDate": {
+              "Default": {
+                "notice": "Until completion",
+                "title": "Acceptance of bids until:"
+              },
+              "Expired": {
+                "notice": "The date has expired, enter a new date.",
+                "title": "Acceptance of bids until:"
+              },
+              "LessThen": {
+                "48": {
+                  "notice": "Less than 48 hours for participants to prepare bids",
+                  "title": "Acceptance of bids until:"
+                },
+                "15": {
+                  "notice": "Less than 15 min for participants to prepare bids",
+                  "title": "Acceptance of bids until:"
+                }
+              }
+            },
+            "Addresses": {
+              "notice": "",
+              "title": "Place of delivery"
+            },
+            "ClosedProcedure": {
+              "NoParticipant": {
+                "notice": "",
+                "title": "Participants in closed request"
+              },
+              "AdditionalCurrencies": {
+                "title": "Request currency",
+                "notice": "The list of currencies contains filling errors"
+              }
+            },
+            "Files": {
+              "notice": "",
+              "title": "Request's documents"
+            },
+            "NdaEnabled": {
+              "NoData": {
+                "notice": "description or documents of the stage are not specified",
+                "title": "Prequalification stage"
+              }
+            },
+            "Positions": {
+              "notice": "",
+              "title": "Specification of goods and services"
+            },
+            "Price": {
+              "notice": "Specify a value from 0 to 99 999 999 999",
+              "title": "Maximum / Minimum / Expected price"
+            },
+            "Questionnaire": {
+              "notice": "",
+              "title": "Requirements for participants and conditions of request"
+            },
+            "ReductionStep": {
+              "notice": "Invalid settings",
+              "title": "Minimum price increment"
+            },
+            "VatEnabled": {
+              "Undefined": {
+                "notice": "Value is not set",
+                "title": "When choosing a winner takes into account"
+              }
+            },
+            "Tariff": {
+              "NotActive": {
+                "title": "Invalid request tariff has been selected",
+                "notice": ""
+              }
+            },
+            "NewStageCreated": {
+              "notice": "Check that the new stage is ready before publishing",
+              "title": "Acceptance of proposals closed, request on summing up stage"
+            }
+          },
+          "comment": {
+            "title": "Comment for stage participants:",
+            "placeholder": "Comment...",
+            "error": "Required field",
+            "hint": "For example: “Rebidding”, “Submission of final offers”"
+          }
+        },
+        "vat": {
+          "cancel": "Cancel",
+          "confirm": "Apply",
+          "free": "VAT is not charged",
+          "header": "VAT",
+          "text": "Choose vat for all positions"
+        },
+        "version_mismatch": {
+          "next": "Next",
+          "version": {
+            "title": "Request Changed",
+            "text": "Please refresh the page and try again."
+          },
+          "proposals": {
+            "title": "Member changed the offer",
+            "text": "Please refresh the page and re-summarize."
+          }
+        },
+        "wrong_status": {
+          "Process": {
+            "Light": {
+              "Denied": "Unable to participate in the request.",
+              "Procedure": {
+                "Canceled": "Request denied. The status of the request has changed.",
+                "Deleted": "Request denied. The status of the request has changed.",
+                "Ended": "Request denied. The status of the request has changed.",
+                "Expired": "Request denied. The status of the request has changed.",
+                "Summarizing": "The request is on pending request stage. Request denied"
+              }
+            }
+          }
+        },
+        "verified_only_info": {
+          "title": "Why do contractors prefer to work with trusted companies?",
+          "legal_confirmed": {
+            "label": "A trusted company is trusted by counterparties",
+            "text": "Your company details have been confirmed by our specialists"
+          },
+          "requirements": {
+            "label": "Verified providers are marked with a special icon",
+            "text": "Contractors will be able to immediately see that your company is verified and trustworthy"
+          },
+          "reports": {
+            "label": "Only participate in requests for verified vendors",
+            "text": "Submission of an offer in such requests is possible after the company has been checked by our specialists"
+          },
+          "verification_method_message": {
+            "title": "We use the simplest possible verification mechanism.",
+            "text": "Company verification takes place as soon as possible"
+          },
+          "close": "Not now",
+          "order_check": "Order check",
+          "message_for_verified": "Your company has been verified!"
+        },
+        "participant_nda": {
+          "title": "Documents for prequalification stage",
+          "empty": "No documents provided"
+        },
+        "nda_decision": {
+          "title": "Participant admission decision",
+          "accept": {
+            "title": "Admit participant",
+            "text": "The participant will have access to the specification and request documents",
+            "result": "Participant admitted"
+          },
+          "reject": {
+            "title": "Reject a participant's request",
+            "text": "A repeated request for access is possible after the request is corrected",
+            "result": "The participant's request has been sent for correction"
+          },
+          "comment_placeholder": "Chatting with a participant ...",
+          "cancel": "Cancel",
+          "submit": "Make a decision"
+        },
+        "returnToSummary": {
+          "title": "Returning a summary request",
+          "form_label": "Tell the reason to the participants whose order was canceled:",
+          "form_placeholder": "Message...",
+          "cancel": "Cancel",
+          "submit": "Return for summary",
+          "success": "The request has been transferred to the stage of summing up",
+          "order": "Order for <span class=\"price\">{{value}} {{currency}}</span> will be cancelled.",
+          "label_empty": "Return request for summarizing?"
+        }
+      },
+      "header": {
+        "back": "Done",
+        "editing": "(Editing)",
+        "positions": "Goods and services",
+        "questionnaire": "Non-price estimates"
+      },
+      "number": "Code",
+      "participant": {
+        "items": {
+          "attachments": {
+            "empty": "No attachments",
+            "header": "Attachments",
+            "size": "Up to 25 MB each",
+            "upload": "Upload document"
+          },
+          "position": {
+            "request": "Request",
+            "startPrice": "Max price per unit"
+          },
+          "table": {
+            "header": {
+              "import": "Import from file",
+              "total": "Total:"
+            },
+            "proposal": {
+              "comment": {
+                "empty": "Empty",
+                "label": "Comment"
+              },
+              "count": {
+                "deviation": "Deviation",
+                "label": "Amount",
+                "zero": "Not available"
+              },
+              "price": {
+                "label": "Price per unit",
+                "vat": {
+                  "false": "excl. VAT",
+                  "true": "incl. VAT"
+                },
+                "hint": "Max price per unit - {{ value }}",
+                "max": "Unit price above maximum"
+              },
+              "vat": {
+                "change": "Set for all positions",
+                "empty": "Excl. VAT",
+                "free": "VAT is not charged",
+                "label": "VAT"
+              },
+              "no_positions": {
+                "label": "Not available"
+              }
+            }
+          }
+        },
+        "proposal": {
+          "botzaar": {
+            "actions": {
+              "cancelProposal": {
+                "description": "Discard the changes, it will not affect the previously submitted bid.",
+                "title": "Discard changes"
+              },
+              "changeProposal": {
+                "description": "Change the parameters of your bid: price, quantity, description of positions. During the changes the requester sees the previously submitted bid.",
+                "title": "Change bid"
+              },
+              "downloadProposal": {
+                "description": "Download your bid",
+                "title": "Download bid"
+              },
+              "resubmitProposal": {
+                "description": "Update the bid after making changes, the requester will receive a notification and see the updated bid.",
+                "title": "Resubmit bid"
+              },
+              "submitProposal": {
+                "description": "Submit your bid for consideration by the requester.",
+                "title": "Submit bid"
+              }
+            },
+            "canceled": {
+              "active": {
+                "unverified": {
+                  "message": "Request cancelled. The customer accepted offers only from verified suppliers. Get verified status to participate in other requests for verified suppliers."
+                },
+                "with_proposal": {
+                  "message": "Request cancelled."
+                },
+                "without_proposal": {
+                  "message": "Request cancelled."
+                }
+              },
+              "blocked": {
+                "message": "The requester excluded you from the request and did not consider your offer."
+              },
+              "refused": {
+                "message": "The requester did not consider your offer."
+              }
+            },
+            "finished": {
+              "active": {
+                "unverified": {
+                  "message": "Request completed. The customer accepted offers only from verified suppliers. Get verified status to participate in other requests for verified suppliers."
+                },
+                "with_proposal": {
+                  "message": "Request completed."
+                },
+                "without_proposal": {
+                  "message": "Request completed."
+                }
+              },
+              "blocked": {
+                "message": "The requester excluded you from the request and did not consider your offer."
+              },
+              "looser": {
+                "message": "Request completed."
+              },
+              "refused": {
+                "message": "The requester did not consider your offer."
+              },
+              "winner": {
+                "message": "Request completed."
+              }
+            },
+            "proposal": {
+              "active": {
+                "unverified": {
+                  "message": "The customer accepts offers only from verified suppliers. Get verified status to be able to submit an offer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                },
+                "with_proposal": {
+                  "message": "The bid submitted. You can change the bid at any time before the end of the acceptance of bid."
+                },
+                "without_proposal": {
+                  "message": "Form and submit the offer until {{acceptanceEndDate}} ({{acceptanceEndDays}} left).\nYou can change the bid at any time before the end of the acceptance of bids."
+                }
+              },
+              "blocked": {
+                "message": "The requester has excluded you from the request and will not consider your offer."
+              },
+              "refused": {
+                "message": "The requester does not consider your offer."
+              },
+              "nda_pending": {
+                "message": "Submit your documents for prequalification stage. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+              },
+              "nda_submitted": {
+                "message": "Provided prequalification stage documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+              }
+            },
+            "summarize": {
+              "active": {
+                "unverified": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}. The customer accepted offers only from verified suppliers. Get verified status to participate in other requests for verified suppliers."
+                },
+                "with_proposal": {
+                  "message": "Your bid is considered by the requester."
+                },
+                "without_proposal": {
+                  "message": "Reception of bids completed. You have not submitted an bid."
+                }
+              },
+              "blocked": {
+                "message": "The requester has excluded you from the request and will not consider your offer."
+              },
+              "refused": {
+                "message": "The requester does not consider your offer."
+              }
+            }
+          },
+          "content": {
+            "actions": {
+              "change": "Change",
+              "file": "Upload",
+              "open": "Open",
+              "set_up": "Fill in",
+              "specify": "Specify",
+              "specify_inn": "Specify TIN"
+            },
+            "contact": {
+              "empty": "Specify contact person for purchasing",
+              "title": "The contact person"
+            },
+            "documents": {
+              "sub_title": "Commercial offer and other documents.",
+              "title": "Documents"
+            },
+            "inn": {
+              "empty": "Enter your company's TIN",
+              "title": "TIN of the company"
+            },
+            "positions": {
+              "sub_title": "Price, quantity and description of goods and services.",
+              "title": "Goods and services"
+            },
+            "price": {
+              "sub-title": {
+                "auto": "Calculated according to Goods and Services section",
+                "manual": "The total price of your bid"
+              },
+              "title": "Bid price"
+            },
+            "questionnaire": {
+              "sub_title": "Questionnaire with questions for the participant.",
+              "title": "Participant questionnaire"
+            },
+            "title": "Your bid",
+            "nda": {
+              "title": "Description and documents",
+              "upload_document": "Upload documents",
+              "submit": "Submit",
+              "empty": "No documents have been uploaded"
+            }
+          },
+          "dialogs": {
+            "cancel": {
+              "cancel": "Cancel",
+              "header": "Discard changed",
+              "message": "Do you really want to discard the changes? This action is irreversible.",
+              "next": "Discard",
+              "success": "Changed cancelled"
+            },
+            "change": {
+              "cancel": "Cancel",
+              "header": "Change bid",
+              "message": "Do you really want to change your bid?",
+              "next": "Change",
+              "success": "Bid changed"
+            },
+            "submit": {
+              "default": {
+                "actions": {
+                  "cancel": {
+                    "primary": "Cancel",
+                    "repeated": "Cancel"
+                  },
+                  "next": {
+                    "primary": "Submit",
+                    "repeated": "Update"
+                  }
+                },
+                "success": {
+                  "primary": "The bid submitted",
+                  "repeated": "The bid updated"
+                },
+                "text": {
+                  "primary": "You can change your bid at any time before the acceptance end date.\n\nThe requester gives preference to verified participants when choosing winners.",
+                  "repeated": "The requester will receive a notification about updating your offer.",
+                  "confirmation": "I agree with the terms of payment for the services in case of winning the request in accordance with",
+                  "agreement": "the user agreement"
+                }
+              },
+              "failure": {
+                "actions": {
+                  "cancel": "Close"
+                },
+                "how_rise": {
+                  "button": "How do I submit an offer with an increased price?",
+                  "1": "Request permission to increase the offer price in the chat with the Customer",
+                  "2": "The customer will inform you about his decision in the chat",
+                  "3": "If you receive permission, you will be able to submit an offer with an increased price once"
+                },
+                "helper_auction": {
+                  "label": "How to submit a bid, which violate the rights of the price change?",
+                  "description": {
+                    "label": "You can request a one-time permission to submit an offer that violates the established price change rules",
+                    "1": "In chat with the customer request permission to submit a one-time proposal that violates the established rule for price changes",
+                    "2": "The customer will inform you of their decision in the chat",
+                    "3": "If you receive permission, you will be able to submit a one-time offer that violates the established rule for price changes"
+                  }
+                },
+                "helper_positions": {
+                  "label": "How do I change the price for individual items?",
+                  "description": {
+                    "1": {
+                      "1_1": "Go to the",
+                      "1_2": "Proposal",
+                      "1_3": "tab and click Change Offer"
+                    },
+                    "2": "Change the prices for items and update the offer",
+                    "3": "Remember that the updated price must comply with the price change rule"
+                  }
+                }
+              },
+              "header": {
+                "primary": "Submit bid",
+                "repeated": "Update bid"
+              },
+              "loading": {
+                "text": "Validation..."
+              },
+              "verification": {
+                "text": "This request is only for verified suppliers",
+                "notice": "To submit an offer go through the check on ProcureSaas",
+                "actions": {
+                  "more": "Learn more",
+                  "submit": "Request verification"
+                }
+              }
+            },
+            "no_company": {
+              "title": "Find your company\nor register your business on ProcureSaas",
+              "info": "Register your company on ProcureSaas for free to participate in the request. Site accreditation\nis not required",
+              "register": "Find or add company"
+            },
+            "no_user": {
+              "title": "Login or register on ProcureSaas",
+              "info": "To participate in the request, please log into your ProcureSaas profile or create a new one",
+              "register": "Login / Register"
+            },
+            "alerts": {
+              "no_rights": {
+                "title": "No access to participate",
+                "text": "Contact your company administrator to get access to participate in requests. The right of your company to participate in requests is assigned by the administrator of ProcureSaas"
+              },
+              "blocked": {
+                "title": "The owner excluded you from the request",
+                "text": "The owner refused to cooperate with your company on this request. Have questions? Contact the owner"
+              },
+              "already_participate": {
+                "title": "Your company is already participating in the request",
+                "text": "Refresh the page or re-enter the request to see the result"
+              },
+              "errors": {
+                "title": "Participation in the request is not possible",
+                "access_denied": "This request was posted by your company. Contact the owner of the request to gain access",
+                "status_summarize": "Acceptance of proposals is completed, the request is at the \"Summing up\" stage",
+                "status_finished": "Request completed",
+                "status_canceled": "Request canceled",
+                "private": "The circle of participants in the request is limited. Contact the Customer to receive",
+                "unknown": "Please contact tech support, we will help you"
+              }
+            }
+          },
+          "commission": {
+            "order_sum": "Order price:",
+            "operator_remuneration": "Service Operator Commission:",
+            "to": "to",
+            "from": "from",
+            "free": "At the current request, the operator's reward will not be charged if you are declared the winner of the request",
+            "agreement": "<span class=\"free-participation\">Participation in the request is free, without deposits and blocking of funds!</span> The Service Operator charges a commission only from the companies announced as winners. The invoice for payment of the commission is sent to the post office after summing up the results of the request. The amount and procedure for payment of the Service Operator Commission are determined in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User Agreement</a> and the given tariff:",
+            "vat": "In the case of a Request for a price per unit of goods (works, services) without specifying the requested volume of a consignment of goods (works, services), the winner is charged a Commission of the Service operator in the amount of 7894,00 rub.\n\nIf the volume of goods (works, services) specified in the formalized settings of the Request differs from the volume of goods (works, services) specified in the description of the Request and (or) accompanying documents to the Request, the Service operator's commission is calculated based on the planned volume of goods (works , services) specified by the Customer in the description of the Request and (or) accompanying documents to the Request."
+          },
+          "contact_info": {
+            "title": "We invite you to participate",
+            "info": "Participate to submit an offer and chat with the customer in the request chat",
+            "submit": "Participate",
+            "cancel": "I will think about it"
+          },
+          "verification": {
+            "text": "The organizer gives preference to verified suppliers.",
+            "text_only_verified": "The customer accepts the offer only from verified suppliers.",
+            "learn_more": "Learn more",
+            "verified": "Verified"
+          }
+        }
+      },
+      "participants": {
+        "dialogs": {
+          "block_many": {
+            "cancel": "Cancel",
+            "header": "Block participants",
+            "message": "Blocked participants:\n• cannot modify or submit a bid.\n• cannot view the bids of other participants \n\nAt any time, you can unblock participatns to let them submit bids again.",
+            "next": "Block",
+            "success": "Participants blocked"
+          },
+          "block_one": {
+            "cancel": "Cancel",
+            "header": "Block participant",
+            "message": "Blocked participants:\n• cannot modify or submit a bid.\n• cannot view the bids of other participants \n\nYou can cancel the blocking at the stage of accepting proposals of the current and next stages.",
+            "next": "Block",
+            "success": "Participant blocked"
+          },
+          "invite_blocked": {
+            "button": "Blocked participants from previous stages"
+          },
+          "invite_email": {
+            "bulk": {
+              "cancel": "Cancel",
+              "emails": "Enter email addresses separated by commas",
+              "next": "Add"
+            },
+            "header": "Invite by email",
+            "single": {
+              "cancel": "Cancel",
+              "comment": "Internal comment",
+              "create": "Add email",
+              "done": "Done",
+              "draft": "Invitations will be sent after the publication of the request.",
+              "email": "Email",
+              "or": "or",
+              "remove": "Remove",
+              "send": "Send",
+              "toggle": "Multiple emails"
+            },
+            "success": {
+              "default": "Invitation sent",
+              "draft": "Invitations will be sent after the publication of the request."
+            }
+          },
+          "invite_link": {
+            "header": "Link to request",
+            "hint": "press Ctrl + C to copy to clipboard",
+            "text": "Any user with a link can view and submit a bid. Copy the link and send it to the participant."
+          },
+          "invite_site": {
+            "header": "Invite participants",
+            "success": {
+              "default": "Invitation sent",
+              "draft": "Invitations will be sent after the publication of the request."
+            }
+          },
+          "notify_many": {
+            "cancel": "Cancel",
+            "header": "Send notifications",
+            "message": "Invitations will be sent to the participants.",
+            "next": "Send",
+            "success": "Notifications sent"
+          },
+          "notify_one": {
+            "cancel": "Cancel",
+            "header": "Send invitation",
+            "message": "An invitation will be sent to the participant.",
+            "next": "Send",
+            "success": "Invitation sent"
+          },
+          "remove_many": {
+            "cancel": "Cancel",
+            "header": "Participants removal",
+            "message": "Participants will be removed.",
+            "next": "Remove",
+            "success": "Participants are denied participation"
+          },
+          "remove_one": {
+            "cancel": "Cancel",
+            "header": "Participant removal",
+            "message": "Participant will be removed.",
+            "next": "Remove",
+            "success": "Participant removed"
+          },
+          "unblock_many": {
+            "cancel": "Cancel",
+            "header": "Unblock participants",
+            "message": "Participants will receive invitations and will be able to submit bids.",
+            "next": "Unblock",
+            "success": "Participants unblocked"
+          },
+          "unblock_one": {
+            "cancel": "Cancel",
+            "header": "Unblock participant",
+            "message": "The participant will receive a message in the chat and will be able to submit an offer.",
+            "next": "Unblock",
+            "success": "Participant unblocked"
+          },
+          "permit_change_one": {
+            "cancel": "Cancel",
+            "header": "Allow member to change offer price?",
+            "message": "Permission gives the bidder a one-time right to change the price of their bid that violates the bidding rules.",
+            "next": "Allow",
+            "success": "Price change allowed"
+          }
+        },
+        "list": {
+          "actions": {
+            "empty": {
+              "text": "No actions available"
+            },
+            "bulk": {
+              "button": "Actions"
+            },
+            "block_many": {
+              "button": "Block participants",
+              "tooltip": "Block selected participants. This action is reversible."
+            },
+            "block_others": {
+              "button": "Block all participants except selected ones"
+            },
+            "block_one": {
+              "button": "Block participant",
+              "notice": "Reversible action"
+            },
+            "invite_email": {
+              "button": "By email"
+            },
+            "invite_link": {
+              "button": "Copy link to request"
+            },
+            "invite_menu": {
+              "button": "Invite"
+            },
+            "invite_site": {
+              "button": "ProcureSaas platform"
+            },
+            "invite_blocked": {
+              "button": "Blocked participants from past stages"
+            },
+            "invite_site_tags": {
+              "button": "From ProcureSaas platform by request tags",
+              "no": "Specify request tags",
+              "text": "Specify tags in the request description to invite members by tags.",
+              "title": "Request tags are not specified",
+              "yes": "OK"
+            },
+            "notify_many": {
+              "button": "Send invitations",
+              "tooltip": "Send invitations to selected participants"
+            },
+            "notify_one": {
+              "button": "Send invitation"
+            },
+            "remove_many": {
+              "button": "Remove participants",
+              "tooltip": "Remove selected participants"
+            },
+            "remove_one": {
+              "button": "Remove"
+            },
+            "report": {
+              "title": "Download participants list",
+              "tooltip": "Download participants list"
+            },
+            "unblock_many": {
+              "button": "Unblock participants",
+              "tooltip": "Unblock selected participants"
+            },
+            "unblock_one": {
+              "button": "Unblock"
+            },
+            "nda": {
+              "title": "Prequalification stage",
+              "request": "Prequalification stage documents",
+              "decision": "Admission decision"
+            },
+            "permit_change": {
+              "reduction": {
+                "button": "Allow price increase"
+              },
+              "auction": {
+                "button": "Allow price reduction"
+              }
+            },
+            "chat": {
+              "button": "Chat with members"
+            },
+            "chat_group": {
+              "button": "Write message to chat",
+              "dialog": {
+                "title": "Write a message to the chat",
+                "label": "Message to participants",
+                "cancel": "Cancel",
+                "submit": "Submit",
+                "success": "Message sent"
+              }
+            },
+            "add_register": {
+              "button": "Invite to the Register",
+              "dialog": {
+                "title": "Select Registry",
+                "button": "Invite"
+              },
+              "success": "Invite sent",
+              "mach_success": "Invitations Sent",
+              "error": "Invitations were not sent, please reload the page and try again"
+            }
+          },
+          "empty": "Add participants. Participants will receive invitations after the request is submitted.\nYou can also add participants at the bid submission window",
+          "filters": {
+            "status": {
+              "title": "Participant status"
+            },
+            "invited_by": {
+              "title": "Invited by"
+            }
+          },
+          "forbidden": {
+            "message": "The requester makes changes to the request",
+            "notice": "Try again after editing is complete.",
+            "title": "Information is not available right now"
+          },
+          "not_found": "There are no participants for the specified filtering and search criteria.",
+          "search": {
+            "tooltip": "Company name"
+          },
+          "invited_by_ProcureSaas": "Invited by ProcureSaas",
+          "title": "Participants",
+          "selected": "Selected",
+          "search_tooltip": "Search is carried out by fields:\n• Company name\n• Company email\n• Internal comment",
+          "verified": "The company is accredited in the register of your company"
+        },
+        "blocked": {
+          "header": {
+            "title": "Blocked participants from previous stages",
+            "submit": "Resume participation "
+          },
+          "empty": {
+            "text": "There are not blocked participants",
+            "notice": "All participants of the previous stages are admitted to the current stage "
+          },
+          "list": {
+            "selected": {
+              "count": "Selected: {{ value }}"
+            },
+            "search": {
+              "placeholder": "Search"
+            },
+            "items": {
+              "empty": "No results were found for your request..."
+            }
+          },
+          "success": {
+            "snack": "Selected companies have been re-invited to the request"
+          }
+        }
+      },
+      "positions": {
+        "editor": {
+          "actions": {
+            "save_and_close": {
+              "button": "Save"
+            },
+            "save_and_continue": {
+              "button": "Save and add"
+            },
+            "add_positions": "Add items",
+            "download_template": "Download template",
+            "upload_from_file": "Upload from file"
+          },
+          "fields": {
+            "count": "Amount",
+            "description": "Description",
+            "name": "Name",
+            "name_desc": "Name and description",
+            "targetCost": "Target cost per unit",
+            "price-hint": "Set price for your selection. The price is displayed only to you - participants will not see it.",
+            "startPrice": "Start price",
+            "auction": {
+              "label": "Minimum price",
+              "tooltip": "The lowest price for an item that a supplier can offer / The supplier cannot offer a lower price"
+            },
+            "reduction": {
+              "label": "Maximum price",
+              "tooltip": "The highest price for an item that a supplier can offer / Supplier cannot exceed the specified price"
+            },
+            "price_up_down": {
+              "label": "Expected price",
+              "tooltip": "Price per item expected from the supplier / Customer expects the specified price or less"
+            },
+            "startPriceHint": "The starting price of the Auction/Reduction per unit, taking into account the request parameter - VAT",
+            "unit": "Unit",
+            "files": "Files",
+            "price": "Price for unit",
+            "new_field": "New field",
+            "documents": "Documents",
+            "target_cost_tooltip": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
+            "vat": "VAT rate",
+            "currency": "Currency",
+            "header_tooltip": "Filled by supplier",
+            "deviation_tooltip": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions and quantity",
+            "availability": "Availability",
+            "multi_currency_tooltip": "The field is available if a list of currencies is created in the request parameters",
+            "comment": "Comment"
+          },
+          "snacks": {
+            "success": "Position saved"
+          },
+          "title": "Item specification",
+          "unsaved": {
+            "cancel": "Continue",
+            "confirm": "Save",
+            "title": "You have unsaved changes"
+          },
+          "default": {
+            "name": "New position",
+            "unit": "unit"
+          },
+          "custom_fields_popover": {
+            "name": "Name",
+            "new": "Create column",
+            "save": "Save",
+            "cancel": "Cancel"
+          },
+          "custom_field_menu": {
+            "edit": "Edit",
+            "delete": "Delete"
+          },
+          "documents_menu": {
+            "title": "Allow attaching documents to positions",
+            "info": "Enabled option gives members the ability to attach documents to line items"
+          },
+          "empty": "Items not added"
+        },
+        "import": {
+          "title": "Import items from file",
+          "snack": "Items imported: {{ count }}",
+          "warning": "Importing from a file will delete already existing positions.",
+          "next": "Next",
+          "cancel": "Cancel",
+          "upload": "Upload",
+          "items": {
+            "Process.Light.Import.Positions.InvalidFile": "The selected file does not match the pattern. Download the correct template, fill it in and upload again.",
+            "Process.Light.Import.Positions.Required": "<b>{{ column }}.</b> No value specified",
+            "Process.Light.Import.Positions.MaxValue.Price": "<b>{{ column }}.</b> Incorrect value (allowed from 0,00 to 9 999 999 999,00)",
+            "Process.Light.Import.Positions.MinValue.Price": "<b>{{ column }}.</b> Incorrect value (allowed from 0,00 to 9 999 999 999,00)",
+            "Process.Light.Import.Positions.MaxValue.Number": "<b>{{ column }}.</b> Incorrect value (allowed from 0,000001 to 9 999 999 999)",
+            "Process.Light.Import.Positions.MinValue.Number": "<b>{{ column }}.</b> Incorrect value (allowed from 0,000001 to 9 999 999 999)",
+            "Process.Light.Import.Positions.Truncate": "<b>{{ column }}.</b> Value truncated to {{ length }} characters.",
+            "Process.Light.Import.Positions.WrongFormat.Number": "Incorrect value in the cell:",
+            "Process.Light.Import.Positions.WrongFormat.Price": "Incorrect value in the cell:",
+            "Process.Light.Import.Positions.InvalidFileExtension": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
+          }
+        },
+        "list": {
+          "actions": {
+            "create_position": {
+              "button": "Add item",
+              "supplier_fields": "Supplier fields"
+            },
+            "delete_position": {
+              "tooltip": "Delete",
+              "dialog": {
+                "title": "Delete position?",
+                "yes": "Delete",
+                "cancel": "Cancel",
+                "snack": "Position deleted"
+              }
+            },
+            "delete_positions": {
+              "tooltip": "Delete",
+              "dialog": {
+                "title": "Delete positions ({{ count }})",
+                "cancel": "Cancel",
+                "yes": "Delete",
+                "snack": "Items deleted"
+              }
+            },
+            "download_template": {
+              "tooltip": "Download template for items"
+            },
+            "import_positions": {
+              "tooltip": "Upload items from file"
+            }
+          },
+          "empty_placeholder": "Positions not added"
+        },
+        "viewer": {
+          "fields": {
+            "count": "Amount",
+            "description": "Description",
+            "documents": "Documents",
+            "name": "Name",
+            "targetCost": "Target cost per unit",
+            "unit": "Unit",
+            "startPrice": "Start price",
+            "auction": "Minimum price",
+            "reduction": "Maximum price",
+            "expectedPrice": "Expected price"
+          },
+          "title": "Item",
+          "action": {
+            "upload_file": "Add document",
+            "file_restriction": "Up to 25 MB each"
+          }
+        }
+      },
+      "publish": {
+        "button": "Submit request",
+        "text": "Submit request to notify participants and receive their bids."
+      },
+      "request": {
+        "locked": {
+          "tooltip": "Information available only to members of the request team"
+        },
+        "additional_settings": {
+          "sub_title": "Information available only to members of the request team.",
+          "title": "Requester team, extended fields"
+        },
+        "aggregators": {
+          "more": "More {{ count }}",
+          "subtitle": {
+            "false": "Information about \"Open\" published queries is passed to the aggregators. A qualitative and complete description attracts more interests.",
+            "true": " — notification sent ({{ count }})"
+          },
+          "title": "Tender aggregator websites"
+        },
+        "botzaar": {
+          "actions": {
+            "verify": {
+              "description": "Submit an application for verification of your company to obtain the \"Verified Supplier\" status",
+              "title": "Order service"
+            },
+            "authorize": {
+              "description": "Login or register to participate in the request.",
+              "title": "Login / Register"
+            },
+            "cancelChanges": {
+              "description": "Reject the changes of the request",
+              "title": "Cancel changes"
+            },
+            "cancelProcedure": {
+              "description": "Cancel the request, if it is no longer relevant. Participants will receive a notice of cancellation. The request will be archived and you will not be able to take any action with it. This action is irreversible, be careful!",
+              "title": "Cancel request"
+            },
+            "cloneForeignProcedure": {
+              "description": "Create request similar to the current one. Duplicating will reduce the time for preparing a new request.",
+              "title": "Dublicate"
+            },
+            "cloneProcedure": {
+              "description": "Create request similar to the current one. Duplicating will reduce the time for preparing a new request will reduce the time for preparing a new request.",
+              "title": "Dublicate"
+            },
+            "createCompany": {
+              "description": "Register a company, or join a registered company if your colleague previously did this.",
+              "title": "Register company"
+            },
+            "deleteProcedure": {
+              "description": "The draft cannot be restored. Be careful!",
+              "title": "Delete draft"
+            },
+            "downloadNoticeReport": {
+              "description": "Download \"Purchase Notice\" document",
+              "title": "Notice"
+            },
+            "endChanges": {
+              "description": "Publish the changes of the request",
+              "title": "Publish changes"
+            },
+            "finishRound": {
+              "description": "The status will be changed to summarize. The announcement of a new call for bids will be made available.",
+              "title": "Change the deadline for accepting proposals"
+            },
+            "joinProcedure": {
+              "description": "Submit a bid.",
+              "title": "Submit"
+            },
+            "leaveProcedure": {
+              "description": "Decline to submit a bid in the request. You can re-take part in the request later.",
+              "title": "Decline to submit a bid"
+            },
+            "publishProcedure": {
+              "description": "Submit request to start receiving bids from participants. Invited participants will receive notifications. Participants can create and submit bids. Once submitted you can modify or cancel request, and manage your team.",
+              "title": "Submit request"
+            },
+            "startChanges": {
+              "description": "Change the subject or parameters of the request. Participants will receive notifications about changes and can update their bids.",
+              "title": "Change request"
+            },
+            "startRound": {
+              "description": "A new round gives participants a chance to improve their bids.",
+              "title": "Start new round"
+            }
+          },
+          "auditor": {
+            "canceled": {
+              "*": {
+                "message": "Request cancelled by the requester.\n\nThe requester is your company."
+              }
+            },
+            "finished": {
+              "*": {
+                "message": "Request completed.\n\nThe requester is your company."
+              }
+            },
+            "proposal": {
+              "*": {
+                "message": "Bids are accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}}).\n\nThe requester is your company, all actions are available only to members of the request team."
+              }
+            },
+            "summarize": {
+              "*": {
+                "message": "Request is summarizing.\n\nThe requester is your company, all actions are available only to members of the request team."
+              }
+            }
+          },
+          "guest": {
+            "canceled": {
+              "default": {
+                "message": "Request cancelled {{cancelDate}}."
+              },
+              "no_auth": {
+                "message": "Request cancelled {{cancelDate}}.\n\nRegister or login to see all the information about request."
+              },
+              "no_company": {
+                "message": "Request cancelled {{cancelDate}}."
+              },
+              "no_rights": {
+                "message": "Request cancelled {{cancelDate}}."
+              },
+              "waiting": {
+                "message": "Request cancelled {{cancelDate}}."
+              }
+            },
+            "finished": {
+              "default": {
+                "message": "Request completed {{finishDate}}."
+              },
+              "no_auth": {
+                "message": "Request completed {{finishDate}}.\n\nRegister or login to see all the information about request."
+              },
+              "no_company": {
+                "message": "Request completed {{finishDate}}."
+              },
+              "no_rights": {
+                "message": "Request completed {{finishDate}}."
+              },
+              "waiting": {
+                "message": "Request completed {{finishDate}}."
+              }
+            },
+            "proposal": {
+              "default": {
+                "message": "Submit a bid until {{acceptanceEndDate}} ({{acceptanceEndDays}} left).\n\nParticipants have access to the chat with requester."
+              },
+              "no_auth": {
+                "message": "Participation in the request is available only to registered users.\nRegister or login to see all the information and take part in the request."
+              },
+              "no_company": {
+                "message": "Register your company to participate in the request. Company already registered? Contact your company administrator."
+              },
+              "no_rights": {
+                "message": "You do not have the right to participate in requests. Contact your company administrator."
+              },
+              "waiting": {
+                "message": "You will be able to participate in the request after confirming you as an employee of the company. Contact your company administrator."
+              }
+            },
+            "summarize": {
+              "default": {
+                "message": "Unfortunately, you cannot participate in the request. Acceptance of Bids ended {{acceptanceEndDate}}."
+              },
+              "no_auth": {
+                "message": "Acceptance of bids ended {{acceptanceEndDate}}.\nRegister or login to see all information."
+              },
+              "no_company": {
+                "message": "Acceptance of bids ended {{acceptanceEndDate}}.\nRegister your company to see all information."
+              },
+              "no_rights": {
+                "message": "Acceptance of bids ended {{acceptanceEndDate}}."
+              },
+              "waiting": {
+                "message": "Acceptance of bids ended {{acceptanceEndDate}}."
+              }
+            }
+          },
+          "links": {
+            "contactOrganizer": {
+              "text": "Have any questions?",
+              "title": "Contact the requester."
+            }
+          },
+          "owner": {
+            "canceled": {
+              "default": {
+                "message": "Request cancelled."
+              }
+            },
+            "draft": {
+              "default": {
+                "message": "Specify the subject and set up request parameters.\nParticipants will be able to submit bids after request submission."
+              }
+            },
+            "finished": {
+              "default": {
+                "message": "Request completed. The results are available on the Summary tab."
+              }
+            },
+            "proposal": {
+              "default": {
+                "message": "Bids are accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left).\nManage participants on the Participants tab.\nCompare bids on the Comparison tab."
+              },
+              "editable": {
+                "message": "Publish the changes of the request. Participants will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Participants\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, choose a winner)"
+              }
+            },
+            "summarize": {
+              "default": {
+                "message": "Review the participants' bids and complete request on the Summary tab."
+              },
+              "editable": {
+                "message": "Publish the changes of the request. Participants will be able to update their bids. While editing the draft, the members of the owner team do not have access to the \"Participants\", \"Comparison\" and \"Conclusion\" tabs and actions regarding the published request (start new round, choose a winner)"
+              }
+            }
+          },
+          "participant": {
+            "canceled": {
+              "nda_pending": {
+                "message": "Request cancelled"
+              },
+              "nda_submitted": {
+                "message": "Request cancelled"
+              },
+              "active": {
+                "no_proposal": {
+                  "message": "Request cancelled {{cancelDate}}."
+                },
+                "with_proposal": {
+                  "message": "Request cancelled {{cancelDate}}."
+                }
+              },
+              "blocked": {
+                "message": "Request cancelled {{cancelDate}}."
+              },
+              "invited": {
+                "default": {
+                  "message": "Request cancelled {{cancelDate}}."
+                },
+                "no_auth": {
+                  "message": "Request cancelled {{cancelDate}}."
+                },
+                "no_company": {
+                  "message": "Request cancelled {{cancelDate}}."
+                },
+                "no_rights": {
+                  "message": "Request cancelled {{cancelDate}}."
+                },
+                "waiting": {
+                  "message": "Request cancelled {{cancelDate}}."
+                }
+              },
+              "refused": {
+                "message": "Request cancelled {{cancelDate}}."
+              }
+            },
+            "finished": {
+              "nda_pending": {
+                "message": "Request completed"
+              },
+              "nda_submitted": {
+                "message": "Request completed"
+              },
+              "active": {
+                "no_proposal": {
+                  "message": "Request completed {{finishDate}}. You did not submit a bid on time."
+                },
+                "with_proposal": {
+                  "message": "Request completed {{finishDate}}. Thank you for participating!"
+                }
+              },
+              "blocked": {
+                "message": "Request completed {{finishDate}}. The requester excluded you from the request."
+              },
+              "invited": {
+                "default": {
+                  "message": "Request completed {{finishDate}}."
+                },
+                "no_auth": {
+                  "message": "Request completed {{finishDate}}."
+                },
+                "no_company": {
+                  "message": "Request completed {{finishDate}}."
+                },
+                "no_rights": {
+                  "message": "Request completed {{finishDate}}."
+                },
+                "waiting": {
+                  "message": "Request completed {{finishDate}}."
+                }
+              },
+              "looser": {
+                "message": "Request completed {{finishDate}}. This time you have not received the order. Thank you for participating!"
+              },
+              "refused": {
+                "message": "Request completed {{finishDate}}. You have declined to submit a bid in the request."
+              },
+              "winner": {
+                "message": "Request completed {{finishDate}}. You have received an order! Details on the Summary tab."
+              }
+            },
+            "proposal": {
+              "nda_pending": {
+                "message": "Submit your documents for prequalification stage. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+              },
+              "nda_submitted": {
+                "message": "Provided prequalification stage documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+              },
+              "active": {
+                "no_proposal": {
+                  "message": "The bid has been submitted. More details on the bid tab."
+                },
+                "with_proposal": {
+                  "message": "The bid has been submitted for consideration by the requester. For more details go to the Bid tab."
+                }
+              },
+              "blocked": {
+                "message": "The requester excluded you from the request."
+              },
+              "invited": {
+                "default": {
+                  "message": "Participate and submit bid until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                },
+                "no_auth": {
+                  "message": "Register or login and participate in the request. Offers accepted until {{acceptanceEndDate}}."
+                },
+                "no_company": {
+                  "message": "Register your company to participate in the request. Company already registered? Contact your company administrator."
+                },
+                "no_rights": {
+                  "message": "You do not have the right to participate in purchase. Contact your company administrator."
+                },
+                "waiting": {
+                  "message": "You will be able to participate in the request after confirming you as an employee of the company. Contact your company administrator."
+                }
+              },
+              "refused": {
+                "message": "You have declined to submit a bid in the request. You can submit a bid again until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+              }
+            },
+            "summarize": {
+              "nda_pending": {
+                "message": "Acceptance of bids ended. You have not passed the prequalification stage and have not submitted an offer."
+              },
+              "nda_submitted": {
+                "message": "Acceptance of bids ended. You have not passed the prequalification stage  and have not submitted an offer."
+              },
+              "active": {
+                "no_proposal": {
+                  "message": "Summing up the results from {{summarizeDate}}. You did not submit a bid on time."
+                },
+                "with_proposal": {
+                  "message": "Summing up the results from {{summarizeDate}}. Your bid is being considered by the requester."
+                }
+              },
+              "blocked": {
+                "message": "The requester excluded you from the request."
+              },
+              "invited": {
+                "default": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}."
+                },
+                "no_auth": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}."
+                },
+                "no_company": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}."
+                },
+                "no_rights": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}."
+                },
+                "waiting": {
+                  "message": "Acceptance of bids ended on {{acceptanceEndDate}}."
+                }
+              },
+              "refused": {
+                "message": "You have declined to submit a bid in the request."
+              }
+            }
+          }
+        },
+        "company": {
+          "profile": "Profile",
+          "ask": "Ask a question to the requester",
+          "chat_loading": "Creating chat",
+          "ask_dialog": {
+            "title": "Try a little later",
+            "text": "We are preparing a chat room, usually it takes no more than 10 seconds.",
+            "ok": "Close"
+          }
+        },
+        "general": {
+          "acceptanceEndDate": {
+            "title": "End of the bid round"
+          },
+          "delivery": {
+            "descr": "Place of delivery of goods or services",
+            "dialog": {
+              "header": "Place of delivery"
+            },
+            "title": "Place of delivery"
+          },
+          "description": {
+            "title": "Request description",
+            "placeholder": "Specify the subject of your request ..."
+          },
+          "contact": {
+            "title": "Contact person",
+            "change": "Change",
+            "append": "Specify the person to communicate with vendors",
+            "tooltip": "The contact will be available to suppliers after consent to participate in the request",
+            "empty": {
+              "owner": "No contact person was added.",
+              "other": "Employee contacts were not provided.."
+            }
+          },
+          "emoji": {
+            "tooltip": "Highlight your request. Only the team sees the icon"
+          },
+          "files": {
+            "descr": "Add request description, specifications, draft contract.",
+            "title": "Documents",
+            "tooltip": "Add request description, specifications, draft contract. The maximum file size is {{value}} MB."
+          },
+          "guest": {
+            "stub": "Information is available only to company employees.\nLog in or register your company for free on the site.",
+            "stub_contact": "Information is available after the start of work on the proposal."
+          },
+          "name": {
+            "title": "Request name"
+          },
+          "positions": {
+            "descr": "Specify request items for convenient bid comparison",
+            "title": "Goods and services"
+          },
+          "questionnaire": {
+            "descr": "Create a participant questionnaire, set non-price terms of the request and bid comparison criteria",
+            "title": "Participant questionnaire"
+          },
+          "nda": {
+            "owner": {
+              "title": "Include prequalification stage ",
+              "helper": "Access to the full documentation upon the submission of this section.",
+              "description": {
+                "title": "Prequalification stage description",
+                "placeholder": "Describe what is required for Prequalification stage"
+              },
+              "files": {
+                "title": "Prequalification satge documents",
+                "description": "Upload files (file up to 25 Mb)"
+              },
+              "separator": "THE FOLLOWING DETAILS, EXCEPT FOR DELIVERY PLACE, BID OFFER AND TAG DEADLINE WILL BE HIDDEN FROM APPLICANTS UNTIL PASSING PRE-QUALIFICATION STAGE"
+            },
+            "other": {
+              "stub": "FULL REQUEST DATA IS AVAILABLE AFTER CONFIRMATION OF PARTICIPATION BY THE CUSTOMER",
+              "description": {
+                "title": "Prequalification stage description"
+              },
+              "files": {
+                "title": "Prequalification stage documents"
+              }
+            }
+          }
+        },
+        "internal": {
+          "documents": {
+            "title": "Documents",
+            "notice": "Max file size – 25Mb.",
+            "upload": "Add document"
+          },
+          "fields": {
+            "budget": "Budget in request currency",
+            "comment": "Comment",
+            "identifier": "External ID"
+          },
+          "title": "More",
+          "who_pays": "Commission for the participant's victory pays",
+          "fee_warning": "After the request is published, the value cannot be changed",
+          "language": {
+            "title": "Notification language",
+            "comment": "The selected language will be used for chatbot messages and email notifications for non-registered participants"
+          }
+        },
+        "major": {
+          "tooltip": "Change of value entails rejection of submitted bids"
+        },
+        "parameters": {
+          "bidding": {
+            "deviation_type": {
+              "label": "Bid quantity"
+            },
+            "alternative_proposals": {
+              "label": "Number of alternative bids",
+              "tooltip": "Indicate how many alternative bids the participant can submit",
+              "error": "Please enter a number between 0 and 10",
+              "count": "Possible number of bids in addition to the main one: {{ value }}",
+              "none": "Submission of alternative bids is prohibited."
+            },
+            "price_null": "Not specified",
+            "expected_price": {
+              "label": "Expected price",
+              "placeholder": "Not specified",
+              "tooltip": "Expected bid price level of the participant"
+            },
+            "participants_visibility": {
+              "label": "What participants can see"
+            },
+            "reduction_price": {
+              "errors": {
+                "best_price_unavailable": "Value \"best offer\" is available if:\n • Bid quantity = Full satisfaction\n • What participants can view = Competitors' offers\n • Price change rule = Reduction or Auction",
+                "step_over_start_price": "The change step exceeds the maximum price",
+                "step_range_absolute": "Step of change range (absolute): 0,1-100000",
+                "step_range_percent": "Step of change range (percent): 0,1-10"
+              },
+              "label": "Minimum price increment",
+              "of": "from",
+              "reference": {
+                "0": "own price",
+                "1": "best price"
+              }
+            },
+            "start_price": {
+              "placeholder": "Not specified",
+              "reduction": {
+                "label": "Maximum offer price",
+                "tooltip": "Highest Supplier Bid Price"
+              },
+              "auction": {
+                "label": "Minimum offer price",
+                "tooltip": "Supplier's lowest offer price"
+              }
+            },
+            "title": "Rules for participants",
+            "type_of_change": {
+              "label": "Price change"
+            }
+          },
+          "general": {
+            "acceptance_end_date": {
+              "label": "Bids due date"
+            },
+            "currency": {
+              "label": "Bidding currency",
+              "permissions_multicurrency": "Allow suppliers to quote prices in other currencies",
+              "description": "The list of currencies can only be changed at the draft stage",
+              "change_primary_currency": "The base currency has been updated. Change the rates of additional currencies",
+              "button": "Add currency",
+              "rate": "at the rate",
+              "delete_currency": "Remove currency",
+              "show_all": "Show all",
+              "change_rate_currency": "Change exchange rates",
+              "hide": "Hide",
+              "allow_dialog": {
+                "title": "Remove permission",
+                "text": "This will remove the added currencies",
+                "no": "Cancel",
+                "yes": "Remove permission"
+              },
+              "settings_additional": {
+                "title": "Currency rate setting",
+                "done": "Done"
+              }
+            },
+            "open_type": {
+              "label": "Type of request",
+              "tooltips": {
+                "0": "Participants are not limited",
+                "1": "Request is available for viewing and participation only to invited suppliers",
+                "editable": "Opened - the participants are not limited. Closed - available for viewing and participation only to invited suppliers"
+              }
+            },
+            "tariff": {
+              "label": "Tariff",
+              "description": "The tariff can only be changed at the draft stage",
+              "tooltip": "Specify the tariff for the request. This will determine how much the suppliers' commission will be",
+              "change": "Change",
+              "free": {
+                "title": "Private requests for your company are free of charge",
+                "description": "No fee will be charged to the winner of the request"
+              },
+              "none": {
+                "title": "Tariff is not selected",
+                "description": ""
+              },
+              "expired": {
+                "title": "",
+                "description": "The current tariff is no active valid on the site"
+              }
+            },
+            "owner_visibility": {
+              "label": "Requester at the bid acceptance window"
+            },
+            "prolongation": {
+              "label": "Auto extension of bids submission",
+              "minutes": "min.",
+              "time-left": "end of bids submission",
+              "tooltip": "This is applied when participants submit a bid before the close of the bid extension window. This window is open for up to 99 minutes."
+            },
+            "title": "Bidding terms",
+            "vat": {
+              "label": "Criteria for winner selection",
+              "options": {
+                "false": "Price excl. VAT",
+                "none": "Not specified",
+                "true": "Price incl. VAT"
+              }
+            },
+            "approximate_deadline_for_summing_up": {
+              "label": "Final closing of bids submission",
+              "description": "days after the last accepted bid",
+              "tooltip": "Bidders will await a decision by the tender committee within the specified time period",
+              "value_null": "Not Specified"
+            },
+            "verified_only": {
+              "label": "Bid submission",
+              "text": "Verified participants only",
+              "popover": {
+                "title": "Request for verified vendors",
+                "text": "Suppliers with verified legal registration may submit proposals",
+                "helper": "The site specialists check the suppliers and mark them with a special icon"
+              }
+            }
+          },
+          "new_parameter": "New parameter"
+        },
+        "promo_participants": {
+          "count": "{{ count }} suppliers",
+          "invite": "Invite",
+          "recommend": "ProcureSaas recommends",
+          "success": "Suppliers added to participants list"
+        },
+        "proposal_content": {
+          "documents": {
+            "sub_title": "Commercial offer and other documents.",
+            "title": "Documents"
+          },
+          "open": "open",
+          "positions_enabled": {
+            "sub_title": "Price, quantity and description of goods and services. The resulting specifications are conveniently compared in ProcureSaas.",
+            "title": "Goods and services"
+          },
+          "questionnaire_enabled": {
+            "sub_title": "Questionnaire with questions for the supplier. The resulting profiles are conveniently compared in ProcureSaas.",
+            "title": "Participant questionnaire"
+          },
+          "set_up": "create",
+          "title": "Supplier's Bid Content"
+        },
+        "settings": {
+          "sub_title": "We have customized the request in such a way that you can choose the most favorable bid.",
+          "title": "Request settings"
+        },
+        "stub": "Information is available only to company employees.\nLog in or register your company for free on the site.",
+        "tags": {
+          "dialog": {
+            "empty_placeholder": "Add tags",
+            "header": "Request hashtags",
+            "info_text": "Describe your need with tags. Press enter to add tag"
+          },
+          "empty_placeholder": "Describe the subject of your request with keywords",
+          "label": "Tags",
+          "label_tooltip": "Describe your need with tags. By tags, suppliers will be able to find an open request or receive an invitation to it by subscription"
+        },
+        "team": {
+          "add": "Add",
+          "change_role_dialog": {
+            "no": "Cancel",
+            "text": "Viewer and Auditor have limited rights. Only the other owner of the request can set owner status.",
+            "title": "Role changing",
+            "yes": "Accept"
+          },
+          "delete_dialog": {
+            "success": "Employee excluded from the team"
+          },
+          "errors": {
+            "last_owner": "It should be at least one owner"
+          },
+          "sub_title": "Add team members and assign their roles",
+          "title": "Team",
+          "missing_owner": {
+            "title": "Team has no owner",
+            "text": "Contact the Department Manager to assign a request to the owner"
+          },
+          "tooltip": {
+            "remove": "Remove"
+          }
+        },
+        "commission": {
+          "title": "Service commission"
+        }
+      },
+      "sellers": {
+        "empty": "Participants did not submit bids",
+        "header": {
+          "count": "᛫ {{value}}",
+          "text": "Participants who have submitted bids"
+        },
+        "unauthorized": {
+          "register": "Register or login",
+          "text": "Register or login to see all the information about the request"
+        }
+      },
+      "seo": {
+        "description": "Request of {{company}} until {{date}}."
+      },
+      "dillegence": {
+        "success": "Request has been sent. Reports will be updated shortly",
+        "tooltip": {
+          "unreceived": "The report was not received. The service was unavailable. Refresh the reports in the \"Conclusion\" tab",
+          "unavailable": "Report is available only for verified suppliers",
+          "low": "Low risk",
+          "average": "Average risk",
+          "high": "High risk",
+          "critical": "Critical risk"
+        },
+        "text": {
+          "unavailable": "Not available",
+          "unreceived": "Not received"
+        },
+        "row_text": {
+          "unavailable": "Report is not available",
+          "unreceived": "Report is not received"
+        },
+        "download": "Download report",
+        "update": "Update report",
+        "link": "More about the service >",
+        "link_menu": "About the service",
+        "from": "from",
+        "popover": {
+          "title": {
+            "kontur": "Data provided by the Kontur.Focus service"
+          },
+          "text": {
+            "kontur": "The Kontur.Focus assesses the risks of a supplier based on various parameters. You can find more details on the service website"
+          },
+          "action": {
+            "kontur": "More about the service"
+          }
+        }
+      },
+      "snacks": {
+        "request_published": "Request is published",
+        "stage_published": "Stage is published",
+        "changes_published": "Changes are published",
+        "acceptanceEndDateChanged": "End of the bidding round is changed",
+        "comparison_updated": "Comparison tab was updated",
+        "procedure_deleted": "Request is deleted",
+        "updated": "Request updated",
+        "version_created": "Draft is created",
+        "there_draft": "Finish editing and update the proposal",
+        "proposal_submitted": "Participant has submitted a proposal, given in Update Comparison",
+        "proposal_update": "Participant updated the offer, update comparison data",
+        "proposal_submitted_current_company": "Proposal submitted, update comparison data",
+        "proposal_update_current_company": "Offer updated, Comparison data updated",
+        "participant_refused": "Participant withdrew proposal, Comparison updated",
+        "participant_refused_current_company": "Participant participation has been suspended",
+        "recall_proposal_current_company": "Offer retracted"
+      },
+      "tabs": {
+        "comparison": "COMPARISON",
+        "conclusion": "FINAL SUMMARY",
+        "participants": "PARTICIPANTS",
+        "positions": "POSITIONS",
+        "proposal": "BID",
+        "questionnaire": "QUESTIONNAIRE",
+        "request": "REQUEST"
+      },
+      "notice": {
+        "title": "Purchase notice",
+        "stage": "STAGE {{ index }}",
+        "text": {
+          "0": "Draft ({{ creationDate }})",
+          "1": "Active ({{ publishDate }})",
+          "2": "Active ({{ publishDate }})",
+          "3": "Active ({{ publishDate }})",
+          "4": "Inactive ({{ publishDate }})"
+        }
+      },
+      "owner": {
+        "title": "Owner",
+        "profile": "About organizer",
+        "ask": "Ask a question to owner",
+        "preference": "The organizer gives preference to trusted suppliers."
+      }
+    }
+  }
+}

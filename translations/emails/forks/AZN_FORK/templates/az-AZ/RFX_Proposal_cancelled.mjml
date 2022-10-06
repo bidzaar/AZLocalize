@@ -1,0 +1,34 @@
+<mjml>
+  <!-- 
+Тема: Участник отозвал предложение: "@ProcedureContext.ProcedureName"
+Получатель: члены команды запроса компании-организатора на имейлы, указанные при логине
+
+Участник отозвал предложение
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>İştirakçı təklifi geri qaytardı</h1>
+          <p class="mb0"><b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>İştirakçı:</b> @CompanyContext.CompanyName</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <p class="mt0">İştirakçıya suallar- sorğunun çatında.</p>          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

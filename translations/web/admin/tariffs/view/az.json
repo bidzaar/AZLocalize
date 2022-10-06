@@ -1,0 +1,82 @@
+{
+  "trf.view": {
+    "details": {
+      "actions": {
+        "activate": "Hərəkətə keçir",
+        "deactivate": "Hərəkəti dayandır",
+        "default": "Default olaraq tarif kimi ayarla",
+        "delete": "Sil"
+      },
+      "default": {
+        "title": "Standart tender növü",
+        "text": "Default olaraq tender növü. Yeni sorğu təyin olunacaq"
+      },
+      "comment": {}
+    },
+    "tariff": {
+      "name": {
+        "placeholder": "Tarifin adı"
+      },
+      "code": {
+        "placeholder": "Kod (ID)"
+      },
+      "descr": {
+        "label": "Sifarişçi üçün təsvir",
+        "placeholder": "Sifarişçiyə bu tipin hansı şərtlərlə istifadə edildiyini anlamağa imkan verən tarifin qısa təsvirini verin..."
+      }
+    },
+    "conditions": {
+      "title": "Tariflər cədvəli ",
+      "create": "Tariflər cədvəlini əlavə edin",
+      "empty": "Tariflər cədvəli əlavə olunmayıb",
+      "card": {
+        "version": "Cari versiya",
+        "to": " "
+      },
+      "editor": {
+        "header": "Tariflər cədvəli",
+        "cancel": "Ləğv et",
+        "submit": "Əlavə et",
+        "append": "Tarifi ayarlayın",
+        "to": " ",
+        "sum": "Məbləğ"
+      }
+    },
+    "dialogs": {
+      "deactivate": {
+        "header": "Tarifi ləğv edin",
+        "text": "Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
+        "cancel": "Ləğv et",
+        "submit": "Hərəkəti dayandır"
+      },
+      "delete": {
+        "header": "Qaralamanı sil",
+        "cancel": "Ləğv et",
+        "submit": "Sil"
+      },
+      "default": {
+        "header": "Diqqət!",
+        "text": "Tarif yeni sorğulara default olaraq tətbiq olunacaq.\nƏvvəlki default tarif tətbiq olunmayacaq",
+        "cancel": "Ləğv et",
+        "submit": "Default olaraq tarif ayarla"
+      },
+      "activate": {
+        "header": "Hərəkətə keşir",
+        "text": "Tarif dərc olunacaq və istifadəçilər sorğuların ayarlarında istifadə edə biləcəklər",
+        "cancel": "Ləğv et",
+        "submit": "Hərəkətə kecir",
+        "validation": {
+          "Tariff.Description.IsEmpty": "Təsvir göstərilməyib",
+          "Tariff.Name.IsEmpty": "Adı göstərilməyib",
+          "Tariff.Code.IsEmpty": "Kod göstərilməyib",
+          "Tariff.Conditions.HasNoActive": "Tariflər cədvəli ayarlanmayıb"
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "Tariffs.HasNoCorrectStatus": "Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin."
+    }
+  }
+}

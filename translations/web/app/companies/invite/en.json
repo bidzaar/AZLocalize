@@ -1,0 +1,35 @@
+{
+  "cmp": {
+    "inv": {
+      "header": "Invitation to company",
+      "status": {
+        "waiting": {
+          "title": "Request to join has been sent",
+          "text": "You will be able to work on behalf of this company when the administrator of the company has confirmed your request."
+        },
+        "active": {
+          "title": "You are an employee of the company and can work on its behalf."
+        },
+        "refused": {
+          "title": "Your request has been rejected",
+          "text": "Do you have any questions? Contact your company administrator."
+        },
+        "deleted": {
+          "title": "The company left the site on {{ date }}",
+          "text": "Do you have any questions? Contact the site's technical support team."
+        },
+        "unauth": {
+          "title": "Login or register to accept the invitation",
+          "text": "You will be able to submit a request to join the company after logging in."
+        }
+      },
+      "actions": {
+        "profile": "It isn't my company",
+        "next": "Next",
+        "accept": "Accept invitation",
+        "login": "Login",
+        "register": "Register"
+      }
+    }
+  }
+}

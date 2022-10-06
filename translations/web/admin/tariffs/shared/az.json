@@ -1,0 +1,17 @@
+{
+  "trf.shared": {
+    "default": "Standart tarif",
+    "code": {
+      "value": "Kod: {{value}}",
+      "empty": "Kod göstərilməyib"
+    },
+    "name": {
+      "empty": "Adı göstərilməyib"
+    },
+    "status": {
+      "0": "Qaralama",
+      "1": "Aktiv",
+      "2": "Aktiveyil"
+    }
+  }
+}

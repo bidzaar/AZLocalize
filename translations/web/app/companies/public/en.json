@@ -1,0 +1,152 @@
+{
+  "cmp": {
+    "public": {
+      "page": "Company public page",
+      "title": "Public page",
+      "actions": {
+        "create": "Create a public company page",
+        "link": "Get link",
+        "preview": "Preview"
+      },
+      "empty": {
+        "message_primary": "Create a public company page",
+        "message_secondary": "Display your public tenders and vendor pools to your partners, set participation terms such as information regarding goods or services you purchase, contacts of the tender committee..."
+      },
+      "defaults": {
+        "title": "Section for vendors",
+        "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with experience in the relevant field, experience in implementing similar projects, and also meet other requirements specified in the tender documents.",
+        "pools": {
+          "placeholder": "The company hasn't published any pools on ProcureSaas yet.",
+          "title": "Vendor pools"
+        },
+        "tenders": {
+          "placeholder": "The company hasn't published any tenders on ProcureSaas yet.",
+          "title": "Tenders"
+        },
+        "registries": {
+          "placeholder": "The company hasn't published any registries on ProcureSaas yet.",
+          "title": "Registries"
+        }
+      },
+      "profile": {
+        "editor": {
+          "title": {
+            "header": "Page title section",
+            "title": "Page title"
+          },
+          "description": {
+            "header": "Block information for potential suppliers",
+            "title": "Information for suppliers"
+          },
+          "actions": {
+            "cancel": "Cancel",
+            "save": "Save"
+          },
+          "pools": {
+            "header": "Vendor pools section",
+            "placeholder": "Message if the list is empty",
+            "show": "Show this section on the public page",
+            "show_if_empty": "Show sections if the list is empty",
+            "title": "Vendor pools"
+          },
+          "registries": {
+            "header": "Registries section",
+            "placeholder": "Message if the list is empty",
+            "show": "Show this section on the public page",
+            "show_if_empty": "Show sections if the list is empty",
+            "title": "Registries"
+          },
+          "tenders": {
+            "header": "Tender section",
+            "placeholder": "Message if the list is empty",
+            "show": "Show this section on the public page",
+            "show_if_empty": "Show sections if the list is empty",
+            "title": "List title"
+          }
+        },
+        "viewer": {
+          "actions": {
+            "change": "Change",
+            "add": "Add",
+            "configure": "Configure"
+          },
+          "title": {
+            "header": "Page title",
+            "empty": {
+              "message_primary": "Specify a page title",
+              "message_secondary": "For example, \"Purchasing section for company suppliers\".\nThe title is important for users and search engines."
+            }
+          },
+          "description": {
+            "header": "Information for potential vendors",
+            "empty": {
+              "message_primary": "Information for suppliers",
+              "message_secondary": "Specify the terms and conditions for the participation in tenders, the goods and services\nthat you buy, the contacts of the tender commission..."
+            }
+          },
+          "files": {
+            "empty": {
+              "message_primary": "Upload documents from vendors",
+              "message_secondary": "For example, Participation terms and Bid submission,\nTender Events..."
+            },
+            "header": "Documents for vendors"
+          },
+          "links": {
+            "header": "Link to public page",
+            "iframe": {
+              "action": {
+                "copy": "Select code and press Ctrl + C to copy to clipboard."
+              },
+              "options": {
+                "page": "Public page",
+                "pools": "Vendor pools",
+                "tenders": "Tenders",
+                "registries": "Registries"
+              },
+              "title": "Code for iframe"
+            },
+            "page": {
+              "action": {
+                "copy": "Select link and press Ctrl + C to copy to clipboard."
+              },
+              "title": "Link to page"
+            }
+          },
+          "pools": {
+            "header": "Vendor pools",
+            "notice": {
+              "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
+              "title": "Vendor pools are published on the ProcureSaas."
+            },
+            "empty": {
+              "message_primary": "The section is not displayed on the public page",
+              "message_secondary": "Display control - in the section settings"
+            }
+          },
+          "registries": {
+            "header": "Registries",
+            "notice": {
+              "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
+              "title": "Registries are published on the ProcureSaas."
+            },
+            "empty": {
+              "message_primary": "The section is not displayed on the public page",
+              "message_secondary": "Display control - in the section settings"
+            }
+          },
+          "tenders": {
+            "header": "Tenders",
+            "notice": {
+              "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
+              "title": "Tenders are published on the ProcureSaas."
+            },
+            "empty": {
+              "message_primary": "The section is not displayed on the public page",
+              "message_secondary": "Display control - in the section settings"
+            }
+          }
+        }
+      }
+    }
+  }
+}

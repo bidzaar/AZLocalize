@@ -1,0 +1,41 @@
+<mjml>
+  <!-- 
+Тема: Новые запросы на 12 ноября
+Получатель: 
+
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@ConfigurationContext.Date</h1> tarixinə<b>@CompanyContext.CompanyName</b> üçün yeni sorğular
+        </mj-text>
+      </mj-column>
+    </mj-section>
+<mj-section mj-class="section-hint">
+      <mj-column>
+        <mj-text>
+          <p class="small">Biznes profilinizdəki teqlər sorğu teqlərinə uyğun gəldiyi üçün bu sorğuları tövsiyə edirik.</p>        
+            <div class="small">Müraciətlər uyğun deyil? <a href="@CompanyContext.Url">Şirkətin teqlərini dəqiqləşdirin </a> və ya 24 saatlıq sorğu daycestə <a  href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">abunəlikdən çıxın.</a></div></mj-text>
+      </mj-column>
+    </mj-section>
+    
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>          
+        @ProcedureDigestContext.Content
+          <br /><br />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->    
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

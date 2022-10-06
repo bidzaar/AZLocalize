@@ -1,0 +1,31 @@
+<mjml>
+  <!-- 
+Тема: 🔥 Запрос на обновление данных в реестре
+Получатель:  УК, РОЗ, сотрудники с правами Прохождение аккредитации 
+
+Организатор запросил у Участника обновление данных в реестре
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Məlumatların yenilənməsi üçün müraciət</h1>         
+          <p>Reyestr sahibi müraciət məlumatlarının yenilənməsi üçün sorğu etdi <b>@CompanyContext.CompanyName</b><b>"@RegistryContext.Name"</b>reyestrində</p>
+
+          <p><b>Reyestr sahibi:</b> @RegistryContext.OwnerCompanyName</p>          
+          <p>Məlumatları yeniləmək üçün ərizəni doldurun və reyestrə müraciət edin.</p>          
+        </mj-text>
+         <mj-button href="@RegistryContext.Url">Məlumatları yeniləyin</mj-button>
+        
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,49 @@
+{
+  "req.prt": {
+    "list": {
+      "actions": {
+        "download_report": "\"Sorğu iştirakçıları\" hesabatını yükləyin",
+        "invite": "Dəvət et",
+        "invite_similar": "Oxşar sorğulardan dəvət edin",
+        "invite_site": "Platformadan dəvət edin",
+        "open_chat": "Təşkilatçı ilə çat",
+        "open_events": "Jurnal",
+        "open_request": "Sorğunu aç"
+      },
+      "card": {
+        "invite": {
+          "no_profile": "Şirkət profili yaradılmayıb"
+        },
+        "tags": {
+          "tooltip": "Uyğun teqlərin sayı"
+        },
+        "wins": {
+          "tooltip": "Qalibiyyətlər/İştiraklar"
+        }
+      },
+      "empty": {
+        "text": "İştirakçılar tapılmadı"
+      },
+      "filters": {
+        "address": {
+          "title": "Məkan"
+        },
+        "invited_by": {
+          "title": "Kim dəvət edib"
+        },
+        "status": {
+          "title": "Status"
+        }
+      },
+      "header": {
+        "search": "Axtarış aşağıdakı sahələr üzrə aparılır: Şirkətin ID, Şirkətin adı",
+        "title": "İştirakçılar"
+      },
+      "sorting": {
+        "overlapTagsCount": "Teqlərin uyğunluğu",
+        "status": "Status",
+        "statusDate": "Status dəyişikliyi"
+      }
+    }
+  }
+}

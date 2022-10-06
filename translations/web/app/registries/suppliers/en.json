@@ -1,0 +1,52 @@
+{
+  "rgs": {
+    "sup": {
+      "list": {
+        "header": {
+          "title": "Companies in registry",
+          "selected": "Selected:"
+        },
+        "actions": {
+          "invite": "Add companies",
+          "report": "Download companies list"
+        },
+        "empty": {
+          "title": "Registry is empty",
+          "text": "Invite companies to registry"
+        },
+        "search": {
+          "tooltip": "Search is carried out by fields:\n• Company name"
+        },
+        "sorting": {
+          "company_name": {
+            "title": "Company name"
+          },
+          "score": {
+            "title": "Scoring"
+          },
+          "last_changes": {
+            "title": "Last changes"
+          }
+        },
+        "filters": {
+          "scoring": {
+            "title": "Score"
+          },
+          "participant_status": {
+            "title": "Status"
+          },
+          "expired_date": {
+            "title": "Expiry date of accreditation",
+            "options": {
+              "true": "Only expiring"
+            }
+          },
+          "empty": "No results were found for your request"
+        },
+        "row": {
+          "contact_placeholder": "Contact information not provided"
+        }
+      }
+    }
+  }
+}

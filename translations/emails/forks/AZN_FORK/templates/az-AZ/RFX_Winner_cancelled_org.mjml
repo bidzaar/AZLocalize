@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: Пересмотр итогов запроса: "Закупка продуктов питания премиум качества"
+Получатель: члены команды запроса на имейлы, указанные при логине
+
+Организатор вернул завершённый запрос с выбором победителя на повторное подведение итогов
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Sorğunun nəticələrinə yenidən baxılma </h1>
+          <p>Öncə  <b>@ProcedureContext.ProcedureOwnerCompanyName</b> sorğu qalib seçimi ilə bitmişdir.</p>
+          <p class="mb0">Sorğunun sahibi sorğunu yenidən yekunlaşdırmaq üçün qaytarıb. Səbəb: @ReasonPrecontext.Reason</p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Sorğunu aç</mj-button>
+        
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

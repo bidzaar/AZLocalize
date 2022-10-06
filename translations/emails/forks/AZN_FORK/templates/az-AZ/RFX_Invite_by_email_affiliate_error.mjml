@@ -1,0 +1,39 @@
+<mjml>
+  <!-- 
+Тема: Сбой почтового сервера вашей компании
+Получатель: все УК компании
+
+Событие: Почтовый сервер компании не смог отправить приглашения участникам в запрос
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <mj-section background-color="#f9f9f9">
+      <mj-column>
+        <mj-text> </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 style="color: #CB0C00"><b>Şirkətinizin poçt serveri sıradan çıxıb</b></h1>
+          <p class="mb0"> <b>@CompanyContext.CompanyName</b> poçt serveri saas.procure.az saytında dərc olunan sorğuda iştirakçılara dəvət göndərə bilməyib</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-secondary">
+      <mj-column>
+        <mj-text>
+          <p>Narahat olmayın: biz bu dəvətləri ProcureSaaS poçt serveri vasitəsilə göndərdik.</p>
+          <p>Ünvan sahibləri poçtunuz vasitəsilə məktublar alması üçün şirkət profilinizdə dəvətnamələrin göndərilməsi parametrlərini yoxlayın. <a href="@ConfigurationContext.BaseUrl/smtp/settings" >Dəvətnamələrin göndərilməsi parametrləri</a> şirkətinizin profilindədir.</p>
+          <p>Daha öncə şirkətinizin administratoru şirkətinizin poçt serveri vasitəsilə sorğulara dəvət göndərilməsini qurmuşdu.</p>
+        </mj-text>
+        <!-- <mj-text>@PixelContext.Html</mj-text> -->
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+  </mj-body>
+</mjml>

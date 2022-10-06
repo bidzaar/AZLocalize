@@ -1,0 +1,71 @@
+{
+  "usr": {
+    "button_management": {
+      "delete": "İşçini bloklamaq",
+      "unblock": "İşçini blokdan çıxartmaq"
+    },
+    "user_preview": {
+      "add": "İstifadəçi hüquqlarını təyin etmək",
+      "approve": "Qəbul etmək",
+      "reject": "İmtina etmək\n",
+      "reject_dialog": {
+        "no": "Ləğv et",
+        "text": "Müraciət imtina edilsin?",
+        "yes": "İmtina etmək\n"
+      },
+      "success": "İşçinin hüquqları dəyişdirilib.",
+      "title": "İstifadəçi hüquqları"
+    },
+    "users": {
+      "change_role_dialog": {
+        "apply": "Yadda saxlamaq",
+        "cancel": "Ləğv et",
+        "title": "Administrator hüquqları"
+      },
+      "dialog": {
+        "block": {
+          "no": "Ləğv et",
+          "text": "",
+          "title": "İşçi bloklansın?",
+          "yes": "Bloklamaq"
+        }
+      },
+      "list": {
+        "empty": "İstifadəçilər tapılmadı",
+        "filters": {
+          "rights": "Hüquqlar",
+          "status": "Status",
+          "statusChangedOn": "Statusun dəyişmə tarixi"
+        },
+        "search": {
+          "name": "Administrator adı"
+        },
+        "sorting": {
+          "name_asc": "Administrator adı A→Z",
+          "name_desc": "Administrator adı Z→A",
+          "status": "Statusun dəyişmə tarixi"
+        },
+        "title": "Administrator əmri"
+      },
+      "rights": {
+        "0": "Hüquqlar təyin edilməyib",
+        "1": "Şirkət Hüquqlarının İdarə Edilməsi",
+        "2": "Şirkətlərə nişanların verilməsi",
+        "4": "Nişanların yaradılması və redaktə edilməsi",
+        "8": "ProcureSaas  komandası ilə idarəetmə",
+        "16": "İstifadəçilərə e-poçt göndərmək hüququ",
+        "32": "Şirkət idarəçiliyi",
+        "64": "Sorğu Siyahısı",
+        "256": "Teq İdarəçiliyi\n",
+        "512": "Sorğu tarifləri qurulması"
+      },
+      "status": {
+        "0": "Admin deyil",
+        "1": "Təsdiq gözlənilir",
+        "2": "Dəvət olunub",
+        "3": "Aktiv",
+        "4": "Bloklanıb"
+      }
+    }
+  }
+}

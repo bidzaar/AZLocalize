@@ -1,0 +1,105 @@
+{
+  "cgr": {
+    "list": {
+      "actions": {
+        "create": "Qrup yaradın"
+      },
+      "dialogs": {
+        "create": {
+          "actions": {
+            "cancel": "Ləğv et",
+            "submit": "Yaradın"
+          },
+          "errors": {
+            "default": {
+              "notice": "Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın",
+              "reason": "Qrup yaradılmamışdır."
+            },
+            "duplicate": {
+              "notice": "Başqa bir ad daxil edin",
+              "reason": "Bu adda qrup artıq mövcuddur"
+            }
+          },
+          "form": {
+            "label": "Qrupun adı"
+          },
+          "header": "Qrup yaradın",
+          "snack": "Qrup yaradılıb. İndi işçilər əlavə edə və komanda lideri təyin edə bilərsiniz"
+        }
+      },
+      "empty": {
+        "text": "Qruplar şirkət profilinizdən məlumatlara girişi idarə etmək üçün şirkətləri siyahılara toplamaq imkanı verir",
+        "title": "Hələ heç bir qrup yoxdur"
+      },
+      "filters": {
+        "blocked": {
+          "options": {
+            "false": "Xeyr",
+            "true": "Bəli"
+          },
+          "title": "Deaktiv edilmiş qrupları göstərin"
+        },
+        "creation_date": {
+          "title": "Yaranma tarixi"
+        },
+        "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+        "last_changes": {
+          "title": "Dəyişiklik tarixi"
+        },
+        "my": {
+          "options": {
+            "false": "Xeyr",
+            "true": "Bəli"
+          },
+          "title": "Yalnız mənim qruplarım"
+        },
+        "users": {
+          "title": "Qrup üzvləri"
+        }
+      },
+      "header": {
+        "title": "Şirkətlər Qrupu"
+      },
+      "item": {
+        "actions": {
+          "view": {
+            "title": "Ayarlar"
+          }
+        },
+        "companies": {
+          "empty": "Heç bir şirkət əlavə edilməyib"
+        },
+        "dates": {
+          "changed": "Dəyişdirilib {{value}}",
+          "created": "yaradılmış",
+          "separator": "•"
+        },
+        "marks": {
+          "blocked": "Qrup silindi",
+          "member": "Siz qrupdasınız"
+        },
+        "team": {
+          "count": "+ {{value}}",
+          "tooltip": "Qrup üzvü"
+        }
+      },
+      "search": {
+        "tooltip": "Axtarış bu sahələr üzrə aparılır: \n• Qrupun adı \n• Qrupda şirkətin adı"
+      },
+      "sorting": {
+        "count": {
+          "title": "İştirakçıların sayı"
+        },
+        "creation_date": {
+          "title": "Yaranma tarixi"
+        },
+        "last_changes": {
+          "title": "Dəyişiklik tarixi"
+        },
+        "name": {
+          "title": "Ad"
+        }
+      }
+    }
+  }
+}

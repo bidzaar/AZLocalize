@@ -1,0 +1,90 @@
+{
+  "ugr": {
+    "list": {
+      "actions": {
+        "create": "Qrup yarat"
+      },
+      "dialogs": {
+        "create": {
+          "actions": {
+            "cancel": "Ləğv et",
+            "submit": "Yaradın"
+          },
+          "errors": {
+            "default": {
+              "notice": "Xahiş edirik yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın",
+              "reason": "Qrup yaradılmamışdır."
+            },
+            "duplicate": {
+              "notice": "Başqa ad daxil edin",
+              "reason": "Bu adda qrup artıq mövcuddur"
+            }
+          },
+          "form": {
+            "label": "Qrupun adı"
+          },
+          "header": "Qrup yarat",
+          "snack": "Qrup yaradılıb. İndi siz işçilər və komanda lideri təyin edə bilərsiniz"
+        }
+      },
+      "empty": {
+        "text": "Qruplar şirkətin işçilərini strukturlaşdırmağa və onları sistem elementlərinə əlavə etməyə imkan verir",
+        "title": "Hələ heç bir qrup yoxdur"
+      },
+      "filters": {
+        "blocked": {
+          "options": {
+            "false": "Xeyr",
+            "true": "Bəli"
+          },
+          "title": "Silinmiş qrupları göstər"
+        },
+        "creation_date": {
+          "title": "Yaranma tarixi"
+        },
+        "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+        "last_changes": {
+          "title": "Dəyişiklik tarixi"
+        },
+        "my": {
+          "options": {
+            "false": "Xeyr",
+            "true": "Bəli"
+          },
+          "title": "Yalnız mənim qruplarım"
+        },
+        "users": {
+          "title": "İşçilər"
+        }
+      },
+      "header": {
+        "title": "İşçilər qrupu"
+      },
+      "item": {
+        "dates": {
+          "changed": "Dəyişdirilib {{value}}",
+          "created": "Yaradılıb {{value}}",
+          "separator": "•"
+        },
+        "marks": {
+          "blocked": "Qrup silindi",
+          "member": "Siz qrupdasınız"
+        }
+      },
+      "search": {
+        "tooltip": "Axtarış aşağıdakı xanalar üzrə aparılır:\n • Qrup adı\n • İstifadəçinin tam adı"
+      },
+      "sorting": {
+        "creation_date": {
+          "title": "Yaranma tarixi"
+        },
+        "last_changes": {
+          "title": "Dəyişiklik tarixi"
+        },
+        "name": {
+          "title": "Ad"
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,39 @@
+<mjml>
+  <!-- 
+Тема: ⛔ @компания отменяет приглашение на Procure.az
+Получатель: пользователь на имейл, указанный УК при приглашении
+
+УК удалил приглашённого пользователя
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-wtf" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Dəvət ləğv edildi</h1>
+          <p class="p75"><b>@CompanyContext.CompanyName</b> dəvət ləğv edilib :(</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Əgər bu səhvən baş veribsə, şirkət inzibatçısına müraciət edin.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />    
+    <!-- /footer -->
+  </mj-body>
+</mjml>

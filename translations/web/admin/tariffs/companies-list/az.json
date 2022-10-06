@@ -1,0 +1,19 @@
+{
+  "trf.cms.list": {
+    "header": {
+      "title": "Tarif paketləri",
+      "add": "Tarif paketləri əlavə et"
+    },
+    "package": {
+      "customers": "Sifarişçilər",
+      "label": "Redaktə et"
+    },
+    "dialog": {
+      "title": "Tarif paketləri",
+      "input": "Paketin adı",
+      "add": "HAZIRDI",
+      "cancel": "LƏĞV ET"
+    },
+    "empty": "Siyahı boşdu"
+  }
+}

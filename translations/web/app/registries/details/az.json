@@ -1,0 +1,209 @@
+{
+  "rgs": {
+    "dst": {
+      "accreditation": {
+        "application": {
+          "link": "Yeni müraciətə keçin",
+          "text": "{{ value }} şirkəti baxılmaq üçün yenidən müraciət edib"
+        },
+        "general": {
+          "accreditation": {
+            "application": "Müraciət",
+            "download_application": "Müraciəti endir",
+            "label": "Reyestrinə daxildir",
+            "open_application": "Müraciəti aç",
+            "protocol": "Komissiyanın iş protokolu",
+            "scoring": {
+              "category": "Kateqoriya: {{value}}",
+              "points": "Qiymətləndirmə: {{value}}"
+            }
+          },
+          "blocking": {
+            "label": "İstisna səbəbi"
+          },
+          "contact": {
+            "label": "Şirkətin əlaqələri"
+          },
+          "participant": {
+            "details": "Şirkət təfərrüatları",
+            "label": "Şirkət haqqında"
+          },
+          "refusing": {
+            "label": "İmtina səbəbi"
+          },
+          "representer": {
+            "label": "Nümayəndə"
+          },
+          "title": "Reyestr “{{value}}”"
+        },
+        "header": {
+          "actions": "Əməliyyatlar"
+        }
+      },
+      "application": {
+        "general": {
+          "application": {
+            "download_application": "Müraciəti endir",
+            "download_protocol": "Komissiyanın iş protokolu",
+            "open_application": "Müraciəti aç"
+          },
+          "application_status": {
+            "label": "Müraciətin statusu",
+            "reason": "Səbəb"
+          },
+          "participant": {
+            "details": "Şirkət təfərrüatları",
+            "label": "Şirkət"
+          },
+          "participant_status": {
+            "details": "Təfərrüatlara keçin",
+            "label": "Reyestr statusu"
+          },
+          "registry": {
+            "label": "Reyestr"
+          },
+          "representer": {
+            "label": "Nümayəndə"
+          },
+          "scoring": {
+            "label": "Qiymətləndirmə"
+          },
+          "title": "Akkreditasiya üçün müraciət"
+        },
+        "header": {
+          "actions": "Əməliyyatlar",
+          "application": "Müraciət “{{value}}”"
+        }
+      },
+      "approval": {
+        "common": {
+          "actions": {
+            "accept": {
+              "success": "Şirkət akkreditasiya olunub",
+              "title": "Şirkəti akkreditasiya edin"
+            },
+            "assess": {
+              "title": "Müraciəti qiymətləndirin"
+            },
+            "change": {
+              "notice": "komissiyanın işinin hazırkı mərhələsi başa çatana qədər mümkündür",
+              "title": "Qiyməti dəyişmək"
+            },
+            "decline": {
+              "success": "Müraciət imtina olundu",
+              "title": "Müraciəti imtina et"
+            },
+            "reject": {
+              "success": "Müraciət imtina olundu",
+              "title": "Müraciəti imtina et"
+            }
+          },
+          "editable": {
+            "choice": {
+              "accept": "Şirkəti akkreditasiya edin",
+              "approve": "Müraciəti təsdiqləyin",
+              "decline": "Müraciəti imtina et",
+              "reject": "Muraciəti imtina et"
+            },
+            "commission": {
+              "comment": "Şərh",
+              "documents": "Sənədlər",
+              "grade": {
+                "label": "Şirkətin qiymətləndirilməsi",
+                "of": "_"
+              },
+              "title": "Komissiya üzvlərinə bildiriş"
+            },
+            "duration": {
+              "title": {
+                "finite": "Reyestrdə akkreditasiya müddəti, {{value}} ayına qədər.",
+                "infinite": "Reyestrdə akkreditasiya müddəti müəyyən edilməyib, 0 - müddətsiz akkreditasiya"
+              },
+              "unit": "ay"
+            },
+            "participant": {
+              "reason": "İmtina səbəbi",
+              "title": "Müraciət üçün əsaslandırma"
+            }
+          }
+        },
+        "decision": {
+          "notice": "“{{group}}” qrupunun üzvü kimi müraciət ilə bağlı qərarınız",
+          "title": "Müraciət ilə bağlı qərar",
+          "unavailable": "“{{group}}” qrupu komissiyanın işinin hazırkı mərhələsində qərar qəbul edə bilmir. Hansı bir qərar mövcud olanda sizə məlumat verəcəyik."
+        },
+        "final": {
+          "notice": "“{{group}}” qrupunun üzvü kimi müraciət ilə bağlı qərarınız",
+          "title": "Akkreditasiya qərarı",
+          "unavailable": "“{{group}}” qrupu komissiyanın işinin hazırkı mərhələsində qərar qəbul edə bilmir. Hansı bir qərar mövcud olanda sizə məlumat verəcəyik."
+        },
+        "grade": {
+          "notice": "Müraciətin “{{group}}” qrupunun üzvü kimi qiymətləndirilməsi",
+          "title": "Müraciətin qiymətləndirilməsi",
+          "unavailable": "“{{group}}” qrupu komissiyanın işinin hazırkı mərhələsində ərizəni qiymətləndirə bilmir. Qiymətləndirmə mövcud olanda sizə xəbər verəcəyik."
+        }
+      },
+      "general": {
+        "accreditation_status": {
+          "details": "Təfərrüatlar keçin",
+          "reason": "Səbəb"
+        },
+        "application_status": {
+          "details": "Təfərrüatlar keçin",
+          "reason": "Səbəb"
+        },
+        "approvement": {
+          "report": "Protocol"
+        },
+        "questionnaire": {
+          "download": "Yükləyin",
+          "open": "Açın",
+          "scoring": {
+            "long": "Qiymətləndirmə: {{value}}/{{max}}, {{category}}",
+            "short": "Qiymətləndirmə: {{value}}"
+          }
+        }
+      },
+      "reports": {
+        "async": {
+          "action": "Arxivi yükləyin",
+          "comment": "Bir müddət sonra arxivi poçtunuza yükləmək üçün bir keçid alacaqsınız {{ email }}",
+          "success": {
+            "application": "Arxiv hazırlanır. Yükləmək üçün keçid e-poçtunuza göndəriləcək"
+          },
+          "title": "Əlavələr ilə arxiv"
+        },
+        "header": {
+          "application": "Akkreditasiya üçün müraciəti endir"
+        },
+        "sync": {
+          "action": "Sənədi yükləyin",
+          "comment": "Əlavələri olmayan sənəd",
+          "title": "Sənəd"
+        }
+      },
+      "stages": {
+        "content": {
+          "decision": {
+            "auto": "Avtomatik olaraq, bütün mərhələlərdən sonra",
+            "title": "Şirkətin reyestrdə akkreditasiyası haqqında qərar"
+          },
+          "group": {
+            "conclusions": {
+              "count": "Qiymətlər: {{value}}",
+              "empty": "Qiymət yoxdur",
+              "rating": "Qiymət: {{value}}/{{max}}"
+            },
+            "empty": "Mərhələyə üçün təstiqləticilər təyyin olunmayıb"
+          },
+          "stage": {
+            "title": "Mərhələ {{value}}"
+          }
+        },
+        "header": {
+          "title": "Komissiyanın işinin mərhələləri"
+        }
+      }
+    }
+  }
+}

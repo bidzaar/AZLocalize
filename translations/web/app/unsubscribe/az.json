@@ -1,0 +1,63 @@
+{
+  "uns": {
+    "subscriptions": {
+      "content": {
+        "events": {
+          "ChatMessageRequiresNotificationEvent": "Çatda yeni mesaj",
+          "FinishRoundProcedureEvent": "Müştəri tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
+          "FinishRoundProcedureOrgEvent": "Müştəri tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
+          "NoProposal24Event": "Tender təklifləri tenderin qəbulunun bitməsinə 24 saat qalmış satınalmaya təqdim edilməmişdir",
+          "NotifyCompaniesByProcedureTags": "Şirkət profilimin teqlərinə uyğun gələn teqlərlə dərc edilmiş sorğu",
+          "NotifyProcedureFinishedWithOrderOrg": "Sahib qalibləri seçməklə alış-verişi tamamladı",
+          "NotifyProcedureFinishedWithoutOrderOrg": "Sahib qalibləri seçmədən satın almağı tamamladı",
+          "ParticipantsLeaveProcedure": "İştirakçı sorğuda təklif təqdim etməkdən imtina etdi",
+          "ProcedureCanceledOrg": "Satınalmanın ləğvi",
+          "ProcedureChanged": "Satınalma üçün dəyişikliklər edildi",
+          "ProcedureChangedOrg": "Satınalma üçün dəyişikliklər edildi",
+          "ProcedureDigestReadyEvent": "Şirkətimin profilinə uyğun gələn yeni sorğular ",
+          "ProposalAddedEvent": "Təchizatçı təklifi təqdim etdi",
+          "ProposalChangedEvent": "Təchizatçı əvvəlcədən təqdim olunan təklifi yenilədi",
+          "PublishProcedureEventOrg": "Satınalmanın dərc edilməsi",
+          "RemindCompleteProfileNotification": "Profili tam doldurmaq üçün bildirişlər alın.",
+          "SummingUpProcedureEvent": "Təkliflərin qəbulu başa çatdı, sorğu yekunlaşdırma mərhələlərinə keçdi",
+          "SummingUpProcedureOrgEvent": "Təkliflərin qəbulu başa çatdı, sorğu yekunlaşdırma mərhələlərinə keçdi",
+          "SummingUpProcedureReminderEvent": "Təkliflərin qəbulunun bitməsinə 48 saat qalmış"
+        },
+        "groups": {
+          "BuyerActions": "Komanda üzvlərinin hərəkətləri, satınalma statusunun dəyişdirilməsi",
+          "Chats": "Çatlarda mesajlar",
+          "CompanyManagement": "Şirkətin idarə edilməsi",
+          "ParticipantNotifications": "Şirkətimin iştirak etdiyi satınalmalar üçün bildirişlər",
+          "ProcedureNotifications": "Yeni sorğu bildirişləri",
+          "SellerActions": "Müştəri hərəkətləri"
+        },
+        "language": "Bildiriş dili",
+        "notice": "Əhəmiyyətli hadisələr haqqında bildirişləri poçt vasitəsilə alın:",
+        "rights": {
+          "Chats": {
+            "name": "Çatlar",
+            "notice": "Sorgu və akkreditasiya çatlarında çat bildirişləri"
+          },
+          "CompanyManagement": {
+            "name": "Şirkətin idarə edilməsi",
+            "notice": ""
+          },
+          "Purchases": {
+            "name": "Sorğular",
+            "notice": "Komandanın üzvü olduğunuz satınalmalar üçün bildirişlər."
+          },
+          "Sales": {
+            "name": "Tender təklifləri",
+            "notice": "Şirkətinizin iştirak etdiyi satınalmalar üçün bildirişlər."
+          }
+        },
+        "title": "Bildirişlərin idarə edilməsi",
+        "unsub": "Hamısını bağla"
+      },
+      "header": {
+        "done": "Hazırdır",
+        "title": "Bildirişlər"
+      }
+    }
+  }
+}

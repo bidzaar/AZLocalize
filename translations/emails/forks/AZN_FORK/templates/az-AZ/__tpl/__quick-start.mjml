@@ -1,0 +1,14 @@
+    <!-- quick-start -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Nədən başlayaq:</h2>
+                <ol>
+                    <li><a href="@ConfigurationContext.BaseUrl/home">Şirkət profilinizi qurun ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Uyğun bir sorğu tapın və ya sifarişinizi dərc edin ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/companies/all">ProcureSaaS-dan kimin istifadə etdiyinə baxın ►</a></li>
+                </ol>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /quick-start -->

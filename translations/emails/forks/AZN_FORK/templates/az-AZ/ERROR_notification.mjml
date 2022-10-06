@@ -1,0 +1,29 @@
+<mjml>
+  <!-- 
+Тема: "⛔ Что-то пошло не так",
+Плолучатель: Procure.azEmail
+
+Запрос на получение прав Закупки на Procure.az
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>ProcureSaaS-da xəta baş verdi</h1>
+          <p>
+           <b>Stend:</b>  @ConfigurationContext.BaseUrl<br />
+            <b>Xəta:</b> @ErrorPrecontext.Error</p>
+          <p>Proqramçıları xəbərdar etməyə dəyər.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

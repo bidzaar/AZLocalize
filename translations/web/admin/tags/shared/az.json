@@ -1,0 +1,10 @@
+{
+  "tags": {
+    "shared": {
+      "actions": {
+        "from_cloud": "Buluddan seçin",
+        "manual_input": "Əllə daxiletmə"
+      }
+    }
+  }
+}

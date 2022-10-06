@@ -1,0 +1,66 @@
+{
+  "cmp.shared": {
+    "enums": {
+      "rights": {
+        "0": "Hüquqlar təyin edilməyib",
+        "1": "Sifarişçi",
+        "2": "Təchizatçı",
+        "4": "Akkreditasiyalar",
+        "8": "Qrupların idarəçiliyi",
+        "16": "ŞT",
+        "128": "Satınalmalar üzrə rəhbər",
+        "512": "Reyestrlər",
+        "2048": "Qruplarda Akkreditasiya"
+      }
+    },
+    "list": {
+      "title": "Şirkətlər",
+      "selected_title": "Seçildi:",
+      "filters": {
+        "tags": "Teqlər",
+        "rights": "Hüquqlar",
+        "badges": "Nişanlar",
+        "location": "Məkan",
+        "areas": "Şirkətin fəaliyyət göstərdiyi yer",
+        "shown": {
+          "title": "Görünüş",
+          "true": "Bəli",
+          "false": "Xeyir"
+        },
+        "phantom": {
+          "title": "Fantomalar",
+          "true": "Yalnız fantomlar",
+          "false": "Fantom olmayanlar"
+        },
+        "verified": {
+          "title": "ProcureSaaS tərəfindən yoxlanılmış",
+          "true": "Yalnız yoxlanılmış",
+          "false": "Yalnız yoxlanılmamış"
+        }
+      },
+      "sort": {
+        "registration_date": "Qeydiyyat tarixi"
+      },
+      "search": "Şirkətin adı, Şirkətin nömrəsi, Təsvir, Ölkə, Ştat/Vilayət/Respublika, Şəhər, Teqlər, Telefon, E-poçt",
+      "empty": "Axtarışınız üçün heç nə tapılmadı...",
+      "crm": "CRM",
+      "actions": {
+        "notify_users_tooltip": "E-poçt göndər"
+      }
+    },
+    "email": {
+      "header": "Məktub göndərmək",
+      "subject_label": "Mövzu:",
+      "subject_placeholder": "Məktub mövzusu",
+      "message_placeholder": "Mesaj",
+      "to_label": "Kimə:",
+      "to_text": "Şirkətlərin əməkdaşları (seçilmiş şirkətlər: {{value}})",
+      "from_label": "Kimdən:",
+      "success": "Məktub göndərildi",
+      "actions": {
+        "cancel": "Ləğv et",
+        "submit": "Məktub göndərmək"
+      }
+    }
+  }
+}

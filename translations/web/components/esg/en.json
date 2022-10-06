@@ -1,0 +1,15 @@
+{
+  "bdz.esg": {
+    "enums": {
+      "categories": {
+        "0": "GOLD",
+        "1": "SILVER",
+        "2": "BRONZE"
+      }
+    },
+    "filter": {
+      "label": "ESG Certified Companies",
+      "link": "More about ESG"
+    }
+  }
+}

@@ -593,7 +593,7 @@
           },
           "invalid": "Please correct the errors and re-publish",
           "actions": {
-            "report": "What's changed?",
+           ,
             "cancel": "Cancel",
             "submit": "Publish",
             "close": "OK"

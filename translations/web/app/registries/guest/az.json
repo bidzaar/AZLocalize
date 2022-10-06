@@ -1,0 +1,29 @@
+{
+  "rgs": {
+    "gst": {
+      "application": {
+        "actions": {
+          "submit": "Müraciət edin"
+        }
+      },
+      "botzaar": {
+        "actions": {
+          "auth": "ProcureSaaS-a daxil olun",
+          "company": "Şirkəti qeydiyyatdan keçirin",
+          "join": "Dəvəti qəbul edin"
+        },
+        "auth": {
+          "text": "Dəvəti qəbul etmək üçün ProcureSaaS-a daxil olun.",
+          "title": "{{value}} əməkdaşlığa dəvət edir."
+        },
+        "company": {
+          "text": "Dəvəti qəbul etmək üçün şirkəti qeydiyyatdan keçirin.",
+          "title": "{{value}} əməkdaşlığa dəvət edir."
+        },
+        "join": {
+          "title": "{{value}} əməkdaşlığa dəvət edir."
+        }
+      }
+    }
+  }
+}

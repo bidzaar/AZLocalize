@@ -1,0 +1,15 @@
+{
+  "bdz.usr": {
+    "enums": {
+      "status": {
+        "0": "Waiting for approve",
+        "1": "Invited",
+        "2": "Active",
+        "3": "Blocked"
+      }
+    },
+    "roster": {
+      "empty": "There are no employees with the required rights. Contact the company manager to assign rights to employees. "
+    }
+  }
+}

@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: Ваша компания – проверенный поставщик
+Получатель: все сотрудники компании
+
+Админ Бидзаар установил статус компании "Прорверенный поставщик"
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Sizin şirkət "Yoxlamanı Keçmiş Şirkət" statusunu aldı.</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h2>İndi @TargetContext.CompanyName – ProcureSaaS - da yoxlamanı keçmiş şirkətdir</h2>
+          <p><br /><b>Bu nə deməkdir?</b></p>
+          <ul>
+            <li> Şirkət təchizatçılar siyahısında seçilir və axtarış nəticələrində yüksəlir </li>
+            <li> Şirkətin reputasiyası və fəaliyyət reytinqi yüksəlir</li>
+            <li> Yalnız təsdiqlənmiş təchizatçılar üçün sorğularda iştirak etmək imkanı əldə olunur</li>
+          </ul>
+          <p>ProcureSaaS-da sizə uğurlar və yeni qələbələr arzulayırıq!</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">ProcureSaaS-a keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- quick-start -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

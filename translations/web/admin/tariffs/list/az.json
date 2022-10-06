@@ -1,0 +1,16 @@
+{
+  "trf.list": {
+    "header": "Sorğu tarifləri",
+    "create": "Yeni tarif əlavə edin",
+    "status": "Tarifin statusu",
+    "empty": "",
+    "dialogs": {
+      "create": {
+        "header": "Yeni tarif yaratmaq",
+        "label": "Tarifin adı",
+        "cancel": "Ləğv et",
+        "submit": "Yaratmaq"
+      }
+    }
+  }
+}

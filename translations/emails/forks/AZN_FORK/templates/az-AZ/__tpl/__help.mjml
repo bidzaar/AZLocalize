@@ -1,0 +1,10 @@
+    <!-- help -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Dəstəyə ehtiyyacınız var?</h2>                                   
+                  Platformanın texniki dəstəyi: <a href="tel:+994125371558">+(99412) 537-15-58</a>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /help -->

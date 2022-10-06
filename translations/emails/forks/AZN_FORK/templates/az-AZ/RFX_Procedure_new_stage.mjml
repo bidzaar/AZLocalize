@@ -1,0 +1,40 @@
+<mjml>
+  <!-- 
+Тема: Новый этап запроса: "@ProcedureContext.ProcedureName"
+Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине. Компания -- активный участник текущего этапа
+
+
+Заказчик объявил новый этап запроса
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Sorğunun yeni mərhələsi elan edildi</h1>
+          <p><b>Sifarişçinin şərhi:</b> @ProcedureContext.StageComment </p>
+          <p>Yeni mərhələnin şərtləri ilə tanış olun və təklifinizin aktuallığını yoxlayın.</p>
+          <p>
+            <b>Sorğu:</b> @ProcedureContext.ProcedureName<br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Çatdırılma ünvanı:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br />
+            <b>Bildiriş:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğu haqqında bildirişi endir</a>
+          </p>
+          <p style="white-space: pre-line"><b>Təsvir:</b> @ProcedureContext.Description</p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- footer -------------------------------------------- -->
+    
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,34 @@
+<mjml>
+  <!-- 
+Тема: 👋 Добро пожаловать на Procure.az
+Получатель: пользователь на имейл, указанный при логине
+
+Пользователь зарегистрировался на площадке
+Registration.mjml
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1><b>Sizi ProcureSaaS platformasında salamlayırıq</b></h1>
+          <p class="p75">ProcureSaaS saytında siz sifariş verə və ya təchizatçı kimi fəaliyyət göstərə bilərsiniz.</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">Başla</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- quick-start -------------------------------------------- -->
+    <mj-include path="./__tpl/__quick-start.mjml" />
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>
