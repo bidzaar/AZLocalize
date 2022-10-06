@@ -1,0 +1,78 @@
+{
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "Group": {
+          "AlreadyExist": "Bu adı olan qrup artıq mövcuddur"
+        }
+      }
+    }
+  },
+  "ugr": {
+    "view": {
+      "dialogs": {
+        "block": {
+          "cancel": "Ləğv et",
+          "error": "Qrupu silmək uğursuz oldu. Xahiş edirik yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın",
+          "submit": "Sil",
+          "success": "Qrup silindi",
+          "text": "Əməliyyat geri qaytarıla bilər",
+          "title": "Qrupu silin"
+        },
+        "demote_self": {
+          "cancel": "Ləğv et",
+          "submit": "Davam etdirmək",
+          "text": "Qrup liderinin hüququnu özünüzdən çıxarırsınız. Hüquqları bərpa etmək üçün “Qrup meneceri” hüquqi olan şirkət işçisinə müraciət edin ",
+          "title": "Diqqət!"
+        },
+        "remove_user": {
+          "cancel": "Ləğv et",
+          "submit": "Sil",
+          "text": "",
+          "title": "İşçini qrupdan çıxartmaq"
+        },
+        "unblock": {
+          "cancel": "Ləğv et",
+          "error": "Qrupu bərpa etmək alınmadı. Yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstək ilə əlaqə saxlayın",
+          "submit": "Bərpa etmək",
+          "success": "Qrup bərpa olundu",
+          "text": "",
+          "title": "Qrupu bərpa etmək"
+        }
+      },
+      "general": {
+        "description": {
+          "label": "Qrup təsviri",
+          "placeholder": "Qrupun ümumi təsviri..."
+        }
+      },
+      "header": {
+        "actions": {
+          "block": "Qrupu silmək (geri qaytarıla bilən əməliyyat)",
+          "unblock": "Qrupu bərpa etmək"
+        },
+        "marks": {
+          "blocked": "Qrup silindi"
+        }
+      },
+      "users": {
+        "actions": {
+          "append": "İşçi əlavə etmək",
+          "appoint_manager": "Menecer hüquqlarını təyin etmək",
+          "remove": "İşçini çıxartmaq\n",
+          "remove_manager": "Menecer hüquqlarını silmək"
+        },
+        "empty": {
+          "text": "Qrup işçilərinin siyahısı tərtib edilməmişdir",
+          "title": "Heç bir işçi əlavə edilməyib"
+        },
+        "header": "Qrup üzvləri",
+        "item": {
+          "marks": {
+            "manager": "Qrup lideri"
+          }
+        }
+      }
+    }
+  }
+}

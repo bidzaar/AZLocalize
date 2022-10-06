@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "brs": {
+      "list": {
+        "title": "Purchasers",
+        "empty": "No results were found for your request..."
+      },
+      "search": {
+        "placeholder": "Search..."
+      },
+      "company": {
+        "link": "Go to requests"
+      },
+      "footer": {
+        "all": "Show all customers"
+      }
+    }
+  }
+}

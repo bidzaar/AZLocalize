@@ -1,0 +1,38 @@
+<mjml>
+  <!-- 
+Тема: ⛔ Заявка в @компания отклонена
+Получатель: сотрудник на имейл, указанный при логине
+
+УК отклонил заявку на присоединение сотрудника
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-wtf" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@TargetContext.FirstName, ваша заявка отклонена :(</h1>
+          <p class="p75">Ваша заявка на присоединение к <b>@CompanyContext.CompanyName</b> отклонена.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p>Если это произошло по ошибке, обратитесь к администратору компании.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

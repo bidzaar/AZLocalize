@@ -1,0 +1,31 @@
+<mjml>
+  <!-- 
+Тема: 😊 Запрос на присоединение сотрудника
+Получатель: все УК на имейлы, указанные при логине
+
+Сотрудник отправил заявку на присоединение к компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@UserContext.FirstName @UserContext.LastName хочет присоединиться к <b>@CompanyContext.CompanyName</b></h1>
+          <p class="p75">Подтвердите или отклоните заявку сотрудника.</p>
+        </mj-text>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl/users">Обработать заявку</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

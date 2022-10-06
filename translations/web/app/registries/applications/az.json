@@ -1,0 +1,35 @@
+{
+  "rgs": {
+    "aps": {
+      "list": {
+        "empty": {
+          "text": "Akkreditasiyaya daxil olan bütün müraciətlər bu siyahıda göstəriləcək",
+          "title": "Hələ heç bir müraciət alınmayıb"
+        },
+        "filters": {
+          "application_status": {
+            "title": "Müraciət statusu"
+          },
+          "empty": "Sorğunuz üçün heç bir nəticə tapılmadı"
+        },
+        "header": {
+          "title": "Reyestrdə akkreditasiya almaq üçün müraciətlər"
+        },
+        "search": {
+          "tooltip": "Axtarış aşağıdakı sahələr üzrə aparılır: • Şirkətin adı"
+        },
+        "sorting": {
+          "company_name": {
+            "title": "Şirkətin adı"
+          },
+          "last_changes": {
+            "title": "Son dəyişikliklər"
+          },
+          "scoring": {
+            "title": "Xal hesabı"
+          }
+        }
+      }
+    }
+  }
+}

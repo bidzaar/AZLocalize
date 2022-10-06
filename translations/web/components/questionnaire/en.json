@@ -1,0 +1,255 @@
+{
+  "bdz.qst": {
+    "request": {
+      "list": {
+        "condition": {
+          "tooltip": "The question contains transition logic"
+        },
+        "formula": {
+          "tooltip": "Question type Variable"
+        },
+        "actions": {
+          "delete": "Delete",
+          "create_object": "Add question",
+          "create_group": "Add group",
+          "more": "more"
+        }
+      },
+      "editor": {
+        "tabs": {
+          "content": "Editor",
+          "parameters": "Parameters",
+          "logic": "Logic",
+          "points": "Points"
+        },
+        "actions": {
+          "close": "Save",
+          "delete": "Delete",
+          "close_and_create": "Save and add question"
+        },
+        "fields": {
+          "text": "Question text",
+          "comment": "Description (optional)",
+          "type": "Answer type"
+        },
+        "defaults": {
+          "group": "New group",
+          "input": "New question",
+          "select": "New question"
+        },
+        "parameters": {
+          "comments": "Allow to post a comment on the answer",
+          "files": "Allow attaching files to response"
+        },
+        "widgets": {
+          "common": {
+            "answer": "Answer:"
+          },
+          "select": {
+            "create": "Add option",
+            "text": "Option {{index}}",
+            "delete": "Delete option",
+            "placeholder": "Specify the answer option"
+          },
+          "formula": {
+            "information": {
+              "name": "Formula",
+              "description": "Use operands, numbers and +-*/(). operations. The separator of the integer and fractional parts of a number is a period, for example: 5.45. Check the formula after typing."
+            },
+            "editor": {
+              "controls": {
+                "operators": {
+                  "operands": "Operands...",
+                  "groups": "Sum of points for the group",
+                  "formulas": "Variables"
+                },
+                "actions": {
+                  "validate": "Validate",
+                  "success_validation": "The formula is correct"
+                }
+              }
+            },
+            "parameters": {
+              "precision": "The number of decimal places"
+            },
+            "validation": {
+              "wrongFormat": "Formula error"
+            }
+          },
+          "tree": {
+            "upload": "Upload new catalog",
+            "download_template": "Download Template",
+            "loader_text": "Loading the directory...",
+            "error": {
+              "title": "File is not loaded.",
+              "info": "Check out the reference template and try again"
+            }
+          }
+        },
+        "validation": {
+          "common": {
+            "toggle": "Validation",
+            "pattern": "{{value}} – forbidden characters"
+          },
+          "number": {
+            "is_integer": "Integer"
+          },
+          "number_range": {
+            "min": "Min value",
+            "max": "Max value"
+          },
+          "value_placeholders": {
+            "range": {
+              "start": "From...",
+              "end": "To..."
+            },
+            "value": {
+              "boolean": "",
+              "input": "",
+              "number": "Enter number...",
+              "datetime": "Enter date...",
+              "select": "",
+              "multiple": ""
+            }
+          },
+          "tree": {
+            "required": "The answer is required"
+          }
+        },
+        "logic": {
+          "default_next_question": "After, if no other condition is specified, go to",
+          "next_question": "Next question",
+          "end_quiz": "End of quiz",
+          "if_answer": "If answer is",
+          "go_to": "Then go to",
+          "add_go_to": "add transition",
+          "no_response_provided": "No response provided",
+          "question_selector_dialog": {
+            "go_to": "Go to...",
+            "search": "Search",
+            "questions": "Questions:",
+            "found": "Found:",
+            "next_question": "Next question",
+            "end_quiz": "End of quiz",
+            "next_questions": "Next questions",
+            "cancel": "cancel",
+            "apply": "apply"
+          },
+          "widgets": {
+            "number_range": {
+              "in": "In range",
+              "out": "Out of range",
+              "from": "from",
+              "to": "to"
+            }
+          },
+          "validation": {
+            "wrong_target": "The transition point is above the current question. Transition logic does not apply to avoid looping."
+          }
+        },
+        "points": {
+          "answer": "Answer",
+          "point": "Point",
+          "default_points": "For all answers except the ones below",
+          "add_answer": "add answer",
+          "notice": {
+            "multiple": {
+              "title": "Total points for question",
+              "text": "Total points = The total of the points of the selected answers"
+            }
+          }
+        },
+        "change_type_dialog": {
+          "title": "The transition logic is configured for the question",
+          "text": "Changing the question type will result in loss of navigation logic data",
+          "cancel": "Cancel",
+          "change": "Change"
+        }
+      },
+      "visual_types": {
+        "group": "Group",
+        "object": "Question",
+        "boolean": "Yes/No",
+        "input": "Text",
+        "number": "Number",
+        "datetime": "Date",
+        "select": "Single choice",
+        "multiple": "Multiple choice",
+        "number_range": "Number Range",
+        "attachment": "Attachment",
+        "formula": "Variable",
+        "tree": "Selection from the directory"
+      },
+      "validation_types": {
+        "boolean": "",
+        "input": "String length",
+        "number": "Number",
+        "datetime": "Date",
+        "select": "Single choice",
+        "multiple": "Multiple choice"
+      },
+      "condition_types": {
+        "eq": "Equal",
+        "neq": "Not equal",
+        "lt": "Less then",
+        "lte": "Less than or equal",
+        "gt": "Greater than",
+        "gte": "Greater than or equal",
+        "inrange": "In range",
+        "outofrange": "Not in range",
+        "contains": "Contains",
+        "doesnotcontains": "Does not contain",
+        "notnull": "",
+        "null": ""
+      },
+      "conditions": {
+        "0": "Equal",
+        "1": "Not equal",
+        "2": "Less then",
+        "3": "Less than or equal",
+        "4": "Greater than",
+        "5": "Greater than or equal",
+        "6": "In range",
+        "7": "Not in range",
+        "8": "",
+        "9": "",
+        "10": "",
+        "11": "No answer provided"
+      }
+    },
+    "response": {
+      "wizard": {
+        "actions": {
+          "forward": {
+            "title": "Next"
+          },
+          "backward": {
+            "title": "Previous"
+          },
+          "to_first": {
+            "title": "Еo the beginning"
+          }
+        },
+        "item": {
+          "comment": {
+            "placeholder": "Comment..."
+          },
+          "files": {
+            "upload": "Upload file"
+          },
+          "number_range": {
+            "min": "Min value",
+            "max": "Max value"
+          },
+          "final": {
+            "title": "Done!",
+            "info": "The questionnaire block is completed"
+          },
+          "tree": {
+            "empty": "Select and add a value from the list..."
+          }
+        }
+      }
+    }
+  }
+}

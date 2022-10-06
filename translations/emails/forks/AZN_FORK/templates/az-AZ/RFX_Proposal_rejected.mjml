@@ -1,0 +1,47 @@
+<mjml>
+  <!-- 
+Тема: Ваше предложение отклонено: "@ProcedureContext.ProcedureName"
+Получатель: сотрудники поставщика с правами "Продажи"
+
+Письмо отправляется участникам, чьи ранее поданные предложения были отклонены в результате публикации изменений или объявления нового этапа запроса
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section css-class="intro" background-color="#FAE7E6">
+      <mj-column>
+        <mj-text>
+          <h1 style="color:#CB0C00">Sizin təklifiniz imtina olunub</h1>
+          <h3>Sifarişçi sorğuda əhəmiyyətli dəyişikliklər edib və ya sorğunun yeni mərhələsini dərc edib. Sizin təklifiniz aktual deyil.</h3>
+          <p>Dəyişiklikləri nəzərdən keçirin və təklifinizi yenidən təqdim edin. </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <h2><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></h2>
+          <p><b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br />
+            <b>Bildiriş:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğu haqqında bildirişi endir</a><br />
+            <span style="white-space: pre-line"><b>Sorğuda dəyişikliklər:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>
+          <!--<h2><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></h2>
+          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
+            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
+            <span style="white-space: pre-line"><b>Изменения в запросе:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>-->
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.UrlProposal">Təklifi yenilə</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,17 @@
+{
+  "bdz.cmt": {
+    "item": {
+      "actions": {
+        "edit": "Edit",
+        "remove": "Remove",
+        "cancel": "Cancel",
+        "save": "Save"
+      },
+      "remove": {
+        "title": "Remove comment?",
+        "submit": "Remove",
+        "cancel": "Cancel"
+      }
+    }
+  }
+}

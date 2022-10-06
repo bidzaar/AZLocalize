@@ -1,0 +1,49 @@
+{
+  "bdz.rqs": {
+    "editor": {
+      "dialog": {
+        "confirmation": {
+          "cancel": "Ləğv et",
+          "header": "Şirkət rekvizitləri",
+          "submit": "Yadda saxla",
+          "warning": "Rekvizitlərin dəyişdirilməsi şirkətin yenidən yoxlanılmasını tələb edir. <b>“Yoxlanılıb”</b> statusu yoxlama zamanı silinəcəkdir."
+        },
+        "duplicate": {
+          "admin": "Göstərilən rekvizitlərə malik şirkət artıq saytda qeydiyyatdan keçib və yoxlanılıb.",
+          "close": "Bağlayın",
+          "header": "Rekvizitləri dəyişdirmək mümkün deyil",
+          "user": "Göstərilən rekvizitlərə malik şirkət artıq saytda qeydiyyatdan keçmişdir.\nƏgər bu sizin şirkətinizdirsə - ProcureSaaS dəstək qrupuna müraciət edin."
+        },
+        "loading": {
+          "header": "Şirkət rekvizitləri"
+        }
+      },
+      "form": {
+        "name": {
+          "label": "Şirkətin adı",
+          "notice": "Təsis sənədlərində olduğu kimi",
+          "title": "Şirkətin hüquqi adı"
+        },
+        "tin": {
+          "label": "VÖEN",
+          "notice": "Qeydiyyatdan keçdiyiniz ölkədə şirkətinizin vergi nömrəsi",
+          "title": "VÖEN (vergi identifikasiya nömrəsi)",
+          "wrong_format": "Səhv format"
+        }
+      }
+    },
+    "status": {
+      "false": "Yoxlanılmayıb",
+      "true": "Yoxlanılıb"
+    },
+    "viewer": {
+      "empty": {
+        "name": "Hüquqi adı göstərilməyib",
+        "tin": "VÖEN göstərilməyib"
+      },
+      "fields": {
+        "tin": "VÖEN: {{tin}}"
+      }
+    }
+  }
+}

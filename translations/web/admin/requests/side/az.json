@@ -1,0 +1,86 @@
+{
+  "req.side": {
+    "request": {
+      "contacts": {
+        "title": "Sifarişçi tərəfdən aqədər şəxs"
+      },
+      "details": {
+        "participants": "İştirakçıların siyahısı",
+        "site": "Sorğunu aç"
+      },
+      "header": {
+        "publish": "{{ date }} tarixində dərc edilib"
+      },
+      "owners": {
+        "title": "Sorğunun sahibləri"
+      },
+      "statistics": {
+        "participants": {
+          "label": "İştirak etmişdir",
+          "tooltip": "Mərhələ iştirakçılarının, o cümlədən imtina edən və bloklda olanların sayı"
+        },
+        "proposals": {
+          "label": "Təklifi olan iştirakçılar",
+          "tooltip": "Mərhələ daxilində təklif təqdim edən mərhələ iştirakçılarının sayı"
+        },
+        "stage": {
+          "label": "Mərhələ"
+        }
+      }
+    },
+    "supplier": {
+      "company": {
+        "additional": {
+          "description": {
+            "placeholder": "Təsvir təqdim edilməyib",
+            "title": "Şirkətin təsviri"
+          },
+          "requisites": {
+            "title": "Rekvizitlər"
+          }
+        },
+        "areas": {
+          "empty": "Qeyd edilməmişdir",
+          "text": "Şirkət bu ərazidə xidmətlər və ya təchizatlar təqdim edir:",
+          "title": "Biznesin bölgəsi"
+        },
+        "contacts": {
+          "placeholders": {
+            "email": "E-poçt qeyd olunmayıb",
+            "employees": "Şirkətin ölçüsü göstərilməyib",
+            "location": "Hüquqi ünvan qeyd olunmayıb",
+            "phone": "Telefon nömrəsi qeyd olunmayıb",
+            "site": "Sayt qeyd olunmayıb\n"
+          },
+          "title": "Şirkət haqqında"
+        },
+        "details": {
+          "manage": "Admində aç",
+          "profile": "Şirkət profili"
+        },
+        "tags": {
+          "collapse": "Gizlət",
+          "count": "Uyğun olanlar: {{ count }}",
+          "empty": "Şirkət profildə teqləri qeyd etməyib",
+          "expand": "Hamısını göstər",
+          "title": "Şirkətin teqləri"
+        }
+      },
+      "header": {
+        "date": " \n{{date}} tarixindən etibarən platformada",
+        "invite": "E-poçtla dəvət olunub",
+        "number": "ID: {{number}}"
+      },
+      "invite": {
+        "additional": {
+          "text": "Şirkət təfərrüatları mövcud deyil"
+        }
+      },
+      "participant": {
+        "contacts": {
+          "title": "Təchizatçı tərəfindən əlaqədər şəxs"
+        }
+      }
+    }
+  }
+}

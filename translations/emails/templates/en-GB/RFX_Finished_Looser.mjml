@@ -1,0 +1,31 @@
+<mjml>
+  <!-- 
+Тема: 🏁 Запрос завершена
+Получатель: сотрудники компании-участника с правом Продажи на имейлы, указанные при логине
+
+Организатор завершил запрос СОП, проигравший участник
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Request completed</h1>
+          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
+          <p><b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName</p>
+          <p>You didn't win this time. Thank you for your participation!</p>
+          <p>Do you have any questioins? Please contact the requester via the request chat.</p>
+          <p>You might want to find <a href="@ConfigurationContext.BaseUrl/procedures/all">other relevant requests on Bidzaar</a>.
+</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

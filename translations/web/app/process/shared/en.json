@@ -1,0 +1,16 @@
+{
+  "pl": {
+    "shared": {
+      "favorites": "To favorites",
+      "dialog": {
+        "title": "Favorites",
+        "text": "Favorites are available for employees of companies registered on Bidzzar.",
+        "sign": "Sing in",
+        "register": "Register a company"
+      },
+      "blocked": {
+        "button": "Chat with customer"
+      }
+    }
+  }
+}

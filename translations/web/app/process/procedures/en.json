@@ -1,0 +1,132 @@
+{
+  "prs": {
+    "enums": {
+      "status": {
+        "0": "Draft",
+        "1": "Submitted requests",
+        "2": "Pending requests",
+        "3": "Completed",
+        "4": "Cancelled"
+      },
+      "participant_business_status": {
+        "0": "Received orders",
+        "1": "Submitted bids",
+        "2": "Prepared Bids",
+        "3": "Provided Pre-qualification Documents",
+        "4": "Pre-qualification preparation",
+        "5": "Viewed requests",
+        "6": "Viewed invitations",
+        "7": "Invited",
+        "8": "",
+        "9": "Rejected participation",
+        "10": "Blocked"
+      }
+    },
+    "filters": {
+      "customer": {
+        "title": "Customer",
+        "choose": "Choose customers"
+      },
+      "tags": {
+        "title": "Request tags",
+        "from_company": "Add relevant tags +"
+      },
+      "type": {
+        "title": "Type of request",
+        "public": "Opened",
+        "private": "Closed"
+      },
+      "status": {
+        "title": "Status"
+      },
+      "publish_date": {
+        "title": "Submission date"
+      },
+      "finish_date": {
+        "title": "Completion date"
+      },
+      "team": {
+        "title": "Team"
+      },
+      "budget": {
+        "title": "Budget"
+      },
+      "creation_date": {
+        "title": "Creation date"
+      },
+      "participant_status": {
+        "title": "Vendor status"
+      },
+      "acceptance_end_date": {
+        "title": "Bid due date"
+      },
+      "favorite": {
+        "title": "★ Favorites first"
+      },
+      "participants_quantity": {
+        "title": "Number of participants"
+      },
+      "total_active_proposals": {
+        "title": "Active bids"
+      },
+      "joins_count": {
+        "title": "Total bids"
+      },
+      "location": {
+        "title": "Place of delivery"
+      },
+      "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
+      "default": "Default"
+    },
+    "dates": {
+      "created": "Creation date",
+      "published": "Submission date",
+      "receive_offers_until": "Due",
+      "finished": "Completion date",
+      "canceled": "Cancelled",
+      "left": "{{value}} left"
+    },
+    "my": {
+      "title": "My requests",
+      "create": "Create request",
+      "export": "Export",
+      "manager_title": "All requests of the company"
+    },
+    "manager": {
+      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags"
+    },
+    "participantions": {
+      "title": "Manage my bids",
+      "rank": "Rank among competitors"
+    },
+    "public": {
+      "title": "Request search",
+      "until": "before",
+      "from": "from",
+      "left": "{{value}} left",
+      "tarrifs_popover": {
+        "title": "Request only for verified suppliers",
+        "text": "At the request of the customer, participants must have the status of \"Verified Supplier\"",
+        "button": "Get status",
+        "button_verified": "Verification passed"
+      }
+    },
+    "list_item": {
+      "owners": "Request owners ({{value}})",
+      "chats_tooltip": "New messages",
+      "budget": "Budget",
+      "order_price": "Order price"
+    },
+    "statistics": {
+      "proposals": "Participants with an offer",
+      "participants": "Participated"
+    },
+    "empty_list": "No results were found for your request...",
+    "private": "Closed",
+    "views_count": "Views",
+    "rank": {
+      "not_available": "Offer rank is not calculated for requests that are subject to variance by position in the offer",
+      "label": "Offer rank"
+    }
+  }
+}

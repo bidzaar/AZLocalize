@@ -1,0 +1,16 @@
+{
+  "pl": {
+    "shared": {
+      "blocked": {
+        "button": "Müştəri ilə çat"
+      },
+      "dialog": {
+        "register": "Şirkəti qeydiyyatdan keçirin",
+        "sign": "Daxil olun",
+        "text": "Seçilmişlər ProcureSaaS-da qeydiyyatdan keçmiş şirkətlərin işçiləri üçün əlçatandır.",
+        "title": "Seçilmişlər"
+      },
+      "favorites": "Seçilmişlərə"
+    }
+  }
+}

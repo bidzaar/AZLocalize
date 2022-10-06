@@ -1,0 +1,35 @@
+{
+  "cmp": {
+    "inv": {
+      "actions": {
+        "accept": "Dəvəti qəbul edin",
+        "login": "Daxil olun",
+        "next": "İrəli",
+        "profile": "Bu mənim şirkətim deyil",
+        "register": "Qeydiyyatdan Keç"
+      },
+      "header": "Şirkətə dəvət",
+      "status": {
+        "active": {
+          "title": "Siz şirkətin işçisisiniz və onun adından işləyə bilərsiniz."
+        },
+        "deleted": {
+          "text": "Hər hansı bir sualınız var? Saytın texniki dəstək komandası ilə əlaqə saxlayın.",
+          "title": "Şirkət {{ tarix }} tarixində saytı tərk etdi"
+        },
+        "refused": {
+          "text": "Hər hansı bir sualınız var? Şirkətinizin administratoru ilə əlaqə saxlayın.",
+          "title": "Sorğunuz rədd edildi"
+        },
+        "unauth": {
+          "text": "Daxil olduqdan sonra şirkətə qoşulmaq üçün müraciət edə bilərsiniz.",
+          "title": "Dəvəti qəbul etmək üçün daxil olun və ya qeydiyyatdan keçin"
+        },
+        "waiting": {
+          "text": "Şirkətin administratoru sorğunuzu təsdiqlədikdən sonra siz bu şirkət adından işləyə biləcəksiniz.",
+          "title": "Qoşulmaq üçün sorğu göndərildi"
+        }
+      }
+    }
+  }
+}

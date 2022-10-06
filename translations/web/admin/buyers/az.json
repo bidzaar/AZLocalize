@@ -1,0 +1,52 @@
+{
+  "brs": {
+    "dialogs": {
+      "remove": {
+        "cancel": "Ləğv et",
+        "submit": "Sil",
+        "title": "Alıcının kartı lövhədən çıxarılsın?"
+      }
+    },
+    "editor": {
+      "actions": {
+        "cancel": "Ləğv et",
+        "remove": "Sil",
+        "submit": "Yadda saxla"
+      },
+      "customers": {
+        "add": "Müştəri",
+        "empty": "Axtarış üçün heç bir nəticə tapılmadı.",
+        "label": "Müştəri",
+        "search": "Axtarış..."
+      },
+      "header": {
+        "title": "Alıcı kartı"
+      },
+      "index": {
+        "label": "Lövhədəki mövqe"
+      },
+      "logo": {
+        "from_file": "Fayldan",
+        "from_profile": "Profildən",
+        "label": "loqo",
+        "label_info": "PNG, JPG, ölçüsü 160×160"
+      },
+      "name": {
+        "label": "Kartın adı",
+        "placeholder": "Müştəri"
+      }
+    },
+    "list": {
+      "company": {
+        "remove": "Kartı sil"
+      },
+      "header": {
+        "create": "Alıcı əlavə edin",
+        "title": "Alıcılar"
+      },
+      "search": {
+        "placeholder": "Axtarış..."
+      }
+    }
+  }
+}

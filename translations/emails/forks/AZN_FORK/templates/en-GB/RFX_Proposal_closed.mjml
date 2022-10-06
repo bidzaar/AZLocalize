@@ -1,0 +1,34 @@
+<mjml>
+  <!-- 
+Тема: Приём предложений завершен: "@ProcedureContext.ProcedureName"
+Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
+
+Запрос переведен на этап Подведение итогов
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Прием предложений завершён</h1>
+          <p>
+            <!--<b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>-->
+            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>            
+            <br />
+            <!--<b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName-->
+            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
+		  </p>
+          <p>Прикрепить финальное коммерческое предложение или обновить документы можно в разделе <a href="@ProcedureContext.UrlProposal">"Предложение"</a>, см. пункт "Коммерческое предложение и документация". </p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

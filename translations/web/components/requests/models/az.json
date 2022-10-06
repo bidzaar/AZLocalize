@@ -1,0 +1,76 @@
+{
+  "bdz.req.models": {
+    "enums": {
+      "invited_by": {
+        "0": "Digər",
+        "1": "Sahib",
+        "2": "ProcureSaaS tərəfindən dəvət olunub"
+      },
+      "open_type": {
+        "0": "Açıq",
+        "1": "Bağlı"
+      },
+      "participant_business_status": {
+        "0": "Sifariş alındı",
+        "1": "Təklif təqdim olundu",
+        "10": "Bloklanıb",
+        "2": "Təklifin hazırlanması",
+        "3": "İlkin kvalifikasiya üçün sənədləri təqdim olunub",
+        "4": "İlkin kvalifikasiya hazırlığı ",
+        "5": "Sorğuya baxıldı",
+        "6": "Dəvətə baxıldı",
+        "7": "Dəvət edilib",
+        "8": "",
+        "9": "İmtina olunmuş iştirak"
+      },
+      "role": {
+        "0": {
+          "descr": "Sorğuya oxu rejimində baxır",
+          "name": "Auditor"
+        },
+        "1": {
+          "descr": "Qaralamanı redaktə edir",
+          "name": "Redaktor"
+        },
+        "2": {
+          "descr": "Sorğunu redaktə edir, dərc edir və tamamlayır, iştirakçıların təkliflərini nəzərdən keçirin",
+          "name": "Sahib"
+        }
+      },
+      "status": {
+        "0": "Qaralama",
+        "1": "Sorğuların qəbulu",
+        "2": "Yekunlaşdırmaq",
+        "3": "Tamamlanıb",
+        "4": "Ləğv edildi"
+      }
+    },
+    "validation": {
+      "proposal": {
+        "Process.Light.Procedure.VersionMismatch": "Sifariçşi ərizəni dəyişdi, təklifiniz artıq aktual deyil. Dəyişiklikləri nəzərdən keçirin və təklifi yeniləyin.",
+        "Process.Light.Proposal.Answers.Required": "Qeyri-qiymət təklifi meyarları tamamlanmayıb.",
+        "Process.Light.Proposal.Item.CurrencyIsNotValid": "b> {{PositionName}}. </b> Valyuta({{Currency}}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
+        "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Incorrect value of the VAT rate.",
+        "Process.Light.Proposal.Item.CustomField.Required": "<b>{{PositionName}}. </b> “{{FieldName}}” xanası doldurulmayıb",
+        "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{PositionName}}. </b> Miqdar sorğu tələblərinə uyğun deyil.",
+        "Process.Light.Proposal.Item.NonZeroCount": "<b>{{PositionName}}. </b> Yanlış miqdar. Miqdarı qeyd edin = 0.",
+        "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{PositionName}}.</b> 99 milyarddan az qiymət daxil edin.",
+        "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{PositionName}}. </b> Yanlış qiymət. Heç bir maddə yoxdursa, “Mövcud deyil” qeyd edin.",
+        "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{PositionName}}. </b> {{BaseCurrency}} ({{Price}} {{BaseCurrency}}) vahid üzrə qiymət Sifarişçi tərəfindən göstərilən vahidin  minimal qiymətindən ({{StartPrice}} {{BaseCurrency}}) aşağıdır.",
+        "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{PositionName}}. </b> {{BaseCurrency}} ({{Price}} {{BaseCurrency}}) vahid üzrə qiymət Sifarişçi tərəfindən göstərilən vahidin  maksimal qiymətindən ({{StartPrice}} {{BaseCurrency}}) yüksəkdir.",
+        "Process.Light.Proposal.Item.ZeroCount": "<b>{{PositionName}}. </b> Yanlış miqdar. Heç bir maddə yoxdursa, “Mövcud deyil” seçin.",
+        "Process.Light.Proposal.Item.ZeroPrice": "<b>{{ PositionName }}.</b> Qiymət qeyd olunmayıb.",
+        "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "<b>{{PositionName}}. </b> Qiymət qeyd olunmayıb. Heç bir maddə yoxdursa, “Mövcud deyil” seçin.",
+        "Process.Light.Proposal.MainProposalShouldBeSubmitted": "Alternativ təklif yalnız əsas təklifdən sonra təqdim edilə bilər.",
+        "Process.Light.Proposal.Price.InvalidProposalCurrency": "Təklif valyutası ({{Currency}}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilmir.",
+        "Process.Light.Proposal.Price.MaxValueExceeded": "Teklif qiyməti 99 milyarddan az olmalıdır.",
+        "Process.Light.Proposal.Price.MinValueSubceeded": "Teklif qiyməti sıfırdan çox olmalıdır.",
+        "Process.Light.Proposal.Price.RuleMismatch.Auction": "Təklifin qiyməti qiymət dəyişikliklərinin qaydasını pozur. Tövsiyə olunan qiymət: <b>{{GreaterThan}} {{BaseCurrency}} və ya daha çox</b>. Əvvəlki qiymətlə təklif təqdim etməyə icazə verilir.",
+        "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "Təklifin qiyməti qiymət dəyişikliklərinin qaydasını pozur. Tövsiyə olunan qiymət: <b>{{GreaterThan}} {{BaseCurrency}} və daha çox və ya {{LowerThan}} {{BaseCurrency}} və daha az</b>. Əvvəlki qiymətlə təklif təqdim etməyə icazə verilir.",
+        "Process.Light.Proposal.Price.RuleMismatch.Reduction": "Təklifin qiyməti qiymət dəyişikliklərinin qaydasını pozur. Tövsiyə olunan qiymət: <b>{{LowerThan}} {{BaseCurrency}} və ya daha az</b>. Əvvəlki qiymətlə təklif təqdim etməyə icazə verilir.",
+        "Process.Light.Proposal.Price.StartPrice.Auction": "Təklif qiyməti Sifarişçi tərəfindən göstərilən <b>{{LowerThan}} {{BaseCurrency}} minimal qiymətdən</b>aşağıdır.",
+        "Process.Light.Proposal.Price.StartPrice.Reduction": "Təklif qiyməti Sifarişçi tərəfindən göstərilən <b>{{GreaterThan}} {{BaseCurrency}} maksimal qiymətdən</b>yüksəkdir."
+      }
+    }
+  }
+}

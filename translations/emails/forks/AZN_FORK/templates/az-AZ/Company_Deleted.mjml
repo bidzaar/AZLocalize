@@ -1,0 +1,27 @@
+<mjml>
+  <!-- 
+Тема: 😪 @компания покинула Procure.az
+Плолучатель: все активные сотрудники компании на имейлы, указанные при логине
+
+УК удалил компанию с площадки
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Sizin şirkət ProcureSaaS-ı tərk etdi</h1>
+          <p>
+            <b>Şirkət: </b>@CompanyContext.CompanyName<br><br> Şirkətinizin inzibatçısı şirkəti Procure.SaaS platformasından silib. 😪.<br><br>Şirkəti bərpa etmək üçün <a href="@ConfigurationContext.BaseUrl">texniki dəstəyə</a> müraciət edin <br><br> <span class="small">Əməkdaşlığa görə təşəkkür edirik,<br>ProcureSaaS</span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+            <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

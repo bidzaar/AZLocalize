@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: 🏆 Вы победили в запросе!
+Получатель: сотрудники компании-участника с правом Продажина на имейлы, указанные при логине 
+
+Организатор выбрал компанию и завершил запрос
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Təbrik edirik! Sifarişçi sizi qalib seçdi!</h1>
+          <p class="p75"><b>Sizin şirkətiniz:</b> @TargetContext.CompanyName</p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.UrlConclusion">Yekun nəticələrə keçin</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p><b>Sorğu:</b>@ProcedureContext.ProcedureName
+            <br /><b>Sifarişçi:</b>@ProcedureContext.ProcedureOwnerCompanyName
+          </p><br />
+          <p class="small"><b>🎉ProcureSaaS komandası sorğuda qalib gəlməyiniz münasibəti ilə təbrik edir!</b><br />Xidmət Operatorunun komissiyasının məbləği və ödənilməsi qaydası sorğunun “Təklif” bölməsində göstərilən tarifə və İstifadəçi müqaviləsinə uyğun olaraq müəyyən edilir. <a href="https://Procure.az.com/landing/user-agreement/#:~:text=%D0%9F%D0%BE%D1%80%D1%8F%D0%B4%D0%BE%D0%BA%20%D0%B8%20%D1%83%D1%81%D0%BB%D0%BE%D0%B2%D0%B8%D1%8F%20%D0%BE%D0%BF%D0%BB%D0%B0%D1%82%D1%8B">İstifadəçi müqaviləsi</a>.<br /> Tezliklə sizinlə əlaqə saxlayacağıq.<br />Gözləyə bilmirsiniz? Bizə zəng edin:(+994 12) 1111111, və ya  <a href="mailto:>billing@Procure.az.com">info@procure.az.</a> elektron ünvana yazın.</p>
+          <mj-divider></mj-divider>
+        </mj-text>
+        
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

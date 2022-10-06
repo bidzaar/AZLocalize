@@ -1,0 +1,52 @@
+{
+  "brs": {
+    "list": {
+      "header": {
+        "title": "Purchasers",
+        "create": "Add purchaser"
+      },
+      "search": {
+        "placeholder": "Search..."
+      },
+      "company": {
+        "remove": "Remove card"
+      }
+    },
+    "editor": {
+      "header": {
+        "title": "Purchaser card"
+      },
+      "name": {
+        "label": "Card's name",
+        "placeholder": "Customer"
+      },
+      "index": {
+        "label": "Position on the board"
+      },
+      "customers": {
+        "label": "Customer",
+        "search": "Search...",
+        "add": "customer",
+        "empty": "No results were found for your search."
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "remove": "Remove",
+        "submit": "Save"
+      },
+      "logo": {
+        "label": "Logo",
+        "label_info": "PNG, JPG, size 160×160",
+        "from_file": "From file",
+        "from_profile": "From profile"
+      }
+    },
+    "dialogs": {
+      "remove": {
+        "title": "Remove purchaser's card from board?",
+        "cancel": "Cancel",
+        "submit": "Remove"
+      }
+    }
+  }
+}

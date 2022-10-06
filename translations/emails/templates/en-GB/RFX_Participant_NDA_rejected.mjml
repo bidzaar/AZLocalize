@@ -1,0 +1,33 @@
+<mjml>
+  <!-- 
+Тема: Заявка на участию отклонена
+Получатель: сотрудники компании-участника с правом Продажина на имейлы, указанные при логине 
+
+Организатор отклонил заявку участника после рассмотрения заявки на предквалификацию / NDA
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h1 style="color: #CB0C00">Pre-qualification request rejected</h1>
+          <h2>@TargetContext.CompanyName's pre-qualification request was rejected</h2>
+          <p>
+            <b>Bid request:</b> @ProcedureContext.ProcedureName <br />
+            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate </p>
+          <p>The reason for the rejection is specified in the bid request chat. Please update your pre-qualification application and send it again.</p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">View bid request</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

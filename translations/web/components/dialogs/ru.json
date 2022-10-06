@@ -1,0 +1,28 @@
+{
+  "bdz.dlg": {
+    "confirmation": {
+      "actions": {
+        "cancel": "НЕТ",
+        "submit": "ДА"
+      },
+      "error": {
+        "title": "Не удалось выполнить действие",
+        "text": "Повторите действие еще раз. Если ошибка повторяется, то обратитесь в техподдержку"
+      }
+    },
+    "notification": {
+      "actions": {
+        "confirm": "OK"
+      }
+    },
+    "date": {
+      "actions": {
+        "cancel": "Отмена",
+        "submit": "Сохранить",
+        "clear": "Очистить дату",
+        "clearCancel": "Отмена",
+        "clearSubmit": "Очистить"
+      }
+    }
+  }
+}

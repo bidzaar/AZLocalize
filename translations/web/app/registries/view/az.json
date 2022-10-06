@@ -1,0 +1,87 @@
+{
+  "rgs": {
+    "view": {
+      "questionnaire_version_status": {
+        "1": "Qaralama",
+        "2": "Aktual",
+        "3": "hərəkətə keçdi",
+        "4": "Qüvvəyə minir"
+      },
+      "settings": {
+        "main": {
+          "company": {
+            "profile": "Profil"
+          },
+          "contact": {
+            "description": "Əməkdaşın əlaqə məlumatları təqdim olunmayıb",
+            "edit": "Düzəliş et",
+            "title": "Əlaqəli şəxs",
+            "tooltip": "Əlaqə məlumatları reyestr iştrakçılarına dəvət qəbul olunandan sonra əlçatan olacaq"
+          },
+          "descr": {
+            "placeholder": "",
+            "title": "Təsvir"
+          },
+          "files": {
+            "title": "Sənədlər",
+            "upload": "Reyestr sənədlərini yükləyin"
+          },
+          "name": {
+            "placeholder": "Reyestr adı"
+          },
+          "related": {
+            "append": {
+              "submit": "Əlavə edin",
+              "title": "Dərc edilmiş reyestr əlavə edin"
+            },
+            "description": "Reyestrə müraciət etmək üçün şirkət əlaqədər reystrlərdə akkreditasiya almalıdır",
+            "remove": "Sil",
+            "title": "Tələblər",
+            "upload": "Əlaqədar dərc edilmiş reyestrləri seçin"
+          }
+        },
+        "parameters": {
+          "approval": {
+            "label": "Reyestrə daxil etmə üsulu",
+            "options": {
+              "accreditation": {
+                "decline": {
+                  "label": "Skorinq-qiymətləndirmənin nəticələrinə əsasən müraciəti imtina edin"
+                },
+                "groups": {
+                  "configure": "Tənzimləmək",
+                  "empty": "Akkreditasiya komissiyası müəyyən edilməyib"
+                },
+                "score": {
+                  "label": "Komissiya tərəfindən baxılmaq üçün müraciətin minimal skorinq qiymətləndirilməsi",
+                  "value": "Komissiya  təqdim edilməsi üçün  müraciətin minimal skorinq qiymətləndirilməsi: {{value}}"
+                }
+              },
+              "scoring": {
+                "score": {
+                  "label": "Reyestrdə daxil olmaq üçün minimal bal qiymətləndirilməsi",
+                  "value": "Reyestrdə daxil olmaq üçün minimal bal qiymətləndirilməsi: {{value}}"
+                }
+              }
+            }
+          },
+          "language": {
+            "description": "İştirakçıların bildirişi alacağı dil",
+            "label": "Bildiriş dili",
+            "snack_message": "Bildiriş dili dəyişdirildi"
+          },
+          "title": "Ayarlar",
+          "validity": {
+            "infinite": "Müddətsiz",
+            "label": "Reyestrdə akkreditasiya müddəti",
+            "notice": "0-müddətsiz",
+            "unit": "ay"
+          },
+          "visibility": {
+            "label": "1.\tReyestrin görünüşü"
+          }
+        }
+      }
+    }
+  }
+}

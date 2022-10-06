@@ -1,0 +1,19 @@
+{
+  "req.positions": {
+    "title": "Position specification",
+    "price": {
+      "auction": {
+        "label": "Minimum price",
+        "tooltip": "The lowest price for an item that a supplier can offer / The supplier cannot offer a lower price"
+      },
+      "reduction": {
+        "label": "Maximum price",
+        "tooltip": "The highest price for an item that a supplier can offer / Supplier cannot exceed the specified price"
+      },
+      "price_up_down": {
+        "label": "Expected price",
+        "tooltip": "Price per item expected from the supplier / Customer expects the specified price or less"
+      }
+    }
+  }
+}

@@ -1,0 +1,78 @@
+{
+  "cgr": {
+    "view": {
+      "dialogs": {
+        "block": {
+          "cancel": "Ləğv et",
+          "error": "Qrupu silmək uğursuz oldu. Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın",
+          "submit": "Sil",
+          "success": "Qrup silindi",
+          "text": "Hərəkət geri qaytarıla bilər",
+          "title": "Qrupu silin"
+        },
+        "demote_self": {
+          "cancel": "Ləğv et",
+          "submit": "Davam edin",
+          "text": "Qrup liderinin hüququnu özünüzdən çıxarırsınız. Hüquqları bərpa etmək üçün “Qrup meneceri” icazəsi ilə şirkət işçisinə müraciət edin ",
+          "title": "Diqqət!"
+        },
+        "remove_user": {
+          "cancel": "Ləğv et",
+          "submit": "Sil",
+          "text": "",
+          "title": "İşçini qrupdan çıxarın"
+        },
+        "unblock": {
+          "cancel": "Ləğv et",
+          "error": "Qrupu bərpa etmək alınmadı. Yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstək ilə əlaqə saxlayın",
+          "submit": "Bərpa edin",
+          "success": "Qrup bərpa olundu",
+          "text": "",
+          "title": "Qrupu bərpa edin"
+        }
+      },
+      "general": {
+        "description": {
+          "label": "Qrup təsviri",
+          "placeholder": "Qrupun ümumi təsviri..."
+        }
+      },
+      "header": {
+        "actions": {
+          "block": "Qrupu sil (geri çevrilə bilən hərəkət)",
+          "unblock": "Qrupu bərpa edin"
+        },
+        "marks": {
+          "blocked": "Qrup silindi"
+        }
+      },
+      "users": {
+        "actions": {
+          "append": "İşçi əlavə edin",
+          "appoint_manager": "Menecer hüquqlarını təyin edin",
+          "remove": "İşçini çıxarın",
+          "remove_manager": "Menecer hüquqlarını silin"
+        },
+        "empty": {
+          "text": "Qrup işçilərinin siyahısı formalaşmır",
+          "title": "Heç bir işçi əlavə olunmadı"
+        },
+        "header": "Qrup üzvləri",
+        "item": {
+          "marks": {
+            "manager": "Qrup lideri"
+          }
+        }
+      }
+    }
+  },
+  "errors": {
+    "logic": {
+      "UserManagement": {
+        "Group": {
+          "AlreadyExist": "Bu adda qrup artıq mövcuddur"
+        }
+      }
+    }
+  }
+}

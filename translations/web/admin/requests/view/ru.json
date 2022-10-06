@@ -1,0 +1,9 @@
+{
+  "req.view": {
+    "tabs": {
+      "details": "Запрос",
+      "participants": "Участники",
+      "events": "Журнал"
+    }
+  }
+}

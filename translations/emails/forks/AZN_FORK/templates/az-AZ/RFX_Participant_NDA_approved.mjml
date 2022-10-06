@@ -1,0 +1,32 @@
+<mjml>
+  <!-- 
+Тема: Заявка на участие одобрена
+Получатель: сотрудники компании-участника с правом Продажина на имейлы, указанные при логине 
+
+Организатор допустил участника к запросу после рассмотрения заявки на предквалификацию / NDA
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h1>İştirak üçün müraciət təsdiqlənib</h1>
+          <h2>@TargetContext.CompanyName şirkəti ilkin kvalifikasiyanı keçdi və sorğuya təklif göndərə bilər</h2>
+          <p>
+            <b>Sorğu:</b> @ProcedureContext.ProcedureName <br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Təklif qəbulunun son tarixi:</b> @ProcedureContext.AcceptanceEndDate </p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.UrlProposal">Sorğuya keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

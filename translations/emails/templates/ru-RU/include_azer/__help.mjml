@@ -1,0 +1,13 @@
+    <!-- help -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Нужна помощь?</h2>
+                <ul>
+                    <li>Узнайте, <a href="https://www.notion.so/d41d9ef68ec14f89bbce2890c2ddec08">как работать на Bidzaar ►</a></li>
+                    <li>Техническая поддержка площадки: <a href="tel:+74951208133">+7 (495) 120-81-33</a></li>
+               </ul>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /help -->

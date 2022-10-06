@@ -1,0 +1,56 @@
+{
+  "controls": {
+    "list": {
+      "total": "Всего: {{value}}"
+    }
+  },
+  "errors": {
+    "common": {
+      "default": "An error has occurred. Please contact your administrator"
+    },
+    "http": {
+      "status": {
+        "400": "bad request",
+        "401": "Your session has expired. Please reload the page or login again",
+        "403": "access denied",
+        "404": "resource not found",
+        "405": "method not allowed",
+        "408": "request timeout",
+        "409": "invalid data",
+        "413": "file is too large",
+        "500": "internal server error",
+        "501": "not implemented",
+        "502": "bad gateway",
+        "503": "service unavailable",
+        "504": "gateway timeout"
+      }
+    },
+    "logic": {
+      "default": "An error has occurred. Please contact your administrator"
+    }
+  },
+  "user_management": {
+    "badges": {
+      "filter": {
+        "empty": "Badges not found",
+        "search": "Search...",
+        "show": "Show badges"
+      }
+    }
+  },
+  "validation": {
+    "file_too_large": "File is to large",
+    "greater_than": "Value must be greater than {{value}}",
+    "invalid_date_format": "Invalid date format",
+    "less_than": "Value must be less than {{value}}",
+    "max": "Maximum value is {{value}}",
+    "max_length": "Maximum length is {{value}}",
+    "min": "Minimum value is {{value}}",
+    "min_length": "Minimum length is {{value}}",
+    "notEmpty": "Field must not be empty",
+    "required": "Required field",
+    "unsupported_file_format": "Unsupported file format",
+    "wrong_code": "Wrong code",
+    "wrong_format": "Wrong format"
+  }
+}

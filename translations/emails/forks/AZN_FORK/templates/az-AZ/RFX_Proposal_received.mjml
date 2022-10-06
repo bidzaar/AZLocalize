@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: Получено новое предложение
+Получатель: члены команды запроса
+
+Участник подал первое предложение
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Yeni təklif alınıb</h1>
+          <p>Təchizatçi sizin sorğuya yeni təklif göndərib:<br/> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
+          <p><b>Təchizatçı:</b> @CompanyContext.CompanyName<br/>
+            <b>Göndərilib:</b> @ProposalContext.DateTime<br/>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Təklifə keç</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+      <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

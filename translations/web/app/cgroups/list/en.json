@@ -1,0 +1,105 @@
+{
+  "cgr": {
+    "list": {
+      "header": {
+        "title": "Group of companies"
+      },
+      "empty": {
+        "title": "There are no groups yet",
+        "text": "Groups allow you to collect companies into lists to control access to information from your company profile"
+      },
+      "search": {
+        "tooltip": "Search is carried out by fields:\n• Group name\n• Company name in the group"
+      },
+      "sorting": {
+        "name": {
+          "title": "Name"
+        },
+        "last_changes": {
+          "title": "Date of change"
+        },
+        "creation_date": {
+          "title": "Date of creation"
+        },
+        "count": {
+          "title": "Number of participants"
+        }
+      },
+      "filters": {
+        "last_changes": {
+          "title": "Date of change"
+        },
+        "creation_date": {
+          "title": "Date of creation"
+        },
+        "my": {
+          "title": "Only my groups",
+          "options": {
+            "true": "Yes",
+            "false": "No"
+          }
+        },
+        "blocked": {
+          "title": "Show deactivated groups",
+          "options": {
+            "true": "Yes",
+            "false": "No"
+          }
+        },
+        "users": {
+          "title": "Group members"
+        },
+        "empty": "No results were found for your request"
+      },
+      "item": {
+        "dates": {
+          "created": "Created {{ value }}",
+          "changed": "Changed {{ value }}",
+          "separator": "•"
+        },
+        "marks": {
+          "member": "You are in a group",
+          "blocked": "Group has been deleted"
+        },
+        "team": {
+          "tooltip": "Group member",
+          "count": "+{{value}}"
+        },
+        "companies": {
+          "empty": "No companies added"
+        },
+        "actions": {
+          "view": {
+            "title": "Settings"
+          }
+        }
+      },
+      "actions": {
+        "create": "Create group"
+      },
+      "dialogs": {
+        "create": {
+          "header": "Create group",
+          "form": {
+            "label": "Group name"
+          },
+          "errors": {
+            "duplicate": {
+              "reason": "A group with this name already exists",
+              "notice": "Enter another name"
+            },
+            "default": {
+              "reason": "The group has not been created.",
+              "notice": "Please try again or try again later. If the problem persists, contact technical support"
+            }
+          },
+          "actions": {
+            "cancel": "Cancel",
+            "submit": "Create"
+          },
+          "snack": "The group has been created. Now you can add employees and assign team leader"
+        }
+      }
+    }
+  }
+}

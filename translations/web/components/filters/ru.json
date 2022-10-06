@@ -1,0 +1,67 @@
+{
+  "filters": {
+    "clear": "Очистить",
+    "clear_all": "Очистить",
+    "filter": "Фильтровать",
+    "more_filters": "Больше фильтров",
+    "operators": {
+      "date_after": "Дата после",
+      "date_before": "Дата до",
+      "equal": "Равно",
+      "exact_date": "Точная дата",
+      "greater_than": "Больше",
+      "greater_than_or_equal": "Больше или равно",
+      "less_than": "Меньше",
+      "less_than_or_equal": "Меньше или равно",
+      "not_equal": "Не равно",
+      "period": "Период",
+      "range": "В диапазоне"
+    },
+    "placeholders": {
+      "start": "Начало",
+      "end": "Конец",
+      "enter_number": "Укажите число",
+      "enter_text_value": "Укажите текстовое значение",
+      "from": "От",
+      "to": "До",
+      "date": "Дата"
+    },
+    "search": "Найти...",
+    "show": "Показать фильтры",
+    "hide": "Скрыть фильтры",
+    "tooltip": "Поиск осуществляется по следующим полям: {{value}}",
+    "sorting": "Сортировать",
+    "any": "Любой",
+    "more": "Еще",
+    "collapse": "Свернуть",
+    "panel": {
+      "title": "Фильтры",
+      "clear_all": "Очистить все",
+      "apply_filters": "Применить",
+      "save": "Сохранить"
+    },
+    "queries": {
+      "title": "Сохраненные фильтры: {{value}}",
+      "save_dialog": {
+        "title": "Сохранить фильтр",
+        "name": "Название фильтра",
+        "cancel": "Отмена",
+        "save": "Сохранить",
+        "default_name": "Новый фильтр",
+        "save_success": "Фильтр сохранён"
+      },
+      "delete_dialog": {
+        "title": "Удалить фильтр?",
+        "cancel": "Отмена",
+        "delete": "Удалить"
+      },
+      "delete_snack": "Фильтр удалён"
+    },
+    "datasource": {
+      "search": "Поиск...",
+      "empty": "По вашему запросу ничего не найдено",
+      "collapse": "Скрыть",
+      "expand": "Показать все ({{value}})"
+    }
+  }
+}

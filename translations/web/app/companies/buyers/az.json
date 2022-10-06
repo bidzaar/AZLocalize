@@ -1,0 +1,19 @@
+{
+  "cmp": {
+    "brs": {
+      "company": {
+        "link": "Sorğulara keçin"
+      },
+      "footer": {
+        "all": "Bütün müştəriləri göstərin"
+      },
+      "list": {
+        "empty": "Sorğunuz üçün heç bir nəticə tapılmadı...",
+        "title": "Alıcılar"
+      },
+      "search": {
+        "placeholder": "Axtarış..."
+      }
+    }
+  }
+}
