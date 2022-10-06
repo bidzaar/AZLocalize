@@ -4,10 +4,10 @@
       "1": "Sifarişçi",
       "2": "Təchizatçı",
       "4": "Akkreditasiyalar",
-      "8": "Qrupların idrarə edilməsi",
+      "8": "Qrupların idarə edilməsi",
       "256": "Qrupların idarə olunması",
-      "512": "Reyestrlar",
-      "2048": "[AT] Hovuz akkreditasiya"
+      "512": "Reyestrlər",
+      "2048": "Qruplarda Akkreditasiyalar"
     }
   },
   "controls": {
@@ -27,7 +27,7 @@
       "requests": "Sorğular",
       "stop_list": "Teqlərin stop-siyahısı",
       "team": "Komanda",
-      "tariffs": "[AT] Tarif paketləri"
+      "tariffs": "Tarif paketləri"
     },
     "user_toolbar": {
       "login": "Daxil ol",
@@ -129,7 +129,7 @@
     "min": "Minimum dəyər: {{value}}",
     "min_length": "Minimal uzunluq {{value}}",
     "notEmpty": "Sahə boş olmamalıdır",
-    "required": "Tələb edilən sahə",
+    "required": "Tələb edilən xana",
     "unsupported_file_format": "Dəstəklənməyən fayl formatı",
     "wrong_code": "Səhv kod",
     "wrong_format": "Səhv format"

@@ -2,18 +2,18 @@
   "trf.cms.list": {
     "header": {
       "title": "Tarif paketləri",
-      "add": "Gediş haqqı paketi əlavə et"
+      "add": "Tarif paketləri əlavə et"
     },
     "package": {
-      "customers": "Заказчики",
-      "label": "Редактировать"
+      "customers": "Sifarişçilər",
+      "label": "Redaktə et"
     },
     "dialog": {
-      "title": "Пакет тарифов",
-      "input": "Наименование пакета",
-      "add": "Готово",
-      "cancel": "Отмена"
+      "title": "Tarif paketləri",
+      "input": "Paketin adı",
+      "add": "HAZIRDI",
+      "cancel": "LƏĞV ET"
     },
-    "empty": "Список пуст"
+    "empty": "Siyahı boşdu"
   }
 }

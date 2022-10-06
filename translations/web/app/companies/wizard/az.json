@@ -128,13 +128,13 @@
               }
             },
             "roles": {
-              "header": "Bidzaarda nə edəcəksiniz?",
+              "header": "ProcureSaaS-da nə edəcəksiniz?",
               "purchaser": {
                 "notice": "Mən mal və ya xidmətlər təqdim edəcəm",
                 "title": "Təchizatçı təşkilat"
               },
               "seller": {
-                "notice": "Mən mal və xidmət sataceyəm",
+                "notice": "Mən mal və xidmət sifariş edəceyəm",
                 "title": "Satınalan təşkilat"
               }
             },

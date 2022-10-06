@@ -4,15 +4,15 @@
       "content": {
         "setting": {
           "custom": {
-            "sub_text": "Serverinizdə nasazlıq olarsa, Bidzaar sizi xəbərdar edəcək və ünvanlara dəvət göndərəcək.",
+            "sub_text": "Serverinizdə nasazlıq olarsa, ProcureSaas sizi xəbərdar edəcək və ünvanlara dəvət göndərəcək.",
             "text": "Ünvanlar şirkətinizdən məktublar alırlar (Göndərən sahəsində şirkətin poçtu).",
             "title": "Poçt serveriniz vasitəsilə dəvət edin"
           },
           "default": {
             "btn": "Test ismarıcı göndər",
             "settings": "Server ayarları",
-            "text": "Ünvanlar Bidzaar-dan dəvət alırlar (noreply@bidzaar.com Göndərən sahəsində)",
-            "title": "Bidzaar vasitəsilə dəvət"
+            "text": "Ünvanlar ProcureSaas-dan dəvət alırlar (noreply@procure.az Göndərən xanada)",
+            "title": "ProcureSaas vasitəsilə dəvət"
           }
         },
         "title": "Dəvətlərin sorğulara necə göndəriləcəyini fərdiləşdirin"

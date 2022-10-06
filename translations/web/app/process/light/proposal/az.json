@@ -6,7 +6,7 @@
         "title": "Təkliflərin qəbulu "
       },
       "actions": {
-        "refuse": "İştrakdan imtina et"
+        "refuse": "İştirakdan imtina et"
       },
       "alternative": {
         "info": "Alternativ təklif hazırlamağa başlamaq üçün aşağıdakı düyməyə klikləyin.",
@@ -14,8 +14,8 @@
         "title": "Alternativ təklif"
       },
       "blocked": {
-        "sub_title": "Müştərinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
-        "title": "Müştəri sizi sorğusundan kənarlaşdırdı"
+        "sub_title": "Sifarişçinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün sifarişçi ilə əlaqə saxlayın",
+        "title": "Sifarişçi sizi sorğusundan kənarlaşdırdı"
       },
       "card": {
         "actions": {
@@ -29,7 +29,7 @@
         },
         "documents": {
           "action": "Əlavə et",
-          "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Müştərilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
+          "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Sifarişçilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
           "sub_title": "Sənədlər: {{value}}",
           "title": "Kommersiya təklifi və sənədlər"
         },
@@ -92,16 +92,16 @@
           "empty": "Sənədlər yüklənməyib"
         },
         "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
-        "files_title": "NDA-nın ilkin qiymətləndirməsi üçün müraciət sənədləri",
+        "files_title": "İlkin kvalifikasiya mərhələsini qiymətləndirməsi üçün müraciət sənədləri",
         "send": "Göndər",
         "title": {
-          "accepted": "İlkin qiymətləndirmə/NDA keçdi",
-          "draft": "İlkin qiymətləndirmə / NDA",
-          "failed": "İlkin qiymətləndirmə / NDA uğursuz oldu",
-          "rejected": "İlkin qiymətləndirmə / NDA. Müraciətiniz imtina olundu",
-          "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır"
+          "accepted": "İlkin qiymətləndirmə mərhəəsini keçdi",
+          "draft": "İlkin qiymətləndirmə mərhələsi",
+          "failed": "İlkin qiymətləndirmə mərhələsi uğursuz oldu",
+          "rejected": "İlkin qiymətləndirmə mərhələsi. Müraciətiniz imtina olundu",
+          "submitted": "İlkin qiymətləndirmə mərhələsi. Müraciətiniz baxılır"
         },
-        "your_application": "İlkin qiymətləndirmə üçün müraciət / NDA"
+        "your_application": "İlkin qiymətləndirmə mərhələsi üçün müraciət"
       },
       "nonexistent": {
         "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",

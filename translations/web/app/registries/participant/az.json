@@ -39,7 +39,7 @@
           },
           "5": {
             "advice": "<b>Məsləhət:</b> Akkreditasiya üçün yeni müraciət hazırlayın.",
-            "title": "Akkreditasiya müddəti başa çatıb"
+            "title": "Akkreditasiya bitib"
           },
           "6": {
             "reason": "<b>Səbəb:</b> {{ reason }}",
@@ -99,7 +99,7 @@
           "submit": "Müraciət et",
           "success_snack": "Müraciət baxılmaq üçün göndərilib",
           "text": "Reyestr akkreditasiyası üçün müraciət edirsiniz?",
-          "title": "Müraciət edin"
+          "title": "Müraciət et"
         }
       }
     }

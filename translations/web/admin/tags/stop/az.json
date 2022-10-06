@@ -3,12 +3,12 @@
     "confirmation_dialog": {
       "add": "Əlavə et\n",
       "cancel": "Ləğv et",
-      "text": "• Artıq dayanma teqlərində mövcud olan teqlər nəzərə alınmayacaq\n• Dayanma teqlərinə əlavə edilmiş teqlər buluddan, sorğulardan, reyestrlərdən, şirkət profillərindən silinəcək",
-      "title": "Teqləri dayanma teqlərinə əlavə edin"
+      "text": "• Artıq stop teqlərdə mövcud olan teqlər nəzərə alınmayacaq\n• Stop teqlərə əlavə edilmiş teqlər buluddan, sorğulardan, reyestrlərdən, şirkət profillərindən silinəcək",
+      "title": "Teqləri stop teqlərə əlavə edin"
     },
     "empty_list": "Teqlər əlavə edilməyib",
     "header": {
-      "title": "Dayanma teqlərin siyahısı"
+      "title": "Stop teqlərin siyahısı"
     },
     "manual_tags_dialog": {
       "cancel": "Ləğv et",

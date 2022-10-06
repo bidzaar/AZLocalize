@@ -42,7 +42,7 @@
           "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
         },
         "defaults": {
-          "group": "Yeni qrup",
+          "group": "Yeni bölmə",
           "input": "Yeni sual",
           "select": "Yeni sual"
         },
@@ -50,7 +50,7 @@
           "comment": "Təsvir (məcburi deyil)",
           "text": "Sualın mətni",
           "type": "Cavab növü",
-          "group": "[AT] Bölmə adı"
+          "group": "Bölmə adı"
         },
         "logic": {
           "add_go_to": "Keçid əlavə edin",

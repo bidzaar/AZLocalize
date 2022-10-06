@@ -80,11 +80,11 @@
           "tooltip": "iştirakçının təklif qiymətinin gözlənilən səviyyəsi"
         },
         "participants_visibility": {
-          "label": "iştirakçılar nə görürlər"
+          "label": "iştirakçılar Tender zamanı nə görürlər"
         },
         "reduction_price": {
           "errors": {
-            "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • təklifin həcmi = tam məmnunluq\n • iştirakçılar nə görür = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya hərrac",
+            "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • təklifin həcmi = tam məmnunluq\n • iştirakçılar Tender zamanı nə görürlər = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya auksion",
             "step_over_start_price": "dəyişiklik addımı maksimum qiyməti aşır",
             "step_range_absolute": "valyuta dəyişiklik meydança üçündür: 0.01-100.000",
             "step_range_percent": "faiz dəyişiklik addım üçündür: 0,01-10"

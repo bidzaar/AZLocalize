@@ -9,15 +9,15 @@
       "defaults": {
         "description": "Tenderlərdə iştirak etmək üçün müvafiq malların təchizatı, işlərin görülməsi, xidmətlərin göstərilməsi üçün müvafiq ixtisasa və resurslara malik, müvafiq sahədə təcrübəsi, oxşar layihələrin həyata keçirilməsi təcrübəsi olan, habelə tender sənədlərində göstərilən digər tələblərə cavab verən təchizatçıları dəvət edirik.",
         "pools": {
-          "placeholder": "Şirkət Bidzaar-da baza dərc etməyib :(",
+          "placeholder": "Şirkət ProcureSaas-da baza dərc etməyib :(",
           "title": "Təchizatçı bazası"
         },
         "registries": {
-          "placeholder": "Şirkət Bidzaar-da reyestrləri dərc etməyib :(",
+          "placeholder": "Şirkət ProcureSaas-da reyestrləri dərc etməyib :(",
           "title": "Reyestrlər"
         },
         "tenders": {
-          "placeholder": "Şirkət Bidzaar-da tenderlər dərc etməyib :(",
+          "placeholder": "Şirkət ProcureSaas-da tenderlər dərc etməyib :(",
           "title": "Tenderlər"
         },
         "title": "Şirkətin təchizatçıları üçün satınalma bölməsi"
@@ -112,7 +112,7 @@
             "header": "Təchizatçı bazası",
             "notice": {
               "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "Bidzaar-da nəşr olunan təchizatçı bazası."
+              "title": "ProcureSaas-da nəşr olunan təchizatçı bazası."
             }
           },
           "registries": {
@@ -123,7 +123,7 @@
             "header": "Reyestrlər",
             "notice": {
               "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "Bidzaar-da nəşr olunan registrlər."
+              "title": "ProcureSaas-da nəşr olunan registrlər."
             }
           },
           "tenders": {
@@ -134,7 +134,7 @@
             "header": "Tenderlər",
             "notice": {
               "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "Bidzaarda dərc edilmiş Tenderlər"
+              "title": "ProcureSaasda dərc edilmiş Tenderlər"
             }
           },
           "title": {

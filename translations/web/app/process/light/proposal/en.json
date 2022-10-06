@@ -3,16 +3,16 @@
     "proposal": {
       "nda": {
         "title": {
-          "draft": "Prequalification / NDA",
-          "submitted": "Prequalification / NDA: application pending",
-          "rejected": "Prequalification / NDA: application rejected",
-          "accepted": "Prequalification / NDA passed",
-          "failed": "Prequalification / NDA failed"
+          "draft": "Prequalification Stage",
+          "submitted": "Prequalification Stage: application pending",
+          "rejected": "Prequalification Stage: application rejected",
+          "accepted": "Prequalification Stage passed",
+          "failed": "Prequalification Stage failed"
         },
         "description": "Description of prequalification",
-        "files_title": "NDA prequalification application documents",
+        "files_title": "Prequalification stage application documents",
         "files_info": "Upload the documents for review/filling out",
-        "your_application": "Your application for prequalification / NDA",
+        "your_application": "Your application for prequalification stage",
         "add_files_text": "Add signed agreement and other required documents",
         "add_files_update_text": "Add updated agreement and other required documents",
         "send": "Send",

@@ -22,9 +22,9 @@
       }
     },
     "markers": {
-      "nda": "NDA",
+      "nda": "İlkin kvalifikasiya",
       "verify": "Yoxlanılmışlar üçün",
-      "private": "[AT] Qapalı sorğu"
+      "private": "Qapalı sorğu"
     },
     "responsible": {
       "assign": "Məsul şəxsi təyin edin",
@@ -32,7 +32,7 @@
       "remove": "Sil"
     },
     "status": {
-      "since": ".",
+      "since": " ",
       "until": "kimi"
     },
     "timer": {

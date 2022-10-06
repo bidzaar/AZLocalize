@@ -47,14 +47,14 @@
         "1": "İngilis"
       },
       "other_participants_visibility": {
-        "0": "Yalnız öz təklifiniz",
-        "1": "Təklifinizin yalnız dərəcəsi (yeri).",
-        "2": "Rəqiblərin təklifləri - bəli, adlar - xeyir",
-        "3": "Rəqiblərin təklifləri və adları"
+        "0": "Yalnız öz təkliflərini",
+        "1": "Təkliflərin yalnız dərəcəsini",
+        "2": "Rəqiblərin təkliflərini - görürlər, adlarını - görmürlər",
+        "3": "Rəqiblərin təkliflərini və adlarını"
       },
       "owner_visibility": {
         "0": "İştirakçıların təkliflərini görür",
-        "1": "İştirakçıların təklifinin məzmununu görmür"
+        "1": "İştirakçıların təkliflərinin məzmununu görmür"
       },
       "participant_business_status": {
         "0": {
@@ -70,12 +70,12 @@
           "tooltip": "Təchizatçı tələb əsasında təklif hazırlayır"
         },
         "3": {
-          "name": "İlkin kvalifikasiya sənədləri/NDA təqdim edilmişdir",
-          "tooltip": "Təchizatçı ilkin kvalifikasiya/NDA üçün sənədlər təqdim etdi və qəbulla bağlı qərarınızı gözləyir"
+          "name": "İlkin kvalifikasiya mərhələsi üçün sənədlər təqdim edilmişdir",
+          "tooltip": "Təchizatçı ilkin kvalifikasiya mərhələsi üçün sənədlər təqdim etdi və qəbulla bağlı qərarınızı gözləyir"
         },
         "4": {
-          "name": "İlkin kvalifikasiyaya hazırlıq/NDA",
-          "tooltip": "Təchizatçı ilkin kvalifikasiya üçün sənədlər hazırlayır / NDA"
+          "name": "İlkin kvalifikasiyaya mərhələsinə hazırlıq",
+          "tooltip": "Təchizatçı ilkin kvalifikasiya mərhələsi üçün sənədlər hazırlayır"
         },
         "5": {
           "name": "Müraciətlə tanış olub",
@@ -124,7 +124,7 @@
         "0": "Qaralama",
         "1": "Təkliflərin qəbulu",
         "2": "Yekunlaşdırma",
-        "3": "Tamamlandı",
+        "3": "Tamamlanıb",
         "4": "Ləğv edilib"
       },
       "type_of_change": {
@@ -141,9 +141,9 @@
         "true": "ƏDV daxil"
       },
       "invited_by": {
-        "0": "[AT] Digər",
-        "1": "[AT] Sahib",
-        "2": "[AT] Bazar yeri"
+        "0": " Digər",
+        "1": "Sahib",
+        "2": "Biznes yeri"
       }
     },
     "view": {
@@ -244,7 +244,7 @@
           "no_files": "Fayllar yüklənməyib",
           "participant_documents": "İştirakçı sənədləri",
           "participant_documents_dialog": "Təklif sənədləri",
-          "participant_nda_documents": "Kassa mədaxil orderi/NDA"
+          "participant_nda_documents": "İlkin kvalifikasiya sənədləri"
         },
         "export_list": {
           "order": "Sifariş",
@@ -350,8 +350,8 @@
           "has_vat": "ƏDV daxil",
           "no_vat": "ƏDV-siz ",
           "not_specified": "Qeyd edilməmişdir",
-          "price_for_unit": "Sorğu valyutasında vahid üçün hədəf dəyəri ",
-          "price_not_specified": "Qiymət qeyd olunmayıb",
+          "price_for_unit": "Sorğunun valyutasında vahidin hədəf qiyməti ",
+          "price_not_specified": "Qiymət Təyin edilməyib",
           "request": "Müraciət"
         },
         "position_proposal_dialog": {
@@ -369,7 +369,7 @@
           "has_vat": " ƏDV daxil qiymətlər",
           "in_order": "Sifarişdə:",
           "my_request": "Mənim müraciətim",
-          "no_price": "Qiymət qeyd olunmayıb",
+          "no_price": "Qiymət Təyin edilməyib",
           "no_vat": "ƏDV-siz",
           "order": "Sifariş",
           "proposal": {
@@ -455,7 +455,7 @@
         },
         "offers": {
           "header": {
-            "comparison": "Müqayisəli masa Yükləyin",
+            "comparison": "Müqayisə cədvəlimi yüklə",
             "all-receipt": "Yükləmə qaydası"
           },
           "options": {
@@ -527,7 +527,7 @@
               "1": {
                 "columns": {
                   "8": "Miqdar",
-                  "16": "Vahid üçün qiymət",
+                  "16": "Vahidin qiyməti",
                   "32": "Cəmi",
                   "64": "ƏDV",
                   "128": "Cəmi",
@@ -599,7 +599,7 @@
         },
         "participant_nda": {
           "empty": "Heçbir sənəd təqdim edilməyib",
-          "title": "İlkin kvalifikasiya üçün sənədlər / NDA"
+          "title": "İlkin kvalifikasiya üçün sənədlər"
         },
         "requisites": {
           "contact_person": "Əlaqəli şəxs",
@@ -628,15 +628,15 @@
         },
         "validation": {
           "title": {
-            "0": "Submit request",
-            "1": "Publish changes",
-            "2": "Publish stage"
+            "0": "Sorğunu təsdiqlə",
+            "1": "Dəyişiklikləri dərc et",
+            "2": "Mərhələni dərc et"
           },
-          "invalid": "Please correct the errors and re-publish",
+          "invalid": "Səhvləri düzəldin və yenidən dərc edin",
           "actions": {
-            "report": "What's changed?",
-            "cancel": "Cancel",
-            "submit": "Publish",
+            "report": "Dəyişiklər",
+            "cancel": "Bağla",
+            "submit": "Dərc et",
             "close": "OK"
           },
           "changes": {
@@ -695,7 +695,7 @@
             "NdaEnabled": {
               "NoData": {
                 "notice": "mərhələ təsviri və ya sənədlər göstərilməmişdir",
-                "title": "İlkin kvalifikasiya / NDA mərhələsi"
+                "title": "İlkin kvalifikasiya mərhələsi"
               }
             },
             "Positions": {
@@ -722,20 +722,20 @@
             },
             "Tariff": {
               "NotActive": {
-                "title": "[AT] Etibarsız sorğu tarifi göstərilmişdir",
+                "title": "Etibarsız sorğu tarifi göstərilmişdir",
                 "notice": ""
               }
             },
             "NewStageCreated": {
-              "notice": "[AT] Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
-              "title": "[AT] Təkliflərin qəbulu başa çatıb, yekun sorğu"
+              "notice": "Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
+              "title": "Təkliflərin qəbulu başa çatıb, yekun sorğu"
             }
           },
           "comment": {
-            "title": "Comment for stage participants:",
-            "placeholder": "Comment...",
-            "error": "Required field",
-            "hint": "For example: “Rebidding”, “Submission of final offers”"
+            "title": "Mərhələ iştirakçıları üçün şərh:",
+            "placeholder": "Şərh...",
+            "error": "Tələb olunan xana",
+            "hint": "Məsələn: “Son təkliflərin təqdim edilməsi”"
           }
         },
         "vat": {
@@ -869,7 +869,7 @@
           },
           "position": {
             "request": "Sorğu",
-            "startPrice": "Vahid üçün başlanğıc qiymət"
+            "startPrice": "Vahidin başlanğıc qiyməti"
           },
           "table": {
             "header": {
@@ -891,7 +891,7 @@
               },
               "price": {
                 "hint": "Vahidin maksimal qiyməti -{{value}}",
-                "label": "Vahid üçün qiymət",
+                "label": "Vahidin qiyməti",
                 "max": "Vahid qiyməti maksimumdan yuxarıdır ",
                 "vat": {
                   "false": "ƏDV-siz",
@@ -911,7 +911,7 @@
           "botzaar": {
             "actions": {
               "cancelProposal": {
-                "description": "Dəyişikliklərdən imtina edin, bu, əvvəllər təqdim edilmiş təklifə təsir etməyəcək.",
+                "description": "Dəyişikliklərdən imtina edin, bu əvvəllər təqdim edilmiş təklifə təsir etməyəcək.",
                 "title": "Dəyişiklikləri ləğv et"
               },
               "changeProposal": {
@@ -979,10 +979,10 @@
                 "message": "Sorğu tamamlandı."
               },
               "nda_pending": {
-                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "nda_submitted": {
-                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "refused": {
                 "message": "Təşkilatçı təklifinizi nəzərə almayıb."
@@ -1007,10 +1007,10 @@
                 "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
               },
               "nda_pending": {
-                "message": "İlkin kvalifikasiya/ NDA üçün sənədləri təqdim edin.  Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                "message": "İlkin kvalifikasiya mərhələsi üçün sənədləri təqdim edin.  Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
               },
               "nda_submitted": {
-                "message": "{{statusChangedDate}} tarixində təqdim edilmiş ilkin kvalifikasiya/NDA sənədləri. Sifarişçinin qəbulla bağlı qərarından sonra siz təklif hazırlayıb təqdim edə biləcəksiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                "message": "{{statusChangedDate}} tarixində təqdim edilmiş ilkin kvalifikasiya mərhələsi üçün sənədlər. Sifarişçinin qəbulla bağlı qərarından sonra siz təklif hazırlayıb təqdim edə biləcəksiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
               },
               "refused": {
                 "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
@@ -1032,10 +1032,10 @@
                 "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
               },
               "nda_pending": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "nda_submitted": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "refused": {
                 "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
@@ -1081,7 +1081,7 @@
             "nda": {
               "empty": "Sənədlər yüklənməyib",
               "submit": "Göndər",
-              "title": "İlkin kvalifikasiya üçün sənədlər / NDA",
+              "title": "İlkin kvalifikasiya üçün sənədlər",
               "upload_document": "Sənədləri yükləyin"
             },
             "positions": {
@@ -1215,7 +1215,7 @@
                   "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price}} {{ BaseCurrency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə minimum qiymətdən aşağıdır ({{ StartPrice }} {{ BaseCurrency }}).",
                   "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) üzrə Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə maksimum qiyməti ({{ StartPrice }} {{ BaseCurrency }}) keçir.",
                   "Process.Light.Proposal.Item.ZeroCount": "<b>{{positionName}}.</b> Yanlış miqdar. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
-                  "Process.Light.Proposal.Item.ZeroPrice": "<b>{{positionName}}.</b> Qiymət qeyd olunmayıb.",
+                  "Process.Light.Proposal.Item.ZeroPrice": "<b>{{positionName}}.</b> Qiymət Təyin edilməyib.",
                   "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "<b>{{positionName}}.</b> Qiymət göstərilməyib. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
                   "Process.Light.Proposal.MainProposalShouldBeSubmitted": "Alternativ təklif əsas təklif təqdim edildikdən sonra verilir.",
                   "Process.Light.Proposal.Price.InvalidProposalCurrency": "Təklif valyutası ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
@@ -1456,7 +1456,7 @@
               "button": "Platformadan"
             },
             "invite_site_tags": {
-              "button": "Sorğu teqləri ilə Platformadan",
+              "button": "Platformadan sorğu teqləri ilə",
               "no": "Sorğu teqləri təyin edin",
               "text": "İştirakçıları teqlərlə dəvət etmək üçün sorğunun təsvirində teqləri təyin edin.",
               "title": "Sorğu teqləri təyin olunmayıb",
@@ -1464,7 +1464,7 @@
             },
             "nda": {
               "decision": "Qəbul et",
-              "request": "İlkin Kvalifikasiya Sənədləri / NDA",
+              "request": "İlkin Kvalifikasiya Mərhələsi üçün Sənədlər",
               "title": "Təsvir və sənədlər"
             },
             "notify_many": {
@@ -1510,7 +1510,7 @@
               "title": "İştirakçının statusu"
             },
             "invited_by": {
-              "title": "[AT] tərəfindən dəvət edilmişdir"
+              "title": "tərəfindən dəvət edilmişdir"
             }
           },
           "forbidden": {
@@ -1579,19 +1579,19 @@
             "name": "Ad",
             "name_desc": "Ad və təsvir",
             "new_field": "Sütün yarat",
-            "price": "Vahid üçün qiymət",
+            "price": "Vahidin qiyməti",
             "price-hint": "Seçərkən səmt göstərən qiyməti qeyd edin. Qiymət yalnız sizə göstərilir - istifadəçilər onu görməyəcək.",
             "price_up_down": {
-              "label": "Gözlənilən vahid üçün qiymət",
+              "label": "Vahidin gözlənilən  qiyməti",
               "tooltip": "Təchizatçıdan gözlənilən hər bir maddə üzrə qiymət / Sifarişçi müəyyən edilmiş və ya daha aşağı qiymət gözləyir"
             },
             "reduction": {
               "label": "Vahidin maksimal qiyməti",
               "tooltip": "Təchizatçının təklif edə biləcəyi maddə üçün ən yüksək qiymət / Təchizatçı göstərilən qiyməti keçə bilməz"
             },
-            "startPrice": "Vahid üçün başlanğıc qiymət",
+            "startPrice": "Vahidin başlanğıc qiyməti",
             "startPriceHint": "Sorğu parametri -ƏDV-ni nəzərə almaqla vahid üzrə Auksionun/Reduksionun ilkin qiyməti ",
-            "targetCost": "Vahid üçün hədəf qiymət",
+            "targetCost": "Vahidin hədəf qiyməti",
             "target_cost_tooltip": "Seçərkən səmt göstərən qiyməti qeyd edin. Qiymət yalnız sizə göstərilir - iştirakçılar onu görməyəcək.",
             "unit": "Ölçü vahidi",
             "vat": "ƏDV dərəcəsi"
@@ -1672,8 +1672,8 @@
             "expectedPrice": "Gözlənilən qiymət",
             "name": "Ad",
             "reduction": "Maksimum qiymət",
-            "startPrice": "Vahid üçün başlanğıc qiymət",
-            "targetCost": "Vahid üçün hədəf dəyəri",
+            "startPrice": "Vahidin başlanğıc qiyməti",
+            "targetCost": "Vahidin hədəf qiyməti",
             "unit": "Ölçü vahidi"
           },
           "title": "Maddə"
@@ -2009,10 +2009,10 @@
                 }
               },
               "nda_pending": {
-                "message": "İlkin kvalifikasiya / NDA üçün sənədlərinizi təqdim edin. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qalıb)."
+                "message": "İlkin kvalifikasiya mərhələsi üçün sənədlərinizi təqdim edin. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qalıb)."
               },
               "nda_submitted": {
-                "message": "{{statusChangedDate}} tarixində NDA Sənədləri təqdim edildi. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qaldı)."
+                "message": "{{statusChangedDate}} tarixində İlkin kvalifikasiya mərhələsi üçün Sənədlər təqdim edildi. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qaldı)."
               },
               "refused": {
                 "message": "Sorğudan imtina etdiniz. {{acceptanceEndDate}} tarixinə qədər ( {{acceptanceEndDays}} qalıb) yenidən iştirak edə bilərsiniz)."
@@ -2048,10 +2048,10 @@
                 }
               },
               "nda_pending": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya / NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "nda_submitted": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya / NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "refused": {
                 "message": "Sorğudan imtina etdiniz."
@@ -2112,25 +2112,25 @@
           "nda": {
             "other": {
               "description": {
-                "title": "İlkin kvalifikasiyanın/NDA təsviri"
+                "title": "İlkin kvalifikasiya mərhələsinin təsviri"
               },
               "files": {
-                "title": "İlkin kvalifikasiya sənədləri / NDA"
+                "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
               },
-              "stub": "SORĞUNUN TAM SƏNƏDLƏRİ İLKİN KVALİFİKASİYA/ NDA MƏRHƏLƏSİNİ KEÇƏNDƏN SONRA MÜMKÜN OLACAQ"
+              "stub": "SORĞUNUN TAM SƏNƏDLƏRİNİ İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇDİKDƏN SONRA ƏLDƏ ETMƏK MÜMKÜN OLACAQ"
             },
             "owner": {
               "description": {
-                "placeholder": "İlkin kvalifikasiyadan keçmək üçün iştirakçıdan nə tələb olunduğunu təsvir edin / NDA",
-                "title": "İlkin kvalifikasiyanın/NDA təsviri"
+                "placeholder": "İlkin kvalifikasiya mərhələsindən keçmək üçün iştirakçıdan nə tələb olunduğunu təsvir edin",
+                "title": "İlkin kvalifikasiya mərhələsinin təsviri"
               },
               "files": {
                 "description": "Faylları yükləyin (25 Mb-a qədər fayl)",
-                "title": "İlkin kvalifikasiya sənədləri / NDA"
+                "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
               },
               "helper": "Sənədlərə və sorğunun spesifikasiyasına giriş imkanı iştirakçılara yalnız sizin təsdiqinizdən sonra təqdim olunacaq.",
-              "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA/NDA KEÇƏNƏ QƏDƏR İSTİFADƏÇİLƏRDƏN GİZLƏNƏCƏK.",
-              "title": "İlkin kvalifikasiya/NDA imzalama addımını aktivləşdirin"
+              "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇƏNƏ QƏDƏR İSTİFADƏÇİLƏRDƏN GİZLƏNƏCƏK.",
+              "title": "İlkin kvalifikasiya mərhələsinin keçmə addımını aktivləşdirin"
             }
           },
           "positions": {
@@ -2181,13 +2181,13 @@
             },
             "expected_price": {
               "label": "Gözlənilən qiymət",
-              "placeholder": "Qurulmayıb",
+              "placeholder": "Təyin edilməyib",
               "tooltip": "Gözlənilən iddiaçı qiymət səviyyəsi"
             },
             "participants_visibility": {
-              "label": "İştirakçılar nə görürlər"
+              "label": "İştirakçılar Tender zamanı nə görə bilər"
             },
-            "price_null": "Qeyd olunmayıb",
+            "price_null": "Təyin edilməyib",
             "reduction_price": {
               "errors": {
                 "best_price_unavailable": "\"Ən yaxşı təklif\" dəyəri aşağıdakı hallarda mövcuddur: \n• Təklifin həcmi = Tam məmnunluq \n• İştirakçıların gördükləri = Rəqiblərin təkliflərini \n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion",
@@ -2207,7 +2207,7 @@
                 "label": "Minimum təklif qiyməti",
                 "tooltip": "Təchizatçının ən aşağı təklif qiyməti"
               },
-              "placeholder": "Qurulmayıb",
+              "placeholder": "Təyin edilməyib",
               "reduction": {
                 "label": "Maksimum təklif qiyməti",
                 "tooltip": "Təchizatçının ən yüksək təklif qiyməti"
@@ -2226,7 +2226,7 @@
               "description": "gün təkliflərin qəbulu üçün son tarixdən sonra",
               "label": "Yekunlaşdırma üçün təxmini son tarix",
               "tooltip": "Sorğunun iştirakçıları müəyyən edilmiş vaxtda tender komissiyasının qərarını gözləyəcəklər",
-              "value_null": "Qeyd olunmayıb"
+              "value_null": "Təyin edilməyib"
             },
             "currency": {
               "allow_dialog": {
@@ -2269,14 +2269,14 @@
               "label": "Təklif qəbulunun avtomatik uzadılması",
               "minutes": "dəq.",
               "time-left": "Mərhələnin sonu",
-              "tooltip": "İştirakçı  təkliflər qəbulunun son tarixinədək müəyyən edilmiş vaxtda təklif edtikdə istifadə olunur.\n99 dəqiqəyə qədər uzadılma mümkündür, 0 - uzadılma mövcud olmayacaq"
+              "tooltip": "İştirakçı  təkliflər qəbulunun son tarixinədək müəyyən edilmiş vaxtda təklif etdikdə istifadə olunur.\n99 dəqiqəyə qədər uzadılma mümkündür, 0 - uzadılma mövcud olmayacaq"
             },
             "title": "Aparılma qaydaları",
             "vat": {
               "label": "Qalib seçərkən, nəzərə alınır",
               "options": {
                 "false": "ƏDV-siz qiymət",
-                "none": "Qeyd olunmayıb",
+                "none": "Təyin edilməyib",
                 "true": "ƏDV daxil qiymət"
               }
             },
@@ -2290,28 +2290,28 @@
               "text": "Yalnız yoxlanılmış təchizatçılar"
             },
             "tariff": {
-              "label": "[AT] Tarif",
-              "description": "[AT] Tarif yalnız layihə mərhələsində dəyişdirilə bilər",
-              "tooltip": "[AT] Sorğu tarifini daxil edin, bu, təchizatçıların Komissiyasının ölçüsündən asılı olacaq",
-              "change": "[AT] Dəyişdirmək",
+              "label": "Tarif",
+              "description": "Tarif yalnız layihə mərhələsində dəyişdirilə bilər",
+              "tooltip": "Sorğu tarifini daxil edin, bu, təchizatçıların Komissiyasının ölçüsündən asılı olacaq",
+              "change": "Dəyişdirmək",
               "free": {
-                "title": "[AT] Sizin şirkət üçün qapalı sorğular pulsuz keçirilir",
-                "description": "[AT] Sorğu nəticəsində qalib komissiya hesablanmayacaq"
+                "title": "Sizin şirkət üçün qapalı sorğular pulsuz keçirilir",
+                "description": "Sorğu nəticəsində qalib üçün komissiya hesablanmayacaq"
               },
               "none": {
-                "title": "[AT] Tarif seçilmiş deyil",
+                "title": "Tarif seçilməyib",
                 "description": ""
               },
               "expired": {
                 "title": "",
-                "description": "[AT] Cari tarif artıq fəaliyyət göstərir meydançada"
+                "description": "Cari tarif artıq Platformada fəaliyyət göstərmir"
               }
             }
           },
           "new_parameter": "Yeni parametr"
         },
         "promo_participants": {
-          "count": "{{ count }} təchizatçı",
+          "count": " təchizatçıların  {{ count }} ",
           "invite": "İştirak etməyə dəvət et",
           "recommend": "ProcureSaaS tövsiyə edir",
           "success": "təchizatçılar iştirakçılar siyahısına  əlavə edildi"
@@ -2408,14 +2408,14 @@
         "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
         "updated": "Sorğu yeniləndi",
         "version_created": "Qaralama yaradıldı",
-        "request_published": "[AT] Sorğu nəşr olunur",
-        "stage_published": "[AT] Mərhələ nəşr olunur",
-        "changes_published": "[AT] Dəyişikliklər nəşr"
+        "request_published": "Sorğu dərc olunur",
+        "stage_published": "Mərhələ dərc olunur",
+        "changes_published": " Dəyişikliklər dərc olunur"
       },
       "status": {
         "0": "Qaralama",
         "1": "Təkliflərin qəbulu",
-        "2": "Təkliflərin qəbulu bitdi, yekunlşdırma sorğusu",
+        "2": "Yekunlşdırma",
         "3": "Sorğu tamamlandı",
         "4": "Sorğu ləğv edildi",
         "until": "{{ date }} kimi"

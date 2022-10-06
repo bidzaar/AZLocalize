@@ -239,7 +239,7 @@
         "empty": "Hazırda heç bir mesaj yoxdur",
         "empty_description": "İlk mesajınızı göndərin",
         "header": {
-          "owner": "İştrakçılar ilə çat",
+          "owner": "İştirakçılar ilə çat",
           "participant": "Təşkilatçı ilə çat"
         }
       },
@@ -282,7 +282,7 @@
         "clear": "Sıfırla",
         "end": "Son",
         "filter": "Filtrdən keçird",
-        "from": ".",
+        "from": " ",
         "operators": {
           "date_after": "Sonrakı tarix",
           "date_before": "Əvvəlki tarix",
@@ -424,7 +424,7 @@
     "orders": {
       "count": "Şirkətiniz sifarişlər aldı",
       "empty": "Qeyd olunan vaxt aralığında sifarişlər tapılmadı",
-      "from": ".",
+      "from": " ",
       "sum": "məbləğində satınalmalar:"
     },
     "promo": {
@@ -595,7 +595,7 @@
           "NotInvited": "istifadəçi statusu “Dəvət olunub”",
           "NotWaitingForApprove": "istifadəçi statusda deyil \"Təstiq gözləyir\"",
           "WaitingForApprove": "istifadəçi statusu \"Təstiq gözləyir\"",
-          "AnotherUserExists": "[AT] Şirkətin digər əməkdaşları var. Phantom yaradılması mümkün deyil."
+          "AnotherUserExists": "Şirkətin digər əməkdaşları var. Phantom yaradılması mümkün deyil."
         },
         "VerifiedCompanyAlreadyExists": "Bu VÖEN-nə malik şirkət artıq mövcuddur"
       },
@@ -619,8 +619,8 @@
       "description": "fayl təsviri",
       "placeholder": "təsviri",
       "save": "Yadda saxla",
-      "label": "[AT] Təsvir",
-      "title": "[AT] Fayl təsviri"
+      "label": "Təsvir",
+      "title": "Fayl təsviri"
     },
     "tooltips": {
       "add": "Əlavə et",
@@ -641,8 +641,8 @@
     "delete": "Sil",
     "error": {
       "error_format": "Yanlış şəkil formatı. jpg, png, gif və ya bmp yükləyin",
-      "extension": "[AT] Yanlış şəkil formatı. Jpg, png, gıf və ya bmp-ni yükləyin",
-      "size": "[AT] Max. fayl ölçüsü-1.5 MB"
+      "extension": "Yanlış şəkil formatı. Jpg, png, gıf və ya bmp-ni yükləyin",
+      "size": "Maksimal fayl ölçüsü-1.5 MB"
     },
     "replace": "Əvəz edin",
     "upload": "Yükləmək"
@@ -824,7 +824,7 @@
   },
   "no_company": {
     "add": {
-      "add_company": "şirkət tapın və ya yaradın",
+      "add_company": "şirkətinizi tapın və ya yaradın",
       "text": "Şirkətinizə əməkdaş kimi qoşulun. Əgər şirkətiniz hələ qeydiyyatdan keçməyibsə - bir neçə addıma qeydiyyatdan keçin.",
       "title": "Şirkətinizi tapın və ya ProcureSaaS-da qeydiyyatdan keçin"
     },
@@ -874,7 +874,7 @@
             "my-proposal-archive": "sizin təklifiniz",
             "proposal-archive": "iştirakçının təklifi",
             "receipt-archive": "iştirakçının sifarişi",
-            "comparison": "[AT] müqayisə masa"
+            "comparison": "müqayisə cədvəlini"
           }
         },
         "registry_reports": {
@@ -900,7 +900,7 @@
     "cart": {
       "clear_order": "sorğunu təmizlə",
       "complete": "sorğunu tamamla",
-      "from": "dən",
+      "from": " ",
       "positions": "maddələr",
       "total": "cəmi"
     },
@@ -933,7 +933,7 @@
       "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
       "submit": "Klonlaşdırmaq",
       "team": "Komanda",
-      "nda": "[AT] NDA"
+      "nda": "İlkin kvalifikasiya mərhələsi"
     },
     "common": {
       "documents": "təchizatçı üçün sənədlər",
@@ -959,7 +959,7 @@
       "purchasing_manager": {
         "item": {
           "statistics": {
-            "joins_count": "İştrak etdilər",
+            "joins_count": "İştirak etdilər",
             "participants_quantity": "Dəvət olunmuşlar daxil olmaqla bütün iştrakçılar",
             "total_active_proposals": "Qəbul olunmuş təkliflər"
           }
@@ -1179,7 +1179,7 @@
               },
               "block": {
                 "description": "Bloklanmış iştirakçı akkreditasiyada iştirak edə bilməyəcək.",
-                "title": "İştrakçını blokla"
+                "title": "İştirakçını blokla"
               },
               "reject": {
                 "description": "İştirakçıların akkreditasiyası geri qaytarılacaq",
@@ -1442,7 +1442,7 @@
           "invited": "dəvət edilib",
           "participant_refused": "imtina etdi",
           "rejected_by_owner": "akkreditasiya geri çağrılıb",
-          "blocked": "[AT] bloklanmış"
+          "blocked": "bloklanmış"
         },
         "title": "İştirakçılar",
         "tooltips": {
@@ -1596,52 +1596,52 @@
             },
             "actions": {
               "authorize": {
-                "description": "[AT] Qeydiyyatdan keçin və ya akkreditasiya prosedurunda iştirak etmək və akkreditə edilmiş təchizatçı statusunu almaq üçün daxil olun",
-                "title": "[AT] Qeydiyyat və giriş"
+                "description": "Akkreditasiya prosedurunda iştirak etmək və akkreditasiya olunmuş təchizatçı statusunu almaq üçün qeydiyyatdan keçin və ya  daxil olun",
+                "title": "Qeydiyyat və giriş"
               },
               "blockPool": {
-                "description": "[AT] İştirakçıların anketləri keçirmək üçün mövcud olmayacaq. Hərəkət geri çevrilir.",
-                "title": "[AT] Hovuz kilidi"
+                "description": "İştirakçıların anketlərini nəzərdən keçirmək mümkün olmayacaq. Hərəkət geri qaytarıla bilər",
+                "title": "Qrupu blokla"
               },
               "cancelChanges": {
-                "description": "[AT] Bütün dəyişikliklər ləğv olunacaq. Anket son aktiv vəziyyətə qaytarılacaq.",
-                "title": "[AT] Dəyişikliklər qaytar"
+                "description": "Bütün dəyişikliklər ləğv olunacaq. Anket son aktiv vəziyyətə qaytarılacaq.",
+                "title": "Dəyişiklikləri ləğv et"
               },
               "createCompany": {
-                "description": "[AT] Bir şirkətə qeydiyyatdan keçin və ya əvvəllər həmkarınız tərəfindən həyata keçirildikdə qeydiyyatdan keçmiş şirkətə qoşulun.",
-                "title": "[AT] Sizin şirkət qeydiyyatdan"
+                "description": "Şirkətinizi qeydiyyatdan keçirdin və ya artıq qeydiyyatdan keçmiş şirkətə qoşulun.",
+                "title": "Şirkətinizi qeydiyyatdan keçirin"
               },
               "deletePool": {
-                "description": "[AT] Layihə, nəşr olunan havuzdan fərqli olaraq, irretrievably çıxarılır.",
-                "title": "[AT] Qaralama sil"
+                "description": "Qaralama dərc olunan qrupdan fərqli olaraq, qeri qaytarılmadan silinir",
+                "title": "Qaralamanı sil"
               },
               "editPool": {
-                "description": "[AT] Anket dəyişdirildikdə iştirakçılar hovuzda akkreditə olunmuş statuslarını itirəcəklər. Statusun bərpası üçün iştirakçılara edilən dəyişikliklər nəzərə alınmaqla ərizə təqdim etmək lazımdır. Dəyişikliklər ləğv edilə bilər, bu halda iştirakçıların akkreditasiyası statusu əvvəlki kimi qalacaq.",
-                "title": "[AT] Anket dəyişdirin"
+                "description": "Anket dəyişdirildikdə iştirakçılar hovuzda akkreditə olunmuş statuslarını itirəcəklər. Statusun bərpası üçün iştirakçılara edilən dəyişikliklər nəzərə alınmaqla ərizə təqdim etmək lazımdır. Dəyişikliklər ləğv edilə bilər, bu halda iştirakçıların akkreditasiyası statusu əvvəlki kimi qalacaq.",
+                "title": "Anket dəyişdirin"
               },
               "joinPool": {
-                "description": "[AT] Etibarlı təchizatçı ol. Ərizəni doldurun və onu nəzərdən keçirin.",
-                "title": "[AT] Akkreditasiyaya başlamaq"
+                "description": "Etibarlı təchizatçı ol. Ərizəni doldurun və onu nəzərdən keçirin.",
+                "title": "Akkreditasiyaya başlamaq"
               },
               "openParticipants": {
-                "description": "[AT] Hovuz şirkətlərinin siyahısını açın.",
-                "title": "[AT] Təchizatçı siyahısı"
+                "description": "Qrup şirkətlərinin siyahısını açın.",
+                "title": "Təchizatçı siyahısı"
               },
               "openRequest": {
-                "description": "[AT] Akkreditasiya ərizənizi açın.",
-                "title": "[AT] Açıq ərizə"
+                "description": "Akkreditasiya müraciətinizi açın.",
+                "title": "Müraciəti aç"
               },
               "publishChanges": {
-                "description": "[AT] Anketdə dəyişiklikləri dərc edin. İştirakçılar anketin dəyişdirilmiş və yeni suallarına cavab verməlidirlər.",
-                "title": "[AT] Dərc et"
+                "description": "Anketdə dəyişiklikləri dərc edin. İştirakçılar anketin dəyişdirilmiş və yeni suallara cavab verməlidirlər.",
+                "title": "Dərc et"
               },
               "publishPool": {
-                "description": "[AT] Akkreditasiya hovuzu iştirakçıları dəvət etmək üçün təqdim olunacaq.",
-                "title": "[AT] Dərc et"
+                "description": "Akkreditasiya qrupu iştirakçıları dəvət etmək üçün təqdim olunacaq.",
+                "title": "Dərc et"
               },
               "restorePool": {
-                "description": "[AT] Hovuz bərpa olunacaq. İştirakçıların anket mövcud olacaq.",
-                "title": "[AT] Bərpa et"
+                "description": "Qrup bərpa olunacaq. İştirakçıların anket mövcud olacaq.",
+                "title": "Bərpa et"
               }
             }
           },
@@ -2243,8 +2243,8 @@
         "description": {
           "header": "Şirkətin təsviri",
           "label": "Təsvir",
-          "placeholder": "Şirkətin təsvirini əlavə edin: fəaliyyət növü, təcrübə sahəsi, iş təcrübəsi",
-          "title": "[AT] Şirkətin təsviri əlavə edin: nə işlə məşğul olursunuz, ixtisaslaşma, iş təcrübəsi"
+          "placeholder": "Şirkətin təsvirini əlavə edin: fəaliyyət növü, təcrübə sahəsi",
+          "title": "Şirkətin təsvirini əlavə edin: nə işlə məşğul olursunuz, ixtisaslaşma, iş təcrübəsi"
         },
         "dialogs": {
           "remove_image": {
@@ -2271,7 +2271,7 @@
         "name": {
           "header": "Brend",
           "label": "Şirkət adı.",
-          "title": "[AT] Şirkətin adı meydançadadır ki, kontragentlər sizi tanısınlar."
+          "title": "Kontragentlər sizi tanımaq üçün Platformada şirkətinizin adını qeyd edin"
         },
         "phone": {
           "comment": "Şərh",
@@ -2354,10 +2354,10 @@
               },
               "orders": {
                 "title": "Sifarişlər",
-                "tooltip": "Satınalma müsabiqələrində iştrakı nəticəsində şirkətin əldə etdiyi sifarişlərin sayı"
+                "tooltip": "Satınalma müsabiqələrində iştirakı nəticəsində şirkətin əldə etdiyi sifarişlərin sayı"
               },
               "participations": {
-                "title": "İştrak",
+                "title": "İştirak",
                 "tooltip": "Şirkətin iştirak etdiyi satınalma müsabiqələrinin sayı"
               }
             },
@@ -2522,10 +2522,10 @@
         "requisites": {
           "success": {
             "false": "Şirkətin rekvizitləri yenilənəcək",
-            "true": "Yaxın gələcəkdə şirkət rekvizitləri yoxlanılacaq"
+            "true": "Şirkət rekvizitləri tezliklə yoxlanılacaq"
           },
           "title": "Rekvizitlər",
-          "edit": "[AT] Redaktə etmək"
+          "edit": "Redaktə etmək"
         },
         "tags": {
           "add": "Teqlər əlavə et",
@@ -2610,8 +2610,8 @@
           "short": "Reyestr rəhbəri"
         },
         "2048": {
-          "short": "[AT] Akkreditivin tələbi. hovuz",
-          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+          "short": "Akkreditasiya qrupunun sorğusu.",
+          "long": "Qupda akkreditasiya üçün müraciətlərin verilməsi"
         }
       },
       "role": {
@@ -2708,118 +2708,118 @@
     },
     "public_profile": {
       "actions": {
-        "create": "[AT] ictimai səhifə yaradın",
-        "link": "[AT] link alın",
-        "preview": "[AT] baxış öncəsi"
+        "create": "ictimai səhifə yaradın",
+        "link": "link alın",
+        "preview": "Öncədən baxış"
       },
       "defaults": {
-        "description": "[AT] Müvafiq malların göndərilməsi, işlərin görülməsi, xidmətlərin göstərilməsi üçün müvafiq sahədə təcrübəyə, analoji layihələrin həyata keçirilməsi təcrübəsinə, ixtisas və resurslara, habelə tender sənədlərində göstərilən digər tələblərə uyğun olan təchizatçılar tenderlərdə iştirak etməyə dəvət olunurlar.",
+        "description": "Müvafiq malların göndərilməsi, işlərin görülməsi, xidmətlərin göstərilməsi üçün müvafiq sahədə təcrübəyə, analoji layihələrin həyata keçirilməsi təcrübəsinə, ixtisas və resurslara, habelə tender sənədlərində göstərilən digər tələblərə uyğun olan təchizatçılar tenderlərdə iştirak etməyə dəvət olunurlar.",
         "pools": {
-          "placeholder": "[AT] Şirkət Bidzaar üzrə təchizatçı hovuz dərc etməyib: (",
-          "title": "[AT] Pools şirkəti təchizatçıları"
+          "placeholder": "Şirkət ProcureSaaS-da təchizatçı qrupu dərc etməyib: (",
+          "title": "Şirkətin təchizatçılar qrupu"
         },
         "tenders": {
-          "placeholder": "[AT] İndi şirkətin Bidzaar üçün aktiv sorğuları yoxdur: (",
-          "title": "[AT] Açıq sorğu"
+          "placeholder": "İndi şirkətin ProcureSaaS-da aktiv sorğuları yoxdur: (",
+          "title": "Açıq sorğu"
         },
-        "title": "[AT] Şirkət təchizatçıları üçün satınalma bölməsi"
+        "title": "Şirkət təchizatçıları üçün satınalma bölməsi"
       },
       "empty": {
-        "message_primary": "[AT] şirkətin ictimai səhifəsini yaradın",
-        "message_secondary": "[AT] partnyorlara öz açıq sorğularını və təchizatçıların hovuzlarını göstərin, tenderlərdə iştirakın qayda və şərtlərini, aldığınız mal və xidmətləri, tender komissiyasının əlaqə məlumatlarını göstərin..."
+        "message_primary": "Şirkətin ictimai səhifəsini yaradın",
+        "message_secondary": "partnyorlara öz açıq sorğularınızı və təchizatçıların qruplarını göstərin, tenderlərdə iştirakın qayda və şərtlərini, aldığınız mal və xidmətləri, tender komissiyasının əlaqə məlumatlarını göstərin"
       },
       "profile": {
         "editor": {
           "description": {
-            "header": "[AT] Təchizatçılar üçün Block məlumat",
-            "title": "[AT] Təchizatçılar üçün məlumat"
+            "header": "Təchizatçılar üçün Block məlumat",
+            "title": "Təchizatçılar üçün məlumat"
           },
           "pools": {
-            "header": "[AT] Block hovuz təchizatçıları şirkət",
-            "placeholder": "[AT] Siyahı boş olduqda mesaj",
-            "show": "[AT] İctimai səhifədə bloku göstərin",
-            "show_if_empty": "[AT] Siyahı boş olduqda bloku göstərin",
-            "title": "[AT] Pools şirkəti təchizatçıları"
+            "header": "Şirkətin block qrup təchizatçıları",
+            "placeholder": "Siyahı boş olduqda mesaj",
+            "show": "İctimai səhifədə bloku göstərin",
+            "show_if_empty": "Siyahı boş olduqda bloku göstərin",
+            "title": "Şirkətin qrup təchizatçıları"
           },
           "tenders": {
-            "header": "[AT] Açıq sorğu block",
-            "placeholder": "[AT] Siyahı boş olduqda mesaj",
-            "show": "[AT] İctimai səhifədə bloku göstərin",
-            "show_if_empty": "[AT] Siyahı boş olduqda bloku göstərin",
-            "title": "[AT] Açıq sorğu"
+            "header": "çıq sorğu bloku",
+            "placeholder": "Siyahı boş olduqda mesaj",
+            "show": "İctimai səhifədə bloku göstərin",
+            "show_if_empty": "Siyahı boş olduqda bloku göstərin",
+            "title": "Açıq sorğu"
           },
           "title": {
-            "header": "[AT] Səhifə başlığı block",
-            "title": "[AT] Səhifə başlığı"
+            "header": "Səhifə başlığı bloku",
+            "title": "Səhifə başlığı"
           }
         },
         "viewer": {
           "description": {
             "empty": {
-              "message_primary": "[AT] Təchizatçılar üçün məlumat",
-              "message_secondary": "[AT] Təchizatçıların tenderlərdə iştirak qaydaları və şərtlərini, hansı mal və ya xidmətləri göstərin\nsiz satın, tender komissiyasının əlaqə..."
+              "message_primary": "Təchizatçılar üçün məlumat",
+              "message_secondary": "Təchizatçıların tenderlərdə iştirak qaydaları və şərtlərini, hansı mal və ya xidmətləri alırsınız\n, tender komissiya ilə əlaqə..."
             },
-            "header": "[AT] potensial təchizatçılar üçün məlumat"
+            "header": "Potensial təchizatçılar üçün məlumat"
           },
           "files": {
             "empty": {
-              "message_primary": "[AT] Təchizatçılar üçün sənədlər əlavə edin",
-              "message_secondary": "[AT] Məsələn, iştirak və təkliflərin verilməsi Qaydaları,\nSorğuların aparılması qaydası..."
+              "message_primary": "Təchizatçılar üçün sənədlər əlavə edin",
+              "message_secondary": "Məsələn, iştirak və təkliflərin verilməsi qaydaları,\nSorğuların aparılması qaydası..."
             },
-            "header": "[AT] təchizatçılar üçün sənədlər"
+            "header": "Təchizatçılar üçün sənədlər"
           },
           "links": {
-            "header": "[AT] İctimai səhifəyə keçid",
+            "header": "İctimai səhifəyə keçid",
             "iframe": {
               "action": {
-                "copy": "[AT] Kodu seçin və panoya kopyalamaq üçün Ctrl + C düyməsini basın"
+                "copy": "Kodu seçin və panoya kopyalamaq üçün Ctrl + C düyməsini basın"
               },
               "options": {
-                "page": "[AT] İctimai səhifə",
-                "pools": "[AT] Pools təchizatçıları",
-                "tenders": "[AT] Açıq sorğu"
+                "page": "İctimai səhifə",
+                "pools": "Qrup təchizatçıları",
+                "tenders": "Açıq sorğu"
               },
-              "title": "[AT] İframe üçün kod"
+              "title": "İframe üçün kod"
             },
             "page": {
               "action": {
-                "copy": "[AT] Bağlantıyı basın və basın Ctrl + C panoya kopyalamaq üçün"
+                "copy": "Linki seçin və panoya kopyalamaq üçün Ctrl + C klikləyin "
               },
-              "title": "[AT] Səhifə link"
+              "title": "Səhifə link"
             }
           },
           "pools": {
             "empty": {
-              "message_primary": "[AT] Block ictimai səhifə göstərilir deyil",
-              "message_secondary": "[AT] Ekran nəzarət-ayarları blok"
+              "message_primary": "Block ictimai səhifə göstərilmir",
+              "message_secondary": "Ekran nəzarəti - blok parametrlərində"
             },
-            "header": "[AT] Pools şirkəti təchizatçıları",
+            "header": "Şirkətin təchizat qrupları",
             "notice": {
-              "message": "[AT] Data səhifə açılması hər dəfə yenilənir. Siz vahid parametrləri konfiqurasiya edə bilərsiniz. Nəticə keçirmək üçün önizleme istifadə edin.",
-              "title": "[AT] Bidzaar nəşr təchizatçı Hovuzlar."
+              "message": "Datalar səhifə açılanda hər dəfə yenilənir. Siz blokun parametrlərini ayarlaya bilərsiniz. Nəticəyə baxmaq üçün önizləmədən istifadə edin.",
+              "title": "ProcureSaaS-da dərc olunan təchizat qrupları"
             }
           },
           "tenders": {
             "empty": {
-              "message_primary": "[AT] Block ictimai səhifə göstərilir deyil",
-              "message_secondary": "[AT] Ekran nəzarət-ayarları blok"
+              "message_primary": "Blok ictimai səhifə göstərilmir",
+              "message_secondary": "Ekran nəzarəti - blok parametrlərində"
             },
-            "header": "[AT] açıq sorğu",
+            "header": "açıq sorğu",
             "notice": {
-              "message": "[AT] Data səhifə açılması hər dəfə yenilənir. Siz vahid parametrləri konfiqurasiya edə bilərsiniz. Nəticə keçirmək üçün önizleme istifadə edin.",
-              "title": "[AT] Bidzaar nəşr cari açıq sorğu."
+              "message": "Datalar səhifə açılanda hər dəfə yenilənir. Siz blokun parametrlərini ayarlaya bilərsiniz. Nəticəyə baxmaq üçün önizləmədən istifadə edin.",
+              "title": "ProcureSaaS-da dərc olunan cari açiq sorğular"
             }
           },
           "title": {
             "empty": {
-              "message_primary": "[AT] Səhifənin başlığını göstərin",
-              "message_secondary": "[AT] Məsələn, \"şirkətin təchizatçıları üçün satınalma bölməsi\".\nBaşlıq həm istifadəçilər, həm də axtarış xidmətləri üçün vacibdir."
+              "message_primary": "Səhifənin başlığını qeyd edin",
+              "message_secondary": "Məsələn, \"şirkətin təchizatçıları üçün satınalma bölməsi\".\nBaşlıq həm istifadəçilər, həm də axtarış xidmətləri üçün vacibdir."
             },
-            "header": "[AT] səhifə başlığı"
+            "header": "Səhifə başlığı"
           }
         }
       },
-      "title": "[AT] ictimai səhifə"
+      "title": "İctimai səhifə"
     }
   },
   "user_menu": {
@@ -2831,7 +2831,7 @@
     "my_profile": "Mənim profilim",
     "subscriptions": "Bildiriş ayarları",
     "user_agreement": "İstifadəçi müqaviləsi",
-    "company_profile": "[AT] Şirkət profili"
+    "company_profile": "Şirkət profili"
   },
   "validation": {
     "already_exists": "Göstərilən e-poçtu olan istifadəçi artıq qeydiyyatdan keçib",

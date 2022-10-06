@@ -60,7 +60,7 @@
           "2": "Akkreditasiya prosesində",
           "3": "Akkreditasiya olunub",
           "4": "Akkreditasiya dayandırılıb",
-          "5": "Akkreditasiya müddəti başa çatıb",
+          "5": "Akkreditasiya bitib",
           "6": "Bloklanıb",
           "7": "Akkreditasiyadan imtina etdi"
         },
@@ -77,7 +77,7 @@
             "items": "Şirkətiniz heç bir reyestr dərc etməyib. Reyestrin idarə edilməsi bölməsində reyestr yarada və dərc edə bilərsiniz."
           },
           "expand": "Daha ətraflı ({{value}})",
-          "open": "Bütün təchizatçıları göstərmək",
+          "open": "Bütün Reyestrlər",
           "search": "Axtarış...",
           "title": "Reyestrlər"
         }

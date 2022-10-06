@@ -12,9 +12,9 @@
         },
         "list": {
           "content": {
-            "create": "Teq əlavə etmək",
+            "create": "Teq əlavə et",
             "empty": {
-              "text": "Axtarış sorğusunu dəyişdirin və ya",
+              "text": "Axtarış sorğusunu dəyiş və ya",
               "title": "Teq tapılmadı"
             },
             "more": "Daha çox yükləmək"

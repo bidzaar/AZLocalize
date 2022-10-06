@@ -20,7 +20,7 @@
           "actions": {
             "cancel": "Ləğv et",
             "submit": "Tədbiq et",
-            "save": "[AT] Ozum satiram."
+            "save": "Yadda saxla"
           }
         },
         "crm": {
@@ -97,9 +97,9 @@
           "taxFree": "Şirkət qalib gəldiyinə görə komissiya ödəmir"
         },
         "payment_rules": {
-          "header": "[AT] Qələbə üçün ödəniş qaydaları",
-          "fee": "[AT] Kim ödəyir",
-          "free": "[AT] Qapalı sorğular pulsuz həyata keçirilir"
+          "header": "Qalib olduqda ödəniş qaydaları",
+          "fee": "Kim ödəyir",
+          "free": "Qapalı sorğular pulsuz həyata keçirilir"
         }
       },
       "viewer": {
@@ -184,9 +184,9 @@
           "title": "Tarif"
         },
         "payment_rules": {
-          "title": "[AT] Qələbə üçün ödəniş qaydaları",
-          "fee": "[AT] Kim ödəyir",
-          "free": "[AT] Qapalı sorğular pulsuz həyata keçirilir"
+          "title": "Qalib olduqda ödəniş qaydaları",
+          "fee": "Kim ödəyir",
+          "free": "Qapalı sorğular pulsuz həyata keçirilir"
         }
       }
     },

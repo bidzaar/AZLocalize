@@ -9,15 +9,15 @@
         "title" : "Customize how invitations are sent to requests",
         "setting": {
           "default": {
-            "title": "Invite via Bidzaar",
-            "text": "Addressees receive invitations from Bidzaar (noreply@bidzaar.com in the Sender field)",
+            "title": "Invite via ProcureSaas",
+            "text": "Addressees receive invitations from ProcureSaas (noreply@procure.az in the Sender field)",
             "btn": "Send test message",
             "settings": "Server settings"
           },
           "custom": {
             "title": "Invite via your mail server",
             "text": "Addressees receive letters from your company (your company's mail in the Sender field).",
-            "sub_text": "In the event of a failure of your server, Bidzaar will notify you and send invitations to the addressees."
+            "sub_text": "In the event of a failure of your server, ProcureSaas will notify you and send invitations to the addressees."
           }
         }
       },

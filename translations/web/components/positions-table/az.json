@@ -24,7 +24,7 @@
       "description": "Təsvir",
       "count": "Miqdar",
       "unit": "Ölçü vahidi",
-      "target_cost": "Vahid üçün hədəf qiymət",
+      "target_cost": "Vahidin hədəf qiyməti",
       "target_cost_tooltip": "Seçərkən səmt göstərən qiyməti göstərin. Qiymət yalnız sizə göstərilir - üzvlər onu görməyəcək.",
       "files": "Sənədlər",
       "availability": "Mövcudluq",

@@ -37,7 +37,7 @@
           },
           "registrationDate": "Registration date",
           "verified": {
-            "title": "Verified by Bidzaar",
+            "title": "Verified by ProcureSaas",
             "link": "How to pass the verification"
           },
           "accreditations": {
@@ -340,7 +340,7 @@
   },
   "cookie": {
     "action": "close",
-    "text": "bidzaar.com uses cookies to analyze and personalize your experience."
+    "text": "ProcureSaas.com uses cookies to analyze and personalize your experience."
   },
   "core": {
     "access_denied": {
@@ -663,7 +663,7 @@
       "copyright": "e-marketplace © 2018 — 2019",
       "user_agreement": "user agreement"
     },
-    "logo": "bidzaar",
+    "logo": "ProcureSaas",
     "owner": {
       "text": "participate in fair tenders, improve your business reputation and find new customers",
       "title": "for supplier"
@@ -787,7 +787,7 @@
     "add": {
       "add_company": "find or create company",
       "text": "Join your company as an employee. If your company is not yet registered - register in a few steps.",
-      "title": "Find your company or register on Bidzaar"
+      "title": "Find your company or register on ProcureSaas"
     },
     "welcome": {
       "text": "Let's continue!",
@@ -871,7 +871,7 @@
       "positions": "Goods and services",
       "questionnaire": "Requirements for participants and conditions of request",
       "team": "Users",
-      "nda": "NDA",
+      "nda": "Pre-qualification",
       "cancel": "Cancel",
       "submit": "Duplicate"
     },
@@ -2011,10 +2011,10 @@
           "reasons": {
             "0": "The company will not appear in listings and search results, and cannot be invited to participate in a request",
             "1": "The facts of the company's participation in business processes on the site will be saved, but the mark \"Left the site\" will be added",
-            "2": "You can resume working with Bidzaar by re-registering"
+            "2": "You can resume working with ProcureSaas by re-registering"
           }
         },
-        "success": "Your personal data has been deleted on Bidzaar"
+        "success": "Your personal data has been deleted on ProcureSaas"
       },
       "actions": {
         "cancel": "Cancel",
@@ -2201,7 +2201,7 @@
             "text": {
               "RUS_FORK": {
                 "compact": "Get certified and get your status\nESG provider",
-                "default": "Bidzaar, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
+                "default": "ProcureSaas, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
               }
             }
           },
@@ -2455,7 +2455,7 @@
         "tooltip": "Invite for cooperation"
       },
       "verified": {
-        "checked": "Verified by Bidzaar",
+        "checked": "Verified by ProcureSaas",
         "info": "Verified suppliers are more trusted and more likely to receive orders.",
         "more": "Learn more",
         "verified": "Information about the company was verified by the specialists of our service."
@@ -2509,7 +2509,7 @@
     },
     "request_company_verification_dialog": {
       "header": "Request for verification",
-      "title_prefix": "Bidzaar specialists will check the information specified in",
+      "title_prefix": "ProcureSaas specialists will check the information specified in",
       "title_link": "your company profile",
       "title_postfix": ". Make sure this information is correct.",
       "info": "The profile is edited by an employee with the “Company management” permission.",
@@ -2606,7 +2606,7 @@
   "lgn": {
     "confirm_changing": {
       "email_confirmed": "Email confirmed",
-      "info": "Log in to Bidzaar with your new email address"
+      "info": "Log in to ProcureSaas with your new email address"
     }
   },
   "ugr": {

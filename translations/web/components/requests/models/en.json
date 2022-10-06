@@ -11,7 +11,7 @@
       "invited_by": {
         "0": "Other",
         "1": "Owner",
-        "2": "Bidzaar invited"
+        "2": "ProcureSaas invited"
       },
       "open_type": {
         "0": "Public",
@@ -35,7 +35,7 @@
         "0": "Received order",
         "1": "Submitted bid",
         "2": "Bid preparation",
-        "3": "Provided NDA Documents",
+        "3": "Provided Pre-qualification Documents",
         "4": "Prequalification preparation",
         "5": "Viewed request",
         "6": "Viewed invitation",

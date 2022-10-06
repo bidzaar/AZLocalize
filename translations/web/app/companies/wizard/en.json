@@ -96,7 +96,7 @@
               "append": "Add country, region or city"
             },
             "roles": {
-              "header": "What will you do at Bidzaar?",
+              "header": "What will you do at ProcureSaas?",
               "seller": {
                 "title": "I'm a vendor",
                 "notice": "I will supply goods or services"

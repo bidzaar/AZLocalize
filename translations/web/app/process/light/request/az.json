@@ -22,7 +22,7 @@
         "participate": "Təkliflərin hazırlnamasına başla\n",
         "publish": "Sorğunu dərc et",
         "publish_stage": "Yeni mərhələ elan et",
-        "refuse": "İştrakdan imtina et",
+        "refuse": "İştirakdan imtina et",
         "return_to_summary": "Yekun nəticələrə qayıt",
         "start_change": "Sorğunu dəyişdir",
         "view_summary": "Sorğunun yekun nəticələrinə bax"
@@ -49,7 +49,7 @@
         },
         "nda": {
           "sub_title": "İştirakçılar sorğunun təsvirinə sizin təsdiqinizdən sonra giriş izni əldə edəcəklər",
-          "title": "İlkin kvalifikasiya/NDA imzalama addımını aktivləşdirin"
+          "title": "İlkin kvalifikasiyaimzalama addımını aktivləşdirin"
         },
         "tags": {
           "add": "Sorğunuzun mövzusunu açar sözlərlə təsvir edin",

@@ -5,7 +5,7 @@
         "reason": {
           "0": "Digər",
           "1": "Müvafiq təkliflər yoxdur",
-          "2": "Ehtiyac yoxdur sorğu etmək"
+          "2": "Sorğu etməyə ehtiyyac yoxdur"
         },
         "commission": {
           "0": "Faktura hazırlanması",
@@ -31,45 +31,45 @@
           "protocols": {
             "title": "Tender komissiyasının protokolları və sənədləri",
             "upload": "Protokolu və ya digər sənədi dərc edin",
-            "empty": "[AT] Tender komissiyasının protokolları və sənədləri yüklənmir"
+            "empty": "Tender komissiyasının protokolları və sənədləri yüklənmir"
           },
           "message": {
             "default": {
               "1": {
-                "header": "[AT] Sorğunun nəticələri",
-                "notice": "[AT] Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
+                "header": "Sorğunun nəticələri",
+                "notice": "Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
               },
               "2": {
-                "header": "[AT] Sorğunun nəticələri",
-                "notice": "[AT] Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
+                "header": "Sorğunun nəticələri",
+                "notice": "Təşkilatçı tərəfindən sorğunun nəticələrini yekunlaşdırdıqdan sonra iştirakçılar üçün mövcuddur."
               },
               "3": {
-                "header": "[AT] Sorğu başa çatdı",
-                "notice": "[AT] Təşkilatçı yekun vurub və tələbi başa çatdırıb"
+                "header": "Sorğu başa çatdı",
+                "notice": "Sifarişçi sorğunu yekunlaşdırıb və  bitirib"
               },
               "4": {
-                "header": "[AT] Sorğu ləğv edildi",
-                "notice": "[AT] Təşkilatçı sorğunun keçirilməsini ləğv etdi"
+                "header": "Sorğu ləğv edildi",
+                "notice": "Sifarişçi sorğunun keçirilməsini ləğv etdi"
               }
             },
             "orders": {
-              "winner": "[AT] Tebrik edirik! Sifarişçi sizi qalib seçdi!",
-              "looser": "[AT] Sifarişçi başqa bir şirkətin qalibini seçdi",
-              "nobody": "[AT] Sorğu qalib seçilməsi olmadan başa",
-              "comment": "[AT] Təşkilatçının şərhləri",
-              "questions": "[AT] Sualınız varmı?",
-              "message": "[AT] Müştəri ilə əlaqə saxlayın."
+              "winner": "Tэbrik edirik! Sifarişçi sizi qalib seçdi!",
+              "looser": "Sifarişçi digər şirkəti qalib seçdi",
+              "nobody": "Sorğu qalib seçilmədən bitdi",
+              "comment": "Sifarişçi  şərhləri",
+              "questions": "Sualınız varmı?",
+              "message": "Sifarişçi ilə əlaqə saxlayın."
             }
           },
           "requests": {
-            "text": "[AT] Profilinizə görə digər sorğuları tapın",
-            "open": "[AT] Axtar"
+            "text": "Profilinizə uyğun digər sorğuları tapın",
+            "open": "Axtar"
           },
           "payment": {
-            "title": "[AT] Xidmət operatoru Komissiyası",
-            "delay": "[AT] Haqq-hesab vasitəsilə göndəriləcək {{ value }} sorğu başa çatdıqdan sonra gün",
-            "email": "[AT] Hesab sizin şirkətin e-poçtuna yönəlib",
-            "agreement": "[AT] Uyğun komissiya <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">İstifadəçi Saziş</a>"
+            "title": "Xidmət operatoru Komissiyası",
+            "delay": "Hesab sorğu bitdikdən {{ value }} gün sonra göndəriləcək",
+            "email": "Hesab sizin şirkətin e-poçtuna yönəlib",
+            "agreement": "Komissiya haqqı  <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">İstifadəçi Sazişinə</a> uyğun olaraq" 
           }
         },
         "owner": {
@@ -136,7 +136,7 @@
             },
             "docs": {
               "order": "Sifariş",
-              "sentence": "Cümlə"
+              "sentence": "Təklif"
             },
             "finished": {
               "stub": {
@@ -180,9 +180,9 @@
             }
           },
           "canceled": {
-            "title": "[AT] Ləğv edilmiş sifarişlər ({dəyər}})",
-            "order_title": "[AT] Ləğv",
-            "reason": "[AT] Səbəb"
+            "title": "Ləğv edilmiş sifarişlər ({value}})",
+            "order_title": "Ləğv et",
+            "reason": "Səbəb"
           }
         },
         "dialogs": {
@@ -226,23 +226,23 @@
             "success": "Sorğu başa çatdı. İştirakçılara mesajlar göndərildi",
             "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz",
             "true": {
-              "header": "[AT] Sorğu başa",
-              "text": "[AT] Sizin sifariş:"
+              "header": "Sorğu bitdi",
+              "text": "Sizin sifarişiniz:"
             },
             "false": {
-              "header": "[AT] Sifariş olmadan sorğunun tamamlanması",
-              "text": "[AT] Sifarişiniz formalaşmayıb.",
-              "reason": "[AT] Səbəbi göstərin:",
-              "comment": "[AT] Səbəb..."
+              "header": "Sifariş olmadan sorğunun tamamlanması",
+              "text": "Sifarişiniz formalaşmayıb.",
+              "reason": "Səbəbi göstərin:",
+              "comment": "Səbəb..."
             },
             "vat": {
-              "true": "[AT] ƏDV ilə",
-              "false": "[AT] ƏDV olmadan"
+              "true": "ƏDV ilə",
+              "false": "ƏDV olmadan"
             },
             "actions": {
-              "cancel": "[AT] Ləğv et",
-              "submit": "[AT] Bitirin",
-              "success": "[AT] Sorğu başa çatdı. İştirakçılara mesajlar göndərilib"
+              "cancel": "Ləğv et",
+              "submit": "Bitir",
+              "success": "Sorğu başa çatdı. İştirakçılara ismarıclar göndərilib"
             }
           },
           "saving_editor": {
@@ -296,14 +296,14 @@
             "winner": "Təbrik edirik, sifariş aldınız!"
           },
           "orders": {
-            "title": "[AT] Sifariş",
-            "my": "[AT] Mənim təklifim",
-            "alter": "[AT] Alternativ {{ index }}"
+            "title": "Sifariş",
+            "my": "Mənim təklifim",
+            "alter": "Alternativ {{ index }}"
           },
           "promo": {
-            "title": "[AT] Sifarişi yerinə yetirmək üçün mal və xidmətləri satın alın",
-            "text": "[AT] Bizim menecerlər sizə kömək edəcək <b>pulsuz</b> qısa müddət ərzində satın alın!",
-            "order": "[AT] Satın alma sifariş"
+            "title": "Sifarişi yerinə yetirmək üçün mal və xidmətləri alın",
+            "text": "Bizim menecerlər sizə qısa zamanda satın alma etməyə kömək edəcəklər <b>pulsuz</b> !",
+            "order": "Satın alma sifarişi"
           }
         }
       }

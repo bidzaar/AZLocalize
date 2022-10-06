@@ -33,7 +33,7 @@
             "add": "Kateqoriya əlavə edin",
             "cancel": "Ləğv et",
             "checkbox": "Reyestrdə şirkətlərin dərəcələrinin təyin olunmasını aktivləşdirin",
-            "from": "from",
+            "from": " ",
             "greater": "və daha çox",
             "info": {
               "false": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması qeyri-aktivdir",
@@ -339,12 +339,12 @@
             "add_category": "Kateqoriyalar əlavə edin",
             "cancel": "Ləğv et",
             "default_category_name": "Yeni kateqoriya",
-            "from": "from",
+            "from": " ",
             "range_title": "Scoring, from and above",
             "scoring_range": "Hesablanma diapozonu:",
             "submit": "Yadda saxla",
             "title": "Kateqoriyalar",
-            "to": "to",
+            "to": " ",
             "validation": {
               "category_name": "Kateqoriyaların adlarını göstərin",
               "category_scoring_range": "Qiymətləndirmə ölçüsünü doldurun, nömrələr azalan ardıcıllıqla izlənir",
@@ -388,7 +388,7 @@
         },
         "card_title": " Anket versiyası",
         "dates": {
-          "from": "from {{ value }}",
+          "from": " {{ value }}",
           "to": "{{value}} qədər"
         },
         "did_not_come_into_force": "qüvvəyə minmədi",

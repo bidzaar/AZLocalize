@@ -28,7 +28,7 @@
         },
         "128": {
           "long": "Satınalma şöbəsinin rəhbəri",
-          "short": "Satınalmalar üzrə rəhbər"
+          "short": "Satınalma üzrə rəhbər"
         },
         "256": {
           "long": "Qrup rəhbərliyi",
@@ -43,8 +43,8 @@
           "short": "Reyestrlərin rəhbəri"
         },
         "2048": {
-          "short": "[AT] Akkreditivin tələbi. hovuz",
-          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+          "short": "Qruplarda akkreditasiya üçün müraciət",
+          "long": "Qruplarda akkreditasiya üçün müraciət"
         }
       }
     },

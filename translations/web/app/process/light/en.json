@@ -59,12 +59,12 @@
           "tooltip": "The supplier prepares an offer for request"
         },
         "3": {
-          "name": "Provided NDA Documents ",
-          "tooltip": "Supplier has applied for prequalification / NDA and is awaiting your decision"
+          "name": "Provided prequalification documents ",
+          "tooltip": "Supplier has applied for prequalification stage and is awaiting your decision"
         },
         "4": {
           "name": "Prequalification preparation",
-          "tooltip": "The supplier prepares documents for prequalification / NDA"
+          "tooltip": "The supplier prepares documents for prequalification stage"
         },
         "5": {
           "name": "Viewed the request",
@@ -238,7 +238,7 @@
           "no_files": "No files uploaded",
           "participant_documents": "Participant documents",
           "participant_documents_dialog": "Offer Documents",
-          "participant_nda_documents": "Prequalification / NDA documents"
+          "participant_nda_documents": "Prequalification stage documents"
         },
         "forbidden": {
           "owner-version": {
@@ -477,7 +477,7 @@
           },
           "options": {
             "attachment": "Download with attached documents",
-            "selectable": "Select the fields of offers to download"
+            "selectable":Select the fields " of offers to download"
           },
           "columns": {
             "8": "Quantity",
@@ -573,7 +573,7 @@
           },
           "invalid": "Please correct the errors and re-publish",
           "actions": {
-            "report": "What's changed?",
+           ,
             "cancel": "Cancel",
             "submit": "Publish",
             "close": "OK"
@@ -634,7 +634,7 @@
             "NdaEnabled": {
               "NoData": {
                 "notice": "description or documents of the stage are not specified",
-                "title": "Prequalification / NDA"
+                "title": "Prequalification stage"
               }
             },
             "Positions": {
@@ -732,7 +732,7 @@
           "message_for_verified": "Your company has been verified!"
         },
         "participant_nda": {
-          "title": "Documents for prequalification / NDA",
+          "title": "Documents for prequalification stage",
           "empty": "No documents provided"
         },
         "nda_decision": {
@@ -904,10 +904,10 @@
                 "message": "The requester does not consider your offer."
               },
               "nda_pending": {
-                "message": "Submit your documents for prequalification / NDA. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                "message": "Submit your documents for prequalification stage. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
               },
               "nda_submitted": {
-                "message": "Provided NDA Documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                "message": "Provided prequalification stage documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
               }
             },
             "summarize": {
@@ -1053,7 +1053,7 @@
               },
               "verification": {
                 "text": "This request is only for verified suppliers",
-                "notice": "To submit an offer go through the check on Bidzaar",
+                "notice": "To submit an offer go through the check on ProcureSaas",
                 "actions": {
                   "more": "Learn more",
                   "submit": "Request verification"
@@ -1061,19 +1061,19 @@
               }
             },
             "no_company": {
-              "title": "Find your company\nor register your business on Bidzaar",
-              "info": "Register your company on Bidzaar for free to participate in the request. Site accreditation\nis not required",
+              "title": "Find your company\nor register your business on ProcureSaas",
+              "info": "Register your company on ProcureSaas for free to participate in the request. Site accreditation\nis not required",
               "register": "Find or add company"
             },
             "no_user": {
-              "title": "Login or register on Bidzaar",
-              "info": "To participate in the request, please log into your Bidzaar profile or create a new one",
+              "title": "Login or register on ProcureSaas",
+              "info": "To participate in the request, please log into your ProcureSaas profile or create a new one",
               "register": "Login / Register"
             },
             "alerts": {
               "no_rights": {
                 "title": "No access to participate",
-                "text": "Contact your company administrator to get access to participate in requests. The right of your company to participate in requests is assigned by the administrator of Bidzaar"
+                "text": "Contact your company administrator to get access to participate in requests. The right of your company to participate in requests is assigned by the administrator of ProcureSaas"
               },
               "blocked": {
                 "title": "The owner excluded you from the request",
@@ -1251,13 +1251,13 @@
               "button": "Invite"
             },
             "invite_site": {
-              "button": "Bidzaar platform"
+              "button": "ProcureSaas platform"
             },
             "invite_blocked": {
               "button": "Blocked participants from past stages"
             },
             "invite_site_tags": {
-              "button": "From Bidzaar platform by request tags",
+              "button": "From ProcureSaas platform by request tags",
               "no": "Specify request tags",
               "text": "Specify tags in the request description to invite members by tags.",
               "title": "Request tags are not specified",
@@ -1289,8 +1289,8 @@
               "button": "Unblock"
             },
             "nda": {
-              "title": "Prequalification / NDA",
-              "request": "Prequalification / NDA documents",
+              "title": "Prequalification stage",
+              "request": "Prequalification stage documents",
               "decision": "Admission decision"
             },
             "permit_change": {
@@ -1343,7 +1343,7 @@
           "search": {
             "tooltip": "Company name"
           },
-          "invited_by_bidzaar": "Invited by Bidzaar",
+          "invited_by_ProcureSaas": "Invited by ProcureSaas",
           "title": "Participants",
           "selected": "Selected",
           "search_tooltip": "Search is carried out by fields:\n• Company name\n• Company email\n• Internal comment",
@@ -1829,10 +1829,10 @@
             },
             "proposal": {
               "nda_pending": {
-                "message": "Submit your documents for prequalification / NDA. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                "message": "Submit your documents for prequalification stage. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
               },
               "nda_submitted": {
-                "message": "Provided NDA Documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
+                "message": "Provided prequalification stage documents on {{statusChangedDate}}. You can prepare and submit an offer after a positive decision of the customer. Offers accepted until {{acceptanceEndDate}} ({{acceptanceEndDays}} left)."
               },
               "active": {
                 "no_proposal": {
@@ -1868,10 +1868,10 @@
             },
             "summarize": {
               "nda_pending": {
-                "message": "Acceptance of bids ended. You have not passed the prequalification / NDA phase and have not submitted an offer."
+                "message": "Acceptance of bids ended. You have not passed the prequalification stage and have not submitted an offer."
               },
               "nda_submitted": {
-                "message": "Acceptance of bids ended. You have not passed the prequalification / NDA phase and have not submitted an offer."
+                "message": "Acceptance of bids ended. You have not passed the prequalification stage  and have not submitted an offer."
               },
               "active": {
                 "no_proposal": {
@@ -1967,25 +1967,25 @@
           },
           "nda": {
             "owner": {
-              "title": "Include prequalification section (NDA)",
+              "title": "Include prequalification stage ",
               "helper": "Access to the full documentation upon the submission of this section.",
               "description": {
-                "title": "Prequalification / NDA description",
-                "placeholder": "Describe what is required for Prequalification / NDA"
+                "title": "Prequalification stage description",
+                "placeholder": "Describe what is required for Prequalification stage"
               },
               "files": {
-                "title": "Prequalification / NDA documents",
+                "title": "Prequalification satge documents",
                 "description": "Upload files (file up to 25 Mb)"
               },
-              "separator": "THE FOLLOWING DETAILS, EXCEPT FOR DELIVERY PLACE, BID OFFER AND TAG DEADLINE WILL BE HIDDEN FROM APPLICANTS UNTIL PRE-QUALIFICATION/NDA SIGNING"
+              "separator": "THE FOLLOWING DETAILS, EXCEPT FOR DELIVERY PLACE, BID OFFER AND TAG DEADLINE WILL BE HIDDEN FROM APPLICANTS UNTIL PASSING PRE-QUALIFICATION STAGE"
             },
             "other": {
               "stub": "FULL REQUEST DATA IS AVAILABLE AFTER CONFIRMATION OF PARTICIPATION BY THE CUSTOMER",
               "description": {
-                "title": "Prequalification / NDA description"
+                "title": "Prequalification stage description"
               },
               "files": {
-                "title": "Prequalification / NDA documents"
+                "title": "Prequalification stage documents"
               }
             }
           }
@@ -2154,7 +2154,7 @@
         "promo_participants": {
           "count": "{{ count }} suppliers",
           "invite": "Invite",
-          "recommend": "Bidzaar recommends",
+          "recommend": "ProcureSaas recommends",
           "success": "Suppliers added to participants list"
         },
         "proposal_content": {
@@ -2164,11 +2164,11 @@
           },
           "open": "open",
           "positions_enabled": {
-            "sub_title": "Price, quantity and description of goods and services. The resulting specifications are conveniently compared in Bidzaar.",
+            "sub_title": "Price, quantity and description of goods and services. The resulting specifications are conveniently compared in ProcureSaas.",
             "title": "Goods and services"
           },
           "questionnaire_enabled": {
-            "sub_title": "Questionnaire with questions for the supplier. The resulting profiles are conveniently compared in Bidzaar.",
+            "sub_title": "Questionnaire with questions for the supplier. The resulting profiles are conveniently compared in ProcureSaas.",
             "title": "Participant questionnaire"
           },
           "set_up": "create",

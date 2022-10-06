@@ -37,9 +37,9 @@
                 "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
               },
               "Process.Light.Import.Positions.InvalidFile": {
-                "title": "[AT] <b>Fayl şablona uyğun deyil.</b> Mümkün səbəblər:",
-                "text": "[AT] * Fayl vəzifələrin dəqiqləşdirilməsi yoxdur\n* Sorğu yenilənib və təklif köhnəlmiş edir\n* Masa sütun və ya müştəri data dəyişdi",
-                "download": "[AT] Təklif şablonunu yükləyin və yenidən yükləyin."
+                "title": "<b>Fayl şablona uyğun deyil.</b> Mümkün səbəblər:",
+                "text": "* Fayl vəzifələrin dəqiqləşdirilməsi yoxdur\n* Sorğu yenilənib və təklif köhnəlmiş edir\n* Masa sütun və ya sifarişçi data dəyişdi",
+                "download": "Təklif şablonunu yükləyin və yenidən yükləyin."
               },
               "Process.Light.Import.Positions.InvalidFileExtension": {
                 "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
@@ -77,8 +77,8 @@
           "request": {
             "count": "Miqdar",
             "price": {
-              "auction": "Vahid üçün minimum qiymət:",
-              "expected": "Gözlənilən vahid qiymət. :",
+              "auction": "Vahidin minimum qiyməti:",
+              "expected": "Vahidin gözlənilən qiyməti. :",
               "reduction": "Vahidin maksimal qiyməti:"
             }
           },
@@ -185,19 +185,19 @@
             "response_documents": "Sənədlər",
             "response_files": "Fayllar",
             "response_group": "Təklif",
-            "response_previous_price": "Vahid üçün əvvəlki qiymət",
+            "response_previous_price": "Vahidin əvvəlki qiyməti",
             "response_price_my": {
-              "false.false": "ƏDV-siz vahidin qiyməti",
-              "false.true": "İştirakçının valyutasında  vahid üçün ƏDV-siz qiymət",
-              "null.false": "Vahidin qiymət",
-              "null.true": "İştirakçının valyutasında vahid üçün qiymət",
+              "false.false": "Vahidin ƏDV-siz qiyməti",
+              "false.true": "İştirakçının valyutasında  vahidin ƏDV-siz qiyməti",
+              "null.false": "Vahidin qiyməti",
+              "null.true": "İştirakçının valyutasında vahidin qiyməti",
               "true.false": "ƏDV daxil vahidin qiyməti",
-              "true.true": "İştirakçının valyutasında vahid üçün ƏDV daxil qiymət"
+              "true.true": "İştirakçının valyutasında vahidin ƏDV daxil qiyməti"
             },
             "response_price_my_converted": {
-              "false": "Sorğunun valyutasında  vahid üçün ƏDV-siz qiymət",
-              "null": "Sorğunun valyutasında vahid üçün qiymət",
-              "true": "Sorğunun valyutasında ƏDV daxil vahid qiyməti\n"
+              "false": "Sorğunun valyutasında  vahidin ƏDV-siz qiyməti",
+              "null": "Sorğunun valyutasında vahidin qiyməti",
+              "true": "Sorğunun valyutasında vahidin ƏDV daxil qiyməti\n"
             },
             "response_rank": "Dərəcə",
             "response_total": "Cəmi ({{value}})",
@@ -211,7 +211,7 @@
               "upload": "Fayldan yüklə"
             },
             "filters": {
-              "empty": "Kateqoriyada maddə yoxdur",
+              "empty": "kateqoriyasında maddə yoxdur",
               "options": {
                 "0": "Bütün maddələr",
                 "1": "Mövcud",

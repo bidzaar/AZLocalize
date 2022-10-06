@@ -46,10 +46,10 @@
           "title": "Sorğu statusu"
         },
         "open_type": {
-          "title": "[AT] Sorğu növü",
+          "title": " Sorğu növü",
           "options": {
-            "0": "[AT] Yalnız açıq",
-            "1": "[AT] Yalnız qapalı"
+            "0": "Yalnız açıq",
+            "1": "Yalnız qapalı"
           }
         }
       },
