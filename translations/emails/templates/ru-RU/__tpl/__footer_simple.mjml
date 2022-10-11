@@ -1,8 +1,0 @@
-    <mj-section mj-class="section-footer" css-class="footer">
-      <mj-column>
-        <mj-text align="left"><b>ООО "БИДЗААР"</b><br />
-          <span class="smallest"><a href="tel:+74959844163">+7 (495) 984-41-63</a><br /><a href="mailto:info@bidzaar.com">info@bidzaar.com</a>
-            <br />
-            <a href="https://bidzaar.com">https://bidzaar.com</a></span>
-        </mj-text>
-      </mj-column>
