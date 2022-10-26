@@ -14,7 +14,7 @@
         },
         "chat": {
           "header": "Şirkətlə çata keçid",
-          "label": "Sizin şərhiniz"
+          "label": "Şərh"
         },
         "common": {
           "actions": {
@@ -79,7 +79,7 @@
             "title": "Standart qaydalar təyin edilsin?",
             "yes": "Ödəniş qaydalarını sıfırlayın"
           },
-          "header": "Qazanca olan ödənişlər qaydası",
+          "header": "Qalib olduqda ödəniş qaydaları",
           "save": "Yadda saxla",
           "sum": "Məbləğ",
           "to": "kimi",
@@ -165,9 +165,9 @@
           "title": "Satın alınan teqlər"
         },
         "tariff": {
-          "closed": "/ qapalı sorğular pulsuzdur",
+          "closed": "Qapalı sorğular pulsuzdur",
           "from": ".",
-          "title": "Qazanca olan ödənişlər qaydası",
+          "title": "Qalib olduqda ödəniş qaydaları",
           "to": "kimi",
           "who_pays": "Kim ödəyir"
         },

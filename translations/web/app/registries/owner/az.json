@@ -39,7 +39,7 @@
               "false": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması qeyri-aktivdir",
               "true": "Kateqoriyaya görə sıralama müraciətlərində hesablanma olan şirkətlərə aiddir. Kateqoriyaların yenidən hesablanması bir qədər vaxt apara bilər."
             },
-            "less": "kiçik",
+            "less": "",
             "submit": "Təsdiqlə",
             "title": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması"
           }
@@ -61,10 +61,10 @@
         "subtitle": {
           "errors": {
             "no_active_formula": "Anketdə hesablama formulu yoxdur",
-            "no_active_version": "Reyestrdə anketl yoxdur",
+            "no_active_version": "Reyestrdə anket yoxdur",
             "no_deferred_formula": "Qüvvəyə minən anketdə hesablama formulu yoxdur"
           },
-          "left": "Skorinqin  ayarları",
+          "left": "Skorinq-qiymətləndirilmənin  ayarları",
           "right": "Reyestr anketi"
         },
         "title": "Reyestrin skorinq-qiymətləndirilməsinin avtomatlaşdırılması"
@@ -138,8 +138,8 @@
           }
         },
         "draft_card": {
-          "configure": "Konfiqurasiya edin",
-          "sub_title": "Dərc etməzdən əvvəl reyestri tənzimləyin",
+          "configure": "Ayarla",
+          "sub_title": "Dərc etməzdən əvvəl reyestri ayarla",
           "title": "Ayarlar"
         },
         "internal": {
@@ -382,7 +382,7 @@
       "questionnaire_versions": {
         "actions": {
           "cancel": "Ləğv et",
-          "change": "Dəyişin",
+          "change": "Dəyiş",
           "edit": "Redaktə et",
           "open": "Açın"
         },
@@ -391,7 +391,7 @@
           "from": " {{ value }}",
           "to": "{{value}} qədər"
         },
-        "did_not_come_into_force": "qüvvəyə minmədi",
+        "did_not_come_into_force": "qüvvəyə minməyib",
         "empty": {
           "create_questionnaire": "Anket yaradın",
           "info": "Reyestr anketi yaradın",

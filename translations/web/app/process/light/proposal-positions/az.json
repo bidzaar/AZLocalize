@@ -181,7 +181,7 @@
             "response_availability": "Mövcudluq",
             "response_comment": "Şərh",
             "response_count": "Miqdar",
-            "response_currency": "Məzənnə",
+            "response_currency": "Valyuta",
             "response_documents": "Sənədlər",
             "response_files": "Fayllar",
             "response_group": "Təklif",
@@ -211,7 +211,7 @@
               "upload": "Fayldan yüklə"
             },
             "filters": {
-              "empty": "kateqoriyasında maddə yoxdur",
+              "empty": " {{value}} kateqoriyasında heçnə tapılmadı",
               "options": {
                 "0": "Bütün maddələr",
                 "1": "Mövcud",

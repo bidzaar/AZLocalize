@@ -74,7 +74,7 @@
           "tooltip": "Təchizatçı ilkin kvalifikasiya mərhələsi üçün sənədlər təqdim etdi və qəbulla bağlı qərarınızı gözləyir"
         },
         "4": {
-          "name": "İlkin kvalifikasiyaya mərhələsinə hazırlıq",
+          "name": "İlkin kvalifikasiya mərhələsinə hazırlıq",
           "tooltip": "Təchizatçı ilkin kvalifikasiya mərhələsi üçün sənədlər hazırlayır"
         },
         "5": {
@@ -142,8 +142,8 @@
       },
       "invited_by": {
         "0": " Digər",
-        "1": "Sahib",
-        "2": "Biznes yeri"
+        "1": "Sifarişçi",
+        "2": "Platforma"
       }
     },
     "view": {
@@ -279,7 +279,7 @@
           }
         },
         "group": {
-          "settings": "Tənzimləmək"
+          "settings": "Ayarla"
         },
         "header_cells": {
           "actions": "Əməliyyatlar",
@@ -373,7 +373,7 @@
           "no_vat": "ƏDV-siz",
           "order": "Sifariş",
           "proposal": {
-            "at_the_price_of": "qiymətə görə",
+            "at_the_price_of": "qiyməti-",
             "per_unit": "vahid üçün",
             "title": "Təklif:"
           },
@@ -656,7 +656,7 @@
           "items": {
             "AcceptanceEndDate": {
               "Default": {
-                "notice": "Tamamlanana qədər",
+                "notice": "Tamamlanmaq mərhələsinə qalıb",
                 "title": "Təkliflərin qəbulu:"
               },
               "Expired": {
@@ -1043,13 +1043,13 @@
             }
           },
           "commission": {
-            "order_sum": "Order price:",
-            "operator_remuneration": "Service Operator Commission:",
-            "to": "to",
-            "from": "from",
-            "free": "At the current request, the operator's reward will not be charged if you are declared the winner of the request",
-            "agreement": "<span class=\"free-participation\">Participation in the request is free, without deposits and blocking of funds!</span> The Service Operator charges a commission only from the companies announced as winners. The invoice for payment of the commission is sent to the post office after summing up the results of the request. The amount and procedure for payment of the Service Operator Commission are determined in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User Agreement</a> and the given tariff:",
-            "vat": "In the case of a Request for a price per unit of goods (works, services) without specifying the requested volume of a consignment of goods (works, services), the winner is charged a Commission of the Service operator in the amount of 7894,00 rub.\n\nIf the volume of goods (works, services) specified in the formalized settings of the Request differs from the volume of goods (works, services) specified in the description of the Request and (or) accompanying documents to the Request, the Service operator's commission is calculated based on the planned volume of goods (works , services) specified by the Customer in the description of the Request and (or) accompanying documents to the Request."
+            "order_sum": "Sifariş qiyməti:",
+            "operator_remuneration": "Xidmət komissiyası:",
+            "to": "",
+            "from": "",
+            "free": "Siz bu sorğuda qalib olduqda komissiya haqqı tələb olunmayacaq",
+            "agreement": "<span class=\"free-participation\">Sorğuda iştirak pulsuzdur, depozit qoyulmadan və vəsaitlərin bloklanması olmadan!</span> Xidmət komissiyası yalnız qalib elan edilmiş şirkətlərdən tutulur. Sorğunun nəticələrinə yekun vurulduqdan sonra komissiyanın ödənilməsi üçün hesab-faktura poçt vasitəsi ilə göndəriləcək. Xidmət operatorunun komissiyasının məbləği və ödənilməsi qaydası müvafiq olaraq müəyyən edilir <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User Agreement</a> and the given tariff:",
+            "vat": "Sorğuda malların (işlərin, xidmətlərin) həcmi qeyd olunmadan və qiyməti vahid üçün göstərildiyi halda xidmət komissiyası qalibdən _ məbləğində tutullur.\n\nSorğunun spesifikasiya parametrlərində göstərilən malların (işlərin, xidmətlərin) həcmi Sorğunun təsvirində və (və ya) Sorğuya əlavə olunan sənədlərdə göstərilən malların (işlərin, xidmətlərin) həcmindən fərqli olduqda, Xidmət komissiyası Sifarişçi tərəfindən Sorğunun təsvirində və (və ya) Sorğuya əlavə olunan sənədlərdə göstərilən malların (işlərin, xidmətlərin) planlaşdırılan həcminə əsasən hesablanır."
           },
           "contact_info": {
             "cancel": "Mən hələ düşünürəm",
@@ -1463,7 +1463,7 @@
               "yes": "Davam et"
             },
             "nda": {
-              "decision": "Qəbul et",
+              "decision": "Qərar ver",
               "request": "İlkin Kvalifikasiya Mərhələsi üçün Sənədlər",
               "title": "Təsvir və sənədlər"
             },
@@ -1683,7 +1683,21 @@
         "button": "Sorğunu dərc et",
         "text": "Təchizatçıları məlumatlandırmaq və onların təkliflərini almaq üçün sorğunu dərc edin."
       },
-      "request": {
+      "request": { 
+        "payment": {
+        "title": "Qalib seçilərkən komissiya ödənilir",
+        "free": "Şirkətinizdən gələn sorğulara xidmət üçün heç bir ödəniş yoxdur",
+        "fee": {
+          "label": "Kim tərəfindən",
+          "notice": "Sorğu dərc edildikdən sonra şərti dəyişdirmək mümkün olmayacaq",
+          "private": "Şirkətinizdən bağlı sorğular üçün heç bir ödəniş tələb olunmur",
+          "options": {
+            "1": "Qalib Təchizatçı Təşkilat",
+            "2": "Satınalan Təşkilat (sizin təşkilat)",
+            "3": "Qalib Təchizatçı Təşkilat",
+            "4": "Satınalan Təşkilat (sizin təşkilat)"
+          }
+        },
         "additional_settings": {
           "sub_title": "Məlumat yalnız sorğu heyyəti üçün mövcuddur.",
           "title": "Təşkilatçı komandası, əlavə xanalar"
@@ -2148,7 +2162,7 @@
             "title": "Sənədlər",
             "upload": "Sənəd əlavə et"
           },
-          "fee_warning": "Sorğu dərc edildikdən sonra dəyəri dəyişdirmək mümkün deyil",
+          "fee_warning": "Sorğu dərc edildikdən sonra şərti dəyişdirmək mümkün olmayacaq",
           "fields": {
             "budget": "Sorğu valyutasında büdcə",
             "comment": "Şərh",

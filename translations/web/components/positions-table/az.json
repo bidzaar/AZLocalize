@@ -29,11 +29,11 @@
       "files": "Sənədlər",
       "availability": "Mövcudluq",
       "header_tooltip": "Təchizatçı tərəfindən doldurulur",
-      "deviation_tooltip": "Sahə sorğu parametri Təchizat həcmi maddələr və miqdar tərəfindən icazə verilən sapma kimi təyin edildiqdə mövcuddur.",
+      "deviation_tooltip": "Xana sorğu parametrlərində Təklif həcmi maddələr və miqdara görə yayınma icazə verildikdə mövcüd olur",
       "vat": "ƏDV dərəcəsi",
-      "price": "Vahid başına qiymət",
+      "price": "Vahidin qiyməti",
       "currency": "Valyuta",
-      "currency_tooltip": "Sahə sorğu ayarlarında valyutaların siyahısı yaradıldıqda mövcuddur",
+      "currency_tooltip": "Xana sorğu parametrlərində valyutaların siyahısı yaradıldıqda mövcuddur",
       "comment": "Şərh",
       "documents": "Sənədlər"
     }

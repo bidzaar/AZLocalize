@@ -17,37 +17,37 @@
           }
         },
         "acceptance_end_date": {
-          "label": "təkliflərin qəbulu",
-          "time_left": "Qaldı"
+          "label": "Təkliflərin qəbulu",
+          "time_left": "Qalıb"
         },
         "prolongation": {
-          "label": "təkliflərin qəbulunun Avtodayanması",
+          "label": "Təkliflər qəbulunun avtomatik uzadılması",
           "minutes": "dəq",
           "time-left": "dəyirmi sonu",
           "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
         },
         "approximate_deadline_for_summing_up": {
           "label": "Yekunlaşmanın təxmini müddəti",
-          "description": "təkliflərin qəbulu başa çatdıqdan sonra günlər",
+          "description": "Təkliflərin qəbulu başa çatdıqdan sonra günlər",
           "tooltip": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
           "value_null": "müəyyən Deyil"
         },
         "currency": {
-          "label": "sorğu valyutası",
+          "label": "Sorğunun valyutası",
           "show_all": "Hamısını göstər",
           "hide": "Gizlət",
           "change_rate_currency": "valyuta məzənnələrini dəyişdirin"
         },
         "vat": {
-          "label": "qalibi seçərkən nəzərə alınır",
+          "label": "Qalibi seçərkən nəzərə alınır",
           "options": {
-            "false": "Qiymət ƏDV",
+            "false": "ƏDV-siz qiymət",
             "none": "göstərilməyib",
-            "true": "ƏDV ilə qiymət"
+            "true": "ƏDV daxil qiymət"
           }
         },
         "open_type": {
-          "label": "sorğu növü",
+          "label": "Sorğu növü",
           "tooltips": {
             "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
             "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
@@ -55,7 +55,7 @@
           }
         },
         "owner_visibility": {
-          "label": "təkliflərin qəbulu mərhələsində təşkilatçı",
+          "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
           "enums": {
             "0": "iştirakçıların təkliflərini görür",
             "1":"iştirakçıların təklifinin məzmununu görmür"

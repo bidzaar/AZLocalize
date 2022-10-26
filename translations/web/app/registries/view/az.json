@@ -16,7 +16,7 @@
             "description": "Əməkdaşın əlaqə məlumatları təqdim olunmayıb",
             "edit": "Düzəliş et",
             "title": "Əlaqəli şəxs",
-            "tooltip": "Əlaqə məlumatları reyestr iştrakçılarına dəvət qəbul olunandan sonra əlçatan olacaq"
+            "tooltip": "Əlaqə məlumatları reyestr iştirakçılarına dəvət qəbul olunandan sonra əlçatan olacaq"
           },
           "descr": {
             "placeholder": "",
@@ -34,7 +34,7 @@
               "submit": "Əlavə edin",
               "title": "Dərc edilmiş reyestr əlavə edin"
             },
-            "description": "Reyestrə müraciət etmək üçün şirkət əlaqədər reystrlərdə akkreditasiya almalıdır",
+            "description": "Reyestrə müraciət etmək üçün şirkət əlaqədər reyestrlərdə akkreditasiya almalıdır",
             "remove": "Sil",
             "title": "Tələblər",
             "upload": "Əlaqədar dərc edilmiş reyestrləri seçin"
@@ -49,7 +49,7 @@
                   "label": "Skorinq-qiymətləndirmənin nəticələrinə əsasən müraciəti imtina edin"
                 },
                 "groups": {
-                  "configure": "Tənzimləmək",
+                  "configure": "Ayarla",
                   "empty": "Akkreditasiya komissiyası müəyyən edilməyib"
                 },
                 "score": {

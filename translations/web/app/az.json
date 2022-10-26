@@ -376,7 +376,7 @@
     },
     "economy": {
       "empty": "Qeyd olunmuş dövrdə yekunlaşmış sorğular tapılmadı",
-      "on": "də",
+      "on": " ",
       "period": "Pul qənaət edilib",
       "purchases": "sorğularda:"
     },
@@ -412,8 +412,8 @@
       "title": "Sərfəli satınalma edin"
     },
     "no_tags": {
-      "action": "#teqlər əlavə edin",
-      "text": "Biznes partnyorlar sizi #teqlər ilə tapacaqlar",
+      "action": "teqlər əlavə edin",
+      "text": "Biznes partnyorlar sizi teqlər ilə tapacaqlar",
       "title": "İş əlaqələri qurun"
     },
     "not_a_purchaser": {
@@ -2590,8 +2590,8 @@
           "short": "Qrupların idarə edilməsi"
         },
         "16": {
-          "long": "Şirkəti idarə et",
-          "short": "Şirkəti idarə et"
+          "long": "Şirkətin idarəetməsi",
+          "short": "Şirkətin idarəetməsi"
         },
         "128": {
           "long": "Satınalma şöbəsinin rəhbəri",
@@ -2845,7 +2845,7 @@
     "max_length": "Maksimum uzunluq {{value}}",
     "min": "Minimum dəyər: {{value}}",
     "min_length": "Minimal uzunluq {{value}}",
-    "notEmpty": "Sahə boş olmamalıdır",
+    "notEmpty": "Xana boş olmamalıdır",
     "passwords_not_equal": "Parollar uyğun gəlmir",
     "pattern": "{{value}} - qadağan edilmiş simvollar",
     "required": "Tələb olunan xana",

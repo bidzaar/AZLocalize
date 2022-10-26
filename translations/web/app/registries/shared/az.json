@@ -55,14 +55,14 @@
           "4": "Müraciyət olmadan"
         },
         "participant": {
-          "0": "Qeydiyyata dəvət olunur",
+          "0": "Reyestrə dəvət olunub",
           "1": "Dəvət baxıldı",
           "2": "Akkreditasiya prosesində",
           "3": "Akkreditasiya olunub",
           "4": "Akkreditasiya dayandırılıb",
           "5": "Akkreditasiya bitib",
           "6": "Bloklanıb",
-          "7": "Akkreditasiyadan imtina etdi"
+          "7": "Akkreditasiyadan imtina edib"
         },
         "visibility": {
           "0": "Bütün şirkətlər üçün",
@@ -112,7 +112,7 @@
       "participation": {
         "accreditation": {
           "infinite": "(müddətsiz)",
-          "timer": "{{value}} left"
+          "timer": "{{value}} qalıb"
         },
         "actions": {
           "button": "Əməliyyatlar",

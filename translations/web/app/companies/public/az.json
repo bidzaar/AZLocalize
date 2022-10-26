@@ -67,7 +67,7 @@
           "actions": {
             "add": "Əlavə edin",
             "change": "Dəyişin",
-            "configure": "Konfiqurasiya edin"
+            "configure": "Ayarla"
           },
           "description": {
             "empty": {

@@ -31,7 +31,7 @@
           "short": "Satınalma üzrə rəhbər"
         },
         "256": {
-          "long": "Qrup rəhbərliyi",
+          "long": "Qrupların idarə olunması",
           "short": "Qrupların idarə olunması"
         },
         "512": {
@@ -39,7 +39,7 @@
           "short": "Reyestrlər"
         },
         "1024": {
-          "long": "Reyestrlar şöbəsinin rəhbəri",
+          "long": "Reyestrlər şöbəsinin rəhbəri",
           "short": "Reyestrlərin rəhbəri"
         },
         "2048": {

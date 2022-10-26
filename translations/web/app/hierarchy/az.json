@@ -48,8 +48,8 @@
         "title": "“{{value}}” üçün qruplar və giriş hüquqları",
         "users": {
           "admin_tooltip": "Qrup lideri",
-          "empty": "Qruplar əlavə edin və elementin icazələrini konfiqurasiya edin",
-          "empty_permissions": "Heç bir icazə təyin edilməyib",
+          "empty": "Qruplar əlavə edin və müvafiq icazələri verin",
+          "empty_permissions": "İcazələr təyin edilməyib",
           "no_rights": "İşçiyə reyestrlərə giriş hüququ təyyin olunmayıb"
         }
       },
@@ -99,7 +99,7 @@
           "title": "Şirkətlərə baxın"
         },
         "16": {
-          "description": "Anketdə dəyişikliklərin icrası, bağlanması, təsdiqi",
+          "description": "Anketdə dəyişikliklərin icrası, təsdiqi",
           "title": "Reyestrin idarə edilməsi"
         },
         "2": {
@@ -107,7 +107,7 @@
           "title": "Müraciətlərə bax"
         },
         "4": {
-          "description": "Şirkətlərin sorğularını təsdiqləyin. Akkreditasiya komissiyasının tərkibi reyestr parametrlərində müəyyən edilir.",
+          "description": "Şirkətin sorğularının təsdiqi. Akkreditasiya komissiyasının tərkibi reyestr parametrlərində müəyyən edilir.",
           "title": "Razılaşdırma"
         },
         "8": {
