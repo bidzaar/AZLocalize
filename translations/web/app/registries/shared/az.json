@@ -205,7 +205,7 @@
           "menu": {
             "accredit_from_site": {
               "descr": "Şirkətlər anket doldurmadan reyestrdə akkreditasiya alacaqlar",
-              "title": "Saytdan akkreditasiya"
+              "title": "Platformadan akkreditasiya"
             },
             "invite_by_link": {
               "descr": "Reyestrdə akkreditasiya üçün dəvət keçidi",
@@ -213,7 +213,7 @@
             },
             "invite_from_site": {
               "descr": "Şirkətlər reyestrdə akkreditasiya üçün müraciət edəcəklər",
-              "title": "Saytdan dəvət edin"
+              "title": "Platformadan dəvət edin"
             }
           }
         },

@@ -120,7 +120,7 @@
               },
               "vat": {
                 "label": "ƏDV",
-                "none": "Pulsuz"
+                "none": "Vergiyə cəlb olunmur"
               }
             },
             "validation": {
@@ -165,7 +165,7 @@
           "body": {
             "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
             "deviation_tooltip": "Sorğudakı miqdarda yayınma",
-            "free": "Pulsuz",
+            "free": "Ödənişsiz",
             "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
             "response_availability": {
               "false": "Mövcud",

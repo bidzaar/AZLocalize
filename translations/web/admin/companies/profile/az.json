@@ -82,7 +82,7 @@
           "header": "Qalib olduqda ödəniş qaydaları",
           "save": "Yadda saxla",
           "sum": "Məbləğ",
-          "to": "kimi",
+          "to": "",
           "who_pays": "Kim ödəyir"
         },
         "tariff_plan": {
@@ -168,7 +168,7 @@
           "closed": "Qapalı sorğular pulsuzdur",
           "from": ".",
           "title": "Qalib olduqda ödəniş qaydaları",
-          "to": "kimi",
+          "to": "",
           "who_pays": "Kim ödəyir"
         },
         "tariff_plan": {

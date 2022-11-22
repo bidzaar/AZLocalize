@@ -1,8 +1,8 @@
 {
   "req.details": {
     "tabs": {
-      "nda": "sorğu məlumatları NİV proseduru ilə qorunur",
-      "tags": "teqlər",
+      "nda": "Sorğu məlumatları İlkin kvalifikasiya proseduru ilə qorunur",
+      "tags": "Teqlər",
       "docs": "Sənədlər",
       "positions": "Maddələr üzrə spesifikasiya",
       "questionnaire": "Qeyri-qiymət meyyarları",
@@ -49,6 +49,15 @@
       "view": "Ətraflı",
       "dialog": {
         "edit": "sorğu tarifini dəyişdirin"
+      },
+      "payment_fee": {
+        "seller": "Qalib olan təchizatçı ödəyir",
+        "purchaser": "Satınalma təşkilatı ödəyir",
+        "fee": {
+          "title": "Tarif tətbiq edilmir",
+          "text": "İştirak pulsuzdur",
+          "closed": "Qapalı sorğular üçün komissiya yoxdur"
+        }
       }
     },
     "owner_rules": {

@@ -61,10 +61,10 @@
         "submit": "Default olaraq tarif ayarla"
       },
       "activate": {
-        "header": "Hərəkətə keşir",
+        "header": "Hərəkətə keçir",
         "text": "Tarif dərc olunacaq və istifadəçilər sorğuların ayarlarında istifadə edə biləcəklər",
         "cancel": "Ləğv et",
-        "submit": "Hərəkətə kecir",
+        "submit": "Hərəkətə keçir",
         "validation": {
           "Tariff.Description.IsEmpty": "Təsvir göstərilməyib",
           "Tariff.Name.IsEmpty": "Adı göstərilməyib",
