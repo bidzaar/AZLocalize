@@ -46,7 +46,7 @@
           "title": "Sorğu statusu"
         },
         "open_type": {
-          "title": " Sorğu növü",
+          "title": "Sorğu növü",
           "options": {
             "0": "Yalnız açıq",
             "1": "Yalnız qapalı"

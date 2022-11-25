@@ -17,6 +17,20 @@
         "sub_title": "Sifarişçinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün sifarişçi ilə əlaqə saxlayın",
         "title": "Sifarişçi sizi sorğusundan kənarlaşdırdı"
       },
+      "registries": {
+        "title": "Akkreditasiya",
+        "text":"Təklif vermək üçün Sifarişçinin bu reyestrlərində akkreditasiyadan keçmək tələb olunur:",
+        "open": "Reyestri aç",
+        "status": {
+          "false": "Akkreditasiyə olunmayıb",
+          "true": "Akkreditasiya olunub"
+        },
+        "status_registry": {
+          "0": "Akkreditasiya prosesində",
+          "1": "Əvvəl akkreditasiya olunub",
+          "2": "Akkreditasiya olunmayıb"
+        }
+      },
       "card": {
         "actions": {
           "cancel": "Dəyişiklikləri ləğv et",
@@ -93,13 +107,29 @@
         },
         "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
         "files_title": "İlkin kvalifikasiya mərhələsini qiymətləndirməsi üçün müraciət sənədləri",
-        "send": "Göndər",
+        "manual": {
+          "title": "İlkin kvalifikasiya üçün müraciət",
+          "message": {
+            "1": "Müraciət",
+            "2": "Yenidən müraciət"
+          },
+          "description": {
+            "text": "Sorğunun parametrləri ilə tanış olmaq üçün ilkin kvalifikasiya mərhələsindən keç",
+            "explanation": "İlkin kvalifikasiya və təkliflər, təkliflərin son tarixinə kimi təqdim olunmalıdır. Sifarişçi ilə əlaqə-Botçat."
+          }
+        },
         "title": {
           "accepted": "İlkin qiymətləndirmə mərhələsini keçdi",
           "draft": "İlkin qiymətləndirmə mərhələsi",
           "failed": "İlkin qiymətləndirmə mərhələsi uğursuz oldu",
           "rejected": "İlkin qiymətləndirmə mərhələsi. Müraciətiniz imtina olundu",
-          "submitted": "İlkin qiymətləndirmə mərhələsi. Müraciətiniz baxılır"
+          "submitted": "İlkin qiymətləndirmə mərhələsi. Müraciətiniz baxılır",
+          "status": {
+            "0": "Müraciət olunmayıb",
+            "1": "Müraciət olundu",
+            "2": "Müraciət imtina olundu",
+            "3": "Müraciət tamamlandı"
+          }
         },
         "your_application": "İlkin qiymətləndirmə mərhələsi üçün müraciət"
       },

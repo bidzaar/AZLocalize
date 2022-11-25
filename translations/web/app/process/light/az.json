@@ -24,7 +24,11 @@
             "DraftNotFound": "Təklif qaralaması tapılmadı",
             "MaxAlternativeProposalReached": "Alternativ təkliflərin maksimum sayına çatıldı"
           },
-          "WrongNdaState": "İştirakçı müraciəti işlənib"
+          "User": {
+            "LastOwner": "Sorğunun ən azı bir sahibi olmalıdır",
+            "ResponsibleUserCannotBeDeleted": "Məsul sahibini istisna edə bilməzsiniz. Üzvü xaric etmək üçün cavabdeh olmaq üçün sorğunun başqa sahibini təyin etməlisiniz"
+          },
+          "WrongNdaState": "İştirakçının müraciəti işlənib"
         }
       }
     }
@@ -108,7 +112,8 @@
       },
       "proposal_deviation_type": {
         "0": "Maddələr və miqdara görə yayınma icazə verilmir ",
-        "1": "Maddələr və miqdara görə yayınma icazə verilir"
+        "1": "Maddələr və miqdara görə yayınma icazə verilir",
+        "2": "Yalnız maddələrə görə yayınma icazə verilir"
       },
       "role": {
         "0": "Auditor",
@@ -141,9 +146,9 @@
         "true": "ƏDV daxil"
       },
       "invited_by": {
-        "0": " Digər",
-        "1": "Sifarişçi",
-        "2": "Platforma"
+        "0": "Digər",
+        "1": "Sifarişçi ",
+        "2": "Platforma "
       }
     },
     "view": {
@@ -279,7 +284,7 @@
           }
         },
         "group": {
-          "settings": "Ayarla"
+          "settings": "Ayarla "
         },
         "header_cells": {
           "actions": "Əməliyyatlar",
@@ -382,7 +387,16 @@
           "total": "Cəmi",
           "update": "Yeniləmək",
           "with_vat": "ƏDV daxil",
-          "without_vat": "ƏDV-siz"
+          "without_vat": "ƏDV-siz",
+          "info": "Məlumat",
+          "float_count_warning": "Diqqət! Sifarişdə fraksiya kəmiyyəti göstərilib. Maddənin fraksiyalı həcmlərə bölünə biləcəyinə əmin olun"
+        },
+        "position_proposal_total_dialog": {
+          "title": "Sifariş məbləğini maddə üzrə dəyişdirin",
+          "total": "Son hesablama:",
+          "count_error": "əchizatçının təklifindəki miqdar iştirakçının təklifindən azdır",
+          "cancel": "Ləğv et",
+          "submit": "Hazırdı"
         },
         "positions": "Maddə üzrə spesifikasiya ({{value}})",
         "proposal_conclusion": "Təklifin nəticəsi",
@@ -428,7 +442,12 @@
           "download_my_proposal_table": "Təklifi endir",
           "download_proposal": "Təklifi yükləyin"
         },
-        "total_order_sum": "Sifarişin qiyməti"
+        "total_order_sum": "Sifarişin qiyməti",
+        "paginator": {
+          "title": "Təkliflər",
+          "from": " ",
+          "info": "[AT] naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün"
+        }
       },
       "dialogs": {
         "cancel": {
@@ -722,13 +741,17 @@
             },
             "Tariff": {
               "NotActive": {
-                "title": "Etibarsız sorğu tarifi göstərilmişdir",
+                "title": "Etibarsız sorğu tarifi göstərilmişdir ",
+                "notice": ""
+              },
+              "NotDefined": {
+                "title": "Tarif seçilməyib",
                 "notice": ""
               }
             },
             "NewStageCreated": {
-              "notice": "Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
-              "title": "Təkliflərin qəbulu başa çatıb, yekun sorğu"
+              "notice": "Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın ",
+              "title": "Təkliflərin qəbulu başa çatıb, yekun sorğu "
             }
           },
           "comment": {
@@ -1242,6 +1265,10 @@
                 },
                 "notice": "Təklif təqdim etmək üçün ProcureSaaS-dan yoxlama keçin",
                 "text": "Bu sorğu yalnız yoxlanılmış təchizatçılar üçündür"
+              },
+              "accreditation": {
+                "title": "Təkliflər akkreditasiya olunmuş təchizatçılardan qəbul edilir",
+                "text": "Təklifi təqdim etmək üçün Sifarişçinin reyestrlərində akkreditasiyanı alacaqsınız"
               }
             }
           },
@@ -1510,7 +1537,7 @@
               "title": "İştirakçının statusu"
             },
             "invited_by": {
-              "title": "tərəfindən dəvət edilmişdir"
+              "title": "tərəfindən dəvət edilmişdir "
             }
           },
           "forbidden": {
@@ -2088,14 +2115,20 @@
               "title": "Təkliflər qəbulu mərhələsinin sonu"
             },
             "contact": {
-              "append": "Təchizatçılarla əlaqə saxlayacaq şəxsi göstərin",
+              "append": "Təchizatçılarla ünsiyyət üçün əlaqə əlavə edin",
               "change": "Dəyiş",
+              "dialog":{
+                "title": "Əlaqə",
+                "placeholder":"Təsviri və əlaqə",
+                "cancel": "Ləğv et",
+                "submit": "Hazırdı"
+              },
               "empty": {
                 "other": "Təşkilatçı əlaqə üçün şəxs təqdim etməyib.",
                 "owner": "İşçinin əlaqə məlumatları sorğunun təsvirində göstərilmir."
               },
               "title": "Əlaqəli şəxs",
-              "tooltip": "Təchizatçılar üçün əlaqə sorğuda iştirak etməyə razılaşdıqdan sonra   mövcud  olacaq"
+              "success": "Əlaqə saxlanılır"
             },
             "delivery": {
               "descr": "Malların çatdırılması və ya xidmətlərin göstərilməsi  ünvanı",
@@ -2126,25 +2159,25 @@
             "nda": {
               "other": {
                 "description": {
-                  "title": "İlkin kvalifikasiya mərhələsinin təsviri"
+                  "title": "İlkin kvalifikasiya mərhələsinin təsviri:"
                 },
                 "files": {
-                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
+                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər:"
                 },
-                "stub": "SORĞUNUN TAM SƏNƏDLƏRİNİ İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇDİKDƏN SONRA ƏLDƏ ETMƏK MÜMKÜN OLACAQ"
+                "stub": "SORĞUNUN TAM SƏNƏDLƏRİ İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇDİKDƏN SONRA ƏLCATAN OLACAQ"
               },
               "owner": {
                 "description": {
-                  "placeholder": "İlkin kvalifikasiya mərhələsindən keçmək üçün iştirakçıdan nə tələb olunduğunu təsvir edin",
-                  "title": "İlkin kvalifikasiya mərhələsinin təsviri"
+                  "placeholder": "İlkin kvalifikasiya mərhələsindən keçmək üçün iştirakçıdan tələbləri təsvir edin",
+                  "title": "İlkin kvalifikasiya mərhələsinin təsviri:"
                 },
                 "files": {
                   "description": "Faylları yükləyin (25 Mb-a qədər fayl)",
-                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
+                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər:"
                 },
                 "helper": "Sənədlərə və sorğunun spesifikasiyasına giriş imkanı iştirakçılara yalnız sizin təsdiqinizdən sonra təqdim olunacaq.",
-                "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇƏNƏ QƏDƏR İSTİFADƏÇİLƏRDƏN GİZLƏNƏCƏK.",
-                "title": "İlkin kvalifikasiya mərhələsinin keçmə addımını aktivləşdirin"
+                "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇƏNƏ QƏDƏR İŞTİRAKÇILARDAN GİZLƏNƏCƏK",
+                "title": "İlkin kvalifikasiya prosesini aktivləşdirin"
               }
             },
             "positions": {
@@ -2240,7 +2273,7 @@
                 "description": "gün təkliflərin qəbulu üçün son tarixdən sonra",
                 "label": "Yekunlaşdırma üçün təxmini son tarix",
                 "tooltip": "Sorğunun iştirakçıları müəyyən edilmiş vaxtda tender komissiyasının qərarını gözləyəcəklər",
-                "value_null": "Təyin edilməyib"
+                "value_null": "Təyin olunmayıb"
               },
               "currency": {
                 "allow_dialog": {
@@ -2390,9 +2423,10 @@
             }
           },
           "commission": {
-            "title": "Service commission"
+            "title": "Xidmət komissiyası"
           }
         },
+        
         "sellers": {
           "empty": "İştirakçılar təklif təqdim etməyiblər",
           "header": {
@@ -2401,7 +2435,7 @@
           },
           "unauthorized": {
             "register": "Qeydiyyat və giriş",
-            "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan ke və ya daxil ol"
+            "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan keç və ya daxil ol"
           }
         },
         "seo": {

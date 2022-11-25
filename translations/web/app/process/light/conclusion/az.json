@@ -74,9 +74,9 @@
         },
         "owner": {
           "canceled_orders": {
-            "order_title": "Ləğv et",
+            "order_title": "Ləğv edilib",
             "reason": "Səbəb",
-            "title": "Ləğv edilmiş sifarişlər ({{value}})"
+            "title": "Ləğv edilmiş sifarişlər"
           },
           "documents": {
             "title": "Mərhələ sənədləri",

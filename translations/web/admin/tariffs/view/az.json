@@ -2,14 +2,14 @@
   "trf.view": {
     "details": {
       "actions": {
-        "activate": "Hərəkətə keçir",
-        "deactivate": "Hərəkəti dayandır",
-        "default": "Default olaraq tarif kimi ayarla",
+        "activate": "Aktiv et",
+        "deactivate": "Dayandır",
+        "default": "Standart tarif kimi ayarla",
         "delete": "Sil"
       },
       "default": {
         "title": "Standart tender növü",
-        "text": "Default olaraq tender növü. Yeni sorğu təyin olunacaq"
+        "text": "Yeni tenderlərə standart tender növü təyin olunacaq"
       },
       "comment": {}
     },

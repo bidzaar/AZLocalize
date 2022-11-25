@@ -270,5 +270,14 @@
     "VatEnabled.True": "ƏDV daxil qiymətlər",
     "VerifiedOnly.False": "Təsdiqlənmiş və təsdiqlənməmiş  təchizatçılar",
     "VerifiedOnly.True": "Yalnız təsdiqlənmiş təchizatçılar",
-    "Parameters.MinimumStepFrom": " "
+    "Parameters.MinimumStepFrom": " ",
+    "Brief.Amount": "Sifarişin qiyməti",
+    "Brief.Empty": "Sorğu yaradılmayıb",
+    "Brief.Caption": "Sorğu zamanı göstərilən məbləğlər üzrə sifariş almış aşağıdakı qaliblər müəyyən edilib",
+    "Brief.Text": "Tamamlanmış sorğunun nəticələrindən çıxarış",
+    "Brief.TIN": "VÖEN",
+    "Brief.Total": "Ümumi",
+    "Summary.QrCode": "Sifariş doğrulama kodu:",
+    "Brief.Title": "Sorğunun nəticələri"
 }
+
