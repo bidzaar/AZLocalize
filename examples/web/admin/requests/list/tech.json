@@ -30,6 +30,9 @@
         "address": {
           "title": "web/admin/requests/list: req.lst.list.filters.address.title"
         },
+        "category": {
+          "title": "web/admin/requests/list: req.lst.list.filters.category.title"
+        },
         "company": {
           "title": "web/admin/requests/list: req.lst.list.filters.company.title",
           "choose": "web/admin/requests/list: req.lst.list.filters.company.choose"
@@ -57,6 +60,9 @@
         },
         "publish": {
           "date": "web/admin/requests/list: req.lst.list.card.publish.date"
+        },
+        "category": {
+          "empty": "web/admin/requests/list: req.lst.list.card.category.empty"
         },
         "stats": {
           "proposals": "web/admin/requests/list: req.lst.list.card.stats.proposals",

@@ -59,7 +59,8 @@
         "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "The new bid price violates the rule of price changes. Recommended price: <b>{{ GreaterThan}} {{ BaseCurrency }} and more or {{ LowerThan }} {{ BaseCurrency }} and less</b>. It is allowed to submit an offer with the previous price.",
         "Process.Light.Proposal.Item.CurrencyIsNotValid": "b>{{ PositionName }}.</b> The currency ({{ Currency }}) is not included in the list of currencies specified in the request rules.",
         "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Incorrect value of the VAT rate.",
-        "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> The quantity does not match the request requirements.",
+        "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{ PositionName }}.</b> Delivery in full is required, or indicate \"Not available\".",
+        "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> Quantity does not match the requirements of the request",
         "Process.Light.Proposal.Item.ZeroPrice": "<b>{{ PositionName }}.</b> The price is not specified.",
         "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set \"Not available\", if there is no item.",
         "Process.Light.Proposal.Item.NonZeroCount": "<b>{{ PositionName }}.</b> Incorrect quantity. Set quantity = 0.",
@@ -73,6 +74,40 @@
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Unit price must be increased to {{ GreaterThan }} {{BaseCurrency}} or higher, or set to the previous price ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Procedure.VersionMismatch": "The customer changed the application, your proposal is no longer relevant. Review the changes and update the proposal."
       }
+    },
+    "reports": {
+      "header": {
+        "comparison": "Download comparison table with files",
+        "order": "Download order",
+        "my-proposal": "Download bid",
+        "proposal": "Download bid",
+        "receipt": "Download order",
+        "all-receipt": "Download order",
+        "nda": "Prequalification/NDA applications"
+      },
+      "single": {
+        "sync": {
+          "title": "Download the document",
+          "action": "Download"
+        },
+        "async": {
+          "title": "Request the preparation",
+          "comment": "In a while, you will receive a link to download the archive to your mail {{ email }}",
+          "action": "Request"
+        }
+      },
+      "combo": {
+        "sync": {
+          "title": "Download without attachments",
+          "action": "Download"
+        },
+        "async": {
+          "title": "Request with attachments",
+          "comment": "In a while, you will receive a link to download the archive to your mail {{ email }}",
+          "action": "Request"
+        }
+      },
+      "success": "The archive is being prepared. The download link will be sent to your email"
     }
   }
 }

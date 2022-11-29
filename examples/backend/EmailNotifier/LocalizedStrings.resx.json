@@ -12,5 +12,15 @@
     "ReportType.ProposalArchive": "предложение с вложениями",
     "ReportType.ProposalHistory": "историю предложений по запросу",
     "ReportType.Receipt": "заказ",
-    "ReportType.ReceiptArchive": "заказ с вложениями"
+    "ReportType.ReceiptArchive": "заказ с вложениями",
+    "Custom.OwnerMessage": "Сообщение организатора:",
+    "TargetContext.CompanyName": "<Название компании-поставщика>",
+    "ProcedureContext.ProcedureName": "<Название запроса>",
+    "ProcedureContext.ProcedureOwnerCompanyName": "<Название компании-заказчика>",
+    "ProcedureContext.AcceptanceEndDate": "<Дата и время>",
+    "ProcedureContext.PlaceOfDelivery": "<Место поставки>",
+    "ProcedureContext.Description": "<Описание запроса>",
+    "ProcedureContext.StageComment": "<Название этапа>",
+    "ProcedureVersionContext.ChangeLog": "<Описание изменений в запросе>",
+    "ProcedureResultContext.Reason": "<Причина завершения без выбора победителя>"
 }

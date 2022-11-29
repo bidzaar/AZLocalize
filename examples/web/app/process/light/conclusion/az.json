@@ -68,7 +68,7 @@
           },
           "payment": {
             "title": "[AT] Xidmət operatoru Komissiyası",
-            "delay": "[AT] Haqq-hesab vasitəsilə göndəriləcək {{ value }} sorğu başa çatdıqdan sonra gün",
+            "delay": "[AT] Hesab təxminən qoyulacaq {{ value }}",
             "email": "[AT] Hesab sizin şirkətin e-poçtuna yönəlib",
             "agreement": "[AT] Uyğun komissiya <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">İstifadəçi Saziş</a>"
           }
@@ -228,7 +228,7 @@
             "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz",
             "true": {
               "header": "[AT] Sorğu başa",
-              "text": "[AT] Sizin sifariş:"
+              "text": "[AT] Sənin seçimin:"
             },
             "false": {
               "header": "[AT] Sifariş olmadan sorğunun tamamlanması",
@@ -244,6 +244,10 @@
               "cancel": "[AT] Ləğv et",
               "submit": "[AT] Bitirin",
               "success": "[AT] Sorğu başa çatdı. İştirakçılara mesajlar göndərilib"
+            },
+            "mail": {
+              "title": "Sorğu tamamlandıqda iştirakçılara məlumat verəcəyik",
+              "subtitle": "E-poçtlarımıza baxın və üzvlərə mesajlar əlavə edin"
             }
           },
           "saving_editor": {

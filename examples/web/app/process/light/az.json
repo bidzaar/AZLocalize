@@ -26,7 +26,8 @@
           },
           "User": {
             "LastOwner": "Sorğunun ən azı bir sahibi olmalıdır",
-            "ResponsibleUserCannotBeDeleted": "[AT] Məsul sahibini istisna edə bilməzsiniz. Üzvü xaric etmək üçün cavabdeh olmaq üçün sorğunun başqa sahibini təyin etməlisiniz"
+            "ResponsibleUserCannotBeDeleted": "[AT] Məsul sahibini istisna edə bilməzsiniz. Üzvü xaric etmək üçün cavabdeh olmaq üçün sorğunun başqa sahibini təyin etməlisiniz",
+            "ResponsibleUserCannotBeDegraded": "[AT] Siz məsul sahibin rolunu aşağı sala bilməzsiniz"
           },
           "WrongNdaState": "İştirakçı müraciəti işlənib"
         }
@@ -170,6 +171,9 @@
         },
         "verification": {
           "text": "Sifarişçi yalnız etibarlı təchizatçıların təkliflərini qəbul edir"
+        },
+        "gold": {
+          "text": "\"{{value}}\" reyestrinin üzvləri üçün sorğu"
         }
       },
       "comparison": {
@@ -394,7 +398,7 @@
         "position_proposal_total_dialog": {
           "title": "[AT] Sifariş məbləğini maddə üzrə dəyişdirin",
           "total": "[AT] Son hesablama:",
-          "count_error": "[AT] Təchizatçının təklifindəki miqdar iştirakçının təklifindən azdır",
+          "count_error": "[AT] Məbləğ təchizatçının təklifindən artıqdır",
           "cancel": "[AT] Ləğv et",
           "submit": "[AT] Hazır"
         },
@@ -447,6 +451,12 @@
           "title": "[AT] Təkliflər",
           "from": "[AT] dan",
           "info": "[AT] naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün"
+        },
+        "basis": {
+          "button": "Qiymət müqayisəsi",
+          "target_price": "Hədəf dəyərinə nisbətən",
+          "first_price": "Orijinal təklifə gəldikdə",
+          "best_price": "Ən yaxşı təklif haqqında"
         }
       },
       "dialogs": {
@@ -499,74 +509,10 @@
             "submit": "Yüklə"
           }
         },
-        "download": {
-          "actions": {
-            "cancel": "Ləğv et",
-            "download": "Endir"
-          },
-          "async": {
-            "action": "Fayllarla arxiv əldə edin",
-            "cancel": "Ləğv et",
-            "comment": "Əlavələrlə arxivi  hazırlamaq bir az vaxt aparacaq. Yükləmə linki e-poçtunuza göndəriləcək {{ email }}",
-            "download": "Arxivləşdirməyə başlayın",
-            "success": "Arxiv tezliklə hazırlanacaq",
-            "title": "Qoşmalarla arxiv"
-          },
-          "async_file": {
-            "action": "Sənəd alın",
-            "cancel": "ləğv et",
-            "download": "Sənədin hazırlanmasına başlayın",
-            "success": "Sənəd tezliklə hazırlanacaq",
-            "text": "Mənbə dil sənədinin hazırlanması. Yükləmə linki e-poçtunuza göndəriləcək",
-            "title": "Sənəd"
-          },
-          "header": {
-            "comparison": "Müqayisə cədvəlini yükləyin",
-            "my-proposal": "Təklifi endir",
-            "order": "Sifarişi endir",
-            "proposal": "Təklifi endir",
-            "receipt": "Sifarişi yükləyin"
-          },
-          "no_orders": {
-            "cancel": "Görürəm",
-            "text": "Sifariş yaratmaq üçün iştirakçının təklifini və ya fərdi təklif maddələrini seçin",
-            "title": "Sifariş formalaşmadı"
-          },
-          "settings": {
-            "description": "Müqayisə cədvəlini yükləmək üçün xanaları göstərin",
-            "error": "Düzgün endirmək üçün ən azı bir seçim aktivləşdirilməlidir",
-            "groups": {
-              "0": {
-                "columns": {
-                  "2": "Ölçü vahidi",
-                  "4": "Hədəf qiyməti"
-                },
-                "title": "Maddələrin təsviri"
-              },
-              "1": {
-                "columns": {
-                  "8": "Miqdar",
-                  "16": "Vahid üçün qiymət",
-                  "32": "Cəmi",
-                  "64": "ƏDV",
-                  "128": "Cəmi",
-                  "256": "Şərh",
-                  "512": "Valyuta ilə qiymət",
-                  "1024": "Valyuta",
-                  "2048": "Məzənnə",
-                  "4096": "Maddə üzrə dərəcə"
-                },
-                "title": "İştirakçıların təklifləri"
-              }
-            },
-            "title": "Sahələri tənzimləmək"
-          },
-          "sync": {
-            "action": "Sənədi endir",
-            "comment": "Əlavə sənədlər olmadan Excel cədvəli",
-            "title": "Sənəd"
-          },
-          "with_docs": "Əlavə sənədlərlə endir"
+        "no_orders": {
+          "cancel": "Görürəm",
+          "text": "Sifariş yaratmaq üçün iştirakçının təklifini və ya fərdi təklif maddələrini seçin",
+          "title": "Sifariş formalaşmadı"
         },
         "finish_round": {
           "cancel": "Ləğv et",
@@ -631,10 +577,14 @@
           "form_label": "Sifarişi ləğv edilən iştirakçılara səbəbini deyin:",
           "form_placeholder": "Mesaj...",
           "label_empty": "Sorğu yekunlaşdırılmaq üçün qaytarılsın? ",
-          "order": "<span class=\"price\">{{value}} {{currency}}</span> üçün sifariş ləğv ediləcək.",
+          "order": "<span class=\"price\">{{value}} {{currency}}</span> üzrə seçim seçimi ləğv ediləcək.",
           "submit": "Yekunlaşdırmaq üçün qeri qaytarmaq",
           "success": "Sorğu yekun nəticə mərhələsinə köçürülüb",
-          "title": "Sorğunu yekun nəticə üçün qaytar"
+          "title": "Sorğunu yekun nəticə üçün qaytar",
+          "mail": {
+            "title": "Seçimi ləğv edilmiş üzvləri xəbərdar edəcəyik",
+            "subtitle": "E-poçtumuza baxın və seçimi ləğv edilmiş üzvlərə mesaj əlavə edin"
+          }
         },
         "start_round": {
           "cancel": "Ləğv et",
@@ -733,6 +683,14 @@
               "notice": "Ayarların yalnış təyini",
               "title": "Qiymət dəyişikliyinin minimal addımı"
             },
+            "ReductionStepAbsolute": {
+              "notice": "Ayarların yalnış təyini",
+              "title": "Qiymət dəyişikliyinin minimal addımı"
+            },
+            "ReductionStepPercent": {
+              "notice": "Ayarların yalnış təyini",
+              "title": "Qiymət dəyişikliyinin minimal addımı"
+            },
             "VatEnabled": {
               "Undefined": {
                 "notice": "Dəyər təyin edilməyib",
@@ -752,13 +710,39 @@
             "NewStageCreated": {
               "notice": "[AT] Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
               "title": "[AT] Təkliflərin qəbulu başa çatıb, yekun sorğu"
+            },
+            "Gold": {
+              "ProcedureCannotBeOpened": {
+                "notice": "[AT] magic açıq sorğu işləmir. \"Qapalı \" üçün \"sorğu növü \" parametri seçin",
+                "title": "[AT] Sorğu Gold"
+              },
+              "HasRegistries": {
+                "notice": "[AT] sehrli reyestrinizdə əlavə akkreditasiya ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
+                "title": "[AT] Sorğu Gold"
+              },
+              "NdaCannotBeEnabled": {
+                "notice": "[AT] Pre-valyuta / NİV mərhələsi aktiv olduqda sehrli işləmir",
+                "title": "[AT] Sorğu Gold"
+              }
             }
           },
           "comment": {
-            "title": "Comment for stage participants:",
-            "placeholder": "Comment...",
-            "error": "Required field",
-            "hint": "For example: “Rebidding”, “Submission of final offers”"
+            "title": "Səhnə adı:",
+            "placeholder": "Səhnə adı",
+            "error": "tələb olunan sahə",
+            "hint": "Məsələn: “Təklif”, “Son təkliflərin təqdim edilməsi”"
+          },
+          "mail": {
+            "title": {
+              "0": "Dəvət etdiyiniz iştirakçılara məlumat verəcəyik",
+              "1": "Biz iştirakçılara sorğunun dəyişməsi barədə məlumat verəcəyik",
+              "2": "İştirakçılara yeni mərhələ haqqında məlumat verəcəyik"
+            },
+            "subtitle": {
+              "0": "E-poçtumuza baxın və dəvət etdiyiniz üzvlərə mesaj əlavə edin",
+              "1": "E-poçtumuza baxın və üzvlərə mesaj əlavə edin",
+              "2": "Məktubumuza baxın və səhnə iştirakçılarına mesaj əlavə edin"
+            }
           }
         },
         "vat": {
@@ -1121,7 +1105,7 @@
                 "title": "Şirkətiniz artıq sorğuda iştirak edir"
               },
               "blocked": {
-                "text": "Sifarişçi bu sorğu ilə şirkətinizlə əməkdaşlıqdan imtina etdi. Suallarınız var? Sifarişç ilə əlaqə saxlayın",
+                "text": "[AT1] Müştərinin qərarı ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
                 "title": "Sifarişçi sizi sorğudan kənarlaşdırdı"
               },
               "errors": {
@@ -1181,7 +1165,7 @@
                 "text": {
                   "agreement": "istifadəçi müqaviləsinə",
                   "confirmation": "Sorğuda qalib gəldiyim təqdirdə istifadəçi müqaviləsinə əsasən xidmətin ödənilməsi şərtləri ilə razıyam",
-                  "primary": "Son qəbul tarixinə qədər istənilən vaxt təklifi dəyişə bilərsiniz. Təşkilatçı qalibləri seçərkən yoxlanılmış təchizatçılara üstünlük verir.",
+                  "primary": "[AT] Təklifləri qəbul etdikdən sonra təklifi dəyişə bilərsiniz.",
                   "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq."
                 }
               },
@@ -1194,12 +1178,13 @@
                     "1": "Sifarişçi ilə çatda müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim etmək üçün icazə sorğusu edin",
                     "2": "Sifarişçi qərarını sizə çatda bildirəcək",
                     "3": "Təsdiq olunarsa, siz müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim edə biləcəksiniz.",
-                    "label": "Müəyyən edilmiş qiymət dəyişiklikləri qaydalarını pozan təklif təqdim etmək üçün birdəfəlik icazə sorğu edə bilərsiniz"
+                    "label": "[AT] Müəyyən edilmiş qiymət dəyişiklikləri qaydalarını pozan təklif təqdim etmək üçün birdəfəlik icazə sorğu edə bilərsiniz. Bunu etmək:"
                   },
                   "label": "Qiymət dəyişikliyi qaydasını pozan təklifi necə təqdim etmək olar?"
                 },
                 "helper_positions": {
                   "description": {
+                    "label": "[AT] Qiymətin dəyişdirilməsi təklif olunan əşyaların qiymətini mütənasib olaraq dəyişəcək. Bundan razı deyilsinizsə, qiymətləri fərdi olaraq tənzimləmək seçiminiz var. Bunu etmək:",
                     "1": {
                       "1_1": "Bölməyə keçin",
                       "1_2": "Təklif",
@@ -1221,7 +1206,7 @@
                   "Process.Light.Proposal.Answers.Required": "Qeyri-qiymət təklifi meyarları doldurulmayıb",
                   "Process.Light.Proposal.Item.CurrencyIsNotValid": "b&gt;{{positionName}}. Valyuta ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
                   "Process.Light.Proposal.Item.CustomField.Required": "<b>{{PositionName}}.</b>\"{{ FieldName }}\" xanası boşdur",
-                  "Process.Light.Proposal.Item.DeviationUnavailable": "<b{{positionName}}</b> miqdar sorğunun tələblərinə uyğun gəlmir.",
+                  "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{positionName}}</b> [AT] Tam çatdırılma tələb olunur və ya \"Mövcud deyil\" qeyd edin.",
                   "Process.Light.Proposal.Item.NonZeroCount": "<b>{{positionName}}</b>\nYanlış miqdar. Miqdarı təyin edin = 0.",
                   "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{positionName}}.</b> 99 milyarddan aşağı qiymət göstərin.",
                   "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{{{positionName}}}}.</b> Yanlış qiymət. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\"seçin.",
@@ -1332,23 +1317,27 @@
             "button": "Əvvəlki mərhələlərdən bloklanmış iştirakçılar"
           },
           "invite_email": {
-            "bulk": {
-              "cancel": "Geri",
-              "emails": "Vergüllə ayrılmış e-poçt ünvanlarını daxil edin",
-              "next": "Əlavə et"
-            },
             "header": "E-poçt ilə dəvət",
+            "multi": {
+              "label": "[AT] E-poçtları vergüllə ayıraraq daxil edin və ya Daxil edin",
+              "cancel": "Geri",
+              "submit": "Əlavə et"
+            },
             "single": {
               "cancel": "Ləğv et",
-              "comment": "Daxili şərh",
-              "create": "E-poçt əlavə et",
-              "done": "Hazırdı",
-              "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək",
-              "email": "E-poçt",
-              "or": "və ya",
+              "done": "Göndər",
+              "invite": "Dəvət et",
+              "append": "E-poçt əlavə et",
               "remove": "Sil",
-              "send": "Göndər",
-              "toggle": "Bir neçə E-poçt"
+              "or": "və ya",
+              "switch": "Bir neçə E-poçt",
+              "optional": "Könüllü",
+              "email": "E-poçt", 
+              "company": "Şirkət adı",
+              "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
+            },
+            "errors": {
+              "duplicate": "[AT] Bu e-poçt artıq əlavə edilib"
             },
             "success": {
               "default": "Dəvətlər göndərildi",
@@ -1522,6 +1511,10 @@
               "title": "İştirakçıların siyahısını yüklə",
               "tooltip": "İştirakçıların siyahısını endir\n"
             },
+            "archive_nda": {
+              "title": "əvvəlcədən təyin edilmiş/NDA üçün mövcud proqramları yükləyin",
+              "tooltip": "/NDA qabaqcadan Təsdiq üçün cari müraciətləri Yükləyin"
+            },
             "unblock_many": {
               "button": "Seçilmiş iştirakçıları blokdan çıxartmaq",
               "tooltip": "Seçilmiş iştirakçıları blokdan çıxartmaq"
@@ -1529,6 +1522,11 @@
             "unblock_one": {
               "button": "Blokdan çıxart"
             }
+          },
+          "gold": {
+            "title": "[AT] Magic Bidzaar daxil edilir",
+            "text":"[AT] təqdim təkliflər - nişanı \"müqayisə\"",
+            "link": "[AT] necə işləyir"
           },
           "empty": "İştirakçı əlavə et. Sorğu dərc edildikdən sonra iştirakçılar dəvət alacaqlar. Siz həmçinin təkliflərin qəbulu mərhələsində iştirakçıları əlavə edə bilərsiniz.",
           "filters": {
@@ -1545,11 +1543,11 @@
             "title": "Məlumat mövcud deyil"
           },
           "invited_by_bidzaar": "ProcureSaaS işçisi tərəfindən dəvət olunub",
-          "not_found": "Göstərilən filtrləmə və axtarış meyarlarına görə iştirakçı mövcud deyil",
+          "not_found": "[AT] Sorğunuz üçün heç nə tapılmadı...",
           "search": {
             "tooltip": "Şirkətin adı"
           },
-          "search_tooltip": "Axtarış aşağıdakı xanalar üzrə aparılır: \n• Şirkətin adı \n• Şirkətin e-poçtu \n• Daxili şərh",
+          "search_tooltip": "Şirkətin adı, Şirkətin e-poçtu",
           "selected": "Seçildi",
           "title": "İştirakçılar",
           "verified": "Şirkət sizin reyestrinizdə akkreditasiya olunub"
@@ -2189,6 +2187,9 @@
             "comment": "Seçilmiş dil chatbotdan gələn mesajlar və platformada qeydiyyatdan keçməmiş təchizatçılar üçün e-poçt bildirişləri üçün istifadə olunacaq",
             "title": "Bildirişlərin dili"
           },
+          "categories": {
+            "title": "[AT] Kateqoriyaları tələb edin"
+          },
           "title": "Əlavə xanalar"
         },
         "locked": {
@@ -2474,7 +2475,8 @@
       "verification": {
         "action": "Xidmət sifariş et",
         "verified": "Şirkətiniz yoxlanıldı"
-      }
+      },
+      "keywords": "sorğu, satınalma, tender, təchizat, xidmətlər"
     }
   }
 }

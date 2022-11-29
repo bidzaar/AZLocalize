@@ -27,5 +27,6 @@
     "PasswordRequiresUpper": "Password must contain at least one letter ('A' - 'Z').",
     "PasswordTooShort": "Password must contain at least {1} characters.",
     "Notice.Company": "Company registration — ",
-    "Notice.Step": "in the next step."
+    "Notice.Step": "in the next step.",
+    "Validation.PaswordSameAsLogin": "The password must not be the same as the user ID (email)"
 }

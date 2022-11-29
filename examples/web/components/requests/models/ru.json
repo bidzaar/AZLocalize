@@ -11,7 +11,7 @@
       "invited_by": {
         "0": "Другое",
         "1": "Организатором",
-        "2": "Приглашен Bidzaar"
+        "2": "Сотрудником Бидзара"
       },
       "open_type": {
         "0": "Открытый",
@@ -59,7 +59,8 @@
         "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: <b>{{ GreaterThan}} {{ BaseCurrency }} и выше или {{ LowerThan }} {{ BaseCurrency }} и ниже</b>. Допустимо подать предложение с прежней ценой.",
         "Process.Light.Proposal.Item.CurrencyIsNotValid": "<b>{{ PositionName }}.</b> Валюта ({{ Currency }}) не входит в перечень валют, указанных в правилах запроса.",
         "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Некорректное значение ставки НДС.",
-        "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> Количество не соответствует требованиям запроса.",
+        "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{ PositionName }}.</b> Требуется поставка в полном объёме, либо укажите \"Нет в наличии\".",
+        "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{ PositionName }}.</b> Количество не соответствует требованиям запроса",
         "Process.Light.Proposal.Item.ZeroPrice": "<b>{{ PositionName }}.</b> Цена не указана.",
         "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Некорректное количество. При отсутствии позиции укажите \"Нет в наличии\".",
         "Process.Light.Proposal.Item.NonZeroCount": "<b>{{ PositionName }}.</b> Некорректное количество. Укажите количество = 0.",
@@ -73,6 +74,40 @@
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Цена за единицу должна быть повышена до {{ GreaterThan }} {{BaseCurrency}} или выше, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Procedure.VersionMismatch": "Заказчик изменил заявку, ваше предложение больше не актуально. Ознакомьтесь с изменениями и обновите предложение."
       }
+    },
+    "reports": {
+      "header": {
+        "comparison": "Скачать таблицу сравнения",
+        "order": "Скачать заказ",
+        "my-proposal": "Скачать предложение",
+        "proposal": "Скачать предложение",
+        "receipt": "Скачать заказ",
+        "all-receipt": "Скачать заказ",
+        "nda": "Заявки на предквалификацию/NDA"
+      },
+      "single": {
+        "sync": {
+          "title": "Скачать документ",
+          "action": "Скачать"
+        },
+        "async": {
+          "title": "Запросить подготовку",
+          "comment": "Подготовка займет некоторое время. Ссылка для скачивания придёт на вашу почту {{ email }}",
+          "action": "Запросить"
+        }
+      },
+      "combo": {
+        "sync": {
+          "title": "Скачать без приложенных документов",
+          "action": "Скачать"
+        },
+        "async": {
+          "title": "Запросить с приложенными документами",
+          "comment": "Подготовка займет некоторое время. Ссылка для скачивания придёт на вашу почту {{ email }}",
+          "action": "Запросить"
+        }
+      },
+      "success": "Архив готовится. Ссылка для скачивания придёт на вашу почту"
     }
   }
 }

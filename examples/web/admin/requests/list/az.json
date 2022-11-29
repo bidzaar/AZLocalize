@@ -13,6 +13,9 @@
         "publish": {
           "date": "Dərc edilmişdir"
         },
+        "category": {
+          "empty": "[AT] Kateqoriyasız"
+        },
         "stats": {
           "participants": "İştirak etmişdir",
           "proposals": "Təklifi olan iştirakçılar"
@@ -27,6 +30,9 @@
         },
         "address": {
           "title": "Çatdırılma ünvanı"
+        },
+        "category": {
+          "title": "[AT] Kateqoriya"
         },
         "company": {
           "choose": "Sifarişçiləri seçin",

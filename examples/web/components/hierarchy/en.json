@@ -1,0 +1,17 @@
+{
+  "bdz.hrch": {
+    "selection": {
+      "search": {
+        "placeholder": "Search..."
+      },
+      "items": {
+        "empty": "There are no nested items",
+        "notfound": "No items were found"
+      },
+      "actions": {
+        "cancel": "Cancel",
+        "submit": "Submit"
+      }
+    }
+  }
+}

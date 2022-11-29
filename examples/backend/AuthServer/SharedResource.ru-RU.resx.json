@@ -14,7 +14,7 @@
     "Validation.Email": "Укажите корректный email. Образец: myemail@email.com",
     "Validation.IncorrectPassword": "Введен не верный логин или пароль",
     "Validation.MaxLength": "Слишком длинное значение. Используйте до {0} символов",
-    "Validation.PasswordEqualsEmail": "Укажите пароль, отличный от эл. почты",
+    "Validation.PasswordEqualsEmail": "Укажите пароль, отличный от email",
     "Validation.PasswordsDontMatch": "Пароли не совпадают",
     "Validation.RecoveryLinkIsUsed": "Ссылка для восстановления пароля больше не действительна. Повторите восстановление пароля",
     "Validation.Required": "Обязательное поле",
@@ -27,5 +27,6 @@
     "Error.UserNotFound": "Пользователь не найден",
     "Error.WrongPassword": "Введён неверный пароль",
     "Notice.Company": "Регистрация компании — ",
-    "Notice.Step": "на следующем шаге."
+    "Notice.Step": "на следующем шаге.",
+    "Validation.PaswordSameAsLogin": "Пароль не должен быть таким же, как и идентификатор (имейл) пользователя"
 }

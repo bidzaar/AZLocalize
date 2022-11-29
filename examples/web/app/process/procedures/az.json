@@ -38,6 +38,9 @@
       "budget": {
         "title": "Büdcə"
       },
+      "categories": {
+        "title": "[AT] Kateqoriyalar"
+      },
       "creation_date": {
         "title": "Yaranma tarixi"
       },
@@ -46,6 +49,8 @@
         "title": "Sifarişçi"
       },
       "default": "defolt olaraq",
+      "mytags": "[AT] etiketlərimlə",
+      "acceptance": "[AT] Təkliflərin qəbulu",
       "favorite": {
         "title": "★ İlk öncə seçilmişlər"
       },
@@ -107,7 +112,14 @@
       "create": "Sorğu yaratmaq",
       "export": "Endir",
       "manager_title": "Şirkətin bütün sorğuları",
-      "title": "Mənim sorğularım"
+      "title": "Mənim sorğularım",
+      "download": "Yüklə",
+      "vendors_statistics_dialog": {
+        "title": "Alıcı statistikası.",
+        "period": "Hesabat dövrü",
+        "cancel": "Ləğv et",
+        "download": "Yüklə"
+      }
     },
     "participantions": {
       "rank": "Rəqiblər arasında dərəcə reytingi",
@@ -134,6 +146,7 @@
       "proposals": "Participants of the current stage with an offer",
       "participants": "Participated in the current stage"
     },
-    "views_count": "Baxışların miqdarı"
+    "views_count": "Baxışların miqdarı",
+    "gold": "Qızıl tələb"
   }
 }

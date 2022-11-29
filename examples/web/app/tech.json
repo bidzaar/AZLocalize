@@ -53,10 +53,10 @@
         },
         "selected_title": "web/app: admin.companies.list.selected_title",
         "sorting": {
-          "completedProceduresCount": "web/app: admin.companies.list.sorting.completedProceduresCount",
-          "name_asc": "web/app: admin.companies.list.sorting.name_asc",
-          "participationsCount": "web/app: admin.companies.list.sorting.participationsCount",
-          "registration_date": "web/app: admin.companies.list.sorting.registration_date"
+          "rating": "web/app: admin.companies.list.sorting.rating",
+          "name": "web/app: admin.companies.list.sorting.name",
+          "participations": "web/app: admin.companies.list.sorting.participations",
+          "registration": "web/app: admin.companies.list.sorting.registration"
         },
         "title": "web/app: admin.companies.list.title"
       },
@@ -383,13 +383,6 @@
       "adjustment_required": "web/app: dashboard.my_accreditations.adjustment_required",
       "invited": "web/app: dashboard.my_accreditations.invited",
       "title": "web/app: dashboard.my_accreditations.title"
-    },
-    "my_pools": {
-      "action": "web/app: dashboard.my_pools.action",
-      "active": "web/app: dashboard.my_pools.active",
-      "adjustment_required": "web/app: dashboard.my_pools.adjustment_required",
-      "consideration": "web/app: dashboard.my_pools.consideration",
-      "title": "web/app: dashboard.my_pools.title"
     },
     "no_procedures": {
       "action": "web/app: dashboard.no_procedures.action",

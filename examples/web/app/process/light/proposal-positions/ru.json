@@ -88,7 +88,9 @@
             "response_total_tooltip": "Итого ({{value}})",
             "response_comment": "Комментарий",
             "request_group": "Описание позиций",
-            "response_group": "Предложение"
+            "response_group": "Предложение",
+            "show_columns": "Показать скрытые колонки",
+            "hide_columns": "Скрыть колонки"
           },
           "body": {
             "response_availability": {
@@ -96,10 +98,13 @@
               "false": "В наличии"
             },
             "deviation_tooltip": "Отклонение от кол-ва в запросе",
+            "deviation_error_tooltip": "Отклонение от кол-ва в запросе недопустимо",
             "free": "Бесплатно",
             "auction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) ниже минимальной цены за ед, указанной Заказчиком ({{startPrice}} {{currency}})",
             "reduction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) превышает максимальную цену за ед, указанную Заказчиком ({{startPrice}} {{currency}})",
-            "price_rule_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) нарушает шаг изменения цены, указанный Заказчиком ({{rule}})"
+            "price_rule_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) нарушает шаг изменения цены, указанный Заказчиком ({{rule}})",
+            "dont_have_any_tooltip": "Организатор требует наличия всех позиций",
+            "var_error_tooltip": "Указанная ставка НДС не входит в справочник"
           }
         },
         "side": {

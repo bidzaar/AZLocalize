@@ -40,6 +40,9 @@
         }
       },
       "company": {
+        "categories": {
+          "title": "Категории компании"
+        },
         "contacts": {
           "title": "О компании",
           "placeholders": {

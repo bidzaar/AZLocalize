@@ -1,5 +1,10 @@
 {
   "cmp.users": {
-
+    "list": {
+      "empty": {
+        "filtered": "Unfortunately, it was not possible to find employees for this request...",
+        "absolute": "The company has no registered employees on Bidzaar yet"
+      }
+    }
   }
 }

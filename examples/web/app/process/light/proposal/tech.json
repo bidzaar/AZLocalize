@@ -44,9 +44,14 @@
           "alternative": "web/app/process/light/proposal: pl.proposal.card.title.alternative"
         },
         "rank": {
-          "by_proposal": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal",
-          "by_position": "web/app/process/light/proposal: pl.proposal.card.rank.by_position",
-          "label": "web/app/process/light/proposal: pl.proposal.card.rank.label"
+          "by_proposal": {
+            "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.text",
+            "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.label"
+          },
+          "by_position": {
+            "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.text",
+            "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.label"
+          }
         },
         "price": {
           "title": "web/app/process/light/proposal: pl.proposal.card.price.title",
@@ -75,7 +80,8 @@
           "title": "web/app/process/light/proposal: pl.proposal.card.documents.title",
           "sub_title": "web/app/process/light/proposal: pl.proposal.card.documents.sub_title",
           "action": "web/app/process/light/proposal: pl.proposal.card.documents.action",
-          "empty": "web/app/process/light/proposal: pl.proposal.card.documents.empty"
+          "empty": "web/app/process/light/proposal: pl.proposal.card.documents.empty",
+          "text": "web/app/process/light/proposal: pl.proposal.card.documents.text"
         },
         "actions": {
           "submit": "web/app/process/light/proposal: pl.proposal.card.actions.submit",

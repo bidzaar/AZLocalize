@@ -28,10 +28,15 @@
           },
           "create": {
             "brand": {
-              "header": "Saytda brendinizi vurğulayın",
-              "label": "Brend",
-              "notice": "Qarşı tərəflər tərəfindən tanınmaq üçün şirkətin adı",
-              "title": "Brend"
+              "header": "[AT] Saytda şirkətin adı",
+              "legal": {
+                "title": "[AT] Qanuni ad"
+              },
+              "brand": {
+                "title": "[AT] Saytda ad",
+                "notice": "[AT] Sizin unikal brendiniz və ya hüquqi forması olmayan qısaldılmış adınız",
+                "placeholder": "[AT] Saytda ad"
+              }
             },
             "contacts": {
               "email": {
@@ -92,7 +97,7 @@
               "join": {
                 "submit": "Bağlayın",
                 "success": "Ərizə göndərildi",
-                "text": "Şirkət administratorunuz ərizəni təsdiqlədikdən sonra şirkətinizin adından işləyə biləcəksiniz.",
+                "text": "[AT] Ərizə şirkətinizin administratoruna göndərildi.\nTətbiq statusu <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">əsas səhifədə</a>",
                 "title": "Ərizə göndərildi"
               },
               "similar": {
@@ -128,21 +133,21 @@
               }
             },
             "roles": {
-              "header": "Bidzaarda nə edəcəksiniz?",
-              "purchaser": {
-                "notice": "Mən mal və ya xidmətlər təqdim edəcəm",
-                "title": "Təchizatçı təşkilat"
-              },
+              "header": "[AZ] Saytda nə edəcəksiniz?",
               "seller": {
-                "notice": "Mən mal və xidmət sataceyəm",
-                "title": "Satınalan təşkilat"
+                "title": "[AZ] Mən təklif edəcəyəm",
+                "notice": "[AZ] təkliflər təqdim edin və satınalmalarda və ya hərraclarda qalib gəlin"
+              },
+              "purchaser": {
+                "title": "[AZ] Tenderi mən aparacağam",
+                "notice": "[AZ] təklifləri nəzərdən keçirin və qalibləri seçin"
               }
             },
             "tags": {
-              "append": "Teq əlavə et",
-              "header": "Nə satacaqsınız?",
-              "notice": "Ən azı üç teq daxil edin, məsələn: Ofis mebeli, Dəftərxana ləvazimatı, Ofis kağızı",
-              "title": "Müştərilər sizi teqlərlə tapa biləcəklər"
+              "append": "[AT] Teqlər əlavə edin (ən azı üç)",
+              "header": "[AT] Hansı tenderdə iştirak edəcəksiniz?",
+              "notice": "[AT] Nə satdığınız/aldığınız, hansı xidmətləri göstərdiyinizi göstərin",
+              "title": "[AT] Biz sizin üçün təklifi götürəcəyik"
             }
           }
         }

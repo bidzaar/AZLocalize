@@ -242,7 +242,7 @@
     "Summary.Currency": "Sorğu valyutası:",
     "Summary.Link": "Link",
     "Summary.NoVat": "ƏDV-siz qiymətlər",
-    "Summary.NowDateString": "Sənəd ProcureSaaS xidməti tərəfindən {Now} tarixində yaradılıb, sənəddəki vaxt {Tz} saat vaxtı göstərilib.",
+    "Summary.NowDateString": "Sənəd {BrandName} xidməti tərəfindən {Now} tarixində yaradılıb, sənəddəki vaxt {Tz} saat vaxtı göstərilib.",
     "Summary.Number": "Sorğunun kodu",
     "Summary.Owner": "Sifarişçi",
     "Summary.Procedure": "Sorğu",
@@ -274,9 +274,15 @@
     "Brief.Amount": "[AT] Sifariş qiyməti",
     "Brief.Empty": "[AT] Sifariş yaradılmayıb ",
     "Brief.Caption": "[AT] Sorğu zamanı göstərilən məbləğlər üzrə sifariş almış aşağıdakı qaliblər müəyyən edilib",
-    "Brief.Text": "[AT] Tamamlanmış sorğunun nəticələrindən çıxarış",
     "Brief.TIN": "[AT] VÖEN",
     "Brief.Total": "[AT] Ümumi",
     "Summary.QrCode": "Sifariş doğrulama kodu:",
-    "Brief.Title": "[AT] Sorğunun nəticələri"
+    "ProposalItemsDeviationType.AcceptableByPosition": "Maddələrdə icazə verilən fərqlər",
+    "ReductionPriceReference.SelfPriceByPosition": "təklifinizin maddələrinə uyğun olaraq",
+    "ReductionPriceReference.BestPriceByPosition": "ən yaxşı təklifin maddələrinə görə",
+    "Diff.CountChanged": "Lazım olan məbləğ dəyişdi",
+    "Brief.Title.Active": "[AT] {0} tarixində ilkin cəmləri sorğulayın",
+    "Brief.Title.Finished": "[AT] {0} üçün sorğu cəmi",
+    "Brief.Text.Finished": "[AT] Qalib şirkətlər seçildi.",
+    "Brief.Text.Active": "[AT] Qalib kimi əvvəlcədən seçilmiş şirkətlər."
 }

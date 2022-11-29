@@ -1,0 +1,17 @@
+{
+  "bdz.hrch": {
+    "selection": {
+      "search": {
+        "placeholder": "Найти..."
+      },
+      "items": {
+        "empty": "Нет вложенных элементов",
+        "notfound": "Элементы не найдены"
+      },
+      "actions": {
+        "cancel": "Отмена",
+        "submit": "Выбрать"
+      }
+    }
+  }
+}

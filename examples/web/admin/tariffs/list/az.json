@@ -9,10 +9,10 @@
     "search_tooltip": "[AT] Axtarış sahələr üzrə həyata keçirilir: tarifin adı, tarifin Kodu",
     "dialogs": {
       "create": {
-        "header": "[AT] Yeni tarif yaratmaq",
+        "header": "[AT] Tarif əlavə et",
         "label": "[AT] Tarifin adı",
         "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Yaratmaq"
+        "submit": "[AT] Əlavə et"
       }
     }
   }

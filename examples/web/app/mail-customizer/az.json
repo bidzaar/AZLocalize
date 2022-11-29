@@ -1,0 +1,24 @@
+{
+  "mail_customizer": {
+    "dialog": {
+      "message_label": "Alıcılara mesaj",
+      "preview": {
+        "title": "Məktubumuzda - bu sorğunun bir keçidi və təsviri.\nMesajınızı da əlavə edəcəyik.",
+        "subtitle": "Nəticəni görmək üçün test e-poçtu göndərin. E-poçt <span class=\"mail\">{{mail}}</span> ünvanına göndəriləcək",
+        "button": "Test e-poçtu göndərin"
+      },
+      "cancel": "Ləğv et",
+      "submit": "Hazır",
+      "success_tooltip": "Məktub göndərildi"
+    },
+    "mails": {
+      "ProcedurePublishedParticipantsInvited": "İştirakçılara dəvət",
+      "ProcedureChanged": "Dəyişiklik bildirişini tələb edin",
+      "ProcedureStagePublishedEvent": "Yeni mərhələnin nəşri barədə bildiriş",
+      "ProcedureUnCompletedWinners": "Seçilmiş Üzvlərə Bildiriş",
+      "NotifyProcedureFinishedWithoutOrder": "Sorğunun tamamlanması bildirişi",
+      "NotifyProcedureFinishedWithOrderLooser": "Uduzan iştirakçıya bildiriş",
+      "NotifyProcedureFinishedWithOrderWinner": "Qalib iştirakçıya bildiriş"
+    }
+  }
+}

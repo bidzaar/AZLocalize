@@ -56,7 +56,8 @@
             "placeholder": "Siyahı boşdursa ismarıc göndərin",
             "show": "İctimai səhifədə bölməni göstər",
             "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
-            "title": "Siyahının adı"
+            "title": "Siyahının adı",
+            "description": "Təsvir"
           },
           "title": {
             "header": "Bölmə Səhifənin başlığı",

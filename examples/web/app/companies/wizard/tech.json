@@ -64,9 +64,14 @@
             },
             "brand": {
               "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.header",
-              "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.title",
-              "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.notice",
-              "label": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.label"
+              "legal": {
+                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.legal.title"
+              },
+              "brand": {
+                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.title",
+                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.notice",
+                "placeholder": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.placeholder"
+              }
             },
             "contacts": {
               "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.header",

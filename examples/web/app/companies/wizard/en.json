@@ -14,10 +14,10 @@
             "dadata": {
               "search": {
                 "header": "Search for company",
-                "title": "Company name or INN",
+                "title": "Company name or TIN",
                 "notice": "Or full name for an IE",
-                "placeholder": "Company name or INN",
-                "requisites": "INN: {{ inn }}, KPP: {{ kpp }}",
+                "placeholder": "Company name or TIN",
+                "requisites": "TIN: {{ inn }}, KPP: {{ kpp }}",
                 "empty": {
                   "title": "Company hasn't been found",
                   "text": "Change the search query\nor",
@@ -25,7 +25,7 @@
                 }
               },
               "approve": {
-                "inn": "INN",
+                "inn": "TIN",
                 "kpp": "KPP",
                 "address": "Legal address",
                 "cancel": "Other company",
@@ -57,16 +57,21 @@
               },
               "join": {
                 "title": "Application has been sent",
-                "text": "You will be able to work on behalf of your company once your company administrator has confirmed the application.",
+                "text": "The application has been sent to your company administrator.\nApplication status on the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">main page</a>",
                 "submit": "Close",
                 "success": "Application has been sent"
               }
             },
             "brand": {
-              "header": "Highlight your brand on the site",
-              "title": "Brand",
-              "notice": "Company name on the site to be recognised by counterparties",
-              "label": "Brand"
+              "header": "Company name on the site",
+              "legal": {
+                "title": "Legal name"
+              },
+              "brand": {
+                "title": "Name on the site",
+                "notice": "Your unique brand or abbreviated name without legal form",
+                "placeholder": "Name on the site"
+              }
             },
             "contacts": {
               "header": "How can counterparties find you?",
@@ -96,21 +101,21 @@
               "append": "Add country, region or city"
             },
             "roles": {
-              "header": "What will you do at Bidzaar?",
+              "header": "What will you do on the site?",
               "seller": {
-                "title": "I'm a vendor",
-                "notice": "I will supply goods or services"
+                "title": "I will be bidding",
+                "notice": "submit bids and win procurements or auctions"
               },
               "purchaser": {
-                "title": "I'm a purchaser",
-                "notice": "I will purchase goods or services"
+                "title": "I will conduct the bidding",
+                "notice": "review bids and select winners"
               }
             },
             "tags": {
-              "header": "What will you supply?",
-              "title": "Customers will find you by tags",
-              "notice": "Enter at least three tags, e.g:\nOffice furniture, Stationery, Office paper",
-              "append": "Add tags"
+              "header": "What kind of bidding will you participate in?",
+              "title": "We'll pick up the bidding for you",
+              "notice": "Specify what you sell/buy, what services you provide",
+              "append": "Add tags (three at least)"
             },
             "finish": {
               "header": "Your company is registered",

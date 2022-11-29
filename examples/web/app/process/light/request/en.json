@@ -43,6 +43,21 @@
         "warning_text": "The information is available to supplier companies.\nLogin or register a company on the site.",
         "disabled": "Non-price request criteria not defined"
       },
+      "gold": {
+        "title": "Bidzaar magic",
+        "link": "How does it work?",
+        "text": {
+          "message": "Make the request simple, fast and efficient.",
+          "warning": "It is impossible to disable magic after publishing the request",
+          "read": "Magic is on"
+        },
+        "select": {
+          "label": "Specialization of participants",
+          "placeholder": "Specify the specialization of participants"
+        },
+        "on": "Magic is enabled. The circle of participants is limited (the type of request is closed)",
+        "off": "Magic is disabled. The circle of participants is unlimited (the type of request is open)"
+      },
       "rules": {
         "title": "Request rules"
       },
@@ -51,7 +66,11 @@
       },
       "registries": {
         "title": "Accreditation of participants",
-        "text": "To submit an offer, participants are accredited in these customer registries:",
+        "text": {
+          "1": "Only suppliers accredited in the following registries can submit a bid",
+          "2": "Accredited suppliers are automatically invited to the request when the request is published",
+          "3": "Non-accredited participants may simultaneously pass accreditation and prepare a proposal"
+        },        
         "add": "Add registry",
         "success": {
           "add": "Registries added",
@@ -60,7 +79,7 @@
         "empty": "Registries are not specified. Accreditation is not required to submit proposals",
         "item": {
           "open": "Open registry",
-          "remove": "Delete"
+          "remove": "Remove registry"
         },
         "dialog": {
           "title": "Company Registries",

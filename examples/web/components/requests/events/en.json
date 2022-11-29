@@ -44,39 +44,39 @@
     "data": {
       "procedure": {
         "reason": {
-          "label": "Причина:",
-          "default": "Заказчик внёс существенные изменения в запрос"
+          "label": "Reason:",
+          "default": "The customer has made significant changes to the request"
         },
-        "summing": "Участников с предложением: {{ participants }}",
-        "prolongation": "(до {{ date}})",
+        "summing": "Participants with an offer: {{ participants }}",
+        "prolongation": "(before {{ date}})",
         "reports": {
-          "comparison": "Таблица сравнения",
-          "notice": "Извещение",
-          "changes": "Изменения"
+          "comparison": "Comparison table",
+          "notice": "Notification",
+          "changes": "Changes"
         },
         "completed": {
           "common": {
-            "empty": "Без заказа",
-            "order": "Заказ",
+            "empty": "No order",
+            "order": "Order",
             "price": "{{ price }} {{ currency }}",
-            "orderFor": "Заказ для {{ value }}"
+            "orderFor": "Order for {{value }}"
           },
           "participant": {
-            "winner": "Заказчик выбрал вас победителем",
-            "loser": "Заказчик выбрал победителем другую компанию",
-            "nobody": "Запрос завершён без выбора победителя"
+            "winner": "The customer chose you as the winner",
+            "loser": "The customer chose another company as the winner",
+            "nobody": "The request is completed without selecting a winner"
           }
         },
-        "tariff": "Тариф: {{ value }}"
+        "tariff": "Tariff: {{ value }}"
       },
       "proposals": {
         "price": "{{ price }} {{ currency }}",
-        "primary": "Предложение",
-        "alternative": "Альтернативное {{ index }}",
-        "errors": "Предложение \"{{value}}\" содержит ошибки:"
+        "primary": "Sentence",
+        "alternative": "Alternative {{index }}",
+        "errors": "Sentence \"{{value}}\" contains errors:"
       },
       "participants": {
-        "contact": "Контактное лицо: {{ value }}"
+        "contact": "Contact person: {{ value }}"
       }
     },
     "types": {

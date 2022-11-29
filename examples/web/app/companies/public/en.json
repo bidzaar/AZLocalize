@@ -10,7 +10,7 @@
       },
       "empty": {
         "message_primary": "Create a public company page",
-        "message_secondary": "Display your public tenders and vendor pools to your partners, set participation terms such as information regarding goods or services you purchase, contacts of the tender committee..."
+        "message_secondary": "Display your public requests and vendor pools to your partners, set participation terms such as information regarding goods or services you purchase, contacts of the tender committee..."
       },
       "defaults": {
         "title": "Section for vendors",
@@ -20,8 +20,8 @@
           "title": "Vendor pools"
         },
         "tenders": {
-          "placeholder": "The company hasn't published any tenders on Bidzaar yet.",
-          "title": "Tenders"
+          "placeholder": "The company hasn't published any requests on Bidzaar yet.",
+          "title": "Requests"
         },
         "registries": {
           "placeholder": "The company hasn't published any registries on Bidzaar yet.",
@@ -47,21 +47,22 @@
             "placeholder": "Message if the list is empty",
             "show": "Show this section on the public page",
             "show_if_empty": "Show sections if the list is empty",
-            "title": "Vendor pools"
+            "title": "List title"
           },
           "registries": {
             "header": "Registries section",
             "placeholder": "Message if the list is empty",
             "show": "Show this section on the public page",
             "show_if_empty": "Show sections if the list is empty",
-            "title": "Registries"
+            "title": "List title"
           },
           "tenders": {
-            "header": "Tender section",
+            "header": "Requests section",
             "placeholder": "Message if the list is empty",
             "show": "Show this section on the public page",
             "show_if_empty": "Show sections if the list is empty",
-            "title": "List title"
+            "title": "List title",
+            "description": "Description"
           }
         },
         "viewer": {
@@ -81,13 +82,13 @@
             "header": "Information for potential vendors",
             "empty": {
               "message_primary": "Information for suppliers",
-              "message_secondary": "Specify the terms and conditions for the participation in tenders, the goods and services\nthat you buy, the contacts of the tender commission..."
+              "message_secondary": "Specify the terms and conditions for the participation in requests, the goods and services\nthat you buy, the contacts of the tender commission..."
             }
           },
           "files": {
             "empty": {
               "message_primary": "Upload documents from vendors",
-              "message_secondary": "For example, Participation terms and Bid submission,\nTender Events..."
+              "message_secondary": "For example, Participation terms and Bid submission,\nRequest Events..."
             },
             "header": "Documents for vendors"
           },
@@ -100,7 +101,7 @@
               "options": {
                 "page": "Public page",
                 "pools": "Vendor pools",
-                "tenders": "Tenders",
+                "tenders": "Requests",
                 "registries": "Registries"
               },
               "title": "Code for iframe"
@@ -135,10 +136,10 @@
             }
           },
           "tenders": {
-            "header": "Tenders",
+            "header": "Requests",
             "notice": {
               "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-              "title": "Tenders are published on the Bidzaar."
+              "title": "Requests are published on the Bidzaar."
             },
             "empty": {
               "message_primary": "The section is not displayed on the public page",

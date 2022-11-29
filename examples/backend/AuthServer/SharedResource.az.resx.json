@@ -23,6 +23,7 @@
     "Validation.MaxLength": "Dəyər çox uzundur. Maksimum {0} simvol istifadə edin",
     "Validation.PasswordEqualsEmail": "E-poçtdan seçilən başqa bir şifrə qeyd edin",
     "Validation.PasswordsDontMatch": "Şifrələr uyğun gəlmir",
+    "Validation.PaswordSameAsLogin": "Parol istifadəçi ID-si (e-poçt) ilə eyni olmamalıdır.",
     "Validation.RecoveryLinkIsUsed": "Şifrənin bərpası üçün link artıq etibarlı deyil. Şifrənin bərpasına yenidən cəhd edin",
     "Validation.Required": "Tələb olunan xana",
     "Validation.UserAlreadyExists": "Göstərilən e-poçtu olan istifadəçi artıq qeydiyyatdan keçib",

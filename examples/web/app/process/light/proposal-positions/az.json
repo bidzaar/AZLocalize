@@ -169,13 +169,16 @@
           "body": {
             "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
             "deviation_tooltip": "Sorğudakı miqdarda yayınma",
+            "deviation_error_tooltip": "Sorğudakı kəmiyyətdən kənara çıxmağa yol verilmir",
             "free": "Pulsuz",
             "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
             "response_availability": {
               "false": "Mövcud",
               "true": "Mövcud deyil"
             },
-            "price_rule_error_tooltip": "[AT] Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə Müştəri tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})"
+            "price_rule_error_tooltip": "[AT] Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə Müştəri tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})",
+            "dont_have_any_tooltip": "Təşkilatçı bütün vəzifələrin mövcudluğunu tələb edir",
+            "var_error_tooltip": "Göstərilən ƏDV dərəcəsi təlimata daxil edilməyib"
           },
           "header": {
             "request_count": "Miqdar",
@@ -207,7 +210,9 @@
             "response_rank": "Dərəcə",
             "response_total": "Cəmi ({{value}})",
             "response_total_tooltip": "Cəmi ({{value}})",
-            "response_vat": "ƏDV dərəcəsi"
+            "response_vat": "ƏDV dərəcəsi",
+            "show_columns": "Gizli sütunları göstərin",
+            "hide_columns": "Sütunları gizlədin"
           },
           "toolbar": {
             "actions": {

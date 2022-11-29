@@ -60,6 +60,9 @@
           "LastAdmin": "web/admin: errors.logic.UserManagement.Admin.LastAdmin",
           "BlockYourself": "web/admin: errors.logic.UserManagement.Admin.BlockYourself"
         }
+      },
+      "Tags": {
+        "TagHasInStopList": "web/admin: errors.logic.Tags.TagHasInStopList"
       }
     }
   },

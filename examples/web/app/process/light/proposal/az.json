@@ -26,9 +26,10 @@
           "true": "[AT] akkreditə olunub"
         },
         "status_registry": {
-          "0": "[AT] akkreditasiya prosesində",
-          "1": "[AT] əvvəl akkreditə olunub",
-          "2": "[AT] akkreditə olunmayıb"
+          "accredited": "Akkreditə olunub",
+          "accredited_date": "{{value}} tarixinədək",
+          "suspended": "Akkreditasiya prosesində",
+          "not_accredited": "Akkreditasiya olunmayıb"
         }
       },
       "card": {
@@ -45,16 +46,15 @@
           "action": "Əlavə et",
           "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Müştərilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
           "sub_title": "Sənədlər: {{value}}",
-          "title": "Kommersiya təklifi və sənədlər"
+          "title": "Kommersiya təklifi və sənədlər",
+          "text":"[AT] təkliflərin qəbulu başa çatdıqdan sonra sənədlər də əlavə edilə bilər"
         },
         "positions": {
-          "action": "Doldur",
+          "action": "[AT] Redaktə etmək",
+          "view_action": "[AT] Bax",
           "statistics": {
-            "editable": "{{ count }} maddədən {{ value }} dolduruldu",
-            "full": "{{ count }} maddələrdən {{ count }} doldurulub",
-            "fullSubmitted": "{{ count }} maddələrdən {{ count }} təqdim olunub",
-            "notFull": "Stokda var: {{ value }}, stokda yoxdur: {{ missing }}",
-            "notFullSubmitted": "Təqdim edilib: {{ stock }}, stokda yoxdur: {{missing}}"
+            "total": "Vəzifələr: {{count}}-dən {{value}}-i",
+            "dont_have_any": "stokda yoxdur: {{value}}"
           },
           "title": "Maddələrin spesifikasiyası"
         },
@@ -63,17 +63,32 @@
           "title": "Təklifinizin qiyməti"
         },
         "questionnaire": {
-          "action": "Cavab",
+          "action": "[AT] Redaktə etmək",
+          "view_action": "[AT] Bax",
           "statistics": {
-            "editable": "{{ count }} cavablardan {{ value }} təqdim olunub",
-            "full": "Cavablar verilmişdir"
+            "answers": "Cavablar:",
+            "answer_count": "{{count}}-dan {{value}}"
           },
           "title": "Qeyri-qiymət meyarları"
         },
         "rank": {
-          "by_position": "maddələr üzrə dərəcələr",
-          "by_proposal": "təklifinizin dərəcəsi",
-          "label": "Dərəcələrlə maddələrin sayı: 1 (yaşıl), 2 (sarı), 3 və ya ondan az (qırmızı)"
+          "by_proposal": {
+            "text": "[AT] təklif dərəcəsi",
+            "label": "[AT] Rəqiblərin təklifləri arasında təklif dərəcəsi"
+          },
+          "by_position": {
+            "text": "[AT] mövqelərin dərəcəsi",
+            "label": "Dərəcələrlə maddələrin sayı: 1 (yaşıl), 2 (sarı), 3 və ya ondan az (qırmızı)"
+          }
+        },
+        "banner": {
+          "draft": "<strong class=\"banner-bold\">Təklif verin</strong> təkliflərin qəbul müddəti başa çatanadək",
+          "submitted": { 
+            "text": "<strong class=\"banner-bold\">qələbə şansını artırmaq üçün </strong> təklifini dəyişdirin.", 
+            "button": "dəyişiklik başlayın"
+          },
+          "edit": "<strong class=\"banner-bold\">dəyişdirilmiş təklifi verin.</strong> İndi Sifarişçiyə sizin köhnə təklifiniz mümkündür:",
+          "summarizing": "<strong class=\"banner-bold\">Sənədləri blokunda yeniləyin</strong> \"kommersiya təklifi və sənədlər\""
         },
         "title": {
           "alternative": "Mənim alternativ təklifim",

@@ -22,7 +22,7 @@
         }
       },
       "empty": {
-        "text": "İştirakçılar tapılmadı"
+        "text": "[AT] Axtarışınız üçün heç nə tapılmadı..."
       },
       "filters": {
         "address": {
@@ -36,7 +36,7 @@
         }
       },
       "header": {
-        "search": "Axtarış aşağıdakı sahələr üzrə aparılır: Şirkətin ID, Şirkətin adı",
+        "search": "[AT] Nömrə, VÖEN, Ad, E-poçt, Təsvir, Telefon",
         "title": "İştirakçılar"
       },
       "sorting": {

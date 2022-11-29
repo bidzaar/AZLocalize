@@ -34,6 +34,7 @@
     "actions": {
       "edit": "Edit description",
       "delete": "Delete"
-    }
+    },
+    "collapsed": "All files"
   }
 }

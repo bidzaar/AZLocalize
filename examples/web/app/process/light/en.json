@@ -17,7 +17,8 @@
             },
             "User": {
               "LastOwner": "It should be at least one owner",
-              "ResponsibleUserCannotBeDeleted": "You cannot exclude the responsible owner. To exclude a member, you must appoint another owner of the request to be responsible"
+              "ResponsibleUserCannotBeDeleted": "You cannot exclude the responsible owner. To exclude a member, you must appoint another owner of the request to be responsible",
+              "ResponsibleUserCannotBeDegraded": "You cannot downgrade the role of the responsible owner"
             }
           },
           "Proposal": {
@@ -172,6 +173,9 @@
         },
         "verification": {
           "text": "The customer accepts offers only from verified suppliers"
+        },
+        "gold": {
+          "text": "The request for registry's participants \"{{value}}\""
         }
       },
       "comparison": {
@@ -214,7 +218,7 @@
           "change_step": "Changing step",
           "down": "Down",
           "important": "Important:",
-          "info": "the price will be changed proportionally for each item. Subject to rounding, a deviation from the indicated New Price is possible. To change prices for individual items, go to the Goods and Services in your offer.",
+          "info": "the price will be changed proportionally for each item. Subject to rounding, a deviation from the indicated New Price is possible. To change prices for individual items, go to the Items Specification in your offer.",
           "new_price": "New price",
           "reduction_step": "Reduction step",
           "auction_step": "Price increase step",
@@ -367,7 +371,7 @@
         "position_proposal_total_dialog": {
           "title": "Change order amount by item",
           "total": "Total:",
-          "count_error": "The quantity in the supplier's offer is less than the participant's offer",
+          "count_error": "The amount exceeds the supplier's offer",
           "cancel": "Cancel",
           "submit": "Submit"
         },
@@ -448,6 +452,12 @@
           "title": "Bids",
           "from": "from",
           "info": "use navigator\nto view other offers"
+        },
+        "basis": {
+          "button": "Price comparison",
+          "target_price": "Relative to target value",
+          "first_price": "Relative to the original offer",
+          "best_price": "Relative to the best offer"
         }
       },
       "dialogs": {
@@ -517,44 +527,10 @@
             "submit": "Download"
           }
         },
-        "download": {
-          "header": {
-            "comparison": "Download comparison table with files",
-            "order": "Download order",
-            "my-proposal": "Download bid",
-            "proposal": "Download bid",
-            "receipt": "Download order"
-          },
-          "async": {
-            "action": "Download archive",
-            "comment": "In a while, you will receive a link to download the archive to your mail {{ email }}",
-            "success": "The archive is being prepared. The download link will be sent to your email",
-            "title": "Archive with attachments",
-            "download": "Receive archive",
-            "cancel": "Cancel"
-          },
-          "async_file": {
-            "action": "Get document",
-            "title": "Document",
-            "text": "Preparing source language document. Download link will be sent to your email",
-            "success": "Document will be prepared soon",
-            "download": "Start document preparation",
-            "cancel": "cancel"
-          },
-          "no_orders": {
-            "title": "Order not formed",
-            "text": "To form an order, select a participant's offer or individual offer items",
-            "cancel": "I see"
-          },
-          "sync": {
-            "action": "Download document",
-            "comment": "Excel Table without attachments",
-            "title": "Document"
-          },
-          "actions": {
-            "cancel": "Cancel",
-            "download": "Download"
-          }
+        "no_orders": {
+          "title": "Order not formed",
+          "text": "To form an order, select a participant's offer or individual offer items",
+          "cancel": "I see"
         },
         "finish_round": {
           "cancel": "Cancel",
@@ -593,7 +569,7 @@
           },
           "invalid": "Please correct the errors and re-publish",
           "actions": {
-           ,
+            "report": "What's changed?",
             "cancel": "Cancel",
             "submit": "Publish",
             "close": "OK"
@@ -615,20 +591,20 @@
           "items": {
             "AcceptanceEndDate": {
               "Default": {
-                "notice": "Until completion",
+                "notice": "until completion",
                 "title": "Acceptance of bids until:"
               },
               "Expired": {
-                "notice": "The date has expired, enter a new date.",
+                "notice": "the date has expired, enter a new date.",
                 "title": "Acceptance of bids until:"
               },
               "LessThen": {
                 "48": {
-                  "notice": "Less than 48 hours for participants to prepare bids",
+                  "notice": "less than 48 hours for participants to prepare bids",
                   "title": "Acceptance of bids until:"
                 },
                 "15": {
-                  "notice": "Less than 15 min for participants to prepare bids",
+                  "notice": "less than 15 min for participants to prepare bids",
                   "title": "Acceptance of bids until:"
                 }
               }
@@ -644,7 +620,7 @@
               },
               "AdditionalCurrencies": {
                 "title": "Request currency",
-                "notice": "The list of currencies contains filling errors"
+                "notice": "the list of currencies contains filling errors"
               }
             },
             "Files": {
@@ -662,7 +638,7 @@
               "title": "Specification of goods and services"
             },
             "Price": {
-              "notice": "Specify a value from 0 to 99 999 999 999",
+              "notice": "specify a value from 0 to 99 999 999 999",
               "title": "Maximum / Minimum / Expected price"
             },
             "Questionnaire": {
@@ -670,12 +646,20 @@
               "title": "Requirements for participants and conditions of request"
             },
             "ReductionStep": {
-              "notice": "Invalid settings",
+              "notice": "invalid settings",
+              "title": "Minimum price increment"
+            },
+            "ReductionStepAbsolute": {
+              "notice": "invalid settings",
+              "title": "Minimum price increment"
+            },
+            "ReductionStepPercent": {
+              "notice": "invalid settings",
               "title": "Minimum price increment"
             },
             "VatEnabled": {
               "Undefined": {
-                "notice": "Value is not set",
+                "notice": "value is not set",
                 "title": "When choosing a winner takes into account"
               }
             },
@@ -690,15 +674,41 @@
               }
             },
             "NewStageCreated": {
-              "notice": "Check that the new stage is ready before publishing",
+              "notice": "check that the new stage is ready before publishing",
               "title": "Acceptance of proposals closed, request on summing up stage"
+            },
+            "Gold": {
+              "ProcedureCannotBeOpened": {
+                "notice": "magic doesn't work in an open request. Set the \"Request Type\" parameter to \"Closed\"",
+                "title": "Gold request"
+              },
+              "HasRegistries": {
+                "notice": "magic does not work with additional accreditation in your registry. Please remove the accreditation requirements.",
+                "title": "Gold request"
+              },
+              "NdaCannotBeEnabled": {
+                "notice": "magic doesn't work if the prequalification stage is enabled / NDA",
+                "title": "Gold request"
+              }
             }
           },
           "comment": {
-            "title": "Comment for stage participants:",
-            "placeholder": "Comment...",
+            "title": "Stage name:",
+            "placeholder": "Stage name",
             "error": "Required field",
             "hint": "For example: “Rebidding”, “Submission of final offers”"
+          },
+          "mail": {
+            "title": {
+              "0": "We will notify the vendors you invited",
+              "1": "We will notify vendors of the request change",
+              "2": "We will notify the vendors about the new stage"
+            },
+            "subtitle": {
+              "0": "View our email and add a message to the vendors you invited",
+              "1": "View our email and add a message to vendors",
+              "2": "View our letter and add a message to the stage vendors"
+            }
           }
         },
         "vat": {
@@ -777,13 +787,17 @@
         },
         "returnToSummary": {
           "title": "Returning a summary request",
-          "form_label": "Tell the reason to the participants whose order was canceled:",
-          "form_placeholder": "Message...",
+          "form_label": "Specify the reason for the participants whose order was canceled:",
+          "form_placeholder": "Reason...",
           "cancel": "Cancel",
           "submit": "Return for summary",
           "success": "The request has been transferred to the stage of summing up",
-          "order": "Order for <span class=\"price\">{{value}} {{currency}}</span> will be cancelled.",
-          "label_empty": "Return request for summarizing?"
+          "order": "The selection for <span class=\"price\">{{value}} {{currency}}</span> will be cancelled.",
+          "label_empty": "Return request for summarizing?",
+          "mail": {
+            "title": "We will notify deselected vendors",
+            "subtitle": "View our email and add a message to deselected vendors"
+          }
         }
       },
       "header": {
@@ -1030,7 +1044,7 @@
                   "repeated": "The bid updated"
                 },
                 "text": {
-                  "primary": "You can change your bid at any time before the acceptance end date.\n\nThe requester gives preference to verified participants when choosing winners.",
+                  "primary": "You can change the offer before the end of accepting offers.",
                   "repeated": "The requester will receive a notification about updating your offer.",
                   "confirmation": "I agree with the terms of payment for the Service operator's Commission in case of winning the request.",
                   "agreement": "The user agreement."
@@ -1049,15 +1063,16 @@
                 "helper_auction": {
                   "label": "How to submit a bid, which violate the rights of the price change?",
                   "description": {
-                    "label": "You can request a one-time permission to submit an offer that violates the established price change rules",
-                    "1": "In chat with the customer request permission to submit a one-time proposal that violates the established rule for price changes",
-                    "2": "The customer will inform you of their decision in the chat",
-                    "3": "If you receive permission, you will be able to submit a one-time offer that violates the established rule for price changes"
+                    "label": "You can request a one-time permission to submit an offer that violates the established price change rules. To do this:",
+                    "1": "Request permission from the Customer in the Request chat",
+                    "2": "The customer will inform you of his decision",
+                    "3": "Once approved, you will be able to submit a bid that violates the price change rule once."
                   }
                 },
                 "helper_positions": {
                   "label": "How do I change the price for individual items?",
                   "description": {
+                    "label": "Changing the price will proportionally change the price of the item offerings. If you are not happy with this, you have the option to adjust the prices individually. To do this:",
                     "1": {
                       "1_1": "Go to the",
                       "1_2": "Proposal",
@@ -1105,7 +1120,7 @@
               },
               "blocked": {
                 "title": "The owner excluded you from the request",
-                "text": "The owner refused to cooperate with your company on this request. Have questions? Contact the owner"
+                "text": "[AT] You cannot participate in the request by the customer's decision. For more details, contact the customer"
               },
               "already_participate": {
                 "title": "Your company is already participating in the request",
@@ -1174,23 +1189,27 @@
             "button": "Blocked participants from previous stages"
           },
           "invite_email": {
-            "bulk": {
-              "cancel": "Cancel",
-              "emails": "Enter email addresses separated by commas",
-              "next": "Add"
-            },
             "header": "Invite by email",
+            "multi": {
+              "label": "Enter emails, separated by commas or Enter",
+              "cancel": "Cancel",
+              "submit": "Add"
+            },
             "single": {
               "cancel": "Cancel",
-              "comment": "Internal comment",
-              "create": "Add email",
               "done": "Done",
-              "draft": "Invitations will be sent after the publication of the request.",
-              "email": "Email",
-              "or": "or",
+              "invite": "Invite",
+              "append": "Add email",
               "remove": "Remove",
-              "send": "Send",
-              "toggle": "Multiple emails"
+              "or": "or",
+              "switch": "multiple emails",
+              "optional": "Optional",
+              "email": "Email",
+              "company": "Company name",
+              "draft": "Invitations will be sent after the publication of the request."
+            },
+            "errors": {
+              "duplicate": "This email is already in the list"
             },
             "success": {
               "default": "Invitation sent",
@@ -1318,6 +1337,10 @@
               "title": "Download participants list",
               "tooltip": "Download participants list"
             },
+            "archive_nda": {
+              "title": "Download current prequalification applications/NDA",
+              "tooltip": "Download current prequalification applications/NDA"
+              },
             "unblock_many": {
               "button": "Unblock participants",
               "tooltip": "Unblock selected participants"
@@ -1362,6 +1385,11 @@
               "error": "Invitations were not sent, please reload the page and try again"
             }
           },
+          "gold": {
+            "title": "Bidzaar magic is enabled",
+            "text": "Submitted offers are on the \"Comparison\" tab",
+            "link": "How it works"
+          },
           "empty": "Add participants. Participants will receive invitations after the request is submitted.\nYou can also add participants at the bid submission window",
           "filters": {
             "status": {
@@ -1376,14 +1404,14 @@
             "notice": "Try again after editing is complete.",
             "title": "Information is not available right now"
           },
-          "not_found": "There are no participants for the specified filtering and search criteria.",
+          "not_found": "Nothing was found for your request...",
           "search": {
             "tooltip": "Company name"
           },
           "invited_by_bidzaar": "Invited by Bidzaar",
           "title": "Participants",
           "selected": "Selected",
-          "search_tooltip": "Search is carried out by fields:\n• Company name\n• Company email\n• Internal comment",
+          "search_tooltip": "Company name, Company email",
           "verified": "The company is accredited in the register of your company"
         },
         "blocked": {
@@ -2048,6 +2076,9 @@
           "language": {
             "title": "Notification language",
             "comment": "The selected language will be used for chatbot messages and email notifications for non-registered participants"
+          },
+          "categories": {
+            "title": "Categories"
           }
         },
         "major": {
@@ -2361,7 +2392,8 @@
         "title": "Owner",
         "profile": "About organizer",
         "preference": "The organizer gives preference to trusted suppliers."
-      }
+      },
+      "keywords": "request, purchase, tender, supply, services"
     }
   }
 }

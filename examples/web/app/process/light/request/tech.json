@@ -51,7 +51,11 @@
       },
       "registries": {
         "title": "web/app/process/light/request: pl.request.registries.title",
-        "text": "web/app/process/light/request: pl.request.registries.text",
+        "text": {
+          "1": "web/app/process/light/request: pl.request.registries.text.1",
+          "2": "web/app/process/light/request: pl.request.registries.text.2",
+          "3": "web/app/process/light/request: pl.request.registries.text.3"
+        },
         "add": "web/app/process/light/request: pl.request.registries.add",
         "success": {
           "add": "web/app/process/light/request: pl.request.registries.success.add",

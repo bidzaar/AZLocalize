@@ -31,13 +31,16 @@
         "title": "Request tags",
         "from_company": "Add relevant tags +"
       },
+      "categories": {
+        "title": "Categories"
+      },
       "type": {
-        "title": "Type of request",
+        "title": "Type of the request",
         "public": "Opened",
         "private": "Closed"
       },
       "status": {
-        "title": "Status"
+        "title": "Status of the request"
       },
       "publish_date": {
         "title": "Submission date"
@@ -77,6 +80,8 @@
       },
       "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
       "default": "Default",
+      "mytags": "My tags",
+      "acceptance": "Acceptance of proposals",
       "type_of_change": {
         "title": "Request type",
         "labels": {
@@ -97,10 +102,17 @@
       "title": "My requests",
       "create": "Create request",
       "export": "Export",
-      "manager_title": "All requests of the company"
+      "manager_title": "All requests of the company",
+      "download": "Download",
+      "vendors_statistics_dialog": {
+        "title": "Vendors statistics",
+        "period": "Report period",
+        "cancel": "Cancel",
+        "download": "Download"
+      }
     },
     "manager": {
-      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags"
+      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags\n• Customer"
     },
     "participantions": {
       "title": "Manage my bids",
@@ -134,6 +146,7 @@
     "rank": {
       "not_available": "Offer rank is not calculated for requests that are subject to variance by position in the offer",
       "label": "Offer rank"
-    }
+    },
+    "gold": "Gold request"
   }
 }

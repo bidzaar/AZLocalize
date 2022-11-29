@@ -72,44 +72,6 @@
       "search": "",
       "total": "Qeydlər: {{value}}"
     },
-    "data": {
-      "procedure": {
-        "reason": {
-          "label": "Причина:",
-          "default": "Заказчик внёс существенные изменения в запрос"
-        },
-        "summing": "Участников с предложением: {{ participants }}",
-        "prolongation": "(до {{ date}})",
-        "reports": {
-          "comparison": "Таблица сравнения",
-          "notice": "Извещение",
-          "changes": "Изменения"
-        },
-        "completed": {
-          "common": {
-            "empty": "Без заказа",
-            "order": "Заказ",
-            "price": "{{ price }} {{ currency }}",
-            "orderFor": "Заказ для {{ value }}"
-          },
-          "participant": {
-            "winner": "Заказчик выбрал вас победителем",
-            "loser": "Заказчик выбрал победителем другую компанию",
-            "nobody": "Запрос завершён без выбора победителя"
-          }
-        },
-        "tariff": "Тариф: {{ value }}"
-      },
-      "proposals": {
-        "price": "{{ price }} {{ currency }}",
-        "primary": "Предложение",
-        "alternative": "Альтернативное {{ index }}",
-        "errors": "Предложение \"{{value}}\" содержит ошибки:"
-      },
-      "participants": {
-        "contact": "Контактное лицо: {{ value }}"
-      }
-    },
     "types": {
       "1": "Sorğu dərc olunub",
       "10": "Yanlış təklif təqdim olunub",

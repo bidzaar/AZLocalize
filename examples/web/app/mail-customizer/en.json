@@ -1,0 +1,24 @@
+{
+  "mail_customizer": {
+    "dialog": {
+      "message_label": "Message to recipients",
+      "preview": {
+        "title": "In our letter - a link and a description of this request.\nWe will also add your message.",
+        "subtitle": "Send a test email to see the result. The email will be sent to <span class=\"mail\">{{mail}}</span>",
+        "button": "Send a test email"
+      },
+      "cancel": "Cancel",
+      "submit": "Submit",
+      "success_tooltip": "Mail is sent"
+    },
+    "mails": {
+      "ProcedurePublishedParticipantsInvited": "Invitation to participants",
+      "ProcedureChanged": "Request change notification",
+      "ProcedureStagePublishedEvent": "Notification of the publication of a new stage",
+      "ProcedureUnCompletedWinners": "Notification to deselected vendors",
+      "NotifyProcedureFinishedWithoutOrder": "Request completion notification",
+      "NotifyProcedureFinishedWithOrderLooser": "Notification to the losing vendor",
+      "NotifyProcedureFinishedWithOrderWinner": "Notification to the winning vendor"
+    }
+  }
+}

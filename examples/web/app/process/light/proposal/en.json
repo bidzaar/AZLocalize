@@ -47,20 +47,35 @@
           "true": "Accredited"
         },
         "status_registry": {
-          "0": "In the process of accreditation",
-          "1": "Accredited before",
-          "2": "Not accredited"
+          "accredited": "Accredited",
+          "accredited_date": "until {{value}}",
+          "suspended": "In the process of accreditation",
+          "not_accredited": "Not accredited"
         }
       },
       "card": {
+        "banner": {
+          "draft": "<strong class=\"banner-bold\">Submit an offer</strong> before the deadline for accepting offers",
+          "submitted": {
+            "text": "<strong class=\"banner-bold\">Change the sentence</strong> to increase the chance of winning.",
+            "button": "Start change"
+          },
+          "edit": "<strong class=\"banner-bold\">Submit a modified offer.</strong> Now your old offer is available to the Customer:",
+          "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Commercial offer and documentation\" section"
+        },
         "title": {
           "my": "My bid",
           "alternative": "My alternative bid"
         },
         "rank": {
-          "by_proposal": "the rank of your proposal",
-          "by_position": "ranks by position",
-          "label": "Quantity with ranks: 1 (green positions), 2 (yellow), 3 or lower (red)"
+          "by_proposal": {
+            "text": "Proposal rank",
+            "label": "Offer rank among competitors' offers"
+          },
+          "by_position": {
+            "text": "Position rank",
+            "label": "Quantity with ranks: 1 (green positions), 2 (yellow), 3 or lower (red)"
+          }
         },
         "price": {
           "title": "Price of your proposal",
@@ -68,28 +83,28 @@
         },
         "positions": {
           "title": "Items specification",
-          "action": "Fill in",
+          "action": "Edit",
+          "view_action": "Watch",
           "statistics": {
-            "editable": "Filled {{ value }} from {{ count }} positions",
-            "notFull": "In stock: {{ stock }}, out of stock: {{ missing }}",
-            "full": "Full {{ count }} of {{ count }} positions",
-            "notFullSubmitted": "Submitted: {{ stock }}, out of stock: {{ missing }}",
-            "fullSubmitted": "Submitted {{ count }} from {{ count }} positions"
+            "total": "Positions: {{value}} from {{count}}",
+            "dont_have_any": "out of stock: {{value}}"
           }
         },
         "questionnaire": {
           "title": "Non-price criteria",
-          "action": "Answer",
+          "action": "Edit",
+          "view_action": "Watch",
           "statistics": {
-            "editable": "Provided {{ value }} of {{ count }} responses",
-            "full": "Answers provided"
+            "answers": "Answers:",
+            "answer_count": "{{value}} from {{count}}"
           }
         },
         "documents": {
           "title": "Commercial bid and documentation",
           "sub_title": "Documents: {{value}}",
           "action": "Attach",
-          "empty": "You can add all the documentation at the summing up.\nCustomers welcome the availability of a commercial offer."
+          "empty": "You can add all the documentation at the summing up.\nCustomers welcome the availability of a commercial offer.",
+          "text": "You can also attach documents after receiving offers"
         },
         "actions": {
           "submit": "Submit bid",

@@ -60,6 +60,7 @@
         "Process.Light.Proposal.Item.CurrencyIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CurrencyIsNotValid",
         "Process.Light.Proposal.Item.VatIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.VatIsNotValid",
         "Process.Light.Proposal.Item.DeviationUnavailable": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailable",
+        "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailableByPosition",
         "Process.Light.Proposal.Item.ZeroPrice": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPrice",
         "Process.Light.Proposal.Item.ZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroCount",
         "Process.Light.Proposal.Item.NonZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.NonZeroCount",
@@ -72,6 +73,40 @@
         "Process.Light.Proposal.Item.ReferencePrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Reduction",
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Auction",
         "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch"
+      }
+    },
+    "reports": {
+      "header": {
+        "comparison": "web/app/process/light: pl.view.dialogs.download.header.comparison",
+        "order": "web/app/process/light: pl.view.dialogs.download.header.order",
+        "my-proposal": "web/app/process/light: pl.view.dialogs.download.header.my-proposal",
+        "proposal": "web/app/process/light: pl.view.dialogs.download.header.proposal",
+        "receipt": "web/app/process/light: pl.view.dialogs.download.header.receipt",
+        "nda": "web/app/process/light: pl.view.dialogs.download.header.nda"
+      },
+      "single": {
+        "sync": {
+          "title": "web/app/process/light: pl.view.dialogs.download.single.sync.title",
+          "action": "web/app/process/light: pl.view.dialogs.download.single.sync.action"
+        },
+        "async": {
+          "title": "web/app/process/light: pl.view.dialogs.download.single.async.title",
+          "comment": "web/app/process/light: pl.view.dialogs.download.single.async.comment",
+          "action": "web/app/process/light: pl.view.dialogs.download.single.async.action",
+          "success": "web/app/process/light: pl.view.dialogs.download.single.async.success"
+        }
+      },
+      "combo": {
+        "sync": {
+          "title": "web/app/process/light: pl.view.dialogs.download.combo.sync.title",
+          "action": "web/app/process/light: pl.view.dialogs.download.combo.sync.action"
+        },
+        "async": {
+          "title": "web/app/process/light: pl.view.dialogs.download.combo.async.title",
+          "comment": "web/app/process/light: pl.view.dialogs.download.combo.async.comment",
+          "action": "web/app/process/light: pl.view.dialogs.download.combo.async.action",
+          "success": "web/app/process/light: pl.view.dialogs.download.combo.async.success"
+        }
       }
     }
   }

@@ -516,44 +516,10 @@
             "submit": "web/app/process/light: pl.view.dialogs.offers.actions.submit"
           }
         },
-        "download": {
-          "header": {
-            "comparison": "web/app/process/light: pl.view.dialogs.download.header.comparison",
-            "order": "web/app/process/light: pl.view.dialogs.download.header.order",
-            "my-proposal": "web/app/process/light: pl.view.dialogs.download.header.my-proposal",
-            "proposal": "web/app/process/light: pl.view.dialogs.download.header.proposal",
-            "receipt": "web/app/process/light: pl.view.dialogs.download.header.receipt"
-          },
-          "async": {
-            "action": "web/app/process/light: pl.view.dialogs.download.async.action",
-            "comment": "web/app/process/light: pl.view.dialogs.download.async.comment",
-            "success": "web/app/process/light: pl.view.dialogs.download.async.success",
-            "title": "web/app/process/light: pl.view.dialogs.download.async.title",
-            "download": "web/app/process/light: pl.view.dialogs.download.async.download",
-            "cancel": "web/app/process/light: pl.view.dialogs.download.async.cancel"
-          },
-          "async_file": {
-            "action": "web/app/process/light: pl.view.dialogs.download.async_file.action",
-            "title": "web/app/process/light: pl.view.dialogs.download.async_file.title",
-            "text": "web/app/process/light: pl.view.dialogs.download.async_file.text",
-            "success": "web/app/process/light: pl.view.dialogs.download.async_file.success",
-            "download": "web/app/process/light: pl.view.dialogs.download.async_file.download",
-            "cancel": "web/app/process/light: pl.view.dialogs.download.async_file.cancel"
-          },
-          "no_orders": {
-            "title": "web/app/process/light: pl.view.dialogs.download.no_orders.title",
-            "text": "web/app/process/light: pl.view.dialogs.download.no_orders.text",
-            "cancel": "web/app/process/light: pl.view.dialogs.download.no_orders.cancel"
-          },
-          "sync": {
-            "action": "web/app/process/light: pl.view.dialogs.download.sync.action",
-            "comment": "web/app/process/light: pl.view.dialogs.download.sync.comment",
-            "title": "web/app/process/light: pl.view.dialogs.download.sync.title"
-          },
-          "actions": {
-            "cancel": "web/app/process/light: pl.view.dialogs.download.actions.cancel",
-            "download": "web/app/process/light: pl.view.dialogs.download.actions.download"
-          }
+        "no_orders": {
+          "title": "web/app/process/light: pl.view.dialogs.download.no_orders.title",
+          "text": "web/app/process/light: pl.view.dialogs.download.no_orders.text",
+          "cancel": "web/app/process/light: pl.view.dialogs.download.no_orders.cancel"
         },
         "finish_round": {
           "cancel": "web/app/process/light: pl.view.dialogs.finish_round.cancel",
@@ -672,6 +638,14 @@
               "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStep.notice",
               "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStep.title"
             },
+            "ReductionStepAbsolute": {
+              "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepAbsolute.notice",
+              "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepAbsolute.title"
+            },
+            "ReductionStepPercent": {
+              "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepPercent.notice",
+              "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepPercent.title"
+            },
             "VatEnabled": {
               "Undefined": {
                 "notice": "web/app/process/light: pl.view.dialogs.validation.items.VatEnabled.Undefined.notice",
@@ -691,6 +665,20 @@
             "NewStageCreated": {
               "notice": "web/app/process/light: pl.view.dialogs.validation.items.NewStageCreated.notice",
               "title": "web/app/process/light: pl.view.dialogs.validation.items.NewStageCreated.title"
+            },
+            "Gold": {
+              "ProcedureCannotBeOpened": {
+                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.ProcedureCannotBeOpened.notice",
+                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.ProcedureCannotBeOpened.title"
+              },
+              "HasRegistries": {
+                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.HasRegistries.notice",
+                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.HasRegistries.title"
+              },
+              "NdaCannotBeEnabled": {
+                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.notice",
+                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.title"
+              }
             }
           },
           "comment": {
@@ -1188,23 +1176,27 @@
             "success": "web/app/process/light: pl.view.participants.dialogs.block_one.success"
           },
           "invite_email": {
-            "bulk": {
-              "cancel": "web/app/process/light: pl.view.participants.dialogs.invite_email.bulk.cancel",
-              "emails": "web/app/process/light: pl.view.participants.dialogs.invite_email.bulk.emails",
-              "next": "web/app/process/light: pl.view.participants.dialogs.invite_email.bulk.next"
-            },
             "header": "web/app/process/light: pl.view.participants.dialogs.invite_email.header",
+            "multi": {
+              "label": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.label",
+              "cancel": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.cancel",
+              "submit": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.submit"
+            },
             "single": {
               "cancel": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.cancel",
-              "comment": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.comment",
-              "create": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.create",
               "done": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.done",
-              "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.draft",
-              "email": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.email",
-              "or": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.or",
+              "invite": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.invite",
+              "append": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.append",
               "remove": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.remove",
-              "send": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.send",
-              "toggle": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.toggle"
+              "or": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.or",
+              "switch": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.switch",
+              "optional": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.optional",
+              "email": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.email",
+              "company": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.company",
+              "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.draft"
+            },
+            "errors": {
+              "duplicate": "web/app/process/light: pl.view.participants.dialogs.invite_email.errors.duplicate"
             },
             "success": {
               "default": "web/app/process/light: pl.view.participants.dialogs.invite_email.success.default",
@@ -2028,6 +2020,9 @@
           "language": {
             "title": "web/app/process/light: pl.view.request.internal.language.title",
             "comment": "web/app/process/light: pl.view.request.internal.language.comment"
+          },
+          "categories": {
+            "title": "web/app/process/light: pl.view.request.internal.categories.title"
           }
         },
         "major": {

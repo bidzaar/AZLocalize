@@ -88,7 +88,9 @@
             "response_total_tooltip": "Total ({{value}})",
             "response_comment": "Comment",
             "request_group": "Description of positions",
-            "response_group": "Bid"
+            "response_group": "Bid",
+            "show_columns": "Show hidden columns",
+            "hide_columns": "Hide columns"
           },
           "body": {
             "response_availability": {
@@ -96,10 +98,13 @@
               "false": "Available"
             },
             "deviation_tooltip": "Deviation from the quantity in the request",
+            "deviation_error_tooltip": "Deviation from the quantity in the request is not allowed",
             "free": "Free",
             "auction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
             "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "price_rule_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) violates the price change step specified by the Customer ({{rule}})"
+            "price_rule_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) violates the price change step specified by the Customer ({{rule}})",
+            "dont_have_any_tooltip": "The owner requires the presence of all positions",
+            "var_error_tooltip": "The specified VAT rate is not included in the catalog"
           }
         },
         "side": {

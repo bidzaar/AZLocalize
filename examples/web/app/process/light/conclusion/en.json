@@ -68,7 +68,7 @@
           },
           "payment": {
             "title": "Service operator's Commission",
-            "delay": "The invoice will be sent in {{ value }} days after the completion of the request",
+            "delay": "The invoice will be issued approximately {{ value }}",
             "email": "Invoice sent to your company email",
             "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"
           }
@@ -229,11 +229,11 @@
           "request_completion": {
             "true": {
               "header": "Request completion",
-              "text": "Your order:"
+              "text": "Your choice:"
             },
             "false": {
-              "header": "Request completion without an order",
-              "text": "Your order has not been formed.",
+              "header": "Request completion without an choice",
+              "text": "Your choice has not been formed.",
               "reason": "Specify the reason:",
               "comment": "Reason..."
             },
@@ -245,6 +245,10 @@
               "cancel": "Cancel",
               "submit": "Complete",
               "success": "Request completed. Messages have been sent to participants"
+            },
+            "mail": {
+              "title": "We will notify vendors when the request is completed",
+              "subtitle": "View our emails and add messages to vendors"
             }
           }
         }

@@ -31,6 +31,9 @@
         "title": "web/app/process/procedures: prs.filters.tags.title",
         "from_company": "web/app/process/procedures: prs.filters.tags.from_company"
       },
+      "categories": {
+        "title": "web/app/process/procedures: prs.filters.categories.title"
+      },
       "type": {
         "title": "web/app/process/procedures: prs.filters.type.title",
         "public": "web/app/process/procedures: prs.filters.type.public",
@@ -77,6 +80,8 @@
       },
       "search_tooltip": "web/app/process/procedures: prs.filters.search_tooltip",
       "default": "web/app/process/procedures: prs.filters.default",
+      "mytags": "web/app/process/procedures: prs.filters.mytags",
+      "acceptance": "web/app/process/procedures: prs.filters.acceptance",
       "type_of_change": {
         "title": "web/app/process/procedures: prs.filters.type_of_change.title",
         "labels": {

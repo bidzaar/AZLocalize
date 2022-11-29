@@ -9,10 +9,10 @@
     "search_tooltip": "The search is carried out by fields: Tariff name, Tariff code",
     "dialogs": {
       "create": {
-        "header": "Create a new tariff",
+        "header": "Add a tariff",
         "label": "Tariff name",
         "cancel": "Cancel",
-        "submit": "Create"
+        "submit": "Add"
       }
     }
   }

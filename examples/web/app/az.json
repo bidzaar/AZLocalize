@@ -28,7 +28,6 @@
           },
           "badges": "Nişanlar",
           "company_sales": "Şirkət satır",
-          "completedProceduresCount": "Tamamlanmış sorğuların sayı",
           "default": "Standart olaraq",
           "employeesCount": "İşçilərin sayı",
           "labels": "Təyin edilmiş etiketlər",
@@ -60,10 +59,10 @@
         },
         "selected_title": "Seçildi:",
         "sorting": {
-          "completedProceduresCount": "Tamamlanmış sorğuların sayı",
-          "name_asc": "Şirkət adı",
-          "participationsCount": "Sorğularda iştirak",
-          "registration_date": "Qeydiyyat tarixi"
+          "rating": "Saytın fəaliyyəti",
+          "name": "Şirkət adı",
+          "participations": "Sorğularda iştirak",
+          "registration": "Qeydiyyat tarixi"
         },
         "title": "bütün şirkətlər"
       },
@@ -377,20 +376,6 @@
       "number": "ID {{ value }}",
       "text": "İnzibatçı tərəfindən təstiq aldıqdan sonra siz şirkətin əməkdaşı kimi işə başlaya bilərsiniz",
       "title": "Vacib məlumat"
-    },
-    "my_accreditations": {
-      "action": "Akkreditasiyalar",
-      "active": "Əldə edilmiş akkreditasiyalar",
-      "adjustment_required": "Emalda olan müraciətlər",
-      "invited": "Akkredisatiyaya dəvətlər",
-      "title": "Akkreditasiyalarım"
-    },
-    "my_pools": {
-      "action": "Qruplara keç",
-      "active": "Təqdim edilmiş akkreditasiyalar",
-      "adjustment_required": "Düzəlişə göndərilib",
-      "consideration": "Emalda olan müraciətlər",
-      "title": "Mənim qruplarım"
     },
     "no_procedures": {
       "action": "Sorğu axtar",
@@ -778,13 +763,13 @@
         "title": "Təchizatçı qrupları"
       },
       "registries": {
-        "title": "Reyestrlər"
+        "title": "[AT] Mənim şirkətin reyestrləri"
       },
       "rfx": {
         "title": "Mənim sorğularım"
       },
       "rfx_manager": {
-        "title": "Şirkətin sorğuları"
+        "title": "[AT] Mənim şirkətin sorğuları"
       }
     },
     "participant": {
@@ -792,10 +777,10 @@
         "title": "Qruplar"
       },
       "registries": {
-        "title": "Mənim reyestrlərim"
+        "title": "[AT] Mənim şirkətin akkreditasiyası"
       },
       "rfx": {
-        "title": "Təkliflər"
+        "title": "[AT] Mənim təkliflərim"
       }
     },
     "pools": "Qrupların idarəçiliyi",
@@ -865,7 +850,8 @@
             "my-proposal-archive": "sizin təklifiniz",
             "proposal-archive": "iştirakçının təklifi",
             "receipt-archive": "iştirakçının sifarişi",
-            "comparison": "[AT] müqayisə masa"
+            "comparison": "[AT] müqayisə masa",
+            "nda-archive": "[AT] cari ixtisas seçimi / NDA tətbiqləri"
           }
         },
         "registry_reports": {
@@ -913,7 +899,7 @@
         "participants": "İştirakçılar",
         "positions": "Maddələr üzrə spesifikasiya",
         "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
-        "team": "Komanda",
+        "team": "Komanda"
       },
       "generalInfo": "Ümumi məlumat",
       "header": "Sorğunu klonlaşdır",
@@ -1039,11 +1025,11 @@
           "hidden": {
             "owner": "Cavab yalnız sorğuçuya əlçatandır",
             "participant": "Cavab digər iştirakçılar üçün mövcud olmayacaq.",
-            "tooltip": "Həssas və ya məxfi məlumatları gizlətməyi tövsiyə edirik"
+            "tooltip": "Təchizatçılar bu suala rəqiblərin cavablarına çıxış əldə edəcəklər. Həssas və ya məxfi məlumatları gizlətməyi tövsiyə edirik"
           },
           "required": "Cavab məcburidir",
           "text": "Sual mətni",
-          "type": "Sual növü"
+          "type": "Cavab növü"
         }
       },
       "group_menu": {
@@ -1832,13 +1818,12 @@
             "next": "Dəvət et"
           },
           "empty": {
-            "advice": "Tövsiyə: şirkəti tez tapmaq istəyirsiniz? Ona etiket təyin edin və şirkətlərin siyahısını etiketə görə filtr edin. Etiketlərin təyin olunması şirkət profilində mövcuddur.",
             "primary": "Uyğun sorğular yoxdur",
             "secondary": "Qaralama və ya Təklif Qəbulu statusu ilə heç bir sorğunuz yoxdur."
           },
           "header": {
-            "notice": "Şirkətin hələ iştirak etmədiyi sorğularınız",
-            "title": "Şirkəti sorğunuza dəvət edin"
+            "notice": "[AT] Şirkətin hələ iştirak etmədiyi sorğular",
+            "title": "[AT] Sorğu dəvət"
           },
           "procedures": {
             "draft": "Kod: {{ value }} • Qaralama (dəvətlər dərc edildikdən sonra göndəriləcək)",
@@ -2633,7 +2618,7 @@
       "delete_company_dialog": {
         "cancel": "ləğv et",
         "delete": "şirkəti sil",
-        "description": "Şirkət şirkətlər siyahısından silinəcək, lakin şirkətin fəaliyyəti ilə bağlı faktlar digər istifadəçilər üçün əlçatan qalacaq. \nHərəkət geri qaytarıla bilər, şirkət bərpa oluna bilər. \nBərpa etmək üçün texniki dəstək mütəxəssisi ilə əlaqə saxlayın.",
+        "description": "Şirkət şirkətlər siyahısından silinəcək, lakin şirkətin fəaliyyəti ilə bağlı faktlar digər istifadəçilər üçün əlçatan qalacaq.\n\nHərəkət geri qaytarıla bilər, şirkət bərpa oluna bilər.\n\nBərpa etmək üçün texniki dəstək mütəxəssisi ilə əlaqə saxlayın.",
         "success_snack": "şirkət silinib",
         "title": "şirkətin silinməsi"
       },

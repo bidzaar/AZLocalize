@@ -1,0 +1,57 @@
+{
+  "bdz.cat": {
+    "list": {
+      "empty": "web/components/categories: bdz.cat.list.empty",
+      "append": "web/components/categories: bdz.cat.list.append",
+      "remove": "web/components/categories: bdz.cat.list.remove",
+      "dialogs": {
+        "remove": {
+          "title": "web/components/categories: bdz.cat.list.dialogs.remove.title",
+          "cancel": "web/components/categories: bdz.cat.list.dialogs.remove.cancel",
+          "submit": "web/components/categories: bdz.cat.list.dialogs.remove.submit"
+        }
+      }
+    },
+    "filter": {
+      "choose": "web/components/categories: bdz.cat.filter.choose"
+    },
+    "tree": {
+      "title": "web/components/categories: bdz.cat.tree.title",
+      "empty": "web/components/categories: bdz.cat.tree.empty",
+      "active": "web/components/categories: bdz.cat.tree.active",
+      "inactive": "web/components/categories: bdz.cat.tree.inactive",
+      "childless": "web/components/categories: bdz.cat.tree.childless",
+      "actions": {
+        "menu": "web/components/categories: bdz.cat.tree.actions.menu",
+        "rename": "web/components/categories: bdz.cat.tree.actions.rename",
+        "create": "web/components/categories: bdz.cat.tree.actions.create",
+        "append": "web/components/categories: bdz.cat.tree.actions.append",
+        "up": "web/components/categories: bdz.cat.tree.actions.up",
+        "down": "web/components/categories: bdz.cat.tree.actions.down",
+        "move": "web/components/categories: bdz.cat.tree.actions.move",
+        "move_to_root": "web/components/categories: bdz.cat.tree.actions.move_to_root",
+        "move_to_node": "web/components/categories: bdz.cat.tree.actions.move_to_node",
+        "activate": "web/components/categories: bdz.cat.tree.actions.activate",
+        "deactivate": "web/components/categories: bdz.cat.tree.actions.deactivate"
+      },
+      "dialogs": {
+        "rename": {
+          "title": "web/components/categories: bdz.cat.tree.dialogs.rename.title",
+          "cancel": "web/components/categories: bdz.cat.tree.dialogs.rename.cancel",
+          "submit": "web/components/categories: bdz.cat.tree.dialogs.rename.submit",
+          "placeholder": "web/components/categories: bdz.cat.tree.dialogs.rename.placeholder"
+        }
+      }
+    },
+    "selection": {
+      "text": "web/components/categories: bdz.cat.selection.text",
+      "notice": "web/components/categories: bdz.cat.selection.notice",
+      "submit": "web/components/categories: bdz.cat.selection.submit"
+    }
+  },
+  "errors": {
+    "logic": {
+      "Category.CycleDetected": "web/components/categories: errors.logic.Category.CycleDetected"
+    }
+  }
+}

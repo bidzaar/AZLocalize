@@ -41,11 +41,16 @@
         "tooltip": "mərhələ çərçivəsində təklif verən mərhələ iştirakçılarının sayı"
       }
     },
+    "category": {
+      "title": "Sorğu Kateqoriya"
+    },
     "comment": {
+      "title": "Şərh",
       "edit": "dəyişdir",
-      "add": "+ şərh əlavə et"
+      "add": "şərh əlavə et"
     },
     "tariffs": {
+      "title": "Qiymətləndirmə",
       "view": "ətraflı",
       "dialog": {
         "edit": "sorğu tarifini dəyişdirin"

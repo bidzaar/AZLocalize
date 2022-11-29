@@ -51,7 +51,7 @@
         },
         "nda": {
           "sub_title": "İştirakçılar sorğunun təsvirinə sizin təsdiqinizdən sonra giriş izni əldə edəcəklər",
-          "title": "İlkin kvalifikasiya mərhələsi addımını aktivləşdirin"
+          "title": "İlkin kvalifikasiya/NDA imzalama addımını aktivləşdirin"
         },
         "tags": {
           "add": "Sorğunuzun mövzusunu açar sözlərlə təsvir edin",
@@ -73,7 +73,11 @@
       },
       "registries": {
         "title": "[AT] iştirakçıların akkreditasiyası",
-        "text": "[AT] təklif vermək üçün iştirakçılar Sifarişçinin bu reyestrlərində akkreditasiyadan keçirlər:",
+        "text": {
+          "1": "[AT] Təklifi yalnız aşağıdakı reyestrlərdə akkreditə olunmuş təchizatçılar təqdim edə bilər",
+          "2": "[AT] Akkreditə olunmuş təchizatçılar sorğu dərc edildikdə avtomatik olaraq sorğuya dəvət olunurlar",
+          "3": "[AT] Akkreditasiyadan keçməmiş iştirakçılar eyni vaxtda akkreditasiyadan keçə və təklif hazırlaya bilərlər"
+        },  
         "add": "[AT] Qeydiyyat əlavə et",
         "success": {
           "add": "[AT] Əlavə rosters",
@@ -116,6 +120,21 @@
         "settings": "Ayarla",
         "title": "Sorğunun qeyri-qiymət meyyarları",
         "warning_text": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
+      },
+      "gold": {
+        "title": "[AT] Magic Bidzaar",
+        "link": "[AT] bu necə işləyir?",
+        "text": {
+          "message": "[AT] çalmak sorğu, sadə sürətli və səmərəli.",
+          "warning": "[AT] sorğu dərc edildikdən sonra sehrini aradan qaldırmaq mümkün deyil",
+          "read": "[AT] Magic effektiv"
+        },
+        "select": {
+          "label": "[AT] iştirakçıların ixtisaslaşması",
+          "placeholder": "[AT] iştirakçıların ixtisaslaşmasını göstərin"
+        },
+        "on": "[AT] sehrli daxildir. İştirakçıların dairəsi məhduddur (sorğu növü bağlıdır)",
+        "off": "[AT] Magic aradan. İştirakçıların dairəsi məhdud deyil (sorğu növü açıqdır)"
       },
       "rules": {
         "title": "Sorğunun keçirilmə qaydaları"

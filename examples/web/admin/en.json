@@ -26,7 +26,10 @@
       }
     },
     "logic": {
-      "default": "An error has occurred. Please contact your administrator"
+      "default": "An error has occurred. Please contact your administrator",
+      "Tags": {
+        "TagHasInStopList": "The added tag is in the stop list."
+      }
     }
   },
   "user_management": {

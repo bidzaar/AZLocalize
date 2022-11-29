@@ -34,6 +34,7 @@
       "KB": "{{value}} KB",
       "MB": "{{value}} MB",
       "bytes": "{{value}} bayt"
-    }
+    },
+    "collapsed": "[AT] Bütün fayllar"
   }
 }

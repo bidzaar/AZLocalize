@@ -12,19 +12,16 @@
         "empty": "nothing found for your request...",
         "filters": {
           "badges": "Badges",
-          "company_sales": "Company sells",
-          "completedProceduresCount": "Number of completed requests",
+          "company_sales": "Companies sells",
           "default": "Default",
           "employeesCount": "Number of employees",
-          "labels": "Assigned labels",
+          "labels": "Labels",
           "location": {
             "dialog": "Select location",
             "title": "Location"
           },
           "areas": {
-            "dialog": "Place of business",
-            "title": "Place of business",
-            "add": "Add country, region or city"
+            "title": "Region of business"
           },
           "participationsCount": "Number of bids",
           "pools": "Accreditations in my pools",
@@ -37,11 +34,11 @@
           },
           "registrationDate": "Registration date",
           "verified": {
-            "title": "Verified by Bidzaar",
+            "title": "Verified companies",
             "link": "How to pass the verification"
           },
           "accreditations": {
-            "title": "Companies included in the registers of customers",
+            "title": "Accredited in customer registers",
             "link": "More about Registries"
           }
         },
@@ -54,10 +51,10 @@
         },
         "selected_title": "Selected:",
         "sorting": {
-          "completedProceduresCount": "Number of completed requests",
-          "name_asc": "Company name",
-          "participationsCount": "Number of bids",
-          "registration_date": "Registration date"
+          "rating": "Site activity",
+          "name": "Company name",
+          "participations": "Number of bids",
+          "registration": "Registration date"
         },
         "title": "all companies"
       },
@@ -377,20 +374,6 @@
       "number": "ID {{ value }}",
       "admin": "Administrator",
       "access": "Request access to the company profile"
-    },
-    "my_accreditations": {
-      "action": "Accreditations",
-      "active": "Accreditations received",
-      "adjustment_required": "Adjustment required",
-      "invited": "Invitations",
-      "title": "My accreditations"
-    },
-    "my_pools": {
-      "action": "Go to pools",
-      "active": "Accreditations approved",
-      "adjustment_required": "Adjustment required",
-      "consideration": "New applications",
-      "title": "My pools"
     },
     "no_procedures": {
       "action": "Search bid requests",
@@ -742,10 +725,10 @@
         "title": "My requests"
       },
       "rfx_manager": {
-        "title": "Company requests"
+        "title": "My company's requests"
       },
       "registries": {
-        "title": "Registries"
+        "title": "My company's registries"
       }
     },
     "participant": {
@@ -753,10 +736,10 @@
         "title": "Pools"
       },
       "rfx": {
-        "title": "Bids"
+        "title": "My suggestions"
       },
       "registries": {
-        "title": "My registries"
+        "title": "My company's accreditation"
       }
     },
     "pools": "Pool management",
@@ -823,7 +806,8 @@
             "all-receipt-archive": "order",
             "my-proposal-archive": "your order",
             "proposal-archive": "participant's bid",
-            "receipt-archive": "participant's order"
+            "receipt-archive": "participant's order",
+            "nda-archive": "current prequalification / NDA applications"
           }
         },
         "registry_reports": {
@@ -860,7 +844,7 @@
       "parameters": "Parameters",
       "participants": "Participants",
       "positions": "Goods and services",
-      "questionnaire": "Requirements for participants and conditions of request",
+      "questionnaire": "Non-price request criteria",
       "team": "Users",
       "nda": "NDA",
       "registries": "Registries",
@@ -987,14 +971,14 @@
           "header": "Question",
           "default_question_text": "New question",
           "default_group_name": "New Section",
-          "type": "Question type",
+          "type": "Answer type",
           "text": "Question text",
           "required": "Answer is required",
           "description": "Description",
           "hidden": {
             "owner": "The answer is available only to the requester",
             "participant": "The answer will not be available to other participants.",
-            "tooltip": "We recommend hiding sensitive or confidential information"
+            "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information"
           }
         },
         "actions": {
@@ -1716,13 +1700,12 @@
             "next": "Invite"
           },
           "empty": {
-            "advice": "Tip: want to quickly find a company? Assign a label to it and filter the list of companies by label. Label assignment is available in the company profile.",
             "primary": "No matching purchases",
             "secondary": "You have no purchases  with the Draft or Bid status."
           },
           "header": {
-            "notice": "Your purchases in which the company is not yet participate",
-            "title": "Invite company to your purchase"
+            "notice": "Requests in which the company is not yet involved",
+            "title": "Invitation to Request"
           },
           "procedures": {
             "draft": "Number: {{ value }} • Draft (invitations will be sent after publication)",
@@ -2437,7 +2420,7 @@
       "delete_company_dialog": {
         "cancel": "cancel",
         "delete": "delete company",
-        "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\nThe action is reversible, the company can be restored.\nTo restore, contact a technical support specialist.",
+        "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\n\nThe action is reversible, the company can be restored.\n\nTo restore, contact a technical support specialist.",
         "success_snack": "company is deleted",
         "title": "Company removal"
       },
