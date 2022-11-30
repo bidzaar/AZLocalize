@@ -30,6 +30,7 @@
         "common": {
           "protocols": {
             "title": "Tender komissiyasının protokolları və sənədləri",
+            "notice": "Sənədlər platformanın bütün istifadəçiləri üçün əlçatandır",
             "upload": "Protokolu və ya digər sənədi dərc edin",
             "empty": "Tender komissiyasının protokolları və sənədləri yüklənmir"
           },

@@ -446,7 +446,7 @@
         "paginator": {
           "title": "Təkliflər",
           "from": " ",
-          "info": "[AT] naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün"
+          "info": "Təkliflərə baxmaq üçün naviqatordan istifadə edin\ndigər "
         }
       },
       "dialogs": {
@@ -741,7 +741,7 @@
             },
             "Tariff": {
               "NotActive": {
-                "title": "Etibarsız sorğu tarifi göstərilmişdir ",
+                "title": "Etibarsız sorğu tarifi göstərilmişdir",
                 "notice": ""
               },
               "NotDefined": {
@@ -750,13 +750,13 @@
               }
             },
             "NewStageCreated": {
-              "notice": "Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın ",
-              "title": "Təkliflərin qəbulu başa çatıb, yekun sorğu "
+              "notice": "Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
+              "title": "Təkliflərin qəbulu başa çatıb, yekun sorğu"
             }
           },
           "comment": {
             "title": "Mərhələ iştirakçıları üçün şərh:",
-            "placeholder": "Şərh...",
+            "placeholder": "Şərh",
             "error": "Tələb olunan xana",
             "hint": "Məsələn: “Son təkliflərin təqdim edilməsi”"
           }
@@ -1076,7 +1076,7 @@
           },
           "contact_info": {
             "cancel": "Mən hələ düşünürəm",
-            "info": "Təklif təqdim etmək və sorğu çatında sifarişçi ilə əlaqə saxlamaq üşün iştirak edin ",
+            "info": "Təklif təqdim etmək və sorğu çatında sifarişçi ilə əlaqə saxlamaq üçün iştirak edin ",
             "submit": "İştirak et",
             "title": "Sizi iştirak etməyə dəvət edirik"
           },
@@ -1711,8 +1711,28 @@
         "text": "Təchizatçıları məlumatlandırmaq və onların təkliflərini almaq üçün sorğunu dərc edin."
       },
       "request": {
+        "internal": {
+          "documents": {
+            "notice": "Maksimum fayl ölçüsü 25 MB-dır.",
+            "title": "Sənədlər",
+            "upload": "Sənəd əlavə et"
+          },
+          "fields": {
+            "budget": "Sorğu valyutasında büdcə",
+            "comment": "Şərh",
+            "identifier": "Xarici identifikator"
+          },
+          "language": {
+            "comment": "Seçilmiş dil chatbotdan gələn mesajlar və platformada qeydiyyatdan keçməmiş təchizatçılar üçün e-poçt bildirişləri üçün istifadə olunacaq",
+            "title": "Bildirişlərin dili"
+          },
+          "categories": {
+            "title": "Sorğunun kateqoriyası"
+          },
+          "title": "Əlavə xanalar"
+        },
         "payment": {
-          "title": "Qalib seçilərkən komissiya ödənilir",
+          "title": "Qalib seçilərkən komissiya ödənişinin şərtləri",
           "free": "Şirkətinizdən gələn sorğulara xidmət üçün heç bir ödəniş yoxdur",
           "fee": {
             "label": "Kim tərəfindən",
@@ -2119,19 +2139,19 @@
               "change": "Dəyiş",
               "dialog":{
                 "title": "Əlaqə",
-                "placeholder":"Təsviri və əlaqə",
+                "placeholder":"Əlaqə məlumatları:",
                 "cancel": "Ləğv et",
                 "submit": "Hazırdı"
               },
               "empty": {
-                "other": "Təşkilatçı əlaqə üçün şəxs təqdim etməyib.",
-                "owner": "İşçinin əlaqə məlumatları sorğunun təsvirində göstərilmir."
+                "other": "Təşkilatçı əlaqə üçün şəxs təqdim etməyib",
+                "owner": "İşçinin əlaqə məlumatları sorğunun təsvirində göstərilmir"
               },
               "title": "Əlaqəli şəxs",
               "success": "Əlaqə saxlanılır"
             },
             "delivery": {
-              "descr": "Malların çatdırılması və ya xidmətlərin göstərilməsi  ünvanı",
+              "descr": "Malların çatdırılması və ya xidmətlərin göstərilməsi ünvanı",
               "dialog": {
                 "header": "Çatdırılma ünvanı"
               },
@@ -2154,26 +2174,26 @@
               "stub_contact": "Təklif üzərində işə başladıqdan sonra məlumat əldə etmək olar."
             },
             "name": {
-              "title": "Sorğunun adı..."
+              "title": "Sorğunun adı"
             },
             "nda": {
               "other": {
                 "description": {
-                  "title": "İlkin kvalifikasiya mərhələsinin təsviri:"
+                  "title": "İlkin kvalifikasiya mərhələsinin təsviri"
                 },
                 "files": {
-                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər:"
+                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
                 },
                 "stub": "SORĞUNUN TAM SƏNƏDLƏRİ İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇDİKDƏN SONRA ƏLCATAN OLACAQ"
               },
               "owner": {
                 "description": {
                   "placeholder": "İlkin kvalifikasiya mərhələsindən keçmək üçün iştirakçıdan tələbləri təsvir edin",
-                  "title": "İlkin kvalifikasiya mərhələsinin təsviri:"
+                  "title": "İlkin kvalifikasiya mərhələsinin təsviri"
                 },
                 "files": {
                   "description": "Faylları yükləyin (25 Mb-a qədər fayl)",
-                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər:"
+                  "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
                 },
                 "helper": "Sənədlərə və sorğunun spesifikasiyasına giriş imkanı iştirakçılara yalnız sizin təsdiqinizdən sonra təqdim olunacaq.",
                 "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇƏNƏ QƏDƏR İŞTİRAKÇILARDAN GİZLƏNƏCƏK",
@@ -2234,19 +2254,23 @@
               "participants_visibility": {
                 "label": "İştirakçılar Tender zamanı nə görə bilər"
               },
-              "price_null": "Təyin edilməyib",
+              "price_null": "Qeyd olunmayıb",
               "reduction_price": {
                 "errors": {
                   "best_price_unavailable": "\"Ən yaxşı təklif\" dəyəri aşağıdakı hallarda mövcuddur: \n• Təklifin həcmi = Tam məmnunluq \n• İştirakçıların gördükləri = Rəqiblərin təkliflərini \n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion",
                   "step_over_start_price": "Dəyişiklik addımı maksimum qiyməti aşır",
                   "step_range_absolute": "Valyuta dəyişikliyinin addım diapazonu: 0,01-100000",
-                  "step_range_percent": "Faiz dəyişikliyinin addım diapazonu: 0.01-10"
+                  "step_range_percent": "Faiz dəyişikliyinin addım diapazonu: 0.01-10",
+                  "best_price_positions_unavailable": "\"Ən yaxşı təklifin maddələrinə görə\" dəyəri aşağıdakı hallarda mövcuddur:\n• Maddələr  spesifikasiya maddələri  üzrə göstərilir\n• İştirakçıların baxa biləcəyi şeylər = Rəqiblərin təklifləri\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faizin azaldılması dəsti",
+                  "self_price_positions_unavailable": "\"Təklifinizin maddələrinə görə\" dəyəri aşağıdakı hallarda mövcuddur:\n• Maddələr spesifikasiya maddələrində üzrə göstərilir\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faizin azaldılması dəsti"
                 },
                 "label": "Minimum qiymət dəyişikliyi addımı",
                 "of": "_",
                 "reference": {
-                  "0": "öz təklifindən",
-                  "1": "ən yaxşı təklifdən"
+                  "0": "Öz təklifindən",
+                  "1": "Ən yaxşı təklifdən",
+                  "2": "Təklifinizə uyğun olaraq",
+                  "3": "Ən yaxşı təklifin maddələrinə görə"
                 }
               },
               "start_price": {

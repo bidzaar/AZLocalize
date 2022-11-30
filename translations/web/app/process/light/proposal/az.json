@@ -68,7 +68,7 @@
             "editable": "{{ count }} cavablardan {{ value }} təqdim olunub",
             "full": "Cavablar verilmişdir"
           },
-          "title": "Qeyri-qiymət meyarları"
+          "title": "Qeyri-qiymət meyyarları"
         },
         "rank": {
           "by_position": "maddələr üzrə dərəcələr",

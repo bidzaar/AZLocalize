@@ -1,0 +1,57 @@
+{
+  "bdz.cat": {
+    "list": {
+      "empty": "Kateqoriya qeyd olunmayıb",
+      "append": "Kateqoriya qeyd et",
+      "remove": "Kateqoriyanı silin",
+      "dialogs": {
+        "remove": {
+          "title": "Kateqoriya silinsin?",
+          "cancel": "Ləğv et",
+          "submit": "Sil"
+        }
+      }
+    },
+    "filter": {
+      "choose": "Seçin >"
+    },
+    "tree": {
+      "title": "Kateqoriyalar",
+      "empty": "Kateqoriyalar müəyyən edilməyib",
+      "active": "Yalnız istifadə olunmuşlar",
+      "inactive": "Kateqoriya istifadə edilməyib",
+      "childless": "Alt kateqoriyalar yoxdur",
+      "actions": {
+        "menu": "Ayarlar",
+        "rename": "Adını dəyiş",
+        "create": "Kateqoriya əlavə et",
+        "append": "Alt kateqoriya əlavə et",
+        "up": "Yuxarı hərəkət et",
+        "down": "Aşağı hərəkət et",
+        "move": "Hərəkət et",
+        "move_to_root": "Siyahının kökünə",
+        "move_to_node": "Başqa kateqoriyaya",
+        "activate": "Kateqoriyanı istifadə et",
+        "deactivate": "Kateqoriyanı istifadə etmə"
+      },
+      "dialogs": {
+        "rename": {
+          "title": "Kateqoriya",
+          "cancel": "Ləğv et",
+          "submit": "Yadda saxla",
+          "placeholder": "Kateqoriyanın adı"
+        }
+      }
+    },
+    "selection": {
+      "text": "Kateqoriyalar müəyyən edilməyib",
+      "notice": "Kateqoriyalar kataloqu boşdur",
+      "submit": "Tamam"
+    }
+  },
+  "errors": {
+    "logic": {
+      "Category.CycleDetected": "Əsas kateqoriyanı alt kateqoriyasına köçürmək mümkün deyil"
+    }
+  }
+}
