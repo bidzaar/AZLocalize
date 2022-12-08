@@ -244,6 +244,10 @@
               "cancel": "Ləğv et",
               "submit": "Bitir",
               "success": "Sorğu başa çatdı. İştirakçılara ismarıclar göndərilib"
+            },
+            "mail": {
+              "title": "Sorğu tamamlandıqda iştirakçılara məlumat verəcəyik",
+              "subtitle": "E-poçtlarımıza baxın və iştirakçılara ismarıc göndərin"
             }
           },
           "saving_editor": {
