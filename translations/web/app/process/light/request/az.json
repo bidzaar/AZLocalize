@@ -19,7 +19,8 @@
         "more": "Digər əməliyyatlar",
         "new_stage": "Yeni bir mərhələ qur",
         "notice_report": "Bildiriş yüklə",
-        "participate": "Təkliflərin hazırlanmasına başla\n",
+        "message": "Sifarişçiyə sual",
+        "participate": "Təkliflərin hazırlanmasına başla",
         "publish": "Sorğunu dərc et",
         "publish_stage": "Yeni mərhələ elan et",
         "refuse": "İştirakdan imtina et",
@@ -60,7 +61,8 @@
       },
       "message_payment": {
         "link": "Nə üçün ödəməli?",
-        "text": "Sorğuda iştirak pulsuzdur, depozitlər və vəsaitlərin bloklanması olmadan!"
+        "text": "Sorğuda iştirak pulsuzdur, depozitlər və vəsaitlərin bloklanması olmadan!",
+        "start": "Təkliflərin hazırlanmasına başla"
       },
       "navigation": {
         "content": "Məzmun",
@@ -71,7 +73,11 @@
       },
       "registries": {
         "title": "İştirakçıların akkreditasiyası",
-        "text": "Təklif vermək üçün iştirakçılar Sifarişçinin bu reyestrlərində akkreditasiyadan keçirlər:",
+        "text": {
+          "1": "Təklifi yalnız aşağıdakı reyestrlərdə akkreditasiya olunmuş təchizatçılar təqdim edə bilər",
+          "2": "Akkreditasiya olunmuş təchizatçılar sorğu dərc edildikdə avtomatik olaraq sorğuya dəvət olunurlar",
+          "3": "Akkreditasiya keçməmiş iştirakçılar eyni vaxtda akkreditasiyadan keçə və təklif hazırlaya bilərlər"
+        },
         "add": "Reyestr əlavə et",
         "success": {
           "add": "Əlavə reyestr",
@@ -114,6 +120,21 @@
         "settings": "Ayarla",
         "title": "Sorğunun qeyri-qiymət meyyarları",
         "warning_text": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
+      },
+      "gold": {
+        "title": "Möcüzəli ProcureSaaS",
+        "link": "Bu nə cür işləyir?",
+        "text": {
+          "message": "Sorğunu sadə, sürətli və səmərəli keçirin.",
+          "warning": "Sorğu dərc edildikdən sonra möcüzəni ləğv etmək mümkün olmayacaq",
+          "read": "Möcüzə Aktivdir"
+        },
+        "select": {
+          "label": "İştirakçıların ixtisaslaşması",
+          "placeholder": "İştirakçıların ixtisaslaşmasını qeyd edin"
+        },
+        "on": "Möcüzə Aktivdir. İştirakçıların əhatə dairəsi məhduddur (sorğunun növü - bağlı)",
+        "off": "Möcüzə Aktivdir. İştirakçıların əhatə dairəsi məhdudiyyətsizdir (sorğunun növü - açıq)"
       },
       "rules": {
         "title": "Sorğunun keçirilmə qaydaları"
