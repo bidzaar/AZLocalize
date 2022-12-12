@@ -27,7 +27,7 @@
           "User": {
             "LastOwner": "Sorğunun ən azı bir sahibi olmalıdır",
             "ResponsibleUserCannotBeDeleted": "Məsul sahibini istisna edə bilməzsiniz. Üzvü xaric etmək üçün cavabdeh olmaq üçün sorğunun başqa sahibini təyin etməlisiniz",
-            "ResponsibleUserCannotBeDegraded": "[AT] Siz məsul sahibin rolunu aşağı sala bilməzsiniz"
+            "ResponsibleUserCannotBeDegraded": "Siz məsul sahibin rolunu aşağı sala bilməzsiniz"
           },
           "WrongNdaState": "İştirakçının müraciəti işlənib"
         }
@@ -612,15 +612,15 @@
           },
           "changes": {
             "major": {
-              "title": "The submitted bids will be rejected ({{value}} total)",
-              "notice": "Changes made require updating participants' bids."
+              "title": "Təqdim edilmiş müraciətlər imtina olundu ({{value}} total)",
+              "notice": "Edilən dəyişikliklər iştirakçı təkliflərinin yenilənməsini tələb edə bilər"
             },
             "minor": {
-              "title": "What to do with the submitted proposals ({{value}} total)",
-              "notice": "The changes made may require an update of the participants' bids",
+              "title": "Təqdim edilmiş təkliflər ilə nə etməli? ({{value}} total)",
+              "notice": "Edilən dəyişikliklər iştirakçı təkliflərinin yenilənməsini tələb edə bilər",
               "options": {
-                "minor": "Save bids",
-                "major": "Reject and request an update of the bids"
+                "minor": "Təklifləri yadda saxla",
+                "major": "İmtina et və təklifləri yeniləməyi tələb et"
               }
             }
           },
@@ -715,16 +715,16 @@
             },
             "Gold": {
               "ProcedureCannotBeOpened": {
-                "notice": "[AT] magic açıq sorğu işləmir. \"Qapalı \" üçün \"sorğu növü \" parametri seçin",
-                "title": "[AT] Sorğu Gold"
+                "notice": "Sehr açıq sorğuda işləmir. \"Bağlı \" üçün \"sorğu növü \" parametri seçin",
+                "title": "Gold Sorğu"
               },
               "HasRegistries": {
-                "notice": "[AT] sehrli reyestrinizdə əlavə akkreditasiya ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
-                "title": "[AT] Sorğu Gold"
+                "notice": "Sehr reyestrinizdə iştirakçının əlavə akkreditasiyası ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
+                "title": "Gold Sorğu"
               },
               "NdaCannotBeEnabled": {
-                "notice": "[AT] Pre-valyuta / NİV mərhələsi aktiv olduqda sehrli işləmir",
-                "title": "[AT] Sorğu Gold"
+                "notice": "İlkin kvalifikasiya tələbi aktiv olduqda Sehr işləmir ",
+                "title": "Gold Sorğu"
               }
             }
           },
@@ -1061,10 +1061,10 @@
             "actions": {
               "change": "Dəyişmək",
               "file": "Fayl əlavə etmək üçün",
-              "open": "Açmaq",
+              "open": "Aç",
               "set_up": "Doldur",
               "specify": "Qeyd et",
-              "specify_inn": "VÖEN göstərin"
+              "specify_inn": "VÖEN göstər"
             },
             "contact": {
               "empty": "Satınalmada əlaqəli şəxsin  kontaktlarını qeyd et",
@@ -1187,7 +1187,7 @@
                 },
                 "helper_positions": {
                   "description": {
-                    "label": "[AT] Qiymətin dəyişdirilməsi təklif olunan əşyaların qiymətini mütənasib olaraq dəyişəcək. Bundan razı deyilsinizsə, qiymətləri fərdi olaraq tənzimləmək seçiminiz var. Bunu etmək:",
+                    "label": "Qiymətin dəyişdirilməsi təklif olunan əşyaların qiymətini mütənasib olaraq dəyişəcək. Bundan razı deyilsinizsə, qiymətləri fərdi olaraq tənzimləmək seçiminiz var. Tənzimlə:",
                     "1": {
                       "1_1": "Bölməyə keçin",
                       "1_2": "Təklif",
@@ -1258,21 +1258,21 @@
           }
         },
         "commission": {
-          "title": "Service Commission",
+          "title": "Xidmət komissiyası",
           "table": {
-            "range": "Order price:",
-            "total": "Service Operator Commission:",
-            "to": "to",
-            "from": "from"
+            "range": "Sifarişin məbləği:",
+            "total": "Xidmət komissiyası:",
+            "to": "",
+            "from": ""
           },
           "text": {
-            "free-for-company": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
-            "free-for-request": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> At the current request, the operator's reward will not be charged if you are declared the winner of the request.",
-            "payment": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> The Service operator's Commission is payable only by the winner of the request as determined by the client and is independent of the actual conclusion of the contract between the client and the winner and the signing of other legally binding documents based on the results of the request."
+            "free-for-company": "<span class=\"free\">Sorğuda iştirak pulsuzdur, depozitlər və vəsait bloklanmır!</span> Sorğunun qalibi elan olunarsınızsa, şirkətiniz operatora mükafat ödəməyəcək.",
+            "free-for-request": "<span class=\"free\">Sorğuda iştirak pulsuzdur, depozitlər və vəsait bloklanmır!</span> Sorğunun qalibi elan olunarsınızsa, şirkətiniz operatora mükafat ödəməyəcək.",
+            "payment": "<span class=\"free\">Sorğuda iştirak pulsuzdur, depozitlər və vəsait bloklanmır!</span> Xidmət  Komissiyası yalnız sorğunun sifarişçisi tərəfindən müəyyən edilmiş qalib tərəfindən ödənilir və Sifarişçi ilə qalibin arasındakı müqavilədən və sorğunun nəticələrinə əsasən digər qanuni məcburi sənədlərin imzalanmasından asılı deyil."
           },
           "total": {
-            "multi": "The amount of the Service operator's Commission depends on the amount of the order and is as follows:",
-            "single": "The amount of the Service operator's Commission doesn't depend on the amount of the order and is as follows:"
+            "multi": "Xidmət operatorunun Komissiya miqdarı sifarişin miqdarından asılıdır və aşağıdakı kimidir:",
+            "single": "Xidmət operatorunun Komissiya miqdarı sifarişin miqdarından asılı deyil və aşağıdakı kimidir:"
           }
         }
       },
@@ -1322,7 +1322,7 @@
           "invite_email": {
             "header": "E-poçt ilə dəvət",
             "multi": {
-              "label": "[AT] E-poçtları vergüllə ayıraraq daxil edin və ya Daxil edin",
+              "label": "E-poçtları vergül ilə ayıraraq daxil edin və ya Daxil edin",
               "cancel": "Geri",
               "submit": "Əlavə et"
             },
@@ -1340,7 +1340,7 @@
               "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
             },
             "errors": {
-              "duplicate": "[AT] Bu e-poçt artıq əlavə edilib"
+              "duplicate": "Bu e-poçt artıq əlavə edilib"
             },
             "success": {
               "default": "Dəvətlər göndərildi",
@@ -1511,25 +1511,25 @@
               "button": "Sil"
             },
             "report": {
-              "title": "İştirakçıların siyahısını yüklə",
-              "tooltip": "İştirakçıların siyahısını endir\n"
+              "title": "İştirakçıların siyahısını endir",
+              "tooltip": "İştirakçıların siyahısını endir"
             },
             "archive_nda": {
-              "title": "əvvəlcədən təyin edilmiş/NDA üçün mövcud proqramları yükləyin",
-              "tooltip": "/NDA qabaqcadan Təsdiq üçün cari müraciətləri Yükləyin"
+              "title": "İlkin kvalifikasiya üçün cari müraciətləri endir",
+              "tooltip": "İlkin kvalifikasiya üçün cari müraciətləri endir"
             },            
             "unblock_many": {
-              "button": "Seçilmiş iştirakçıları blokdan çıxartmaq",
-              "tooltip": "Seçilmiş iştirakçıları blokdan çıxartmaq"
+              "button": "Seçilmiş iştirakçıları blokdan çıxart",
+              "tooltip": "Seçilmiş iştirakçıları blokdan çıxart"
             },
             "unblock_one": {
               "button": "Blokdan çıxart"
             }
           },
           "gold": {
-            "title": "[AT] Magic Bidzaar daxil edilir",
-            "text":"[AT] təqdim təkliflər - nişanı \"müqayisə\"",
-            "link": "[AT] necə işləyir"
+            "title": "Sehirli ProcureSaaS daxil edilir",
+            "text":"Təqdim edilmiş təkliflər - \"müqayisə\" tabındadır",
+            "link": "Bu necə işləyir"
           },          
           "empty": "İştirakçı əlavə et. Sorğu dərc edildikdən sonra iştirakçılar dəvət alacaqlar. Siz həmçinin təkliflərin qəbulu mərhələsində iştirakçıları əlavə edə bilərsiniz.",
           "filters": {
@@ -2048,10 +2048,10 @@
                 }
               },
               "nda_pending": {
-                "message": "İlkin kvalifikasiya / NDA üçün sənədlərinizi təqdim edin. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qalıb)."
+                "message": "İlkin kvalifikasiya mərhələsi üçün sənədlərinizi təqdim edin. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edilir ({{acceptanceEndDays}} qalıb)."
               },
               "nda_submitted": {
-                "message": "{{statusChangedDate}} tarixində NDA Sənədləri təqdim edildi. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edildi ({{acceptanceEndDays}} qaldı)."
+                "message": "{{statusChangedDate}} tarixində İlkin Kvalifikasiya sənədləri təqdim edildi. Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. Təkliflər {{acceptanceEndDate}} tarixinə qədər qəbul edilir ({{acceptanceEndDays}} qalıb)."
               },
               "refused": {
                 "message": "Sorğudan imtina etdiniz. {{acceptanceEndDate}} tarixinə qədər ( {{acceptanceEndDays}} qalıb) yenidən iştirak edə bilərsiniz)."
@@ -2087,10 +2087,10 @@
                 }
               },
               "nda_pending": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya / NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
               },
               "nda_submitted": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya / NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."																													 
+                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."																													 
               },
               "refused": {
                 "message": "Sorğudan imtina etdiniz."
@@ -2113,20 +2113,20 @@
             "title": "Təkliflər qəbulu mərhələsinin sonu"
           },
           "contact": {
-            "append": "[AT] Təchizatçılarla ünsiyyət üçün əlaqə əlavə edin",
+            "append": "Təchizatçılarla ünsiyyət üçün əlaqə əlavə edin",
             "change": "Dəyiş",
             "dialog":{
-              "title": "[AT] əlaqə",
-              "placeholder":"[AT] təsviri və əlaqə daxil",
-              "cancel": "[AT] Ləğv et",
-              "submit": "[AT] Bitti"
+              "title": "Əlaqə",
+              "placeholder":"Əlaqə daxil et",
+              "cancel": "Ləğv et",
+              "submit": "Tamam"
             },
             "empty": {
               "other": "Təşkilatçı əlaqə üçün şəxs təqdim etməyib.",
               "owner": "İşçinin əlaqə məlumatları sorğunun təsvirində göstərilmir."
             },
             "title": "Əlaqə",
-            "success": "[AT] Əlaqə saxlanılır"
+            "success": "Əlaqə saxlanılır"
           },
           "delivery": {
             "descr": "Malların çatdırılması və ya xidmətlərin göstərilməsi  ünvanı",
@@ -2157,25 +2157,25 @@
           "nda": {
             "other": {
               "description": {
-                "title": "İlkin kvalifikasiyanın/NDA təsviri"
+                "title": "İlkin kvalifikasiya mərhələsinin təsviri"
               },
               "files": {
-                "title": "İlkin kvalifikasiya sənədləri / NDA"														
+                "title": "İlkin kvalifikasiya mərhələsinin sənədləri"														
               },
-              "stub": "FULL REQUEST DOCUMENTATION IS AVAILABLE AFTER PREQUALIFICATION / NDA.\nPREQUALIFICATION AND SUBMISSION OF A PROPOSAL IS REQUIRED BEFORE THE END OF THE BID SUBMISSION PERIOD."		   
+              "stub": "SORĞUNUN SƏNƏDLƏRİ İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇDİKDƏN SONRA MÖVCUD OLACAQ. iLKİN KVALİFİKASİYA VƏ TƏKLİFLƏR, TƏKLİFLƏR QƏBULUNUN SON TARİXİNƏ KİMİ TƏQDİM OLUNMALIDIR"		   
             },
             "owner": {
               "description": {
-                "placeholder": "İlkin kvalifikasiyadan keçmək üçün iştirakçıdan nə tələb olunduğunu təsvir edin / NDA",
-                "title": "İlkin kvalifikasiyanın/NDA təsviri"
+                "placeholder": "İlkin kvalifikasiya mərhələsindən keçmək üçün iştirakçıdan nə tələb olunduğunu təsvir edin",
+                "title": "İlkin kvalifikasiya mərhələsinin təsviri"
               },
               "files": {
                 "description": "Faylları yükləyin (25 Mb-a qədər fayl)",
-                "title": "İlkin kvalifikasiya sənədləri / NDA"
+                "title": "İlkin kvalifikasiya mərhələsinin sənədləri"
               },
               "helper": "Sənədlərə və sorğunun spesifikasiyasına giriş imkanı iştirakçılara yalnız sizin təsdiqinizdən sonra təqdim olunacaq.",
-              "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA/NDA KEÇƏNƏ QƏDƏR İSTİFADƏÇİLƏRDƏN GİZLƏNƏCƏK.",
-              "title": "İlkin kvalifikasiya/NDA imzalama addımını aktivləşdirin"
+              "separator": "ÇATDIRILMA YERİ, TƏKLİF QƏBULUNUN SON TARİXİ VƏ TEQLƏR İSTİSNA OLMAQLA, AŞAĞIDAKI MƏLUMATLAR İLKİN KVALİFİKASİYA MƏRHƏLƏSİNİ KEÇƏNƏ QƏDƏR İSTİFADƏÇİLƏRDƏN GİZLƏNƏCƏK.",
+              "title": "İlkin kvalifikasiya prosesini aktivləşdirin"
             }
           },
           "positions": {
@@ -2203,7 +2203,7 @@
             "title": "Bildirişlərin dili"
           },
           "categories": {
-            "title": "[AT] Kateqoriyaları tələb edin"
+            "title": "Sorğunun kateqoriyası"
           },
           "title": "Əlavə xanalar"
         },
@@ -2236,20 +2236,20 @@
             "price_null": "Qeyd olunmayıb",
             "reduction_price": {
               "errors": {
-                "best_price_unavailable": "\"Ən yaxşı təklif\" dəyəri aşağıdakı hallarda mövcuddur: \n• Təklifin həcmi = Tam məmnunluq \n• İştirakçıların gördükləri = Rəqiblərin təkliflərini \n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion",
+                "best_price_unavailable": "\"Ən yaxşı təklif\"aşağıdakı hallarda mövcuddur: \n• Təklifin həcmi = Tam məmnunluq \n• İştirakçıların gördükləri = Rəqiblərin təkliflərini \n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion",
                 "step_over_start_price": "Dəyişiklik addımı maksimum qiyməti aşır",
                 "step_range_absolute": "Valyuta dəyişikliyinin addım diapazonu: 0,01-100000",
                 "step_range_percent": "Faiz dəyişikliyinin addım diapazonu: 0.01-10",
-                "best_price_positions_unavailable": "[AT] \"Ən yaxşı təklifin maddələrinə görə\" dəyəri aşağıdakı hallarda mövcuddur:\n• Vəzifələr spesifikasiyada vəzifələr üzrə göstərilir\n• İştirakçıların baxa biləcəyi şeylər = Rəqiblərin təklifləri\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faizin azaldılması dəsti",
-                "self_price_positions_unavailable": "[AT] \"Təklifinizin maddələrinə görə\" dəyəri aşağıdakı hallarda mövcuddur:\n• Vəzifələr spesifikasiyada vəzifələr üzrə göstərilir\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faizin azaldılması dəsti"
+                "best_price_positions_unavailable": "\"Ən yaxşı təklifin maddələrinə görə\" aşağıdakı hallarda mövcuddur:\n• Spesifikasiya maddələri  göstəriləndə\n• İştirakçılar nə görürlər = Rəqiblərin təkliflərini\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faiz ilə azaldılma",
+                "self_price_positions_unavailable": "\"Təklifinizin maddələrinə görə\" aşağıdakı hallarda mövcuddur:\n• Spesifikasiya maddələri  göstəriləndə\n• Qiymət dəyişikliyi qaydası = Rediksion və ya Auksion\n• Faiz ilə azaldılma"
               },
               "label": "Minimum qiymət dəyişikliyi addımı",
               "of": "_",
               "reference": {
                 "0": "öz təklifindən",
                 "1": "ən yaxşı təklifdən",
-                "2": "[AT] təklifinizə uyğun olaraq",
-                "3": "[AT] ən yaxşı təklifin mövqelərinə görə"
+                "2": "öz təklifinin maddələri üzrə",
+                "3": "ən yaxşı təklifin maddələri üzrə"
               }
             },
             "start_price": {
@@ -2386,19 +2386,19 @@
         "team": {
           "title": "Komanda",
           "notice": "Sorğunun icrasına cavabdeh olanları əlavə edin və onların rollarını tənzimləyin.",
-          "responsible": "[AT] Müraciət üçün cavabdehdir",
+          "responsible": "Müraciət üçün cavabdehdir",
           "ownerless": {
             "text": "Sorğu Sahibini təyin etmək üçün şöbə müdiri ilə əlaqə saxlayın",
             "title": "Komandanın sahibi yoxdur"
           },
           "actions": {
             "append": "Əlavə et",
-            "remove": "[AT] Komandadan çıxarın",
-            "responsible": "[AT] Məsuliyyətli kimi təyin edin"
+            "remove": "Komandadan çıxarın",
+            "responsible": "Məsuliyyətli kimi təyin edin"
           },
           "dialogs": {
             "exclude": {
-              "title": "[AT] Həqiqətən də bu üzvü komandadan kənarlaşdırmaq istəyirsiniz?",
+              "title": "Həqiqətən də bu üzvü komandadan kənarlaşdırmaq istəyirsiniz?",
               "yes": "Müraciət et",
               "no": "Ləğv et",
               "success": "İşçi komandadan uzaqlaşdırıldı"
@@ -2412,28 +2412,28 @@
           }
         },
         "commission": {
-          "title": "Service operator's Commission"
+          "title": "Xidmət komissiyası"
         },
         "payment": {
-          "title": "Commission for the participant's victory pays",
-          "free": "There is no service fee on your company's requests",
+          "title": "Kim ödəyir",
+          "free": "Sizin şirkətinizin sorğularına dair xidmət komissiyası tutulmur",
           "fee": {
-            "label": "Who pays the fee",
-            "notice": "After the request is published, the value cannot be changed",
-            "private": "No fee is charged for your company's private requests",
+            "label": "Kim ödəyir",
+            "notice": "Sorğu dərc olunduqdan sonra dəyişiklik etmək mümkün olmayacaq",
+            "private": "Şirkətinizin bağlı sorğularına dair xidmət komissiyası tutulmur",
             "options": {
-              "1": "Winning supplier",
-              "2": "Customer (your company)",
+              "1": "Qalib təchizatçı",
+              "2": "Sifarişçi (Sizin şirkət)",
               "3": "Winning supplier",
-              "4": "Customer (your company)"
+              "4": "Sifarişçi (Sizin şirkət)"
             }
           },
           "tariff": {
-            "label": "Request's Tariff",
-            "select": "Select",
-            "change": "Change",
-            "required": "A tariff is not selected",
-            "archive": "The selected tariff is in the archive, please change the tariff"
+            "label": "Sorğunun tarifi",
+            "select": "Tarifi seç",
+            "change": "Tarifi dəyiş",
+            "required": "Tarif seçilməyib",
+            "archive": "Seçdiyiniz tarif arxivdədi, tarifi dəyişin "
           }
         }
       },
@@ -2445,7 +2445,7 @@
         },
         "unauthorized": {
           "register": "Qeydiyyat və giriş",
-          "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan ke və ya daxil ol"				 
+          "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan keç və ya daxil ol"				 
         }
       },
       "seo": {
@@ -2466,17 +2466,17 @@
         "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
         "updated": "Sorğu yeniləndi",
         "version_created": "Qaralama yaradıldı",
-        "request_published": "[AT] Sorğu nəşr olunur",
-        "stage_published": "[AT] Mərhələ nəşr olunur",
-        "changes_published": "[AT] Dəyişikliklər nəşr"
+        "request_published": "Sorğu dərc olundu",
+        "stage_published": "Mərhələ dərc olundu",
+        "changes_published": "Dəyişikliklər dərc olundu"
       },
       "status": {
         "0": "Qaralama",
         "1": "Təkliflərin qəbulu",
-        "2": "Təkliflərin qəbulu bitdi, yekunlşdırma sorğusu",
+        "2": "Təkliflərin qəbulu bitdi,sorğu yekunlaşdırma mərhələsindədir",
         "3": "Sorğu tamamlandı",
         "4": "Sorğu ləğv edildi",
-        "until": "{{ date }} kimi"
+        "until": "{{ date }} "
       },
       "tabs": {
         "comparison": "MÜQAYİSƏ",
