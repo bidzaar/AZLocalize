@@ -628,11 +628,11 @@
             "AcceptanceEndDate": {
               "Default": {
                 "notice": "Tamamlanmaq mərhələsinə qalıb",
-                "title": "Təkliflərin qəbulu:"
+                "title": "Təkliflər qəbulunun son tarixi:"
               },
               "Expired": {
                 "notice": "Tarix bitdi, yeni tarix daxil edin.",
-                "title": "Təkliflərin son tarix qəbulu:"
+                "title": "Təkliflər qəbulunun son tarixi:"
               },
               "LessThen": {
                 "15": {
@@ -2415,7 +2415,7 @@
           "title": "Xidmət komissiyası"
         },
         "payment": {
-          "title": "Kim ödəyir",
+          "title": "Xidmət komissiyası",
           "free": "Sizin şirkətinizin sorğularına dair xidmət komissiyası tutulmur",
           "fee": {
             "label": "Kim ödəyir",

@@ -196,11 +196,11 @@
             "response_previous_price": "Vahidin əvvəlki qiyməti",
             "response_price_my": {
               "false.false": "Vahidin ƏDV-siz qiyməti",
-              "false.true": "İştirakçının valyutasında  vahidin ƏDV-siz qiyməti",
+              "false.true": "Vahidin ƏDV-siz qiyməti",
               "null.false": "Vahidin qiyməti",
-              "null.true": "İştirakçının valyutasında vahidin qiyməti",
+              "null.true": "Vahidin qiyməti",
               "true.false": "ƏDV daxil vahidin qiyməti",
-              "true.true": "İştirakçının valyutasında vahidin ƏDV daxil qiyməti"
+              "true.true": "Vahidin ƏDV daxil qiyməti"
             },
             "response_price_my_converted": {
               "false": "Sorğunun valyutasında  vahidin ƏDV-siz qiyməti",
