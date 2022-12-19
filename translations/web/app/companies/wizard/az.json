@@ -28,10 +28,15 @@
           },
           "create": {
             "brand": {
-              "header": "Saytda brendinizi vurğulayın",
-              "label": "Brend",
-              "notice": "Qarşı tərəflər tərəfindən tanınmaq üçün şirkətin adı",
-              "title": "Brend"
+              "header": "Platformada brendinizi qeyd edin",
+              "legal": {
+                "title": "Qanuni ad"
+              },
+              "brand": {
+                "title": "Brend",
+                "notice": "Qarşı tərəflər tərəfindən tanınmaq üçün şirkətin adı",
+                "placeholder": "Platformada ad"
+              }
             },
             "contacts": {
               "email": {
@@ -101,7 +106,7 @@
                   "join": "Şirkətə qoşulun",
                   "register": "Şirkəti qeydiyyatdan keçirin"
                 },
-                "header": "Saytda oxşar şirkətlər",
+                "header": "Platformada oxşar şirkətlər",
                 "notice": "Onun adından işləmək üçün şirkətinizə qoşulun və ya yeni şirkət qeydiyyatdan keçirin",
                 "register": {
                   "notice": "Şirkəti qeydiyyatdan keçirin",
@@ -129,20 +134,20 @@
             },
             "roles": {
               "header": "ProcureSaaS-da nə edəcəksiniz?",
-              "purchaser": {
-                "notice": "Mən mal və ya xidmətlər təqdim edəcəm",
-                "title": "Təchizatçı təşkilat"
-              },
               "seller": {
                 "notice": "Mən mal və xidmət sifariş edəceyəm",
                 "title": "Satınalan təşkilat"
+              },              
+              "purchaser": {
+                "notice": "Mən mal və ya xidmətlər təqdim edəcəm",
+                "title": "Təchizatçı təşkilat"
               }
             },
             "tags": {
               "append": "Teq əlavə et",
               "header": "Nə satacaqsınız?",
               "notice": "Ən azı üç teq daxil edin, məsələn: Ofis mebeli, Dəftərxana ləvazimatı, Ofis kağızı",
-              "title": "Müştərilər sizi teqlərlə tapa biləcəklər"
+              "title": "Sifarişçilər sizi teqlərlə tapa biləcəklər"
             }
           }
         }
