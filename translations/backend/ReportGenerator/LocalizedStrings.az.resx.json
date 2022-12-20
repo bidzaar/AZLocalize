@@ -274,10 +274,16 @@
     "Brief.Amount": "Sifarişin qiyməti",
     "Brief.Empty": "Sorğu yaradılmayıb",
     "Brief.Caption": "Sorğu zamanı göstərilən məbləğlər üzrə sifariş almış aşağıdakı qaliblər müəyyən edilib",
-    "Brief.Text": "Tamamlanmış sorğunun nəticələrindən çıxarış",
     "Brief.TIN": "VÖEN",
     "Brief.Total": "Ümumi",
     "Summary.QrCode": "Sifariş doğrulama kodu:",
-    "Brief.Title": "Sorğunun nəticələri"
+    "ProposalItemsDeviationType.AcceptableByPosition": "Maddələrdə görə yayınma icazəsi",
+    "ReductionPriceReference.SelfPriceByPosition": "təklifinizin maddələrinə uyğun olaraq",
+    "ReductionPriceReference.BestPriceByPosition": "ən yaxşı təklifin maddələrinə görə",
+    "Diff.CountChanged": "Lazım olan məbləğ dəyişdi",
+    "Brief.Title.Active": "Sorğunun ilkim nəticələri",
+    "Brief.Title.Finished": "Sorğunun nəticələri",
+    "Brief.Text.Finished": "Qalib şirkətlər seçildi.",
+    "Brief.Text.Active": "Əvvəlcədən qalib kimi seçilmiş şirkətlər."
 }
 

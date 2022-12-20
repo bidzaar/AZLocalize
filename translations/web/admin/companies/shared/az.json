@@ -36,8 +36,13 @@
           "title": "ProcureSaaS tərəfindən yoxlanılmış",
           "true": "Yalnız yoxlanılmış",
           "false": "Yalnız yoxlanılmamış"
-        }
-      },
+        },
+        "deleted": {
+          "title": "[AT] Göstərin silindi",
+          "false": "[AT] Yalnız aktivdir",
+          "true": "[AT] Yalnız uzaqdan"
+      }
+    }, 
       "sort": {
         "registration_date": "Qeydiyyat tarixi"
       },

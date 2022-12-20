@@ -76,7 +76,10 @@
           "LastAdmin": "Siz - \"ProcureSaaS komandasının idarəedilməsi\" səlayihəti olan yeganə əməkdaşsınız. Səlayihəti başqa əməkdaşa ötürün və əməliyyatı təkrarlayın. "
         }
       },
-      "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın"
+      "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın",
+      "Tags": {
+        "TagHasInStopList": "Əlavə edilmiş teq dayanma siyahısındadır."
+      }
     }
   },
   "filters": {

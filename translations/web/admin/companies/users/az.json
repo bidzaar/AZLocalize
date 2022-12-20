@@ -46,8 +46,13 @@
           "short": "Qruplarda akkreditasiya üçün müraciət",
           "long": "Qruplarda akkreditasiya üçün müraciət"
         }
+      },
+      "role": {
+        "0": "Auditor",
+        "1": "Redaktor",
+        "2": "Sahib"
       }
-    },
+    },        
     "list": {
       "card": {
         "rights": {

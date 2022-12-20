@@ -45,10 +45,12 @@
       "title": "Sorğunun Kateqoriyası"
     },
     "comment": {
+      "title": "Şərh",
       "edit": "dəyişdir",
-      "add": "+ şərh əlavə et"
+      "add": "şərh əlavə et"
     },
     "tariffs": {
+      "title": "Qiymətləndirmə",
       "view": "Ətraflı",
       "dialog": {
         "edit": "sorğu tarifini dəyişdirin"
