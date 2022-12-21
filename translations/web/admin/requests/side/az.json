@@ -30,6 +30,9 @@
     },
     "supplier": {
       "company": {
+        "categories": {
+          "title": "Şirkət kateqoriyaları"
+        },
         "additional": {
           "description": {
             "placeholder": "Təsvir təqdim edilməyib",

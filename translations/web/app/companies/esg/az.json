@@ -72,7 +72,7 @@
           "environmental": {
             "letter": "e",
             "title": "Ətraf-mühit",
-            "label": "environmental"
+            "label": "Ətraf-mühit"
           },
           "social": {
             "letter": "s",
@@ -89,7 +89,7 @@
             "2": "{{value}} şirkəti ESG meyarlarına cavab verir və ekoloji, sosial və idarəetmə məsələlərinin həllində iştirak edir"
           },
           "none": {
-            "description": "ProcureSaas Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunu asan və tez yoxlamaq üçün metodologiya hazırlayan ilk şirkət oldu. Sertifikat alın və ESG təchizatçısı statusunuzu əldə edin",
+            "description": "",
             "title": "Sertifikatlaşdırmadan keçməyib"
           },
           "title": "ESG-provayder"

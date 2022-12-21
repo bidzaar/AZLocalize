@@ -57,7 +57,8 @@
         "32": "Şirkət idarəçiliyi",
         "64": "Sorğu Siyahısı",
         "256": "Teq İdarəçiliyi\n",
-        "512": "Sorğu tarifləri qurulması"
+        "512": "Sorğu tarifləri qurulması",
+        "1024": "Kateqoriyaların idarəsi"
       },
       "status": {
         "0": "Admin deyil",

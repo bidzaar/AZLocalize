@@ -10,8 +10,7 @@
       "default": {
         "title": "Standart tender növü",
         "text": "Yeni tenderlərə standart tender növü təyin olunacaq"
-      },
-      "comment": {}
+      }
     },
     "tariff": {
       "name": {
@@ -42,7 +41,19 @@
         "sum": "Məbləğ"
       }
     },
+    "comment": {
+      "add": "Şərh əlavə et",
+      "edit": "Şərh dəyişdirin"
+    },
     "dialogs": {
+      "comment": {
+        "title": "Şərh",
+        "hint": "Şərh yalnız saytın administratorları üçün mövcuddur",
+        "placeholder": "Şərh daxil edin",
+        "save": "Yadda saxla",
+        "cancel": "Ləğv et",
+        "success": "Şərh əlavə edildi"
+      },
       "deactivate": {
         "header": "Tarifi ləğv edin",
         "text": "Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
@@ -69,6 +80,7 @@
           "Tariff.Description.IsEmpty": "Təsvir göstərilməyib",
           "Tariff.Name.IsEmpty": "Adı göstərilməyib",
           "Tariff.Code.IsEmpty": "Kod göstərilməyib",
+          "Tariff.Code.IsNotUnique": "Kod unikal deyil",
           "Tariff.Conditions.HasNoActive": "Tariflər cədvəli ayarlanmayıb"
         }
       }
@@ -76,7 +88,10 @@
   },
   "errors": {
     "logic": {
-      "Tariffs.HasNoCorrectStatus": "Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin."
+      "Tariffs": {
+        "HasNoCorrectStatus": "Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin.",
+        "IsNotUnique": "The tariff code must be unique."
+      }
     }
   }
 }
