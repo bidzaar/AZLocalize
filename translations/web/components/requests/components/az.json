@@ -128,12 +128,12 @@
     },
     "tariffs": {
       "ranges": {
-        "to": "up to"
+        "to": ""
       },
       "select": {
-        "header": "Tariff of the request",
-        "notice": "Specify the tariff for the request. This will determine how much the suppliers' commission will be",
-        "submit": "Done"
+        "header": "Sorğunun tarifi",
+        "cancel": "Bağla",
+        "submit": "Göndər"
       }
     }
   }

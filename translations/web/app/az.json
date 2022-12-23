@@ -28,7 +28,6 @@
           },
           "badges": "Nişanlar",
           "company_sales": "Şirkət satır",
-          "completedProceduresCount": "Tamamlanmış sorğuların sayı",
           "default": "Standart olaraq",
           "employeesCount": "İşçilərin sayı",
           "labels": "Təyin edilmiş etiketlər",
@@ -60,7 +59,7 @@
         },
         "selected_title": "Seçildi:",
         "sorting": {
-          "completedProceduresCount": "Tamamlanmış sorğuların sayı",
+          "rating": "Platformanın fəaliyyəti",
           "name_asc": "Şirkət adı",
           "participationsCount": "Sorğularda iştirak",
           "registration_date": "Qeydiyyat tarixi"
@@ -149,15 +148,6 @@
           "yes": "Sil"
         },
         "tooltip": "İstifadəçini sil"
-      },
-      "dialog_selector": {
-        "add": "əlavə et",
-        "cancel": "Ləğv et",
-        "empty": "daha işçi yoxdur :(",
-        "empty_purchases": "Hələ təyin olunmuş rol yoxdur :(",
-        "single_choice_title": "hüquqları olan istifadəçilər:",
-        "single_choice_title_all": "şirkətdəki istifadəçilər",
-        "title": "əməkdaşları əlavə et"
       },
       "list": {
         "add_tooltip": "əməkdaş əlavə et",
@@ -386,20 +376,6 @@
       "number": "ID {{ value }}",
       "text": "İnzibatçı tərəfindən təstiq aldıqdan sonra siz şirkətin əməkdaşı kimi işə başlaya bilərsiniz",
       "title": "Vacib məlumat"
-    },
-    "my_accreditations": {
-      "action": "Akkreditasiyalar",
-      "active": "Əldə edilmiş akkreditasiyalar",
-      "adjustment_required": "Emalda olan müraciətlər",
-      "invited": "Akkredisatiyaya dəvətlər",
-      "title": "Akkreditasiyalarım"
-    },
-    "my_pools": {
-      "action": "Qruplara keç",
-      "active": "Təqdim edilmiş akkreditasiyalar",
-      "adjustment_required": "Düzəlişə göndərilib",
-      "consideration": "Emalda olan müraciətlər",
-      "title": "Mənim qruplarım"
     },
     "no_procedures": {
       "action": "Sorğu axtar",
@@ -874,7 +850,8 @@
             "my-proposal-archive": "sizin təklifiniz",
             "proposal-archive": "iştirakçının təklifi",
             "receipt-archive": "iştirakçının sifarişi",
-            "comparison": "müqayisə cədvəlini"
+            "comparison": "müqayisə cədvəlini",
+            "nda-archive": "ilkin kvalifilasiya üçün cari müraciətlər"
           }
         },
         "registry_reports": {
@@ -933,7 +910,8 @@
       "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
       "submit": "Klonlaşdırmaq",
       "team": "Komanda",
-      "nda": "İlkin kvalifikasiya mərhələsi"
+      "nda": "İlkin kvalifikasiya mərhələsi",
+      "registries": "Reyestrlər"
     },
     "common": {
       "documents": "təchizatçı üçün sənədlər",
@@ -1840,7 +1818,6 @@
             "next": "Dəvət et"
           },
           "empty": {
-            "advice": "Tövsiyə: şirkəti tez tapmaq istəyirsiniz? Ona etiket təyin edin və şirkətlərin siyahısını etiketə görə filtr edin. Etiketlərin təyin olunması şirkət profilində mövcuddur.",
             "primary": "Uyğun sorğular yoxdur",
             "secondary": "Qaralama və ya Təklif Qəbulu statusu ilə heç bir sorğunuz yoxdur."
           },
@@ -2324,7 +2301,8 @@
             "public": "İctimai səhifə",
             "remove": "Şirkəti sil",
             "smtp": "Təchizatçıların satınalmalara dəvət olunması",
-            "ugroups": "Əməkdaşlar qrupları"
+            "ugroups": "Əməkdaşlar qrupları",
+            "categories": "Kateqoriya kataloqu"
           }
         },
         "activity": {
@@ -2565,6 +2543,13 @@
       "title_link": "şirkətinizin profili",
       "title_postfix": ". Bu məlumatların doğru olduğundan əmin olun.",
       "title_prefix": "ProcureSaaS mütəxəssisləri göstərilən məlumatları yoxlayacaqlar"
+    },
+    "users-selector-dialog": {
+      "empty": "Lazımi hüquqları olan işçilər yoxdur. İşçilərə hüquqlar təyin etmək üçün şirkət meneceri ilə əlaqə saxlayın.",
+      "search": "Axtar...",
+      "cancel": "Bağla",
+      "submit": "Göndər",
+      "not-found": "İşçi tapılmadı"
     },
     "rights": {
       "comment": "hüquqlar \"şirkəti idarə etmək\" hüququ olan istifadəçi tərəfindən müəyyən edilir",

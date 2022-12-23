@@ -28,6 +28,9 @@
       "error": {
         "Tags": {
           "TagHasInStopList": "Əlavə edilmiş teq dayanma siyahısındadır."
+        },
+        "User": {
+          "HasNoCompany": "Bu şirkət seçilmiş deyil"
         }
       },
       "header": {

@@ -1,0 +1,17 @@
+{
+  "bdz.hrch": {
+    "selection": {
+      "search": {
+        "placeholder": "web/components/hierarchy: bdz.hrch.selection.search.placeholder"
+      },
+      "items": {
+        "empty": "web/components/hierarchy: bdz.hrch.selection.items.empty",
+        "notfound": "web/components/hierarchy: bdz.hrch.selection.items.notfound"
+      },
+      "actions": {
+        "cancel": "web/components/hierarchy: bdz.hrch.selection.actions.cancel",
+        "submit": "web/components/hierarchy: bdz.hrch.selection.actions.submit"
+      }
+    }
+  }
+}

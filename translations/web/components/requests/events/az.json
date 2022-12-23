@@ -55,8 +55,16 @@
         "users": {
           "choose": "İşçi",
           "title": "İşçi"
+        },
+      "initiator": {
+        "title": "Tədbirin mənbəyi",
+        "options": {
+          "0": "Sahibi",
+          "1": "Təchizatçı",
+          "2": "Sayt"
         }
-      },
+      }
+    },
       "item": {
         "ip": "IP: {{value}}",
         "system": "Platforma"

@@ -1,0 +1,17 @@
+{
+  "bdz.hrch": {
+    "selection": {
+      "search": {
+        "placeholder": "Axtar..."
+      },
+      "items": {
+        "empty": "Əlavə olunmuş fayllar yoxdur",
+        "notfound": "Elementlər tapılmadı"
+      },
+      "actions": {
+        "cancel": "Ləğv et",
+        "submit": "Seçin"
+      }
+    }
+  }
+}
