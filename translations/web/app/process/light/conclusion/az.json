@@ -54,7 +54,7 @@
               }
             },
             "orders": {
-              "winner": "Tэbrik edirik! Sifarişçi sizi qalib seçdi!",
+              "winner": "Təbrik edirik! Sifarişçi sizi qalib seçdi!",
               "looser": "Sifarişçi digər şirkəti qalib seçdi",
               "nobody": "Sorğu qalib seçilmədən bitdi",
               "comment": "Sifarişçi  şərhləri",
