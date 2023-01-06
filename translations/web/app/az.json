@@ -2508,12 +2508,12 @@
         "tags": {
           "add": "Teqlər əlavə et",
           "dialog": {
-            "header": "Biz satırıq",
+            "header": "Ixtisas sahəsi",
             "placeholder": "Satış üçün obyektalri sadalıyın",
             "text": "Şirkətinizin platformada nə satacağını sadalamaq üçün teqlərdən istifadə edin."
           },
           "empty": "Müştərilərin sizi tapması üçün məhsul və xidmətlərinizi teqlər vasitəsi ilə təsvir edin",
-          "title": "Biz satırıq"
+          "title": "Ixtisas sahəsi"
         },
         "toolbar": {
           "completed": "Profil doldurulub",

@@ -74,7 +74,7 @@
         "rank": {
           "by_proposal": {
             "text": "Təklifinizin dərəcəsi",
-            "label": "[AT] Rəqiblərin təklifləri arasında təklif dərəcəsi"
+            "label": "Rəqiblərin təklifləri arasında təklif dərəcəsi"
           },
           "by_position": {
             "text": "Maddələr üzrə dərəcələr",
@@ -85,7 +85,7 @@
           "draft": "<strong class=\"banner-bold\">Təklif verin</strong> təkliflərin qəbul müddəti başa çatanadək",
           "submitted": { 
             "text": "<strong class=\"banner-bold\">qələbə şansını artırmaq üçün </strong> təklifini dəyişdirin.", 
-            "button": "dəyişiklik başlayın"
+            "button": "dəyişiklik edin"
           },
           "edit": "<strong class=\"banner-bold\">dəyişdirilmiş təklifi verin.</strong> İndi Sifarişçiyə sizin köhnə təklifiniz mümkündür:",
           "summarizing": "<strong class=\"banner-bold\">Sənədləri blokunda yeniləyin</strong> \"kommersiya təklifi və sənədlər\""

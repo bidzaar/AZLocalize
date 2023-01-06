@@ -38,6 +38,9 @@
       "budget": {
         "title": "Büdcə"
       },
+      "categories": {
+        "title": "Kateqoriyalar"
+      },
       "creation_date": {
         "title": "Yaranma tarixi"
       },
@@ -46,6 +49,8 @@
         "title": "Sifarişçi"
       },
       "default": "defolt olaraq",
+      "mytags": "Nişanlarımla",
+      "acceptance": "Təkliflərin qəbulu",
       "favorite": {
         "title": "★ İlk öncə seçilmişlər"
       },
@@ -85,6 +90,13 @@
         "private": "Bağlı",
         "public": "Açıq",
         "title": "Sorğunun növü"
+      },
+      "type_of_change": {
+        "title": "Sorğu növü",
+        "labels": {
+          "true": "Satınalma",
+          "false": "Satış"
+        }  
       }
     },
     "list_item": {
@@ -100,7 +112,14 @@
       "create": "Sorğu yaratmaq",
       "export": "Endir",
       "manager_title": "Şirkətin bütün sorğuları",
-      "title": "Mənim sorğularım"
+      "title": "Mənim sorğularım",
+      "download": "Yüklə",
+      "vendors_statistics_dialog": {
+        "title": "Alıcı statistikası.",
+        "period": "Hesabat dövrü",
+        "cancel": "Ləğv et",
+        "download": "Yüklə"
+      }
     },
     "participantions": {
       "rank": "Rəqiblər arasında dərəcə reytingi",
@@ -127,6 +146,7 @@
       "participants": "İştirak etdi",
       "proposals": "Təklifi olan iştirakçılar"
     },
-    "views_count": "Baxışların miqdarı"
+    "views_count": "Baxışların miqdarı",
+    "gold": "Qızıl Sorğu"
   }
 }

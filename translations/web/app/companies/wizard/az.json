@@ -123,12 +123,12 @@
               "notice": "Şirkətinizin fəaliyyət göstərdiyi ölkələri, regionları və şəhərləri göstərin"
             },
             "finish": {
-              "header": "Şirkətiniz qeydiyyatdan keçib",
+              "header": "Şirkətiniz qeydiyyatdan keçdi",
               "purchaser": {
                 "title": "Sorğularınızı yerləşdirmək səlahiyyətinə sahib olmaq üçün şəxsi menecerinizlə əlaqə saxlayın"
               },
               "seller": {
-                "text": "• İştirak pulsuzdur\n• Müraciət heç bir depozit tələb olunmur\n• Akkreditasiya və Asan imza tələb olunmur",
+                "text": "• İştirak pulsuzdur\n• Müraciət üçün heç bir depozit tələb olunmur\n• Akkreditasiya və Asan imza tələb olunmur",
                 "title": "İndi mal və xidmətləri sata bilərsiniz"
               }
             },

@@ -279,7 +279,7 @@
       },
       "questionnaire_block": {
         "create_button": "Bölmə yaradın",
-        "empty_info": "Anket blokunun birinci hissəsini yaradın",
+        "empty_info": "Anket blokunun birinci bölməsini yaradın",
         "empty_title": "Reyestr anketinin bloku",
         "exchange": {
           "export": "Anketi endir",
@@ -365,7 +365,7 @@
             "no_groups_info": "Akkreditasiya komitəsinə daxil olan qruplar üçün giriş imkanı yarat"
           },
           "edit_groups": "Girişi tənzimləmək",
-          "info": "Anketi tənzimləyin və şirkətlərin sorğularına baxmaq imkanı təmin edin.",
+          "info": "Anketi tənzimləyin və şirkətlərin müraciətlərinə baxmaq imkanı təmin edin.",
           "no_groups": "Qruplar üçün bloka giriş verilmir",
           "title": "Reyestr anketi"
         },

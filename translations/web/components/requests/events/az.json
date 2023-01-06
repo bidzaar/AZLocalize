@@ -57,7 +57,7 @@
           "title": "İşçi"
         },
       "initiator": {
-        "title": "Tədbirin mənbəyi",
+        "title": "Tədbirin təşkilatçısı",
         "options": {
           "0": "Sahibi",
           "1": "Təchizatçı",
