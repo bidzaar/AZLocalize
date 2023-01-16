@@ -398,7 +398,7 @@
         "position_proposal_total_dialog": {
           "title": "Sifariş məbləğini maddə üzrə dəyişdirin",
           "total": "Son hesablama:",
-          "count_error": "əchizatçının təklifindəki miqdar iştirakçının təklifindən azdır",
+          "count_error": "Məbləğ təchizatçının təklifindən artıqdır",
           "cancel": "Ləğv et",
           "submit": "Hazırdı"
         },
@@ -456,7 +456,7 @@
           "button": "Qiymət müqayisəsi",
           "target_price": "Hədəf dəyərinə nisbətən",
           "first_price": "Orijinal təklifə gəldikdə",
-          "best_price": "Ən yaxşı təklif haqqında"
+          "best_price": "Ən yaxşı təklifdən"
         }
       },
       "dialogs": {
@@ -552,7 +552,7 @@
             "title": "Sorğu ləğv edildi"
           },
           "completed": {
-            "text": "Nəticələri \"Nəticələr\" bölməsində yoxlayın",
+            "text": "Nəticələri \"Yekun Nəticələr\" bölməsində yoxlayın",
             "title": "Sorğu tamamlandı"
           },
           "status_changed": {
@@ -584,8 +584,8 @@
           "success": "Sorğu yekun nəticə mərhələsinə köçürülüb",
           "title": "Sorğunu yekun nəticə üçün qaytar",
           "mail": {
-            "title": "Seçimi ləğv edilmiş üzvləri xəbərdar edəcəyik",
-            "subtitle": "E-poçtumuza baxın və seçimi ləğv edilmiş üzvlərə mesaj əlavə edin"
+            "title": "Sifarişi ləğv edilmiş iştirakçıları xəbərdar edəcəyik",
+            "subtitle": "E-poçtunuza baxın və sifarişi ləğv olunmuş iştirakçılara mesaj əlavə edin"
           }
         },
         "start_round": {
@@ -1609,7 +1609,7 @@
             "price": "Vahidin qiyməti",
             "price-hint": "Seçərkən səmt göstərən qiyməti qeyd edin. Qiymət yalnız sizə göstərilir - istifadəçilər onu görməyəcək.",
             "price_up_down": {
-              "label": "Vahidin gözlənilən  qiyməti",
+              "label": "Vahidin gözlənilən qiym.",
               "tooltip": "Təchizatçıdan gözlənilən hər bir maddə üzrə qiymət / Sifarişçi müəyyən edilmiş və ya daha aşağı qiymət gözləyir"
             },
             "reduction": {

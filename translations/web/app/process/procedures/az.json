@@ -94,7 +94,7 @@
       "type_of_change": {
         "title": "Sorğu növü",
         "labels": {
-          "true": "Satınalma",
+          "true": "Alış",
           "false": "Satış"
         }  
       }
