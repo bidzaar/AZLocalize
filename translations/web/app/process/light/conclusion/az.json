@@ -156,11 +156,11 @@
             "stubs": {
               "budget": {
                 "notice": "Sorğunun büdcəsi təyin edillməyib",
-                "text": "Sorğunun büdcəsinə nisbətdə qənaət"
+                "text": "Sorğunun büdcəsinə nisbətən qənaət"
               },
               "proposals": {
                 "notice": "Hesablamalar aşağıdakı hallarda mümkündür: \n(1) Tender təklifinin həcmi “Maddələrdən və onların miqdarından tam razı” ilə qeyd olunarsa, \n(2) Sifariş yalnız bir iştirakçının təklifini ehtiva edir.",
-                "text": "İştirakçıların təkliflərinin qiymətləri ilə nisbətdə qənaət"
+                "text": "İştirakçıların təkliflərinin qiymətlərinə nisbətən qənaət"
               }
             },
             "title": {
