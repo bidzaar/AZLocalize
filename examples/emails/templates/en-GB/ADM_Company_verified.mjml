@@ -20,16 +20,16 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h2>@TargetContext.CompanyName is verified on Bidzaar</h2>
+          <h2>@TargetContext.CompanyName is verified on @ConfigurationContext.ProjectName</h2>
           <p><br /><b>The benefits are:</b></p>
           <ul>
-            <li>Your company has prominent mark (<img src="https://bidzaar.com/landing/wp-content/uploads/2020/10/verified.png" style="vertical-align:top" />) and get more visibility in search results</li>
+            <li>Your company has prominent mark (<img src="@ConfigurationContext.VerifiedImage" style="vertical-align:top" />) and get more visibility in search results</li>
             <li>Your company get more trust and activity rank</li>
             <li>You can participate in requests for the verified suppliers</li>
           </ul>
-          <p>Have more wins on Bidzaar!</p>
+          <p>Have more wins on @ConfigurationContext.ProjectName!</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl">Open Bidzaar</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl">Open @ConfigurationContext.ProjectName</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

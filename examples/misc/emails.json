@@ -1,0 +1,10 @@
+{
+  "BIDZAAR_EMAIL": "bidzaar@cognitive.ru",
+  "TEST_EMAIL": "e.logvin@cognitive.ru",
+  "OUTSOURCING_EMAIL": "bidzaar@cognitive.ru",
+  "ADMIN_EMAIL": "admin@bidzaar.com",
+  "BIDZAAR_CALLCENTER_OPERATORS_EMAILS": "ara@bidzaar.com, badaboom@bidzaar.com, ginger@bidzaar.com",
+  "SITE_INFO_EMAIL": "info@bidzaar.com",
+  "BILLING_EMAIL": "billing@bidzaar.com",
+  "SUPPORT_EMAIL": "support@bidzaar.com"
+}

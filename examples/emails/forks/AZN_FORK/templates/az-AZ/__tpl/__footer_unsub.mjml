@@ -1,21 +1,13 @@
-    <!-- spacer -------------------------------------------- -->
-    <!--<mj-section padding-top="0" padding-bottom="0">
-      <mj-column>
-        <mj-spacer height="40px" />
-      </mj-column>
-    </mj-section>
-    <!-- /spacer -->
-    <!-- footer -------------------------------------------- -->
-    <mj-section mj-class="section-footer" css-class="footer">
-      <mj-column>
-        <mj-text align="center"><b>ProcureSaaS</b><br /><span class="smallest"><a href="tel:+994125371558">+(99412) 537-15-58</a> • <a href="mailto:info@procure.az">info@procure.az</a> • <a href="https://saas.procure.az">saas.procure.az</a></span>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <mj-section mj-class="section-footer" css-class="footer" padding-top="0">
-      <mj-column>
-        <mj-text align="center">
-          <span class="smallest">Siz bu mesajı istifadəçi müqaviləsinə əsasən aldınız. <a href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">Bildirişləri ayarla</a></span> @PixelContext.Html
-        </mj-text>
-      </mj-column>
-    </mj-section>
+<mj-section mj-class="section-footer" css-class="footer">
+  <mj-column>
+    <mj-text align="center"><b>@ConfigurationContext.ProjectName</b><br /><span class="smallest"><a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a> • <a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a> • <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.BaseUrl</a></span>
+    </mj-text>
+  </mj-column>
+</mj-section>
+<mj-section mj-class="section-footer" css-class="footer" padding-top="0">
+  <mj-column>
+    <mj-text align="center">
+      <span class="smallest">Siz bu mesajı istifadəçi müqaviləsinə əsasən aldınız. <a href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">Bildirişləri ayarla</a></span> @PixelContext.Html
+    </mj-text>
+  </mj-column>
+</mj-section>

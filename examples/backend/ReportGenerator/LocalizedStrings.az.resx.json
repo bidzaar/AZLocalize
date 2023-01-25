@@ -284,5 +284,13 @@
     "Brief.Title.Active": "[AT] {0} tarixində ilkin cəmləri sorğulayın",
     "Brief.Title.Finished": "[AT] {0} üçün sorğu cəmi",
     "Brief.Text.Finished": "[AT] Qalib şirkətlər seçildi.",
-    "Brief.Text.Active": "[AT] Qalib kimi əvvəlcədən seçilmiş şirkətlər."
+    "Brief.Text.Active": "[AT] Qalib kimi əvvəlcədən seçilmiş şirkətlər.",
+    "Purchasers.FileName": "Alıcılar",
+    "OtherParticipantsVisibility.BestPrices": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər",
+    "CompletedProcedures.FileName": "Tamamlanmış Prosedurlar",
+    "Diff.MaxPrice": "Maksimum qiymət",
+    "Diff.MaxPriceChanged": "Maksimum qiymətin dəyişdirilməsi",
+    "CompanyProcedures.Fee.None": "Komissiya tutulmur",
+    "CompanyProcedures.Fee.Owner": "Müştəri (şirkətiniz)",
+    "CompanyProcedures.Fee.Participant": "Qazanan Təchizatçı"
 }

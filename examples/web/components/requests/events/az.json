@@ -9,7 +9,18 @@
           "empty": "Sifarişsiz",
           "order": "Sifariş",
           "orderFor": "{{ value }} üçün sifariş",
-          "price": "{{ price }} {{ currency }}"
+          "price": "{{ price }} {{ currency }}",
+          "common": {
+            "empty": "[AT] Sifarişsiz",
+            "order": "[AT] Sifariş verin",
+            "price": "[AT] {{ qiymət }} {{ valyuta }}",
+            "orderFor": "[AT] {{ dəyər }} üçün sifariş edin"
+          },
+          "participant": {
+            "winner": "[AT] Müştəri sizi qalib seçdi",
+            "loser": "[AT] Müştəri qalib kimi başqa şirkəti seçdi",
+            "nobody": "[AT] Müraciət qalib seçilmədən başa çatdı"
+          }
         },
         "prolongation": "({{ date}} tarixinə kimi)",
         "reason": {
@@ -74,6 +85,14 @@
     },
     "types": {
       "1": "Sorğu dərc olunub",
+      "2": "Müraciət dəyişdirilib",
+      "3": "Bütün təkliflər imtina olunur",
+      "4": "Təkliflərin qəbulu bitib.",
+      "5": "Təklifin qəbulunun avtomatik uzadılması",
+      "6": "Yeni mərhələ dərc olunub",
+      "7": "Sorğu başa çatdı.",
+      "8": "Tamamlanmış sorğu yekunlaşdırma mərhələsinə qaytarılır",
+      "9": "İştirak təsdiqləndi",
       "10": "Yanlış təklif təqdim olunub",
       "11": "Təklif təqdim olunub",
       "12": "Təklif geri çağırılıb",
@@ -84,15 +103,7 @@
       "17": "Müraciət komandası. İşçi əlavə olunub",
       "18": "Müraciət komandası. İşçi silinib",
       "19": "Müraciət komandası. İşçi rolu dəyişdirilir",
-      "20": "The tariff is changed",
-      "2": "Müraciət dəyişdirilib",
-      "3": "Bütün təkliflər imtina olunur",
-      "4": "Təkliflərin qəbulu bitib.",
-      "5": "Təklifin qəbulunun avtomatik uzadılması",
-      "6": "Yeni mərhələ dərc olunub",
-      "7": "Sorğu başa çatdı.",
-      "8": "Tamamlanmış sorğu yekunlaşdırma mərhələsinə qaytarılır",
-      "9": "İştirak təsdiqləndi"
+      "20": "The tariff is changed"
     }
   }
 }

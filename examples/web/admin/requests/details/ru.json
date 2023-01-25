@@ -20,7 +20,8 @@
     },
     "description": {
       "expand": "Показать полностью",
-      "collapse": "Скрыть"
+      "collapse": "Скрыть",
+      "empty": "Описание не задано"
     },
     "contacts": {
       "title": "Контактное лицо"

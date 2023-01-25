@@ -334,6 +334,28 @@
     "access_denied": {
       "hint": "Something went wrong? Contact support.",
       "text": "Access denied"
+    },
+    "request_forbidden": {
+      "hint": "This request is only for invited participants",
+      "text": "Access to the request is restricted",
+      "help": {
+        "action": "What to do if you are invited",
+        "text": "Possible solutions:",
+        "list": {
+          "item_1": {
+            "text": "Log in to the site and open a request on behalf of the invited company"
+          },
+          "item_2": {
+            "text": "Open the request using the link from the invitation letter sent by Bidzaar",
+            "info": "The link to the request from other sources is not an invitation."
+          },
+          "item_3": {
+            "text": "Ask the customer to repeat the invitation",
+            "info": "Please note to the customer that the invitation must be sent from the \"Participants\" tab."
+          }
+        },
+        "footer": "Didn't work? Contact technical support."
+      }
     }
   },
   "dashboard": {
@@ -1688,10 +1710,10 @@
     },
     "light": {
       "create": {
-        "cancel": "cancel",
-        "header": "new request",
-        "next": "create",
-        "placeholder": "name"
+        "cancel": "Cancel",
+        "header": "New request",
+        "next": "Create",
+        "placeholder": "Name"
       },
       "invite": {
         "dialog": {
@@ -2142,7 +2164,7 @@
             "3": {
               "name": "Business\ngeography",
               "tooltip": "Add regions of business"
-              },
+            },
             "4": {
               "name": "Requisites",
               "tooltip": "Specify company requisites"
@@ -2150,12 +2172,11 @@
             "5": {
               "name": "Logo",
               "tooltip": "Upload logo"
-              },
+            },
             "6": {
               "name": "Photos",
               "tooltip": "Upload photos and images"
             }
-
           }
         },
         "info": {

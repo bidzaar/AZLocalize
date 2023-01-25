@@ -16,7 +16,8 @@
       "requests": "web/admin: core.navigation.requests",
       "stop_list": "web/admin: core.navigation.stop_list",
       "merge_tags": "web/admin: core.navigation.merge_tags",
-      "tariffs": "web/admin: core.navigation.tariffs"
+      "tariffs": "web/admin: core.navigation.tariffs",
+      "categories": "web/admin: core.navigation.categories"
     }
   },
   "dashboard": {

@@ -1,0 +1,28 @@
+<mjml>
+  <!-- 
+Тема: 🏁 Запрос завершен
+Получатель: команда организатора
+
+Организатор завершил запрос СОП
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Запрос завершен</h1>
+          <p><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Завершена:</b> @ConfigurationContext.Date<br /><b>Цена заказа:</b> @ProcedureResultContext.OrderPrice @ProcedureContext.Currency</p>
+          <p class="mb0"><b>Победители:</b></p> @ProcedureResultContext.Winners
+        <br /><br />
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

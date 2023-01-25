@@ -18,6 +18,11 @@
             "QuestionnaireDisabled": "Anket iştirakçının təklifinə daxil edilməyib",
             "Version": {
               "DraftNotFound": "Qaralama tapılmadı"
+            },
+            "User": {
+              "LastOwner": "[AT] Sorğunun ən azı bir sahibi olmalıdır",
+              "ResponsibleUserCannotBeDeleted": "[AT] Məsul sahibini istisna edə bilməzsiniz. İstisna üçün, siz sorğunun başqa sahibini məsul şəxs təyin etməlisiniz",
+              "ResponsibleUserCannotBeDegraded": "[AT] Siz məsul sahibi aşağılaya bilməzsiniz"
             }
           },
           "Proposal": {
@@ -55,7 +60,8 @@
         "0": "Yalnız öz təklifiniz",
         "1": "Təklifinizin yalnız dərəcəsi (yeri).",
         "2": "Rəqiblərin təklifləri - bəli, adlar - xeyir",
-        "3": "Rəqiblərin təklifləri və adları"
+        "3": "Rəqiblərin təklifləri və adları",
+        "4": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər"
       },
       "owner_visibility": {
         "0": "İştirakçıların təkliflərini görür",
@@ -153,1559 +159,14 @@
       }
     },
     "view": {
-      "banner": {
-        "changing": {
-          "date": "İştirakçılar {{ value }} sorğusunu redaktə edə bilərlər",
-          "state": "Redaktə başa çatdıqdan sonra dəyişiklikləri dərc edin."
-        },
-        "new_stage": "Sıralanmanı tənzimləyin, qəbul edilməmiş iştirakçıları bloklayın və yeni sorğu dərc edin.",
-        "proposal": {
-          "date": {
-            "left": "({{ value }} bitməzdən əvvəl)",
-            "until": "{{value }} təkliflər qəbulunun son tarixi"
-          },
-          "state": {
-            "false": "Təklif təqdim olunmayıb.",
-            "true": "Redaktə başa çatdıqdan sonra təklifi yeniləyin."
-          }
-        },
-        "verification": {
-          "text": "Sifarişçi yalnız etibarlı təchizatçıların təkliflərini qəbul edir"
-        },
-        "gold": {
-          "text": "\"{{value}}\" reyestrinin üzvləri üçün sorğu"
-        }
-      },
-      "comparison": {
-        "actions": {
-          "close_fullscreen": "pəncərəni minimuma endir",
-          "customize_view": "Görünüşü tənzimləyin",
-          "export": "Endir",
-          "fullscreen": "Tam ekranda"
-        },
-        "answer_cell": {
-          "comment": "Şərh",
-          "hidden": "Detallar gizlidir",
-          "no_answer": "Cavab verilməyib",
-          "no_attachment": "Fayl təmin edilməyib",
-          "private": "Sualın cavabı Məxfidir və Təşkilatçı kimi yalnız sizə görünür",
-          "private_participant": "Sualın cavabı Məxfidir və yalnız sizə və Təşkilatçıya görünür",
-          "widgets": {
-            "agreement": {
-              "agree": "Razıyam",
-              "disagree": "Razı deyiləm"
-            },
-            "attachment": {
-              "uploaded": "Yüklənmiş fayllar: {{value}}"
-            },
-            "boolean": {
-              "no": "Xeyir",
-              "yes": "Bəli"
-            },
-            "multiple": {
-              "more": "daha çox"
-            }
-          }
-        },
-        "answer_dialog": {
-          "comment": "Şərh",
-          "comments_and_files": "Şərh və fayllar:",
-          "details_hidden": "Rəqiblərin şərhləri və faylları gizlidir"
-        },
-        "change_price": "Qiyməti dəyişmək",
-        "change_proposal_price_dialog": {
-          "auction_step": "Artırma addımı",
-          "best_proposal": "Ən yaxşı təklif",
-          "cancel": "Ləğv et",
-          "change_step": "Dəyişim addımı",
-          "down": "Aşağı",
-          "errors": {
-            "blocked": "Sifarişçi sizi sorğudan kənarlaşdırdı",
-            "draft": "Təklif redaktə rejimindədi. Təklif sekmesinde təklifi yeniləyin",
-            "recalled": "Təklif müvəqqəti olaraq mövcüd deyildi, səhifəni yeniləyin və yenidən cəhd edin",
-            "reference_price_changed": "Digər iştirakçılar öz təkliflərini yeniləyiblər. Zəhmət olmasa yeni qiymət daxil edin",
-            "refused": "Şirkətiniz sorğuda iştirakdan imtina etdi"
-          },
-          "go_to_proposal": "Hazırda qiyməti yeniləmək mümkün deyil, siz \"Təklif\" bölməsində təklif göndərə bilərsiniz",
-          "important": "Əhəmiyyətli:",
-          "info": "qiymət hər bir maddə üçün proporsional olaraq dəyişdiriləcək. Yuvarlaqlaşdırmaya görə, göstərilən yeni qiymətdən yayınma mümkündür. Qiymətləri  maddələr üzrə dəyişdirmək üçün təklifinizdə Mallar və Xidmətlər bölməsinə keçin.",
-          "new_price": "Yeni qiymət",
-          "reduction_step": "Reduksion addımı",
-          "title": "Təklifin qiymətində dəyişiklik",
-          "title_auction": "Təklifin qiymət artımı ",
-          "title_reduction": "Təklif qiymətinin endirimi ",
-          "unavailable": {
-            "ok": "Bağlamaq",
-            "text": "Təklif dəyişim rejimindədir. Təklif bölməsində qiyməti dəyişdirin və yenilənmiş təklifi satınalma təşkilatçısına göndərin.",
-            "title": "Qiymət dəyişikliyi hazırda mövcud deyil"
-          },
-          "up": "Yuxarı",
-          "update_price": "Qiyməti yeniləyin",
-          "your_proposal": "Sizin təklifiniz"
-        },
-        "customize_view_menu": {
-          "positions": "Maddə üzrə spesifikasiya",
-          "questionnaire": "Qeyri-qiymət meyarları",
-          "title": "Göstərilən xanalar"
-        },
-        "documents_cell": {
-          "documents": "Sənədlər",
-          "no_files": "Fayllar yüklənməyib",
-          "participant_documents": "İştirakçı sənədləri",
-          "participant_documents_dialog": "Təklif sənədləri",
-          "participant_nda_documents": "Kassa mədaxil orderi/NDA"
-        },
-        "export_list": {
-          "order": "Sifariş",
-          "table": "Müqayisə cədvəli"
-        },
-        "fast_price_change_not_available_dialog": {
-          "cancel": "Ləğv et",
-          "submit": "Təklifə keçid almaq",
-          "text": "Təklif dəyişim rejimindədir. Redaktəni tamamlayın və Təklif bölməsində təklifi yeniləyin.",
-          "title": "Tez qiymət dəyişikliyi mövcud deyil"
-        },
-        "forbidden": {
-          "empty": {
-            "text": "Müqayisə sorğu iştirakçıları tərəfindən təkliflər təqdim edildikdən sonra mümkündür",
-            "title": "Rəqiblərin təkliflərinin müqayisəsi"
-          },
-          "guest": {
-            "text": "Müqayisə <span style=\"font-weight: 500\">\"Təklif\" bölməsində təqdim edildikdən sonra mümkündür",
-            "title": "Rəqiblərin təkliflərinin müqayisəsi"
-          },
-          "owner-draft": {
-            "text": "Müraciət dərc olunmayıb. İştirakçılar təklif təqdim etməyiblər.",
-            "title": "İştirakçıların təkliflərinin müqayisəsi"
-          },
-          "owner-hidden": {
-            "text": "“Təşkilatçı təkliflərin qəbulu mərhələsində ” sorğu tənzimləməsi təkliflərin qəbulu başa çatana qədər iştirakçıların təkliflərinə baxılmasını qadağan edir.",
-            "title": "İştirakçıların təklifləri gizlidir"
-          },
-          "owner-version": {
-            "text": "Sorğunun dəyişdirilməsi anında iştirakçıların təklifləri mövcud deyil. Təkliflərə qayıtmaq üçün redaktəni tamamlayın.",
-            "title": "İştirakçıların təklifləri hazırda mövcüd deyil"
-          }
-        },
-        "group": {
-          "settings": "Tənzimləmək"
-        },
-        "header_cells": {
-          "actions": "Əməliyyatlar",
-          "alternative": "Alternativ",
-          "menu": {
-            "chat_participant": "İştirakçı ilə çat",
-            "deselect_positions": "Maddələrin seçimini ləğv et",
-            "permit": {
-              "auction": "Qiymət endiriminə icazə ver",
-              "reduction": "Qiymət artımına icazə vermək"
-            },
-            "permit_rise": "Qiymət artımına icazə vermək",
-            "remove_from_procedure": "İştirakçını bloklamaq",
-            "remove_from_procedure_info": "Əməliyyat geri qaytarıla bilər",
-            "select_all_positions": "Bütün maddələri seçmək",
-            "show_profile": "İştirakçı profilini açın"
-          },
-          "not_full": "Maddələr üzrə  tələb olunan həcmdən yayınma",
-          "proposals": "Təklifin tərkibi",
-          "vat_title": "ƏDV",
-          "verified_tooltip": "Şirkət sizin reyestrinizdə akkreditasiya olunub"
-        },
-        "hidden_proposals_info": "Rəqiblərin təklifləri sorğu ayarları ilə gizlədilir",
-        "list": {
-          "about_company": "şirkət haqqında",
-          "cancel_selection": "Seçimi ləğv etmək",
-          "change_price": "Qiyməti dəyişmək",
-          "chose_proposal": "Təklif seçin",
-          "contact": "Əlaqəli şəxs",
-          "dillegence": "Təchizatçı riskinin qiymətləndirilməsi",
-          "no_requisites": "Təmin edilməyib",
-          "open_requisites": "Açmaq",
-          "participant": "İştirakçı",
-          "proposal_menu": {
-            "block_participant": "İştirakçını bloklamaq",
-            "permit_rise": "Qiymət artımına icazə vermək"
-          },
-          "publish_date": "Təklif təqdim edildi:",
-          "rate": "Qiymət və şərh",
-          "rate_description": "Təklifin nəticəsi",
-          "requisites": "Şirkət rekvizitləri",
-          "scoring_private": "Təfərrüatlar yalnız təşkilatçılar üçün açıqdır",
-          "vat": {
-            "false": "ƏDV-siz",
-            "true": "ƏDV daxil"
-          },
-          "vat_sum": "ƏDV məbləği",
-          "your_proposal": "Təklifiniz"
-        },
-        "no_proposals": "İştirakçılardan təkliflər hələ qəbul edilməyib",
-        "order_cell": {
-          "choose": "Təklif seçin",
-          "full": "bütün maddələr",
-          "selected": "{{count}}-dan {{value}} maddələr"
-        },
-        "order_distribution": "Sifariş paylanması",
-        "order_price": "Təklif qiyməti",
-        "position_cell": {
-          "add_to_order": "Sifarişə əlavə edin",
-          "details": "Detalları göstərin",
-          "empty": "Mövcud deyil",
-          "from": "-",
-          "in_order": "Sifarişdə {{count}} {{vahid}}",
-          "not_full_tooltip": "Maddə tam təqdim edilməyib",
-          "rank_tooltip": "Təklif dərəcəsi"
-        },
-        "position_info_dialog": {
-          "has_vat": "ƏDV daxil",
-          "no_vat": "ƏDV-siz ",
-          "not_specified": "Qeyd edilməmişdir",
-          "price_for_unit": "Sorğu valyutasında vahid üçün hədəf dəyəri ",
-          "price_not_specified": "Qiymət qeyd olunmayıb",
-          "request": "Müraciət"
-        },
-        "position_proposal_dialog": {
-          "add": "Sifarişə əlavə edin",
-          "add_all": "Bütün mövcud miqdarı əlavə edin",
-          "added_to_order": "Sifarişə əlavə edildi",
-          "cancel": "Ləğv et",
-          "comment": "Şərh",
-          "delete": "Sifarişdən çıxarın",
-          "details_hidden": "Rəqiblərin şərhləri və faylları gizlidir",
-          "error_count": "Sifariş 0-dan çox olmalıdır",
-          "error_max_count": "Sifariş təklifdən çoxdur",
-          "files": "Fayllar",
-          "for_unit": "vahid üçün",
-          "has_vat": " ƏDV daxil qiymətlər",
-          "in_order": "Sifarişdə:",
-          "my_request": "Mənim müraciətim",
-          "no_price": "Qiymət qeyd olunmayıb",
-          "no_vat": "ƏDV-siz",
-          "order": "Sifariş",
-          "proposal": {
-            "at_the_price_of": "qiymətə görə",
-            "per_unit": "vahid üçün",
-            "title": "Təklif:"
-          },
-          "save": "Yadda saxla",
-          "success_snack": "Məlumat saxlanıldı",
-          "total": "Cəmi",
-          "update": "Yeniləmək",
-          "with_vat": "ƏDV daxil",
-          "without_vat": "ƏDV-siz",
-          "info": "[AT] Məlumat",
-          "float_count_warning": "[AT] Diqqət! Sifarişdə göstərilən fraksiya kəmiyyəti. Mövqenin fraksiyalı həcmlərə bölünə biləcəyinə əmin olun"
-        },
-        "position_proposal_total_dialog": {
-          "title": "[AT] Sifariş məbləğini maddə üzrə dəyişdirin",
-          "total": "[AT] Son hesablama:",
-          "count_error": "[AT] Məbləğ təchizatçının təklifindən artıqdır",
-          "cancel": "[AT] Ləğv et",
-          "submit": "[AT] Hazır"
-        },
-        "positions": "Maddə üzrə spesifikasiya ({{value}})",
-        "proposal_conclusion": "Təklifin nəticəsi",
-        "question_dialog": {
-          "no_files_or_comment": "Şərh və fayllar yoxdur",
-          "private": "Şəxsi cavab"
-        },
-        "rank": "Təklif dərəcəsi",
-        "rank_inaccessible": "Dərəcə mövcud deyil",
-        "rating_cell": {
-          "empty": "Təklifi qiymətləndirin"
-        },
-        "rating_dialog": {
-          "comment": "Şərh",
-          "delete": "Qiyməti sil",
-          "rating": "Qiymətləndirmə",
-          "remove_dialog": {
-            "cancel": "Ləğv et",
-            "submit": "Sil",
-            "title": "Qiymət silinsin?"
-          },
-          "sub_title": "Məlumat yalnız sorğu heyyəti üçün mövcuddur",
-          "submit": "Hazırdı",
-          "title": "Təklifin nəticəsi"
-        },
-        "selected_participants": "Seçilmiş təkliflər",
-        "sorting": {
-          "0": "Öncə ən yaxşı qiymətlə ",
-          "1": "Əvvəlcə tam məmnuniyyətlə",
-          "2": "Başlanğıcda maddə üzrə ən yüksək dərəcələrlə ",
-          "3": "Əvvəldə sifarişlə",
-          "button": "Təkliflər sırası"
-        },
-        "supplier_group": "Təchizatçı məlumatı",
-        "switcher": {
-          "list": "Siyahı",
-          "table": "Cədvəl"
-        },
-        "timer": "Qalıq",
-        "tooltips": {
-          "customize_view": "Ekran parametri",
-          "download_comparison_table": "Müqayisə cədvəlini yükləyin",
-          "download_my_proposal_table": "Təklifi endir",
-          "download_proposal": "Təklifi yükləyin"
-        },
-        "total_order_sum": "Sifarişin qiyməti",
-        "paginator": {
-          "title": "[AT] Təkliflər",
-          "from": "[AT] dan",
-          "info": "[AT] naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün"
-        },
-        "basis": {
-          "button": "Qiymət müqayisəsi",
-          "target_price": "Hədəf dəyərinə nisbətən",
-          "first_price": "Orijinal təklifə gəldikdə",
-          "best_price": "Ən yaxşı təklif haqqında"
-        }
-      },
-      "dialogs": {
-        "cancel": {
-          "no": "Ləğv etməyin",
-          "text": "Sorğu \"Ləğv edilib\" statusunu alacaq və sorğularınızın siyahısında mövcud olacaq. İştirakçılar sorğunun ləğv edildiyi barədə bildirişlər alacaqlar.",
-          "title": "Sorğu ləğv edilsin?",
-          "yes": "Sorğunu ləğv et"
-        },
-        "cancel_changes": {
-          "no": "Ləğv et",
-          "text": "Sorğunu olduğu kimi saxlamaq üçün dəyişikliklərinizi silin.",
-          "title": "Sorğuya edilən dəyişikliklər silinsin?",
-          "yes": "Sil"
-        },
-        "cancel_stage": {
-          "no": "Ləğv et",
-          "title": "Yeni mərhələ ləğv edilsin?",
-          "yes": "Mərhələni ləğv et"
-        },
-        "delete": {
-          "no": "ləğv et",
-          "text": "Qaralama silinsin? Onu bərpa etmək mümkün olmayacaq.",
-          "yes": "sil"
-        },
-        "offers": {
-          "header": {
-            "comparison": "Müqayisəli masa Yükləyin",
-            "all-receipt": "Yükləmə qaydası"
-          },
-          "options": {
-            "attachment": "Əlavə sənədlərlə yükləmə",
-            "selectable": "Yükləmək üçün təklif sahələrini seçin"
-          },
-          "columns": {
-            "8": "Sayı",
-            "16": "vahid qiymət, {{ valyuta }}",
-            "32": "ƏDV olmadan ümumi məbləğ, {{ valyuta }}",
-            "64": "ƏDV Dərəcəsi",
-            "128": "ƏDV ilə ümumi qiymət, {{ valyuta }}",
-            "256": "şərh",
-            "512": "iştirakçının valyutasında vahid qiyməti",
-            "1024": "valyuta",
-            "2048": "Valyuta Məzənnəsi",
-            "4096": "mövqe üzrə dərəcə",
-            "16384": "ƏDV {{ valyuta }}"
-          },
-          "actions": {
-            "cancel": "Ləğv et",
-            "submit": "Yüklə"
-          }
-        },
-        "no_orders": {
-          "cancel": "Görürəm",
-          "text": "Sifariş yaratmaq üçün iştirakçının təklifini və ya fərdi təklif maddələrini seçin",
-          "title": "Sifariş formalaşmadı"
-        },
-        "finish_round": {
-          "cancel": "Ləğv et",
-          "header": "Təklif mərhələsini erkən bitirin",
-          "message": "İştirakçılar öz təkliflərini təqdim edə və ya dəyişdirə bilməyəcəklər. Mərhələni yekun vurulduqdan sonra siz təkliflərin yeni mərhələsini elan edə bilərsiniz.",
-          "next": "Mərhələni bitir",
-          "success": "Təklif mərhələsi başa çatdı",
-          "time": "Təkliflərin cari mərhələsinin sonu:"
-        },
-        "leave": {
-          "header": "Müraciətin imtina edilməsi",
-          "no": "Ləğv et",
-          "success": "Sorğudan imtina etdiniz",
-          "text": "İştirak etməkdən imtina etsəniz, təklifiniz yadda saxlanmayacaq.",
-          "yes": "İştirak etməkdən imtina et"
-        },
-        "nda_decision": {
-          "accept": {
-            "result": "İştirakçı qəbul edildi",
-            "text": "İştirakçı spesifikasiya və sorğu sənədlərinə giriş imkanı əldə edəcək",
-            "title": "İştirakçını qəbul et"
-          },
-          "cancel": "Ləğv et",
-          "comment_placeholder": "Çatda iştirakçıya mesaj",
-          "reject": {
-            "result": "İştirakçının müraciəti düzəliş üçün göndərilib",
-            "text": "Təchizatçı düzəlişlər etdikdən sonra yenidən sorğuya müraciət edə bilər",
-            "title": "İştirakçının müraciətini imtina etmək"
-          },
-          "submit": "Qərar ver",
-          "title": "İştirakçının qəbulu haqqında qərar"
-        },
-        "notification": {
-          "canceled": {
-            "title": "Sorğu ləğv edildi"
-          },
-          "completed": {
-            "text": "Nəticələri \"Nəticələr\" bölməsində yoxlayın",
-            "title": "Sorğu tamamlandı"
-          },
-          "status_changed": {
-            "text": "Sorğu yekunlaşdirma mərhələsinə köçürülüb",
-            "title": "Təkliflər qəbulu bağlandı"
-          },
-          "update_change": {
-            "text": "\"Sorğu\" bölməsində dəyişiklikləri yoxlayın",
-            "title": "Sorğu yeniləndi"
-          }
-        },
-        "participant_nda": {
-          "empty": "Heçbir sənəd təqdim edilməyib",
-          "title": "İlkin kvalifikasiya üçün sənədlər / NDA"
-        },
-        "requisites": {
-          "contact_person": "Əlaqəli şəxs",
-          "inn": "VÖEN",
-          "more_requisites": "Daha çox rekvizit - şirkət profilində",
-          "tin": "VÖEN"
-        },
-        "returnToSummary": {
-          "cancel": "Ləğv et",
-          "form_label": "Sifarişi ləğv edilən iştirakçılara səbəbini deyin:",
-          "form_placeholder": "Mesaj...",
-          "label_empty": "Sorğu yekunlaşdırılmaq üçün qaytarılsın? ",
-          "order": "<span class=\"price\">{{value}} {{currency}}</span> üzrə seçim seçimi ləğv ediləcək.",
-          "submit": "Yekunlaşdırmaq üçün qeri qaytarmaq",
-          "success": "Sorğu yekun nəticə mərhələsinə köçürülüb",
-          "title": "Sorğunu yekun nəticə üçün qaytar",
-          "mail": {
-            "title": "Seçimi ləğv edilmiş üzvləri xəbərdar edəcəyik",
-            "subtitle": "E-poçtumuza baxın və seçimi ləğv edilmiş üzvlərə mesaj əlavə edin"
-          }
-        },
-        "start_round": {
-          "cancel": "Ləğv et",
-          "error": "Tarix bitdi. Mərhələ üçün yeni bitmə tarixini təyin edin",
-          "header": "Təkliflərin yeni mərhələsini elan edin",
-          "message": "Yeni tur iştirakçılara öz təkliflərini təkmilləşdirmək şansı verir. Təkliflər üçün mərhələnin sonu:",
-          "next": "Yeni mərhələ elan et",
-          "success": "Təkliflər üçün yeni mərhələ elan edildi",
-          "time": "Mərhələnin sonu"
-        },
-        "validation": {
-          "title": {
-            "0": "Submit request",
-            "1": "Publish changes",
-            "2": "Publish stage"
-          },
-          "invalid": "Please correct the errors and re-publish",
-          "actions": {
-            "report": "What's changed?",
-            "cancel": "Cancel",
-            "submit": "Publish",
-            "close": "OK"
-          },
-          "changes": {
-            "major": {
-              "title": "The submitted bids will be rejected ({{value}} total)",
-              "notice": "Changes made require updating participants' bids."
-            },
-            "minor": {
-              "title": "What to do with the submitted proposals ({{value}} total)",
-              "notice": "The changes made may require an update of the participants' bids",
-              "options": {
-                "minor": "Save bids",
-                "major": "Reject and request an update of the bids"
-              }
-            }
-          },
-          "items": {
-            "AcceptanceEndDate": {
-              "Default": {
-                "notice": "Tamamlanana qədər",
-                "title": "Təkliflərin qəbulu:"
-              },
-              "Expired": {
-                "notice": "Tarix bitdi, yeni tarix daxil edin.",
-                "title": "Təkliflərin son tarix qəbulu:"
-              },
-              "LessThen": {
-                "15": {
-                  "notice": "İştirakçılara təkliflər hazırlamaq üçün 15 dəqiqədən az vaxt",
-                  "title": "Təkliflər qəbulunun son tarixi:"
-                },
-                "48": {
-                  "notice": "İştirakçılara təkliflər hazırlamaq üçün 48 saatdan az vaxt",
-                  "title": "Təkliflər qəbulunun son tarixi:"
-                }
-              }
-            },
-            "Addresses": {
-              "notice": "",
-              "title": "Çatdırılma ünvanı"
-            },
-            "ClosedProcedure": {
-              "AdditionalCurrencies": {
-                "notice": "Valyutaların siyahısı doldurma xətalarını ehtiva edir",
-                "title": "Sorğunun valyutası"
-              },
-              "NoParticipant": {
-                "notice": "",
-                "title": "Qapalı sorğuda iştirak edənlər"
-              }
-            },
-            "Files": {
-              "notice": "",
-              "title": "Sorğu sənədləri"
-            },
-            "NdaEnabled": {
-              "NoData": {
-                "notice": "mərhələ təsviri və ya sənədlər göstərilməmişdir",
-                "title": "İlkin kvalifikasiya / NDA mərhələsi"
-              }
-            },
-            "Positions": {
-              "notice": "",
-              "title": "Malların və xidmətlərin spesifikasiyası"
-            },
-            "Price": {
-              "notice": "0-dan 99 999 999 999-a qədər bir dəyər daxil edin",
-              "title": "Maksimum / Minimum / Gözlənilən Qiymət"
-            },
-            "Questionnaire": {
-              "notice": "",
-              "title": "İştirakçıya və sorğunun şərtlərinə dair tələblər"
-            },
-            "ReductionStep": {
-              "notice": "Ayarların yalnış təyini",
-              "title": "Qiymət dəyişikliyinin minimal addımı"
-            },
-            "ReductionStepAbsolute": {
-              "notice": "Ayarların yalnış təyini",
-              "title": "Qiymət dəyişikliyinin minimal addımı"
-            },
-            "ReductionStepPercent": {
-              "notice": "Ayarların yalnış təyini",
-              "title": "Qiymət dəyişikliyinin minimal addımı"
-            },
-            "VatEnabled": {
-              "Undefined": {
-                "notice": "Dəyər təyin edilməyib",
-                "title": "Qalib seçərkən, nəzərə alınır"
-              }
-            },
-            "Tariff": {
-              "NotActive": {
-                "title": "[AT] Etibarsız sorğu tarifi göstərilmişdir",
-                "notice": ""
-              },
-              "NotDefined": {
-                "title": "Tariff is not selected",
-                "notice": ""
-              }
-            },
-            "NewStageCreated": {
-              "notice": "[AT] Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
-              "title": "[AT] Təkliflərin qəbulu başa çatıb, yekun sorğu"
-            },
-            "Gold": {
-              "ProcedureCannotBeOpened": {
-                "notice": "[AT] magic açıq sorğu işləmir. \"Qapalı \" üçün \"sorğu növü \" parametri seçin",
-                "title": "[AT] Sorğu Gold"
-              },
-              "HasRegistries": {
-                "notice": "[AT] sehrli reyestrinizdə əlavə akkreditasiya ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
-                "title": "[AT] Sorğu Gold"
-              },
-              "NdaCannotBeEnabled": {
-                "notice": "[AT] Pre-valyuta / NİV mərhələsi aktiv olduqda sehrli işləmir",
-                "title": "[AT] Sorğu Gold"
-              }
-            }
-          },
-          "comment": {
-            "title": "Səhnə adı:",
-            "placeholder": "Səhnə adı",
-            "error": "tələb olunan sahə",
-            "hint": "Məsələn: “Təklif”, “Son təkliflərin təqdim edilməsi”"
-          },
-          "mail": {
-            "title": {
-              "0": "Dəvət etdiyiniz iştirakçılara məlumat verəcəyik",
-              "1": "Biz iştirakçılara sorğunun dəyişməsi barədə məlumat verəcəyik",
-              "2": "İştirakçılara yeni mərhələ haqqında məlumat verəcəyik"
-            },
-            "subtitle": {
-              "0": "E-poçtumuza baxın və dəvət etdiyiniz üzvlərə mesaj əlavə edin",
-              "1": "E-poçtumuza baxın və üzvlərə mesaj əlavə edin",
-              "2": "Məktubumuza baxın və səhnə iştirakçılarına mesaj əlavə edin"
-            }
-          }
-        },
-        "vat": {
-          "cancel": "Ləğv et",
-          "confirm": "Tədbiq et",
-          "free": "ƏDV tədbiq olunmur",
-          "header": "ƏDV dərəcəsi",
-          "text": "Bütün maddələr üçün ƏDV dərəcəsini göstərin"
-        },
-        "verified_only_info": {
-          "close": "İndi yox",
-          "legal_confirmed": {
-            "label": "Yoxlanılmış şirkət qarşı tərəflər arasında inam yaradır",
-            "text": "Şirkətinizin rekvizitləri mütəxəssislərimiz tərəfindən təsdiqlənir"
-          },
-          "message_for_verified": "Şirkətiniz yoxlanıldı!",
-          "order_check": "Sifariş et",
-          "reports": {
-            "label": "Yalnız yoxlanılmış təchizatçılar üçün sorğularda iştirak edin",
-            "text": "Bu cür sorğularda təklifin təqdim edilməsi mütəxəssislərimiz tərəfindən şirkəti yoxladıqdan sonra mümkündür"
-          },
-          "requirements": {
-            "label": "Yoxlanılmış təchizatçılar xüsusi işarə ilə qeyd olunur",
-            "text": "Podratçılar şirkətinizin yoxlanmış və etibarlı olduğunu dərhal görə biləcəklər"
-          },
-          "requisites": {
-            "label": "Yoxlanılmış təchizatçılar xüsusi işarə ilə qeyd olunur",
-            "text": "Qarşı tərəflər şirkətinizin təsdiqlənmiş və etibarlı olduğunu dərhal görə biləcəklər"
-          },
-          "title": "Qarşı tərəflər niyə etibarlı şirkətlərlə işləməyə üstünlük verirlər?",
-          "verification_method_message": {
-            "text": "Şirkət yoxlanışı mümkün qədər tez baş verir",
-            "title": "Biz mümkün olan ən sadə yoxlama mexanizmindən istifadə edirik."
-          }
-        },
-        "version_mismatch": {
-          "next": "Növbəti",
-          "proposals": {
-            "text": "Səhifəni yeniləyin və yekunlaşdırmaq üçün təkrarlayın.",
-            "title": "İştirakçı təklifi dəyişdi"
-          },
-          "version": {
-            "text": "Səhifəni yeniləyin və yenidən cəhd edin.",
-            "title": "Müraciət dəyişdi"
-          }
-        },
-        "wrong_status": {
-          "Process": {
-            "Light": {
-              "Denied": "Sorğuda iştirak etmək mümkün deyil",
-              "Procedure": {
-                "Canceled": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
-                "Deleted": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
-                "Ended": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
-                "Expired": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
-                "Summarizing": "Müraciət yekunlaşdırma mərhələsindədir. Əməliyyat mümkün deyil."
-              }
-            }
-          }
-        }
-      },
-      "dillegence": {
-        "download": "Hesabatı endir",
-        "from": "_",
-        "link": "Xidmət haqqında ətraflı >",
-        "link_menu": "Xidmət haqqında",
-        "popover": {
-          "action": {
-            "insight": "Risk hesablanması haqqında daha çox ətraflı",
-            "kontur": "Xidmət haqqında ətraflı"
-          },
-          "text": {
-            "insight": "Insight müxtəlif parametrlər əsasında təchizatçının risklərini qiymətləndirir. Daha ətraflı xidmətin saytında tapa bilərsiniz.",
-            "kontur": "Kontur.Focus müxtəlif parametrlər üzrə təchizatçı üçün riskləri qiymətləndirir. Daha ətraflı xidmətin saytında tapa bilərsiniz."
-          },
-          "title": {
-            "insight": "Məlumat Insight xidməti tərəfindən təmin edilmişdir",
-            "kontur": "Contour.Focus xidməti tərəfindən təqdim edilən məlumatlar"
-          }
-        },
-        "row_text": {
-          "unavailable": "Hesabat mövcud deyil",
-          "unreceived": "Hesabat alınmadı"
-        },
-        "success": "Sorğu göndərildi. Hesabatlar tezliklə yenilənəcək",
-        "text": {
-          "unavailable": "mövcud deyil",
-          "unreceived": "alınmayıb"
-        },
-        "tooltip": {
-          "average": "Orta risk",
-          "critical": "Kritik risk",
-          "high": "Artmış risk",
-          "low": "Aşağı risk",
-          "unavailable": "Hesabat yalnız yoxlanılmış təchizatçılar üçün mövcuddur",
-          "unreceived": "Xidmətdən hesabat alınmayıb. Xidmət tələb olunanda mövcud deyildi. \"Yekun\" bölməsində hesabatları yeniləyin"
-        },
-        "update": "Hesabatı yeniləyin"
-      },
-      "header": {
-        "back": "Hazırdı",
-        "editing": "(Redaktə)",
-        "positions": "Məhsullar və xidmətlər",
-        "questionnaire": "Qeyri-qiymət meyarları"
-      },
-      "notice": {
-        "stage": "MƏRHƏLƏ {{index}}",
-        "text": {
-          "0": "Qaralama ({{creationDate}})",
-          "1": "Cari ({{publishDate}})",
-          "2": "Cari ({{publishDate}})",
-          "3": "Cari ({{publishDate}})",
-          "4": "Yanlış ({{ publishDate }})"
-        },
-        "title": "Satınalma bildirişi"
-      },
-      "number": "Kod",
-      "owner": {
-        "preference": "Təşkilatçı yoxlanılmış təchizatçılara üstünlük verir.",
-        "profile": "Sifarişçı haqqında",
-        "title": "Sifarişçi"
-      },
-      "participant": {
-        "items": {
-          "attachments": {
-            "empty": "Əlavə edilmiş fayl yoxdur",
-            "header": "Əlavə edilmiş fayllar",
-            "size": "Hər biri 25 MB-a qədər",
-            "upload": "Sənəd əlavə et"
-          },
-          "position": {
-            "request": "Sorğu",
-            "startPrice": "Vahid üçün başlanğıc qiymət"
-          },
-          "table": {
-            "header": {
-              "import": "Fayldan yükləyin",
-              "total": "Təklifin məbləği:"
-            },
-            "proposal": {
-              "comment": {
-                "empty": "Şərhsiz",
-                "label": "Şərh"
-              },
-              "count": {
-                "deviation": "Yayınma",
-                "label": "Miqdar",
-                "zero": "Mövcud deyil"
-              },
-              "no_positions": {
-                "label": "Mövcud deyil"
-              },
-              "price": {
-                "hint": "Vahidin maksimal qiyməti -{{value}}",
-                "label": "Vahid üçün qiymət",
-                "max": "Vahid qiyməti maksimumdan yuxarıdır ",
-                "vat": {
-                  "false": "ƏDV-siz",
-                  "true": "ƏDV daxil"
-                }
-              },
-              "vat": {
-                "change": "Bütün maddələr üçün",
-                "empty": "ƏDV-siz",
-                "free": "ƏDV tədbiq olunmur",
-                "label": "ƏDV dərəcəsi"
-              }
-            }
-          }
-        },
-        "proposal": {
-          "botzaar": {
-            "actions": {
-              "cancelProposal": {
-                "description": "Dəyişikliklərdən imtina edin, bu, əvvəllər təqdim edilmiş təklifə təsir etməyəcək.",
-                "title": "Dəyişiklikləri ləğv et"
-              },
-              "changeProposal": {
-                "description": "Təklifinizin parametrlərini dəyişdirin: qiymət, miqdar, mal və ya xidmətlərin təsviri. Dəyişikliklər edərkən təşkilatçı əvvəllər təqdim edilmiş təklifi görür.",
-                "title": "Təklifi dəyiş"
-              },
-              "downloadProposal": {
-                "description": "Təklifi yüklə",
-                "title": "Təklifi yüklə"
-              },
-              "resubmitProposal": {
-                "description": "Dəyişikliklər etdikdən sonra təklifi yeniləyin, təşkilatçı bildiriş alacaq və yenilənmiş təklifi görəcək.",
-                "title": "Təklifi yeniləyin"
-              },
-              "submitProposal": {
-                "description": "Təşkilatçı tərəfindən baxılmaq üçün təklif təqdim edin.",
-                "title": "Təklif göndər"
-              },
-              "verify": {
-                "description": "\"Yoxlanılmış Təchizatçı\" statusunu almaq üçün şirkətinizi yoxlamaq üçün müraciət edin",
-                "title": "Xidmət sifariş et"
-              }
-            },
-            "canceled": {
-              "active": {
-                "unverified": {
-                  "message": "Sorğu ləğv edildi. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul etdi. Yoxlanılmış təchizatçılara aid olan sorğularda  iştirak etmək üçün yoxlanış keçin"
-                },
-                "with_proposal": {
-                  "message": "Sorğu ləğv edildi."
-                },
-                "without_proposal": {
-                  "message": "Sorğu ləğv edildi."
-                }
-              },
-              "blocked": {
-                "message": "Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
-              },
-              "nda_pending": {
-                "message": "Sorğu ləğv edildi"
-              },
-              "nda_submitted": {
-                "message": "Sorğu ləğv edildi"
-              },
-              "refused": {
-                "message": "Təşkilatçı təklifinizi nəzərə almayıb."
-              }
-            },
-            "finished": {
-              "active": {
-                "unverified": {
-                  "message": "Sorğu tamamlandı. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul etdi. Təsdiqlənmiş satıcılara aid olan sorğularda iştirak etmək üçün yoxlanışdan keçin."
-                },
-                "with_proposal": {
-                  "message": "Sorğu tamamlandı."
-                },
-                "without_proposal": {
-                  "message": "Sorğu tamamlandı."
-                }
-              },
-              "blocked": {
-                "message": "Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
-              },
-              "looser": {
-                "message": "Sorğu tamamlandı."
-              },
-              "nda_pending": {
-                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
-              },
-              "nda_submitted": {
-                "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
-              },
-              "refused": {
-                "message": "Təşkilatçı təklifinizi nəzərə almayıb."
-              },
-              "winner": {
-                "message": "Sorğu tamamlanıb"
-              }
-            },
-            "proposal": {
-              "active": {
-                "unverified": {
-                  "message": "Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edir. Təklifi təqdim etmək hüququna malik olmaq üçün yoxlama prosesini tamamlayın. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
-                },
-                "with_proposal": {
-                  "message": "Təklif təqdim olunub. Təklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
-                },
-                "without_proposal": {
-                  "message": "{{acceptanceEndDate}} tarixinə qədər təklif hazırlayın və təqdim edin ({{acceptanceEndDays}} qalır). Təklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
-                }
-              },
-              "blocked": {
-                "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
-              },
-              "nda_pending": {
-                "message": "İlkin kvalifikasiya/ NDA üçün sənədləri təqdim edin.  Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
-              },
-              "nda_submitted": {
-                "message": "{{statusChangedDate}} tarixində təqdim edilmiş ilkin kvalifikasiya/NDA sənədləri. Sifarişçinin qəbulla bağlı qərarından sonra siz təklif hazırlayıb təqdim edə biləcəksiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
-              },
-              "refused": {
-                "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
-              }
-            },
-            "summarize": {
-              "active": {
-                "unverified": {
-                  "message": "Təkliflərin qəbulu  başa çatıb. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edirdi. Yoxlanılmış təchizatşılara aid olan  sorğularda iştirak etmək üçün yoxlanışdan keçin."
-                },
-                "with_proposal": {
-                  "message": "Təklifiniz təşkilatçı tərəfindən baxılır"
-                },
-                "without_proposal": {
-                  "message": "Təkliflərin qəbulu başa çatıb. Siz təklif təqdim etməmisiniz."
-                }
-              },
-              "blocked": {
-                "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
-              },
-              "nda_pending": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
-              },
-              "nda_submitted": {
-                "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
-              },
-              "refused": {
-                "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
-              }
-            }
-          },
-          "contact_info": {
-            "cancel": "Mən hələ düşünürəm",
-            "info": "Təklif təqdim etmək və sorğu çatında sifarişçi ilə əlaqə saxlamaq üşün iştirak edin ",
-            "submit": "İştirak et",
-            "title": "Sizi iştirak etməyə dəvət edirik"
-          },
-          "content": {
-            "actions": {
-              "change": "Dəyişmək",
-              "file": "Fayl əlavə etmək üçün",
-              "open": "Açmaq",
-              "set_up": "Doldur",
-              "specify": "Qeyd et",
-              "specify_inn": "VÖEN göstərin"
-            },
-            "contact": {
-              "empty": "Satınalmada əlaqəli şəxsin  kontaktlarını qeyd et",
-              "title": "Əlaqəli şəxs"
-            },
-            "documents": {
-              "sub_title": "Kommersiya təklifi və digər sənədlər.",
-              "title": "Sənədlər"
-            },
-            "inn": {
-              "empty": "Şirkətin VÖEN-ini daxil et",
-              "title": "Şirkətin VÖEN-i"
-            },
-            "nda": {
-              "empty": "Sənədlər yüklənməyib",
-              "submit": "Göndər",
-              "title": "İlkin kvalifikasiya üçün sənədlər / NDA",
-              "upload_document": "Sənədləri yükləyin"
-            },
-            "positions": {
-              "sub_title": "Mal və xidmətlərin qiyməti, miqdarı və təsviri.",
-              "title": "Maddə üzrə spesifikasiya"
-            },
-            "price": {
-              "sub-title": {
-                "auto": "Maddə üzrə spesifikasiya blokların məlumatı əsasında hesablanır",
-                "manual": "Təklifinizin ümumi qiyməti"
-              },
-              "title": "Təklif qiyməti"
-            },
-            "questionnaire": {
-              "sub_title": "Təchizatçı üçün anket.",
-              "title": "Təchizatçı anketi"
-            },
-            "title": "Təklifiniz"
-          },
-          "dialogs": {
-            "alerts": {
-              "already_participate": {
-                "text": "Nəticəni görmək üçün səhifəni yeniləyin və ya sorğuya yenidən baxın",
-                "title": "Şirkətiniz artıq sorğuda iştirak edir"
-              },
-              "blocked": {
-                "text": "[AT1] Müştərinin qərarı ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
-                "title": "Sifarişçi sizi sorğudan kənarlaşdırdı"
-              },
-              "errors": {
-                "access_denied": "Bu sorğu şirkətiniz tərəfindən göndərilib. Giriş imkanı əldə etmək üçün sorğunun sahibi ilə əlaqə saxlayın",
-                "private": "Sorğuda iştirak edənlərin sayı məhduddur.İştirak imkanı əldə etmək üçün sifarişçi ilə əlaqə saxlayın",
-                "status_canceled": "Sorğu ləğv edilib",
-                "status_finished": "Sorğu tamamlanıb",
-                "status_summarize": "Təkliflərin qəbulu başa çatıb, sorğu “Yekunlaşma” mərhələsindədir",
-                "title": "Sorğuda iştirak etmək mümkün deyil",
-                "unknown": "Zəhmət olmasa Texniki Dəstəy şöbəsiylə əlaqə saxlayın, biz sizə kömək edək"
-              },
-              "no_rights": {
-                "text": "Sorğularda iştirak etmək hüququnu almaq üçün şirkət administratorunuzla əlaqə saxlayın. Şirkətinizin sorğularda iştirak hüququ ProcureSaaS administratoru tərəfindən təyin edilir",
-                "title": "Müraciətlərdə iştirak etmək hüququ yoxdur"
-              }
-            },
-            "cancel": {
-              "cancel": "Ləğv et",
-              "header": "Dəyişiklikləri ləğv et",
-              "message": "Dəyişiklikləri ləğv etmək istədiyinizə əminsiniz? Bu əməliyyat geri dönməzdir.",
-              "next": "Dəyişiklikdən imtina et",
-              "success": "Dəyişikliklər ləğv edildi"
-            },
-            "change": {
-              "cancel": "Ləğv et",
-              "header": "Təklifi dəyiş",
-              "message": "Təklifi dəyişmək istədiyinizə əminsiniz?",
-              "next": "Dəyişmək",
-              "success": "Təklif dəyişdirildi"
-            },
-            "no_company": {
-              "info": "Sorğuda iştirak etmək üçün şirkətinizi ProcureSaaS-da pulsuz qeydiyyatdan keçirin. Platformada akkreditasiya tələb olunmur",
-              "register": "Şirkəti tapın və ya əlavə edin",
-              "title": "Şirkətinizi tapın və ya biznesinizi ProcureSaaS-da qeydiyyatdan keçirin"
-            },
-            "no_user": {
-              "info": "Sorğuda iştirak etmək üçün ProcureSaaS-da profilinizə daxil olun və ya yenisini yaradın",
-              "register": "Giriş / Qeydiyyat",
-              "title": "Daxil ol və ya ProcureSaaS-da qeydiyyatdan keç"
-            },
-            "submit": {
-              "default": {
-                "actions": {
-                  "cancel": {
-                    "primary": "Ləğv et",
-                    "repeated": "Ləğv et"
-                  },
-                  "next": {
-                    "primary": "Təklif göndər",
-                    "repeated": "Təklifi yeniləyin"
-                  }
-                },
-                "success": {
-                  "primary": "Təklif təqdim edildi",
-                  "repeated": "Təklif yeniləndi"
-                },
-                "text": {
-                  "agreement": "istifadəçi müqaviləsinə",
-                  "confirmation": "Sorğuda qalib gəldiyim təqdirdə istifadəçi müqaviləsinə əsasən xidmətin ödənilməsi şərtləri ilə razıyam",
-                  "primary": "[AT] Təklifləri qəbul etdikdən sonra təklifi dəyişə bilərsiniz.",
-                  "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq."
-                }
-              },
-              "failure": {
-                "actions": {
-                  "cancel": "Bağlamaq"
-                },
-                "helper_auction": {
-                  "description": {
-                    "1": "Sifarişçi ilə çatda müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim etmək üçün icazə sorğusu edin",
-                    "2": "Sifarişçi qərarını sizə çatda bildirəcək",
-                    "3": "Təsdiq olunarsa, siz müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim edə biləcəksiniz.",
-                    "label": "[AT] Müəyyən edilmiş qiymət dəyişiklikləri qaydalarını pozan təklif təqdim etmək üçün birdəfəlik icazə sorğu edə bilərsiniz. Bunu etmək:"
-                  },
-                  "label": "Qiymət dəyişikliyi qaydasını pozan təklifi necə təqdim etmək olar?"
-                },
-                "helper_positions": {
-                  "description": {
-                    "label": "[AT] Qiymətin dəyişdirilməsi təklif olunan əşyaların qiymətini mütənasib olaraq dəyişəcək. Bundan razı deyilsinizsə, qiymətləri fərdi olaraq tənzimləmək seçiminiz var. Bunu etmək:",
-                    "1": {
-                      "1_1": "Bölməyə keçin",
-                      "1_2": "Təklif",
-                      "1_3": "və Təklifi Dəyişdir düyməsini klikləyin"
-                    },
-                    "2": "Maddə üçün qiymətləri dəyişdirin və təklifi yeniləyin",
-                    "3": "Unutmayın ki, yenilənmiş qiymət qiymət dəyişikliyi qaydasına uyğun olmalıdır"
-                  },
-                  "label": "Fərdi maddələr üçün qiyməti necə dəyişmək olar?"
-                },
-                "how_rise": {
-                  "1": "Çatda Sifarişçidən təklifin qiymətini artırmaq üçün sorğu edin",
-                  "2": "Sifarişçi qərarını sizə çatda bildirəcək",
-                  "3": "Təsdiq edilərsə, bir dəfə daha yüksək qiymətlə təklif göndərə biləcəksiniz",
-                  "button": "Daha yüksək qiymətlə təklifi necə təqdim etmək olar?"
-                },
-                "items": {
-                  "Process.Light.Procedure.VersionMismatch": "Sifarişçi sorğunu dəyişdi, sizin təklifiniz artıq aktual deyil. Dəyişiklikləri nəzərdən keçirin və təklifi yeniləyin.",
-                  "Process.Light.Proposal.Answers.Required": "Qeyri-qiymət təklifi meyarları doldurulmayıb",
-                  "Process.Light.Proposal.Item.CurrencyIsNotValid": "b&gt;{{positionName}}. Valyuta ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
-                  "Process.Light.Proposal.Item.CustomField.Required": "<b>{{PositionName}}.</b>\"{{ FieldName }}\" xanası boşdur",
-                  "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{positionName}}</b> [AT] Tam çatdırılma tələb olunur və ya \"Mövcud deyil\" qeyd edin.",
-                  "Process.Light.Proposal.Item.NonZeroCount": "<b>{{positionName}}</b>\nYanlış miqdar. Miqdarı təyin edin = 0.",
-                  "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{positionName}}.</b> 99 milyarddan aşağı qiymət göstərin.",
-                  "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{{{positionName}}}}.</b> Yanlış qiymət. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\"seçin.",
-                  "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price}} {{ BaseCurrency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə minimum qiymətdən aşağıdır ({{ StartPrice }} {{ BaseCurrency }}).",
-                  "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) üzrə Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə maksimum qiyməti ({{ StartPrice }} {{ BaseCurrency }}) keçir.",
-                  "Process.Light.Proposal.Item.ZeroCount": "<b>{{positionName}}.</b> Yanlış miqdar. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
-                  "Process.Light.Proposal.Item.ZeroPrice": "<b>{{positionName}}.</b> Qiymət qeyd olunmayıb.",
-                  "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "<b>{{positionName}}.</b> Qiymət göstərilməyib. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
-                  "Process.Light.Proposal.MainProposalShouldBeSubmitted": "Alternativ təklif əsas təklif təqdim edildikdən sonra verilir.",
-                  "Process.Light.Proposal.Price.InvalidProposalCurrency": "Təklif valyutası ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
-                  "Process.Light.Proposal.Price.MaxValueExceeded": "Цена предложения должна быть меньше 99 млрд.",
-                  "Process.Light.Proposal.Price.MinValueSubceeded": "Təklifin qiyməti sıfırdan böyük olmalıdır.",
-                  "Process.Light.Proposal.Price.RuleMismatch.Auction": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: <b>{{ GreaterThan }} {{ BaseCurrency }} və ya daha yüksək</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
-                  "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Təklif olunan qiymət: <b>{{ GreaterThan}} {{ BaseCurrency }} və yuxarı və ya {{ LowerThan }} {{ BaseCurrency }} və aşağı</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
-                  "Process.Light.Proposal.Price.RuleMismatch.Reduction": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Təklif olunan qiymət: <b>{{ LowerThan }} {{ BaseCurrency }} və ya aşağı</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
-                  "Process.Light.Proposal.Price.StartPrice.Auction": "Təklif qiyməti təşkilatçı tərəfindən müəyyən edilmiş ilkin minimum təklif qiymətindən aşağıdır: <b>{{ LowerThan }} {{ BaseCurrency }}</b> , ",
-                  "Process.Light.Proposal.Price.StartPrice.Reduction": "Təklif qiyməti təşkilatçı tərəfindən müəyyən edilmiş ilkin maksimum təklif qiymətindən yüksəkdir: <b>{{ GreaterThan }} {{ BaseCurrency }}</b> "
-                }
-              },
-              "header": {
-                "primary": "Təklif göndər",
-                "repeated": "Təklifi yeniləyin"
-              },
-              "loading": {
-                "text": "Təklif yoxlanılır..."
-              },
-              "verification": {
-                "actions": {
-                  "more": "Daha ətraflı",
-                  "submit": "Yoxlanış üçün sorğu edin"
-                },
-                "notice": "Təklif təqdim etmək üçün ProcureSaaS-dan yoxlama keçin",
-                "text": "Bu sorğu yalnız yoxlanılmış təchizatçılar üçündür"
-              },
-              "accreditation": {
-                "title": "[AT] Təkliflər akkreditə olunmuş təchizatçılardan qəbul edilir",
-                "text": "[AT] Təklifi təqdim etmək üçün Sifarişçinin reyestrlərində akkreditasiyanı alacaqsınız"
-              }
-            }
-          },
-          "verification": {
-            "learn_more": "Daha ətraflı",
-            "text": "Təşkilatçı yoxlanılmış təchizatçılara üstünlük verir.",
-            "text_only_verified": "Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edir.",
-            "verified": "Yoxlama başa çatdı"
-          }
-        },
-        "commission": {
-          "title": "Service Commission",
-          "table": {
-            "range": "Order price:",
-            "total": "Service Operator Commission:",
-            "to": "to",
-            "from": "from"
-          },
-          "text": {
-            "free-for-company": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
-            "free-for-request": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> At the current request, the operator's reward will not be charged if you are declared the winner of the request.",
-            "payment": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> The Service operator's Commission is payable only by the winner of the request as determined by the client and is independent of the actual conclusion of the contract between the client and the winner and the signing of other legally binding documents based on the results of the request."
-          },
-          "total": {
-            "multi": "The amount of the Service operator's Commission depends on the amount of the order and is as follows:",
-            "single": "The amount of the Service operator's Commission doesn't depend on the amount of the order and is as follows:"
-          }
-        }
-      },
-      "participants": {
-        "blocked": {
-          "empty": {
-            "notice": "Əvvəlki mərhələlərin bütün iştirakçıları cari mərhələyə buraxılırlar",
-            "text": "Blok olunmuş iştirakçı yoxdur"
-          },
-          "header": {
-            "submit": "İştirakı yenilə",
-            "title": "Əvvəlki mərhələlərin bloklanmış iştirakçıları"
-          },
-          "list": {
-            "items": {
-              "empty": "Axtarışınız üçün heçnə tapılmadı..."
-            },
-            "search": {
-              "placeholder": "Axtarış"
-            },
-            "selected": {
-              "count": "Seçildi: {{value}}"
-            }
-          },
-          "success": {
-            "snack": "Seçilmiş şirkətlər sorğuya yenidən dəvət olunub"
-          }
-        },
-        "dialogs": {
-          "block_many": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçıları bloklamaq",
-            "message": "Bloklanmış  iştirakçılar: \n• Təklifləri dəyişə və ya təqdim edə bilməz \n• Digər iştirakçıların təkliflərinə baxa bilməz.\n\n İstənilən vaxt blokdan çıxarmaqla iştirakçıların yenidən sorğuda iştirakına icazə verə bilərsiniz.",
-            "next": "Bloklamaq",
-            "success": "İştirakçılar bloklandı"
-          },
-          "block_one": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçını bloklamaq",
-            "message": "Bloklanmış iştirakçı: \n• təklifi dəyişdirə və təqdim edə bilməz \n• digər iştirakçıların təkliflərinə baxa bilməz \n\nSiz cari və ya növbəti mərhələnin təkliflərini qəbul etmə mərhələsində bloku ləğv edə bilərsiniz.",
-            "next": "Bloklamaq",
-            "success": "İştirakçı bloklandı"
-          },
-          "invite_blocked": {
-            "button": "Əvvəlki mərhələlərdən bloklanmış iştirakçılar"
-          },
-          "invite_email": {
-            "header": "E-poçt ilə dəvət",
-            "multi": {
-              "label": "[AT] E-poçtları vergüllə ayıraraq daxil edin və ya Daxil edin",
-              "cancel": "Geri",
-              "submit": "Əlavə et"
-            },
-            "single": {
-              "cancel": "Ləğv et",
-              "done": "Göndər",
-              "invite": "Dəvət et",
-              "append": "E-poçt əlavə et",
-              "remove": "Sil",
-              "or": "və ya",
-              "switch": "Bir neçə E-poçt",
-              "optional": "Könüllü",
-              "email": "E-poçt", 
-              "company": "Şirkət adı",
-              "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
-            },
-            "errors": {
-              "duplicate": "[AT] Bu e-poçt artıq əlavə edilib"
-            },
-            "success": {
-              "default": "Dəvətlər göndərildi",
-              "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
-            }
-          },
-          "invite_link": {
-            "header": "Sorğuya keçid",
-            "hint": "Panoya kopyalamaq üçün Ctrl + C düymələrini basın",
-            "text": "Keçidi olan hər kəs sorğuya baxa və iştirak edə bilər. Keçidi kopyalayın və iştirakçıya göndərin."
-          },
-          "invite_site": {
-            "header": "İştirakçıların dəvəti",
-            "success": {
-              "default": "Dəvətlər göndərildi",
-              "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
-            }
-          },
-          "notify_many": {
-            "cancel": "Ləğv et",
-            "header": "Dəvət göndər",
-            "message": "İştirakçılara dəvət bildirişi göndəriləcək.",
-            "next": "Göndər",
-            "success": "Dəvətlər göndərildi"
-          },
-          "notify_one": {
-            "cancel": "Ləğv et",
-            "header": "Dəvət göndər",
-            "message": "İştirakçıya dəvət göndəriləcək.",
-            "next": "Göndər",
-            "success": "Dəvət göndərildi"
-          },
-          "permit_change_one": {
-            "cancel": "Ləğv et",
-            "header": "İstifadəçiyə təklif qiymətini dəyişməyə icazə verilsin?",
-            "message": "İcazə iddiaçıya tender qaydalarını pozan təklifin qiymətini dəyişdirmək üçün birdəfəlik hüquq verir.",
-            "next": "İcazə ver",
-            "success": "Qiymət dəyişikliyinə icazə verilir"
-          },
-          "permit_rise_one": {
-            "cancel": "Ləğv et",
-            "header": "Təklifin qiymətini qaldırmağa icazə varmı?",
-            "message": "İcazə iştirakçıya növbəti dəyişiklikdə öz təklifinin qiymətini bir dəfə artırmağa imkan verəcək.",
-            "next": "İcazə vermək",
-            "success": "Qiymət artımına icazə verilir"
-          },
-          "remove_many": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçıların ləğv edilməsi",
-            "message": "İştirakçılar silinəcək.",
-            "next": "Sil",
-            "success": "İştirakçılara iştirak etməyə imtina olunur"
-          },
-          "remove_one": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçının ləğv olunması",
-            "message": "İştirakçı silinəcək.",
-            "next": "Sil",
-            "success": "İştirakçı silindi"
-          },
-          "unblock_many": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçıları blokdan çıxarmaq",
-            "message": "İştirakçılar dəvət alacaq və təkliflərini təqdim edə biləcəklər.",
-            "next": "Blokdan çıxarmaq",
-            "success": "İştirakçılar blokdan çıxarıldı"
-          },
-          "unblock_one": {
-            "cancel": "Ləğv et",
-            "header": "İştirakçını blokdan çıxarın",
-            "message": "İştirakçı çatda mesaj alacaq və təklif göndərə biləcək.",
-            "next": "Blokdan çıxartmaq",
-            "success": "İştirakçı blokdan çıxarıldı"
-          }
-        },
-        "list": {
-          "actions": {
-            "add_register": {
-              "button": "Reyestrə dəvət et",
-              "dialog": {
-                "button": "Dəvət etmək",
-                "title": "Reyestr seç"
-              },
-              "error": "Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin",
-              "mach_success": "Dəvətlər göndərildi",
-              "success": "Dəvət göndərildi"
-            },
-            "block_many": {
-              "button": "Seçilmişləri blokla",
-              "tooltip": "Seçilmiş iştirakçıları bloklayın. Əməliyyat geri qaytarıla bilər"
-            },
-            "block_one": {
-              "button": "İştirakçını blokla",
-              "notice": "Əməliyyat geri qaytarıla bilər"
-            },
-            "block_others": {
-              "button": "Seçilmişlərdən başqa hamısını blokla"
-            },
-            "bulk": {
-              "button": "Əməliyyatlar"
-            },
-            "chat": {
-              "button": "Üzvlərlə yazışın"
-            },
-            "chat_group": {
-              "button": "Çata mesaj yazın",
-              "dialog": {
-                "cancel": "Ləğv et",
-                "label": "İştirakçılara mesaj",
-                "submit": "Təsdiq et",
-                "success": "Mesaj göndərildi",
-                "title": "Çata mesaj yaz"
-              }
-            },
-            "empty": {
-              "text": "Heç bir əməliyyat yoxdur"
-            },
-            "invite_blocked": {
-              "button": "Keçmiş mərhələlərdən bloklanmış iştirakçıları"
-            },
-            "invite_email": {
-              "button": "E-poçt ilə"
-            },
-            "invite_link": {
-              "button": "Sorğu keçidini kopyala"
-            },
-            "invite_menu": {
-              "button": "Dəvət et"
-            },
-            "invite_site": {
-              "button": "Platformadan"
-            },
-            "invite_site_tags": {
-              "button": "Sorğu teqləri ilə Platformadan",
-              "no": "Sorğu teqləri təyin edin",
-              "text": "İştirakçıları teqlərlə dəvət etmək üçün sorğunun təsvirində teqləri təyin edin.",
-              "title": "Sorğu teqləri təyin olunmayıb",
-              "yes": "Davam et"
-            },
-            "nda": {
-              "decision": "Qəbul et",
-              "request": "İlkin Kvalifikasiya Sənədləri / NDA",
-              "title": "Təsvir və sənədlər"
-            },
-            "notify_many": {
-              "button": "Dəvət göndər",
-              "tooltip": "Seçilmiş iştirakçılara dəvət göndər"
-            },
-            "notify_one": {
-              "button": "Dəvət göndər"
-            },
-            "permit_change": {
-              "auction": {
-                "button": "Qiymət endiriminə icazə ver"
-              },
-              "reduction": {
-                "button": "Qiymət artımına icazə vermək"
-              }
-            },
-            "permit_rise": {
-              "button": "Qiymət artımına icazə ver"
-            },
-            "remove_many": {
-              "button": "Seçilmişləri ləğv et",
-              "tooltip": "Seçilmiş İştirakçıları ləğv et"
-            },
-            "remove_one": {
-              "button": "Sil"
-            },
-            "report": {
-              "title": "İştirakçıların siyahısını yüklə",
-              "tooltip": "İştirakçıların siyahısını endir\n"
-            },
-            "archive_nda": {
-              "title": "əvvəlcədən təyin edilmiş/NDA üçün mövcud proqramları yükləyin",
-              "tooltip": "/NDA qabaqcadan Təsdiq üçün cari müraciətləri Yükləyin"
-            },
-            "unblock_many": {
-              "button": "Seçilmiş iştirakçıları blokdan çıxartmaq",
-              "tooltip": "Seçilmiş iştirakçıları blokdan çıxartmaq"
-            },
-            "unblock_one": {
-              "button": "Blokdan çıxart"
-            }
-          },
-          "gold": {
-            "title": "[AT] Magic Bidzaar daxil edilir",
-            "text":"[AT] təqdim təkliflər - nişanı \"müqayisə\"",
-            "link": "[AT] necə işləyir"
-          },
-          "empty": "İştirakçı əlavə et. Sorğu dərc edildikdən sonra iştirakçılar dəvət alacaqlar. Siz həmçinin təkliflərin qəbulu mərhələsində iştirakçıları əlavə edə bilərsiniz.",
-          "filters": {
-            "status": {
-              "title": "İştirakçının statusu"
-            },
-            "invited_by": {
-              "title": "[AT] tərəfindən dəvət edilmişdir"
-            }
-          },
-          "forbidden": {
-            "message": "Təşkilatçı müraciətə dəyişikliklər edir",
-            "notice": "Redaktə başa çatdıqdan sonra hərəkəti təkrarlayın.",
-            "title": "Məlumat mövcud deyil"
-          },
-          "invited_by_bidzaar": "ProcureSaaS işçisi tərəfindən dəvət olunub",
-          "not_found": "[AT] Sorğunuz üçün heç nə tapılmadı...",
-          "search": {
-            "tooltip": "Şirkətin adı"
-          },
-          "search_tooltip": "Şirkətin adı, Şirkətin e-poçtu",
-          "selected": "Seçildi",
-          "title": "İştirakçılar",
-          "verified": "Şirkət sizin reyestrinizdə akkreditasiya olunub"
-        }
-      },
-      "positions": {
-        "editor": {
-          "actions": {
-            "add_positions": "Maddə əlavə et",
-            "download_template": "Şablonu endir",
-            "save_and_close": {
-              "button": "Yadda saxla"
-            },
-            "save_and_continue": {
-              "button": "Saxla və əlavə et"
-            },
-            "upload_from_file": "Fayldan yüklə"
-          },
-          "custom_field_menu": {
-            "delete": "Sil",
-            "edit": "Redaktə et"
-          },
-          "custom_fields_popover": {
-            "cancel": "Ləğv et",
-            "name": "Ad",
-            "new": "Sütun yarat",
-            "save": "Yadda saxla"
-          },
-          "default": {
-            "name": "Yeni maddə",
-            "unit": "əd."
-          },
-          "documents_menu": {
-            "info": "Aktivləşdirilmiş parametr iştirakçılara sənədləri maddə üzrə  əlavə etmək imkanı verir",
-            "title": "Maddələrə sənədlərin əlavə edilməsinə icazə vermək"
-          },
-          "empty": "Maddələr əlavə olunmayıb",
-          "fields": {
-            "auction": {
-              "label": "Minimal vahidin qiyməti",
-              "tooltip": "Təchizatçının təklif edə biləcəyi maddə üçün ən aşağı qiymət / Təchizatçı daha aşağı qiymət təklif edə bilməz"
-            },
-            "availability": "Mövcudluq",
-            "comment": "Şərh",
-            "count": "Miqdar",
-            "currency": "Valyuta",
-            "description": "Təsvir",
-            "deviation_tooltip": "Sorğunun “Təklif həcmi” parametrində “Maddələr və miqdara görə yayınma icazə verilir” seçildikdə aktualdır",
-            "documents": "Sənədlər",
-            "files": "Sənədlər",
-            "header_tooltip": "Təchizatçı tərəfindən doldurulur",
-            "multi_currency_tooltip": "Sorğu ayarlarında valyutaların siyahısı yaradıldıqda aktualdır",
-            "name": "Ad",
-            "name_desc": "Ad və təsvir",
-            "new_field": "Sütün yarat",
-            "price": "Vahid üçün qiymət",
-            "price-hint": "Seçərkən səmt göstərən qiyməti qeyd edin. Qiymət yalnız sizə göstərilir - istifadəçilər onu görməyəcək.",
-            "price_up_down": {
-              "label": "Gözlənilən vahid üçün qiymət",
-              "tooltip": "Təchizatçıdan gözlənilən hər bir maddə üzrə qiymət / Sifarişçi müəyyən edilmiş və ya daha aşağı qiymət gözləyir"
-            },
-            "reduction": {
-              "label": "Vahidin maksimal qiyməti",
-              "tooltip": "Təchizatçının təklif edə biləcəyi maddə üçün ən yüksək qiymət / Təchizatçı göstərilən qiyməti keçə bilməz"
-            },
-            "startPrice": "Vahid üçün başlanğıc qiymət",
-            "startPriceHint": "Sorğu parametri -ƏDV-ni nəzərə almaqla vahid üzrə Auksionun/Reduksionun ilkin qiyməti ",
-            "targetCost": "Vahid üçün hədəf qiymət",
-            "target_cost_tooltip": "Seçərkən səmt göstərən qiyməti qeyd edin. Qiymət yalnız sizə göstərilir - iştirakçılar onu görməyəcək.",
-            "unit": "Ölçü vahidi",
-            "vat": "ƏDV dərəcəsi"
-          },
-          "snacks": {
-            "success": "Data yadda saxlanıldı"
-          },
-          "title": "Maddə üzrə spesifikasiya",
-          "unsaved": {
-            "cancel": "Davam et",
-            "confirm": "Yadda saxla",
-            "title": "Maddə datası saxlanılmadı"
-          }
-        },
-        "import": {
-          "cancel": "Ləğv et",
-          "items": {
-            "Process.Light.Import.Positions.InvalidFile": "Seçilmiş fayl nümunəyə uyğun gəlmir. Düzgün şablonu endirin, doldurun və maddələri yükləyin.",
-            "Process.Light.Import.Positions.InvalidFileExtension": "<b>Yanlış fayl formatı. </b> Faylı“.xlsx” genişlənmə ilə seçin.",
-            "Process.Light.Import.Positions.MaxValue.Number": "<b>{{ column }}.</b> Yanlış dəyər (0,000001-dən 9,999,999,999-a qədər etibarlıdır)",
-            "Process.Light.Import.Positions.MaxValue.Price": "<b>{{ column }}</b> Yanlış dəyər (0.00-dan 9999999999.00-a qədər etibarlıdır)",
-            "Process.Light.Import.Positions.MinValue.Number": "<b>{{ column }}.</b> Yanlış dəyər (0,000001-dən 9,999,999,999-a qədər etibarlıdır)",
-            "Process.Light.Import.Positions.MinValue.Price": "<b>{{ column }}</b> Yanlış dəyər (0.00-dan 9999999999.00-a qədər etibarlıdır)",
-            "Process.Light.Import.Positions.Required": "<b>{{ column }}.</b> Dəyər göstərilməyib.",
-            "Process.Light.Import.Positions.Truncate": "<b>{{ column }}.</b> Dəyər {{ length }} qədər kəsildi.",
-            "Process.Light.Import.Positions.WrongFormat.Number": "<b>{{ column }}.</b> Yanlış dəyər (0,000001-dən 9,999,999,999-a qədər etibarlıdır)",
-            "Process.Light.Import.Positions.WrongFormat.Price": "<b>{{ column }}</b> Yanlış dəyər (0.00-dan 9999999999.00-a qədər etibarlıdır)"
-          },
-          "next": "Növbəti",
-          "snack": "Yüklənmiş maddələr: {{ count }}",
-          "title": "Fayldan maddələri yüklə",
-          "upload": "Yüklə",
-          "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək."
-        },
-        "list": {
-          "actions": {
-            "create_position": {
-              "button": "Maddə əlavə et",
-              "supplier_fields": "Təchizatçı üçün xanalar"
-            },
-            "delete_position": {
-              "dialog": {
-                "cancel": "Ləğv et",
-                "snack": "Maddə silindi",
-                "title": "Maddə silinsin?",
-                "yes": "Sil"
-              },
-              "tooltip": "Sil"
-            },
-            "delete_positions": {
-              "dialog": {
-                "cancel": "Ləğv et",
-                "snack": "Maddələr silinib",
-                "title": "({{ count }}) maddələri silin",
-                "yes": "Sil"
-              },
-              "tooltip": "Sil"
-            },
-            "download_template": {
-              "tooltip": "Maddələri daxil etmək üçün şablonu endirin"
-            },
-            "import_positions": {
-              "tooltip": "Fayldan maddələri yükləyin"
-            }
-          },
-          "empty_placeholder": "Maddələr əlavə olunmayıb"
-        },
-        "viewer": {
-          "action": {
-            "file_restriction": "Hər biri 25 MB-a qədər",
-            "upload_file": "Sənəd əlavə et"
-          },
-          "fields": {
-            "auction": "Minimum qiymət",
-            "count": "Miqdar",
-            "description": "Təsvir",
-            "documents": "Sənədlər",
-            "expectedPrice": "Gözlənilən qiymət",
-            "name": "Ad",
-            "reduction": "Maksimum qiymət",
-            "startPrice": "Vahid üçün başlanğıc qiymət",
-            "targetCost": "Vahid üçün hədəf dəyəri",
-            "unit": "Ölçü vahidi"
-          },
-          "title": "Maddə"
-        }
-      },
-      "publish": {
-        "button": "Sorğunu dərc et",
-        "text": "Təchizatçıları məlumatlandırmaq və onların təkliflərini almaq üçün sorğunu dərc edin."
+      "status": {
+        "0": "[AT] qaralama",
+        "1": "[AT] göndərilən müraciətlər",
+        "2": "[AT] müraciətlərin qəbulu tamamlandı, yekunlaşdırma mərhələsində ərizə",
+        "3": "[AT] ərizə tamamlandı",
+        "4": "[AT] ərizə ləğv edildi",
+        "until": "[AT] əvvəl {{Tarix}}",
+        "tooltip": "[AT] kompüterinizdəki tarixə və saata uyğundur"
       },
       "request": {
         "additional_settings": {
@@ -2100,9 +561,9 @@
           "contact": {
             "append": "[AT] Təchizatçılarla ünsiyyət üçün əlaqə əlavə edin",
             "change": "Dəyiş",
-            "dialog":{
+            "dialog": {
               "title": "[AT] əlaqə",
-              "placeholder":"[AT] təsviri və əlaqə daxil",
+              "placeholder": "[AT] təsviri və əlaqə daxil",
               "cancel": "[AT] Ləğv et",
               "submit": "[AT] Bitti"
             },
@@ -2422,61 +883,2424 @@
           }
         }
       },
-      "sellers": {
-        "empty": "İştirakçılar təklif təqdim etməyiblər",
+      "banner": {
+        "changing": {
+          "date": "İştirakçılar {{ value }} sorğusunu redaktə edə bilərlər",
+          "state": "Redaktə başa çatdıqdan sonra dəyişiklikləri dərc edin."
+        },
+        "new_stage": "Sıralanmanı tənzimləyin, qəbul edilməmiş iştirakçıları bloklayın və yeni sorğu dərc edin.",
+        "proposal": {
+          "date": {
+            "left": "({{ value }} bitməzdən əvvəl)",
+            "until": "{{value }} təkliflər qəbulunun son tarixi"
+          },
+          "state": {
+            "false": "Təklif təqdim olunmayıb.",
+            "true": "Redaktə başa çatdıqdan sonra təklifi yeniləyin."
+          }
+        },
+        "verification": {
+          "text": "Sifarişçi yalnız etibarlı təchizatçıların təkliflərini qəbul edir"
+        },
+        "gold": {
+          "text": "\"{{value}}\" reyestrinin üzvləri üçün sorğu"
+        }
+      },
+      "comparison": {
+        "actions": {
+          "close_fullscreen": "pəncərəni minimuma endir",
+          "customize_view": "Görünüşü tənzimləyin",
+          "export": "Endir",
+          "fullscreen": "Tam ekranda"
+        },
+        "answer_cell": {
+          "comment": "Şərh",
+          "hidden": "Detallar gizlidir",
+          "no_answer": "Cavab verilməyib",
+          "no_attachment": "Fayl təmin edilməyib",
+          "private": "Sualın cavabı Məxfidir və Təşkilatçı kimi yalnız sizə görünür",
+          "private_participant": "Sualın cavabı Məxfidir və yalnız sizə və Təşkilatçıya görünür",
+          "widgets": {
+            "agreement": {
+              "agree": "Razıyam",
+              "disagree": "Razı deyiləm"
+            },
+            "attachment": {
+              "uploaded": "Yüklənmiş fayllar: {{value}}"
+            },
+            "boolean": {
+              "no": "Xeyir",
+              "yes": "Bəli"
+            },
+            "multiple": {
+              "more": "daha çox"
+            }
+          }
+        },
+        "answer_dialog": {
+          "comment": "Şərh",
+          "comments_and_files": "Şərh və fayllar:",
+          "details_hidden": "Rəqiblərin şərhləri və faylları gizlidir"
+        },
+        "change_price": "Qiyməti dəyişmək",
+        "change_proposal_price_dialog": {
+          "auction_step": "Artırma addımı",
+          "best_proposal": "Ən yaxşı təklif",
+          "cancel": "Ləğv et",
+          "change_step": "Dəyişim addımı",
+          "down": "Aşağı",
+          "errors": {
+            "blocked": "Sifarişçi sizi sorğudan kənarlaşdırdı",
+            "draft": "Təklif redaktə rejimindədi. Təklif sekmesinde təklifi yeniləyin",
+            "recalled": "Təklif müvəqqəti olaraq mövcüd deyildi, səhifəni yeniləyin və yenidən cəhd edin",
+            "reference_price_changed": "Digər iştirakçılar öz təkliflərini yeniləyiblər. Zəhmət olmasa yeni qiymət daxil edin",
+            "refused": "Şirkətiniz sorğuda iştirakdan imtina etdi"
+          },
+          "go_to_proposal": "Hazırda qiyməti yeniləmək mümkün deyil, siz \"Təklif\" bölməsində təklif göndərə bilərsiniz",
+          "important": "Əhəmiyyətli:",
+          "info": "qiymət hər bir maddə üçün proporsional olaraq dəyişdiriləcək. Yuvarlaqlaşdırmaya görə, göstərilən yeni qiymətdən yayınma mümkündür. Qiymətləri  maddələr üzrə dəyişdirmək üçün təklifinizdə Mallar və Xidmətlər bölməsinə keçin.",
+          "new_price": "Yeni qiymət",
+          "reduction_step": "Reduksion addımı",
+          "title": "Təklifin qiymətində dəyişiklik",
+          "title_auction": "Təklifin qiymət artımı ",
+          "title_reduction": "Təklif qiymətinin endirimi ",
+          "unavailable": {
+            "ok": "Bağlamaq",
+            "text": "Təklif dəyişim rejimindədir. Təklif bölməsində qiyməti dəyişdirin və yenilənmiş təklifi satınalma təşkilatçısına göndərin.",
+            "title": "Qiymət dəyişikliyi hazırda mövcud deyil"
+          },
+          "up": "Yuxarı",
+          "update_price": "Qiyməti yeniləyin",
+          "your_proposal": "Sizin təklifiniz"
+        },
+        "customize_view_menu": {
+          "positions": "Maddə üzrə spesifikasiya",
+          "questionnaire": "Qeyri-qiymət meyarları",
+          "title": "Göstərilən xanalar"
+        },
+        "documents_cell": {
+          "documents": "Sənədlər",
+          "no_files": "Fayllar yüklənməyib",
+          "participant_documents": "İştirakçı sənədləri",
+          "participant_documents_dialog": "Təklif sənədləri",
+          "participant_nda_documents": "Kassa mədaxil orderi/NDA"
+        },
+        "export_list": {
+          "order": "Sifariş",
+          "table": "Müqayisə cədvəli"
+        },
+        "fast_price_change_not_available_dialog": {
+          "cancel": "Ləğv et",
+          "submit": "Təklifə keçid almaq",
+          "text": "Təklif dəyişim rejimindədir. Redaktəni tamamlayın və Təklif bölməsində təklifi yeniləyin.",
+          "title": "Tez qiymət dəyişikliyi mövcud deyil"
+        },
+        "forbidden": {
+          "empty": {
+            "text": "Müqayisə sorğu iştirakçıları tərəfindən təkliflər təqdim edildikdən sonra mümkündür",
+            "title": "Rəqiblərin təkliflərinin müqayisəsi"
+          },
+          "guest": {
+            "text": "Müqayisə <span style=\"font-weight: 500\">\"Təklif\" bölməsində təqdim edildikdən sonra mümkündür",
+            "title": "Rəqiblərin təkliflərinin müqayisəsi"
+          },
+          "owner-draft": {
+            "text": "Müraciət dərc olunmayıb. İştirakçılar təklif təqdim etməyiblər.",
+            "title": "İştirakçıların təkliflərinin müqayisəsi"
+          },
+          "owner-hidden": {
+            "text": "“Təşkilatçı təkliflərin qəbulu mərhələsində ” sorğu tənzimləməsi təkliflərin qəbulu başa çatana qədər iştirakçıların təkliflərinə baxılmasını qadağan edir.",
+            "title": "İştirakçıların təklifləri gizlidir"
+          },
+          "owner-version": {
+            "text": "Sorğunun dəyişdirilməsi anında iştirakçıların təklifləri mövcud deyil. Təkliflərə qayıtmaq üçün redaktəni tamamlayın.",
+            "title": "İştirakçıların təklifləri hazırda mövcüd deyil"
+          }
+        },
+        "group": {
+          "settings": "Tənzimləmək"
+        },
+        "header_cells": {
+          "actions": "Əməliyyatlar",
+          "alternative": "Alternativ",
+          "menu": {
+            "chat_participant": "İştirakçı ilə çat",
+            "deselect_positions": "Maddələrin seçimini ləğv et",
+            "permit": {
+              "auction": "Qiymət endiriminə icazə ver",
+              "reduction": "Qiymət artımına icazə vermək"
+            },
+            "permit_rise": "Qiymət artımına icazə vermək",
+            "remove_from_procedure": "İştirakçını bloklamaq",
+            "remove_from_procedure_info": "Əməliyyat geri qaytarıla bilər",
+            "select_all_positions": "Bütün maddələri seçmək",
+            "show_profile": "İştirakçı profilini açın"
+          },
+          "not_full": "Maddələr üzrə  tələb olunan həcmdən yayınma",
+          "proposals": "Təklifin tərkibi",
+          "vat_title": "ƏDV",
+          "verified_tooltip": "Şirkət sizin reyestrinizdə akkreditasiya olunub",
+          "best_price": {
+            "title": "Ən yaxşı qiymət",
+            "subtitle": "iştirakçıların təklifləri arasında"
+          },
+          "names_hidden": "İştirakçının adı gizlidir"
+        },
+        "hidden_proposals_info": "Rəqiblərin təklifləri sorğu ayarları ilə gizlədilir",
+        "list": {
+          "about_company": "şirkət haqqında",
+          "cancel_selection": "Seçimi ləğv etmək",
+          "change_price": "Qiyməti dəyişmək",
+          "chose_proposal": "Təklif seçin",
+          "contact": "Əlaqəli şəxs",
+          "no_requisites": "Təmin edilməyib",
+          "open_requisites": "Açmaq",
+          "participant": "İştirakçı",
+          "proposal_menu": {
+            "block_participant": "İştirakçını bloklamaq",
+            "permit_rise": "Qiymət artımına icazə vermək"
+          },
+          "publish_date": "Təklif təqdim edildi:",
+          "rate": "Qiymət və şərh",
+          "rate_description": "Təklifin nəticəsi",
+          "requisites": "Şirkət rekvizitləri",
+          "scoring_private": "Təfərrüatlar yalnız təşkilatçılar üçün açıqdır",
+          "vat": {
+            "false": "ƏDV-siz",
+            "true": "ƏDV daxil"
+          },
+          "vat_sum": "ƏDV məbləği",
+          "your_proposal": "Təklifiniz"
+        },
+        "no_proposals": "İştirakçılardan təkliflər hələ qəbul edilməyib",
+        "order_cell": {
+          "choose": "Təklif seçin",
+          "full": "bütün maddələr",
+          "selected": "{{count}}-dan {{value}} maddələr"
+        },
+        "order_distribution": "Seçim paylanması",
+        "order_price": "Təklif qiyməti",
+        "position_cell": {
+          "add_to_order": "seçin",
+          "details": "Detalları göstərin",
+          "empty": "Mövcud deyil",
+          "from": "-",
+          "in_order": "Sifarişdə {{count}} {{vahid}}",
+          "not_full_tooltip": "Maddə tam təqdim edilməyib",
+          "rank_tooltip": "Təklif dərəcəsi"
+        },
+        "position_info_dialog": {
+          "has_vat": "ƏDV daxil",
+          "no_vat": "ƏDV-siz ",
+          "not_specified": "Qeyd edilməmişdir",
+          "price_for_unit": "Sorğu valyutasında vahid üçün hədəf dəyəri ",
+          "price_not_specified": "Qiymət qeyd olunmayıb",
+          "request": "Müraciət",
+          "description": "Təsvir"
+        },
+        "position_proposal_dialog": {
+          "add": "Sifarişə əlavə edin",
+          "add_all": "Hamısını seçin",
+          "added_to_order": "Sifarişə əlavə edildi",
+          "cancel": "Ləğv et",
+          "comment": "Şərh",
+          "delete": "Sifarişdən çıxarın",
+          "details_hidden": "Rəqiblərin şərhləri və faylları gizlidir",
+          "error_count": "Sifariş 0-dan çox olmalıdır",
+          "error_max_count": "Sifariş təklifdən çoxdur",
+          "files": "Fayllar",
+          "for_unit": "vahid üçün",
+          "has_vat": " ƏDV daxil qiymətlər",
+          "in_order": "Seçildi:",
+          "my_request": "Mənim müraciətim",
+          "no_price": "Qiymət qeyd olunmayıb",
+          "no_vat": "ƏDV-siz",
+          "order": "Sifariş",
+          "proposal": {
+            "at_the_price_of": "qiymətə görə",
+            "per_unit": "vahid üçün",
+            "title": "Təklif:"
+          },
+          "save": "Yadda saxla",
+          "success_snack": "Məlumat saxlanıldı",
+          "total": "Cəmi",
+          "update": "Yeniləmək",
+          "with_vat": "ƏDV daxil",
+          "without_vat": "ƏDV-siz",
+          "info": "[AT] Məlumat",
+          "float_count_warning": "Fraksiyalı çatdırılmanın mümkün olduğundan əmin olun"
+        },
+        "position_proposal_total_dialog": {
+          "title": "Seçim məbləğini dəyişdirin",
+          "total": "[AT] Son hesablama:",
+          "count_error": "[AT] Məbləğ təchizatçının təklifindən artıqdır",
+          "cancel": "[AT] Ləğv et",
+          "submit": "[AT] Hazır"
+        },
+        "positions": "Maddə üzrə spesifikasiya ({{value}})",
+        "proposal_conclusion": "Təklifin nəticəsi",
+        "question_dialog": {
+          "no_files_or_comment": "Şərh və fayllar yoxdur",
+          "private": "Şəxsi cavab"
+        },
+        "rank": "Təklif dərəcəsi",
+        "rank_inaccessible": "Dərəcə mövcud deyil",
+        "rating_cell": {
+          "empty": "Təklifi qiymətləndirin"
+        },
+        "rating_dialog": {
+          "comment": "Şərh",
+          "delete": "Qiyməti sil",
+          "rating": "Qiymətləndirmə",
+          "remove_dialog": {
+            "cancel": "Ləğv et",
+            "submit": "Sil",
+            "title": "Qiymət silinsin?"
+          },
+          "sub_title": "Məlumat yalnız sorğu heyyəti üçün mövcuddur",
+          "submit": "Hazırdı",
+          "title": "Təklifin nəticəsi"
+        },
+        "selected_participants": "Seçmək üçün təklif edir",
+        "sorting": {
+          "0": "Öncə ən yaxşı qiymətlə ",
+          "1": "Əvvəlcə tam məmnuniyyətlə",
+          "2": "Başlanğıcda maddə üzrə ən yüksək dərəcələrlə ",
+          "3": "Əvvəldə sifarişlə",
+          "button": "Təkliflər",
+          "tooltip": "Təkliflərin sifarişini fərdiləşdirin"
+        },
+        "supplier_group": "Təchizatçı məlumatı",
+        "switcher": {
+          "list": "Siyahı",
+          "table": "Cədvəl"
+        },
+        "timer": "Qalıq",
+        "tooltips": {
+          "customize_view": "Ekran parametri",
+          "download_comparison_table": "Müqayisə cədvəlini yükləyin",
+          "download_my_proposal_table": "Təklifi endir",
+          "download_proposal": "Təklifi yükləyin"
+        },
+        "total_order_sum": "Seçim",
+        "paginator": {
+          "title": "[AT] Təkliflər",
+          "from": "[AT] dan",
+          "info": "[AT] naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün"
+        },
+        "basis": {
+          "button": "Qiymət müqayisəsi",
+          "target_price": "Hədəf dəyərinə nisbətən",
+          "first_price": "Orijinal təklifə gəldikdə",
+          "best_price": "Ən yaxşı təklif haqqında"
+        },
+        "participants_filter": {
+          "button": "Üzvlər",
+          "tooltip": "Üzvləri süzün"
+        },
+        "companies_filter_dialog": {
+          "selected": "Seçildi: {{value}}",
+          "tin": "VÖEN",
+          "search": "Tapın:",
+          "clear_filter": "təmiz filtr",
+          "cancel": "Ləğv et",
+          "submit": "Müraciət edin",
+          "supplier_not_found": "Üzv tapılmadı",
+          "supplier_not_found_help": "İştirakçının təklif göndərdiyinə əmin olun.\nAd və ya VÖEN ilə axtarın."
+        }
+      },
+      "dialogs": {
+        "cancel": {
+          "no": "Ləğv etməyin",
+          "text": "Sorğu \"Ləğv edilib\" statusunu alacaq və sorğularınızın siyahısında mövcud olacaq. İştirakçılar sorğunun ləğv edildiyi barədə bildirişlər alacaqlar.",
+          "title": "Sorğu ləğv edilsin?",
+          "yes": "Sorğunu ləğv et"
+        },
+        "cancel_changes": {
+          "no": "Ləğv et",
+          "text": "Sorğunu olduğu kimi saxlamaq üçün dəyişikliklərinizi silin.",
+          "title": "Sorğuya edilən dəyişikliklər silinsin?",
+          "yes": "Sil"
+        },
+        "cancel_stage": {
+          "no": "Ləğv et",
+          "title": "Yeni mərhələ ləğv edilsin?",
+          "yes": "Mərhələni ləğv et"
+        },
+        "delete": {
+          "no": "ləğv et",
+          "text": "Qaralama silinsin? Onu bərpa etmək mümkün olmayacaq.",
+          "yes": "sil"
+        },
+        "offers": {
+          "header": {
+            "comparison": "Müqayisəli masa Yükləyin",
+            "all-receipt": "[AT] Seçimi Yükləyin"
+          },
+          "options": {
+            "attachment": "Əlavə sənədlərlə yükləmə",
+            "selectable": "Yükləmək üçün təklif sahələrini seçin"
+          },
+          "columns": {
+            "8": "Sayı",
+            "16": "vahid qiymət, {{ valyuta }}",
+            "32": "ƏDV olmadan ümumi məbləğ, {{ valyuta }}",
+            "64": "ƏDV Dərəcəsi",
+            "128": "ƏDV ilə ümumi qiymət, {{ valyuta }}",
+            "256": "şərh",
+            "512": "iştirakçının valyutasında vahid qiyməti",
+            "1024": "valyuta",
+            "2048": "Valyuta Məzənnəsi",
+            "4096": "mövqe üzrə dərəcə",
+            "16384": "ƏDV {{ valyuta }}"
+          },
+          "actions": {
+            "cancel": "Ləğv et",
+            "submit": "Yüklə"
+          }
+        },
+        "no_orders": {
+          "cancel": "Görürəm",
+          "text": "[AT] Üzv təklifini və ya fərdi təklif maddələrini seçin",
+          "title": "[AT] Heç bir şey seçilməyib"
+        },
+        "finish_round": {
+          "cancel": "Ləğv et",
+          "header": "Təklif mərhələsini erkən bitirin",
+          "message": "İştirakçılar öz təkliflərini təqdim edə və ya dəyişdirə bilməyəcəklər. Mərhələni yekun vurulduqdan sonra siz təkliflərin yeni mərhələsini elan edə bilərsiniz.",
+          "next": "Mərhələni bitir",
+          "success": "Təklif mərhələsi başa çatdı",
+          "time_tooltip": "[AT] sona dəyirmi",
+          "time": "Təkliflərin cari mərhələsinin sonu:"
+        },
+        "leave": {
+          "header": "Müraciətin imtina edilməsi",
+          "no": "Ləğv et",
+          "success": "Sorğudan imtina etdiniz",
+          "text": "İştirak etməkdən imtina etsəniz, təklifiniz yadda saxlanmayacaq.",
+          "yes": "İştirak etməkdən imtina et"
+        },
+        "nda_decision": {
+          "accept": {
+            "result": "İştirakçı qəbul edildi",
+            "text": "İştirakçı spesifikasiya və sorğu sənədlərinə giriş imkanı əldə edəcək",
+            "title": "İştirakçını qəbul et"
+          },
+          "cancel": "Ləğv et",
+          "comment_placeholder": "Çatda iştirakçıya mesaj",
+          "reject": {
+            "result": "İştirakçının müraciəti düzəliş üçün göndərilib",
+            "text": "Təchizatçı düzəlişlər etdikdən sonra yenidən sorğuya müraciət edə bilər",
+            "title": "İştirakçının müraciətini imtina etmək"
+          },
+          "submit": "Qərar ver",
+          "title": "İştirakçının qəbulu haqqında qərar"
+        },
+        "notification": {
+          "canceled": {
+            "title": "Sorğu ləğv edildi"
+          },
+          "completed": {
+            "text": "Nəticələri \"Nəticələr\" bölməsində yoxlayın",
+            "title": "Sorğu tamamlandı"
+          },
+          "status_changed": {
+            "text": "Sorğu yekunlaşdirma mərhələsinə köçürülüb",
+            "title": "Təkliflər qəbulu bağlandı"
+          },
+          "update_change": {
+            "text": "\"Sorğu\" bölməsində dəyişiklikləri yoxlayın",
+            "title": "Sorğu yeniləndi"
+          }
+        },
+        "participant_nda": {
+          "empty": "Heçbir sənəd təqdim edilməyib",
+          "title": "İlkin kvalifikasiya üçün sənədlər / NDA"
+        },
+        "requisites": {
+          "contact_person": "Əlaqəli şəxs",
+          "inn": "VÖEN",
+          "more_requisites": "Daha çox rekvizit - şirkət profilində",
+          "tin": "VÖEN"
+        },
+        "returnToSummary": {
+          "cancel": "Ləğv et",
+          "form_label": "Sifarişi ləğv edilən iştirakçılara səbəbini deyin:",
+          "form_placeholder": "Mesaj...",
+          "label_empty": "Sorğu yekunlaşdırılmaq üçün qaytarılsın? ",
+          "order": "<span class=\"price\">{{value}} {{currency}}</span> üzrə seçim seçimi ləğv ediləcək.",
+          "submit": "Yekunlaşdırmaq üçün qeri qaytarmaq",
+          "success": "Sorğu yekun nəticə mərhələsinə köçürülüb",
+          "title": "Sorğunu yekun nəticə üçün qaytar",
+          "mail": {
+            "title": "Seçimi ləğv edilmiş üzvləri xəbərdar edəcəyik",
+            "subtitle": {
+              "false": "[AT] Məktubumuzu qalib gələn üzvlərə mesajınızla tamamlaya bilərsiniz",
+              "true": "E-poçtumuza baxın və seçimi ləğv edilmiş üzvlərə mesaj əlavə edin"
+            }
+          },
+          "start_round": {
+            "cancel": "Ləğv et",
+            "error": "Tarix bitdi. Mərhələ üçün yeni bitmə tarixini təyin edin",
+            "header": "Təkliflərin yeni mərhələsini elan edin",
+            "message": "Yeni tur iştirakçılara öz təkliflərini təkmilləşdirmək şansı verir. Təkliflər üçün mərhələnin sonu:",
+            "next": "Yeni mərhələ elan et",
+            "success": "Təkliflər üçün yeni mərhələ elan edildi",
+            "time": "Mərhələnin sonu"
+          },
+          "validation": {
+            "title": {
+              "0": "Submit request",
+              "1": "Publish changes",
+              "2": "Publish stage"
+            },
+            "invalid": "Please correct the errors and re-publish",
+            "actions": {
+              "report": "What's changed?",
+              "cancel": "Cancel",
+              "submit": "Publish",
+              "close": "OK"
+            },
+            "changes": {
+              "major": {
+                "title": "The submitted bids will be rejected ({{value}} total)",
+                "notice": "Changes made require updating participants' bids."
+              },
+              "minor": {
+                "title": "What to do with the submitted proposals ({{value}} total)",
+                "notice": "The changes made may require an update of the participants' bids",
+                "options": {
+                  "minor": "Save bids",
+                  "major": "Reject and request an update of the bids"
+                }
+              }
+            },
+            "items": {
+              "AcceptanceEndDate": {
+                "Default": {
+                  "notice": "Tamamlanana qədər",
+                  "title": "Təkliflərin qəbulu:"
+                },
+                "Expired": {
+                  "notice": "Tarix bitdi, yeni tarix daxil edin.",
+                  "title": "Təkliflərin son tarix qəbulu:"
+                },
+                "LessThen": {
+                  "15": {
+                    "notice": "İştirakçılara təkliflər hazırlamaq üçün 15 dəqiqədən az vaxt",
+                    "title": "Təkliflər qəbulunun son tarixi:"
+                  },
+                  "48": {
+                    "notice": "İştirakçılara təkliflər hazırlamaq üçün 48 saatdan az vaxt",
+                    "title": "Təkliflər qəbulunun son tarixi:"
+                  }
+                }
+              },
+              "Addresses": {
+                "notice": "",
+                "title": "Çatdırılma ünvanı"
+              },
+              "ClosedProcedure": {
+                "AdditionalCurrencies": {
+                  "notice": "Valyutaların siyahısı doldurma xətalarını ehtiva edir",
+                  "title": "Sorğunun valyutası"
+                },
+                "NoParticipant": {
+                  "notice": "",
+                  "title": "Qapalı sorğuda iştirak edənlər"
+                }
+              },
+              "Files": {
+                "notice": "",
+                "title": "Sorğu sənədləri"
+              },
+              "NdaEnabled": {
+                "NoData": {
+                  "notice": "mərhələ təsviri və ya sənədlər göstərilməmişdir",
+                  "title": "İlkin kvalifikasiya / NDA mərhələsi"
+                }
+              },
+              "Positions": {
+                "notice": "",
+                "title": "Malların və xidmətlərin spesifikasiyası"
+              },
+              "Price": {
+                "notice": "0-dan 99 999 999 999-a qədər bir dəyər daxil edin",
+                "title": "Maksimum / Minimum / Gözlənilən Qiymət"
+              },
+              "Questionnaire": {
+                "notice": "",
+                "title": "İştirakçıya və sorğunun şərtlərinə dair tələblər"
+              },
+              "ReductionStep": {
+                "notice": "Ayarların yalnış təyini",
+                "title": "Qiymət dəyişikliyinin minimal addımı"
+              },
+              "ReductionStepAbsolute": {
+                "notice": "Ayarların yalnış təyini",
+                "title": "Qiymət dəyişikliyinin minimal addımı"
+              },
+              "ReductionStepPercent": {
+                "notice": "Ayarların yalnış təyini",
+                "title": "Qiymət dəyişikliyinin minimal addımı"
+              },
+              "VatEnabled": {
+                "Undefined": {
+                  "notice": "Dəyər təyin edilməyib",
+                  "title": "Qalib seçərkən, nəzərə alınır"
+                }
+              },
+              "Tariff": {
+                "NotActive": {
+                  "title": "[AT] Etibarsız sorğu tarifi göstərilmişdir",
+                  "notice": ""
+                },
+                "NotDefined": {
+                  "title": "Tariff is not selected",
+                  "notice": ""
+                }
+              },
+              "NewStageCreated": {
+                "notice": "[AT] Dərc etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
+                "title": "[AT] Təkliflərin qəbulu başa çatıb, yekun sorğu"
+              },
+              "Gold": {
+                "ProcedureCannotBeOpened": {
+                  "notice": "[AT] magic açıq sorğu işləmir. \"Qapalı \" üçün \"sorğu növü \" parametri seçin",
+                  "title": "[AT] Sorğu Gold"
+                },
+                "HasRegistries": {
+                  "notice": "[AT] sehrli reyestrinizdə əlavə akkreditasiya ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
+                  "title": "[AT] Sorğu Gold"
+                },
+                "NdaCannotBeEnabled": {
+                  "notice": "[AT] Pre-valyuta / NİV mərhələsi aktiv olduqda sehrli işləmir",
+                  "title": "[AT] Sorğu Gold"
+                }
+              }
+            },
+            "comment": {
+              "title": "Səhnə adı:",
+              "placeholder": "Səhnə adı",
+              "error": "tələb olunan sahə",
+              "hint": "Məsələn: “Təklif”, “Son təkliflərin təqdim edilməsi”"
+            },
+            "mail": {
+              "title": {
+                "0": "Dəvət etdiyiniz iştirakçılara məlumat verəcəyik",
+                "1": "Biz iştirakçılara sorğunun dəyişməsi barədə məlumat verəcəyik",
+                "2": "İştirakçılara yeni mərhələ haqqında məlumat verəcəyik"
+              },
+              "subtitle": {
+                "0": "[AT] məktubumuzu üzvlərə mesajınızla tamamlaya bilərsiniz",
+                "1": "[AT] məktubumuzu üzvlərə mesajınızla tamamlaya bilərsiniz",
+                "2": "[AT] məktubumuzu üzvlərə mesajınızla tamamlaya bilərsiniz"
+              }
+            }
+          },
+          "vat": {
+            "cancel": "Ləğv et",
+            "confirm": "Tədbiq et",
+            "free": "ƏDV tədbiq olunmur",
+            "header": "ƏDV dərəcəsi",
+            "text": "Bütün maddələr üçün ƏDV dərəcəsini göstərin"
+          },
+          "verified_only_info": {
+            "close": "İndi yox",
+            "legal_confirmed": {
+              "label": "Yoxlanılmış şirkət qarşı tərəflər arasında inam yaradır",
+              "text": "Şirkətinizin rekvizitləri mütəxəssislərimiz tərəfindən təsdiqlənir"
+            },
+            "message_for_verified": "Şirkətiniz yoxlanıldı!",
+            "order_check": "Sifariş et",
+            "reports": {
+              "label": "Yalnız yoxlanılmış təchizatçılar üçün sorğularda iştirak edin",
+              "text": "Bu cür sorğularda təklifin təqdim edilməsi mütəxəssislərimiz tərəfindən şirkəti yoxladıqdan sonra mümkündür"
+            },
+            "requirements": {
+              "label": "Yoxlanılmış təchizatçılar xüsusi işarə ilə qeyd olunur",
+              "text": "Podratçılar şirkətinizin yoxlanmış və etibarlı olduğunu dərhal görə biləcəklər"
+            },
+            "requisites": {
+              "label": "Yoxlanılmış təchizatçılar xüsusi işarə ilə qeyd olunur",
+              "text": "Qarşı tərəflər şirkətinizin təsdiqlənmiş və etibarlı olduğunu dərhal görə biləcəklər"
+            },
+            "title": "Qarşı tərəflər niyə etibarlı şirkətlərlə işləməyə üstünlük verirlər?",
+            "verification_method_message": {
+              "text": "Şirkət yoxlanışı mümkün qədər tez baş verir",
+              "title": "Biz mümkün olan ən sadə yoxlama mexanizmindən istifadə edirik."
+            }
+          },
+          "version_mismatch": {
+            "next": "Növbəti",
+            "proposals": {
+              "text": "Səhifəni yeniləyin və yekunlaşdırmaq üçün təkrarlayın.",
+              "title": "İştirakçı təklifi dəyişdi"
+            },
+            "version": {
+              "text": "Səhifəni yeniləyin və yenidən cəhd edin.",
+              "title": "Müraciət dəyişdi"
+            }
+          },
+          "wrong_status": {
+            "Process": {
+              "Light": {
+                "Denied": "Sorğuda iştirak etmək mümkün deyil",
+                "Procedure": {
+                  "Canceled": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                  "Deleted": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                  "Ended": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                  "Expired": "Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                  "Summarizing": "Müraciət yekunlaşdırma mərhələsindədir. Əməliyyat mümkün deyil."
+                }
+              }
+            }
+          }
+        },
         "header": {
-          "count": "᛫ {{value}}",
-          "text": "Təklif verən iştirakçılar"
+          "back": "Hazırdı",
+          "editing": "(Redaktə)",
+          "positions": "Məhsullar və xidmətlər",
+          "questionnaire": "Qeyri-qiymət meyarları"
+        },
+        "notice": {
+          "stage": "MƏRHƏLƏ {{index}}",
+          "text": {
+            "0": "Qaralama ({{creationDate}})",
+            "1": "Cari ({{publishDate}})",
+            "2": "Cari ({{publishDate}})",
+            "3": "Cari ({{publishDate}})",
+            "4": "Yanlış ({{ publishDate }})"
+          },
+          "title": "Satınalma bildirişi"
+        },
+        "number": "Kod",
+        "owner": {
+          "preference": "Təşkilatçı yoxlanılmış təchizatçılara üstünlük verir.",
+          "profile": "Sifarişçı haqqında",
+          "title": "Sifarişçi"
+        },
+        "participant": {
+          "items": {
+            "attachments": {
+              "empty": "Əlavə edilmiş fayl yoxdur",
+              "header": "Əlavə edilmiş fayllar",
+              "size": "Hər biri 25 MB-a qədər",
+              "upload": "Sənəd əlavə et"
+            },
+            "position": {
+              "request": "Sorğu",
+              "startPrice": "Vahid üçün başlanğıc qiymət"
+            },
+            "table": {
+              "header": {
+                "import": "Fayldan yükləyin",
+                "total": "Təklifin məbləği:"
+              },
+              "proposal": {
+                "comment": {
+                  "empty": "Şərhsiz",
+                  "label": "Şərh"
+                },
+                "count": {
+                  "deviation": "Yayınma",
+                  "label": "Miqdar",
+                  "zero": "Mövcud deyil"
+                },
+                "no_positions": {
+                  "label": "Mövcud deyil"
+                },
+                "price": {
+                  "hint": "Vahidin maksimal qiyməti -{{value}}",
+                  "label": "Vahid üçün qiymət",
+                  "max": "Vahid qiyməti maksimumdan yuxarıdır ",
+                  "vat": {
+                    "false": "ƏDV-siz",
+                    "true": "ƏDV daxil"
+                  }
+                },
+                "vat": {
+                  "change": "Bütün maddələr üçün",
+                  "empty": "ƏDV-siz",
+                  "free": "ƏDV tədbiq olunmur",
+                  "label": "ƏDV dərəcəsi"
+                }
+              }
+            }
+          },
+          "proposal": {
+            "botzaar": {
+              "actions": {
+                "cancelProposal": {
+                  "description": "Dəyişikliklərdən imtina edin, bu, əvvəllər təqdim edilmiş təklifə təsir etməyəcək.",
+                  "title": "Dəyişiklikləri ləğv et"
+                },
+                "changeProposal": {
+                  "description": "Təklifinizin parametrlərini dəyişdirin: qiymət, miqdar, mal və ya xidmətlərin təsviri. Dəyişikliklər edərkən təşkilatçı əvvəllər təqdim edilmiş təklifi görür.",
+                  "title": "Təklifi dəyiş"
+                },
+                "downloadProposal": {
+                  "description": "Təklifi yüklə",
+                  "title": "Təklifi yüklə"
+                },
+                "resubmitProposal": {
+                  "description": "Dəyişikliklər etdikdən sonra təklifi yeniləyin, təşkilatçı bildiriş alacaq və yenilənmiş təklifi görəcək.",
+                  "title": "Təklifi yeniləyin"
+                },
+                "submitProposal": {
+                  "description": "Təşkilatçı tərəfindən baxılmaq üçün təklif təqdim edin.",
+                  "title": "Təklif göndər"
+                },
+                "verify": {
+                  "description": "\"Yoxlanılmış Təchizatçı\" statusunu almaq üçün şirkətinizi yoxlamaq üçün müraciət edin",
+                  "title": "Xidmət sifariş et"
+                }
+              },
+              "canceled": {
+                "active": {
+                  "unverified": {
+                    "message": "Sorğu ləğv edildi. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul etdi. Yoxlanılmış təchizatçılara aid olan sorğularda  iştirak etmək üçün yoxlanış keçin"
+                  },
+                  "with_proposal": {
+                    "message": "Sorğu ləğv edildi."
+                  },
+                  "without_proposal": {
+                    "message": "Sorğu ləğv edildi."
+                  }
+                },
+                "blocked": {
+                  "message": "Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
+                },
+                "nda_pending": {
+                  "message": "Sorğu ləğv edildi"
+                },
+                "nda_submitted": {
+                  "message": "Sorğu ləğv edildi"
+                },
+                "refused": {
+                  "message": "Təşkilatçı təklifinizi nəzərə almayıb."
+                }
+              },
+              "finished": {
+                "active": {
+                  "unverified": {
+                    "message": "Sorğu tamamlandı. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul etdi. Təsdiqlənmiş satıcılara aid olan sorğularda iştirak etmək üçün yoxlanışdan keçin."
+                  },
+                  "with_proposal": {
+                    "message": "Sorğu tamamlandı."
+                  },
+                  "without_proposal": {
+                    "message": "Sorğu tamamlandı."
+                  }
+                },
+                "blocked": {
+                  "message": "Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
+                },
+                "looser": {
+                  "message": "Sorğu tamamlandı."
+                },
+                "nda_pending": {
+                  "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                },
+                "nda_submitted": {
+                  "message": "Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                },
+                "refused": {
+                  "message": "Təşkilatçı təklifinizi nəzərə almayıb."
+                },
+                "winner": {
+                  "message": "Sorğu tamamlanıb"
+                }
+              },
+              "proposal": {
+                "active": {
+                  "unverified": {
+                    "message": "Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edir. Təklifi təqdim etmək hüququna malik olmaq üçün yoxlama prosesini tamamlayın. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                  },
+                  "with_proposal": {
+                    "message": "Təklif təqdim olunub. Təklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
+                  },
+                  "without_proposal": {
+                    "message": "{{acceptanceEndDate}} tarixinə qədər təklif hazırlayın və təqdim edin ({{acceptanceEndDays}} qalır). Təklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
+                  }
+                },
+                "blocked": {
+                  "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
+                },
+                "nda_pending": {
+                  "message": "İlkin kvalifikasiya/ NDA üçün sənədləri təqdim edin.  Sifarişçinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                },
+                "nda_submitted": {
+                  "message": "{{statusChangedDate}} tarixində təqdim edilmiş ilkin kvalifikasiya/NDA sənədləri. Sifarişçinin qəbulla bağlı qərarından sonra siz təklif hazırlayıb təqdim edə biləcəksiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                },
+                "refused": {
+                  "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
+                }
+              },
+              "summarize": {
+                "active": {
+                  "unverified": {
+                    "message": "Təkliflərin qəbulu  başa çatıb. Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edirdi. Yoxlanılmış təchizatşılara aid olan  sorğularda iştirak etmək üçün yoxlanışdan keçin."
+                  },
+                  "with_proposal": {
+                    "message": "Təklifiniz təşkilatçı tərəfindən baxılır"
+                  },
+                  "without_proposal": {
+                    "message": "Təkliflərin qəbulu başa çatıb. Siz təklif təqdim etməmisiniz."
+                  }
+                },
+                "blocked": {
+                  "message": "Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
+                },
+                "nda_pending": {
+                  "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                },
+                "nda_submitted": {
+                  "message": "Təkliflərin qəbulu başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+                },
+                "refused": {
+                  "message": "Təşkilatçı sizin təklifinizi nəzərə almır."
+                }
+              }
+            },
+            "contact_info": {
+              "cancel": "Mən hələ düşünürəm",
+              "info": "Təklif təqdim etmək və sorğu çatında sifarişçi ilə əlaqə saxlamaq üşün iştirak edin ",
+              "submit": "İştirak et",
+              "title": "Sizi iştirak etməyə dəvət edirik"
+            },
+            "content": {
+              "actions": {
+                "change": "Dəyişmək",
+                "file": "Fayl əlavə etmək üçün",
+                "open": "Açmaq",
+                "set_up": "Doldur",
+                "specify": "Qeyd et",
+                "specify_inn": "VÖEN göstərin"
+              },
+              "contact": {
+                "empty": "Satınalmada əlaqəli şəxsin  kontaktlarını qeyd et",
+                "title": "Əlaqəli şəxs"
+              },
+              "documents": {
+                "sub_title": "Kommersiya təklifi və digər sənədlər.",
+                "title": "Sənədlər"
+              },
+              "inn": {
+                "empty": "Şirkətin VÖEN-ini daxil et",
+                "title": "Şirkətin VÖEN-i"
+              },
+              "nda": {
+                "empty": "Sənədlər yüklənməyib",
+                "submit": "Göndər",
+                "title": "İlkin kvalifikasiya üçün sənədlər / NDA",
+                "upload_document": "Sənədləri yükləyin"
+              },
+              "positions": {
+                "sub_title": "Mal və xidmətlərin qiyməti, miqdarı və təsviri.",
+                "title": "Maddə üzrə spesifikasiya"
+              },
+              "price": {
+                "sub-title": {
+                  "auto": "Maddə üzrə spesifikasiya blokların məlumatı əsasında hesablanır",
+                  "manual": "Təklifinizin ümumi qiyməti"
+                },
+                "title": "Təklif qiyməti"
+              },
+              "questionnaire": {
+                "sub_title": "Təchizatçı üçün anket.",
+                "title": "Təchizatçı anketi"
+              },
+              "title": "Təklifiniz"
+            },
+            "dialogs": {
+              "alerts": {
+                "already_participate": {
+                  "text": "Nəticəni görmək üçün səhifəni yeniləyin və ya sorğuya yenidən baxın",
+                  "title": "Şirkətiniz artıq sorğuda iştirak edir"
+                },
+                "blocked": {
+                  "text": "[AT1] Müştərinin qərarı ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın",
+                  "title": "Sifarişçi sizi sorğudan kənarlaşdırdı"
+                },
+                "errors": {
+                  "access_denied": "Bu sorğu şirkətiniz tərəfindən göndərilib. Giriş imkanı əldə etmək üçün sorğunun sahibi ilə əlaqə saxlayın",
+                  "private": "Sorğuda iştirak edənlərin sayı məhduddur.İştirak imkanı əldə etmək üçün sifarişçi ilə əlaqə saxlayın",
+                  "status_canceled": "Sorğu ləğv edilib",
+                  "status_finished": "Sorğu tamamlanıb",
+                  "status_summarize": "Təkliflərin qəbulu başa çatıb, sorğu “Yekunlaşma” mərhələsindədir",
+                  "title": "Sorğuda iştirak etmək mümkün deyil",
+                  "unknown": "Zəhmət olmasa Texniki Dəstəy şöbəsiylə əlaqə saxlayın, biz sizə kömək edək"
+                },
+                "no_rights": {
+                  "text": "Sorğularda iştirak etmək hüququnu almaq üçün şirkət administratorunuzla əlaqə saxlayın. Şirkətinizin sorğularda iştirak hüququ ProcureSaaS administratoru tərəfindən təyin edilir",
+                  "title": "Müraciətlərdə iştirak etmək hüququ yoxdur"
+                }
+              },
+              "cancel": {
+                "cancel": "Ləğv et",
+                "header": "Dəyişiklikləri ləğv et",
+                "message": "Dəyişiklikləri ləğv etmək istədiyinizə əminsiniz? Bu əməliyyat geri dönməzdir.",
+                "next": "Dəyişiklikdən imtina et",
+                "success": "Dəyişikliklər ləğv edildi"
+              },
+              "change": {
+                "cancel": "Ləğv et",
+                "header": "Təklifi dəyiş",
+                "message": "Təklifi dəyişmək istədiyinizə əminsiniz?",
+                "next": "Dəyişmək",
+                "success": "Təklif dəyişdirildi"
+              },
+              "no_company": {
+                "info": "Sorğuda iştirak etmək üçün şirkətinizi ProcureSaaS-da pulsuz qeydiyyatdan keçirin. Platformada akkreditasiya tələb olunmur",
+                "register": "Şirkəti tapın və ya əlavə edin",
+                "title": "Şirkətinizi tapın və ya biznesinizi ProcureSaaS-da qeydiyyatdan keçirin"
+              },
+              "no_user": {
+                "info": "Sorğuda iştirak etmək üçün ProcureSaaS-da profilinizə daxil olun və ya yenisini yaradın",
+                "register": "Giriş / Qeydiyyat",
+                "title": "Daxil ol və ya ProcureSaaS-da qeydiyyatdan keç"
+              },
+              "submit": {
+                "default": {
+                  "actions": {
+                    "cancel": {
+                      "primary": "Ləğv et",
+                      "repeated": "Ləğv et"
+                    },
+                    "next": {
+                      "primary": "Təklif göndər",
+                      "repeated": "Təklifi yeniləyin"
+                    }
+                  },
+                  "success": {
+                    "primary": "Təklif təqdim edildi",
+                    "repeated": "Təklif yeniləndi"
+                  },
+                  "text": {
+                    "agreement": "istifadəçi müqaviləsinə",
+                    "confirmation": "Sorğuda qalib gəldiyim təqdirdə istifadəçi müqaviləsinə əsasən xidmətin ödənilməsi şərtləri ilə razıyam",
+                    "primary": "[AT] Təklifləri qəbul etdikdən sonra təklifi dəyişə bilərsiniz.",
+                    "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq."
+                  }
+                },
+                "failure": {
+                  "actions": {
+                    "cancel": "Bağlamaq"
+                  },
+                  "helper_auction": {
+                    "description": {
+                      "1": "Sifarişçi ilə çatda müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim etmək üçün icazə sorğusu edin",
+                      "2": "Sifarişçi qərarını sizə çatda bildirəcək",
+                      "3": "Təsdiq olunarsa, siz müəyyən edilmiş qiymət dəyişikliyi qaydasını pozan birdəfəlik təklif təqdim edə biləcəksiniz.",
+                      "label": "[AT] Müəyyən edilmiş qiymət dəyişiklikləri qaydalarını pozan təklif təqdim etmək üçün birdəfəlik icazə sorğu edə bilərsiniz. Bunu etmək:"
+                    },
+                    "label": "Qiymət dəyişikliyi qaydasını pozan təklifi necə təqdim etmək olar?"
+                  },
+                  "helper_positions": {
+                    "description": {
+                      "1": {
+                        "1_1": "Bölməyə keçin",
+                        "1_2": "Təklif",
+                        "1_3": "və Təklifi Dəyişdir düyməsini klikləyin"
+                      },
+                      "2": "Maddə üçün qiymətləri dəyişdirin və təklifi yeniləyin",
+                      "3": "Unutmayın ki, yenilənmiş qiymət qiymət dəyişikliyi qaydasına uyğun olmalıdır",
+                      "label": "[AT] Qiymətin dəyişdirilməsi təklif olunan əşyaların qiymətini mütənasib olaraq dəyişəcək. Bundan razı deyilsinizsə, qiymətləri fərdi olaraq tənzimləmək seçiminiz var. Bunu etmək:"
+                    },
+                    "label": "Fərdi maddələr üçün qiyməti necə dəyişmək olar?"
+                  },
+                  "how_rise": {
+                    "1": "Çatda Sifarişçidən təklifin qiymətini artırmaq üçün sorğu edin",
+                    "2": "Sifarişçi qərarını sizə çatda bildirəcək",
+                    "3": "Təsdiq edilərsə, bir dəfə daha yüksək qiymətlə təklif göndərə biləcəksiniz",
+                    "button": "Daha yüksək qiymətlə təklifi necə təqdim etmək olar?"
+                  },
+                  "items": {
+                    "Process.Light.Procedure.VersionMismatch": "Sifarişçi sorğunu dəyişdi, sizin təklifiniz artıq aktual deyil. Dəyişiklikləri nəzərdən keçirin və təklifi yeniləyin.",
+                    "Process.Light.Proposal.Answers.Required": "Qeyri-qiymət təklifi meyarları doldurulmayıb",
+                    "Process.Light.Proposal.Item.CurrencyIsNotValid": "b&gt;{{positionName}}. Valyuta ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
+                    "Process.Light.Proposal.Item.CustomField.Required": "<b>{{PositionName}}.</b>\"{{ FieldName }}\" xanası boşdur",
+                    "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{positionName}}</b> [AT] Tam çatdırılma tələb olunur və ya \"Mövcud deyil\" qeyd edin.",
+                    "Process.Light.Proposal.Item.NonZeroCount": "<b>{{positionName}}</b>\nYanlış miqdar. Miqdarı təyin edin = 0.",
+                    "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{positionName}}.</b> 99 milyarddan aşağı qiymət göstərin.",
+                    "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{{{positionName}}}}.</b> Yanlış qiymət. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\"seçin.",
+                    "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price}} {{ BaseCurrency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə minimum qiymətdən aşağıdır ({{ StartPrice }} {{ BaseCurrency }}).",
+                    "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{positionName}}.</b> Ədədin qiyməti. {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) üzrə Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə maksimum qiyməti ({{ StartPrice }} {{ BaseCurrency }}) keçir.",
+                    "Process.Light.Proposal.Item.ZeroCount": "<b>{{positionName}}.</b> Yanlış miqdar. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
+                    "Process.Light.Proposal.Item.ZeroPrice": "<b>{{positionName}}.</b> Qiymət qeyd olunmayıb.",
+                    "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "<b>{{positionName}}.</b> Qiymət göstərilməyib. Maddə mövcud deyilsə, \"Ehtiyatda yoxdur\" seçin.",
+                    "Process.Light.Proposal.MainProposalShouldBeSubmitted": "Alternativ təklif əsas təklif təqdim edildikdən sonra verilir.",
+                    "Process.Light.Proposal.Price.InvalidProposalCurrency": "Təklif valyutası ({{ Currency }}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
+                    "Process.Light.Proposal.Price.MaxValueExceeded": "Цена предложения должна быть меньше 99 млрд.",
+                    "Process.Light.Proposal.Price.MinValueSubceeded": "Təklifin qiyməti sıfırdan böyük olmalıdır.",
+                    "Process.Light.Proposal.Price.RuleMismatch.Auction": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: <b>{{ GreaterThan }} {{ BaseCurrency }} və ya daha yüksək</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
+                    "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Təklif olunan qiymət: <b>{{ GreaterThan}} {{ BaseCurrency }} və yuxarı və ya {{ LowerThan }} {{ BaseCurrency }} və aşağı</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
+                    "Process.Light.Proposal.Price.RuleMismatch.Reduction": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Təklif olunan qiymət: <b>{{ LowerThan }} {{ BaseCurrency }} və ya aşağı</b> . Əvvəlki qiymətlə təklif vermək icazəlidir.",
+                    "Process.Light.Proposal.Price.StartPrice.Auction": "Təklif qiyməti təşkilatçı tərəfindən müəyyən edilmiş ilkin minimum təklif qiymətindən aşağıdır: <b>{{ LowerThan }} {{ BaseCurrency }}</b> , ",
+                    "Process.Light.Proposal.Price.StartPrice.Reduction": "Təklif qiyməti təşkilatçı tərəfindən müəyyən edilmiş ilkin maksimum təklif qiymətindən yüksəkdir: <b>{{ GreaterThan }} {{ BaseCurrency }}</b> "
+                  }
+                },
+                "header": {
+                  "primary": "Təklif göndər",
+                  "repeated": "Təklifi yeniləyin"
+                },
+                "loading": {
+                  "text": "Təklif yoxlanılır..."
+                },
+                "verification": {
+                  "actions": {
+                    "more": "Daha ətraflı",
+                    "submit": "Yoxlanış üçün sorğu edin"
+                  },
+                  "notice": "Təklif təqdim etmək üçün ProcureSaaS-dan yoxlama keçin",
+                  "text": "Bu sorğu yalnız yoxlanılmış təchizatçılar üçündür"
+                },
+                "accreditation": {
+                  "title": "[AT] Təkliflər akkreditə olunmuş təchizatçılardan qəbul edilir",
+                  "text": "[AT] Təklifi təqdim etmək üçün Sifarişçinin reyestrlərində akkreditasiyanı alacaqsınız"
+                }
+              }
+            },
+            "verification": {
+              "learn_more": "Daha ətraflı",
+              "text": "Təşkilatçı yoxlanılmış təchizatçılara üstünlük verir.",
+              "text_only_verified": "Sifarişçi yalnız yoxlanılmış təchizatçıların təkliflərini qəbul edir.",
+              "verified": "Yoxlama başa çatdı"
+            }
+          },
+          "commission": {
+            "title": "Service Commission",
+            "table": {
+              "range": "Order price:",
+              "total": "Service Operator Commission:",
+              "to": "to",
+              "from": "from"
+            },
+            "text": {
+              "free-for-company": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
+              "free-for-request": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> At the current request, the operator's reward will not be charged if you are declared the winner of the request.",
+              "payment": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> The Service operator's Commission is payable only by the winner of the request as determined by the client and is independent of the actual conclusion of the contract between the client and the winner and the signing of other legally binding documents based on the results of the request."
+            },
+            "total": {
+              "multi": "The amount of the Service operator's Commission depends on the amount of the order and is as follows:",
+              "single": "The amount of the Service operator's Commission doesn't depend on the amount of the order and is as follows:"
+            }
+          }
+        },
+        "participants": {
+          "blocked": {
+            "empty": {
+              "notice": "Əvvəlki mərhələlərin bütün iştirakçıları cari mərhələyə buraxılırlar",
+              "text": "Blok olunmuş iştirakçı yoxdur"
+            },
+            "header": {
+              "submit": "İştirakı yenilə",
+              "title": "Əvvəlki mərhələlərin bloklanmış iştirakçıları"
+            },
+            "list": {
+              "items": {
+                "empty": "Axtarışınız üçün heçnə tapılmadı..."
+              },
+              "search": {
+                "placeholder": "Axtarış"
+              },
+              "selected": {
+                "count": "Seçildi: {{value}}"
+              }
+            },
+            "success": {
+              "snack": "Seçilmiş şirkətlər sorğuya yenidən dəvət olunub"
+            }
+          },
+          "dialogs": {
+            "block_many": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçıları bloklamaq",
+              "message": "Bloklanmış  iştirakçılar: \n• Təklifləri dəyişə və ya təqdim edə bilməz \n• Digər iştirakçıların təkliflərinə baxa bilməz.\n\n İstənilən vaxt blokdan çıxarmaqla iştirakçıların yenidən sorğuda iştirakına icazə verə bilərsiniz.",
+              "next": "Bloklamaq",
+              "success": "İştirakçılar bloklandı"
+            },
+            "block_one": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçını bloklamaq",
+              "message": "Bloklanmış iştirakçı: \n• təklifi dəyişdirə və təqdim edə bilməz \n• digər iştirakçıların təkliflərinə baxa bilməz \n\nSiz cari və ya növbəti mərhələnin təkliflərini qəbul etmə mərhələsində bloku ləğv edə bilərsiniz.",
+              "next": "Bloklamaq",
+              "success": "İştirakçı bloklandı"
+            },
+            "invite_blocked": {
+              "button": "Əvvəlki mərhələlərdən bloklanmış iştirakçılar"
+            },
+            "invite_email": {
+              "header": "E-poçt ilə dəvət",
+              "multi": {
+                "label": "[AT] E-poçtları vergüllə ayıraraq daxil edin və ya Daxil edin",
+                "cancel": "Geri",
+                "submit": "Əlavə et"
+              },
+              "single": {
+                "cancel": "Ləğv et",
+                "done": "Göndər",
+                "invite": "Dəvət et",
+                "append": "E-poçt əlavə et",
+                "remove": "Sil",
+                "or": "və ya",
+                "switch": "Bir neçə E-poçt",
+                "optional": "Könüllü",
+                "email": "E-poçt",
+                "company": "Şirkət adı",
+                "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
+              },
+              "errors": {
+                "duplicate": "[AT] Bu e-poçt artıq əlavə edilib"
+              },
+              "success": {
+                "default": "Dəvətlər göndərildi",
+                "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
+              },
+              "failure": {
+                "default": "[AT] Göstərilən e-poçtu olan üzvlər artıq dəvət olunub",
+                "draft": "Göstərilən e-poçtu olan üzvlər artıq əlavə edilib"
+              }
+            },
+            "invite_link": {
+              "header": "Sorğuya keçid",
+              "hint": "Panoya kopyalamaq üçün Ctrl + C düymələrini basın",
+              "text": "Keçidi olan hər kəs sorğuya baxa və iştirak edə bilər. Keçidi kopyalayın və iştirakçıya göndərin."
+            },
+            "invite_site": {
+              "header": "İştirakçıların dəvəti",
+              "success": {
+                "default": "Dəvətlər göndərildi",
+                "draft": "Dəvətlər sorğu dərc olunduqdan sonra göndəriləcək"
+              }
+            },
+            "notify_many": {
+              "cancel": "Ləğv et",
+              "header": "Dəvət göndər",
+              "message": "İştirakçılara dəvət bildirişi göndəriləcək.",
+              "next": "Göndər",
+              "success": "Dəvətlər göndərildi"
+            },
+            "notify_one": {
+              "cancel": "Ləğv et",
+              "header": "Dəvət göndər",
+              "message": "İştirakçıya dəvət göndəriləcək.",
+              "next": "Göndər",
+              "success": "Dəvət göndərildi"
+            },
+            "permit_change_one": {
+              "cancel": "Ləğv et",
+              "header": "İstifadəçiyə təklif qiymətini dəyişməyə icazə verilsin?",
+              "message": "İcazə iddiaçıya tender qaydalarını pozan təklifin qiymətini dəyişdirmək üçün birdəfəlik hüquq verir.",
+              "next": "İcazə ver",
+              "success": "Qiymət dəyişikliyinə icazə verilir"
+            },
+            "permit_rise_one": {
+              "cancel": "Ləğv et",
+              "header": "Təklifin qiymətini qaldırmağa icazə varmı?",
+              "message": "İcazə iştirakçıya növbəti dəyişiklikdə öz təklifinin qiymətini bir dəfə artırmağa imkan verəcək.",
+              "next": "İcazə vermək",
+              "success": "Qiymət artımına icazə verilir"
+            },
+            "remove_many": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçıların ləğv edilməsi",
+              "message": "İştirakçılar silinəcək.",
+              "next": "Sil",
+              "success": "İştirakçılara iştirak etməyə imtina olunur"
+            },
+            "remove_one": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçının ləğv olunması",
+              "message": "İştirakçı silinəcək.",
+              "next": "Sil",
+              "success": "İştirakçı silindi"
+            },
+            "unblock_many": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçıları blokdan çıxarmaq",
+              "message": "İştirakçılar dəvət alacaq və təkliflərini təqdim edə biləcəklər.",
+              "next": "Blokdan çıxarmaq",
+              "success": "İştirakçılar blokdan çıxarıldı"
+            },
+            "unblock_one": {
+              "cancel": "Ləğv et",
+              "header": "İştirakçını blokdan çıxarın",
+              "message": "İştirakçı çatda mesaj alacaq və təklif göndərə biləcək.",
+              "next": "Blokdan çıxartmaq",
+              "success": "İştirakçı blokdan çıxarıldı"
+            }
+          },
+          "list": {
+            "actions": {
+              "add_register": {
+                "button": "Reyestrə dəvət et",
+                "dialog": {
+                  "button": "Dəvət etmək",
+                  "title": "Reyestr seç"
+                },
+                "error": "Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin",
+                "mach_success": "Dəvətlər göndərildi",
+                "success": "Dəvət göndərildi"
+              },
+              "block_many": {
+                "button": "Seçilmişləri blokla",
+                "tooltip": "Seçilmiş iştirakçıları bloklayın. Əməliyyat geri qaytarıla bilər"
+              },
+              "block_one": {
+                "button": "İştirakçını blokla",
+                "notice": "Əməliyyat geri qaytarıla bilər"
+              },
+              "block_others": {
+                "button": "Seçilmişlərdən başqa hamısını blokla"
+              },
+              "bulk": {
+                "button": "Əməliyyatlar"
+              },
+              "chat": {
+                "button": "Üzvlərlə yazışın"
+              },
+              "chat_group": {
+                "button": "Çata mesaj yazın",
+                "dialog": {
+                  "cancel": "Ləğv et",
+                  "label": "İştirakçılara mesaj",
+                  "submit": "Təsdiq et",
+                  "success": "Mesaj göndərildi",
+                  "title": "Çata mesaj yaz"
+                }
+              },
+              "empty": {
+                "text": "Heç bir əməliyyat yoxdur"
+              },
+              "invite_blocked": {
+                "button": "Keçmiş mərhələlərdən bloklanmış iştirakçıları"
+              },
+              "invite_email": {
+                "button": "E-poçt ilə"
+              },
+              "invite_link": {
+                "button": "Sorğu keçidini kopyala"
+              },
+              "invite_menu": {
+                "button": "Dəvət et"
+              },
+              "invite_site": {
+                "button": "Platformadan"
+              },
+              "invite_site_tags": {
+                "button": "Sorğu teqləri ilə Platformadan",
+                "no": "Sorğu teqləri təyin edin",
+                "text": "İştirakçıları teqlərlə dəvət etmək üçün sorğunun təsvirində teqləri təyin edin.",
+                "title": "Sorğu teqləri təyin olunmayıb",
+                "yes": "Davam et"
+              },
+              "nda": {
+                "decision": "Qəbul et",
+                "request": "İlkin Kvalifikasiya Sənədləri / NDA",
+                "title": "Təsvir və sənədlər"
+              },
+              "notify_many": {
+                "button": "Dəvət göndər",
+                "tooltip": "Seçilmiş iştirakçılara dəvət göndər"
+              },
+              "notify_one": {
+                "button": "Dəvət göndər"
+              },
+              "permit_change": {
+                "auction": {
+                  "button": "Qiymət endiriminə icazə ver"
+                },
+                "reduction": {
+                  "button": "Qiymət artımına icazə vermək"
+                }
+              },
+              "permit_rise": {
+                "button": "Qiymət artımına icazə ver"
+              },
+              "remove_many": {
+                "button": "Seçilmişləri ləğv et",
+                "tooltip": "Seçilmiş İştirakçıları ləğv et"
+              },
+              "remove_one": {
+                "button": "Sil"
+              },
+              "report": {
+                "title": "İştirakçıların siyahısını yüklə",
+                "tooltip": "İştirakçıların siyahısını endir\n"
+              },
+              "archive_nda": {
+                "title": "əvvəlcədən təyin edilmiş/NDA üçün mövcud proqramları yükləyin",
+                "tooltip": "/NDA qabaqcadan Təsdiq üçün cari müraciətləri Yükləyin"
+              },
+              "unblock_many": {
+                "button": "Seçilmiş iştirakçıları blokdan çıxartmaq",
+                "tooltip": "Seçilmiş iştirakçıları blokdan çıxartmaq"
+              },
+              "unblock_one": {
+                "button": "Blokdan çıxart"
+              }
+            },
+            "gold": {
+              "title": "[AT] Magic Bidzaar daxil edilir",
+              "text": "[AT] təqdim təkliflər - nişanı \"müqayisə\"",
+              "link": "[AT] necə işləyir"
+            },
+            "empty": "İştirakçı əlavə et. Sorğu dərc edildikdən sonra iştirakçılar dəvət alacaqlar. Siz həmçinin təkliflərin qəbulu mərhələsində iştirakçıları əlavə edə bilərsiniz.",
+            "filters": {
+              "status": {
+                "title": "İştirakçının statusu"
+              },
+              "invited_by": {
+                "title": "[AT] tərəfindən dəvət edilmişdir"
+              }
+            },
+            "forbidden": {
+              "message": "Təşkilatçı müraciətə dəyişikliklər edir",
+              "notice": "Redaktə başa çatdıqdan sonra hərəkəti təkrarlayın.",
+              "title": "Məlumat mövcud deyil"
+            },
+            "invited_by_bidzaar": "ProcureSaaS işçisi tərəfindən dəvət olunub",
+            "not_found": "[AT] Sorğunuz üçün heç nə tapılmadı...",
+            "search": {
+              "tooltip": "Şirkətin adı"
+            },
+            "search_tooltip": "Şirkətin adı, Şirkətin e-poçtu",
+            "selected": "Seçildi",
+            "title": "İştirakçılar",
+            "verified": "Şirkət sizin reyestrinizdə akkreditasiya olunub"
+          }
+        },
+        "publish": {
+          "button": "Sorğunu dərc et",
+          "text": "Təchizatçıları məlumatlandırmaq və onların təkliflərini almaq üçün sorğunu dərc edin."
+        },
+        "sellers": {
+          "empty": "İştirakçılar təklif təqdim etməyiblər",
+          "header": {
+            "count": "᛫ {{value}}",
+            "text": "Təklif verən iştirakçılar"
+          },
+          "unauthorized": {
+            "register": "Qeydiyyat və giriş",
+            "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan ke və ya daxil ol"
+          }
+        },
+        "seo": {
+          "description": "{{date}} tarixindən əvvəl {{company}} sorğusu göndərin."
+        },
+        "snacks": {
+          "acceptanceEndDateChanged": "Təkliflər qəbulunun son tarixi dəyişdi",
+          "comparison_updated": "Müqayisə bölməsi yeniləndi",
+          "participant_refused": "İştirakçı təklifi geri götürdü, Müqayisə məlumatları yeniləndi",
+          "participant_refused_current_company": "Satınalmada iştirak dayandırıldı",
+          "procedure_deleted": "Sorğu silindi",
+          "proposal_submitted": "İştirakçı təklif təqdim etdi, Müqayisə məlumatları yeniləndi",
+          "proposal_submitted_current_company": "Təklif təqdim olundu, Müqayisə məlumatları  yeniləndi",
+          "proposal_update": "İştirakçı təklifi yenilədi, Müqayisə məlumatları yeniləndi",
+          "proposal_update_current_company": "Təklif yeniləndi, müqayisə Məlumatları yeniləndi",
+          "published": "Sorğu dərc edilib",
+          "recall_proposal_current_company": "Təklif geri götürüldü",
+          "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
+          "updated": "Sorğu yeniləndi",
+          "version_created": "Qaralama yaradıldı",
+          "request_published": "[AT] Sorğu nəşr olunur",
+          "stage_published": "[AT] Mərhələ nəşr olunur",
+          "changes_published": "[AT] Dəyişikliklər nəşr"
+        },
+        "status": {
+          "0": "Qaralama",
+          "1": "Təkliflərin qəbulu",
+          "2": "Təkliflərin qəbulu bitdi, yekunlşdırma sorğusu",
+          "3": "Sorğu tamamlandı",
+          "4": "Sorğu ləğv edildi",
+          "until": "{{ date }} kimi"
+        },
+        "tabs": {
+          "comparison": "MÜQAYİSƏ",
+          "conclusion": "YEKUN NƏTİCƏLƏR",
+          "participants": "İŞTİRAKÇILAR",
+          "positions": "MADDƏLƏR",
+          "proposal": "TƏKLİF",
+          "questionnaire": "ANKET",
+          "request": "SORĞU"
+        },
+        "verification": {
+          "action": "Xidmət sifariş et",
+          "verified": "Şirkətiniz yoxlanıldı"
+        },
+        "keywords": "sorğu, satınalma, tender, təchizat, xidmətlər",
+        "start_round": {
+          "cancel": "[AT] Ləğv et",
+          "error": "[AT] Tarix bitdi. Tur üçün yeni bitmə tarixini təyin edin",
+          "header": "[AT] Təkliflərin yeni mərhələsini elan edin",
+          "message": "[AT] Yeni tur iştirakçılara öz təkliflərini təkmilləşdirmək şansı verir.\nTəkliflər üçün müraciətin sonu:",
+          "next": "[AT] Yeni turu elan edin",
+          "success": "[AT] Yeni təkliflər elan edildi",
+          "time": "[AT] Turun sonu"
+        },
+        "validation": {
+          "title": {
+            "0": "[AT] Sorğunun Göndərilməsi",
+            "1": "[AT] Nəşr Dəyişiklikləri",
+            "2": "[AT] Mərhələ nəşri"
+          },
+          "invalid": "[AT] Səhvləri düzəldin və yenidən dərc edin",
+          "actions": {
+            "report": "[AT] Nə dəyişdi?",
+            "cancel": "[AT] Ləğv et",
+            "submit": "[AT] dərc et",
+            "close": "[AT] Anlaşılır"
+          },
+          "changes": {
+            "major": {
+              "title": "[AT] Təqdim edilən təkliflər rədd ediləcək ({{value}} element)",
+              "notice": "[AT] Edilən dəyişikliklər iştirakçıların təkliflərinin yenilənməsini tələb edir."
+            },
+            "minor": {
+              "title": "[AT] Təqdim edilmiş təkliflərlə ({{value}} element) nə etməli?",
+              "notice": "[AT] Edilən dəyişikliklər iştirakçılardan təklifləri yeniləməyi tələb edə bilər",
+              "options": {
+                "minor": "[AT] Təklifləri Saxla",
+                "major": "[AT] Təklifləri rədd edin və yeniləmələri tələb edin"
+              }
+            }
+          },
+          "items": {
+            "AcceptanceEndDate": {
+              "Default": {
+                "notice": "[AT] başa çatdırmaq üçün",
+                "title": "[AT] Təkliflərin qəbulu:"
+              },
+              "Expired": {
+                "notice": "[AT] tarix bitdi, yeni tarix daxil edin.",
+                "title": "[AT] Təkliflərin qəbulu:"
+              },
+              "LessThen": {
+                "15": {
+                  "notice": "[AT] iştirakçılara təkliflər hazırlamaq üçün 15 dəqiqədən az vaxt",
+                  "title": "[AT] Təkliflərin qəbulu:"
+                },
+                "48": {
+                  "notice": "[AT] iştirakçıların təkliflər hazırlaması üçün 48 saatdan az vaxt",
+                  "title": "[AT] Təkliflərin qəbulu:"
+                }
+              }
+            },
+            "Addresses": {
+              "notice": "",
+              "title": "[AT] Çatdırılma ünvanı"
+            },
+            "ClosedProcedure": {
+              "NoParticipant": {
+                "notice": "",
+                "title": "[AT] Qapalı sorğuda iştirak edənlər"
+              },
+              "AdditionalCurrencies": {
+                "title": "[AT] Valyuta tələb edin",
+                "notice": "[AT] valyutaların siyahısı doldurma xətalarını ehtiva edir"
+              }
+            },
+            "Files": {
+              "notice": "",
+              "title": "[AT] Sənədləri tələb edin"
+            },
+            "NdaEnabled": {
+              "NoData": {
+                "notice": "[AT] mərhələ təsviri və ya sənədlər göstərilməmişdir",
+                "title": "[AT] Ön kvalifikasiya / NDA"
+              }
+            },
+            "Positions": {
+              "notice": "",
+              "title": "[AT] Malların və xidmətlərin spesifikasiyası"
+            },
+            "Price": {
+              "notice": "[AT] 0-dan 99 999 999 999-a qədər bir dəyər daxil edin",
+              "title": "[AT] Maksimum / Minimum / Gözlənilən Qiymət"
+            },
+            "Questionnaire": {
+              "notice": "",
+              "title": "[AT] İştirakçıya dair tələblər və sorğunun şərtləri"
+            },
+            "ReductionStep": {
+              "notice": "[AT] yanlış parametr təyini",
+              "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+            },
+            "ReductionStepAbsolute": {
+              "notice": "[AT] yanlış parametr təyini",
+              "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+            },
+            "ReductionStepPercent": {
+              "notice": "[AT] yanlış parametr təyini",
+              "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+            },
+            "VatEnabled": {
+              "Undefined": {
+                "notice": "[AT] dəyər təyin edilməyib",
+                "title": "[AT] Qalib seçərkən, nəzərə alın"
+              }
+            },
+            "Tariff": {
+              "NotActive": {
+                "title": "[AT] Yanlış sorğu dərəcəsi göstərildi",
+                "notice": ""
+              },
+              "NotDefined": {
+                "title": "[AT] Sorğu dərəcəsi göstərilməyib",
+                "notice": ""
+              }
+            },
+            "NewStageCreated": {
+              "notice": "[AT] nəşr etməzdən əvvəl yeni mərhələnin hazırlığını yoxlayın",
+              "title": "[AT] Təkliflər üçün çağırış bağlandı, yekun sorğusu"
+            },
+            "Gold": {
+              "ProcedureCannotBeOpened": {
+                "notice": "[AT] sehr açıq sorğuda işləmir. \"Sorğu növü\" seçimini \"Qapalı\" olaraq təyin edin",
+                "title": "[AT] Qızıl tələb"
+              },
+              "HasRegistries": {
+                "notice": "[AT] magic, reyestrinizdə iştirakçıların əlavə akkreditasiyası ilə işləmir. Zəhmət olmasa, akkreditasiya tələblərini silin.",
+                "title": "[AT] Qızıl tələb"
+              },
+              "NdaCannotBeEnabled": {
+                "notice": "[AT] ilkin kvalifikasiya / NDA mərhələsi aktiv olduqda sehr işləmir",
+                "title": "[AT] Qızıl tələb"
+              }
+            }
+          },
+          "comment": {
+            "title": "[AT] Səhnə adı:",
+            "placeholder": "[AT] Səhnə adı",
+            "error": "[AT] tələb olunan sahə",
+            "hint": "[AT] Məsələn: \"Təklif\", \"Son təkliflərin təqdim edilməsi\""
+          },
+          "mail": {
+            "title": {
+              "0": "[AT] Dəvət etdiyiniz iştirakçılara məlumat verəcəyik",
+              "1": "[AT] Biz iştirakçılara sorğunun dəyişməsi barədə məlumat verəcəyik",
+              "2": "[AT] İştirakçılara yeni mərhələ haqqında məlumat verəcəyik"
+            },
+            "subtitle": {
+              "0": "[AT] Məktubumuzu iştirakçılara mesajınızla əlavə edə bilərsiniz",
+              "1": "[AT] Məktubumuzu iştirakçılara mesajınızla əlavə edə bilərsiniz",
+              "2": "[AT] Məktubumuzu iştirakçılara mesajınızla əlavə edə bilərsiniz"
+            }
+          }
+        },
+        "vat": {
+          "cancel": "[AT] Ləğv et",
+          "confirm": "[AT] Müraciət edin",
+          "free": "[AT] NDS görünmür",
+          "header": "[AT] ƏDV dərəcəsi",
+          "text": "[AT] Bütün maddələr üçün ƏDV dərəcəsini göstərin"
+        },
+        "version_mismatch": {
+          "next": "[AT] Daha",
+          "version": {
+            "title": "[AT] Müraciət dəyişdi",
+            "text": "[AT] Səhifəni yeniləyin və yenidən cəhd edin."
+          },
+          "proposals": {
+            "title": "[AT] İştirakçı təklifi dəyişdi",
+            "text": "[AT] Zəhmət olmasa səhifəni yeniləyin və məlumatlandırmanı təkrarlayın."
+          }
+        },
+        "wrong_status": {
+          "Process": {
+            "Light": {
+              "Denied": "[AT] Sorğuda iştirak etmək mümkün deyil",
+              "Procedure": {
+                "Canceled": "[AT] Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                "Deleted": "[AT] Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                "Ended": "[AT] Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                "Expired": "[AT] Əməliyyat mümkün deyil. Sorğunun statusu dəyişdi.",
+                "Summarizing": "[AT] Müraciət məlumatlandırma mərhələsindədir. Fəaliyyət mümkün deyil."
+              }
+            }
+          }
+        },
+        "verified_only_info": {
+          "title": "[AT] Qarşı tərəflər niyə etibarlı şirkətlərlə işləməyə üstünlük verirlər?",
+          "legal_confirmed": {
+            "label": "[AT] Təcrübəli şirkət qarşı tərəflər arasında inam yaradır",
+            "text": "[AT] Şirkətinizin təfərrüatları mütəxəssislərimiz tərəfindən təsdiqlənir"
+          },
+          "requisites": {
+            "label": "[AT] Təsdiqlənmiş təchizatçılar xüsusi işarə ilə qeyd olunur",
+            "text": "[AT] Qarşı tərəflər şirkətinizin təsdiqlənmiş və etibarlı olduğunu dərhal görə biləcəklər"
+          },
+          "reports": {
+            "label": "[AT] Yalnız təsdiqlənmiş təchizatçılar üçün sorğularda iştirak edin",
+            "text": "[AT] Bu cür sorğularda təklifin təqdim edilməsi mütəxəssislərimiz tərəfindən şirkəti yoxladıqdan sonra mümkündür"
+          },
+          "verification_method_message": {
+            "title": "[AT] Biz mümkün olan ən sadə yoxlama mexanizmindən istifadə edirik.",
+            "text": "[AT] Şirkət yoxlaması mümkün qədər tez baş verir"
+          },
+          "close": "[AT] İndi yox",
+          "order_check": "[AT] Yoxlama tələb edin",
+          "message_for_verified": "[AT] Şirkətiniz təsdiqləndi!"
+        }
+      },
+      "positions": {
+        "snacks": {
+          "success": "Data yadda saxlanıldı"
+        },
+        "unsaved": {
+          "cancel": "Davam et",
+          "confirm": "Yadda saxla",
+          "title": "Maddə datası saxlanılmadı"
+        },
+        "delete_position": {
+          "dialog": {
+            "cancel": "Ləğv et",
+            "snack": "Maddə silindi",
+            "title": "Maddə silinsin?",
+            "yes": "Sil"
+          },
+          "tooltip": "Sil"
+        },
+        "delete_positions": {
+          "dialog": {
+            "cancel": "Ləğv et",
+            "snack": "Maddələr silinib",
+            "title": "({{ count }}) maddələri silin",
+            "yes": "Sil"
+          },
+          "tooltip": "Sil"
+        }
+      },
+      "verification": {
+        "action": "[AT] Sifariş xidməti",
+        "verified": "[AT] Şirkətiniz təsdiqləndi"
+      },
+      "header": {
+        "back": "[AT] Hazır",
+        "editing": "[AT] (Redaktə)",
+        "positions": "[AT] Məhsullar və xidmətlər",
+        "questionnaire": "[AT] Qeyri-qiymət meyarları"
+      },
+      "number": "[AT] Kod",
+      "participant": {
+        "items": {
+          "attachments": {
+            "empty": "[AT] Əlavə edilmiş fayl yoxdur",
+            "header": "[AT] Əlavə edilmiş fayllar",
+            "size": "[AT] Hər biri 25 MB-a qədər",
+            "upload": "[AT] Sənəd əlavə edin"
+          },
+          "position": {
+            "request": "[AT] Sorğu",
+            "startPrice": "[AT] Vahid üçün başlanğıc qiymət"
+          },
+          "table": {
+            "header": {
+              "import": "[AT] Fayldan yükləyin",
+              "total": "[AT] Təklif məbləği:"
+            },
+            "proposal": {
+              "comment": {
+                "empty": "[AT] Şərhsiz",
+                "label": "[AT] Şərh"
+              },
+              "count": {
+                "deviation": "[AT] Sapma",
+                "label": "[AT] Miqdar",
+                "zero": "[AT] Mövcud deyil"
+              },
+              "price": {
+                "label": "[AT] Birinin qiyməti.",
+                "vat": {
+                  "false": "[AT] ƏDV olmadan",
+                  "true": "[AT] ƏDV daxildir"
+                },
+                "hint": "[AT] Vahid üçün maksimum qiymət - {{ dəyər}}",
+                "max": "[AT] Vahid qiyməti maksimumdan yuxarı"
+              },
+              "vat": {
+                "change": "[AT] Bütün vəzifələr üçün qeyd edin",
+                "empty": "[AT] ƏDV olmadan",
+                "free": "[AT] NDS görünmür",
+                "label": "[AT] ƏDV dərəcəsi"
+              },
+              "no_positions": {
+                "label": "[AT] Mövcud deyil"
+              }
+            }
+          }
+        },
+        "proposal": {
+          "botzaar": {
+            "actions": {
+              "verify": {
+                "description": "[AT] \"Təsdiqlənmiş təchizatçı\" statusunu almaq üçün şirkətinizi yoxlamaq üçün ərizə təqdim edin",
+                "title": "[AT] Sifariş xidməti"
+              },
+              "cancelProposal": {
+                "description": "[AT] Dəyişikliklərdən imtina edin, bu, əvvəllər təqdim edilmiş təklifə təsir etməyəcək.",
+                "title": "[AT] dəyişiklikləri ləğv edin"
+              },
+              "changeProposal": {
+                "description": "[AT] Təklifinizin parametrlərini dəyişdirin: qiymət, miqdar, mal və ya xidmətlərin təsviri. Dəyişikliklər edərkən təşkilatçı əvvəllər təqdim edilmiş təklifi görür.",
+                "title": "[AT] Təklifi dəyişdirin"
+              },
+              "downloadProposal": {
+                "description": "[AT] Təklifinizi yükləyin.",
+                "title": "[AT] Təklifi yükləyin"
+              },
+              "resubmitProposal": {
+                "description": "[AT] Dəyişikliklər etdikdən sonra təklifi yeniləyin, təşkilatçı bildiriş alacaq və yenilənmiş təklifi görəcək.",
+                "title": "[AT] Təklifi Yeniləyin"
+              },
+              "submitProposal": {
+                "description": "[AT] Təşkilatçı tərəfindən baxılmaq üçün təklif təqdim edin.",
+                "title": "[AT] Təklif göndərin"
+              }
+            },
+            "canceled": {
+              "nda_pending": {
+                "message": "[AT] Sorğu ləğv edildi"
+              },
+              "nda_submitted": {
+                "message": "[AT] Sorğu ləğv edildi"
+              },
+              "active": {
+                "unverified": {
+                  "message": "[AT] Sorğu ləğv edildi. Müştəri yalnız etibarlı təchizatçıların təkliflərini qəbul etdi.\n\nTəsdiqlənmiş satıcılar üçün digər sorğularda iştirak etmək üçün təsdiq olun."
+                },
+                "with_proposal": {
+                  "message": "[AT] Sorğu ləğv edildi."
+                },
+                "without_proposal": {
+                  "message": "[AT] Sorğu ləğv edildi."
+                }
+              },
+              "blocked": {
+                "message": "[AT] Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
+              },
+              "refused": {
+                "message": "[AT] Təşkilatçı təklifinizi nəzərə almayıb."
+              }
+            },
+            "finished": {
+              "nda_pending": {
+                "message": "[AT] Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+              },
+              "nda_submitted": {
+                "message": "[AT] Sorğu tamamlandı. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+              },
+              "active": {
+                "unverified": {
+                  "message": "[AT] Sorğu tamamlandı. Müştəri yalnız etibarlı təchizatçıların təkliflərini qəbul etdi.\n\nTəsdiqlənmiş satıcılar üçün digər sorğularda iştirak etmək üçün təsdiq olun."
+                },
+                "with_proposal": {
+                  "message": "[AT] Sorğu tamamlandı."
+                },
+                "without_proposal": {
+                  "message": "[AT] Sorğu tamamlandı."
+                }
+              },
+              "blocked": {
+                "message": "[AT] Təşkilatçı sizi sorğudan kənarlaşdırdı və təklifinizi nəzərə almadı."
+              },
+              "looser": {
+                "message": "[AT] Sorğu tamamlandı."
+              },
+              "refused": {
+                "message": "[AT] Təşkilatçı təklifinizi nəzərə almayıb."
+              },
+              "winner": {
+                "message": "[AT] Sorğu tamamlandı."
+              }
+            },
+            "proposal": {
+              "nda_pending": {
+                "message": "[AT] İlkin ixtisas / NDA üçün sənədləri təqdim edin. Müştərinin müsbət qərarından sonra təklif hazırlayıb təqdim edə bilərsiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+              },
+              "nda_submitted": {
+                "message": "[AT] {{statusChangedDate}} tarixində təqdim edilmiş ilkin kvalifikasiya/NDA sənədləri. Müştərinin qəbul haqqında qərarından sonra siz təklif hazırlayıb təqdim edə biləcəksiniz. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+              },
+              "active": {
+                "unverified": {
+                  "message": "[AT] Müştəri yalnız etibarlı təchizatçıların təkliflərini qəbul edir. Təklifi təqdim etmək üçün doğrulama prosesini tamamlayın. {{acceptanceEndDate}} tarixinə qədər təkliflər qəbul edilir ({{acceptanceEndDays}} qalıb)."
+                },
+                "with_proposal": {
+                  "message": "[AT] Təklif təqdim olunub. Təklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
+                },
+                "without_proposal": {
+                  "message": "[AT] {{acceptanceEndDate}} tarixinə qədər təklif hazırlayın və təqdim edin ({{acceptanceEndDays}} qalır).\nTəklif müddəti bitməzdən əvvəl istənilən vaxt təklifi dəyişə bilərsiniz."
+                }
+              },
+              "blocked": {
+                "message": "[AT] Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
+              },
+              "refused": {
+                "message": "[AT] Təşkilatçı sizin təklifinizi nəzərə almır."
+              }
+            },
+            "summarize": {
+              "nda_pending": {
+                "message": "[AT] Təkliflər üçün çağırış başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+              },
+              "nda_submitted": {
+                "message": "[AT] Təkliflər üçün çağırış başa çatıb. Siz ilkin kvalifikasiya/NDA mərhələsindən keçməmisiniz və təklif təqdim etməmisiniz."
+              },
+              "active": {
+                "unverified": {
+                  "message": "[AT] Təkliflər üçün çağırış başa çatıb. Müştəri yalnız etibarlı təchizatçıların təkliflərini qəbul etdi.\n\nTəsdiqlənmiş satıcılar üçün digər sorğularda iştirak etmək üçün təsdiq olun."
+                },
+                "with_proposal": {
+                  "message": "[AT] Təklifiniz təşkilatçı tərəfindən nəzərə alınır."
+                },
+                "without_proposal": {
+                  "message": "[AT] Təkliflər üçün çağırış başa çatıb. Siz təklif təqdim etməmisiniz."
+                }
+              },
+              "blocked": {
+                "message": "[AT] Təşkilatçı sizi sorğudan kənarlaşdırıb və təklifinizi nəzərə almır."
+              },
+              "refused": {
+                "message": "[AT] Təşkilatçı sizin təklifinizi nəzərə almır."
+              }
+            }
+          },
+          "content": {
+            "actions": {
+              "change": "[AT] Dəyişmək",
+              "file": "[AT] fayl əlavə edin",
+              "open": "[AT] Açıq",
+              "set_up": "[AT] Doldur",
+              "specify": "[AT] Müəyyən edin",
+              "specify_inn": "[AT] VÖEN göstərin"
+            },
+            "contact": {
+              "empty": "[AT] Satınalma əlaqəsini göstərin",
+              "title": "[AT] Əlaqədar şəxs"
+            },
+            "documents": {
+              "sub_title": "[AT] Kommersiya təklifi və digər sənədlər.",
+              "title": "[AT] Sənədlər"
+            },
+            "inn": {
+              "empty": "[AT] Şirkətinizin VÖEN-ini daxil edin",
+              "title": "[AT] Şirkət VÖEN"
+            },
+            "positions": {
+              "sub_title": "[AT] Mal və xidmətlərin qiyməti, miqdarı və təsviri.",
+              "title": "[AT] Vəzifə spesifikasiyası"
+            },
+            "price": {
+              "sub-title": {
+                "auto": "[AT] Mövqelərə görə blok məlumatlarına uyğun olaraq hesablanır",
+                "manual": "[AT] Təklifinizin ümumi qiyməti"
+              },
+              "title": "[AT] Təklif qiyməti"
+            },
+            "questionnaire": {
+              "sub_title": "[AT] Təchizatçı Anketi.",
+              "title": "[AT] Təchizatçı Anketi"
+            },
+            "title": "[AT] Sizin təklifiniz",
+            "nda": {
+              "title": "[AT] İlkin kvalifikasiya üçün sənədlər / NDA",
+              "upload_document": "[AT] Sənədləri Yükləyin",
+              "submit": "[AT] Göndər",
+              "empty": "[AT] Sənədlər yüklənməyib"
+            }
+          },
+          "dialogs": {
+            "cancel": {
+              "cancel": "[AT] Ləğv et",
+              "header": "[AT] dəyişiklikləri ləğv edin",
+              "message": "[AT] Dəyişiklikləri ləğv etmək istədiyinizə əminsiniz? Bu hərəkət geri dönməzdir.",
+              "next": "[AT] Dəyişməkdən imtina edin",
+              "success": "[AT] Dəyişikliklər ləğv edildi"
+            },
+            "change": {
+              "cancel": "[AT] Ləğv et",
+              "header": "[AT] Təklifi dəyişdirin",
+              "message": "[AT] Təklifi dəyişmək istədiyinizə əminsiniz?",
+              "next": "[AT] Dəyişmək",
+              "success": "[AT] Təklif dəyişdirildi"
+            },
+            "submit": {
+              "header": {
+                "primary": "[AT] Təklif göndərin",
+                "repeated": "[AT] Təklifi Yeniləyin"
+              },
+              "default": {
+                "actions": {
+                  "cancel": {
+                    "primary": "[AT] Ləğv et",
+                    "repeated": "[AT] Ləğv et"
+                  },
+                  "next": {
+                    "primary": "[AT] Təklif göndərin",
+                    "repeated": "[AT] Təklifi Yeniləyin"
+                  }
+                },
+                "success": {
+                  "primary": "[AT] Təklif təqdim edildi",
+                  "repeated": "[AT] Təklif yeniləndi"
+                },
+                "text": {
+                  "primary": "[AT] Təkliflərin qəbulu bitənə qədər təklifi dəyişə bilərsiniz.",
+                  "repeated": "[AT] Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq.",
+                  "confirmation": "[AT] Sorğuda qalib gəldiyim halda Xidmət operatorunun Komissiyasının ödəniş şərtləri ilə razıyam.",
+                  "agreement": "[AT] İstifadə qaydaları."
+                }
+              },
+              "failure": {
+                "actions": {
+                  "cancel": "[AT] yaxın"
+                },
+                "how_rise": {
+                  "1": "[AT] Müştəri ilə söhbətdə təklifin qiymətini artırmaq üçün icazə tələb edin",
+                  "2": "[AT] Müştəri qərarını sizə çatda bildirəcək",
+                  "3": "[AT] Təsdiq edilərsə, daha yüksək qiymətə birdəfəlik təklif təqdim edə biləcəksiniz",
+                  "button": "[AT] Daha yüksək qiymətə təklifi necə təqdim etmək olar?"
+                },
+                "helper_auction": {
+                  "label": "[AT] Qiymət dəyişikliyi qaydasını pozan təklifi necə təqdim etmək olar?",
+                  "description": {
+                    "1": "[AT] Sorğu çatında Müştəridən icazə tələb edin",
+                    "2": "[AT] Müştəri qərarı barədə sizə məlumat verəcəkdir",
+                    "3": "[AT] Təsdiq edildikdən sonra siz qiymət dəyişikliyi qaydasını pozan təklifi bir dəfə təqdim edə biləcəksiniz.",
+                    "label": "[AT] Siz müəyyən edilmiş qiymət dəyişikliyi qaydalarını pozan təklif təqdim etmək üçün birdəfəlik icazə tələb edə bilərsiniz. Bunun üçün:"
+                  }
+                },
+                "helper_positions": {
+                  "label": "[AT] Fərdi əşyaların qiymətini necə dəyişmək olar?",
+                  "description": {
+                    "1": {
+                      "1_1": "[AT] Taba keçin",
+                      "1_2": "[AT] Təklif",
+                      "1_3": "[AT] və Təklifi Dəyişdir klikləyin"
+                    },
+                    "2": "[AT] Məhsul qiymətlərini dəyişdirin və təklifi yeniləyin",
+                    "3": "[AT] Unutmayın ki, yenilənmiş qiymət qiymət dəyişikliyi qaydasına uyğun olmalıdır",
+                    "label": "[AT] Qiymətin dəyişdirilməsi mövqelər üzrə təkliflərin qiymətini mütənasib şəkildə dəyişəcək. Əgər bu sizə uyğun gəlmirsə, o zaman qiymətləri fərdi qaydada tənzimləmək imkanınız var. Bunun üçün:"
+                  }
+                }
+              },
+              "loading": {
+                "text": "[AT] Təklif yoxlanılır..."
+              },
+              "verification": {
+                "text": "[AT] Bu sorğu yalnız təsdiqlənmiş satıcılar üçündür",
+                "notice": "[AT] Təklif təqdim etmək üçün Bidzaar-da yoxlayın",
+                "actions": {
+                  "more": "[AT] Daha çox öyrənmək üçün",
+                  "submit": "[AT] Baxış tələb edin"
+                }
+              },
+              "accreditation": {
+                "title": "[AT] Təkliflər akkreditə olunmuş təchizatçılardan qəbul edilir",
+                "text": "[AT] Təklif təqdim etmək üçün müştərinin reyestrlərində akkreditasiya alın"
+              }
+            },
+            "no_company": {
+              "title": "[AT] Şirkətinizi tapın\nvə ya biznesinizi Bidzaar-da qeydiyyatdan keçirin",
+              "info": "[AT] Sorğuda iştirak etmək üçün şirkətinizi Bidzaar-da pulsuz qeydiyyatdan keçirin. Saytın akkreditasiyası\ntələb olunmur",
+              "register": "[AT] Şirkət tapın və ya əlavə edin"
+            },
+            "no_user": {
+              "title": "[AT] Daxil ol və ya Bidzaar-da qeydiyyatdan keç",
+              "info": "[AT] Sorğuda iştirak etmək üçün Bidzaar profilinizə daxil olun və ya yenisini yaradın",
+              "register": "[AT] Giriş / Qeydiyyat"
+            },
+            "alerts": {
+              "no_rights": {
+                "title": "[AT] Müraciətlərdə iştirak etmək hüququ yoxdur",
+                "text": "[AT] Sorğularda iştirak etmək hüququ üçün şirkət administratorunuzla əlaqə saxlayın. Şirkətinizin sorğularda iştirak hüququ Bidzaar inzibatçısı tərəfindən təyin edilir"
+              },
+              "blocked": {
+                "title": "[AT] Müştəri sizi sorğudan kənarlaşdırdı",
+                "text": "[AT] Müştərinin istəyi ilə sorğuda iştirak edə bilməzsiniz. Ətraflı məlumat üçün müştəri ilə əlaqə saxlayın"
+              },
+              "already_participate": {
+                "title": "[AT] Şirkətiniz artıq sorğuda iştirak edir",
+                "text": "[AT] Nəticəni görmək üçün səhifəni yeniləyin və ya sorğuya yenidən baxın"
+              },
+              "errors": {
+                "title": "[AT] Müraciətdə iştirak etmək mümkün deyil",
+                "access_denied": "[AT] Bu sorğu şirkətiniz tərəfindən göndərilib. Giriş əldə etmək üçün sorğunun sahibi ilə əlaqə saxlayın",
+                "status_summarize": "[AT] Təkliflərin qəbulu başa çatıb, sorğu “Ümumiləşdirmə” mərhələsindədir",
+                "status_finished": "[AT] Sorğu tamamlandı",
+                "status_canceled": "[AT] Sorğu ləğv edildi",
+                "private": "[AT] Sorğuda iştirak edənlərin dairəsi məhduddur. üçün müştəri ilə əlaqə saxlayın",
+                "unknown": "[AT] Bunlarla əlaqə saxlamağınız xahiş olunur. dəstək, biz sizə kömək edəcəyik"
+              }
+            }
+          },
+          "contact_info": {
+            "title": "[AT] Sizi iştirak etməyə dəvət edirik",
+            "info": "[AT] Təklif təqdim etmək üçün iştirak edin və sorğu söhbətində müştəri ilə əlaqə saxlayın",
+            "submit": "[AT] iştirak et",
+            "cancel": "[AT] Mən hələ də düşünürəm"
+          },
+          "verification": {
+            "text": "[AT] Təşkilatçı etibarlı təchizatçılara üstünlük verir.",
+            "text_only_verified": "[AT] Müştəri yalnız etibarlı təchizatçıların təkliflərini qəbul edir.",
+            "learn_more": "[AT] Daha çox öyrənmək üçün",
+            "verified": "[AT] Testdən keçdi"
+          }
+        },
+        "commission": {
+          "title": "[AT] Xidmət Operator Komissiyası",
+          "table": {
+            "range": "[AT] Sifariş qiyməti:",
+            "total": "[AT] Xidmət Operator Komissiyası:",
+            "to": "[AT] əvvəl",
+            "from": "[AT] -dan"
+          },
+          "text": {
+            "free-for-company": "[AT] <span class=\"free\">Sorğuda iştirak ödənişsizdir, depozit qoymadan və vəsaitlərin bloklanması olmadan!</span> Əgər sorğunun qalibi elan olunarsanız, şirkətiniz Xidmət Operatorunun Komissiyasını ödəmir.",
+            "free-for-request": "[AT] <span class=\"free\">Sorğuda iştirak ödənişsizdir, depozit qoyulmadan və vəsait bloklanmadan!</span> Cari sorğuya görə, siz qalib elan olunarsanız, Xidmət Operatorunun Komissiyasından ödəniş tutulmur.",
+            "payment": "[AT] <span class=\"free\">Sorğuda iştirak ödənişsizdir, depozit qoyulmadan və vəsait bloklanmadan!</span> Xidmət operatorunun komissiyası yalnız qalib tərəfindən ödənilir, bu, sorğu müştərisi tərəfindən müəyyən edilir və ondan asılı deyil. sifarişçi ilə müqavilənin qalibi arasında faktiki bağlanma və sorğunun nəticələrinə əsasən digər hüquqi qüvvəyə malik sənədlərin imzalanması."
+          },
+          "total": {
+            "multi": "[AT] Xidmət Operatorunun komissiyasının məbləği sifarişin məbləğindən asılıdır və:",
+            "single": "[AT] Xidmət operatorunun komissiyasının məbləği sifarişin məbləğindən asılı deyil və aşağıdakılardır:"
+          }
+        }
+      },
+      "participants": {
+        "dialogs": {
+          "block_many": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Üzvləri bloklayın",
+            "message": "[AT] Bloklanmış üzvlər:\n• dəyişdirə və təkliflər verə bilməz\n• digər üzvlərin təkliflərinə baxa bilmir\n\nİstənilən vaxt iştirakçılara blokdan çıxarmaqla sorğuda yenidən iştirak etməyə icazə verə bilərsiniz.",
+            "next": "[AT] blok",
+            "success": "[AT] Üzvlər bloklandı"
+          },
+          "block_one": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Blok üzvü",
+            "message": "[AT] Bloklanmış üzv:\n• dəyişdirə və təklif təqdim edə bilməz\n• digər üzvlərin təkliflərinə baxa bilmir\n\nSiz cari və ya növbəti mərhələnin təkliflərinin qəbulu mərhələsində bloklamanı ləğv edə bilərsiniz.",
+            "next": "[AT] blok",
+            "success": "[AT] Üzv bloklandı"
+          },
+          "invite_email": {
+            "header": "[AT] E-poçt dəvəti",
+            "multi": {
+              "label": "[AT] Vergüllə ayrılmış ünvanları daxil edin və ya Daxil edin",
+              "cancel": "[AT] Ləğv et",
+              "submit": "[AT] əlavə et"
+            },
+            "single": {
+              "cancel": "[AT] Ləğv et",
+              "done": "[AT] Hazır",
+              "invite": "[AT] Dəvət etmək",
+              "append": "[AT] E-poçt əlavə edin",
+              "remove": "[AT] Sil",
+              "or": "[AT] və ya",
+              "switch": "[AT] Birdən çox e-poçt",
+              "optional": "[AT] Lazım deyil",
+              "email": "[AT] E-poçt",
+              "company": "[AT] Şirkət adı",
+              "draft": "[AT] Sorğu göndərildikdən sonra dəvətnamələr göndəriləcək"
+            },
+            "errors": {
+              "duplicate": "[AT] Bu e-poçt artıq siyahıdadır"
+            },
+            "success": {
+              "default": "[AT] Dəvətlər göndərildi",
+              "draft": "[AT] Sorğu göndərildikdən sonra dəvətnamələr göndəriləcək"
+            },
+            "failure": {
+              "default": "[AT] Göstərilən e-poçtu olan üzvlər artıq dəvət olunub",
+              "draft": "[AT] Göstərilən e-poçtu olan üzvlər artıq əlavə edilib"
+            }
+          },
+          "invite_link": {
+            "header": "[AT] Sorğu linki",
+            "hint": "[AT] Panoya kopyalamaq üçün Ctrl + C düymələrini basın",
+            "text": "[AT] Linki olan hər kəs sorğuya baxa və iştirak edə bilər. Linki kopyalayın və iştirakçıya göndərin."
+          },
+          "invite_site": {
+            "header": "[AT] İştirakçıların dəvəti",
+            "success": {
+              "default": "[AT] Dəvətlər göndərildi",
+              "draft": "[AT] Sorğu göndərildikdən sonra dəvətnamələr göndəriləcək"
+            }
+          },
+          "notify_many": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Dəvət göndərin",
+            "message": "[AT] İştirakçılara dəvətnamələr göndəriləcək.",
+            "next": "[AT] Göndər",
+            "success": "[AT] Dəvətlər göndərildi"
+          },
+          "notify_one": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Dəvət göndərin",
+            "message": "[AT] İştirakçıya dəvətnamə göndəriləcək.",
+            "next": "[AT] Göndər",
+            "success": "[AT] dəvət göndərilir"
+          },
+          "remove_many": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Üzvlərin çıxarılması",
+            "message": "[AT] Üzvlər silinəcək.",
+            "next": "[AT] Sil",
+            "success": "[AT] İştirakçılar iştirakdan imtina etdilər"
+          },
+          "remove_one": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Üzvün silinməsi",
+            "message": "[AT] Üzv silinəcək.",
+            "next": "[AT] Sil",
+            "success": "[AT] Üzv silindi"
+          },
+          "unblock_many": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Üzvləri blokdan çıxarın",
+            "message": "[AT] İştirakçılar dəvətnamələr alacaq və təkliflərini təqdim edə biləcəklər.",
+            "next": "[AT] Kilidi aç",
+            "success": "[AT] Üzvlər Kilidi Açıldı"
+          },
+          "unblock_one": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] Üzvü blokdan çıxarın",
+            "message": "[AT] İştirakçı söhbət mesajı alacaq və təklif göndərə biləcək.",
+            "next": "[AT] Kilidi aç",
+            "success": "[AT] Üzv kilidi açıldı"
+          },
+          "permit_change_one": {
+            "cancel": "[AT] Ləğv et",
+            "header": "[AT] İddiaçıya təklif qiymətini dəyişməyə icazə verilsin?",
+            "message": "[AT] İcazə iştirakçıya tender qaydalarını pozan təklifinin qiymətini dəyişmək üçün birdəfəlik hüquq verir.",
+            "next": "[AT] icazə verin",
+            "success": "[AT] Qiymət dəyişikliyinə icazə verilir"
+          }
+        },
+        "list": {
+          "actions": {
+            "empty": {
+              "text": "[AT] Heç bir əməliyyat yoxdur"
+            },
+            "bulk": {
+              "button": "[AT] Tədbirlər"
+            },
+            "block_many": {
+              "button": "[AT] Blok Seçildi",
+              "tooltip": "[AT] Seçilmiş üzvləri bloklayın. Fəaliyyət geri qaytarıla bilər"
+            },
+            "block_others": {
+              "button": "[AT] Seçilmişlərdən başqa hamısını bloklayın"
+            },
+            "block_one": {
+              "button": "[AT] Blok üzvü",
+              "notice": "[AT] Fəaliyyət geri qaytarıla bilər"
+            },
+            "invite_blocked": {
+              "button": "[AT] Keçmiş mərhələlərdən bloklanmış iştirakçılar"
+            },
+            "invite_email": {
+              "button": "[AT] Elektron-poçt ilə"
+            },
+            "invite_link": {
+              "button": "[AT] Sorğu linkini kopyalayın"
+            },
+            "invite_menu": {
+              "button": "[AT] Dəvət etmək"
+            },
+            "invite_site": {
+              "button": "[AT] Saytdan"
+            },
+            "invite_site_tags": {
+              "button": "[AT] İstək etiketləri ilə saytdan",
+              "no": "[AT] Sorğu etiketlərini təyin edin",
+              "text": "[AT] İştirakçıları teqlərlə dəvət etmək üçün sorğunun təsvirində etiketləri göstərin.",
+              "title": "[AT] Sorğu etiketləri göstərilməyib",
+              "yes": "[AT] Davam et"
+            },
+            "notify_many": {
+              "button": "[AT] Dəvət göndərin",
+              "tooltip": "[AT] Seçilmiş iştirakçılara dəvət göndərin"
+            },
+            "notify_one": {
+              "button": "[AT] Dəvət göndərin"
+            },
+            "remove_many": {
+              "button": "[AT] Seçilmişi Sil",
+              "tooltip": "[AT] Seçilmiş üzvləri silin"
+            },
+            "remove_one": {
+              "button": "[AT] Sil"
+            },
+            "report": {
+              "title": "[AT] İştirakçıların siyahısını yükləyin",
+              "tooltip": "[AT] İştirakçıların siyahısını yükləyin"
+            },
+            "archive_nda": {
+              "title": "[AT] Cari ilkin kvalifikasiya/NDA proqramlarını endirin",
+              "tooltip": "[AT] Cari ilkin kvalifikasiya/NDA proqramlarını endirin"
+            },
+            "unblock_many": {
+              "button": "[AT] Kilidi aç seçildi",
+              "tooltip": "[AT] Seçilmiş üzvləri blokdan çıxarın"
+            },
+            "unblock_one": {
+              "button": "[AT] Kilidi aç"
+            },
+            "nda": {
+              "title": "[AT] Ön kvalifikasiya / NDA",
+              "request": "[AT] Ön Kvalifikasiya Sənədləri / NDA",
+              "decision": "[AT] Qəbul qərarı"
+            },
+            "permit_change": {
+              "reduction": {
+                "button": "[AT] Qiymət artımına icazə verin"
+              },
+              "auction": {
+                "button": "[AT] Qiymət endiriminə icazə verin"
+              }
+            },
+            "chat": {
+              "button": "[AT] Üzvlə söhbət edin"
+            },
+            "chat_group": {
+              "button": "[AT] Çata mesaj yazın",
+              "dialog": {
+                "title": "[AT] Çata mesaj yazın",
+                "label": "[AT] İştirakçılara mesaj",
+                "cancel": "[AT] Ləğv et",
+                "submit": "[AT] Göndər",
+                "success": "[AT] Mesaj göndərildi"
+              }
+            },
+            "add_register": {
+              "button": "[AT] Qeydiyyata Dəvət Edin",
+              "dialog": {
+                "title": "[AT] Reyestr seçin",
+                "button": "[AT] Dəvət etmək"
+              },
+              "success": "[AT] dəvət göndərilir",
+              "mach_success": "[AT] Dəvətlər göndərildi",
+              "error": "[AT] Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin"
+            }
+          },
+          "gold": {
+            "title": "[AT] Bidzaar sehri daxildir",
+            "text": "[AT] Təqdim edilmiş təkliflər - \"Müqayisə\" sekmesinde",
+            "link": "[AT] Bu necə işləyir"
+          },
+          "empty": "[AT] Üzvlər əlavə edin. Sorğu yerləşdirildikdən sonra iştirakçılar dəvətnamələr alacaqlar.\nSiz həmçinin təkliflərin qəbulu mərhələsində iştirakçılar əlavə edə bilərsiniz.",
+          "filters": {
+            "status": {
+              "title": "[AT] Üzv statusu"
+            },
+            "invited_by": {
+              "title": "[AT] -dən dəvət"
+            }
+          },
+          "forbidden": {
+            "message": "[AT] Təşkilatçı ərizəyə dəyişikliklər edir",
+            "notice": "[AT] Redaktə başa çatdıqdan sonra hərəkəti təkrarlayın.",
+            "title": "[AT] Məlumat mövcud deyil"
+          },
+          "not_found": "[AT] Axtarışınız üçün heç nə tapılmadı...",
+          "search": {
+            "tooltip": "[AT] Şirkət adı"
+          },
+          "invited_by_bidzaar": "[AT] Bidzaar işçisi tərəfindən dəvət olunub",
+          "title": "[AT] Üzvlər",
+          "selected": "[AT] Seçildi",
+          "search_tooltip": "[AT] Şirkətin adı, şirkət e-poçtu",
+          "verified": "[AT] Şirkət şirkətinizin reyestrində akkreditə olunub"
+        },
+        "blocked": {
+          "header": {
+            "title": "[AT] Əvvəlki mərhələlərin bloklanmış iştirakçıları",
+            "submit": "[AT] İştirakı yeniləyin"
+          },
+          "empty": {
+            "text": "[AT] Qadağan olunmuş üzvlər yoxdur",
+            "notice": "[AT] Əvvəlki mərhələlərin bütün iştirakçıları cari mərhələyə buraxılırlar"
+          },
+          "list": {
+            "selected": {
+              "count": "[AT] Seçildi: {{ dəyər }}"
+            },
+            "search": {
+              "placeholder": "[AT] Axtar"
+            },
+            "items": {
+              "empty": "[AT] Axtarışınız üçün heç nə tapılmadı..."
+            }
+          },
+          "success": {
+            "snack": "[AT] Seçilmiş şirkətlər sorğuya yenidən dəvət olunur"
+          }
+        }
+      },
+      "publish": {
+        "button": "[AT] Sorğu göndərin",
+        "text": "[AT] Təchizatçıları məlumatlandırmaq və onların kotirovkalarını almaq üçün sorğu göndərin."
+      },
+      "sellers": {
+        "empty": "[AT] İştirakçılar təklif təqdim etməyiblər",
+        "header": {
+          "count": "[AT] ᛫ {{dəyər}}",
+          "text": "[AT] Təkliflər verən iştirakçılar"
         },
         "unauthorized": {
-          "register": "Qeydiyyat və giriş",
-          "text": "Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan ke və ya daxil ol"
+          "register": "[AT] Qeydiyyat və giriş",
+          "text": "[AT] Bütün sorğu təfərrüatlarına baxmaq üçün qeydiyyatdan keçin və ya daxil olun"
         }
       },
       "seo": {
-        "description": "{{date}} tarixindən əvvəl {{company}} sorğusu göndərin."
+        "description": "[AT] {{date}} tarixindən əvvəl {{şirkət}} sorğusu göndərin."
       },
       "snacks": {
-        "acceptanceEndDateChanged": "Təkliflər qəbulunun son tarixi dəyişdi",
-        "comparison_updated": "Müqayisə bölməsi yeniləndi",
-        "participant_refused": "İştirakçı təklifi geri götürdü, Müqayisə məlumatları yeniləndi",
-        "participant_refused_current_company": "Satınalmada iştirak dayandırıldı",
-        "procedure_deleted": "Sorğu silindi",
-        "proposal_submitted": "İştirakçı təklif təqdim etdi, Müqayisə məlumatları yeniləndi",
-        "proposal_submitted_current_company": "Təklif təqdim olundu, Müqayisə məlumatları  yeniləndi",
-        "proposal_update": "İştirakçı təklifi yenilədi, Müqayisə məlumatları yeniləndi",
-        "proposal_update_current_company": "Təklif yeniləndi, müqayisə Məlumatları yeniləndi",
-        "published": "Sorğu dərc edilib",
-        "recall_proposal_current_company": "Təklif geri götürüldü",
-        "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
-        "updated": "Sorğu yeniləndi",
-        "version_created": "Qaralama yaradıldı",
-        "request_published": "[AT] Sorğu nəşr olunur",
-        "stage_published": "[AT] Mərhələ nəşr olunur",
-        "changes_published": "[AT] Dəyişikliklər nəşr"
-      },
-      "status": {
-        "0": "Qaralama",
-        "1": "Təkliflərin qəbulu",
-        "2": "Təkliflərin qəbulu bitdi, yekunlşdırma sorğusu",
-        "3": "Sorğu tamamlandı",
-        "4": "Sorğu ləğv edildi",
-        "until": "{{ date }} kimi"
+        "request_published": "[AT] Sorğu dərc edilib",
+        "stage_published": "[AT] Mərhələ nəşr olundu",
+        "changes_published": "[AT] Dəyişikliklər dərc edildi",
+        "acceptanceEndDateChanged": "[AT] Təkliflər üçün çağırış üçün son tarix dəyişdi",
+        "comparison_updated": "[AT] Müqayisə paneli yeniləndi",
+        "procedure_deleted": "[AT] Sorğu silindi",
+        "updated": "[AT] Sorğu yeniləndi",
+        "version_created": "[AT] Qaralama yaradıldı",
+        "there_draft": "[AT] Redaktəni tamamlayın və təklifi yeniləyin",
+        "proposal_submitted": "[AT] İştirakçı təklif təqdim etdi, Müqayisədəki məlumatlar yenilənir",
+        "proposal_update": "[AT] İştirakçı təklifi yenilədi, müqayisədəki məlumatlar yeniləndi",
+        "proposal_submitted_current_company": "[AT] Təklif təqdim edildi, Müqayisə məlumatları yeniləndi",
+        "proposal_update_current_company": "[AT] Təklif yeniləndi, Müqayisə məlumatları yeniləndi",
+        "participant_refused": "[AT] İştirakçı təklifi geri götürdü, Müqayisədəki məlumatlar yenilənir",
+        "participant_refused_current_company": "[AT] Hərracda iştirak dayandırılır",
+        "recall_proposal_current_company": "[AT] Təklif geri götürüldü"
       },
       "tabs": {
-        "comparison": "MÜQAYİSƏ",
-        "conclusion": "YEKUN NƏTİCƏLƏR",
-        "participants": "İŞTİRAKÇILAR",
-        "positions": "MADDƏLƏR",
-        "proposal": "TƏKLİF",
-        "questionnaire": "ANKET",
-        "request": "SORĞU"
+        "comparison": "[AT] MÜQAYISƏ",
+        "conclusion": "[AT] NƏTİCƏLƏR",
+        "participants": "[AT] İŞTİRAKÇILAR",
+        "positions": "[AT] MƏVQƏLƏR",
+        "proposal": "[AT] TƏKLİF",
+        "questionnaire": "[AT] SORĞU",
+        "request": "[AT] SORĞU"
       },
-      "verification": {
-        "action": "Xidmət sifariş et",
-        "verified": "Şirkətiniz yoxlanıldı"
+      "notice": {
+        "title": "[AT] Satınalma Bildirişi",
+        "stage": "[AT] MƏRHƏLƏ {{ indeks }}",
+        "text": {
+          "0": "[AT] Qaralama ({{ yaradılış tarixi }})",
+          "1": "[AT] Qüvvəyə minir ({{ publishDate }})",
+          "2": "[AT] Qüvvəyə minir ({{ publishDate }})",
+          "3": "[AT] Qüvvəyə minir ({{ publishDate }})",
+          "4": "[AT] Yanlış ({{ publishDate }})"
+        }
       },
-      "keywords": "sorğu, satınalma, tender, təchizat, xidmətlər"
+      "owner": {
+        "title": "[AT] Müştəri",
+        "profile": "[AT] Müştəri haqqında",
+        "preference": "[AT] Təşkilatçı etibarlı təchizatçılara üstünlük verir."
+      },
+      "keywords": "[AT] sorğu, satınalma, tender, təchizat, xidmətlər"
     }
   }
 }

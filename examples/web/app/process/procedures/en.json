@@ -104,11 +104,15 @@
       "export": "Export",
       "manager_title": "All requests of the company",
       "download": "Download",
-      "vendors_statistics_dialog": {
-        "title": "Vendors statistics",
+      "report": {
         "period": "Report period",
         "cancel": "Cancel",
-        "download": "Download"
+        "download": "Download",
+        "type": {
+          "0": "Vendors report",
+          "1": "All requests",
+          "2": "Completed requests"
+        }
       }
     },
     "manager": {
@@ -132,6 +136,7 @@
     },
     "list_item": {
       "owners": "Request owners ({{value}})",
+      "owners_empty": "There are no owners",
       "chats_tooltip": "New messages",
       "budget": "Budget",
       "order_price": "Order price"

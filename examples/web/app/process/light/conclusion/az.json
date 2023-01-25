@@ -97,11 +97,12 @@
             "active": {
               "actions": {
                 "clear": "Sorğunu sil",
-                "create": "Sifarişi formalaşdır",
-                "with": "Sorğunu tamamla",
-                "without": "Sifariş olmadan sorğunu tamamlayın"
+                "create": "[AT] sorğunu bitir",
+                "without": "[AT] qalib olmadan sorğunu tamamlayın",
+                "with": "[AT] qalib seçin"
               },
               "list": {
+                "title": "[AT] Seçim",
                 "contacts": {
                   "title": "Əlaqəli şəxs"
                 },
@@ -114,12 +115,11 @@
                 "reports": {
                   "notice": "Express hesabatları qarşı tərəf haqqında ən vacib şeyləri tez və asanlıqla öyrənməyə kömək edir. Yalnız yoxlanılmış təchizatçılar üçün mövcuddur.",
                   "title": "Ekspress hesabatlar"
-                },
-                "title": "Sifariş"
+                }
               },
               "stub": {
-                "notice": "Müqayisə bölməsində sifariş verin",
-                "text": "Sifariş yoxdur"
+                "text": "[AT] Sorğunun qalibi müəyyən edilməyib",
+                "notice": "[AT] Müqayisə sekmesinde sorğu qalibini seçin"
               },
               "vat": {
                 "false": "ƏDV-siz",
@@ -136,12 +136,12 @@
               }
             },
             "docs": {
-              "order": "Sifariş",
+              "order": "[AT] Seçim",
               "sentence": "Cümlə"
             },
             "finished": {
               "stub": {
-                "text": "Sorğu sifarişsiz tamamlandı"
+                "text": "[AT] Sorğu qalib seçilmədən tamamlandı"
               }
             }
           },
@@ -181,7 +181,7 @@
             }
           },
           "canceled": {
-            "title": "[AT] Ləğv edilmiş sifarişlər ({{value}})",
+            "title": "[AT] Ləğv edilmiş nəticələr ({{value}})",
             "order_title": "[AT] Ləğv",
             "reason": "[AT] Səbəb"
           }
@@ -247,7 +247,7 @@
             },
             "mail": {
               "title": "Sorğu tamamlandıqda iştirakçılara məlumat verəcəyik",
-              "subtitle": "E-poçtlarımıza baxın və üzvlərə mesajlar əlavə edin"
+              "subtitle": "[AT] Məktubumuzu üzvlərə mesajınızla tamamlaya bilərsiniz"
             }
           },
           "saving_editor": {

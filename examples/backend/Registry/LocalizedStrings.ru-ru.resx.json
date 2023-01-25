@@ -4,7 +4,7 @@
     "Application.Scoring": "Скоринг-оценка заявки",
     "Page.Title": "Bidzaar",
     "Participant.State.Accreditated": "Аккредитованный поставщик",
-    "Participant.State.Active": "Подготовка к аккредитации",
+    "Participant.State.Active": "В процессе аккредитации",
     "Participant.State.Blocked": "Заблокирован",
     "Participant.State.Expired": "Истёк срок аккредитации",
     "Participant.State.Invited": "Приглашен в реестр",

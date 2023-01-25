@@ -102,7 +102,18 @@
       "title": "web/app/process/procedures: prs.my.title",
       "create": "web/app/process/procedures: prs.my.create",
       "export": "web/app/process/procedures: prs.my.export",
-      "manager_title": "web/app/process/procedures: prs.my.manager_title"
+      "manager_title": "web/app/process/procedures: prs.my.manager_title",
+      "download": "web/app/process/procedures: prs.my.download",
+      "report": {
+        "period": "web/app/process/procedures: prs.my.report.period",
+        "cancel": "web/app/process/procedures: prs.my.report.cancel",
+        "download": "web/app/process/procedures: prs.my.report.download",
+        "type": {
+          "0": "web/app/process/procedures: prs.my.report.type.0",
+          "1": "web/app/process/procedures: prs.my.report.type.1",
+          "2": "web/app/process/procedures: prs.my.report.type.2"
+        }
+      }
     },
     "manager": {
       "search_tooltip": "web/app/process/procedures: prs.manager.search_tooltip"
@@ -125,6 +136,7 @@
     },
     "list_item": {
       "owners": "web/app/process/procedures: prs.list_item.owners",
+      "owners_empty": "web/app/process/procedures: prs.list_item.owners_empty",
       "chats_tooltip": "web/app/process/procedures: prs.list_item.chats_tooltip",
       "budget": "web/app/process/procedures: prs.list_item.budget",
       "order_price": "web/app/process/procedures: prs.list_item.order_price"
@@ -135,6 +147,7 @@
     },
     "empty_list": "web/app/process/procedures: prs.empty_list",
     "private": "web/app/process/procedures: prs.private",
+    "gold": "web/app/process/procedures: prs.gold",
     "views_count": "web/app/process/procedures: prs.views_count",
     "rank": {
       "not_available": "web/app/process/procedures: prs.rank.not_available",

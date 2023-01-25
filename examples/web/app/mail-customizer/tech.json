@@ -1,0 +1,24 @@
+{
+  "mail_customizer": {
+    "dialog": {
+      "message_label": "web/app/mail-customizer: mail_customizer.dialog.message_label",
+      "preview": {
+        "title": "web/app/mail-customizer: mail_customizer.dialog.preview.title",
+        "subtitle": "web/app/mail-customizer: mail_customizer.dialog.preview.subtitle",
+        "button": "web/app/mail-customizer: mail_customizer.dialog.preview.button"
+      },
+      "cancel": "web/app/mail-customizer: mail_customizer.dialog.cancel",
+      "submit": "web/app/mail-customizer: mail_customizer.dialog.submit",
+      "success_tooltip": "web/app/mail-customizer: mail_customizer.dialog.success_tooltip"
+    },
+    "mails": {
+      "ProcedurePublishedParticipantsInvited": "web/app/mail-customizer: mail_customizer.mails.ProcedurePublishedParticipantsInvited",
+      "ProcedureChanged": "web/app/mail-customizer: mail_customizer.mails.ProcedureChanged",
+      "ProcedureStagePublishedEvent": "web/app/mail-customizer: mail_customizer.mails.ProcedureStagePublishedEvent",
+      "ProcedureUnCompletedWinners": "web/app/mail-customizer: mail_customizer.mails.ProcedureUnCompletedWinners",
+      "NotifyProcedureFinishedWithoutOrder": "web/app/mail-customizer: mail_customizer.mails.NotifyProcedureFinishedWithoutOrder",
+      "NotifyProcedureFinishedWithOrderLooser": "web/app/mail-customizer: mail_customizer.mails.NotifyProcedureFinishedWithOrderLooser",
+      "NotifyProcedureFinishedWithOrderWinner": "web/app/mail-customizer: mail_customizer.mails.NotifyProcedureFinishedWithOrderWinner"
+    }
+  }
+}

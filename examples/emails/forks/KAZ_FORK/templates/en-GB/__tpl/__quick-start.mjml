@@ -1,0 +1,12 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <h2>How to start:</h2>
+      <ol>
+        <li><a href="@ConfigurationContext.BaseUrl/home">Set up your company's profile ►</a></li>
+        <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Find a request to participate in, or publish your request ►</a></li>
+        <li><a href="@ConfigurationContext.BaseUrl/companies/all">See the companies which use @ConfigurationContext.ProjectName ►</a></li>
+      </ol>
+    </mj-text>
+  </mj-column>
+</mj-section>

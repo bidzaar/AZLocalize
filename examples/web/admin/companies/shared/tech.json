@@ -39,8 +39,8 @@
         },
         "deleted": {
           "title": "web/admin/companies/shared: cmp.shared.list.filters.deleted.title",
-          "true": "web/admin/companies/shared: cmp.shared.list.filters.deleted.true",
-          "false": "web/admin/companies/shared: cmp.shared.list.filters.deleted.false"
+          "false": "web/admin/companies/shared: cmp.shared.list.filters.deleted.false",
+          "true": "web/admin/companies/shared: cmp.shared.list.filters.deleted.true"
         }
       },
       "sort": {

@@ -1,5 +1,10 @@
 {
   "ptb": {
+    "actions": {
+      "collapse": "Hide columns",
+      "expand": "Show hidden columns",
+      "customize": "Customize columns"
+    },
     "custom_field_popover": {
       "name": "Name",
       "new": "Create column",

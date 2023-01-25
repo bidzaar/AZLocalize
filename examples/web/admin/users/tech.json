@@ -35,7 +35,8 @@
         "32": "web/admin/users: usr.users.rights.32",
         "64": "web/admin/users: usr.users.rights.64",
         "256": "web/admin/users: usr.users.rights.256",
-        "512": "web/admin/users: usr.users.rights.512"
+        "512": "web/admin/users: usr.users.rights.512",
+        "1024": "web/admin/users: usr.users.rights.1024"
       },
       "change_role_dialog": {
         "title": "web/admin/users: usr.users.change_role_dialog.title",

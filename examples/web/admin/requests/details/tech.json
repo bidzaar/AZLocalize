@@ -20,7 +20,8 @@
     },
     "description": {
       "expand": "web/admin/requests/details: req.details.description.expand",
-      "collapse": "web/admin/requests/details: req.details.description.collapse"
+      "collapse": "web/admin/requests/details: req.details.description.collapse",
+      "empty": "web/admin/requests/details: req.details.description.empty"
     },
     "contacts": {
       "title": "web/admin/requests/details: req.details.contacts.title"
@@ -60,7 +61,7 @@
           "closed": "web/admin/requests/details: req.details.tariffs.payment_fee.fee.closed"
         }
       },
-      "view": "web/admin/requests/details: req.details.tariffs.view",
+      "info": "web/admin/requests/details: req.details.tariffs.info",
       "dialog": {
         "edit": "web/admin/requests/details: req.details.tariffs.dialog.edit"
       }

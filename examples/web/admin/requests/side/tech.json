@@ -40,6 +40,9 @@
         }
       },
       "company": {
+        "categories": {
+          "title": "web/admin/requests/side: req.side.supplier.company.categories.title"
+        },
         "contacts": {
           "title": "web/admin/requests/side: req.side.supplier.company.contacts.title",
           "placeholders": {

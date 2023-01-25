@@ -1,5 +1,10 @@
 {
   "ptb": {
+    "actions": {
+      "collapse": "web/components/positions-table: ptb.actions.collapse",
+      "expand": "web/components/positions-table: ptb.actions.expand",
+      "customize": "web/components/positions-table: ptb.actions.customize"
+    },
     "custom_field_popover": {
       "name": "web/components/positions-table: ptb.custom_field_popover.name",
       "new": "web/components/positions-table: ptb.custom_field_popover.new",

@@ -44,7 +44,8 @@
         "0": "Their bid only",
         "1": "Place in bids ranking only",
         "2": "Competitors bids - yes, names - no",
-        "3": "Competitors bids and names"
+        "3": "Competitors bids and names",
+        "4": "The best prices among competitors bids"
       },
       "owner_visibility": {
         "0": "Can view participants` bids",
@@ -149,7 +150,8 @@
         "2": "Acceptance of bids ended, request on summing up stage",
         "3": "Request completed",
         "4": "Request canceled",
-        "until": "until {{ date }}"
+        "until": "until {{ date }}",
+        "tooltip": "Corresponds to the date and time on your computer"
       },
       "verification": {
         "action": "Order service",
@@ -289,14 +291,18 @@
           "proposals": "BID SUMMARY",
           "alternative": "Alternative",
           "actions": "Actions",
-          "verified_tooltip": "Company is accredited in your company registry"
+          "verified_tooltip": "Company is accredited in your company registry",
+          "best_price": {
+            "title": "Best price",
+            "subtitle": "among the bids of the participants"
+          },
+          "names_hidden": "The name of the participant is hidden"
         },
         "list": {
           "about_company": "about company",
           "cancel_selection": "Cancel selection",
           "change_price": "Change price",
           "chose_proposal": "Choose bid",
-          "dillegence": "Participant risk assessment:",
           "no_requisites": "Not provided",
           "open_requisites": "Open",
           "participant": "Participant",
@@ -322,7 +328,7 @@
           "from": "from",
           "not_full_tooltip": "The position is presented in an incomplete volume",
           "rank_tooltip": "Bid rank",
-          "add_to_order": "Add to order",
+          "add_to_order": "Choose",
           "in_order": "In order: {{count}} {{unit}} ",
           "empty": "Not available",
           "details": "Show details"
@@ -333,25 +339,26 @@
           "not_specified": "Not specified",
           "price_for_unit": "Target cost per unit in request currency",
           "price_not_specified": "Price is not specified",
-          "request": "Request"
+          "request": "Request",
+          "description": "Description"
         },
         "position_proposal_dialog": {
           "files": "Files",
           "proposal": {
             "title": "Bid:",
-            "at_the_price_of": "at the price of",
+            "at_the_price_of": "by",
             "per_unit": "per unit"
           },
           "with_vat": "incl. VAT",
           "without_vat": "excl. VAT",
           "total": "Total",
-          "in_order": "In order:",
-          "add_all": "Add all\navailable quantity",
+          "in_order": "Selected:",
+          "add_all": "Add all",
           "cancel": "Cancel",
           "save": "Save",
           "comment": "Comment",
           "info": "Info",
-          "float_count_warning": "Attention! Specified fractional quantity in the order. Make sure the position can be divided into fractional volumes",
+          "float_count_warning": "Ensure fractional delivery is possible",
           
           "add": "Add to the order",
           "added_to_order": "Added to the order",
@@ -369,7 +376,7 @@
           "success_snack": "Data saved"
         },
         "position_proposal_total_dialog": {
-          "title": "Change order amount by item",
+          "title": "Change selection amount",
           "total": "Total:",
           "count_error": "The amount exceeds the supplier's offer",
           "cancel": "Cancel",
@@ -382,19 +389,19 @@
         },
         "rank": "Proposal rank",
         "rank_inaccessible": "Rank unavailable",
-        "selected_participants": "Selected offers",
+        "selected_participants": "Bids in selection",
         "timer": "Time left",
         "tooltips": {
           "download_my_proposal_table": "Download my bid",
           "download_proposal": "Download bid",
           "customize_view": "Customize view"
         },
-        "total_order_sum": "Order price",
-        "order_distribution": "Order distribution",
+        "total_order_sum": "Choice",
+        "order_distribution": "Choice distribution",
         "order_price": "Order price",
         "order_cell": {
           "choose": "Choose proposal",
-          "selected": "Position {{value}} from {{count}}",
+          "selected": "{{value}} from {{count}} positions",
           "full": "all positions"
         },
         "actions": {
@@ -421,7 +428,8 @@
           "cancel": "Cancel"
         },
         "sorting": {
-          "button": "Proposals order",
+          "button": "Proposals",
+          "tooltip": "Customize order of offers",
           "0": "First with the best price",
           "1": "First with complete satisfaction",
           "2": "First with the highest ranks by position",
@@ -458,6 +466,19 @@
           "target_price": "Relative to target value",
           "first_price": "Relative to the original offer",
           "best_price": "Relative to the best offer"
+        },
+        "participants_filter": {
+          "button": "Suppliers",
+          "tooltip": "Filter suppliers"
+        },"companies_filter_dialog": {
+          "selected": "Selected: {{value}}",
+          "tin": "TIN",
+          "search": "Search:",
+          "clear_filter": "Clear filter",
+          "cancel": "Cancel",
+          "submit": "Submit",
+          "supplier_not_found": "Supplier not found",
+          "supplier_not_found_help": "Make sure the supplier has submitted an offer.\nSearch by name or TIN."
         }
       },
       "dialogs": {
@@ -503,7 +524,7 @@
         "offers": {
           "header": {
             "comparison": "Download comparison table",
-            "all-receipt": "Download order"
+            "all-receipt": "Download the selection"
           },
           "options": {
             "attachment": "Download with attached documents",
@@ -528,8 +549,8 @@
           }
         },
         "no_orders": {
-          "title": "Order not formed",
-          "text": "To form an order, select a participant's offer or individual offer items",
+          "title": "Nothing is selected",
+          "text": "Select a participant's offer or individual offer items",
           "cancel": "I see"
         },
         "finish_round": {
@@ -538,6 +559,7 @@
           "message": "Participants will not be able to submit or modify their proposals. After summarizing the round, you can announce a new bidding round.",
           "next": "Complete round",
           "success": "Bidding round completed",
+          "time_tooltip": "end of the round",
           "time": "End of the current bidding round:"
         },
         "leave": {
@@ -705,9 +727,9 @@
               "2": "We will notify the vendors about the new stage"
             },
             "subtitle": {
-              "0": "View our email and add a message to the vendors you invited",
-              "1": "View our email and add a message to vendors",
-              "2": "View our letter and add a message to the stage vendors"
+              "0": "You can supplement our letter with your message to the participants",
+              "1": "You can supplement our letter with your message to the participants",
+              "2": "You can supplement our letter with your message to the participants"
             }
           }
         },
@@ -796,7 +818,10 @@
           "label_empty": "Return request for summarizing?",
           "mail": {
             "title": "We will notify deselected vendors",
-            "subtitle": "View our email and add a message to deselected vendors"
+            "subtitle": {
+              "false": "View our email and add a message to deselected vendors",
+              "true": "You can add your message to our letter to the winning participants"
+            }
           }
         }
       },
@@ -1214,6 +1239,10 @@
             "success": {
               "default": "Invitation sent",
               "draft": "Invitations will be sent after the publication of the request."
+            },
+            "failure": {
+              "default": "Participants with the specified email have already been invited",
+              "draft": "Participants with the specified email have already been added"
             }
           },
           "invite_link": {
@@ -1440,152 +1469,30 @@
         }
       },
       "positions": {
-        "editor": {
-          "actions": {
-            "save_and_close": {
-              "button": "Save"
-            },
-            "save_and_continue": {
-              "button": "Save and add"
-            },
-            "add_positions": "Add items",
-            "download_template": "Download template",
-            "upload_from_file": "Upload from file"
-          },
-          "fields": {
-            "count": "Amount",
-            "description": "Description",
-            "name": "Name",
-            "name_desc": "Name and description",
-            "targetCost": "Target cost per unit",
-            "price-hint": "Set price for your selection. The price is displayed only to you - participants will not see it.",
-            "startPrice": "Start price",
-            "auction": {
-              "label": "Minimum price",
-              "tooltip": "The lowest price for an item that a supplier can offer / The supplier cannot offer a lower price"
-            },
-            "reduction": {
-              "label": "Maximum price",
-              "tooltip": "The highest price for an item that a supplier can offer / Supplier cannot exceed the specified price"
-            },
-            "price_up_down": {
-              "label": "Expected price",
-              "tooltip": "Price per item expected from the supplier / Customer expects the specified price or less"
-            },
-            "startPriceHint": "The starting price of the Auction/Reduction per unit, taking into account the request parameter - VAT",
-            "unit": "Unit",
-            "files": "Files",
-            "price": "Price for unit",
-            "new_field": "New field",
-            "documents": "Documents",
-            "target_cost_tooltip": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
-            "vat": "VAT rate",
-            "currency": "Currency",
-            "header_tooltip": "Filled by supplier",
-            "deviation_tooltip": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions and quantity",
-            "availability": "Availability",
-            "multi_currency_tooltip": "The field is available if a list of currencies is created in the request parameters",
-            "comment": "Comment"
-          },
-          "snacks": {
-            "success": "Position saved"
-          },
-          "title": "Item specification",
-          "unsaved": {
-            "cancel": "Continue",
-            "confirm": "Save",
-            "title": "You have unsaved changes"
-          },
-          "default": {
-            "name": "New position",
-            "unit": "unit"
-          },
-          "custom_fields_popover": {
-            "name": "Name",
-            "new": "Create column",
-            "save": "Save",
-            "cancel": "Cancel"
-          },
-          "custom_field_menu": {
-            "edit": "Edit",
-            "delete": "Delete"
-          },
-          "documents_menu": {
-            "title": "Allow attaching documents to positions",
-            "info": "Enabled option gives members the ability to attach documents to line items"
-          },
-          "empty": "Items not added"
+        "snacks": {
+          "success": "Position saved"
         },
-        "import": {
-          "title": "Import items from file",
-          "snack": "Items imported: {{ count }}",
-          "warning": "Importing from a file will delete already existing positions.",
-          "next": "Next",
-          "cancel": "Cancel",
-          "upload": "Upload",
-          "items": {
-            "Process.Light.Import.Positions.InvalidFile": "The selected file does not match the pattern. Download the correct template, fill it in and upload again.",
-            "Process.Light.Import.Positions.Required": "<b>{{ column }}.</b> No value specified",
-            "Process.Light.Import.Positions.MaxValue.Price": "<b>{{ column }}.</b> Incorrect value (allowed from 0,00 to 9 999 999 999,00)",
-            "Process.Light.Import.Positions.MinValue.Price": "<b>{{ column }}.</b> Incorrect value (allowed from 0,00 to 9 999 999 999,00)",
-            "Process.Light.Import.Positions.MaxValue.Number": "<b>{{ column }}.</b> Incorrect value (allowed from 0,000001 to 9 999 999 999)",
-            "Process.Light.Import.Positions.MinValue.Number": "<b>{{ column }}.</b> Incorrect value (allowed from 0,000001 to 9 999 999 999)",
-            "Process.Light.Import.Positions.Truncate": "<b>{{ column }}.</b> Value truncated to {{ length }} characters.",
-            "Process.Light.Import.Positions.WrongFormat.Number": "Incorrect value in the cell:",
-            "Process.Light.Import.Positions.WrongFormat.Price": "Incorrect value in the cell:",
-            "Process.Light.Import.Positions.InvalidFileExtension": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
+        "unsaved": {
+          "cancel": "Continue",
+          "confirm": "Save",
+          "title": "You have unsaved changes"
+        },
+        "delete_position": {
+          "tooltip": "Delete",
+          "dialog": {
+            "title": "Delete position?",
+            "yes": "Delete",
+            "cancel": "Cancel",
+            "snack": "Position deleted"
           }
         },
-        "list": {
-          "actions": {
-            "create_position": {
-              "button": "Add item",
-              "supplier_fields": "Supplier fields"
-            },
-            "delete_position": {
-              "tooltip": "Delete",
-              "dialog": {
-                "title": "Delete position?",
-                "yes": "Delete",
-                "cancel": "Cancel",
-                "snack": "Position deleted"
-              }
-            },
-            "delete_positions": {
-              "tooltip": "Delete",
-              "dialog": {
-                "title": "Delete positions ({{ count }})",
-                "cancel": "Cancel",
-                "yes": "Delete",
-                "snack": "Items deleted"
-              }
-            },
-            "download_template": {
-              "tooltip": "Download template for items"
-            },
-            "import_positions": {
-              "tooltip": "Upload items from file"
-            }
-          },
-          "empty_placeholder": "Positions not added"
-        },
-        "viewer": {
-          "fields": {
-            "count": "Amount",
-            "description": "Description",
-            "documents": "Documents",
-            "name": "Name",
-            "targetCost": "Target cost per unit",
-            "unit": "Unit",
-            "startPrice": "Start price",
-            "auction": "Minimum price",
-            "reduction": "Maximum price",
-            "expectedPrice": "Expected price"
-          },
-          "title": "Item",
-          "action": {
-            "upload_file": "Add document",
-            "file_restriction": "Up to 25 MB each"
+        "delete_positions": {
+          "tooltip": "Delete",
+          "dialog": {
+            "title": "Delete positions ({{ count }})",
+            "cancel": "Cancel",
+            "yes": "Delete",
+            "snack": "Items deleted"
           }
         }
       },
@@ -2042,7 +1949,7 @@
               "helper": "Access to the full documentation upon the submission of this section.",
               "description": {
                 "title": "Prequalification / NDA description",
-                "placeholder": "Describe what is required for Prequalification / NDA"
+                "placeholder": "Describe, what is required for Prequalification / NDA"
               },
               "files": {
                 "title": "Prequalification / NDA documents",
@@ -2314,41 +2221,6 @@
       },
       "seo": {
         "description": "Request of {{company}} until {{date}}."
-      },
-      "dillegence": {
-        "success": "Request has been sent. Reports will be updated shortly",
-        "tooltip": {
-          "unreceived": "The report was not received. The service was unavailable. Refresh the reports in the \"Conclusion\" tab",
-          "unavailable": "Report is available only for verified suppliers",
-          "low": "Low risk",
-          "average": "Average risk",
-          "high": "High risk",
-          "critical": "Critical risk"
-        },
-        "text": {
-          "unavailable": "Not available",
-          "unreceived": "Not received"
-        },
-        "row_text": {
-          "unavailable": "Report is not available",
-          "unreceived": "Report is not received"
-        },
-        "download": "Download report",
-        "update": "Update report",
-        "link": "More about the service >",
-        "link_menu": "About the service",
-        "from": "from",
-        "popover": {
-          "title": {
-            "kontur": "Data provided by the Kontur.Focus service"
-          },
-          "text": {
-            "kontur": "The Kontur.Focus assesses the risks of a supplier based on various parameters. You can find more details on the service website"
-          },
-          "action": {
-            "kontur": "More about the service"
-          }
-        }
       },
       "snacks": {
         "request_published": "Request is published",

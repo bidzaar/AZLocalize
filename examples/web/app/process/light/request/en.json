@@ -11,7 +11,18 @@
           "title": "Description and files",
           "placeholder": "Specify the subject of your request...",
           "add_files": "Add terms of reference, specifications, draft contract, etc.",
-          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site."
+          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site.",
+          "editor": {
+            "headers": {
+              "h1": "Header 1",
+              "h2": "Header 2",
+              "h3": "Header 3",
+              "h4": "Header 4",
+              "h5": "Header 5",
+              "h6": "Header 6"
+            },
+            "remove": "Delete"
+          }
         },
         "contact_info": {
           "title": "The contact person",
@@ -70,7 +81,7 @@
           "1": "Only suppliers accredited in the following registries can submit a bid",
           "2": "Accredited suppliers are automatically invited to the request when the request is published",
           "3": "Non-accredited participants may simultaneously pass accreditation and prepare a proposal"
-        },        
+        },
         "add": "Add registry",
         "success": {
           "add": "Registries added",

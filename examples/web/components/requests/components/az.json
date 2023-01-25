@@ -58,7 +58,7 @@
           "label": "təkliflərin qəbulu mərhələsində təşkilatçı",
           "enums": {
             "0": "iştirakçıların təkliflərini görür",
-            "1":"iştirakçıların təklifinin məzmununu görmür"
+            "1": "iştirakçıların təklifinin məzmununu görmür"
           }
         }
       },
@@ -90,10 +90,12 @@
             "step_range_percent": "faiz dəyişiklik addım üçündür: 0,01-10"
           },
           "label": "qiymət dəyişikliyinin minimal addımı",
-          "of":"etibarən",
+          "of": "etibarən",
           "reference": {
             "0": "öz təkliflərini",
-            "1": "ən yaxşı təklif"
+            "1": "ən yaxşı təklif",
+            "2": "[AT] təklifinizə uyğun olaraq",
+            "3": "[AT] ən yaxşı təklifin mövqelərinə görə"
           }
         },
         "start_price": {
@@ -122,7 +124,8 @@
           "0": "Yalnız öz təklifini",
           "1": "yalnız öz təklifinin rütbəsi (yeri)",
           "2": "rəqiblərin təklifləri – Bəli, ad-yox",
-          "3": "rəqiblərin təklifləri və adları"
+          "3": "rəqiblərin təklifləri və adları",
+          "4": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər"
         }
       }
     },

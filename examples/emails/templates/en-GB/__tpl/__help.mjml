@@ -4,8 +4,8 @@
             <mj-text>
                 <h2>Need any help? Contact us:</h2>
                 <ul>
-                    <li><a href="mailto:support@bidzaar.com">support@bidzaar.com</a></li>
-                    <li><a href="tel:+74951208133">+7 (495) 120-81-33</a></li>
+                    <li><a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a></li>
+                    <li><a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a></li>
                </ul>
             </mj-text>
         </mj-column>

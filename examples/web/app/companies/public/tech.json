@@ -61,7 +61,8 @@
             "placeholder": "web/app/companies/public: cmp.public.profile.editor.tenders.placeholder",
             "show": "web/app/companies/public: cmp.public.profile.editor.tenders.show",
             "show_if_empty": "web/app/companies/public: cmp.public.profile.editor.tenders.show_if_empty",
-            "title": "web/app/companies/public: cmp.public.profile.editor.tenders.title"
+            "title": "web/app/companies/public: cmp.public.profile.editor.tenders.title",
+            "description": "web/app/companies/public: cmp.public.profile.editor.tenders.description"
           }
         },
         "viewer": {

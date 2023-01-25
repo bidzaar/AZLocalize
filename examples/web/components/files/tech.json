@@ -34,6 +34,7 @@
     "actions": {
       "edit": "web/components/files: bdz.fls.actions.edit",
       "delete": "web/components/files: bdz.fls.actions.delete"
-    }
+    },
+    "collapsed": "web/components/files: bdz.fls.collapsed"
   }
 }

@@ -1,0 +1,40 @@
+<mjml>
+  <!-- 
+Тема: Новые запросы в "@SubscribtionPrecontext.Name"
+Получатель: сотрудник, оформивший подписку
+
+За сутки опубликован один или больше запросов по сохранённому фильтру пользователя
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1 class="p75">Новые запросы по фильтру "@SubscriptionPrecontext.Name"</h1> 
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          @ProcedureSubscriptionContext.Content
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-hint">
+      <mj-column>
+        <mj-text>
+          <div class="small"><a href="@ConfigurationContext.BaseUrl/procedures/public">Изменить</a> настройки подписок на фильтры.</div>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <!-- quick-start -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

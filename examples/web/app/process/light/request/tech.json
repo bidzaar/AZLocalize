@@ -11,7 +11,18 @@
           "title": "web/app/process/light/request: pl.request.general.description_and_files.title",
           "placeholder": "web/app/process/light/request: pl.request.general.description_and_files.placeholder",
           "add_files": "web/app/process/light/request: pl.request.general.description_and_files.add_files",
-          "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text"
+          "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text",
+          "editor": {
+            "headers": {
+              "h1": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h1",
+              "h2": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h2",
+              "h3": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h3",
+              "h4": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h4",
+              "h5": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h5",
+              "h6": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h6"
+            },
+            "remove": "web/app/process/light/request: pl.request.general.description_and_files.editor.remove"
+          }
         },
         "contact_info": {
           "title": "web/app/process/light/request: pl.request.general.contact_info.title",
@@ -43,6 +54,21 @@
         "warning_text": "web/app/process/light/request: pl.request.questionnaire.warning_text",
         "disabled": "web/app/process/light/request: pl.request.questionnaire.disabled"
       },
+      "gold": {
+        "title": "web/app/process/light/request: pl.request.gold.title",
+        "link": "web/app/process/light/request: pl.request.gold.link",
+        "text": {
+          "message": "web/app/process/light/request: pl.request.gold.text.message",
+          "warning": "web/app/process/light/request: pl.request.gold.text.warning",
+          "read": "web/app/process/light/request: pl.request.gold.text.read"
+        },
+        "select": {
+          "label": "web/app/process/light/request: pl.request.gold.select.label",
+          "placeholder": "web/app/process/light/request: pl.request.gold.select.placeholder"
+        },
+        "on": "web/app/process/light/request: pl.request.gold.on",
+        "off": "web/app/process/light/request: pl.request.gold.off"
+      },
       "rules": {
         "title": "web/app/process/light/request: pl.request.rules.title"
       },
@@ -51,17 +77,17 @@
       },
       "registries": {
         "title": "web/app/process/light/request: pl.request.registries.title",
+        "empty": "web/app/process/light/request: pl.request.registries.empty",
+        "add": "web/app/process/light/request: pl.request.registries.add",
         "text": {
           "1": "web/app/process/light/request: pl.request.registries.text.1",
           "2": "web/app/process/light/request: pl.request.registries.text.2",
           "3": "web/app/process/light/request: pl.request.registries.text.3"
         },
-        "add": "web/app/process/light/request: pl.request.registries.add",
         "success": {
           "add": "web/app/process/light/request: pl.request.registries.success.add",
           "delete": "web/app/process/light/request: pl.request.registries.success.delete"
         },
-        "empty": "web/app/process/light/request: pl.request.registries.empty",
         "item": {
           "open": "web/app/process/light/request: pl.request.registries.item.open",
           "remove": "web/app/process/light/request: pl.request.registries.item.remove"

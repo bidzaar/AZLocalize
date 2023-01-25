@@ -336,6 +336,30 @@
     "access_denied": {
       "hint": "Nə isə səhv getdi? Dəstək ilə əlaqə saxlayın.",
       "text": "Sorğulanan səhifəyə giriş məhduddur"
+    },
+    "request_forbidden": {
+      "hınt": "[AT] bu sorğu yalnız dəvət olunmuş üzvlər üçündür",
+      "text": "[AT] sorğuya giriş məhduddur",
+      "help": {
+        "action": "[AT] dəvət olunsanız nə etməli",
+        "text": "[AT] mümkün həllər:",
+        "list": {
+          "item_1": {
+            "text": "[AT] sayta daxil olun və dəvət olunan şirkət adından sorğunu açın"
+          },
+          "item_2": {
+            "text": "[AT] bidzaar tərəfindən göndərilən dəvət məktubundan link vasitəsilə sorğu açın",
+            "məlumat": "[AT] digər mənbələrdən bir sorğuya keçid dəvət deyil.",
+            "info": "[AT] Başqa mənbələrdən gələn sorğuya keçid dəvət deyil."
+          },
+          "item_3": {
+            "text": "[AT] müştəridən dəvəti təkrar etməsini xahiş et",
+            "info": "[AT] müştərinin diqqətinə çatdırın ki, dəvət Üzvlər nişanından göndərilməlidir."
+          }
+        },
+        "footer": "[AT] işləmədi? Texniki Dəstəklə əlaqə saxlayın."
+      },
+      "hint": "[AT] Bu sorğu yalnız dəvət olunmuş üzvlər üçündür."
     }
   },
   "dashboard": {
@@ -1806,10 +1830,10 @@
     },
     "light": {
       "create": {
-        "cancel": "ləğv et",
-        "header": "yeni sorğu",
-        "next": "yarat",
-        "placeholder": "ad"
+        "cancel": "Ləğv et",
+        "header": "Yeni sorğu",
+        "next": "Yarat",
+        "placeholder": "Ad"
       },
       "invite": {
         "dialog": {

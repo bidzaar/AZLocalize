@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: Ваша компания – проверенный поставщик
+Получатель: все сотрудники компании
+
+Админ Бидзаар установил статус компании "Прорверенный поставщик"
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1 class="p75">Your company is verified</h1><br><br>          
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h2>@TargetContext.CompanyName is verified on @ConfigurationContext.ProjectName</h2>
+          <p><br /><b>The benefits are:</b></p>
+          <ul class="mb-1">
+            <li>Your company has prominent mark and get more visibility in search results</li>
+            <li>Your company get more trust and activity rank</li>
+            <li>You can participate in requests for the verified suppliers</li>
+          </ul>
+          <p>Have more wins on @ConfigurationContext.ProjectName!</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">Open @ConfigurationContext.ProjectName</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- quick-start -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

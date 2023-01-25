@@ -1,0 +1,126 @@
+{
+  "pl_pop": {
+    "importer": {
+      "cancel": "Ləğv et",
+      "items": {
+        "Process.Light.Import.Positions.FileHasErrors": {
+          "download": "Səhv təsvirləri olan faylı endir",
+          "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
+        },
+        "Process.Light.Import.Positions.InvalidFile": {
+          "title": "<b>[AT] Fayl sorğudakı mövqelərin spesifikasiyasına uyğun gəlmir.</b> Cari şablonu yükləyin və yenidən endirin."
+        },
+        "Process.Light.Import.Positions.InvalidFileExtension": {
+          "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+        }
+      },
+      "next": "Növbəti",
+      "count": "[AT] Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+      "title": "Fayldan maddələri yüklə",
+      "upload": "Növbəti",
+      "close": "[AT] Yaxın",
+      "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək."
+    },
+    "configurator": {
+      "header": "[AT] Sütunların fərdiləşdirilməsi",
+      "defaults": {
+        "name": "[AT] Yeni sütun"
+      },
+      "details": {
+        "name": "[AT] Sahənin adı",
+        "required": "",
+        "type": {
+          "string": "[AT] Növ: Simli",
+          "number": "[AT] Növ: Nömrə",
+          "datetime": "[AT] Növ: Tarix"
+        }
+      },
+      "actions": {
+        "done": "[AT] Bitdi",
+        "append": "[AT] Sütun əlavə edin",
+        "remove": "[AT] Sütunu çıxarın"
+      },
+      "empty": {
+        "text": "[AT] Əlavə sütunlar əlavə edilməyib",
+        "notice": "[AT] Başlamaq üçün Sütun Əlavə et klikləyin"
+      },
+      "errors": {
+        "name": "[AT] Adı dəqiqləşdirilməyib"
+      },
+      "remove": {
+        "text": "[AT] Sütunu silin",
+        "cancel": "[AT] Ləğv et",
+        "confirm": "[AT] Sil"
+      }
+    },
+    "positions": {
+      "empty": {
+        "text": "Maddələr əlavə olunmayıb"
+      },
+      "header": {
+        "text": "Maddə üzrə spesifikasiya"
+      },
+      "table": {
+        "groups": {
+          "position": "[AT] Təşkilatçı sütunları",
+          "proposal": "[AT] Satıcı sütunları"
+        },
+        "columns": {
+          "position": {
+            "index": "№",
+            "name": "Ad",
+            "description": "Təsvir",
+            "count": "Miqdar",
+            "unit": "Ölçü vahidi",
+            "target_price": "Vahid başına hədəf dəyəri, {{ value }}",
+            "max_price": "Vahid başına maksimum xərc, {{ value }}",
+            "min_price": "Vahid üçün minimum xərc, {{ value }}",
+            "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
+            "documents": "Sənədlər"
+          },
+          "proposal": {
+            "availability": "Mövcudluq",
+            "count": "Miqdar",
+            "vat": "ƏDV dərəcəsi",
+            "price_none_vat": "Vahid başına qiymət",
+            "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
+            "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
+            "currency": "Valyuta",
+            "comment": "Şərh" ,
+            "documents": "Sənədlər"
+          }
+        },
+        "actions": {
+          "documents": {
+            "title": "[AT] Sənədləri bir vəzifəyə əlavə etməyə icazə verin",
+            "text": "[AT] Aktivləşdirilmiş seçim üzvlərə sənədləri sətir elementlərinə əlavə etmək imkanı verir"
+          }
+        },
+        "tooltips": {
+          "insert": "Daxil edin",
+          "remove": "Sil",
+          "deviation": "[AT] Tələb parametri Təchizat həcmi mövqelər və kəmiyyət tərəfindən icazə verilən sapma kimi təyin edilərsə, sahə əlçatandır.",
+          "target_price": "[AT] Seçərkən bələdçi olacaq qiyməti göstərin.\nQiymət yalnız sizə göstərilir - üzvlər onu görməyəcək.",
+          "max_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
+          "min_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
+          "expected_price": "[AT] Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
+        }
+      },
+      "defaults": {
+        "name": "Yeni maddə",
+        "unit": "əd."
+      },
+      "actions": {
+        "append": "Maddə əlavə et",
+        "download": "Şablonu endir",
+        "upload": "Fayldan yüklə"
+      },
+      "delete": {
+        "text": "Maddə silinsin?",
+        "cancel": "Ləğv et",
+        "confirm": "Sil",
+        "success": "Maddə silindi"
+      }
+    }
+  }
+}

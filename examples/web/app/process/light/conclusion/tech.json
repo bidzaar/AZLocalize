@@ -245,6 +245,10 @@
               "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.cancel",
               "submit": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.submit",
               "success": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.success"
+            },
+            "mail": {
+              "title": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.title",
+              "subtitle": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.subtitle"
             }
           }
         }

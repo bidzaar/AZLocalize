@@ -75,7 +75,7 @@
         },
         "owner": {
           "canceled": {
-            "title": "Canceled orders ({{value}})",
+            "title": "Cancelled totals ({{value}})",
             "order_title": "Canceled",
             "reason": "Reason"
           },
@@ -101,16 +101,16 @@
             },
             "finished": {
               "stub": {
-                "text": "Request completed without order"
+                "text": "The request is completed without selecting a winner"
               }
             },
             "active": {
               "stub": {
-                "text": "There is no order",
-                "notice": "Place an order on the comparison tab"
+                "text": "The winner of the request has not been determined",
+                "notice": "Select the winner of the query on the Comparison tab"
               },
               "list": {
-                "title": "Order",
+                "title": "Choice",
                 "contacts": {
                   "title": "Contact person"
                 },
@@ -126,10 +126,10 @@
                 }
               },
               "actions": {
-                "clear": "Clear order",
-                "with": "Complete request",
-                "without": "Complete request without order",
-                "create": "Place an order"
+                "clear": "Deselect",
+                "with": "End request",
+                "without": "End request without winner",
+                "create": "Select winner"
               },
               "vat": {
                 "true": "incl. VAT",
@@ -141,7 +141,7 @@
               "icon": "a"
             },
             "docs": {
-              "order": "Order",
+              "order": "Choice",
               "sentence": "Bid"
             }
           },
@@ -248,7 +248,7 @@
             },
             "mail": {
               "title": "We will notify vendors when the request is completed",
-              "subtitle": "View our emails and add messages to vendors"
+              "subtitle": "You can supplement our letter with your message to the participants"
             }
           }
         }
@@ -256,4 +256,3 @@
     }
   }
 }
-

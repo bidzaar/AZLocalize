@@ -26,24 +26,12 @@
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-section mj-class="section-hint">
-      <mj-column>
-        <mj-text>
-          <p class="smal mb05">Тендер проводится на площадке Procure.az. У нас:</p>
-          <ol class="smal">
-            <li><b>Быстрая регистрация</b>, без аккредитации и ЭЦП</li>
-            <li><b>Бесплатное участие</b> в тендерах</li>
-            <li><b>Проводят закупки</b> Билайн, Альфа-Банк, Додо Пицца, Глория Джинс и ещё 95 коммерческих компаний </li>
-        </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Ознакомиться с тендером</mj-button>
-        <mj-text> </mj-text>
-      </mj-column>
-    </mj-section>
     <!-- /secondary 
     <mj-include path="./__tpl/__spacer.mjml" />
     <!-- help -------------------------------------------- -->
     <!--<mj-include path="./__tpl/__help.mjml" />-->
     <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__hint.mjml" />
     <mj-include path="./__tpl/__footer.mjml" />
     <!-- /footer --Б в тендере</mj-bodО> тендера>
         </li

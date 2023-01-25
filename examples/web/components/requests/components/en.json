@@ -93,7 +93,9 @@
           "of": "from",
           "reference": {
             "0": "your suggestion",
-            "1": "the best offer"
+            "1": "the best offer",
+            "2": "according to the positions of your offer",
+            "3": "according to the positions of the best offer"
           }
         },
         "start_price": {
@@ -122,7 +124,8 @@
           "0": "Only your offer",
           "1": "Only rank (place) your offer",
           "2": "Competitors' offers – yes, names – no",
-          "3": "Offers and names of competitors"
+          "3": "Offers and names of competitors",
+          "4": "The best prices among competitors bids"
         }
       }
     },

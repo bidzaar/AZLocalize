@@ -1,0 +1,172 @@
+{
+  "pl_prp": {
+    "importer": {
+      "common": {
+        "header": "web/app/process/light/positions/seller: pl_prp.importer.common.header"
+      },
+      "default": {
+        "download": "web/app/process/light/positions/seller: pl_prp.importer.default.download",
+        "template": "web/app/process/light/positions/seller: pl_prp.importer.default.template",
+        "fill": "web/app/process/light/positions/seller: pl_prp.importer.default.fill",
+        "import": "web/app/process/light/positions/seller: pl_prp.importer.default.import",
+        "actions": {
+          "cancel": "web/app/process/light/positions/seller: pl_prp.importer.default.actions.cancel",
+          "submit": "web/app/process/light/positions/seller: pl_prp.importer.default.actions.submit"
+        }
+      },
+      "success": {
+        "count": "web/app/process/light/positions/seller: pl_prp.importer.success.count",
+        "actions": {
+          "close": "web/app/process/light/positions/seller: pl_prp.importer.success.actions.close"
+        }
+      },
+      "failure": {
+        "total": "web/app/process/light/positions/seller: pl_prp.importer.failure.total",
+        "actions": {
+          "close": "web/app/process/light/positions/seller: pl_prp.importer.failure.actions.close"
+        },
+        "items": {
+          "Process.Light.Import.Positions.InvalidFileExtension": {
+            "title": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.InvalidFileExtension.title"
+          },
+          "Process.Light.Import.Positions.InvalidFile": {
+            "title": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.InvalidFile.title",
+            "text": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.InvalidFile.text",
+            "download": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.InvalidFile.download"
+          },
+          "Process.Light.Import.Positions.FileHasErrors": {
+            "title": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.FileHasErrors.title",
+            "download": "web/app/process/light/positions/seller: pl_prp.importer.failure.items.Process.Light.Import.Positions.FileHasErrors.download"
+          }
+        }
+      }
+    },
+    "positions": {
+      "header": {
+        "title": "web/app/process/light/positions/seller: pl_prp.positions.header.title",
+        "close": "web/app/process/light/positions/seller: pl_prp.positions.header.close"
+      },
+      "forbidden": {
+        "title": "web/app/process/light/positions/seller: pl_prp.positions.forbidden.title",
+        "text": "web/app/process/light/positions/seller: pl_prp.positions.forbidden.text",
+        "notice": "web/app/process/light/positions/seller: pl_prp.positions.forbidden.notice"
+      },
+      "common": {
+        "vat": {
+          "true": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.true",
+          "false": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.false",
+          "null": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.null",
+          "none": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.none"
+        },
+        "currency": {
+          "request": "web/app/process/light/positions/seller: pl_prp.positions.common.currency.request",
+          "participant": "web/app/process/light/positions/seller: pl_prp.positions.common.currency.participant"
+        }
+      },
+      "summary": {
+        "current": {
+          "title": {
+            "true": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.title.true",
+            "false": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.title.false"
+          },
+          "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.tooltip"
+        },
+        "previous": {
+          "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.previous.title",
+          "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.previous.tooltip"
+        },
+        "best": {
+          "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.best.title",
+          "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.best.tooltip"
+        },
+        "timer": {
+          "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.timer.title",
+          "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.timer.tooltip"
+        },
+        "actions": {
+          "submit": "web/app/process/light/positions/seller: pl_prp.positions.summary.actions.submit"
+        },
+        "reference_price": {
+          "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.reference_price.title",
+          "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.reference_price.tooltip"
+        }
+      },
+      "filters": {
+        "options": {
+          "0": "web/app/process/light/positions/seller: pl_prp.positions.filters.options.0",
+          "1": "web/app/process/light/positions/seller: pl_prp.positions.filters.options.1",
+          "2": "web/app/process/light/positions/seller: pl_prp.positions.filters.options.2",
+          "3": "web/app/process/light/positions/seller: pl_prp.positions.filters.options.3"
+        },
+        "empty": "web/app/process/light/positions/seller: pl_prp.positions.filters.empty"
+      },
+      "actions": {
+        "download": "web/app/process/light/positions/seller: pl_prp.positions.actions.download",
+        "upload": "web/app/process/light/positions/seller: pl_prp.positions.actions.upload"
+      },
+      "table": {
+        "groups": {
+          "position": "web/app/process/light/positions/seller: pl_prp.positions.table.groups.position",
+          "proposal": "web/app/process/light/positions/seller: pl_prp.positions.table.groups.proposal"
+        },
+        "columns": {
+          "position": {
+            "index": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.index",
+            "name": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.name",
+            "description": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.description",
+            "count": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.count",
+            "unit": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.unit",
+            "target_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.target_price",
+            "max_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.max_price",
+            "min_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.min_price",
+            "expected_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.expected_price",
+            "best_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.best_price",
+            "documents": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.documents"
+          },
+          "proposal": {
+            "availability": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.availability",
+            "count": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.count",
+            "rank": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.rank",
+            "total": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.total",
+            "vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.vat",
+            "price_incl_vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.price_incl_vat",
+            "price_excl_vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.price_excl_vat",
+            "currency": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.currency",
+            "comment": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.comment",
+            "documents": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.documents",
+            "prev_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.prev_price"
+          }
+        },
+        "tooltips": {},
+        "validation": {
+          "currency": {
+            "invalid": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.currency.invalid"
+          },
+          "vat": {
+            "invalid": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.vat.invalid"
+          },
+          "availability": {
+            "invalid": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.availability.invalid"
+          },
+          "custom": {
+            "required": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.custom.required"
+          },
+          "count": {
+            "deviation_in_request": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.count.deviation_in_request",
+            "deviation_in_position": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.count.deviation_in_position",
+            "less_or_equal_zero": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.count.less_or_equal_zero",
+            "greater_than_zero": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.count.greater_than_zero",
+            "not_equal_to_position": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.count.not_equal_to_position"
+          },
+          "price": {
+            "equal_to_zero": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.price.equal_to_zero",
+            "equal_to_zero_count_gte_zero": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.price.equal_to_zero_count_gte_zero",
+            "start_price_auction": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.price.start_price_auction",
+            "start_price_reduction": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.price.start_price_reduction",
+            "refer_price_step": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.price.refer_price_step"
+          }
+        }
+      }
+    }
+  }
+}

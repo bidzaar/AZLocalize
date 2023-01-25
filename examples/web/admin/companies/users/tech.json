@@ -46,6 +46,11 @@
           "short": "web/admin/companies/users: cmp.users.enums.rights.2048.short",
           "long": "web/admin/companies/users: cmp.users.enums.rights.2048.long"
         }
+      },
+      "role": {
+        "0": "web/admin/companies/users: cmp.users.enums.role.0",
+        "1": "web/admin/companies/users: cmp.users.enums.role.1",
+        "2": "web/admin/companies/users: cmp.users.enums.role.2"
       }
     },
     "list": {
@@ -59,7 +64,8 @@
       },
       "sorting": {
         "name": "web/admin/companies/users: cmp.users.list.sorting.name",
-        "status": "web/admin/companies/users: cmp.users.list.sorting.status"
+        "status": "web/admin/companies/users: cmp.users.list.sorting.status",
+        "status_changed": "web/admin/companies/users: cmp.users.list.sorting.status_changed"
       },
       "filters": {
         "rights": {

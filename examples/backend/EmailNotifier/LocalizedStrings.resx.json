@@ -2,7 +2,7 @@
     "CompleteReason.DontNeedAnyMore": "Отпала потребность в проведении запроса",
     "CompleteReason.NoSuitableProposalFound": "Нет подходящих предложений",
     "ReportType.AllReceipt": "заказ",
-    "ReportType.AllReceiptArchive": "архив с заказом участнику",
+    "ReportType.AllReceiptArchive": "архив с заказами участников",
     "ReportType.CompanyProcedures": "запросы компании",
     "ReportType.Comparison": "таблицу сравнения",
     "ReportType.ComparisonArchive": "таблицу сравнения с вложениями",
@@ -13,7 +13,7 @@
     "ReportType.ProposalHistory": "историю предложений по запросу",
     "ReportType.Receipt": "заказ",
     "ReportType.ReceiptArchive": "заказ с вложениями",
-    "Custom.OwnerMessage": "Сообщение организатора:",
+    "Custom.OwnerMessage": "Сообщение заказчика:",
     "TargetContext.CompanyName": "<Название компании-поставщика>",
     "ProcedureContext.ProcedureName": "<Название запроса>",
     "ProcedureContext.ProcedureOwnerCompanyName": "<Название компании-заказчика>",
@@ -22,5 +22,6 @@
     "ProcedureContext.Description": "<Описание запроса>",
     "ProcedureContext.StageComment": "<Название этапа>",
     "ProcedureVersionContext.ChangeLog": "<Описание изменений в запросе>",
-    "ProcedureResultContext.Reason": "<Причина завершения без выбора победителя>"
+    "ProcedureResultContext.Reason": "<Причина завершения без выбора победителя>",
+    "ReportType.NdaArchive": "текущие заявки на предквалификацию/NDA"
 }

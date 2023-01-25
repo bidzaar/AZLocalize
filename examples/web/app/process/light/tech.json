@@ -17,7 +17,8 @@
             },
             "User": {
               "LastOwner": "web/app/process/light: errors.logic.Process.Light.Procedure.User.LastOwner",
-              "ResponsibleUserCannotBeDeleted": "web/app/process/light: errors.logic.Process.Light.Procedure.User.ResponsibleUserCannotBeDeleted"
+              "ResponsibleUserCannotBeDeleted": "web/app/process/light: errors.logic.Process.Light.Procedure.User.ResponsibleUserCannotBeDeleted",
+              "ResponsibleUserCannotBeDegraded": "web/app/process/light: errors.logic.Process.Light.Procedure.User.ResponsibleUserCannotBeDegraded"
             }
           },
           "Proposal": {
@@ -43,7 +44,8 @@
         "0": "web/app/process/light: pl.enums.other_participants_visibility.0",
         "1": "web/app/process/light: pl.enums.other_participants_visibility.1",
         "2": "web/app/process/light: pl.enums.other_participants_visibility.2",
-        "3": "web/app/process/light: pl.enums.other_participants_visibility.3"
+        "3": "web/app/process/light: pl.enums.other_participants_visibility.3",
+        "4": "web/app/process/light: pl.enums.other_participants_visibility.4"
       },
       "owner_visibility": {
         "0": "web/app/process/light: pl.enums.owner_visibility.0",
@@ -148,7 +150,8 @@
         "2": "web/app/process/light: pl.view.status.2",
         "3": "web/app/process/light: pl.view.status.3",
         "4": "web/app/process/light: pl.view.status.4",
-        "until": "web/app/process/light: pl.view.status.until"
+        "until": "web/app/process/light: pl.view.status.until",
+        "tooltip": "web/app/process/light: pl.view.status.tooltip"
       },
       "verification": {
         "action": "web/app/process/light: pl.view.verification.action",
@@ -172,6 +175,9 @@
         },
         "verification": {
           "text": "web/app/process/light: pl.view.banner.verification.text"
+        },
+        "gold": {
+          "text": "web/app/process/light: pl.view.banner.gold.text"
         }
       },
       "comparison": {
@@ -285,14 +291,18 @@
           "proposals": "web/app/process/light: pl.view.comparison.header_cells.proposals",
           "alternative": "web/app/process/light: pl.view.comparison.header_cells.alternative",
           "actions": "web/app/process/light: pl.view.comparison.header_cells.actions",
-          "verified_tooltip": "web/app/process/light: pl.view.comparison.header_cells.verified_tooltip"
+          "verified_tooltip": "web/app/process/light: pl.view.comparison.header_cells.verified_tooltip",
+          "best_price": {
+            "title": "web/app/process/light: pl.view.comparison.header_cells.best_price.title",
+            "subtitle": "web/app/process/light: pl.view.comparison.header_cells.best_price.subtitle"
+          },
+          "names_hidden": "web/app/process/light: pl.view.comparison.header_cells.names_hidden"
         },
         "list": {
           "about_company": "web/app/process/light: pl.view.comparison.list.about_company",
           "cancel_selection": "web/app/process/light: pl.view.comparison.list.cancel_selection",
           "change_price": "web/app/process/light: pl.view.comparison.list.change_price",
           "chose_proposal": "web/app/process/light: pl.view.comparison.list.chose_proposal",
-          "dillegence": "web/app/process/light: pl.view.comparison.list.dillegence",
           "no_requisites": "web/app/process/light: pl.view.comparison.list.no_requisites",
           "open_requisites": "web/app/process/light: pl.view.comparison.list.open_requisites",
           "participant": "web/app/process/light: pl.view.comparison.list.participant",
@@ -329,7 +339,8 @@
           "not_specified": "web/app/process/light: pl.view.comparison.position_info_dialog.not_specified",
           "price_for_unit": "web/app/process/light: pl.view.comparison.position_info_dialog.price_for_unit",
           "price_not_specified": "web/app/process/light: pl.view.comparison.position_info_dialog.price_not_specified",
-          "request": "web/app/process/light: pl.view.comparison.position_info_dialog.request"
+          "request": "web/app/process/light: pl.view.comparison.position_info_dialog.request",
+          "description": "web/app/process/light: pl.view.comparison.position_info_dialog.description"
         },
         "position_proposal_dialog": {
           "files": "web/app/process/light: pl.view.comparison.position_proposal_dialog.files",
@@ -420,7 +431,8 @@
           "1": "web/app/process/light: pl.view.comparison.sorting.1",
           "2": "web/app/process/light: pl.view.comparison.sorting.2",
           "3": "web/app/process/light: pl.view.comparison.sorting.3",
-          "button": "web/app/process/light: pl.view.comparison.sorting.button"
+          "button": "web/app/process/light: pl.view.comparison.sorting.button",
+          "tooltip": "web/app/process/light: pl.view.comparison.sorting.tooltip"
         },
         "group": {
           "settings": "web/app/process/light: pl.view.comparison.group.settings"
@@ -447,6 +459,26 @@
           "title": "web/app/process/light: pl.view.comparison.paginator.title",
           "from": "web/app/process/light: pl.view.comparison.paginator.from",
           "info": "web/app/process/light: pl.view.comparison.paginator.info"
+        },
+        "basis": {
+          "button": "web/app/process/light: pl.view.comparison.basis.button",
+          "target_price": "web/app/process/light: pl.view.comparison.basis.target_price",
+          "first_price": "web/app/process/light: pl.view.comparison.basis.first_price",
+          "best_price": "web/app/process/light: pl.view.comparison.basis.best_price"
+        },
+        "participants_filter": {
+          "button": "web/app/process/light: pl.view.comparison.participants_filter.button",
+          "tooltip": "web/app/process/light: pl.view.comparison.participants_filter.tooltip"
+        },
+        "companies_filter_dialog": {
+          "selected": "web/app/process/light: pl.view.comparison.companies_filter_dialog.selected",
+          "tin": "web/app/process/light: pl.view.comparison.companies_filter_dialog.tin",
+          "search": "web/app/process/light: pl.view.comparison.companies_filter_dialog.search",
+          "clear_filter": "web/app/process/light: pl.view.comparison.companies_filter_dialog.clear_filter",
+          "cancel": "web/app/process/light: pl.view.comparison.companies_filter_dialog.cancel",
+          "submit": "web/app/process/light: pl.view.comparison.companies_filter_dialog.submit",
+          "supplier_not_found": "web/app/process/light: pl.view.comparison.companies_filter_dialog.supplier_not_found",
+          "supplier_not_found_help": "web/app/process/light: pl.view.comparison.companies_filter_dialog.supplier_not_found_help"
         }
       },
       "dialogs": {
@@ -517,9 +549,9 @@
           }
         },
         "no_orders": {
-          "title": "web/app/process/light: pl.view.dialogs.download.no_orders.title",
-          "text": "web/app/process/light: pl.view.dialogs.download.no_orders.text",
-          "cancel": "web/app/process/light: pl.view.dialogs.download.no_orders.cancel"
+          "title": "web/app/process/light: pl.view.dialogs.no_orders.title",
+          "text": "web/app/process/light: pl.view.dialogs.no_orders.text",
+          "cancel": "web/app/process/light: pl.view.dialogs.no_orders.cancel"
         },
         "finish_round": {
           "cancel": "web/app/process/light: pl.view.dialogs.finish_round.cancel",
@@ -527,6 +559,7 @@
           "message": "web/app/process/light: pl.view.dialogs.finish_round.message",
           "next": "web/app/process/light: pl.view.dialogs.finish_round.next",
           "success": "web/app/process/light: pl.view.dialogs.finish_round.success",
+          "time_tooltip": "web/app/process/light: pl.view.dialogs.finish_round.time_tooltip",
           "time": "web/app/process/light: pl.view.dialogs.finish_round.time"
         },
         "leave": {
@@ -686,6 +719,18 @@
             "placeholder": "web/app/process/light: pl.view.dialogs.validation.comment.placeholder",
             "error": "web/app/process/light: pl.view.dialogs.validation.comment.error",
             "hint": "web/app/process/light: pl.view.dialogs.validation.comment.hint"
+          },
+          "mail": {
+            "title": {
+              "0": "web/app/process/light: pl.view.dialogs.validation.mail.title.0",
+              "1": "web/app/process/light: pl.view.dialogs.validation.mail.title.1",
+              "2": "web/app/process/light: pl.view.dialogs.validation.mail.title.2"
+            },
+            "subtitle": {
+              "0": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.0",
+              "1": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.1",
+              "2": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.2"
+            }
           }
         },
         "vat": {
@@ -770,7 +815,14 @@
           "submit": "web/app/process/light: pl.view.dialogs.returnToSummary.submit",
           "success": "web/app/process/light: pl.view.dialogs.returnToSummary.success",
           "order": "web/app/process/light: pl.view.dialogs.returnToSummary.order",
-          "label_empty": "web/app/process/light: pl.view.dialogs.returnToSummary.label_empty"
+          "label_empty": "web/app/process/light: pl.view.dialogs.returnToSummary.label_empty",
+          "mail": {
+            "title": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.title",
+            "subtitle": {
+              "false": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.subtitle.false",
+              "true": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.subtitle.true"
+            }
+          }
         }
       },
       "header": {
@@ -1077,7 +1129,8 @@
                       "1_3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.1.1_3"
                     },
                     "2": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.2",
-                    "3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.3"
+                    "3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.3",
+                    "label": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.label"
                   }
                 }
               },
@@ -1091,6 +1144,10 @@
                   "more": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.actions.more",
                   "submit": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.actions.submit"
                 }
+              },
+              "accreditation": {
+                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.accreditation.title",
+                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.accreditation.text"
               }
             },
             "no_company": {
@@ -1201,6 +1258,10 @@
             "success": {
               "default": "web/app/process/light: pl.view.participants.dialogs.invite_email.success.default",
               "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.success.draft"
+            },
+            "failure": {
+              "default": "web/app/process/light: pl.view.participants.dialogs.invite_email.failure.default",
+              "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.failure.draft"
             }
           },
           "invite_link": {
@@ -1324,6 +1385,10 @@
               "title": "web/app/process/light: pl.view.participants.list.actions.report.title",
               "tooltip": "web/app/process/light: pl.view.participants.list.actions.report.tooltip"
             },
+            "archive_nda": {
+              "title": "web/app/process/light: pl.view.participants.list.actions.archive_nda.title",
+              "tooltip": "web/app/process/light: pl.view.participants.list.actions.archive_nda.tooltip"
+            },
             "unblock_many": {
               "button": "web/app/process/light: pl.view.participants.list.actions.unblock_many.button",
               "tooltip": "web/app/process/light: pl.view.participants.list.actions.unblock_many.tooltip"
@@ -1367,6 +1432,11 @@
               "mach_success": "web/app/process/light: pl.view.participants.list.actions.add_register.mach_success",
               "error": "web/app/process/light: pl.view.participants.list.actions.add_register.error"
             }
+          },
+          "gold": {
+            "title": "web/app/process/light: pl.view.participants.list.gold.title",
+            "text": "web/app/process/light: pl.view.participants.list.gold.text",
+            "link": "web/app/process/light: pl.view.participants.list.gold.link"
           },
           "empty": "web/app/process/light: pl.view.participants.list.empty",
           "filters": {
@@ -1418,152 +1488,30 @@
         }
       },
       "positions": {
-        "editor": {
-          "actions": {
-            "save_and_close": {
-              "button": "web/app/process/light: pl.view.positions.editor.actions.save_and_close.button"
-            },
-            "save_and_continue": {
-              "button": "web/app/process/light: pl.view.positions.editor.actions.save_and_continue.button"
-            },
-            "add_positions": "web/app/process/light: pl.view.positions.editor.actions.add_positions",
-            "download_template": "web/app/process/light: pl.view.positions.editor.actions.download_template",
-            "upload_from_file": "web/app/process/light: pl.view.positions.editor.actions.upload_from_file"
-          },
-          "fields": {
-            "count": "web/app/process/light: pl.view.positions.editor.fields.count",
-            "description": "web/app/process/light: pl.view.positions.editor.fields.description",
-            "name": "web/app/process/light: pl.view.positions.editor.fields.name",
-            "name_desc": "web/app/process/light: pl.view.positions.editor.fields.name_desc",
-            "targetCost": "web/app/process/light: pl.view.positions.editor.fields.targetCost",
-            "price-hint": "web/app/process/light: pl.view.positions.editor.fields.price-hint",
-            "startPrice": "web/app/process/light: pl.view.positions.editor.fields.startPrice",
-            "auction": {
-              "label": "web/app/process/light: pl.view.positions.editor.fields.auction.label",
-              "tooltip": "web/app/process/light: pl.view.positions.editor.fields.auction.tooltip"
-            },
-            "reduction": {
-              "label": "web/app/process/light: pl.view.positions.editor.fields.reduction.label",
-              "tooltip": "web/app/process/light: pl.view.positions.editor.fields.reduction.tooltip"
-            },
-            "price_up_down": {
-              "label": "web/app/process/light: pl.view.positions.editor.fields.price_up_down.label",
-              "tooltip": "web/app/process/light: pl.view.positions.editor.fields.price_up_down.tooltip"
-            },
-            "startPriceHint": "web/app/process/light: pl.view.positions.editor.fields.startPriceHint",
-            "unit": "web/app/process/light: pl.view.positions.editor.fields.unit",
-            "files": "web/app/process/light: pl.view.positions.editor.fields.files",
-            "price": "web/app/process/light: pl.view.positions.editor.fields.price",
-            "new_field": "web/app/process/light: pl.view.positions.editor.fields.new_field",
-            "documents": "web/app/process/light: pl.view.positions.editor.fields.documents",
-            "target_cost_tooltip": "web/app/process/light: pl.view.positions.editor.fields.target_cost_tooltip",
-            "vat": "web/app/process/light: pl.view.positions.editor.fields.vat",
-            "currency": "web/app/process/light: pl.view.positions.editor.fields.currency",
-            "header_tooltip": "web/app/process/light: pl.view.positions.editor.fields.header_tooltip",
-            "deviation_tooltip": "web/app/process/light: pl.view.positions.editor.fields.deviation_tooltip",
-            "availability": "web/app/process/light: pl.view.positions.editor.fields.availability",
-            "multi_currency_tooltip": "web/app/process/light: pl.view.positions.editor.fields.multi_currency_tooltip",
-            "comment": "web/app/process/light: pl.view.positions.editor.fields.comment"
-          },
-          "snacks": {
-            "success": "web/app/process/light: pl.view.positions.editor.snacks.success"
-          },
-          "title": "web/app/process/light: pl.view.positions.editor.title",
-          "unsaved": {
-            "cancel": "web/app/process/light: pl.view.positions.editor.unsaved.cancel",
-            "confirm": "web/app/process/light: pl.view.positions.editor.unsaved.confirm",
-            "title": "web/app/process/light: pl.view.positions.editor.unsaved.title"
-          },
-          "default": {
-            "name": "web/app/process/light: pl.view.positions.editor.default.name",
-            "unit": "web/app/process/light: pl.view.positions.editor.default.unit"
-          },
-          "custom_fields_popover": {
-            "name": "web/app/process/light: pl.view.positions.editor.custom_fields_popover.name",
-            "new": "web/app/process/light: pl.view.positions.editor.custom_fields_popover.new",
-            "save": "web/app/process/light: pl.view.positions.editor.custom_fields_popover.save",
-            "cancel": "web/app/process/light: pl.view.positions.editor.custom_fields_popover.cancel"
-          },
-          "custom_field_menu": {
-            "edit": "web/app/process/light: pl.view.positions.editor.custom_field_menu.edit",
-            "delete": "web/app/process/light: pl.view.positions.editor.custom_field_menu.delete"
-          },
-          "documents_menu": {
-            "title": "web/app/process/light: pl.view.positions.editor.documents_menu.title",
-            "info": "web/app/process/light: pl.view.positions.editor.documents_menu.info"
-          },
-          "empty": "web/app/process/light: pl.view.positions.editor.empty"
+        "snacks": {
+          "success": "web/app/process/light: pl.view.positions.snacks.success"
         },
-        "import": {
-          "title": "web/app/process/light: pl.view.positions.import.title",
-          "snack": "web/app/process/light: pl.view.positions.import.snack",
-          "warning": "web/app/process/light: pl.view.positions.import.warning",
-          "next": "web/app/process/light: pl.view.positions.import.next",
-          "cancel": "web/app/process/light: pl.view.positions.import.cancel",
-          "upload": "web/app/process/light: pl.view.positions.import.upload",
-          "items": {
-            "Process.Light.Import.Positions.Truncate": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.Truncate",
-            "Process.Light.Import.Positions.InvalidFile": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.InvalidFile",
-            "Process.Light.Import.Positions.Required": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.Required",
-            "Process.Light.Import.Positions.MaxValue.Price": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.MaxValue.Price",
-            "Process.Light.Import.Positions.MinValue.Price": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.MinValue.Price",
-            "Process.Light.Import.Positions.MaxValue.Number": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.MaxValue.Number",
-            "Process.Light.Import.Positions.MinValue.Number": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.MinValue.Number",
-            "Process.Light.Import.Positions.WrongFormat.Price": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.WrongFormat.Price",
-            "Process.Light.Import.Positions.WrongFormat.Number": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.WrongFormat.Number",
-            "Process.Light.Import.Positions.InvalidFileExtension": "web/app/process/light: pl.view.positions.import.items.Process.Light.Import.Positions.InvalidFileExtension"
+        "unsaved": {
+          "cancel": "web/app/process/light: pl.view.positions.unsaved.cancel",
+          "confirm": "web/app/process/light: pl.view.positions.unsaved.confirm",
+          "title": "web/app/process/light: pl.view.positions.unsaved.title"
+        },
+        "delete_position": {
+          "tooltip": "web/app/process/light: pl.view.positions.delete_position.tooltip",
+          "dialog": {
+            "title": "web/app/process/light: pl.view.positions.delete_position.dialog.title",
+            "yes": "web/app/process/light: pl.view.positions.delete_position.dialog.yes",
+            "cancel": "web/app/process/light: pl.view.positions.delete_position.dialog.cancel",
+            "snack": "web/app/process/light: pl.view.positions.delete_position.dialog.snack"
           }
         },
-        "list": {
-          "actions": {
-            "create_position": {
-              "button": "web/app/process/light: pl.view.positions.list.actions.create_position.button",
-              "supplier_fields": "web/app/process/light: pl.view.positions.list.actions.create_position.supplier_fields"
-            },
-            "delete_position": {
-              "tooltip": "web/app/process/light: pl.view.positions.list.actions.delete_position.tooltip",
-              "dialog": {
-                "title": "web/app/process/light: pl.view.positions.list.actions.delete_position.dialog.title",
-                "yes": "web/app/process/light: pl.view.positions.list.actions.delete_position.dialog.yes",
-                "cancel": "web/app/process/light: pl.view.positions.list.actions.delete_position.dialog.cancel",
-                "snack": "web/app/process/light: pl.view.positions.list.actions.delete_position.dialog.snack"
-              }
-            },
-            "delete_positions": {
-              "tooltip": "web/app/process/light: pl.view.positions.list.actions.delete_positions.tooltip",
-              "dialog": {
-                "title": "web/app/process/light: pl.view.positions.list.actions.delete_positions.dialog.title",
-                "cancel": "web/app/process/light: pl.view.positions.list.actions.delete_positions.dialog.cancel",
-                "yes": "web/app/process/light: pl.view.positions.list.actions.delete_positions.dialog.yes",
-                "snack": "web/app/process/light: pl.view.positions.list.actions.delete_positions.dialog.snack"
-              }
-            },
-            "download_template": {
-              "tooltip": "web/app/process/light: pl.view.positions.list.actions.download_template.tooltip"
-            },
-            "import_positions": {
-              "tooltip": "web/app/process/light: pl.view.positions.list.actions.import_positions.tooltip"
-            }
-          },
-          "empty_placeholder": "web/app/process/light: pl.view.positions.list.empty_placeholder"
-        },
-        "viewer": {
-          "fields": {
-            "count": "web/app/process/light: pl.view.positions.viewer.fields.count",
-            "description": "web/app/process/light: pl.view.positions.viewer.fields.description",
-            "documents": "web/app/process/light: pl.view.positions.viewer.fields.documents",
-            "name": "web/app/process/light: pl.view.positions.viewer.fields.name",
-            "targetCost": "web/app/process/light: pl.view.positions.viewer.fields.targetCost",
-            "unit": "web/app/process/light: pl.view.positions.viewer.fields.unit",
-            "startPrice": "web/app/process/light: pl.view.positions.viewer.fields.startPrice",
-            "auction": "web/app/process/light: pl.view.positions.viewer.fields.auction",
-            "reduction": "web/app/process/light: pl.view.positions.viewer.fields.reduction",
-            "expectedPrice": "web/app/process/light: pl.view.positions.viewer.fields.expectedPrice"
-          },
-          "title": "web/app/process/light: pl.view.positions.viewer.title",
-          "action": {
-            "upload_file": "web/app/process/light: pl.view.positions.viewer.action.upload_file",
-            "file_restriction": "web/app/process/light: pl.view.positions.viewer.action.file_restriction"
+        "delete_positions": {
+          "tooltip": "web/app/process/light: pl.view.positions.delete_positions.tooltip",
+          "dialog": {
+            "title": "web/app/process/light: pl.view.positions.delete_positions.dialog.title",
+            "cancel": "web/app/process/light: pl.view.positions.delete_positions.dialog.cancel",
+            "yes": "web/app/process/light: pl.view.positions.delete_positions.dialog.yes",
+            "snack": "web/app/process/light: pl.view.positions.delete_positions.dialog.snack"
           }
         }
       },
@@ -1951,11 +1899,17 @@
             "title": "web/app/process/light: pl.view.request.general.contact.title",
             "change": "web/app/process/light: pl.view.request.general.contact.change",
             "append": "web/app/process/light: pl.view.request.general.contact.append",
-            "tooltip": "web/app/process/light: pl.view.request.general.contact.tooltip",
+            "dialog": {
+              "title": "web/app/process/light: pl.view.request.general.contact.dialog.title",
+              "placeholder": "web/app/process/light: pl.view.request.general.contact.dialog.placeholder",
+              "cancel": "web/app/process/light: pl.view.request.general.contact.dialog.cancel",
+              "submit": "web/app/process/light: pl.view.request.general.contact.dialog.submit"
+            },
             "empty": {
               "owner": "web/app/process/light: pl.view.request.general.contact.empty.owner",
               "other": "web/app/process/light: pl.view.request.general.contact.empty.other"
-            }
+            },
+            "success": "web/app/process/light: pl.view.request.general.contact.success"
           },
           "emoji": {
             "tooltip": "web/app/process/light: pl.view.request.general.emoji.tooltip"
@@ -2258,41 +2212,6 @@
       "seo": {
         "description": "web/app/process/light: pl.view.seo.description"
       },
-      "dillegence": {
-        "success": "web/app/process/light: pl.view.dillegence.success",
-        "tooltip": {
-          "unreceived": "web/app/process/light: pl.view.dillegence.tooltip.unreceived",
-          "unavailable": "web/app/process/light: pl.view.dillegence.tooltip.unavailable",
-          "low": "web/app/process/light: pl.view.dillegence.tooltip.low",
-          "average": "web/app/process/light: pl.view.dillegence.tooltip.average",
-          "high": "web/app/process/light: pl.view.dillegence.tooltip.high",
-          "critical": "web/app/process/light: pl.view.dillegence.tooltip.critical"
-        },
-        "text": {
-          "unavailable": "web/app/process/light: pl.view.dillegence.text.unavailable",
-          "unreceived": "web/app/process/light: pl.view.dillegence.text.unreceived"
-        },
-        "row_text": {
-          "unavailable": "web/app/process/light: pl.view.dillegence.row_text.unavailable",
-          "unreceived": "web/app/process/light: pl.view.dillegence.row_text.unreceived"
-        },
-        "download": "web/app/process/light: pl.view.dillegence.download",
-        "update": "web/app/process/light: pl.view.dillegence.update",
-        "link": "web/app/process/light: pl.view.dillegence.link",
-        "link_menu": "web/app/process/light: pl.view.dillegence.link_menu",
-        "from": "web/app/process/light: pl.view.dillegence.from",
-        "popover": {
-          "title": {
-            "kontur": "web/app/process/light: pl.view.dillegence.popover.title.kontur"
-          },
-          "text": {
-            "kontur": "web/app/process/light: pl.view.dillegence.popover.text.kontur"
-          },
-          "action": {
-            "kontur": "web/app/process/light: pl.view.dillegence.popover.action.kontur"
-          }
-        }
-      },
       "snacks": {
         "request_published": "web/app/process/light: pl.view.snacks.request_published",
         "stage_published": "web/app/process/light: pl.view.snacks.stage_published",
@@ -2335,7 +2254,8 @@
         "title": "web/app/process/light: pl.view.owner.title",
         "profile": "web/app/process/light: pl.view.owner.profile",
         "preference": "web/app/process/light: pl.view.owner.preference"
-      }
+      },
+      "keywords": "web/app/process/light: pl.view.keywords"
     }
   }
 }

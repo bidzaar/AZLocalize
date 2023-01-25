@@ -19,6 +19,6 @@
   .brand_logo img {max-height: 48px; width: auto !important; font: 400 12px arial; color: #787878}     
   
   </mj-style>
-  <mj-style> @media only screen and (min-width:450px){ .bgimage { background-repeat: no-repeat; background-position: 100% 100%; } .bgimage-ok { background-image: url("https://bidzaar.com/landing/wp-content/uploads/2020/07/man_point.png"); } .bgimage-wtf { background-image: url("https://bidzaar.com/landing/wp-content/uploads/2020/07/man_wtf.png"); } .p75 {width:75% !important} /*.btnFullWidth a {width: 100% !important}*/ .app-dl {align: left} }     
+  <mj-style> @media only screen and (min-width:450px){ .bgimage { background-repeat: no-repeat; background-position: 100% 100%; } .bgimage-ok { background-image: url("@ConfigurationContext.ImageManPoint"); } .bgimage-wtf { background-image: url("@ConfigurationContext.ImageManWtf"); } .p75 {width:75% !important} /*.btnFullWidth a {width: 100% !important}*/ .app-dl {align: left} }     
   </mj-style>
 </mj-head>

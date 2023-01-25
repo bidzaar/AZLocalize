@@ -88,7 +88,9 @@
             "response_total_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_total_tooltip",
             "response_comment": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_comment",
             "request_group": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_group",
-            "response_group": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_group"
+            "response_group": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_group",
+            "show_columns": "web/app/process/light/proposal-positions: pl.prp.content.table.header.show_columns",
+            "hide_columns": "web/app/process/light/proposal-positions: pl.prp.content.table.header.hide_columns"
           },
           "body": {
             "response_availability": {
@@ -96,10 +98,13 @@
               "false": "web/app/process/light/proposal-positions: pl.prp.content.table.body.response_availability.false"
             },
             "deviation_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.deviation_tooltip",
+            "deviation_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.deviation_error_tooltip",
             "free": "web/app/process/light/proposal-positions: pl.prp.content.table.body.free",
             "auction_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.auction_error_tooltip",
             "reduction_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.reduction_error_tooltip",
-            "price_rule_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.price_rule_error_tooltip"
+            "price_rule_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.price_rule_error_tooltip",
+            "dont_have_any_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.dont_have_any_tooltip",
+            "var_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.var_error_tooltip"
           }
         },
         "side": {

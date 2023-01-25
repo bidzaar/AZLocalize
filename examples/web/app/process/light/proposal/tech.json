@@ -38,7 +38,31 @@
           }
         }
       },
+      "registries": {
+        "title": "web/app/process/light/proposal: pl.proposal.registries.title",
+        "text": "web/app/process/light/proposal: pl.proposal.registries.text",
+        "open": "web/app/process/light/proposal: pl.proposal.registries.open",
+        "status": {
+          "true": "web/app/process/light/proposal: pl.proposal.registries.status.true",
+          "false": "web/app/process/light/proposal: pl.proposal.registries.status.false"
+        },
+        "status_registry": {
+          "accredited": "web/app/process/light/proposal: pl.proposal.registries.status_registry.accredited",
+          "accredited_date": "web/app/process/light/proposal: pl.proposal.registries.status_registry.accredited_date",
+          "suspended": "web/app/process/light/proposal: pl.proposal.registries.status_registry.suspended",
+          "not_accredited": "web/app/process/light/proposal: pl.proposal.registries.status_registry.not_accredited"
+        }
+      },
       "card": {
+        "banner": {
+          "draft": "web/app/process/light/proposal: pl.proposal.card.banner.draft",
+          "submitted": {
+            "text": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.text",
+            "button": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.button"
+          },
+          "edit": "web/app/process/light/proposal: pl.proposal.card.banner.edit",
+          "summarizing": "web/app/process/light/proposal: pl.proposal.card.banner.summarizing"
+        },
         "title": {
           "my": "web/app/process/light/proposal: pl.proposal.card.title.my",
           "alternative": "web/app/process/light/proposal: pl.proposal.card.title.alternative"
@@ -60,20 +84,19 @@
         "positions": {
           "title": "web/app/process/light/proposal: pl.proposal.card.positions.title",
           "action": "web/app/process/light/proposal: pl.proposal.card.positions.action",
+          "view_action": "web/app/process/light/proposal: pl.proposal.card.positions.view_action",
           "statistics": {
-            "editable": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.editable",
-            "notFull": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.notFull",
-            "full": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.full",
-            "notFullSubmitted": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.notFullSubmitted",
-            "fullSubmitted": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.fullSubmitted"
+            "total": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.total",
+            "dont_have_any": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.dont_have_any"
           }
         },
         "questionnaire": {
           "title": "web/app/process/light/proposal: pl.proposal.card.questionnaire.title",
           "action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.action",
+          "view_action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.view_action",
           "statistics": {
-            "editable": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.editable",
-            "full": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.full"
+            "answers": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answers",
+            "answer_count": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answer_count"
           }
         },
         "documents": {

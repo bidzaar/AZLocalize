@@ -14,7 +14,7 @@
     "mails": {
       "ProcedurePublishedParticipantsInvited": "Приглашение участникам",
       "ProcedureChanged": "Уведомление об изменении запроса",
-      "ProcedureStagePublishedEvent": "Уведомление о публикации нового этап",
+      "ProcedureStagePublishedEvent": "Уведомление о публикации нового этапа",
       "ProcedureUnCompletedWinners": "Уведомление участникам, выбор которых отменён",
       "NotifyProcedureFinishedWithoutOrder": "Уведомление о завершении запроса",
       "NotifyProcedureFinishedWithOrderLooser": "Уведомление проигравшему участнику",

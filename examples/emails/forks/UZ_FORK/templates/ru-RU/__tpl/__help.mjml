@@ -1,0 +1,14 @@
+    <!-- help -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Нужна помощь?</h2>
+                <ul>
+                    <li>Узнайте, <a href="@ConfigurationContext.HelpUrl">как работать на @ConfigurationContext.ProjectName ►</a></li>
+                    <li>Техническая поддержка площадки: <a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a></li>
+               </ul><br />
+            </mj-text>
+        </mj-column>
+    </mj-section>
+
+    <!-- /help -->

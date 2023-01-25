@@ -90,7 +90,8 @@
       },
       "sorting": {
         "name": "Ad",
-        "status": "Status"
+        "status": "Status",
+        "status_changed": "[AT] Status dəyişdirmə tarixi"
       }
     }
   }

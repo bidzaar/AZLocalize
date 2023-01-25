@@ -1,0 +1,11 @@
+<mj-section>
+  <mj-column>
+    <mj-text>
+      <h2>Need any help? Contact us:</h2>
+      <ul>
+        <li><a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a></li>
+        <li><a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a></li>
+      </ul><br />
+    </mj-text>
+  </mj-column>
+</mj-section>

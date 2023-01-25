@@ -13,7 +13,6 @@
         "filters": {
           "badges": "web/app: admin.companies.list.filters.badges",
           "company_sales": "web/app: admin.companies.list.filters.company_sales",
-          "completedProceduresCount": "web/app: admin.companies.list.filters.completedProceduresCount",
           "default": "web/app: admin.companies.list.filters.default",
           "employeesCount": "web/app: admin.companies.list.filters.employeesCount",
           "labels": "web/app: admin.companies.list.filters.labels",
@@ -22,7 +21,6 @@
             "title": "web/app: admin.companies.list.filters.location.title"
           },
           "areas": {
-            "dialog": "web/app: admin.companies.list.filters.areas.dialog",
             "title": "web/app: admin.companies.list.filters.areas.title"
           },
           "participationsCount": "web/app: admin.companies.list.filters.participationsCount",
@@ -336,6 +334,28 @@
     "access_denied": {
       "hint": "web/app: core.access_denied.hint",
       "text": "web/app: core.access_denied.text"
+    },
+    "request_forbidden": {
+      "hint": "web/app: core.request_forbidden.hint",
+      "text": "web/app: core.request_forbidden.text",
+      "help": {
+        "action": "web/app: core.request_forbidden.help.action",
+        "text": "web/app: core.request_forbidden.help.text",
+        "list": {
+          "item_1": {
+            "text": "web/app: core.request_forbidden.help.list.item_1.text"
+          },
+          "item_2": {
+            "text": "web/app: core.request_forbidden.help.list.item_2.text",
+            "info": "web/app: core.request_forbidden.help.list.item_2.info"
+          },
+          "item_3": {
+            "text": "web/app: core.request_forbidden.help.list.item_3.text",
+            "info": "web/app: core.request_forbidden.help.list.item_3.info"
+          }
+        },
+        "footer": "web/app: core.request_forbidden.help.footer"
+      }
     }
   },
   "dashboard": {
@@ -376,13 +396,6 @@
       "number": "web/app: dashboard.invitations.number",
       "admin": "web/app: dashboard.invitations.admin",
       "access": "web/app: dashboard.invitations.access"
-    },
-    "my_accreditations": {
-      "action": "web/app: dashboard.my_accreditations.action",
-      "active": "web/app: dashboard.my_accreditations.active",
-      "adjustment_required": "web/app: dashboard.my_accreditations.adjustment_required",
-      "invited": "web/app: dashboard.my_accreditations.invited",
-      "title": "web/app: dashboard.my_accreditations.title"
     },
     "no_procedures": {
       "action": "web/app: dashboard.no_procedures.action",
@@ -809,7 +822,8 @@
             "all-receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.all-receipt-archive",
             "my-proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.my-proposal-archive",
             "proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.proposal-archive",
-            "receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.receipt-archive"
+            "receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.receipt-archive",
+            "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive"
           }
         },
         "registry_reports": {
@@ -849,6 +863,7 @@
       "questionnaire": "web/app: procedure.clone.questionnaire",
       "team": "web/app: procedure.clone.team",
       "nda": "web/app: procedure.clone.nda",
+      "registries": "web/app: procedure.clone.registries",
       "cancel": "web/app: procedure.clone.cancel",
       "submit": "web/app: procedure.clone.submit"
     },
@@ -1752,7 +1767,6 @@
             "next": "web/app: process.light.invite.dialog.actions.next"
           },
           "empty": {
-            "advice": "web/app: process.light.invite.dialog.empty.advice",
             "primary": "web/app: process.light.invite.dialog.empty.primary",
             "secondary": "web/app: process.light.invite.dialog.empty.secondary"
           },
@@ -2388,7 +2402,8 @@
             "public": "web/app: user_management.company.viewer.actions.menu.public",
             "remove": "web/app: user_management.company.viewer.actions.menu.remove",
             "phantom": "web/app: user_management.company.viewer.actions.menu.phantom",
-            "smtp": "web/app: user_management.company.viewer.actions.menu.smtp"
+            "smtp": "web/app: user_management.company.viewer.actions.menu.smtp",
+            "categories": "web/app: user_management.company.viewer.actions.menu.categories"
           }
         },
         "dialogs": {

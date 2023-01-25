@@ -1,0 +1,125 @@
+{
+  "pl_pop": {
+    "importer": {
+      "title": "Import items from file",
+      "count": "Items imported: <b>{{ count }}</b> from {{ total }}",
+      "warning": "Importing from a file will delete already existing positions.",
+      "next": "Next",
+      "cancel": "Cancel",
+      "upload": "Next",
+      "close": "Close",
+      "items": {
+        "Process.Light.Import.Positions.InvalidFileExtension": {
+          "title": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
+        },
+        "Process.Light.Import.Positions.InvalidFile": {
+          "title": "<b>The file does not match the specification for the positions in the request</b>. Download the actual template and upload it again."
+        },
+        "Process.Light.Import.Positions.FileHasErrors": {
+          "title": "<b>Items with errors are not loaded.</b> Correct the errors and upload again.",
+          "download": "Download a file with error descriptions"
+        }
+      }
+    },
+    "configurator": {
+      "header": "Columns Customization",
+      "defaults": {
+        "name": "New column"
+      },
+      "details": {
+        "name": "Field name",
+        "type": {
+          "string": "Type: String",
+          "number": "Type: Number",
+          "datetime": "Type: Date"
+        }
+      },
+      "actions": {
+        "done": "Done",
+        "append": "Add a column",
+        "remove": "Remove the column"
+      },
+      "empty": {
+        "text": "No additional columns have been added",
+        "notice": "Click Add Column to begin"
+      },
+      "errors": {
+        "name": "The name is not specified"
+      },
+      "remove": {
+        "text": "Delete the column",
+        "cancel": "Cancel",
+        "confirm": "Delete"
+      }
+    },
+    "positions": {
+      "empty": {
+        "text": "Items not added"
+      },
+      "header": {
+        "text": "Item specification"
+      },
+      "table": {
+        "groups": {
+          "position": "Organizer columns",
+          "proposal": "Vendor columns"
+        },
+        "columns": {
+          "position": {
+            "index": "№",
+            "name": "Name",
+            "description": "Description",
+            "count": "Amount",
+            "unit": "Unit",
+            "target_price": "Target cost per unit, {{ value }}",
+            "max_price": "Max cost per unit, {{ value }}",
+            "min_price": "Min cost per unit, {{ value }}",
+            "expected_price": "Expected cost per unit, {{ value }}",
+            "documents": "Documents"
+          },
+          "proposal": {
+            "availability": "Availability",
+            "count": "Amount",
+            "vat": "VAT rate",
+            "price_none_vat": "Price per unit",
+            "price_incl_vat": "Price per unit, incl. VAT",
+            "price_excl_vat": "Price per unit, excl. VAT",
+            "currency": "Currency",
+            "comment": "Comment",
+            "documents": "Documents"
+          }
+        },
+        "actions": {
+          "documents": {
+            "title": "Allow attaching documents to a position",
+            "text": "Enabled option gives members the ability to attach documents to positions"
+          }
+        },
+        "tooltips": {
+          "insert": "Insert",
+          "remove": "Remove",
+          "deviation": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions and quantity",
+          "target_price": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
+          "max_price": "The maximum price a supplier can offer for an item.\nSupplier cannot exceed the specified price",
+          "min_price": "The lowest price a supplier can offer for an item.\nSupplier cannot offer a lower price",
+          "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price"
+        }
+      },
+      "defaults": {
+        "name": "New position",
+        "unit": "unit"
+      },
+      "actions": {
+        "append": "Add item",
+        "download": "Download template",
+        "upload": "Upload from file"
+      },
+      "delete": {
+        "text": "Delete position?",
+        "confirm": "Delete",
+        "cancel": "Cancel",
+        "success": "Position deleted"
+      }
+    }
+  }
+}

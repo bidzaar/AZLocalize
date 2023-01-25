@@ -20,7 +20,8 @@
     },
     "description": {
       "expand": "tamamilə göstər",
-      "collapse": "Gizlətmək"
+      "collapse": "Gizlətmək",
+      "empty": "[AT] Təsvir verilmir"
     },
     "contacts": {
       "title": "Əlaqələndirici şəxs"
@@ -63,7 +64,8 @@
           "text": "[AT] İştirak pulsuzdur",
           "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
         }
-      }
+      },
+      "info": "[AT] Daha çox"
     },
     "owner_rules": {
       "verified_only": {
