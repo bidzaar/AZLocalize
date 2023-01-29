@@ -181,7 +181,7 @@
             }
           },
           "canceled": {
-            "title": "Ləğv edilmiş sifarişlər ({value}})",
+            "title": "Ləğv edilmiş sifarişlər",
             "order_title": "Ləğv et",
             "reason": "Səbəb"
           }

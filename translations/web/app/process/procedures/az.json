@@ -103,7 +103,8 @@
       "budget": "Büdcə",
       "chats_tooltip": "Yeni mesajlar",
       "order_price": "Sifarişin qiyməti",
-      "owners": "Sorğunun sahibləri ({{value}})"
+      "owners": "Sorğunun sahibləri ({{value}})",
+      "owners_empty": "Sahiblər mövcüd deyil"
     },
     "manager": {
       "search_tooltip": "Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Sorğu teqləri"
@@ -114,11 +115,15 @@
       "manager_title": "Şirkətin bütün sorğuları",
       "title": "Mənim sorğularım",
       "download": "Yüklə",
-      "vendors_statistics_dialog": {
-        "title": "Alıcı statistikası.",
+      "report": {
         "period": "Hesabat dövrü",
         "cancel": "Ləğv et",
-        "download": "Yüklə"
+        "download": "Yüklə",
+        "type": {
+          "0": "Sifarişçi üzrə statistika.",
+          "1": "Bütün sorğular",
+          "2": "Tamamlanmış sorğular"
+        }
       }
     },
     "participantions": {

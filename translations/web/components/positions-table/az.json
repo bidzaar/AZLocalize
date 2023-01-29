@@ -1,5 +1,10 @@
 {
   "ptb": {
+    "actions": {
+      "collapse": "Sütunları gizlədin",
+      "expand": "Sütunları göstərin",
+      "customize": "Sütunları fərdiləşdirin"
+    },
     "custom_field_popover": {
       "name": "Ad",
       "new": "Sütun yaradın",
