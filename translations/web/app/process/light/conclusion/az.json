@@ -291,7 +291,7 @@
               "text": "Faktorinq, alıcı sifariş üçün ödəniş etməmişdən əvvəl satıcıya pulu almağa kömək edəcək. Bu, kassada pul boşluqlarının qarşısını alacaq.",
               "title": "Sifariş faktorinqi"
             },
-            "loser": "Müştəri qalib kimi başqa şirkəti seçdi.",
+            "loser": "Sifarişçi qalib kimi başqa şirkəti seçdi.",
             "nobody": "Sorğu qalib seçilmədən tamamlandı.",
             "proposal": {
               "alter": "Alternativ {{ index }}",

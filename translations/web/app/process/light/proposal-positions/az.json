@@ -50,7 +50,7 @@
               "Process.Light.Import.Positions.MinValue.Number": "Dəyər minimumdan (0) azdır",
               "Process.Light.Import.Positions.MinValue.Price": "Dəyər minimumdan (0) azdır",
               "Process.Light.Import.Positions.Required": "Hüceyrə boşdur:",
-              "Process.Light.Import.Positions.VersionMismatch": "Müştəri sorğunu dəyişdi, sizin təklif artıq etibarlı deyil. Dəyişiklikləri yoxlayın və təklifi yeniləyin.",
+              "Process.Light.Import.Positions.VersionMismatch": "Sifarişçi sorğunu dəyişdi, sizin təklif artıq etibarlı deyil. Dəyişiklikləri yoxlayın və təklifi yeniləyin.",
               "Process.Light.Import.Positions.WrongCurrency": "Maddə valyutası sorğu valyutasına uyğun gəlmir:",
               "Process.Light.Import.Positions.WrongFormat.Number": "Xanada yanlış dəyər:",
               "Process.Light.Import.Positions.WrongFormat.Price": "Xanada yanlış dəyər:"
@@ -127,8 +127,8 @@
               "greater_than": "Dəyər təyin edin >{{value}}",
               "greater_than_or_equals": "{{value}} və ya daha çox daxil edin",
               "less_than": "Maksimum:{{ value }}",
-              "price_less": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Müştəri tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) azdır.",
-              "price_more": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Müştəri tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) çoxdur"
+              "price_less": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) azdır.",
+              "price_more": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) çoxdur"
             }
           },
           "unsaved": {
@@ -167,11 +167,11 @@
         },
         "table": {
           "body": {
-            "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
+            "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
             "deviation_tooltip": "Sorğudakı miqdarda yayınma",
             "deviation_error_tooltip": "Sorğudakı miqdardan kənara çıxmağa yol verilmir",            
             "free": "Ödənişsiz",
-            "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
+            "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
             "response_availability": {
               "false": "Mövcud",
               "true": "Mövcud deyil"
