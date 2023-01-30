@@ -1164,9 +1164,9 @@
         "selected_participants": "Seçmək üçün təklif edir",
         "sorting": {
           "0": "Öncə ən yaxşı qiymətlə ",
-          "1": "Əvvəlcə tam məmnuniyyətlə",
-          "2": "Başlanğıcda maddə üzrə ən yüksək dərəcələrlə ",
-          "3": "Əvvəldə sifarişlə",
+          "1": "Öncə həcmi tam məmnuniyyətlə olan",
+          "2": "Öncə maddə üzrə ən yüksək dərəcə ilə ",
+          "3": "Öncə sifarişlə",
           "button": "Təkliflər",
           "tooltip": "Təkliflərin sifarişini fərdiləşdirin"
         },
