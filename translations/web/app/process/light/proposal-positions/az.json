@@ -78,7 +78,7 @@
             "count": "Miqdar",
             "price": {
               "auction": "Vahidin minimum qiyməti:",
-              "expected": "Vahidin gözlənilən qiyməti. :",
+              "expected": "Gözlənilən qiymət:",
               "reduction": "Vahidin maksimal qiyməti:"
             }
           },

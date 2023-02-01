@@ -70,7 +70,7 @@
           "false": "ƏDV-siz",
           "null": "",
           "true": "ƏDV daxil",
-          "none": "Pulsuz"
+          "none": ""
         }
       },
       "summary": {
@@ -102,7 +102,7 @@
         }
       },
       "filters": {
-        "empty": "Kateqoriyada maddə yoxdur",
+        "empty": "",
         "options": {
           "0": "Bütün maddələr",
           "1": "Mövcud",
@@ -130,7 +130,7 @@
             "target_price": "Vahidin qiyməti, {{ value }}",
             "max_price": "Vahidin maksimum qiyməti, {{ value }}",
             "min_price": "Vahidin minimum qiyməti, {{ value }}",
-            "expected_price": "Vahidin gözlənilən qiyməti, {{ value }}",
+            "expected_price": "Gözlənilən qiymət, {{ value }}",
             "best_price": "Vahid üçün ən yaxşı qiymət, {{ value }}",
             "documents": "Sənədlər"
           },
@@ -146,7 +146,7 @@
             "currency": "Valyuta",
             "comment": "Şərh" ,
             "documents": "Sənədlər",
-            "prev_price": "Əvvəlki vahid qiyməti"
+            "prev_price": "Vahidin əvvəlki qiyməti"
           }
         },
         "tooltips": {

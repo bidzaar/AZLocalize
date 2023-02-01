@@ -673,7 +673,7 @@
             },
             "expected_price": {
               "label": "Gözlənilən qiymət",
-              "placeholder": "Qurulmayıb",
+              "placeholder": "Təyin olunmayıb",
               "tooltip": "Gözlənilən iddiaçı qiymət səviyyəsi"
             },
             "participants_visibility": {
@@ -1117,7 +1117,7 @@
           "no_vat": "ƏDV-siz",
           "order": "Sifariş",
           "proposal": {
-            "at_the_price_of": "qiymətə görə",
+            "at_the_price_of": "qiyməti:",
             "per_unit": "vahid üçün",
             "title": "Təklif:"
           },
@@ -1192,7 +1192,7 @@
           "button": "Qiymət müqayisəsi",
           "target_price": "Hədəf dəyərinə nisbətən",
           "first_price": "Orijinal təklifə gəldikdə",
-          "best_price": "Ən yaxşı təklif haqqında"
+          "best_price": "Ən yaxşı təklifdən"
         },
         "participants_filter": {
           "button": "İştirakçılar",
@@ -1301,7 +1301,7 @@
             "title": "Sorğu ləğv edildi"
           },
           "completed": {
-            "text": "Nəticələri \"Nəticələr\" bölməsində yoxlayın",
+            "text": "Nəticələri \"Yekun Nəticələr\" bölməsində yoxlayın",
             "title": "Sorğu tamamlandı"
           },
           "status_changed": {
@@ -2343,7 +2343,7 @@
         "validation": {
           "title": {
             "0": "Sorğunu təsdiqlə",
-            "1": "Dəyişiklikləri dərc et",
+            "1": "Dəyişikliklərin dərc olunması",
             "2": "Mərhələ dərc et"
           },
           "invalid": "Səhvləri düzəldin və yenidən dərc edin",
@@ -2484,9 +2484,9 @@
               "2": "İştirakçılara yeni mərhələ haqqında məlumat verəcəyik"
             },
             "subtitle": {
-              "0": "Məktubu iştirakçılara mesajınızla əlavə edə bilərsiniz",
-              "1": "Məktubu iştirakçılara mesajınızla əlavə edə bilərsiniz",
-              "2": "Məktubu iştirakçılara mesajınızla əlavə edə bilərsiniz"
+              "0": "Məktubda iştirakçılara mesaj əlavə edə bilərsiniz",
+              "1": "Məktubda iştirakçılara mesaj əlavə edə bilərsiniz",
+              "2": "Məktubda iştirakçılara mesaj əlavə edə bilərsiniz"
             }
           }
         },

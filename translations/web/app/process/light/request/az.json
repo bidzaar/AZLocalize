@@ -47,7 +47,18 @@
           "add_files": "Texniki tapşırığı, spesifikasiyaları, müqavilə layihəsini və s. əlavə edin.",
           "placeholder": "Sorğunuzun mövzusunu qeyd edin...",
           "title": "Təsvir və sənədlər",
-          "warning_text": "Sənədlər təchizatçı şirkətlər üçün əlçatandır.\nDaxil olun və ya şirkəti qeydiyyatdan keçirin."
+          "warning_text": "Sənədlər təchizatçı şirkətlər üçün əlçatandır.\nDaxil olun və ya şirkəti qeydiyyatdan keçirin.",
+          "editor": {
+            "headers": {
+              "h1": "Başlıq 1",
+              "h2": "Başlıq 2",
+              "h3": "Başlıq 3",
+              "h4": "Başlıq 4",
+              "h5": "Başlıq 5",
+              "h6": "Başlıq 6"
+            },
+            "remove": "Sil"
+          }
         },
         "nda": {
           "sub_title": "İştirakçılar sorğunun təsvirinə sizin təsdiqinizdən sonra giriş izni əldə edəcəklər",
@@ -102,8 +113,23 @@
             "remove": "Sil",
             "empty": "Reyestrlər tapılmadı"
           }
+        },
+        "dialog": {
+          "title": "Şirkətin qeydiyyatı",
+          "add": "Reyestr əlavə edin",
+          "cancel": "Ləğv et",
+          "empty": {
+            "text": "Şirkətinizin dərc edilmiş reyestrləri yoxdur.",
+            "add": "Reyestrləri idarə edin",
+            "close": "Tamam"
+          },
+          "search": {
+            "placeholder": "Axtar...",
+            "remove": "Sil",
+            "empty": "Reyestr tapılmadı"
+          }
         }
-      },
+      },  
       "positions": {
         "disabled": "Sorğu maddələri qeyd olunmayıb",
         "empty": "Sorğu maddələrini qeyd edin",
@@ -127,7 +153,7 @@
         "text": {
           "message": "Sorğunu sadə, sürətli və səmərəli keçirin.",
           "warning": "Sorğu dərc edildikdən sonra möcüzəni ləğv etmək mümkün olmayacaq",
-          "read": "Möcüzə Aktivdir"
+          "read": "Sehr Aktivdir"
         },
         "select": {
           "label": "İştirakçıların ixtisaslaşması",

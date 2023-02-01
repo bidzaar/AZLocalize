@@ -16,7 +16,7 @@
       },
       "forbidden": {
         "message": {
-          "owner.status": "Sorğuların qəbulu mərhələsində təşkilatçı iştrakçıların təkliflərinə girişi qadağan edib",
+          "owner.status": "Təkliflər qəbulu mərhələsində təşkilatçı iştrakçıların təkliflərinə girişi qadağan edib",
           "owner.version": "Yekunların hazırlanması sorğunu dərc olunmasından sonra mümkündür",
           "participant.canceled": "Təəssüf ki, bu sorğu sahibi tərəfindən ləğv edildi."
         },
@@ -32,7 +32,7 @@
             "title": "Tender komissiyasının protokolları və sənədləri",
             "notice": "Sənədlər platformanın bütün istifadəçiləri üçün əlçatandır",
             "upload": "Protokolu və ya digər sənədi dərc edin",
-            "empty": "Tender komissiyasının protokolları və sənədləri yüklənmir"
+            "empty": "Tender komissiyasının protokolları və sənədləri yüklənməyib"
           },
           "message": {
             "default": {

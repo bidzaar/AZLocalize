@@ -27,7 +27,7 @@
         "name": "Yeni sütun"
       },
       "details": {
-        "name": "Sahənin adı",
+        "name": "Sütunun adı",
         "required": "",
         "type": {
           "string": "Növ: Mətn",
@@ -75,7 +75,7 @@
             "target_price": "Vahidin hədəf qiyməti, {{ value }}",
             "max_price": "Vahidin maksimal qiyməti, {{ value }}",
             "min_price": "Vahidin minimum qiyməti, {{ value }}",
-            "expected_price": "Vahidin gözlənilən qiyməti, {{ value }}",
+            "expected_price": "Gözlənilən qiymət, {{ value }}",
             "documents": "Sənədlər"
           },
           "proposal": {
