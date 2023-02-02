@@ -1,4 +1,4 @@
-name: CI
+name: trigger_localizer
 
 # Controls when the workflow will run
 on:
@@ -22,3 +22,5 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run a one-line script
         run: "curl --request POST -A \"${{ secrets.USER_AGENT }}\" --header \"PRIVATE-TOKEN: ${{ secrets.GL_TOKEN }} \" \"${{ secrets.HOST_NAME }}/api/v4/projects/${{ secrets.PROJECT }}/pipeline?ref=${{ secrets.BRANCH }}\" -L"
+
+
