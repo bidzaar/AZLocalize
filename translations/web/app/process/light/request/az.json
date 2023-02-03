@@ -115,7 +115,7 @@
                     }
                 },
                 "dialog": {
-                    "title": "Şirkətin qeydiyyatı",
+                    "title": "Şirkətin reyestrləri",
                     "add": "Reyestr əlavə edin",
                     "cancel": "Ləğv et",
                     "empty": {
