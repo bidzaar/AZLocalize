@@ -1,0 +1,79 @@
+{
+    "cmp": {
+        "smtp": {
+            "header": {
+                "title": "web/app/companies/smtp: cmp.smtp.header.title",
+                "btn": "web/app/companies/smtp: cmp.smtp.header.btn"
+            },
+            "content": {
+                "title": "web/app/companies/smtp: cmp.smtp.content.title",
+                "setting": {
+                    "default": {
+                        "title": "web/app/companies/smtp: cmp.smtp.content.setting.default.title",
+                        "text": "web/app/companies/smtp: cmp.smtp.content.setting.default.text",
+                        "btn": "web/app/companies/smtp: cmp.smtp.content.setting.default.btn",
+                        "settings": "web/app/companies/smtp: cmp.smtp.content.setting.default.settings"
+                    },
+                    "custom": {
+                        "title": "web/app/companies/smtp: cmp.smtp.content.setting.custom.title",
+                        "text": "web/app/companies/smtp: cmp.smtp.content.setting.custom.text",
+                        "sub_text": "web/app/companies/smtp: cmp.smtp.content.setting.custom.sub_text"
+                    }
+                }
+            },
+            "dialog": {
+                "title": "web/app/companies/smtp: cmp.smtp.dialog.title",
+                "email": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.email.label",
+                    "placeholder": "web/app/companies/smtp: cmp.smtp.dialog.email.placeholder"
+                },
+                "name": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.name.label",
+                    "placeholder": "web/app/companies/smtp: cmp.smtp.dialog.name.placeholder"
+                },
+                "smtp": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.smtp.label",
+                    "placeholder": "web/app/companies/smtp: cmp.smtp.dialog.smtp.placeholder"
+                },
+                "port": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.port.label"
+                },
+                "username": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.username.label",
+                    "placeholder": "web/app/companies/smtp: cmp.smtp.dialog.username.placeholder"
+                },
+                "password": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.password.label",
+                    "placeholder": "web/app/companies/smtp: cmp.smtp.dialog.password.placeholder"
+                },
+                "ssl": {
+                    "label": "web/app/companies/smtp: cmp.smtp.dialog.ssl.label"
+                },
+                "error": "web/app/companies/smtp: cmp.smtp.dialog.error",
+                "actions": {
+                    "cancel": "web/app/companies/smtp: cmp.smtp.dialog.actions.cancel",
+                    "save": "web/app/companies/smtp: cmp.smtp.dialog.actions.save"
+                }
+            },
+            "test_message_dialog": {
+                "title": "web/app/companies/smtp: cmp.smtp.test_message_dialog.title",
+                "email": {
+                    "label": "web/app/companies/smtp: cmp.smtp.test_message_dialog.email.label"
+                },
+                "success": {
+                    "text": "web/app/companies/smtp: cmp.smtp.test_message_dialog.success.text",
+                    "info": "web/app/companies/smtp: cmp.smtp.test_message_dialog.success.info"
+                },
+                "failure": {
+                    "text": "web/app/companies/smtp: cmp.smtp.test_message_dialog.failure.text",
+                    "info": "web/app/companies/smtp: cmp.smtp.test_message_dialog.failure.info"
+                },
+                "actions": {
+                    "cancel": "web/app/companies/smtp: cmp.smtp.test_message_dialog.actions.cancel",
+                    "send": "web/app/companies/smtp: cmp.smtp.test_message_dialog.actions.send",
+                    "close": "web/app/companies/smtp: cmp.smtp.test_message_dialog.actions.close"
+                }
+            }
+        }
+    }
+}

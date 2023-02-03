@@ -1,0 +1,141 @@
+{
+    "core": {
+        "marketplace": {
+            "name": "web/admin: core.marketplace.name"
+        },
+        "user_toolbar": {
+            "login": "web/admin: core.user_toolbar.login",
+            "register": "web/admin: core.user_toolbar.register",
+            "logout": "web/admin: core.user_toolbar.logout"
+        },
+        "navigation": {
+            "all_companies": "web/admin: core.navigation.all_companies",
+            "team": "web/admin: core.navigation.team",
+            "ratings": "web/admin: core.navigation.ratings",
+            "buyers": "web/admin: core.navigation.buyers",
+            "requests": "web/admin: core.navigation.requests",
+            "stop_list": "web/admin: core.navigation.stop_list",
+            "merge_tags": "web/admin: core.navigation.merge_tags",
+            "tariffs": "web/admin: core.navigation.tariffs",
+            "categories": "web/admin: core.navigation.categories"
+        }
+    },
+    "dashboard": {
+        "guest": {
+            "request_access": {
+                "title": "web/admin: dashboard.guest.request_access.title",
+                "text": "web/admin: dashboard.guest.request_access.text",
+                "action": "web/admin: dashboard.guest.request_access.action"
+            },
+            "wait_for_approval": {
+                "title": "web/admin: dashboard.guest.wait_for_approval.title",
+                "text": "web/admin: dashboard.guest.wait_for_approval.text"
+            }
+        }
+    },
+    "errors": {
+        "common": {
+            "default": "web/admin: errors.common.default"
+        },
+        "http": {
+            "status": {
+                "400": "web/admin: errors.http.status.400",
+                "401": "web/admin: errors.http.status.401",
+                "403": "web/admin: errors.http.status.403",
+                "404": "web/admin: errors.http.status.404",
+                "405": "web/admin: errors.http.status.405",
+                "408": "web/admin: errors.http.status.408",
+                "409": "web/admin: errors.http.status.409",
+                "413": "web/admin: errors.http.status.413",
+                "500": "web/admin: errors.http.status.500",
+                "501": "web/admin: errors.http.status.501",
+                "502": "web/admin: errors.http.status.502",
+                "503": "web/admin: errors.http.status.503",
+                "504": "web/admin: errors.http.status.504"
+            }
+        },
+        "logic": {
+            "default": "web/admin: errors.logic.default",
+            "UserManagement": {
+                "Admin": {
+                    "LastAdmin": "web/admin: errors.logic.UserManagement.Admin.LastAdmin",
+                    "BlockYourself": "web/admin: errors.logic.UserManagement.Admin.BlockYourself"
+                }
+            },
+            "Tags": {
+                "TagHasInStopList": "web/admin: errors.logic.Tags.TagHasInStopList"
+            }
+        }
+    },
+    "filters": {
+        "clear": "web/admin: filters.clear",
+        "clear_all": "web/admin: filters.clear_all",
+        "filter": "web/admin: filters.filter",
+        "more_filters": "web/admin: filters.more_filters",
+        "operators": {
+            "date_after": "web/admin: filters.operators.date_after",
+            "date_before": "web/admin: filters.operators.date_before",
+            "equal": "web/admin: filters.operators.equal",
+            "exact_date": "web/admin: filters.operators.exact_date",
+            "greater_than": "web/admin: filters.operators.greater_than",
+            "greater_than_or_equal": "web/admin: filters.operators.greater_than_or_equal",
+            "less_than": "web/admin: filters.operators.less_than",
+            "less_than_or_equal": "web/admin: filters.operators.less_than_or_equal",
+            "not_equal": "web/admin: filters.operators.not_equal",
+            "period": "web/admin: filters.operators.period",
+            "range": "web/admin: filters.operators.range"
+        },
+        "placeholders": {
+            "end": "web/admin: filters.placeholders.end",
+            "enter_number": "web/admin: filters.placeholders.enter_number",
+            "enter_text_value": "web/admin: filters.placeholders.enter_text_value",
+            "from": "web/admin: filters.placeholders.from",
+            "to": "web/admin: filters.placeholders.to"
+        },
+        "search": "web/admin: filters.search",
+        "show": "web/admin: filters.show",
+        "hide": "web/admin: filters.hide",
+        "tooltip": "web/admin: filters.tooltip",
+        "sorting": "web/admin: filters.sorting"
+    },
+    "validation": {
+        "file_too_large": "web/admin: validation.file_too_large",
+        "invalid_date_format": "web/admin: validation.invalid_date_format",
+        "min": "web/admin: validation.min",
+        "max": "web/admin: validation.max",
+        "min_length": "web/admin: validation.min_length",
+        "max_length": "web/admin: validation.max_length",
+        "notEmpty": "web/admin: validation.notEmpty",
+        "required": "web/admin: validation.required",
+        "unsupported_file_format": "web/admin: validation.unsupported_file_format",
+        "wrong_code": "web/admin: validation.wrong_code",
+        "wrong_format": "web/admin: validation.wrong_format",
+        "greater_than": "web/admin: validation.greater_than",
+        "less_than": "web/admin: validation.less_than"
+    },
+    "common": {
+        "rights": {
+            "1": "web/admin: common.rights.1",
+            "2": "web/admin: common.rights.2",
+            "4": "web/admin: common.rights.4",
+            "8": "web/admin: common.rights.8",
+            "256": "web/admin: common.rights.256",
+            "512": "web/admin: common.rights.512",
+            "2048": "web/admin: common.rights.2048"
+        }
+    },
+    "controls": {
+        "list": {
+            "total": "web/admin: controls.list.total"
+        }
+    },
+    "user_management": {
+        "badges": {
+            "filter": {
+                "show": "web/admin: user_management.badges.filter.show",
+                "search": "web/admin: user_management.badges.filter.search",
+                "empty": "web/admin: user_management.badges.filter.empty"
+            }
+        }
+    }
+}

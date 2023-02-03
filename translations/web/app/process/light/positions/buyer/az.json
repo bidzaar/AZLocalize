@@ -1,126 +1,126 @@
 {
-  "pl_pop": {
-    "importer": {
-      "cancel": "Ləğv et",
-      "items": {
-        "Process.Light.Import.Positions.FileHasErrors": {
-          "download": "Səhv təsvirləri olan faylı endir",
-          "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
+    "pl_pop": {
+        "importer": {
+            "cancel": "Ləğv et",
+            "items": {
+                "Process.Light.Import.Positions.FileHasErrors": {
+                    "download": "Səhv təsvirləri olan faylı endir",
+                    "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
+                },
+                "Process.Light.Import.Positions.InvalidFile": {
+                    "title": "<b>Fayl sorğudakı maddələrin spesifikasiyasına uyğun gəlmir.</b> Cari şablonu yükləyin və yenidən endirin."
+                },
+                "Process.Light.Import.Positions.InvalidFileExtension": {
+                    "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+                }
+            },
+            "next": "Növbəti",
+            "count": "Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+            "title": "Fayldan maddələri yüklə",
+            "upload": "Növbəti",
+            "close": "Bağla",
+            "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək."
         },
-        "Process.Light.Import.Positions.InvalidFile": {
-          "title": "<b>Fayl sorğudakı maddələrin spesifikasiyasına uyğun gəlmir.</b> Cari şablonu yükləyin və yenidən endirin."
+        "configurator": {
+            "header": "Sütunların fərdiləşdirilməsi",
+            "defaults": {
+                "name": "Yeni sütun"
+            },
+            "details": {
+                "name": "Sütunun adı",
+                "required": "",
+                "type": {
+                    "string": "Növ: Mətn",
+                    "number": "Növ: Rəqəm",
+                    "datetime": "Növ: Tarix"
+                }
+            },
+            "actions": {
+                "done": "Bitdi",
+                "append": "Sütun əlavə et",
+                "remove": "Sütunu sil"
+            },
+            "empty": {
+                "text": "Əlavə sütunlar əlavə edilməyib",
+                "notice": "Başlamaq üçün Sütun Əlavə et düyməsini klikləyin"
+            },
+            "errors": {
+                "name": "Adı dəqiqləşdirilməyib"
+            },
+            "remove": {
+                "text": "Sütunu silin",
+                "cancel": "Ləğv et",
+                "confirm": "Sil"
+            }
         },
-        "Process.Light.Import.Positions.InvalidFileExtension": {
-          "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+        "positions": {
+            "empty": {
+                "text": "Maddələr əlavə olunmayıb"
+            },
+            "header": {
+                "text": "Maddə üzrə spesifikasiya"
+            },
+            "table": {
+                "groups": {
+                    "position": "Satınalan təşkilatın sütunları",
+                    "proposal": "Təchizatçı təşkilatın sütunları"
+                },
+                "columns": {
+                    "position": {
+                        "index": "№",
+                        "name": "Ad",
+                        "description": "Təsvir",
+                        "count": "Miqdar",
+                        "unit": "Ölçü vahidi",
+                        "target_price": "Vahidin hədəf qiyməti, {{ value }}",
+                        "max_price": "Vahidin maksimal qiyməti, {{ value }}",
+                        "min_price": "Vahidin minimum qiyməti, {{ value }}",
+                        "expected_price": "Gözlənilən qiymət, {{ value }}",
+                        "documents": "Sənədlər"
+                    },
+                    "proposal": {
+                        "availability": "Mövcudluq",
+                        "count": "Miqdar",
+                        "vat": "ƏDV dərəcəsi",
+                        "price_none_vat": "Vahidin qiyməti",
+                        "price_incl_vat": "Vahidin ƏDV daxil qiyməti",
+                        "price_excl_vat": "Vahidin ƏDV-siz qiyməti",
+                        "currency": "Valyuta",
+                        "comment": "Şərh",
+                        "documents": "Sənədlər"
+                    }
+                },
+                "actions": {
+                    "documents": {
+                        "title": "Maddələrə sənəd əlavə etməyə icazə verin",
+                        "text": "Aktivləşdirilmiş seçim iştirakçılara sənədləri maddələrə əlavə etmək imkanı verir"
+                    }
+                },
+                "tooltips": {
+                    "insert": "Daxil edin",
+                    "remove": "Sil",
+                    "deviation": "Sorğunun təklif həcmində maddələr və miqdara görə yayınmaya icazə verilirsə, xana aktiv olur.",
+                    "target_price": "Seçərkən səmt göstərən qiyməti göstərin. Qiymət yalnız sizə göstərilir - iştirakcılar onu görməyəcək..",
+                    "max_price": "Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
+                    "min_price": "Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
+                    "expected_price": "Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
+                }
+            },
+            "defaults": {
+                "name": "Yeni maddə",
+                "unit": "əd."
+            },
+            "actions": {
+                "append": "Maddə əlavə et",
+                "download": "Şablonu endir",
+                "upload": "Fayldan yüklə"
+            },
+            "delete": {
+                "text": "Maddə silinsin?",
+                "cancel": "Ləğv et",
+                "confirm": "Sil",
+                "success": "Maddə silindi"
+            }
         }
-      },
-      "next": "Növbəti",
-      "count": "Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
-      "title": "Fayldan maddələri yüklə",
-      "upload": "Növbəti",
-      "close": "Bağla",
-      "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək."
-    },
-    "configurator": {
-      "header": "Sütunların fərdiləşdirilməsi",
-      "defaults": {
-        "name": "Yeni sütun"
-      },
-      "details": {
-        "name": "Sütunun adı",
-        "required": "",
-        "type": {
-          "string": "Növ: Mətn",
-          "number": "Növ: Rəqəm",
-          "datetime": "Növ: Tarix"
-        }
-      },
-      "actions": {
-        "done": "Bitdi",
-        "append": "Sütun əlavə et",
-        "remove": "Sütunu sil"
-      },
-      "empty": {
-        "text": "Əlavə sütunlar əlavə edilməyib",
-        "notice": "Başlamaq üçün Sütun Əlavə et düyməsini klikləyin"
-      },
-      "errors": {
-        "name": "Adı dəqiqləşdirilməyib"
-      },
-      "remove": {
-        "text": "Sütunu silin",
-        "cancel": "Ləğv et",
-        "confirm": "Sil"
-      }
-    },
-    "positions": {
-      "empty": {
-        "text": "Maddələr əlavə olunmayıb"
-      },
-      "header": {
-        "text": "Maddə üzrə spesifikasiya"
-      },
-      "table": {
-        "groups": {
-          "position": "Satınalan təşkilatın sütunları",
-          "proposal": "Təchizatçı təşkilatın sütunları"
-        },
-        "columns": {
-          "position": {
-            "index": "№",
-            "name": "Ad",
-            "description": "Təsvir",
-            "count": "Miqdar",
-            "unit": "Ölçü vahidi",
-            "target_price": "Vahidin hədəf qiyməti, {{ value }}",
-            "max_price": "Vahidin maksimal qiyməti, {{ value }}",
-            "min_price": "Vahidin minimum qiyməti, {{ value }}",
-            "expected_price": "Gözlənilən qiymət, {{ value }}",
-            "documents": "Sənədlər"
-          },
-          "proposal": {
-            "availability": "Mövcudluq",
-            "count": "Miqdar",
-            "vat": "ƏDV dərəcəsi",
-            "price_none_vat": "Vahidin qiyməti",
-            "price_incl_vat": "Vahidin ƏDV daxil qiyməti",
-            "price_excl_vat": "Vahidin ƏDV-siz qiyməti",
-            "currency": "Valyuta",
-            "comment": "Şərh" ,
-            "documents": "Sənədlər"
-          }
-        },
-        "actions": {
-          "documents": {
-            "title": "Maddələrə sənəd əlavə etməyə icazə verin",
-            "text": "Aktivləşdirilmiş seçim iştirakçılara sənədləri maddələrə əlavə etmək imkanı verir"
-          }
-        },
-        "tooltips": {
-          "insert": "Daxil edin",
-          "remove": "Sil",
-          "deviation": "Sorğunun təklif həcmində maddələr və miqdara görə yayınmaya icazə verilirsə, xana aktiv olur.",
-          "target_price": "Seçərkən səmt göstərən qiyməti göstərin. Qiymət yalnız sizə göstərilir - iştirakcılar onu görməyəcək..",
-          "max_price": "Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
-          "min_price": "Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
-          "expected_price": "Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
-        }
-      },
-      "defaults": {
-        "name": "Yeni maddə",
-        "unit": "əd."
-      },
-      "actions": {
-        "append": "Maddə əlavə et",
-        "download": "Şablonu endir",
-        "upload": "Fayldan yüklə"
-      },
-      "delete": {
-        "text": "Maddə silinsin?",
-        "cancel": "Ləğv et",
-        "confirm": "Sil",
-        "success": "Maddə silindi"
-      }
     }
-  }
 }

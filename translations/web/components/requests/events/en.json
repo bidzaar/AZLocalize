@@ -1,59 +1,105 @@
 {
-  "bdz.req.events": {
-    "table": {
-      "empty": "No results were found for your request",
-      "search": "",
-      "total": "Total: {{ value }}",
-      "columns": {
-        "name": "Event",
-        "initiator": "Initiator",
-        "details": "Details",
-        "stage": "Stage",
-        "date": "Date"
-      },
-      "filters": {
-        "title": "Filters",
-        "date": {
-          "title": "Event's date"
+    "bdz.req.events": {
+        "table": {
+            "empty": "No results were found for your request",
+            "search": "",
+            "total": "Total: {{ value }}",
+            "columns": {
+                "name": "Event",
+                "initiator": "Initiator",
+                "details": "Details",
+                "stage": "Stage",
+                "date": "Date"
+            },
+            "filters": {
+                "title": "Filters",
+                "date": {
+                    "title": "Event's date"
+                },
+                "users": {
+                    "title": "Employee",
+                    "choose": "Employee"
+                },
+                "companies": {
+                    "title": "Initiator",
+                    "choose": "Company"
+                },
+                "stage": {
+                    "title": "Stage"
+                },
+                "initiator": {
+                    "title": "Event source",
+                    "options": {
+                        "0": "Owner",
+                        "1": "Supplier",
+                        "2": "Site"
+                    }
+                }
+            },
+            "item": {
+                "system": "System",
+                "ip": "IP: {{ value }}"
+            }
         },
-        "users": {
-          "title": "Employee",
-          "choose": "Employee"
+        "data": {
+            "procedure": {
+                "reason": {
+                    "label": "Reason:",
+                    "default": "The customer has made significant changes to the request"
+                },
+                "summing": "Participants with an offer: {{ participants }}",
+                "prolongation": "(before {{ date}})",
+                "reports": {
+                    "comparison": "Comparison table",
+                    "notice": "Notification",
+                    "changes": "Changes"
+                },
+                "completed": {
+                    "common": {
+                        "empty": "No order",
+                        "order": "Order",
+                        "price": "{{ price }} {{ currency }}",
+                        "orderFor": "Order for {{value }}"
+                    },
+                    "participant": {
+                        "winner": "The customer chose you as the winner",
+                        "loser": "The customer chose another company as the winner",
+                        "nobody": "The request is completed without selecting a winner"
+                    }
+                },
+                "tariff": "Tariff: {{ value }}"
+            },
+            "proposals": {
+                "price": "{{ price }} {{ currency }}",
+                "primary": "Sentence",
+                "alternative": "Alternative {{index }}",
+                "errors": "Sentence \"{{value}}\" contains errors:"
+            },
+            "participants": {
+                "contact": "Contact person: {{ value }}"
+            }
         },
-        "companies": {
-          "title": "Initiator",
-          "choose": "Company"
-        },
-        "stage": {
-          "title": "Stage"
+        "types": {
+            "1": "Request is published",
+            "2": "Request is changed",
+            "3": "All bids are rejected",
+            "4": "Acceptance of bids is closed.",
+            "5": "Auto-renewal of bid acceptance",
+            "6": "New stage is published",
+            "7": "Request is completed.",
+            "8": "Completed request is returned to conclusion stage",
+            "9": "Participation is confirmed",
+            "10": "Invalid proposal is submitted",
+            "11": "Proposal is submitted",
+            "12": "Proposal is recalled",
+            "13": "Participant is blocked",
+            "14": "Participant is unblocked",
+            "15": "Participant refused",
+            "16": "The Purchaser authorised to break the price change rule by the Bidder",
+            "17": "Request Team. User is added",
+            "18": "Request Team. User is removed",
+            "19": "Request Team. User role is changed",
+            "20": "The tariff is changed"
         }
-      },
-      "item": {
-        "system": "System",
-        "ip": "IP: {{ value }}"
-      }
-    },
-    "types": {
-      "1": "Request is published",
-      "2": "Request is changed",
-      "3": "All bids are rejected",
-      "4": "Acceptance of bids is closed.",
-      "5": "Auto-renewal of bid acceptance",
-      "6": "New stage is published",
-      "7": "Request is completed.",
-      "8": "Completed request is returned to conclusion stage",
-      "9": "Participation is confirmed",
-      "10": "Invalid proposal is submitted",
-      "11": "Proposal is submitted",
-      "12": "Proposal is recalled",
-      "13": "Participant is blocked",
-      "14": "Participant is unblocked",
-      "15": "Participant refused",
-      "16": "The Purchaser authorised to break the price change rule by the Bidder",
-      "17": "Request Team. User is added",
-      "18": "Request Team. User is removed",
-      "19": "Request Team. User role is changed",
-      "20": "The tariff is changed"
     }
-  }
 }

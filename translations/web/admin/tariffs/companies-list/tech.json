@@ -1,0 +1,72 @@
+{
+    "trf.cms.list": {
+        "header": {
+            "title": "web/admin/tariffs/companies-list: trf.cms.list.header.title",
+            "add": "web/admin/tariffs/companies-list: trf.cms.list.header.add",
+            "recordings": "web/admin/tariffs/companies-list: trf.cms.list.header.recordings"
+        },
+        "remove": "web/admin/tariffs/companies-list: trf.cms.list.remove",
+        "enums": {
+            "rights": {
+                "0": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.0",
+                "1": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.1",
+                "2": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.2",
+                "4": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.4",
+                "8": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.8",
+                "16": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.16",
+                "128": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.128",
+                "512": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.512",
+                "2048": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.2048"
+            }
+        },
+        "invite": {
+            "header": {
+                "title": "web/admin/tariffs/companies-list: trf.cms.list.invite.header.title",
+                "add": "web/admin/tariffs/companies-list: trf.cms.list.invite.header.add"
+            },
+            "list": {
+                "title": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.title",
+                "selected_title": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.selected_title",
+                "filters": {
+                    "tags": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.tags",
+                    "rights": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.rights",
+                    "badges": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.badges",
+                    "location": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.location",
+                    "areas": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.areas",
+                    "shown": {
+                        "title": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.shown.title",
+                        "true": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.shown.true",
+                        "false": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.shown.false"
+                    },
+                    "phantom": {
+                        "title": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.phantom.title",
+                        "true": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.phantom.true",
+                        "false": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.phantom.false"
+                    },
+                    "verified": {
+                        "title": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.verified.title",
+                        "true": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.verified.true",
+                        "false": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.filters.verified.false"
+                    }
+                },
+                "sort": {
+                    "registration_date": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.sort.registration_date"
+                },
+                "search": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.search",
+                "empty": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.empty",
+                "crm": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.crm",
+                "actions": {
+                    "notify_users_tooltip": "web/admin/tariffs/companies-list: trf.cms.list.invite.list.actions.notify_users_tooltip"
+                }
+            },
+            "success": "web/admin/tariffs/companies-list: trf.cms.list.invite.success"
+        },
+        "dialog": {
+            "title": "web/admin/tariffs/companies-list: trf.cms.list.dialog.title",
+            "text": "web/admin/tariffs/companies-list: trf.cms.list.dialog.text",
+            "sub": "web/admin/tariffs/companies-list: trf.cms.list.dialog.sub",
+            "cancel": "web/admin/tariffs/companies-list: trf.cms.list.dialog.cancel"
+        },
+        "empty": "web/admin/tariffs/companies-list: trf.cms.list.empty"
+    }
+}

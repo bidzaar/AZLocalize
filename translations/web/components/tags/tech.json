@@ -1,0 +1,42 @@
+{
+    "bdz.tags": {
+        "cloud": {
+            "content": {
+                "choose": {
+                    "content": {
+                        "empty": "web/components/tags: bdz.tags.cloud.content.choose.content.empty"
+                    },
+                    "header": {
+                        "title": "web/components/tags: bdz.tags.cloud.content.choose.header.title"
+                    }
+                },
+                "list": {
+                    "content": {
+                        "create": "web/components/tags: bdz.tags.cloud.content.list.content.create",
+                        "empty": {
+                            "text": "web/components/tags: bdz.tags.cloud.content.list.content.empty.text",
+                            "title": "web/components/tags: bdz.tags.cloud.content.list.content.empty.title"
+                        },
+                        "more": "web/components/tags: bdz.tags.cloud.content.list.content.more"
+                    },
+                    "header": {
+                        "search": "web/components/tags: bdz.tags.cloud.content.list.header.search",
+                        "total": "web/components/tags: bdz.tags.cloud.content.list.header.total"
+                    }
+                }
+            },
+            "header": {
+                "accept": "web/components/tags: bdz.tags.cloud.header.accept",
+                "title": "web/components/tags: bdz.tags.cloud.header.title"
+            },
+            "error": {
+                "Tags": {
+                    "TagHasInStopList": "web/components/tags: bdz.tags.cloud.error.Tags.TagHasInStopList"
+                },
+                "User": {
+                    "HasNoCompany": "web/components/tags: bdz.tags.cloud.error.User.HasNoCompany"
+                }
+            }
+        }
+    }
+}

@@ -1,0 +1,46 @@
+{
+    "bdz.rgs": {
+        "list": {
+            "0": {
+                "short": "web/components/rights: bdz.rgs.list.0.short",
+                "long": "web/components/rights: bdz.rgs.list.0.long"
+            },
+            "1": {
+                "short": "web/components/rights: bdz.rgs.list.1.short",
+                "long": "web/components/rights: bdz.rgs.list.1.long"
+            },
+            "2": {
+                "short": "web/components/rights: bdz.rgs.list.2.short",
+                "long": "web/components/rights: bdz.rgs.list.2.long"
+            },
+            "4": {
+                "short": "web/components/rights: bdz.rgs.list.4.short",
+                "long": "web/components/rights: bdz.rgs.list.4.long"
+            },
+            "8": {
+                "short": "web/components/rights: bdz.rgs.list.8.short",
+                "long": "web/components/rights: bdz.rgs.list.8.long"
+            },
+            "16": {
+                "short": "web/components/rights: bdz.rgs.list.16.short",
+                "long": "web/components/rights: bdz.rgs.list.16.long"
+            },
+            "128": {
+                "short": "web/components/rights: bdz.rgs.list.128.short",
+                "long": "web/components/rights: bdz.rgs.list.128.long"
+            },
+            "256": {
+                "short": "web/components/rights: bdz.rgs.list.256.short",
+                "long": "web/components/rights: bdz.rgs.list.256.long"
+            },
+            "512": {
+                "short": "web/components/rights: bdz.rgs.list.512.short",
+                "long": "web/components/rights: bdz.rgs.list.512.long"
+            },
+            "1024": {
+                "short": "web/components/rights: bdz.rgs.list.1024.short",
+                "long": "web/components/rights: bdz.rgs.list.1024.long"
+            }
+        }
+    }
+}

@@ -1,0 +1,153 @@
+{
+    "cmp": {
+        "public": {
+            "page": "web/app/companies/public: cmp.public.page",
+            "title": "web/app/companies/public: cmp.public.title",
+            "actions": {
+                "create": "web/app/companies/public: cmp.public.actions.create",
+                "link": "web/app/companies/public: cmp.public.actions.link",
+                "preview": "web/app/companies/public: cmp.public.actions.preview"
+            },
+            "defaults": {
+                "title": "web/app/companies/public: cmp.public.defaults.title",
+                "description": "web/app/companies/public: cmp.public.defaults.description",
+                "pools": {
+                    "placeholder": "web/app/companies/public: cmp.public.defaults.pools.placeholder",
+                    "title": "web/app/companies/public: cmp.public.defaults.pools.title"
+                },
+                "tenders": {
+                    "placeholder": "web/app/companies/public: cmp.public.defaults.tenders.placeholder",
+                    "title": "web/app/companies/public: cmp.public.defaults.tenders.title"
+                },
+                "registries": {
+                    "placeholder": "web/app/companies/public: cmp.public.defaults.registries.placeholder",
+                    "title": "web/app/companies/public: cmp.public.defaults.registries.title"
+                }
+            },
+            "empty": {
+                "message_primary": "web/app/companies/public: cmp.public.empty.message_primary",
+                "message_secondary": "web/app/companies/public: cmp.public.empty.message_secondary"
+            },
+            "profile": {
+                "editor": {
+                    "title": {
+                        "header": "web/app/companies/public: cmp.public.profile.editor.title.header",
+                        "title": "web/app/companies/public: cmp.public.profile.editor.title.title"
+                    },
+                    "description": {
+                        "header": "web/app/companies/public: cmp.public.profile.editor.description.header",
+                        "title": "web/app/companies/public: cmp.public.profile.editor.description.title"
+                    },
+                    "actions": {
+                        "cancel": "web/app/companies/public: cmp.public.profile.editor.actions.cancel",
+                        "save": "web/app/companies/public: cmp.public.profile.editor.actions.save"
+                    },
+                    "pools": {
+                        "header": "web/app/companies/public: cmp.public.profile.editor.pools.header",
+                        "placeholder": "web/app/companies/public: cmp.public.profile.editor.pools.placeholder",
+                        "show": "web/app/companies/public: cmp.public.profile.editor.pools.show",
+                        "show_if_empty": "web/app/companies/public: cmp.public.profile.editor.pools.show_if_empty",
+                        "title": "web/app/companies/public: cmp.public.profile.editor.pools.title"
+                    },
+                    "registries": {
+                        "header": "web/app/companies/public: cmp.public.profile.editor.registries.header",
+                        "placeholder": "web/app/companies/public: cmp.public.profile.editor.registries.placeholder",
+                        "show": "web/app/companies/public: cmp.public.profile.editor.registries.show",
+                        "show_if_empty": "web/app/companies/public: cmp.public.profile.editor.registries.show_if_empty",
+                        "title": "web/app/companies/public: cmp.public.profile.editor.registries.title"
+                    },
+                    "tenders": {
+                        "header": "web/app/companies/public: cmp.public.profile.editor.tenders.header",
+                        "placeholder": "web/app/companies/public: cmp.public.profile.editor.tenders.placeholder",
+                        "show": "web/app/companies/public: cmp.public.profile.editor.tenders.show",
+                        "show_if_empty": "web/app/companies/public: cmp.public.profile.editor.tenders.show_if_empty",
+                        "title": "web/app/companies/public: cmp.public.profile.editor.tenders.title",
+                        "description": "web/app/companies/public: cmp.public.profile.editor.tenders.description"
+                    }
+                },
+                "viewer": {
+                    "actions": {
+                        "change": "web/app/companies/public: cmp.public.profile.viewer.actions.change",
+                        "add": "web/app/companies/public: cmp.public.profile.viewer.actions.add",
+                        "configure": "web/app/companies/public: cmp.public.profile.viewer.actions.configure"
+                    },
+                    "title": {
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.title.header",
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.title.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.title.empty.message_secondary"
+                        }
+                    },
+                    "description": {
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.description.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.description.empty.message_secondary"
+                        },
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.description.header"
+                    },
+                    "files": {
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.files.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.files.empty.message_secondary"
+                        },
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.files.header"
+                    },
+                    "links": {
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.links.header",
+                        "iframe": {
+                            "action": {
+                                "copy": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.action.copy"
+                            },
+                            "options": {
+                                "page": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.options.page",
+                                "pools": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.options.pools",
+                                "tenders": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.options.tenders",
+                                "registries": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.options.registries"
+                            },
+                            "title": "web/app/companies/public: cmp.public.profile.viewer.links.iframe.title"
+                        },
+                        "page": {
+                            "action": {
+                                "copy": "web/app/companies/public: cmp.public.profile.viewer.links.page.action.copy"
+                            },
+                            "title": "web/app/companies/public: cmp.public.profile.viewer.links.page.title"
+                        }
+                    },
+                    "pools": {
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.pools.header",
+                        "notice": {
+                            "message": "web/app/companies/public: cmp.public.profile.viewer.pools.notice.message",
+                            "title": "web/app/companies/public: cmp.public.profile.viewer.pools.notice.title"
+                        },
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.pools.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.pools.empty.message_secondary"
+                        }
+                    },
+                    "registries": {
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.registries.header",
+                        "notice": {
+                            "message": "web/app/companies/public: cmp.public.profile.viewer.registries.notice.message",
+                            "title": "web/app/companies/public: cmp.public.profile.viewer.registries.notice.title"
+                        },
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.registries.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.registries.empty.message_secondary"
+                        }
+                    },
+                    "tenders": {
+                        "header": "web/app/companies/public: cmp.public.profile.viewer.tenders.header",
+                        "notice": {
+                            "message": "web/app/companies/public: cmp.public.profile.viewer.tenders.notice.message",
+                            "title": "web/app/companies/public: cmp.public.profile.viewer.tenders.notice.title"
+                        },
+                        "empty": {
+                            "message_primary": "web/app/companies/public: cmp.public.profile.viewer.tenders.empty.message_primary",
+                            "message_secondary": "web/app/companies/public: cmp.public.profile.viewer.tenders.empty.message_secondary"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

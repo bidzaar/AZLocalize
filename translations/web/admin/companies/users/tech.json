@@ -1,0 +1,98 @@
+{
+    "cmp.users": {
+        "enums": {
+            "rights": {
+                "0": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.0.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.0.long"
+                },
+                "1": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.1.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.1.long"
+                },
+                "2": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.2.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.2.long"
+                },
+                "4": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.4.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.4.long"
+                },
+                "8": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.8.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.8.long"
+                },
+                "16": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.16.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.16.long"
+                },
+                "128": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.128.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.128.long"
+                },
+                "256": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.256.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.256.long"
+                },
+                "512": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.512.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.512.long"
+                },
+                "1024": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.1024.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.1024.long"
+                },
+                "2048": {
+                    "short": "web/admin/companies/users: cmp.users.enums.rights.2048.short",
+                    "long": "web/admin/companies/users: cmp.users.enums.rights.2048.long"
+                }
+            },
+            "role": {
+                "0": "web/admin/companies/users: cmp.users.enums.role.0",
+                "1": "web/admin/companies/users: cmp.users.enums.role.1",
+                "2": "web/admin/companies/users: cmp.users.enums.role.2"
+            }
+        },
+        "list": {
+            "header": {
+                "title": "web/admin/companies/users: cmp.users.list.header.title",
+                "search": "web/admin/companies/users: cmp.users.list.header.search"
+            },
+            "empty": {
+                "filtered": "web/admin/companies/users: cmp.users.list.empty.filtered",
+                "absolute": "web/admin/companies/users: cmp.users.list.empty.absolute"
+            },
+            "sorting": {
+                "name": "web/admin/companies/users: cmp.users.list.sorting.name",
+                "status": "web/admin/companies/users: cmp.users.list.sorting.status",
+                "status_changed": "web/admin/companies/users: cmp.users.list.sorting.status_changed"
+            },
+            "filters": {
+                "rights": {
+                    "title": "web/admin/companies/users: cmp.users.list.filters.rights.title"
+                },
+                "status": {
+                    "title": "web/admin/companies/users: cmp.users.list.filters.status.title"
+                },
+                "statusChangedOn": {
+                    "title": "web/admin/companies/users: cmp.users.list.filters.statusChangedOn.title"
+                }
+            },
+            "card": {
+                "rights": {
+                    "empty": "web/admin/companies/users: cmp.users.list.card.rights.empty"
+                }
+            },
+            "preview": {
+                "status": {
+                    "date": "web/admin/companies/users: cmp.users.list.preview.status.date"
+                },
+                "rights": {
+                    "list": "web/admin/companies/users: cmp.users.list.preview.rights.list",
+                    "empty": "web/admin/companies/users: cmp.users.list.preview.rights.empty"
+                },
+                "approve": "web/admin/companies/users: cmp.users.list.preview.approve"
+            }
+        }
+    }
+}

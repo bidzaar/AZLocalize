@@ -1,249 +1,249 @@
 {
-  "pl": {
-    "prp": {
-      "content": {
-        "common": {
-          "currency": {
-            "participant": "iştirakçının valyutasında",
-            "request": "sorğunun valyutasında"
-          },
-          "vat": {
-            "false": "ƏDV-siz",
-            "null": "",
-            "true": "ƏDV daxil"
-          }
-        },
-        "import": {
-          "common": {
-            "header": "Fayldan maddələri idxal edin"
-          },
-          "default": {
-            "actions": {
-              "cancel": "Ləğv et",
-              "submit": "Fayl seç"
-            },
-            "download": "Endir",
-            "fill": "Excel-də təklifləri doldurun.",
-            "import": "Maddələri olan faylı yükləyin. Əvvəl daxil edilmiş məlumatlar yenilənəcək.",
-            "template": "maddə təklifi şablonu."
-          },
-          "failure": {
-            "actions": {
-              "close": "Növbəti"
-            },
-            "items": {
-              "Process.Light.Import.Positions.FileHasErrors": {
-                "download": "Səhv təsvirləri olan faylı endir",
-                "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
-              },
-              "Process.Light.Import.Positions.InvalidFile": {
-                "title": "<b>Fayl şablona uyğun deyil.</b> Mümkün səbəblər:",
-                "text": "* Fayl vəzifələrin dəqiqləşdirilməsi yoxdur\n* Sorğu yenilənib və təklif köhnəlmiş edir\n* Masa sütun və ya sifarişçi data dəyişdi",
-                "download": "Təklif şablonunu yükləyin və yenidən yükləyin."
-              },
-              "Process.Light.Import.Positions.InvalidFileExtension": {
-                "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
-              },
-              "Process.Light.Import.Positions.MaxLength": "Mətnin uzunluğu maksimumu ({{ maxLength }}):",
-              "Process.Light.Import.Positions.MaxValue.Number": "Dəyər maksimumdan  (9 999 999 999) böyükdür",
-              "Process.Light.Import.Positions.MaxValue.Price": "Dəyər maksimumdan  (9 999 999 999) böyükdür",
-              "Process.Light.Import.Positions.MinValue.Number": "Dəyər minimumdan (0) azdır",
-              "Process.Light.Import.Positions.MinValue.Price": "Dəyər minimumdan (0) azdır",
-              "Process.Light.Import.Positions.Required": "Hüceyrə boşdur:",
-              "Process.Light.Import.Positions.VersionMismatch": "Sifarişçi sorğunu dəyişdi, sizin təklif artıq etibarlı deyil. Dəyişiklikləri yoxlayın və təklifi yeniləyin.",
-              "Process.Light.Import.Positions.WrongCurrency": "Maddə valyutası sorğu valyutasına uyğun gəlmir:",
-              "Process.Light.Import.Positions.WrongFormat.Number": "Xanada yanlış dəyər:",
-              "Process.Light.Import.Positions.WrongFormat.Price": "Xanada yanlış dəyər:"
-            },
-            "total": "Maddələr yükləndi: {{ count }} from {{ total }}."
-          },
-          "success": {
-            "actions": {
-              "close": "Bağla"
-            },
-            "count": "Yüklənmiş maddələr: {{ count }}."
-          }
-        },
-        "side": {
-          "banner": {
-            "readonly": "Məlumatları redaktə etmək üçün Təklif tabında təklifin dəyişdirilməsi rejiminə keçin"
-          },
-          "invalid": {
-            "cancel": "Növbəti maddəni açın",
-            "submit": "Redaktə etməyə davam et",
-            "text": "Cari maddənin məlumat girişini tamamlamaq üçün redaktə etməyə davam edin.",
-            "title": "Vəzifə təfərrüatları doldurulmayıb"
-          },
-          "request": {
-            "count": "Miqdar",
-            "price": {
-              "auction": "Vahidin minimum qiyməti:",
-              "expected": "Gözlənilən qiymət:",
-              "reduction": "Vahidin maksimal qiyməti:"
-            }
-          },
-          "response": {
-            "actions": {
-              "cancel": "Ləğv et",
-              "close": "Bağla",
-              "save": "Yadda saxla"
-            },
-            "fields": {
-              "availability": {
-                "field": {
-                  "hint": {
-                    "false": "Maddə mövcud deyilsə, klikləyin",
-                    "true": "Maddə mövcuddursa basın"
-                  },
-                  "text": {
-                    "false": "Maddə mövcuddur",
-                    "true": "Maddə mövcud deyil"
-                  }
+    "pl": {
+        "prp": {
+            "content": {
+                "common": {
+                    "currency": {
+                        "participant": "iştirakçının valyutasında",
+                        "request": "sorğunun valyutasında"
+                    },
+                    "vat": {
+                        "false": "ƏDV-siz",
+                        "null": "",
+                        "true": "ƏDV daxil"
+                    }
                 },
-                "label": "Mövcudluq"
-              },
-              "comment": {
-                "label": "Şərh"
-              },
-              "count": {
-                "deviation": "Sorğudakı miqdarda yayınma",
-                "label": "Miqdar"
-              },
-              "files": {
-                "label": "Fayllar",
-                "upload": "Sənəd"
-              },
-              "price": {
-                "free": "Boş",
-                "hint": "Sorğunun məzənnəsində {{value}} {{currency}}",
-                "label": "Vahidin qiymət"
-              },
-              "vat": {
-                "label": "ƏDV",
-                "none": "Vergiyə cəlb olunmur"
-              }
+                "import": {
+                    "common": {
+                        "header": "Fayldan maddələri idxal edin"
+                    },
+                    "default": {
+                        "actions": {
+                            "cancel": "Ləğv et",
+                            "submit": "Fayl seç"
+                        },
+                        "download": "Endir",
+                        "fill": "Excel-də təklifləri doldurun.",
+                        "import": "Maddələri olan faylı yükləyin. Əvvəl daxil edilmiş məlumatlar yenilənəcək.",
+                        "template": "maddə təklifi şablonu."
+                    },
+                    "failure": {
+                        "actions": {
+                            "close": "Növbəti"
+                        },
+                        "items": {
+                            "Process.Light.Import.Positions.FileHasErrors": {
+                                "download": "Səhv təsvirləri olan faylı endir",
+                                "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
+                            },
+                            "Process.Light.Import.Positions.InvalidFile": {
+                                "title": "<b>Fayl şablona uyğun deyil.</b> Mümkün səbəblər:",
+                                "text": "* Fayl vəzifələrin dəqiqləşdirilməsi yoxdur\n* Sorğu yenilənib və təklif köhnəlmiş edir\n* Masa sütun və ya sifarişçi data dəyişdi",
+                                "download": "Təklif şablonunu yükləyin və yenidən yükləyin."
+                            },
+                            "Process.Light.Import.Positions.InvalidFileExtension": {
+                                "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+                            },
+                            "Process.Light.Import.Positions.MaxLength": "Mətnin uzunluğu maksimumu ({{ maxLength }}):",
+                            "Process.Light.Import.Positions.MaxValue.Number": "Dəyər maksimumdan  (9 999 999 999) böyükdür",
+                            "Process.Light.Import.Positions.MaxValue.Price": "Dəyər maksimumdan  (9 999 999 999) böyükdür",
+                            "Process.Light.Import.Positions.MinValue.Number": "Dəyər minimumdan (0) azdır",
+                            "Process.Light.Import.Positions.MinValue.Price": "Dəyər minimumdan (0) azdır",
+                            "Process.Light.Import.Positions.Required": "Hüceyrə boşdur:",
+                            "Process.Light.Import.Positions.VersionMismatch": "Sifarişçi sorğunu dəyişdi, sizin təklif artıq etibarlı deyil. Dəyişiklikləri yoxlayın və təklifi yeniləyin.",
+                            "Process.Light.Import.Positions.WrongCurrency": "Maddə valyutası sorğu valyutasına uyğun gəlmir:",
+                            "Process.Light.Import.Positions.WrongFormat.Number": "Xanada yanlış dəyər:",
+                            "Process.Light.Import.Positions.WrongFormat.Price": "Xanada yanlış dəyər:"
+                        },
+                        "total": "Maddələr yükləndi: {{ count }} from {{ total }}."
+                    },
+                    "success": {
+                        "actions": {
+                            "close": "Bağla"
+                        },
+                        "count": "Yüklənmiş maddələr: {{ count }}."
+                    }
+                },
+                "side": {
+                    "banner": {
+                        "readonly": "Məlumatları redaktə etmək üçün Təklif tabında təklifin dəyişdirilməsi rejiminə keçin"
+                    },
+                    "invalid": {
+                        "cancel": "Növbəti maddəni açın",
+                        "submit": "Redaktə etməyə davam et",
+                        "text": "Cari maddənin məlumat girişini tamamlamaq üçün redaktə etməyə davam edin.",
+                        "title": "Vəzifə təfərrüatları doldurulmayıb"
+                    },
+                    "request": {
+                        "count": "Miqdar",
+                        "price": {
+                            "auction": "Vahidin minimum qiyməti:",
+                            "expected": "Gözlənilən qiymət:",
+                            "reduction": "Vahidin maksimal qiyməti:"
+                        }
+                    },
+                    "response": {
+                        "actions": {
+                            "cancel": "Ləğv et",
+                            "close": "Bağla",
+                            "save": "Yadda saxla"
+                        },
+                        "fields": {
+                            "availability": {
+                                "field": {
+                                    "hint": {
+                                        "false": "Maddə mövcud deyilsə, klikləyin",
+                                        "true": "Maddə mövcuddursa basın"
+                                    },
+                                    "text": {
+                                        "false": "Maddə mövcuddur",
+                                        "true": "Maddə mövcud deyil"
+                                    }
+                                },
+                                "label": "Mövcudluq"
+                            },
+                            "comment": {
+                                "label": "Şərh"
+                            },
+                            "count": {
+                                "deviation": "Sorğudakı miqdarda yayınma",
+                                "label": "Miqdar"
+                            },
+                            "files": {
+                                "label": "Fayllar",
+                                "upload": "Sənəd"
+                            },
+                            "price": {
+                                "free": "Boş",
+                                "hint": "Sorğunun məzənnəsində {{value}} {{currency}}",
+                                "label": "Vahidin qiymət"
+                            },
+                            "vat": {
+                                "label": "ƏDV",
+                                "none": "Vergiyə cəlb olunmur"
+                            }
+                        },
+                        "validation": {
+                            "greater_than": "Dəyər təyin edin >{{value}}",
+                            "greater_than_or_equals": "{{value}} və ya daha çox daxil edin",
+                            "less_than": "Maksimum:{{ value }}",
+                            "price_less": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) azdır.",
+                            "price_more": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) çoxdur"
+                        }
+                    },
+                    "unsaved": {
+                        "cancel": "Yadda saxlama",
+                        "submit": "Yadda saxla",
+                        "title": "Məlumatı saxlamaq istəyirsiniz?"
+                    }
+                },
+                "summary": {
+                    "actions": {
+                        "submit": "Təklifi yenilə"
+                    },
+                    "best": {
+                        "title": "Ən yaxşı təklif",
+                        "tooltip": "Bütün təqdim olunan təkliflər arasında"
+                    },
+                    "current": {
+                        "title": {
+                            "false": "Alternativ",
+                            "true": "Mənim təklifim"
+                        },
+                        "tooltip": "Sorğunun əsas valyutasında təklif qiyməti"
+                    },
+                    "previous": {
+                        "title": "Əvvəlki",
+                        "tooltip": "Daha öncə təqdim edilmiş təklifin qiyməti"
+                    },
+                    "timer": {
+                        "title": "Vaxt qalıb",
+                        "tooltip": "Təklifin bitməyinə"
+                    },
+                    "reference_price": {
+                        "title": "Qiymət dəyişikliyi addımı",
+                        "tooltip": "Təklif qiymətini dəyişdirə biləcəyiniz addım"
+                    }
+                },
+                "table": {
+                    "body": {
+                        "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
+                        "deviation_tooltip": "Sorğudakı miqdarda yayınma",
+                        "deviation_error_tooltip": "Sorğudakı miqdardan kənara çıxmağa yol verilmir",
+                        "free": "Ödənişsiz",
+                        "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
+                        "response_availability": {
+                            "false": "Mövcud",
+                            "true": "Mövcud deyil"
+                        },
+                        "price_rule_error_tooltip": "Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə sifarişçi tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})",
+                        "dont_have_any_tooltip": "Təşkilatçı bütün maddələrin mövcudluğunu tələb edir",
+                        "var_error_tooltip": "Göstərilən ƏDV dərəcəsi sorğuya daxil edilməyib"
+                    },
+                    "header": {
+                        "request_count": "Miqdar",
+                        "request_group": "Maddənin təsviri",
+                        "request_index": "№",
+                        "request_name": "Ad",
+                        "request_price_best": "Vahid üçün ən yaxşı qiymət ({{value}})",
+                        "response_availability": "Mövcudluq",
+                        "response_comment": "Şərh",
+                        "response_count": "Miqdar",
+                        "response_currency": "Valyuta",
+                        "response_documents": "Sənədlər",
+                        "response_files": "Fayllar",
+                        "response_group": "Təklif",
+                        "response_previous_price": "Vahidin əvvəlki qiyməti",
+                        "response_price_my": {
+                            "false.false": "Vahidin ƏDV-siz qiyməti",
+                            "false.true": "Vahidin ƏDV-siz qiyməti",
+                            "null.false": "Vahidin qiyməti",
+                            "null.true": "Vahidin qiyməti",
+                            "true.false": "ƏDV daxil vahidin qiyməti",
+                            "true.true": "Vahidin ƏDV daxil qiyməti"
+                        },
+                        "response_price_my_converted": {
+                            "false": "Sorğunun valyutasında  vahidin ƏDV-siz qiyməti",
+                            "null": "Sorğunun valyutasında vahidin qiyməti",
+                            "true": "Sorğunun valyutasında vahidin ƏDV daxil qiyməti\n"
+                        },
+                        "response_rank": "Dərəcə",
+                        "response_total": "Cəmi ({{value}})",
+                        "response_total_tooltip": "Cəmi ({{value}})",
+                        "response_vat": "ƏDV dərəcəsi",
+                        "show_columns": "Gizli sütunları göstərin",
+                        "hide_columns": "Sütunları gizlədin"
+                    },
+                    "toolbar": {
+                        "actions": {
+                            "download": "Şablonu endir",
+                            "import": "Mövqeləri idxal et",
+                            "upload": "Fayldan yüklə"
+                        },
+                        "filters": {
+                            "empty": "Bu kateqoriyada maddə yoxdur",
+                            "options": {
+                                "0": "Bütün maddələr",
+                                "1": "Mövcud",
+                                "2": "Aşağı dərəcə",
+                                "3": "Mövcud deyil"
+                            }
+                        }
+                    }
+                }
             },
-            "validation": {
-              "greater_than": "Dəyər təyin edin >{{value}}",
-              "greater_than_or_equals": "{{value}} və ya daha çox daxil edin",
-              "less_than": "Maksimum:{{ value }}",
-              "price_less": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) azdır.",
-              "price_more": "Vahid üçün qiymətiniz  {{ currency }} ({{ value }} {{ currency }}) Sifarişçi tərəfindən müəyyən edilmiş vahid üzrə Minimum qiymətdən ({{ startPrice }}  {{ currency }}) çoxdur"
+            "empty": {
+                "text": ""
+            },
+            "forbidden": {
+                "notice": "",
+                "text": "",
+                "title": "Məlumat hazırda mövcud deyil"
+            },
+            "header": {
+                "close": "Təklifə keç",
+                "title": "Maddələrin spesifikasiyası"
             }
-          },
-          "unsaved": {
-            "cancel": "Yadda saxlama",
-            "submit": "Yadda saxla",
-            "title": "Məlumatı saxlamaq istəyirsiniz?"
-          }
-        },
-        "summary": {
-          "actions": {
-            "submit": "Təklifi yenilə"
-          },
-          "best": {
-            "title": "Ən yaxşı təklif",
-            "tooltip": "Bütün təqdim olunan təkliflər arasında"
-          },
-          "current": {
-            "title": {
-              "false": "Alternativ",
-              "true": "Mənim təklifim"
-            },
-            "tooltip": "Sorğunun əsas valyutasında təklif qiyməti"
-          },
-          "previous": {
-            "title": "Əvvəlki",
-            "tooltip": "Daha öncə təqdim edilmiş təklifin qiyməti"
-          },
-          "timer": {
-            "title": "Vaxt qalıb",
-            "tooltip": "Təklifin bitməyinə"
-          },
-          "reference_price": {
-            "title": "Qiymət dəyişikliyi addımı",
-            "tooltip": "Təklif qiymətini dəyişdirə biləcəyiniz addım"
-          }
-        },
-        "table": {
-          "body": {
-            "auction_error_tooltip": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
-            "deviation_tooltip": "Sorğudakı miqdarda yayınma",
-            "deviation_error_tooltip": "Sorğudakı miqdardan kənara çıxmağa yol verilmir",            
-            "free": "Ödənişsiz",
-            "reduction_error_tooltip": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Sifarişçi tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
-            "response_availability": {
-              "false": "Mövcud",
-              "true": "Mövcud deyil"
-            },
-            "price_rule_error_tooltip": "Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə sifarişçi tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})",
-            "dont_have_any_tooltip": "Təşkilatçı bütün maddələrin mövcudluğunu tələb edir",
-            "var_error_tooltip": "Göstərilən ƏDV dərəcəsi sorğuya daxil edilməyib"
-          },
-          "header": {
-            "request_count": "Miqdar",
-            "request_group": "Maddənin təsviri",
-            "request_index": "№",
-            "request_name": "Ad",
-            "request_price_best": "Vahid üçün ən yaxşı qiymət ({{value}})",
-            "response_availability": "Mövcudluq",
-            "response_comment": "Şərh",
-            "response_count": "Miqdar",
-            "response_currency": "Valyuta",
-            "response_documents": "Sənədlər",
-            "response_files": "Fayllar",
-            "response_group": "Təklif",
-            "response_previous_price": "Vahidin əvvəlki qiyməti",
-            "response_price_my": {
-              "false.false": "Vahidin ƏDV-siz qiyməti",
-              "false.true": "Vahidin ƏDV-siz qiyməti",
-              "null.false": "Vahidin qiyməti",
-              "null.true": "Vahidin qiyməti",
-              "true.false": "ƏDV daxil vahidin qiyməti",
-              "true.true": "Vahidin ƏDV daxil qiyməti"
-            },
-            "response_price_my_converted": {
-              "false": "Sorğunun valyutasında  vahidin ƏDV-siz qiyməti",
-              "null": "Sorğunun valyutasında vahidin qiyməti",
-              "true": "Sorğunun valyutasında vahidin ƏDV daxil qiyməti\n"
-            },
-            "response_rank": "Dərəcə",
-            "response_total": "Cəmi ({{value}})",
-            "response_total_tooltip": "Cəmi ({{value}})",
-            "response_vat": "ƏDV dərəcəsi",
-            "show_columns": "Gizli sütunları göstərin",
-            "hide_columns": "Sütunları gizlədin"            
-          },
-          "toolbar": {
-            "actions": {
-              "download": "Şablonu endir",
-              "import": "Mövqeləri idxal et",
-              "upload": "Fayldan yüklə"
-            },
-            "filters": {
-              "empty": "Bu kateqoriyada maddə yoxdur",
-              "options": {
-                "0": "Bütün maddələr",
-                "1": "Mövcud",
-                "2": "Aşağı dərəcə",
-                "3": "Mövcud deyil"
-              }
-            }
-          }
         }
-      },
-      "empty": {
-        "text": ""
-      },
-      "forbidden": {
-        "notice": "",
-        "text": "",
-        "title": "Məlumat hazırda mövcud deyil"
-      },
-      "header": {
-        "close": "Təklifə keç",
-        "title": "Maddələrin spesifikasiyası"
-      }
     }
-  }
 }

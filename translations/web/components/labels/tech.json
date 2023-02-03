@@ -1,0 +1,36 @@
+{
+    "bdz.lbs": {
+        "edit": {
+            "title_create": "web/components/labels: bdz.lbs.edit.title_create",
+            "title_edit": "web/components/labels: bdz.lbs.edit.title_edit",
+            "create": "web/components/labels: bdz.lbs.edit.create",
+            "cancel": "web/components/labels: bdz.lbs.edit.cancel",
+            "save": "web/components/labels: bdz.lbs.edit.save",
+            "delete": "web/components/labels: bdz.lbs.edit.delete"
+        },
+        "choose": {
+            "title": "web/components/labels: bdz.lbs.choose.title",
+            "create": "web/components/labels: bdz.lbs.choose.create",
+            "apply": "web/components/labels: bdz.lbs.choose.apply"
+        },
+        "delete": {
+            "title": "web/components/labels: bdz.lbs.delete.title",
+            "linked": "web/components/labels: bdz.lbs.delete.linked",
+            "not_linked": "web/components/labels: bdz.lbs.delete.not_linked",
+            "cancel": "web/components/labels: bdz.lbs.delete.cancel",
+            "delete": "web/components/labels: bdz.lbs.delete.delete"
+        },
+        "filters": {
+            "empty": "web/components/labels: bdz.lbs.filters.empty"
+        },
+        "validation": {
+            "notEmpty": "web/components/labels: bdz.lbs.validation.notEmpty",
+            "required": "web/components/labels: bdz.lbs.validation.required"
+        },
+        "assign_label": "web/components/labels: bdz.lbs.assign_label",
+        "empty": "web/components/labels: bdz.lbs.empty",
+        "no_labels": "web/components/labels: bdz.lbs.no_labels",
+        "search": "web/components/labels: bdz.lbs.search",
+        "show_labels": "web/components/labels: bdz.lbs.show_labels"
+    }
+}

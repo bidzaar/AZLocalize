@@ -1,0 +1,24 @@
+{
+    "mail_customizer": {
+        "dialog": {
+            "message_label": "Сообщение получателям",
+            "preview": {
+                "title": "В нашем письме – ссылка и описание этого запроса.\nТакже добавим ваше сообщение.",
+                "subtitle": "Отправьте тестовое письмо, чтобы увидеть результат. Письмо будет отправлено на <span class=\"mail\">{{mail}}</span>",
+                "button": "Отправить тестовое письмо"
+            },
+            "cancel": "Отмена",
+            "submit": "Готово",
+            "success_tooltip": "Письмо отправлено"
+        },
+        "mails": {
+            "ProcedurePublishedParticipantsInvited": "Приглашение участникам",
+            "ProcedureChanged": "Уведомление об изменении запроса",
+            "ProcedureStagePublishedEvent": "Уведомление о публикации нового этапа",
+            "ProcedureUnCompletedWinners": "Уведомление участникам, выбор которых отменён",
+            "NotifyProcedureFinishedWithoutOrder": "Уведомление о завершении запроса",
+            "NotifyProcedureFinishedWithOrderLooser": "Уведомление проигравшему участнику",
+            "NotifyProcedureFinishedWithOrderWinner": "Уведомление участнику-победителю"
+        }
+    }
+}

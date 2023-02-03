@@ -1,0 +1,258 @@
+{
+    "pl": {
+        "cnc": {
+            "enums": {
+                "reason": {
+                    "0": "web/app/process/light/conclusion: pl.cnc.enums.reason.0",
+                    "1": "web/app/process/light/conclusion: pl.cnc.enums.reason.1",
+                    "2": "web/app/process/light/conclusion: pl.cnc.enums.reason.2"
+                },
+                "commission": {
+                    "0": "web/app/process/light/conclusion: pl.cnc.enums.commission.0",
+                    "1": "web/app/process/light/conclusion: pl.cnc.enums.commission.1",
+                    "2": "web/app/process/light/conclusion: pl.cnc.enums.commission.2",
+                    "3": "web/app/process/light/conclusion: pl.cnc.enums.commission.3"
+                }
+            },
+            "forbidden": {
+                "title": {
+                    "participant.canceled": "web/app/process/light/conclusion: pl.cnc.forbidden.title.participant.canceled",
+                    "owner.status": "web/app/process/light/conclusion: pl.cnc.forbidden.title.owner.status",
+                    "owner.version": "web/app/process/light/conclusion: pl.cnc.forbidden.title.owner.version"
+                },
+                "message": {
+                    "participant.canceled": "web/app/process/light/conclusion: pl.cnc.forbidden.message.participant.canceled",
+                    "owner.version": "web/app/process/light/conclusion: pl.cnc.forbidden.message.owner.version",
+                    "owner.status": "web/app/process/light/conclusion: pl.cnc.forbidden.message.owner.status"
+                }
+            },
+            "content": {
+                "common": {
+                    "protocols": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.common.protocols.title",
+                        "notice": "web/app/process/light/conclusion: pl.cnc.content.common.protocols.notice",
+                        "upload": "web/app/process/light/conclusion: pl.cnc.content.common.protocols.upload",
+                        "empty": "web/app/process/light/conclusion: pl.cnc.content.common.protocols.empty"
+                    },
+                    "message": {
+                        "default": {
+                            "1": {
+                                "header": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.1.header",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.1.notice"
+                            },
+                            "2": {
+                                "header": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.2.header",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.2.notice"
+                            },
+                            "3": {
+                                "header": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.3.header",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.3.notice"
+                            },
+                            "4": {
+                                "header": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.4.header",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.common.message.default.4.notice"
+                            }
+                        },
+                        "orders": {
+                            "winner": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.winner",
+                            "looser": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.looser",
+                            "nobody": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.nobody",
+                            "comment": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.comment",
+                            "questions": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.questions",
+                            "message": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.message"
+                        }
+                    },
+                    "requests": {
+                        "text": "web/app/process/light/conclusion: pl.cnc.content.common.requests.text",
+                        "open": "web/app/process/light/conclusion: pl.cnc.content.common.requests.open"
+                    },
+                    "payment": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.common.payment.title",
+                        "delay": "web/app/process/light/conclusion: pl.cnc.content.common.payment.delay",
+                        "email": "web/app/process/light/conclusion: pl.cnc.content.common.payment.email",
+                        "agreement": "web/app/process/light/conclusion: pl.cnc.content.common.payment.agreement"
+                    }
+                },
+                "owner": {
+                    "canceled": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.owner.canceled.title",
+                        "order_title": "web/app/process/light/conclusion: pl.cnc.content.owner.canceled.order_title",
+                        "reason": "web/app/process/light/conclusion: pl.cnc.content.owner.canceled.reason"
+                    },
+                    "documents": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.title",
+                        "stages": {
+                            "title": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.stages.title",
+                            "active": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.stages.active"
+                        },
+                        "files": {
+                            "comparison": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.files.comparison",
+                            "participants": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.files.participants",
+                            "proposals": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.files.proposals",
+                            "versions": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.files.versions",
+                            "messages": "web/app/process/light/conclusion: pl.cnc.content.owner.documents.files.messages"
+                        }
+                    },
+                    "orders": {
+                        "canceled": {
+                            "stub": {
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.canceled.stub.text"
+                            }
+                        },
+                        "finished": {
+                            "stub": {
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.finished.stub.text"
+                            }
+                        },
+                        "active": {
+                            "stub": {
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.text",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.notice"
+                            },
+                            "list": {
+                                "title": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.title",
+                                "contacts": {
+                                    "title": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.contacts.title"
+                                },
+                                "documents": {
+                                    "title": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.documents.title",
+                                    "order": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.documents.order",
+                                    "proposal": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.documents.proposal",
+                                    "chat": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.documents.chat"
+                                },
+                                "reports": {
+                                    "title": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.reports.title",
+                                    "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.reports.notice"
+                                }
+                            },
+                            "actions": {
+                                "clear": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.actions.clear",
+                                "with": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.actions.with",
+                                "without": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.actions.without",
+                                "create": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.actions.create"
+                            },
+                            "vat": {
+                                "true": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.vat.true",
+                                "false": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.vat.false"
+                            }
+                        },
+                        "alternative": {
+                            "tooltip": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.alternative.tooltip",
+                            "icon": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.alternative.icon"
+                        },
+                        "docs": {
+                            "order": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.docs.order",
+                            "sentence": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.docs.sentence"
+                        }
+                    },
+                    "participations": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.title",
+                        "winners": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.winners",
+                        "proposals": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.proposals",
+                        "active": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.active",
+                        "total": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.total"
+                    },
+                    "savings": {
+                        "title": {
+                            "completed": {
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.completed.text"
+                            },
+                            "progress": {
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.progress.text",
+                                "tooltip": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.progress.tooltip"
+                            }
+                        },
+                        "stubs": {
+                            "budget": {
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.budget.notice",
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.budget.text"
+                            },
+                            "proposals": {
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.proposals.notice",
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.proposals.text"
+                            }
+                        },
+                        "values": {
+                            "average": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.average",
+                            "best": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.best",
+                            "budget": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.budget",
+                            "custom": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.custom",
+                            "winner": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.winner"
+                        }
+                    }
+                },
+                "participant": {
+                    "orders": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.participant.orders.title",
+                        "my": "web/app/process/light/conclusion: pl.cnc.content.participant.orders.my",
+                        "alter": "web/app/process/light/conclusion: pl.cnc.content.participant.orders.alter"
+                    },
+                    "promo": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.participant.promo.title",
+                        "text": "web/app/process/light/conclusion: pl.cnc.content.participant.promo.text",
+                        "order": "web/app/process/light/conclusion: pl.cnc.content.participant.promo.order"
+                    }
+                },
+                "dialogs": {
+                    "no_rights_to_complete": {
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.dialogs.no_rights_to_complete.title",
+                        "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.no_rights_to_complete.text"
+                    },
+                    "messages_reports": {
+                        "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.header",
+                        "broadcast": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.broadcast",
+                        "team": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.team",
+                        "participants": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.participants",
+                        "empty": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.empty"
+                    },
+                    "versions_reports": {
+                        "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.header",
+                        "history": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.history",
+                        "notice": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.notice",
+                        "draft": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.draft",
+                        "active": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.active",
+                        "inactive": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.inactive"
+                    },
+                    "saving_editor": {
+                        "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.header",
+                        "editable": {
+                            "hint": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.hint",
+                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.text",
+                            "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.cancel",
+                            "next": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.next"
+                        },
+                        "readonly": {
+                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.readonly.text",
+                            "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.readonly.cancel"
+                        }
+                    },
+                    "request_completion": {
+                        "true": {
+                            "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.true.header",
+                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.true.text"
+                        },
+                        "false": {
+                            "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.header",
+                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.text",
+                            "reason": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.reason",
+                            "comment": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.comment"
+                        },
+                        "vat": {
+                            "true": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.vat.true",
+                            "false": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.vat.false"
+                        },
+                        "actions": {
+                            "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.cancel",
+                            "submit": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.submit",
+                            "success": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.actions.success"
+                        },
+                        "mail": {
+                            "title": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.title",
+                            "subtitle": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.subtitle"
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

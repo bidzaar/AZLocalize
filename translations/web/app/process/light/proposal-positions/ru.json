@@ -1,228 +1,238 @@
 {
-  "pl": {
-    "prp": {
-      "forbidden": {
-        "title": "Сведения недоступны",
-        "text": "",
-        "notice": ""
-      },
-      "empty": {
-        "text": ""
-      },
-      "header": {
-        "title": "Спецификация по позициям",
-        "close": "К предложению"
-      },
-      "content": {
-        "summary": {
-          "current": {
-            "title": {
-              "true": "Моё предложение",
-              "false": "Альтернативное"
+    "pl": {
+        "prp": {
+            "forbidden": {
+                "title": "Сведения недоступны",
+                "text": "",
+                "notice": ""
             },
-            "tooltip": "Цена предложения в базовой валюте запроса"
-          },
-          "previous": {
-            "title": "Было",
-            "tooltip": "Цена ранее поданного предложения"
-          },
-          "best": {
-            "title": "Лучшее предложение",
-            "tooltip": "Среди всех поданных предложений"
-          },
-          "timer": {
-            "title": "Осталось",
-            "tooltip": "до завершения приёма предложений"
-          },
-          "actions": {
-            "submit": "Обновить предложение"
-          }
-        },
-        "table": {
-          "toolbar": {
-            "filters": {
-              "options": {
-                "0": "Все позиции",
-                "1": "В наличии",
-                "2": "Низкий ранг",
-                "3": "Нет в наличии"
-              },
-              "empty": "Нет позиций в категории"
+            "empty": {
+                "text": ""
             },
-            "actions": {
-              "download": "Скачать шаблон",
-              "upload": "Загрузить из файла"
-            }
-          },
-          "header": {
-            "request_index": "№",
-            "request_name": "Наименование",
-            "request_count": "Кол-во",
-            "request_price_best": "Лучшая цена за ед. ({{value}})",
-            "response_availability": "Наличие",
-            "response_rank": "Ранг",
-            "response_count": "Кол-во",
-            "response_files": "Файлы",
-            "response_price_my_converted": {
-              "true": "Цена за ед. с НДС\nв валюте запроса",
-              "false": "Цена за ед. без НДС\nв валюте запроса",
-              "null": "Цена за ед.\nв валюте запроса"
+            "header": {
+                "title": "Спецификация по позициям",
+                "close": "К предложению"
             },
-            "response_price_my": {
-              "true.true": "Цена за ед. с НДС\nв валюте участника",
-              "true.false": "Цена за ед. с НДС",
-              "false.true": "Цена за ед. без НДС\nв валюте участника",
-              "false.false": "Цена за ед. без НДС",
-              "null.true": "Цена за ед.\nв валюте участника",
-              "null.false": "Цена за ед."
-            },
-            "response_currency": "Валюта",
-            "response_vat": "Ставка НДС",
-            "response_total": "Итого ({{value}})",
-            "response_documents": "Документы",
-            "response_previous_price": "Предыдущая цена за ед.",
-            "response_total_tooltip": "Итого ({{value}})",
-            "response_comment": "Комментарий",
-            "request_group": "Описание позиций",
-            "response_group": "Предложение"
-          },
-          "body": {
-            "response_availability": {
-              "true": "Нет в наличии",
-              "false": "В наличии"
-            },
-            "deviation_tooltip": "Отклонение от кол-ва в запросе",
-            "free": "Бесплатно",
-            "auction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) ниже минимальной цены за ед, указанной Заказчиком ({{startPrice}} {{currency}})",
-            "reduction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) превышает максимальную цену за ед, указанную Заказчиком ({{startPrice}} {{currency}})"
-          }
-        },
-        "side": {
-          "request": {
-            "count": "Кол-во:",
-            "price": {
-              "auction": "Минимальная цена за ед.:",
-              "reduction": "Максимальная цена за ед.:",
-              "expected": "Ожидаемая цена за ед.:"
-            }
-          },
-          "response": {
-            "fields": {
-              "availability": {
-                "label": "Наличие",
-                "field": {
-                  "text": {
-                    "true": "Позиции нет в наличии",
-                    "false": "Позиция в наличии"
-                  },
-                  "hint": {
-                    "true": "Нажмите, если позиция в наличии",
-                    "false": "Нажмите, если позиции нет в наличии"
-                  }
+            "content": {
+                "summary": {
+                    "current": {
+                        "title": {
+                            "true": "Моё предложение",
+                            "false": "Альтернативное"
+                        },
+                        "tooltip": "Цена предложения в базовой валюте запроса"
+                    },
+                    "previous": {
+                        "title": "Было",
+                        "tooltip": "Цена ранее поданного предложения"
+                    },
+                    "best": {
+                        "title": "Лучшее предложение",
+                        "tooltip": "Среди всех поданных предложений"
+                    },
+                    "timer": {
+                        "title": "Осталось",
+                        "tooltip": "до завершения приёма предложений"
+                    },
+                    "actions": {
+                        "submit": "Обновить предложение"
+                    },
+                    "reference_price": {
+                        "title": "Шаг изменения цены",
+                        "tooltip": "Шаг, на который вы можете изменять цену предложения"
+                    }
+                },
+                "table": {
+                    "toolbar": {
+                        "filters": {
+                            "options": {
+                                "0": "Все позиции",
+                                "1": "В наличии",
+                                "2": "Низкий ранг",
+                                "3": "Нет в наличии"
+                            },
+                            "empty": "Нет позиций в категории"
+                        },
+                        "actions": {
+                            "download": "Скачать шаблон",
+                            "upload": "Загрузить из файла"
+                        }
+                    },
+                    "header": {
+                        "request_index": "№",
+                        "request_name": "Наименование",
+                        "request_count": "Кол-во",
+                        "request_price_best": "Лучшая цена за ед. ({{value}})",
+                        "response_availability": "Наличие",
+                        "response_rank": "Ранг",
+                        "response_count": "Кол-во",
+                        "response_files": "Файлы",
+                        "response_price_my_converted": {
+                            "true": "Цена за ед. с НДС\nв валюте запроса",
+                            "false": "Цена за ед. без НДС\nв валюте запроса",
+                            "null": "Цена за ед.\nв валюте запроса"
+                        },
+                        "response_price_my": {
+                            "true.true": "Цена за ед. с НДС\nв валюте участника",
+                            "true.false": "Цена за ед. с НДС",
+                            "false.true": "Цена за ед. без НДС\nв валюте участника",
+                            "false.false": "Цена за ед. без НДС",
+                            "null.true": "Цена за ед.\nв валюте участника",
+                            "null.false": "Цена за ед."
+                        },
+                        "response_currency": "Валюта",
+                        "response_vat": "Ставка НДС",
+                        "response_total": "Итого ({{value}})",
+                        "response_documents": "Документы",
+                        "response_previous_price": "Предыдущая цена за ед.",
+                        "response_total_tooltip": "Итого ({{value}})",
+                        "response_comment": "Комментарий",
+                        "request_group": "Описание позиций",
+                        "response_group": "Предложение",
+                        "show_columns": "Показать скрытые колонки",
+                        "hide_columns": "Скрыть колонки"
+                    },
+                    "body": {
+                        "response_availability": {
+                            "true": "Нет в наличии",
+                            "false": "В наличии"
+                        },
+                        "deviation_tooltip": "Отклонение от кол-ва в запросе",
+                        "deviation_error_tooltip": "Отклонение от кол-ва в запросе недопустимо",
+                        "free": "Бесплатно",
+                        "auction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) ниже минимальной цены за ед, указанной Заказчиком ({{startPrice}} {{currency}})",
+                        "reduction_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) превышает максимальную цену за ед, указанную Заказчиком ({{startPrice}} {{currency}})",
+                        "price_rule_error_tooltip": "Ваша цена за ед. в {{currency}} ({{price}} {{currency}}) нарушает шаг изменения цены, указанный Заказчиком ({{rule}})",
+                        "dont_have_any_tooltip": "Организатор требует наличия всех позиций",
+                        "var_error_tooltip": "Указанная ставка НДС не входит в справочник"
+                    }
+                },
+                "side": {
+                    "request": {
+                        "count": "Кол-во:",
+                        "price": {
+                            "auction": "Минимальная цена за ед.:",
+                            "reduction": "Максимальная цена за ед.:",
+                            "expected": "Ожидаемая цена за ед.:"
+                        }
+                    },
+                    "response": {
+                        "fields": {
+                            "availability": {
+                                "label": "Наличие",
+                                "field": {
+                                    "text": {
+                                        "true": "Позиции нет в наличии",
+                                        "false": "Позиция в наличии"
+                                    },
+                                    "hint": {
+                                        "true": "Нажмите, если позиция в наличии",
+                                        "false": "Нажмите, если позиции нет в наличии"
+                                    }
+                                }
+                            },
+                            "count": {
+                                "label": "Кол-во, {{ value }}",
+                                "deviation": "Отклонение от кол-ва в запросе"
+                            },
+                            "price": {
+                                "label": "Цена за ед.",
+                                "hint": "{{ value }} {{ currency }} по курсу запроса",
+                                "free": "Бесплатно"
+                            },
+                            "vat": {
+                                "label": "Ставка НДС",
+                                "none": "Не облагается"
+                            },
+                            "comment": {
+                                "label": "Комментарий"
+                            },
+                            "files": {
+                                "label": "Файлы",
+                                "upload": "Документ"
+                            }
+                        },
+                        "actions": {
+                            "cancel": "Отмена",
+                            "save": "Сохранить",
+                            "close": "Закрыть"
+                        },
+                        "validation": {
+                            "greater_than_or_equals": "Введите {{ value }} или больше",
+                            "less_than": "Макс.: {{ value }}",
+                            "greater_than": "Укажите значение > {{ value }}",
+                            "price_less": "Ваша цена за ед. в {{ currency }} ({{ value }} {{ currency }}) ниже Минимальной цены за ед, указанной Заказчиком ({{ startPrice }} {{ currency }})",
+                            "price_more": "Ваша цена за ед. в {{ currency }} ({{ value }} {{ currency }}) превышает Максимальную цену за ед, указанную Заказчиком ({{ startPrice }} {{ currency }})"
+                        }
+                    },
+                    "unsaved": {
+                        "title": "Сохранить данные?",
+                        "submit": "Сохранить",
+                        "cancel": "Не сохранять"
+                    },
+                    "invalid": {
+                        "title": "Сведения о позиции не заполнены",
+                        "text": "Продолжите редактирование, чтобы завершить ввод данных текущей позиции.",
+                        "submit": "Продолжить редактировать",
+                        "cancel": "Перейти к другой позиции"
+                    },
+                    "banner": {
+                        "readonly": "Для редактирования данных перейдите в режим изменения предложения на вкладке Предложение"
+                    }
+                },
+                "common": {
+                    "vat": {
+                        "true": "с НДС",
+                        "false": "без НДС",
+                        "null": ""
+                    },
+                    "currency": {
+                        "request": "в валюте запроса",
+                        "participant": "в валюте участника"
+                    }
+                },
+                "import": {
+                    "common": {
+                        "header": "Загрузка позиций из файла"
+                    },
+                    "default": {
+                        "download": "Скачайте",
+                        "template": "шаблон предложения по позициям.",
+                        "fill": "Заполните предложение по позициям в Excel.",
+                        "import": "Загрузите файл с позициями. Ранее введённые данные будут обновлены.",
+                        "actions": {
+                            "cancel": "Отмена",
+                            "submit": "Загрузить файл"
+                        }
+                    },
+                    "success": {
+                        "count": "Загружено позиций:  {{ count }}.",
+                        "actions": {
+                            "close": "Закрыть"
+                        }
+                    },
+                    "failure": {
+                        "total": "Загружено позиций: {{ count }} из {{ total }}.",
+                        "actions": {
+                            "close": "Закрыть"
+                        },
+                        "items": {
+                            "Process.Light.Import.Positions.InvalidFileExtension": {
+                                "title": "<b>Неверный формат файла.</b> Выберите файл с описанием позиций с расширением \".xlsx\"."
+                            },
+                            "Process.Light.Import.Positions.InvalidFile": {
+                                "title": "<b>Файл не соответствует шаблону.</b> Возможные причины:",
+                                "text": "• Файл не содержит спецификацию по позициям\n• Запрос обновлён и ваше предложение устарело\n• Столбцы таблицы или данные заказчика изменены",
+                                "download": "Скачайте шаблон предложения и повторите загрузку."
+                            },
+                            "Process.Light.Import.Positions.FileHasErrors": {
+                                "title": "<b>Позиции с ошибками не загружены.</b> Исправьте ошибки и повторите загрузку.",
+                                "download": "Скачать файл с описанием ошибок"
+                            }
+                        }
+                    }
                 }
-              },
-              "count": {
-                "label": "Кол-во, {{ value }}",
-                "deviation": "Отклонение от кол-ва в запросе"
-              },
-              "price": {
-                "label": "Цена за ед.",
-                "hint": "{{ value }} {{ currency }} по курсу запроса",
-                "free": "Бесплатно"
-              },
-              "vat": {
-                "label": "Ставка НДС",
-                "none": "Не облагается"
-              },
-              "comment": {
-                "label": "Комментарий"
-              },
-              "files": {
-                "label": "Файлы",
-                "upload": "Документ"
-              }
-            },
-            "actions": {
-              "cancel": "Отмена",
-              "save": "Сохранить",
-              "close": "Закрыть"
-            },
-            "validation": {
-              "greater_than_or_equals": "Введите {{ value }} или больше",
-              "less_than": "Макс.: {{ value }}",
-              "greater_than": "Укажите значение > {{ value }}",
-              "price_less": "Ваша цена за ед. в {{ currency }} ({{ value }} {{ currency }}) ниже Минимальной цены за ед, указанной Заказчиком ({{ startPrice }} {{ currency }})",
-              "price_more": "Ваша цена за ед. в {{ currency }} ({{ value }} {{ currency }}) превышает Максимальную цену за ед, указанную Заказчиком ({{ startPrice }} {{ currency }})"
             }
-          },
-          "unsaved": {
-            "title": "Сохранить данные?",
-            "submit": "Сохранить",
-            "cancel": "Не сохранять"
-          },
-          "invalid": {
-            "title": "Сведения о позиции не заполнены",
-            "text": "Продолжите редактирование, чтобы завершить ввод данных текущей позиции.",
-            "submit": "Продолжить редактировать",
-            "cancel": "Перейти к другой позиции"
-          },
-          "banner": {
-            "readonly": "Для редактирования данных перейдите в режим изменения предложения на вкладке Предложение"
-          }
-        },
-        "common": {
-          "vat": {
-            "true": "с НДС",
-            "false": "без НДС",
-            "null": ""
-          },
-          "currency": {
-            "request": "в валюте запроса",
-            "participant": "в валюте участника"
-          }
-        },
-        "import": {
-          "common": {
-            "header": "Загрузка позиций из файла"
-          },
-          "default": {
-            "download": "Скачайте",
-            "template": "шаблон предложения по позициям.",
-            "fill": "Заполните предложение по позициям в Excel.",
-            "import": "Загрузите файл с позициями. Ранее введённые данные будут обновлены.",
-            "actions": {
-              "cancel": "Отмена",
-              "submit": "Загрузить файл"
-            }
-          },
-          "success": {
-            "count": "Загружено позиций:  {{ count }}.",
-            "actions": {
-              "close": "Закрыть"
-            }
-          },
-          "failure": {
-            "total": "Загружено позиций: {{ count }} из {{ total }}.",
-            "actions": {
-              "close": "Закрыть"
-            },
-            "items": {
-              "Process.Light.Import.Positions.InvalidFileExtension": {
-                "title": "<b>Неверный формат файла.</b> Выберите файл с описанием позиций с расширением \".xlsx\"."
-              },
-              "Process.Light.Import.Positions.InvalidFile": {
-                "title": "<b>Файл не соответствует шаблону.</b> Возможные причины:",
-                "text": "• Файл не содержит спецификацию по позициям\n• Запрос обновлён и ваше предложение устарело\n• Столбцы таблицы или данные заказчика изменены",
-                "download": "Скачайте шаблон предложения и повторите загрузку."
-              },
-              "Process.Light.Import.Positions.FileHasErrors": {
-                "title": "<b>Позиции с ошибками не загружены.</b> Исправьте ошибки и повторите загрузку.",
-                "download": "Скачать файл с описанием ошибок"
-              }
-            }
-          }
         }
-      }
     }
-  }
 }

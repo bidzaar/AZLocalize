@@ -1,27 +1,26 @@
 {
-  "trf.pcg.list": {
-    "header": {
-      "title": "Tarif paketləri",
-      "add": "Tarif paketləri əlavə et",
-      "records": "Qeydlər: {{ value }}",
-      "search": "Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
-    },
-    "package": {
-      "customers": "Sifarişçilər",
-      "label": "Redaktə et "
-    },
-    "dialog": {
-      "title": "Tarif paketləri",
-      "input": "Paketin adı",
-      "add": "HAZIRDI",
-      "cancel": "LƏĞV ET",
-      "error": {
-        "title": "Bu Paket adı artıq mövcuddur",
-        "text": "Tarifin digər adını göstərin"
-      }
-    },
-    "empty": "Siyahı boşdu",
-    "empty_search": "Sizin sorğunuza görə heç bir şey tapılmadı..."
-  }
-} 
-
+    "trf.pcg.list": {
+        "header": {
+            "title": "Tarif paketləri",
+            "add": "Tarif paketləri əlavə et",
+            "records": "Qeydlər: {{ value }}",
+            "search": "Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
+        },
+        "package": {
+            "customers": "Sifarişçilər",
+            "label": "Redaktə et "
+        },
+        "dialog": {
+            "title": "Tarif paketləri",
+            "input": "Paketin adı",
+            "add": "HAZIRDI",
+            "cancel": "LƏĞV ET",
+            "error": {
+                "title": "Bu Paket adı artıq mövcuddur",
+                "text": "Tarifin digər adını göstərin"
+            }
+        },
+        "empty": "Siyahı boşdu",
+        "empty_search": "Sizin sorğunuza görə heç bir şey tapılmadı..."
+    }
+}

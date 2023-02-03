@@ -1,0 +1,2261 @@
+{
+    "errors": {
+        "logic": {
+            "Process": {
+                "Light": {
+                    "Procedure": {
+                        "DeliveryAddress": {
+                            "Exists": "web/app/process/light: errors.logic.Process.Light.Procedure.DeliveryAddress.Exists"
+                        },
+                        "PositionsDisabled": "web/app/process/light: errors.logic.Process.Light.Procedure.PositionsDisabled",
+                        "QuestionnaireDisabled": "web/app/process/light: errors.logic.Process.Light.Procedure.QuestionnaireDisabled",
+                        "Version": {
+                            "DraftNotFound": "web/app/process/light: errors.logic.Process.Light.Procedure.Version.DraftNotFound"
+                        },
+                        "Participant": {
+                            "VerificationRequiredError": "web/app/process/light: errors.logic.Process.Light.Procedure.Participant.VerificationRequiredError"
+                        },
+                        "User": {
+                            "LastOwner": "web/app/process/light: errors.logic.Process.Light.Procedure.User.LastOwner",
+                            "ResponsibleUserCannotBeDeleted": "web/app/process/light: errors.logic.Process.Light.Procedure.User.ResponsibleUserCannotBeDeleted",
+                            "ResponsibleUserCannotBeDegraded": "web/app/process/light: errors.logic.Process.Light.Procedure.User.ResponsibleUserCannotBeDegraded"
+                        }
+                    },
+                    "Proposal": {
+                        "DraftNotFound": "web/app/process/light: errors.logic.Process.Light.Proposal.DraftNotFound",
+                        "MaxAlternativeProposalReached": "web/app/process/light: errors.logic.Process.Light.Proposal.MaxAlternativeProposalReached"
+                    },
+                    "WrongNdaState": "web/app/process/light: errors.logic.Process.Light.WrongNdaState",
+                    "Nda": {
+                        "ParticipantBlocked": "web/app/process/light: errors.logic.Process.Light.Nda.ParticipantBlocked",
+                        "ParticipantRefused": "web/app/process/light: errors.logic.Process.Light.Nda.ParticipantRefused"
+                    }
+                }
+            }
+        }
+    },
+    "pl": {
+        "collapse_header": {
+            "close": "web/app/process/light: pl.collapse_header.close",
+            "open": "web/app/process/light: pl.collapse_header.open"
+        },
+        "enums": {
+            "other_participants_visibility": {
+                "0": "web/app/process/light: pl.enums.other_participants_visibility.0",
+                "1": "web/app/process/light: pl.enums.other_participants_visibility.1",
+                "2": "web/app/process/light: pl.enums.other_participants_visibility.2",
+                "3": "web/app/process/light: pl.enums.other_participants_visibility.3",
+                "4": "web/app/process/light: pl.enums.other_participants_visibility.4"
+            },
+            "owner_visibility": {
+                "0": "web/app/process/light: pl.enums.owner_visibility.0",
+                "1": "web/app/process/light: pl.enums.owner_visibility.1"
+            },
+            "participant_business_status": {
+                "0": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.0.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.0.tooltip"
+                },
+                "1": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.1.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.1.tooltip"
+                },
+                "2": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.2.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.2.tooltip"
+                },
+                "3": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.3.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.3.tooltip"
+                },
+                "4": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.4.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.4.tooltip"
+                },
+                "5": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.5.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.5.tooltip"
+                },
+                "6": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.6.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.6.tooltip"
+                },
+                "7": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.7.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.7.tooltip"
+                },
+                "8": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.8.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.8.tooltip"
+                },
+                "9": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.9.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.9.tooltip"
+                },
+                "10": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.10.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.10.tooltip"
+                },
+                "11": {
+                    "name": "web/app/process/light: pl.enums.participant_business_status.11.name",
+                    "tooltip": "web/app/process/light: pl.enums.participant_business_status.11.tooltip"
+                }
+            },
+            "proposal_deviation_type": {
+                "0": "web/app/process/light: pl.enums.proposal_deviation_type.0",
+                "1": "web/app/process/light: pl.enums.proposal_deviation_type.1",
+                "2": "web/app/process/light: pl.enums.proposal_deviation_type.2"
+            },
+            "status": {
+                "0": "web/app/process/light: pl.enums.status.0",
+                "1": "web/app/process/light: pl.enums.status.1",
+                "2": "web/app/process/light: pl.enums.status.2",
+                "3": "web/app/process/light: pl.enums.status.3",
+                "4": "web/app/process/light: pl.enums.status.4"
+            },
+            "type_of_change": {
+                "0": "web/app/process/light: pl.enums.type_of_change.0",
+                "1": "web/app/process/light: pl.enums.type_of_change.1",
+                "2": "web/app/process/light: pl.enums.type_of_change.2"
+            },
+            "vat": {
+                "false": "web/app/process/light: pl.enums.vat.false",
+                "true": "web/app/process/light: pl.enums.vat.true"
+            },
+            "vat_lower": {
+                "false": "web/app/process/light: pl.enums.vat_lower.false",
+                "true": "web/app/process/light: pl.enums.vat_lower.true"
+            },
+            "fee": {
+                "0": "web/app/process/light: pl.enums.fee.0",
+                "1": "web/app/process/light: pl.enums.fee.1",
+                "2": "web/app/process/light: pl.enums.fee.2",
+                "3": "web/app/process/light: pl.enums.fee.3",
+                "4": "web/app/process/light: pl.enums.fee.4"
+            },
+            "language": {
+                "0": "web/app/process/light: pl.enums.language.0",
+                "1": "web/app/process/light: pl.enums.language.1"
+            },
+            "invited_by": {
+                "0": "web/app/process/light: pl.enums.invited_by.0",
+                "1": "web/app/process/light: pl.enums.invited_by.1",
+                "2": "web/app/process/light: pl.enums.invited_by.2"
+            }
+        },
+        "view": {
+            "status": {
+                "0": "web/app/process/light: pl.view.status.0",
+                "1": "web/app/process/light: pl.view.status.1",
+                "2": "web/app/process/light: pl.view.status.2",
+                "3": "web/app/process/light: pl.view.status.3",
+                "4": "web/app/process/light: pl.view.status.4",
+                "until": "web/app/process/light: pl.view.status.until",
+                "tooltip": "web/app/process/light: pl.view.status.tooltip"
+            },
+            "verification": {
+                "action": "web/app/process/light: pl.view.verification.action",
+                "verified": "web/app/process/light: pl.view.verification.verified"
+            },
+            "banner": {
+                "changing": {
+                    "date": "web/app/process/light: pl.view.banner.changing.date",
+                    "state": "web/app/process/light: pl.view.banner.changing.state"
+                },
+                "new_stage": "web/app/process/light: pl.view.banner.new_stage",
+                "proposal": {
+                    "date": {
+                        "left": "web/app/process/light: pl.view.banner.proposal.date.left",
+                        "until": "web/app/process/light: pl.view.banner.proposal.date.until"
+                    },
+                    "state": {
+                        "false": "web/app/process/light: pl.view.banner.proposal.state.false",
+                        "true": "web/app/process/light: pl.view.banner.proposal.state.true"
+                    }
+                },
+                "verification": {
+                    "text": "web/app/process/light: pl.view.banner.verification.text"
+                },
+                "gold": {
+                    "text": "web/app/process/light: pl.view.banner.gold.text"
+                }
+            },
+            "comparison": {
+                "switcher": {
+                    "list": "web/app/process/light: pl.view.comparison.switcher.list",
+                    "table": "web/app/process/light: pl.view.comparison.switcher.table"
+                },
+                "answer_cell": {
+                    "hidden": "web/app/process/light: pl.view.comparison.answer_cell.hidden",
+                    "no_answer": "web/app/process/light: pl.view.comparison.answer_cell.no_answer",
+                    "no_attachment": "web/app/process/light: pl.view.comparison.answer_cell.no_attachment",
+                    "private": "web/app/process/light: pl.view.comparison.answer_cell.private",
+                    "private_participant": "web/app/process/light: pl.view.comparison.answer_cell.private_participant",
+                    "comment": "web/app/process/light: pl.view.comparison.answer_cell.comment",
+                    "widgets": {
+                        "agreement": {
+                            "agree": "web/app/process/light: pl.view.comparison.answer_cell.widgets.agreement.agree",
+                            "disagree": "web/app/process/light: pl.view.comparison.answer_cell.widgets.agreement.disagree"
+                        },
+                        "attachment": {
+                            "uploaded": "web/app/process/light: pl.view.comparison.answer_cell.widgets.attachment.uploaded"
+                        },
+                        "boolean": {
+                            "no": "web/app/process/light: pl.view.comparison.answer_cell.widgets.boolean.no",
+                            "yes": "web/app/process/light: pl.view.comparison.answer_cell.widgets.boolean.yes"
+                        },
+                        "multiple": {
+                            "more": "web/app/process/light: pl.view.comparison.answer_cell.widgets.multiple.more"
+                        }
+                    }
+                },
+                "answer_dialog": {
+                    "comment": "web/app/process/light: pl.view.comparison.answer_dialog.comment",
+                    "comments_and_files": "web/app/process/light: pl.view.comparison.answer_dialog.comments_and_files",
+                    "details_hidden": "web/app/process/light: pl.view.comparison.answer_dialog.details_hidden"
+                },
+                "change_proposal_price_dialog": {
+                    "best_proposal": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.best_proposal",
+                    "cancel": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.cancel",
+                    "change_step": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.change_step",
+                    "down": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.down",
+                    "important": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.important",
+                    "info": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.info",
+                    "new_price": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.new_price",
+                    "reduction_step": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.reduction_step",
+                    "auction_step": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.auction_step",
+                    "title": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.title",
+                    "title_reduction": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.title_reduction",
+                    "title_auction": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.title_auction",
+                    "up": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.up",
+                    "update_price": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.update_price",
+                    "your_proposal": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.your_proposal",
+                    "go_to_proposal": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.go_to_proposal",
+                    "unavailable": {
+                        "ok": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.unavailable.ok",
+                        "text": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.unavailable.text",
+                        "title": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.unavailable.title"
+                    },
+                    "errors": {
+                        "refused": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.errors.refused",
+                        "blocked": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.errors.blocked",
+                        "draft": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.errors.draft",
+                        "recalled": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.errors.recalled",
+                        "reference_price_changed": "web/app/process/light: pl.view.comparison.change_proposal_price_dialog.errors.reference_price_changed"
+                    }
+                },
+                "documents_cell": {
+                    "documents": "web/app/process/light: pl.view.comparison.documents_cell.documents",
+                    "no_files": "web/app/process/light: pl.view.comparison.documents_cell.no_files",
+                    "participant_documents": "web/app/process/light: pl.view.comparison.documents_cell.participant_documents",
+                    "participant_documents_dialog": "web/app/process/light: pl.view.comparison.documents_cell.participant_documents_dialog",
+                    "participant_nda_documents": "web/app/process/light: pl.view.comparison.documents_cell.participant_nda_documents"
+                },
+                "forbidden": {
+                    "owner-version": {
+                        "title": "web/app/process/light: pl.view.comparison.forbidden.owner-version.title",
+                        "text": "web/app/process/light: pl.view.comparison.forbidden.owner-version.text"
+                    },
+                    "owner-draft": {
+                        "title": "web/app/process/light: pl.view.comparison.forbidden.owner-draft.title",
+                        "text": "web/app/process/light: pl.view.comparison.forbidden.owner-draft.text"
+                    },
+                    "owner-hidden": {
+                        "title": "web/app/process/light: pl.view.comparison.forbidden.owner-hidden.title",
+                        "text": "web/app/process/light: pl.view.comparison.forbidden.owner-hidden.text"
+                    },
+                    "guest": {
+                        "title": "web/app/process/light: pl.view.comparison.forbidden.guest.title",
+                        "text": "web/app/process/light: pl.view.comparison.forbidden.guest.text"
+                    },
+                    "empty": {
+                        "title": "web/app/process/light: pl.view.comparison.forbidden.empty.title",
+                        "text": "web/app/process/light: pl.view.comparison.forbidden.empty.text"
+                    }
+                },
+                "header_cells": {
+                    "menu": {
+                        "permit": {
+                            "reduction": "web/app/process/light: pl.view.comparison.header_cells.menu.permit.reduction",
+                            "auction": "web/app/process/light: pl.view.comparison.header_cells.menu.permit.auction"
+                        },
+                        "chat_participant": "web/app/process/light: pl.view.comparison.header_cells.menu.chat_participant",
+                        "deselect_positions": "web/app/process/light: pl.view.comparison.header_cells.menu.deselect_positions",
+                        "remove_from_procedure": "web/app/process/light: pl.view.comparison.header_cells.menu.remove_from_procedure",
+                        "remove_from_procedure_info": "web/app/process/light: pl.view.comparison.header_cells.menu.remove_from_procedure_info",
+                        "select_all_positions": "web/app/process/light: pl.view.comparison.header_cells.menu.select_all_positions",
+                        "show_profile": "web/app/process/light: pl.view.comparison.header_cells.menu.show_profile"
+                    },
+                    "not_full": "web/app/process/light: pl.view.comparison.header_cells.not_full",
+                    "vat_title": "web/app/process/light: pl.view.comparison.header_cells.vat_title",
+                    "proposals": "web/app/process/light: pl.view.comparison.header_cells.proposals",
+                    "alternative": "web/app/process/light: pl.view.comparison.header_cells.alternative",
+                    "actions": "web/app/process/light: pl.view.comparison.header_cells.actions",
+                    "verified_tooltip": "web/app/process/light: pl.view.comparison.header_cells.verified_tooltip",
+                    "best_price": {
+                        "title": "web/app/process/light: pl.view.comparison.header_cells.best_price.title",
+                        "subtitle": "web/app/process/light: pl.view.comparison.header_cells.best_price.subtitle"
+                    },
+                    "names_hidden": "web/app/process/light: pl.view.comparison.header_cells.names_hidden"
+                },
+                "list": {
+                    "about_company": "web/app/process/light: pl.view.comparison.list.about_company",
+                    "cancel_selection": "web/app/process/light: pl.view.comparison.list.cancel_selection",
+                    "change_price": "web/app/process/light: pl.view.comparison.list.change_price",
+                    "chose_proposal": "web/app/process/light: pl.view.comparison.list.chose_proposal",
+                    "no_requisites": "web/app/process/light: pl.view.comparison.list.no_requisites",
+                    "open_requisites": "web/app/process/light: pl.view.comparison.list.open_requisites",
+                    "participant": "web/app/process/light: pl.view.comparison.list.participant",
+                    "proposal_menu": {
+                        "permit_rise": "web/app/process/light: pl.view.comparison.list.proposal_menu.permit_rise",
+                        "block_participant": "web/app/process/light: pl.view.comparison.list.proposal_menu.block_participant"
+                    },
+                    "publish_date": "web/app/process/light: pl.view.comparison.list.publish_date",
+                    "rate": "web/app/process/light: pl.view.comparison.list.rate",
+                    "rate_description": "web/app/process/light: pl.view.comparison.list.rate_description",
+                    "requisites": "web/app/process/light: pl.view.comparison.list.requisites",
+                    "contact": "web/app/process/light: pl.view.comparison.list.contact",
+                    "scoring_private": "web/app/process/light: pl.view.comparison.list.scoring_private",
+                    "vat": {
+                        "false": "web/app/process/light: pl.view.comparison.list.vat.false",
+                        "true": "web/app/process/light: pl.view.comparison.list.vat.true"
+                    },
+                    "vat_sum": "web/app/process/light: pl.view.comparison.list.vat_sum",
+                    "your_proposal": "web/app/process/light: pl.view.comparison.list.your_proposal"
+                },
+                "no_proposals": "web/app/process/light: pl.view.comparison.no_proposals",
+                "position_cell": {
+                    "from": "web/app/process/light: pl.view.comparison.position_cell.from",
+                    "not_full_tooltip": "web/app/process/light: pl.view.comparison.position_cell.not_full_tooltip",
+                    "rank_tooltip": "web/app/process/light: pl.view.comparison.position_cell.rank_tooltip",
+                    "add_to_order": "web/app/process/light: pl.view.comparison.position_cell.add_to_order",
+                    "in_order": "web/app/process/light: pl.view.comparison.position_cell.in_order",
+                    "empty": "web/app/process/light: pl.view.comparison.position_cell.empty",
+                    "details": "web/app/process/light: pl.view.comparison.position_cell.details"
+                },
+                "position_info_dialog": {
+                    "has_vat": "web/app/process/light: pl.view.comparison.position_info_dialog.has_vat",
+                    "no_vat": "web/app/process/light: pl.view.comparison.position_info_dialog.no_vat",
+                    "not_specified": "web/app/process/light: pl.view.comparison.position_info_dialog.not_specified",
+                    "price_for_unit": "web/app/process/light: pl.view.comparison.position_info_dialog.price_for_unit",
+                    "price_not_specified": "web/app/process/light: pl.view.comparison.position_info_dialog.price_not_specified",
+                    "request": "web/app/process/light: pl.view.comparison.position_info_dialog.request",
+                    "description": "web/app/process/light: pl.view.comparison.position_info_dialog.description"
+                },
+                "position_proposal_dialog": {
+                    "files": "web/app/process/light: pl.view.comparison.position_proposal_dialog.files",
+                    "proposal": {
+                        "title": "web/app/process/light: pl.view.comparison.position_proposal_dialog.proposal.title",
+                        "at_the_price_of": "web/app/process/light: pl.view.comparison.position_proposal_dialog.proposal.at_the_price_of",
+                        "per_unit": "web/app/process/light: pl.view.comparison.position_proposal_dialog.proposal.per_unit"
+                    },
+                    "with_vat": "web/app/process/light: pl.view.comparison.position_proposal_dialog.with_vat",
+                    "without_vat": "web/app/process/light: pl.view.comparison.position_proposal_dialog.without_vat",
+                    "total": "web/app/process/light: pl.view.comparison.position_proposal_dialog.total",
+                    "in_order": "web/app/process/light: pl.view.comparison.position_proposal_dialog.in_order",
+                    "add_all": "web/app/process/light: pl.view.comparison.position_proposal_dialog.add_all",
+                    "cancel": "web/app/process/light: pl.view.comparison.position_proposal_dialog.cancel",
+                    "save": "web/app/process/light: pl.view.comparison.position_proposal_dialog.save",
+                    "comment": "web/app/process/light: pl.view.comparison.position_proposal_dialog.comment",
+                    "info": "web/app/process/light: pl.view.comparison.position_proposal_dialog.info",
+                    "float_count_warning": "web/app/process/light: pl.view.comparison.position_proposal_dialog.float_count_warning",
+                    "add": "web/app/process/light: pl.view.comparison.position_proposal_dialog.add",
+                    "added_to_order": "web/app/process/light: pl.view.comparison.position_proposal_dialog.added_to_order",
+                    "delete": "web/app/process/light: pl.view.comparison.position_proposal_dialog.delete",
+                    "details_hidden": "web/app/process/light: pl.view.comparison.position_proposal_dialog.details_hidden",
+                    "for_unit": "web/app/process/light: pl.view.comparison.position_proposal_dialog.for_unit",
+                    "has_vat": "web/app/process/light: pl.view.comparison.position_proposal_dialog.has_vat",
+                    "my_request": "web/app/process/light: pl.view.comparison.position_proposal_dialog.my_request",
+                    "no_price": "web/app/process/light: pl.view.comparison.position_proposal_dialog.no_price",
+                    "no_vat": "web/app/process/light: pl.view.comparison.position_proposal_dialog.no_vat",
+                    "order": "web/app/process/light: pl.view.comparison.position_proposal_dialog.order",
+                    "update": "web/app/process/light: pl.view.comparison.position_proposal_dialog.update",
+                    "error_count": "web/app/process/light: pl.view.comparison.position_proposal_dialog.error_count",
+                    "error_max_count": "web/app/process/light: pl.view.comparison.position_proposal_dialog.error_max_count",
+                    "success_snack": "web/app/process/light: pl.view.comparison.position_proposal_dialog.success_snack"
+                },
+                "position_proposal_total_dialog": {
+                    "title": "web/app/process/light: pl.view.comparison.position_proposal_total_dialog.title",
+                    "total": "web/app/process/light: pl.view.comparison.position_proposal_total_dialog.total",
+                    "count_error": "web/app/process/light: pl.view.comparison.position_proposal_total_dialog.count_error",
+                    "cancel": "web/app/process/light: pl.view.comparison.position_proposal_total_dialog.cancel",
+                    "submit": "web/app/process/light: pl.view.comparison.position_proposal_total_dialog.submit"
+                },
+                "positions": "web/app/process/light: pl.view.comparison.positions",
+                "question_dialog": {
+                    "no_files_or_comment": "web/app/process/light: pl.view.comparison.question_dialog.no_files_or_comment",
+                    "private": "web/app/process/light: pl.view.comparison.question_dialog.private"
+                },
+                "rank": "web/app/process/light: pl.view.comparison.rank",
+                "rank_inaccessible": "web/app/process/light: pl.view.comparison.rank_inaccessible",
+                "selected_participants": "web/app/process/light: pl.view.comparison.selected_participants",
+                "timer": "web/app/process/light: pl.view.comparison.timer",
+                "tooltips": {
+                    "download_my_proposal_table": "web/app/process/light: pl.view.comparison.tooltips.download_my_proposal_table",
+                    "download_proposal": "web/app/process/light: pl.view.comparison.tooltips.download_proposal",
+                    "customize_view": "web/app/process/light: pl.view.comparison.tooltips.customize_view"
+                },
+                "total_order_sum": "web/app/process/light: pl.view.comparison.total_order_sum",
+                "order_distribution": "web/app/process/light: pl.view.comparison.order_distribution",
+                "order_price": "web/app/process/light: pl.view.comparison.order_price",
+                "order_cell": {
+                    "choose": "web/app/process/light: pl.view.comparison.order_cell.choose",
+                    "selected": "web/app/process/light: pl.view.comparison.order_cell.selected",
+                    "full": "web/app/process/light: pl.view.comparison.order_cell.full"
+                },
+                "actions": {
+                    "export": "web/app/process/light: pl.view.comparison.actions.export",
+                    "customize_view": "web/app/process/light: pl.view.comparison.actions.customize_view",
+                    "fullscreen": "web/app/process/light: pl.view.comparison.actions.fullscreen",
+                    "close_fullscreen": "web/app/process/light: pl.view.comparison.actions.close_fullscreen"
+                },
+                "export_list": {
+                    "table": "web/app/process/light: pl.view.comparison.export_list.table",
+                    "order": "web/app/process/light: pl.view.comparison.export_list.order"
+                },
+                "customize_view_menu": {
+                    "title": "web/app/process/light: pl.view.comparison.customize_view_menu.title",
+                    "positions": "web/app/process/light: pl.view.comparison.customize_view_menu.positions",
+                    "questionnaire": "web/app/process/light: pl.view.comparison.customize_view_menu.questionnaire"
+                },
+                "hidden_proposals_info": "web/app/process/light: pl.view.comparison.hidden_proposals_info",
+                "change_price": "web/app/process/light: pl.view.comparison.change_price",
+                "fast_price_change_not_available_dialog": {
+                    "title": "web/app/process/light: pl.view.comparison.fast_price_change_not_available_dialog.title",
+                    "text": "web/app/process/light: pl.view.comparison.fast_price_change_not_available_dialog.text",
+                    "submit": "web/app/process/light: pl.view.comparison.fast_price_change_not_available_dialog.submit",
+                    "cancel": "web/app/process/light: pl.view.comparison.fast_price_change_not_available_dialog.cancel"
+                },
+                "sorting": {
+                    "0": "web/app/process/light: pl.view.comparison.sorting.0",
+                    "1": "web/app/process/light: pl.view.comparison.sorting.1",
+                    "2": "web/app/process/light: pl.view.comparison.sorting.2",
+                    "3": "web/app/process/light: pl.view.comparison.sorting.3",
+                    "button": "web/app/process/light: pl.view.comparison.sorting.button",
+                    "tooltip": "web/app/process/light: pl.view.comparison.sorting.tooltip"
+                },
+                "group": {
+                    "settings": "web/app/process/light: pl.view.comparison.group.settings"
+                },
+                "supplier_group": "web/app/process/light: pl.view.comparison.supplier_group",
+                "proposal_conclusion": "web/app/process/light: pl.view.comparison.proposal_conclusion",
+                "rating_dialog": {
+                    "title": "web/app/process/light: pl.view.comparison.rating_dialog.title",
+                    "sub_title": "web/app/process/light: pl.view.comparison.rating_dialog.sub_title",
+                    "rating": "web/app/process/light: pl.view.comparison.rating_dialog.rating",
+                    "comment": "web/app/process/light: pl.view.comparison.rating_dialog.comment",
+                    "delete": "web/app/process/light: pl.view.comparison.rating_dialog.delete",
+                    "submit": "web/app/process/light: pl.view.comparison.rating_dialog.submit",
+                    "remove_dialog": {
+                        "title": "web/app/process/light: pl.view.comparison.rating_dialog.remove_dialog.title",
+                        "submit": "web/app/process/light: pl.view.comparison.rating_dialog.remove_dialog.submit",
+                        "cancel": "web/app/process/light: pl.view.comparison.rating_dialog.remove_dialog.cancel"
+                    }
+                },
+                "rating_cell": {
+                    "empty": "web/app/process/light: pl.view.comparison.rating_cell.empty"
+                },
+                "paginator": {
+                    "title": "web/app/process/light: pl.view.comparison.paginator.title",
+                    "from": "web/app/process/light: pl.view.comparison.paginator.from",
+                    "info": "web/app/process/light: pl.view.comparison.paginator.info"
+                },
+                "basis": {
+                    "button": "web/app/process/light: pl.view.comparison.basis.button",
+                    "target_price": "web/app/process/light: pl.view.comparison.basis.target_price",
+                    "first_price": "web/app/process/light: pl.view.comparison.basis.first_price",
+                    "best_price": "web/app/process/light: pl.view.comparison.basis.best_price"
+                },
+                "participants_filter": {
+                    "button": "web/app/process/light: pl.view.comparison.participants_filter.button",
+                    "tooltip": "web/app/process/light: pl.view.comparison.participants_filter.tooltip"
+                },
+                "companies_filter_dialog": {
+                    "selected": "web/app/process/light: pl.view.comparison.companies_filter_dialog.selected",
+                    "tin": "web/app/process/light: pl.view.comparison.companies_filter_dialog.tin",
+                    "search": "web/app/process/light: pl.view.comparison.companies_filter_dialog.search",
+                    "clear_filter": "web/app/process/light: pl.view.comparison.companies_filter_dialog.clear_filter",
+                    "cancel": "web/app/process/light: pl.view.comparison.companies_filter_dialog.cancel",
+                    "submit": "web/app/process/light: pl.view.comparison.companies_filter_dialog.submit",
+                    "supplier_not_found": "web/app/process/light: pl.view.comparison.companies_filter_dialog.supplier_not_found",
+                    "supplier_not_found_help": "web/app/process/light: pl.view.comparison.companies_filter_dialog.supplier_not_found_help"
+                }
+            },
+            "dialogs": {
+                "notification": {
+                    "update_change": {
+                        "title": "web/app/process/light: pl.view.dialogs.notification.update_change.title",
+                        "text": "web/app/process/light: pl.view.dialogs.notification.update_change.text"
+                    },
+                    "status_changed": {
+                        "title": "web/app/process/light: pl.view.dialogs.notification.status_changed.title",
+                        "text": "web/app/process/light: pl.view.dialogs.notification.status_changed.text"
+                    },
+                    "completed": {
+                        "title": "web/app/process/light: pl.view.dialogs.notification.completed.title",
+                        "text": "web/app/process/light: pl.view.dialogs.notification.completed.text"
+                    },
+                    "canceled": {
+                        "title": "web/app/process/light: pl.view.dialogs.notification.canceled.title"
+                    }
+                },
+                "cancel": {
+                    "no": "web/app/process/light: pl.view.dialogs.cancel.no",
+                    "text": "web/app/process/light: pl.view.dialogs.cancel.text",
+                    "title": "web/app/process/light: pl.view.dialogs.cancel.title",
+                    "yes": "web/app/process/light: pl.view.dialogs.cancel.yes"
+                },
+                "cancel_changes": {
+                    "no": "web/app/process/light: pl.view.dialogs.cancel_changes.no",
+                    "text": "web/app/process/light: pl.view.dialogs.cancel_changes.text",
+                    "title": "web/app/process/light: pl.view.dialogs.cancel_changes.title",
+                    "yes": "web/app/process/light: pl.view.dialogs.cancel_changes.yes"
+                },
+                "cancel_stage": {
+                    "title": "web/app/process/light: pl.view.dialogs.cancel_stage.title",
+                    "no": "web/app/process/light: pl.view.dialogs.cancel_stage.no",
+                    "yes": "web/app/process/light: pl.view.dialogs.cancel_stage.yes"
+                },
+                "delete": {
+                    "no": "web/app/process/light: pl.view.dialogs.delete.no",
+                    "text": "web/app/process/light: pl.view.dialogs.delete.text",
+                    "yes": "web/app/process/light: pl.view.dialogs.delete.yes"
+                },
+                "offers": {
+                    "header": {
+                        "comparison": "web/app/process/light: pl.view.dialogs.offers.header.comparison",
+                        "all-receipt": "web/app/process/light: pl.view.dialogs.offers.header.all-receipt"
+                    },
+                    "options": {
+                        "attachment": "web/app/process/light: pl.view.dialogs.offers.options.attachment",
+                        "selectable": "web/app/process/light: pl.view.dialogs.offers.options.selectable"
+                    },
+                    "columns": {
+                        "8": "web/app/process/light: pl.view.dialogs.offers.columns.8",
+                        "16": "web/app/process/light: pl.view.dialogs.offers.columns.16",
+                        "32": "web/app/process/light: pl.view.dialogs.offers.columns.32",
+                        "64": "web/app/process/light: pl.view.dialogs.offers.columns.64",
+                        "128": "web/app/process/light: pl.view.dialogs.offers.columns.128",
+                        "256": "web/app/process/light: pl.view.dialogs.offers.columns.256",
+                        "512": "web/app/process/light: pl.view.dialogs.offers.columns.512",
+                        "1024": "web/app/process/light: pl.view.dialogs.offers.columns.1024",
+                        "2048": "web/app/process/light: pl.view.dialogs.offers.columns.2048",
+                        "4096": "web/app/process/light: pl.view.dialogs.offers.columns.4096",
+                        "16384": "web/app/process/light: pl.view.dialogs.offers.columns.16384"
+                    },
+                    "actions": {
+                        "cancel": "web/app/process/light: pl.view.dialogs.offers.actions.cancel",
+                        "submit": "web/app/process/light: pl.view.dialogs.offers.actions.submit"
+                    }
+                },
+                "no_orders": {
+                    "title": "web/app/process/light: pl.view.dialogs.no_orders.title",
+                    "text": "web/app/process/light: pl.view.dialogs.no_orders.text",
+                    "cancel": "web/app/process/light: pl.view.dialogs.no_orders.cancel"
+                },
+                "finish_round": {
+                    "cancel": "web/app/process/light: pl.view.dialogs.finish_round.cancel",
+                    "header": "web/app/process/light: pl.view.dialogs.finish_round.header",
+                    "message": "web/app/process/light: pl.view.dialogs.finish_round.message",
+                    "next": "web/app/process/light: pl.view.dialogs.finish_round.next",
+                    "success": "web/app/process/light: pl.view.dialogs.finish_round.success",
+                    "time_tooltip": "web/app/process/light: pl.view.dialogs.finish_round.time_tooltip",
+                    "time": "web/app/process/light: pl.view.dialogs.finish_round.time"
+                },
+                "leave": {
+                    "header": "web/app/process/light: pl.view.dialogs.leave.header",
+                    "no": "web/app/process/light: pl.view.dialogs.leave.no",
+                    "success": "web/app/process/light: pl.view.dialogs.leave.success",
+                    "text": "web/app/process/light: pl.view.dialogs.leave.text",
+                    "yes": "web/app/process/light: pl.view.dialogs.leave.yes"
+                },
+                "requisites": {
+                    "contact_person": "web/app/process/light: pl.view.dialogs.requisites.contact_person",
+                    "tin": "web/app/process/light: pl.view.dialogs.requisites.tin",
+                    "more_requisites": "web/app/process/light: pl.view.dialogs.requisites.more_requisites"
+                },
+                "start_round": {
+                    "cancel": "web/app/process/light: pl.view.dialogs.start_round.cancel",
+                    "error": "web/app/process/light: pl.view.dialogs.start_round.error",
+                    "header": "web/app/process/light: pl.view.dialogs.start_round.header",
+                    "message": "web/app/process/light: pl.view.dialogs.start_round.message",
+                    "next": "web/app/process/light: pl.view.dialogs.start_round.next",
+                    "success": "web/app/process/light: pl.view.dialogs.start_round.success",
+                    "time": "web/app/process/light: pl.view.dialogs.start_round.time"
+                },
+                "validation": {
+                    "title": {
+                        "0": "web/app/process/light: pl.view.dialogs.validation.title.0",
+                        "1": "web/app/process/light: pl.view.dialogs.validation.title.1",
+                        "2": "web/app/process/light: pl.view.dialogs.validation.title.2"
+                    },
+                    "invalid": "web/app/process/light: pl.view.dialogs.validation.invalid",
+                    "actions": {
+                        "report": "web/app/process/light: pl.view.dialogs.validation.actions.report",
+                        "cancel": "web/app/process/light: pl.view.dialogs.validation.actions.cancel",
+                        "submit": "web/app/process/light: pl.view.dialogs.validation.actions.submit",
+                        "close": "web/app/process/light: pl.view.dialogs.validation.actions.close"
+                    },
+                    "changes": {
+                        "major": {
+                            "title": "web/app/process/light: pl.view.dialogs.validation.changes.major.title",
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.changes.major.notice"
+                        },
+                        "minor": {
+                            "title": "web/app/process/light: pl.view.dialogs.validation.changes.minor.title",
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.changes.minor.notice",
+                            "options": {
+                                "minor": "web/app/process/light: pl.view.dialogs.validation.changes.minor.options.minor",
+                                "major": "web/app/process/light: pl.view.dialogs.validation.changes.minor.options.major"
+                            }
+                        }
+                    },
+                    "items": {
+                        "AcceptanceEndDate": {
+                            "Default": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.Default.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.Default.title"
+                            },
+                            "Expired": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.Expired.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.Expired.title"
+                            },
+                            "LessThen": {
+                                "15": {
+                                    "notice": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.LessThen.15.notice",
+                                    "title": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.LessThen.15.title"
+                                },
+                                "48": {
+                                    "notice": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.LessThen.48.notice",
+                                    "title": "web/app/process/light: pl.view.dialogs.validation.items.AcceptanceEndDate.LessThen.48.title"
+                                }
+                            }
+                        },
+                        "Addresses": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.Addresses.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.Addresses.title"
+                        },
+                        "ClosedProcedure": {
+                            "NoParticipant": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.ClosedProcedure.NoParticipant.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.ClosedProcedure.NoParticipant.title"
+                            },
+                            "AdditionalCurrencies": {
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.ClosedProcedure.AdditionalCurrencies.title",
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.ClosedProcedure.AdditionalCurrencies.notice"
+                            }
+                        },
+                        "Files": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.Files.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.Files.title"
+                        },
+                        "NdaEnabled": {
+                            "NoData": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.NdaEnabled.NoData.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.NdaEnabled.NoData.title"
+                            }
+                        },
+                        "Positions": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.Positions.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.Positions.title"
+                        },
+                        "Price": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.Price.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.Price.title"
+                        },
+                        "Questionnaire": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.Questionnaire.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.Questionnaire.title"
+                        },
+                        "ReductionStep": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStep.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStep.title"
+                        },
+                        "ReductionStepAbsolute": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepAbsolute.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepAbsolute.title"
+                        },
+                        "ReductionStepPercent": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepPercent.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.ReductionStepPercent.title"
+                        },
+                        "VatEnabled": {
+                            "Undefined": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.VatEnabled.Undefined.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.VatEnabled.Undefined.title"
+                            }
+                        },
+                        "Tariff": {
+                            "NotActive": {
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.Tariff.NotActive.title",
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Tariff.NotActive.notice"
+                            },
+                            "NotDefined": {
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.Tariff.NotDefined.title",
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Tariff.NotDefined.notice"
+                            }
+                        },
+                        "NewStageCreated": {
+                            "notice": "web/app/process/light: pl.view.dialogs.validation.items.NewStageCreated.notice",
+                            "title": "web/app/process/light: pl.view.dialogs.validation.items.NewStageCreated.title"
+                        },
+                        "Gold": {
+                            "ProcedureCannotBeOpened": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.ProcedureCannotBeOpened.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.ProcedureCannotBeOpened.title"
+                            },
+                            "HasRegistries": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.HasRegistries.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.HasRegistries.title"
+                            },
+                            "NdaCannotBeEnabled": {
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.notice",
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.title"
+                            }
+                        }
+                    },
+                    "comment": {
+                        "title": "web/app/process/light: pl.view.dialogs.validation.comment.title",
+                        "placeholder": "web/app/process/light: pl.view.dialogs.validation.comment.placeholder",
+                        "error": "web/app/process/light: pl.view.dialogs.validation.comment.error",
+                        "hint": "web/app/process/light: pl.view.dialogs.validation.comment.hint"
+                    },
+                    "mail": {
+                        "title": {
+                            "0": "web/app/process/light: pl.view.dialogs.validation.mail.title.0",
+                            "1": "web/app/process/light: pl.view.dialogs.validation.mail.title.1",
+                            "2": "web/app/process/light: pl.view.dialogs.validation.mail.title.2"
+                        },
+                        "subtitle": {
+                            "0": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.0",
+                            "1": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.1",
+                            "2": "web/app/process/light: pl.view.dialogs.validation.mail.subtitle.2"
+                        }
+                    }
+                },
+                "vat": {
+                    "cancel": "web/app/process/light: pl.view.dialogs.vat.cancel",
+                    "confirm": "web/app/process/light: pl.view.dialogs.vat.confirm",
+                    "free": "web/app/process/light: pl.view.dialogs.vat.free",
+                    "header": "web/app/process/light: pl.view.dialogs.vat.header",
+                    "text": "web/app/process/light: pl.view.dialogs.vat.text"
+                },
+                "version_mismatch": {
+                    "next": "web/app/process/light: pl.view.dialogs.version_mismatch.next",
+                    "version": {
+                        "title": "web/app/process/light: pl.view.dialogs.version_mismatch.version.title",
+                        "text": "web/app/process/light: pl.view.dialogs.version_mismatch.version.text"
+                    },
+                    "proposals": {
+                        "title": "web/app/process/light: pl.view.dialogs.version_mismatch.proposals.title",
+                        "text": "web/app/process/light: pl.view.dialogs.version_mismatch.proposals.text"
+                    }
+                },
+                "wrong_status": {
+                    "Process": {
+                        "Light": {
+                            "Denied": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Denied",
+                            "Procedure": {
+                                "Canceled": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Procedure.Canceled",
+                                "Deleted": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Procedure.Deleted",
+                                "Ended": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Procedure.Ended",
+                                "Expired": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Procedure.Expired",
+                                "Summarizing": "web/app/process/light: pl.view.dialogs.wrong_status.Process.Light.Procedure.Summarizing"
+                            }
+                        }
+                    }
+                },
+                "verified_only_info": {
+                    "title": "web/app/process/light: pl.view.dialogs.verified_only_info.title",
+                    "legal_confirmed": {
+                        "label": "web/app/process/light: pl.view.dialogs.verified_only_info.legal_confirmed.label",
+                        "text": "web/app/process/light: pl.view.dialogs.verified_only_info.legal_confirmed.text"
+                    },
+                    "requisites": {
+                        "label": "web/app/process/light: pl.view.dialogs.verified_only_info.requisites.label",
+                        "text": "web/app/process/light: pl.view.dialogs.verified_only_info.requisites.text"
+                    },
+                    "reports": {
+                        "label": "web/app/process/light: pl.view.dialogs.verified_only_info.reports.label",
+                        "text": "web/app/process/light: pl.view.dialogs.verified_only_info.reports.text"
+                    },
+                    "verification_method_message": {
+                        "title": "web/app/process/light: pl.view.dialogs.verified_only_info.verification_method_message.title",
+                        "text": "web/app/process/light: pl.view.dialogs.verified_only_info.verification_method_message.text"
+                    },
+                    "close": "web/app/process/light: pl.view.dialogs.verified_only_info.close",
+                    "order_check": "web/app/process/light: pl.view.dialogs.verified_only_info.order_check",
+                    "message_for_verified": "web/app/process/light: pl.view.dialogs.verified_only_info.message_for_verified"
+                },
+                "participant_nda": {
+                    "title": "web/app/process/light: pl.view.dialogs.participant_nda.title",
+                    "empty": "web/app/process/light: pl.view.dialogs.participant_nda.empty"
+                },
+                "nda_decision": {
+                    "title": "web/app/process/light: pl.view.dialogs.nda_decision.title",
+                    "accept": {
+                        "title": "web/app/process/light: pl.view.dialogs.nda_decision.accept.title",
+                        "text": "web/app/process/light: pl.view.dialogs.nda_decision.accept.text",
+                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.accept.result"
+                    },
+                    "reject": {
+                        "title": "web/app/process/light: pl.view.dialogs.nda_decision.reject.title",
+                        "text": "web/app/process/light: pl.view.dialogs.nda_decision.reject.text",
+                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.reject.result"
+                    },
+                    "comment_placeholder": "web/app/process/light: pl.view.dialogs.nda_decision.comment_placeholder",
+                    "cancel": "web/app/process/light: pl.view.dialogs.nda_decision.cancel",
+                    "submit": "web/app/process/light: pl.view.dialogs.nda_decision.submit"
+                },
+                "returnToSummary": {
+                    "title": "web/app/process/light: pl.view.dialogs.returnToSummary.title",
+                    "form_label": "web/app/process/light: pl.view.dialogs.returnToSummary.form_label",
+                    "form_placeholder": "web/app/process/light: pl.view.dialogs.returnToSummary.form_placeholder",
+                    "cancel": "web/app/process/light: pl.view.dialogs.returnToSummary.cancel",
+                    "submit": "web/app/process/light: pl.view.dialogs.returnToSummary.submit",
+                    "success": "web/app/process/light: pl.view.dialogs.returnToSummary.success",
+                    "order": "web/app/process/light: pl.view.dialogs.returnToSummary.order",
+                    "label_empty": "web/app/process/light: pl.view.dialogs.returnToSummary.label_empty",
+                    "mail": {
+                        "title": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.title",
+                        "subtitle": {
+                            "false": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.subtitle.false",
+                            "true": "web/app/process/light: pl.view.dialogs.returnToSummary.mail.subtitle.true"
+                        }
+                    }
+                }
+            },
+            "header": {
+                "back": "web/app/process/light: pl.view.header.back",
+                "editing": "web/app/process/light: pl.view.header.editing",
+                "positions": "web/app/process/light: pl.view.header.positions",
+                "questionnaire": "web/app/process/light: pl.view.header.questionnaire"
+            },
+            "number": "web/app/process/light: pl.view.number",
+            "participant": {
+                "items": {
+                    "attachments": {
+                        "empty": "web/app/process/light: pl.view.participant.items.attachments.empty",
+                        "header": "web/app/process/light: pl.view.participant.items.attachments.header",
+                        "size": "web/app/process/light: pl.view.participant.items.attachments.size",
+                        "upload": "web/app/process/light: pl.view.participant.items.attachments.upload"
+                    },
+                    "position": {
+                        "request": "web/app/process/light: pl.view.participant.items.position.request",
+                        "startPrice": "web/app/process/light: pl.view.participant.items.position.startPrice"
+                    },
+                    "table": {
+                        "header": {
+                            "import": "web/app/process/light: pl.view.participant.items.table.header.import",
+                            "total": "web/app/process/light: pl.view.participant.items.table.header.total"
+                        },
+                        "proposal": {
+                            "comment": {
+                                "empty": "web/app/process/light: pl.view.participant.items.table.proposal.comment.empty",
+                                "label": "web/app/process/light: pl.view.participant.items.table.proposal.comment.label"
+                            },
+                            "count": {
+                                "deviation": "web/app/process/light: pl.view.participant.items.table.proposal.count.deviation",
+                                "label": "web/app/process/light: pl.view.participant.items.table.proposal.count.label",
+                                "zero": "web/app/process/light: pl.view.participant.items.table.proposal.count.zero"
+                            },
+                            "price": {
+                                "label": "web/app/process/light: pl.view.participant.items.table.proposal.price.label",
+                                "vat": {
+                                    "false": "web/app/process/light: pl.view.participant.items.table.proposal.price.vat.false",
+                                    "true": "web/app/process/light: pl.view.participant.items.table.proposal.price.vat.true"
+                                },
+                                "hint": "web/app/process/light: pl.view.participant.items.table.proposal.price.hint",
+                                "max": "web/app/process/light: pl.view.participant.items.table.proposal.price.max"
+                            },
+                            "vat": {
+                                "change": "web/app/process/light: pl.view.participant.items.table.proposal.vat.change",
+                                "empty": "web/app/process/light: pl.view.participant.items.table.proposal.vat.empty",
+                                "free": "web/app/process/light: pl.view.participant.items.table.proposal.vat.free",
+                                "label": "web/app/process/light: pl.view.participant.items.table.proposal.vat.label"
+                            },
+                            "no_positions": {
+                                "label": "web/app/process/light: pl.view.participant.items.table.proposal.no_positions.label"
+                            }
+                        }
+                    }
+                },
+                "proposal": {
+                    "botzaar": {
+                        "actions": {
+                            "verify": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.verify.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.verify.title"
+                            },
+                            "cancelProposal": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.cancelProposal.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.cancelProposal.title"
+                            },
+                            "changeProposal": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.changeProposal.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.changeProposal.title"
+                            },
+                            "downloadProposal": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.downloadProposal.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.downloadProposal.title"
+                            },
+                            "resubmitProposal": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.resubmitProposal.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.resubmitProposal.title"
+                            },
+                            "submitProposal": {
+                                "description": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.submitProposal.description",
+                                "title": "web/app/process/light: pl.view.participant.proposal.botzaar.actions.submitProposal.title"
+                            }
+                        },
+                        "canceled": {
+                            "nda_pending": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.nda_pending.message"
+                            },
+                            "nda_submitted": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.nda_submitted.message"
+                            },
+                            "active": {
+                                "unverified": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.active.unverified.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.active.with_proposal.message"
+                                },
+                                "without_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.active.without_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.blocked.message"
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.canceled.refused.message"
+                            }
+                        },
+                        "finished": {
+                            "nda_pending": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.nda_pending.message"
+                            },
+                            "nda_submitted": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.nda_submitted.message"
+                            },
+                            "active": {
+                                "unverified": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.active.unverified.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.active.with_proposal.message"
+                                },
+                                "without_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.active.without_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.blocked.message"
+                            },
+                            "looser": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.looser.message"
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.refused.message"
+                            },
+                            "winner": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.finished.winner.message"
+                            }
+                        },
+                        "proposal": {
+                            "nda_pending": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.nda_pending.message"
+                            },
+                            "nda_submitted": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.nda_submitted.message"
+                            },
+                            "active": {
+                                "unverified": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.active.unverified.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.active.with_proposal.message"
+                                },
+                                "without_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.active.without_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.blocked.message"
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.proposal.refused.message"
+                            }
+                        },
+                        "summarize": {
+                            "nda_pending": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.nda_pending.message"
+                            },
+                            "nda_submitted": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.nda_submitted.message"
+                            },
+                            "active": {
+                                "unverified": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.active.unverified.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.active.with_proposal.message"
+                                },
+                                "without_proposal": {
+                                    "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.active.without_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.blocked.message"
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.participant.proposal.botzaar.summarize.refused.message"
+                            }
+                        }
+                    },
+                    "content": {
+                        "actions": {
+                            "change": "web/app/process/light: pl.view.participant.proposal.content.actions.change",
+                            "file": "web/app/process/light: pl.view.participant.proposal.content.actions.file",
+                            "open": "web/app/process/light: pl.view.participant.proposal.content.actions.open",
+                            "set_up": "web/app/process/light: pl.view.participant.proposal.content.actions.set_up",
+                            "specify": "web/app/process/light: pl.view.participant.proposal.content.actions.specify",
+                            "specify_inn": "web/app/process/light: pl.view.participant.proposal.content.actions.specify_inn"
+                        },
+                        "contact": {
+                            "empty": "web/app/process/light: pl.view.participant.proposal.content.contact.empty",
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.contact.title"
+                        },
+                        "documents": {
+                            "sub_title": "web/app/process/light: pl.view.participant.proposal.content.documents.sub_title",
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.documents.title"
+                        },
+                        "inn": {
+                            "empty": "web/app/process/light: pl.view.participant.proposal.content.inn.empty",
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.inn.title"
+                        },
+                        "positions": {
+                            "sub_title": "web/app/process/light: pl.view.participant.proposal.content.positions.sub_title",
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.positions.title"
+                        },
+                        "price": {
+                            "sub-title": {
+                                "auto": "web/app/process/light: pl.view.participant.proposal.content.price.sub-title.auto",
+                                "manual": "web/app/process/light: pl.view.participant.proposal.content.price.sub-title.manual"
+                            },
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.price.title"
+                        },
+                        "questionnaire": {
+                            "sub_title": "web/app/process/light: pl.view.participant.proposal.content.questionnaire.sub_title",
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.questionnaire.title"
+                        },
+                        "title": "web/app/process/light: pl.view.participant.proposal.content.title",
+                        "nda": {
+                            "title": "web/app/process/light: pl.view.participant.proposal.content.nda.title",
+                            "upload_document": "web/app/process/light: pl.view.participant.proposal.content.nda.upload_document",
+                            "submit": "web/app/process/light: pl.view.participant.proposal.content.nda.submit",
+                            "empty": "web/app/process/light: pl.view.participant.proposal.content.nda.empty"
+                        }
+                    },
+                    "dialogs": {
+                        "cancel": {
+                            "cancel": "web/app/process/light: pl.view.participant.proposal.dialogs.cancel.cancel",
+                            "header": "web/app/process/light: pl.view.participant.proposal.dialogs.cancel.header",
+                            "message": "web/app/process/light: pl.view.participant.proposal.dialogs.cancel.message",
+                            "next": "web/app/process/light: pl.view.participant.proposal.dialogs.cancel.next",
+                            "success": "web/app/process/light: pl.view.participant.proposal.dialogs.cancel.success"
+                        },
+                        "change": {
+                            "cancel": "web/app/process/light: pl.view.participant.proposal.dialogs.change.cancel",
+                            "header": "web/app/process/light: pl.view.participant.proposal.dialogs.change.header",
+                            "message": "web/app/process/light: pl.view.participant.proposal.dialogs.change.message",
+                            "next": "web/app/process/light: pl.view.participant.proposal.dialogs.change.next",
+                            "success": "web/app/process/light: pl.view.participant.proposal.dialogs.change.success"
+                        },
+                        "submit": {
+                            "header": {
+                                "primary": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.header.primary",
+                                "repeated": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.header.repeated"
+                            },
+                            "default": {
+                                "actions": {
+                                    "cancel": {
+                                        "primary": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.actions.cancel.primary",
+                                        "repeated": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.actions.cancel.repeated"
+                                    },
+                                    "next": {
+                                        "primary": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.actions.next.primary",
+                                        "repeated": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.actions.next.repeated"
+                                    }
+                                },
+                                "success": {
+                                    "primary": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.success.primary",
+                                    "repeated": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.success.repeated"
+                                },
+                                "text": {
+                                    "primary": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.text.primary",
+                                    "repeated": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.text.repeated",
+                                    "confirmation": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.text.confirmation",
+                                    "agreement": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.default.text.agreement"
+                                }
+                            },
+                            "failure": {
+                                "actions": {
+                                    "cancel": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.actions.cancel"
+                                },
+                                "how_rise": {
+                                    "1": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.how_rise.1",
+                                    "2": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.how_rise.2",
+                                    "3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.how_rise.3",
+                                    "button": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.how_rise.button"
+                                },
+                                "helper_auction": {
+                                    "label": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_auction.label",
+                                    "description": {
+                                        "1": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_auction.description.1",
+                                        "2": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_auction.description.2",
+                                        "3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_auction.description.3",
+                                        "label": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_auction.description.label"
+                                    }
+                                },
+                                "helper_positions": {
+                                    "label": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.label",
+                                    "description": {
+                                        "1": {
+                                            "1_1": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.1.1_1",
+                                            "1_2": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.1.1_2",
+                                            "1_3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.1.1_3"
+                                        },
+                                        "2": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.2",
+                                        "3": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.3",
+                                        "label": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.failure.helper_positions.description.label"
+                                    }
+                                }
+                            },
+                            "loading": {
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.loading.text"
+                            },
+                            "verification": {
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.text",
+                                "notice": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.notice",
+                                "actions": {
+                                    "more": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.actions.more",
+                                    "submit": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.verification.actions.submit"
+                                }
+                            },
+                            "accreditation": {
+                                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.accreditation.title",
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.submit.accreditation.text"
+                            }
+                        },
+                        "no_company": {
+                            "title": "web/app/process/light: pl.view.participant.proposal.dialogs.no_company.title",
+                            "info": "web/app/process/light: pl.view.participant.proposal.dialogs.no_company.info",
+                            "register": "web/app/process/light: pl.view.participant.proposal.dialogs.no_company.register"
+                        },
+                        "no_user": {
+                            "title": "web/app/process/light: pl.view.participant.proposal.dialogs.no_user.title",
+                            "info": "web/app/process/light: pl.view.participant.proposal.dialogs.no_user.info",
+                            "register": "web/app/process/light: pl.view.participant.proposal.dialogs.no_user.register"
+                        },
+                        "alerts": {
+                            "no_rights": {
+                                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.no_rights.title",
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.no_rights.text"
+                            },
+                            "blocked": {
+                                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.blocked.title",
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.blocked.text"
+                            },
+                            "already_participate": {
+                                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.already_participate.title",
+                                "text": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.already_participate.text"
+                            },
+                            "errors": {
+                                "title": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.title",
+                                "access_denied": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.access_denied",
+                                "status_summarize": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.status_summarize",
+                                "status_finished": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.status_finished",
+                                "status_canceled": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.status_canceled",
+                                "private": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.private",
+                                "unknown": "web/app/process/light: pl.view.participant.proposal.dialogs.alerts.errors.unknown"
+                            }
+                        }
+                    },
+                    "contact_info": {
+                        "title": "web/app/process/light: pl.view.participant.proposal.contact_info.title",
+                        "info": "web/app/process/light: pl.view.participant.proposal.contact_info.info",
+                        "submit": "web/app/process/light: pl.view.participant.proposal.contact_info.submit",
+                        "cancel": "web/app/process/light: pl.view.participant.proposal.contact_info.cancel"
+                    },
+                    "verification": {
+                        "text": "web/app/process/light: pl.view.participant.proposal.verification.text",
+                        "text_only_verified": "web/app/process/light: pl.view.participant.proposal.verification.text_only_verified",
+                        "learn_more": "web/app/process/light: pl.view.participant.proposal.verification.learn_more",
+                        "verified": "web/app/process/light: pl.view.participant.proposal.verification.verified"
+                    }
+                },
+                "commission": {
+                    "title": "web/app/process/light: pl.view.participant.commission.title",
+                    "table": {
+                        "range": "web/app/process/light: pl.view.participant.commission.table.range",
+                        "total": "web/app/process/light: pl.view.participant.commission.table.total",
+                        "to": "web/app/process/light: pl.view.participant.commission.table.to",
+                        "from": "web/app/process/light: pl.view.participant.commission.table.from"
+                    },
+                    "text": {
+                        "free-for-company": "web/app/process/light: pl.view.participant.commission.text.free-for-company",
+                        "free-for-request": "web/app/process/light: pl.view.participant.commission.text.free-for-request",
+                        "payment": "web/app/process/light: pl.view.participant.commission.text.payment"
+                    },
+                    "total": {
+                        "multi": "web/app/process/light: pl.view.participant.commission.total.multi",
+                        "single": "web/app/process/light: pl.view.participant.commission.total.single"
+                    }
+                }
+            },
+            "participants": {
+                "dialogs": {
+                    "block_many": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.block_many.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.block_many.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.block_many.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.block_many.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.block_many.success"
+                    },
+                    "block_one": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.block_one.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.block_one.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.block_one.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.block_one.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.block_one.success"
+                    },
+                    "invite_email": {
+                        "header": "web/app/process/light: pl.view.participants.dialogs.invite_email.header",
+                        "multi": {
+                            "label": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.label",
+                            "cancel": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.cancel",
+                            "submit": "web/app/process/light: pl.view.participants.dialogs.invite_email.multi.submit"
+                        },
+                        "single": {
+                            "cancel": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.cancel",
+                            "done": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.done",
+                            "invite": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.invite",
+                            "append": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.append",
+                            "remove": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.remove",
+                            "or": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.or",
+                            "switch": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.switch",
+                            "optional": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.optional",
+                            "email": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.email",
+                            "company": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.company",
+                            "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.single.draft"
+                        },
+                        "errors": {
+                            "duplicate": "web/app/process/light: pl.view.participants.dialogs.invite_email.errors.duplicate"
+                        },
+                        "success": {
+                            "default": "web/app/process/light: pl.view.participants.dialogs.invite_email.success.default",
+                            "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.success.draft"
+                        },
+                        "failure": {
+                            "default": "web/app/process/light: pl.view.participants.dialogs.invite_email.failure.default",
+                            "draft": "web/app/process/light: pl.view.participants.dialogs.invite_email.failure.draft"
+                        }
+                    },
+                    "invite_link": {
+                        "header": "web/app/process/light: pl.view.participants.dialogs.invite_link.header",
+                        "hint": "web/app/process/light: pl.view.participants.dialogs.invite_link.hint",
+                        "text": "web/app/process/light: pl.view.participants.dialogs.invite_link.text"
+                    },
+                    "invite_site": {
+                        "header": "web/app/process/light: pl.view.participants.dialogs.invite_site.header",
+                        "success": {
+                            "default": "web/app/process/light: pl.view.participants.dialogs.invite_site.success.default",
+                            "draft": "web/app/process/light: pl.view.participants.dialogs.invite_site.success.draft"
+                        }
+                    },
+                    "notify_many": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.notify_many.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.notify_many.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.notify_many.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.notify_many.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.notify_many.success"
+                    },
+                    "notify_one": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.notify_one.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.notify_one.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.notify_one.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.notify_one.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.notify_one.success"
+                    },
+                    "remove_many": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.remove_many.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.remove_many.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.remove_many.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.remove_many.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.remove_many.success"
+                    },
+                    "remove_one": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.remove_one.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.remove_one.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.remove_one.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.remove_one.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.remove_one.success"
+                    },
+                    "unblock_many": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.unblock_many.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.unblock_many.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.unblock_many.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.unblock_many.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.unblock_many.success"
+                    },
+                    "unblock_one": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.unblock_one.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.unblock_one.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.unblock_one.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.unblock_one.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.unblock_one.success"
+                    },
+                    "permit_change_one": {
+                        "cancel": "web/app/process/light: pl.view.participants.dialogs.permit_change_one.cancel",
+                        "header": "web/app/process/light: pl.view.participants.dialogs.permit_change_one.header",
+                        "message": "web/app/process/light: pl.view.participants.dialogs.permit_change_one.message",
+                        "next": "web/app/process/light: pl.view.participants.dialogs.permit_change_one.next",
+                        "success": "web/app/process/light: pl.view.participants.dialogs.permit_change_one.success"
+                    }
+                },
+                "list": {
+                    "actions": {
+                        "empty": {
+                            "text": "web/app/process/light: pl.view.participants.list.actions.empty.text"
+                        },
+                        "bulk": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.bulk.button"
+                        },
+                        "block_many": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.block_many.button",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.block_many.tooltip"
+                        },
+                        "block_others": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.block_others.button"
+                        },
+                        "block_one": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.block_one.button",
+                            "notice": "web/app/process/light: pl.view.participants.list.actions.block_one.notice"
+                        },
+                        "invite_blocked": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_blocked.button"
+                        },
+                        "invite_email": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_email.button"
+                        },
+                        "invite_link": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_link.button"
+                        },
+                        "invite_menu": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_menu.button"
+                        },
+                        "invite_site": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_site.button"
+                        },
+                        "invite_site_tags": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.invite_site_tags.button",
+                            "no": "web/app/process/light: pl.view.participants.list.actions.invite_site_tags.no",
+                            "text": "web/app/process/light: pl.view.participants.list.actions.invite_site_tags.text",
+                            "title": "web/app/process/light: pl.view.participants.list.actions.invite_site_tags.title",
+                            "yes": "web/app/process/light: pl.view.participants.list.actions.invite_site_tags.yes"
+                        },
+                        "notify_many": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.notify_many.button",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.notify_many.tooltip"
+                        },
+                        "notify_one": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.notify_one.button"
+                        },
+                        "remove_many": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.remove_many.button",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.remove_many.tooltip"
+                        },
+                        "remove_one": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.remove_one.button"
+                        },
+                        "report": {
+                            "title": "web/app/process/light: pl.view.participants.list.actions.report.title",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.report.tooltip"
+                        },
+                        "archive_nda": {
+                            "title": "web/app/process/light: pl.view.participants.list.actions.archive_nda.title",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.archive_nda.tooltip"
+                        },
+                        "unblock_many": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.unblock_many.button",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.unblock_many.tooltip"
+                        },
+                        "unblock_one": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.unblock_one.button"
+                        },
+                        "nda": {
+                            "title": "web/app/process/light: pl.view.participants.list.actions.nda.title",
+                            "request": "web/app/process/light: pl.view.participants.list.actions.nda.request",
+                            "decision": "web/app/process/light: pl.view.participants.list.actions.nda.decision"
+                        },
+                        "permit_change": {
+                            "reduction": {
+                                "button": "web/app/process/light: pl.view.participants.list.actions.permit_change.reduction.button"
+                            },
+                            "auction": {
+                                "button": "web/app/process/light: pl.view.participants.list.actions.permit_change.auction.button"
+                            }
+                        },
+                        "chat": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.chat.button"
+                        },
+                        "chat_group": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.chat_group.button",
+                            "dialog": {
+                                "title": "web/app/process/light: pl.view.participants.list.actions.chat_group.dialog.title",
+                                "label": "web/app/process/light: pl.view.participants.list.actions.chat_group.dialog.label",
+                                "cancel": "web/app/process/light: pl.view.participants.list.actions.chat_group.dialog.cancel",
+                                "submit": "web/app/process/light: pl.view.participants.list.actions.chat_group.dialog.submit",
+                                "success": "web/app/process/light: pl.view.participants.list.actions.chat_group.dialog.success"
+                            }
+                        },
+                        "add_register": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.add_register.button",
+                            "dialog": {
+                                "title": "web/app/process/light: pl.view.participants.list.actions.add_register.dialog.title",
+                                "button": "web/app/process/light: pl.view.participants.list.actions.add_register.dialog.button"
+                            },
+                            "success": "web/app/process/light: pl.view.participants.list.actions.add_register.success",
+                            "mach_success": "web/app/process/light: pl.view.participants.list.actions.add_register.mach_success",
+                            "error": "web/app/process/light: pl.view.participants.list.actions.add_register.error"
+                        }
+                    },
+                    "gold": {
+                        "title": "web/app/process/light: pl.view.participants.list.gold.title",
+                        "text": "web/app/process/light: pl.view.participants.list.gold.text",
+                        "link": "web/app/process/light: pl.view.participants.list.gold.link"
+                    },
+                    "empty": "web/app/process/light: pl.view.participants.list.empty",
+                    "filters": {
+                        "status": {
+                            "title": "web/app/process/light: pl.view.participants.list.filters.status.title"
+                        },
+                        "invited_by": {
+                            "title": "web/app/process/light: pl.view.participants.list.filters.invited_by.title"
+                        }
+                    },
+                    "forbidden": {
+                        "message": "web/app/process/light: pl.view.participants.list.forbidden.message",
+                        "notice": "web/app/process/light: pl.view.participants.list.forbidden.notice",
+                        "title": "web/app/process/light: pl.view.participants.list.forbidden.title"
+                    },
+                    "not_found": "web/app/process/light: pl.view.participants.list.not_found",
+                    "search": {
+                        "tooltip": "web/app/process/light: pl.view.participants.list.search.tooltip"
+                    },
+                    "invited_by_bidzaar": "web/app/process/light: pl.view.participants.list.invited_by_bidzaar",
+                    "title": "web/app/process/light: pl.view.participants.list.title",
+                    "selected": "web/app/process/light: pl.view.participants.list.selected",
+                    "search_tooltip": "web/app/process/light: pl.view.participants.list.search_tooltip",
+                    "verified": "web/app/process/light: pl.view.participants.list.verified"
+                },
+                "blocked": {
+                    "header": {
+                        "title": "web/app/process/light: pl.view.participants.blocked.header.title",
+                        "submit": "web/app/process/light: pl.view.participants.blocked.header.submit"
+                    },
+                    "empty": {
+                        "text": "web/app/process/light: pl.view.participants.blocked.empty.text",
+                        "notice": "web/app/process/light: pl.view.participants.blocked.empty.notice"
+                    },
+                    "list": {
+                        "selected": {
+                            "count": "web/app/process/light: pl.view.participants.blocked.list.selected.count"
+                        },
+                        "search": {
+                            "placeholder": "web/app/process/light: pl.view.participants.blocked.list.search.placeholder"
+                        },
+                        "items": {
+                            "empty": "web/app/process/light: pl.view.participants.blocked.list.items.empty"
+                        }
+                    },
+                    "success": {
+                        "snack": "web/app/process/light: pl.view.participants.blocked.success.snack"
+                    }
+                }
+            },
+            "positions": {
+                "snacks": {
+                    "success": "web/app/process/light: pl.view.positions.snacks.success"
+                },
+                "unsaved": {
+                    "cancel": "web/app/process/light: pl.view.positions.unsaved.cancel",
+                    "confirm": "web/app/process/light: pl.view.positions.unsaved.confirm",
+                    "title": "web/app/process/light: pl.view.positions.unsaved.title"
+                },
+                "delete_position": {
+                    "tooltip": "web/app/process/light: pl.view.positions.delete_position.tooltip",
+                    "dialog": {
+                        "title": "web/app/process/light: pl.view.positions.delete_position.dialog.title",
+                        "yes": "web/app/process/light: pl.view.positions.delete_position.dialog.yes",
+                        "cancel": "web/app/process/light: pl.view.positions.delete_position.dialog.cancel",
+                        "snack": "web/app/process/light: pl.view.positions.delete_position.dialog.snack"
+                    }
+                },
+                "delete_positions": {
+                    "tooltip": "web/app/process/light: pl.view.positions.delete_positions.tooltip",
+                    "dialog": {
+                        "title": "web/app/process/light: pl.view.positions.delete_positions.dialog.title",
+                        "cancel": "web/app/process/light: pl.view.positions.delete_positions.dialog.cancel",
+                        "yes": "web/app/process/light: pl.view.positions.delete_positions.dialog.yes",
+                        "snack": "web/app/process/light: pl.view.positions.delete_positions.dialog.snack"
+                    }
+                }
+            },
+            "publish": {
+                "button": "web/app/process/light: pl.view.publish.button",
+                "text": "web/app/process/light: pl.view.publish.text"
+            },
+            "request": {
+                "locked": {
+                    "tooltip": "web/app/process/light: pl.view.request.locked.tooltip"
+                },
+                "additional_settings": {
+                    "sub_title": "web/app/process/light: pl.view.request.additional_settings.sub_title",
+                    "title": "web/app/process/light: pl.view.request.additional_settings.title"
+                },
+                "aggregators": {
+                    "more": "web/app/process/light: pl.view.request.aggregators.more",
+                    "subtitle": {
+                        "false": "web/app/process/light: pl.view.request.aggregators.subtitle.false",
+                        "true": "web/app/process/light: pl.view.request.aggregators.subtitle.true"
+                    },
+                    "title": "web/app/process/light: pl.view.request.aggregators.title"
+                },
+                "botzaar": {
+                    "actions": {
+                        "authorize": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.authorize.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.authorize.title"
+                        },
+                        "cancelChanges": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.cancelChanges.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.cancelChanges.title"
+                        },
+                        "cancelProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.cancelProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.cancelProcedure.title"
+                        },
+                        "cloneForeignProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.cloneForeignProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.cloneForeignProcedure.title"
+                        },
+                        "cloneProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.cloneProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.cloneProcedure.title"
+                        },
+                        "createCompany": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.createCompany.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.createCompany.title"
+                        },
+                        "deleteProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.deleteProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.deleteProcedure.title"
+                        },
+                        "downloadNoticeReport": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.downloadNoticeReport.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.downloadNoticeReport.title"
+                        },
+                        "endChanges": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.endChanges.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.endChanges.title"
+                        },
+                        "finishRound": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.finishRound.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.finishRound.title"
+                        },
+                        "joinProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.joinProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.joinProcedure.title"
+                        },
+                        "leaveProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.leaveProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.leaveProcedure.title"
+                        },
+                        "publishProcedure": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.publishProcedure.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.publishProcedure.title"
+                        },
+                        "startChanges": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.startChanges.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.startChanges.title"
+                        },
+                        "startRound": {
+                            "description": "web/app/process/light: pl.view.request.botzaar.actions.startRound.description",
+                            "title": "web/app/process/light: pl.view.request.botzaar.actions.startRound.title"
+                        }
+                    },
+                    "auditor": {
+                        "canceled": {
+                            "*": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.auditor.canceled.*.message"
+                            }
+                        },
+                        "finished": {
+                            "*": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.auditor.finished.*.message"
+                            }
+                        },
+                        "proposal": {
+                            "*": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.auditor.proposal.*.message"
+                            }
+                        },
+                        "summarize": {
+                            "*": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.auditor.summarize.*.message"
+                            }
+                        }
+                    },
+                    "guest": {
+                        "canceled": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.canceled.default.message"
+                            },
+                            "no_auth": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.canceled.no_auth.message"
+                            },
+                            "no_company": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.canceled.no_company.message"
+                            },
+                            "no_rights": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.canceled.no_rights.message"
+                            },
+                            "waiting": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.canceled.waiting.message"
+                            }
+                        },
+                        "finished": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.finished.default.message"
+                            },
+                            "no_auth": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.finished.no_auth.message"
+                            },
+                            "no_company": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.finished.no_company.message"
+                            },
+                            "no_rights": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.finished.no_rights.message"
+                            },
+                            "waiting": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.finished.waiting.message"
+                            }
+                        },
+                        "proposal": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.proposal.default.message"
+                            },
+                            "no_auth": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.proposal.no_auth.message"
+                            },
+                            "no_company": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.proposal.no_company.message"
+                            },
+                            "no_rights": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.proposal.no_rights.message"
+                            },
+                            "waiting": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.proposal.waiting.message"
+                            }
+                        },
+                        "summarize": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.summarize.default.message"
+                            },
+                            "no_auth": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.summarize.no_auth.message"
+                            },
+                            "no_company": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.summarize.no_company.message"
+                            },
+                            "no_rights": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.summarize.no_rights.message"
+                            },
+                            "waiting": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.guest.summarize.waiting.message"
+                            }
+                        }
+                    },
+                    "links": {
+                        "contactOrganizer": {
+                            "text": "web/app/process/light: pl.view.request.botzaar.links.contactOrganizer.text",
+                            "title": "web/app/process/light: pl.view.request.botzaar.links.contactOrganizer.title"
+                        }
+                    },
+                    "owner": {
+                        "canceled": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.canceled.default.message"
+                            }
+                        },
+                        "draft": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.draft.default.message"
+                            }
+                        },
+                        "finished": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.finished.default.message"
+                            }
+                        },
+                        "proposal": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.proposal.default.message"
+                            },
+                            "editable": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.proposal.editable.message"
+                            }
+                        },
+                        "summarize": {
+                            "default": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.summarize.default.message"
+                            },
+                            "editable": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.owner.summarize.editable.message"
+                            }
+                        }
+                    },
+                    "participant": {
+                        "canceled": {
+                            "active": {
+                                "no_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.active.no_proposal.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.active.with_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.blocked.message"
+                            },
+                            "invited": {
+                                "default": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.invited.default.message"
+                                },
+                                "no_auth": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.invited.no_auth.message"
+                                },
+                                "no_company": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.invited.no_company.message"
+                                },
+                                "no_rights": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.invited.no_rights.message"
+                                },
+                                "waiting": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.invited.waiting.message"
+                                }
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.canceled.refused.message"
+                            }
+                        },
+                        "finished": {
+                            "active": {
+                                "no_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.active.no_proposal.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.active.with_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.blocked.message"
+                            },
+                            "invited": {
+                                "default": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.invited.default.message"
+                                },
+                                "no_auth": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.invited.no_auth.message"
+                                },
+                                "no_company": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.invited.no_company.message"
+                                },
+                                "no_rights": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.invited.no_rights.message"
+                                },
+                                "waiting": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.invited.waiting.message"
+                                }
+                            },
+                            "looser": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.looser.message"
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.refused.message"
+                            },
+                            "winner": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.finished.winner.message"
+                            }
+                        },
+                        "proposal": {
+                            "active": {
+                                "no_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.active.no_proposal.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.active.with_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.blocked.message"
+                            },
+                            "invited": {
+                                "default": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.invited.default.message"
+                                },
+                                "no_auth": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.invited.no_auth.message"
+                                },
+                                "no_company": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.invited.no_company.message"
+                                },
+                                "no_rights": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.invited.no_rights.message"
+                                },
+                                "waiting": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.invited.waiting.message"
+                                }
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.proposal.refused.message"
+                            }
+                        },
+                        "summarize": {
+                            "active": {
+                                "no_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.active.no_proposal.message"
+                                },
+                                "with_proposal": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.active.with_proposal.message"
+                                }
+                            },
+                            "blocked": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.blocked.message"
+                            },
+                            "invited": {
+                                "default": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.invited.default.message"
+                                },
+                                "no_auth": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.invited.no_auth.message"
+                                },
+                                "no_company": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.invited.no_company.message"
+                                },
+                                "no_rights": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.invited.no_rights.message"
+                                },
+                                "waiting": {
+                                    "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.invited.waiting.message"
+                                }
+                            },
+                            "refused": {
+                                "message": "web/app/process/light: pl.view.request.botzaar.participant.summarize.refused.message"
+                            }
+                        }
+                    }
+                },
+                "company": {
+                    "label": "web/app/process/light: pl.view.request.company.label",
+                    "profile": "web/app/process/light: pl.view.request.company.profile",
+                    "chat_loading": "web/app/process/light: pl.view.request.company.chat_loading",
+                    "ask_dialog": {
+                        "title": "web/app/process/light: pl.view.request.company.ask_dialog.title",
+                        "text": "web/app/process/light: pl.view.request.company.ask_dialog.text",
+                        "ok": "web/app/process/light: pl.view.request.company.ask_dialog.ok"
+                    }
+                },
+                "general": {
+                    "acceptanceEndDate": {
+                        "title": "web/app/process/light: pl.view.request.general.acceptanceEndDate.title"
+                    },
+                    "delivery": {
+                        "descr": "web/app/process/light: pl.view.request.general.delivery.descr",
+                        "dialog": {
+                            "header": "web/app/process/light: pl.view.request.general.delivery.dialog.header"
+                        },
+                        "title": "web/app/process/light: pl.view.request.general.delivery.title"
+                    },
+                    "description": {
+                        "title": "web/app/process/light: pl.view.request.general.description.title",
+                        "placeholder": "web/app/process/light: pl.view.request.general.description.placeholder"
+                    },
+                    "contact": {
+                        "title": "web/app/process/light: pl.view.request.general.contact.title",
+                        "change": "web/app/process/light: pl.view.request.general.contact.change",
+                        "append": "web/app/process/light: pl.view.request.general.contact.append",
+                        "dialog": {
+                            "title": "web/app/process/light: pl.view.request.general.contact.dialog.title",
+                            "placeholder": "web/app/process/light: pl.view.request.general.contact.dialog.placeholder",
+                            "cancel": "web/app/process/light: pl.view.request.general.contact.dialog.cancel",
+                            "submit": "web/app/process/light: pl.view.request.general.contact.dialog.submit"
+                        },
+                        "empty": {
+                            "owner": "web/app/process/light: pl.view.request.general.contact.empty.owner",
+                            "other": "web/app/process/light: pl.view.request.general.contact.empty.other"
+                        },
+                        "success": "web/app/process/light: pl.view.request.general.contact.success"
+                    },
+                    "emoji": {
+                        "tooltip": "web/app/process/light: pl.view.request.general.emoji.tooltip"
+                    },
+                    "files": {
+                        "descr": "web/app/process/light: pl.view.request.general.files.descr",
+                        "title": "web/app/process/light: pl.view.request.general.files.title",
+                        "tooltip": "web/app/process/light: pl.view.request.general.files.tooltip"
+                    },
+                    "guest": {
+                        "stub": "web/app/process/light: pl.view.request.general.guest.stub",
+                        "stub_contact": "web/app/process/light: pl.view.request.general.guest.stub_contact"
+                    },
+                    "name": {
+                        "title": "web/app/process/light: pl.view.request.general.name.title"
+                    },
+                    "positions": {
+                        "descr": "web/app/process/light: pl.view.request.general.positions.descr",
+                        "title": "web/app/process/light: pl.view.request.general.positions.title"
+                    },
+                    "questionnaire": {
+                        "descr": "web/app/process/light: pl.view.request.general.questionnaire.descr",
+                        "title": "web/app/process/light: pl.view.request.general.questionnaire.title"
+                    },
+                    "nda": {
+                        "owner": {
+                            "title": "web/app/process/light: pl.view.request.general.nda.owner.title",
+                            "helper": "web/app/process/light: pl.view.request.general.nda.owner.helper",
+                            "description": {
+                                "title": "web/app/process/light: pl.view.request.general.nda.owner.description.title",
+                                "placeholder": "web/app/process/light: pl.view.request.general.nda.owner.description.placeholder"
+                            },
+                            "files": {
+                                "title": "web/app/process/light: pl.view.request.general.nda.owner.files.title",
+                                "description": "web/app/process/light: pl.view.request.general.nda.owner.files.description"
+                            },
+                            "separator": "web/app/process/light: pl.view.request.general.nda.owner.separator"
+                        },
+                        "other": {
+                            "stub": "web/app/process/light: pl.view.request.general.nda.other.stub",
+                            "description": {
+                                "title": "web/app/process/light: pl.view.request.general.nda.other.description.title"
+                            },
+                            "files": {
+                                "title": "web/app/process/light: pl.view.request.general.nda.other.files.title"
+                            }
+                        }
+                    }
+                },
+                "internal": {
+                    "documents": {
+                        "title": "web/app/process/light: pl.view.request.internal.documents.title",
+                        "notice": "web/app/process/light: pl.view.request.internal.documents.notice",
+                        "upload": "web/app/process/light: pl.view.request.internal.documents.upload"
+                    },
+                    "fields": {
+                        "budget": "web/app/process/light: pl.view.request.internal.fields.budget",
+                        "comment": "web/app/process/light: pl.view.request.internal.fields.comment",
+                        "identifier": "web/app/process/light: pl.view.request.internal.fields.identifier"
+                    },
+                    "title": "web/app/process/light: pl.view.request.internal.title",
+                    "language": {
+                        "title": "web/app/process/light: pl.view.request.internal.language.title",
+                        "comment": "web/app/process/light: pl.view.request.internal.language.comment"
+                    },
+                    "categories": {
+                        "title": "web/app/process/light: pl.view.request.internal.categories.title"
+                    }
+                },
+                "major": {
+                    "tooltip": "web/app/process/light: pl.view.request.major.tooltip"
+                },
+                "parameters": {
+                    "bidding": {
+                        "deviation_type": {
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.deviation_type.label"
+                        },
+                        "alternative_proposals": {
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.alternative_proposals.label",
+                            "tooltip": "web/app/process/light: pl.view.request.parameters.bidding.alternative_proposals.tooltip",
+                            "error": "web/app/process/light: pl.view.request.parameters.bidding.alternative_proposals.error",
+                            "count": "web/app/process/light: pl.view.request.parameters.bidding.alternative_proposals.count",
+                            "none": "web/app/process/light: pl.view.request.parameters.bidding.alternative_proposals.none"
+                        },
+                        "price_null": "web/app/process/light: pl.view.request.parameters.bidding.price_null",
+                        "expected_price": {
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.expected_price.label",
+                            "placeholder": "web/app/process/light: pl.view.request.parameters.bidding.expected_price.placeholder",
+                            "tooltip": "web/app/process/light: pl.view.request.parameters.bidding.expected_price.tooltip"
+                        },
+                        "participants_visibility": {
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.participants_visibility.label"
+                        },
+                        "reduction_price": {
+                            "errors": {
+                                "best_price_unavailable": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.best_price_unavailable",
+                                "step_over_start_price": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.step_over_start_price",
+                                "step_range_absolute": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.step_range_absolute",
+                                "step_range_percent": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.step_range_percent",
+                                "best_price_positions_unavailable": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.best_price_positions_unavailable",
+                                "self_price_positions_unavailable": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.errors.self_price_positions_unavailable"
+                            },
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.label",
+                            "of": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.of",
+                            "reference": {
+                                "0": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.reference.0",
+                                "1": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.reference.1",
+                                "2": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.reference.2",
+                                "3": "web/app/process/light: pl.view.request.parameters.bidding.reduction_price.reference.3"
+                            }
+                        },
+                        "start_price": {
+                            "placeholder": "web/app/process/light: pl.view.request.parameters.bidding.start_price.placeholder",
+                            "reduction": {
+                                "label": "web/app/process/light: pl.view.request.parameters.bidding.start_price.reduction.label",
+                                "tooltip": "web/app/process/light: pl.view.request.parameters.bidding.start_price.reduction.tooltip"
+                            },
+                            "auction": {
+                                "label": "web/app/process/light: pl.view.request.parameters.bidding.start_price.auction.label",
+                                "tooltip": "web/app/process/light: pl.view.request.parameters.bidding.start_price.auction.tooltip"
+                            }
+                        },
+                        "title": "web/app/process/light: pl.view.request.parameters.bidding.title",
+                        "type_of_change": {
+                            "label": "web/app/process/light: pl.view.request.parameters.bidding.type_of_change.label"
+                        }
+                    },
+                    "general": {
+                        "acceptance_end_date": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.acceptance_end_date.label"
+                        },
+                        "currency": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.currency.label",
+                            "description": "web/app/process/light: pl.view.request.parameters.general.currency.description",
+                            "permissions_multicurrency": "web/app/process/light: pl.view.request.parameters.general.currency.permissions_multicurrency",
+                            "change_primary_currency": "web/app/process/light: pl.view.request.parameters.general.currency.change_primary_currency",
+                            "button": "web/app/process/light: pl.view.request.parameters.general.currency.button",
+                            "rate": "web/app/process/light: pl.view.request.parameters.general.currency.rate",
+                            "delete_currency": "web/app/process/light: pl.view.request.parameters.general.currency.delete_currency",
+                            "show_all": "web/app/process/light: pl.view.request.parameters.general.currency.show_all",
+                            "change_rate_currency": "web/app/process/light: pl.view.request.parameters.general.currency.change_rate_currency",
+                            "hide": "web/app/process/light: pl.view.request.parameters.general.currency.hide",
+                            "allow_dialog": {
+                                "title": "web/app/process/light: pl.view.request.parameters.general.currency.allow_dialog.title",
+                                "text": "web/app/process/light: pl.view.request.parameters.general.currency.allow_dialog.text",
+                                "no": "web/app/process/light: pl.view.request.parameters.general.currency.allow_dialog.no",
+                                "yes": "web/app/process/light: pl.view.request.parameters.general.currency.allow_dialog.yes"
+                            },
+                            "settings_additional": {
+                                "title": "web/app/process/light: pl.view.request.parameters.general.currency.settings_additional.title",
+                                "done": "web/app/process/light: pl.view.request.parameters.general.currency.settings_additional.done"
+                            }
+                        },
+                        "open_type": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.open_type.label",
+                            "tooltips": {
+                                "0": "web/app/process/light: pl.view.request.parameters.general.open_type.tooltips.0",
+                                "1": "web/app/process/light: pl.view.request.parameters.general.open_type.tooltips.1",
+                                "editable": "web/app/process/light: pl.view.request.parameters.general.open_type.tooltips.editable"
+                            }
+                        },
+                        "owner_visibility": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.owner_visibility.label"
+                        },
+                        "prolongation": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.prolongation.label",
+                            "minutes": "web/app/process/light: pl.view.request.parameters.general.prolongation.minutes",
+                            "time-left": "web/app/process/light: pl.view.request.parameters.general.prolongation.time-left",
+                            "tooltip": "web/app/process/light: pl.view.request.parameters.general.prolongation.tooltip"
+                        },
+                        "title": "web/app/process/light: pl.view.request.parameters.general.title",
+                        "vat": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.vat.label",
+                            "options": {
+                                "false": "web/app/process/light: pl.view.request.parameters.general.vat.options.false",
+                                "none": "web/app/process/light: pl.view.request.parameters.general.vat.options.none",
+                                "true": "web/app/process/light: pl.view.request.parameters.general.vat.options.true"
+                            }
+                        },
+                        "approximate_deadline_for_summing_up": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.approximate_deadline_for_summing_up.label",
+                            "description": "web/app/process/light: pl.view.request.parameters.general.approximate_deadline_for_summing_up.description",
+                            "tooltip": "web/app/process/light: pl.view.request.parameters.general.approximate_deadline_for_summing_up.tooltip",
+                            "value_null": "web/app/process/light: pl.view.request.parameters.general.approximate_deadline_for_summing_up.value_null"
+                        },
+                        "verified_only": {
+                            "label": "web/app/process/light: pl.view.request.parameters.general.verified_only.label",
+                            "text": "web/app/process/light: pl.view.request.parameters.general.verified_only.text",
+                            "popover": {
+                                "title": "web/app/process/light: pl.view.request.parameters.general.verified_only.popover.title",
+                                "text": "web/app/process/light: pl.view.request.parameters.general.verified_only.popover.text",
+                                "helper": "web/app/process/light: pl.view.request.parameters.general.verified_only.popover.helper"
+                            }
+                        }
+                    },
+                    "new_parameter": "web/app/process/light: pl.view.request.parameters.new_parameter"
+                },
+                "promo_participants": {
+                    "count": "web/app/process/light: pl.view.request.promo_participants.count",
+                    "invite": "web/app/process/light: pl.view.request.promo_participants.invite",
+                    "recommend": "web/app/process/light: pl.view.request.promo_participants.recommend",
+                    "success": "web/app/process/light: pl.view.request.promo_participants.success"
+                },
+                "proposal_content": {
+                    "documents": {
+                        "sub_title": "web/app/process/light: pl.view.request.proposal_content.documents.sub_title",
+                        "title": "web/app/process/light: pl.view.request.proposal_content.documents.title"
+                    },
+                    "open": "web/app/process/light: pl.view.request.proposal_content.open",
+                    "positions_enabled": {
+                        "sub_title": "web/app/process/light: pl.view.request.proposal_content.positions_enabled.sub_title",
+                        "title": "web/app/process/light: pl.view.request.proposal_content.positions_enabled.title"
+                    },
+                    "questionnaire_enabled": {
+                        "sub_title": "web/app/process/light: pl.view.request.proposal_content.questionnaire_enabled.sub_title",
+                        "title": "web/app/process/light: pl.view.request.proposal_content.questionnaire_enabled.title"
+                    },
+                    "set_up": "web/app/process/light: pl.view.request.proposal_content.set_up",
+                    "title": "web/app/process/light: pl.view.request.proposal_content.title"
+                },
+                "settings": {
+                    "sub_title": "web/app/process/light: pl.view.request.settings.sub_title",
+                    "title": "web/app/process/light: pl.view.request.settings.title"
+                },
+                "tags": {
+                    "dialog": {
+                        "empty_placeholder": "web/app/process/light: pl.view.request.tags.dialog.empty_placeholder",
+                        "header": "web/app/process/light: pl.view.request.tags.dialog.header",
+                        "info_text": "web/app/process/light: pl.view.request.tags.dialog.info_text"
+                    },
+                    "empty_placeholder": "web/app/process/light: pl.view.request.tags.empty_placeholder",
+                    "label": "web/app/process/light: pl.view.request.tags.label",
+                    "label_tooltip": "web/app/process/light: pl.view.request.tags.label_tooltip"
+                },
+                "team": {
+                    "title": "web/app/process/light: pl.view.request.team.title",
+                    "notice": "web/app/process/light: pl.view.request.team.notice",
+                    "responsible": "web/app/process/light: pl.view.request.team.responsible",
+                    "ownerless": {
+                        "title": "web/app/process/light: pl.view.request.team.ownerless.title",
+                        "text": "web/app/process/light: pl.view.request.team.ownerless.text"
+                    },
+                    "actions": {
+                        "append": "web/app/process/light: pl.view.request.team.actions.append",
+                        "remove": "web/app/process/light: pl.view.request.team.actions.remove",
+                        "responsible": "web/app/process/light: pl.view.request.team.actions.responsible"
+                    },
+                    "dialogs": {
+                        "exclude": {
+                            "title": "web/app/process/light: pl.view.request.team.dialogs.exclude.title",
+                            "yes": "web/app/process/light: pl.view.request.team.dialogs.exclude.yes",
+                            "no": "web/app/process/light: pl.view.request.team.dialogs.exclude.no",
+                            "success": "web/app/process/light: pl.view.request.team.dialogs.exclude.success"
+                        },
+                        "role": {
+                            "title": "web/app/process/light: pl.view.request.team.dialogs.role.title",
+                            "yes": "web/app/process/light: pl.view.request.team.dialogs.role.yes",
+                            "no": "web/app/process/light: pl.view.request.team.dialogs.role.no",
+                            "text": "web/app/process/light: pl.view.request.team.dialogs.role.text"
+                        }
+                    }
+                },
+                "commission": {
+                    "title": "web/app/process/light: pl.view.request.commission.title"
+                },
+                "payment": {
+                    "title": "web/app/process/light: pl.view.request.payment.title",
+                    "free": "web/app/process/light: pl.view.request.payment.free",
+                    "fee": {
+                        "label": "web/app/process/light: pl.view.request.payment.fee.label",
+                        "notice": "web/app/process/light: pl.view.request.payment.fee.notice",
+                        "private": "web/app/process/light: pl.view.request.payment.fee.private",
+                        "options": {
+                            "1": "web/app/process/light: pl.view.request.payment.fee.options.1",
+                            "2": "web/app/process/light: pl.view.request.payment.fee.options.2",
+                            "3": "web/app/process/light: pl.view.request.payment.fee.options.3",
+                            "4": "web/app/process/light: pl.view.request.payment.fee.options.4"
+                        }
+                    },
+                    "tariff": {
+                        "label": "web/app/process/light: pl.view.request.payment.tariff.label",
+                        "select": "web/app/process/light: pl.view.request.payment.tariff.select",
+                        "change": "web/app/process/light: pl.view.request.payment.tariff.change",
+                        "required": "web/app/process/light: pl.view.request.payment.tariff.required",
+                        "archive": "web/app/process/light: pl.view.request.payment.tariff.archive"
+                    }
+                }
+            },
+            "sellers": {
+                "empty": "web/app/process/light: pl.view.sellers.empty",
+                "header": {
+                    "count": "web/app/process/light: pl.view.sellers.header.count",
+                    "text": "web/app/process/light: pl.view.sellers.header.text"
+                },
+                "unauthorized": {
+                    "register": "web/app/process/light: pl.view.sellers.unauthorized.register",
+                    "text": "web/app/process/light: pl.view.sellers.unauthorized.text"
+                }
+            },
+            "seo": {
+                "description": "web/app/process/light: pl.view.seo.description"
+            },
+            "snacks": {
+                "request_published": "web/app/process/light: pl.view.snacks.request_published",
+                "stage_published": "web/app/process/light: pl.view.snacks.stage_published",
+                "changes_published": "web/app/process/light: pl.view.snacks.changes_published",
+                "acceptanceEndDateChanged": "web/app/process/light: pl.view.snacks.acceptanceEndDateChanged",
+                "comparison_updated": "web/app/process/light: pl.view.snacks.comparison_updated",
+                "procedure_deleted": "web/app/process/light: pl.view.snacks.procedure_deleted",
+                "updated": "web/app/process/light: pl.view.snacks.updated",
+                "version_created": "web/app/process/light: pl.view.snacks.version_created",
+                "there_draft": "web/app/process/light: pl.view.snacks.there_draft",
+                "proposal_submitted": "web/app/process/light: pl.view.snacks.proposal_submitted",
+                "proposal_update": "web/app/process/light: pl.view.snacks.proposal_update",
+                "proposal_submitted_current_company": "web/app/process/light: pl.view.snacks.proposal_submitted_current_company",
+                "proposal_update_current_company": "web/app/process/light: pl.view.snacks.proposal_update_current_company",
+                "participant_refused": "web/app/process/light: pl.view.snacks.participant_refused",
+                "participant_refused_current_company": "web/app/process/light: pl.view.snacks.participant_refused_current_company",
+                "recall_proposal_current_company": "web/app/process/light: pl.view.snacks.recall_proposal_current_company"
+            },
+            "tabs": {
+                "comparison": "web/app/process/light: pl.view.tabs.comparison",
+                "conclusion": "web/app/process/light: pl.view.tabs.conclusion",
+                "participants": "web/app/process/light: pl.view.tabs.participants",
+                "positions": "web/app/process/light: pl.view.tabs.positions",
+                "proposal": "web/app/process/light: pl.view.tabs.proposal",
+                "questionnaire": "web/app/process/light: pl.view.tabs.questionnaire",
+                "request": "web/app/process/light: pl.view.tabs.request"
+            },
+            "notice": {
+                "title": "web/app/process/light: pl.view.notice.title",
+                "stage": "web/app/process/light: pl.view.notice.stage",
+                "text": {
+                    "0": "web/app/process/light: pl.view.notice.text.0",
+                    "1": "web/app/process/light: pl.view.notice.text.1",
+                    "2": "web/app/process/light: pl.view.notice.text.2",
+                    "3": "web/app/process/light: pl.view.notice.text.3",
+                    "4": "web/app/process/light: pl.view.notice.text.4"
+                }
+            },
+            "owner": {
+                "title": "web/app/process/light: pl.view.owner.title",
+                "profile": "web/app/process/light: pl.view.owner.profile",
+                "preference": "web/app/process/light: pl.view.owner.preference"
+            },
+            "keywords": "web/app/process/light: pl.view.keywords"
+        }
+    }
+}

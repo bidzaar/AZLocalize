@@ -1,0 +1,45 @@
+{
+    "cgr": {
+        "items": {
+            "header": {},
+            "empty": {
+                "title": "web/app/cgroups/items: cgr.items.empty.title",
+                "text": "web/app/cgroups/items: cgr.items.empty.text"
+            },
+            "search": {
+                "tooltip": "web/app/cgroups/items: cgr.items.search.tooltip"
+            },
+            "sorting": {
+                "name": {
+                    "title": "web/app/cgroups/items: cgr.items.sorting.name.title"
+                },
+                "added_date": {
+                    "title": "web/app/cgroups/items: cgr.items.sorting.added_date.title"
+                }
+            },
+            "filters": {
+                "added_date": {
+                    "title": "web/app/cgroups/items: cgr.items.filters.added_date.title"
+                },
+                "empty": "web/app/cgroups/items: cgr.items.filters.empty"
+            },
+            "item": {
+                "date": {
+                    "added": "web/app/cgroups/items: cgr.items.item.date.added"
+                }
+            },
+            "actions": {
+                "add": "web/app/cgroups/items: cgr.items.actions.add",
+                "remove": "web/app/cgroups/items: cgr.items.actions.remove"
+            },
+            "dialogs": {
+                "remove": {
+                    "title": "web/app/cgroups/items: cgr.items.dialogs.remove.title",
+                    "text": "web/app/cgroups/items: cgr.items.dialogs.remove.text",
+                    "cancel": "web/app/cgroups/items: cgr.items.dialogs.remove.cancel",
+                    "submit": "web/app/cgroups/items: cgr.items.dialogs.remove.submit"
+                }
+            }
+        }
+    }
+}

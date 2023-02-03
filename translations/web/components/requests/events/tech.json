@@ -1,0 +1,105 @@
+{
+    "bdz.req.events": {
+        "table": {
+            "empty": "web/components/requests/events: bdz.req.events.table.empty",
+            "search": "web/components/requests/events: bdz.req.events.table.search",
+            "total": "web/components/requests/events: bdz.req.events.table.total",
+            "columns": {
+                "name": "web/components/requests/events: bdz.req.events.table.columns.name",
+                "initiator": "web/components/requests/events: bdz.req.events.table.columns.initiator",
+                "details": "web/components/requests/events: bdz.req.events.table.columns.details",
+                "stage": "web/components/requests/events: bdz.req.events.table.columns.stage",
+                "date": "web/components/requests/events: bdz.req.events.table.columns.date"
+            },
+            "filters": {
+                "title": "web/components/requests/events: bdz.req.events.table.filters.title",
+                "date": {
+                    "title": "web/components/requests/events: bdz.req.events.table.filters.date.title"
+                },
+                "users": {
+                    "title": "web/components/requests/events: bdz.req.events.table.filters.users.title",
+                    "choose": "web/components/requests/events: bdz.req.events.table.filters.users.choose"
+                },
+                "companies": {
+                    "title": "web/components/requests/events: bdz.req.events.table.filters.companies.title",
+                    "choose": "web/components/requests/events: bdz.req.events.table.filters.companies.choose"
+                },
+                "stage": {
+                    "title": "web/components/requests/events: bdz.req.events.table.filters.stage.title"
+                },
+                "initiator": {
+                    "title": "web/components/requests/events: bdz.req.events.table.filters.initiator.title",
+                    "options": {
+                        "0": "web/components/requests/events: bdz.req.events.table.filters.initiator.options.0",
+                        "1": "web/components/requests/events: bdz.req.events.table.filters.initiator.options.1",
+                        "2": "web/components/requests/events: bdz.req.events.table.filters.initiator.options.2"
+                    }
+                }
+            },
+            "item": {
+                "system": "web/components/requests/events: bdz.req.events.table.item.system",
+                "ip": "web/components/requests/events: bdz.req.events.table.item.ip"
+            }
+        },
+        "data": {
+            "procedure": {
+                "reason": {
+                    "label": "web/components/requests/events: bdz.req.events.data.procedure.reason.label",
+                    "default": "web/components/requests/events: bdz.req.events.data.procedure.reason.default"
+                },
+                "summing": "web/components/requests/events: bdz.req.events.data.procedure.summing",
+                "prolongation": "web/components/requests/events: bdz.req.events.data.procedure.prolongation",
+                "reports": {
+                    "comparison": "web/components/requests/events: bdz.req.events.data.procedure.reports.comparison",
+                    "notice": "web/components/requests/events: bdz.req.events.data.procedure.reports.notice",
+                    "changes": "web/components/requests/events: bdz.req.events.data.procedure.reports.changes"
+                },
+                "completed": {
+                    "common": {
+                        "empty": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.empty",
+                        "order": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.order",
+                        "price": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.price",
+                        "orderFor": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.orderFor"
+                    },
+                    "participant": {
+                        "winner": "web/components/requests/events: bdz.req.events.data.procedure.completed.participant.winner",
+                        "loser": "web/components/requests/events: bdz.req.events.data.procedure.completed.participant.loser",
+                        "nobody": "web/components/requests/events: bdz.req.events.data.procedure.completed.participant.nobody"
+                    }
+                },
+                "tariff": "web/components/requests/events: bdz.req.events.data.procedure.tariff"
+            },
+            "proposals": {
+                "price": "web/components/requests/events: bdz.req.events.data.proposals.price",
+                "primary": "web/components/requests/events: bdz.req.events.data.proposals.primary",
+                "alternative": "web/components/requests/events: bdz.req.events.data.proposals.alternative",
+                "errors": "web/components/requests/events: bdz.req.events.data.proposals.errors"
+            },
+            "participants": {
+                "contact": "web/components/requests/events: bdz.req.events.data.participants.contact"
+            }
+        },
+        "types": {
+            "1": "web/components/requests/events: bdz.req.events.types.1",
+            "2": "web/components/requests/events: bdz.req.events.types.2",
+            "3": "web/components/requests/events: bdz.req.events.types.3",
+            "4": "web/components/requests/events: bdz.req.events.types.4",
+            "5": "web/components/requests/events: bdz.req.events.types.5",
+            "6": "web/components/requests/events: bdz.req.events.types.6",
+            "7": "web/components/requests/events: bdz.req.events.types.7",
+            "8": "web/components/requests/events: bdz.req.events.types.8",
+            "9": "web/components/requests/events: bdz.req.events.types.9",
+            "10": "web/components/requests/events: bdz.req.events.types.10",
+            "11": "web/components/requests/events: bdz.req.events.types.11",
+            "12": "web/components/requests/events: bdz.req.events.types.12",
+            "13": "web/components/requests/events: bdz.req.events.types.13",
+            "14": "web/components/requests/events: bdz.req.events.types.14",
+            "15": "web/components/requests/events: bdz.req.events.types.15",
+            "16": "web/components/requests/events: bdz.req.events.types.16",
+            "17": "web/components/requests/events: bdz.req.events.types.17",
+            "18": "web/components/requests/events: bdz.req.events.types.18",
+            "19": "web/components/requests/events: bdz.req.events.types.19",
+            "20": "web/components/requests/events: bdz.req.events.types.20"
+        }
+    }
+}

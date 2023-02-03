@@ -1,39 +1,42 @@
 {
-  "bdz.tags": {
-    "cloud": {
-      "content": {
-        "choose": {
-          "content": {
-            "empty": "Выберите теги из облака"
-          },
-          "header": {
-            "title": "Выбранные теги: {{ value }}"
-          }
-        },
-        "list": {
-          "content": {
-            "create": "Добавьте тег",
-            "empty": {
-              "text": "Измените поисковый запрос или",
-              "title": "Теги не найдены"
+    "bdz.tags": {
+        "cloud": {
+            "content": {
+                "choose": {
+                    "content": {
+                        "empty": "Выберите теги из облака"
+                    },
+                    "header": {
+                        "title": "Выбранные теги: {{ value }}"
+                    }
+                },
+                "list": {
+                    "content": {
+                        "create": "Добавьте тег",
+                        "empty": {
+                            "text": "Измените поисковый запрос или",
+                            "title": "Теги не найдены"
+                        },
+                        "more": "Показать больше"
+                    },
+                    "header": {
+                        "search": "Найти",
+                        "total": "Тегов: {{ value }}"
+                    }
+                }
             },
-            "more": "Показать больше"
-          },
-          "header": {
-            "search": "Найти",
-            "total": "Тегов: {{ value }}"
-          }
+            "header": {
+                "accept": "Готово",
+                "title": "Облако тегов"
+            },
+            "error": {
+                "Tags": {
+                    "TagHasInStopList": "Добавляемый тег находится в стоп листе."
+                },
+                "User": {
+                    "HasNoCompany": "Не выбрана текущая компания"
+                }
+            }
         }
-      },
-      "header": {
-        "accept": "Готово",
-        "title": "Облако тегов"
-      },
-      "error": {
-        "Tags": {
-          "TagHasInStopList": "Добавляемый тег находится в стоп листе."
-        }
-      }
     }
-  }
 }

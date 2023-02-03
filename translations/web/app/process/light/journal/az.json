@@ -1,8 +1,8 @@
 {
-  "pl": {
-    "journal": {
-      "header": "Sorğu jurnalı",
-      "search": "Axtarış şətrlər üzrə aparılır: Sorğunun adı"
+    "pl": {
+        "journal": {
+            "header": "Sorğu jurnalı",
+            "search": "Axtarış şətrlər üzrə aparılır: Sorğunun adı"
+        }
     }
-  }
 }

@@ -1,0 +1,20 @@
+{
+    "stop": {
+        "header": {
+            "title": "web/admin/tags/stop: stop.header.title"
+        },
+        "manual_tags_dialog": {
+            "title": "web/admin/tags/stop: stop.manual_tags_dialog.title",
+            "text": "web/admin/tags/stop: stop.manual_tags_dialog.text",
+            "cancel": "web/admin/tags/stop: stop.manual_tags_dialog.cancel",
+            "send": "web/admin/tags/stop: stop.manual_tags_dialog.send"
+        },
+        "confirmation_dialog": {
+            "title": "web/admin/tags/stop: stop.confirmation_dialog.title",
+            "text": "web/admin/tags/stop: stop.confirmation_dialog.text",
+            "cancel": "web/admin/tags/stop: stop.confirmation_dialog.cancel",
+            "add": "web/admin/tags/stop: stop.confirmation_dialog.add"
+        },
+        "empty_list": "web/admin/tags/stop: stop.empty_list"
+    }
+}

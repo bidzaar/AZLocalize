@@ -1,46 +1,46 @@
 {
-  "ptb": {
-    "actions": {
-      "collapse": "Sütunları gizlədin",
-      "expand": "Sütunları göstərin",
-      "customize": "Sütunları fərdiləşdirin"
-    },
-    "custom_field_popover": {
-      "name": "Ad",
-      "new": "Sütun yaradın",
-      "save": "Yadda saxla",
-      "cancel": "Ləğv et"
-    },
-    "custom_field_menu": {
-      "delete": "Sil",
-      "edit": "Redaktə etmək"
-    },
-    "documents_menu": {
-      "info": "Aktivləşdirilmiş seçim üzvlərə sənədləri maddə üzrə elementlərə əlavə etmək imkanı verir",
-      "title": "Maddələrə sənədlərin əlavə edilməsinə icazə vermək"
-    },
-    "index_cell": {
-      "delete_tooltip": "Sil",
-      "add_button": "Maddə əlavə et"
-    },
-    "new_field": "Yeni xana",
-    "columns": {
-      "name": "Ad",
-      "description": "Təsvir",
-      "count": "Miqdar",
-      "unit": "Ölçü vahidi",
-      "target_cost": "Vahidin hədəf qiyməti",
-      "target_cost_tooltip": "Seçərkən səmt göstərən qiyməti göstərin. Qiymət yalnız sizə göstərilir - üzvlər onu görməyəcək.",
-      "files": "Sənədlər",
-      "availability": "Mövcudluq",
-      "header_tooltip": "Təchizatçı tərəfindən doldurulur",
-      "deviation_tooltip": "Xana sorğu parametrlərində Təklif həcmi maddələr və miqdara görə yayınma icazə verildikdə mövcüd olur",
-      "vat": "ƏDV dərəcəsi",
-      "price": "Vahidin qiyməti",
-      "currency": "Valyuta",
-      "currency_tooltip": "Xana sorğu parametrlərində valyutaların siyahısı yaradıldıqda mövcuddur",
-      "comment": "Şərh",
-      "documents": "Sənədlər"
+    "ptb": {
+        "actions": {
+            "collapse": "Sütunları gizlədin",
+            "expand": "Sütunları göstərin",
+            "customize": "Sütunları fərdiləşdirin"
+        },
+        "custom_field_popover": {
+            "name": "Ad",
+            "new": "Sütun yaradın",
+            "save": "Yadda saxla",
+            "cancel": "Ləğv et"
+        },
+        "custom_field_menu": {
+            "delete": "Sil",
+            "edit": "Redaktə etmək"
+        },
+        "documents_menu": {
+            "info": "Aktivləşdirilmiş seçim üzvlərə sənədləri maddə üzrə elementlərə əlavə etmək imkanı verir",
+            "title": "Maddələrə sənədlərin əlavə edilməsinə icazə vermək"
+        },
+        "index_cell": {
+            "delete_tooltip": "Sil",
+            "add_button": "Maddə əlavə et"
+        },
+        "new_field": "Yeni xana",
+        "columns": {
+            "name": "Ad",
+            "description": "Təsvir",
+            "count": "Miqdar",
+            "unit": "Ölçü vahidi",
+            "target_cost": "Vahidin hədəf qiyməti",
+            "target_cost_tooltip": "Seçərkən səmt göstərən qiyməti göstərin. Qiymət yalnız sizə göstərilir - üzvlər onu görməyəcək.",
+            "files": "Sənədlər",
+            "availability": "Mövcudluq",
+            "header_tooltip": "Təchizatçı tərəfindən doldurulur",
+            "deviation_tooltip": "Xana sorğu parametrlərində Təklif həcmi maddələr və miqdara görə yayınma icazə verildikdə mövcüd olur",
+            "vat": "ƏDV dərəcəsi",
+            "price": "Vahidin qiyməti",
+            "currency": "Valyuta",
+            "currency_tooltip": "Xana sorğu parametrlərində valyutaların siyahısı yaradıldıqda mövcuddur",
+            "comment": "Şərh",
+            "documents": "Sənədlər"
+        }
     }
-  }
 }

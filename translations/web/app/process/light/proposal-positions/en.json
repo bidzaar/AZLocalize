@@ -1,228 +1,238 @@
 {
-  "pl": {
-    "prp": {
-      "forbidden": {
-        "title": "Information is not available right now",
-        "text": "",
-        "notice": ""
-      },
-      "empty": {
-        "text": ""
-      },
-      "header": {
-        "title": "Items specification",
-        "close": "Go to the proposal"
-      },
-      "content": {
-        "summary": {
-          "current": {
-            "title": {
-              "true": "My proposal",
-              "false": "Alternative"
+    "pl": {
+        "prp": {
+            "forbidden": {
+                "title": "Information is not available right now",
+                "text": "",
+                "notice": ""
             },
-            "tooltip": "Proposal price in the base currency of the request"
-          },
-          "previous": {
-            "title": "Previous",
-            "tooltip": "Price of a previously submitted proposal"
-          },
-          "best": {
-            "title": "Best proposal",
-            "tooltip": "Among all submitted proposals"
-          },
-          "timer": {
-            "title": "Time left",
-            "tooltip": "Before the end of the acceptance of bid."
-          },
-          "actions": {
-            "submit": "Update proposal"
-          }
-        },
-        "table": {
-          "toolbar": {
-            "filters": {
-              "options": {
-                "0": "All positions",
-                "1": "Available",
-                "2": "Low rank",
-                "3": "Not available"
-              },
-              "empty": "No positions in the category"
+            "empty": {
+                "text": ""
             },
-            "actions": {
-              "download": "Download template",
-              "upload": "Upload from file"
-            }
-          },
-          "header": {
-            "request_index": "№",
-            "request_name": "Name",
-            "request_count": "Quantity",
-            "request_price_best": "Best price per unit ({{value}})",
-            "response_availability": "Availability",
-            "response_rank": "Rank",
-            "response_count": "Quantity",
-            "response_files": "Files",
-            "response_price_my_converted": {
-              "true": "Price per unit incl. VAT\nin request's currency",
-              "false": "Price per unit excl. VAT\nin request's currency",
-              "null": "Price per unit\nin request's currency"
+            "header": {
+                "title": "Items specification",
+                "close": "Go to the proposal"
             },
-            "response_price_my": {
-              "true.true": "Price per unit incl. VAT\nin participant's currency",
-              "true.false": "Price per unit incl. VAT",
-              "false.true": "Price per unit excl. VAT\nin participant's currency",
-              "false.false": "Price per unit excl. VAT",
-              "null.true": "Price per unit\nin participant's currency",
-              "null.false": "Price per unit"
-            },
-            "response_currency": "Currency",
-            "response_vat": "VAT rate",
-            "response_total": "Total ({{value}})",
-            "response_documents": "Documents",
-            "response_previous_price": "Previous price per unit",
-            "response_total_tooltip": "Total ({{value}})",
-            "response_comment": "Comment",
-            "request_group": "Description of positions",
-            "response_group": "Bid"
-          },
-          "body": {
-            "response_availability": {
-              "true": "Not available",
-              "false": "Available"
-            },
-            "deviation_tooltip": "Deviation from the quantity in the request",
-            "free": "Free",
-            "auction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})"
-          }
-        },
-        "side": {
-          "request": {
-            "count": "Quantity:",
-            "price": {
-              "auction": "The minimum price per unit.:",
-              "reduction": "Maximum price per unit.:",
-              "expected": "Expected unit price.:"
-            }
-          },
-          "response": {
-            "fields": {
-              "availability": {
-                "label": "Availability",
-                "field": {
-                  "text": {
-                    "true": "Position is not available",
-                    "false": "Position is available"
-                  },
-                  "hint": {
-                    "true": "Click if position is available",
-                    "false": "Click if position is not available"
-                  }
+            "content": {
+                "summary": {
+                    "current": {
+                        "title": {
+                            "true": "My proposal",
+                            "false": "Alternative"
+                        },
+                        "tooltip": "Proposal price in the base currency of the request"
+                    },
+                    "previous": {
+                        "title": "Previous",
+                        "tooltip": "Price of a previously submitted proposal"
+                    },
+                    "best": {
+                        "title": "Best proposal",
+                        "tooltip": "Among all submitted proposals"
+                    },
+                    "timer": {
+                        "title": "Time left",
+                        "tooltip": "Before the end of the acceptance of bid."
+                    },
+                    "actions": {
+                        "submit": "Update proposal"
+                    },
+                    "reference_price": {
+                        "title": "Price change step",
+                        "tooltip": "Step by which you can change the offer price"
+                    }
+                },
+                "table": {
+                    "toolbar": {
+                        "filters": {
+                            "options": {
+                                "0": "All positions",
+                                "1": "Available",
+                                "2": "Low rank",
+                                "3": "Not available"
+                            },
+                            "empty": "No positions in the category"
+                        },
+                        "actions": {
+                            "download": "Download template",
+                            "upload": "Upload from file"
+                        }
+                    },
+                    "header": {
+                        "request_index": "№",
+                        "request_name": "Name",
+                        "request_count": "Quantity",
+                        "request_price_best": "Best price per unit ({{value}})",
+                        "response_availability": "Availability",
+                        "response_rank": "Rank",
+                        "response_count": "Quantity",
+                        "response_files": "Files",
+                        "response_price_my_converted": {
+                            "true": "Price per unit incl. VAT\nin request's currency",
+                            "false": "Price per unit excl. VAT\nin request's currency",
+                            "null": "Price per unit\nin request's currency"
+                        },
+                        "response_price_my": {
+                            "true.true": "Price per unit incl. VAT\nin participant's currency",
+                            "true.false": "Price per unit incl. VAT",
+                            "false.true": "Price per unit excl. VAT\nin participant's currency",
+                            "false.false": "Price per unit excl. VAT",
+                            "null.true": "Price per unit\nin participant's currency",
+                            "null.false": "Price per unit"
+                        },
+                        "response_currency": "Currency",
+                        "response_vat": "VAT rate",
+                        "response_total": "Total ({{value}})",
+                        "response_documents": "Documents",
+                        "response_previous_price": "Previous price per unit",
+                        "response_total_tooltip": "Total ({{value}})",
+                        "response_comment": "Comment",
+                        "request_group": "Description of positions",
+                        "response_group": "Bid",
+                        "show_columns": "Show hidden columns",
+                        "hide_columns": "Hide columns"
+                    },
+                    "body": {
+                        "response_availability": {
+                            "true": "Not available",
+                            "false": "Available"
+                        },
+                        "deviation_tooltip": "Deviation from the quantity in the request",
+                        "deviation_error_tooltip": "Deviation from the quantity in the request is not allowed",
+                        "free": "Free",
+                        "auction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
+                        "reduction_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
+                        "price_rule_error_tooltip": "Your unit price in {{currency}} ({{price}} {{currency}}) violates the price change step specified by the Customer ({{rule}})",
+                        "dont_have_any_tooltip": "The owner requires the presence of all positions",
+                        "var_error_tooltip": "The specified VAT rate is not included in the catalog"
+                    }
+                },
+                "side": {
+                    "request": {
+                        "count": "Quantity:",
+                        "price": {
+                            "auction": "The minimum price per unit.:",
+                            "reduction": "Maximum price per unit.:",
+                            "expected": "Expected unit price.:"
+                        }
+                    },
+                    "response": {
+                        "fields": {
+                            "availability": {
+                                "label": "Availability",
+                                "field": {
+                                    "text": {
+                                        "true": "Position is not available",
+                                        "false": "Position is available"
+                                    },
+                                    "hint": {
+                                        "true": "Click if position is available",
+                                        "false": "Click if position is not available"
+                                    }
+                                }
+                            },
+                            "count": {
+                                "label": "Quantity",
+                                "deviation": "Deviation from the quantity in the request"
+                            },
+                            "price": {
+                                "label": "Price per unit",
+                                "hint": "{{ value }} {{ currency }} at the exchange rate of the request",
+                                "free": "Free"
+                            },
+                            "vat": {
+                                "label": "Vat",
+                                "none": "Free"
+                            },
+                            "comment": {
+                                "label": "Comment"
+                            },
+                            "files": {
+                                "label": "Files",
+                                "upload": "Document"
+                            }
+                        },
+                        "actions": {
+                            "cancel": "Cancel",
+                            "save": "Save",
+                            "close": "Close"
+                        },
+                        "validation": {
+                            "greater_than_or_equals": "Enter {{ value }} or more",
+                            "less_than": "Max: {{ value }}",
+                            "greater_than": "Specify a value > {{ value }}",
+                            "price_less": "Your price per unit in {{ currency }} ({{ value }} {{ currency }}) less than the Minimum price per unit specified by the Customer ({{ startPrice }} {{ currency }})",
+                            "price_more": "Your price per unit in {{ currency }} ({{ value }} {{ currency }}) greater than the Maximum price per unit specified by the Customer ({{ startPrice }} {{ currency }})"
+                        }
+                    },
+                    "unsaved": {
+                        "title": "Do you want to save the data?",
+                        "submit": "Save",
+                        "cancel": "Don't save"
+                    },
+                    "invalid": {
+                        "title": "Position details not filled",
+                        "text": "Continue editing to complete data entry for the current position.",
+                        "submit": "Continue editing",
+                        "cancel": "Open next position"
+                    },
+                    "banner": {
+                        "readonly": "To edit the data, go to the proposal modification mode on the Proposal tab"
+                    }
+                },
+                "common": {
+                    "vat": {
+                        "true": "incl. VAT",
+                        "false": "excl. VAT",
+                        "null": ""
+                    },
+                    "currency": {
+                        "request": "in request's currency",
+                        "participant": "in participant's currency"
+                    }
+                },
+                "import": {
+                    "common": {
+                        "header": "Import positions from file"
+                    },
+                    "default": {
+                        "download": "Download",
+                        "template": "item bid template.",
+                        "fill": "Fill the bids in Excel.",
+                        "import": "Upload file with positions. Previously entered data will be updated.",
+                        "actions": {
+                            "cancel": "Cancel",
+                            "submit": "Choose file"
+                        }
+                    },
+                    "success": {
+                        "count": "Positions loaded:  {{ count }}.",
+                        "actions": {
+                            "close": "Close"
+                        }
+                    },
+                    "failure": {
+                        "total": "Positions loaded:  {{ count }} from {{ total }}.",
+                        "actions": {
+                            "close": "Close"
+                        },
+                        "items": {
+                            "Process.Light.Import.Positions.InvalidFileExtension": {
+                                "title": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
+                            },
+                            "Process.Light.Import.Positions.InvalidFile": {
+                                "title": "<b>The file does not match the template.</b> Possible reasons:",
+                                "text": "• The file does not contain the specifications of the items\n• The request has been updated and your proposal is out of date\n• The table columns or customer data have been changed",
+                                "download": "Download the proposal template and upload it again."
+                            },
+                            "Process.Light.Import.Positions.FileHasErrors": {
+                                "title": "<b>Items with errors are not loaded.</b> Correct the errors and upload again.",
+                                "download": "Download a file with error descriptions"
+                            }
+                        }
+                    }
                 }
-              },
-              "count": {
-                "label": "Quantity",
-                "deviation": "Deviation from the quantity in the request"
-              },
-              "price": {
-                "label": "Price per unit",
-                "hint": "{{ value }} {{ currency }} at the exchange rate of the request",
-                "free": "Free"
-              },
-              "vat": {
-                "label": "Vat",
-                "none": "Free"
-              },
-              "comment": {
-                "label": "Comment"
-              },
-              "files": {
-                "label": "Files",
-                "upload": "Document"
-              }
-            },
-            "actions": {
-              "cancel": "Cancel",
-              "save": "Save",
-              "close": "Close"
-            },
-            "validation": {
-              "greater_than_or_equals": "Enter {{ value }} or more",
-              "less_than": "Max: {{ value }}",
-              "greater_than": "Specify a value > {{ value }}",
-              "price_less": "Your price per unit in {{ currency }} ({{ value }} {{ currency }}) less than the Minimum price per unit specified by the Customer ({{ startPrice }} {{ currency }})",
-              "price_more": "Your price per unit in {{ currency }} ({{ value }} {{ currency }}) greater than the Maximum price per unit specified by the Customer ({{ startPrice }} {{ currency }})"
             }
-          },
-          "unsaved": {
-            "title": "Do you want to save the data?",
-            "submit": "Save",
-            "cancel": "Don't save"
-          },
-          "invalid": {
-            "title": "Position details not filled",
-            "text": "Continue editing to complete data entry for the current position.",
-            "submit": "Continue editing",
-            "cancel": "Open next position"
-          },
-          "banner": {
-            "readonly": "To edit the data, go to the proposal modification mode on the Proposal tab"
-          }
-        },
-        "common": {
-          "vat": {
-            "true": "incl. VAT",
-            "false": "excl. VAT",
-            "null": ""
-          },
-          "currency": {
-            "request": "in request's currency",
-            "participant": "in participant's currency"
-          }
-        },
-        "import": {
-          "common": {
-            "header": "Import positions from file"
-          },
-          "default": {
-            "download": "Download",
-            "template": "item bid template.",
-            "fill": "Fill the bids in Excel.",
-            "import": "Upload file with positions. Previously entered data will be updated.",
-            "actions": {
-              "cancel": "Cancel",
-              "submit": "Choose file"
-            }
-          },
-          "success": {
-            "count": "Positions loaded:  {{ count }}.",
-            "actions": {
-              "close": "Close"
-            }
-          },
-          "failure": {
-            "total": "Positions loaded:  {{ count }} from {{ total }}.",
-            "actions": {
-              "close": "Close"
-            },
-            "items": {
-              "Process.Light.Import.Positions.InvalidFileExtension": {
-                "title": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
-              },
-              "Process.Light.Import.Positions.InvalidFile": {
-                "title": "<b>The file does not match the template.</b> Possible reasons:",
-                "text": "• The file does not contain the specifications of the items\n• The request has been updated and your proposal is out of date\n• The table columns or customer data have been changed",
-                "download": "Download the proposal template and upload it again."
-              },
-              "Process.Light.Import.Positions.FileHasErrors": {
-                "title": "<b>Items with errors are not loaded.</b> Correct the errors and upload again.",
-                "download": "Download a file with error descriptions"
-              }
-            }
-          }
         }
-      }
     }
-  }
 }

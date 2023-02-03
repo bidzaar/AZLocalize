@@ -1,0 +1,49 @@
+{
+    "req.prt": {
+        "list": {
+            "header": {
+                "title": "web/admin/requests/participants: req.prt.list.header.title",
+                "search": "web/admin/requests/participants: req.prt.list.header.search"
+            },
+            "empty": {
+                "text": "web/admin/requests/participants: req.prt.list.empty.text"
+            },
+            "sorting": {
+                "status": "web/admin/requests/participants: req.prt.list.sorting.status",
+                "statusDate": "web/admin/requests/participants: req.prt.list.sorting.statusDate",
+                "overlapTagsCount": "web/admin/requests/participants: req.prt.list.sorting.overlapTagsCount"
+            },
+            "filters": {
+                "status": {
+                    "title": "web/admin/requests/participants: req.prt.list.filters.status.title"
+                },
+                "address": {
+                    "title": "web/admin/requests/participants: req.prt.list.filters.address.title"
+                },
+                "invited_by": {
+                    "title": "web/admin/requests/participants: req.prt.list.filters.invited_by.title"
+                }
+            },
+            "card": {
+                "wins": {
+                    "tooltip": "web/admin/requests/participants: req.prt.list.card.wins.tooltip"
+                },
+                "tags": {
+                    "tooltip": "web/admin/requests/participants: req.prt.list.card.tags.tooltip"
+                },
+                "invite": {
+                    "no_profile": "web/admin/requests/participants: req.prt.list.card.invite.no_profile"
+                }
+            },
+            "actions": {
+                "download_report": "web/admin/requests/participants: req.prt.list.actions.download_report",
+                "open_chat": "web/admin/requests/participants: req.prt.list.actions.open_chat",
+                "open_request": "web/admin/requests/participants: req.prt.list.actions.open_request",
+                "open_events": "web/admin/requests/participants: req.prt.list.actions.open_events",
+                "invite": "web/admin/requests/participants: req.prt.list.actions.invite",
+                "invite_site": "web/admin/requests/participants: req.prt.list.actions.invite_site",
+                "invite_similar": "web/admin/requests/participants: req.prt.list.actions.invite_similar"
+            }
+        }
+    }
+}

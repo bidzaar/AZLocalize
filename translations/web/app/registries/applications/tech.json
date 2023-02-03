@@ -1,0 +1,35 @@
+{
+    "rgs": {
+        "aps": {
+            "list": {
+                "header": {
+                    "title": "web/app/registries/applications: rgs.aps.list.header.title"
+                },
+                "empty": {
+                    "title": "web/app/registries/applications: rgs.aps.list.empty.title",
+                    "text": "web/app/registries/applications: rgs.aps.list.empty.text"
+                },
+                "search": {
+                    "tooltip": "web/app/registries/applications: rgs.aps.list.search.tooltip"
+                },
+                "sorting": {
+                    "company_name": {
+                        "title": "web/app/registries/applications: rgs.aps.list.sorting.company_name.title"
+                    },
+                    "last_changes": {
+                        "title": "web/app/registries/applications: rgs.aps.list.sorting.last_changes.title"
+                    },
+                    "scoring": {
+                        "title": "web/app/registries/applications: rgs.aps.list.sorting.scoring.title"
+                    }
+                },
+                "filters": {
+                    "application_status": {
+                        "title": "web/app/registries/applications: rgs.aps.list.filters.application_status.title"
+                    },
+                    "empty": "web/app/registries/applications: rgs.aps.list.filters.empty"
+                }
+            }
+        }
+    }
+}

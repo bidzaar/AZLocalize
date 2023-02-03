@@ -1,158 +1,157 @@
 {
-  "cmp": {
-    "wizard": {
-      "joining": {
-        "confirmation": {
-          "cancel": "Ləğv edin",
-          "submit": "Qoşulun",
-          "success": "Ərizə göndərildi",
-          "text": "Şirkət administratorunuz ərizəni təsdiqlədikdən sonra şirkətinizin adından işləyə biləcəksiniz.",
-          "title": "Şirkətinizə qoşulun"
-        },
-        "loading": {
-          "title": "Şirkətinizə qoşulun"
-        },
-        "unauthorized": {
-          "cancel": "Ləğv edin",
-          "submit": "Daxil ol/Qeydiyyat",
-          "text": "Hərəkət etmək üçün daxil olun və ya  qeydiyyatdan keçin."
-        }
-      },
-      "register": {
-        "header": "Biznes məlumatları",
-        "steps": {
-          "actions": {
-            "back": "Geri",
-            "done": "Hazırdır",
-            "next": "İrəli"
-          },
-          "create": {
-            "brand": {
-              "header": "Platformada brendinizi qeyd edin",
-              "legal": {
-                "title": "Qanuni ad"
-              },
-              "brand": {
-                "title": "Brend",
-                "notice": "Qarşı tərəflər tərəfindən tanınmaq üçün şirkətin adı",
-                "placeholder": "Platformada ad"
-              }
-            },
-            "contacts": {
-              "email": {
-                "label": "Satış/Satınalma  şöbəsinin E-poçtu",
-                "title": "Satış/Satınalma  şöbəsinin E-poçtu"
-              },
-              "header": "Qarşı tərəflər sizi necə tapa bilər?",
-              "location": {
-                "label": "Ünvanı göstərin",
-                "title": "Hüquqi ünvan",
-                "tooltip": "Ünvanı dəyişmək"
-              },
-              "phone": {
-                "label": "Telefon nömrəsi",
-                "title": "Əlaqə nömrəsi"
-              },
-              "site": {
-                "label": "Şirkətin rəsmi saytı",
-                "title": "Şirkətin veb saytı"
-              }
-            },
-            "country": {
-              "header": "Şirkətin təsis olunduğu ölkə"
-            },
-            "dadata": {
-              "approve": {
-                "address": "Hüquqi ünvan",
-                "cancel": "Digər şirkət",
-                "inn": "VÖEN",
-                "kpp": "VÖEN",
-                "submit": "Bu mənim şirkətimdir"
-              },
-              "search": {
-                "empty": {
-                  "switch": "Şirkət təfərrüatlarını özünüz təqdim edin",
-                  "text": "Axtarış sorğusunu dəyişdirin və ya",
-                  "title": "Şirkət tapılmadı"
+    "cmp": {
+        "wizard": {
+            "joining": {
+                "confirmation": {
+                    "cancel": "Ləğv edin",
+                    "submit": "Qoşulun",
+                    "success": "Ərizə göndərildi",
+                    "text": "Şirkət administratorunuz ərizəni təsdiqlədikdən sonra şirkətinizin adından işləyə biləcəksiniz.",
+                    "title": "Şirkətinizə qoşulun"
                 },
-                "header": "Şirkət axtarın",
-                "notice": "Və ya IE üçün tam adı",
-                "placeholder": "Şirkətin adı və ya VÖEN",
-                "requisites": "VÖEN: {{inn}}, VÖEN: {{kpp}}",
-                "title": "Şirkətin adı və ya VÖEN"
-              }
+                "loading": {
+                    "title": "Şirkətinizə qoşulun"
+                },
+                "unauthorized": {
+                    "cancel": "Ləğv edin",
+                    "submit": "Daxil ol/Qeydiyyat",
+                    "text": "Hərəkət etmək üçün daxil olun və ya  qeydiyyatdan keçin."
+                }
             },
-            "manual": {
-              "header": "Şirkətinizin təfərrüatları"
-            },
-            "search": {
-              "identical": {
-                "actions": {
-                  "cancel": "Bu mənim şirkətim deyil",
-                  "join": "Şirkətə qoşulun"
-                },
-                "header": "Şirkətiniz artıq qeydiyyatdan keçib",
-                "notice": "Bu təfərrüatlara malik şirkət artıq platformada qeydiyyatdan keçib. Onun adından işləmək üçün şirkətinizə qoşulun."
-              },
-              "join": {
-                "submit": "Bağlayın",
-                "success": "Ərizə göndərildi",
-                "text": "Şirkət administratorunuz ərizəni təsdiqlədikdən sonra şirkətinizin adından işləyə biləcəksiniz.",
-                "title": "Ərizə göndərildi"
-              },
-              "similar": {
-                "actions": {
-                  "cancel": "Geri",
-                  "join": "Şirkətə qoşulun",
-                  "register": "Şirkəti qeydiyyatdan keçirin"
-                },
-                "header": "Platformada oxşar şirkətlər",
-                "notice": "Onun adından işləmək üçün şirkətinizə qoşulun və ya yeni şirkət qeydiyyatdan keçirin",
-                "register": {
-                  "notice": "Şirkəti qeydiyyatdan keçirin",
-                  "title": "Şirkətinizi tapa bilmirsiniz?"
-                },
-                "tin": "VÖEN: {{value}}"
-              }
+            "register": {
+                "header": "Biznes məlumatları",
+                "steps": {
+                    "actions": {
+                        "back": "Geri",
+                        "done": "Hazırdır",
+                        "next": "İrəli"
+                    },
+                    "create": {
+                        "brand": {
+                            "header": "Platformada brendinizi qeyd edin",
+                            "legal": {
+                                "title": "Qanuni ad"
+                            },
+                            "brand": {
+                                "title": "Brend",
+                                "notice": "Qarşı tərəflər tərəfindən tanınmaq üçün şirkətin adı",
+                                "placeholder": "Platformada ad"
+                            }
+                        },
+                        "contacts": {
+                            "email": {
+                                "label": "Satış/Satınalma  şöbəsinin E-poçtu",
+                                "title": "Satış/Satınalma  şöbəsinin E-poçtu"
+                            },
+                            "header": "Qarşı tərəflər sizi necə tapa bilər?",
+                            "location": {
+                                "label": "Ünvanı göstərin",
+                                "title": "Hüquqi ünvan",
+                                "tooltip": "Ünvanı dəyişmək"
+                            },
+                            "phone": {
+                                "label": "Telefon nömrəsi",
+                                "title": "Əlaqə nömrəsi"
+                            },
+                            "site": {
+                                "label": "Şirkətin rəsmi saytı",
+                                "title": "Şirkətin veb saytı"
+                            }
+                        },
+                        "country": {
+                            "header": "Şirkətin təsis olunduğu ölkə"
+                        },
+                        "dadata": {
+                            "approve": {
+                                "address": "Hüquqi ünvan",
+                                "cancel": "Digər şirkət",
+                                "inn": "VÖEN",
+                                "kpp": "VÖEN",
+                                "submit": "Bu mənim şirkətimdir"
+                            },
+                            "search": {
+                                "empty": {
+                                    "switch": "Şirkət təfərrüatlarını özünüz təqdim edin",
+                                    "text": "Axtarış sorğusunu dəyişdirin və ya",
+                                    "title": "Şirkət tapılmadı"
+                                },
+                                "header": "Şirkət axtarın",
+                                "notice": "Və ya IE üçün tam adı",
+                                "placeholder": "Şirkətin adı və ya VÖEN",
+                                "requisites": "VÖEN: {{inn}}, VÖEN: {{kpp}}",
+                                "title": "Şirkətin adı və ya VÖEN"
+                            }
+                        },
+                        "manual": {
+                            "header": "Şirkətinizin təfərrüatları"
+                        },
+                        "search": {
+                            "identical": {
+                                "actions": {
+                                    "cancel": "Bu mənim şirkətim deyil",
+                                    "join": "Şirkətə qoşulun"
+                                },
+                                "header": "Şirkətiniz artıq qeydiyyatdan keçib",
+                                "notice": "Bu təfərrüatlara malik şirkət artıq platformada qeydiyyatdan keçib. Onun adından işləmək üçün şirkətinizə qoşulun."
+                            },
+                            "join": {
+                                "submit": "Bağlayın",
+                                "success": "Ərizə göndərildi",
+                                "text": "Şirkət administratorunuz ərizəni təsdiqlədikdən sonra şirkətinizin adından işləyə biləcəksiniz.",
+                                "title": "Ərizə göndərildi"
+                            },
+                            "similar": {
+                                "actions": {
+                                    "cancel": "Geri",
+                                    "join": "Şirkətə qoşulun",
+                                    "register": "Şirkəti qeydiyyatdan keçirin"
+                                },
+                                "header": "Platformada oxşar şirkətlər",
+                                "notice": "Onun adından işləmək üçün şirkətinizə qoşulun və ya yeni şirkət qeydiyyatdan keçirin",
+                                "register": {
+                                    "notice": "Şirkəti qeydiyyatdan keçirin",
+                                    "title": "Şirkətinizi tapa bilmirsiniz?"
+                                },
+                                "tin": "VÖEN: {{value}}"
+                            }
+                        }
+                    },
+                    "editor": {
+                        "areas": {
+                            "append": "Ölkə, bölgə və ya şəhər əlavə edin",
+                            "header": "Biznes etdiyiniz bölgələri göstərin",
+                            "notice": "Şirkətinizin fəaliyyət göstərdiyi ölkələri, regionları və şəhərləri göstərin"
+                        },
+                        "finish": {
+                            "header": "Şirkətiniz qeydiyyatdan keçdi",
+                            "purchaser": {
+                                "title": "Sorğularınızı yerləşdirmək səlahiyyətinə sahib olmaq üçün şəxsi menecerinizlə əlaqə saxlayın"
+                            },
+                            "seller": {
+                                "text": "• İştirak pulsuzdur\n• Müraciət üçün heç bir depozit tələb olunmur\n• Akkreditasiya və Asan imza tələb olunmur",
+                                "title": "İndi mal və xidmətləri sata bilərsiniz"
+                            }
+                        },
+                        "roles": {
+                            "header": "ProcureSaaS-da nə edəcəksiniz?",
+                            "seller": {
+                                "title": "Satınalan təşkilat",
+                                "notice": "Mən mal və xidmət sifariş edəceyəm"
+                            },
+                            "purchaser": {
+                                "title": "Təchizatçı təşkilat",
+                                "notice": "Mən mal və ya xidmətlər təqdim edəcəm"
+                            }
+                        },
+                        "tags": {
+                            "append": "Teq əlavə et",
+                            "header": "Nə satacaqsınız?",
+                            "notice": "Ən azı üç teq daxil edin, məsələn: Ofis mebeli, Dəftərxana ləvazimatı, Ofis kağızı",
+                            "title": "Sifarişçilər sizi teqlərlə tapa biləcəklər"
+                        }
+                    }
+                }
             }
-          },
-          "editor": {
-            "areas": {
-              "append": "Ölkə, bölgə və ya şəhər əlavə edin",
-              "header": "Biznes etdiyiniz bölgələri göstərin",
-              "notice": "Şirkətinizin fəaliyyət göstərdiyi ölkələri, regionları və şəhərləri göstərin"
-            },
-            "finish": {
-              "header": "Şirkətiniz qeydiyyatdan keçdi",
-              "purchaser": {
-                "title": "Sorğularınızı yerləşdirmək səlahiyyətinə sahib olmaq üçün şəxsi menecerinizlə əlaqə saxlayın"
-              },
-              "seller": {
-                "text": "• İştirak pulsuzdur\n• Müraciət üçün heç bir depozit tələb olunmur\n• Akkreditasiya və Asan imza tələb olunmur",
-                "title": "İndi mal və xidmətləri sata bilərsiniz"
-              }
-            },
-            "roles": {
-              "header": "ProcureSaaS-da nə edəcəksiniz?",
-              "seller": {
-                "title": "Satınalan təşkilat",
-                "notice": "Mən mal və xidmət sifariş edəceyəm"
-                
-              },              
-              "purchaser": {
-                "notice": "Mən mal və ya xidmətlər təqdim edəcəm",
-                "title": "Təchizatçı təşkilat"
-              }
-            },
-            "tags": {
-              "append": "Teq əlavə et",
-              "header": "Nə satacaqsınız?",
-              "notice": "Ən azı üç teq daxil edin, məsələn: Ofis mebeli, Dəftərxana ləvazimatı, Ofis kağızı",
-              "title": "Sifarişçilər sizi teqlərlə tapa biləcəklər"
-            }
-          }
         }
-      }
     }
-  }
 }

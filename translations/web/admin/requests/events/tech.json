@@ -1,0 +1,12 @@
+{
+    "req.evt": {
+        "header": "web/admin/requests/events: req.evt.header",
+        "empty": "web/admin/requests/events: req.evt.empty",
+        "search": "web/admin/requests/events: req.evt.search",
+        "actions": {
+            "open_request": "web/admin/requests/events: req.evt.actions.open_request",
+            "open_chat": "web/admin/requests/events: req.evt.actions.open_chat",
+            "open_participants": "web/admin/requests/events: req.evt.actions.open_participants"
+        }
+    }
+}

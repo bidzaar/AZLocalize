@@ -1,0 +1,40 @@
+{
+    "bdz.fls": {
+        "archive": "web/components/files: bdz.fls.archive",
+        "archive_snack": "web/components/files: bdz.fls.archive_snack",
+        "with_value": {
+            "GB": "web/components/files: bdz.fls.with_value.GB",
+            "KB": "web/components/files: bdz.fls.with_value.KB",
+            "MB": "web/components/files: bdz.fls.with_value.MB",
+            "bytes": "web/components/files: bdz.fls.with_value.bytes"
+        },
+        "rename": {
+            "cancel": "web/components/files: bdz.fls.rename.cancel",
+            "label": "web/components/files: bdz.fls.rename.label",
+            "save": "web/components/files: bdz.fls.rename.save",
+            "title": "web/components/files: bdz.fls.rename.title"
+        },
+        "remove": {
+            "no": "web/components/files: bdz.fls.remove.no",
+            "text": "web/components/files: bdz.fls.remove.text",
+            "title": "web/components/files: bdz.fls.remove.title",
+            "yes": "web/components/files: bdz.fls.remove.yes"
+        },
+        "errors": {
+            "title_size": "web/components/files: bdz.fls.errors.title_size",
+            "title_length": "web/components/files: bdz.fls.errors.title_length",
+            "ext": "web/components/files: bdz.fls.errors.ext",
+            "length": "web/components/files: bdz.fls.errors.length",
+            "size": "web/components/files: bdz.fls.errors.size"
+        },
+        "tooltips": {
+            "edit": "web/components/files: bdz.fls.tooltips.edit",
+            "remove": "web/components/files: bdz.fls.tooltips.remove"
+        },
+        "actions": {
+            "edit": "web/components/files: bdz.fls.actions.edit",
+            "delete": "web/components/files: bdz.fls.actions.delete"
+        },
+        "collapsed": "web/components/files: bdz.fls.collapsed"
+    }
+}

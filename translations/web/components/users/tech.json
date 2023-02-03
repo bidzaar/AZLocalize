@@ -1,0 +1,15 @@
+{
+    "bdz.usr": {
+        "enums": {
+            "status": {
+                "0": "web/components/users: bdz.usr.enums.status.0",
+                "1": "web/components/users: bdz.usr.enums.status.1",
+                "2": "web/components/users: bdz.usr.enums.status.2",
+                "3": "web/components/users: bdz.usr.enums.status.3"
+            }
+        },
+        "roster": {
+            "empty": "web/components/users: bdz.usr.roster.empty"
+        }
+    }
+}

@@ -1,0 +1,52 @@
+{
+    "rgs": {
+        "sup": {
+            "list": {
+                "header": {
+                    "title": "web/app/registries/suppliers: rgs.sup.list.header.title",
+                    "selected": "web/app/registries/suppliers: rgs.sup.list.header.selected"
+                },
+                "actions": {
+                    "invite": "web/app/registries/suppliers: rgs.sup.list.actions.invite",
+                    "report": "web/app/registries/suppliers: rgs.sup.list.actions.report"
+                },
+                "empty": {
+                    "title": "web/app/registries/suppliers: rgs.sup.list.empty.title",
+                    "text": "web/app/registries/suppliers: rgs.sup.list.empty.text"
+                },
+                "search": {
+                    "tooltip": "web/app/registries/suppliers: rgs.sup.list.search.tooltip"
+                },
+                "sorting": {
+                    "company_name": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.sorting.company_name.title"
+                    },
+                    "score": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.sorting.score.title"
+                    },
+                    "last_changes": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.sorting.last_changes.title"
+                    }
+                },
+                "filters": {
+                    "scoring": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.filters.scoring.title"
+                    },
+                    "participant_status": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.filters.participant_status.title"
+                    },
+                    "expired_date": {
+                        "title": "web/app/registries/suppliers: rgs.sup.list.filters.expired_date.title",
+                        "options": {
+                            "true": "web/app/registries/suppliers: rgs.sup.list.filters.expired_date.options.true"
+                        }
+                    },
+                    "empty": "web/app/registries/suppliers: rgs.sup.list.filters.empty"
+                },
+                "row": {
+                    "contact_placeholder": "web/app/registries/suppliers: rgs.sup.list.row.contact_placeholder"
+                }
+            }
+        }
+    }
+}

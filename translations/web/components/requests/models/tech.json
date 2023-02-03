@@ -1,0 +1,114 @@
+{
+    "bdz.req.models": {
+        "enums": {
+            "status": {
+                "0": "web/components/requests/models: bdz.req.models.enums.status.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.status.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.status.2",
+                "3": "web/components/requests/models: bdz.req.models.enums.status.3",
+                "4": "web/components/requests/models: bdz.req.models.enums.status.4"
+            },
+            "invited_by": {
+                "0": "web/components/requests/models: bdz.req.models.enums.invited_by.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.invited_by.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.invited_by.2"
+            },
+            "open_type": {
+                "0": "web/components/requests/models: bdz.req.models.enums.open_type.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.open_type.1"
+            },
+            "role": {
+                "0": {
+                    "name": "web/components/requests/models: bdz.req.models.enums.role.0.name",
+                    "descr": "web/components/requests/models: bdz.req.models.enums.role.0.descr"
+                },
+                "1": {
+                    "name": "web/components/requests/models: bdz.req.models.enums.role.1.name",
+                    "descr": "web/components/requests/models: bdz.req.models.enums.role.1.descr"
+                },
+                "2": {
+                    "name": "web/components/requests/models: bdz.req.models.enums.role.2.name",
+                    "descr": "web/components/requests/models: bdz.req.models.enums.role.2.descr"
+                }
+            },
+            "participant_business_status": {
+                "0": "web/components/requests/models: bdz.req.models.enums.participant_business_status.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.participant_business_status.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.participant_business_status.2",
+                "3": "web/components/requests/models: bdz.req.models.enums.participant_business_status.3",
+                "4": "web/components/requests/models: bdz.req.models.enums.participant_business_status.4",
+                "5": "web/components/requests/models: bdz.req.models.enums.participant_business_status.5",
+                "6": "web/components/requests/models: bdz.req.models.enums.participant_business_status.6",
+                "7": "web/components/requests/models: bdz.req.models.enums.participant_business_status.7",
+                "8": "web/components/requests/models: bdz.req.models.enums.participant_business_status.8",
+                "9": "web/components/requests/models: bdz.req.models.enums.participant_business_status.9",
+                "10": "web/components/requests/models: bdz.req.models.enums.participant_business_status.10"
+            }
+        },
+        "validation": {
+            "proposal": {
+                "Process.Light.Proposal.Answers.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Answers.Required",
+                "Process.Light.Proposal.MainProposalShouldBeSubmitted": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.MainProposalShouldBeSubmitted",
+                "Process.Light.Proposal.Price.InvalidProposalCurrency": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.InvalidProposalCurrency",
+                "Process.Light.Proposal.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MinValueSubceeded",
+                "Process.Light.Proposal.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MaxValueExceeded",
+                "Process.Light.Proposal.Price.StartPrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.StartPrice.Auction",
+                "Process.Light.Proposal.Price.StartPrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.StartPrice.Reduction",
+                "Process.Light.Proposal.Price.RuleMismatch.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Auction",
+                "Process.Light.Proposal.Price.RuleMismatch.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Reduction",
+                "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.RaiseReduce",
+                "Process.Light.Proposal.Item.CurrencyIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CurrencyIsNotValid",
+                "Process.Light.Proposal.Item.VatIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.VatIsNotValid",
+                "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailableByPosition",
+                "Process.Light.Proposal.Item.DeviationUnavailable": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailable",
+                "Process.Light.Proposal.Item.ZeroPrice": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPrice",
+                "Process.Light.Proposal.Item.ZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroCount",
+                "Process.Light.Proposal.Item.NonZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.NonZeroCount",
+                "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPriceCountGteZero",
+                "Process.Light.Proposal.Item.StartPrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.StartPrice.Auction",
+                "Process.Light.Proposal.Item.StartPrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.StartPrice.Reduction",
+                "Process.Light.Proposal.Item.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MinValueSubceeded",
+                "Process.Light.Proposal.Item.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MaxValueExceeded",
+                "Process.Light.Proposal.Item.CustomField.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CustomField.Required",
+                "Process.Light.Proposal.Item.ReferencePrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Reduction",
+                "Process.Light.Proposal.Item.ReferencePrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Auction",
+                "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch",
+                "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation"
+            }
+        },
+        "reports": {
+            "header": {
+                "comparison": "web/components/requests/models: bdz.req.models.reports.header.comparison",
+                "order": "web/components/requests/models: bdz.req.models.reports.header.order",
+                "my-proposal": "web/components/requests/models: bdz.req.models.reports.header.my-proposal",
+                "proposal": "web/components/requests/models: bdz.req.models.reports.header.proposal",
+                "receipt": "web/components/requests/models: bdz.req.models.reports.header.receipt",
+                "all-receipt": "web/components/requests/models: bdz.req.models.reports.header.all-receipt",
+                "nda": "web/components/requests/models: bdz.req.models.reports.header.nda"
+            },
+            "single": {
+                "sync": {
+                    "title": "web/components/requests/models: bdz.req.models.reports.single.sync.title",
+                    "action": "web/components/requests/models: bdz.req.models.reports.single.sync.action"
+                },
+                "async": {
+                    "title": "web/components/requests/models: bdz.req.models.reports.single.async.title",
+                    "comment": "web/components/requests/models: bdz.req.models.reports.single.async.comment",
+                    "action": "web/components/requests/models: bdz.req.models.reports.single.async.action"
+                }
+            },
+            "combo": {
+                "sync": {
+                    "title": "web/components/requests/models: bdz.req.models.reports.combo.sync.title",
+                    "action": "web/components/requests/models: bdz.req.models.reports.combo.sync.action"
+                },
+                "async": {
+                    "title": "web/components/requests/models: bdz.req.models.reports.combo.async.title",
+                    "comment": "web/components/requests/models: bdz.req.models.reports.combo.async.comment",
+                    "action": "web/components/requests/models: bdz.req.models.reports.combo.async.action"
+                }
+            },
+            "success": "web/components/requests/models: bdz.req.models.reports.success"
+        }
+    }
+}

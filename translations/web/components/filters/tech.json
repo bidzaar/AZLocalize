@@ -1,0 +1,67 @@
+{
+    "filters": {
+        "clear": "web/components/filters: filters.clear",
+        "clear_all": "web/components/filters: filters.clear_all",
+        "filter": "web/components/filters: filters.filter",
+        "more_filters": "web/components/filters: filters.more_filters",
+        "operators": {
+            "date_after": "web/components/filters: filters.operators.date_after",
+            "date_before": "web/components/filters: filters.operators.date_before",
+            "equal": "web/components/filters: filters.operators.equal",
+            "exact_date": "web/components/filters: filters.operators.exact_date",
+            "greater_than": "web/components/filters: filters.operators.greater_than",
+            "greater_than_or_equal": "web/components/filters: filters.operators.greater_than_or_equal",
+            "less_than": "web/components/filters: filters.operators.less_than",
+            "less_than_or_equal": "web/components/filters: filters.operators.less_than_or_equal",
+            "not_equal": "web/components/filters: filters.operators.not_equal",
+            "period": "web/components/filters: filters.operators.period",
+            "range": "web/components/filters: filters.operators.range"
+        },
+        "placeholders": {
+            "start": "web/components/filters: filters.placeholders.start",
+            "end": "web/components/filters: filters.placeholders.end",
+            "enter_number": "web/components/filters: filters.placeholders.enter_number",
+            "enter_text_value": "web/components/filters: filters.placeholders.enter_text_value",
+            "from": "web/components/filters: filters.placeholders.from",
+            "to": "web/components/filters: filters.placeholders.to",
+            "date": "web/components/filters: filters.placeholders.date"
+        },
+        "search": "web/components/filters: filters.search",
+        "show": "web/components/filters: filters.show",
+        "hide": "web/components/filters: filters.hide",
+        "tooltip": "web/components/filters: filters.tooltip",
+        "sorting": "web/components/filters: filters.sorting",
+        "any": "web/components/filters: filters.any",
+        "more": "web/components/filters: filters.more",
+        "collapse": "web/components/filters: filters.collapse",
+        "panel": {
+            "title": "web/components/filters: filters.panel.title",
+            "clear_all": "web/components/filters: filters.panel.clear_all",
+            "apply_filters": "web/components/filters: filters.panel.apply_filters",
+            "save": "web/components/filters: filters.panel.save"
+        },
+        "queries": {
+            "title": "web/components/filters: filters.queries.title",
+            "save_dialog": {
+                "title": "web/components/filters: filters.queries.save_dialog.title",
+                "name": "web/components/filters: filters.queries.save_dialog.name",
+                "cancel": "web/components/filters: filters.queries.save_dialog.cancel",
+                "save": "web/components/filters: filters.queries.save_dialog.save",
+                "default_name": "web/components/filters: filters.queries.save_dialog.default_name",
+                "save_success": "web/components/filters: filters.queries.save_dialog.save_success"
+            },
+            "delete_dialog": {
+                "title": "web/components/filters: filters.queries.delete_dialog.title",
+                "cancel": "web/components/filters: filters.queries.delete_dialog.cancel",
+                "delete": "web/components/filters: filters.queries.delete_dialog.delete"
+            },
+            "delete_snack": "web/components/filters: filters.queries.delete_snack"
+        },
+        "datasource": {
+            "search": "web/components/filters: filters.datasource.search",
+            "empty": "web/components/filters: filters.datasource.empty",
+            "collapse": "web/components/filters: filters.datasource.collapse",
+            "expand": "web/components/filters: filters.datasource.expand"
+        }
+    }
+}

@@ -1,153 +1,153 @@
 {
-  "cmp": {
-    "public": {
-      "actions": {
-        "create": "İctimai səhifə yaradın",
-        "link": " Keçid əldə edin",
-        "preview": "İlkin baxış"
-      },
-      "defaults": {
-        "description": "Tenderlərdə iştirak etmək üçün müvafiq malların təchizatı, işlərin görülməsi, xidmətlərin göstərilməsi üçün müvafiq ixtisasa və resurslara malik, müvafiq sahədə təcrübəsi, oxşar layihələrin həyata keçirilməsi təcrübəsi olan, habelə tender sənədlərində göstərilən digər tələblərə cavab verən təchizatçıları dəvət edirik.",
-        "pools": {
-          "placeholder": "Şirkət ProcureSaas-da baza dərc etməyib :(",
-          "title": "Təchizatçı bazası"
-        },
-        "registries": {
-          "placeholder": "Şirkət ProcureSaas-da reyestrləri dərc etməyib :(",
-          "title": "Reyestrlər"
-        },
-        "tenders": {
-          "placeholder": "Şirkət ProcureSaas-da tenderlər dərc etməyib :(",
-          "title": "Tenderlər"
-        },
-        "title": "Şirkətin təchizatçıları üçün satınalma bölməsi"
-      },
-      "empty": {
-        "message_primary": "Şirkətin ictimai səhifəsini yaradın",
-        "message_secondary": "Tender təkliflərinizi, təchizatçı bazasını tenderlərdə iştirak şərtlərini, hansı malları və xidmətləri aldığınızı və tender komissiyasının əlaqələrini tərəfdaşlara göstərin..."
-      },
-      "page": "Şirkətin ictimai səhifəsi",
-      "profile": {
-        "editor": {
-          "actions": {
-            "cancel": "Ləğv edin",
-            "save": "Yadda saxlayın"
-          },
-          "description": {
-            "header": "Təchizatçılar üçün məlumat bölməsi",
-            "title": "Təchizatçılar üçün məlumat"
-          },
-          "pools": {
-            "header": "Təchizatçılar bazası bölməsi",
-            "placeholder": "Siyahı boşdursa ismarıc göndərin",
-            "show": "İctimai səhifədə bölməni göstər",
-            "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
-            "title": "Təchizatçı bazası"
-          },
-          "registries": {
-            "header": "Bölmə Reyestrləri",
-            "placeholder": "Siyahı boşdursa ismarıc göndərin",
-            "show": "İctimai səhifədə bölməni göstər",
-            "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
-            "title": "Reyestrlər"
-          },
-          "tenders": {
-            "header": "Bölmə Tenderləri",
-            "placeholder": "Siyahı boşdursa ismarıc göndərin",
-            "show": "İctimai səhifədə bölməni göstər",
-            "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
-            "title": "Siyahının adı",
-            "description": "Təsvir"
-          },
-          "title": {
-            "header": "Bölmə Səhifənin başlığı",
-            "title": "Səhifə başlığı"
-          }
-        },
-        "viewer": {
-          "actions": {
-            "add": "Əlavə edin",
-            "change": "Dəyişin",
-            "configure": "Ayarla"
-          },
-          "description": {
+    "cmp": {
+        "public": {
+            "actions": {
+                "create": "İctimai səhifə yaradın",
+                "link": " Keçid əldə edin",
+                "preview": "İlkin baxış"
+            },
+            "defaults": {
+                "description": "Tenderlərdə iştirak etmək üçün müvafiq malların təchizatı, işlərin görülməsi, xidmətlərin göstərilməsi üçün müvafiq ixtisasa və resurslara malik, müvafiq sahədə təcrübəsi, oxşar layihələrin həyata keçirilməsi təcrübəsi olan, habelə tender sənədlərində göstərilən digər tələblərə cavab verən təchizatçıları dəvət edirik.",
+                "pools": {
+                    "placeholder": "Şirkət ProcureSaas-da baza dərc etməyib :(",
+                    "title": "Təchizatçı bazası"
+                },
+                "registries": {
+                    "placeholder": "Şirkət ProcureSaas-da reyestrləri dərc etməyib :(",
+                    "title": "Reyestrlər"
+                },
+                "tenders": {
+                    "placeholder": "Şirkət ProcureSaas-da tenderlər dərc etməyib :(",
+                    "title": "Tenderlər"
+                },
+                "title": "Şirkətin təchizatçıları üçün satınalma bölməsi"
+            },
             "empty": {
-              "message_primary": "Təchizatçılar üçün məlumat",
-              "message_secondary": "Tenderlərdə iştirak şərtlərini, satın aldığınız mal və xidmətləri, tender komissiyasının əlaqə vasitələrini göstərin..."
+                "message_primary": "Şirkətin ictimai səhifəsini yaradın",
+                "message_secondary": "Tender təkliflərinizi, təchizatçı bazasını tenderlərdə iştirak şərtlərini, hansı malları və xidmətləri aldığınızı və tender komissiyasının əlaqələrini tərəfdaşlara göstərin..."
             },
-            "header": "Potensial təchizatçılar üçün məlumat"
-          },
-          "files": {
-            "empty": {
-              "message_primary": "Təchizatçıların sənədlərini yükləyin",
-              "message_secondary": "Məsələn, İştirak və Təkliflərin təqdim edilməsi qaydaları, Tenderlərin keçirilməsi Qaydaları ..."
+            "page": "Şirkətin ictimai səhifəsi",
+            "profile": {
+                "editor": {
+                    "actions": {
+                        "cancel": "Ləğv edin",
+                        "save": "Yadda saxlayın"
+                    },
+                    "description": {
+                        "header": "Təchizatçılar üçün məlumat bölməsi",
+                        "title": "Təchizatçılar üçün məlumat"
+                    },
+                    "pools": {
+                        "header": "Təchizatçılar bazası bölməsi",
+                        "placeholder": "Siyahı boşdursa ismarıc göndərin",
+                        "show": "İctimai səhifədə bölməni göstər",
+                        "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
+                        "title": "Təchizatçı bazası"
+                    },
+                    "registries": {
+                        "header": "Bölmə Reyestrləri",
+                        "placeholder": "Siyahı boşdursa ismarıc göndərin",
+                        "show": "İctimai səhifədə bölməni göstər",
+                        "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
+                        "title": "Reyestrlər"
+                    },
+                    "tenders": {
+                        "header": "Bölmə Tenderləri",
+                        "placeholder": "Siyahı boşdursa ismarıc göndərin",
+                        "show": "İctimai səhifədə bölməni göstər",
+                        "show_if_empty": "Siyahı boşdursa bölmələri göstərin",
+                        "title": "Siyahının adı",
+                        "description": "Təsvir"
+                    },
+                    "title": {
+                        "header": "Bölmə Səhifənin başlığı",
+                        "title": "Səhifə başlığı"
+                    }
+                },
+                "viewer": {
+                    "actions": {
+                        "add": "Əlavə edin",
+                        "change": "Dəyişin",
+                        "configure": "Ayarla"
+                    },
+                    "description": {
+                        "empty": {
+                            "message_primary": "Təchizatçılar üçün məlumat",
+                            "message_secondary": "Tenderlərdə iştirak şərtlərini, satın aldığınız mal və xidmətləri, tender komissiyasının əlaqə vasitələrini göstərin..."
+                        },
+                        "header": "Potensial təchizatçılar üçün məlumat"
+                    },
+                    "files": {
+                        "empty": {
+                            "message_primary": "Təchizatçıların sənədlərini yükləyin",
+                            "message_secondary": "Məsələn, İştirak və Təkliflərin təqdim edilməsi qaydaları, Tenderlərin keçirilməsi Qaydaları ..."
+                        },
+                        "header": "Təchizatçılar üçün sənədlər"
+                    },
+                    "links": {
+                        "header": "İctimai səhifəyə keçid",
+                        "iframe": {
+                            "action": {
+                                "copy": "Kodu seçin və panoya kopyalamaq üçün Ctrl + C düymələrini klikləyin."
+                            },
+                            "options": {
+                                "page": "İctimai səhifə",
+                                "pools": "Bazalar",
+                                "registries": "Reyestrlər",
+                                "tenders": "Tenderlər"
+                            },
+                            "title": "İframe üçün kod"
+                        },
+                        "page": {
+                            "action": {
+                                "copy": "Keçidi seçin və panoya kopyalamaq üçün Ctrl + C düymələrini klikləyin."
+                            },
+                            "title": "Səhifəyə keçid"
+                        }
+                    },
+                    "pools": {
+                        "empty": {
+                            "message_primary": "Blok ictimai səhifədə göstərilmir",
+                            "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
+                        },
+                        "header": "Təchizatçı bazası",
+                        "notice": {
+                            "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
+                            "title": "ProcureSaas-da nəşr olunan təchizatçı bazası."
+                        }
+                    },
+                    "registries": {
+                        "empty": {
+                            "message_primary": "Blok ictimai səhifədə göstərilmir",
+                            "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
+                        },
+                        "header": "Reyestrlər",
+                        "notice": {
+                            "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
+                            "title": "ProcureSaas-da nəşr olunan registrlər."
+                        }
+                    },
+                    "tenders": {
+                        "empty": {
+                            "message_primary": "Blok ictimai səhifədə göstərilmir",
+                            "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
+                        },
+                        "header": "Tenderlər",
+                        "notice": {
+                            "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
+                            "title": "ProcureSaasda dərc edilmiş Tenderlər"
+                        }
+                    },
+                    "title": {
+                        "empty": {
+                            "message_primary": "Səhifə başlığını göstərin",
+                            "message_secondary": "Məsələn, “Şirkət təchizatçıları üçün satınalma bölməsi”.\nBaşlıq istifadəçilər və axtarışlar xidməti üçün vacibdir."
+                        },
+                        "header": "Səhifə başlığı"
+                    }
+                }
             },
-            "header": "Təchizatçılar üçün sənədlər"
-          },
-          "links": {
-            "header": "İctimai səhifəyə keçid",
-            "iframe": {
-              "action": {
-                "copy": "Kodu seçin və panoya kopyalamaq üçün Ctrl + C düymələrini klikləyin."
-              },
-              "options": {
-                "page": "İctimai səhifə",
-                "pools": "Bazalar",
-                "registries": "Reyestrlər",
-                "tenders": "Tenderlər"
-              },
-              "title": "İframe üçün kod"
-            },
-            "page": {
-              "action": {
-                "copy": "Keçidi seçin və panoya kopyalamaq üçün Ctrl + C düymələrini klikləyin."
-              },
-              "title": "Səhifəyə keçid"
-            }
-          },
-          "pools": {
-            "empty": {
-              "message_primary": "Blok ictimai səhifədə göstərilmir",
-              "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
-            },
-            "header": "Təchizatçı bazası",
-            "notice": {
-              "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "ProcureSaas-da nəşr olunan təchizatçı bazası."
-            }
-          },
-          "registries": {
-            "empty": {
-              "message_primary": "Blok ictimai səhifədə göstərilmir",
-              "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
-            },
-            "header": "Reyestrlər",
-            "notice": {
-              "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "ProcureSaas-da nəşr olunan registrlər."
-            }
-          },
-          "tenders": {
-            "empty": {
-              "message_primary": "Blok ictimai səhifədə göstərilmir",
-              "message_secondary": "Ekran nəzarəti - blok parametrlərindədir"
-            },
-            "header": "Tenderlər",
-            "notice": {
-              "message": "Səhifə hər dəfə açılanda məlumatlar yenilənir. Blok parametrlərini dəyişə bilərsiniz. Nəticəyə baxmaq üçün İlkin Baxış istifadə edin.",
-              "title": "ProcureSaasda dərc edilmiş Tenderlər"
-            }
-          },
-          "title": {
-            "empty": {
-              "message_primary": "Səhifə başlığını göstərin",
-              "message_secondary": "Məsələn, “Şirkət təchizatçıları üçün satınalma bölməsi”.\nBaşlıq istifadəçilər və axtarışlar xidməti üçün vacibdir."
-            },
-            "header": "Səhifə başlığı"
-          }
+            "title": "İctimai səhifə"
         }
-      },
-      "title": "İctimai səhifə"
     }
-  }
 }

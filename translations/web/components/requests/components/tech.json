@@ -1,0 +1,143 @@
+{
+    "bdz.req.components": {
+        "funnel": {
+            "proposals": "web/components/requests/components: bdz.req.components.funnel.proposals",
+            "participants": "web/components/requests/components: bdz.req.components.funnel.participants",
+            "joins": "web/components/requests/components: bdz.req.components.funnel.joins"
+        },
+        "parameters": {
+            "owner_rules": {
+                "verified_only": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.label",
+                    "text": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.text",
+                    "popover": {
+                        "title": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.title",
+                        "text": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.text",
+                        "helper": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.helper"
+                    }
+                },
+                "acceptance_end_date": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.acceptance_end_date.label",
+                    "time_left": "web/components/requests/components: bdz.req.components.parameters.owner_rules.acceptance_end_date.time_left"
+                },
+                "prolongation": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.label",
+                    "minutes": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.minutes",
+                    "time-left": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.time-left",
+                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.tooltip"
+                },
+                "approximate_deadline_for_summing_up": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.label",
+                    "description": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.description",
+                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.tooltip",
+                    "value_null": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.value_null"
+                },
+                "currency": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.label",
+                    "show_all": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.show_all",
+                    "hide": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.hide",
+                    "change_rate_currency": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.change_rate_currency"
+                },
+                "vat": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.label",
+                    "options": {
+                        "false": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.false",
+                        "none": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.none",
+                        "true": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.true"
+                    }
+                },
+                "open_type": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.label",
+                    "tooltips": {
+                        "0": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.0",
+                        "1": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.1",
+                        "editable": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.editable"
+                    }
+                },
+                "owner_visibility": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.label",
+                    "enums": {
+                        "0": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.enums.0",
+                        "1": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.enums.1"
+                    }
+                }
+            },
+            "bidding": {
+                "deviation_type": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.deviation_type.label"
+                },
+                "alternative_proposals": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.label",
+                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.tooltip",
+                    "error": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.error",
+                    "count": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.count",
+                    "none": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.none"
+                },
+                "price_null": "web/components/requests/components: bdz.req.components.parameters.bidding.price_null",
+                "expected_price": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.label",
+                    "placeholder": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.placeholder",
+                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.tooltip"
+                },
+                "participants_visibility": {
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.participants_visibility.label"
+                },
+                "reduction_price": {
+                    "errors": {
+                        "best_price_unavailable": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.best_price_unavailable",
+                        "step_over_start_price": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_over_start_price",
+                        "step_range_absolute": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_range_absolute",
+                        "step_range_percent": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_range_percent"
+                    },
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.label",
+                    "of": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.of",
+                    "reference": {
+                        "0": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.0",
+                        "1": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.1",
+                        "2": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.2",
+                        "3": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.3"
+                    }
+                },
+                "start_price": {
+                    "placeholder": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.placeholder",
+                    "reduction": {
+                        "label": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.reduction.label",
+                        "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.reduction.tooltip"
+                    },
+                    "auction": {
+                        "label": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.auction.label",
+                        "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.auction.tooltip"
+                    }
+                },
+                "title": "web/components/requests/components: bdz.req.components.parameters.bidding.title",
+                "type_of_change": {
+                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.0",
+                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.1",
+                    "2": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.2",
+                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.label"
+                },
+                "proposal_deviation_type": {
+                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.proposal_deviation_type.0",
+                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.proposal_deviation_type.1"
+                },
+                "other_participants_visibility": {
+                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.0",
+                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.1",
+                    "2": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.2",
+                    "3": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.3",
+                    "4": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.4"
+                }
+            }
+        },
+        "tariffs": {
+            "ranges": {
+                "to": "web/components/requests/components: bdz.req.components.tariffs.ranges.to"
+            },
+            "select": {
+                "header": "web/components/requests/components: bdz.req.components.tariffs.select.header",
+                "cancel": "web/components/requests/components: bdz.req.components.tariffs.select.cancel",
+                "submit": "web/components/requests/components: bdz.req.components.tariffs.select.submit"
+            }
+        }
+    }
+}

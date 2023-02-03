@@ -1,0 +1,29 @@
+{
+    "merge": {
+        "title": "web/admin/tags/merge: merge.title",
+        "description": "web/admin/tags/merge: merge.description",
+        "empty": "web/admin/tags/merge: merge.empty",
+        "add_tags_actions": {
+            "manual_input": "web/admin/tags/merge: merge.add_tags_actions.manual_input",
+            "input_cloud": "web/admin/tags/merge: merge.add_tags_actions.input_cloud"
+        },
+        "actions": {
+            "clear": "web/admin/tags/merge: merge.actions.clear",
+            "merge": "web/admin/tags/merge: merge.actions.merge"
+        },
+        "success": "web/admin/tags/merge: merge.success",
+        "manual_tags_dialog": {
+            "title": "web/admin/tags/merge: merge.manual_tags_dialog.title",
+            "text": "web/admin/tags/merge: merge.manual_tags_dialog.text",
+            "send": "web/admin/tags/merge: merge.manual_tags_dialog.send",
+            "cancel": "web/admin/tags/merge: merge.manual_tags_dialog.cancel"
+        },
+        "confirmation_dialog": {
+            "title": "web/admin/tags/merge: merge.confirmation_dialog.title",
+            "text": "web/admin/tags/merge: merge.confirmation_dialog.text",
+            "cancel": "web/admin/tags/merge: merge.confirmation_dialog.cancel",
+            "merge": "web/admin/tags/merge: merge.confirmation_dialog.merge"
+        },
+        "tag_not_found": "web/admin/tags/merge: merge.tag_not_found"
+    }
+}

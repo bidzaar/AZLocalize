@@ -1,0 +1,87 @@
+{
+    "rgs": {
+        "view": {
+            "settings": {
+                "main": {
+                    "company": {
+                        "profile": "web/app/registries/view: rgs.view.settings.main.company.profile"
+                    },
+                    "name": {
+                        "placeholder": "web/app/registries/view: rgs.view.settings.main.name.placeholder"
+                    },
+                    "descr": {
+                        "title": "web/app/registries/view: rgs.view.settings.main.descr.title",
+                        "placeholder": "web/app/registries/view: rgs.view.settings.main.descr.placeholder"
+                    },
+                    "contact": {
+                        "title": "web/app/registries/view: rgs.view.settings.main.contact.title",
+                        "description": "web/app/registries/view: rgs.view.settings.main.contact.description",
+                        "tooltip": "web/app/registries/view: rgs.view.settings.main.contact.tooltip",
+                        "edit": "web/app/registries/view: rgs.view.settings.main.contact.edit"
+                    },
+                    "files": {
+                        "title": "web/app/registries/view: rgs.view.settings.main.files.title",
+                        "upload": "web/app/registries/view: rgs.view.settings.main.files.upload"
+                    },
+                    "related": {
+                        "title": "web/app/registries/view: rgs.view.settings.main.related.title",
+                        "description": "web/app/registries/view: rgs.view.settings.main.related.description",
+                        "upload": "web/app/registries/view: rgs.view.settings.main.related.upload",
+                        "remove": "web/app/registries/view: rgs.view.settings.main.related.remove",
+                        "append": {
+                            "title": "web/app/registries/view: rgs.view.settings.main.related.append.title",
+                            "submit": "web/app/registries/view: rgs.view.settings.main.related.append.submit"
+                        }
+                    }
+                },
+                "parameters": {
+                    "title": "web/app/registries/view: rgs.view.settings.parameters.title",
+                    "visibility": {
+                        "label": "web/app/registries/view: rgs.view.settings.parameters.visibility.label"
+                    },
+                    "validity": {
+                        "label": "web/app/registries/view: rgs.view.settings.parameters.validity.label",
+                        "unit": "web/app/registries/view: rgs.view.settings.parameters.validity.unit",
+                        "notice": "web/app/registries/view: rgs.view.settings.parameters.validity.notice",
+                        "infinite": "web/app/registries/view: rgs.view.settings.parameters.validity.infinite"
+                    },
+                    "language": {
+                        "label": "web/app/registries/view: rgs.view.settings.parameters.language.label",
+                        "description": "web/app/registries/view: rgs.view.settings.parameters.language.description",
+                        "snack_message": "web/app/registries/view: rgs.view.settings.parameters.language.snack_message"
+                    },
+                    "approval": {
+                        "label": "web/app/registries/view: rgs.view.settings.parameters.approval.label",
+                        "options": {
+                            "scoring": {
+                                "score": {
+                                    "label": "web/app/registries/view: rgs.view.settings.parameters.approval.options.scoring.score.label",
+                                    "value": "web/app/registries/view: rgs.view.settings.parameters.approval.options.scoring.score.value"
+                                }
+                            },
+                            "accreditation": {
+                                "decline": {
+                                    "label": "web/app/registries/view: rgs.view.settings.parameters.approval.options.accreditation.decline.label"
+                                },
+                                "score": {
+                                    "label": "web/app/registries/view: rgs.view.settings.parameters.approval.options.accreditation.score.label",
+                                    "value": "web/app/registries/view: rgs.view.settings.parameters.approval.options.accreditation.score.value"
+                                },
+                                "groups": {
+                                    "empty": "web/app/registries/view: rgs.view.settings.parameters.approval.options.accreditation.groups.empty",
+                                    "configure": "web/app/registries/view: rgs.view.settings.parameters.approval.options.accreditation.groups.configure"
+                                }
+                            }
+                        }
+                    }
+                }
+            },
+            "questionnaire_version_status": {
+                "1": "web/app/registries/view: rgs.view.questionnaire_version_status.1",
+                "2": "web/app/registries/view: rgs.view.questionnaire_version_status.2",
+                "3": "web/app/registries/view: rgs.view.questionnaire_version_status.3",
+                "4": "web/app/registries/view: rgs.view.questionnaire_version_status.4"
+            }
+        }
+    }
+}

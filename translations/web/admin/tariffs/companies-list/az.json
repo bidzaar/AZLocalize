@@ -1,72 +1,72 @@
 {
-  "trf.cms.list": {
-    "header": {
-      "title": "Tarif paketinə aid olan sifarişçilər",
-      "add": "Sifarişçi əlavə et",
-      "recordings": "Qeydlər: "
-    },
-    "remove": "Tarif paketinin fəaliyyətini ləğv etmək",
-    "enums": {
-      "rights": {
-        "0": "Hüquqlar təyin olunmayıb ",
-        "1": "Sifarişçi ",
-        "2": "Təchizatçı ",
-        "4": "Akkreditasiya",
-        "8": "Qrupların idarə edilməsi",
-        "16": "Şirkətin idarə edilməsi",
-        "128": "Satınalma sahibi",
-        "512": "Reyestrlər",
-        "2048": "Qruplarda akkreditasiya"
-      }
-    },
-    "invite": {
-      "header": {
-        "title": "Şirkətlər",
-        "add": "Əlavə et"
-      },
-      "list": {
-        "title": "Şirkətlər",
-        "selected_title": "Seçilib:",
-        "filters": {
-          "tags": "Şirkət satır:",
-          "rights": "Hüquqlar",
-          "badges": "Nişanlar",
-          "location": "Yer",
-          "areas": "Biznesin aparıldığı yer",
-          "shown": {
-            "title": "Görüntüsü",
-            "true": "Bəli",
-            "false": "Xeyr"
-          },
-          "phantom": {
-            "title": "Fantomlar",
-            "true": "Yalnız fantomlar",
-            "false": "Yalnız fantomlar"
-          },
-          "verified": {
-            "title": "ProcureSaas-la yoxlanılmışlar",
-            "true": "Yalnız yoxlanılmışlar",
-            "false": "Yalnız yoxlanılmamışlar"
-          }
+    "trf.cms.list": {
+        "header": {
+            "title": "Tarif paketinə aid olan sifarişçilər",
+            "add": "Sifarişçi əlavə et",
+            "recordings": "Qeydlər: "
         },
-        "sort": {
-          "registration_date": "Qeydiyyat tarixi"
+        "remove": "Tarif paketinin fəaliyyətini ləğv etmək",
+        "enums": {
+            "rights": {
+                "0": "Hüquqlar təyin olunmayıb ",
+                "1": "Sifarişçi ",
+                "2": "Təchizatçı ",
+                "4": "Akkreditasiya",
+                "8": "Qrupların idarə edilməsi",
+                "16": "Şirkətin idarə edilməsi",
+                "128": "Satınalma sahibi",
+                "512": "Reyestrlər",
+                "2048": "Qruplarda akkreditasiya"
+            }
         },
-        "search": "VÖEN, brend, hüquqi adı, şirkətin təsviri, hüquqi ünvanı, teqlər, telefon, e-poçt",
-        "empty": "Sorğunuza görə heç bir şey tapılmadı...",
-        "crm": "CRM",
-        "actions": {
-          "notify_users_tooltip": "E-poçt göndər"
-        }
-      },
-      "success": "Şirkətlər əlavə olunub"
-    },
-    "dialog": {
-      "title": "Tarif paketinin fəaliyyətini ləğv etmək",
-      "text": "Şirkətin sorğularında standart tarif paketi fəaliyyət göstərəcəkdir.",
-      "sub": "Tətbiq et",
-      "cancel": "Ləğv et"
-    },
-    "empty": "Tarif paketinin tətbiq olunacağı sifarişçiləri əlavə edin"
-  }
+        "invite": {
+            "header": {
+                "title": "Şirkətlər",
+                "add": "Əlavə et"
+            },
+            "list": {
+                "title": "Şirkətlər",
+                "selected_title": "Seçilib:",
+                "filters": {
+                    "tags": "Şirkət satır:",
+                    "rights": "Hüquqlar",
+                    "badges": "Nişanlar",
+                    "location": "Yer",
+                    "areas": "Biznesin aparıldığı yer",
+                    "shown": {
+                        "title": "Görüntüsü",
+                        "true": "Bəli",
+                        "false": "Xeyr"
+                    },
+                    "phantom": {
+                        "title": "Fantomlar",
+                        "true": "Yalnız fantomlar",
+                        "false": "Yalnız fantomlar"
+                    },
+                    "verified": {
+                        "title": "ProcureSaas-la yoxlanılmışlar",
+                        "true": "Yalnız yoxlanılmışlar",
+                        "false": "Yalnız yoxlanılmamışlar"
+                    }
+                },
+                "sort": {
+                    "registration_date": "Qeydiyyat tarixi"
+                },
+                "search": "VÖEN, brend, hüquqi adı, şirkətin təsviri, hüquqi ünvanı, teqlər, telefon, e-poçt",
+                "empty": "Sorğunuza görə heç bir şey tapılmadı...",
+                "crm": "CRM",
+                "actions": {
+                    "notify_users_tooltip": "E-poçt göndər"
+                }
+            },
+            "success": "Şirkətlər əlavə olunub"
+        },
+        "dialog": {
+            "title": "Tarif paketinin fəaliyyətini ləğv etmək",
+            "text": "Şirkətin sorğularında standart tarif paketi fəaliyyət göstərəcəkdir.",
+            "sub": "Tətbiq et",
+            "cancel": "Ləğv et"
+        },
+        "empty": "Tarif paketinin tətbiq olunacağı sifarişçiləri əlavə edin"
+    }
 }

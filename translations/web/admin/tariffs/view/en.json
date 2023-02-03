@@ -1,5 +1,97 @@
 {
-  "trf.view": {
-
-  }
+    "trf.view": {
+        "details": {
+            "actions": {
+                "activate": "Activate",
+                "deactivate": "Terminate",
+                "default": "Set as default tariff",
+                "delete": "Delete"
+            },
+            "default": {
+                "title": "Default trading type",
+                "text": "The default bidding type will be assigned to new requests"
+            }
+        },
+        "tariff": {
+            "name": {
+                "placeholder": "Tariff name"
+            },
+            "code": {
+                "placeholder": "Code (ID)"
+            },
+            "descr": {
+                "label": "Description for the customer",
+                "placeholder": "Provide a brief description of the tariff that allows the customer to understand under what conditions this type is used..."
+            }
+        },
+        "conditions": {
+            "title": "Tariff grid",
+            "create": "Add tariff grid",
+            "empty": "Tariff grid not added",
+            "card": {
+                "version": "Current version",
+                "to": "to"
+            },
+            "editor": {
+                "header": "Tariff schedule",
+                "cancel": "Cancel",
+                "submit": "Add",
+                "append": "Configure tariff",
+                "to": "To",
+                "sum": "Sum"
+            }
+        },
+        "comment": {
+            "add": "Add comment",
+            "edit": "Edit comment"
+        },
+        "dialogs": {
+            "comment": {
+                "title": "Comment",
+                "hint": "Comment is available only to site administrators",
+                "placeholder": "Enter a comment",
+                "save": "Save",
+                "cancel": "Cancel",
+                "success": "Comment added"
+            },
+            "deactivate": {
+                "header": "Terminate the tariff",
+                "text": "The tariff will not be available to users when configuring new requests",
+                "cancel": "Cancel",
+                "submit": "Terminate action"
+            },
+            "delete": {
+                "header": "Delete draft",
+                "cancel": "Cancel",
+                "submit": "Delete"
+            },
+            "default": {
+                "header": "Attention!",
+                "text": "The tariff will be applied by default to new requests.\nThe current default tariff will not be applied",
+                "cancel": "Cancel",
+                "submit": "Set the default tariff"
+            },
+            "activate": {
+                "header": "Put into effect",
+                "text": "The tariff will be published and users will be able to use it when configuring requests",
+                "cancel": "Cancel",
+                "submit": "Put into effect",
+                "validation": {
+                    "Tariff.Description.isEmpty": "No description specified",
+                    "Tariff.Name .isEmpty": "Name not specified",
+                    "Tariff.Code.isEmpty": "No code specified",
+                    "Tariff.Code.IsNotUnique": "Not a unique code",
+                    "Tariff.Conditions.HasNoActive": "The tariff schedule is not configured"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "Tariffs": {
+                "HasNoCorrectStatus": "The tariff status has changed. Please refresh the page.",
+                "IsNotUnique": "The fare code must be unique."
+            }
+        }
+    }
 }

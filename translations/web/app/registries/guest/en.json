@@ -1,29 +1,29 @@
 {
-  "rgs": {
-    "gst": {
-      "botzaar": {
-        "auth": {
-          "title": "{{ value }} invites companies for cooperation.",
-          "text": "Login to ProcureSaas to accept the invitation."
-        },
-        "company": {
-          "title": "{{ value }} invites companies for cooperation.",
-          "text": "Register a company to accept the invitation."
-        },
-        "join": {
-          "title": "{{ value }} invites companies for cooperation."
-        },
-        "actions": {
-          "auth": "Login to ProcureSaas",
-          "company": "Register the company",
-          "join": "Accept invitation"
+    "rgs": {
+        "gst": {
+            "botzaar": {
+                "auth": {
+                    "title": "{{ value }} invites companies for cooperation.",
+                    "text": "Login to ProcureSaas to accept the invitation."
+                },
+                "company": {
+                    "title": "{{ value }} invites companies for cooperation.",
+                    "text": "Register a company to accept the invitation."
+                },
+                "join": {
+                    "title": "{{ value }} invites companies for cooperation."
+                },
+                "actions": {
+                    "auth": "Login to ProcureSaas",
+                    "company": "Register the company",
+                    "join": "Accept invitation"
+                }
+            },
+            "application": {
+                "actions": {
+                    "submit": "Submit application"
+                }
+            }
         }
-      },
-      "application": {
-        "actions": {
-          "submit": "Submit application"
-        }
-      }
     }
-  }
 }

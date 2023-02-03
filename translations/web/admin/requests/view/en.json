@@ -1,9 +1,9 @@
 {
-  "request.view": {
-    "tabs": {
-      "query": "Query",
-      "participants": "Participants",
-      "events": "Events"
+    "request.view": {
+        "tabs": {
+            "query": "Query",
+            "participants": "Participants",
+            "events": "Events"
+        }
     }
-  }
 }

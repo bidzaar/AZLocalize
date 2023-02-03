@@ -1,0 +1,52 @@
+{
+    "brs": {
+        "list": {
+            "header": {
+                "title": "web/admin/buyers: brs.list.header.title",
+                "create": "web/admin/buyers: brs.list.header.create"
+            },
+            "search": {
+                "placeholder": "web/admin/buyers: brs.list.search.placeholder"
+            },
+            "company": {
+                "remove": "web/admin/buyers: brs.list.company.remove"
+            }
+        },
+        "editor": {
+            "header": {
+                "title": "web/admin/buyers: brs.editor.header.title"
+            },
+            "name": {
+                "label": "web/admin/buyers: brs.editor.name.label",
+                "placeholder": "web/admin/buyers: brs.editor.name.placeholder"
+            },
+            "index": {
+                "label": "web/admin/buyers: brs.editor.index.label"
+            },
+            "customers": {
+                "label": "web/admin/buyers: brs.editor.customers.label",
+                "search": "web/admin/buyers: brs.editor.customers.search",
+                "add": "web/admin/buyers: brs.editor.customers.add",
+                "empty": "web/admin/buyers: brs.editor.customers.empty"
+            },
+            "actions": {
+                "cancel": "web/admin/buyers: brs.editor.actions.cancel",
+                "remove": "web/admin/buyers: brs.editor.actions.remove",
+                "submit": "web/admin/buyers: brs.editor.actions.submit"
+            },
+            "logo": {
+                "label": "web/admin/buyers: brs.editor.logo.label",
+                "label_info": "web/admin/buyers: brs.editor.logo.label_info",
+                "from_file": "web/admin/buyers: brs.editor.logo.from_file",
+                "from_profile": "web/admin/buyers: brs.editor.logo.from_profile"
+            }
+        },
+        "dialogs": {
+            "remove": {
+                "title": "web/admin/buyers: brs.dialogs.remove.title",
+                "cancel": "web/admin/buyers: brs.dialogs.remove.cancel",
+                "submit": "web/admin/buyers: brs.dialogs.remove.submit"
+            }
+        }
+    }
+}

@@ -1,0 +1,209 @@
+{
+    "rgs": {
+        "dst": {
+            "accreditation": {
+                "header": {
+                    "actions": "web/app/registries/details: rgs.dst.accreditation.header.actions"
+                },
+                "general": {
+                    "title": "web/app/registries/details: rgs.dst.accreditation.general.title",
+                    "representer": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.representer.label"
+                    },
+                    "participant": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.participant.label",
+                        "details": "web/app/registries/details: rgs.dst.accreditation.general.participant.details"
+                    },
+                    "blocking": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.blocking.label"
+                    },
+                    "refusing": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.refusing.label"
+                    },
+                    "accreditation": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.label",
+                        "application": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.application",
+                        "protocol": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.protocol",
+                        "open_application": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.open_application",
+                        "download_application": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.download_application",
+                        "scoring": {
+                            "points": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.scoring.points",
+                            "category": "web/app/registries/details: rgs.dst.accreditation.general.accreditation.scoring.category"
+                        }
+                    },
+                    "contact": {
+                        "label": "web/app/registries/details: rgs.dst.accreditation.general.contact.label"
+                    }
+                },
+                "application": {
+                    "text": "web/app/registries/details: rgs.dst.accreditation.application.text",
+                    "link": "web/app/registries/details: rgs.dst.accreditation.application.link"
+                }
+            },
+            "application": {
+                "header": {
+                    "application": "web/app/registries/details: rgs.dst.application.header.application",
+                    "actions": "web/app/registries/details: rgs.dst.application.header.actions"
+                },
+                "general": {
+                    "title": "web/app/registries/details: rgs.dst.application.general.title",
+                    "application_status": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.application_status.label",
+                        "reason": "web/app/registries/details: rgs.dst.application.general.application_status.reason"
+                    },
+                    "registry": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.registry.label"
+                    },
+                    "participant": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.participant.label",
+                        "details": "web/app/registries/details: rgs.dst.application.general.participant.details"
+                    },
+                    "representer": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.representer.label"
+                    },
+                    "participant_status": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.participant_status.label",
+                        "details": "web/app/registries/details: rgs.dst.application.general.participant_status.details"
+                    },
+                    "scoring": {
+                        "label": "web/app/registries/details: rgs.dst.application.general.scoring.label"
+                    },
+                    "application": {
+                        "open_application": "web/app/registries/details: rgs.dst.application.general.application.open_application",
+                        "download_application": "web/app/registries/details: rgs.dst.application.general.application.download_application",
+                        "download_protocol": "web/app/registries/details: rgs.dst.application.general.application.download_protocol"
+                    }
+                }
+            },
+            "general": {
+                "accreditation_status": {
+                    "details": "web/app/registries/details: rgs.dst.general.accreditation_status.details",
+                    "reason": "web/app/registries/details: rgs.dst.general.accreditation_status.reason"
+                },
+                "application_status": {
+                    "details": "web/app/registries/details: rgs.dst.general.application_status.details",
+                    "reason": "web/app/registries/details: rgs.dst.general.application_status.reason"
+                },
+                "questionnaire": {
+                    "open": "web/app/registries/details: rgs.dst.general.questionnaire.open",
+                    "download": "web/app/registries/details: rgs.dst.general.questionnaire.download",
+                    "scoring": {
+                        "short": "web/app/registries/details: rgs.dst.general.questionnaire.scoring.short",
+                        "long": "web/app/registries/details: rgs.dst.general.questionnaire.scoring.long"
+                    }
+                },
+                "approvement": {
+                    "report": "web/app/registries/details: rgs.dst.general.approvement.report"
+                }
+            },
+            "stages": {
+                "header": {
+                    "title": "web/app/registries/details: rgs.dst.stages.header.title"
+                },
+                "content": {
+                    "stage": {
+                        "title": "web/app/registries/details: rgs.dst.stages.content.stage.title"
+                    },
+                    "decision": {
+                        "title": "web/app/registries/details: rgs.dst.stages.content.decision.title",
+                        "auto": "web/app/registries/details: rgs.dst.stages.content.decision.auto"
+                    },
+                    "group": {
+                        "empty": "web/app/registries/details: rgs.dst.stages.content.group.empty",
+                        "conclusions": {
+                            "empty": "web/app/registries/details: rgs.dst.stages.content.group.conclusions.empty",
+                            "count": "web/app/registries/details: rgs.dst.stages.content.group.conclusions.count",
+                            "rating": "web/app/registries/details: rgs.dst.stages.content.group.conclusions.rating"
+                        }
+                    }
+                }
+            },
+            "approval": {
+                "decision": {
+                    "title": "web/app/registries/details: rgs.dst.approval.decision.title",
+                    "notice": "web/app/registries/details: rgs.dst.approval.decision.notice",
+                    "unavailable": "web/app/registries/details: rgs.dst.approval.decision.unavailable"
+                },
+                "grade": {
+                    "title": "web/app/registries/details: rgs.dst.approval.grade.title",
+                    "notice": "web/app/registries/details: rgs.dst.approval.grade.notice",
+                    "unavailable": "web/app/registries/details: rgs.dst.approval.grade.unavailable"
+                },
+                "final": {
+                    "title": "web/app/registries/details: rgs.dst.approval.final.title",
+                    "notice": "web/app/registries/details: rgs.dst.approval.final.notice",
+                    "unavailable": "web/app/registries/details: rgs.dst.approval.final.unavailable"
+                },
+                "common": {
+                    "actions": {
+                        "change": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.actions.change.title",
+                            "notice": "web/app/registries/details: rgs.dst.approval.common.actions.change.notice"
+                        },
+                        "decline": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.actions.decline.title",
+                            "success": "web/app/registries/details: rgs.dst.approval.common.actions.decline.success"
+                        },
+                        "assess": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.actions.assess.title"
+                        },
+                        "accept": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.actions.accept.title",
+                            "success": "web/app/registries/details: rgs.dst.approval.common.actions.accept.success"
+                        },
+                        "reject": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.actions.reject.title",
+                            "success": "web/app/registries/details: rgs.dst.approval.common.actions.reject.success"
+                        }
+                    },
+                    "editable": {
+                        "choice": {
+                            "approve": "web/app/registries/details: rgs.dst.approval.common.editable.choice.approve",
+                            "decline": "web/app/registries/details: rgs.dst.approval.common.editable.choice.decline",
+                            "accept": "web/app/registries/details: rgs.dst.approval.common.editable.choice.accept",
+                            "reject": "web/app/registries/details: rgs.dst.approval.common.editable.choice.reject"
+                        },
+                        "participant": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.editable.participant.title",
+                            "reason": "web/app/registries/details: rgs.dst.approval.common.editable.participant.reason"
+                        },
+                        "commission": {
+                            "title": "web/app/registries/details: rgs.dst.approval.common.editable.commission.title",
+                            "comment": "web/app/registries/details: rgs.dst.approval.common.editable.commission.comment",
+                            "documents": "web/app/registries/details: rgs.dst.approval.common.editable.commission.documents",
+                            "grade": {
+                                "of": "web/app/registries/details: rgs.dst.approval.common.editable.commission.grade.of",
+                                "label": "web/app/registries/details: rgs.dst.approval.common.editable.commission.grade.label"
+                            }
+                        },
+                        "duration": {
+                            "title": {
+                                "finite": "web/app/registries/details: rgs.dst.approval.common.editable.duration.title.finite",
+                                "infinite": "web/app/registries/details: rgs.dst.approval.common.editable.duration.title.infinite"
+                            },
+                            "unit": "web/app/registries/details: rgs.dst.approval.common.editable.duration.unit"
+                        }
+                    }
+                }
+            },
+            "reports": {
+                "header": {
+                    "application": "web/app/registries/details: rgs.dst.reports.header.application"
+                },
+                "sync": {
+                    "title": "web/app/registries/details: rgs.dst.reports.sync.title",
+                    "comment": "web/app/registries/details: rgs.dst.reports.sync.comment",
+                    "action": "web/app/registries/details: rgs.dst.reports.sync.action"
+                },
+                "async": {
+                    "title": "web/app/registries/details: rgs.dst.reports.async.title",
+                    "comment": "web/app/registries/details: rgs.dst.reports.async.comment",
+                    "action": "web/app/registries/details: rgs.dst.reports.async.action",
+                    "success": {
+                        "application": "web/app/registries/details: rgs.dst.reports.async.success.application"
+                    }
+                }
+            }
+        }
+    }
+}

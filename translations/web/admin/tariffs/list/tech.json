@@ -1,0 +1,19 @@
+{
+    "trf.list": {
+        "header": "web/admin/tariffs/list: trf.list.header",
+        "create": "web/admin/tariffs/list: trf.list.create",
+        "participants": "web/admin/tariffs/list: trf.list.participants",
+        "status": "web/admin/tariffs/list: trf.list.status",
+        "empty": "web/admin/tariffs/list: trf.list.empty",
+        "empty_search": "web/admin/tariffs/list: trf.list.empty_search",
+        "search_tooltip": "web/admin/tariffs/list: trf.list.search_tooltip",
+        "dialogs": {
+            "create": {
+                "header": "web/admin/tariffs/list: trf.list.dialogs.create.header",
+                "label": "web/admin/tariffs/list: trf.list.dialogs.create.label",
+                "cancel": "web/admin/tariffs/list: trf.list.dialogs.create.cancel",
+                "submit": "web/admin/tariffs/list: trf.list.dialogs.create.submit"
+            }
+        }
+    }
+}

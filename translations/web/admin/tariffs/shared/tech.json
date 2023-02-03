@@ -1,0 +1,17 @@
+{
+    "trf.shared": {
+        "default": "web/admin/tariffs/shared: trf.shared.default",
+        "code": {
+            "value": "web/admin/tariffs/shared: trf.shared.code.value",
+            "empty": "web/admin/tariffs/shared: trf.shared.code.empty"
+        },
+        "name": {
+            "empty": "web/admin/tariffs/shared: trf.shared.name.empty"
+        },
+        "status": {
+            "0": "web/admin/tariffs/shared: trf.shared.status.0",
+            "1": "web/admin/tariffs/shared: trf.shared.status.1",
+            "2": "web/admin/tariffs/shared: trf.shared.status.2"
+        }
+    }
+}

@@ -1,0 +1,139 @@
+{
+    "hrch": {
+        "list": {
+            "title": {
+                "registry": "web/app/hierarchy: hrch.list.title.registry"
+            },
+            "empty": {
+                "title": "web/app/hierarchy: hrch.list.empty.title",
+                "text": {
+                    "registry": "web/app/hierarchy: hrch.list.empty.text.registry"
+                }
+            },
+            "empty_list": "web/app/hierarchy: hrch.list.empty_list",
+            "create": "web/app/hierarchy: hrch.list.create",
+            "new_folder": "web/app/hierarchy: hrch.list.new_folder",
+            "new_item": {
+                "registry": "web/app/hierarchy: hrch.list.new_item.registry"
+            },
+            "folder_menu": {
+                "rename": "web/app/hierarchy: hrch.list.folder_menu.rename",
+                "groups": "web/app/hierarchy: hrch.list.folder_menu.groups",
+                "move": "web/app/hierarchy: hrch.list.folder_menu.move",
+                "delete": "web/app/hierarchy: hrch.list.folder_menu.delete",
+                "clone": "web/app/hierarchy: hrch.list.folder_menu.clone"
+            },
+            "clone_dialog": {
+                "title": "web/app/hierarchy: hrch.list.clone_dialog.title",
+                "label": "web/app/hierarchy: hrch.list.clone_dialog.label",
+                "description": "web/app/hierarchy: hrch.list.clone_dialog.description",
+                "cancel": "web/app/hierarchy: hrch.list.clone_dialog.cancel",
+                "clone": "web/app/hierarchy: hrch.list.clone_dialog.clone",
+                "success": "web/app/hierarchy: hrch.list.clone_dialog.success",
+                "title_additive": "web/app/hierarchy: hrch.list.clone_dialog.title_additive"
+            },
+            "selection_dialog": {
+                "current_folder": "web/app/hierarchy: hrch.list.selection_dialog.current_folder",
+                "cancel": "web/app/hierarchy: hrch.list.selection_dialog.cancel"
+            },
+            "new_registry_dialog": {
+                "title": "web/app/hierarchy: hrch.list.new_registry_dialog.title",
+                "label": "web/app/hierarchy: hrch.list.new_registry_dialog.label",
+                "create": "web/app/hierarchy: hrch.list.new_registry_dialog.create",
+                "cancel": "web/app/hierarchy: hrch.list.new_registry_dialog.cancel"
+            },
+            "new_folder_dialog": {
+                "title": "web/app/hierarchy: hrch.list.new_folder_dialog.title",
+                "rename_title": "web/app/hierarchy: hrch.list.new_folder_dialog.rename_title",
+                "label": "web/app/hierarchy: hrch.list.new_folder_dialog.label",
+                "create": "web/app/hierarchy: hrch.list.new_folder_dialog.create",
+                "rename_submit": "web/app/hierarchy: hrch.list.new_folder_dialog.rename_submit",
+                "cancel": "web/app/hierarchy: hrch.list.new_folder_dialog.cancel"
+            },
+            "users_dialog": {
+                "title": "web/app/hierarchy: hrch.list.users_dialog.title",
+                "info": "web/app/hierarchy: hrch.list.users_dialog.info",
+                "add_employee": "web/app/hierarchy: hrch.list.users_dialog.add_employee",
+                "close": "web/app/hierarchy: hrch.list.users_dialog.close",
+                "admin": "web/app/hierarchy: hrch.list.users_dialog.admin"
+            },
+            "delete_dialog": {
+                "title": "web/app/hierarchy: hrch.list.delete_dialog.title",
+                "cancel": "web/app/hierarchy: hrch.list.delete_dialog.cancel",
+                "delete": "web/app/hierarchy: hrch.list.delete_dialog.delete",
+                "error": {
+                    "title": "web/app/hierarchy: hrch.list.delete_dialog.error.title",
+                    "info": "web/app/hierarchy: hrch.list.delete_dialog.error.info",
+                    "close": "web/app/hierarchy: hrch.list.delete_dialog.error.close"
+                }
+            },
+            "move_dialog": {
+                "submit": "web/app/hierarchy: hrch.list.move_dialog.submit"
+            },
+            "registry_status": {
+                "0": "web/app/hierarchy: hrch.list.registry_status.0",
+                "1": "web/app/hierarchy: hrch.list.registry_status.1",
+                "2": "web/app/hierarchy: hrch.list.registry_status.2"
+            },
+            "registry": {
+                "accreditations": {
+                    "tooltip": "web/app/hierarchy: hrch.list.registry.accreditations.tooltip"
+                },
+                "applications": {
+                    "tooltip": "web/app/hierarchy: hrch.list.registry.applications.tooltip"
+                },
+                "count": "web/app/hierarchy: hrch.list.registry.count"
+            },
+            "access_denied": "web/app/hierarchy: hrch.list.access_denied",
+            "groups_dialog": {
+                "title": "web/app/hierarchy: hrch.list.groups_dialog.title",
+                "done": "web/app/hierarchy: hrch.list.groups_dialog.done",
+                "groups": {
+                    "title": "web/app/hierarchy: hrch.list.groups_dialog.groups.title",
+                    "add": "web/app/hierarchy: hrch.list.groups_dialog.groups.add",
+                    "add_tooltip": "web/app/hierarchy: hrch.list.groups_dialog.groups.add_tooltip",
+                    "empty": "web/app/hierarchy: hrch.list.groups_dialog.groups.empty",
+                    "empty_permissions": "web/app/hierarchy: hrch.list.groups_dialog.groups.empty_permissions"
+                },
+                "users": {
+                    "empty": "web/app/hierarchy: hrch.list.groups_dialog.users.empty",
+                    "empty_permissions": "web/app/hierarchy: hrch.list.groups_dialog.users.empty_permissions",
+                    "admin_tooltip": "web/app/hierarchy: hrch.list.groups_dialog.users.admin_tooltip",
+                    "no_rights": "web/app/hierarchy: hrch.list.groups_dialog.users.no_rights"
+                }
+            },
+            "permissions_dialog": {
+                "group_title": "web/app/hierarchy: hrch.list.permissions_dialog.group_title",
+                "user_title": "web/app/hierarchy: hrch.list.permissions_dialog.user_title",
+                "override": "web/app/hierarchy: hrch.list.permissions_dialog.override",
+                "cancel": "web/app/hierarchy: hrch.list.permissions_dialog.cancel",
+                "submit": "web/app/hierarchy: hrch.list.permissions_dialog.submit",
+                "no_rights": "web/app/hierarchy: hrch.list.permissions_dialog.no_rights",
+                "no_permissions": "web/app/hierarchy: hrch.list.permissions_dialog.no_permissions",
+                "allowed_permissions": "web/app/hierarchy: hrch.list.permissions_dialog.allowed_permissions"
+            },
+            "registry_permissions": {
+                "1": {
+                    "title": "web/app/hierarchy: hrch.list.registry_permissions.1.title",
+                    "description": "web/app/hierarchy: hrch.list.registry_permissions.1.description"
+                },
+                "2": {
+                    "title": "web/app/hierarchy: hrch.list.registry_permissions.2.title",
+                    "description": "web/app/hierarchy: hrch.list.registry_permissions.2.description"
+                },
+                "4": {
+                    "title": "web/app/hierarchy: hrch.list.registry_permissions.4.title",
+                    "description": "web/app/hierarchy: hrch.list.registry_permissions.4.description"
+                },
+                "8": {
+                    "title": "web/app/hierarchy: hrch.list.registry_permissions.8.title",
+                    "description": "web/app/hierarchy: hrch.list.registry_permissions.8.description"
+                },
+                "16": {
+                    "title": "web/app/hierarchy: hrch.list.registry_permissions.16.title",
+                    "description": "web/app/hierarchy: hrch.list.registry_permissions.16.description"
+                }
+            }
+        }
+    }
+}

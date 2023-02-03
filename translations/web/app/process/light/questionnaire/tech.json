@@ -1,0 +1,40 @@
+{
+    "pl": {
+        "qst": {
+            "templates": {
+                "buttons": {
+                    "save": "web/app/process/light/questionnaire: pl.qst.templates.buttons.save",
+                    "list": "web/app/process/light/questionnaire: pl.qst.templates.buttons.list"
+                },
+                "list": {
+                    "empty": "web/app/process/light/questionnaire: pl.qst.templates.list.empty"
+                },
+                "dialogs": {
+                    "apply": {
+                        "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.title",
+                        "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.text",
+                        "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.cancel",
+                        "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.submit",
+                        "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.success"
+                    },
+                    "remove": {
+                        "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.title",
+                        "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.text",
+                        "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.cancel",
+                        "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.submit",
+                        "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.success"
+                    },
+                    "create": {
+                        "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.title",
+                        "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.text",
+                        "label": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.label",
+                        "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.cancel",
+                        "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.submit",
+                        "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.success",
+                        "default_value": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.default_value"
+                    }
+                }
+            }
+        }
+    }
+}

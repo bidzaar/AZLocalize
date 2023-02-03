@@ -1,19 +1,26 @@
 {
-  "trf.pcg.list": {
-    "header": {
-      "title": "Tariff Packages",
-      "add": "Add Tariff Package"
-    },
-    "package": {
-      "customers": "Customers",
-      "label": "Edit"
-    },
-    "dialog": {
-      "title": "Tariff package",
-      "input": "Package name",
-      "add": "done",
-      "cancel": "Cancel"
-    },
-    "empty": "List is empty"
-  }
+    "trf.pcg.list": {
+        "header": {
+            "title": "Tariff Packages",
+            "add": "Add Tariff Package",
+            "records": "Records: {{ value }}",
+            "search": "The search is carried out by fields: •Name of the tariff package"
+        },
+        "package": {
+            "customers": "Customers",
+            "label": "Edit"
+        },
+        "dialog": {
+            "title": "Tariff package",
+            "input": "Package name",
+            "add": "done",
+            "cancel": "Cancel",
+            "error": {
+                "title": "This package name already exists",
+                "text": "Specify another name of the tariff"
+            }
+        },
+        "empty": "List is empty",
+        "empty_search": "Nothing was found for your request..."
+    }
 }

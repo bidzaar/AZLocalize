@@ -1,0 +1,105 @@
+{
+    "cgr": {
+        "list": {
+            "header": {
+                "title": "web/app/cgroups/list: cgr.list.header.title"
+            },
+            "empty": {
+                "title": "web/app/cgroups/list: cgr.list.empty.title",
+                "text": "web/app/cgroups/list: cgr.list.empty.text"
+            },
+            "search": {
+                "tooltip": "web/app/cgroups/list: cgr.list.search.tooltip"
+            },
+            "sorting": {
+                "name": {
+                    "title": "web/app/cgroups/list: cgr.list.sorting.name.title"
+                },
+                "last_changes": {
+                    "title": "web/app/cgroups/list: cgr.list.sorting.last_changes.title"
+                },
+                "creation_date": {
+                    "title": "web/app/cgroups/list: cgr.list.sorting.creation_date.title"
+                },
+                "count": {
+                    "title": "web/app/cgroups/list: cgr.list.sorting.count.title"
+                }
+            },
+            "filters": {
+                "last_changes": {
+                    "title": "web/app/cgroups/list: cgr.list.filters.last_changes.title"
+                },
+                "creation_date": {
+                    "title": "web/app/cgroups/list: cgr.list.filters.creation_date.title"
+                },
+                "my": {
+                    "title": "web/app/cgroups/list: cgr.list.filters.my.title",
+                    "options": {
+                        "true": "web/app/cgroups/list: cgr.list.filters.my.options.true",
+                        "false": "web/app/cgroups/list: cgr.list.filters.my.options.false"
+                    }
+                },
+                "blocked": {
+                    "title": "web/app/cgroups/list: cgr.list.filters.blocked.title",
+                    "options": {
+                        "true": "web/app/cgroups/list: cgr.list.filters.blocked.options.true",
+                        "false": "web/app/cgroups/list: cgr.list.filters.blocked.options.false"
+                    }
+                },
+                "users": {
+                    "title": "web/app/cgroups/list: cgr.list.filters.users.title"
+                },
+                "empty": "web/app/cgroups/list: cgr.list.filters.empty"
+            },
+            "item": {
+                "dates": {
+                    "created": "web/app/cgroups/list: cgr.list.item.dates.created",
+                    "changed": "web/app/cgroups/list: cgr.list.item.dates.changed",
+                    "separator": "web/app/cgroups/list: cgr.list.item.dates.separator"
+                },
+                "marks": {
+                    "member": "web/app/cgroups/list: cgr.list.item.marks.member",
+                    "blocked": "web/app/cgroups/list: cgr.list.item.marks.blocked"
+                },
+                "team": {
+                    "tooltip": "web/app/cgroups/list: cgr.list.item.team.tooltip",
+                    "count": "web/app/cgroups/list: cgr.list.item.team.count"
+                },
+                "companies": {
+                    "empty": "web/app/cgroups/list: cgr.list.item.companies.empty"
+                },
+                "actions": {
+                    "view": {
+                        "title": "web/app/cgroups/list: cgr.list.item.actions.view.title"
+                    }
+                }
+            },
+            "actions": {
+                "create": "web/app/cgroups/list: cgr.list.actions.create"
+            },
+            "dialogs": {
+                "create": {
+                    "header": "web/app/cgroups/list: cgr.list.dialogs.create.header",
+                    "form": {
+                        "label": "web/app/cgroups/list: cgr.list.dialogs.create.form.label"
+                    },
+                    "errors": {
+                        "duplicate": {
+                            "reason": "web/app/cgroups/list: cgr.list.dialogs.create.errors.duplicate.reason",
+                            "notice": "web/app/cgroups/list: cgr.list.dialogs.create.errors.duplicate.notice"
+                        },
+                        "default": {
+                            "reason": "web/app/cgroups/list: cgr.list.dialogs.create.errors.default.reason",
+                            "notice": "web/app/cgroups/list: cgr.list.dialogs.create.errors.default.notice"
+                        }
+                    },
+                    "actions": {
+                        "cancel": "web/app/cgroups/list: cgr.list.dialogs.create.actions.cancel",
+                        "submit": "web/app/cgroups/list: cgr.list.dialogs.create.actions.submit"
+                    },
+                    "snack": "web/app/cgroups/list: cgr.list.dialogs.create.snack"
+                }
+            }
+        }
+    }
+}

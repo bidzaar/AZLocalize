@@ -1,0 +1,72 @@
+{
+    "usr": {
+        "users": {
+            "list": {
+                "title": "web/admin/users: usr.users.list.title",
+                "search": {
+                    "name": "web/admin/users: usr.users.list.search.name"
+                },
+                "filters": {
+                    "status": "web/admin/users: usr.users.list.filters.status",
+                    "statusChangedOn": "web/admin/users: usr.users.list.filters.statusChangedOn",
+                    "rights": "web/admin/users: usr.users.list.filters.rights"
+                },
+                "sorting": {
+                    "name_asc": "web/admin/users: usr.users.list.sorting.name_asc",
+                    "name_desc": "web/admin/users: usr.users.list.sorting.name_desc",
+                    "status": "web/admin/users: usr.users.list.sorting.status"
+                },
+                "empty": "web/admin/users: usr.users.list.empty"
+            },
+            "status": {
+                "0": "web/admin/users: usr.users.status.0",
+                "1": "web/admin/users: usr.users.status.1",
+                "2": "web/admin/users: usr.users.status.2",
+                "3": "web/admin/users: usr.users.status.3",
+                "4": "web/admin/users: usr.users.status.4"
+            },
+            "rights": {
+                "0": "web/admin/users: usr.users.rights.0",
+                "1": "web/admin/users: usr.users.rights.1",
+                "2": "web/admin/users: usr.users.rights.2",
+                "4": "web/admin/users: usr.users.rights.4",
+                "8": "web/admin/users: usr.users.rights.8",
+                "16": "web/admin/users: usr.users.rights.16",
+                "32": "web/admin/users: usr.users.rights.32",
+                "64": "web/admin/users: usr.users.rights.64",
+                "256": "web/admin/users: usr.users.rights.256",
+                "512": "web/admin/users: usr.users.rights.512",
+                "1024": "web/admin/users: usr.users.rights.1024"
+            },
+            "change_role_dialog": {
+                "title": "web/admin/users: usr.users.change_role_dialog.title",
+                "cancel": "web/admin/users: usr.users.change_role_dialog.cancel",
+                "apply": "web/admin/users: usr.users.change_role_dialog.apply"
+            },
+            "dialog": {
+                "block": {
+                    "title": "web/admin/users: usr.users.dialog.block.title",
+                    "text": "web/admin/users: usr.users.dialog.block.text",
+                    "no": "web/admin/users: usr.users.dialog.block.no",
+                    "yes": "web/admin/users: usr.users.dialog.block.yes"
+                }
+            }
+        },
+        "user_preview": {
+            "title": "web/admin/users: usr.user_preview.title",
+            "add": "web/admin/users: usr.user_preview.add",
+            "approve": "web/admin/users: usr.user_preview.approve",
+            "reject": "web/admin/users: usr.user_preview.reject",
+            "reject_dialog": {
+                "text": "web/admin/users: usr.user_preview.reject_dialog.text",
+                "yes": "web/admin/users: usr.user_preview.reject_dialog.yes",
+                "no": "web/admin/users: usr.user_preview.reject_dialog.no"
+            },
+            "success": "web/admin/users: usr.user_preview.success"
+        },
+        "button_management": {
+            "delete": "web/admin/users: usr.button_management.delete",
+            "unblock": "web/admin/users: usr.button_management.unblock"
+        }
+    }
+}

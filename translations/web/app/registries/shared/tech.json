@@ -1,0 +1,226 @@
+{
+    "rgs": {
+        "shared": {
+            "header": {
+                "actions": {
+                    "contact": "web/app/registries/shared: rgs.shared.header.actions.contact",
+                    "profile": "web/app/registries/shared: rgs.shared.header.actions.profile"
+                },
+                "dialog_contact": {
+                    "title": "web/app/registries/shared: rgs.shared.header.dialog_contact.title",
+                    "button": "web/app/registries/shared: rgs.shared.header.dialog_contact.button"
+                }
+            },
+            "enum": {
+                "visibility": {
+                    "0": "web/app/registries/shared: rgs.shared.enum.visibility.0",
+                    "1": "web/app/registries/shared: rgs.shared.enum.visibility.1"
+                },
+                "approval": {
+                    "1": "web/app/registries/shared: rgs.shared.enum.approval.1",
+                    "2": "web/app/registries/shared: rgs.shared.enum.approval.2",
+                    "3": "web/app/registries/shared: rgs.shared.enum.approval.3",
+                    "4": "web/app/registries/shared: rgs.shared.enum.approval.4"
+                },
+                "participant": {
+                    "0": "web/app/registries/shared: rgs.shared.enum.participant.0",
+                    "1": "web/app/registries/shared: rgs.shared.enum.participant.1",
+                    "2": "web/app/registries/shared: rgs.shared.enum.participant.2",
+                    "3": "web/app/registries/shared: rgs.shared.enum.participant.3",
+                    "4": "web/app/registries/shared: rgs.shared.enum.participant.4",
+                    "5": "web/app/registries/shared: rgs.shared.enum.participant.5",
+                    "6": "web/app/registries/shared: rgs.shared.enum.participant.6",
+                    "7": "web/app/registries/shared: rgs.shared.enum.participant.7"
+                },
+                "application": {
+                    "1": "web/app/registries/shared: rgs.shared.enum.application.1",
+                    "2": "web/app/registries/shared: rgs.shared.enum.application.2",
+                    "3": "web/app/registries/shared: rgs.shared.enum.application.3",
+                    "4": "web/app/registries/shared: rgs.shared.enum.application.4"
+                }
+            },
+            "filters": {
+                "registries": {
+                    "title": "web/app/registries/shared: rgs.shared.filters.registries.title",
+                    "open": "web/app/registries/shared: rgs.shared.filters.registries.open",
+                    "search": "web/app/registries/shared: rgs.shared.filters.registries.search",
+                    "expand": "web/app/registries/shared: rgs.shared.filters.registries.expand",
+                    "collapse": "web/app/registries/shared: rgs.shared.filters.registries.collapse",
+                    "empty": {
+                        "filter": "web/app/registries/shared: rgs.shared.filters.registries.empty.filter",
+                        "items": "web/app/registries/shared: rgs.shared.filters.registries.empty.items"
+                    }
+                }
+            },
+            "forbidden": {
+                "default": {
+                    "title": "web/app/registries/shared: rgs.shared.forbidden.default.title",
+                    "text": "web/app/registries/shared: rgs.shared.forbidden.default.text",
+                    "link": "web/app/registries/shared: rgs.shared.forbidden.default.link"
+                },
+                "rights": {
+                    "title": "web/app/registries/shared: rgs.shared.forbidden.rights.title",
+                    "text": "web/app/registries/shared: rgs.shared.forbidden.rights.text",
+                    "link": "web/app/registries/shared: rgs.shared.forbidden.rights.link"
+                },
+                "archive": {
+                    "title": "web/app/registries/shared: rgs.shared.forbidden.archive.title",
+                    "text": "web/app/registries/shared: rgs.shared.forbidden.archive.text",
+                    "link": "web/app/registries/shared: rgs.shared.forbidden.archive.link"
+                }
+            },
+            "application": {
+                "related": {
+                    "title": "web/app/registries/shared: rgs.shared.application.related.title"
+                },
+                "blocks": {
+                    "new": "web/app/registries/shared: rgs.shared.application.blocks.new",
+                    "progress": "web/app/registries/shared: rgs.shared.application.blocks.progress",
+                    "completed": "web/app/registries/shared: rgs.shared.application.blocks.completed",
+                    "open": "web/app/registries/shared: rgs.shared.application.blocks.open"
+                },
+                "process": {
+                    "title": "web/app/registries/shared: rgs.shared.application.process.title",
+                    "empty": "web/app/registries/shared: rgs.shared.application.process.empty"
+                },
+                "declined": {
+                    "title": "web/app/registries/shared: rgs.shared.application.declined.title",
+                    "reason": "web/app/registries/shared: rgs.shared.application.declined.reason"
+                },
+                "submitted": {
+                    "title": "web/app/registries/shared: rgs.shared.application.submitted.title",
+                    "text": "web/app/registries/shared: rgs.shared.application.submitted.text"
+                },
+                "obsolete": {
+                    "title": "web/app/registries/shared: rgs.shared.application.obsolete.title",
+                    "message": "web/app/registries/shared: rgs.shared.application.obsolete.message",
+                    "notice": "web/app/registries/shared: rgs.shared.application.obsolete.notice"
+                }
+            },
+            "participation": {
+                "accreditation": {
+                    "timer": "web/app/registries/shared: rgs.shared.participation.accreditation.timer",
+                    "infinite": "web/app/registries/shared: rgs.shared.participation.accreditation.infinite"
+                },
+                "scoring": {
+                    "tooltip": "web/app/registries/shared: rgs.shared.participation.scoring.tooltip"
+                },
+                "actions": {
+                    "button": "web/app/registries/shared: rgs.shared.participation.actions.button",
+                    "menu": {
+                        "1": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.menu.1.title",
+                            "description": "web/app/registries/shared: rgs.shared.participation.actions.menu.1.description"
+                        },
+                        "2": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.menu.2.title",
+                            "description": "web/app/registries/shared: rgs.shared.participation.actions.menu.2.description"
+                        },
+                        "3": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.menu.3.title",
+                            "description": "web/app/registries/shared: rgs.shared.participation.actions.menu.3.description"
+                        },
+                        "4": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.menu.4.title",
+                            "description": "web/app/registries/shared: rgs.shared.participation.actions.menu.4.description"
+                        },
+                        "5": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.menu.5.title",
+                            "description": "web/app/registries/shared: rgs.shared.participation.actions.menu.5.description"
+                        }
+                    },
+                    "dialogs": {
+                        "block": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.text",
+                            "cancel": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.cancel",
+                            "confirm": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.confirm",
+                            "reason": {
+                                "label": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.reason.label",
+                                "hint": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.block.reason.hint"
+                            }
+                        },
+                        "unblock": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unblock.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unblock.text",
+                            "cancel": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unblock.cancel",
+                            "confirm": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unblock.confirm"
+                        },
+                        "suspend": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.text",
+                            "cancel": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.cancel",
+                            "confirm": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.confirm",
+                            "reason": {
+                                "label": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.reason.label",
+                                "hint": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.suspend.reason.hint"
+                            }
+                        },
+                        "unsuspend": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unsuspend.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unsuspend.text",
+                            "cancel": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unsuspend.cancel",
+                            "confirm": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.unsuspend.confirm"
+                        },
+                        "renew": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.text",
+                            "cancel": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.cancel",
+                            "confirm": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.confirm",
+                            "reason": {
+                                "label": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.reason.label",
+                                "hint": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.reason.hint"
+                            },
+                            "success": "web/app/registries/shared: rgs.shared.participation.actions.dialogs.renew.success"
+                        }
+                    }
+                },
+                "invite": {
+                    "menu": {
+                        "invite_by_link": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.menu.invite_by_link.title",
+                            "descr": "web/app/registries/shared: rgs.shared.participation.invite.menu.invite_by_link.descr"
+                        },
+                        "invite_from_site": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.menu.invite_from_site.title",
+                            "descr": "web/app/registries/shared: rgs.shared.participation.invite.menu.invite_from_site.descr"
+                        },
+                        "accredit_from_site": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.menu.accredit_from_site.title",
+                            "descr": "web/app/registries/shared: rgs.shared.participation.invite.menu.accredit_from_site.descr"
+                        }
+                    },
+                    "dialogs": {
+                        "invite_by_link": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_by_link.title",
+                            "text": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_by_link.text",
+                            "hint": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_by_link.hint"
+                        },
+                        "invite_from_site": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_from_site.title",
+                            "action": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_from_site.action",
+                            "snack": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.invite_from_site.snack"
+                        },
+                        "accredit_from_site": {
+                            "title": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.accredit_from_site.title",
+                            "action": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.accredit_from_site.action",
+                            "snack": "web/app/registries/shared: rgs.shared.participation.invite.dialogs.accredit_from_site.snack"
+                        }
+                    }
+                }
+            },
+            "dialogs": {
+                "no-rights": {
+                    "header": "web/app/registries/shared: rgs.shared.dialogs.no-rights.header",
+                    "text": "web/app/registries/shared: rgs.shared.dialogs.no-rights.text",
+                    "submit": "web/app/registries/shared: rgs.shared.dialogs.no-rights.submit"
+                },
+                "anonymous": {
+                    "message": "web/app/registries/shared: rgs.shared.dialogs.anonymous.message",
+                    "notice": "web/app/registries/shared: rgs.shared.dialogs.anonymous.notice",
+                    "action": "web/app/registries/shared: rgs.shared.dialogs.anonymous.action"
+                }
+            }
+        }
+    }
+}

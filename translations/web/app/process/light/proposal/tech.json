@@ -1,0 +1,173 @@
+{
+    "pl": {
+        "proposal": {
+            "nda": {
+                "title": {
+                    "draft": "web/app/process/light/proposal: pl.proposal.nda.title.draft",
+                    "submitted": "web/app/process/light/proposal: pl.proposal.nda.title.submitted",
+                    "rejected": "web/app/process/light/proposal: pl.proposal.nda.title.rejected",
+                    "accepted": "web/app/process/light/proposal: pl.proposal.nda.title.accepted",
+                    "failed": "web/app/process/light/proposal: pl.proposal.nda.title.failed",
+                    "status": {
+                        "0": "web/app/process/light/proposal: pl.proposal.nda.title.status.0",
+                        "1": "web/app/process/light/proposal: pl.proposal.nda.title.status.1",
+                        "2": "web/app/process/light/proposal: pl.proposal.nda.title.status.2",
+                        "3": "web/app/process/light/proposal: pl.proposal.nda.title.status.3"
+                    }
+                },
+                "add_files_text": "web/app/process/light/proposal: pl.proposal.nda.add_files_text",
+                "description": "web/app/process/light/proposal: pl.proposal.nda.description",
+                "files_title": "web/app/process/light/proposal: pl.proposal.nda.files_title",
+                "files_info": "web/app/process/light/proposal: pl.proposal.nda.files_info",
+                "your_application": "web/app/process/light/proposal: pl.proposal.nda.your_application",
+                "add_files_update_text": "web/app/process/light/proposal: pl.proposal.nda.add_files_update_text",
+                "send": "web/app/process/light/proposal: pl.proposal.nda.send",
+                "errors": {
+                    "empty": "web/app/process/light/proposal: pl.proposal.nda.errors.empty",
+                    "correct": "web/app/process/light/proposal: pl.proposal.nda.errors.correct"
+                },
+                "manual": {
+                    "title": "web/app/process/light/proposal: pl.proposal.nda.manual.title",
+                    "message": {
+                        "1": "web/app/process/light/proposal: pl.proposal.nda.manual.message.1",
+                        "2": "web/app/process/light/proposal: pl.proposal.nda.manual.message.2"
+                    },
+                    "description": {
+                        "text": "web/app/process/light/proposal: pl.proposal.nda.manual.description.text",
+                        "explanation": "web/app/process/light/proposal: pl.proposal.nda.manual.description.explanation"
+                    }
+                }
+            },
+            "registries": {
+                "title": "web/app/process/light/proposal: pl.proposal.registries.title",
+                "text": "web/app/process/light/proposal: pl.proposal.registries.text",
+                "open": "web/app/process/light/proposal: pl.proposal.registries.open",
+                "status": {
+                    "true": "web/app/process/light/proposal: pl.proposal.registries.status.true",
+                    "false": "web/app/process/light/proposal: pl.proposal.registries.status.false"
+                },
+                "status_registry": {
+                    "accredited": "web/app/process/light/proposal: pl.proposal.registries.status_registry.accredited",
+                    "accredited_date": "web/app/process/light/proposal: pl.proposal.registries.status_registry.accredited_date",
+                    "suspended": "web/app/process/light/proposal: pl.proposal.registries.status_registry.suspended",
+                    "not_accredited": "web/app/process/light/proposal: pl.proposal.registries.status_registry.not_accredited"
+                }
+            },
+            "card": {
+                "banner": {
+                    "draft": "web/app/process/light/proposal: pl.proposal.card.banner.draft",
+                    "submitted": {
+                        "text": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.text",
+                        "button": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.button"
+                    },
+                    "edit": "web/app/process/light/proposal: pl.proposal.card.banner.edit",
+                    "summarizing": "web/app/process/light/proposal: pl.proposal.card.banner.summarizing"
+                },
+                "title": {
+                    "my": "web/app/process/light/proposal: pl.proposal.card.title.my",
+                    "alternative": "web/app/process/light/proposal: pl.proposal.card.title.alternative"
+                },
+                "rank": {
+                    "by_proposal": {
+                        "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.text",
+                        "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.label"
+                    },
+                    "by_position": {
+                        "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.text",
+                        "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.label"
+                    }
+                },
+                "price": {
+                    "title": "web/app/process/light/proposal: pl.proposal.card.price.title",
+                    "info": "web/app/process/light/proposal: pl.proposal.card.price.info"
+                },
+                "positions": {
+                    "title": "web/app/process/light/proposal: pl.proposal.card.positions.title",
+                    "action": "web/app/process/light/proposal: pl.proposal.card.positions.action",
+                    "view_action": "web/app/process/light/proposal: pl.proposal.card.positions.view_action",
+                    "statistics": {
+                        "total": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.total",
+                        "dont_have_any": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.dont_have_any"
+                    }
+                },
+                "questionnaire": {
+                    "title": "web/app/process/light/proposal: pl.proposal.card.questionnaire.title",
+                    "action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.action",
+                    "view_action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.view_action",
+                    "statistics": {
+                        "answers": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answers",
+                        "answer_count": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answer_count"
+                    }
+                },
+                "documents": {
+                    "title": "web/app/process/light/proposal: pl.proposal.card.documents.title",
+                    "sub_title": "web/app/process/light/proposal: pl.proposal.card.documents.sub_title",
+                    "action": "web/app/process/light/proposal: pl.proposal.card.documents.action",
+                    "empty": "web/app/process/light/proposal: pl.proposal.card.documents.empty",
+                    "text": "web/app/process/light/proposal: pl.proposal.card.documents.text"
+                },
+                "actions": {
+                    "submit": "web/app/process/light/proposal: pl.proposal.card.actions.submit",
+                    "more": "web/app/process/light/proposal: pl.proposal.card.actions.more",
+                    "change": "web/app/process/light/proposal: pl.proposal.card.actions.change",
+                    "update": "web/app/process/light/proposal: pl.proposal.card.actions.update",
+                    "cancel": "web/app/process/light/proposal: pl.proposal.card.actions.cancel",
+                    "recall": "web/app/process/light/proposal: pl.proposal.card.actions.recall",
+                    "order_service": "web/app/process/light/proposal: pl.proposal.card.actions.order_service"
+                },
+                "with_vat": "web/app/process/light/proposal: pl.proposal.card.with_vat",
+                "without_vat": "web/app/process/light/proposal: pl.proposal.card.without_vat"
+            },
+            "alternative": {
+                "title": "web/app/process/light/proposal: pl.proposal.alternative.title",
+                "info": "web/app/process/light/proposal: pl.proposal.alternative.info",
+                "prepare": "web/app/process/light/proposal: pl.proposal.alternative.prepare"
+            },
+            "nonexistent": {
+                "title": "web/app/process/light/proposal: pl.proposal.nonexistent.title",
+                "info": "web/app/process/light/proposal: pl.proposal.nonexistent.info"
+            },
+            "acceptance_end_date": {
+                "title": "web/app/process/light/proposal: pl.proposal.acceptance_end_date.title",
+                "time_left": "web/app/process/light/proposal: pl.proposal.acceptance_end_date.time_left"
+            },
+            "contact_info": {
+                "title": "web/app/process/light/proposal: pl.proposal.contact_info.title",
+                "change": "web/app/process/light/proposal: pl.proposal.contact_info.change"
+            },
+            "actions": {
+                "refuse": "web/app/process/light/proposal: pl.proposal.actions.refuse"
+            },
+            "refused": {
+                "title": "web/app/process/light/proposal: pl.proposal.refused.title",
+                "sub_title": "web/app/process/light/proposal: pl.proposal.refused.sub_title",
+                "return": "web/app/process/light/proposal: pl.proposal.refused.return"
+            },
+            "unavailable": {
+                "title": "web/app/process/light/proposal: pl.proposal.unavailable.title",
+                "message": "web/app/process/light/proposal: pl.proposal.unavailable.message"
+            },
+            "blocked": {
+                "title": "web/app/process/light/proposal: pl.proposal.blocked.title",
+                "sub_title": "web/app/process/light/proposal: pl.proposal.blocked.sub_title"
+            },
+            "status": {
+                "0": "web/app/process/light/proposal: pl.proposal.status.0",
+                "1": "web/app/process/light/proposal: pl.proposal.status.1",
+                "2": "web/app/process/light/proposal: pl.proposal.status.2",
+                "changing": "web/app/process/light/proposal: pl.proposal.status.changing"
+            },
+            "confirm_recall_dialog": {
+                "title": "web/app/process/light/proposal: pl.proposal.confirm_recall_dialog.title",
+                "text": "web/app/process/light/proposal: pl.proposal.confirm_recall_dialog.text",
+                "cancel": "web/app/process/light/proposal: pl.proposal.confirm_recall_dialog.cancel",
+                "submit": "web/app/process/light/proposal: pl.proposal.confirm_recall_dialog.submit"
+            },
+            "esg": {
+                "title": "web/app/process/light/proposal: pl.proposal.esg.title",
+                "text": "web/app/process/light/proposal: pl.proposal.esg.text",
+                "link": "web/app/process/light/proposal: pl.proposal.esg.link"
+            }
+        }
+    }
+}

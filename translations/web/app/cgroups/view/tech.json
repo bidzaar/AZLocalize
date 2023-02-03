@@ -1,0 +1,78 @@
+{
+    "cgr": {
+        "view": {
+            "header": {
+                "marks": {
+                    "blocked": "web/app/cgroups/view: cgr.view.header.marks.blocked"
+                },
+                "actions": {
+                    "block": "web/app/cgroups/view: cgr.view.header.actions.block",
+                    "unblock": "web/app/cgroups/view: cgr.view.header.actions.unblock"
+                }
+            },
+            "general": {
+                "description": {
+                    "label": "web/app/cgroups/view: cgr.view.general.description.label",
+                    "placeholder": "web/app/cgroups/view: cgr.view.general.description.placeholder"
+                }
+            },
+            "users": {
+                "header": "web/app/cgroups/view: cgr.view.users.header",
+                "empty": {
+                    "title": "web/app/cgroups/view: cgr.view.users.empty.title",
+                    "text": "web/app/cgroups/view: cgr.view.users.empty.text"
+                },
+                "item": {
+                    "marks": {
+                        "manager": "web/app/cgroups/view: cgr.view.users.item.marks.manager"
+                    }
+                },
+                "actions": {
+                    "append": "web/app/cgroups/view: cgr.view.users.actions.append",
+                    "remove": "web/app/cgroups/view: cgr.view.users.actions.remove",
+                    "appoint_manager": "web/app/cgroups/view: cgr.view.users.actions.appoint_manager",
+                    "remove_manager": "web/app/cgroups/view: cgr.view.users.actions.remove_manager"
+                }
+            },
+            "dialogs": {
+                "block": {
+                    "title": "web/app/cgroups/view: cgr.view.dialogs.block.title",
+                    "text": "web/app/cgroups/view: cgr.view.dialogs.block.text",
+                    "cancel": "web/app/cgroups/view: cgr.view.dialogs.block.cancel",
+                    "submit": "web/app/cgroups/view: cgr.view.dialogs.block.submit",
+                    "success": "web/app/cgroups/view: cgr.view.dialogs.block.success",
+                    "error": "web/app/cgroups/view: cgr.view.dialogs.block.error"
+                },
+                "unblock": {
+                    "title": "web/app/cgroups/view: cgr.view.dialogs.unblock.title",
+                    "text": "web/app/cgroups/view: cgr.view.dialogs.unblock.text",
+                    "cancel": "web/app/cgroups/view: cgr.view.dialogs.unblock.cancel",
+                    "submit": "web/app/cgroups/view: cgr.view.dialogs.unblock.submit",
+                    "success": "web/app/cgroups/view: cgr.view.dialogs.unblock.success",
+                    "error": "web/app/cgroups/view: cgr.view.dialogs.unblock.error"
+                },
+                "remove_user": {
+                    "title": "web/app/cgroups/view: cgr.view.dialogs.remove_user.title",
+                    "text": "web/app/cgroups/view: cgr.view.dialogs.remove_user.text",
+                    "cancel": "web/app/cgroups/view: cgr.view.dialogs.remove_user.cancel",
+                    "submit": "web/app/cgroups/view: cgr.view.dialogs.remove_user.submit"
+                },
+                "demote_self": {
+                    "title": "web/app/cgroups/view: cgr.view.dialogs.demote_self.title",
+                    "text": "web/app/cgroups/view: cgr.view.dialogs.demote_self.text",
+                    "cancel": "web/app/cgroups/view: cgr.view.dialogs.demote_self.cancel",
+                    "submit": "web/app/cgroups/view: cgr.view.dialogs.demote_self.submit"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "UserManagement": {
+                "Group": {
+                    "AlreadyExist": "web/app/cgroups/view: errors.logic.UserManagement.Group.AlreadyExist"
+                }
+            }
+        }
+    }
+}

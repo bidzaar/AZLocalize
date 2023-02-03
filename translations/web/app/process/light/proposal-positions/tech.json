@@ -1,0 +1,238 @@
+{
+    "pl": {
+        "prp": {
+            "forbidden": {
+                "title": "web/app/process/light/proposal-positions: pl.prp.forbidden.title",
+                "text": "web/app/process/light/proposal-positions: pl.prp.forbidden.text",
+                "notice": "web/app/process/light/proposal-positions: pl.prp.forbidden.notice"
+            },
+            "empty": {
+                "text": "web/app/process/light/proposal-positions: pl.prp.empty.text"
+            },
+            "header": {
+                "title": "web/app/process/light/proposal-positions: pl.prp.header.title",
+                "close": "web/app/process/light/proposal-positions: pl.prp.header.close"
+            },
+            "content": {
+                "summary": {
+                    "current": {
+                        "title": {
+                            "true": "web/app/process/light/proposal-positions: pl.prp.content.summary.current.title.true",
+                            "false": "web/app/process/light/proposal-positions: pl.prp.content.summary.current.title.false"
+                        },
+                        "tooltip": "web/app/process/light/proposal-positions: pl.prp.content.summary.current.tooltip"
+                    },
+                    "previous": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.summary.previous.title",
+                        "tooltip": "web/app/process/light/proposal-positions: pl.prp.content.summary.previous.tooltip"
+                    },
+                    "best": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.summary.best.title",
+                        "tooltip": "web/app/process/light/proposal-positions: pl.prp.content.summary.best.tooltip"
+                    },
+                    "timer": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.summary.timer.title",
+                        "tooltip": "web/app/process/light/proposal-positions: pl.prp.content.summary.timer.tooltip"
+                    },
+                    "actions": {
+                        "submit": "web/app/process/light/proposal-positions: pl.prp.content.summary.actions.submit"
+                    },
+                    "reference_price": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.summary.reference_price.title",
+                        "tooltip": "web/app/process/light/proposal-positions: pl.prp.content.summary.reference_price.tooltip"
+                    }
+                },
+                "table": {
+                    "toolbar": {
+                        "filters": {
+                            "options": {
+                                "0": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.filters.options.0",
+                                "1": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.filters.options.1",
+                                "2": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.filters.options.2",
+                                "3": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.filters.options.3"
+                            },
+                            "empty": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.filters.empty"
+                        },
+                        "actions": {
+                            "download": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.actions.download",
+                            "upload": "web/app/process/light/proposal-positions: pl.prp.content.table.toolbar.actions.upload"
+                        }
+                    },
+                    "header": {
+                        "request_index": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_index",
+                        "request_name": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_name",
+                        "request_count": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_count",
+                        "request_price_best": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_price_best",
+                        "response_availability": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_availability",
+                        "response_rank": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_rank",
+                        "response_count": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_count",
+                        "response_files": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_files",
+                        "response_price_my_converted": {
+                            "true": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my_converted.true",
+                            "false": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my_converted.false",
+                            "null": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my_converted.null"
+                        },
+                        "response_price_my": {
+                            "true.true": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.true.true",
+                            "true.false": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.true.false",
+                            "false.true": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.false.true",
+                            "false.false": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.false.false",
+                            "null.true": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.null.true",
+                            "null.false": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_price_my.null.false"
+                        },
+                        "response_currency": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_currency",
+                        "response_vat": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_vat",
+                        "response_total": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_total",
+                        "response_documents": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_documents",
+                        "response_previous_price": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_previous_price",
+                        "response_total_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_total_tooltip",
+                        "response_comment": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_comment",
+                        "request_group": "web/app/process/light/proposal-positions: pl.prp.content.table.header.request_group",
+                        "response_group": "web/app/process/light/proposal-positions: pl.prp.content.table.header.response_group",
+                        "show_columns": "web/app/process/light/proposal-positions: pl.prp.content.table.header.show_columns",
+                        "hide_columns": "web/app/process/light/proposal-positions: pl.prp.content.table.header.hide_columns"
+                    },
+                    "body": {
+                        "response_availability": {
+                            "true": "web/app/process/light/proposal-positions: pl.prp.content.table.body.response_availability.true",
+                            "false": "web/app/process/light/proposal-positions: pl.prp.content.table.body.response_availability.false"
+                        },
+                        "deviation_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.deviation_tooltip",
+                        "deviation_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.deviation_error_tooltip",
+                        "free": "web/app/process/light/proposal-positions: pl.prp.content.table.body.free",
+                        "auction_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.auction_error_tooltip",
+                        "reduction_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.reduction_error_tooltip",
+                        "price_rule_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.price_rule_error_tooltip",
+                        "dont_have_any_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.dont_have_any_tooltip",
+                        "var_error_tooltip": "web/app/process/light/proposal-positions: pl.prp.content.table.body.var_error_tooltip"
+                    }
+                },
+                "side": {
+                    "request": {
+                        "count": "web/app/process/light/proposal-positions: pl.prp.content.side.request.count",
+                        "price": {
+                            "auction": "web/app/process/light/proposal-positions: pl.prp.content.side.request.price.auction",
+                            "reduction": "web/app/process/light/proposal-positions: pl.prp.content.side.request.price.reduction",
+                            "expected": "web/app/process/light/proposal-positions: pl.prp.content.side.request.price.expected"
+                        }
+                    },
+                    "response": {
+                        "fields": {
+                            "availability": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.availability.label",
+                                "field": {
+                                    "text": {
+                                        "true": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.availability.field.text.true",
+                                        "false": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.availability.field.text.false"
+                                    },
+                                    "hint": {
+                                        "true": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.availability.field.hint.true",
+                                        "false": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.availability.field.hint.false"
+                                    }
+                                }
+                            },
+                            "count": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.count.label",
+                                "deviation": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.count.deviation"
+                            },
+                            "price": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.price.label",
+                                "hint": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.price.hint",
+                                "free": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.price.free"
+                            },
+                            "vat": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.vat.label",
+                                "none": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.vat.none"
+                            },
+                            "comment": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.comment.label"
+                            },
+                            "files": {
+                                "label": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.files.label",
+                                "upload": "web/app/process/light/proposal-positions: pl.prp.content.side.response.fields.files.upload"
+                            }
+                        },
+                        "actions": {
+                            "cancel": "web/app/process/light/proposal-positions: pl.prp.content.side.response.actions.cancel",
+                            "save": "web/app/process/light/proposal-positions: pl.prp.content.side.response.actions.save",
+                            "close": "web/app/process/light/proposal-positions: pl.prp.content.side.response.actions.close"
+                        },
+                        "validation": {
+                            "greater_than_or_equals": "web/app/process/light/proposal-positions: pl.prp.content.side.response.validation.greater_than_or_equals",
+                            "less_than": "web/app/process/light/proposal-positions: pl.prp.content.side.response.validation.less_than",
+                            "greater_than": "web/app/process/light/proposal-positions: pl.prp.content.side.response.validation.greater_than",
+                            "price_less": "web/app/process/light/proposal-positions: pl.prp.content.side.response.validation.price_less",
+                            "price_more": "web/app/process/light/proposal-positions: pl.prp.content.side.response.validation.price_more"
+                        }
+                    },
+                    "unsaved": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.side.unsaved.title",
+                        "submit": "web/app/process/light/proposal-positions: pl.prp.content.side.unsaved.submit",
+                        "cancel": "web/app/process/light/proposal-positions: pl.prp.content.side.unsaved.cancel"
+                    },
+                    "invalid": {
+                        "title": "web/app/process/light/proposal-positions: pl.prp.content.side.invalid.title",
+                        "text": "web/app/process/light/proposal-positions: pl.prp.content.side.invalid.text",
+                        "submit": "web/app/process/light/proposal-positions: pl.prp.content.side.invalid.submit",
+                        "cancel": "web/app/process/light/proposal-positions: pl.prp.content.side.invalid.cancel"
+                    },
+                    "banner": {
+                        "readonly": "web/app/process/light/proposal-positions: pl.prp.content.side.banner.readonly"
+                    }
+                },
+                "common": {
+                    "vat": {
+                        "true": "web/app/process/light/proposal-positions: pl.prp.content.common.vat.true",
+                        "false": "web/app/process/light/proposal-positions: pl.prp.content.common.vat.false",
+                        "null": "web/app/process/light/proposal-positions: pl.prp.content.common.vat.null"
+                    },
+                    "currency": {
+                        "request": "web/app/process/light/proposal-positions: pl.prp.content.common.currency.request",
+                        "participant": "web/app/process/light/proposal-positions: pl.prp.content.common.currency.participant"
+                    }
+                },
+                "import": {
+                    "common": {
+                        "header": "web/app/process/light/proposal-positions: pl.prp.content.import.common.header"
+                    },
+                    "default": {
+                        "download": "web/app/process/light/proposal-positions: pl.prp.content.import.default.download",
+                        "template": "web/app/process/light/proposal-positions: pl.prp.content.import.default.template",
+                        "fill": "web/app/process/light/proposal-positions: pl.prp.content.import.default.fill",
+                        "import": "web/app/process/light/proposal-positions: pl.prp.content.import.default.import",
+                        "actions": {
+                            "cancel": "web/app/process/light/proposal-positions: pl.prp.content.import.default.actions.cancel",
+                            "submit": "web/app/process/light/proposal-positions: pl.prp.content.import.default.actions.submit"
+                        }
+                    },
+                    "success": {
+                        "count": "web/app/process/light/proposal-positions: pl.prp.content.import.success.count",
+                        "actions": {
+                            "close": "web/app/process/light/proposal-positions: pl.prp.content.import.success.actions.close"
+                        }
+                    },
+                    "failure": {
+                        "total": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.total",
+                        "actions": {
+                            "close": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.actions.close"
+                        },
+                        "items": {
+                            "Process.Light.Import.Positions.InvalidFileExtension": {
+                                "title": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.InvalidFileExtension.title"
+                            },
+                            "Process.Light.Import.Positions.InvalidFile": {
+                                "title": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.InvalidFile.title",
+                                "text": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.InvalidFile.text",
+                                "download": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.InvalidFile.download"
+                            },
+                            "Process.Light.Import.Positions.FileHasErrors": {
+                                "title": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.FileHasErrors.title",
+                                "download": "web/app/process/light/proposal-positions: pl.prp.content.import.failure.items.Process.Light.Import.Positions.FileHasErrors.download"
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

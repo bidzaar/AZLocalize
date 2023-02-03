@@ -1,0 +1,2822 @@
+{
+    "admin": {
+        "category_view": {
+            "update_dialog": {
+                "cancel": "web/app: admin.category_view.update_dialog.cancel",
+                "save": "web/app: admin.category_view.update_dialog.save"
+            }
+        },
+        "companies": {
+            "list": {
+                "assigned_labels": "web/app: admin.companies.list.assigned_labels",
+                "empty": "web/app: admin.companies.list.empty",
+                "filters": {
+                    "badges": "web/app: admin.companies.list.filters.badges",
+                    "company_sales": "web/app: admin.companies.list.filters.company_sales",
+                    "default": "web/app: admin.companies.list.filters.default",
+                    "employeesCount": "web/app: admin.companies.list.filters.employeesCount",
+                    "labels": "web/app: admin.companies.list.filters.labels",
+                    "location": {
+                        "dialog": "web/app: admin.companies.list.filters.location.dialog",
+                        "title": "web/app: admin.companies.list.filters.location.title"
+                    },
+                    "areas": {
+                        "title": "web/app: admin.companies.list.filters.areas.title"
+                    },
+                    "participationsCount": "web/app: admin.companies.list.filters.participationsCount",
+                    "pools": "web/app: admin.companies.list.filters.pools",
+                    "registries": "web/app: admin.companies.list.filters.registries",
+                    "rating": {
+                        "title": "web/app: admin.companies.list.filters.rating.title",
+                        "high": "web/app: admin.companies.list.filters.rating.high",
+                        "average": "web/app: admin.companies.list.filters.rating.average",
+                        "low": "web/app: admin.companies.list.filters.rating.low"
+                    },
+                    "registrationDate": "web/app: admin.companies.list.filters.registrationDate",
+                    "verified": {
+                        "title": "web/app: admin.companies.list.filters.verified.title",
+                        "link": "web/app: admin.companies.list.filters.verified.link"
+                    },
+                    "accreditations": {
+                        "title": "web/app: admin.companies.list.filters.accreditations.title",
+                        "link": "web/app: admin.companies.list.filters.accreditations.link"
+                    }
+                },
+                "item": {
+                    "accredited_count": "web/app: admin.companies.list.item.accredited_count",
+                    "attempts_count": "web/app: admin.companies.list.item.attempts_count"
+                },
+                "search": {
+                    "tooltip": "web/app: admin.companies.list.search.tooltip"
+                },
+                "selected_title": "web/app: admin.companies.list.selected_title",
+                "sorting": {
+                    "rating": "web/app: admin.companies.list.sorting.rating",
+                    "name": "web/app: admin.companies.list.sorting.name",
+                    "participations": "web/app: admin.companies.list.sorting.participations",
+                    "registration": "web/app: admin.companies.list.sorting.registration"
+                },
+                "title": "web/app: admin.companies.list.title"
+            },
+            "preview": {
+                "employees": "web/app: admin.companies.preview.employees"
+            },
+            "filter": {
+                "search": "web/app: admin.companies.filter.search",
+                "empty": "web/app: admin.companies.filter.empty",
+                "expand": "web/app: admin.companies.filter.expand",
+                "collapse": "web/app: admin.companies.filter.collapse"
+            }
+        },
+        "company": {
+            "tin": "web/app: admin.company.tin",
+            "employees": {
+                "0": "web/app: admin.company.employees.0",
+                "1": "web/app: admin.company.employees.1",
+                "2": "web/app: admin.company.employees.2",
+                "3": "web/app: admin.company.employees.3",
+                "4": "web/app: admin.company.employees.4",
+                "5": "web/app: admin.company.employees.5"
+            },
+            "employees_in_company": "web/app: admin.company.employees_in_company",
+            "file": {
+                "edit": {
+                    "cancel": "web/app: admin.company.file.edit.cancel",
+                    "name": "web/app: admin.company.file.edit.name",
+                    "ok": "web/app: admin.company.file.edit.ok",
+                    "title": "web/app: admin.company.file.edit.title"
+                }
+            },
+            "form": {
+                "city": "web/app: admin.company.form.city",
+                "close": "web/app: admin.company.form.close",
+                "country": "web/app: admin.company.form.country",
+                "email": "web/app: admin.company.form.email",
+                "employeesCount": "web/app: admin.company.form.employeesCount",
+                "name": "web/app: admin.company.form.name",
+                "phone": "web/app: admin.company.form.phone",
+                "phoneDescription": "web/app: admin.company.form.phoneDescription",
+                "region": "web/app: admin.company.form.region",
+                "save": "web/app: admin.company.form.save",
+                "search": "web/app: admin.company.form.search",
+                "site": "web/app: admin.company.form.site"
+            }
+        },
+        "contractors": {
+            "pools": {
+                "statuses": {
+                    "active": "web/app: admin.contractors.pools.statuses.active",
+                    "adjustment_required": "web/app: admin.contractors.pools.statuses.adjustment_required",
+                    "consideration": "web/app: admin.contractors.pools.statuses.consideration",
+                    "draft": "web/app: admin.contractors.pools.statuses.draft",
+                    "invited": "web/app: admin.contractors.pools.statuses.invited",
+                    "is_blocked": "web/app: admin.contractors.pools.statuses.is_blocked",
+                    "participant_refused": "web/app: admin.contractors.pools.statuses.participant_refused",
+                    "rejected_by_owner": "web/app: admin.contractors.pools.statuses.rejected_by_owner"
+                }
+            }
+        },
+        "navigation": "web/app: admin.navigation",
+        "users": {
+            "block_user": {
+                "dialog": {
+                    "no": "web/app: admin.users.block_user.dialog.no",
+                    "text": "web/app: admin.users.block_user.dialog.text",
+                    "title": "web/app: admin.users.block_user.dialog.title",
+                    "yes": "web/app: admin.users.block_user.dialog.yes"
+                },
+                "tooltip": "web/app: admin.users.block_user.tooltip"
+            },
+            "change_admin_dialog": {
+                "text": "web/app: admin.users.change_admin_dialog.text"
+            },
+            "change_rights_dialog": {
+                "text": "web/app: admin.users.change_rights_dialog.text"
+            },
+            "change_role_dialog": {
+                "apply": "web/app: admin.users.change_role_dialog.apply",
+                "cancel": "web/app: admin.users.change_role_dialog.cancel",
+                "title": "web/app: admin.users.change_role_dialog.title"
+            },
+            "delete_user": {
+                "dialog": {
+                    "no": "web/app: admin.users.delete_user.dialog.no",
+                    "text": "web/app: admin.users.delete_user.dialog.text",
+                    "title": "web/app: admin.users.delete_user.dialog.title",
+                    "yes": "web/app: admin.users.delete_user.dialog.yes"
+                },
+                "tooltip": "web/app: admin.users.delete_user.tooltip"
+            },
+            "list": {
+                "add_tooltip": "web/app: admin.users.list.add_tooltip",
+                "empty": "web/app: admin.users.list.empty",
+                "filters": {
+                    "rights": "web/app: admin.users.list.filters.rights",
+                    "status": "web/app: admin.users.list.filters.status",
+                    "statusChangedOn": "web/app: admin.users.list.filters.statusChangedOn"
+                },
+                "preview": {
+                    "grant_access": "web/app: admin.users.list.preview.grant_access",
+                    "reject": "web/app: admin.users.list.preview.reject",
+                    "remind": "web/app: admin.users.list.preview.remind",
+                    "reminded": "web/app: admin.users.list.preview.reminded"
+                },
+                "search": {
+                    "email": "web/app: admin.users.list.search.email",
+                    "name": "web/app: admin.users.list.search.name"
+                },
+                "status": {
+                    "0": "web/app: admin.users.list.status.0",
+                    "1": "web/app: admin.users.list.status.1",
+                    "2": "web/app: admin.users.list.status.2",
+                    "3": "web/app: admin.users.list.status.3"
+                },
+                "title": "web/app: admin.users.list.title"
+            },
+            "restore_user": {
+                "dialog": {
+                    "no": "web/app: admin.users.restore_user.dialog.no",
+                    "text": "web/app: admin.users.restore_user.dialog.text",
+                    "title": "web/app: admin.users.restore_user.dialog.title",
+                    "yes": "web/app: admin.users.restore_user.dialog.yes"
+                },
+                "tooltip": "web/app: admin.users.restore_user.tooltip"
+            },
+            "tooltips": {
+                "edit_rights": "web/app: admin.users.tooltips.edit_rights"
+            }
+        }
+    },
+    "auth": {
+        "authorize": {
+            "title": "web/app: auth.authorize.title"
+        }
+    },
+    "bot-zaar": {
+        "actions": "web/app: bot-zaar.actions",
+        "more_actions": "web/app: bot-zaar.more_actions",
+        "show-less": "web/app: bot-zaar.show-less",
+        "show-more": "web/app: bot-zaar.show-more"
+    },
+    "chat": {
+        "attach_tooltip": "web/app: chat.attach_tooltip",
+        "chats": {
+            "broadcast": {
+                "owner": {
+                    "pool": {
+                        "empty": "web/app: chat.chats.broadcast.owner.pool.empty",
+                        "tooltip": "web/app: chat.chats.broadcast.owner.pool.tooltip"
+                    },
+                    "procedure": {
+                        "empty": "web/app: chat.chats.broadcast.owner.procedure.empty",
+                        "tooltip": "web/app: chat.chats.broadcast.owner.procedure.tooltip"
+                    },
+                    "text": "web/app: chat.chats.broadcast.owner.text"
+                },
+                "participant": {
+                    "pool": {
+                        "tooltip": "web/app: chat.chats.broadcast.participant.pool.tooltip"
+                    },
+                    "procedure": {
+                        "tooltip": "web/app: chat.chats.broadcast.participant.procedure.tooltip"
+                    },
+                    "text": "web/app: chat.chats.broadcast.participant.text"
+                }
+            },
+            "participant": {
+                "empty": "web/app: chat.chats.participant.empty",
+                "empty_description": "web/app: chat.chats.participant.empty_description",
+                "header": {
+                    "owner": "web/app: chat.chats.participant.header.owner",
+                    "participant": "web/app: chat.chats.participant.header.participant"
+                }
+            },
+            "team": {
+                "owner": {
+                    "text": "web/app: chat.chats.team.owner.text",
+                    "tooltip": "web/app: chat.chats.team.owner.tooltip"
+                }
+            }
+        },
+        "current_pool": "web/app: chat.current_pool",
+        "current_procedure": "web/app: chat.current_procedure",
+        "drop_zone_text": "web/app: chat.drop_zone_text",
+        "header": {
+            "space": {
+                "messages": "web/app: chat.header.space.messages"
+            }
+        },
+        "message_placeholder": "web/app: chat.message_placeholder",
+        "today_message": "web/app: chat.today_message",
+        "unread": "web/app: chat.unread",
+        "yesterday_message": "web/app: chat.yesterday_message"
+    },
+    "container": {
+        "card_edit": {
+            "cancel": "web/app: container.card_edit.cancel",
+            "save": "web/app: container.card_edit.save"
+        },
+        "card_view": {
+            "change": "web/app: container.card_view.change"
+        }
+    },
+    "controls": {
+        "grid": {
+            "column_chooser_dialog": {
+                "choose_column": "web/app: controls.grid.column_chooser_dialog.choose_column"
+            },
+            "columns_settings": "web/app: controls.grid.columns_settings",
+            "filter": {
+                "clear": "web/app: controls.grid.filter.clear",
+                "end": "web/app: controls.grid.filter.end",
+                "filter": "web/app: controls.grid.filter.filter",
+                "from": "web/app: controls.grid.filter.from",
+                "operators": {
+                    "date_after": "web/app: controls.grid.filter.operators.date_after",
+                    "date_before": "web/app: controls.grid.filter.operators.date_before",
+                    "equal": "web/app: controls.grid.filter.operators.equal",
+                    "exact_date": "web/app: controls.grid.filter.operators.exact_date",
+                    "greater_than": "web/app: controls.grid.filter.operators.greater_than",
+                    "greater_than_or_equal": "web/app: controls.grid.filter.operators.greater_than_or_equal",
+                    "less_than": "web/app: controls.grid.filter.operators.less_than",
+                    "less_than_or_equal": "web/app: controls.grid.filter.operators.less_than_or_equal",
+                    "not_equal": "web/app: controls.grid.filter.operators.not_equal",
+                    "period": "web/app: controls.grid.filter.operators.period",
+                    "range": "web/app: controls.grid.filter.operators.range"
+                },
+                "placeholder": "web/app: controls.grid.filter.placeholder",
+                "select_all": "web/app: controls.grid.filter.select_all",
+                "start": "web/app: controls.grid.filter.start",
+                "to": "web/app: controls.grid.filter.to"
+            },
+            "filters_reset": "web/app: controls.grid.filters_reset",
+            "hidden_columns": "web/app: controls.grid.hidden_columns",
+            "paginator": {
+                "first_page_label": "web/app: controls.grid.paginator.first_page_label",
+                "items_per_page_label": "web/app: controls.grid.paginator.items_per_page_label",
+                "last_page_label": "web/app: controls.grid.paginator.last_page_label",
+                "next_page_label": "web/app: controls.grid.paginator.next_page_label",
+                "previous_page_label": "web/app: controls.grid.paginator.previous_page_label",
+                "range_label_separator": "web/app: controls.grid.paginator.range_label_separator"
+            },
+            "selected_count": "web/app: controls.grid.selected_count",
+            "tooltips": {
+                "columns_settings": "web/app: controls.grid.tooltips.columns_settings",
+                "filter": "web/app: controls.grid.tooltips.filter",
+                "filters_reset": "web/app: controls.grid.tooltips.filters_reset"
+            }
+        },
+        "item_type_constructor": {
+            "options": {
+                "required": "web/app: controls.item_type_constructor.options.required"
+            }
+        },
+        "language_inputs": {
+            "placeholder": "web/app: controls.language_inputs.placeholder"
+        },
+        "language_multi_select": {
+            "placeholder": "web/app: controls.language_multi_select.placeholder"
+        },
+        "list": {
+            "selected_count": "web/app: controls.list.selected_count",
+            "total": "web/app: controls.list.total"
+        },
+        "questionnaire": {
+            "add_document": "web/app: controls.questionnaire.add_document",
+            "comment": "web/app: controls.questionnaire.comment"
+        }
+    },
+    "cookie": {
+        "action": "web/app: cookie.action",
+        "text": "web/app: cookie.text"
+    },
+    "core": {
+        "access_denied": {
+            "hint": "web/app: core.access_denied.hint",
+            "text": "web/app: core.access_denied.text"
+        },
+        "request_forbidden": {
+            "hint": "web/app: core.request_forbidden.hint",
+            "text": "web/app: core.request_forbidden.text",
+            "help": {
+                "action": "web/app: core.request_forbidden.help.action",
+                "text": "web/app: core.request_forbidden.help.text",
+                "list": {
+                    "item_1": {
+                        "text": "web/app: core.request_forbidden.help.list.item_1.text"
+                    },
+                    "item_2": {
+                        "text": "web/app: core.request_forbidden.help.list.item_2.text",
+                        "info": "web/app: core.request_forbidden.help.list.item_2.info"
+                    },
+                    "item_3": {
+                        "text": "web/app: core.request_forbidden.help.list.item_3.text",
+                        "info": "web/app: core.request_forbidden.help.list.item_3.info"
+                    }
+                },
+                "footer": "web/app: core.request_forbidden.help.footer"
+            }
+        }
+    },
+    "dashboard": {
+        "active_procedures": {
+            "invited": "web/app: dashboard.active_procedures.invited",
+            "not_submitted": "web/app: dashboard.active_procedures.not_submitted",
+            "submitted": "web/app: dashboard.active_procedures.submitted",
+            "title": "web/app: dashboard.active_procedures.title"
+        },
+        "active_purchases": {
+            "action": "web/app: dashboard.active_purchases.action",
+            "draft": "web/app: dashboard.active_purchases.draft",
+            "proposal": "web/app: dashboard.active_purchases.proposal",
+            "summarize": "web/app: dashboard.active_purchases.summarize",
+            "title": "web/app: dashboard.active_purchases.title"
+        },
+        "botzaar": {
+            "link": "web/app: dashboard.botzaar.link",
+            "text": {
+                "line_1": "web/app: dashboard.botzaar.text.line_1",
+                "line_2": "web/app: dashboard.botzaar.text.line_2"
+            },
+            "title": "web/app: dashboard.botzaar.title"
+        },
+        "demo": {
+            "soon": "web/app: dashboard.demo.soon",
+            "text": "web/app: dashboard.demo.text"
+        },
+        "economy": {
+            "empty": "web/app: dashboard.economy.empty",
+            "on": "web/app: dashboard.economy.on",
+            "period": "web/app: dashboard.economy.period",
+            "purchases": "web/app: dashboard.economy.purchases"
+        },
+        "invitations": {
+            "title": "web/app: dashboard.invitations.title",
+            "text": "web/app: dashboard.invitations.text",
+            "number": "web/app: dashboard.invitations.number",
+            "admin": "web/app: dashboard.invitations.admin",
+            "access": "web/app: dashboard.invitations.access"
+        },
+        "no_procedures": {
+            "action": "web/app: dashboard.no_procedures.action",
+            "text": "web/app: dashboard.no_procedures.text",
+            "title": "web/app: dashboard.no_procedures.title"
+        },
+        "no_purchases": {
+            "action": "web/app: dashboard.no_purchases.action",
+            "text": "web/app: dashboard.no_purchases.text",
+            "title": "web/app: dashboard.no_purchases.title"
+        },
+        "no_tags": {
+            "action": "web/app: dashboard.no_tags.action",
+            "text": "web/app: dashboard.no_tags.text",
+            "title": "web/app: dashboard.no_tags.title"
+        },
+        "not_a_purchaser": {
+            "form": {
+                "success": "web/app: dashboard.not_a_purchaser.form.success"
+            }
+        },
+        "orders": {
+            "count": "web/app: dashboard.orders.count",
+            "empty": "web/app: dashboard.orders.empty",
+            "from": "web/app: dashboard.orders.from",
+            "sum": "web/app: dashboard.orders.sum"
+        },
+        "promo": {
+            "title": "web/app: dashboard.promo.title"
+        }
+    },
+    "dialog": {
+        "confirm_dialog": {
+            "no": "web/app: dialog.confirm_dialog.no",
+            "yes": "web/app: dialog.confirm_dialog.yes"
+        },
+        "delete_confirmation": "web/app: dialog.delete_confirmation",
+        "notification": {
+            "ok": "web/app: dialog.notification.ok"
+        },
+        "generic": {
+            "error": {
+                "title": "web/app: dialog.generic.error.title",
+                "text": "web/app: dialog.generic.error.text"
+            }
+        },
+        "contact_info": {
+            "cancel": "web/app: dialog.contact_info.cancel",
+            "email": "web/app: dialog.contact_info.email",
+            "full_name": "web/app: dialog.contact_info.full_name",
+            "phone": "web/app: dialog.contact_info.phone",
+            "submit": "web/app: dialog.contact_info.submit",
+            "title": "web/app: dialog.contact_info.title"
+        }
+    },
+    "emoji": {
+        "groups": {
+            "activity": "web/app: emoji.groups.activity",
+            "food": "web/app: emoji.groups.food",
+            "nature": "web/app: emoji.groups.nature",
+            "objects": "web/app: emoji.groups.objects",
+            "people": "web/app: emoji.groups.people",
+            "travel": "web/app: emoji.groups.travel"
+        }
+    },
+    "errors": {
+        "common": {
+            "default": "web/app: errors.common.default"
+        },
+        "http": {
+            "status": {
+                "0": "web/app: errors.http.status.0",
+                "400": "web/app: errors.http.status.400",
+                "401": "web/app: errors.http.status.401",
+                "403": "web/app: errors.http.status.403",
+                "404": "web/app: errors.http.status.404",
+                "405": "web/app: errors.http.status.405",
+                "408": "web/app: errors.http.status.408",
+                "409": "web/app: errors.http.status.409",
+                "413": "web/app: errors.http.status.413",
+                "414": "web/app: errors.http.status.414",
+                "500": "web/app: errors.http.status.500",
+                "501": "web/app: errors.http.status.501",
+                "502": "web/app: errors.http.status.502",
+                "503": "web/app: errors.http.status.503",
+                "504": "web/app: errors.http.status.504"
+            },
+            "validation": {
+                "wrong_date": "web/app: errors.http.validation.wrong_date"
+            }
+        },
+        "logic": {
+            "Accreditation": {
+                "Owner": {
+                    "WrongState": "web/app: errors.logic.Accreditation.Owner.WrongState"
+                },
+                "User": {
+                    "NotInTeam": "web/app: errors.logic.Accreditation.User.NotInTeam"
+                },
+                "WrongState": "web/app: errors.logic.Accreditation.WrongState"
+            },
+            "Process": {
+                "Light": {
+                    "Access": {
+                        "WrongCompany": "web/app: errors.logic.Process.Light.Access.WrongCompany",
+                        "WrongRole": "web/app: errors.logic.Process.Light.Access.WrongRole"
+                    },
+                    "Import": {
+                        "EmptyFile": "web/app: errors.logic.Process.Light.Import.EmptyFile",
+                        "InvalidFileExtension": "web/app: errors.logic.Process.Light.Import.InvalidFileExtension",
+                        "InvalidHeaders": "web/app: errors.logic.Process.Light.Import.InvalidHeaders"
+                    },
+                    "Participant": {
+                        "Add": {
+                            "AlreadyJoined": "web/app: errors.logic.Process.Light.Participant.Add.AlreadyJoined"
+                        },
+                        "Join": {
+                            "ParticipantNotFound": "web/app: errors.logic.Process.Light.Participant.Join.ParticipantNotFound"
+                        }
+                    },
+                    "Procedure": {
+                        "AcceptanceExpired": "web/app: errors.logic.Process.Light.Procedure.AcceptanceExpired",
+                        "Canceled": "web/app: errors.logic.Process.Light.Procedure.Canceled",
+                        "ClosedType": "web/app: errors.logic.Process.Light.Procedure.ClosedType",
+                        "Deleted": "web/app: errors.logic.Process.Light.Procedure.Deleted",
+                        "EmptyChoices": "web/app: errors.logic.Process.Light.Procedure.EmptyChoices",
+                        "Ended": "web/app: errors.logic.Process.Light.Procedure.Ended",
+                        "Expired": "web/app: errors.logic.Process.Light.Procedure.Expired",
+                        "Internal": {
+                            "UnknownField": "web/app: errors.logic.Process.Light.Procedure.Internal.UnknownField"
+                        },
+                        "Participant": {
+                            "Add": {
+                                "AddParticipant": "web/app: errors.logic.Process.Light.Procedure.Participant.Add.AddParticipant",
+                                "MaxParticipantsCountExceeded": "web/app: errors.logic.Process.Light.Procedure.Participant.Add.MaxParticipantsCountExceeded"
+                            },
+                            "BlockedByOwner": "web/app: errors.logic.Process.Light.Procedure.Participant.BlockedByOwner",
+                            "Check": {
+                                "NotActiveParticipant": "web/app: errors.logic.Process.Light.Procedure.Participant.Check.NotActiveParticipant",
+                                "NotParticipant": "web/app: errors.logic.Process.Light.Procedure.Participant.Check.NotParticipant",
+                                "Refused": "web/app: errors.logic.Process.Light.Procedure.Participant.Check.Refused"
+                            },
+                            "Invite": {
+                                "TokenNotFound": "web/app: errors.logic.Process.Light.Procedure.Participant.Invite.TokenNotFound"
+                            },
+                            "NullOrNotActive": "web/app: errors.logic.Process.Light.Procedure.Participant.NullOrNotActive",
+                            "UserCompanyIsProcedureOwner": "web/app: errors.logic.Process.Light.Procedure.Participant.UserCompanyIsProcedureOwner",
+                            "UserDenied": "web/app: errors.logic.Process.Light.Procedure.Participant.UserDenied"
+                        },
+                        "Proposal": {
+                            "ChangeProposal": {
+                                "Forbidden": "web/app: errors.logic.Process.Light.Procedure.Proposal.ChangeProposal.Forbidden"
+                            }
+                        },
+                        "Summarizing": "web/app: errors.logic.Process.Light.Procedure.Summarizing",
+                        "UnknownField": "web/app: errors.logic.Process.Light.Procedure.UnknownField",
+                        "User": {
+                            "LastOwner": "web/app: errors.logic.Process.Light.Procedure.User.LastOwner"
+                        },
+                        "VersionMismatch": "web/app: errors.logic.Process.Light.Procedure.VersionMismatch",
+                        "WrongState": "web/app: errors.logic.Process.Light.Procedure.WrongState",
+                        "WrongStatus": "web/app: errors.logic.Process.Light.Procedure.WrongStatus"
+                    },
+                    "Proposal": {
+                        "AlreadyPublished": "web/app: errors.logic.Process.Light.Proposal.AlreadyPublished",
+                        "HasDraft": "web/app: errors.logic.Process.Light.Proposal.HasDraft",
+                        "Import": {
+                            "BrokenFile": "web/app: errors.logic.Process.Light.Proposal.Import.BrokenFile"
+                        },
+                        "PublicNotFound": "web/app: errors.logic.Process.Light.Proposal.PublicNotFound",
+                        "CannotChangePrice": "web/app: errors.logic.Process.Light.Proposal.CannotChangePrice"
+                    },
+                    "SendEmail": "web/app: errors.logic.Process.Light.SendEmail"
+                }
+            },
+            "User": {
+                "HasNoCompany": "web/app: errors.logic.User.HasNoCompany"
+            },
+            "UserManagement": {
+                "Company": {
+                    "LastCompanyAdmin": "web/app: errors.logic.UserManagement.Company.LastCompanyAdmin",
+                    "MaxCompanyImageCountExceeded": "web/app: errors.logic.UserManagement.Company.MaxCompanyImageCountExceeded",
+                    "WrongCompany": "web/app: errors.logic.UserManagement.Company.WrongCompany"
+                },
+                "CompanyUser": {
+                    "DeleteYourself": "web/app: errors.logic.UserManagement.CompanyUser.DeleteYourself",
+                    "Deleted": "web/app: errors.logic.UserManagement.CompanyUser.Deleted",
+                    "Exists": "web/app: errors.logic.UserManagement.CompanyUser.Exists",
+                    "Invited": "web/app: errors.logic.UserManagement.CompanyUser.Invited",
+                    "LastCompanyAdmin": "web/app: errors.logic.UserManagement.CompanyUser.LastCompanyAdmin",
+                    "NotInvited": "web/app: errors.logic.UserManagement.CompanyUser.NotInvited",
+                    "NotWaitingForApprove": "web/app: errors.logic.UserManagement.CompanyUser.NotWaitingForApprove",
+                    "WaitingForApprove": "web/app: errors.logic.UserManagement.CompanyUser.WaitingForApprove",
+                    "AnotherUserExists": "web/app: errors.logic.UserManagement.CompanyUser.AnotherUserExists"
+                },
+                "VerifiedCompanyAlreadyExists": "web/app: errors.logic.UserManagement.VerifiedCompanyAlreadyExists"
+            },
+            "default": "web/app: errors.logic.default",
+            "ShouldBeExcel": "web/app: errors.logic.ShouldBeExcel",
+            "AlreadyExists": "web/app: errors.logic.AlreadyExists"
+        }
+    },
+    "files": {
+        "upload": "web/app: files.upload",
+        "with_value": {
+            "GB": "web/app: files.with_value.GB",
+            "KB": "web/app: files.with_value.KB",
+            "MB": "web/app: files.with_value.MB",
+            "bytes": "web/app: files.with_value.bytes"
+        },
+        "remove": {
+            "no": "web/app: files.remove.no",
+            "text": "web/app: files.remove.text",
+            "title": "web/app: files.remove.title",
+            "yes": "web/app: files.remove.yes"
+        },
+        "rename": {
+            "cancel": "web/app: files.rename.cancel",
+            "label": "web/app: files.rename.label",
+            "save": "web/app: files.rename.save",
+            "title": "web/app: files.rename.title"
+        },
+        "errors": {
+            "ext": "web/app: files.errors.ext",
+            "length": "web/app: files.errors.length",
+            "size": "web/app: files.errors.size"
+        },
+        "tooltips": {
+            "add": "web/app: files.tooltips.add",
+            "add_photo": "web/app: files.tooltips.add_photo",
+            "edit_description": "web/app: files.tooltips.edit_description",
+            "edit_photo": "web/app: files.tooltips.edit_photo",
+            "remove": "web/app: files.tooltips.remove"
+        }
+    },
+    "image": {
+        "delete": "web/app: image.delete",
+        "upload": "web/app: image.upload",
+        "replace": "web/app: image.replace",
+        "error": {
+            "extension": "web/app: image.error.extension",
+            "size": "web/app: image.error.size"
+        }
+    },
+    "landing": {
+        "cards": {
+            "chat": "web/app: landing.cards.chat",
+            "contractors": "web/app: landing.cards.contractors",
+            "new_clients": "web/app: landing.cards.new_clients",
+            "on_flight": "web/app: landing.cards.on_flight",
+            "real_tender": "web/app: landing.cards.real_tender"
+        },
+        "footer": {
+            "copyright": "web/app: landing.footer.copyright",
+            "user_agreement": "web/app: landing.footer.user_agreement"
+        },
+        "logo": "web/app: landing.logo",
+        "owner": {
+            "text": "web/app: landing.owner.text",
+            "title": "web/app: landing.owner.title"
+        },
+        "page_header": {
+            "text": "web/app: landing.page_header.text",
+            "title": "web/app: landing.page_header.title"
+        },
+        "participant": {
+            "text": "web/app: landing.participant.text",
+            "title": "web/app: landing.participant.title"
+        },
+        "registration": {
+            "free": "web/app: landing.registration.free",
+            "one_click": "web/app: landing.registration.one_click"
+        }
+    },
+    "language": "web/app: language",
+    "languages": {
+        "en": "web/app: languages.en",
+        "ru": "web/app: languages.ru"
+    },
+    "logo": {
+        "marketplace": "web/app: logo.marketplace"
+    },
+    "main": {
+        "first_login": {
+            "almost_done": "web/app: main.first_login.almost_done",
+            "cancel": "web/app: main.first_login.cancel",
+            "etp_light": "web/app: main.first_login.etp_light",
+            "file_in_profile": "web/app: main.first_login.file_in_profile",
+            "fill_in_text": "web/app: main.first_login.fill_in_text"
+        },
+        "login": "web/app: main.login",
+        "navigation": {
+            "home": "web/app: main.navigation.home"
+        },
+        "not_found": "web/app: main.not_found",
+        "registration": "web/app: main.registration",
+        "tooltips": {
+            "notifications": "web/app: main.tooltips.notifications",
+            "user_menu": "web/app: main.tooltips.user_menu"
+        }
+    },
+    "messages": {
+        "changes_cancelled": "web/app: messages.changes_cancelled",
+        "changes_saved": "web/app: messages.changes_saved"
+    },
+    "navigation": {
+        "accreditations": "web/app: navigation.accreditations",
+        "app_store": {
+            "title": {
+                "download": "web/app: navigation.app_store.title.download",
+                "store": "web/app: navigation.app_store.title.store"
+            },
+            "tooltip": "web/app: navigation.app_store.tooltip"
+        },
+        "carrot_quest": {
+            "title": "web/app: navigation.carrot_quest.title",
+            "tooltip": "web/app: navigation.carrot_quest.tooltip"
+        },
+        "categories": "web/app: navigation.categories",
+        "companies": "web/app: navigation.companies",
+        "company": {
+            "profile": {
+                "title": "web/app: navigation.company.profile.title"
+            }
+        },
+        "create_procedure": "web/app: navigation.create_procedure",
+        "help": {
+            "title": "web/app: navigation.help.title"
+        },
+        "home": {
+            "title": "web/app: navigation.home.title"
+        },
+        "language_select": "web/app: navigation.language_select",
+        "monetization": {
+            "title": "web/app: navigation.monetization.title"
+        },
+        "owner": {
+            "pools": {
+                "title": "web/app: navigation.owner.pools.title"
+            },
+            "rfx": {
+                "title": "web/app: navigation.owner.rfx.title"
+            },
+            "rfx_manager": {
+                "title": "web/app: navigation.owner.rfx_manager.title"
+            },
+            "registries": {
+                "title": "web/app: navigation.owner.registries.title"
+            }
+        },
+        "participant": {
+            "pools": {
+                "title": "web/app: navigation.participant.pools.title"
+            },
+            "rfx": {
+                "title": "web/app: navigation.participant.rfx.title"
+            },
+            "registries": {
+                "title": "web/app: navigation.participant.registries.title"
+            }
+        },
+        "pools": "web/app: navigation.pools",
+        "procedures": "web/app: navigation.procedures",
+        "public": {
+            "companies": {
+                "title": "web/app: navigation.public.companies.title"
+            },
+            "rfx": {
+                "title": "web/app: navigation.public.rfx.title"
+            },
+            "purchasers": {
+                "title": "web/app: navigation.public.purchasers.title"
+            }
+        },
+        "users": "web/app: navigation.users"
+    },
+    "no_company": {
+        "add": {
+            "add_company": "web/app: no_company.add.add_company",
+            "text": "web/app: no_company.add.text",
+            "title": "web/app: no_company.add.title"
+        },
+        "welcome": {
+            "text": "web/app: no_company.welcome.text",
+            "title": "web/app: no_company.welcome.title"
+        }
+    },
+    "notifications": {
+        "list": {
+            "header": "web/app: notifications.list.header",
+            "load": "web/app: notifications.list.load",
+            "templates": {
+                "default": "web/app: notifications.list.templates.default",
+                "pool": {
+                    "accreditation_passed": "web/app: notifications.list.templates.pool.accreditation_passed",
+                    "invited": "web/app: notifications.list.templates.pool.invited"
+                },
+                "procedure": {
+                    "blocked": "web/app: notifications.list.templates.procedure.blocked",
+                    "canceled": "web/app: notifications.list.templates.procedure.canceled",
+                    "completed": "web/app: notifications.list.templates.procedure.completed",
+                    "invited": {
+                        "company": "web/app: notifications.list.templates.procedure.invited.company",
+                        "procedure": "web/app: notifications.list.templates.procedure.invited.procedure"
+                    },
+                    "losed": "web/app: notifications.list.templates.procedure.losed",
+                    "published": "web/app: notifications.list.templates.procedure.published",
+                    "removed": "web/app: notifications.list.templates.procedure.removed",
+                    "won": "web/app: notifications.list.templates.procedure.won"
+                },
+                "procedure_reports": {
+                    "archive": {
+                        "failure": "web/app: notifications.list.templates.procedure_reports.archive.failure",
+                        "success": "web/app: notifications.list.templates.procedure_reports.archive.success"
+                    },
+                    "file": {
+                        "failure": "web/app: notifications.list.templates.procedure_reports.file.failure",
+                        "success": "web/app: notifications.list.templates.procedure_reports.file.success"
+                    },
+                    "types": {
+                        "comparison": "web/app: notifications.list.templates.procedure_reports.types.comparison",
+                        "comparison-archive": "web/app: notifications.list.templates.procedure_reports.types.comparison-archive",
+                        "all-receipt": "web/app: notifications.list.templates.procedure_reports.types.all-receipt",
+                        "all-receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.all-receipt-archive",
+                        "my-proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.my-proposal-archive",
+                        "proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.proposal-archive",
+                        "receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.receipt-archive",
+                        "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive"
+                    }
+                },
+                "registry_reports": {
+                    "failure": "web/app: notifications.list.templates.registry_reports.failure",
+                    "success": "web/app: notifications.list.templates.registry_reports.success",
+                    "types": {
+                        "application-archive": "web/app: notifications.list.templates.registry_reports.types.application-archive",
+                        "registry-commission-protocol": "web/app: notifications.list.templates.registry_reports.types.registry-commission-protocol"
+                    }
+                },
+                "user": {
+                    "approved": "web/app: notifications.list.templates.user.approved"
+                },
+                "user_company": {
+                    "complete_company_profile": "web/app: notifications.list.templates.user_company.complete_company_profile",
+                    "request_to_join": "web/app: notifications.list.templates.user_company.request_to_join",
+                    "rights_changed": "web/app: notifications.list.templates.user_company.rights_changed"
+                }
+            }
+        }
+    },
+    "procedure": {
+        "cart": {
+            "clear_order": "web/app: procedure.cart.clear_order",
+            "complete": "web/app: procedure.cart.complete",
+            "from": "web/app: procedure.cart.from",
+            "positions": "web/app: procedure.cart.positions",
+            "total": "web/app: procedure.cart.total"
+        },
+        "clone": {
+            "header": "web/app: procedure.clone.header",
+            "name": "web/app: procedure.clone.name",
+            "generalInfo": "web/app: procedure.clone.generalInfo",
+            "parameters": "web/app: procedure.clone.parameters",
+            "participants": "web/app: procedure.clone.participants",
+            "positions": "web/app: procedure.clone.positions",
+            "questionnaire": "web/app: procedure.clone.questionnaire",
+            "team": "web/app: procedure.clone.team",
+            "nda": "web/app: procedure.clone.nda",
+            "registries": "web/app: procedure.clone.registries",
+            "cancel": "web/app: procedure.clone.cancel",
+            "submit": "web/app: procedure.clone.submit"
+        },
+        "common": {
+            "documents": "web/app: procedure.common.documents",
+            "documents_description": "web/app: procedure.common.documents_description",
+            "general_information": "web/app: procedure.common.general_information",
+            "name": "web/app: procedure.common.name",
+            "save": "web/app: procedure.common.save"
+        },
+        "download": {
+            "no": "web/app: procedure.download.no",
+            "toggle": "web/app: procedure.download.toggle",
+            "yes": "web/app: procedure.download.yes"
+        },
+        "edit": {
+            "procedure": "web/app: procedure.edit.procedure",
+            "publish": "web/app: procedure.edit.publish"
+        },
+        "finish-round": {
+            "success": "web/app: procedure.finish-round.success"
+        },
+        "list": {
+            "header": "web/app: procedure.list.header",
+            "purchasing_manager": {
+                "item": {
+                    "statistics": {
+                        "joins_count": "web/app: procedure.list.purchasing_manager.item.statistics.joins_count",
+                        "participants_quantity": "web/app: procedure.list.purchasing_manager.item.statistics.participants_quantity",
+                        "total_active_proposals": "web/app: procedure.list.purchasing_manager.item.statistics.total_active_proposals"
+                    }
+                }
+            }
+        },
+        "new_procedure": "web/app: procedure.new_procedure",
+        "parameters": {
+            "actions": "web/app: procedure.parameters.actions",
+            "end_date": "web/app: procedure.parameters.end_date",
+            "list_of_participants": "web/app: procedure.parameters.list_of_participants",
+            "owner": "web/app: procedure.parameters.owner",
+            "parameters": "web/app: procedure.parameters.parameters",
+            "participants_participants": "web/app: procedure.parameters.participants_participants",
+            "participants_suggestions": "web/app: procedure.parameters.participants_suggestions",
+            "procedure_currency": "web/app: procedure.parameters.procedure_currency",
+            "save": "web/app: procedure.parameters.save",
+            "visibility": "web/app: procedure.parameters.visibility"
+        },
+        "participants": {
+            "add": "web/app: procedure.participants.add",
+            "invite": "web/app: procedure.participants.invite",
+            "participants": "web/app: procedure.participants.participants",
+            "total_participants": "web/app: procedure.participants.total_participants"
+        },
+        "positions": {
+            "add": "web/app: procedure.positions.add",
+            "add_position": "web/app: procedure.positions.add_position",
+            "change": "web/app: procedure.positions.change",
+            "download_template": "web/app: procedure.positions.download_template",
+            "import": "web/app: procedure.positions.import",
+            "import_success": "web/app: procedure.positions.import_success",
+            "placeholder": "web/app: procedure.positions.placeholder",
+            "position": "web/app: procedure.positions.position",
+            "positions": "web/app: procedure.positions.positions",
+            "save": "web/app: procedure.positions.save",
+            "save_add": "web/app: procedure.positions.save_add",
+            "saved": "web/app: procedure.positions.saved",
+            "show_all": "web/app: procedure.positions.show_all",
+            "shown_positions": "web/app: procedure.positions.shown_positions",
+            "total_positions": "web/app: procedure.positions.total_positions"
+        },
+        "preview": {
+            "details": "web/app: procedure.preview.details",
+            "documents": "web/app: procedure.preview.documents",
+            "finishDate": "web/app: procedure.preview.finishDate",
+            "header": "web/app: procedure.preview.header",
+            "organizer": "web/app: procedure.preview.organizer",
+            "publishDate": "web/app: procedure.preview.publishDate",
+            "status": "web/app: procedure.preview.status"
+        },
+        "questionnaire": {
+            "widgets": {
+                "agreement": {
+                    "placeholder": "web/app: procedure.questionnaire.widgets.agreement.placeholder"
+                },
+                "attachment": {
+                    "empty": "web/app: procedure.questionnaire.widgets.attachment.empty",
+                    "files": "web/app: procedure.questionnaire.widgets.attachment.files"
+                },
+                "boolean": {
+                    "no": "web/app: procedure.questionnaire.widgets.boolean.no",
+                    "yes": "web/app: procedure.questionnaire.widgets.boolean.yes"
+                },
+                "input": {
+                    "string": "web/app: procedure.questionnaire.widgets.input.string"
+                },
+                "no_answer": "web/app: procedure.questionnaire.widgets.no_answer",
+                "select": {
+                    "add_option": "web/app: procedure.questionnaire.widgets.select.add_option"
+                },
+                "options": {
+                    "title": "web/app: procedure.questionnaire.widgets.options.title"
+                }
+            },
+            "item_types": {
+                "agreement": "web/app: procedure.questionnaire.item_types.agreement",
+                "attachment": "web/app: procedure.questionnaire.item_types.attachment",
+                "boolean": "web/app: procedure.questionnaire.item_types.boolean",
+                "input": "web/app: procedure.questionnaire.item_types.input",
+                "multiple": "web/app: procedure.questionnaire.item_types.multiple",
+                "option": "web/app: procedure.questionnaire.item_types.option",
+                "select": "web/app: procedure.questionnaire.item_types.select"
+            },
+            "editor": {
+                "group": {
+                    "header": "web/app: procedure.questionnaire.editor.group.header",
+                    "name": "web/app: procedure.questionnaire.editor.group.name"
+                },
+                "item": {
+                    "add_group": "web/app: procedure.questionnaire.editor.item.add_group",
+                    "add_question": "web/app: procedure.questionnaire.editor.item.add_question",
+                    "default_question_text": "web/app: procedure.questionnaire.editor.item.default_question_text",
+                    "default_group_name": "web/app: procedure.questionnaire.editor.item.default_group_name",
+                    "header": "web/app: procedure.questionnaire.editor.item.header",
+                    "type": "web/app: procedure.questionnaire.editor.item.type",
+                    "text": "web/app: procedure.questionnaire.editor.item.text",
+                    "required": "web/app: procedure.questionnaire.editor.item.required",
+                    "description": "web/app: procedure.questionnaire.editor.item.description",
+                    "hidden": {
+                        "owner": "web/app: procedure.questionnaire.editor.item.hidden.owner",
+                        "participant": "web/app: procedure.questionnaire.editor.item.hidden.participant",
+                        "tooltip": "web/app: procedure.questionnaire.editor.item.hidden.tooltip"
+                    }
+                },
+                "actions": {
+                    "cancel": "web/app: procedure.questionnaire.editor.actions.cancel",
+                    "create": "web/app: procedure.questionnaire.editor.actions.create",
+                    "save": "web/app: procedure.questionnaire.editor.actions.save",
+                    "save_create": "web/app: procedure.questionnaire.editor.actions.save_create"
+                }
+            },
+            "delete_dialog": {
+                "group": {
+                    "no": "web/app: procedure.questionnaire.delete_dialog.group.no",
+                    "text": "web/app: procedure.questionnaire.delete_dialog.group.text",
+                    "title": "web/app: procedure.questionnaire.delete_dialog.group.title",
+                    "yes": "web/app: procedure.questionnaire.delete_dialog.group.yes"
+                },
+                "item": {
+                    "no": "web/app: procedure.questionnaire.delete_dialog.item.no",
+                    "text": "web/app: procedure.questionnaire.delete_dialog.item.text",
+                    "title": "web/app: procedure.questionnaire.delete_dialog.item.title",
+                    "yes": "web/app: procedure.questionnaire.delete_dialog.item.yes"
+                }
+            },
+            "group_menu": {
+                "delete": "web/app: procedure.questionnaire.group_menu.delete",
+                "move": "web/app: procedure.questionnaire.group_menu.move"
+            },
+            "required_question": "web/app: procedure.questionnaire.required_question",
+            "section": "web/app: procedure.questionnaire.section",
+            "tooltips": {
+                "add_file": "web/app: procedure.questionnaire.tooltips.add_file",
+                "add_group": "web/app: procedure.questionnaire.tooltips.add_group",
+                "add_item": "web/app: procedure.questionnaire.tooltips.add_item",
+                "remove": "web/app: procedure.questionnaire.tooltips.remove"
+            }
+        },
+        "start-round": {
+            "success": "web/app: procedure.start-round.success"
+        },
+        "status": {
+            "canceled": "web/app: procedure.status.canceled",
+            "draft": "web/app: procedure.status.draft",
+            "finished": "web/app: procedure.status.finished",
+            "proposal": "web/app: procedure.status.proposal",
+            "summarize": "web/app: procedure.status.summarize"
+        },
+        "time": {
+            "days": "web/app: procedure.time.days",
+            "expired": "web/app: procedure.time.expired",
+            "hours": "web/app: procedure.time.hours",
+            "left": "web/app: procedure.time.left",
+            "minutes": "web/app: procedure.time.minutes",
+            "months": "web/app: procedure.time.months",
+            "years": "web/app: procedure.time.years"
+        },
+        "users": {
+            "role": "web/app: procedure.users.role",
+            "team": "web/app: procedure.users.team"
+        },
+        "view": {
+            "documents": "web/app: procedure.view.documents",
+            "finishDate": "web/app: procedure.view.finishDate",
+            "organizer": "web/app: procedure.view.organizer",
+            "positions": "web/app: procedure.view.positions",
+            "procedure": "web/app: procedure.view.procedure",
+            "publishDate": "web/app: procedure.view.publishDate",
+            "status": "web/app: procedure.view.status"
+        }
+    },
+    "process": {
+        "accreditation": {
+            "accreditation": {
+                "approve": "web/app: process.accreditation.accreditation.approve",
+                "approve_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.approve_dialog.no",
+                    "success": "web/app: process.accreditation.accreditation.approve_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.approve_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.approve_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.approve_dialog.yes"
+                },
+                "approved": "web/app: process.accreditation.accreditation.approved",
+                "block_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.block_dialog.no",
+                    "reason": "web/app: process.accreditation.accreditation.block_dialog.reason",
+                    "success": "web/app: process.accreditation.accreditation.block_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.block_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.block_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.block_dialog.yes"
+                },
+                "bot-zaar": {
+                    "owner": {
+                        "message": {
+                            "blocked_pool": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.blocked_pool",
+                            "invited": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.invited",
+                            "draft": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.draft",
+                            "participant_refused": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.participant_refused",
+                            "consideration": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.consideration",
+                            "adjustment_required": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.adjustment_required",
+                            "active": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.active",
+                            "is_blocked": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.is_blocked",
+                            "rejected_by_owner": "web/app: process.accreditation.accreditation.bot-zaar.owner.message.rejected_by_owner"
+                        },
+                        "actions": {
+                            "block": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.block.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.block.description"
+                            },
+                            "unblock": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.unblock.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.unblock.description"
+                            },
+                            "revise": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.revise.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.revise.description"
+                            },
+                            "approve": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.approve.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.approve.description"
+                            },
+                            "reject": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.reject.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.owner.actions.reject.description"
+                            }
+                        }
+                    },
+                    "auditor": {
+                        "message": {
+                            "blocked_pool": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.blocked_pool",
+                            "invited": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.invited",
+                            "draft": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.draft",
+                            "participant_refused": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.participant_refused",
+                            "consideration": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.consideration",
+                            "adjustment_required": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.adjustment_required",
+                            "active": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.active",
+                            "is_blocked": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.is_blocked",
+                            "rejected_by_owner": "web/app: process.accreditation.accreditation.bot-zaar.auditor.message.rejected_by_owner"
+                        }
+                    },
+                    "participant": {
+                        "message": {
+                            "blocked_pool": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.blocked_pool",
+                            "invited": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.invited",
+                            "draft": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.draft",
+                            "consideration": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.consideration",
+                            "active": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.active",
+                            "adjustment_required": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.adjustment_required",
+                            "participant_refused": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.participant_refused",
+                            "is_blocked": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.is_blocked",
+                            "rejected_by_owner": "web/app: process.accreditation.accreditation.bot-zaar.participant.message.rejected_by_owner"
+                        },
+                        "actions": {
+                            "publish": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.publish.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.publish.description"
+                            },
+                            "refuse": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.refuse.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.refuse.description"
+                            },
+                            "renew": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.renew.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.renew.description"
+                            },
+                            "rejoin": {
+                                "title": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.rejoin.title",
+                                "description": "web/app: process.accreditation.accreditation.bot-zaar.participant.actions.rejoin.description"
+                            }
+                        }
+                    }
+                },
+                "pool": "web/app: process.accreditation.accreditation.pool",
+                "publish_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.publish_dialog.no",
+                    "success": "web/app: process.accreditation.accreditation.publish_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.publish_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.publish_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.publish_dialog.yes"
+                },
+                "reason": "web/app: process.accreditation.accreditation.reason",
+                "refuse": "web/app: process.accreditation.accreditation.refuse",
+                "refuse_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.refuse_dialog.no",
+                    "success": "web/app: process.accreditation.accreditation.refuse_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.refuse_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.refuse_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.refuse_dialog.yes"
+                },
+                "reject": "web/app: process.accreditation.accreditation.reject",
+                "reject_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.reject_dialog.no",
+                    "reason": "web/app: process.accreditation.accreditation.reject_dialog.reason",
+                    "success": "web/app: process.accreditation.accreditation.reject_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.reject_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.reject_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.reject_dialog.yes"
+                },
+                "rejected": "web/app: process.accreditation.accreditation.rejected",
+                "rejoin_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.rejoin_dialog.no",
+                    "text": "web/app: process.accreditation.accreditation.rejoin_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.rejoin_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.rejoin_dialog.yes"
+                },
+                "renew_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.renew_dialog.no",
+                    "text": "web/app: process.accreditation.accreditation.renew_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.renew_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.renew_dialog.yes"
+                },
+                "revert": "web/app: process.accreditation.accreditation.revert",
+                "revise": {
+                    "cancel": "web/app: process.accreditation.accreditation.revise.cancel",
+                    "comment": "web/app: process.accreditation.accreditation.revise.comment",
+                    "submit": "web/app: process.accreditation.accreditation.revise.submit"
+                },
+                "revise_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.revise_dialog.no",
+                    "success": "web/app: process.accreditation.accreditation.revise_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.revise_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.revise_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.revise_dialog.yes"
+                },
+                "status": "web/app: process.accreditation.accreditation.status",
+                "title": "web/app: process.accreditation.accreditation.title",
+                "unblock_dialog": {
+                    "no": "web/app: process.accreditation.accreditation.unblock_dialog.no",
+                    "success": "web/app: process.accreditation.accreditation.unblock_dialog.success",
+                    "text": "web/app: process.accreditation.accreditation.unblock_dialog.text",
+                    "title": "web/app: process.accreditation.accreditation.unblock_dialog.title",
+                    "yes": "web/app: process.accreditation.accreditation.unblock_dialog.yes"
+                },
+                "validity": "web/app: process.accreditation.accreditation.validity"
+            },
+            "accreditation_status": {
+                "active": "web/app: process.accreditation.accreditation_status.active",
+                "adjustment_required": "web/app: process.accreditation.accreditation_status.adjustment_required",
+                "consideration": "web/app: process.accreditation.accreditation_status.consideration",
+                "draft": "web/app: process.accreditation.accreditation_status.draft",
+                "invited": "web/app: process.accreditation.accreditation_status.invited",
+                "is_blocked": "web/app: process.accreditation.accreditation_status.is_blocked",
+                "participant_refused": "web/app: process.accreditation.accreditation_status.participant_refused",
+                "rejected_by_owner": "web/app: process.accreditation.accreditation_status.rejected_by_owner"
+            },
+            "create": {
+                "cancel": "web/app: process.accreditation.create.cancel",
+                "header": "web/app: process.accreditation.create.header",
+                "next": "web/app: process.accreditation.create.next",
+                "placeholder": "web/app: process.accreditation.create.placeholder"
+            },
+            "edit": {
+                "bot-zaar": {
+                    "auditor": {
+                        "message": {
+                            "active": "web/app: process.accreditation.edit.bot-zaar.auditor.message.active",
+                            "blocked": "web/app: process.accreditation.edit.bot-zaar.auditor.message.blocked",
+                            "changing": "web/app: process.accreditation.edit.bot-zaar.auditor.message.changing",
+                            "draft": "web/app: process.accreditation.edit.bot-zaar.auditor.message.draft"
+                        }
+                    },
+                    "owner": {
+                        "actions": {
+                            "block": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.block.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.block.title"
+                            },
+                            "cancelChanges": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.cancelChanges.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.cancelChanges.title"
+                            },
+                            "delete": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.delete.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.delete.title"
+                            },
+                            "openParticipants": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.openParticipants.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.openParticipants.title"
+                            },
+                            "publish": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.publish.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.publish.title"
+                            },
+                            "publishChanges": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.publishChanges.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.publishChanges.title"
+                            },
+                            "restore": {
+                                "description": "web/app: process.accreditation.edit.bot-zaar.owner.actions.restore.description",
+                                "title": "web/app: process.accreditation.edit.bot-zaar.owner.actions.restore.title"
+                            }
+                        },
+                        "message": {
+                            "active": "web/app: process.accreditation.edit.bot-zaar.owner.message.active",
+                            "blocked": "web/app: process.accreditation.edit.bot-zaar.owner.message.blocked",
+                            "changing": "web/app: process.accreditation.edit.bot-zaar.owner.message.changing",
+                            "draft": "web/app: process.accreditation.edit.bot-zaar.owner.message.draft"
+                        }
+                    }
+                },
+                "changes_saved": "web/app: process.accreditation.edit.changes_saved",
+                "general": {
+                    "description": {
+                        "label": "web/app: process.accreditation.edit.general.description.label"
+                    },
+                    "files": {
+                        "label": "web/app: process.accreditation.edit.general.files.label",
+                        "tooltip": "web/app: process.accreditation.edit.general.files.tooltip",
+                        "upload": "web/app: process.accreditation.edit.general.files.upload"
+                    },
+                    "tags": {
+                        "dialog": {
+                            "placeholder": "web/app: process.accreditation.edit.general.tags.dialog.placeholder",
+                            "text": "web/app: process.accreditation.edit.general.tags.dialog.text",
+                            "title": "web/app: process.accreditation.edit.general.tags.dialog.title"
+                        },
+                        "label": "web/app: process.accreditation.edit.general.tags.label",
+                        "placeholder": "web/app: process.accreditation.edit.general.tags.placeholder",
+                        "tooltip": "web/app: process.accreditation.edit.general.tags.tooltip"
+                    },
+                    "validity": {
+                        "label": "web/app: process.accreditation.edit.general.validity.label",
+                        "tooltip": "web/app: process.accreditation.edit.general.validity.tooltip"
+                    }
+                }
+            },
+            "my_accreditations": {
+                "filters": {
+                    "company_name": "web/app: process.accreditation.my_accreditations.filters.company_name",
+                    "pool_name": "web/app: process.accreditation.my_accreditations.filters.pool_name",
+                    "state": "web/app: process.accreditation.my_accreditations.filters.state"
+                },
+                "sorting": {
+                    "company_name_asc": "web/app: process.accreditation.my_accreditations.sorting.company_name_asc",
+                    "company_name_desc": "web/app: process.accreditation.my_accreditations.sorting.company_name_desc",
+                    "pool_name_asc": "web/app: process.accreditation.my_accreditations.sorting.pool_name_asc",
+                    "pool_name_desc": "web/app: process.accreditation.my_accreditations.sorting.pool_name_desc",
+                    "status_changed": "web/app: process.accreditation.my_accreditations.sorting.status_changed"
+                },
+                "title": "web/app: process.accreditation.my_accreditations.title"
+            },
+            "participants": {
+                "actions": {
+                    "application": "web/app: process.accreditation.participants.actions.application",
+                    "invite": "web/app: process.accreditation.participants.actions.invite",
+                    "settings": "web/app: process.accreditation.participants.actions.settings"
+                },
+                "draft": {
+                    "message_primary": "web/app: process.accreditation.participants.draft.message_primary",
+                    "message_secondary": "web/app: process.accreditation.participants.draft.message_secondary"
+                },
+                "empty": {
+                    "message_primary": "web/app: process.accreditation.participants.empty.message_primary",
+                    "message_secondary": "web/app: process.accreditation.participants.empty.message_secondary"
+                },
+                "invite": {
+                    "dialog": {
+                        "hint": "web/app: process.accreditation.participants.invite.dialog.hint",
+                        "text": "web/app: process.accreditation.participants.invite.dialog.text",
+                        "title": "web/app: process.accreditation.participants.invite.dialog.title"
+                    },
+                    "from_site": "web/app: process.accreditation.participants.invite.from_site",
+                    "header": "web/app: process.accreditation.participants.invite.header",
+                    "share_link": "web/app: process.accreditation.participants.invite.share_link",
+                    "site": {
+                        "title": "web/app: process.accreditation.participants.invite.site.title"
+                    }
+                },
+                "status": {
+                    "active": "web/app: process.accreditation.participants.status.active",
+                    "adjustment_required": "web/app: process.accreditation.participants.status.adjustment_required",
+                    "blocked": "web/app: process.accreditation.participants.status.blocked",
+                    "consideration": "web/app: process.accreditation.participants.status.consideration",
+                    "draft": "web/app: process.accreditation.participants.status.draft",
+                    "invited": "web/app: process.accreditation.participants.status.invited",
+                    "participant_refused": "web/app: process.accreditation.participants.status.participant_refused",
+                    "rejected_by_owner": "web/app: process.accreditation.participants.status.rejected_by_owner"
+                },
+                "title": "web/app: process.accreditation.participants.title",
+                "tooltips": {
+                    "accreditations": "web/app: process.accreditation.participants.tooltips.accreditations"
+                }
+            },
+            "pool_view": {
+                "block_pool": {
+                    "no": "web/app: process.accreditation.pool_view.block_pool.no",
+                    "success": "web/app: process.accreditation.pool_view.block_pool.success",
+                    "text": "web/app: process.accreditation.pool_view.block_pool.text",
+                    "title": "web/app: process.accreditation.pool_view.block_pool.title",
+                    "yes": "web/app: process.accreditation.pool_view.block_pool.yes"
+                },
+                "botzaar": {
+                    "owner": {
+                        "blocked": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.owner.blocked.*.message"
+                            }
+                        },
+                        "draft": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.owner.draft.*.message"
+                            }
+                        },
+                        "active": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.owner.active.*.message"
+                            }
+                        },
+                        "changing": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.owner.changing.*.message"
+                            }
+                        }
+                    },
+                    "auditor": {
+                        "blocked": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.auditor.blocked.*.message"
+                            }
+                        },
+                        "draft": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.auditor.draft.*.message"
+                            }
+                        },
+                        "active": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.auditor.active.*.message"
+                            }
+                        },
+                        "changing": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.auditor.changing.*.message"
+                            }
+                        }
+                    },
+                    "participant": {
+                        "blocked": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.participant.blocked.*.message"
+                            }
+                        },
+                        "active": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.participant.active.*.message"
+                            }
+                        },
+                        "changing": {
+                            "*": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.participant.changing.*.message"
+                            }
+                        }
+                    },
+                    "guest": {
+                        "blocked": {
+                            "no_auth": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.blocked.no_auth.message"
+                            },
+                            "waiting": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.blocked.waiting.message"
+                            },
+                            "no_company": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.blocked.no_company.message"
+                            },
+                            "no_rights": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.blocked.no_rights.message"
+                            },
+                            "default": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.blocked.default.message"
+                            }
+                        },
+                        "active": {
+                            "no_auth": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_auth.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_auth.description"
+                            },
+                            "waiting": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.active.waiting.message"
+                            },
+                            "no_company": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_company.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_company.description"
+                            },
+                            "no_rights": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_rights.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.active.no_rights.description"
+                            },
+                            "default": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.active.default.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.active.default.description"
+                            }
+                        },
+                        "changing": {
+                            "no_auth": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_auth.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_auth.description"
+                            },
+                            "waiting": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.changing.waiting.message"
+                            },
+                            "no_company": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_company.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_company.description"
+                            },
+                            "no_rights": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_rights.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.changing.no_rights.description"
+                            },
+                            "default": {
+                                "message": "web/app: process.accreditation.pool_view.botzaar.guest.changing.default.message",
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.changing.default.description"
+                            }
+                        },
+                        "actions": {
+                            "authorize": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.authorize.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.authorize.title"
+                            },
+                            "blockPool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.blockPool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.blockPool.title"
+                            },
+                            "cancelChanges": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.cancelChanges.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.cancelChanges.title"
+                            },
+                            "createCompany": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.createCompany.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.createCompany.title"
+                            },
+                            "deletePool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.deletePool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.deletePool.title"
+                            },
+                            "editPool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.editPool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.editPool.title"
+                            },
+                            "joinPool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.joinPool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.joinPool.title"
+                            },
+                            "openParticipants": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.openParticipants.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.openParticipants.title"
+                            },
+                            "openRequest": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.openRequest.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.openRequest.title"
+                            },
+                            "publishChanges": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.publishChanges.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.publishChanges.title"
+                            },
+                            "publishPool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.publishPool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.publishPool.title"
+                            },
+                            "restorePool": {
+                                "description": "web/app: process.accreditation.pool_view.botzaar.guest.actions.restorePool.description",
+                                "title": "web/app: process.accreditation.pool_view.botzaar.guest.actions.restorePool.title"
+                            }
+                        }
+                    },
+                    "actions": {
+                        "publishPool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.publishPool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.publishPool.description"
+                        },
+                        "deletePool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.deletePool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.deletePool.description"
+                        },
+                        "publishChanges": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.publishChanges.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.publishChanges.description"
+                        },
+                        "cancelChanges": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.cancelChanges.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.cancelChanges.description"
+                        },
+                        "blockPool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.blockPool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.blockPool.description"
+                        },
+                        "restorePool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.restorePool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.restorePool.description"
+                        },
+                        "editPool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.editPool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.editPool.description"
+                        },
+                        "clonePool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.clonePool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.clonePool.description"
+                        },
+                        "openParticipants": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.openParticipants.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.openParticipants.description"
+                        },
+                        "openRequest": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.openRequest.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.openRequest.description"
+                        },
+                        "authorize": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.authorize.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.authorize.description"
+                        },
+                        "createCompany": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.createCompany.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.createCompany.description"
+                        },
+                        "joinPool": {
+                            "title": "web/app: process.accreditation.pool_view.botzaar.actions.joinPool.title",
+                            "description": "web/app: process.accreditation.pool_view.botzaar.actions.joinPool.description"
+                        }
+                    }
+                },
+                "cancel_changes": {
+                    "no": "web/app: process.accreditation.pool_view.cancel_changes.no",
+                    "success": "web/app: process.accreditation.pool_view.cancel_changes.success",
+                    "text": "web/app: process.accreditation.pool_view.cancel_changes.text",
+                    "title": "web/app: process.accreditation.pool_view.cancel_changes.title",
+                    "yes": "web/app: process.accreditation.pool_view.cancel_changes.yes"
+                },
+                "delete_pool": {
+                    "no": "web/app: process.accreditation.pool_view.delete_pool.no",
+                    "success": "web/app: process.accreditation.pool_view.delete_pool.success",
+                    "text": "web/app: process.accreditation.pool_view.delete_pool.text",
+                    "title": "web/app: process.accreditation.pool_view.delete_pool.title",
+                    "yes": "web/app: process.accreditation.pool_view.delete_pool.yes"
+                },
+                "edit_pool": {
+                    "no": "web/app: process.accreditation.pool_view.edit_pool.no",
+                    "text": "web/app: process.accreditation.pool_view.edit_pool.text",
+                    "title": "web/app: process.accreditation.pool_view.edit_pool.title",
+                    "yes": "web/app: process.accreditation.pool_view.edit_pool.yes"
+                },
+                "clone_pool": {
+                    "header": "web/app: process.accreditation.pool_view.clone_pool.header",
+                    "notice": "web/app: process.accreditation.pool_view.clone_pool.notice",
+                    "redirect": "web/app: process.accreditation.pool_view.clone_pool.redirect",
+                    "team": "web/app: process.accreditation.pool_view.clone_pool.team",
+                    "common": "web/app: process.accreditation.pool_view.clone_pool.common",
+                    "cancel": "web/app: process.accreditation.pool_view.clone_pool.cancel",
+                    "submit": "web/app: process.accreditation.pool_view.clone_pool.submit",
+                    "success": "web/app: process.accreditation.pool_view.clone_pool.success"
+                },
+                "groups": {
+                    "title": "web/app: process.accreditation.pool_view.groups.title"
+                },
+                "header": "web/app: process.accreditation.pool_view.header",
+                "publish_changes": {
+                    "no": "web/app: process.accreditation.pool_view.publish_changes.no",
+                    "success": "web/app: process.accreditation.pool_view.publish_changes.success",
+                    "text": "web/app: process.accreditation.pool_view.publish_changes.text",
+                    "title": "web/app: process.accreditation.pool_view.publish_changes.title",
+                    "yes": "web/app: process.accreditation.pool_view.publish_changes.yes"
+                },
+                "publish_pool": {
+                    "no": "web/app: process.accreditation.pool_view.publish_pool.no",
+                    "success": "web/app: process.accreditation.pool_view.publish_pool.success",
+                    "text": "web/app: process.accreditation.pool_view.publish_pool.text",
+                    "text_no_questionnaire": "web/app: process.accreditation.pool_view.publish_pool.text_no_questionnaire",
+                    "title": "web/app: process.accreditation.pool_view.publish_pool.title",
+                    "title_no_questionnaire": "web/app: process.accreditation.pool_view.publish_pool.title_no_questionnaire",
+                    "yes": "web/app: process.accreditation.pool_view.publish_pool.yes"
+                },
+                "restore_pool": {
+                    "no": "web/app: process.accreditation.pool_view.restore_pool.no",
+                    "success": "web/app: process.accreditation.pool_view.restore_pool.success",
+                    "text": "web/app: process.accreditation.pool_view.restore_pool.text",
+                    "title": "web/app: process.accreditation.pool_view.restore_pool.title",
+                    "yes": "web/app: process.accreditation.pool_view.restore_pool.yes"
+                },
+                "team": {
+                    "add": "web/app: process.accreditation.pool_view.team.add",
+                    "not_empty": "web/app: process.accreditation.pool_view.team.not_empty",
+                    "remove": {
+                        "other": {
+                            "no": "web/app: process.accreditation.pool_view.team.remove.other.no",
+                            "text": "web/app: process.accreditation.pool_view.team.remove.other.text",
+                            "yes": "web/app: process.accreditation.pool_view.team.remove.other.yes"
+                        },
+                        "self": {
+                            "no": "web/app: process.accreditation.pool_view.team.remove.self.no",
+                            "text": "web/app: process.accreditation.pool_view.team.remove.self.text",
+                            "yes": "web/app: process.accreditation.pool_view.team.remove.self.yes"
+                        },
+                        "tooltip": "web/app: process.accreditation.pool_view.team.remove.tooltip"
+                    },
+                    "title": "web/app: process.accreditation.pool_view.team.title"
+                }
+            },
+            "pools": {
+                "actions": {
+                    "create": "web/app: process.accreditation.pools.actions.create",
+                    "delete": "web/app: process.accreditation.pools.actions.delete",
+                    "settings": "web/app: process.accreditation.pools.actions.settings"
+                },
+                "columns": {
+                    "accredited": "web/app: process.accreditation.pools.columns.accredited",
+                    "name": "web/app: process.accreditation.pools.columns.name",
+                    "processing": "web/app: process.accreditation.pools.columns.processing",
+                    "rejected": "web/app: process.accreditation.pools.columns.rejected",
+                    "status": "web/app: process.accreditation.pools.columns.status"
+                },
+                "delete_dialog": {
+                    "no": "web/app: process.accreditation.pools.delete_dialog.no",
+                    "text": "web/app: process.accreditation.pools.delete_dialog.text",
+                    "title": "web/app: process.accreditation.pools.delete_dialog.title",
+                    "yes": "web/app: process.accreditation.pools.delete_dialog.yes"
+                },
+                "empty": {
+                    "message_primary": "web/app: process.accreditation.pools.empty.message_primary",
+                    "message_secondary": "web/app: process.accreditation.pools.empty.message_secondary"
+                },
+                "new_pool": "web/app: process.accreditation.pools.new_pool",
+                "placeholder": "web/app: process.accreditation.pools.placeholder",
+                "status": {
+                    "active": "web/app: process.accreditation.pools.status.active",
+                    "blocked": "web/app: process.accreditation.pools.status.blocked",
+                    "changing": "web/app: process.accreditation.pools.status.changing",
+                    "draft": "web/app: process.accreditation.pools.status.draft"
+                },
+                "team": {
+                    "header": "web/app: process.accreditation.pools.team.header"
+                },
+                "title": "web/app: process.accreditation.pools.title",
+                "tooltips": {
+                    "add_users": "web/app: process.accreditation.pools.tooltips.add_users",
+                    "create": "web/app: process.accreditation.pools.tooltips.create",
+                    "edit": "web/app: process.accreditation.pools.tooltips.edit",
+                    "remove": "web/app: process.accreditation.pools.tooltips.remove",
+                    "settings": "web/app: process.accreditation.pools.tooltips.settings",
+                    "stats": {
+                        "accreditations": "web/app: process.accreditation.pools.tooltips.stats.accreditations",
+                        "adjustments": "web/app: process.accreditation.pools.tooltips.stats.adjustments",
+                        "canceled": "web/app: process.accreditation.pools.tooltips.stats.canceled",
+                        "considerations": "web/app: process.accreditation.pools.tooltips.stats.considerations"
+                    }
+                },
+                "update_required": "web/app: process.accreditation.pools.update_required"
+            },
+            "pools_filter": {
+                "empty": "web/app: process.accreditation.pools_filter.empty",
+                "no_pools_body": "web/app: process.accreditation.pools_filter.no_pools_body",
+                "no_pools_title": "web/app: process.accreditation.pools_filter.no_pools_title",
+                "search": "web/app: process.accreditation.pools_filter.search",
+                "search_empty": "web/app: process.accreditation.pools_filter.search_empty",
+                "show_pools": "web/app: process.accreditation.pools_filter.show_pools"
+            },
+            "pools_selector": {
+                "cancel": "web/app: process.accreditation.pools_selector.cancel",
+                "empty": "web/app: process.accreditation.pools_selector.empty",
+                "header": "web/app: process.accreditation.pools_selector.header",
+                "next": "web/app: process.accreditation.pools_selector.next"
+            }
+        },
+        "light": {
+            "create": {
+                "cancel": "web/app: process.light.create.cancel",
+                "header": "web/app: process.light.create.header",
+                "next": "web/app: process.light.create.next",
+                "placeholder": "web/app: process.light.create.placeholder"
+            },
+            "invite": {
+                "dialog": {
+                    "actions": {
+                        "cancel": "web/app: process.light.invite.dialog.actions.cancel",
+                        "next": "web/app: process.light.invite.dialog.actions.next"
+                    },
+                    "empty": {
+                        "primary": "web/app: process.light.invite.dialog.empty.primary",
+                        "secondary": "web/app: process.light.invite.dialog.empty.secondary"
+                    },
+                    "header": {
+                        "notice": "web/app: process.light.invite.dialog.header.notice",
+                        "title": "web/app: process.light.invite.dialog.header.title"
+                    },
+                    "procedures": {
+                        "draft": "web/app: process.light.invite.dialog.procedures.draft",
+                        "proposal": "web/app: process.light.invite.dialog.procedures.proposal"
+                    }
+                },
+                "success": {
+                    "message": "web/app: process.light.invite.success.message",
+                    "open": "web/app: process.light.invite.success.open"
+                }
+            },
+            "view": {
+                "actions": {
+                    "publish": "web/app: process.light.view.actions.publish"
+                },
+                "authorize": {
+                    "action": "web/app: process.light.view.authorize.action",
+                    "text": "web/app: process.light.view.authorize.text"
+                },
+                "cart": {
+                    "empty_text": "web/app: process.light.view.cart.empty_text"
+                },
+                "choose": {
+                    "hide_participants_name": "web/app: process.light.view.choose.hide_participants_name",
+                    "hide_proposals": "web/app: process.light.view.choose.hide_proposals",
+                    "updated": "web/app: process.light.view.choose.updated"
+                },
+                "code": "web/app: process.light.view.code",
+                "company": {
+                    "about": "web/app: process.light.view.company.about"
+                },
+                "join_dialog": {
+                    "text": "web/app: process.light.view.join_dialog.text",
+                    "title": "web/app: process.light.view.join_dialog.title"
+                },
+                "parameters": {
+                    "time-left": "web/app: process.light.view.parameters.time-left",
+                    "title": "web/app: process.light.view.parameters.title"
+                },
+                "participants_conclusion": {
+                    "empty": "web/app: process.light.view.participants_conclusion.empty",
+                    "header": "web/app: process.light.view.participants_conclusion.header"
+                },
+                "pools": {
+                    "add": "web/app: process.light.view.pools.add",
+                    "title": "web/app: process.light.view.pools.title"
+                },
+                "proposal": {
+                    "questionnaire": "web/app: process.light.view.proposal.questionnaire"
+                },
+                "saved": "web/app: process.light.view.saved",
+                "snacks": {
+                    "acceptanceEndDateChanged": "web/app: process.light.view.snacks.acceptanceEndDateChanged",
+                    "published": "web/app: process.light.view.snacks.published",
+                    "statusChanged": "web/app: process.light.view.snacks.statusChanged"
+                },
+                "status": {
+                    "canceled": "web/app: process.light.view.status.canceled",
+                    "draft": "web/app: process.light.view.status.draft",
+                    "finished": "web/app: process.light.view.status.finished",
+                    "proposal": "web/app: process.light.view.status.proposal",
+                    "summarize": "web/app: process.light.view.status.summarize"
+                },
+                "summarizing_dialog": {
+                    "text": "web/app: process.light.view.summarizing_dialog.text",
+                    "title": "web/app: process.light.view.summarizing_dialog.title"
+                },
+                "tabs": {
+                    "choose": "web/app: process.light.view.tabs.choose",
+                    "conclusion": "web/app: process.light.view.tabs.conclusion",
+                    "events": "web/app: process.light.view.tabs.events",
+                    "general": "web/app: process.light.view.tabs.general",
+                    "participants": "web/app: process.light.view.tabs.participants",
+                    "participants_conclusion": "web/app: process.light.view.tabs.participants_conclusion",
+                    "proposal": "web/app: process.light.view.tabs.proposal",
+                    "request": "web/app: process.light.view.tabs.request",
+                    "team": "web/app: process.light.view.tabs.team"
+                },
+                "tags": {
+                    "dialog_empty_placeholder": "web/app: process.light.view.tags.dialog_empty_placeholder",
+                    "dialog_header": "web/app: process.light.view.tags.dialog_header",
+                    "dialog_info_text": "web/app: process.light.view.tags.dialog_info_text",
+                    "empty_placeholder": "web/app: process.light.view.tags.empty_placeholder",
+                    "label": "web/app: process.light.view.tags.label",
+                    "tooltip": "web/app: process.light.view.tags.tooltip"
+                },
+                "team": {
+                    "delete_dialog": {
+                        "text": "web/app: process.light.view.team.delete_dialog.text"
+                    },
+                    "info": "web/app: process.light.view.team.info",
+                    "title": "web/app: process.light.view.team.title"
+                },
+                "timer": {
+                    "notice": "web/app: process.light.view.timer.notice",
+                    "text": "web/app: process.light.view.timer.text"
+                },
+                "tooltips": {
+                    "economy": "web/app: process.light.view.tooltips.economy",
+                    "order": "web/app: process.light.view.tooltips.order"
+                },
+                "version_mismatch_dialog": {
+                    "next": "web/app: process.light.view.version_mismatch_dialog.next",
+                    "text": "web/app: process.light.view.version_mismatch_dialog.text",
+                    "title": "web/app: process.light.view.version_mismatch_dialog.title"
+                },
+                "wrong_status_dialog": {
+                    "text": "web/app: process.light.view.wrong_status_dialog.text",
+                    "title": "web/app: process.light.view.wrong_status_dialog.title"
+                }
+            }
+        },
+        "participants": {
+            "add": "web/app: process.participants.add"
+        },
+        "questionnaire": {
+            "add_group": "web/app: process.questionnaire.add_group",
+            "add_question": "web/app: process.questionnaire.add_question",
+            "default_group_name": "web/app: process.questionnaire.default_group_name",
+            "default_question_name": "web/app: process.questionnaire.default_question_name",
+            "group_actions": {
+                "delete": "web/app: process.questionnaire.group_actions.delete",
+                "delete_dialog": {
+                    "no": "web/app: process.questionnaire.group_actions.delete_dialog.no",
+                    "text": "web/app: process.questionnaire.group_actions.delete_dialog.text",
+                    "yes": "web/app: process.questionnaire.group_actions.delete_dialog.yes"
+                },
+                "move": "web/app: process.questionnaire.group_actions.move"
+            },
+            "group_form": {
+                "cancel": "web/app: process.questionnaire.group_form.cancel",
+                "group_name": "web/app: process.questionnaire.group_form.group_name",
+                "save": "web/app: process.questionnaire.group_form.save"
+            },
+            "item_edit": {
+                "add_options": "web/app: process.questionnaire.item_edit.add_options",
+                "cancel": "web/app: process.questionnaire.item_edit.cancel",
+                "data_source_not_empty": "web/app: process.questionnaire.item_edit.data_source_not_empty",
+                "delete": {
+                    "no": "web/app: process.questionnaire.item_edit.delete.no",
+                    "text": "web/app: process.questionnaire.item_edit.delete.text",
+                    "yes": "web/app: process.questionnaire.item_edit.delete.yes"
+                },
+                "fields": {
+                    "answer_type": "web/app: process.questionnaire.item_edit.fields.answer_type",
+                    "comment": "web/app: process.questionnaire.item_edit.fields.comment",
+                    "question_type": "web/app: process.questionnaire.item_edit.fields.question_type",
+                    "text": "web/app: process.questionnaire.item_edit.fields.text"
+                },
+                "save": "web/app: process.questionnaire.item_edit.save",
+                "update": "web/app: process.questionnaire.item_edit.update"
+            },
+            "item_input_types": {
+                "date": "web/app: process.questionnaire.item_input_types.date",
+                "number": "web/app: process.questionnaire.item_input_types.number",
+                "string": "web/app: process.questionnaire.item_input_types.string"
+            },
+            "item_types": {
+                "boolean": "web/app: process.questionnaire.item_types.boolean",
+                "input": "web/app: process.questionnaire.item_types.input",
+                "multiple": "web/app: process.questionnaire.item_types.multiple",
+                "select": "web/app: process.questionnaire.item_types.select"
+            }
+        }
+    },
+    "question": {
+        "comment": "web/app: question.comment",
+        "dataSource": "web/app: question.dataSource",
+        "hasDataSource": "web/app: question.hasDataSource",
+        "multiple": "web/app: question.multiple",
+        "template": "web/app: question.template",
+        "type": "web/app: question.type"
+    },
+    "rating": {
+        "company": "web/app: rating.company"
+    },
+    "tags": {
+        "add_dialog": {
+            "cancel": "web/app: tags.add_dialog.cancel",
+            "hint": "web/app: tags.add_dialog.hint",
+            "save": "web/app: tags.add_dialog.save"
+        },
+        "promo_tags": {
+            "info_dialog": {
+                "how_to": "web/app: tags.promo_tags.info_dialog.how_to",
+                "info": "web/app: tags.promo_tags.info_dialog.info"
+            },
+            "select_dialog": {
+                "apply": "web/app: tags.promo_tags.select_dialog.apply",
+                "cancel": "web/app: tags.promo_tags.select_dialog.cancel",
+                "choose": "web/app: tags.promo_tags.select_dialog.choose",
+                "help": "web/app: tags.promo_tags.select_dialog.help"
+            },
+            "title": "web/app: tags.promo_tags.title",
+            "to_tags_dialog": {
+                "close": "web/app: tags.promo_tags.to_tags_dialog.close",
+                "help": "web/app: tags.promo_tags.to_tags_dialog.help",
+                "info": "web/app: tags.promo_tags.to_tags_dialog.info",
+                "title": "web/app: tags.promo_tags.to_tags_dialog.title"
+            }
+        },
+        "tooltips": {
+            "add": "web/app: tags.tooltips.add"
+        }
+    },
+    "template": {
+        "checkbox": "web/app: template.checkbox",
+        "date": "web/app: template.date",
+        "datetime": "web/app: template.datetime",
+        "number": "web/app: template.number",
+        "slide-toggle": "web/app: template.slide-toggle",
+        "text": "web/app: template.text",
+        "textarea": "web/app: template.textarea",
+        "time": "web/app: template.time"
+    },
+    "type": {
+        "boolean": "web/app: type.boolean",
+        "date": "web/app: type.date",
+        "datetime": "web/app: type.datetime",
+        "integer": "web/app: type.integer",
+        "number": "web/app: type.number",
+        "string": "web/app: type.string",
+        "time": "web/app: type.time"
+    },
+    "user": {
+        "company-card": {
+            "comment": "web/app: user.company-card.comment",
+            "email": "web/app: user.company-card.email",
+            "phone": "web/app: user.company-card.phone",
+            "position": "web/app: user.company-card.position",
+            "title": "web/app: user.company-card.title"
+        },
+        "form": {
+            "companies": {
+                "add_company": "web/app: user.form.companies.add_company",
+                "edit_info": "web/app: user.form.companies.edit_info",
+                "fill_info": "web/app: user.form.companies.fill_info",
+                "help": "web/app: user.form.companies.help",
+                "title": "web/app: user.form.companies.title"
+            },
+            "email": {
+                "change": "web/app: user.form.email.change",
+                "description": "web/app: user.form.email.description"
+            },
+            "password": {
+                "change": "web/app: user.form.password.change"
+            },
+            "firstName": "web/app: user.form.firstName",
+            "lastName": "web/app: user.form.lastName",
+            "save": "web/app: user.form.save",
+            "secondName": "web/app: user.form.secondName",
+            "success": "web/app: user.form.success",
+            "title": "web/app: user.form.title",
+            "change_login_tooltip": "web/app: user.form.change_login_tooltip"
+        },
+        "invite": {
+            "waiting": "web/app: user.invite.waiting"
+        },
+        "suicide": {
+            "button": {
+                "title": "web/app: user.suicide.button.title"
+            },
+            "header": {
+                "title": "web/app: user.suicide.header.title"
+            },
+            "message": {
+                "account": {
+                    "title": "web/app: user.suicide.message.account.title",
+                    "reasons": {
+                        "0": "web/app: user.suicide.message.account.reasons.0",
+                        "1": "web/app: user.suicide.message.account.reasons.1",
+                        "2": "web/app: user.suicide.message.account.reasons.2",
+                        "3": "web/app: user.suicide.message.account.reasons.3"
+                    }
+                },
+                "company": {
+                    "title": "web/app: user.suicide.message.company.title",
+                    "reasons": {
+                        "0": "web/app: user.suicide.message.company.reasons.0",
+                        "1": "web/app: user.suicide.message.company.reasons.1",
+                        "2": "web/app: user.suicide.message.company.reasons.2"
+                    }
+                },
+                "success": "web/app: user.suicide.message.success"
+            },
+            "actions": {
+                "cancel": "web/app: user.suicide.actions.cancel",
+                "confirm": "web/app: user.suicide.actions.confirm",
+                "done": "web/app: user.suicide.actions.done"
+            }
+        },
+        "change_login_dialog": {
+            "title": "web/app: user.change_login_dialog.title",
+            "field_label": "web/app: user.change_login_dialog.field_label",
+            "info": "web/app: user.change_login_dialog.info",
+            "submit": "web/app: user.change_login_dialog.submit",
+            "cancel": "web/app: user.change_login_dialog.cancel",
+            "confirm_title": "web/app: user.change_login_dialog.confirm_title",
+            "confirm_info": "web/app: user.change_login_dialog.confirm_info",
+            "close": "web/app: user.change_login_dialog.close"
+        }
+    },
+    "user_management": {
+        "user_company": {
+            "preview": {
+                "email_placeholder": "web/app: user_management.user_company.preview.email_placeholder",
+                "phone_placeholder": "web/app: user_management.user_company.preview.phone_placeholder",
+                "position_placeholder": "web/app: user_management.user_company.preview.position_placeholder"
+            },
+            "update": {
+                "success": "web/app: user_management.user_company.update.success"
+            }
+        },
+        "badges": {
+            "filter": {
+                "show": "web/app: user_management.badges.filter.show",
+                "search": "web/app: user_management.badges.filter.search",
+                "empty": "web/app: user_management.badges.filter.empty"
+            }
+        },
+        "employees": {
+            "filter": {
+                "show": "web/app: user_management.employees.filter.show",
+                "search": "web/app: user_management.employees.filter.search",
+                "empty": "web/app: user_management.employees.filter.empty",
+                "collapse": "web/app: user_management.employees.filter.collapse",
+                "expand": "web/app: user_management.employees.filter.expand"
+            }
+        },
+        "company": {
+            "achievements": {
+                "header": "web/app: user_management.company.achievements.header",
+                "popup": {
+                    "how_get": "web/app: user_management.company.achievements.popup.how_get",
+                    "message": "web/app: user_management.company.achievements.popup.message",
+                    "who_get": "web/app: user_management.company.achievements.popup.who_get"
+                },
+                "count": {
+                    "more": "web/app: user_management.company.achievements.count.more"
+                }
+            },
+            "create": {
+                "phone": "web/app: user_management.company.create.phone",
+                "success": {
+                    "action": "web/app: user_management.company.create.success.action",
+                    "message": "web/app: user_management.company.create.success.message"
+                }
+            },
+            "editor": {
+                "registrationDate": {
+                    "header": "web/app: user_management.company.editor.registrationDate.header",
+                    "label": "web/app: user_management.company.editor.registrationDate.label",
+                    "clear": "web/app: user_management.company.editor.registrationDate.clear"
+                },
+                "contactinfo": {
+                    "header": "web/app: user_management.company.editor.contactinfo.header",
+                    "number": "web/app: user_management.company.editor.contactinfo.number",
+                    "comment": "web/app: user_management.company.editor.contactinfo.comment"
+                },
+                "email": {
+                    "header": "web/app: user_management.company.editor.email.header",
+                    "label": "web/app: user_management.company.editor.email.label"
+                },
+                "site": {
+                    "header": "web/app: user_management.company.editor.site.header",
+                    "label": "web/app: user_management.company.editor.site.label"
+                },
+                "employeescount": {
+                    "header": "web/app: user_management.company.editor.employeescount.header",
+                    "label": "web/app: user_management.company.editor.employeescount.label"
+                },
+                "location": {
+                    "header": "web/app: user_management.company.editor.location.header"
+                },
+                "name": {
+                    "header": "web/app: user_management.company.editor.name.header",
+                    "label": "web/app: user_management.company.editor.name.label",
+                    "title": "web/app: user_management.company.editor.name.title"
+                },
+                "description": {
+                    "header": "web/app: user_management.company.editor.description.header",
+                    "label": "web/app: user_management.company.editor.description.label",
+                    "title": "web/app: user_management.company.editor.description.title"
+                },
+                "actions": {
+                    "cancel": "web/app: user_management.company.editor.actions.cancel",
+                    "save": "web/app: user_management.company.editor.actions.save"
+                },
+                "dialogs": {
+                    "remove_image": {
+                        "title": "web/app: user_management.company.editor.dialogs.remove_image.title",
+                        "submit": "web/app: user_management.company.editor.dialogs.remove_image.submit",
+                        "cancel": "web/app: user_management.company.editor.dialogs.remove_image.cancel"
+                    }
+                }
+            },
+            "select": {
+                "cancel": "web/app: user_management.company.select.cancel",
+                "create": "web/app: user_management.company.select.create",
+                "header": "web/app: user_management.company.select.header",
+                "next": "web/app: user_management.company.select.next"
+            },
+            "self_invite": {
+                "info": "web/app: user_management.company.self_invite.info",
+                "no": "web/app: user_management.company.self_invite.no",
+                "success": "web/app: user_management.company.self_invite.success",
+                "text": "web/app: user_management.company.self_invite.text",
+                "title": "web/app: user_management.company.self_invite.title",
+                "yes": "web/app: user_management.company.self_invite.yes"
+            },
+            "side_view": {
+                "company": "web/app: user_management.company.side_view.company",
+                "details": "web/app: user_management.company.side_view.details"
+            },
+            "viewer": {
+                "toolbar": {
+                    "completed": "web/app: user_management.company.viewer.toolbar.completed",
+                    "toggle": "web/app: user_management.company.viewer.toolbar.toggle"
+                },
+                "progress": {
+                    "title": "web/app: user_management.company.viewer.progress.title",
+                    "items": {
+                        "0": {
+                            "name": "web/app: user_management.company.viewer.progress.items.0.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.0.tooltip"
+                        },
+                        "1": {
+                            "name": "web/app: user_management.company.viewer.progress.items.1.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.1.tooltip"
+                        },
+                        "2": {
+                            "name": "web/app: user_management.company.viewer.progress.items.2.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.2.tooltip"
+                        },
+                        "3": {
+                            "name": "web/app: user_management.company.viewer.progress.items.3.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.3.tooltip"
+                        },
+                        "4": {
+                            "name": "web/app: user_management.company.viewer.progress.items.4.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.4.tooltip"
+                        },
+                        "5": {
+                            "name": "web/app: user_management.company.viewer.progress.items.5.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.5.tooltip"
+                        },
+                        "6": {
+                            "name": "web/app: user_management.company.viewer.progress.items.6.name",
+                            "tooltip": "web/app: user_management.company.viewer.progress.items.6.tooltip"
+                        }
+                    }
+                },
+                "info": {
+                    "title": "web/app: user_management.company.viewer.info.title",
+                    "labels": {
+                        "title": "web/app: user_management.company.viewer.info.labels.title"
+                    },
+                    "description": {
+                        "empty": "web/app: user_management.company.viewer.info.description.empty"
+                    }
+                },
+                "esg": {
+                    "title": "web/app: user_management.company.viewer.esg.title",
+                    "popover": "web/app: user_management.company.viewer.esg.popover",
+                    "empty": {
+                        "certificate": "web/app: user_management.company.viewer.esg.empty.certificate",
+                        "status": "web/app: user_management.company.viewer.esg.empty.status",
+                        "text": {
+                            "RUS_FORK": {
+                                "compact": "web/app: user_management.company.viewer.esg.empty.text.RUS_FORK.compact",
+                                "default": "web/app: user_management.company.viewer.esg.empty.text.RUS_FORK.default"
+                            }
+                        }
+                    },
+                    "points": {
+                        "environmental": "web/app: user_management.company.viewer.esg.points.environmental",
+                        "environmental_popover": "web/app: user_management.company.viewer.esg.points.environmental_popover",
+                        "social": "web/app: user_management.company.viewer.esg.points.social",
+                        "social_popover": "web/app: user_management.company.viewer.esg.points.social_popover",
+                        "governance": "web/app: user_management.company.viewer.esg.points.governance",
+                        "governance_popover": "web/app: user_management.company.viewer.esg.points.governance_popover"
+                    },
+                    "actions": {
+                        "share": "web/app: user_management.company.viewer.esg.actions.share",
+                        "open": "web/app: user_management.company.viewer.esg.actions.open",
+                        "what_is": "web/app: user_management.company.viewer.esg.actions.what_is",
+                        "certificate": "web/app: user_management.company.viewer.esg.actions.certificate",
+                        "report": "web/app: user_management.company.viewer.esg.actions.report",
+                        "questionnaire": "web/app: user_management.company.viewer.esg.actions.questionnaire",
+                        "copy_link": "web/app: user_management.company.viewer.esg.actions.copy_link",
+                        "site": "web/app: user_management.company.viewer.esg.actions.site"
+                    },
+                    "dialogs": {
+                        "share": {
+                            "title": "web/app: user_management.company.viewer.esg.dialogs.share.title",
+                            "text": "web/app: user_management.company.viewer.esg.dialogs.share.text",
+                            "hint": "web/app: user_management.company.viewer.esg.dialogs.share.hint"
+                        },
+                        "site": {
+                            "toggle": {
+                                "medal": "web/app: user_management.company.viewer.esg.dialogs.site.toggle.medal",
+                                "badge": "web/app: user_management.company.viewer.esg.dialogs.site.toggle.badge"
+                            },
+                            "show_points": "web/app: user_management.company.viewer.esg.dialogs.site.show_points",
+                            "info": "web/app: user_management.company.viewer.esg.dialogs.site.info",
+                            "hint": "web/app: user_management.company.viewer.esg.dialogs.site.hint",
+                            "link": "web/app: user_management.company.viewer.esg.dialogs.site.link",
+                            "copy_snack": "web/app: user_management.company.viewer.esg.dialogs.site.copy_snack"
+                        }
+                    }
+                },
+                "tags": {
+                    "title": "web/app: user_management.company.viewer.tags.title",
+                    "add": "web/app: user_management.company.viewer.tags.add",
+                    "empty": "web/app: user_management.company.viewer.tags.empty",
+                    "dialog": {
+                        "header": "web/app: user_management.company.viewer.tags.dialog.header",
+                        "placeholder": "web/app: user_management.company.viewer.tags.dialog.placeholder",
+                        "text": "web/app: user_management.company.viewer.tags.dialog.text"
+                    }
+                },
+                "photos": {
+                    "title": "web/app: user_management.company.viewer.photos.title",
+                    "add": "web/app: user_management.company.viewer.photos.add",
+                    "empty": "web/app: user_management.company.viewer.photos.empty"
+                },
+                "regions": {
+                    "title": "web/app: user_management.company.viewer.regions.title",
+                    "add": "web/app: user_management.company.viewer.regions.add",
+                    "empty": "web/app: user_management.company.viewer.regions.empty",
+                    "text": "web/app: user_management.company.viewer.regions.text"
+                },
+                "contacts": {
+                    "title": "web/app: user_management.company.viewer.contacts.title",
+                    "fields": {
+                        "date": "web/app: user_management.company.viewer.contacts.fields.date"
+                    },
+                    "empty": {
+                        "date": "web/app: user_management.company.viewer.contacts.empty.date",
+                        "email": "web/app: user_management.company.viewer.contacts.empty.email",
+                        "employees": "web/app: user_management.company.viewer.contacts.empty.employees",
+                        "location": "web/app: user_management.company.viewer.contacts.empty.location",
+                        "phone": "web/app: user_management.company.viewer.contacts.empty.phone",
+                        "site": "web/app: user_management.company.viewer.contacts.empty.site"
+                    }
+                },
+                "requisites": {
+                    "title": "web/app: user_management.company.viewer.requisites.title",
+                    "edit": "web/app: user_management.company.viewer.requisites.edit",
+                    "success": {
+                        "true": "web/app: user_management.company.viewer.requisites.success.true",
+                        "false": "web/app: user_management.company.viewer.requisites.success.false"
+                    }
+                },
+                "activity": {
+                    "title": "web/app: user_management.company.viewer.activity.title",
+                    "on_site": "web/app: user_management.company.viewer.activity.on_site",
+                    "empty": "web/app: user_management.company.viewer.activity.empty",
+                    "sales": {
+                        "header": {
+                            "title": "web/app: user_management.company.viewer.activity.sales.header.title"
+                        },
+                        "blocks": {
+                            "active": {
+                                "title": "web/app: user_management.company.viewer.activity.sales.blocks.active.title",
+                                "tooltip": "web/app: user_management.company.viewer.activity.sales.blocks.active.tooltip"
+                            },
+                            "participations": {
+                                "title": "web/app: user_management.company.viewer.activity.sales.blocks.participations.title",
+                                "tooltip": "web/app: user_management.company.viewer.activity.sales.blocks.participations.tooltip"
+                            },
+                            "orders": {
+                                "title": "web/app: user_management.company.viewer.activity.sales.blocks.orders.title",
+                                "tooltip": "web/app: user_management.company.viewer.activity.sales.blocks.orders.tooltip"
+                            }
+                        }
+                    },
+                    "purchases": {
+                        "header": {
+                            "title": "web/app: user_management.company.viewer.activity.purchases.header.title",
+                            "tooltip": "web/app: user_management.company.viewer.activity.purchases.header.tooltip"
+                        },
+                        "blocks": {
+                            "active": {
+                                "title": "web/app: user_management.company.viewer.activity.purchases.blocks.active.title",
+                                "tooltip": "web/app: user_management.company.viewer.activity.purchases.blocks.active.tooltip"
+                            },
+                            "total": {
+                                "title": "web/app: user_management.company.viewer.activity.purchases.blocks.total.title",
+                                "tooltip": "web/app: user_management.company.viewer.activity.purchases.blocks.total.tooltip"
+                            }
+                        }
+                    }
+                },
+                "partners": {
+                    "title": "web/app: user_management.company.viewer.partners.title",
+                    "description": "web/app: user_management.company.viewer.partners.description"
+                },
+                "registers": {
+                    "title": "web/app: user_management.company.viewer.registers.title",
+                    "description": "web/app: user_management.company.viewer.registers.description"
+                },
+                "documents": {
+                    "title": "web/app: user_management.company.viewer.documents.title",
+                    "add": "web/app: user_management.company.viewer.documents.add",
+                    "empty": "web/app: user_management.company.viewer.documents.empty",
+                    "max_size": "web/app: user_management.company.viewer.documents.max_size"
+                },
+                "deleted": {
+                    "date": "web/app: user_management.company.viewer.deleted.date",
+                    "irrelevant_information": "web/app: user_management.company.viewer.deleted.irrelevant_information"
+                },
+                "actions": {
+                    "edit": "web/app: user_management.company.viewer.actions.edit",
+                    "details": "web/app: user_management.company.viewer.actions.details",
+                    "join": "web/app: user_management.company.viewer.actions.join",
+                    "manage": "web/app: user_management.company.viewer.actions.manage",
+                    "invite": {
+                        "request": "web/app: user_management.company.viewer.actions.invite.request",
+                        "registry": "web/app: user_management.company.viewer.actions.invite.registry"
+                    },
+                    "menu": {
+                        "employees": "web/app: user_management.company.viewer.actions.menu.employees",
+                        "groups": "web/app: user_management.company.viewer.actions.menu.groups",
+                        "cgroups": "web/app: user_management.company.viewer.actions.menu.cgroups",
+                        "ugroups": "web/app: user_management.company.viewer.actions.menu.ugroups",
+                        "public": "web/app: user_management.company.viewer.actions.menu.public",
+                        "remove": "web/app: user_management.company.viewer.actions.menu.remove",
+                        "phantom": "web/app: user_management.company.viewer.actions.menu.phantom",
+                        "smtp": "web/app: user_management.company.viewer.actions.menu.smtp",
+                        "categories": "web/app: user_management.company.viewer.actions.menu.categories"
+                    }
+                },
+                "dialogs": {
+                    "phantom": {
+                        "title": "web/app: user_management.company.viewer.dialogs.phantom.title",
+                        "submit": "web/app: user_management.company.viewer.dialogs.phantom.submit",
+                        "cancel": "web/app: user_management.company.viewer.dialogs.phantom.cancel"
+                    },
+                    "registry": {
+                        "title": "web/app: user_management.company.viewer.dialogs.registry.title",
+                        "submit": "web/app: user_management.company.viewer.dialogs.registry.submit",
+                        "empty": "web/app: user_management.company.viewer.dialogs.registry.empty",
+                        "success": "web/app: user_management.company.viewer.dialogs.registry.success"
+                    }
+                }
+            }
+        },
+        "public_profile": {
+            "actions": {
+                "create": "web/app: user_management.public_profile.actions.create",
+                "link": "web/app: user_management.public_profile.actions.link",
+                "preview": "web/app: user_management.public_profile.actions.preview"
+            },
+            "defaults": {
+                "description": "web/app: user_management.public_profile.defaults.description",
+                "pools": {
+                    "placeholder": "web/app: user_management.public_profile.defaults.pools.placeholder",
+                    "title": "web/app: user_management.public_profile.defaults.pools.title"
+                },
+                "tenders": {
+                    "placeholder": "web/app: user_management.public_profile.defaults.tenders.placeholder",
+                    "title": "web/app: user_management.public_profile.defaults.tenders.title"
+                },
+                "title": "web/app: user_management.public_profile.defaults.title"
+            },
+            "empty": {
+                "message_primary": "web/app: user_management.public_profile.empty.message_primary",
+                "message_secondary": "web/app: user_management.public_profile.empty.message_secondary"
+            },
+            "profile": {
+                "editor": {
+                    "description": {
+                        "header": "web/app: user_management.public_profile.profile.editor.description.header",
+                        "title": "web/app: user_management.public_profile.profile.editor.description.title"
+                    },
+                    "pools": {
+                        "header": "web/app: user_management.public_profile.profile.editor.pools.header",
+                        "placeholder": "web/app: user_management.public_profile.profile.editor.pools.placeholder",
+                        "show": "web/app: user_management.public_profile.profile.editor.pools.show",
+                        "show_if_empty": "web/app: user_management.public_profile.profile.editor.pools.show_if_empty",
+                        "title": "web/app: user_management.public_profile.profile.editor.pools.title"
+                    },
+                    "tenders": {
+                        "header": "web/app: user_management.public_profile.profile.editor.tenders.header",
+                        "placeholder": "web/app: user_management.public_profile.profile.editor.tenders.placeholder",
+                        "show": "web/app: user_management.public_profile.profile.editor.tenders.show",
+                        "show_if_empty": "web/app: user_management.public_profile.profile.editor.tenders.show_if_empty",
+                        "title": "web/app: user_management.public_profile.profile.editor.tenders.title"
+                    },
+                    "title": {
+                        "header": "web/app: user_management.public_profile.profile.editor.title.header",
+                        "title": "web/app: user_management.public_profile.profile.editor.title.title"
+                    }
+                },
+                "viewer": {
+                    "description": {
+                        "empty": {
+                            "message_primary": "web/app: user_management.public_profile.profile.viewer.description.empty.message_primary",
+                            "message_secondary": "web/app: user_management.public_profile.profile.viewer.description.empty.message_secondary"
+                        },
+                        "header": "web/app: user_management.public_profile.profile.viewer.description.header"
+                    },
+                    "files": {
+                        "empty": {
+                            "message_primary": "web/app: user_management.public_profile.profile.viewer.files.empty.message_primary",
+                            "message_secondary": "web/app: user_management.public_profile.profile.viewer.files.empty.message_secondary"
+                        },
+                        "header": "web/app: user_management.public_profile.profile.viewer.files.header"
+                    },
+                    "links": {
+                        "header": "web/app: user_management.public_profile.profile.viewer.links.header",
+                        "iframe": {
+                            "action": {
+                                "copy": "web/app: user_management.public_profile.profile.viewer.links.iframe.action.copy"
+                            },
+                            "options": {
+                                "page": "web/app: user_management.public_profile.profile.viewer.links.iframe.options.page",
+                                "pools": "web/app: user_management.public_profile.profile.viewer.links.iframe.options.pools",
+                                "tenders": "web/app: user_management.public_profile.profile.viewer.links.iframe.options.tenders"
+                            },
+                            "title": "web/app: user_management.public_profile.profile.viewer.links.iframe.title"
+                        },
+                        "page": {
+                            "action": {
+                                "copy": "web/app: user_management.public_profile.profile.viewer.links.page.action.copy"
+                            },
+                            "title": "web/app: user_management.public_profile.profile.viewer.links.page.title"
+                        }
+                    },
+                    "pools": {
+                        "empty": {
+                            "message_primary": "web/app: user_management.public_profile.profile.viewer.pools.empty.message_primary",
+                            "message_secondary": "web/app: user_management.public_profile.profile.viewer.pools.empty.message_secondary"
+                        },
+                        "header": "web/app: user_management.public_profile.profile.viewer.pools.header",
+                        "notice": {
+                            "message": "web/app: user_management.public_profile.profile.viewer.pools.notice.message",
+                            "title": "web/app: user_management.public_profile.profile.viewer.pools.notice.title"
+                        }
+                    },
+                    "tenders": {
+                        "empty": {
+                            "message_primary": "web/app: user_management.public_profile.profile.viewer.tenders.empty.message_primary",
+                            "message_secondary": "web/app: user_management.public_profile.profile.viewer.tenders.empty.message_secondary"
+                        },
+                        "header": "web/app: user_management.public_profile.profile.viewer.tenders.header",
+                        "notice": {
+                            "message": "web/app: user_management.public_profile.profile.viewer.tenders.notice.message",
+                            "title": "web/app: user_management.public_profile.profile.viewer.tenders.notice.title"
+                        }
+                    },
+                    "title": {
+                        "empty": {
+                            "message_primary": "web/app: user_management.public_profile.profile.viewer.title.empty.message_primary",
+                            "message_secondary": "web/app: user_management.public_profile.profile.viewer.title.empty.message_secondary"
+                        },
+                        "header": "web/app: user_management.public_profile.profile.viewer.title.header"
+                    }
+                }
+            },
+            "title": "web/app: user_management.public_profile.title"
+        },
+        "rights": {
+            "comment": "web/app: user_management.rights.comment",
+            "items": {
+                "0": {
+                    "short": "web/app: user_management.rights.items.0.short",
+                    "long": "web/app: user_management.rights.items.0.long"
+                },
+                "1": {
+                    "short": "web/app: user_management.rights.items.1.short",
+                    "long": "web/app: user_management.rights.items.1.long"
+                },
+                "2": {
+                    "short": "web/app: user_management.rights.items.2.short",
+                    "long": "web/app: user_management.rights.items.2.long"
+                },
+                "4": {
+                    "short": "web/app: user_management.rights.items.4.short",
+                    "long": "web/app: user_management.rights.items.4.long"
+                },
+                "8": {
+                    "short": "web/app: user_management.rights.items.8.short",
+                    "long": "web/app: user_management.rights.items.8.long"
+                },
+                "16": {
+                    "short": "web/app: user_management.rights.items.16.short",
+                    "long": "web/app: user_management.rights.items.16.long"
+                },
+                "128": {
+                    "short": "web/app: user_management.rights.items.128.short",
+                    "long": "web/app: user_management.rights.items.128.long"
+                },
+                "256": {
+                    "short": "web/app: user_management.rights.items.256.short",
+                    "long": "web/app: user_management.rights.items.256.long"
+                },
+                "512": {
+                    "short": "web/app: user_management.rights.items.512.short",
+                    "long": "web/app: user_management.rights.items.512.long"
+                },
+                "1024": {
+                    "short": "web/app: user_management.rights.items.1024.short",
+                    "long": "web/app: user_management.rights.items.1024.long"
+                },
+                "2048": {
+                    "short": "web/app: user_management.rights.items.2048.short",
+                    "long": "web/app: user_management.rights.items.2048.long"
+                }
+            },
+            "role": {
+                "title": "web/app: user_management.rights.role.title",
+                "tooltip": "web/app: user_management.rights.role.tooltip",
+                "items": {
+                    "0": "web/app: user_management.rights.role.items.0",
+                    "1": "web/app: user_management.rights.role.items.1",
+                    "2": "web/app: user_management.rights.role.items.2"
+                }
+            },
+            "state": {
+                "empty": "web/app: user_management.rights.state.empty",
+                "filled": "web/app: user_management.rights.state.filled"
+            }
+        },
+        "shared": {
+            "about_organizer": "web/app: user_management.shared.about_organizer",
+            "delete_company_dialog": {
+                "cancel": "web/app: user_management.shared.delete_company_dialog.cancel",
+                "delete": "web/app: user_management.shared.delete_company_dialog.delete",
+                "description": "web/app: user_management.shared.delete_company_dialog.description",
+                "success_snack": "web/app: user_management.shared.delete_company_dialog.success_snack",
+                "title": "web/app: user_management.shared.delete_company_dialog.title"
+            },
+            "process_invite": {
+                "invite": "web/app: user_management.shared.process_invite.invite",
+                "pool": "web/app: user_management.shared.process_invite.pool",
+                "procedure": "web/app: user_management.shared.process_invite.procedure",
+                "tooltip": "web/app: user_management.shared.process_invite.tooltip"
+            },
+            "verified": {
+                "checked": "web/app: user_management.shared.verified.checked",
+                "info": "web/app: user_management.shared.verified.info",
+                "more": "web/app: user_management.shared.verified.more",
+                "verified": "web/app: user_management.shared.verified.verified"
+            }
+        },
+        "user": {
+            "list": {
+                "current_user": "web/app: user_management.user.list.current_user",
+                "invite": {
+                    "cards": {
+                        "personal": {
+                            "content": {
+                                "email": "web/app: user_management.user.list.invite.cards.personal.content.email",
+                                "errors": {
+                                    "active": {
+                                        "action": "web/app: user_management.user.list.invite.cards.personal.content.errors.active.action",
+                                        "text": "web/app: user_management.user.list.invite.cards.personal.content.errors.active.text"
+                                    },
+                                    "deleted": {
+                                        "action": "web/app: user_management.user.list.invite.cards.personal.content.errors.deleted.action",
+                                        "text": "web/app: user_management.user.list.invite.cards.personal.content.errors.deleted.text"
+                                    },
+                                    "invited": {
+                                        "action": "web/app: user_management.user.list.invite.cards.personal.content.errors.invited.action",
+                                        "text": "web/app: user_management.user.list.invite.cards.personal.content.errors.invited.text"
+                                    },
+                                    "waiting": {
+                                        "action": "web/app: user_management.user.list.invite.cards.personal.content.errors.waiting.action",
+                                        "text": "web/app: user_management.user.list.invite.cards.personal.content.errors.waiting.text"
+                                    }
+                                },
+                                "hint": "web/app: user_management.user.list.invite.cards.personal.content.hint",
+                                "invite": "web/app: user_management.user.list.invite.cards.personal.content.invite"
+                            },
+                            "header": "web/app: user_management.user.list.invite.cards.personal.header"
+                        },
+                        "referral": {
+                            "content": {
+                                "copy": "web/app: user_management.user.list.invite.cards.referral.content.copy",
+                                "hint": "web/app: user_management.user.list.invite.cards.referral.content.hint",
+                                "success": "web/app: user_management.user.list.invite.cards.referral.content.success"
+                            },
+                            "header": "web/app: user_management.user.list.invite.cards.referral.header"
+                        }
+                    },
+                    "header": "web/app: user_management.user.list.invite.header",
+                    "separator": "web/app: user_management.user.list.invite.separator",
+                    "success": "web/app: user_management.user.list.invite.success"
+                }
+            }
+        },
+        "request_company_verification_dialog": {
+            "header": "web/app: user_management.request_company_verification_dialog.header",
+            "title_prefix": "web/app: user_management.request_company_verification_dialog.title_prefix",
+            "title_link": "web/app: user_management.request_company_verification_dialog.title_link",
+            "title_postfix": "web/app: user_management.request_company_verification_dialog.title_postfix",
+            "info": "web/app: user_management.request_company_verification_dialog.info",
+            "contact_person": "web/app: user_management.request_company_verification_dialog.contact_person",
+            "full_name": "web/app: user_management.request_company_verification_dialog.full_name",
+            "phone": "web/app: user_management.request_company_verification_dialog.phone",
+            "email": "web/app: user_management.request_company_verification_dialog.email",
+            "cancel": "web/app: user_management.request_company_verification_dialog.cancel",
+            "send_request": "web/app: user_management.request_company_verification_dialog.send_request",
+            "success": "web/app: user_management.request_company_verification_dialog.success"
+        },
+        "users-selector-dialog": {
+            "empty": "web/app: user_management.users-selector-dialog.empty",
+            "search": "web/app: user_management.users-selector-dialog.search",
+            "cancel": "web/app: user_management.users-selector-dialog.cancel",
+            "submit": "web/app: user_management.users-selector-dialog.submit",
+            "not-found": "web/app: user_management.users-selector-dialog.not-found"
+        }
+    },
+    "user_menu": {
+        "employees": "web/app: user_menu.employees",
+        "add_company": "web/app: user_menu.add_company",
+        "change_company": "web/app: user_menu.change_company",
+        "company_profile": "web/app: user_menu.company_profile",
+        "company": "web/app: user_menu.company",
+        "exit": "web/app: user_menu.exit",
+        "my_profile": "web/app: user_menu.my_profile",
+        "subscriptions": "web/app: user_menu.subscriptions",
+        "user_agreement": "web/app: user_menu.user_agreement"
+    },
+    "validation": {
+        "already_exists": "web/app: validation.already_exists",
+        "email": "web/app: validation.email",
+        "file_too_large": "web/app: validation.file_too_large",
+        "greater_than": "web/app: validation.greater_than",
+        "invalid_date_format": "web/app: validation.invalid_date_format",
+        "invalid_grant": "web/app: validation.invalid_grant",
+        "less_than": "web/app: validation.less_than",
+        "max": "web/app: validation.max",
+        "max_length": "web/app: validation.max_length",
+        "min": "web/app: validation.min",
+        "min_length": "web/app: validation.min_length",
+        "notEmpty": "web/app: validation.notEmpty",
+        "passwords_not_equal": "web/app: validation.passwords_not_equal",
+        "required": "web/app: validation.required",
+        "unsupported_file_format": "web/app: validation.unsupported_file_format",
+        "user_not_exists": "web/app: validation.user_not_exists",
+        "wrong_code": "web/app: validation.wrong_code",
+        "wrong_format": "web/app: validation.wrong_format",
+        "pattern": "web/app: validation.pattern"
+    },
+    "widgets": {
+        "cropper": {
+            "dialog": {
+                "cancel": "web/app: widgets.cropper.dialog.cancel",
+                "header": "web/app: widgets.cropper.dialog.header",
+                "save": "web/app: widgets.cropper.dialog.save"
+            }
+        }
+    },
+    "queries": {
+        "add_dialog": {
+            "title": "web/app: queries.add_dialog.title",
+            "label": "web/app: queries.add_dialog.label",
+            "cancel": "web/app: queries.add_dialog.cancel",
+            "submit": "web/app: queries.add_dialog.submit",
+            "default_name": "web/app: queries.add_dialog.default_name"
+        },
+        "queries_menu": {
+            "save": "web/app: queries.queries_menu.save",
+            "filters": "web/app: queries.queries_menu.filters"
+        },
+        "delete_dialog": {
+            "title": "web/app: queries.delete_dialog.title",
+            "yes": "web/app: queries.delete_dialog.yes",
+            "no": "web/app: queries.delete_dialog.no"
+        },
+        "subscriptions_button": "web/app: queries.subscriptions_button",
+        "subscriptions_menu": {
+            "current": "web/app: queries.subscriptions_menu.current"
+        },
+        "subscribe_dialog": {
+            "title": "web/app: queries.subscribe_dialog.title",
+            "name": "web/app: queries.subscribe_dialog.name",
+            "info": "web/app: queries.subscribe_dialog.info",
+            "cancel": "web/app: queries.subscribe_dialog.cancel",
+            "submit": "web/app: queries.subscribe_dialog.submit"
+        },
+        "unsubscribe_dialog": {
+            "title": "web/app: queries.unsubscribe_dialog.title",
+            "name": "web/app: queries.unsubscribe_dialog.name",
+            "cancel": "web/app: queries.unsubscribe_dialog.cancel",
+            "submit": "web/app: queries.unsubscribe_dialog.submit"
+        },
+        "snacks": {
+            "subscription_added": "web/app: queries.snacks.subscription_added",
+            "subscription_removed": "web/app: queries.snacks.subscription_removed",
+            "filter_save": "web/app: queries.snacks.filter_save",
+            "filter_deleted": "web/app: queries.snacks.filter_deleted"
+        }
+    },
+    "lgn": {
+        "confirm_changing": {
+            "email_confirmed": "web/app: lgn.confirm_changing.email_confirmed",
+            "info": "web/app: lgn.confirm_changing.info"
+        }
+    },
+    "ugr": {
+        "shared": {
+            "selection_dialog": {
+                "title": "web/app: ugr.shared.selection_dialog.title",
+                "cancel": "web/app: ugr.shared.selection_dialog.cancel",
+                "submit": "web/app: ugr.shared.selection_dialog.submit",
+                "empty": {
+                    "specify_groups": "web/app: ugr.shared.selection_dialog.empty.specify_groups",
+                    "no_groups": "web/app: ugr.shared.selection_dialog.empty.no_groups"
+                }
+            }
+        }
+    },
+    "months": {
+        "short": {
+            "0": "web/app: months.short.0",
+            "1": "web/app: months.short.1",
+            "2": "web/app: months.short.2",
+            "3": "web/app: months.short.3",
+            "4": "web/app: months.short.4",
+            "5": "web/app: months.short.5",
+            "6": "web/app: months.short.6",
+            "7": "web/app: months.short.7",
+            "8": "web/app: months.short.8",
+            "9": "web/app: months.short.9",
+            "10": "web/app: months.short.10",
+            "11": "web/app: months.short.11"
+        },
+        "long": {
+            "0": "web/app: months.long.0",
+            "1": "web/app: months.long.1",
+            "2": "web/app: months.long.2",
+            "3": "web/app: months.long.3",
+            "4": "web/app: months.long.4",
+            "5": "web/app: months.long.5",
+            "6": "web/app: months.long.6",
+            "7": "web/app: months.long.7",
+            "8": "web/app: months.long.8",
+            "9": "web/app: months.long.9",
+            "10": "web/app: months.long.10",
+            "11": "web/app: months.long.11"
+        }
+    }
+}

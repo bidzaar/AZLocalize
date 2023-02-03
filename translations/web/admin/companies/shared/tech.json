@@ -1,0 +1,71 @@
+{
+    "cmp.shared": {
+        "enums": {
+            "rights": {
+                "0": "web/admin/companies/shared: cmp.shared.enums.rights.0",
+                "1": "web/admin/companies/shared: cmp.shared.enums.rights.1",
+                "2": "web/admin/companies/shared: cmp.shared.enums.rights.2",
+                "4": "web/admin/companies/shared: cmp.shared.enums.rights.4",
+                "8": "web/admin/companies/shared: cmp.shared.enums.rights.8",
+                "16": "web/admin/companies/shared: cmp.shared.enums.rights.16",
+                "128": "web/admin/companies/shared: cmp.shared.enums.rights.128",
+                "512": "web/admin/companies/shared: cmp.shared.enums.rights.512",
+                "2048": "web/admin/companies/shared: cmp.shared.enums.rights.2048"
+            }
+        },
+        "list": {
+            "title": "web/admin/companies/shared: cmp.shared.list.title",
+            "selected_title": "web/admin/companies/shared: cmp.shared.list.selected_title",
+            "filters": {
+                "tags": "web/admin/companies/shared: cmp.shared.list.filters.tags",
+                "rights": "web/admin/companies/shared: cmp.shared.list.filters.rights",
+                "badges": "web/admin/companies/shared: cmp.shared.list.filters.badges",
+                "location": "web/admin/companies/shared: cmp.shared.list.filters.location",
+                "areas": "web/admin/companies/shared: cmp.shared.list.filters.areas",
+                "shown": {
+                    "title": "web/admin/companies/shared: cmp.shared.list.filters.shown.title",
+                    "true": "web/admin/companies/shared: cmp.shared.list.filters.shown.true",
+                    "false": "web/admin/companies/shared: cmp.shared.list.filters.shown.false"
+                },
+                "phantom": {
+                    "title": "web/admin/companies/shared: cmp.shared.list.filters.phantom.title",
+                    "true": "web/admin/companies/shared: cmp.shared.list.filters.phantom.true",
+                    "false": "web/admin/companies/shared: cmp.shared.list.filters.phantom.false"
+                },
+                "verified": {
+                    "title": "web/admin/companies/shared: cmp.shared.list.filters.verified.title",
+                    "true": "web/admin/companies/shared: cmp.shared.list.filters.verified.true",
+                    "false": "web/admin/companies/shared: cmp.shared.list.filters.verified.false"
+                },
+                "deleted": {
+                    "title": "web/admin/companies/shared: cmp.shared.list.filters.deleted.title",
+                    "false": "web/admin/companies/shared: cmp.shared.list.filters.deleted.false",
+                    "true": "web/admin/companies/shared: cmp.shared.list.filters.deleted.true"
+                }
+            },
+            "sort": {
+                "registration_date": "web/admin/companies/shared: cmp.shared.list.sort.registration_date"
+            },
+            "search": "web/admin/companies/shared: cmp.shared.list.search",
+            "empty": "web/admin/companies/shared: cmp.shared.list.empty",
+            "crm": "web/admin/companies/shared: cmp.shared.list.crm",
+            "actions": {
+                "notify_users_tooltip": "web/admin/companies/shared: cmp.shared.list.actions.notify_users_tooltip"
+            }
+        },
+        "email": {
+            "header": "web/admin/companies/shared: cmp.shared.email.header",
+            "subject_label": "web/admin/companies/shared: cmp.shared.email.subject_label",
+            "subject_placeholder": "web/admin/companies/shared: cmp.shared.email.subject_placeholder",
+            "message_placeholder": "web/admin/companies/shared: cmp.shared.email.message_placeholder",
+            "to_label": "web/admin/companies/shared: cmp.shared.email.to_label",
+            "to_text": "web/admin/companies/shared: cmp.shared.email.to_text",
+            "from_label": "web/admin/companies/shared: cmp.shared.email.from_label",
+            "success": "web/admin/companies/shared: cmp.shared.email.success",
+            "actions": {
+                "cancel": "web/admin/companies/shared: cmp.shared.email.actions.cancel",
+                "submit": "web/admin/companies/shared: cmp.shared.email.actions.submit"
+            }
+        }
+    }
+}

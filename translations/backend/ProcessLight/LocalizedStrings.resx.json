@@ -1,0 +1,22 @@
+{
+    "SimplifiedEventType.ChangesEnded": "Запрос изменён",
+    "SimplifiedEventType.ParticipantBlocked": "Участник заблокирован",
+    "SimplifiedEventType.ParticipantJoined": "Участие подтверждено",
+    "SimplifiedEventType.ParticipantPermittedToChangePrice": "Заказчик разрешил нарушить правило изменения цены Участником",
+    "SimplifiedEventType.ParticipantRefused": "Участник отказался от участия",
+    "SimplifiedEventType.ParticipantUnblocked": "Участник разблокирован",
+    "SimplifiedEventType.ProcedureCompleted": "Запрос завершен",
+    "SimplifiedEventType.ProcedureProlonged": "Автопродление приёма предложений",
+    "SimplifiedEventType.ProcedurePublished": "Запрос опубликован",
+    "SimplifiedEventType.ProcedureTariffChanged": "Тариф запроса изменен",
+    "SimplifiedEventType.ProcedureUnCompleted": "Завершенный запрос возвращён на подведение итогов",
+    "SimplifiedEventType.ProposalGoDraftDueToMajorChange": "Все поданные предложения отклонены",
+    "SimplifiedEventType.ProposalRecalled": "Предложение отозвано",
+    "SimplifiedEventType.ProposalSubmitted": "Предложение подано",
+    "SimplifiedEventType.ProposalValidationFail": "Подано невалидное предложение",
+    "SimplifiedEventType.StagePublished": "Новый этап опубликован",
+    "SimplifiedEventType.SummingUp": "Приём предложений завершён",
+    "SimplifiedEventType.UsersAdded": "Команда запроса. Добавлен сотрудник",
+    "SimplifiedEventType.UsersDeleted": "Команда запроса. Удалён сотрудник",
+    "SimplifiedEventType.UsersRolesChanged": "Команда запроса. Изменена роль сотрудника"
+}

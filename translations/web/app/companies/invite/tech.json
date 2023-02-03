@@ -1,0 +1,35 @@
+{
+    "cmp": {
+        "inv": {
+            "header": "web/app/companies/invite: cmp.inv.header",
+            "status": {
+                "waiting": {
+                    "title": "web/app/companies/invite: cmp.inv.status.waiting.title",
+                    "text": "web/app/companies/invite: cmp.inv.status.waiting.text"
+                },
+                "active": {
+                    "title": "web/app/companies/invite: cmp.inv.status.active.title"
+                },
+                "refused": {
+                    "title": "web/app/companies/invite: cmp.inv.status.refused.title",
+                    "text": "web/app/companies/invite: cmp.inv.status.refused.text"
+                },
+                "deleted": {
+                    "title": "web/app/companies/invite: cmp.inv.status.deleted.title",
+                    "text": "web/app/companies/invite: cmp.inv.status.deleted.text"
+                },
+                "unauth": {
+                    "title": "web/app/companies/invite: cmp.inv.status.unauth.title",
+                    "text": "web/app/companies/invite: cmp.inv.status.unauth.text"
+                }
+            },
+            "actions": {
+                "profile": "web/app/companies/invite: cmp.inv.actions.profile",
+                "next": "web/app/companies/invite: cmp.inv.actions.next",
+                "accept": "web/app/companies/invite: cmp.inv.actions.accept",
+                "login": "web/app/companies/invite: cmp.inv.actions.login",
+                "register": "web/app/companies/invite: cmp.inv.actions.register"
+            }
+        }
+    }
+}

@@ -1,0 +1,57 @@
+{
+    "bdz.cat": {
+        "list": {
+            "empty": "No category is specified",
+            "append": "Specify a category",
+            "remove": "Remove the category",
+            "dialogs": {
+                "remove": {
+                    "title": "Remove the category",
+                    "cancel": "Cancel",
+                    "submit": "Remove"
+                }
+            }
+        },
+        "filter": {
+            "choose": "Choose >"
+        },
+        "tree": {
+            "title": "Categories",
+            "empty": "No categories are specified",
+            "active": "Only active",
+            "inactive": "The category is not active",
+            "childless": "There are no nested categories",
+            "actions": {
+                "menu": "Actions",
+                "rename": "Rename",
+                "create": "Add a category",
+                "append": "Add a sub-category",
+                "up": "Move up",
+                "down": "Mode down",
+                "move": "Move",
+                "move_to_root": "To the root",
+                "move_to_node": "To another category",
+                "activate": "Set active",
+                "deactivate": "Set not active"
+            },
+            "dialogs": {
+                "rename": {
+                    "title": "The category",
+                    "cancel": "Cancel",
+                    "submit": "Save",
+                    "placeholder": "Category name"
+                }
+            }
+        },
+        "selection": {
+            "text": "No categories are specified",
+            "notice": "Categories directory is empty",
+            "submit": "OK"
+        }
+    },
+    "errors": {
+        "logic": {
+            "Category.CycleDetected": "You cannot move a parent category to a child category"
+        }
+    }
+}

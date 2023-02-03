@@ -1,0 +1,36 @@
+{
+    "req.inv": {
+        "similar": {
+            "header": {
+                "title": "web/admin/requests/invites: req.inv.similar.header.title",
+                "done": "web/admin/requests/invites: req.inv.similar.header.done",
+                "invite": "web/admin/requests/invites: req.inv.similar.header.invite"
+            },
+            "list": {
+                "header": {
+                    "title": "web/admin/requests/invites: req.inv.similar.list.header.title",
+                    "search": "web/admin/requests/invites: req.inv.similar.list.header.search"
+                },
+                "empty": {
+                    "text": "web/admin/requests/invites: req.inv.similar.list.empty.text"
+                },
+                "filters": {
+                    "address": {
+                        "title": "web/admin/requests/invites: req.inv.similar.list.filters.address.title"
+                    }
+                },
+                "sorting": {
+                    "participants": "web/admin/requests/invites: req.inv.similar.list.sorting.participants"
+                },
+                "card": {
+                    "participants": "web/admin/requests/invites: req.inv.similar.list.card.participants",
+                    "link": "web/admin/requests/invites: req.inv.similar.list.card.link",
+                    "invite": "web/admin/requests/invites: req.inv.similar.list.card.invite"
+                }
+            }
+        },
+        "companies": {
+            "success": "web/admin/requests/invites: req.inv.companies.success"
+        }
+    }
+}

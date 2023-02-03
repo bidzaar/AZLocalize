@@ -1,0 +1,74 @@
+{
+    "req.lst": {
+        "list": {
+            "header": {
+                "title": "web/admin/requests/list: req.lst.list.header.title",
+                "search": "web/admin/requests/list: req.lst.list.header.search"
+            },
+            "empty": {
+                "text": "web/admin/requests/list: req.lst.list.empty.text"
+            },
+            "sorting": {
+                "publishDate": "web/admin/requests/list: req.lst.list.sorting.publishDate",
+                "proposalsCount": "web/admin/requests/list: req.lst.list.sorting.proposalsCount",
+                "acceptanceEndDate": "web/admin/requests/list: req.lst.list.sorting.acceptanceEndDate",
+                "finishDate": "web/admin/requests/list: req.lst.list.sorting.finishDate"
+            },
+            "filters": {
+                "status": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.status.title"
+                },
+                "publishDate": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.publishDate.title"
+                },
+                "acceptanceEndDate": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.acceptanceEndDate.title"
+                },
+                "proposals": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.proposals.title"
+                },
+                "address": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.address.title"
+                },
+                "category": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.category.title"
+                },
+                "company": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.company.title",
+                    "choose": "web/admin/requests/list: req.lst.list.filters.company.choose"
+                },
+                "responsible": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.responsible.title",
+                    "choose": "web/admin/requests/list: req.lst.list.filters.responsible.choose"
+                },
+                "open_type": {
+                    "title": "web/admin/requests/list: req.lst.list.filters.open_type.title",
+                    "options": {
+                        "0": "web/admin/requests/list: req.lst.list.filters.open_type.options.0",
+                        "1": "web/admin/requests/list: req.lst.list.filters.open_type.options.1"
+                    }
+                }
+            },
+            "card": {
+                "links": {
+                    "journal": "web/admin/requests/list: req.lst.list.card.links.journal",
+                    "participants": "web/admin/requests/list: req.lst.list.card.links.participants",
+                    "open": "web/admin/requests/list: req.lst.list.card.links.open"
+                },
+                "link": {
+                    "open": "web/admin/requests/list: req.lst.list.card.link.open"
+                },
+                "publish": {
+                    "date": "web/admin/requests/list: req.lst.list.card.publish.date"
+                },
+                "category": {
+                    "empty": "web/admin/requests/list: req.lst.list.card.category.empty"
+                },
+                "stats": {
+                    "proposals": "web/admin/requests/list: req.lst.list.card.stats.proposals",
+                    "participants": "web/admin/requests/list: req.lst.list.card.stats.participants"
+                }
+            }
+        }
+    }
+}

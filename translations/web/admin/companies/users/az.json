@@ -1,97 +1,98 @@
 {
-  "cmp.users": {
-    "enums": {
-      "rights": {
-        "0": {
-          "long": "Hüquqlar təyin edilməyib",
-          "short": "Hüquqlar təyin edilməyib"
+    "cmp.users": {
+        "enums": {
+            "rights": {
+                "0": {
+                    "long": "Hüquqlar təyin edilməyib",
+                    "short": "Hüquqlar təyin edilməyib"
+                },
+                "1": {
+                    "long": "Sorğuların keçirilməsi",
+                    "short": "Sorğuların keçirilməsi"
+                },
+                "2": {
+                    "long": "Sorğuya təkliflərin verilməsi",
+                    "short": "Təkliflərin təqdim edilməsi"
+                },
+                "4": {
+                    "long": "Akkreditasiya üçün müraciət",
+                    "short": "Akkreditasiyaya sorğu"
+                },
+                "8": {
+                    "long": "Akkreditasiya qruplarının idarə edilməsi",
+                    "short": "Qrupların idarəçiliyi"
+                },
+                "16": {
+                    "long": "Təşkilatın idarə olunması",
+                    "short": "Təşkilatın idarə olunması"
+                },
+                "128": {
+                    "long": "Satınalma şöbəsinin rəhbəri",
+                    "short": "Satınalma üzrə rəhbər"
+                },
+                "256": {
+                    "long": "Qrupların idarə olunması",
+                    "short": "Qrupların idarə olunması"
+                },
+                "512": {
+                    "long": "Reyestrlər",
+                    "short": "Reyestrlər"
+                },
+                "1024": {
+                    "long": "Reyestrlər şöbəsinin rəhbəri",
+                    "short": "Reyestrlərin rəhbəri"
+                },
+                "2048": {
+                    "short": "Qruplarda akkreditasiya üçün müraciət",
+                    "long": "Qruplarda akkreditasiya üçün müraciət"
+                }
+            },
+            "role": {
+                "0": "Auditor",
+                "1": "Redaktor",
+                "2": "Sahib"
+            }
         },
-        "1": {
-          "long": "Sorğuların keçirilməsi",
-          "short": "Sorğuların keçirilməsi"
-        },
-        "2": {
-          "long": "Sorğuya təkliflərin verilməsi",
-          "short": "Təkliflərin təqdim edilməsi"
-        },
-        "4": {
-          "long": "Akkreditasiya üçün müraciət",
-          "short": "Akkreditasiyaya sorğu"
-        },
-        "8": {
-          "long": "Akkreditasiya qruplarının idarə edilməsi",
-          "short": "Qrupların idarəçiliyi"
-        },
-        "16": {
-          "long": "Təşkilatın idarə olunması",
-          "short": "Təşkilatın idarə olunması"
-        },
-        "128": {
-          "long": "Satınalma şöbəsinin rəhbəri",
-          "short": "Satınalma üzrə rəhbər"
-        },
-        "256": {
-          "long": "Qrupların idarə olunması",
-          "short": "Qrupların idarə olunması"
-        },
-        "512": {
-          "long": "Reyestrlər",
-          "short": "Reyestrlər"
-        },
-        "1024": {
-          "long": "Reyestrlər şöbəsinin rəhbəri",
-          "short": "Reyestrlərin rəhbəri"
-        },
-        "2048": {
-          "short": "Qruplarda akkreditasiya üçün müraciət",
-          "long": "Qruplarda akkreditasiya üçün müraciət"
+        "list": {
+            "card": {
+                "rights": {
+                    "empty": "Hüquqları yoxdur"
+                }
+            },
+            "empty": {
+                "absolute": "Şirkətdə hələ ProcureSaas-da qeydiyyatdan keçmiş işçiləri yoxdur",
+                "filtered": "Üzr istəyirik, bu sorğu üçün heç bir işçi tapa bilmədik..."
+            },
+            "filters": {
+                "rights": {
+                    "title": "Hüquqlar"
+                },
+                "status": {
+                    "title": "Status"
+                },
+                "statusChangedOn": {
+                    "title": "Statusun dəyişmə tarixi"
+                }
+            },
+            "header": {
+                "search": "Axtarış işçinin adı və əlaqə məlumatları əsasında aparılır",
+                "title": "Şirkət əməkdaşları"
+            },
+            "preview": {
+                "approve": "Qəbul etmək",
+                "rights": {
+                    "empty": "Hüquqlar təyin edilməyib",
+                    "list": "İstifadəçi hüquqları"
+                },
+                "status": {
+                    "date": "{{ value }} -dən"
+                }
+            },
+            "sorting": {
+                "name": "Ad",
+                "status": "Status",
+                "status_changed": "[AT] Status dəyişdirmə tarixi"
+            }
         }
-      },
-      "role": {
-        "0": "Auditor",
-        "1": "Redaktor",
-        "2": "Sahib"
-      }
-    },        
-    "list": {
-      "card": {
-        "rights": {
-          "empty": "Hüquqları yoxdur"
-        }
-      },
-      "empty": {
-        "absolute": "Şirkətdə hələ ProcureSaas-da qeydiyyatdan keçmiş işçiləri yoxdur",
-        "filtered": "Üzr istəyirik, bu sorğu üçün heç bir işçi tapa bilmədik..."
-      },
-      "filters": {
-        "rights": {
-          "title": "Hüquqlar"
-        },
-        "status": {
-          "title": "Status"
-        },
-        "statusChangedOn": {
-          "title": "Statusun dəyişmə tarixi"
-        }
-      },
-      "header": {
-        "search": "Axtarış işçinin adı və əlaqə məlumatları əsasında aparılır",
-        "title": "Şirkət əməkdaşları"
-      },
-      "preview": {
-        "approve": "Qəbul etmək",
-        "rights": {
-          "empty": "Hüquqlar təyin edilməyib",
-          "list": "İstifadəçi hüquqları"
-        },
-        "status": {
-          "date": "{{ value }} -dən"
-        }
-      },
-      "sorting": {
-        "name": "Ad",
-        "status": "Status"
-      }
     }
-  }
 }

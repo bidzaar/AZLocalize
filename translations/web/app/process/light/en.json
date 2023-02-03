@@ -477,7 +477,7 @@
           },
           "options": {
             "attachment": "Download with attached documents",
-            "selectable":Select the fields " of offers to download"
+            "selectable": "Select the fields of offers to download"
           },
           "columns": {
             "8": "Quantity",
@@ -573,7 +573,6 @@
           },
           "invalid": "Please correct the errors and re-publish",
           "actions": {
-           ,
             "cancel": "Cancel",
             "submit": "Publish",
             "close": "OK"

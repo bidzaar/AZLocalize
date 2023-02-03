@@ -1,0 +1,89 @@
+{
+    "req.side": {
+        "request": {
+            "header": {
+                "publish": "web/admin/requests/side: req.side.request.header.publish"
+            },
+            "details": {
+                "participants": "web/admin/requests/side: req.side.request.details.participants",
+                "site": "web/admin/requests/side: req.side.request.details.site"
+            },
+            "contacts": {
+                "title": "web/admin/requests/side: req.side.request.contacts.title"
+            },
+            "owners": {
+                "title": "web/admin/requests/side: req.side.request.owners.title"
+            },
+            "statistics": {
+                "stage": {
+                    "label": "web/admin/requests/side: req.side.request.statistics.stage.label"
+                },
+                "participants": {
+                    "label": "web/admin/requests/side: req.side.request.statistics.participants.label",
+                    "tooltip": "web/admin/requests/side: req.side.request.statistics.participants.tooltip"
+                },
+                "proposals": {
+                    "label": "web/admin/requests/side: req.side.request.statistics.proposals.label",
+                    "tooltip": "web/admin/requests/side: req.side.request.statistics.proposals.tooltip"
+                }
+            }
+        },
+        "supplier": {
+            "header": {
+                "number": "web/admin/requests/side: req.side.supplier.header.number",
+                "date": "web/admin/requests/side: req.side.supplier.header.date",
+                "invite": "web/admin/requests/side: req.side.supplier.header.invite"
+            },
+            "invite": {
+                "additional": {
+                    "text": "web/admin/requests/side: req.side.supplier.invite.additional.text"
+                }
+            },
+            "company": {
+                "categories": {
+                    "title": "web/admin/requests/side: req.side.supplier.company.categories.title"
+                },
+                "contacts": {
+                    "title": "web/admin/requests/side: req.side.supplier.company.contacts.title",
+                    "placeholders": {
+                        "location": "web/admin/requests/side: req.side.supplier.company.contacts.placeholders.location",
+                        "email": "web/admin/requests/side: req.side.supplier.company.contacts.placeholders.email",
+                        "site": "web/admin/requests/side: req.side.supplier.company.contacts.placeholders.site",
+                        "phone": "web/admin/requests/side: req.side.supplier.company.contacts.placeholders.phone",
+                        "employees": "web/admin/requests/side: req.side.supplier.company.contacts.placeholders.employees"
+                    }
+                },
+                "areas": {
+                    "title": "web/admin/requests/side: req.side.supplier.company.areas.title",
+                    "text": "web/admin/requests/side: req.side.supplier.company.areas.text",
+                    "empty": "web/admin/requests/side: req.side.supplier.company.areas.empty"
+                },
+                "details": {
+                    "profile": "web/admin/requests/side: req.side.supplier.company.details.profile",
+                    "manage": "web/admin/requests/side: req.side.supplier.company.details.manage"
+                },
+                "tags": {
+                    "title": "web/admin/requests/side: req.side.supplier.company.tags.title",
+                    "count": "web/admin/requests/side: req.side.supplier.company.tags.count",
+                    "expand": "web/admin/requests/side: req.side.supplier.company.tags.expand",
+                    "collapse": "web/admin/requests/side: req.side.supplier.company.tags.collapse",
+                    "empty": "web/admin/requests/side: req.side.supplier.company.tags.empty"
+                },
+                "additional": {
+                    "description": {
+                        "title": "web/admin/requests/side: req.side.supplier.company.additional.description.title",
+                        "placeholder": "web/admin/requests/side: req.side.supplier.company.additional.description.placeholder"
+                    },
+                    "requisites": {
+                        "title": "web/admin/requests/side: req.side.supplier.company.additional.requisites.title"
+                    }
+                }
+            },
+            "participant": {
+                "contacts": {
+                    "title": "web/admin/requests/side: req.side.supplier.participant.contacts.title"
+                }
+            }
+        }
+    }
+}

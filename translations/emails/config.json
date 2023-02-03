@@ -1,0 +1,542 @@
+{
+    "SendResetPasswordMessage": [
+        {
+            "Template": "ResetPassword",
+            "Target": "EmailTarget"
+        }
+    ],
+    "NotifyRequestToCompanyJoin": [
+        {
+            "Template": "ADM_Join_request",
+            "Target": "CompanyManagers"
+        }
+    ],
+    "NotifyWhenUserApproved": [
+        {
+            "Template": "ADM_User_approved",
+            "Target": "User"
+        }
+    ],
+    "UserInvited": [
+        {
+            "Template": "ADM_User_invite",
+            "Target": "EmailTarget"
+        }
+    ],
+    "NotifyDeletedUser": [
+        {
+            "Template": "ADM_User_removed",
+            "Target": "User"
+        }
+    ],
+    "NotifyUnInvitedUser": [
+        {
+            "Template": "ADM_Invitation_cancelled",
+            "Target": "User"
+        }
+    ],
+    "NotifyRejectedUser": [
+        {
+            "Template": "ADM_User_rejected",
+            "Target": "User"
+        }
+    ],
+    "UsersUndeleted": [
+        {
+            "Template": "ADM_User_restored",
+            "Target": "User"
+        }
+    ],
+    "CompanyDeletedNotification": [
+        {
+            "Template": "Company_Deleted",
+            "Target": "AllCompanyUsers"
+        }
+    ],
+    "SendCongratulationMessage": [
+        {
+            "Template": "Registration",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ReminderUnreadUserNotifications": [
+        {
+            "Template": "Unread_notifications",
+            "Target": "User"
+        }
+    ],
+    "RemindCompleteProfileNotification": [
+        {
+            "Template": "Complete_profile",
+            "Target": "CompanyManagers"
+        }
+    ],
+    "ProcedureCanceled": [
+        {
+            "Template": "RFX_Cancelled",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "ProcedureCanceledOrg": [
+        {
+            "Template": "RFX_Procedure_cancelled",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "NotifyProcedureFinishedWithoutOrder": [
+        {
+            "Template": "RFX_Finished_BOP",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "NotifyProcedureFinishedWithoutOrderOrg": [
+        {
+            "Template": "RFX_Finished_BOP_org",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "NotifyProcedureFinishedWithOrderLooser": [
+        {
+            "Template": "RFX_Finished_Looser",
+            "Target": "ProcedureLooseParticipantSellers"
+        }
+    ],
+    "NotifyProcedureFinishedWithOrderWinner": [
+        {
+            "Template": "RFX_Finished_Winner",
+            "Target": "ProcedureWinParticipantSellers"
+        }
+    ],
+    "NotifyProcedureFinishedWithOrderOrg": [
+        {
+            "Template": "RFX_Finished_SOP_org",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "NotifyWhenParticipantsInvitedByEmail": [
+        {
+            "Template": "RFX_Invite_by_email",
+            "Target": "EmailTarget"
+        }
+    ],
+    "NotifyWhenParticipantsInvitedByEmailAffiliate": [
+        {
+            "Template": "RFX_Invite_by_email_affiliate",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ParticipantInvitedByEmailManual": [
+        {
+            "Template": "RFX_Invite_by_email",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ParticipantsInvited": [
+        {
+            "Template": "RFX_Invite_from_network",
+            "Target": "CompanySellers, PhantomCompany"
+        }
+    ],
+    "ProcedurePublishedInvitedByEmail": [
+        {
+            "Template": "RFX_Invite_by_email",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ProcedurePublishedInvitedByEmailAffiliate": [
+        {
+            "Template": "RFX_Invite_by_email_affiliate",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ErrorOnSendingEmailViaCompanyMailServerEvent": [
+        {
+            "Template": "RFX_Invite_by_email_affiliate_error",
+            "Target": "CompanyManagers"
+        }
+    ],
+    "TestInvite": [
+        {
+            "Template": "RFX_Invite_by_email",
+            "Target": "EmailTarget"
+        }
+    ],
+    "TestInviteWithCustomMailServer": [
+        {
+            "Template": "RFX_Invite_by_email_affiliate",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ParticipantInvitedByEmailManualAffiliate": [
+        {
+            "Template": "RFX_Invite_by_email_affiliate",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ProcedurePublishedParticipantsInvited": [
+        {
+            "Template": "RFX_Invite_from_network",
+            "Target": "CompanySellers, PhantomCompany"
+        }
+    ],
+    "NotifyCompaniesByProcedureTags": [
+        {
+            "Template": "RFX_New_procedure_by_tag",
+            "Target": "CompaniesSellersTarget"
+        }
+    ],
+    "AccreditationPassedNotification": [
+        {
+            "Template": "SIM_Accreditated",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "AccreditationRejectedNotification": [
+        {
+            "Template": "SIM_Accreditation_cancelled",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "AccreditationsExpiredNotification": [
+        {
+            "Template": "SIM_Accreditation_expired",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "AccreditationsExpireSoonNotification": [
+        {
+            "Template": "SIM_Accreditation_expired",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "BlockedInPoolNotification": [
+        {
+            "Template": "SIM_Participant_blocked",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "ParticipantsInvitedToPoolNotification": [
+        {
+            "Template": "SIM_Participant_invited",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "UnblockedInPoolNotification": [
+        {
+            "Template": "SIM_Participant_unblocked",
+            "Target": "CompanyPurchasingManager, CompanyManagers, CompanyAccreditation"
+        }
+    ],
+    "ReviewCompanyNotification": [
+        {
+            "Template": "COM_Review_company",
+            "Target": "BidzaarEmailTarget"
+        }
+    ],
+    "ErrorNotification": [
+        {
+            "Template": "ERROR_notification",
+            "Target": "BidzaarEmailTarget, AlertEmailTarget"
+        }
+    ],
+    "StartRoundProcedureEvent": [
+        {
+            "Template": "RFX_Proposal_reopened",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "SummingUpProcedureReminderEvent": [
+        {
+            "Template": "RFX_Proposal_closing_soon",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "FinishRoundProcedureEvent": [
+        {
+            "Template": "RFX_Proposal_closed",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "FinishRoundProcedureOrgEvent": [
+        {
+            "Template": "RFX_Proposal_closed_org_step1",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "SummingUpProcedureEvent": [
+        {
+            "Template": "RFX_Proposal_closed",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "SummingUpProcedureOrgEvent": [
+        {
+            "Template": "RFX_Proposal_closed_org_step1",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "FinishProcedureRemindFirstEvent": [
+        {
+            "Template": "RFX_Proposal_closed_org_step2",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "FinishProcedureRemindSecondEvent": [
+        {
+            "Template": "RFX_Proposal_closed_org_step3",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "ChatMessageRequiresNotificationEvent": [
+        {
+            "Template": "RFX_Chat_message_multi",
+            "Target": "User"
+        }
+    ],
+    "ReportGeneratedEvent": [
+        {
+            "Template": "COM_Report_ready",
+            "Target": "User"
+        }
+    ],
+    "ReportFailedToGeneraEvent": [
+        {
+            "Template": "COM_Report_error",
+            "Target": "User"
+        }
+    ],
+    "ProcedureChanged": [
+        {
+            "Template": "RFX_Procedure_changed",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "ProcedureChangedOrg": [
+        {
+            "Template": "RFX_Procedure_changed_org",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "PublishProcedureEventOrg": [
+        {
+            "Template": "RFX_Procedure_published",
+            "Target": "ProcedureTeamButOrigin"
+        }
+    ],
+    "ProposalAddedEvent": [
+        {
+            "Template": "RFX_Proposal_received",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "ProposalChangedEvent": [
+        {
+            "Template": "RFX_Proposal_updated",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "ParticipantsLeaveProcedure": [
+        {
+            "Template": "RFX_Participant_refused",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "NoProposal24Event": [
+        {
+            "Template": "RFX_No_proposals",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "CompanyVerifiedEvent": [
+        {
+            "Template": "ADM_Company_verified",
+            "Target": "AllCompanyUsers"
+        }
+    ],
+    "NdaAcceptedEvent": [
+        {
+            "Template": "RFX_Participant_NDA_approved",
+            "Target": "CompanySellers"
+        }
+    ],
+    "NdaRejectedEvent": [
+        {
+            "Template": "RFX_Participant_NDA_rejected",
+            "Target": "CompanySellers"
+        }
+    ],
+    "NdaSubmittedEvent": [
+        {
+            "Template": "RFX_NDA_requested",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "ProposalGoDraftDueToMajorChangeEvent": [
+        {
+            "Template": "RFX_Proposal_rejected",
+            "Target": "CompanySellers"
+        }
+    ],
+    "SendSubscriptionItems": [
+        {
+            "Template": "Filter_daily_update",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ProcedureDigestReadyEvent": [
+        {
+            "Template": "RFX_New_procedures_by_tag_daily_update",
+            "Target": "CompanySellers"
+        }
+    ],
+    "SendChangeLoginCommand": [
+        {
+            "Template": "ChangeEmail",
+            "Target": "EmailTarget"
+        }
+    ],
+    "RegistryAccreditationExpiredEvent": [
+        {
+            "Template": "REG_Accreditation_expired",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryAccreditationSuspendedEvent": [
+        {
+            "Template": "REG_Accreditation_paused",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryInviteParticipantEvent": [
+        {
+            "Template": "REG_invite_from_network",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryParticipantAccreditatedEvent": [
+        {
+            "Template": "REG_Accredited",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryParticipantAskedToClarify": [
+        {
+            "Template": "REG_Update_questionnaire",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryParticipantBlockedEvent": [
+        {
+            "Template": "REG_Accreditation_stopped",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryParticipantRefusedEvent": [
+        {
+            "Template": "REG_Participant_refused",
+            "Target": "RegistryManager"
+        }
+    ],
+    "RegistryParticipantResponseDeclinedEvent": [
+        {
+            "Template": "REG_Request_rejected",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryParticipantUnblockedEvent": [
+        {
+            "Template": "REG_invite_from_network",
+            "Target": "CompanyManagers, CompanyPurchasingManager, CompanyAccreditation"
+        }
+    ],
+    "RegistryApproveStageStartedEvent": [
+        {
+            "Template": "REG_Assessment_required",
+            "Target": "StageApprovers"
+        }
+    ],
+    "VerifiedOnlyChangedOnPublishEvent": [
+        {
+            "Template": "RFX_Procedure_verified_only_changed_alert",
+            "Target": "BidzaarCallCenterOperators"
+        }
+    ],
+    "UserAgreementSignSaleNotification": [
+        {
+            "Template": "COM_Sale_argeenent_confirm",
+            "Target": "EmailTarget"
+        }
+    ],
+    "UserAgreementSignUserNotification": [
+        {
+            "Template": "COM_User_argeenent_confirm",
+            "Target": "EmailTarget"
+        }
+    ],
+    "ProcedureUnCompleted": [
+        {
+            "Template": "RFX_Winner_cancelled_org",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "ProcedureUnCompletedWinners": [
+        {
+            "Template": "RFX_Winner_cancelled",
+            "Target": "CompanySellers"
+        }
+    ],
+    "ProcedureStagePublishedEvent": [
+        {
+            "Template": "RFX_Procedure_new_stage",
+            "Target": "ProcedureParticipantSellers"
+        }
+    ],
+    "ProposalRecalledEvent": [
+        {
+            "Template": "RFX_Proposal_cancelled",
+            "Target": "ProcedureTeam"
+        }
+    ],
+    "NotifyUserCommand": [
+        {
+            "Template": "COM_Email",
+            "Target": "User"
+        }
+    ],
+    "CompanySetTypeEvent": [
+        {
+            "Template": "LID_Company_registered",
+            "Target": "EmailTarget"
+        }
+    ],
+    "CompanySubmittedFirstProposalEvent": [
+        {
+            "Template": "LID_First_rfx_proposal",
+            "Target": "EmailTarget"
+        }
+    ],
+    "UnVerifiedParticipantInVerifiedOnlyEvent": [
+        {
+            "Template": "LID_Tender_for_verified_only",
+            "Target": "EmailTarget"
+        }
+    ],
+    "SellerWantsToBeVerifiedCommand": [
+        {
+            "Template": "LID_Verify_request",
+            "Target": "EmailTarget"
+        }
+    ],
+    "SellerWantsTariffCommand": [
+        {
+            "Template": "LID_Plan_request_landing",
+            "Target": "EmailTarget"
+        }
+    ],
+    "CreateBuyerLeadCommand": [
+        {
+            "Template": "LID_RFx_request",
+            "Target": "EmailTarget"
+        }
+    ]
+}

@@ -1,0 +1,158 @@
+{
+    "pl": {
+        "request": {
+            "general": {
+                "title": "web/app/process/light/request: pl.request.general.title",
+                "nda": {
+                    "title": "web/app/process/light/request: pl.request.general.nda.title",
+                    "sub_title": "web/app/process/light/request: pl.request.general.nda.sub_title"
+                },
+                "description_and_files": {
+                    "title": "web/app/process/light/request: pl.request.general.description_and_files.title",
+                    "placeholder": "web/app/process/light/request: pl.request.general.description_and_files.placeholder",
+                    "add_files": "web/app/process/light/request: pl.request.general.description_and_files.add_files",
+                    "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text",
+                    "editor": {
+                        "headers": {
+                            "h1": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h1",
+                            "h2": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h2",
+                            "h3": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h3",
+                            "h4": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h4",
+                            "h5": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h5",
+                            "h6": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h6"
+                        },
+                        "remove": "web/app/process/light/request: pl.request.general.description_and_files.editor.remove"
+                    }
+                },
+                "contact_info": {
+                    "title": "web/app/process/light/request: pl.request.general.contact_info.title",
+                    "add_contact": "web/app/process/light/request: pl.request.general.contact_info.add_contact"
+                },
+                "delivery_address": {
+                    "title": "web/app/process/light/request: pl.request.general.delivery_address.title",
+                    "add": "web/app/process/light/request: pl.request.general.delivery_address.add"
+                },
+                "tags": {
+                    "title": "web/app/process/light/request: pl.request.general.tags.title",
+                    "add": "web/app/process/light/request: pl.request.general.tags.add"
+                }
+            },
+            "positions": {
+                "title": "web/app/process/light/request: pl.request.positions.title",
+                "settings": "web/app/process/light/request: pl.request.positions.settings",
+                "empty": "web/app/process/light/request: pl.request.positions.empty",
+                "expand": "web/app/process/light/request: pl.request.positions.expand",
+                "disabled": "web/app/process/light/request: pl.request.positions.disabled",
+                "open_editable": "web/app/process/light/request: pl.request.positions.open_editable",
+                "open_readonly": "web/app/process/light/request: pl.request.positions.open_readonly"
+            },
+            "questionnaire": {
+                "title": "web/app/process/light/request: pl.request.questionnaire.title",
+                "settings": "web/app/process/light/request: pl.request.questionnaire.settings",
+                "empty": "web/app/process/light/request: pl.request.questionnaire.empty",
+                "expand": "web/app/process/light/request: pl.request.questionnaire.expand",
+                "warning_text": "web/app/process/light/request: pl.request.questionnaire.warning_text",
+                "disabled": "web/app/process/light/request: pl.request.questionnaire.disabled"
+            },
+            "gold": {
+                "title": "web/app/process/light/request: pl.request.gold.title",
+                "link": "web/app/process/light/request: pl.request.gold.link",
+                "text": {
+                    "message": "web/app/process/light/request: pl.request.gold.text.message",
+                    "warning": "web/app/process/light/request: pl.request.gold.text.warning",
+                    "read": "web/app/process/light/request: pl.request.gold.text.read"
+                },
+                "select": {
+                    "label": "web/app/process/light/request: pl.request.gold.select.label",
+                    "placeholder": "web/app/process/light/request: pl.request.gold.select.placeholder"
+                },
+                "on": "web/app/process/light/request: pl.request.gold.on",
+                "off": "web/app/process/light/request: pl.request.gold.off"
+            },
+            "rules": {
+                "title": "web/app/process/light/request: pl.request.rules.title"
+            },
+            "participant_rules": {
+                "title": "web/app/process/light/request: pl.request.participant_rules.title"
+            },
+            "registries": {
+                "title": "web/app/process/light/request: pl.request.registries.title",
+                "empty": "web/app/process/light/request: pl.request.registries.empty",
+                "add": "web/app/process/light/request: pl.request.registries.add",
+                "text": {
+                    "1": "web/app/process/light/request: pl.request.registries.text.1",
+                    "2": "web/app/process/light/request: pl.request.registries.text.2",
+                    "3": "web/app/process/light/request: pl.request.registries.text.3"
+                },
+                "success": {
+                    "add": "web/app/process/light/request: pl.request.registries.success.add",
+                    "delete": "web/app/process/light/request: pl.request.registries.success.delete"
+                },
+                "item": {
+                    "open": "web/app/process/light/request: pl.request.registries.item.open",
+                    "remove": "web/app/process/light/request: pl.request.registries.item.remove"
+                },
+                "dialog": {
+                    "title": "web/app/process/light/request: pl.request.registries.dialog.title",
+                    "add": "web/app/process/light/request: pl.request.registries.dialog.add",
+                    "cancel": "web/app/process/light/request: pl.request.registries.dialog.cancel",
+                    "empty": {
+                        "text": "web/app/process/light/request: pl.request.registries.dialog.empty.text",
+                        "add": "web/app/process/light/request: pl.request.registries.dialog.empty.add",
+                        "close": "web/app/process/light/request: pl.request.registries.dialog.empty.close"
+                    },
+                    "search": {
+                        "placeholder": "web/app/process/light/request: pl.request.registries.dialog.search.placeholder",
+                        "remove": "web/app/process/light/request: pl.request.registries.dialog.search.remove",
+                        "empty": "web/app/process/light/request: pl.request.registries.dialog.search.empty"
+                    }
+                }
+            },
+            "tariff": {
+                "title": "web/app/process/light/request: pl.request.tariff.title"
+            },
+            "collapse": "web/app/process/light/request: pl.request.collapse",
+            "acceptance_end_date": {
+                "title": "web/app/process/light/request: pl.request.acceptance_end_date.title",
+                "time_left": "web/app/process/light/request: pl.request.acceptance_end_date.time_left"
+            },
+            "actions": {
+                "more": "web/app/process/light/request: pl.request.actions.more",
+                "publish": "web/app/process/light/request: pl.request.actions.publish",
+                "start_change": "web/app/process/light/request: pl.request.actions.start_change",
+                "end_change": "web/app/process/light/request: pl.request.actions.end_change",
+                "cancel_change": "web/app/process/light/request: pl.request.actions.cancel_change",
+                "delete": "web/app/process/light/request: pl.request.actions.delete",
+                "clone": "web/app/process/light/request: pl.request.actions.clone",
+                "notice_report": "web/app/process/light/request: pl.request.actions.notice_report",
+                "message": "web/app/process/light/request: pl.request.actions.message",
+                "cancel": "web/app/process/light/request: pl.request.actions.cancel",
+                "change_acceptance_end_date": "web/app/process/light/request: pl.request.actions.change_acceptance_end_date",
+                "favourites": "web/app/process/light/request: pl.request.actions.favourites",
+                "in_favourite": "web/app/process/light/request: pl.request.actions.in_favourite",
+                "refuse": "web/app/process/light/request: pl.request.actions.refuse",
+                "participate": "web/app/process/light/request: pl.request.actions.participate",
+                "new_stage": "web/app/process/light/request: pl.request.actions.new_stage",
+                "publish_stage": "web/app/process/light/request: pl.request.actions.publish_stage",
+                "cancel_stage": "web/app/process/light/request: pl.request.actions.cancel_stage",
+                "view_summary": "web/app/process/light/request: pl.request.actions.view_summary",
+                "view_journal": "web/app/process/light/request: pl.request.actions.view_journal",
+                "return_to_summary": "web/app/process/light/request: pl.request.actions.return_to_summary",
+                "end_round": "web/app/process/light/request: pl.request.actions.end_round"
+            },
+            "navigation": {
+                "title": "web/app/process/light/request: pl.request.navigation.title",
+                "content": "web/app/process/light/request: pl.request.navigation.content"
+            },
+            "blocked": {
+                "title": "web/app/process/light/request: pl.request.blocked.title",
+                "sub_title": "web/app/process/light/request: pl.request.blocked.sub_title"
+            },
+            "message_payment": {
+                "text": "web/app/process/light/request: pl.request.message_payment.text",
+                "link": "web/app/process/light/request: pl.request.message_payment.link",
+                "start": "web/app/process/light/request: pl.request.message_payment.start"
+            }
+        }
+    }
+}

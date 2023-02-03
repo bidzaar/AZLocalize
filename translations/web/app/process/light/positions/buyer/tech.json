@@ -1,0 +1,125 @@
+{
+    "pl_pop": {
+        "importer": {
+            "title": "web/app/process/light/positions/buyer: pl_pop.importer.title",
+            "count": "web/app/process/light/positions/buyer: pl_pop.importer.count",
+            "warning": "web/app/process/light/positions/buyer: pl_pop.importer.warning",
+            "next": "web/app/process/light/positions/buyer: pl_pop.importer.next",
+            "cancel": "web/app/process/light/positions/buyer: pl_pop.importer.cancel",
+            "upload": "web/app/process/light/positions/buyer: pl_pop.importer.upload",
+            "close": "web/app/process/light/positions/buyer: pl_pop.importer.close",
+            "items": {
+                "Process.Light.Import.Positions.InvalidFileExtension": {
+                    "title": "web/app/process/light/positions/buyer: pl_pop.importer.items.Process.Light.Import.Positions.InvalidFileExtension.title"
+                },
+                "Process.Light.Import.Positions.InvalidFile": {
+                    "title": "web/app/process/light/positions/buyer: pl_pop.importer.items.Process.Light.Import.Positions.InvalidFile.title"
+                },
+                "Process.Light.Import.Positions.FileHasErrors": {
+                    "title": "web/app/process/light/positions/buyer: pl_pop.importer.items.Process.Light.Import.Positions.FileHasErrors.title",
+                    "download": "web/app/process/light/positions/buyer: pl_pop.importer.items.Process.Light.Import.Positions.FileHasErrors.download"
+                }
+            }
+        },
+        "configurator": {
+            "header": "web/app/process/light/positions/buyer: pl_pop.configurator.header",
+            "defaults": {
+                "name": "web/app/process/light/positions/buyer: pl_pop.configurator.defaults.name"
+            },
+            "details": {
+                "name": "web/app/process/light/positions/buyer: pl_pop.configurator.details.name",
+                "type": {
+                    "string": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.string",
+                    "number": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.number",
+                    "datetime": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.datetime"
+                }
+            },
+            "actions": {
+                "done": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.done",
+                "append": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.append",
+                "remove": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.remove"
+            },
+            "empty": {
+                "text": "web/app/process/light/positions/buyer: pl_pop.configurator.empty.text",
+                "notice": "web/app/process/light/positions/buyer: pl_pop.configurator.empty.notice"
+            },
+            "errors": {
+                "name": "web/app/process/light/positions/buyer: pl_pop.configurator.errors.name"
+            },
+            "remove": {
+                "text": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.text",
+                "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.cancel",
+                "confirm": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.confirm"
+            }
+        },
+        "positions": {
+            "empty": {
+                "text": "web/app/process/light/positions/buyer: pl_pop.positions.empty.text"
+            },
+            "header": {
+                "text": "web/app/process/light/positions/buyer: pl_pop.positions.header.text"
+            },
+            "table": {
+                "groups": {
+                    "position": "web/app/process/light/positions/buyer: pl_pop.positions.table.groups.position",
+                    "proposal": "web/app/process/light/positions/buyer: pl_pop.positions.table.groups.proposal"
+                },
+                "columns": {
+                    "position": {
+                        "index": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.index",
+                        "name": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.name",
+                        "description": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.description",
+                        "count": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.count",
+                        "unit": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.unit",
+                        "target_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.target_price",
+                        "max_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.max_price",
+                        "min_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.min_price",
+                        "expected_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.expected_price",
+                        "documents": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.position.documents"
+                    },
+                    "proposal": {
+                        "availability": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.availability",
+                        "count": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.count",
+                        "vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.vat",
+                        "price_none_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_none_vat",
+                        "price_incl_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_incl_vat",
+                        "price_excl_vat": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.price_excl_vat",
+                        "currency": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.currency",
+                        "comment": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.comment",
+                        "documents": "web/app/process/light/positions/buyer: pl_pop.positions.table.columns.proposal.documents"
+                    }
+                },
+                "actions": {
+                    "documents": {
+                        "title": "web/app/process/light/positions/buyer: pl_pop.positions.table.actions.documents.title",
+                        "text": "web/app/process/light/positions/buyer: pl_pop.positions.table.actions.documents.text"
+                    }
+                },
+                "tooltips": {
+                    "insert": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.insert",
+                    "remove": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.remove",
+                    "deviation": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.deviation",
+                    "target_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.target_price",
+                    "max_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.max_price",
+                    "min_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.min_price",
+                    "expected_price": "web/app/process/light/positions/buyer: pl_pop.positions.table.tooltips.expected_price"
+                }
+            },
+            "defaults": {
+                "name": "web/app/process/light/positions/buyer: pl_pop.positions.defaults.name",
+                "unit": "web/app/process/light/positions/buyer: pl_pop.positions.defaults.unit"
+            },
+            "actions": {
+                "append": "web/app/process/light/positions/buyer: pl_pop.positions.actions.append",
+                "download": "web/app/process/light/positions/buyer: pl_pop.positions.actions.download",
+                "upload": "web/app/process/light/positions/buyer: pl_pop.positions.actions.upload"
+            },
+            "delete": {
+                "text": "web/app/process/light/positions/buyer: pl_pop.positions.delete.text",
+                "cancel": "web/app/process/light/positions/buyer: pl_pop.positions.delete.cancel",
+                "confirm": "web/app/process/light/positions/buyer: pl_pop.positions.delete.confirm",
+                "success": "web/app/process/light/positions/buyer: pl_pop.positions.delete.success"
+            }
+        }
+    }
+}

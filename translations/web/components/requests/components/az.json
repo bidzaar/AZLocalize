@@ -1,140 +1,143 @@
 {
-  "bdz.req.components": {
-    "funnel": {
-      "joins": "İştirak etmişdilər",
-      "participants": "Dəvət olunanlarla birlikdə iştirakçıların sayı",
-      "proposals": "Təklifi olan iştirakçılar"
-    },
-    "parameters": {
-      "owner_rules": {
-        "verified_only": {
-          "label": "təkliflərin Verilməsi",
-          "text": "yalnız təsdiq təchizatçıları",
-          "popover": {
-            "title": "təsdiq edilmiş təchizatçılar üçün sorğu",
-            "text": "təsdiq edilmiş hüquqi qeydiyyatı olan təchizatçılar təklif edə bilərlər",
-            "helper": "saytın mütəxəssisləri təchizatçıları yoxlayır və onları xüsusi bir simvolla qeyd edirlər"
-          }
+    "bdz.req.components": {
+        "funnel": {
+            "joins": "İştirak etmişdilər",
+            "participants": "Dəvət olunanlarla birlikdə iştirakçıların sayı",
+            "proposals": "Təklifi olan iştirakçılar"
         },
-        "acceptance_end_date": {
-          "label": "Təkliflərin qəbulu",
-          "time_left": "Qalıb"
+        "parameters": {
+            "owner_rules": {
+                "verified_only": {
+                    "label": "təkliflərin Verilməsi",
+                    "text": "yalnız təsdiq təchizatçıları",
+                    "popover": {
+                        "title": "təsdiq edilmiş təchizatçılar üçün sorğu",
+                        "text": "təsdiq edilmiş hüquqi qeydiyyatı olan təchizatçılar təklif edə bilərlər",
+                        "helper": "saytın mütəxəssisləri təchizatçıları yoxlayır və onları xüsusi bir simvolla qeyd edirlər"
+                    }
+                },
+                "acceptance_end_date": {
+                    "label": "Təkliflərin qəbulu",
+                    "time_left": "Qalıb"
+                },
+                "prolongation": {
+                    "label": "Təkliflər qəbulunun avtomatik uzadılması",
+                    "minutes": "dəq",
+                    "time-left": "dəyirmi sonu",
+                    "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
+                },
+                "approximate_deadline_for_summing_up": {
+                    "label": "Yekunlaşmanın təxmini müddəti",
+                    "description": "Təkliflərin qəbulu başa çatdıqdan sonra günlər",
+                    "tooltip": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
+                    "value_null": "müəyyən Deyil"
+                },
+                "currency": {
+                    "label": "Sorğunun valyutası",
+                    "show_all": "Hamısını göstər",
+                    "hide": "Gizlət",
+                    "change_rate_currency": "valyuta məzənnələrini dəyişdirin"
+                },
+                "vat": {
+                    "label": "Qalibi seçərkən nəzərə alınır",
+                    "options": {
+                        "false": "ƏDV-siz qiymət",
+                        "none": "göstərilməyib",
+                        "true": "ƏDV daxil qiymət"
+                    }
+                },
+                "open_type": {
+                    "label": "Sorğu növü",
+                    "tooltips": {
+                        "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
+                        "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
+                        "editable": "Açıq-iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur"
+                    }
+                },
+                "owner_visibility": {
+                    "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
+                    "enums": {
+                        "0": "iştirakçıların təkliflərini görür",
+                        "1": "iştirakçıların təklifinin məzmununu görmür"
+                    }
+                }
+            },
+            "bidding": {
+                "deviation_type": {
+                    "label": "təklifin Həcmi"
+                },
+                "alternative_proposals": {
+                    "label": "alternativ təkliflərin sayı",
+                    "tooltip": "neçə alternativ təklifin iştirakçını təqdim edə biləcəyini göstərin",
+                    "error": "0-dan 10 sayını göstərin",
+                    "count": "əsas cümlələrə əlavə olaraq mümkün təkliflər: {{dəyər }}",
+                    "none": "alternativ təkliflər vermək qadağandır"
+                },
+                "price_null": "müəyyən Deyil",
+                "expected_price": {
+                    "label": "Gözlənilən qiymət",
+                    "placeholder": "göstərilməyib",
+                    "tooltip": "iştirakçının təklif qiymətinin gözlənilən səviyyəsi"
+                },
+                "participants_visibility": {
+                    "label": "iştirakçılar Tender zamanı nə görürlər"
+                },
+                "reduction_price": {
+                    "errors": {
+                        "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • təklifin həcmi = tam məmnunluq\n • iştirakçılar Tender zamanı nə görürlər = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya auksion",
+                        "step_over_start_price": "dəyişiklik addımı maksimum qiyməti aşır",
+                        "step_range_absolute": "valyuta dəyişiklik meydança üçündür: 0.01-100.000",
+                        "step_range_percent": "faiz dəyişiklik addım üçündür: 0,01-10"
+                    },
+                    "label": "qiymət dəyişikliyinin minimal addımı",
+                    "of": "etibarən",
+                    "reference": {
+                        "0": "öz təkliflərini",
+                        "1": "ən yaxşı təklif",
+                        "2": "[AT] təklifinizə uyğun olaraq",
+                        "3": "[AT] ən yaxşı təklifin mövqelərinə görə"
+                    }
+                },
+                "start_price": {
+                    "placeholder": "göstərilməyib",
+                    "reduction": {
+                        "label": "təklifin maksimal qiyməti",
+                        "tooltip": "təchizatçının təklifinin ən böyük qiyməti"
+                    },
+                    "auction": {
+                        "label": "təklifin minimal qiyməti",
+                        "tooltip": "təchizatçının təklifinin ən aşağı qiyməti"
+                    }
+                },
+                "title": "iştirakçılar üçün qaydalar",
+                "type_of_change": {
+                    "label": "qiymət dəyişikliyi",
+                    "0": "iştirakçılar qiyməti artıra və aşağı sala bilərlər",
+                    "1": "reduksiya (iştirakçılar yalnız qiyməti azalda bilər)",
+                    "2": "hərrac (iştirakçılar yalnız qiyməti artıra bilərlər)"
+                },
+                "proposal_deviation_type": {
+                    "0": "mövqe və kəmiyyət üzrə tam məmnunluq",
+                    "1": "mövqelərə və sayına görə sapma mümkündür"
+                },
+                "other_participants_visibility": {
+                    "0": "Yalnız öz təklifini",
+                    "1": "yalnız öz təklifinin rütbəsi (yeri)",
+                    "2": "rəqiblərin təklifləri – Bəli, ad-yox",
+                    "3": "rəqiblərin təklifləri və adları",
+                    "4": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər"
+                }
+            }
         },
-        "prolongation": {
-          "label": "Təkliflər qəbulunun avtomatik uzadılması",
-          "minutes": "dəq",
-          "time-left": "dəyirmi sonu",
-          "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
-        },
-        "approximate_deadline_for_summing_up": {
-          "label": "Yekunlaşmanın təxmini müddəti",
-          "description": "Təkliflərin qəbulu başa çatdıqdan sonra günlər",
-          "tooltip": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
-          "value_null": "müəyyən Deyil"
-        },
-        "currency": {
-          "label": "Sorğunun valyutası",
-          "show_all": "Hamısını göstər",
-          "hide": "Gizlət",
-          "change_rate_currency": "valyuta məzənnələrini dəyişdirin"
-        },
-        "vat": {
-          "label": "Qalibi seçərkən nəzərə alınır",
-          "options": {
-            "false": "ƏDV-siz qiymət",
-            "none": "göstərilməyib",
-            "true": "ƏDV daxil qiymət"
-          }
-        },
-        "open_type": {
-          "label": "Sorğu növü",
-          "tooltips": {
-            "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
-            "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
-            "editable": "Açıq-iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur"
-          }
-        },
-        "owner_visibility": {
-          "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
-          "enums": {
-            "0": "iştirakçıların təkliflərini görür",
-            "1":"iştirakçıların təklifinin məzmununu görmür"
-          }
+        "tariffs": {
+            "ranges": {
+                "to": ""
+            },
+            "select": {
+                "header": "Sorğunun tarifi",
+                "cancel": "Bağla",
+                "submit": "Göndər"
+            }
         }
-      },
-      "bidding": {
-        "deviation_type": {
-          "label": "təklifin Həcmi"
-        },
-        "alternative_proposals": {
-          "label": "alternativ təkliflərin sayı",
-          "tooltip": "neçə alternativ təklifin iştirakçını təqdim edə biləcəyini göstərin",
-          "error": "0-dan 10 sayını göstərin",
-          "count": "əsas cümlələrə əlavə olaraq mümkün təkliflər: {{dəyər }}",
-          "none": "alternativ təkliflər vermək qadağandır"
-        },
-        "price_null": "müəyyən Deyil",
-        "expected_price": {
-          "label": "Gözlənilən qiymət",
-          "placeholder": "göstərilməyib",
-          "tooltip": "iştirakçının təklif qiymətinin gözlənilən səviyyəsi"
-        },
-        "participants_visibility": {
-          "label": "iştirakçılar Tender zamanı nə görürlər"
-        },
-        "reduction_price": {
-          "errors": {
-            "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • təklifin həcmi = tam məmnunluq\n • iştirakçılar Tender zamanı nə görürlər = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya auksion",
-            "step_over_start_price": "dəyişiklik addımı maksimum qiyməti aşır",
-            "step_range_absolute": "valyuta dəyişiklik meydança üçündür: 0.01-100.000",
-            "step_range_percent": "faiz dəyişiklik addım üçündür: 0,01-10"
-          },
-          "label": "qiymət dəyişikliyinin minimal addımı",
-          "of":"etibarən",
-          "reference": {
-            "0": "öz təkliflərini",
-            "1": "ən yaxşı təklif"
-          }
-        },
-        "start_price": {
-          "placeholder": "göstərilməyib",
-          "reduction": {
-            "label": "təklifin maksimal qiyməti",
-            "tooltip": "təchizatçının təklifinin ən böyük qiyməti"
-          },
-          "auction": {
-            "label": "təklifin minimal qiyməti",
-            "tooltip": "təchizatçının təklifinin ən aşağı qiyməti"
-          }
-        },
-        "title": "iştirakçılar üçün qaydalar",
-        "type_of_change": {
-          "label": "qiymət dəyişikliyi",
-          "0": "iştirakçılar qiyməti artıra və aşağı sala bilərlər",
-          "1": "reduksiya (iştirakçılar yalnız qiyməti azalda bilər)",
-          "2": "hərrac (iştirakçılar yalnız qiyməti artıra bilərlər)"
-        },
-        "proposal_deviation_type": {
-          "0": "mövqe və kəmiyyət üzrə tam məmnunluq",
-          "1": "mövqelərə və sayına görə sapma mümkündür"
-        },
-        "other_participants_visibility": {
-          "0": "Yalnız öz təklifini",
-          "1": "yalnız öz təklifinin rütbəsi (yeri)",
-          "2": "rəqiblərin təklifləri – Bəli, ad-yox",
-          "3": "rəqiblərin təklifləri və adları"
-        }
-      }
-    },
-    "tariffs": {
-      "ranges": {
-        "to": ""
-      },
-      "select": {
-        "header": "Sorğunun tarifi",
-        "cancel": "Bağla",
-        "submit": "Göndər"
-      }
     }
-  }
 }

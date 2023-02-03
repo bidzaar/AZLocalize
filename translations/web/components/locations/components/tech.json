@@ -1,0 +1,26 @@
+{
+    "bdz.loc.components": {
+        "dialog": {
+            "header": "web/components/locations/components: bdz.loc.components.dialog.header",
+            "cancel": "web/components/locations/components: bdz.loc.components.dialog.cancel",
+            "submit": "web/components/locations/components: bdz.loc.components.dialog.submit"
+        },
+        "fields": {
+            "country": "web/components/locations/components: bdz.loc.components.fields.country",
+            "state": "web/components/locations/components: bdz.loc.components.fields.state",
+            "region": "web/components/locations/components: bdz.loc.components.fields.region",
+            "locality": "web/components/locations/components: bdz.loc.components.fields.locality",
+            "address": "web/components/locations/components: bdz.loc.components.fields.address"
+        },
+        "validation": {
+            "invalid_location": "web/components/locations/components: bdz.loc.components.validation.invalid_location",
+            "required_location": "web/components/locations/components: bdz.loc.components.validation.required_location",
+            "not_empty": "web/components/locations/components: bdz.loc.components.validation.not_empty",
+            "max_length": "web/components/locations/components: bdz.loc.components.validation.max_length",
+            "changed_location": {
+                "title": "web/components/locations/components: bdz.loc.components.validation.changed_location.title",
+                "text": "web/components/locations/components: bdz.loc.components.validation.changed_location.text"
+            }
+        }
+    }
+}

@@ -1,0 +1,157 @@
+{
+    "cmp": {
+        "wizard": {
+            "register": {
+                "header": "web/app/companies/wizard: cmp.wizard.register.header",
+                "steps": {
+                    "create": {
+                        "country": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.country.header"
+                        },
+                        "manual": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.manual.header"
+                        },
+                        "dadata": {
+                            "search": {
+                                "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.header",
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.title",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.notice",
+                                "placeholder": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.placeholder",
+                                "requisites": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.requisites",
+                                "empty": {
+                                    "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.title",
+                                    "text": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.text",
+                                    "switch": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.switch"
+                                }
+                            },
+                            "approve": {
+                                "inn": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.inn",
+                                "kpp": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.kpp",
+                                "address": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.address",
+                                "cancel": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.cancel",
+                                "submit": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.submit"
+                            }
+                        },
+                        "search": {
+                            "similar": {
+                                "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.header",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.notice",
+                                "tin": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.tin",
+                                "register": {
+                                    "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.register.title",
+                                    "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.register.notice"
+                                },
+                                "actions": {
+                                    "cancel": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.actions.cancel",
+                                    "join": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.actions.join",
+                                    "register": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.similar.actions.register"
+                                }
+                            },
+                            "identical": {
+                                "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.identical.header",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.identical.notice",
+                                "actions": {
+                                    "join": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.identical.actions.join",
+                                    "cancel": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.identical.actions.cancel"
+                                }
+                            },
+                            "join": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.join.title",
+                                "text": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.join.text",
+                                "submit": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.join.submit",
+                                "success": "web/app/companies/wizard: cmp.wizard.register.steps.create.search.join.success"
+                            }
+                        },
+                        "brand": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.header",
+                            "legal": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.legal.title"
+                            },
+                            "brand": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.title",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.notice",
+                                "placeholder": "web/app/companies/wizard: cmp.wizard.register.steps.create.brand.brand.placeholder"
+                            }
+                        },
+                        "contacts": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.header",
+                            "email": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.email.title",
+                                "label": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.email.label"
+                            },
+                            "phone": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.phone.title",
+                                "label": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.phone.label"
+                            },
+                            "location": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.location.title",
+                                "label": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.location.label",
+                                "tooltip": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.location.tooltip"
+                            },
+                            "site": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.site.title",
+                                "label": "web/app/companies/wizard: cmp.wizard.register.steps.create.contacts.site.label"
+                            }
+                        }
+                    },
+                    "editor": {
+                        "areas": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.editor.areas.header",
+                            "notice": "web/app/companies/wizard: cmp.wizard.register.steps.editor.areas.notice",
+                            "append": "web/app/companies/wizard: cmp.wizard.register.steps.editor.areas.append"
+                        },
+                        "roles": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.editor.roles.header",
+                            "seller": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.editor.roles.seller.title",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.editor.roles.seller.notice"
+                            },
+                            "purchaser": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.editor.roles.purchaser.title",
+                                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.editor.roles.purchaser.notice"
+                            }
+                        },
+                        "tags": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.editor.tags.header",
+                            "title": "web/app/companies/wizard: cmp.wizard.register.steps.editor.tags.title",
+                            "notice": "web/app/companies/wizard: cmp.wizard.register.steps.editor.tags.notice",
+                            "append": "web/app/companies/wizard: cmp.wizard.register.steps.editor.tags.append"
+                        },
+                        "finish": {
+                            "header": "web/app/companies/wizard: cmp.wizard.register.steps.editor.finish.header",
+                            "seller": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.editor.finish.seller.title",
+                                "text": "web/app/companies/wizard: cmp.wizard.register.steps.editor.finish.seller.text"
+                            },
+                            "purchaser": {
+                                "title": "web/app/companies/wizard: cmp.wizard.register.steps.editor.finish.purchaser.title"
+                            }
+                        }
+                    },
+                    "actions": {
+                        "back": "web/app/companies/wizard: cmp.wizard.register.steps.actions.back",
+                        "next": "web/app/companies/wizard: cmp.wizard.register.steps.actions.next",
+                        "done": "web/app/companies/wizard: cmp.wizard.register.steps.actions.done"
+                    }
+                }
+            },
+            "joining": {
+                "confirmation": {
+                    "title": "web/app/companies/wizard: cmp.wizard.joining.confirmation.title",
+                    "text": "web/app/companies/wizard: cmp.wizard.joining.confirmation.text",
+                    "cancel": "web/app/companies/wizard: cmp.wizard.joining.confirmation.cancel",
+                    "submit": "web/app/companies/wizard: cmp.wizard.joining.confirmation.submit",
+                    "success": "web/app/companies/wizard: cmp.wizard.joining.confirmation.success"
+                },
+                "unauthorized": {
+                    "text": "web/app/companies/wizard: cmp.wizard.joining.unauthorized.text",
+                    "cancel": "web/app/companies/wizard: cmp.wizard.joining.unauthorized.cancel",
+                    "submit": "web/app/companies/wizard: cmp.wizard.joining.unauthorized.submit"
+                },
+                "loading": {
+                    "title": "web/app/companies/wizard: cmp.wizard.joining.loading.title"
+                }
+            }
+        }
+    }
+}

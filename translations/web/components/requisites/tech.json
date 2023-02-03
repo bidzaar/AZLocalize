@@ -1,0 +1,49 @@
+{
+    "bdz.rqs": {
+        "status": {
+            "false": "web/components/requisites: bdz.rqs.status.false",
+            "true": "web/components/requisites: bdz.rqs.status.true"
+        },
+        "viewer": {
+            "fields": {
+                "tin": "web/components/requisites: bdz.rqs.viewer.fields.tin"
+            },
+            "empty": {
+                "tin": "web/components/requisites: bdz.rqs.viewer.empty.tin",
+                "name": "web/components/requisites: bdz.rqs.viewer.empty.name"
+            }
+        },
+        "editor": {
+            "form": {
+                "name": {
+                    "title": "web/components/requisites: bdz.rqs.editor.form.name.title",
+                    "notice": "web/components/requisites: bdz.rqs.editor.form.name.notice",
+                    "label": "web/components/requisites: bdz.rqs.editor.form.name.label"
+                },
+                "tin": {
+                    "title": "web/components/requisites: bdz.rqs.editor.form.tin.title",
+                    "notice": "web/components/requisites: bdz.rqs.editor.form.tin.notice",
+                    "label": "web/components/requisites: bdz.rqs.editor.form.tin.label",
+                    "wrong_format": "web/components/requisites: bdz.rqs.editor.form.tin.wrong_format"
+                }
+            },
+            "dialog": {
+                "confirmation": {
+                    "header": "web/components/requisites: bdz.rqs.editor.dialog.confirmation.header",
+                    "warning": "web/components/requisites: bdz.rqs.editor.dialog.confirmation.warning",
+                    "cancel": "web/components/requisites: bdz.rqs.editor.dialog.confirmation.cancel",
+                    "submit": "web/components/requisites: bdz.rqs.editor.dialog.confirmation.submit"
+                },
+                "loading": {
+                    "header": "web/components/requisites: bdz.rqs.editor.dialog.loading.header"
+                },
+                "duplicate": {
+                    "header": "web/components/requisites: bdz.rqs.editor.dialog.duplicate.header",
+                    "admin": "web/components/requisites: bdz.rqs.editor.dialog.duplicate.admin",
+                    "user": "web/components/requisites: bdz.rqs.editor.dialog.duplicate.user",
+                    "close": "web/components/requisites: bdz.rqs.editor.dialog.duplicate.close"
+                }
+            }
+        }
+    }
+}

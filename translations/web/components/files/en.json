@@ -1,39 +1,40 @@
 {
-  "bdz.fls": {
-    "archive": "Download all files (.zip)",
-    "archive_snack": "Forming an archive ... Downloading will start after the end of the operation",
-    "with_value": {
-      "GB": "{{value}} GB",
-      "KB": "{{value}} KB",
-      "MB": "{{value}} MB",
-      "bytes": "{{value}} bytes"
-    },
-    "rename": {
-      "cancel": "Cancel",
-      "label": "Description",
-      "save": "Save",
-      "title": "File description"
-    },
-    "remove": {
-      "no": "Cancel",
-      "text": "Delete the document?",
-      "title": "",
-      "yes": "Delete"
-    },
-    "errors": {
-      "title_size": "The file is too large",
-      "title_length": "File upload is not possible",
-      "ext": "File(s) {{value}} not loaded. Upload a document, image or archive.",
-      "length": "Maximum number of files to upload - {{count}}",
-      "size": "Maximum file size - {{size}} MB"
-    },
-    "tooltips": {
-      "edit": "Edit description",
-      "remove": "Remove"
-    },
-    "actions": {
-      "edit": "Edit description",
-      "delete": "Delete"
+    "bdz.fls": {
+        "archive": "Download all files (.zip)",
+        "archive_snack": "Forming an archive ... Downloading will start after the end of the operation",
+        "with_value": {
+            "GB": "{{value}} GB",
+            "KB": "{{value}} KB",
+            "MB": "{{value}} MB",
+            "bytes": "{{value}} bytes"
+        },
+        "rename": {
+            "cancel": "Cancel",
+            "label": "Description",
+            "save": "Save",
+            "title": "File description"
+        },
+        "remove": {
+            "no": "Cancel",
+            "text": "Delete the document?",
+            "title": "",
+            "yes": "Delete"
+        },
+        "errors": {
+            "title_size": "The file is too large",
+            "title_length": "File upload is not possible",
+            "ext": "File(s) {{value}} not loaded. Upload a document, image or archive.",
+            "length": "Maximum number of files to upload - {{count}}",
+            "size": "Maximum file size - {{size}} MB"
+        },
+        "tooltips": {
+            "edit": "Edit description",
+            "remove": "Remove"
+        },
+        "actions": {
+            "edit": "Edit description",
+            "delete": "Delete"
+        },
+        "collapsed": "All files"
     }
-  }
 }

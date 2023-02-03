@@ -1,0 +1,46 @@
+{
+    "ptb": {
+        "actions": {
+            "collapse": "web/components/positions-table: ptb.actions.collapse",
+            "expand": "web/components/positions-table: ptb.actions.expand",
+            "customize": "web/components/positions-table: ptb.actions.customize"
+        },
+        "custom_field_popover": {
+            "name": "web/components/positions-table: ptb.custom_field_popover.name",
+            "new": "web/components/positions-table: ptb.custom_field_popover.new",
+            "save": "web/components/positions-table: ptb.custom_field_popover.save",
+            "cancel": "web/components/positions-table: ptb.custom_field_popover.cancel"
+        },
+        "custom_field_menu": {
+            "edit": "web/components/positions-table: ptb.custom_field_menu.edit",
+            "delete": "web/components/positions-table: ptb.custom_field_menu.delete"
+        },
+        "documents_menu": {
+            "title": "web/components/positions-table: ptb.documents_menu.title",
+            "info": "web/components/positions-table: ptb.documents_menu.info"
+        },
+        "index_cell": {
+            "delete_tooltip": "web/components/positions-table: ptb.index_cell.delete_tooltip",
+            "add_button": "web/components/positions-table: ptb.index_cell.add_button"
+        },
+        "new_field": "web/components/positions-table: ptb.new_field",
+        "columns": {
+            "name": "web/components/positions-table: ptb.columns.name",
+            "description": "web/components/positions-table: ptb.columns.description",
+            "count": "web/components/positions-table: ptb.columns.count",
+            "unit": "web/components/positions-table: ptb.columns.unit",
+            "target_cost": "web/components/positions-table: ptb.columns.target_cost",
+            "target_cost_tooltip": "web/components/positions-table: ptb.columns.target_cost_tooltip",
+            "files": "web/components/positions-table: ptb.columns.files",
+            "availability": "web/components/positions-table: ptb.columns.availability",
+            "header_tooltip": "web/components/positions-table: ptb.columns.header_tooltip",
+            "deviation_tooltip": "web/components/positions-table: ptb.columns.deviation_tooltip",
+            "vat": "web/components/positions-table: ptb.columns.vat",
+            "price": "web/components/positions-table: ptb.columns.price",
+            "currency": "web/components/positions-table: ptb.columns.currency",
+            "currency_tooltip": "web/components/positions-table: ptb.columns.currency_tooltip",
+            "comment": "web/components/positions-table: ptb.columns.comment",
+            "documents": "web/components/positions-table: ptb.columns.documents"
+        }
+    }
+}

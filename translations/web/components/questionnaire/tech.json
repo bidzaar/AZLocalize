@@ -1,0 +1,265 @@
+{
+    "bdz.qst": {
+        "request": {
+            "list": {
+                "condition": {
+                    "tooltip": "web/components/questionnaire: bdz.qst.request.list.condition.tooltip"
+                },
+                "formula": {
+                    "tooltip": "web/components/questionnaire: bdz.qst.request.list.formula.tooltip"
+                },
+                "actions": {
+                    "delete": "web/components/questionnaire: bdz.qst.request.list.actions.delete",
+                    "create_object": "web/components/questionnaire: bdz.qst.request.list.actions.create_object",
+                    "create_group": "web/components/questionnaire: bdz.qst.request.list.actions.create_group",
+                    "more": "web/components/questionnaire: bdz.qst.request.list.actions.more"
+                }
+            },
+            "editor": {
+                "tabs": {
+                    "content": "web/components/questionnaire: bdz.qst.request.editor.tabs.content",
+                    "parameters": "web/components/questionnaire: bdz.qst.request.editor.tabs.parameters",
+                    "logic": "web/components/questionnaire: bdz.qst.request.editor.tabs.logic",
+                    "points": "web/components/questionnaire: bdz.qst.request.editor.tabs.points"
+                },
+                "actions": {
+                    "close": "web/components/questionnaire: bdz.qst.request.editor.actions.close",
+                    "delete": "web/components/questionnaire: bdz.qst.request.editor.actions.delete",
+                    "close_and_create": "web/components/questionnaire: bdz.qst.request.editor.actions.close_and_create"
+                },
+                "fields": {
+                    "text": "web/components/questionnaire: bdz.qst.request.editor.fields.text",
+                    "comment": "web/components/questionnaire: bdz.qst.request.editor.fields.comment",
+                    "type": "web/components/questionnaire: bdz.qst.request.editor.fields.type",
+                    "group": "web/components/questionnaire: bdz.qst.request.editor.fields.group"
+                },
+                "defaults": {
+                    "group": "web/components/questionnaire: bdz.qst.request.editor.defaults.group",
+                    "input": "web/components/questionnaire: bdz.qst.request.editor.defaults.input",
+                    "select": "web/components/questionnaire: bdz.qst.request.editor.defaults.select"
+                },
+                "parameters": {
+                    "comments": "web/components/questionnaire: bdz.qst.request.editor.parameters.comments",
+                    "files": "web/components/questionnaire: bdz.qst.request.editor.parameters.files"
+                },
+                "widgets": {
+                    "common": {
+                        "answer": "web/components/questionnaire: bdz.qst.request.editor.widgets.common.answer"
+                    },
+                    "select": {
+                        "create": "web/components/questionnaire: bdz.qst.request.editor.widgets.select.create",
+                        "text": "web/components/questionnaire: bdz.qst.request.editor.widgets.select.text",
+                        "delete": "web/components/questionnaire: bdz.qst.request.editor.widgets.select.delete",
+                        "placeholder": "web/components/questionnaire: bdz.qst.request.editor.widgets.select.placeholder"
+                    },
+                    "formula": {
+                        "information": {
+                            "name": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.information.name",
+                            "description": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.information.description"
+                        },
+                        "editor": {
+                            "controls": {
+                                "operators": {
+                                    "operands": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.editor.controls.operators.operands",
+                                    "groups": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.editor.controls.operators.groups",
+                                    "formulas": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.editor.controls.operators.formulas"
+                                },
+                                "actions": {
+                                    "validate": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.editor.controls.actions.validate",
+                                    "success_validation": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.editor.controls.actions.success_validation"
+                                }
+                            }
+                        },
+                        "parameters": {
+                            "precision": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.parameters.precision"
+                        },
+                        "validation": {
+                            "wrongFormat": "web/components/questionnaire: bdz.qst.request.editor.widgets.formula.validation.wrongFormat"
+                        }
+                    },
+                    "tree": {
+                        "upload": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.upload",
+                        "download_template": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.download_template",
+                        "loader_text": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.loader_text",
+                        "error": {
+                            "title": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.error.title",
+                            "info": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.error.info"
+                        }
+                    }
+                },
+                "validation": {
+                    "common": {
+                        "toggle": "web/components/questionnaire: bdz.qst.request.editor.validation.common.toggle",
+                        "pattern": "web/components/questionnaire: bdz.qst.request.editor.validation.common.pattern"
+                    },
+                    "number": {
+                        "is_integer": "web/components/questionnaire: bdz.qst.request.editor.validation.number.is_integer"
+                    },
+                    "number_range": {
+                        "min": "web/components/questionnaire: bdz.qst.request.editor.validation.number_range.min",
+                        "max": "web/components/questionnaire: bdz.qst.request.editor.validation.number_range.max"
+                    },
+                    "value_placeholders": {
+                        "range": {
+                            "start": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.range.start",
+                            "end": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.range.end"
+                        },
+                        "value": {
+                            "boolean": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.boolean",
+                            "input": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.input",
+                            "number": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.number",
+                            "datetime": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.datetime",
+                            "select": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.select",
+                            "multiple": "web/components/questionnaire: bdz.qst.request.editor.validation.value_placeholders.value.multiple"
+                        }
+                    },
+                    "tree": {
+                        "required": "web/components/questionnaire: bdz.qst.request.editor.validation.tree.required"
+                    }
+                },
+                "logic": {
+                    "default_next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.default_next_question",
+                    "next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.next_question",
+                    "end_quiz": "web/components/questionnaire: bdz.qst.request.editor.logic.end_quiz",
+                    "if_answer": "web/components/questionnaire: bdz.qst.request.editor.logic.if_answer",
+                    "go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.go_to",
+                    "add_go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.add_go_to",
+                    "no_response_provided": "web/components/questionnaire: bdz.qst.request.editor.logic.no_response_provided",
+                    "question_selector_dialog": {
+                        "go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.go_to",
+                        "search": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.search",
+                        "questions": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.questions",
+                        "found": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.found",
+                        "next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.next_question",
+                        "end_quiz": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.end_quiz",
+                        "next_questions": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.next_questions",
+                        "cancel": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.cancel",
+                        "apply": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.apply"
+                    },
+                    "widgets": {
+                        "number_range": {
+                            "in": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.in",
+                            "out": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.out",
+                            "from": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.from",
+                            "to": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.to"
+                        }
+                    },
+                    "validation": {
+                        "wrong_target": "web/components/questionnaire: bdz.qst.request.editor.logic.validation.wrong_target"
+                    }
+                },
+                "points": {
+                    "answer": "web/components/questionnaire: bdz.qst.request.editor.points.answer",
+                    "point": "web/components/questionnaire: bdz.qst.request.editor.points.point",
+                    "default_points": "web/components/questionnaire: bdz.qst.request.editor.points.default_points",
+                    "add_answer": "web/components/questionnaire: bdz.qst.request.editor.points.add_answer",
+                    "notice": {
+                        "multiple": {
+                            "title": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.title",
+                            "text": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.text"
+                        }
+                    }
+                },
+                "change_type_dialog": {
+                    "title": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.title",
+                    "text": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.text",
+                    "cancel": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.cancel",
+                    "change": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.change"
+                }
+            },
+            "visual_types": {
+                "group": "web/components/questionnaire: bdz.qst.request.visual_types.group",
+                "object": "web/components/questionnaire: bdz.qst.request.visual_types.object",
+                "boolean": "web/components/questionnaire: bdz.qst.request.visual_types.boolean",
+                "input": "web/components/questionnaire: bdz.qst.request.visual_types.input",
+                "number": "web/components/questionnaire: bdz.qst.request.visual_types.number",
+                "datetime": "web/components/questionnaire: bdz.qst.request.visual_types.datetime",
+                "select": "web/components/questionnaire: bdz.qst.request.visual_types.select",
+                "multiple": "web/components/questionnaire: bdz.qst.request.visual_types.multiple",
+                "number_range": "web/components/questionnaire: bdz.qst.request.visual_types.number_range",
+                "attachment": "web/components/questionnaire: bdz.qst.request.visual_types.attachment",
+                "formula": "web/components/questionnaire: bdz.qst.request.visual_types.formula",
+                "tree": "web/components/questionnaire: bdz.qst.request.visual_types.tree"
+            },
+            "validation_types": {
+                "boolean": "web/components/questionnaire: bdz.qst.request.validation_types.boolean",
+                "input": "web/components/questionnaire: bdz.qst.request.validation_types.input",
+                "number": "web/components/questionnaire: bdz.qst.request.validation_types.number",
+                "datetime": "web/components/questionnaire: bdz.qst.request.validation_types.datetime",
+                "select": "web/components/questionnaire: bdz.qst.request.validation_types.select",
+                "multiple": "web/components/questionnaire: bdz.qst.request.validation_types.multiple"
+            },
+            "condition_types": {
+                "eq": "web/components/questionnaire: bdz.qst.request.condition_types.eq",
+                "neq": "web/components/questionnaire: bdz.qst.request.condition_types.neq",
+                "lt": "web/components/questionnaire: bdz.qst.request.condition_types.lt",
+                "lte": "web/components/questionnaire: bdz.qst.request.condition_types.lte",
+                "gt": "web/components/questionnaire: bdz.qst.request.condition_types.gt",
+                "gte": "web/components/questionnaire: bdz.qst.request.condition_types.gte",
+                "inrange": "web/components/questionnaire: bdz.qst.request.condition_types.inrange",
+                "outofrange": "web/components/questionnaire: bdz.qst.request.condition_types.outofrange",
+                "contains": "web/components/questionnaire: bdz.qst.request.condition_types.contains",
+                "doesnotcontains": "web/components/questionnaire: bdz.qst.request.condition_types.doesnotcontains",
+                "notnull": "web/components/questionnaire: bdz.qst.request.condition_types.notnull",
+                "null": "web/components/questionnaire: bdz.qst.request.condition_types.null"
+            },
+            "conditions": {
+                "0": "web/components/questionnaire: bdz.qst.request.conditions.0",
+                "1": "web/components/questionnaire: bdz.qst.request.conditions.1",
+                "2": "web/components/questionnaire: bdz.qst.request.conditions.2",
+                "3": "web/components/questionnaire: bdz.qst.request.conditions.3",
+                "4": "web/components/questionnaire: bdz.qst.request.conditions.4",
+                "5": "web/components/questionnaire: bdz.qst.request.conditions.5",
+                "6": "web/components/questionnaire: bdz.qst.request.conditions.6",
+                "7": "web/components/questionnaire: bdz.qst.request.conditions.7",
+                "8": "web/components/questionnaire: bdz.qst.request.conditions.8",
+                "9": "web/components/questionnaire: bdz.qst.request.conditions.9",
+                "10": "web/components/questionnaire: bdz.qst.request.conditions.10",
+                "11": "web/components/questionnaire: bdz.qst.request.conditions.11"
+            }
+        },
+        "response": {
+            "wizard": {
+                "actions": {
+                    "forward": {
+                        "title": "web/components/questionnaire: bdz.qst.response.wizard.actions.forward.title"
+                    },
+                    "backward": {
+                        "title": "web/components/questionnaire: bdz.qst.response.wizard.actions.backward.title"
+                    },
+                    "to_first": {
+                        "title": "web/components/questionnaire: bdz.qst.response.wizard.actions.to_first.title"
+                    }
+                },
+                "item": {
+                    "comment": {
+                        "placeholder": "web/components/questionnaire: bdz.qst.response.wizard.item.comment.placeholder"
+                    },
+                    "input": {
+                        "placeholder": "web/components/questionnaire: bdz.qst.response.wizard.item.input.placeholder"
+                    },
+                    "number": {
+                        "placeholder": "web/components/questionnaire: bdz.qst.response.wizard.item.number.placeholder"
+                    },
+                    "datetime": {
+                        "placeholder": "web/components/questionnaire: bdz.qst.response.wizard.item.datetime.placeholder"
+                    },
+                    "files": {
+                        "upload": "web/components/questionnaire: bdz.qst.response.wizard.item.files.upload"
+                    },
+                    "number_range": {
+                        "min": "web/components/questionnaire: bdz.qst.response.wizard.item.number_range.min",
+                        "max": "web/components/questionnaire: bdz.qst.response.wizard.item.number_range.max"
+                    },
+                    "final": {
+                        "title": "web/components/questionnaire: bdz.qst.response.wizard.item.final.title",
+                        "info": "web/components/questionnaire: bdz.qst.response.wizard.item.final.info"
+                    },
+                    "tree": {
+                        "empty": "web/components/questionnaire: bdz.qst.response.wizard.item.tree.empty"
+                    }
+                }
+            }
+        }
+    }
+}

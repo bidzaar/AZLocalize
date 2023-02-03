@@ -1,0 +1,45 @@
+{
+    "rgs": {
+        "my": {
+            "list": {
+                "header": {
+                    "title": "web/app/registries/my: rgs.my.list.header.title"
+                },
+                "empty": {
+                    "title": "web/app/registries/my: rgs.my.list.empty.title",
+                    "text": "web/app/registries/my: rgs.my.list.empty.text"
+                },
+                "search": {
+                    "tooltip": "web/app/registries/my: rgs.my.list.search.tooltip"
+                },
+                "sorting": {
+                    "name": {
+                        "title": "web/app/registries/my: rgs.my.list.sorting.name.title"
+                    },
+                    "last_changes": {
+                        "title": "web/app/registries/my: rgs.my.list.sorting.last_changes.title"
+                    }
+                },
+                "filters": {
+                    "participant_status": {
+                        "title": "web/app/registries/my: rgs.my.list.filters.participant_status.title"
+                    },
+                    "response_status": {
+                        "title": "web/app/registries/my: rgs.my.list.filters.response_status.title"
+                    },
+                    "expired_date": {
+                        "title": "web/app/registries/my: rgs.my.list.filters.expired_date.title",
+                        "options": {
+                            "true": "web/app/registries/my: rgs.my.list.filters.expired_date.options.true"
+                        }
+                    },
+                    "company": {
+                        "title": "web/app/registries/my: rgs.my.list.filters.company.title",
+                        "choose": "web/app/registries/my: rgs.my.list.filters.company.choose"
+                    },
+                    "empty": "web/app/registries/my: rgs.my.list.filters.empty"
+                }
+            }
+        }
+    }
+}

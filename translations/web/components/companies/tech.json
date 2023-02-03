@@ -1,0 +1,61 @@
+{
+    "bdz.cmp": {
+        "enums": {
+            "employees": {
+                "0": "web/components/companies: bdz.cmp.enums.employees.0",
+                "1": "web/components/companies: bdz.cmp.enums.employees.1",
+                "2": "web/components/companies: bdz.cmp.enums.employees.2",
+                "3": "web/components/companies: bdz.cmp.enums.employees.3",
+                "4": "web/components/companies: bdz.cmp.enums.employees.4",
+                "5": "web/components/companies: bdz.cmp.enums.employees.5"
+            },
+            "payment": {
+                "0": "web/components/companies: bdz.cmp.enums.payment.0",
+                "1": "web/components/companies: bdz.cmp.enums.payment.1",
+                "2": "web/components/companies: bdz.cmp.enums.payment.2",
+                "3": "web/components/companies: bdz.cmp.enums.payment.3",
+                "4": "web/components/companies: bdz.cmp.enums.payment.4"
+            }
+        },
+        "number": {
+            "short": "web/components/companies: bdz.cmp.number.short",
+            "long": "web/components/companies: bdz.cmp.number.long"
+        },
+        "stars": {
+            "text": "web/components/companies: bdz.cmp.stars.text",
+            "more": "web/components/companies: bdz.cmp.stars.more"
+        },
+        "activity": {
+            "text": "web/components/companies: bdz.cmp.activity.text"
+        },
+        "marker_verify": {
+            "true": {
+                "title": "web/components/companies: bdz.cmp.marker_verify.true.title",
+                "notice": "web/components/companies: bdz.cmp.marker_verify.true.notice",
+                "text": "web/components/companies: bdz.cmp.marker_verify.true.text",
+                "more": "web/components/companies: bdz.cmp.marker_verify.true.more"
+            },
+            "false": {
+                "title": "web/components/companies: bdz.cmp.marker_verify.false.title",
+                "text": "web/components/companies: bdz.cmp.marker_verify.false.text",
+                "more": "web/components/companies: bdz.cmp.marker_verify.false.more"
+            }
+        },
+        "marker_phantom": {
+            "text": "web/components/companies: bdz.cmp.marker_phantom.text"
+        },
+        "marker_deleted": {
+            "text": "web/components/companies: bdz.cmp.marker_deleted.text"
+        },
+        "marker_hidden": {
+            "text": "web/components/companies: bdz.cmp.marker_hidden.text"
+        },
+        "marker_esg": {
+            "title": "web/components/companies: bdz.cmp.marker_esg.title",
+            "text": "web/components/companies: bdz.cmp.marker_esg.text"
+        },
+        "contact": {
+            "empty": "web/components/companies: bdz.cmp.contact.empty"
+        }
+    }
+}

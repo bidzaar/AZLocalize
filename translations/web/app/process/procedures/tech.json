@@ -1,0 +1,157 @@
+{
+    "prs": {
+        "enums": {
+            "status": {
+                "0": "web/app/process/procedures: prs.enums.status.0",
+                "1": "web/app/process/procedures: prs.enums.status.1",
+                "2": "web/app/process/procedures: prs.enums.status.2",
+                "3": "web/app/process/procedures: prs.enums.status.3",
+                "4": "web/app/process/procedures: prs.enums.status.4"
+            },
+            "participant_business_status": {
+                "0": "web/app/process/procedures: prs.enums.participant_business_status.0",
+                "1": "web/app/process/procedures: prs.enums.participant_business_status.1",
+                "2": "web/app/process/procedures: prs.enums.participant_business_status.2",
+                "3": "web/app/process/procedures: prs.enums.participant_business_status.3",
+                "4": "web/app/process/procedures: prs.enums.participant_business_status.4",
+                "5": "web/app/process/procedures: prs.enums.participant_business_status.5",
+                "6": "web/app/process/procedures: prs.enums.participant_business_status.6",
+                "7": "web/app/process/procedures: prs.enums.participant_business_status.7",
+                "8": "web/app/process/procedures: prs.enums.participant_business_status.8",
+                "9": "web/app/process/procedures: prs.enums.participant_business_status.9",
+                "10": "web/app/process/procedures: prs.enums.participant_business_status.10"
+            }
+        },
+        "filters": {
+            "customer": {
+                "title": "web/app/process/procedures: prs.filters.customer.title",
+                "choose": "web/app/process/procedures: prs.filters.customer.choose"
+            },
+            "tags": {
+                "title": "web/app/process/procedures: prs.filters.tags.title",
+                "from_company": "web/app/process/procedures: prs.filters.tags.from_company"
+            },
+            "categories": {
+                "title": "web/app/process/procedures: prs.filters.categories.title"
+            },
+            "type": {
+                "title": "web/app/process/procedures: prs.filters.type.title",
+                "public": "web/app/process/procedures: prs.filters.type.public",
+                "private": "web/app/process/procedures: prs.filters.type.private"
+            },
+            "status": {
+                "title": "web/app/process/procedures: prs.filters.status.title"
+            },
+            "publish_date": {
+                "title": "web/app/process/procedures: prs.filters.publish_date.title"
+            },
+            "finish_date": {
+                "title": "web/app/process/procedures: prs.filters.finish_date.title"
+            },
+            "team": {
+                "title": "web/app/process/procedures: prs.filters.team.title"
+            },
+            "budget": {
+                "title": "web/app/process/procedures: prs.filters.budget.title"
+            },
+            "creation_date": {
+                "title": "web/app/process/procedures: prs.filters.creation_date.title"
+            },
+            "participant_status": {
+                "title": "web/app/process/procedures: prs.filters.participant_status.title"
+            },
+            "acceptance_end_date": {
+                "title": "web/app/process/procedures: prs.filters.acceptance_end_date.title"
+            },
+            "favorite": {
+                "title": "web/app/process/procedures: prs.filters.favorite.title"
+            },
+            "participants_quantity": {
+                "title": "web/app/process/procedures: prs.filters.participants_quantity.title"
+            },
+            "total_active_proposals": {
+                "title": "web/app/process/procedures: prs.filters.total_active_proposals.title"
+            },
+            "joins_count": {
+                "title": "web/app/process/procedures: prs.filters.joins_count.title"
+            },
+            "location": {
+                "title": "web/app/process/procedures: prs.filters.location.title"
+            },
+            "search_tooltip": "web/app/process/procedures: prs.filters.search_tooltip",
+            "default": "web/app/process/procedures: prs.filters.default",
+            "mytags": "web/app/process/procedures: prs.filters.mytags",
+            "acceptance": "web/app/process/procedures: prs.filters.acceptance",
+            "type_of_change": {
+                "title": "web/app/process/procedures: prs.filters.type_of_change.title",
+                "labels": {
+                    "true": "web/app/process/procedures: prs.filters.type_of_change.labels.true",
+                    "false": "web/app/process/procedures: prs.filters.type_of_change.labels.false"
+                }
+            }
+        },
+        "dates": {
+            "created": "web/app/process/procedures: prs.dates.created",
+            "published": "web/app/process/procedures: prs.dates.published",
+            "receive_offers_until": "web/app/process/procedures: prs.dates.receive_offers_until",
+            "finished": "web/app/process/procedures: prs.dates.finished",
+            "canceled": "web/app/process/procedures: prs.dates.canceled",
+            "left": "web/app/process/procedures: prs.dates.left"
+        },
+        "my": {
+            "title": "web/app/process/procedures: prs.my.title",
+            "create": "web/app/process/procedures: prs.my.create",
+            "export": "web/app/process/procedures: prs.my.export",
+            "manager_title": "web/app/process/procedures: prs.my.manager_title",
+            "download": "web/app/process/procedures: prs.my.download",
+            "report": {
+                "period": "web/app/process/procedures: prs.my.report.period",
+                "cancel": "web/app/process/procedures: prs.my.report.cancel",
+                "download": "web/app/process/procedures: prs.my.report.download",
+                "type": {
+                    "0": "web/app/process/procedures: prs.my.report.type.0",
+                    "1": "web/app/process/procedures: prs.my.report.type.1",
+                    "2": "web/app/process/procedures: prs.my.report.type.2"
+                }
+            }
+        },
+        "manager": {
+            "search_tooltip": "web/app/process/procedures: prs.manager.search_tooltip"
+        },
+        "participantions": {
+            "title": "web/app/process/procedures: prs.participantions.title",
+            "rank": "web/app/process/procedures: prs.participantions.rank"
+        },
+        "public": {
+            "title": "web/app/process/procedures: prs.public.title",
+            "until": "web/app/process/procedures: prs.public.until",
+            "from": "web/app/process/procedures: prs.public.from",
+            "left": "web/app/process/procedures: prs.public.left",
+            "tarrifs_popover": {
+                "title": "web/app/process/procedures: prs.public.tarrifs_popover.title",
+                "text": "web/app/process/procedures: prs.public.tarrifs_popover.text",
+                "button": "web/app/process/procedures: prs.public.tarrifs_popover.button",
+                "button_verified": "web/app/process/procedures: prs.public.tarrifs_popover.button_verified"
+            }
+        },
+        "list_item": {
+            "owners": "web/app/process/procedures: prs.list_item.owners",
+            "owners_empty": "web/app/process/procedures: prs.list_item.owners_empty",
+            "chats_tooltip": "web/app/process/procedures: prs.list_item.chats_tooltip",
+            "budget": "web/app/process/procedures: prs.list_item.budget",
+            "order_price": "web/app/process/procedures: prs.list_item.order_price"
+        },
+        "statistics": {
+            "proposals": "web/app/process/procedures: prs.statistics.proposals",
+            "participants": "web/app/process/procedures: prs.statistics.participants"
+        },
+        "empty_list": "web/app/process/procedures: prs.empty_list",
+        "private": "web/app/process/procedures: prs.private",
+        "gold": "web/app/process/procedures: prs.gold",
+        "views_count": "web/app/process/procedures: prs.views_count",
+        "rank": {
+            "not_available": "web/app/process/procedures: prs.rank.not_available",
+            "label": "web/app/process/procedures: prs.rank.label"
+        }
+    }
+}

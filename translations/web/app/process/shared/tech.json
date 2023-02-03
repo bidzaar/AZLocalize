@@ -1,0 +1,16 @@
+{
+    "pl": {
+        "shared": {
+            "favorites": "web/app/process/shared: pl.shared.favorites",
+            "dialog": {
+                "title": "web/app/process/shared: pl.shared.dialog.title",
+                "text": "web/app/process/shared: pl.shared.dialog.text",
+                "sign": "web/app/process/shared: pl.shared.dialog.sign",
+                "register": "web/app/process/shared: pl.shared.dialog.register"
+            },
+            "blocked": {
+                "button": "web/app/process/shared: pl.shared.blocked.button"
+            }
+        }
+    }
+}

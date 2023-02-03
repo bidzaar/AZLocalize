@@ -1,0 +1,97 @@
+{
+    "trf.view": {
+        "details": {
+            "actions": {
+                "activate": "web/admin/tariffs/view: trf.view.details.actions.activate",
+                "deactivate": "web/admin/tariffs/view: trf.view.details.actions.deactivate",
+                "default": "web/admin/tariffs/view: trf.view.details.actions.default",
+                "delete": "web/admin/tariffs/view: trf.view.details.actions.delete"
+            },
+            "default": {
+                "title": "web/admin/tariffs/view: trf.view.details.default.title",
+                "text": "web/admin/tariffs/view: trf.view.details.default.text"
+            }
+        },
+        "tariff": {
+            "name": {
+                "placeholder": "web/admin/tariffs/view: trf.view.tariff.name.placeholder"
+            },
+            "code": {
+                "placeholder": "web/admin/tariffs/view: trf.view.tariff.code.placeholder"
+            },
+            "descr": {
+                "label": "web/admin/tariffs/view: trf.view.tariff.descr.label",
+                "placeholder": "web/admin/tariffs/view: trf.view.tariff.descr.placeholder"
+            }
+        },
+        "conditions": {
+            "title": "web/admin/tariffs/view: trf.view.conditions.title",
+            "create": "web/admin/tariffs/view: trf.view.conditions.create",
+            "empty": "web/admin/tariffs/view: trf.view.conditions.empty",
+            "card": {
+                "version": "web/admin/tariffs/view: trf.view.conditions.card.version",
+                "to": "web/admin/tariffs/view: trf.view.conditions.card.to"
+            },
+            "editor": {
+                "header": "web/admin/tariffs/view: trf.view.conditions.editor.header",
+                "cancel": "web/admin/tariffs/view: trf.view.conditions.editor.cancel",
+                "submit": "web/admin/tariffs/view: trf.view.conditions.editor.submit",
+                "append": "web/admin/tariffs/view: trf.view.conditions.editor.append",
+                "to": "web/admin/tariffs/view: trf.view.conditions.editor.to",
+                "sum": "web/admin/tariffs/view: trf.view.conditions.editor.sum"
+            }
+        },
+        "comment": {
+            "add": "web/admin/tariffs/view: trf.view.comment.add",
+            "edit": "web/admin/tariffs/view: trf.view.comment.edit"
+        },
+        "dialogs": {
+            "comment": {
+                "title": "web/admin/tariffs/view: trf.view.dialogs.comment.title",
+                "hint": "web/admin/tariffs/view: trf.view.dialogs.comment.hint",
+                "placeholder": "web/admin/tariffs/view: trf.view.dialogs.comment.placeholder",
+                "save": "web/admin/tariffs/view: trf.view.dialogs.comment.save",
+                "cancel": "web/admin/tariffs/view: trf.view.dialogs.comment.cancel",
+                "success": "web/admin/tariffs/view: trf.view.dialogs.comment.success"
+            },
+            "deactivate": {
+                "header": "web/admin/tariffs/view: trf.view.dialogs.deactivate.header",
+                "text": "web/admin/tariffs/view: trf.view.dialogs.deactivate.text",
+                "cancel": "web/admin/tariffs/view: trf.view.dialogs.deactivate.cancel",
+                "submit": "web/admin/tariffs/view: trf.view.dialogs.deactivate.submit"
+            },
+            "delete": {
+                "header": "web/admin/tariffs/view: trf.view.dialogs.delete.header",
+                "cancel": "web/admin/tariffs/view: trf.view.dialogs.delete.cancel",
+                "submit": "web/admin/tariffs/view: trf.view.dialogs.delete.submit"
+            },
+            "default": {
+                "header": "web/admin/tariffs/view: trf.view.dialogs.default.header",
+                "text": "web/admin/tariffs/view: trf.view.dialogs.default.text",
+                "cancel": "web/admin/tariffs/view: trf.view.dialogs.default.cancel",
+                "submit": "web/admin/tariffs/view: trf.view.dialogs.default.submit"
+            },
+            "activate": {
+                "header": "web/admin/tariffs/view: trf.view.dialogs.activate.header",
+                "text": "web/admin/tariffs/view: trf.view.dialogs.activate.text",
+                "cancel": "web/admin/tariffs/view: trf.view.dialogs.activate.cancel",
+                "submit": "web/admin/tariffs/view: trf.view.dialogs.activate.submit",
+                "validation": {
+                    "Tariff.Description.IsEmpty": "web/admin/tariffs/view: trf.view.dialogs.activate.validation.Tariff.Description.IsEmpty",
+                    "Tariff.Name.IsEmpty": "web/admin/tariffs/view: trf.view.dialogs.activate.validation.Tariff.Name.IsEmpty",
+                    "Tariff.Code.IsEmpty": "web/admin/tariffs/view: trf.view.dialogs.activate.validation.Tariff.Code.IsEmpty",
+                    "Tariff.Code.IsNotUnique": "web/admin/tariffs/view: trf.view.dialogs.activate.validation.Tariff.Code.IsNotUnique",
+                    "Tariff.Conditions.HasNoActive": "web/admin/tariffs/view: trf.view.dialogs.activate.validation.Tariff.Conditions.HasNoActive"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "Tariffs": {
+                "HasNoCorrectStatus": "web/admin/tariffs/view: errors.logic.Tariffs.HasNoCorrectStatus",
+                "IsNotUnique": "web/admin/tariffs/view: errors.logic.Tariffs.IsNotUnique"
+            }
+        }
+    }
+}
