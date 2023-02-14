@@ -49,4 +49,4 @@ def merge_json(examples, translations):
                 print(f"Error while writing to file {translations_file}: {e}")
 
 
-merge_json("examples", "translations")
+merge_json("../../examples", "../../translations")
