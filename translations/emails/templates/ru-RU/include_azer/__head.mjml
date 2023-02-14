@@ -1,0 +1,24 @@
+<mj-head>
+  <mj-attributes>
+    <mj-body background-color="#f9f9f9" />
+    <mj-all font-family="Arial" font-size="16px" />
+    <mj-text color="#0F0D22" font-size="16px" line-height="150%" />
+    <mj-section background-color="#fff" padding-left="0" padding-right="0" padding-top="10px" padding-bottom="0" />
+    <mj-column padding-left="0" padding-right="0" />
+    <mj-button font-size="18px" font-weight="900" background-color="#1976D2" inner-padding="16px 32px" border-radius="4px" color="white" align="left" padding-top="10px" css-class="btnFullWidth" />
+    <mj-class name="section-logo" padding-top="20px" padding-bottom="20px" background-color="#f9f9f9" />
+    <mj-class name="section-intro" padding-top="10px" padding-bottom="0px" font-size="18px" />
+    <mj-class name="section-primary" background-color="#AD1457" />
+    <mj-class name="text-primary" font-size="18px" color="white" />
+    <mj-class name="section-hint" color="#656565" border-top="1px solid #dadec0" background-color="#FEF7E0" padding-top="10px" padding-bottom="10px" />
+    <mj-class name="section-footer" background-color="#EFEFEF" padding-bottom="10px" font-size="14px" />
+    <mj-class name="smallwhite" background-color="#ffffff" color="#1976D2" inner-padding="16px 16px" />
+    <mj-class name="dl-app-btn" padding-left="20px" />
+  </mj-attributes>
+  <mj-style inline="inline"> h1 { margin: 0 0 20px 0; font-size: 26px; font-weight: 600; line-height: 140%; } h2 { margin: 0 0 10px 0; font-size: 20px; font-weight: 600; line-height: 140%; } h3 { margin: 0 0 8px 0; font-size: 18px; font-weight: 600; line-height: 140%; } .mt-0 {margin-top: 0px} .intro div, .primary div {font-size: 18px !important} .footer div {font-size: 14px !important; color: #6E7885 !important} /*p {line-height: 140%}*/ ol, ul { margin: 0; padding-left: 24px; } li { padding: 4px 0; } a { color: #1976D2; text-decoration: none; font-weight: bold; } .p75 {width:100%;} p { margin-bottom: 1.25em; !important} /* btnFullWidth table {width: 100%}  .btnFullWidth table {width: auto !important}*/ .btnNegative table td, .btnNegative p {background-color: #CB0C00 !important;} .small {font-size: 14px; line-height: 150%;} .smallest {font-size: 13px; line-height: 140%;} .mb0 {margin-bottom: 0 !important;} .mb05 {margin-bottom: 0.5em !important} .footer a {font-weight: normal} p + ul {margin-top: -16px !important} .app-dl {align: center} .pb-0 {padding-bottom: 0} .mb-0 {margin-bottom: 0} 
+  .brand_logo img {max-height: 48px; width: auto !important; font: 400 12px arial; color: #787878}     
+  
+  </mj-style>
+  <mj-style> @media only screen and (min-width:450px){ .bgimage { background-repeat: no-repeat; background-position: 100% 100%; } .bgimage-ok { background-image: url("@ConfigurationContext.ImageManPoint"); } .bgimage-wtf { background-image: url("@ConfigurationContext.ImageManWtf"); } .p75 {width:75% !important} /*.btnFullWidth a {width: 100% !important}*/ .app-dl {align: left} }     
+  </mj-style>
+</mj-head>

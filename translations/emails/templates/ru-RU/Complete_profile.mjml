@@ -1,0 +1,29 @@
+<mjml>
+  <!-- 
+Тема: 👻 Профиль компании на @ConfigurationContext.ProjectName
+Получатель: все УК на имейлы, указанные при логине
+
+Система уведомляет о незаполненном профиле компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Профиль компании не завершён</h1>
+          <p class="p75"><b>Компания:</b> @CompanyContext.CompanyName</p>
+          <p class="p75">Мы заметили, что компании с заполненным профилем чаще получают предложения к сотрудничеству.</p>
+        </mj-text>
+        <mj-button href="@CompanyContext.Url">Заполнить профиль</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

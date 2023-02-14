@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: 👉 Возобновление полномочий в @компания
+Получатель: пользователь на имейл, указанный при логине
+
+УК восстановил сотрудника в компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@TargetContext.FirstName, ваши полномочия восстановлены </h1>
+          <p class="p75">Ваша деятельность в качестве сотрудника <b>@CompanyContext.CompanyName</b> на @ConfigurationContext.ProjectName возобновлена :)</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">Продолжить работу на @ConfigurationContext.ProjectName</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

@@ -1,0 +1,55 @@
+Files changed in the 'releaseaz-3.18' branch compared to the 'releaseaz-3.16' branch:
+
+- examples/emails/templates/ru-RU/__tpl/__footer.mjml
+- examples/emails/templates/ru-RU/__tpl/__footer_simple.mjml
+- examples/emails/templates/ru-RU/__tpl/__footer_unsub.mjml
+- examples/emails/templates/ru-RU/__tpl/__head.mjml
+- examples/emails/templates/ru-RU/__tpl/__help.mjml
+- examples/emails/templates/ru-RU/__tpl/__logo.mjml
+- examples/emails/templates/ru-RU/__tpl/__quick-start.mjml
+- examples/emails/templates/ru-RU/_Template1.mjml
+- examples/emails/templates/ru-RU/ADM_Company_verified.mjml
+- examples/emails/templates/ru-RU/ADM_Invitation_cancelled.mjml
+- examples/emails/templates/ru-RU/ADM_User_approved.mjml
+- examples/emails/templates/ru-RU/ADM_User_invite.mjml
+- examples/emails/templates/ru-RU/ADM_User_removed.mjml
+- examples/emails/templates/ru-RU/ADM_User_restored.mjml
+- examples/emails/templates/ru-RU/BACK_OFFICE_callback.mjml
+- examples/emails/templates/ru-RU/ChangeEmail.mjml
+- examples/emails/templates/ru-RU/COM_Email.mjml
+- examples/emails/templates/ru-RU/COM_Sale_argeenent_confirm.mjml
+- examples/emails/templates/ru-RU/COM_User_argeenent_confirm.mjml
+- examples/emails/templates/ru-RU/Company_Deleted.mjml
+- examples/emails/templates/ru-RU/Complete_profile.mjml
+- examples/emails/templates/ru-RU/ERROR_notification.mjml
+- examples/emails/templates/ru-RU/include_azer/__footer.mjml
+- examples/emails/templates/ru-RU/include_azer/__footer_simple.mjml
+- examples/emails/templates/ru-RU/include_azer/__footer_unsub.mjml
+- examples/emails/templates/ru-RU/include_azer/__head.mjml
+- examples/emails/templates/ru-RU/include_azer/__help.mjml
+- examples/emails/templates/ru-RU/include_azer/__logo.mjml
+- examples/emails/templates/ru-RU/include_azer/__quick-start.mjml
+- examples/emails/templates/ru-RU/Network_Fill_Tags.mjml
+- examples/emails/templates/ru-RU/Registration.mjml
+- examples/emails/templates/ru-RU/ResetPassword.mjml
+- examples/emails/templates/ru-RU/RFX_Finished_BOP.mjml
+- examples/emails/templates/ru-RU/RFX_Finished_Looser.mjml
+- examples/emails/templates/ru-RU/RFX_Finished_Winner.mjml
+- examples/emails/templates/ru-RU/RFX_Invite_by_email.mjml
+- examples/emails/templates/ru-RU/RFX_Invite_by_email_affiliate.mjml
+- examples/emails/templates/ru-RU/RFX_Invite_by_email_affiliate_error.mjml
+- examples/emails/templates/ru-RU/RFX_Invite_from_network.mjml
+- examples/emails/templates/ru-RU/RFX_New_procedure_by_tag.mjml
+- examples/emails/templates/ru-RU/RFX_Participant_restored.mjml
+- examples/emails/templates/ru-RU/RFX_Procedure_changed.mjml
+- examples/emails/templates/ru-RU/RFX_Procedure_new_stage.mjml
+- examples/emails/templates/ru-RU/RFX_Proposal_closing_soon.mjml
+- examples/emails/templates/ru-RU/RFX_Proposal_reopened.mjml
+- examples/emails/templates/ru-RU/RFX_Winner_cancelled.mjml
+- examples/emails/templates/ru-RU/SIM_Accreditation_cancelled.mjml
+- examples/emails/templates/ru-RU/SIM_Participant_blocked.mjml
+
+Files added in the 'releaseaz-3.18' branch:
+
+- examples/emails/templates/ru-RU/__tpl/__hint.mjml
+- examples/emails/templates/ru-RU/RFX_Invite_from_network2 (ex).mjml

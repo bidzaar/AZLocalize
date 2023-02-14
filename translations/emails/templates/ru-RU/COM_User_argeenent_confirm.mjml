@@ -1,0 +1,32 @@
+<mjml>
+  <!-- 
+Тема: 👋 Согласие с условиями и положениями дополнительного пользовательского соглашения
+Получатель: email из формы
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Здравствуйте, @UserAgreementSignAddedContext.UserLastName!</h1>
+          <p style="font-size: 20px; font-weight: 600">Принято согласие с условиями и положениями дополнительного пользовательского соглашения от компании "@UserAgreementSignAddedContext.CompanyShortName"</p>
+          <p>Данные о компании:</p>
+          <ul>
+            <li class="small">Код компании на @ConfigurationContext.ProjectName: @UserAgreementSignAddedContext.CompanyBidzaarNumber</li>
+            <li class="small">Наименование компании: @UserAgreementSignAddedContext.CompanyShortName</li>
+            <li class="small">ИНН компании / ИП: @UserAgreementSignAddedContext.CompanyUniqueNumber</li>
+          </ul>
+        </mj-text>
+        <mj-text>
+          <p class="small">Если данные были заполнены неверно, то ответьте на это письмо или напишите на <a href='mailto:@ConfigurationContext.SupportEmail'>@ConfigurationContext.SupportEmail</a></p>
+          <p class="small"><span class="small">Торговая площадка <a href="@ConfigurationContext.BaseUrl?utm_source=support&utm_medium=email&utm_campaign=dodo_user_agreement" style="font-weight:400">@ConfigurationContext.ProjectName</a>
+            </span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__footer_simple.mjml" />
+  </mj-body>
+</mjml>

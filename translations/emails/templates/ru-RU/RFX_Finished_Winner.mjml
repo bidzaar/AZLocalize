@@ -1,0 +1,28 @@
+<mjml>
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 class="bb">Поздравляем с победой в запросе!</b></h1>
+          <p>Заказчик выбрал вашу компанию @TargetContext.CompanyName.</p>
+          <p class="mb-0"><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+          @CustomMailContext.Body
+        </mj-text>
+        <mj-button href="@ProcedureContext.UrlConclusion">Перейти к итогам запроса</mj-button>
+        <mj-spacer height="30px" />
+        <mj-text>
+          <p class="small"><b>🎉 Команда @ConfigurationContext.ProjectName поздравляет вас с победой в запросе!</b><br /> В соответствии с <a href="@ConfigurationContext.UserAgreement">Пользовательским соглашением</a> Победитель Запроса обязан оплатить Комиссию оператора Сервиса, размер которой указан в Запросе.</p>
+          <p class="small">Счёт на оплату Комиссии оператора Сервиса будет направлен вам в ближайшее время на электронную почту. Вопросы по оплате можно задать по телефону @ConfigurationContext.FormattedBillingNumber, или по почте <a href="mailto:>@ConfigurationContext.BillingEmail">@ConfigurationContext.BillingEmail</a>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
+  </mj-body>
+</mjml>

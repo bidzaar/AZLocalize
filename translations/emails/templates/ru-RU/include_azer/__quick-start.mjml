@@ -1,0 +1,14 @@
+    <!-- quick-start -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>С чего начать:</h2>
+                <ol>
+                    <li><a href="@ConfigurationContext.BaseUrl/home">Настройте профиль своей компании ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Найдите подходящий запрос или разместите свой заказ ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/companies/all">Посмотрите, кто уже использует @ConfigurationContext.ProjectName ►</a></li>
+                </ol>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /quick-start -->
