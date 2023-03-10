@@ -11,15 +11,15 @@
                     "orderFor": "{{ value }} üçün sifariş",
                     "price": "{{ price }} {{ currency }}",
                     "common": {
-                        "empty": "[AT] Sifarişsiz",
-                        "order": "[AT] Sifariş verin",
-                        "price": "[AT] {{ qiymət }} {{ valyuta }}",
-                        "orderFor": "[AT] {{ dəyər }} üçün sifariş edin"
+                        "empty": "Sifarişsiz",
+                        "order": "Sifariş ",
+                        "price": "{{ price }} {{ currency }}",
+                        "orderFor": "Заказ для {{ value }}"
                     },
                     "participant": {
-                        "winner": "[AT] Müştəri sizi qalib seçdi",
-                        "loser": "[AT] Müştəri qalib kimi başqa şirkəti seçdi",
-                        "nobody": "[AT] Müraciət qalib seçilmədən başa çatdı"
+                        "winner": "Müştəri sizi qalib seçdi",
+                        "loser": "Müştəri qalib kimi başqa şirkəti seçdi",
+                        "nobody": "Müraciət qalib seçilmədən başa çatdı"
                     }
                 },
                 "prolongation": "({{ date}} tarixinə kimi)",
