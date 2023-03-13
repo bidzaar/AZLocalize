@@ -135,12 +135,12 @@
                         "roles": {
                             "header": "ProcureSaaS-da nə edəcəksiniz?",
                             "seller": {
-                                "title": "Satınalan təşkilat",
-                                "notice": "Mən mal və xidmət sifariş edəceyəm"
-                            },
-                            "purchaser": {
                                 "title": "Təchizatçı təşkilat",
                                 "notice": "Mən mal və ya xidmətlər təqdim edəcəm"
+                            },
+                            "purchaser": {
+                                "title": "Satınalan təşkilat",
+                                "notice": "Mən mal və ya xidmətlər sifariş edəcəm"
                             }
                         },
                         "tags": {
