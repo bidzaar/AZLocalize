@@ -38,7 +38,7 @@
                 }
             },
             "status": {
-                "0": "Qaralama",
+                "0": "Layihələndirmə",
                 "1": "Təkliflər qəbulu",
                 "2": "Yekunlaşdırmaq",
                 "3": "Tamamlanıb",
@@ -84,15 +84,15 @@
                 "proposal": "Təklifi endir",
                 "receipt": "Sifarişi yükləyin",
                 "all-receipt": "Sifarişi yükləyin",
-                "nda": "İlkin kvalifikasiya sənədlərini yükləyin"
+                "nda": "İlkin kvalifikasiya sənədlərini yüklə"
             },
             "single": {
                 "sync": {
-                    "title": "Sənədi yükləyin",
+                    "title": "Sənədi yüklə",
                     "action": "Yüklə"
                 },
                 "async": {
-                    "title": "Hazırlığı tələb edin",
+                    "title": "Sənədlərin göndərilməsi üçün sorğu",
                     "comment": "Bir müddət sonra arxivi {{ email }} poçtunuza yükləmək üçün link alacaqsınız",
                     "action": "Sorğu etmək"
                 }

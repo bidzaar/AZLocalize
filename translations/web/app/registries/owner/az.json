@@ -84,7 +84,7 @@
                         }
                     },
                     "closed": "Müraciətlər qəbulu bağlıdır",
-                    "draft": "Qaralama",
+                    "draft": "Layihələndirmə",
                     "opened": "Müraciət qəbulu açıqdır"
                 },
                 "actions": {
@@ -399,9 +399,9 @@
                 },
                 "new_version_dialog": {
                     "cancel": "Ləğv et",
-                    "description": "Anketin yeni versiyasında sualları, məntiqi və xalları dəyişdirmək üçün qaralama yaradın.",
+                    "description": "Anketin yeni versiyasında sualları, məntiqi və xalları dəyişdirmək üçün layihələndirmə mərhələsi yaradın.",
                     "info": "Giriş ayarları yeni versiya yaratmağı tələb etmir.",
-                    "submit": "Qaralama yaradın",
+                    "submit": "Layihələndirmə mərhələsi yaradın",
                     "title": "Anketi dəyişdirin"
                 },
                 "title": "Reyestr anketi",

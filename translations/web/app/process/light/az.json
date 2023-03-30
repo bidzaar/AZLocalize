@@ -17,7 +17,7 @@
                         "PositionsDisabled": "Maddə spesifikasiyası iştirakçının təklifinə daxil edilmir",
                         "QuestionnaireDisabled": "Anket iştirakçının təklifinə daxil edilməyib",
                         "Version": {
-                            "DraftNotFound": "Qaralama tapılmadı"
+                            "DraftNotFound": "Layihələnirmə tapılmadı"
                         },
                         "User": {
                             "LastOwner": "Sorğunun ən azı bir sahibi olmalıdır",
@@ -118,9 +118,9 @@
                 }
             },
             "proposal_deviation_type": {
-                "0": "Maddələr və miqdara görə yayınma icazə verilmir ",
-                "1": "Maddələr və miqdara görə yayınma icazə verilir",
-                "2": "Yalnız maddələrə görə yayınma icazə verilir"
+                "0": "Maddələr və miqdara görə yayınmağa icazə verilmir ",
+                "1": "Maddələr və miqdara görə yayınmağa icazə verilir",
+                "2": "Yalnız maddələrə görə yayınmağa icazə verilir"
             },
             "role": {
                 "0": "Auditor",
@@ -133,7 +133,7 @@
                 "2": "Sorğunu redaktə və dərc edir, sorğunu tamamlayır, iştirakçıların təkliflərini nəzərdən keçirir"
             },
             "status": {
-                "0": "Qaralama",
+                "0": "Layihələndirmə",
                 "1": "Təkliflərin qəbulu",
                 "2": "Yekunlaşdırma",
                 "3": "Tamamlanıb",
@@ -160,7 +160,7 @@
         },
         "view": {
             "status": {
-                "0": "Qaralama",
+                "0": "Layihələndirmə",
                 "1": "Göndərilən müraciətlər",
                 "2": "Təkliflər qəbulu bitdi, sorğu yekunlaşdırma mərhələsindədir",
                 "3": "Sorğu tamamlandı",
@@ -208,7 +208,7 @@
                             "title": "Şirkəti qeydiyyatdan keçirin"
                         },
                         "deleteProcedure": {
-                            "description": "Silindikdən sonra qaralama bərpa edilə bilməz. Ehtiyatlı ol!",
+                            "description": "Silindikdən sonra layihələndirmə bərpa edilə bilməz. Ehtiyatlı ol!",
                             "title": "Qaralamanı sil"
                         },
                         "downloadNoticeReport": {
@@ -741,13 +741,13 @@
                             "permissions_multicurrency": "Təchizatçılara qiymətləri digər valyutalarda təklif etməyə icazə ver",
                             "rate": "kursa əsasən",
                             "settings_additional": {
-                                "done": "Hazırdı",
+                                "done": "Hazırdırrr",
                                 "title": "Valyuta məzənnəsinin tənzimlənməsi "
                             },
                             "show_all": "Hamısını göstər"
                         },
                         "open_type": {
-                            "label": "Sorğu növü",
+                            "label": "Sorğunun növü",
                             "options": {
                                 "0": "Açıq",
                                 "1": "Bağlı"
@@ -868,7 +868,7 @@
                         "notice": "Sorğu dərc olunduqdan sonra dəyişiklik etmək mümkün olmayacaq",
                         "private": "Şirkətinizin bağlı sorğularına dair xidmət komissiyası tutulmur",
                         "options": {
-                            "1": "Qalib təchizatçı",
+                            "1": "Qalib təchizatçı (lar)",
                             "2": "Sifarişçi (Sizin şirkət)",
                             "3": "Qalib təchizatçı",
                             "4": "Sifarişçi (Sizin şirkət)"
@@ -1158,7 +1158,7 @@
                         "title": "Qiymət silinsin?"
                     },
                     "sub_title": "Məlumat yalnız sorğu heyyəti üçün mövcuddur",
-                    "submit": "Hazırdı",
+                    "submit": "Hazırdır",
                     "title": "Təklifin nəticəsi"
                 },
                 "selected_participants": "Seçmək üçün təklif edir",
@@ -1229,7 +1229,7 @@
                 },
                 "delete": {
                     "no": "ləğv et",
-                    "text": "Qaralama silinsin? Onu bərpa etmək mümkün olmayacaq.",
+                    "text": "Layihələndirmə silinsin? Onu bərpa etmək mümkün olmayacaq.",
                     "yes": "sil"
                 },
                 "offers": {
@@ -1251,7 +1251,7 @@
                         "512": "iştirakçının valyutasında vahid qiyməti",
                         "1024": "valyuta",
                         "2048": "Valyuta Məzənnəsi",
-                        "4096": "mövqe üzrə dərəcə",
+                        "4096": "maddə üzrə dərəcə",
                         "16384": "ƏDV {{ valyuta }}"
                     },
                     "actions": {
@@ -1466,7 +1466,7 @@
                             },
                             "Gold": {
                                 "ProcedureCannotBeOpened": {
-                                    "notice": "Sehr açıq sorğuda işləmir. \"Bağlı \" üçün \"sorğu növü \" parametri seçin",
+                                    "notice": "Sehr açıq sorğuda işləmir. \"Bağlı \" üçün \"sorğunun növü \" parametri seçin",
                                     "title": "Qızıl Sorğu"
                                 },
                                 "HasRegistries": {
@@ -1558,7 +1558,7 @@
                     }
                 },
                 "header": {
-                    "back": "Hazırdı",
+                    "back": "Hazırdır",
                     "editing": "(Redaktə)",
                     "positions": "Məhsullar və xidmətlər",
                     "questionnaire": "Qeyri-qiymət meyarları"
@@ -1566,7 +1566,7 @@
                 "notice": {
                     "stage": "MƏRHƏLƏ {{index}}",
                     "text": {
-                        "0": "Qaralama ({{creationDate}})",
+                        "0": "Layihələndirmə",
                         "1": "Cari ({{publishDate}})",
                         "2": "Cari ({{publishDate}})",
                         "3": "Cari ({{publishDate}})",
@@ -2304,13 +2304,13 @@
                     "recall_proposal_current_company": "Təklif geri götürüldü",
                     "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
                     "updated": "Sorğu yeniləndi",
-                    "version_created": "Qaralama yaradıldı",
+                    "version_created": "Layihələndirmə mərhələsi yaradıldı",
                     "request_published": "Sorğu dərc olundu",
                     "stage_published": "Mərhələ dərc olundu",
                     "changes_published": "Dəyişikliklər dərc olundu"
                 },
                 "status": {
-                    "0": "Qaralama",
+                    "0": "Layihələndirmə",
                     "1": "Təkliflərin qəbulu",
                     "2": "Təkliflərin qəbulu bitdi, sorğu yekunlaşmaq mərhələsindədir",
                     "3": "Sorğu tamamlandı",
@@ -2458,7 +2458,7 @@
                         },
                         "Gold": {
                             "ProcedureCannotBeOpened": {
-                                "notice": "Sehr açıq sorğuda işləmir. \"Sorğu növü\" seçimini \"Qapalı\" olaraq təyin edin",
+                                "notice": "Sehr açıq sorğuda işləmir. \"Sorğunun növü\" seçimini \"Qapalı\" olaraq təyin edin",
                                 "title": "Qızıl sorğu"
                             },
                             "HasRegistries": {
@@ -2578,7 +2578,7 @@
                 "verified": "Şirkətiniz təsdiqləndi"
             },
             "header": {
-                "back": "Hazırdı",
+                "back": "Hazırdır",
                 "editing": "(Redaktə)",
                 "positions": " Məhsullar və xidmətlər",
                 "questionnaire": "Qeyri-qiymət meyarları"
@@ -2849,8 +2849,8 @@
                                 "text": {
                                     "primary": "Təkliflər qəbulunun son tarixinə qədər təklifi dəyişə bilərsiniz.",
                                     "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq.",
-                                    "confirmation": "Sorğuda qalib gəldiyim halda Xidmət Komissiyasının ödəniş şərtləri ilə razıyam.",
-                                    "agreement": "İstifadə qaydaları."
+                                    "confirmation": "Sorğuda qalib gəldiyim halda Servis Operatorunun Komissiyasının ödəniş şərtləri ilə razıyam.",
+                                    "agreement": "İSTİFADƏÇİ RAZILAŞMASI"
                                 }
                             },
                             "failure": {
@@ -2993,7 +2993,7 @@
                         },
                         "single": {
                             "cancel": "Ləğv et",
-                            "done": "Hazırdı",
+                            "done": "Hazırdır",
                             "invite": "Dəvət et",
                             "append": "E-poçt əlavə edin",
                             "remove": "Sil",
@@ -3134,7 +3134,7 @@
                             "button": "Sil"
                         },
                         "report": {
-                            "title": "İştirakçıların siyahısını yükləy",
+                            "title": "İştirakçıların siyahısını yüklə",
                             "tooltip": "İştirakçıların siyahısını yüklə"
                         },
                         "archive_nda": {
@@ -3265,7 +3265,7 @@
                 "comparison_updated": "Müqayisə cədvəli yeniləndi",
                 "procedure_deleted": " Sorğu ləğv",
                 "updated": "Sorğu yeniləndi",
-                "version_created": "Qaralama yaradıldı",
+                "version_created": "Layihələndirmə mərhələsi yaradıldı",
                 "there_draft": "Redaktəni tamamlayın və təklifi yeniləyin",
                 "proposal_submitted": " İştirakçı təklif təqdim etdi, Müqayisə cədvəlinin məlumatları yeniləndi",
                 "proposal_update": "İştirakçı təklifi yenilədi, müqayisə cədvəlinin məlumatları yeniləndi",
@@ -3288,7 +3288,7 @@
                 "title": "Satınalma Bildirişi",
                 "stage": "MƏRHƏLƏ {{ indeks }}",
                 "text": {
-                    "0": "Qaralama ({{ yaradılış tarixi }})",
+                    "0": "Layihələndirmə",
                     "1": "Qüvvəyə minir ({{ publishDate }})",
                     "2": "Qüvvəyə minir ({{ publishDate }})",
                     "3": "Qüvvəyə minir ({{ publishDate }})",

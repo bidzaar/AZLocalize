@@ -46,7 +46,7 @@
                     "action": "Əlavə et",
                     "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Sifarişçilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
                     "sub_title": "Sənədlər: {{value}}",
-                    "title": "Kommersiya təklifi və sənədlər",
+                    "title": "Əlavə sənədlər",
                     "text": "Sənədlər təkliflərin qəbulu başa çatdıqdan sonra əlavə edilə bilər"
                 },
                 "positions": {

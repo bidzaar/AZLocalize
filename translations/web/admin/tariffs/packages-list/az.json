@@ -13,7 +13,7 @@
         "dialog": {
             "title": "Tarif paketləri",
             "input": "Paketin adı",
-            "add": "HAZIRDI",
+            "add": "HAZIRDIR",
             "cancel": "LƏĞV ET",
             "error": {
                 "title": "Bu Paket adı artıq mövcuddur",

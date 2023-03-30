@@ -90,7 +90,7 @@
                             "messages": "Çatlardan gələn mesajlar",
                             "participants": "Mərhələrin iştirakçıları",
                             "proposals": "Təkliflərin tarixçəsi",
-                            "versions": "Sorğu növü"
+                            "versions": "Sorğunun növü"
                         }
                     },
                     "orders": {
@@ -265,7 +265,7 @@
                     },
                     "versions_reports": {
                         "active": "aktiv",
-                        "draft": "Qaralama",
+                        "draft": "Layihələndirmə",
                         "header": "Sorğu növləri",
                         "history": "Dəyişikliklər tarixçəsi",
                         "inactive": "Qeyri-aktiv",

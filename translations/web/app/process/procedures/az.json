@@ -24,7 +24,7 @@
                 "9": "iştirakdan imtina"
             },
             "status": {
-                "0": "Qaralama",
+                "0": "Layihələndirmə",
                 "1": "Təkliflərin qəbulu",
                 "2": "Yekunlaşdırma",
                 "3": "Tamamlanmışdır",
@@ -92,7 +92,7 @@
                 "title": "Sorğunun növü"
             },
             "type_of_change": {
-                "title": "Sorğu növü",
+                "title": "Sorğunun növü",
                 "labels": {
                     "true": "Alış",
                     "false": "Satış"

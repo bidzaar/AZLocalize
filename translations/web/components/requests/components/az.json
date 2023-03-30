@@ -8,10 +8,10 @@
         "parameters": {
             "owner_rules": {
                 "verified_only": {
-                    "label": "təkliflərin Verilməsi",
-                    "text": "yalnız təsdiq təchizatçıları",
+                    "label": "Təkliflərin Verilməsi",
+                    "text": "yalnız təsdiqlənmiş təchizatçıları",
                     "popover": {
-                        "title": "təsdiq edilmiş təchizatçılar üçün sorğu",
+                        "title": "təsdiq olunmuş təchizatçılar üçün sorğu",
                         "text": "təsdiq edilmiş hüquqi qeydiyyatı olan təchizatçılar təklif edə bilərlər",
                         "helper": "saytın mütəxəssisləri təchizatçıları yoxlayır və onları xüsusi bir simvolla qeyd edirlər"
                     }
@@ -21,10 +21,10 @@
                     "time_left": "Qalıb"
                 },
                 "prolongation": {
-                    "label": "Təkliflər qəbulunun avtomatik uzadılması",
+                    "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
                     "minutes": "dəq",
                     "time-left": "dəyirmi sonu",
-                    "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
+                    "tooltip": "Təkliflərin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
                 },
                 "approximate_deadline_for_summing_up": {
                     "label": "Yekunlaşmanın təxmini müddəti",
@@ -47,7 +47,7 @@
                     }
                 },
                 "open_type": {
-                    "label": "Sorğu növü",
+                    "label": "Sorğunun valyutası",
                     "tooltips": {
                         "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
                         "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
@@ -136,7 +136,7 @@
             "select": {
                 "header": "Sorğunun tarifi",
                 "cancel": "Bağla",
-                "submit": "Göndər"
+                "submit": "Təsdiqlə"
             }
         }
     }

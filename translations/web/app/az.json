@@ -110,7 +110,7 @@
                     "active": "aktiv",
                     "adjustment_required": "tənzimləmə tələb olunur",
                     "consideration": "nəzərə alınmalıdır",
-                    "draft": "Qaralama",
+                    "draft": "Layihələndirmə",
                     "invited": "dəvət",
                     "is_blocked": "bloklanıb",
                     "participant_refused": "imtina etdi",
@@ -371,7 +371,7 @@
         },
         "active_purchases": {
             "action": "Yenisini əlavə et",
-            "draft": "Qaralamalar",
+            "draft": "Layihələndirməlar",
             "proposal": "Təkliflərin qəbulu",
             "summarize": "Qərarların qəbulu",
             "title": "Mənim sorğularım"
@@ -1048,7 +1048,7 @@
                     "header": "Sual",
                     "hidden": {
                         "owner": "Cavab yalnız sorğuçuya əlçatandır",
-                        "participant": "Cavab digər iştirakçılar üçün mövcud olmayacaq.",
+                        "participant": "Digər iştirakçılar cavabınızı görməyəcək",
                         "tooltip": "Həssas və ya məxfi məlumatları gizlətməyi tövsiyə edirik"
                     },
                     "required": "Cavab məcburidir",
@@ -1111,7 +1111,7 @@
         },
         "status": {
             "canceled": "ləğv edildi",
-            "draft": "qaralama",
+            "draft": "Layihələndirmə",
             "finished": "bitdi",
             "proposal": "təkliflər qəbulu",
             "summarize": "Yekunlaşdırmaq"
@@ -1483,7 +1483,7 @@
                         },
                         "deletePool": {
                             "description": "Qaralama, dərc olunmuş qrupdan fəqli olaraq bir dəfəlik silinir.",
-                            "title": "Qaralamanı sil"
+                            "title": "Layihələndirməni sil"
                         },
                         "editPool": {
                             "description": "Anketi dəyişdirsəniz, iştirakçılar qrupda akkreditə olunmuş statusunu itirəcəklər. Statusun bərpası üçün iştirakçılar edilən dəyişiklikləri nəzərə alaraq müraciətləri təqdim etməlidirlər. Dəyişikliklər ləğv edilə bilər, bu halda iştirakçıların akkreditasiya statusu eyni qalacaq.",
@@ -1792,7 +1792,7 @@
                     "active": "dərc olunmuşdur",
                     "blocked": "bloklanıb",
                     "changing": "yenilənmə tələb olunur",
-                    "draft": "qaralama"
+                    "draft": "Layihələndirmə"
                 },
                 "team": {
                     "header": "akkreditasiya komandası ({{count}})"
@@ -1825,7 +1825,7 @@
                 "cancel": "ləğv et",
                 "empty": "şirkətinizin mövcud akkreditasiya qrupları yoxdur",
                 "header": "akkreditasiya qrupları",
-                "next": "hazırdır"
+                "next": "Hazırdır"
             }
         },
         "light": {
@@ -1843,14 +1843,14 @@
                     },
                     "empty": {
                         "primary": "Uyğun sorğular yoxdur",
-                        "secondary": "Qaralama və ya Təklif Qəbulu statusu ilə heç bir sorğunuz yoxdur."
+                        "secondary": "Layihələndirmə və ya Təklif Qəbulu statusu ilə heç bir sorğunuz yoxdur."
                     },
                     "header": {
                         "notice": "Şirkətin hələ iştirak etmədiyi sorğularınız",
                         "title": "Şirkəti sorğunuza dəvət edin"
                     },
                     "procedures": {
-                        "draft": "Kod: {{ value }} • Qaralama (dəvətlər dərc edildikdən sonra göndəriləcək)",
+                        "draft": "Kod: {{ value }} • Layihələndirmə (dəvətlər dərc edildikdən sonra göndəriləcək)",
                         "proposal": "Kod: {{ value }} • təkliflər qəbul edilir: "
                     }
                 },
@@ -1906,7 +1906,7 @@
                 },
                 "status": {
                     "canceled": "ləğv edildi",
-                    "draft": "qaralama",
+                    "draft": "Layihələndirmə",
                     "finished": "tamamlandı",
                     "proposal": "təkliflərin qəbulu",
                     "summarize": "yekunların hazırlanması"
