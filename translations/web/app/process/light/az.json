@@ -762,7 +762,7 @@
                             "label": "Təşkilatçı təkliflərin qəbulu mərhələsində"
                         },
                         "prolongation": {
-                            "label": "Təklif qəbulunun avtomatik uzadılması",
+                            "label": "Təkliflərin qəbulunun avtomatik uzadılması",
                             "minutes": "dəq.",
                             "time-left": "Mərhələnin sonu",
                             "tooltip": "İştirakçı  təkliflər qəbulunun son tarixinədək müəyyən edilmiş vaxtda təklif edtikdə istifadə olunur.\n99 dəqiqəyə qədər uzadılma mümkündür, 0 - uzadılma mövcud olmayacaq"
