@@ -99,7 +99,8 @@
       "17": "Request Team. User is added",
       "18": "Request Team. User is removed",
       "19": "Request Team. User role is changed",
-      "20": "The tariff is changed"
+      "20": "The tariff is changed",
+      "21": "Promo code applied"
     }
   }
 }

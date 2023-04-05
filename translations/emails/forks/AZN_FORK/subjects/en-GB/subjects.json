@@ -13,6 +13,7 @@
     "RemindCompleteProfileNotification": "🔴 company profile on ProcureSaas",
     "ProcedureCanceled": "🔴 Request cancelled:  \"@ProcedureContext.ProcedureName\"",
     "ProcedureCanceledOrg": "🔴 Request cancelled:  \"@ProcedureContext.ProcedureName\"",
+    "PromoCodeApplied": "Cancellation of the Commission in the request",
     "NotifyProcedureFinishedWithoutOrder": "🔴 Request completed: \"@ProcedureContext.ProcedureName\"",
     "NotifyProcedureFinishedWithoutOrderOrg": "🔴 Request completed: \"@ProcedureContext.ProcedureName\"",
     "NotifyProcedureFinishedWithOrderWinner": "🔴 You win in the request: \"@ProcedureContext.ProcedureName\"",
@@ -88,5 +89,6 @@
     "UnVerifiedParticipantInVerifiedOnlyEvent": "Participation in a request for proven",
     "SellerWantsToBeVerifiedCommand": "Request for checking the company",
     "SellerWantsTariffCommand": "Ordering tariff plan (landing)",
-    "CreateBuyerLeadCommand": "Request to receive the rights of the buyer"
+    "CreateBuyerLeadCommand": "Request to receive the rights of the buyer",
+    "ProposalRejected": "🔴 Your proposal rejected in request \"@ProcedureContext.ProcedureName\""
 }

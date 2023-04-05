@@ -23,16 +23,13 @@
     },
     "configurator": {
       "header": "web/app/process/light/positions/buyer: pl_pop.configurator.header",
+      "menu": "web/app/process/light/positions/buyer: pl_pop.configurator.menu",
       "defaults": {
         "name": "web/app/process/light/positions/buyer: pl_pop.configurator.defaults.name"
       },
       "details": {
         "name": "web/app/process/light/positions/buyer: pl_pop.configurator.details.name",
-        "type": {
-          "string": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.string",
-          "number": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.number",
-          "datetime": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type.datetime"
-        }
+        "type": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type"
       },
       "actions": {
         "done": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.done",
@@ -50,6 +47,13 @@
         "text": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.text",
         "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.cancel",
         "confirm": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.confirm"
+      },
+      "types": {
+        "string": "web/app/process/light/positions/buyer: pl_pop.configurator.types.string",
+        "double": "web/app/process/light/positions/buyer: pl_pop.configurator.types.double",
+        "bool": "web/app/process/light/positions/buyer: pl_pop.configurator.types.bool",
+        "datetime": "web/app/process/light/positions/buyer: pl_pop.configurator.types.datetime",
+        "decimal": "web/app/process/light/positions/buyer: pl_pop.configurator.types.decimal"
       }
     },
     "positions": {

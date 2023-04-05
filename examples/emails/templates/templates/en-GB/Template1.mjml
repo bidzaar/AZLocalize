@@ -1,0 +1,73 @@
+<mjml>
+<!-- 
+Тема: 🖐 Добро пожаловать на @ConfigurationContext.ProjectName
+Получатель: 
+
+Описание
+
+@variable1
+@variable2
+-->    
+
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>     
+    
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />    
+      
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+        <mj-column>
+            <mj-text>                    
+                <h1>Пираты Соломенной Шляпы приглашает вас на @ConfigurationContext.ProjectName</h1>
+                <p>Текст</p>                
+            </mj-text>
+        </mj-column>
+    </mj-section>    
+    <!-- /intro -->
+      
+        
+    <!-- primary -------------------------------------------- -->    
+    <mj-section mj-class="section-primary">
+        <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+            <mj-text mj-class="text-primary">
+              <!--<h1>Заголовок 1</h1>
+                <p class="p75">Текст</p>--> 
+            </mj-text>
+            <mj-button href="@ConfigurationContext.BaseUrl">Присоединиться к компании</mj-button>                
+        </mj-column>
+    </mj-section>
+
+    
+    <mj-include path="./__tpl/__spacer.mjml" /> 
+    <!-- /primary -->
+    
+    
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Заголовок 2</h2>
+                <p>Текст</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /secondary -->    
+    
+
+      
+    <!-- quick-start -------------------------------------------- -->
+    <mj-include path="./__tpl/__quick-start.mjml" />            
+
+      
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />        
+
+        
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <mj-include path="./__tpl/__unsubscribe-footer.mjml" />
+    <!-- /footer -->  
+      
+  </mj-body>
+</mjml>

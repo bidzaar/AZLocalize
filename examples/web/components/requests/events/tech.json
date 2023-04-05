@@ -99,7 +99,8 @@
       "17": "web/components/requests/events: bdz.req.events.types.17",
       "18": "web/components/requests/events: bdz.req.events.types.18",
       "19": "web/components/requests/events: bdz.req.events.types.19",
-      "20": "web/components/requests/events: bdz.req.events.types.20"
+      "20": "web/components/requests/events: bdz.req.events.types.20",
+      "21": "web/components/requests/events: bdz.req.events.types.21"
     }
   }
 }

@@ -1,0 +1,7 @@
+    <mj-section mj-class="section-logo">
+      <mj-column padding-left="0">        
+        <mj-text>
+          <div><a href="@ConfigurationContext.BaseUrl" class="logo">@ConfigurationContext.ProjectName</a></div>
+        </mj-text>
+      </mj-column>
+    </mj-section>

@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: Ваша компания – проверенный поставщик
+Получатель: все сотрудники компании
+
+Админ Бидзаар установил статус компании "Прорверенный поставщик"
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>Ваша компания получила статус "Проверенная компания"</h1>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-intro">
+      <mj-column>
+        <mj-text>
+          <h2>Теперь @TargetContext.CompanyName – проверенная компания на @ConfigurationContext.ProjectName</h2>
+          <p><br /><b>Что это означает?</b></p>
+          <ul>
+            <li> Компания выгодно выделяется в списке поставщиков (<img src="@ConfigurationContext.VerifiedImage" style="vertical-align:top" /> – <span class="smallest">вот так</span>) и поднимается в результатах поиска </li>
+            <li> Повышается деловая репутация и рейтинг активности компании</li>
+            <li> Возможность участвовать в запросах только для проверенных поставщиков</li>
+          </ul>
+          <p>Желаем хорошей работы и новых побед на @ConfigurationContext.ProjectName!</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">Перейти на @ConfigurationContext.ProjectName</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- quick-start -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

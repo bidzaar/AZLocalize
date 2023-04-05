@@ -23,17 +23,13 @@
     },
     "configurator": {
       "header": "[AT] Sütunların fərdiləşdirilməsi",
+      "menu": "[AT] Sütun növünü seçin",
       "defaults": {
         "name": "[AT] Yeni sütun"
       },
       "details": {
         "name": "[AT] Sahənin adı",
-        "required": "",
-        "type": {
-          "string": "[AT] Növ: Simli",
-          "number": "[AT] Növ: Nömrə",
-          "datetime": "[AT] Növ: Tarix"
-        }
+        "type": "[AT] Növ"
       },
       "actions": {
         "done": "[AT] Bitdi",
@@ -51,6 +47,13 @@
         "text": "[AT] Sütunu silin",
         "cancel": "[AT] Ləğv et",
         "confirm": "[AT] Sil"
+      },
+      "types": {
+        "string": "[AT] Mətn",
+        "double": "[AT] Saymaq",
+        "bool": "[AT] Hə / Yox",
+        "datetime": "[AT] Tarix",
+        "decimal": "[AT] Pul"
       }
     },
     "positions": {

@@ -28,7 +28,8 @@
       "stop_list": "Teqlərin stop-siyahısı",
       "team": "Komanda",
       "tariffs": "[AT] Tarif paketləri",
-      "categories": "[AT] Kateqoriyalar kataloqu"
+      "categories": "[AT] Kateqoriyalar kataloqu",
+      "promo_codes": "[AT] Promokodlar"
     },
     "user_toolbar": {
       "login": "Daxil ol",

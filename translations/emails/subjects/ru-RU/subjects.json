@@ -12,6 +12,7 @@
     "ReminderUnreadUserNotifications": "🔴 Новые сообщения на ProcureSaas",
     "RemindCompleteProfileNotification": "🔴 Профиль компании на ProcureSaas",
     "ProcedureCanceled": "🔴 Запрос отменен: \"@ProcedureContext.ProcedureName\"",
+    "PromoCodeApplied": "Отмена Комиссии в запросе",
     "ProcedureCanceledOrg": "🔴 Запрос отменен",
     "NotifyProcedureFinishedWithoutOrder": "🔴 Запрос завершен: \"@ProcedureContext.ProcedureName\"",
     "NotifyProcedureFinishedWithoutOrderOrg": "🔴 Запрос завершен: \"@ProcedureContext.ProcedureName\"",
@@ -88,5 +89,7 @@
     "UnVerifiedParticipantInVerifiedOnlyEvent": "Участие в запросе для проверенных",
     "SellerWantsToBeVerifiedCommand": "Запрос на проверку компании",
     "SellerWantsTariffCommand": "Заказ тарифного плана (лендинг)",
-    "CreateBuyerLeadCommand": "Запрос на получения прав закупщика"
+    "CreateBuyerLeadCommand": "Запрос на получения прав закупщика",
+    "ProposalRejected": "🔴 Предложение отклонено в запросе \"@ProcedureContext.ProcedureName\"",
+    "CompanyRightsChangedNotification": "Изменены права \"@CompanyContext.CompanyName\" на \"@ConfigurationContext.ProjectName\""
 }

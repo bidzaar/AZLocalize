@@ -23,7 +23,7 @@
           <h2>@TargetContext.CompanyName is verified on @ConfigurationContext.ProjectName</h2>
           <p><br /><b>The benefits are:</b></p>
           <ul>
-            <li>Your company has prominent mark (<img src="@ConfigurationContext.VerifiedImage" style="vertical-align:top" />) and get more visibility in search results</li>
+            <li>Your company has prominent mark and gets more visibility in search results</li>
             <li>Your company get more trust and activity rank</li>
             <li>You can participate in requests for the verified suppliers</li>
           </ul>

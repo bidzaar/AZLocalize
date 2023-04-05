@@ -1,0 +1,51 @@
+<mjml>
+  <!-- 
+Тема: Новый запрос вашей компании
+Получатель: члены команды запроса
+
+Опубликован запрос
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>New request of your company</h1>
+          <p>Your company has submitted a new request. You have access to information about the request's status based on your permissions from your team.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+         <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token"> Download request notice</a></p>
+          <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

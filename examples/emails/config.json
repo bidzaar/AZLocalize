@@ -515,12 +515,6 @@
       "Target": "EmailTarget"
     }
   ],
-  "UnVerifiedParticipantInVerifiedOnlyEvent": [
-    {
-      "Template": "LID_Tender_for_verified_only",
-      "Target": "EmailTarget"
-    }
-  ],
   "SellerWantsToBeVerifiedCommand": [
     {
       "Template": "LID_Verify_request",
@@ -538,5 +532,23 @@
       "Template": "LID_RFx_request",
       "Target": "EmailTarget"
     }
-  ] 
+  ],
+  "PromoCodeApplied": [
+    {
+      "Template": "RFX_Promocode_applied",
+      "Target": "Billing"
+    }
+  ],
+  "ProposalRejected": [
+    {
+      "Template": "RFX_Proposal_rejected2",
+      "Target": "CompanySellers"  
+    }
+  ],
+  "CompanyRightsChangedNotification": [
+    {
+      "Template": "Rights_changed",
+      "Target": "BidzaarEmailTarget"  
+    }
+  ]
 }

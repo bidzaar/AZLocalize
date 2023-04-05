@@ -12,6 +12,7 @@
   "ReminderUnreadUserNotifications": "🔴 Новые сообщения на @ConfigurationContext.ProjectName",
   "RemindCompleteProfileNotification": "🔴 Профиль компании на @ConfigurationContext.ProjectName",
   "ProcedureCanceled": "🔴 Запрос отменен: \"@ProcedureContext.ProcedureName\"",
+  "PromoCodeApplied": "Отмена Комиссии в запросе",
   "ProcedureCanceledOrg": "🔴 Запрос отменен",
   "NotifyProcedureFinishedWithoutOrder": "🔴 Запрос завершен: \"@ProcedureContext.ProcedureName\"",
   "NotifyProcedureFinishedWithoutOrderOrg": "🔴 Запрос завершен: \"@ProcedureContext.ProcedureName\"",
@@ -40,7 +41,7 @@
   "ReviewCompanyNotification": "Подтвердите реквизиты компании",
   "ErrorNotification": "🔴 Что-то пошло не так",
   "StartRoundProcedureEvent": "🔴 Приём предложений снова открыт: \"@ProcedureContext.ProcedureName\"",
-  "SummingUpProcedureReminderEvent": "🔴 48 часов до завершения приёма предложений: \"@ProcedureContext.ProcedureName\"",
+  "SummingUpProcedureReminderEvent": "🔴 @SummingUpProcedureReminderPrecontext.Hours часов до завершения приёма предложений: \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureEvent": "🔴 Приём предложений завершен: \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureOrgEvent": "🔴 Приём предложений завершен: \"@ProcedureContext.ProcedureName\"",
   "SummingUpProcedureEvent": "🔴 Приём предложений завершен: \"@ProcedureContext.ProcedureName\"",
@@ -88,5 +89,7 @@
   "UnVerifiedParticipantInVerifiedOnlyEvent": "Участие в запросе для проверенных",
   "SellerWantsToBeVerifiedCommand": "Запрос на проверку компании",
   "SellerWantsTariffCommand": "Заказ тарифного плана (лендинг)",
-  "CreateBuyerLeadCommand": "Запрос на получения прав закупщика"
+  "CreateBuyerLeadCommand": "Запрос на получения прав закупщика",
+  "ProposalRejected": "🔴 Предложение отклонено в запросе \"@ProcedureContext.ProcedureName\"",
+  "CompanyRightsChangedNotification": "Изменены права \"@CompanyContext.CompanyName\" на \"@ConfigurationContext.ProjectName\""
 }

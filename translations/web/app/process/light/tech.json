@@ -207,6 +207,10 @@
                         "multiple": {
                             "more": "web/app/process/light: pl.view.comparison.answer_cell.widgets.multiple.more"
                         }
+                    },
+                    "custom": {
+                        "true": "web/app/process/light: pl.view.comparison.answer_cell.custom.true",
+                        "false": "web/app/process/light: pl.view.comparison.answer_cell.custom.false"
                     }
                 },
                 "answer_dialog": {

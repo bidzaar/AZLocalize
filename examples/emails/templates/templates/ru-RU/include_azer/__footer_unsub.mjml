@@ -1,0 +1,21 @@
+    <!-- spacer -------------------------------------------- -->
+    <!--<mj-section padding-top="0" padding-bottom="0">
+      <mj-column>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+    <!-- /spacer -->
+    <!-- footer -------------------------------------------- -->
+    <mj-section mj-class="section-footer" css-class="footer">
+      <mj-column>
+        <mj-text align="center"><b>@ConfigurationContext.ProjectName</b><br/><a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a> • <a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a> • <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.BaseUrl</a></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-footer" css-class="footer" padding-top="0">
+      <mj-column>
+        <mj-text align="center">
+          <span class="smallest">Вы получили это сообщение в соответствии с пользовательским соглашением @ConfigurationContext.ProjectName. <a href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">Настроить уведомления</a></span> @PixelContext.Html
+        </mj-text>
+      </mj-column>
+    </mj-section>

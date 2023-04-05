@@ -1,0 +1,39 @@
+<mjml>
+  <!-- 
+Тема: 👋 @компания приглашает на @ConfigurationContext.ProjectName
+Получатель: пользователь на имейл, указанный УК при приглашении
+
+УК пригласил пользователя присоединиться к компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@CompanyContext.CompanyName приглашает вас на @ConfigurationContext.ProjectName</h1>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl@ActionUrlPrecontext.Url">Присоединиться к компании</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <h2>@ConfigurationContext.ProjectName – это...</h2>
+          <p><b>@ConfigurationContext.ProjectName</b> – это торговая площадка нового типа, созданная по принципу социальной сети поставщиков и заказчиков.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

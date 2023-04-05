@@ -12,6 +12,7 @@
     "ReminderUnreadUserNotifications": "–",
     "RemindCompleteProfileNotification": "🔴 ProcureSaaS platformasında şirkətin profili",
     "ProcedureCanceled": "🔴 \"@ProcedureContext.ProcedureName\"- adlı sorğu ləğv edildi ",
+    "PromoCodeApplied": "Sorğuda Komissiyanın ləğvi",
     "ProcedureCanceledOrg": "🔴 Sorğu ləğv edildi",
     "NotifyProcedureFinishedWithoutOrder": "🔴 \"@ProcedureContext.ProcedureName\"  sorğusu tamamlandı",
     "NotifyProcedureFinishedWithoutOrderOrg": "🔴 \"@ProcedureContext.ProcedureName\"  sorğusu tamamlandı",
@@ -88,5 +89,6 @@
     "UnVerifiedParticipantInVerifiedOnlyEvent": "🔴 Təsdiqlənmiş şirkətlər üçün sorğuda iştirak",
     "SellerWantsToBeVerifiedCommand": "🔴 Şirkəti təsdiqləmə sorğusu",
     "SellerWantsTariffCommand": "🔴 Tarif planın sifarişi (internet səhifəsindən)",
-    "CreateBuyerLeadCommand": "🔴 Sifarişçi hüququ almaq üçün sorğu"
+    "CreateBuyerLeadCommand": "🔴 Sifarişçi hüququ almaq üçün sorğu",
+    "ProposalRejected": "🔴 Təklifiniz sorğuda rədd edildi \"@ProcedureContext.ProcedureName\""
 }

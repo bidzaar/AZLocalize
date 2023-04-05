@@ -1,0 +1,29 @@
+<mjml>
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 class="bb">Объявлен новый этап запроса</b></h1>
+          <h2><b>Этап:</b> @ProcedureContext.StageComment</h2>
+          <p>Ознакомьтесь с условиями этапа и проверьте актуальность своего предложения.</p>
+          <p class="mb-0"><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+          @CustomMailContext.Body
+          <p>
+            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
+            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Извещение: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
+          </p>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
+</mjml>

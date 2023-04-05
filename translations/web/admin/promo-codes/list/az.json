@@ -1,0 +1,90 @@
+{
+    "promo_codes.list": {
+        "create": "[AT] promokod yaradın",
+        "header": {
+            "title": "[AT] promokodlar",
+            "search": ""
+        },
+        "dates": {
+            "create": "[AT] yaradıldı: {{value}} {{time}}",
+            "apply": "[AT] tətbiq edildi: {{value}} {{time}}",
+            "link_tooltip": "[AT] açıq sorğu"
+        },
+        "empty": {
+            "text": "[AT] Neftçi tapılmadı"
+        },
+        "sorting": {
+            "createDate": "[AT] yaradılma tarixi",
+            "applicationDate": "[AT] tətbiq Tarixi"
+        },
+        "filters": {
+            "company": {
+                "title": "[AT] müştəri",
+                "choose": "[AT] müştəriləri seçin"
+            },
+            "employee": {
+                "title": "[AT] promokod yaradan işçi",
+                "choose": "[AT] işçiləri seçin"
+            },
+            "type": {
+                "title": "[AT] promokod növü",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "ANY": "[AT] Hər kəs"
+                }
+            },
+            "was_applied": {
+                "title": "[AT] tətbiq olundu",
+                "options": {
+                    "no": "[AT] yox",
+                    "yes": "[AT] Bəli"
+                }
+            },
+            "applicationDate": {
+                "title": "[AT] tətbiq Tarixi"
+            },
+            "createDate": {
+                "title": "[AT] yaradılma tarixi"
+            }
+        },
+        "dialog": {
+            "title": "[AT] promokod generatoru",
+            "fields": {
+                "reason": "[AT] verilişin əsası",
+                "customer": {
+                    "action": "[AT] müştəri seçimi",
+                    "remove_tooltip": "[AT] Sil",
+                    "popover": {
+                        "empty": "[AT]  heç nə tapılmadı",
+                        "search": "[AT] Axtarış"
+                    }
+                },
+                "count": "[AT] promo kodların sayı",
+                "type": {
+                    "title": "[AT] promokod növü",
+                    "options": {
+                        "A": "A",
+                        "B": "B"
+                    }
+                },
+                "errors": {
+                    "max_length": "[AT] maksimum uzunluq {{dəyər}}",
+                    "required": "[AT] məcburi Sahə"
+                }
+            },
+            "codes": "[AT] promokodlar:",
+            "actions": {
+                "generate": "[AT] Yarat",
+                "regenerate": "[AT] daha çox yaradın",
+                "cancel": "[AT] Ləğv et",
+                "copy": "[AT] Kopyala"
+            },
+            "snack": {
+                "success": "[AT] promokodlar uğurla yaradılıb",
+                "copy": "[AT] promo kodları clipboard (panoya) kopyalanır",
+                "error": "[AT] promokodlar yaradılmayıb. Səhifəni yenidən yükləyin və yenidən cəhd edin"
+            }
+        }
+    }
+}

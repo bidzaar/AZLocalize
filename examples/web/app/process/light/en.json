@@ -207,6 +207,10 @@
             "multiple": {
               "more": "more"
             }
+          },          
+          "custom": {
+            "true": "Yes",
+            "false": "No"
           }
         },
         "answer_dialog": {
@@ -2188,6 +2192,7 @@
         "payment": {
           "title": "Commission for the participant's victory pays",
           "free": "There is no service fee on your company's requests",
+          "code": "There is no service fee on this request (a promo code {{code}} has been applied).",
           "fee": {
             "label": "Who pays the fee",
             "notice": "After the request is published, the value cannot be changed",
@@ -2205,6 +2210,16 @@
             "change": "Change",
             "required": "A tariff is not selected",
             "archive": "The selected tariff is in the archive, please change the tariff"
+          },
+          "promo": {
+            "label": "Promo code",
+            "placeholder": "Enter promo code",
+            "hint": "Format: X-XXX–XXX",
+            "cancel": "Cancel",
+            "submit": "Apply",
+            "change": "Apply promo code",
+            "expired": "This promo code has been used",
+            "invalid": "Invalid promo code"
           }
         }
       },

@@ -23,16 +23,13 @@
     },
     "configurator": {
       "header": "Columns Customization",
+      "menu": "Select column type",
       "defaults": {
         "name": "New column"
       },
       "details": {
         "name": "Field name",
-        "type": {
-          "string": "Type: String",
-          "number": "Type: Number",
-          "datetime": "Type: Date"
-        }
+        "type": "Type:"
       },
       "actions": {
         "done": "Done",
@@ -50,6 +47,13 @@
         "text": "Delete the column",
         "cancel": "Cancel",
         "confirm": "Delete"
+      },
+      "types": {
+        "string": "Text",
+        "double": "Number",
+        "bool": "Yes / No",
+        "datetime": "Date",
+        "decimal": "Money"
       }
     },
     "positions": {

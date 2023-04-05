@@ -1,0 +1,90 @@
+{
+    "promo_codes.list": {
+        "create": "Create promo code",
+        "header": {
+            "title": "Promo codes",
+            "search": ""
+        },
+        "dates": {
+            "create": "Created: {{value}} at {{time}}",
+            "apply": "Applied: {{value}} at {{time}}",
+            "link_tooltip": "Open request"
+        },
+        "empty": {
+            "text": "Promo codes not found"
+        },
+        "sorting": {
+            "createDate": "Creation date",
+            "applicationDate": "Date of application"
+        },
+        "filters": {
+            "company": {
+                "title": "Customer",
+                "choose": "Select customers"
+            },
+            "employee": {
+                "title": "The employee who created the promo code",
+                "choose": "Select employees"
+            },
+            "type": {
+                "title": "Promo code type",
+                "options": {
+                    "A": "A",
+                    "B": "B",
+                    "ANY": "Any"
+                }
+            },
+            "was_applied": {
+                "title": "Applied",
+                "options": {
+                    "no": "No",
+                    "yes": "Yes"
+                }
+            },
+            "applicationDate": {
+                "title": "Date of application"
+            },
+            "createDate": {
+                "title": "Creation date"
+            }
+        },
+        "dialog": {
+            "title": "Promo code generator",
+            "fields": {
+                "reason": "Basis of issue",
+                "customer": {
+                    "action": "Customer's choice",
+                    "remove_tooltip": "Delete",
+                    "popover": {
+                        "empty": "Nothing found",
+                        "search": "Search"
+                    }
+                },
+                "count": "Number of promo codes",
+                "type": {
+                    "title": "Promo code type",
+                    "options": {
+                        "A": "A",
+                        "B": "B"
+                    }
+                },
+                "errors": {
+                    "max_length": "Maximum length {{value}}",
+                    "required": "Required field"
+                }
+            },
+            "codes": "Promo codes:",
+            "actions": {
+                "generate": "Generate",
+                "regenerate": "Generate more",
+                "cancel": "Cancel",
+                "copy": "Copy"
+            },
+            "snack": {
+                "success": "Promo codes successfully generated",
+                "copy": "Promo codes copied to clipboard",
+                "error": "Promo codes were not generated. Reload the page and try again"
+            }
+        }
+    }
+}

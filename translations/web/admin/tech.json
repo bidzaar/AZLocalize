@@ -17,7 +17,8 @@
             "stop_list": "web/admin: core.navigation.stop_list",
             "merge_tags": "web/admin: core.navigation.merge_tags",
             "tariffs": "web/admin: core.navigation.tariffs",
-            "categories": "web/admin: core.navigation.categories"
+            "categories": "web/admin: core.navigation.categories",
+            "promo_codes": "web/admin: core.navigation.promo_codes"
         }
     },
     "dashboard": {

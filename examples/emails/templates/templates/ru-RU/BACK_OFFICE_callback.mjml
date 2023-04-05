@@ -1,0 +1,32 @@
+<mjml>
+  <!-- 
+Тема: "Запрос на получение прав Закупки на @ConfigurationContext.ProjectName",
+Плолучатель: Email
+
+Запрос на получение прав Закупки на @ConfigurationContext.ProjectName
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Запрос на получение прав Закупки на @ConfigurationContext.ProjectName</h1>
+          <p>
+           <b>Стенд:</b>  @ConfigurationContext.BaseUrl<br />
+            <b>Компания:</b> <a href="@ConfigurationContext.BaseUrl/companies/view/@CallBackRequestPrecontext.CompanyId"> @CallBackRequestPrecontext.CompanyName</a><br />
+            <b>ID компании:</b> @CallBackRequestPrecontext.CompanyId<br />
+            <b>Пользователь:</b> @CallBackRequestPrecontext.UserName<br />
+            <b>ID пользователя:</b> @ResultTargetPrecontext.UserId<br />
+            <b>Телефон:</b> @CallBackRequestPrecontext.Phone<br />
+            <b>Имейл:</b>  @CallBackRequestPrecontext.Email</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

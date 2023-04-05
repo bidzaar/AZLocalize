@@ -13,6 +13,7 @@
   "RemindCompleteProfileNotification": "🔴 company profile on @ConfigurationContext.ProjectName",
   "ProcedureCanceled": "🔴 Request cancelled:  \"@ProcedureContext.ProcedureName\"",
   "ProcedureCanceledOrg": "🔴 Request cancelled:  \"@ProcedureContext.ProcedureName\"",
+  "PromoCodeApplied": "Cancellation of the Commission in the request",
   "NotifyProcedureFinishedWithoutOrder": "🔴 Request completed: \"@ProcedureContext.ProcedureName\"",
   "NotifyProcedureFinishedWithoutOrderOrg": "🔴 Request completed: \"@ProcedureContext.ProcedureName\"",
   "NotifyProcedureFinishedWithOrderWinner": "🔴 You win in the request: \"@ProcedureContext.ProcedureName\"",
@@ -40,7 +41,7 @@
   "ReviewCompanyNotification": "🔴 Confirm the details of the company",
   "ErrorNotification": "🔴 Something went wrong",
   "StartRoundProcedureEvent": "🔴 Records of proposals are again open: \"@ProcedureContext.ProcedureName\"",
-  "SummingUpProcedureReminderEvent": "🔴 48 hours left until submission closing: \"@ProcedureContext.ProcedureName\"",
+  "SummingUpProcedureReminderEvent": "🔴 @SummingUpProcedureReminderPrecontext.Hours hours left until submission closing: \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureEvent": "🔴 Submission closed \"@ProcedureContext.ProcedureName\"",
   "FinishRoundProcedureOrgEvent": "🔴 Submission closed: \"@ProcedureContext.ProcedureName\"",
   "SummingUpProcedureEvent": "🔴 Submission closed: \"@ProcedureContext.ProcedureName\"",
@@ -88,5 +89,7 @@
   "UnVerifiedParticipantInVerifiedOnlyEvent": "Participation in a request for proven",
   "SellerWantsToBeVerifiedCommand": "Request for checking the company",
   "SellerWantsTariffCommand": "Ordering tariff plan (landing)",
-  "CreateBuyerLeadCommand": "Request to receive the rights of the buyer"
+  "CreateBuyerLeadCommand": "Request to receive the rights of the buyer",
+  "ProposalRejected": "🔴 Your proposal rejected in request \"@ProcedureContext.ProcedureName\"",
+  "CompanyRightsChangedNotification": "Rights changed for \"@CompanyContext.CompanyName\" at \"@ConfigurationContext.ProjectName\""
 }

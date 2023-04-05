@@ -24,16 +24,13 @@
     },
     "configurator": {
       "header": "Настройка колонок",
+      "menu": "Выберите тип колонки",
       "defaults": {
         "name": "Новая колонка"
       },
       "details": {
         "name": "Наименование поля",
-        "type": {
-          "string": "Тип: Текст",
-          "number": "Тип: Число",
-          "datetime": "Тип: Дата"
-        }
+        "type": "Тип: "
       },
       "actions": {
         "done": "Готово",
@@ -51,6 +48,13 @@
         "text": "Удалить колонку",
         "cancel": "Отмена",
         "confirm": "Удалить"
+      },
+      "types": {
+        "string": "Текст",
+        "double": "Число",
+        "bool": "Да / Нет",
+        "datetime": "Дата",
+        "decimal": "Деньги"
       }
     },
     "positions": {

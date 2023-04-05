@@ -1,0 +1,61 @@
+<mjml>
+  <!-- 
+Тема: 👍 436 закупок на @ConfigurationContext.ProjectName
+Получатель: УК компании
+
+Система просит указать теги в профиле компании
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 style="font-size:120px;color:#AD1457;margin-bottom:0;font-weight:400">436</h1>
+          <p><span style="font-weight:700;color:#AD1457">Это — количество закупок на @ConfigurationContext.ProjectName за последний месяц.</span> Вас не приглашали? Скорее всего, <b>просто не нашли</b> 😢.</p>
+          <p>На @ConfigurationContext.ProjectName всё просто – опишите, чем занимается ваша компания. Используйте тэги, как на Инстаграме 🔥. Мы не используем ОКПД и сложные справочники.</p>
+          <p>Настройка тэгов в профиле компании займёт 90 секунд 🚀...</p>
+        </mj-text>
+        <mj-button background-color="#AD1457" href="@ConfigurationContext.BaseUrl">Настроить тэги</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- ->    
+    <mj-section mj-class="section-primary">
+        <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+            <mj-text mj-class="text-primary">
+              <h1>Заголовок 1</h1>
+                <p class="p75">Укажите тэги в профиле компании, это займёт меньше минуты!</p>
+            </mj-text>
+            <mj-button href="@ConfigurationContext.BaseUrl">Указать тэги</mj-button>                
+        </mj-column>
+    </mj-section>
+
+    
+    <mj-include path="./__tpl/__spacer.mjml" /> 
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- ->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Заголовок 2</h2>
+                <p>Текст</p>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /secondary -->
+    <!-- quick-start -------------------------------------------- ->
+    <mj-include path="./__tpl/__quick-start.mjml" />            
+
+      
+    <!-- help -------------------------------------------- ->
+    <mj-include path="./__tpl/__help.mjml" />        
+
+        
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

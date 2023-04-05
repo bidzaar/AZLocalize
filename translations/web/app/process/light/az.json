@@ -863,10 +863,12 @@
                 "payment": {
                     "title": "Xidmət komissiyası",
                     "free": "Sizin şirkətinizin sorğularına dair xidmət komissiyası tutulmur",
+                    "code": "There is no service fee on this request (a promo code {{code}} has been applied).",
                     "fee": {
                         "label": "Kim ödəyir",
                         "notice": "Sorğu dərc olunduqdan sonra dəyişiklik etmək mümkün olmayacaq",
                         "private": "Şirkətinizin bağlı sorğularına dair xidmət komissiyası tutulmur",
+                        "promo": "There is no service fee on this request (a promo code {{code}} has been applied).",
                         "options": {
                             "1": "Qalib təchizatçı (lar)",
                             "2": "Sifarişçi (Sizin şirkət)",
@@ -880,6 +882,16 @@
                         "change": "Tarifi dəyiş",
                         "required": "Tarif seçilməyib",
                         "archive": "Seçdiyiniz tarif arxivdədi, tarifi dəyişin"
+                    },
+                    "promo": {
+                        "label": "[AT] Promo kodu",
+                        "placeholder": "[AT] Promo kodu daxil edin",
+                        "hint": "[AT] Format: X-XXX-XXX",
+                        "cancel": "[AT] Ləğv et",
+                        "submit": "[AT] Müraciət edin",
+                        "change": "[AT] Promo kodu tətbiq edin",
+                        "expired": "[AT] Bu promo kodu istifadə edilmişdir",
+                        "invalid": "[AT] Etibarsız promo kodu"
                     }
                 }
             },
@@ -935,6 +947,10 @@
                         "multiple": {
                             "more": "daha çox"
                         }
+                    },
+                    "custom": {
+                        "true": "Bəli",
+                        "false": "Yox"
                     }
                 },
                 "answer_dialog": {

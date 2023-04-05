@@ -69,7 +69,7 @@
         "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> Цена за ед. в {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) превышает максимальную цену за ед, указанную Заказчиком ({{ StartPrice }} {{ BaseCurrency }}).",
         "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{ PositionName }}.</b> Отрицательная цена недопустима",
         "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{ PositionName }}.</b> Укажите цену меньше 99 млрд.",
-        "Process.Light.Proposal.Item.CustomField.Required": "<b>{{ PositionName }}.</b>. Значение \"{{ FieldName }}\" не заполнено",
+        "Process.Light.Proposal.Item.CustomField.Required": "<b>{{ PositionName }}.</b> Значение \"{{ FieldName }}\" не заполнено",
         "Process.Light.Proposal.Item.ReferencePrice.Reduction": "<b>{{ PositionName }}.</b> Цена за единицу должна быть снижена до {{ LowerThan }} {{BaseCurrency}} или ниже, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Цена за единицу должна быть повышена до {{ GreaterThan }} {{BaseCurrency}} или выше, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Procedure.VersionMismatch": "Заказчик изменил заявку, ваше предложение больше не актуально. Ознакомьтесь с изменениями и обновите предложение.",

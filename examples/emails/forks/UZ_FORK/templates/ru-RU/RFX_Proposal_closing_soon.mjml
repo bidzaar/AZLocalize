@@ -13,40 +13,23 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Менее 48 часов до завершения приёма предложений ⏰</h1>
-          <p>У вас осталось 48 часов, чтобы подать или улучшить свое предложение по запросу.</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- /intro -->
-    <!-- primary -------------------------------------------- -->
-    <mj-section mj-class="section-primary">
-      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
-        <mj-text mj-class="text-primary">
-          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
-        </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- /primary -->
-    <!-- secondary -------------------------------------------- -->
-    <mj-section>
-      <mj-column>
-        <mj-text>
-          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate</p>
-          <p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>
-          <p><b>Прием предложений производится исключительно на площадке @ConfigurationContext.ProjectName</b></p>
+          <h1>Завершается приём предложений</h1>
+          <p>У вас осталось немного времени, чтобы подать или улучшить свое предложение по запросу.</p>
+          <p class="mb-0">
+            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate (осталось часов: <b>@SummingUpProcedureReminderPrecontext.Hours/b>) <br />
+            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <br />
+            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery <br />
+          <p style="white-space: pre-line"><b>Описание:</b><br> @ProcedureContext.Description</p>
         </mj-text>
         <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /secondary -->  
-    <mj-include path="./__tpl/__spacer.mjml" />    
-     
+    <!-- /intro -->
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
     <!-- help -------------------------------------------- -->
-    <mj-include path="./__tpl/__help.mjml" />
     <!-- footer -------------------------------------------- -->
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->

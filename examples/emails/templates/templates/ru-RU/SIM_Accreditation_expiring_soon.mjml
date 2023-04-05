@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Тема: ⏰ Срок аккредитации истекает
+Получатель:  УК, РОЗ, сотрудники с правами Прохождение аккредитации 
+
+Срок аккредитации Участника истекает через Х дней 
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Срок аккредитации истекает!</h1>
+          <p>Аккредитация вашей компании <b>@TargetContext.CompanyName</b> истекает <b>через несколько дней</b>.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@PoolContext.PoolName</h1>
+          <p class="p75">
+            <p><b>Организатор:</b> @PoolContext.PoolOwnerCompanyName</p>
+            <p class="p75">Рекомендуем пройти аккредитацию повторно прямо сейчас.</p>
+        </mj-text>
+        <mj-button href="@PoolContext.Url">Пройти аккредитацию</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

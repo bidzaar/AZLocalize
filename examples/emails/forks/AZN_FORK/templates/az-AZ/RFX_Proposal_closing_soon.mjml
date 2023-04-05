@@ -1,10 +1,4 @@
 <mjml>
-  <!-- 
-Тема: ⏰ 48 часов до завершения приёма предложений
-Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
-
-До завершения приёма предложений осталось менее 48 часов
--->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -13,43 +7,25 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Təkliflər qəbulunun bitməsinə 48 saatdan daha az qalıb⏰</h1>
-          <p>Təklifinizi göndərmək və ya təkmilləşdirmək üçün sizin 48 saat vaxtınız qalib.</p>
+          <h1>Proposal submit term is expiring soon</h1>
+          <p>You still have some time to submit or update your proposal.</p>
+          <p class="mb-0">
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate (hours left: <b>@SummingUpProcedureReminderPrecontext.Hours</b>) <br />
+            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <br />
+            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>ВDelivery to:</b> @ProcedureContext.PlaceOfDelivery <br />
+          <p style="white-space: pre-line"><b>Description:</b><br> @ProcedureContext.Description</p>
+          </p>
         </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">View bid request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->
-    <!-- primary -------------------------------------------- -->
-    <mj-section mj-class="section-primary">
-      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
-        <mj-text mj-class="text-primary">
-          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
-        </mj-text>
-        <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- /primary -->
-    <!-- secondary -------------------------------------------- -->
-    <mj-section>
-      <mj-column>
-        <mj-text>
-          <p><b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Çatdırılma yeri:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Təkliflər qəbulunun son tarixi:</b>
-            @ProcedureContext.AcceptanceEndDate</p>
-          <p style="white-space: pre-line"><b>Təsvir:</b> @ProcedureContext.Description</p>
-          <p><b>Təkliflər qəbulu yalnız ProcureSaaS platformasında aparılır</b></p>
-        </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- /secondary -->  
-    <mj-include path="./__tpl/__spacer.mjml" />    
-     
-    <!-- help -------------------------------------------- -->
-    <mj-include path="./__tpl/__help.mjml" />
-    <!-- footer -------------------------------------------- -->
+    <!-- /secondary -->
     <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

@@ -1,0 +1,30 @@
+{
+    "promo_codes.list": {
+        "header": {
+            "title": "web/admin: promo_codes.list/header/title",
+            "search": ""
+        },
+        "empty": {
+            "text": "web/admin: promo_codes.list/empty/text"
+        },
+        "sorting": {
+            "сreateDate": "web/admin: promo_codes.list/sorting/сreateDate"
+        },
+        "filters": {
+            "company": {
+                "title": "web/admin: promo_codes.list/filters/company/title",
+                "choose": "web/admin: promo_codes.list/filters/company/choose"
+            },
+            "employee": {
+                "title": "web/admin: promo_codes.list/filters/employee/title",
+                "choose": "web/admin: promo_codes.list/filters/employee/choose"
+            },
+            "type_code": {
+                "options": {
+                    "0": "web/admin: promo_codes.list/filters/type_code/options/0",
+                    "1": "web/admin: promo_codes.list/filters/type_code/options/1"
+                }
+            }
+        }
+    }
+}

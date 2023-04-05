@@ -23,12 +23,12 @@
         },
         "configurator": {
             "header": "Sütunların fərdiləşdirilməsi",
+            "menu": "[AT] Sütun növünü seçin",
             "defaults": {
                 "name": "Yeni sütun"
             },
             "details": {
                 "name": "Sütunun adı",
-                "required": "",
                 "type": {
                     "string": "Növ: Mətn",
                     "number": "Növ: Rəqəm",
@@ -51,6 +51,13 @@
                 "text": "Sütunu silin",
                 "cancel": "Ləğv et",
                 "confirm": "Sil"
+            },
+            "types": {
+                "string": "[AT] Mətn",
+                "double": "[AT] Saymaq",
+                "bool": "[AT] Hə / Yox",
+                "datetime": "[AT] Tarix",
+                "decimal": "[AT] Pul"
             }
         },
         "positions": {
