@@ -29,11 +29,7 @@
             },
             "details": {
                 "name": "Sütunun adı",
-                "type": {
-                    "string": "Növ: Mətn",
-                    "number": "Növ: Rəqəm",
-                    "datetime": "Növ: Tarix"
-                }
+                "type": "[AT] Növ"
             },
             "actions": {
                 "done": "Bitdi",

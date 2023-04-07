@@ -29,11 +29,7 @@
             },
             "details": {
                 "name": "Field name",
-                "type": {
-                    "string": "Type: String",
-                    "number": "Type: Number",
-                    "datetime": "Type: Date"
-                }
+                "type": "Type:"
             },
             "actions": {
                 "done": "Done",

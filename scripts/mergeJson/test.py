@@ -22,7 +22,8 @@ class TestMergeJson(unittest.TestCase):
             "key10": {
                 "key101": "value104",
                 "key102": "value105"
-            }
+            },
+            "key11": "str11"
         }
         translation_data = {
             "key1": "value3",
@@ -30,7 +31,8 @@ class TestMergeJson(unittest.TestCase):
             "key3": {
                 "key4": "value14",
             },
-            "key10": "str10"
+            "key10": "str10",
+            "key11": {}
         }
         self.expected_result = {
             "key1": "value3",
@@ -42,7 +44,8 @@ class TestMergeJson(unittest.TestCase):
             "key10": {
                 "key101": "value104",
                 "key102": "value105"
-            }
+            },
+            "key11": "str11"
         }
 
         

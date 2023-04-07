@@ -11,7 +11,10 @@ def update_dict(examples, translations):
             else:
                 result[k] = v
         else:
-            result[k] = translations.get(k, v)
+            if isinstance(translations.get(k, v), dict):
+                result[k] = v
+            else:    
+                result[k] = translations.get(k, v)
     return result
 
 def merge_json(examples, translations):
