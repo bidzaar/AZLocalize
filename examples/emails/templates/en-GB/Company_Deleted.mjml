@@ -13,9 +13,9 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Ваша компания покинула @ConfigurationContext.ProjectName</h1>
+          <h1>You company has left @ConfigurationContext.ProjectName</h1>
           <p>
-            <b>Компания: </b>@CompanyContext.CompanyName<br><br> Администратор вашей компании удалил компанию с площадки @ConfigurationContext.ProjectName 😪.<br><br> Для восстановления компании обращайтесь в <a href="@ConfigurationContext.BaseUrl">техническую поддержку</a>.<br><br> Благодарим вас за сотрудничество,<br>@ConfigurationContext.ProjectName </p>
+            <b>Company: </b>@CompanyContext.CompanyName<br><br> Your company administrator has removed the company from the platform @ConfigurationContext.ProjectName 😪.<br><br> To restore the company, contact <a href="@ConfigurationContext.BaseUrl">technical support </a>.<br><br> Thanks for collaboration,<br>@ConfigurationContext.ProjectName </p>
         </mj-text>
       </mj-column>
     </mj-section>

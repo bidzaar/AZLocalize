@@ -12,24 +12,24 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Здравствуйте!</h1>
+          <h1>Hello!</h1>
           <!--<p>Это Алексей из @ConfigurationContext.ProjectName.</p>-->
-          <p style="font-size: 20px; font-weight: 600">Принято согласие с условиями и положениями дополнительного пользовательского соглашения от компании "@UserAgreementSignAddedContext.CompanyShortName"</p>
-          <p>Данные о компании:</p>
+          <p style="font-size: 20px; font-weight: 600"> User agreement of the company "@UserAgreementSignAddedContext.CompanyShortName" has been accepted. </p>
+          <p>Company details:</p>
           <ul>
-            <li class="small">Код компании на @ConfigurationContext.ProjectName: @UserAgreementSignAddedContext.CompanyBidzaarNumber</li>
-            <li class="small">Наименование компании: @UserAgreementSignAddedContext.CompanyShortName</li>
-            <li class="small">ИНН компании / ИП: @UserAgreementSignAddedContext.CompanyUniqueNumber</li>
+            <li class="small">Company Code for @ConfigurationContext.ProjectName: @UserAgreementSignAddedContext.CompanyBidzaarNumber</li>
+            <li class="small">Company Name: @UserAgreementSignAddedContext.CompanyShortName</li>
+            <li class="small">Company TIN: @UserAgreementSignAddedContext.CompanyUniqueNumber</li>
           </ul>
-          <p>Пользователь:</p>
+          <p>User:</p>
           <ul>
-            <li class="small">Имя пользователя: @UserAgreementSignAddedContext.UserLastName</li>
-            <li class="small">email: <a href='mailto:@UserAgreementSignAddedContext.EmailLogin'>@UserAgreementSignAddedContext.EmailLogin</a></li>
+            <li class="small">User Name: @UserAgreementSignAddedContext.UserLastName</li>
+            <li class="small">Email: <a href='mailto:@UserAgreementSignAddedContext.EmailLogin'>@UserAgreementSignAddedContext.EmailLogin</a></li>
           </ul>
         </mj-text>
         <mj-text>
-          <p class="small">Если данные были заполнены неверно, то ответьте на это письмо или напишите на <a href='mailto:@ConfigurationContext.SupportEmail'>@ConfigurationContext.SupportEmail</a></p>
-          <p class="small"><span class="small">Торговая площадка <a href="@ConfigurationContext.BaseUrl?utm_source=support&utm_medium=email&utm_campaign=dodo_user_agreement" style="font-weight:400">@ConfigurationContext.ProjectName</a>
+          <p class="small"> If the following information is incorrect, reply to this email or send an email to <a href='mailto:@ConfigurationContext.SupportEmail'>@ConfigurationContext.SupportEmail</a></p>
+          <p class="small"><span class="small">Trading platform <a href="@ConfigurationContext.BaseUrl?utm_source=support&utm_medium=email&utm_campaign=dodo_user_agreement" style="font-weight:400">@ConfigurationContext.ProjectName</a>
             </span></p>
         </mj-text>
       </mj-column>

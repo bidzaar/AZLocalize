@@ -13,10 +13,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Заказ тарифного плана</h1>
-          <p>Пользователь заказал тарифный план на лендинге.</p>
+          <h1>Comission structure</h1>
+          <p>User has requested comission structure on landing.</p>
 
-            <b>Заказ от:</b> @ContactPrecontext.UserName<br /> @ContactPrecontext.Phone, @ContactPrecontext.Email<br /><br />
+            <b>Request from:</b> @ContactPrecontext.UserName<br /> @ContactPrecontext.Phone, @ContactPrecontext.Email<br /><br />
           </p>
         </mj-text>
       </mj-column>

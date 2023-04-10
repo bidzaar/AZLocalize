@@ -7,10 +7,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Congratulations, you win!</b></h1>
-          <p>Requester has choosen your company @TargetContext.CompanyName as a winner in this request.</p>
+          <h1 class="bb">Congratulations, you have won a tender!</b></h1>
+          <p>The buyer has selected your company @TargetContext.CompanyName as a winner for this request.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
            @CustomMailContext.Body
         </mj-text>

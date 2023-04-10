@@ -13,10 +13,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос на получение прав закупщика</h1>
-          <p>Компания хочет размещать запросы на площадке.</p>
+          <h1> Request for vendor rights</h1>
+          <p> Company wants to issue requests on the platform.</p>
                  <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
-            <b>Контактное лицо:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail 
+            <b>Contact person:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail 
           </p>
         </mj-text>
       </mj-column>

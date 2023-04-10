@@ -19,16 +19,16 @@
       <mj-column>
         <mj-text>
           <h1 style="color: #CB0C00"><b>Invitation email has failed</b></h1>
-          <p class="mb0"><b>@CompanyContext.CompanyName</b>'s email server couldn't send invites to participants for a bid request, placed on @ConfigurationContext.ProjectName.</p>
+          <p class="mb0"><b>@CompanyContext.CompanyName</b>'s email server couldn't send invitations to vendors for a bid submission to @ConfigurationContext.ProjectName.</p>
         </mj-text>
       </mj-column>
     </mj-section>
     <mj-section mj-class="section-secondary">
       <mj-column>
         <mj-text>
-          <p>It's fine: we have sent the invitation via @ConfigurationContext.ProjectName email server.</p>
-          <p>Please check the <a href="@ConfigurationContext.BaseUrl/smtp/settings" >invitation sending settings</a> if you want your participants to get messages via your email server.</p>
-          <p>Your company's administrator has earlier configured invitation sendind via your company's email server.</p>
+          <p>All well! We have sent the invitation via @ConfigurationContext.ProjectName email server.</p>
+          <p>Please check the <a href="@ConfigurationContext.BaseUrl/smtp/settings" >invitation sending settings</a> if you want your vendors to get messages via your email server.</p>
+          <p>Your company's administrator has earlier configured invitation sending via your company's email server.</p>
         </mj-text>
         <!-- <mj-text>@PixelContext.Html</mj-text> -->
       </mj-column>

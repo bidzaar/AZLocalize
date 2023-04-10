@@ -14,7 +14,7 @@
       <mj-column>
         <mj-text>
           <h1>Request is completed</h1>
-          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Completed at:</b> @ConfigurationContext.Date<br /><b>Order price:</b> @ProcedureResultContext.OrderPrice @ProcedureContext.Currency</p>
+          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Completed on:</b> @ConfigurationContext.Date<br /><b>Bid price:</b> @ProcedureResultContext.OrderPrice @ProcedureContext.Currency</p>
           <p class="mb0"><b>Winners:</b></p>@ProcedureResultContext.Winners <br /><br /> 
         </mj-text>
       </mj-column>

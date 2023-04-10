@@ -13,11 +13,11 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>Профиль компании не завершён</h1>
-          <p class="p75"><b>Компания:</b> @CompanyContext.CompanyName</p>
-          <p class="p75">Мы заметили, что компании с заполненным профилем чаще получают предложения к сотрудничеству.</p>
+          <h1> Company profile is not completed</h1>
+          <p class="p75"><b>Company:</b> @CompanyContext.CompanyName</p>
+          <p class="p75">We noticed that companies with completed profile receive more bids from vendors.</p>
         </mj-text>
-        <mj-button href="@CompanyContext.Url">Заполнить профиль</mj-button>
+        <mj-button href="@CompanyContext.Url">Complete profile</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

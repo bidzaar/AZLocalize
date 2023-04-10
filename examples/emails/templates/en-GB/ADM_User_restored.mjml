@@ -13,10 +13,10 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@TargetContext.FirstName, ваши полномочия восстановлены </h1>
-          <p class="p75">Ваша деятельность в качестве сотрудника <b>@CompanyContext.CompanyName</b> на @ConfigurationContext.ProjectName возобновлена :)</p>
+          <h1>@TargetContext.FirstName, you rights are refreshed </h1>
+          <p class="p75">Now you are a memeber of the team <b>@CompanyContext.CompanyName</b> of @ConfigurationContext.ProjectName again :)</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl">Продолжить работу на @ConfigurationContext.ProjectName</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl">Continue working for @ConfigurationContext.ProjectName</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

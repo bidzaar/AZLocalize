@@ -13,15 +13,15 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос на получение прав Закупки на @ConfigurationContext.ProjectName</h1>
+          <h1>Requesting rights for @ConfigurationContext.ProjectName</h1>
           <p>
-           <b>Стенд:</b>  @ConfigurationContext.BaseUrl<br />
-            <b>Компания:</b> <a href="@ConfigurationContext.BaseUrl/companies/view/@CallBackRequestPrecontext.CompanyId"> @CallBackRequestPrecontext.CompanyName</a><br />
-            <b>ID компании:</b> @CallBackRequestPrecontext.CompanyId<br />
-            <b>Пользователь:</b> @CallBackRequestPrecontext.UserName<br />
-            <b>ID пользователя:</b> @ResultTargetPrecontext.UserId<br />
-            <b>Телефон:</b> @CallBackRequestPrecontext.Phone<br />
-            <b>Имейл:</b>  @CallBackRequestPrecontext.Email</p>
+           <b></b>  @ConfigurationContext.BaseUrl<br />
+            <b>Company:</b> <a href="@ConfigurationContext.BaseUrl/companies/view/@CallBackRequestPrecontext.CompanyId"> @CallBackRequestPrecontext.CompanyName</a><br />
+            <b>Company ID:</b> @CallBackRequestPrecontext.CompanyId<br />
+            <b>User:</b> @CallBackRequestPrecontext.UserName<br />
+            <b>User ID:</b> @ResultTargetPrecontext.UserId<br />
+            <b>Phone:</b> @CallBackRequestPrecontext.Phone<br />
+            <b>Email:</b>  @CallBackRequestPrecontext.Email</p>
         </mj-text>
       </mj-column>
     </mj-section>

@@ -7,11 +7,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Service Comission cancelled</h1>
-          <p>A requester cancelled Service Comission for a request. A winner had already received an invoice.</p>
+          <h1>Service Comission was cancelled</h1>
+          <p>The buyer has cancelled Service Comission for a request. A winner had already received an invoice.</p>
           <p class="mb-0">
             <b>Request:</b> @ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
         </mj-text>
         <mj-button href="@ProcedureContext.AdminUrl">View request</mj-button>

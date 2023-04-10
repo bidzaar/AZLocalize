@@ -8,9 +8,9 @@
         <mj-image align="left" css-class="brand_logo" alt="Logo" src="@ProcedureContext.ProcedureOwnerCompanyLogoUrl"></mj-image>
         <mj-text>
           <h1 class="bb">Invitation to request</b></h1>
-          <p>@ProcedureContext.ProcedureOwnerCompanyName invites your company to participate in their request.</p>
+          <p>@ProcedureContext.ProcedureOwnerCompanyName invites your company to submit bids to their request.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName</b>
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName</b>
           </p>
           @CustomMailContext.Body
           <p>

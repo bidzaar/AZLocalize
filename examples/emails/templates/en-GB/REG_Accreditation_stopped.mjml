@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Ваша компания исключена из реестра</h1>         
-          <p>Владелец реестра исключил <b>@CompanyContext.CompanyName</b> из реестра <b>"@RegistryContext.Name"</b> отменена.</p>
+          <h1>Your company is rejected </h1>         
+          <p>The owner of vendor pool rejected <b>@CompanyContext.CompanyName</b>  <b> from the vendor pool "@RegistryContext.Name"</b>.</p>
 
-          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br /><b>Причина:</b> @ReasonPrecontext.Reason</p>
-          <a href="@RegistryContext.Url">Перейти к реестру</a>
+          <p><b> The owner of the vendor pool:</b> @RegistryContext.OwnerCompanyName<br /><b>Reason:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url">View the vendor pool</a>
         </mj-text>
       </mj-column>
     </mj-section>

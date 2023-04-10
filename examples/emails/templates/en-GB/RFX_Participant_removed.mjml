@@ -13,10 +13,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>⛔ Заказчик приостановил ваше участие в запросе</h1>
-          <p><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
-          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName</p>
-          <p>Есть вопросы? Свяжитесь с заказчиком в чате запроса.</p>
+          <h1>⛔ Buyer has suspended your participation</h1>
+          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName</p>
+          <p>Do you have any questions? Contact the buyer in the chat.</p>
         </mj-text>
       </mj-column>
     </mj-section>

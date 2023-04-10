@@ -13,12 +13,12 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Изменение адреса эл. почты</h1>
-          <p class="mb0">Подтвердите изменение адреса эл. почты на <b>@ChangeEmailPrecontext.NewEmail</b>.</p><p>Указанная почта будет использоваться для входа на @ConfigurationContext.ProjectName и получения уведомлений.</p>
+          <h1>Changing email address</h1>
+          <p class="mb0">Confirm changes with <b>@ChangeEmailPrecontext.NewEmail</b>.</p><p>This email will be used to get access to @ConfigurationContext.ProjectName and receive notifications.</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl/login/confirm-changing?@ChangeEmailPrecontext.UrlParams">Подтвердить изменение почты</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl/login/confirm-changing?@ChangeEmailPrecontext.UrlParams">Confirm email</mj-button>
         <mj-text>          
-          <p class="small">Если Вы не регистрировались на @ConfigurationContext.ProjectName и считаете, что получили это письмо по ошибке, просто игнорируйте это письмо!</p>
+          <p class="small">If you did not register for @ConfigurationContext.ProjectName and received this email by mistake, ignore this email!</p>
         </mj-text>
       </mj-column>
     </mj-section>

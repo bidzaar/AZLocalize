@@ -13,8 +13,8 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Новый запрос вашей компании</h1>
-          <p>Ваша компания разместила новый запрос. Вам доступны сведения о ходе запроса в соответствии с вашими правами в команде запроса.</p>
+          <h1>New request of your company</h1>
+          <p>Your company has submitted a new request. You have access to information about the request's status based on your permissions from your team.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -25,20 +25,20 @@
         <mj-text mj-class="text-primary">
           <h1 class="p75">@ProcedureContext.ProcedureName</h1>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- secondary -------------------------------------------- -->
     <mj-section>
       <mj-column>
         <mj-text>
-         <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
-            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a></p>
-          <p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>
+         <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token"> Download request notice</a></p>
+          <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /secondary -->

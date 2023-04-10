@@ -13,13 +13,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Поставщик отказался от участия</h1>
-          <p>Поставщик отказался от участия в вашем запросе:<br/> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
-          <p><b>Поставщик:</b> @CompanyContext.CompanyName<br/>
-            <b>Отказался:</b> @ConfigurationContext.Date</p>
-          <p>Есть вопросы? Свяжитесь с участником в чате запроса.</p>
+          <h1>Vendor has rejected the request</h1>
+          <p>Vendor has rejected the request:<br/> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></p>
+          <p><b>Vendor:</b> @CompanyContext.CompanyName<br/>
+            <b>Rejected on:</b> @ConfigurationContext.Date</p>
+          <p>Do you have any questions? Contact the vendor in the chat.</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url"> View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

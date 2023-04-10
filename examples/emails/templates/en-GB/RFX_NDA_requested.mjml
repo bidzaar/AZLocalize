@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h1>Pre-qualification documents submitted</h1>
-          <h2>Company @CompanyContext.CompanyName has submitted pre-qualification documents and is waiting for your decision</h2>
+          <h1>Prequalification documents were submitted</h1>
+          <h2>Company @CompanyContext.CompanyName has submitted prequalification documents (NDA) and now waiting for your decision</h2>
           <p>
-            <b>Bid request:</b> @ProcedureContext.ProcedureName  <br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Request:</b> @ProcedureContext.ProcedureName  <br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate</p>         
         </mj-text>
         <mj-button href="@ProcedureContext.UrlParticipants">View documents</mj-button>

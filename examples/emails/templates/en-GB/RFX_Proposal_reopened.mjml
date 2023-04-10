@@ -13,8 +13,8 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Приём предложений снова открыт! 🔔</h1>
-          <p>Вы можете улучшить свое предложение по запросу:</p>
+          <h1>Bids submission is up again! 🔔</h1>
+          <p>You can update your bid for this request:</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -25,7 +25,7 @@
         <mj-text mj-class="text-primary">
           <h1 class="p75">@ProcedureContext.ProcedureName</h1>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /primary -->
@@ -33,13 +33,13 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate</p>
-          <p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>
-          <p><b>Прием предложений производится исключительно на площадке @ConfigurationContext.ProjectName</b></p>
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate</p>
+          <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
+          <p><b> Bids for @ConfigurationContext.ProjectName  are accepted on the platform only.</b></p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /secondary -->    

@@ -13,14 +13,14 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h1>Pre-qualification request approved</h1>
-          <h2>@TargetContext.CompanyName's pre-qualification request was approved. Please prepare and submit a proposal.</h2>
+          <h1>Prequalification request was approved</h1>
+          <h2>@TargetContext.CompanyName's prequalification request was approved. Please prepare and submit a bid.</h2>
           <p>
-            <b>Bid request:</b> @ProcedureContext.ProcedureName <br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Request:</b> @ProcedureContext.ProcedureName <br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate </p>
         </mj-text>
-        <mj-button href="@ProcedureContext.UrlProposal">View bid request</mj-button>
+        <mj-button href="@ProcedureContext.UrlProposal">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /primary -->

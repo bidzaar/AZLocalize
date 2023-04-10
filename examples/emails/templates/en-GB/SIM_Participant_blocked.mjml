@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Аккредитация приостановлена</h1>
-          <p>Аккредитация вашей компании <b>@TargetContext.CompanyName</b> в пуле поставщиков приостановлена.</p>
-          <p class="mb0"><b>Пул поставщиков:</b> @PoolContext.PoolName</p>
-          <p><b>Организатор:</b>@PoolContext.PoolOwnerCompanyName</p>
-          <p>Есть вопросы? Свяжитесь с организатором, контакты – в профиле компании на <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.ProjectName</a>.</p>
+          <h1>Accreditation is suspended</h1>
+          <p>Your company's accreditation <b>@TargetContext.CompanyName</b> in the vendor pool is suspended.</p>
+          <p class="mb0"><b>Vendor pool:</b> @PoolContext.PoolName</p>
+          <p><b>Company:</b>@PoolContext.PoolOwnerCompanyName</p>
+          <p>Any questions? Contact the company, contact details for <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.ProjectName</a> in the company's profile.</p>
         </mj-text>
       </mj-column>
     </mj-section>

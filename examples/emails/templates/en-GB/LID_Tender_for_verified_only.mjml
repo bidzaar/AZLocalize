@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Участие в запросе для проверенных</h1>
-          <p>Непроверенный поставщик принял участие в запросе только для проверенных. Нужно предложить тариф.</p>
+          <h1> Bids submission for verified vendors</h1>
+          <p> Unverified vendor  has submitted bids to the request applied for verified vendors. Comission should be defined.</p>
              <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
-            <b>Контактное лицо:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /><br />
-            <b>Запрос: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /> 
+            <b>Contact person:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /><br />
+            <b>Request: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /> 
           </p>
         </mj-text>
       </mj-column>

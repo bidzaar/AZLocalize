@@ -13,10 +13,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Регистрация компании</h1>
+          <h1>Company sign-up</h1>
            <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
-            <b>Администратор компании:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /> 
-          <b>Роль:</b> @CompanyTypePrecontext.CompanyTypeString <br /><br />
+            <b>Company administrator:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /> 
+          <b>Role:</b> @CompanyTypePrecontext.CompanyTypeString <br /><br />
           </p>
         </mj-text>
       </mj-column>

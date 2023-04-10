@@ -13,10 +13,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос на проверку компании</h1>
-          <p>Запрос на получение статуса "Проверенная компания" от:</p>
+          <h1> Request for company verification</h1>
+          <p>Request for status "Verified company" from:</p>
                            <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
-            <b>Контактное лицо:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail 
+            <b>Contact person:</fb> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail 
           </p>
         </mj-text>
       </mj-column>

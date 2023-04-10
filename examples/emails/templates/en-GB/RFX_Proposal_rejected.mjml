@@ -13,8 +13,8 @@
     <mj-section css-class="intro" background-color="#FAE7E6">
       <mj-column>
         <mj-text>
-          <h1 style="color:#CB0C00">Your proposal was rejected</h1>
-          <h3>The requester has changed the requast significantly. Please review the changes and update your proposal</h3>
+          <h1 style="color:#CB0C00">Your bid was rejected</h1>
+          <h3>The buyer has changed the request significantly. Please review the changes and update your bid</h3>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -24,10 +24,10 @@
       <mj-column>
         <mj-text>
           <h2><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></h2>
-          <p><b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate</p>          
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.UrlProposal">Update proposal</mj-button>
+        <mj-button align="center" href="@ProcedureContext.UrlProposal">Update bid</mj-button>
       </mj-column>
     </mj-section>
     <!-- /secondary -->

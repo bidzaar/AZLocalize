@@ -7,13 +7,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="color:#CB0C00" class="bb">Requester has rejected your proposal</h1>
+          <h1 style="color:#CB0C00" class="bb">Buyer has rejected your bid</h1>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Rejected proposal:</b> @EmailPrecontext.Subject
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Rejected bid:</b> @EmailPrecontext.Subject
           </p>
           <div>
-            <p class="owner_msg_label"><b>Requester's message:</b></p>
+            <p class="owner_msg_label"><b>Buyer's message:</b></p>
             <p class="owner_msg_text">@EmailPrecontext.Message</p>
           </div>
         </mj-text>

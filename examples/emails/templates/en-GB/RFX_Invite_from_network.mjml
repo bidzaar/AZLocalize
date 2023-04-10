@@ -8,9 +8,9 @@
       <mj-column>
         <mj-text>
           <h1 class="bb">Invitation to request</b></h1>
-          <p>Your company @TargetContext.CompanyName was invited to participate in a request.</p>
+          <p>Your company @TargetContext.CompanyName was invited to submit bids to the  request.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
           @CustomMailContext.Body
           <p class="mb-0">
@@ -22,7 +22,7 @@
         </mj-text>
         <mj-button href="@ProcedureContext.Url">View request</mj-button>
         <mj-text>
-          <p class="small mb-0">Please submit your proposals at @ConfigurationContext.ProjectName platform only.</p>
+          <p class="small mb-0">Please submit your bid to @ConfigurationContext.ProjectName platform only.</p>
         </mj-text>
       </mj-column>
     </mj-section>

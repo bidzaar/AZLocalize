@@ -14,10 +14,10 @@ Registration.mjml
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>Приветствуем на <b>@ConfigurationContext.ProjectName!</b></h1>
-          <p class="p75">На @ConfigurationContext.ProjectName вы можете размещать заказы или выступать в качестве поставщика.</p>
+          <h1>Welcome to <b>@ConfigurationContext.ProjectName!</b></h1>
+          <p class="p75">With @ConfigurationContext.ProjectName you can submit requests and bids as a vendor.</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl">Начать работу на @ConfigurationContext.ProjectName</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl"> Start working with @ConfigurationContext.ProjectName</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

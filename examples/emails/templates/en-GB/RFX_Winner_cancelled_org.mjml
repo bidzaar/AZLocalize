@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column padding-bottom="24px">
         <mj-text>
-          <h1>Пересмотр итогов запроса</h1>
-          <p>Ранее запрос <b>@ProcedureContext.ProcedureOwnerCompanyName</b> был завершён с выбором победителя.</p>
-          <p class="mb0">Владелец вернул запрос на повторное подведение итогов. Причина: @ReasonPrecontext.Reason</p>
+          <h1>The buyer is finalizing tender results again </h1>
+          <p>The request <b>@ProcedureContext.ProcedureOwnerCompanyName</b> has previously been closed with a winner.</p>
+          <p class="mb0"> Now the buyer will review the bids again. Reason: @ReasonPrecontext.Reason</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Открыть запрос</mj-button>
+        <mj-button href="@ProcedureContext.Url"> View request </mj-button>
         
       </mj-column>
     </mj-section>
