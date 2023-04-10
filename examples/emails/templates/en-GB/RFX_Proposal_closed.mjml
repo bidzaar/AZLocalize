@@ -13,12 +13,12 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Proposal submission is closed</h1>
+          <h1>Bid submission is now closed</h1>
           <p>
             <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
-          <p>You can still upload or update your final offer or other documents in the "Commercial bid and documentation" section of <a href="@ProcedureContext.UrlProposal">your proposal</a>. </p>
+          <p>You can still update your final bid or upload documents in the section for quotation submission <a href="@ProcedureContext.UrlProposal"> of your bid</a>. </p>
         </mj-text>
       </mj-column>
     </mj-section>

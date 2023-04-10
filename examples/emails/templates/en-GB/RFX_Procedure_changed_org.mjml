@@ -13,8 +13,8 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Ваш запрос изменен</h1> 
-          <p>Член команды запроса опубликовал изменения. Ознакомьтесь с изменениями.          
+          <h1>You request has been changed</h1> 
+          <p> One of your team members has changed a request. View changes.          
           </p>
         </mj-text>
       </mj-column>
@@ -26,12 +26,12 @@
       <mj-column>
         <mj-text>
           <h2><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></h2>
-          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
-            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
-          <span style="white-space: pre-line"><b>Изменения в запросе:</b><br/>            @ProcedureVersionContext.ChangeLog</span></p>
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Bids submission:</b> due @ProcedureContext.AcceptanceEndDate<br />
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a><br />
+          <span style="white-space: pre-line"><b>Request changes:</b><br/>            @ProcedureVersionContext.ChangeLog</span></p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /secondary -->

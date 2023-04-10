@@ -13,9 +13,9 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@CompanyContext.CompanyName приглашает вас на @ConfigurationContext.ProjectName</h1>
+          <h1>@CompanyContext.CompanyName invites you to @ConfigurationContext.ProjectName</h1>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl@ActionUrlPrecontext.Url">Присоединиться к компании</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl@ActionUrlPrecontext.Url">Join the company </mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>@RegistryContext.OwnerCompanyName приглашает к сотрудничеству</h1>         
-          <p>Приглашаем <b>@CompanyContext.CompanyName</b> пройти аккредитацию в реестре:</p>
+          <h1>@RegistryContext.OwnerCompanyName suggests collaboration</h1>         
+          <p> We invite <b>@CompanyContext.CompanyName</b> to onboarding in the vendor pool:</p>
           <h2>@RegistryContext.Name</h2>
         </mj-text>
-        <mj-button href="@RegistryContext.Url">Ознакомиться с приглашением</mj-button>
+        <mj-button href="@RegistryContext.Url"> View invitation</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

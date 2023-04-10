@@ -13,13 +13,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Новая заявка на аккредитацию в реестре "@RegistryContext.Name"</h1>         
+          <h1>New application for onboarding in the vendor pool "@RegistryContext.Name"</h1>         
           
 
-          <p><b>Заявитель:</b> @CompanyContext.CompanyName<br />
-            <b>Заявка подана:</b> @ConfigurationContext.Date</p>          
+          <p><b>Company:</b> @CompanyContext.CompanyName<br />
+            <b>Application date:</b> @ConfigurationContext.Date</p>          
         </mj-text>
-         <mj-button href="@RegistryContext.Url">Обработать заявку</mj-button>        
+         <mj-button href="@RegistryContext.Url">View application</mj-button>        
       </mj-column>
     </mj-section>
     <!-- footer -------------------------------------------- -->

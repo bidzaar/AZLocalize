@@ -14,8 +14,8 @@
       <mj-column>
         <mj-text>
           <p>@ProcedureContext.ProcedureNumber</p>
-          <p>Организатор: @ProcedureContext.ProcedureOwnerCompanyName</p>
-          <p>Приём	 предложений: до @ProcedureContext.AcceptanceEndDate</p>
+          <p>Buyer: @ProcedureContext.ProcedureOwnerCompanyName</p>
+          <p>Due date: @ProcedureContext.AcceptanceEndDate</p>
         </mj-text>
       </mj-column>
     </mj-section>

@@ -12,15 +12,15 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>Новые запросы на @ConfigurationContext.Date</h1> для <b>@CompanyContext.CompanyName</b>
+          <h1>New requests on @ConfigurationContext.Date</h1> for <b>@CompanyContext.CompanyName</b>
         </mj-text>
       </mj-column>
     </mj-section>
 <mj-section mj-class="section-hint">
       <mj-column>
         <mj-text>
-          <p class="small">Мы рекомендуем эти запросы потому, что теги в профиле вашей компании совпали с тегами запросов.</p>        
-            <div class="small">Запросы не релевантны? <a href="@CompanyContext.Url">Уточните теги компании</a> или <a  href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">откажитесь от подписки</a> на дайджест запросов за сутки.</div></mj-text>
+          <p class="small">We recommend these requests because the tags in your company profile match the tags of the requests.</p>        
+            <div class="small">Are the requests irrelevant? <a href="@CompanyContext.Url">Define company tags</a> or <a  href="@ConfigurationContext.BaseUrl/unsubscribe/@TokenContext.Token/@ResultTargetPrecontext.Email">cancel the subscription</a> of daily requests' digest.</div></mj-text>
       </mj-column>
     </mj-section>
     

@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Заявка отклонена</h1>         
-          <p>Заявка от <b>@CompanyContext.CompanyName</b> на аккредитацию в реестре <b>"@RegistryContext.Name"</b> отклонена.</p>
+          <h1>Application for onboarding is rejected</h1>         
+          <p>Application of <b>@CompanyContext.CompanyName</b> for onboarding in the vendor pool  <b>"@RegistryContext.Name"</b> is rejected.</p>
 
-          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br /><b>Причина отклонения:</b> @ReasonPrecontext.Reason</p>
-          <a href="@RegistryContext.Url">Перейти к реестру</a>
+          <p><b>The owner of the vendor pool:</b> @RegistryContext.OwnerCompanyName<br /><b> Rejection reason:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url">View the vendor pool</a>
         </mj-text>
       </mj-column>
     </mj-section>

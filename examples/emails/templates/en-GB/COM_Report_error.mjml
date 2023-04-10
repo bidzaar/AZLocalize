@@ -15,8 +15,8 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Ранее вы запрашивали @ReportContext.TypeName</h1>
-          <p>При формировании архива произошла ошибка. Повторите действие или обратитесь в техподдержку. </p>
+          <h1>Earlier you requested @ReportContext.TypeName</h1>
+          <p>An error occurred during archive generation. Redo the action or contact technical support. </p>
         </mj-text>
       </mj-column>
     </mj-section>

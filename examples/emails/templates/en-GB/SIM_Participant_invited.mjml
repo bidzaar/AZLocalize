@@ -13,9 +13,9 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Приглашение в пул</h1>
+          <h1>Invitation to the vendor pool</h1>
           <p>
-            <p>Приглашаем вашу компанию <b>@TargetContext.CompanyName</b> пройти аккредитацию в пуле поставщиков.</p>
+            <p>We invite your company <b>@TargetContext.CompanyName</b> to our vendor pool.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -26,9 +26,9 @@
         <mj-text mj-class="text-primary">
           <h1>@PoolContext.PoolName</h1>
           <p class="p75">
-            <p><b>Организатор:</b> @PoolContext.PoolOwnerCompanyName</p>
+            <p><b>Company:</b> @PoolContext.PoolOwnerCompanyName</p>
         </mj-text>
-        <mj-button href="@PoolContext.Url">Перейти к пулу поставщиков</mj-button>
+        <mj-button href="@PoolContext.Url">View vendor pool</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

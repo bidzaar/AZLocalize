@@ -13,11 +13,11 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@UserContext.FirstName @UserContext.LastName хочет присоединиться к <b>@CompanyContext.CompanyName</b></h1>
-          <p class="p75">Подтвердите или отклоните заявку сотрудника.</p>
+          <h1>@UserContext.FirstName @UserContext.LastName wants to join <b>@CompanyContext.CompanyName</b></h1>
+          <p class="p75">Accept or reject the request.</p>
         </mj-text>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl/users">Обработать заявку</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl/users">See request</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

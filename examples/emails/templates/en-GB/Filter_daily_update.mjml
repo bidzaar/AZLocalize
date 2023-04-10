@@ -13,7 +13,7 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1 class="p75">Новые запросы по фильтру "@SubscriptionPrecontext.Name"</h1> 
+          <h1 class="p75">New requests with the filter "@SubscriptionPrecontext.Name"</h1> 
         </mj-text>
       </mj-column>
     </mj-section>
@@ -27,7 +27,7 @@
     <mj-section mj-class="section-hint">
       <mj-column>
         <mj-text>
-          <div class="small"><a href="@ConfigurationContext.BaseUrl/procedures/public">Изменить</a> настройки подписок на фильтры.</div>
+          <div class="small"><a href="@ConfigurationContext.BaseUrl/procedures/public">Change</a> subscription settings for filters.</div>
         </mj-text>
       </mj-column>
     </mj-section>

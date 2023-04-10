@@ -13,15 +13,15 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h1 style="color: #CB0C00">Pre-qualification request rejected</h1>
-          <h2>@TargetContext.CompanyName's pre-qualification request was rejected</h2>
+          <h1 style="color: #CB0C00">Prequalification request was rejected</h1>
+          <h2>@TargetContext.CompanyName's prequalification request was rejected</h2>
           <p>
-            <b>Bid request:</b> @ProcedureContext.ProcedureName <br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Request:</b> @ProcedureContext.ProcedureName <br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate </p>
-          <p>The reason for the rejection is specified in the bid request chat. Please update your pre-qualification application and send it again.</p>
+          <p>The reason for the rejection is specified in the chat for this request. Please update your prequalification application and send it again.</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">View bid request</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /primary -->

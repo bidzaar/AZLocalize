@@ -13,8 +13,8 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-wtf" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@TargetContext.FirstName, вас удалили из компании</h1>
-          <p class="p75">Ваша деятельность в качестве сотрудника <b>@CompanyContext.CompanyName</b> на @ConfigurationContext.ProjectName приостановлена :(</p>
+          <h1>@TargetContext.FirstName, you were deleted from your company </h1>
+          <p class="p75">You are no longer a member of the team <b>@CompanyContext.CompanyName</b> of  @ConfigurationContext.ProjectName :(</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -24,7 +24,7 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p>Если это произошло по ошибке, обратитесь к администратору компании.</p>
+          <p>If there was a mistake, contact administrator.</p>
         </mj-text>
       </mj-column>
     </mj-section>

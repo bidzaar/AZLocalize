@@ -13,8 +13,8 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-wtf" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@TargetContext.FirstName, ваша заявка отклонена :(</h1>
-          <p class="p75">Ваша заявка на присоединение к <b>@CompanyContext.CompanyName</b> отклонена.</p>
+          <h1>@TargetContext.FirstName, your application is rejected :(</h1>
+          <p class="p75"> Your application to join <b>@CompanyContext.CompanyName</b> is rejected.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -24,7 +24,7 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p>Если это произошло по ошибке, обратитесь к администратору компании.</p>
+          <p>If there was a mistake, contact administrator.</p>
         </mj-text>
       </mj-column>
     </mj-section>

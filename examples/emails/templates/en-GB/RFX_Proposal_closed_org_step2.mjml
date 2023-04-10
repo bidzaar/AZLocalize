@@ -13,14 +13,14 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Подведите итоги и завершите запрос</h1>
-          <p><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Подведение итогов:</b> с @ProcedureContext.AcceptanceEndDate</p>
+          <h1>Finalize the request and select a winner</h1>
+          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>End of bids submission:</b> from @ProcedureContext.AcceptanceEndDate</p>
           <div style="padding: 16px; background: #FFE0EE; border-radius:4px">
-            <p class="mb05 mt0" style="color:#AD1457;"><b>Почему важно завершить запрос?</b></p>
+            <p class="mb05 mt0" style="color:#AD1457;"><b>Why is it important to close a request? </b></p>
             <ul class="small">
-              <li>Повышается риск срыва договора из-за долгого срока подведения итогов</li>
-              <li>Ценовые предложения поставщиков могут потерять актуальность</li>
-              <li>Деловой рейтинг вашей компании снижается</li>
+              <li>Increases the risk of contract disruption due to the long time required to finalize the results </li>
+              <li>Vendor bid prices may become irrelevant</li>
+              <li>Your company's business ranking may decline</li>
             </ul>
           </div>
         </mj-text>
@@ -30,14 +30,14 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p class="mb05"><b>Ваши следующие шаги</b></p>
+          <p class="mb05"><b>Your next steps</b></p>
           <ol>
-            <li>Оповестите поставщиков в чате о ходе рассмотрения <a href="@ProcedureContext.UrlProposal">поданных предложений</a></li>
-            <li><a href="@ProcedureContext.UrlConclusion">Посмотрите достигнутую экономию</a></li>
-            <li>Завершите запрос с выбором или без выбора победителя</li>
+            <li>Notify vendors about the status <a href="@ProcedureContext.UrlProposal"> of submitted bids </a></li>
+            <li><a href="@ProcedureContext.UrlConclusion">See how much money you saved!</a></li>
+            <li>Complete the request with or without selecting a winner</li>
           </ol>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
         <mj-text>
           <br />
         </mj-text>

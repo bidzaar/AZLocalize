@@ -13,12 +13,12 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Предложений по запросу пока не подано</h1>
-          <p>Приём предложений скоро будет завершён. В запрос не подано предложений. </p>
-          <p><b>Запрос: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate</p>
+          <h1> No bids has been submitted yet </h1>
+          <p> Bids submission will end soon. There are no bids yet. </p>
+          <p><b>Request: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Bids submission:</b> due @ProcedureContext.AcceptanceEndDate</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

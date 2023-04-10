@@ -7,10 +7,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Request completed</b></h1>
-          <p>Requester didn't choose your company this time.</p>
+          <h1 class="bb">Request is completed</b></h1>
+          <p>Buyer did not select your company this time.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
          @CustomMailContext.Body
         </mj-text>

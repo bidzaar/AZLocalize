@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>          
-          <p>Приглашаем <b>@TargetContext.CompanyName</b> принять участие в запросе.</p>
+          <p>We invite <b>@TargetContext.CompanyName</b> to submit bids to the request.</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -24,7 +24,7 @@
         <mj-text mj-class="text-primary">
           <h1 class="p75">@ProcedureContext.ProcedureName</h1>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Ознакомиться с запросом</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /primary -->
@@ -32,14 +32,14 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
-            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a></p>
-          <p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>
-          <p><b>Прием предложений производится исключительно на площадке @ConfigurationContext.ProjectName</b></p>
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Bids submission:</b> due @ProcedureContext.AcceptanceEndDate<br />
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a></p>
+          <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
+          <p><b> Bids for  @ConfigurationContext.ProjectName are accepted only on the platform. </b></p> 
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Ознакомиться с запросом</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /secondary -->    

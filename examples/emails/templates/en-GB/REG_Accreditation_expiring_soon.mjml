@@ -13,14 +13,14 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Срок аккредитации скоро истекает</h1>         
-          <p>Аккредитация <b>@CompanyContext.CompanyName</b> в реестре <b>"@RegistryContext.Name"</b> скоро истекает.</p>
+          <h1> Accrediation will soon expire</h1>         
+          <p>Accreditation <b>@CompanyContext.CompanyName</b> in <b>"@RegistryContext.Name"</b> will soon expire.</p>
 
-          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br />
-            <b>Срок аккредитации: </b> @RegistryParticipantContext.AccreditationEndDate </p>
-          <p>Подайте заявку для продления аккредитации в реестре.</p>
+          <p><b>Owner of vendor pool:</b> @RegistryContext.OwnerCompanyName<br />
+            <b>Accreditation due date: </b> @RegistryParticipantContext.AccreditationEndDate </p>
+          <p> Apply for onboarding extension in a vendor pool.</p>
         </mj-text>
-         <mj-button href="@ProcedureContext.Url">Продлить аккредитацию</mj-button>
+         <mj-button href="@ProcedureContext.Url"> Extend onboarding</mj-button>
         
       </mj-column>
     </mj-section>

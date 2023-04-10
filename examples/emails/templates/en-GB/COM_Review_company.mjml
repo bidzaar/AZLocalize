@@ -13,13 +13,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Подтвердите реквизиты компании</h1>          
+          <h1>Confim company details</h1>          
           <p>
-            <b>Компания:</b> @CompanyContext.CompanyName<br />
-            <b>Дата изменения:</b> @ConfigurationContext.Date
+            <b>Company:</b> @CompanyContext.CompanyName<br />
+            <b>Data of change:</b> @ConfigurationContext.Date
           </p>
         </mj-text>
-        <mj-button href="@CompanyContext.Url">Перейти в профиль компании</mj-button>
+        <mj-button href="@CompanyContext.Url">View company profile</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

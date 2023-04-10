@@ -13,12 +13,12 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Поздравляем!</h1>
-          <p>Компания <b>@CompanyContext.CompanyName</b> получила аккредитацию в реестре <b>"@RegistryContext.Name"</b>.</p>
+          <h1>Congratulations!</h1>
+          <p>The company <b>@CompanyContext.CompanyName</b> was onboarded in the vendor pool <b>"@RegistryContext.Name"</b>.</p>
           <p>
-            <b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br />
+            <b>The owner of the vendor pool:</b> @RegistryContext.OwnerCompanyName<br />
             <!--<b>Срок аккредитации: </b> до @RegistryParticipantContext.AccreditationEndDate --></p>
-          <a href="@RegistryContext.Url">Перейти к реестру</a>
+          <a href="@RegistryContext.Url">View the vendor pool</a>
         </mj-text>
       </mj-column>
     </mj-section>

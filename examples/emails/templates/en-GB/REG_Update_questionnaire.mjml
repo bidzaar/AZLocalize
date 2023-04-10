@@ -13,13 +13,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос на обновление данных</h1>         
-          <p>Владелец реестра запросил обновление данных заявки <b>@CompanyContext.CompanyName</b> в реестре <b>"@RegistryContext.Name"</b>.</p>
+          <h1> Request for information update </h1>         
+          <p> The owner of the vendor pool has requested data update of the application <b>@CompanyContext.CompanyName</b> in the vendor pool <b>"@RegistryContext.Name"</b>.</p>
 
-          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName</p>          
-          <p>Для обновления данных заполните и отправьте заявку в реестр.</p>          
+          <p><b>The owner of the vendor pool:</b> @RegistryContext.OwnerCompanyName</p>          
+          <p> Fiil out application and send it to update data.</p>          
         </mj-text>
-         <mj-button href="@RegistryContext.Url">Обновить данные</mj-button>
+         <mj-button href="@RegistryContext.Url"> Update application</mj-button>
         
       </mj-column>
     </mj-section>

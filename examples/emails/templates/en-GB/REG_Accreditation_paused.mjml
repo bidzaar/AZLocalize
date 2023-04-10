@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Аккредитация приостановлена</h1>         
-          <p>Аккредитация <b>@CompanyContext.CompanyName</b> в реестре <b>"@RegistryContext.Name"</b> приостановлена.</p>
+          <h1> Accreditation is postponed</h1>         
+          <p>Accreditation <b>@CompanyContext.CompanyName</b> in <b>"@RegistryContext.Name"</b> is postponed.</p>
 
-          <p><b>Владелец реестра:</b> @RegistryContext.OwnerCompanyName<br /><b>Причина приостановки:</b> @ReasonPrecontext.Reason</p>
-          <a href="@RegistryContext.Url">Перейти к реестру</a>
+          <p><b>Owner of vendor pool:</b> @RegistryContext.OwnerCompanyName<br /><b> Reason for postponing:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url"> View the vendor pool</a>
         </mj-text>
       </mj-column>
     </mj-section>

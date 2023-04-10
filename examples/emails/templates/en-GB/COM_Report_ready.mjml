@@ -17,10 +17,10 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Вы запрашивали @ReportContext.TypeName</h1>
-          <p>Архив сформирован @ConfigurationContext.Date и доступен в течении 30 дней.</p>
+          <h1>You requested @ReportContext.TypeName</h1>
+          <p>Archive is completed @ConfigurationContext.Date and available for 30 days.</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/async/@ReportPrecontext.ReportId">Скачать архив</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/async/@ReportPrecontext.ReportId">Download archive</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

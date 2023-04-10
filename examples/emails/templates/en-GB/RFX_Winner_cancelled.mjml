@@ -8,9 +8,9 @@
       <mj-column>
         <mj-text>
           <h1 class="bb">Re-evaluating request results</b></h1>
-          <p>Requester has returned the request back to the evaluation phase. Earlier your company was choosen as a winner in the request.</p>
+          <p>The buyer is finalizing the tender reluts again. Earlier your company was selected as a winner of this request.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
          @CustomMailContext.Body
         </mj-text>

@@ -13,8 +13,8 @@
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-wtf" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>Приглашение отменено</h1>
-          <p class="p75">Приглашение в <b>@CompanyContext.CompanyName</b> отменено :(</p>
+          <h1>Invitation is cancelled</h1>
+          <p class="p75">Invitation to <b>@CompanyContext.CompanyName</b> is cancelled :(</p>
         </mj-text>
       </mj-column>
     </mj-section>
@@ -24,7 +24,7 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p>Если это произошло по ошибке, обратитесь к администратору компании.</p>
+          <p>If it is a mistake, contact the support team of Bidzaar.</p>
         </mj-text>
       </mj-column>
     </mj-section>

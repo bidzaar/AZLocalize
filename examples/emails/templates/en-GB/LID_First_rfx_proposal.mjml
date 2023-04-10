@@ -13,11 +13,11 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Поставщик подал первое предложение</h1>
-          <p>Компания впервые подала предложение в запрос. Нужно предложить тариф.</p>
+          <h1>Vendors submitted first bid</h1>
+          <p>Company submitted first bid. Comission should be defined.</p>
           <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
-            <b>Контактное лицо:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /><br />
-            <b>Запрос: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /> 
+            <b>Contact person:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail<br /><br />
+            <b>Request: </b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /> 
           </p>
         </mj-text>
       </mj-column>
