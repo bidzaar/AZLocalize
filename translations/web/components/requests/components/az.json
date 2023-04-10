@@ -21,7 +21,7 @@
                     "time_left": "Qalıb"
                 },
                 "prolongation": {
-                    "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
+                    "label": "Təkliflər qəbulunun avtomatik uzadılması",
                     "minutes": "dəq",
                     "time-left": "dəyirmi sonu",
                     "tooltip": "Təkliflərin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
@@ -131,7 +131,7 @@
         },
         "tariffs": {
             "ranges": {
-                "to": ""
+                "to": "≤"
             },
             "select": {
                 "header": "Sorğunun tarifi",

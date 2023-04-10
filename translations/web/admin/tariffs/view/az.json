@@ -61,7 +61,7 @@
                 "submit": "Hərəkəti dayandır"
             },
             "delete": {
-                "header": "Qaralamanı sil",
+                "header": "Lahiləndirməni ləğv et",
                 "cancel": "Ləğv et",
                 "submit": "Sil"
             },

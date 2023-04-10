@@ -999,7 +999,7 @@
                     "no_files": "Fayllar yüklənməyib",
                     "participant_documents": "İştirakçı sənədləri",
                     "participant_documents_dialog": "Təklif sənədləri",
-                    "participant_nda_documents": "Kassa mədaxil orderi"
+                    "participant_nda_documents": "İlkin kvalifikasiya sənədləri"
                 },
                 "export_list": {
                     "order": "Sifariş",
@@ -1990,8 +1990,8 @@
                         "table": {
                             "range": "Order price:",
                             "total": "Service Operator Commission:",
-                            "to": "to",
-                            "from": "from"
+                            "to": "≤",
+                            "from": "≥"
                         },
                         "text": {
                             "free-for-company": "<span class=\"free\">Participation in the request is free, without deposits and blocking of funds!</span> Your company will not pay operator's reward if you are declared the winner of the request.",
@@ -3129,8 +3129,8 @@
                             "button": "Platformadan"
                         },
                         "invite_site_tags": {
-                            "button": "İstək etiketləri ilə Platformadan",
-                            "no": "Sorğu etiketlərini təyin edin",
+                            "button": "Platformadan teqlər ilə",
+                            "no": "Sorğu teqlərini təyin edin",
                             "text": "İştirakçıları teqlərlə dəvət etmək üçün sorğunun təsvirində teqləri göstərin.",
                             "title": "Sorğu teqləri təyin olunmayıb",
                             "yes": "Davam et"
