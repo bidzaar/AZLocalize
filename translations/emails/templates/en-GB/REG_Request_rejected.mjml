@@ -1,0 +1,29 @@
+<mjml>
+  <!-- 
+Тема: ⛔ Заявка на аккредитацию отклонена
+Получатель:  УК, РОЗ, сотрудники с правами Прохождение аккредитации 
+
+Организатор отклонил заявку на аккредитацию
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Application for onboarding is rejected</h1>         
+          <p>Application of <b>@CompanyContext.CompanyName</b> for onboarding in the vendor pool  <b>"@RegistryContext.Name"</b> is rejected.</p>
+
+          <p><b>The owner of the vendor pool:</b> @RegistryContext.OwnerCompanyName<br /><b> Rejection reason:</b> @ReasonPrecontext.Reason</p>
+          <a href="@RegistryContext.Url">View the vendor pool</a>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

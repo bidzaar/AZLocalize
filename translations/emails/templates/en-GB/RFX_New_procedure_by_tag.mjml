@@ -1,0 +1,53 @@
+<mjml>
+  <!-- 
+Тема: 😃 Приглашение в запрос от @ProcedureContext.ProcedureOwnerCompanyName
+Получатель: сотрудники с правом "Продажи"
+
+Организатор опубликовал публичную запрос. Теги запроса совпадают с тегами в профиле поставщика
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>          
+          <p>We invite <b>@TargetContext.CompanyName</b> to submit bids to the request.</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
+        </mj-text>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /primary -->
+    <!-- secondary -------------------------------------------- -->
+    <mj-section>
+      <mj-column>
+        <mj-text>
+          <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Bids submission:</b> due @ProcedureContext.AcceptanceEndDate<br />
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a></p>
+          <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
+          <p><b> Bids for  @ConfigurationContext.ProjectName are accepted only on the platform. </b></p> 
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /secondary -->    
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>
