@@ -1,11 +1,4 @@
 <mjml>
-  <!-- 
-Тема: Новый этап запроса: "@ProcedureContext.ProcedureName"
-Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине. Компания -- активный участник текущего этапа
-
-
-Заказчик объявил новый этап запроса
--->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -14,27 +7,23 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Объявлен новый этап запроса</h1>
-          <p><b>Комментарий Заказчика:</b> @ProcedureContext.StageComment </p>
-          <p>Ознакомьтесь с условиями проведения нового этапа и проверьте актуальность своего предложения.</p>
-          <p>
-            <b>Запрос:</b> @ProcedureContext.ProcedureName<br />
-            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
-            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a>
+          <h1 class="bb">New stage has been published</b></h1>
+          <h2>Stage: @ProcedureContext.StageComment</h2>
+          <p>Please review the request and update your bid if needed.</p>
+          <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
-          <p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>
+          @CustomMailContext.Body
+          <p>
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
+            <b>Delivery to:</b> @ProcedureContext.PlaceOfDelivery<br />
+            <b>Request notice: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
+          </p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /secondary -->
     <mj-include path="./__tpl/__spacer.mjml" />
-    <!-- /primary -->
-    <!-- footer -------------------------------------------- -->
-    
-    <mj-include path="./__tpl/__footer_unsub.mjml" />
-    <!-- /footer -->
-  </mj-body>
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
 </mjml>

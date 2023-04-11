@@ -1,6 +1,6 @@
 <mjml>
   <!-- 
-Тема: Приём предложений завершен: "@ProcedureContext.ProcedureName"
+Тема: 🔒 Приём предложений завершен
 Получатель: сотрудники компании с правом Продажи на имейлы, указанные при логине
 
 Запрос переведен на этап Подведение итогов
@@ -13,21 +13,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Прием предложений завершён</h1>
+          <h1>Bid submission is now closed</h1>
           <p>
-            <!--<b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>-->
-            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>            
-            <br />
-            <!--<b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName-->
-            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
-		  </p>
-          <p>Прикрепить финальное коммерческое предложение или обновить документы можно в разделе <a href="@ProcedureContext.UrlProposal">"Предложение"</a>, см. пункт "Коммерческое предложение и документация". </p>
+            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+          <p>You can still update your final bid or upload documents in the section for quotation submission <a href="@ProcedureContext.UrlProposal"> of your bid</a>. </p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- /intro -->
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

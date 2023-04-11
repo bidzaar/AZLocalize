@@ -1,10 +1,4 @@
 <mjml>
-  <!-- 
-Тема: Пересмотр итогов запроса: "Закупка продуктов питания премиум качества"
-Получатель: сотрудники компании-участника с правом Продажи на имейлы, указанные при логине
-
-Организатор вернул завершённый запрос с выбором победителя на повторное подведение итогов
--->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -13,19 +7,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Пересмотр итогов запроса</h1>
-          <p>Ранее ваша компания победила в запросе <b>@ProcedureContext.ProcedureOwnerCompanyName</b>: <b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></b>.</p>
-          <p>Заказчик вернул запрос на повторное подведение итогов. Причина: @ReasonPrecontext.Reason</p>
-          <p class="mb0">Вопросы к заказчику – в чате запроса.</p>          
+          <h1 class="bb">Re-evaluating request results</b></h1>
+          <p>The buyer is finalizing the tender reluts again. Earlier your company was selected as a winner of this request.</p>
+          <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+         @CustomMailContext.Body
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Открыть запрос</mj-button>
-        
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /intro -->
-    <!-- footer -------------------------------------------- -->
     <mj-include path="./__tpl/__spacer.mjml" />
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
     <mj-include path="./__tpl/__footer.mjml" />
-    <!-- /footer -->
-  </mj-body>
 </mjml>
