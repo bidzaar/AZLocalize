@@ -78,11 +78,11 @@
                 }
             },
             "acceptance_end_date": {
-                "label": "Təkliflərin qəbulunun son tarixi",
+                "label": "Təkliflər qəbulunun son tarixi",
                 "time_left": "Qalıb"
             },
             "prolongation": {
-                "label": "Təkliflərin qəbulunun avtomatik uzadılması",
+                "label": "Təkliflər qəbulunun avtomatik uzadılması",
                 "minutes": "dəqiqə",
                 "time-left": "mərhələnin sonu",
                 "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"

@@ -762,7 +762,7 @@
                             "label": "Təşkilatçı təkliflərin qəbulu mərhələsində"
                         },
                         "prolongation": {
-                            "label": "Təkliflərin qəbulunun avtomatik uzadılması",
+                            "label": "Təkliflər qəbulunun avtomatik uzadılması",
                             "minutes": "dəq.",
                             "time-left": "Mərhələnin sonu",
                             "tooltip": "İştirakçı  təkliflər qəbulunun son tarixinədək müəyyən edilmiş vaxtda təklif edtikdə istifadə olunur.\n99 dəqiqəyə qədər uzadılma mümkündür, 0 - uzadılma mövcud olmayacaq"
@@ -2970,8 +2970,8 @@
                     "table": {
                         "range": "Sifarişin qiyməti:",
                         "total": "Xidmət Komissiyası:",
-                        "to": "",
-                        "from": ""
+                        "to": "≤",
+                        "from": "≥"
                     },
                     "text": {
                         "free-for-company": " <span class=\"free\">Sorğuda iştirak ödənişsizdir, depozit qoymadan və vəsaitlərin bloklanması olmadan!</span> Əgər sorğunun qalibi elan olunarsanız, şirkətiniz Xidmət Komissiyasını ödəmir.",

@@ -204,7 +204,7 @@
                 "select": "Tək seçim"
             },
             "visual_types": {
-                "attachment": "Qoşma",
+                "attachment": "Fayl əlavə et",
                 "boolean": "Bəli/Xeyr",
                 "datetime": "Tarix",
                 "formula": "Dəyişən",
