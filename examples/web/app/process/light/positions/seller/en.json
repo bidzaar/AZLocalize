@@ -42,105 +42,27 @@
       }
     },
     "positions": {
-      "header": {
-        "title": "Items specification",
-        "close": "Go to the proposal"
-      },
+      "total": "Total: <b>{{ price }} {{ currency }}</b>",
       "forbidden": {
         "title": "Information is not available right now",
         "text": "",
         "notice": ""
       },
-      "common": {
-        "vat": {
-          "true": "incl. VAT",
-          "false": "excl. VAT",
-          "null": "",
-          "none": "Free"
-        },
-        "currency": {
-          "request": "in request's currency",
-          "participant": "in participant's currency"
-        }
-      },
-      "summary": {
-        "current": {
-          "title": {
-            "true": "My proposal",
-            "false": "Alternative"
-          },
-          "tooltip": "Proposal price in the base currency of the request"
-        },
-        "previous": {
-          "title": "Previous",
-          "tooltip": "Price of a previously submitted proposal"
-        },
-        "best": {
-          "title": "Best proposal",
-          "tooltip": "Among all submitted proposals"
-        },
-        "timer": {
-          "title": "Time left",
-          "tooltip": "Before the end of the acceptance of bid."
-        },
-        "actions": {
-          "submit": "Update proposal"
-        },
-        "reference_price": {
-          "title": "Price change step",
-          "tooltip": "Step by which you can change the offer price"
-        }
-      },
       "filters": {
         "options": {
           "0": "All positions",
-          "1": "Available",
-          "2": "Low rank",
-          "3": "Not available"
+          "1": "Included in the bid",
+          "2": "Not included in the bid",
+          "3": "Prices are worse than competitors"
         },
         "empty": "No positions in the category"
       },
       "actions": {
         "download": "Download template",
-        "upload": "Upload from file"
+        "upload": "Upload from file",
+        "patch": "Не подавать предложение по группе"
       },
       "table": {
-        "groups": {
-          "position": "Organizer columns",
-          "proposal": "Vendor columns"
-        },
-        "columns": {
-          "position": {
-            "index": "№",
-            "name": "Name",
-            "description": "Description",
-            "count": "Amount",
-            "unit": "Unit",
-            "target_price": "Target cost per unit, {{ value }}",
-            "max_price": "Max cost per unit, {{ value }}",
-            "min_price": "Min cost per unit, {{ value }}",
-            "expected_price": "Expected cost per unit, {{ value }}",
-            "best_price": "Best cost per unit, {{ value }}",
-            "documents": "Documents"
-          },
-          "proposal": {
-            "availability": "Availability",
-            "count": "Amount",
-            "rank": "Rank",
-            "total": "Total, {{ value }}",
-            "vat": "VAT rate",
-            "price_none_vat": "Price per unit",
-            "price_incl_vat": "Price per unit, incl. VAT",
-            "price_excl_vat": "Price per unit, excl. VAT",
-            "currency": "Currency",
-            "comment": "Comment",
-            "documents": "Documents",
-            "prev_price": "Previous cost per unit"
-          }
-        },
-        "tooltips": {
-
-        },
         "validation": {
           "currency": {
             "invalid": "The currency is not included in the list of currencies specified in the rules of the request"
@@ -162,11 +84,16 @@
             "not_equal_to_position": "Deviation from the quantity in the request"
           },
           "price": {
+            "lt_minimum": "Отрицательная цена недопустима",
+            "gt_maximum": "Укажите цену меньше 99 млрд",
             "equal_to_zero": "The price is not specified",
             "equal_to_zero_count_gte_zero": "The price is not specified. If there is no position, specify \"Out of stock\"",
-            "start_price_auction": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "start_price_reduction": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "refer_price_step": "Your unit price in {{currency}} ({{price}} {{currency}}) violates the price change step specified by the Customer ({{rule}})"
+            "start_price_auction": "The price per unit must be greater than or equal to the initial minimum: {{price}} {{currency}}",
+            "start_price_reduction": "The price per unit must be less than or equal to the initial maximum: {{price}} {{currency}}",
+            "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
+            "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
+            "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
+            "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less."
           }
         }
       }

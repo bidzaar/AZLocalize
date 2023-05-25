@@ -155,6 +155,10 @@
                     "status": "Status",
                     "statusChangedOn": "Status changed on"
                 },
+                "sorting": {
+                    "name": "Employee name",
+                    "date_change": "Status change date"
+                },
                 "preview": {
                     "grant_access": "approve",
                     "reject": "reject",
@@ -171,7 +175,15 @@
                     "2": "active",
                     "3": "blocked"
                 },
-                "title": "company users"
+                "title": "company users",
+                "rights": {
+                    "list": "Rights ({{value}})",
+                    "empty": "Rights not assigned",
+                    "approve": "Request for the rights of an employee of the company",
+                    "invited": "Invited by email",
+                    "wait_for_approve": "Request for the rights of an employee of the company",
+                    "no_rights": "Rights not assigned"
+                }
             },
             "restore_user": {
                 "dialog": {
@@ -826,6 +838,7 @@
                         "comparison-archive": "comparison table",
                         "all-receipt": "order",
                         "all-receipt-archive": "order",
+                        "chats-archive": "archive of messages",
                         "my-proposal-archive": "your order",
                         "proposal-archive": "participant's bid",
                         "receipt-archive": "participant's order",
@@ -1000,7 +1013,8 @@
                     "hidden": {
                         "owner": "The answer is available only to the requester",
                         "participant": "The answer will not be available to other participants.",
-                        "tooltip": "We recommend hiding sensitive or confidential information"
+                        "tooltip": "We recommend hiding sensitive or confidential information",
+                        "info": "The answer is available to the participants with the appropriate setting of the request parameter \"After submitting the proposal, the participants see\""
                     }
                 },
                 "actions": {
@@ -1713,7 +1727,12 @@
                 "cancel": "cancel",
                 "header": "new request",
                 "next": "create",
-                "placeholder": "name"
+                "name": "Name",
+                "type": "Type of the request",
+                "options": {
+                    "1": "Закупка",
+                    "2": "Продажа"
+                }
             },
             "invite": {
                 "dialog": {
@@ -1930,7 +1949,9 @@
             }
         },
         "tooltips": {
-            "add": "add"
+            "add": "add",
+            "expand": "Show all tags",
+            "collapse": "Hide tags"
         }
     },
     "template": {
@@ -2376,64 +2397,23 @@
         },
         "rights": {
             "comment": "permissions are set by the user with the \"Company Management\" permission",
-            "items": {
-                "0": {
-                    "short": "Rights are not defined",
-                    "long": "Rights are not defined"
-                },
-                "1": {
-                    "short": "RFx",
-                    "long": "RFx"
-                },
-                "2": {
-                    "short": "Supplier",
-                    "long": "Supplier"
-                },
-                "4": {
-                    "short": "Accreditations",
-                    "long": "Request Accreditation"
-                },
-                "8": {
-                    "short": "Accreditation Pools",
-                    "long": "Manage Accreditation Pools"
-                },
-                "16": {
-                    "short": "Manage Company",
-                    "long": "Manage Company"
-                },
-                "128": {
-                    "short": "Chief",
-                    "long": "Chief Procurement Officer"
-                },
-                "256": {
-                    "short": "Manage groups",
-                    "long": "Manage groups"
-                },
-                "512": {
-                    "short": "Vendor Lists",
-                    "long": "Vendor Lists"
-                },
-                "1024": {
-                    "short": "Chief",
-                    "long": "Chief Vendor Officer"
-                },
-                "2048": {
-                    "short": "Request pool",
-                    "long": "Request Accreditation Pool"
-                }
-            },
             "role": {
                 "title": "Role in request loading",
-                "tooltip": "Role in default download request",
+                "text": "Default",
                 "items": {
-                    "0": "Auditor",
-                    "1": "Editor",
-                    "2": "Owner"
+                    "0": {
+                        "title": "Auditor",
+                        "text": "Viewing request"
+                    },
+                    "1": {
+                        "title": "Editor",
+                        "text": "Edits draft request"
+                    },
+                    "2": {
+                        "title": "Owner",
+                        "text": "Publishes, modifies and completes the request"
+                    }
                 }
-            },
-            "state": {
-                "empty": "Set up user rights",
-                "filled": "User permissions"
             }
         },
         "shared": {

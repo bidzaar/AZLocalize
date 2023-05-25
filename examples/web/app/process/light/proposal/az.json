@@ -44,58 +44,58 @@
         },
         "documents": {
           "action": "Əlavə et",
-          "empty": "Bütün sənədləri yekun nəticə edərkən əlavə edə bilərsiniz. Müştərilər kommersiya təklifinin mövcudluğunu alqışlayırlar.",
-          "sub_title": "Sənədlər: {{value}}",
           "title": "Kommersiya təklifi və sənədlər",
           "text":"[AT] təkliflərin qəbulu başa çatdıqdan sonra sənədlər də əlavə edilə bilər"
         },
         "positions": {
-          "action": "[AT] Redaktə etmək",
-          "view_action": "[AT] Bax",
-          "statistics": {
-            "total": "Vəzifələr: {{count}}-dən {{value}}-i",
-            "dont_have_any": "stokda yoxdur: {{value}}"
+          "title": "Maddələrin spesifikasiyası",
+          "action": {
+            "true": "[AT] Redaktə etmək",
+            "false": "[AT] Bax"
           },
-          "title": "Maddələrin spesifikasiyası"
+          "statistics": {
+            "complete": "Vəzifələr: {{count}}",
+            "incomplete": "Vəzifələr: {{count}}-dən {{value}}-i",
+            "excluded": "Vəzifələr: {{count}}-dən {{value}}-i, stokda yoxdur: {{value}}"
+          }
         },
         "price": {
-          "info": "Təklifinizin ümumi qiyməti",
-          "title": "Təklifinizin qiyməti"
+          "title": {
+            "true": "Təklifinizin qiyməti, ƏDV daxil",
+            "false": "Təklifinizin qiyməti, ƏDV-siz"
+          }
         },
         "questionnaire": {
-          "action": "[AT] Redaktə etmək",
-          "view_action": "[AT] Bax",
+          "title": "Qeyri-qiymət meyarları",
+          "action": {
+            "true": "[AT] Redaktə etmək",
+            "false": "[AT] Bax"
+          },
           "statistics": {
-            "answers": "Cavablar:",
-            "answer_count": "{{count}}-dan {{value}}"
-          },
-          "title": "Qeyri-qiymət meyarları"
-        },
-        "rank": {
-          "by_proposal": {
-            "text": "[AT] təklif dərəcəsi",
-            "label": "[AT] Rəqiblərin təklifləri arasında təklif dərəcəsi"
-          },
-          "by_position": {
-            "text": "[AT] mövqelərin dərəcəsi",
-            "label": "Dərəcələrlə maddələrin sayı: 1 (yaşıl), 2 (sarı), 3 və ya ondan az (qırmızı)"
+            "complete": "Cavablar: {{value}}",
+            "incomplete": "Cavablar: {{count}}-dan {{value}}"
           }
         },
         "banner": {
-          "draft": "<strong class=\"banner-bold\">Təklif verin</strong> təkliflərin qəbul müddəti başa çatanadək",
-          "submitted": { 
-            "text": "<strong class=\"banner-bold\">qələbə şansını artırmaq üçün </strong> təklifini dəyişdirin.", 
-            "button": "dəyişiklik başlayın"
-          },
-          "edit": "<strong class=\"banner-bold\">dəyişdirilmiş təklifi verin.</strong> İndi Sifarişçiyə sizin köhnə təklifiniz mümkündür:",
-          "summarizing": "<strong class=\"banner-bold\">Sənədləri blokunda yeniləyin</strong> \"kommersiya təklifi və sənədlər\""
+          "changing": "<b>dəyişdirilmiş təklifi verin.</b> Müştəri əvvəlki təklifinizi nəzərdən keçirir.",
+          "draft": "<b>Təklif verin</b> təkliflərin qəbul müddəti başa çatanadək.",
+          "submitted": "<b>qələbə şansını artırmaq üçün </b> təklifini dəyişdirin.",
+          "summarize": "<b>Sənədləri blokunda yeniləyin</b> \"kommersiya təklifi və sənədlər\"",
+          "improve": "Təklifi təkmilləşdirin"
         },
         "title": {
-          "alternative": "Mənim alternativ təklifim",
-          "my": "Mənim təklifim"
+          "true": "Mənim alternativ təklifim",
+          "false": "Mənim təklifim  №{{value}}"
         },
-        "with_vat": "ƏDV daxil",
-        "without_vat": "ƏDV-siz"
+        "status": {
+          "submitted": "Submitted",
+          "draft": "Not submitted",
+          "changing": "Changing"
+        },
+        "competitors_ahead": {
+          "true": "[AT] Bəzi mövqelərdə rəqiblər sizi qabaqlayır",
+          "false": "Rəqiblər sizi qabaqlayır"
+        }
       },
       "confirm_recall_dialog": {
         "cancel": "Ləğv et",
@@ -113,41 +113,35 @@
         "title": "Biznesinizin davamlı inkişafı"
       },
       "nda": {
-        "add_files_text": "İmzalanmış müqaviləni və digər tələb olunan sənədləri əlavə edin",
-        "add_files_update_text": "Yenilənmiş müqaviləni və digər tələb olunan sənədləri əlavə edin",
-        "send": "Göndər",
-        "description": "İlkin qiymətləndirmənin təsviri",
-        "errors": {
-          "correct": "Müraciəti düzəlt və yenilə",
-          "empty": "Sənədlər yüklənməyib"
+        "banner": {
+          "draft": "Пройдите предквалификацию и подайте предложение до завершения приёма предложений.",
+          "submitted": "Заявка на рассмотрении. Связь с заказчиком – в чате запроса."
         },
-        "files_info": "Sənədləri nəzərdən keçirmək/doldurmaq üçün yüklə",
-        "files_title": "NDA-nın ilkin qiymətləndirməsi üçün müraciət sənədləri",
-        "manual": {
-          "title": "[AT] preformed / NDA üçün ərizə",
-          "message": {
-            "1": "[AT] Sifarişçidən baxılması üçün ərizə",
-            "2": "[AT] hazırlanması və yenidən müraciət"
-          },
-          "description": {
-            "text": "[AT] sorğu sənədləri ilə tanış olmaq üçün əvvəlcədən / NİV-ə keçin. ",
-            "explanation": "[AT] əvvəlcədən təyin edilmiş tamamlama və təklif təqdim etmə təklifin qəbul müddətinin bitməsinə qədər tələb olunur. Müştəri ilə əlaqə-sorğu chat."
-          }
-        },
-        "title": {
-          "accepted": "İlkin qiymətləndirmə/NDA keçdi",
-          "draft": "İlkin qiymətləndirmə / NDA",
-          "failed": "İlkin qiymətləndirmə / NDA uğursuz oldu",
-          "rejected": "İlkin qiymətləndirmə / NDA. Müraciətiniz imtina olundu",
-          "submitted": "İlkin qiymətləndirmə / NDA Müraciətiniz baxılır",
+        "header": {
+          "title": "Заявка на предквалификацию / NDA",
           "status": {
-            "0": "[AT] ərizə verilmir",
-            "1": "[AT] ərizə verilib",
-            "2": "[AT] ərizə rədd edildi",
-            "3": "[AT] tamamlandı"
+            "0": "Заявка не подана",
+            "1": "Заявка подана",
+            "2": "Заявка отклонена",
+            "3": "Заявка одобрена"
           }
         },
-        "your_application": "İlkin qiymətləndirmə üçün müraciət / NDA"
+        "action": {
+          "title": "Подать заявку на предквалификацию / NDA",
+          "text": "Убедитесь, что заявка содержит полный комплект документов. Изменить заявку после подачи невозможно.",
+          "cancel": "Отмена",
+          "submit": "Подать заявку"
+        },
+        "description": {
+          "title": "Описание и документы",
+          "notice": "Ознакомьтесь с требованиями Заказчика на вкладке \"Запрос\"",
+          "open": "Перейти"
+        },
+        "documents": {
+          "title": "Документы заявки",
+          "notice": "Прикрепите комплект документов",
+          "append": "Прикрепить"
+        }
       },
       "nonexistent": {
         "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",

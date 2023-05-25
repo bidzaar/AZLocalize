@@ -7,7 +7,8 @@
     },
     "status": {
       "until": "до",
-      "since": "с"
+      "since": "с",
+      "orders": "Завершен без победителя"
     },
     "timer": {
       "minutes": "мин",

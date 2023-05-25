@@ -2,14 +2,27 @@
     "pl": {
         "qst": {
             "templates": {
-                "buttons": {
-                    "save": "web/app/process/light/questionnaire: pl.qst.templates.buttons.save",
-                    "list": "web/app/process/light/questionnaire: pl.qst.templates.buttons.list"
-                },
-                "list": {
-                    "empty": "web/app/process/light/questionnaire: pl.qst.templates.list.empty"
-                },
                 "dialogs": {
+                    "list": {
+                        "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.title",
+                        "search": {
+                            "placeholder": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.search.placeholder",
+                            "empty": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.search.empty"
+                        },
+                        "empty": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.empty",
+                        "actions": {
+                            "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.actions.cancel",
+                            "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.actions.submit"
+                        }
+                    },
+                    "edit": {
+                        "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.title",
+                        "label": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.label",
+                        "actions": {
+                            "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.actions.cancel",
+                            "save": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.actions.save"
+                        }
+                    },
                     "apply": {
                         "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.title",
                         "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.text",

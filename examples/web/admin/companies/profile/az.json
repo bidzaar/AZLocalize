@@ -183,6 +183,35 @@
           },
           "title": "Tarif"
         },
+        "csm": {
+          "title": "[AT] məsul satış/CSM",
+          "pin":"[AT] Pin",
+          "unpin":"[AT] açın",
+          "empty":"[AT] təyin edilməyib",
+          "journal":"[AT] təyinatlar jurnalı",
+          "success": "[AT] işçi təyin edildi",
+          "dialog": {
+            "table": {
+              "header": {
+                "size": "[AT] Qeydlər {{ value }}",
+                "role":"[AT] role",
+                "employee": "[AT] işçi",
+                "event":"[AT] hadisə",
+                "initiator": "[AT] təşəbbüskar",
+                "date":"[AT] Tarix"
+              },
+              "role": {
+                "0": "[AT] CSM",
+                "1": "[AT] Sale"
+              },
+              "event": {
+                "0": "[AT] açılmamış",
+                "1": "[AT] sabit"
+              },
+              "empty": "[AT] daha əvvəl heç-heçə"
+            }
+          }
+        },
         "payment_rules": {
           "title": "[AT] Qələbə üçün ödəniş qaydaları",
           "fee": "[AT] Kim ödəyir",

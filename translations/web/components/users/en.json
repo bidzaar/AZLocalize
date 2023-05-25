@@ -6,10 +6,68 @@
                 "1": "Invited",
                 "2": "Active",
                 "3": "Blocked"
+            },
+            "rights": {
+                "0": {
+                    "short": "Rights are not defined",
+                    "long": "Rights are not defined"
+                },
+                "1": {
+                    "short": "Requester",
+                    "long": "Requester",
+                    "description": "Publishes and conducts requests (procurement procedures)"
+                },
+                "2": {
+                    "short": "Supplier",
+                    "long": "Supplier",
+                    "description": "Prepares and submits commercial proposals to requests"
+                },
+                "4": {
+                    "short": "Accreditation Applicant",
+                    "long": "Accreditation Applicant",
+                    "description": "Prepares and submits applications for accreditation in the registers of counterparties of other companies"
+                },
+                "8": {
+                    "short": "Accreditation Pools",
+                    "long": "Manage Accreditation Pools"
+                },
+                "16": {
+                    "short": "Company Administrator",
+                    "long": "Company Administrator",
+                    "description": "Manages employees, their rights, edits the company profile"
+                },
+                "128": {
+                    "short": "Requester (CPO)",
+                    "long": "Chief Procurement Officer",
+                    "description": "Manages all the requests of his company"
+                },
+                "256": {
+                    "short": "Group Manager",
+                    "long": "Group Manager",
+                    "description": "Manages employee groups"
+                },
+                "512": {
+                    "short": "Vendor Manager",
+                    "long": "Vendor Manager",
+                    "description": "Maintains registers of his company's counterparties, processes received applications for accreditation"
+                },
+                "1024": {
+                    "short": "Vendor Manager (CVO)",
+                    "long": "Chief Vendor Officer",
+                    "description": "Manages all registers of his company's counterparties"
+                },
+                "2048": {
+                    "short": "Request pool",
+                    "long": "Request Accreditation Pool"
+                }
             }
         },
         "roster": {
             "empty": "There are no employees with the required rights. Contact the company manager to assign rights to employees. "
+        },
+        "rights": {
+            "empty": "Set up user rights",
+            "filled": "User permissions"
         }
     }
 }

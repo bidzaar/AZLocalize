@@ -1,14 +1,17 @@
 {
     "req.details": {
         "tabs": {
+            "open": "Aç",
             "nda": "Sorğunun məlumatları Məxvilik haqqında Razılaşma ilə qorunur",
             "tags": "Teqlər",
             "docs": "Sənədlər",
-            "positions": "Maddələr üzrə spesifikasiya",
-            "questionnaire": "Qeyri-qiymət meyyarları",
-            "owner_rules": "Sorğunun keçirilmə qaydaları",
-            "participant_rules": "Sorğu iştirakçıları üçün qaydalar",
-            "open": "Aç"
+            "positions_on": "mövqelər üzrə spesifikasiya",
+            "positions_off": "[AT] Mövqe spesifikasiyası deaktiv edilib",
+            "questions_on": "qiymətsiz meyarlar",
+            "questions_off": "[AT] qeyri-qiymət meyarları müəyyən edilməyib",
+            "rules_general": "sorğu Qaydaları",
+            "rules_participant": "sorğu iştirakçıları üçün qaydalar",
+            "positions_off_notice": "[AT] İştirakçılar bütün sorğu üçün ümumi qiyməti göstərirlər"
         },
         "expansions": {
             "nda": {
@@ -52,74 +55,19 @@
         },
         "tariffs": {
             "title": "Qiymətləndirmə",
-            "view": "Ətraflı",
-            "dialog": {
-                "edit": "sorğu tarifini dəyişdirin"
+            "free": {
+                "title": "[AT] Gediş haqqı tətbiq edilmir",
+                "text": "[AT] İştirak pulsuzdur",
+                "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
             },
-            "payment_fee": {
-                "seller": "Qalib olan təchizatçı ödəyir",
-                "purchaser": "Satınalma təşkilatı ödəyir",
-                "fee": {
-                    "title": "Tarif tətbiq edilmir",
-                    "text": "İştirak pulsuzdur",
-                    "closed": "Qapalı sorğular üçün komissiya yoxdur"
-                }
+            "promo": {
+                "title": "[AT] Gediş haqqı tətbiq edilmir",
+                "text": "Tətbiq olunan promo kodu: {{value}}"
             },
-            "info": "[AT] Daha çox"
-        },
-        "owner_rules": {
-            "verified_only": {
-                "label": "Təkliflərin verilməsi",
-                "text": "yalnız təsdiq təchizatçıları",
-                "popover": {
-                    "title": "təsdiq edilmiş təchizatçılar üçün sorğu",
-                    "text": "təsdiq edilmiş hüquqi qeydiyyatı olan təchizatçılar təklif edə bilərlər",
-                    "helper": "saytın mütəxəssisləri təchizatçıları yoxlayır və onları xüsusi bir simvolla qeyd edirlər"
-                }
-            },
-            "acceptance_end_date": {
-                "label": "Təkliflər qəbulunun son tarixi",
-                "time_left": "Qalıb"
-            },
-            "prolongation": {
-                "label": "Təkliflər qəbulunun avtomatik uzadılması",
-                "minutes": "dəqiqə",
-                "time-left": "mərhələnin sonu",
-                "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
-            },
-            "approximate_deadline_for_summing_up": {
-                "label": "Yekunlaşmanın təxmini müddəti",
-                "description": "təkliflərin qəbulu başa çatdıqdan sonra günlər",
-                "tooltip": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
-                "value_null": "müəyyən deyil"
-            },
-            "currency": {
-                "label": "Sorğunun valyutası",
-                "show_all": "Hamısını göstər",
-                "hide": "Gizlət"
-            },
-            "vat": {
-                "label": "Qalibi seçərkən nəzərə alınır",
-                "options": {
-                    "false": "ƏDV-siz qiymət",
-                    "none": "Qeyd olunmayıb",
-                    "true": "ƏDV daxil qiymət"
-                }
-            },
-            "open_type": {
-                "label": "Sorğunun növü",
-                "tooltips": {
-                    "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
-                    "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
-                    "editable": "açıq – iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur –"
-                }
-            },
-            "owner_visibility": {
-                "label": "Təkliflərin qəbulu mərhələsində təşkilatçı",
-                "enums": {
-                    "0": "iştirakçıların təkliflərini görür",
-                    "1": "iştirakçıların təklifinin məzmununu görmür"
-                }
+            "tariff": {
+                "info": "[AT] Daha çox",
+                "purchaser": "[AT] Müştəri ödəyir",
+                "seller": "[AT] Qazanan təchizatçı ödəyir"
             }
         }
     }

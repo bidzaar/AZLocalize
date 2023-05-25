@@ -1,6 +1,23 @@
 {
   "pl": {
     "request": {
+      "editor": {
+        "headers": {
+          "h1": "Header 1",
+          "h2": "Header 2",
+          "h3": "Header 3",
+          "h4": "Header 4",
+          "h5": "Header 5",
+          "h6": "Header 6"
+        },
+        "remove": "Delete",
+        "message": {
+          "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
+          "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
+          "warning-nda": "We recommend making a concise description, and attach the full one as a file",
+          "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
+        }
+      },
       "general": {
         "title": "Summary",
         "nda": {
@@ -10,19 +27,8 @@
         "description_and_files": {
           "title": "Description and files",
           "placeholder": "Specify the subject of your request...",
-          "add_files": "Add terms of reference, specifications, draft contract, etc.",
-          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site.",
-          "editor": {
-            "headers": {
-              "h1": "Header 1",
-              "h2": "Header 2",
-              "h3": "Header 3",
-              "h4": "Header 4",
-              "h5": "Header 5",
-              "h6": "Header 6"
-            },
-            "remove": "Delete"
-          }
+          "add_files": "Add terms of reference, specifications, draft contract, etc. (file up to 25 Mb)",
+          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site."
         },
         "contact_info": {
           "title": "The contact person",
@@ -38,21 +44,43 @@
         }
       },
       "positions": {
-        "title": "Goods and services",
-        "settings": "Settings",
-        "empty": "Provide the specification of purchased items for easy bid comparison",
-        "expand": "Expand all ({{value}})",
-        "disabled": "Request positions not specified",
-        "open_editable": "Customize specification",
-        "open_readonly": "Full specification of all positions"
+        "enabled": {
+          "header": "Goods and services ({{ count }})",
+          "notice": "Specify the positions and rules for price changes",
+          "open": "Open full specification of all positions",
+          "setup": "Customize specification",
+          "toggle": "Disable specification"
+        },
+        "disabled": {
+          "header": "Goods and services",
+          "toggle": "Enable specification",
+          "notice": {
+            "true": "Without specification of positions participants indicate the total price for the entire bid",
+            "false": "Specification for the items is not indicated. The total amount of the bid for the entire request is required"
+          }
+        },
+        "toggle": {
+          "true": {
+            "text": "When enabled, the possibility to configure the item specification and price change rules will be available",
+            "cancel": "Cancel",
+            "submit": "Continue"
+          },
+          "false": {
+            "text": "When disabled, participants will be able to submit a total price for the offer",
+            "cancel": "Cancel",
+            "submit": "Continue"
+          }
+        }
       },
       "questionnaire": {
-        "title": "Questionnaire",
-        "settings": "Settings",
-        "empty": "Customize the participant questionnaire, set non-price request conditions and criteria for comparison of offers",
-        "expand": "Expand all",
-        "warning_text": "The information is available to supplier companies.\nLogin or register a company on the site.",
-        "disabled": "Non-price request criteria not defined"
+        "header": {
+          "enabled": "Questionnaire ({{ value }})",
+          "disabled": "Questionnaire"
+        },
+        "open": "Open questionnaire",
+        "setup": "Setup questionnaire",
+        "empty": "Non-price request criteria not defined",
+        "forbidden": "The information is available to supplier companies.\nLogin or register a company on the site."
       },
       "gold": {
         "title": "Bidzaar magic",
@@ -69,11 +97,8 @@
         "on": "Magic is enabled. The circle of participants is limited (the type of request is closed)",
         "off": "Magic is disabled. The circle of participants is unlimited (the type of request is open)"
       },
-      "rules": {
-        "title": "Request rules"
-      },
-      "participant_rules": {
-        "title": "Rules for suppliers"
+      "general_rules": {
+        "header": "Request rules"
       },
       "registries": {
         "title": "Accreditation of participants",
@@ -142,7 +167,19 @@
       },
       "navigation": {
         "title": "Request Content",
-        "content": "Content"
+        "content": "Content",
+        "general": "Summary",
+        "registries": "Accreditation of participants",
+        "tariff": "Service operator's Commission",
+        "team": "Team",
+        "magic": "Bidzaar magic",
+        "internal": "More",
+        "aggregators": "Tender aggregator websites",
+        "commission": "Service operator's Commission",
+        "rules_positions": "Goods and services",
+        "rules_questions": "Questionnaire",
+        "rules_general": "Request rules",
+        "rules_participant": "Rules for suppliers"
       },
       "blocked": {
         "title": "Request details not available",
@@ -152,6 +189,9 @@
         "text": "Participation in the request is free, without deposits and funds blocking!",
         "link": "What do I have to pay for?",
         "start": "Start preparation proposal"
+      },
+      "effective": {
+        "text": "Efficient Procurement Rules"
       }
     }
   }

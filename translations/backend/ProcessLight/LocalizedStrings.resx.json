@@ -1,4 +1,11 @@
 {
+    "DefaultProcedurePositionGroupName": "Спецификация по позициям",
+    "ProcedureType.Buy": "Закупка",
+    "ProcedureType.Sell": "Продажа",
+    "ProcedureType.Unknown": "Неизвестный",
+    "ProposalItemsDeviationType.AcceptableByPositionsAndQuantity": "Возможна подача на часть позиций. Допускается отклонение количества по позиции",
+    "ProposalItemsDeviationType.AcceptableByPositionsOnly": "Возможна подача на часть позиций",
+    "ProposalItemsDeviationType.None": "Лот: обязательная подача на все позиции",
     "SimplifiedEventType.ChangesEnded": "Запрос изменён",
     "SimplifiedEventType.ParticipantBlocked": "Участник заблокирован",
     "SimplifiedEventType.ParticipantJoined": "Участие подтверждено",
@@ -10,13 +17,20 @@
     "SimplifiedEventType.ProcedurePublished": "Запрос опубликован",
     "SimplifiedEventType.ProcedureTariffChanged": "Тариф запроса изменен",
     "SimplifiedEventType.ProcedureUnCompleted": "Завершенный запрос возвращён на подведение итогов",
+    "SimplifiedEventType.PromoCodeApplied": "Применён промокод",
     "SimplifiedEventType.ProposalGoDraftDueToMajorChange": "Все поданные предложения отклонены",
     "SimplifiedEventType.ProposalRecalled": "Предложение отозвано",
+    "SimplifiedEventType.ProposalRejected": "Предложение участника отклонено",
     "SimplifiedEventType.ProposalSubmitted": "Предложение подано",
     "SimplifiedEventType.ProposalValidationFail": "Подано невалидное предложение",
     "SimplifiedEventType.StagePublished": "Новый этап опубликован",
     "SimplifiedEventType.SummingUp": "Приём предложений завершён",
     "SimplifiedEventType.UsersAdded": "Команда запроса. Добавлен сотрудник",
     "SimplifiedEventType.UsersDeleted": "Команда запроса. Удалён сотрудник",
-    "SimplifiedEventType.UsersRolesChanged": "Команда запроса. Изменена роль сотрудника"
+    "SimplifiedEventType.UsersRolesChanged": "Команда запроса. Изменена роль сотрудника",
+    "SortType.ByRank": "Вначале с высшими рангами",
+    "SortType.Default": "Вначале с лучшей ценой",
+    "SortType.LastProposalsFirst": "Вначале последние обновлённые",
+    "SortType.WithNoDeviationFirst": "Вначале с максимальным удовлетворением",
+    "SortType.WithOrderFirst": "Вначале с выбором"
 }

@@ -16,7 +16,6 @@
           <p>
             <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />            
             <b>Извещение: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
-            <span style="white-space: pre-line"><b>Изменения в запросе:</b><br /> @ProcedureVersionContext.ChangeLog</span>
           </p>
         </mj-text>
         <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>

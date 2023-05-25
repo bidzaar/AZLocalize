@@ -24,6 +24,16 @@
                 "acceptanceEndDate": {
                     "title": "Дата завершения приема предложений"
                 },
+                "finishDate": {
+                    "title": "Дата завершения"
+                },
+                "orders": {
+                    "title": "С победителем",
+                    "options": {
+                        "true": "Да",
+                        "false": "Нет"
+                    }
+                },
                 "proposals": {
                     "title": "Предложения"
                 },

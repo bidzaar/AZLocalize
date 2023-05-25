@@ -41,4 +41,4 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
 
 
 if __name__ == "__main__":
-    compare_branches("../..", "releaseaz-3.18", "releaseaz-3.18.2", "examples/emails/templates/", "translations/emails/templates/")
+    compare_branches("../..", "releaseaz-3.18.2", "releaseaz-4.1.1", "examples/emails/templates/", "translations/emails/templates/")

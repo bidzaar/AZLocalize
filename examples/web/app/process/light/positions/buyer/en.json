@@ -1,52 +1,74 @@
 {
   "pl_pop": {
     "importer": {
-      "title": "Import items from file",
-      "count": "Items imported: <b>{{ count }}</b> from {{ total }}",
-      "warning": "Importing from a file will delete already existing positions.",
       "next": "Next",
       "cancel": "Cancel",
       "upload": "Next",
       "close": "Close",
-      "items": {
-        "Process.Light.Import.Positions.InvalidFileExtension": {
-          "title": "<b>Invalid file format.</b> Choose the file with the extension \".xlsx\"."
-        },
-        "Process.Light.Import.Positions.InvalidFile": {
-          "title": "<b>The file does not match the specification for the positions in the request</b>. Download the actual template and upload it again."
-        },
-        "Process.Light.Import.Positions.FileHasErrors": {
-          "title": "<b>Items with errors are not loaded.</b> Correct the errors and upload again.",
-          "download": "Download a file with error descriptions"
+      "positions": {
+        "title": "Loading positions from a file",
+        "count": "Loaded positions: <b>{{ count }}</b> from {{ total }}",
+        "warning": "Previously entered positions will be deleted.",
+        "items": {
+          "Process.Light.Import.InvalidFileExtension": {
+            "title": "<b>Invalid file format.</b> Select the file with the description of the positions with the extension \".xlsx\"."
+          },
+          "Process.Light.Import.InvalidFile": {
+            "owner": {
+              "title": "<b>The file does not match the specification for the positions in the request.</b>\npossible reason:\n • The specification is specified for another request or group of items.",
+              "download": "Download the current template and download again."
+            },
+            "participant": {
+              "title": "<b>The file does not meet the specification for the positions in the request.</b>\n<b>The file does not match the template.</b> Possible reasons:\n",
+              "text": "• The file does not contain a specification for items\n• The request has been updated and your offer is outdated\n• Table columns or customer data changed\n• The specification is specified for another request or group of items",
+              "download": "Download the offer template and download it again."
+            }
+          },
+          "Process.Light.Import.FileHasErrors": {
+            "title": "<b>Positions containing errors are not loaded.</b> Fix the errors and re-download.",
+            "download": "Download the file with the error description"
+          }
+        }
+      },
+      "questionnaire": {
+        "title": "Uploading a questionnaire from a file",
+        "warning": "Previously entered questions will be deleted.",
+        "count": "Questions: <b>{{ questions }}</b> from {{ total }}",
+        "count_failure": "Loaded questions: <b>{{ questions }}</b> из {{ total }}",
+        "items": {
+          "Process.Light.Import.InvalidFileExtension": {
+            "title": "<b>Invalid file format.</b> Select the questionnaire file with the extension \".xlsx\"."
+          },
+          "Process.Light.Import.InvalidFile": {
+            "title": "<b>The file does not match the template.</b>\ndownload the current template and repeat the download."
+          },
+          "Process.Light.Import.FileHasErrors": {
+            "title": "<b>Questions with errors are not uploaded.</b> Fix the errors and re-upload.",
+            "download": "Download the error description file"
+          }
         }
       }
     },
     "configurator": {
       "header": "Columns Customization",
       "menu": "Select column type",
-      "defaults": {
-        "name": "New column"
+      "name": "New column",
+      "success": "The settings have been saved",
+      "actions": {
+        "apply_and_close": "Apply and close",
+        "apply": "Apply",
+        "cancel": "Cancel changes",
+        "append": "Add column",
+        "remove": "Remove column",
+        "close": "Close"
       },
       "details": {
-        "name": "Field name",
-        "type": "Type:"
-      },
-      "actions": {
-        "done": "Done",
-        "append": "Add a column",
-        "remove": "Remove the column"
+        "name": "Column name",
+        "type": "Column type"
       },
       "empty": {
         "text": "No additional columns have been added",
         "notice": "Click Add Column to begin"
-      },
-      "errors": {
-        "name": "The name is not specified"
-      },
-      "remove": {
-        "text": "Delete the column",
-        "cancel": "Cancel",
-        "confirm": "Delete"
       },
       "types": {
         "string": "Text",
@@ -54,59 +76,37 @@
         "bool": "Yes / No",
         "datetime": "Date",
         "decimal": "Money"
+      },
+      "dialogs": {
+        "changes": {
+          "title": "You haven't saved the changes",
+          "cancel": "Cancel changes",
+          "submit": "Continue setup"
+        },
+        "remove": {
+          "title": "Delete column",
+          "cancel": "Cancel",
+          "submit": "Delete"
+        }
       }
     },
     "positions": {
+      "header": {
+        "import_export": {
+          "button": "Import / Export",
+          "download": "Download the template to fill in",
+          "import": "Loading positions from a file"
+        }
+      },
       "empty": {
         "text": "Items not added"
       },
-      "header": {
-        "text": "Item specification"
-      },
       "table": {
-        "groups": {
-          "position": "Organizer columns",
-          "proposal": "Vendor columns"
-        },
-        "columns": {
-          "position": {
-            "index": "№",
-            "name": "Name",
-            "description": "Description",
-            "count": "Amount",
-            "unit": "Unit",
-            "target_price": "Target cost per unit, {{ value }}",
-            "max_price": "Max cost per unit, {{ value }}",
-            "min_price": "Min cost per unit, {{ value }}",
-            "expected_price": "Expected cost per unit, {{ value }}",
-            "documents": "Documents"
-          },
-          "proposal": {
-            "availability": "Availability",
-            "count": "Amount",
-            "vat": "VAT rate",
-            "price_none_vat": "Price per unit",
-            "price_incl_vat": "Price per unit, incl. VAT",
-            "price_excl_vat": "Price per unit, excl. VAT",
-            "currency": "Currency",
-            "comment": "Comment",
-            "documents": "Documents"
-          }
-        },
         "actions": {
           "documents": {
             "title": "Allow attaching documents to a position",
             "text": "Enabled option gives members the ability to attach documents to positions"
           }
-        },
-        "tooltips": {
-          "insert": "Insert",
-          "remove": "Remove",
-          "deviation": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions and quantity",
-          "target_price": "Specify the price, which will be a guide when choosing.\nThe price is displayed only to you - members will not see it.",
-          "max_price": "The maximum price a supplier can offer for an item.\nSupplier cannot exceed the specified price",
-          "min_price": "The lowest price a supplier can offer for an item.\nSupplier cannot offer a lower price",
-          "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price"
         }
       },
       "defaults": {
@@ -114,9 +114,7 @@
         "unit": "unit"
       },
       "actions": {
-        "append": "Add item",
-        "download": "Download template",
-        "upload": "Upload from file"
+        "append": "Add item"
       },
       "delete": {
         "text": "Delete position?",

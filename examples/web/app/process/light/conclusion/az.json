@@ -4,8 +4,14 @@
       "enums": {
         "reason": {
           "0": "Digər",
-          "1": "Müvafiq təkliflər yoxdur",
-          "2": "Ehtiyac yoxdur sorğu etmək"
+          "1": "Ən yaxşı sövdələşməni məhkəmədən aldım",
+          "2": "Sorğu qalibin seçilməsini nəzərdə tutmur (qiymət bazarının təhlili və ya ilkin kvalifikasiya)",
+          "3": "Təchizatçının müqavilənin şərtlərindən imtina etməsi",
+          "4": "Satınalma tələbinin ləğvi",
+          "5": "Dəyişdirilmiş texniki tapşırıqlar",
+          "6": "Səhv qalib seçildi",
+          "7": "Kifayət qədər kommersiya təklifləri yoxdur",
+          "null": "[AT] təkliflər yoxdur"
         },
         "commission": {
           "0": "Faktura hazırlanması",
@@ -59,7 +65,11 @@
               "nobody": "[AT] Sorğu qalib seçilməsi olmadan başa",
               "comment": "[AT] Təşkilatçının şərhləri",
               "questions": "[AT] Sualınız varmı?",
-              "message": "[AT] Müştəri ilə əlaqə saxlayın."
+              "message": "[AT] Müştəri ilə əlaqə saxlayın.",
+              "last_winner": {
+                "title":"[AT] müştəri sizi qaliblərdən kənarlaşdırdı",
+                "text": "[AT] buna baxmayaraq, istifadəçi müqaviləsinə əsasən, Xidmətin işinə görə komissiya ödənilməlidir"
+              }
             }
           },
           "requests": {
@@ -68,7 +78,7 @@
           },
           "payment": {
             "title": "[AT] Xidmət operatoru Komissiyası",
-            "delay": "[AT] Hesab təxminən qoyulacaq {{ value }}",
+            "delay": "[AT] Hesab el-ə yönəldiləcək. poçt {{ value }}",
             "email": "[AT] Hesab sizin şirkətin e-poçtuna yönəlib",
             "agreement": "[AT] Uyğun komissiya <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">İstifadəçi Saziş</a>"
           }
@@ -118,8 +128,18 @@
                 }
               },
               "stub": {
-                "text": "[AT] Sorğunun qalibi müəyyən edilməyib",
-                "notice": "[AT] Müqayisə sekmesinde sorğu qalibini seçin"
+                "has_proposals": {
+                  "text": "[AT] Qalib seçilməyib",
+                  "notice": "[AT] Müqayisə sekmesinde sorğu qalibini seçin"  
+                },
+                "proposal_status": {
+                  "text": "Hələ təklif yoxdur",
+                  "notice": "<a href=\"{{link}}\" target=\"_blank\">Effektiv alış üçün ən yaxşı təcrübələrimizə</a> baxın"
+                },
+                "summarize_status": {
+                  "text": "Təklif yoxdur",
+                  "notice": "<a href=\"{{link}}\" target=\"_blank\">Effektiv satınalma üçün tövsiyələrimizə</a> əsaslanaraq yeni sorğu mərhələsini həyata keçirin."
+                }
               },
               "vat": {
                 "false": "ƏDV-siz",
@@ -141,44 +161,24 @@
             },
             "finished": {
               "stub": {
-                "text": "[AT] Sorğu qalib seçilmədən tamamlandı"
+                "text": "[AT] Sorğu qalib seçilmədən tamamlandı",
+                "notice": "<b>Səbəb:</b> {{comment}}"
               }
             }
           },
           "participations": {
-            "active": "İştirak etdi",
-            "proposals": "Təklif təqdim edilib",
             "title": "İştirakçılar",
-            "total": "Dəvət olunanlar daxil olmaqla cəmi",
-            "winners": "Qaliblər"
+            "stage": "Mərhələ",
+            "participated": "İştirak etmişdir",
+            "participated_tooltip": "[AT] imtina edənlər və bloklananlar daxil olmaqla",
+            "submitted_proposals": "[AT] Təklif iştirakçıları",
+            "submitted_requests": "Təkliflər üçün zəng edin"
           },
           "savings": {
-            "stubs": {
-              "budget": {
-                "notice": "Sorğunun büdcəsi təyin edillməyib",
-                "text": "Sorğunun büdcəsinə nisbətdə qənaət"
-              },
-              "proposals": {
-                "notice": "Hesablamalar aşağıdakı hallarda mümkündür: \n(1) Tender təklifinin həcmi “Maddələrdən və onların miqdarından tam razı” ilə qeyd olunarsa, \n(2) Sifariş yalnız bir iştirakçının təklifini ehtiva edir.",
-                "text": "İştirakçıların təkliflərinin qiymətləri ilə nisbətdə qənaət"
-              }
-            },
-            "title": {
-              "completed": {
-                "text": "Qənaət"
-              },
-              "progress": {
-                "text": "Mümkün qənaət",
-                "tooltip": "Sorğunun sifarişlə tamamlandığı halda"
-              }
-            },
-            "values": {
-              "average": "iştrakçıların ilkin təkliflərinin orta qiyməti ilə müqayisədə",
-              "best": "ən yaxşı ilkin təklifin qiyməti ilə müqayisədə",
-              "budget": "sorğu büdcəsinə nisbətdə ({{ value }} {{ currency }})",
-              "custom": "sifarişçinin fikrinə görə",
-              "winner": "qalibin başlanğıc təklifinin qiymətinə nisbətdə"
-            }
+            "title": "Qənaət",
+            "stubs": "Qənaəti göstərmək üçün sorğunu qalib seçimi ilə tamamlayın.",
+            "tooltip": "[AT] iqtisadiyyatı göstərin",
+            "help": "Niyə biz qənaətləri avtomatik hesablamırıq?"
           },
           "canceled": {
             "title": "[AT] Ləğv edilmiş nəticələr ({{value}})",
@@ -192,7 +192,8 @@
             "empty": "İştirakçılarla çat müvcud deyil",
             "header": "Çatlardan gələn mesajlar",
             "participants": "İştirakçılar ilə çat",
-            "team": "Komanda chatı"
+            "team": "Komanda chatı",
+            "all": "[AT] Bütün sorğu sohbetleri"
           },
           "no_rights_to_complete": {
             "text": "Yalnız sahibi sorğunu tamamlaya bilər.",
@@ -200,10 +201,6 @@
           },
           "request_completion": {
             "cancel": "ləğv et",
-            "header": {
-              "false": "Sifariş vermədən tamamlayın",
-              "true": "Sifariş verməklə tamamlayın"
-            },
             "order": {
               "false": {
                 "notEmpty": "Xana boş olmamalıdır",
@@ -227,14 +224,15 @@
             "success": "Sorğu başa çatdı. İştirakçılara mesajlar göndərildi",
             "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz",
             "true": {
-              "header": "[AT] Sorğu başa",
               "text": "[AT] Sənin seçimin:"
             },
             "false": {
-              "header": "[AT] Sifariş olmadan sorğunun tamamlanması",
-              "text": "[AT] Sifarişiniz formalaşmayıb.",
-              "reason": "[AT] Səbəbi göstərin:",
-              "comment": "[AT] Səbəb..."
+              "text": "Təqdim edilən təkliflər: {{value}}. Qalib seçilməyib.",
+              "reason": "Səbəbini göstərin:",
+              "comment": "[AT] Səbəb...",
+              "comment_label": "İştirakçıların başa düşə biləcəyi ətraflı səbəb göstərin",
+              "chars_validation": "Əlavə durğu işarələri olmadan ən azı {{value}} simvol daxil edin",
+              "empty": "[AT] Hazırda təqdim olunan təkliflər yoxdur."
             },
             "vat": {
               "true": "[AT] ƏDV ilə",
@@ -248,26 +246,20 @@
             "mail": {
               "title": "Sorğu tamamlandıqda iştirakçılara məlumat verəcəyik",
               "subtitle": "[AT] Məktubumuzu üzvlərə mesajınızla tamamlaya bilərsiniz"
-            }
+            },
+            "header": "Sorğu başa"
           },
           "saving_editor": {
-            "editable": {
-              "cancel": "ləğv et",
-              "hint": "Sorğu valyutasında",
-              "next": "Yadda saxla",
-              "text": "Qənaət  təşkil etdi:"
-            },
             "header": "Qənaət",
-            "readonly": {
-              "cancel": "Növbəti",
-              "text": "Qənaət sorğu tamamlandıqdan sonra mümkündür."
-            }
+            "cancel": "ləğv et",
+            "submit": "Yadda saxla",
+            "label": "Qənaət əldə edildi"
           },
           "versions_reports": {
             "active": "aktiv",
             "draft": "Qaralama",
             "header": "Sorğu növləri",
-            "history": "Dəyişikliklər tarixçəsi",
+            "history": "[AT] Sorğuda dəyişikliklər",
             "inactive": "Qeyri-aktiv",
             "notice": "Sorğu bildirişi"
           }

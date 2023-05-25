@@ -11,12 +11,11 @@
         "0": "Rights not assigned",
         "1": "Buyer",
         "2": "Supplier",
-        "4": "Accreditation",
-        "8": "Pool management",
-        "16": "CC",
+        "4": "Applicant for accreditation",
+        "16": "Company Administrator",
         "128": "Hands. procurement",
-        "512": "Registries",
-        "2048": "Accreditation in pools"
+        "256": "Group Administrator",
+        "512": "Registry Administrator"
       }
     },
     "invite": {

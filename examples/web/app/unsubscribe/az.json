@@ -21,7 +21,8 @@
           "RemindCompleteProfileNotification": "Profili tam doldurmaq üçün bildirişlər alın.",
           "SummingUpProcedureEvent": "Təkliflərin qəbulu başa çatdı, sorğu yekunlaşdırma mərhələlərinə keçdi",
           "SummingUpProcedureOrgEvent": "Təkliflərin qəbulu başa çatdı, sorğu yekunlaşdırma mərhələlərinə keçdi",
-          "SummingUpProcedureReminderEvent": "Təkliflərin qəbulunun bitməsinə 48 saat qalmış"
+          "SummingUpProcedureReminderEvent": "Təkliflərin dərhal bağlanması",
+          "ProcedureStagePublishedEvent": "Yeni Müraciət Mərhələsi elan edildi"
         },
         "groups": {
           "BuyerActions": "Komanda üzvlərinin hərəkətləri, satınalma statusunun dəyişdirilməsi",

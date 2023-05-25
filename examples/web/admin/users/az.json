@@ -38,7 +38,7 @@
           "statusChangedOn": "Statusun dəyişmə tarixi"
         },
         "search": {
-          "name": "Administrator adı"
+          "name": "[AT] Axtarış sahələri üzrə aparılır:\n• istifadəçi adı\n• e-poçt"
         },
         "sorting": {
           "name_asc": "Administrator adı A→Z",

@@ -1,6 +1,23 @@
 {
   "pl": {
     "request": {
+      "editor": {
+        "headers": {
+          "h1": "[AT] Başlıq 1",
+          "h2": "[AT] Başlıq 2",
+          "h3": "[AT] Başlıq 3",
+          "h4": "[AT] Başlıq 4",
+          "h5": "[AT] Başlıq 5",
+          "h6": "[AT] Başlıq 6"
+        },
+        "remove": "[AT] Sil",
+        "message": {
+          "error": "[AT] böyük təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
+          "warning": "[AT] böyük təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+          "warning-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+          "error-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
+        }
+      },
       "acceptance_end_date": {
         "time_left": "Qalıb",
         "title": "Təkliflərin qəbulu "
@@ -47,18 +64,7 @@
           "add_files": "Texniki tapşırığı, spesifikasiyaları, müqavilə layihəsini və s. əlavə edin.",
           "placeholder": "Sorğunuzun mövzusunu qeyd edin...",
           "title": "Təsvir və sənədlər",
-          "warning_text": "Sənədlər təchizatçı şirkətlər üçün əlçatandır.\nDaxil olun və ya şirkəti qeydiyyatdan keçirin.",
-          "editor": {
-            "headers": {
-              "h1": "[AT] Başlıq 1",
-              "h2": "[AT] Başlıq 2",
-              "h3": "[AT] Başlıq 3",
-              "h4": "[AT] Başlıq 4",
-              "h5": "[AT] Başlıq 5",
-              "h6": "[AT] Başlıq 6"
-            },
-            "remove": "[AT] Sil"
-          }
+          "warning_text": "Sənədlər təchizatçı şirkətlər üçün əlçatandır.\nDaxil olun və ya şirkəti qeydiyyatdan keçirin."
         },
         "nda": {
           "sub_title": "İştirakçılar sorğunun təsvirinə sizin təsdiqinizdən sonra giriş izni əldə edəcəklər",
@@ -77,10 +83,22 @@
       },
       "navigation": {
         "content": "Məzmun",
-        "title": "Sorğunun məzmunu"
+        "title": "Sorğunun məzmunu",
+        "general": "Təsvir və sənədlər",
+        "registries": "[AT] iştirakçıların akkreditasiyası",
+        "tariff": "Xidmət komissiyası",
+        "team": "Komanda",
+        "magic": "Bidzaar magic",
+        "internal": "Əlavə xanalar",
+        "aggregators": "Aqreqatorlar",
+        "commission": "[AT] Xidmət operatorunun komissiyası",
+        "rules_positions": "Maddələr üzrə spesifikasiya",
+        "rules_questions": "Sorğunun qeyri-qiymət meyyarları",
+        "rules_general": "Sorğunun keçirilmə qaydaları",
+        "rules_participant": "Sorğu iştrakçıları üçün qaydalar"
       },
-      "participant_rules": {
-        "title": "Sorğu iştrakçıları üçün qaydalar"
+      "general_rules": {
+        "header": "Sorğunun keçirilmə qaydaları"
       },
       "registries": {
         "title": "[AT] iştirakçıların akkreditasiyası",
@@ -131,21 +149,43 @@
         }
       },
       "positions": {
-        "disabled": "Sorğu maddələri qeyd olunmayıb",
-        "empty": "Sorğu maddələrini qeyd edin",
-        "expand": "Daha ətraflı ({{value}})",
-        "open_editable": "Spesifikasiyanı ayarla",
-        "open_readonly": "Bütün maddələrin tam spesifikasiyası",
-        "settings": "Ayarla",
-        "title": "Maddələr üzrə spesifikasiya"
+        "enabled": {
+          "header": "Maddələr üzrə spesifikasiya ({{ count }})",
+          "notice": "[AT] Qiymət dəyişiklikləri üçün mövqeləri və qaydaları göstərin",
+          "open": "[AT] Bütün vəzifələrin tam spesifikasiyasını açın",
+          "setup": "[AT] Spesifikasiyanı fərdiləşdirin",
+          "toggle": "[AT] Spesifikasiyanı söndürün"
+        },
+        "disabled": {
+          "header": "Maddələr üzrə spesifikasiya",
+          "toggle": "[AT] Spesifikasiyanı aktivləşdirin",
+          "notice": {
+            "true": "[AT] Vəzifələri dəqiqləşdirmədən iştirakçılar bütün təklifin ümumi qiymətini göstərirlər",
+            "false": "[AT] Maddələr üçün spesifikasiya göstərilməyib. Bütün sorğu üçün təklifin ümumi məbləği tələb olunur"
+          }
+        },
+        "toggle": {
+          "true": {
+            "text": "[AT] Aktiv edildikdə, element spesifikasiyasını və qiymət dəyişikliyi qaydalarını konfiqurasiya etmək imkanı mövcud olacaq",
+            "cancel": "[AT] Ləğv et",
+            "submit": "[AT] Davam et"
+          },
+          "false": {
+            "text": "[AT] Əlil olduqda, iştirakçılar təklif üçün ümumi qiymət təqdim edə biləcəklər",
+            "cancel": "[AT] Ləğv et",
+            "submit": "[AT] Davam et"
+          }
+        }
       },
       "questionnaire": {
-        "disabled": "Qeyri-qiymət tələb meyarları müəyyən edilməmişdir",
-        "empty": "İştirakçı anketini ayarla, təkliflərin qeyri-qiymət tələb meyarlarını və təkliflərin müqayisə meyarlarını təyin edin",
-        "expand": "Daha ətraflı",
-        "settings": "Ayarla",
-        "title": "Sorğunun qeyri-qiymət meyyarları",
-        "warning_text": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
+        "header": {
+          "enabled": "Sorğunun qeyri-qiymət meyyarları ({{ value }})",
+          "disabled": "Sorğunun qeyri-qiymət meyyarları"
+        },
+        "open": "[AT] Açıq anket",
+        "setup": "[AT] quraşdırma sorğusu",
+        "empty": "Qeyri-qiymət tələb meyarları müəyyən edilməmişdir",
+        "forbidden": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
       },
       "gold": {
         "title": "[AT] Magic Bidzaar",
@@ -162,11 +202,11 @@
         "on": "[AT] sehrli daxildir. İştirakçıların dairəsi məhduddur (sorğu növü bağlıdır)",
         "off": "[AT] Magic aradan. İştirakçıların dairəsi məhdud deyil (sorğu növü açıqdır)"
       },
-      "rules": {
-        "title": "Sorğunun keçirilmə qaydaları"
-      },
       "tariff": {
         "title": "Xidmət komissiyası"
+      },
+      "effective": {
+        "text": "Effektiv Satınalma Qaydaları"
       }
     }
   }

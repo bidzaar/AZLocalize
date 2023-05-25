@@ -22,5 +22,6 @@
     "ScoringRange.Prefered": "Best",
     "ScoringRange.LowPriority": "Low priority",
     "ScoringRange.Disqualified": "Disqualified",
-    "DeclineParticipant.LowRateReason": "The application for accreditation received a low score and was automatically rejected."
+    "DeclineParticipant.LowRateReason": "The application for accreditation received a low score and was automatically rejected.",
+    "Catalog.TemplateFileName": "Reference template.xlsx"
 }

@@ -57,6 +57,9 @@
             "finish_date": {
                 "title": "Tamamlanma tarixi"
             },
+            "responsible": {
+                "title": "[AT] Məsul"
+            },
             "joins_count": {
                 "title": "iştirak edənlərin ümumi sayı"
             },
@@ -91,12 +94,10 @@
                 "public": "Açıq",
                 "title": "Sorğunun növü"
             },
-            "type_of_change": {
-                "title": "Sorğunun növü",
-                "labels": {
-                    "true": "Alış",
-                    "false": "Satış"
-                }
+            "procedure_type": {
+                "title": "Sorğu növü",
+                "true": "Satınalma",
+                "false": "Satış"
             }
         },
         "list_item": {
@@ -115,6 +116,7 @@
             "manager_title": "Şirkətin bütün sorğuları",
             "title": "Mənim sorğularım",
             "download": "Yüklə",
+            "download_mobile": "[AT] hesabatı Yükləyin",
             "report": {
                 "period": "Hesabat dövrü",
                 "cancel": "Ləğv et",
@@ -122,7 +124,8 @@
                 "type": {
                     "0": "Sifarişçi üzrə statistika.",
                     "1": "Bütün sorğular",
-                    "2": "Tamamlanmış sorğular"
+                    "2": "Tamamlanmış sorğular",
+                    "3": "Mənim sorğularım"
                 }
             }
         },
@@ -134,6 +137,7 @@
         "public": {
             "from": "from\n",
             "left": "{{value}} qaldı",
+            "passed": "[AT] {{value}} keçdi",
             "tarrifs_popover": {
                 "button": "Status əldə etmək",
                 "button_verified": "Yoxlama bitdi",

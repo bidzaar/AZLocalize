@@ -28,6 +28,16 @@
                 "acceptanceEndDate": {
                     "title": "Təkliflər qəbulunun  son tarixi"
                 },
+                "finishDate": {
+                    "title": "Дата завершения"
+                },
+                "orders": {
+                    "title": "С победителем",
+                    "options": {
+                        "true": "Да",
+                        "false": "Нет"
+                    }
+                },
                 "address": {
                     "title": "Çatdırılma ünvanı"
                 },

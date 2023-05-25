@@ -8,15 +8,14 @@
     "remove": "[AT] Tarif paketinin fəaliyyətini ləğv etmək",
     "enums": {
       "rights": {
-        "0": "[AT] hüquqlar təyin olunmayıb",
-        "1": "[AT] Qaynaqçı",
+        "0": "[AT] hüquqlar təyin edilməyib",
+        "1": "[AT] Alıcı",
         "2": "[AT] təchizatçı",
-        "4": "[AT] akkreditasiya",
-        "8": "[AT] hovuzların idarə edilməsi",
-        "16": "[AT] cinayət məcəlləsi",
-        "128": "[AT] əllər. satınalma",
-        "512": "[AT] reyestrlər",
-        "2048": "[AT] hovuzlarda akkreditasiya"
+        "4": "[AT] akkreditasiya ərizəçisi",
+        "16": "[AT] şirkət administratoru",
+        "128": "[AT] əl. satınalma",
+        "256": "[AT] Qrup administratoru",
+        "512": "[AT] qeydiyyat administratoru"
       }
     },
     "invite": {

@@ -1,0 +1,65 @@
+{
+  "pl_com": {
+    "positions": {
+      "header": "{{ number }} • {{ name }}",
+      "table": {
+        "groups": {
+          "position": "Organizer columns",
+          "proposal": "Vendor columns"
+        },
+        "columns": {
+          "position": {
+            "index": "№",
+            "name": "Name",
+            "description": "Description",
+            "count": "Amount",
+            "unit": "Unit",
+            "target_price": "Target cost per unit, {{ value }}",
+            "max_price": "Max cost per unit, {{ value }}",
+            "min_price": "Min cost per unit, {{ value }}",
+            "expected_price": "Expected cost per unit, {{ value }}",
+            "documents": "Documents"
+          },
+          "proposal": {
+            "availability": "Availability",
+            "count": "Amount",
+            "vat": "VAT rate",
+            "total": "Total, {{ value }}",
+            "price_none_vat": "Price per unit",
+            "price_incl_vat": "Price per unit, incl. VAT",
+            "price_excl_vat": "Price per unit, excl. VAT",
+            "best_price": "Best price per unit, {{ value }}",
+            "currency": "Currency",
+            "comment": "Comment",
+            "documents": "Documents"
+          }
+        },
+        "tooltips": {
+          "insert": "Insert",
+          "remove": "Remove",
+          "availability": "The field is available if the request parameter Supply volume will be set as Deviation allowed by positions",
+          "best_price": "The best price among competitors",
+          "target_price": "Your guideline for choosing. Hidden from participants.",
+          "max_price": "The maximum price a supplier can offer for an item.\nSupplier cannot exceed the specified price",
+          "min_price": "The lowest price a supplier can offer for an item.\nSupplier cannot offer a lower price",
+          "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price"
+        }
+      },
+      "common": {
+        "vat": {
+          "true": "incl. VAT",
+          "false": "excl. VAT",
+          "null": "",
+          "none": "Free"
+        },
+        "currency": {
+          "request": "in request's currency",
+          "participant": "in participant's currency"
+        }
+      },
+      "disabled": "Goods and services are not included in the bid of the participant",
+      "to_proposal": "To proposal",
+      "to_request": "To request"
+    }
+  }
+}

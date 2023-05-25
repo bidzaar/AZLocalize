@@ -5,127 +5,85 @@
       "participants": "Number of participants",
       "joins": "Total bids"
     },
-    "parameters": {
-      "owner_rules": {
-        "verified_only": {
-          "label": "Submission of proposals",
-          "text": "Only verified suppliers",
-          "popover": {
-            "title": "Request for verified suppliers",
-            "text": "Suppliers with confirmed legal registration can submit proposals",
-            "helper": "Site specialists check suppliers and mark them with a special icon"
-          }
+    "currency": {
+      "duplicate": "The main currency is the same as the additional",
+      "update": "The base currency has been updated. Change the rates of the additional currency",
+      "actions": {
+        "remove": "Remove currency",
+        "change": "Change the exchange rate",
+        "append": "Add currency"
+      },
+      "editor": {
+        "header": "Currency settings",
+        "rate": "at the rate of",
+        "cancel": "Cancel",
+        "submit": "Save",
+        "warning": "You cannot delete a currency after saving, only adjust the exchange rate"
+      }
+    },
+    "groups": {
+      "configurator": {
+        "header": {
+          "true": "Group management",
+          "false": "Groups"
         },
-        "acceptance_end_date": {
-          "label": "Accepting offers before",
-          "time_left": "Left"
+        "name": "New group",
+        "success": "The settings have been saved",
+        "actions": {
+          "apply_and_close": "Apply and close",
+          "apply": "Apply",
+          "cancel": "Cancel changes",
+          "append": "Add group",
+          "remove": "Remove group",
+          "close": "Close"
         },
-        "prolongation": {
-          "label": "Auto-renewal of accepting offers",
-          "minutes": "min.",
-          "time-left": "end of the round",
-          "tooltip": "Applies if the participant submits an offer within the specified time before the deadline for accepting offers. Extension up to 99 min., 0 – without extension"
+        "details": {
+          "name": "Group name"
         },
-        "approximate_deadline_for_summing_up": {
-          "label": "Approximate deadline for summing up",
-          "description": "days after the end of accepting offers",
-          "tooltip": "The participants of the request will expect the decision of the tender commission within the specified period",
-          "value_null": "Not specified"
-        },
-        "currency": {
-          "label": "Request currency",
-          "show_all": "Show all",
-          "hide": "Hide",
-          "change_rate_currency": "Change currency rates"
-        },
-        "vat": {
-          "label": "When choosing a winner, it is taken into account",
-          "options": {
-            "false": "Price without VAT",
-            "none": "Not specified",
-            "true": "Price with VAT"
-          }
-        },
-        "open_type": {
-          "label": "Type of request",
-          "tooltips": {
-            "0": "The circle of participants in the request is not limited",
-            "1": "The request is available for viewing and participation only to invited suppliers",
-            "editable": "Open – the circle of participants is not limited. Closed – available for viewing and participation only to invited suppliers"
-          }
-        },
-        "owner_visibility": {
-          "label": "Organizer at the stage of accepting offers",
-          "enums": {
-            "0": "Sees the participants' proposals",
-            "1": "Does not see the content of the participants' proposals"
+        "dialogs": {
+          "changes": {
+            "title": "You haven't saved the changes",
+            "cancel": "Cancel changes",
+            "submit": "Continue setup"
+          },
+          "remove": {
+            "title": "Attention!",
+            "text": "The group and its positions will be deleted",
+            "cancel": "Cancel",
+            "submit": "Delete"
           }
         }
       },
-      "bidding": {
-        "deviation_type": {
-          "label": "Offer volume"
+      "panel": {
+        "title": "Groups",
+        "collapse": "Collapse",
+        "expand": "Expand groups",
+        "configure": "Configure",
+        "error": "Error detected"
+      },
+      "info": {
+        "action": {
+          "true": "Set up",
+          "false": "More"
         },
-        "alternative_proposals": {
-          "label": "Number of alternative offers",
-          "tooltip": "Specify how many alternative proposals a participant can submit",
-          "error": "Specify a number from 0 to 10",
-          "count": "Possible number of offers, in addition to the main one: {{value }}",
-          "none": "It is forbidden to submit alternative offers"
+        "deviation": {
+          "0": "Full satisfaction",
+          "1": "Allowed variance in items and quantity",
+          "2": "Allowed variance in items"
         },
-        "price_null": "Not specified",
-        "expected_price": {
-          "label": "Expected price",
-          "placeholder": "Not set",
-          "tooltip": "Expected price level of the participant's offer"
+        "step": {
+          "0": "Price step {{value}}{{unit}}",
+          "1": "Reduction step {{value}}{{unit}}",
+          "2": "Auction step {{value}}{{unit}}"
         },
-        "participants_visibility": {
-          "label": "What the participants see"
+        "price_no_start": {
+          "1": "Reduction",
+          "2": "Auction"
         },
-        "reduction_price": {
-          "errors": {
-            "best_price_unavailable": "Value \"best offer\" is available if:\n • Volume of the offer = Full satisfaction\n • What the participants see = Competitors' offers\n • Price change rule = Reduction or Auction",
-            "step_over_start_price": "The change step exceeds the maximum price",
-            "step_range_absolute": "The range of the change step in currency: 0.01-100000",
-            "step_range_percent": "The range of the change step in percent: 0.01-10"
-          },
-          "label": "Minimum price change step",
-          "of": "from",
-          "reference": {
-            "0": "your suggestion",
-            "1": "the best offer",
-            "2": "according to the positions of your offer",
-            "3": "according to the positions of the best offer"
-          }
-        },
-        "start_price": {
-          "placeholder": "Not set",
-          "reduction": {
-            "label": "Maximum offer price",
-            "tooltip": "The highest price of the supplier's offer"
-          },
-          "auction": {
-            "label": "Minimum offer price",
-            "tooltip": "The lowest price of the supplier's offer"
-          }
-        },
-        "title": "Rules for participants",
-        "type_of_change": {
-          "label": "Price change",
-          "0": "Participants can raise and lower the price",
-          "1": "Reduction (participants can only lower the price)",
-          "2": "Auction (participants can only raise the price)"
-        },
-        "proposal_deviation_type": {
-          "0": "Full satisfaction by positions and quantity",
-          "1": "Acceptable deviation by positions and quantity"
-        },
-        "other_participants_visibility": {
-          "0": "Only your offer",
-          "1": "Only rank (place) your offer",
-          "2": "Competitors' offers – yes, names – no",
-          "3": "Offers and names of competitors",
-          "4": "The best prices among competitors bids"
+        "price_with_start": {
+          "0": "Expected price {{ value }} {{ currency }}",
+          "1": "Reduction from {{ value }} {{ currency }}",
+          "2": "Auction from {{ value }} {{ currency }}"
         }
       }
     },
@@ -137,6 +95,76 @@
         "header": "Tariff of the request",
         "cancel": "Cancel",
         "submit": "Submit"
+      }
+    },
+    "timer": {
+      "value": "<b>{{ value }}</b> left",
+      "finish": "<b>Acceptance ended</b>"
+    },
+    "rules": {
+      "positions": {
+        "fields": {
+          "deviation_type": "The volume of the participant's offer for the group",
+          "updown": "После подачи первого предложения",
+          "expected_price": "Expected bid amount",
+          "max_price": "Maximum bid amount",
+          "min_price": "Minimum bid amount",
+          "price_step": "Minimum price change step",
+          "empty_price": "not set"
+        },
+        "errors": {
+          "price_out_of_range": "Specify a value between 0.00 and 99,999,999,999.00",
+          "step_range.0": "Specify a value between 0.01 and 10",
+          "step_range.1": "Specify a value between 0.01 and 100000",
+          "max_price_gt_step": "The maximum price is less than the change step",
+          "step_gt_max_price": "The change step exceeds the maximum price",
+          "abs_step_unavailable": "Допустимо изменение в % при подаче на часть позиций",
+          "best_price_unavailable": "Value \"best offer\" is available if:\n • What the participants see = Competitors' offers\n • Price change rule = Reduction or Auction"
+        }
+      },
+      "general": {
+        "toggle": {
+          "title": "Additional settings",
+          "change": "Change",
+          "collapse": "Collapse"
+        },
+        "fields": {
+          "acceptance_date": "Accepting offers before",
+          "acceptance_date_timer": "Left",
+          "summing_up": "Approximate deadline for summing up",
+          "summing_up_none": "Not specified",
+          "summing_up_unit": "days",
+          "summing_up_text": "{{ value }} days",
+          "open_type": "Type of the request",
+          "participants_visibility": "After submitting an offer, participants see",
+          "vat": "When choosing a winner, it is taken into account",
+          "alternative_proposals": "Alternative bids",
+          "alternative_proposals_none": "Submission of alternative bids is prohibited",
+          "currency": "Request currency",
+          "prolongation_time": "Auto-renewal of accepting offers",
+          "prolongation_time_unit": "min",
+          "prolongation_time_text": "{{ value}} min",
+          "notification_hours": "A reminder to participants about the end of accepting proposals in",
+          "notification_hours_unit": "hours",
+          "extra_notification_hours": "An additional reminder to participants about the end of accepting proposals in",
+          "extra_notification_hours_unit": "hours",
+          "notification_hours_text_single": "{{ value }} hours",
+          "notification_hours_text_double": "{{ value }} and {{ extra }} hours",
+          "owner_visibility": "Organizer at the stage of accepting offers"
+        },
+        "errors": {
+          "alternative_proposals_out_of_range": "Please enter a number between 0 and 10"
+        },
+        "tooltips": {
+          "summing_up": "The participants of the request will expect the decision of the tender commission within the specified period",
+          "open_type.0": "The circle of participants in the request is not limited",
+          "open_type.1": "The request is available for viewing and participation only to invited suppliers",
+          "open_type.editable": "Open – the circle of participants is not limited. Closed – available for viewing and participation only to invited suppliers",
+          "alternative_proposals": "Indicate how many alternative bids the participant can submit",
+          "prolongation_time": "Applies if the participant submits an offer within the specified time before the deadline for accepting offers. Extension up to 99 min., 0 – without extension",
+          "notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids.",
+          "extra_notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids. If a zero is specified, the reminder is not carried out"
+        }
       }
     }
   }

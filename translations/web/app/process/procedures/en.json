@@ -48,6 +48,9 @@
             "finish_date": {
                 "title": "Completion date"
             },
+            "responsible": {
+                "title": "Responsible"
+            },
             "team": {
                 "title": "Team"
             },
@@ -82,12 +85,10 @@
             "default": "Default",
             "mytags": "My tags",
             "acceptance": "Acceptance of proposals",
-            "type_of_change": {
+            "procedure_type": {
                 "title": "Request type",
-                "labels": {
-                    "true": "Purchase",
-                    "false": "Sales"
-                }
+                "true": "Purchase",
+                "false": "Sales"
             }
         },
         "dates": {
@@ -104,6 +105,7 @@
             "export": "Export",
             "manager_title": "All requests of the company",
             "download": "Download",
+            "download_mobile": "Download report",
             "report": {
                 "period": "Report period",
                 "cancel": "Cancel",
@@ -111,7 +113,8 @@
                 "type": {
                     "0": "Vendors report",
                     "1": "All requests",
-                    "2": "Completed requests"
+                    "2": "Completed requests",
+                    "3": "My requests"
                 }
             }
         },
@@ -127,6 +130,7 @@
             "until": "before",
             "from": "from",
             "left": "{{value}} left",
+            "passed": "{{value}} passed",
             "tarrifs_popover": {
                 "title": "Request only for verified suppliers",
                 "text": "At the request of the customer, participants must have the status of \"Verified Supplier\"",

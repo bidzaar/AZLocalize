@@ -3,12 +3,12 @@
     <mj-text>
       <p class="small mb-05">The request is published on @ConfigurationContext.ProjectName. Our benefits:</p>
       <ol class="small mb-1">
-        <li>Quick registration</li>
-        <li>Free and easy bidding</li>
+        <li>Quick and easyregistration</li>
+        <li>Free offer sumbission. A supplier pays a commission if a requester chooses his offer. The commission fee is specified in the request.</li>
         <li>Wast amount of bid requests by the largest companies</li>
       </ol>
       <p class="small">
-        <a href="@ConfigurationContext.BaseUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">View more tenders on @ConfigurationContext.ProjectName ►</a>
+        <a href="@ConfigurationContext.BaseUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">View more requests on @ConfigurationContext.ProjectName ►</a>
       </p>
     </mj-text>
   </mj-column>

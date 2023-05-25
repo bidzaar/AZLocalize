@@ -151,7 +151,10 @@
                 "3": "Request completed",
                 "4": "Request canceled",
                 "until": "until {{ date }}",
-                "tooltip": "Corresponds to the date and time on your computer"
+                "pretext": "from {{ date }}",
+                "tooltip": "Corresponds to the date and time on your computer",
+                "tooltip_timer": "Until the end of the request",
+                "publish": "Publish {{ value }}"
             },
             "verification": {
                 "action": "Order service",
@@ -279,16 +282,14 @@
                 },
                 "header_cells": {
                     "menu": {
-                        "permit": {
-                            "reduction": "Allow price increase",
-                            "auction": "Allow price reduction"
-                        },
+                        "permit": "Allow price change rule to be violated",
                         "chat_participant": "Chat with a participant",
                         "deselect_positions": "Deselect bids",
                         "remove_from_procedure": "Block participant",
                         "remove_from_procedure_info": "Reversible action",
                         "select_all_positions": "Select all bids",
-                        "show_profile": "Open supplier profile"
+                        "show_profile": "Open supplier profile",
+                        "reject": "Reject a bidTəklifi rədd edin"
                     },
                     "not_full": "Variance in buyer requested quantity on some items",
                     "vat_title": "VAT",
@@ -335,7 +336,10 @@
                     "add_to_order": "Add to order",
                     "in_order": "In order: {{count}} {{unit}} ",
                     "empty": "Not available",
-                    "details": "Show details"
+                    "details": "Show details",
+                    "full_description_tooltip": "Click to see full description",
+                    "best_price_tooltip": "Best price per unit",
+                    "target_price_tooltip": "Target price per unit"
                 },
                 "position_info_dialog": {
                     "has_vat": "price incl. VAT",
@@ -344,38 +348,29 @@
                     "price_for_unit": "Target cost per unit in request currency",
                     "price_not_specified": "Price is not specified",
                     "request": "Request",
-                    "description": "Description"
+                    "description": "Description",
+                    "target_price_label": "Target price per unit",
+                    "target_price_help": "Your guideline when choosing. Hidden from participants.",
+                    "documents": "Documents",
+                    "up_to": "up to {{value}} billion"
                 },
                 "position_proposal_dialog": {
-                    "files": "Files",
                     "proposal": {
                         "title": "Bid:",
                         "at_the_price_of": "at the price of",
                         "per_unit": "per unit"
                     },
+                    "selected": {
+                        "title": "Selected",
+                        "all": "Choose all ({{value}})"
+                    },
+                    "total": "Total",
                     "with_vat": "incl. VAT",
                     "without_vat": "excl. VAT",
-                    "total": "Total",
-                    "in_order": "In order:",
-                    "add_all": "Add all\navailable quantity",
-                    "cancel": "Cancel",
-                    "save": "Save",
+                    "submit": "Select",
                     "comment": "Comment",
-                    "info": "Info",
+                    "documents": "Documents",
                     "float_count_warning": "Ensure fractional delivery is possible",
-                    "add": "Add to the order",
-                    "added_to_order": "Added to the order",
-                    "delete": "Remove from the order",
-                    "details_hidden": "Comments and competitor files are hidden",
-                    "for_unit": "for a unit",
-                    "has_vat": "prices incl. VAT",
-                    "my_request": "My request",
-                    "no_price": "Price is not specified",
-                    "no_vat": "prices excl. VAT",
-                    "order": "Order",
-                    "update": "Update",
-                    "error_count": "Order must be greater than 0",
-                    "error_max_count": "Order more offer",
                     "success_snack": "Data saved"
                 },
                 "position_proposal_total_dialog": {
@@ -433,10 +428,16 @@
                 "sorting": {
                     "button": "Proposals order",
                     "tooltip": "Customize order of offers",
-                    "0": "First with the best price",
+                    "0": {
+                        "1": "Initially with a minimum bid price",
+                        "2": "First with the maximum bid price"
+                    },
                     "1": "First with complete satisfaction",
                     "2": "First with the highest ranks by position",
-                    "3": "First with order"
+                    "3_false": "First rank first",
+                    "3_true": "At the beginning with the first ranks by positions",
+                    "4": "Last updated first",
+                    "all_groups": "In all groups"
                 },
                 "group": {
                     "settings": "Settings"
@@ -462,13 +463,15 @@
                 "paginator": {
                     "title": "Bids",
                     "from": "from",
-                    "info": "use navigator\nto view other offers"
+                    "info": "use navigator\nto view other offers",
+                    "placeholder": "Bids: {{value}}"
                 },
                 "basis": {
                     "button": "Price comparison",
                     "target_price": "Relative to target value",
                     "first_price": "Relative to the original offer",
-                    "best_price": "Relative to the best offer"
+                    "best_price": "Relative to the best offer",
+                    "tooltip": "Price comparison of participants' bids"
                 },
                 "participants_filter": {
                     "button": "Suppliers",
@@ -483,6 +486,27 @@
                     "submit": "Submit",
                     "supplier_not_found": "Supplier not found",
                     "supplier_not_found_help": "Make sure the supplier has submitted an offer.\nSearch by name or TIN."
+                },
+                "position_group_cell": {
+                    "best_price_tooltip": "Best bid price",
+                    "select_group": "Select group",
+                    "change_price": "Change price",
+                    "selected": "Selected",
+                    "selected_count": "{{value}} from {{count}}",
+                    "downt_have_any": "not filed",
+                    "fake_group_name": "Bid price",
+                    "select_bid": "Select bid"
+                },
+                "total_row": {
+                    "total": "Total, {{currency}}",
+                    "positions": "(for positions in the bid)",
+                    "filled": "({{value}} from {{total}})"
+                },
+                "positions_filters": {
+                    "all": "All positions",
+                    "less_prices": "Prices are worse than competitors",
+                    "have_any": "Included in the offer",
+                    "menu_title": "Show positions"
                 }
             },
             "dialogs": {
@@ -564,7 +588,8 @@
                     "next": "Complete round",
                     "success": "Bidding round completed",
                     "time_tooltip": "end of the round",
-                    "time": "End of the current bidding round:"
+                    "time": "End of the current bidding round:",
+                    "pretext_time": "via"
                 },
                 "leave": {
                     "header": "Decline to submit a bid",
@@ -654,9 +679,13 @@
                             "title": "Request's documents"
                         },
                         "NdaEnabled": {
-                            "NoData": {
-                                "notice": "description or documents of the stage are not specified",
-                                "title": "Prequalification stage"
+                            "NoDescription": {
+                                "title": "Prequalification / NDA",
+                                "notice": "specify the description of the pre-qualification / NDA"
+                            },
+                            "NoFiles": {
+                                "title": "Prequalification / NDA",
+                                "notice": "add documents of the pre-qualification / NDA"
                             }
                         },
                         "Positions": {
@@ -681,6 +710,10 @@
                         },
                         "ReductionStepPercent": {
                             "notice": "invalid settings",
+                            "title": "Minimum price increment"
+                        },
+                        "ReductionStepMoreThanPriceAbsolute": {
+                            "notice": "minimum step of price change exceeds the starting price",
                             "title": "Minimum price increment"
                         },
                         "VatEnabled": {
@@ -715,6 +748,24 @@
                             "NdaCannotBeEnabled": {
                                 "notice": "magic doesn't work if the prequalification stage is enabled / NDA",
                                 "title": "Gold request"
+                            }
+                        },
+                        "ProcedurePositionGroup": {
+                            "Empty": {
+                                "title": "There are no positions in the group {{ name }}",
+                                "notice": ""
+                            },
+                            "Name.Empty": {
+                                "title": "The group name is not specified",
+                                "notice": ""
+                            },
+                            "AcceptanceEndNotificationHours.OutOfRange": {
+                                "title": "Напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
+                                "notice": ""
+                            },
+                            "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+                                "title": "Дополнительное напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
+                                "notice": ""
                             }
                         }
                     },
@@ -797,6 +848,7 @@
                 },
                 "nda_decision": {
                     "title": "Participant admission decision",
+                    "warning": "A solution for selected participants who have submitted applications. Other participants are ignored.",
                     "accept": {
                         "title": "Admit participant",
                         "text": "The participant will have access to the specification and request documents",
@@ -827,13 +879,54 @@
                             "true": "You can add your message to our letter to the winning participants"
                         }
                     }
+                },
+                "reject_proposal": {
+                    "title": "Reject a participant's bid",
+                    "label": "Message to the participant",
+                    "placeholder": "Specify the reason for the rejection",
+                    "permit_rise": "Allow a bidder to violate the price change rule once when submitting an amended bid",
+                    "cancel": "Cancel",
+                    "submit": "Reject"
+                },
+                "block_participants": {
+                    "title": {
+                        "true": "Block participants",
+                        "false": "Block participant"
+                    },
+                    "success": {
+                        "true": "Participants are blocked",
+                        "false": "Participant is blocked"
+                    },
+                    "actions": {
+                        "submit": "Block",
+                        "cancel": "Cancel"
+                    },
+                    "text": {
+                        "count": "Participants will be blocked: <b>{{count }}.</b>",
+                        "block": {
+                            "true": "After blocking:\n• Offers of blocked participants will be deleted\n• Blocked participants will not be able to submit offers",
+                            "false": "After blocking:\n• The participant's offer will be deleted\n• The participant cannot submit an offer"
+                        },
+                        "undo": "You can cancel the blocking at the stage of accepting offers"
+                    }
                 }
             },
             "header": {
                 "back": "Done",
                 "editing": "(Editing)",
                 "positions": "Goods and services",
-                "questionnaire": "Non-price estimates"
+                "questionnaire": {
+                    "title": "Non-price estimates",
+                    "actions_template": {
+                        "save": "Save template",
+                        "list": "List of templates",
+                        "import_export": "Import/ Export"
+                    }
+                },
+                "import_export": {
+                    "export": "Download file to fill in",
+                    "import": "Uploading a questionnaire from a file"
+                }
             },
             "number": "Code",
             "participant": {
@@ -1057,7 +1150,7 @@
                             "success": "Bid changed"
                         },
                         "submit": {
-                            "default": {
+                            "confirmation": {
                                 "actions": {
                                     "cancel": {
                                         "primary": "Cancel",
@@ -1073,10 +1166,10 @@
                                     "repeated": "The bid updated"
                                 },
                                 "text": {
-                                    "primary": "You can change your bid at any time before the acceptance end date.\n\nThe requester gives preference to verified participants when choosing winners.",
+                                    "primary": "You can change the offer before the end of accepting offers.",
                                     "repeated": "The requester will receive a notification about updating your offer.",
-                                    "confirmation": "I agree with the terms of payment for the services in case of winning the request in accordance with",
-                                    "agreement": "the user agreement"
+                                    "confirmation": "I agree with the terms of payment for the Service operator's Commission in case of winning the request.",
+                                    "agreement": "The user agreement."
                                 }
                             },
                             "failure": {
@@ -1092,7 +1185,6 @@
                                 "helper_auction": {
                                     "label": "How to submit a bid, which violate the rights of the price change?",
                                     "description": {
-                                        "label": "You can request a one-time permission to submit an offer that violates the established price change rules",
                                         "1": "In chat with the customer request permission to submit a one-time proposal that violates the established rule for price changes",
                                         "2": "The customer will inform you of their decision in the chat",
                                         "3": "If you receive permission, you will be able to submit a one-time offer that violates the established rule for price changes"
@@ -1170,7 +1262,12 @@
                         "title": "We invite you to participate",
                         "info": "Participate to submit an offer and chat with the customer in the request chat",
                         "submit": "Participate",
-                        "cancel": "I will think about it"
+                        "cancel": "I will think about it",
+                        "agreements": {
+                            "order": "Согласен с оплатой комиссии при выборе моего предложения Заказчиком",
+                            "users": "Нажимая кнопку \"Принять участие\", вы принимаете условия <a href=\"{{value}}\" target=\"_blank\">Пользовательского соглашения</a>",
+                            "tooltip": "Оплачивается только участниками, выбранными Заказчиком и не зависит от подписания договора между Заказчиком и Участником. Размер комиссии зависит от суммы выбранных Заказчиком позиций."
+                        }
                     },
                     "verification": {
                         "text": "The organizer gives preference to verified suppliers.",
@@ -1238,7 +1335,8 @@
                             "draft": "Invitations will be sent after the publication of the request."
                         },
                         "errors": {
-                            "duplicate": "This email is already in the list"
+                            "duplicate": "This email is already in the list",
+                            "invalid": "Incorrect email specified. Sample: myemail@email.com"
                         },
                         "success": {
                             "default": "Invitation sent",
@@ -1330,6 +1428,9 @@
                             "button": "Block participant",
                             "notice": "Reversible action"
                         },
+                        "block_stage": {
+                            "button": "Block those who have not submitted an offer at the current stage"
+                        },
                         "invite_email": {
                             "button": "By email"
                         },
@@ -1374,6 +1475,10 @@
                             "title": "Download current prequalification applications/NDA",
                             "tooltip": "Download current prequalification applications/NDA"
                         },
+                        "block_participants": {
+                            "title": "Block participants without an offer",
+                            "tooltip": "Block participants without an offer"
+                        },
                         "unblock_many": {
                             "button": "Unblock participants",
                             "tooltip": "Unblock selected participants"
@@ -1384,7 +1489,8 @@
                         "nda": {
                             "title": "Prequalification stage",
                             "request": "Prequalification stage documents",
-                            "decision": "Admission decision"
+                            "decision": "Admission decision",
+                            "open": "Open an application"
                         },
                         "permit_change": {
                             "reduction": {
@@ -1933,7 +2039,6 @@
                         "tooltip": "Add request description, specifications, draft contract. The maximum file size is {{value}} MB."
                     },
                     "guest": {
-                        "stub": "Information is available only to company employees.\nLog in or register your company for free on the site.",
                         "stub_contact": "Information is available after the start of work on the proposal."
                     },
                     "name": {

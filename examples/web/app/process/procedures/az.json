@@ -11,12 +11,12 @@
     "empty_list": "Sorğunuz üçün heç bir nəticə tapılmadı...",
     "enums": {
       "participant_business_status": {
-        "0": "Sifarişlər alınıb",
+        "0": "[AT] qalib",
         "1": "Təklif təqdim olunub",
         "10": "Bloklanıb",
         "2": "Təkliflərin hazırlanması",
-        "3": " İlkin kvalifikasiya və NDA sənədləri təqdim olundu",
-        "4": "İlkin kvalifikasiyaya hazırlıq",
+        "3": "[AT] ərizə verildi (NDA / hazırlıq)",
+        "4": "[AT] ərizə hazırlığı(NDA / hazırlıq)",
         "5": "Sorğuları nəzərdən keçirib",
         "6": "Dəvətləri nəzərdən keçirib",
         "7": "Dəvət edilib",
@@ -52,10 +52,13 @@
       "mytags": "[AT] etiketlərimlə",
       "acceptance": "[AT] Təkliflərin qəbulu",
       "favorite": {
-        "title": "★ İlk öncə seçilmişlər"
+        "title": "[AT] ★ Yalnız Sevimlilər"
       },
       "finish_date": {
         "title": "Tamamlanma tarixi"
+      },
+      "responsible": {
+        "title": "[AT] Məsul"
       },
       "joins_count": {
         "title": "iştirak edənlərin ümumi sayı"
@@ -72,7 +75,7 @@
       "publish_date": {
         "title": "Dərc olunan tarix"
       },
-      "search_tooltip": "Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Teqlər\n• Sifarişçi",
+      "search_tooltip": "[AT] Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Teqlər\n• Mövqe adları",
       "status": {
         "title": "Status"
       },
@@ -91,12 +94,10 @@
         "public": "Açıq",
         "title": "Sorğunun növü"
       },
-      "type_of_change": {
+      "procedure_type": {
         "title": "Sorğu növü",
-        "labels": {
-          "true": "Satınalma",
-          "false": "Satış"
-        }
+        "true": "Satınalma",
+        "false": "Satış"
       }
     },
     "list_item": {
@@ -107,7 +108,7 @@
       "owners_empty": "[AT] sahiblər yoxdur"
     },
     "manager": {
-      "search_tooltip": "Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Sorğu teqləri"
+      "search_tooltip": "[AT] Axtarış xanalarla həyata keçirilir:\n• Nömrə\n• Adı\n• Təsvir\n• Sorğu teqləri• Mövqe adları"
     },
     "my": {
       "create": "Sorğu yaratmaq",
@@ -115,14 +116,16 @@
       "manager_title": "Şirkətin bütün sorğuları",
       "title": "Mənim sorğularım",
       "download": "Yüklə",
+      "download_mobile":"[AT] hesabatı Yükləyin",
       "report": {
         "period": "Hesabat dövrü",
         "cancel": "Ləğv et",
         "download": "Yüklə",
         "type": {
           "0": "Alıcı statistikası.",
-          "1": "[AT] Bütün sorğular",
-          "2": "[AT] Tamamlanmış sorğular"
+          "1": "[AT] Bütün şirkət sorğuları",
+          "2": "[AT] Tamamlanmış sorğular",
+          "3": "Mənim sorğularım"
         }
       }
     },
@@ -134,6 +137,7 @@
     "public": {
       "from": "from\n",
       "left": "{{value}} qaldı",
+      "passed":"[AT] {{value}} keçdi",
       "tarrifs_popover": {
         "button": "Status əldə etmək",
         "button_verified": "Yoxlama bitdi",

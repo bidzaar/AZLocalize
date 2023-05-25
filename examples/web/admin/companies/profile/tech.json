@@ -72,6 +72,35 @@
             "false": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.enabled.false"
           }
         },
+        "csm": {
+          "title": "web/admin/companies/profile: cmp.profile.company.viewer.csm.title",
+          "pin": "web/admin/companies/profile: cmp.profile.company.viewer.csm.pin",
+          "unpin": "web/admin/companies/profile: cmp.profile.company.viewer.csm.unpin",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.csm.empty",
+          "journal": "web/admin/companies/profile: cmp.profile.company.viewer.csm.journal",
+          "success": "web/admin/companies/profile: cmp.profile.company.viewer.csm.success",
+          "dialog": {
+            "table": {
+              "header": {
+                "size": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.size",
+                "role": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.role",
+                "employee": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.employee",
+                "event": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.event",
+                "initiator": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.initiator",
+                "date": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.date"
+              },
+              "role": {
+                "0": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.role.0",
+                "1": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.role.1"
+              },
+              "event": {
+                "0": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.event.0",
+                "1": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.event.1"
+              },
+              "empty": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.empty"
+            }
+          }
+        },
         "esg": {
           "title": "web/admin/companies/profile: cmp.profile.company.viewer.esg.title",
           "change": "web/admin/companies/profile: cmp.profile.company.viewer.esg.change",

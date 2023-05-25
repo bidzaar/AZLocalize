@@ -33,7 +33,8 @@
     },
     "status": {
       "since": ".",
-      "until": "kimi"
+      "until": "kimi",
+      "orders": "[AT] qalib olmadan tamamlandı"
     },
     "timer": {
       "days": "gün",

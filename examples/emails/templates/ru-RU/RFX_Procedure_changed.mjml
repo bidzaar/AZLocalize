@@ -8,7 +8,7 @@
       <mj-column>
         <mj-text>
           <h1 class="bb">Запрос изменён</b></h1>
-          <p>Ознакомьтесь с изменениями и проверьте актуальность своего предложения.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Ознакомьтесь с изменениями</a> и проверьте актуальность своего предложения.</p>
           <p class="mb-0"><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
@@ -16,7 +16,6 @@
           <p>
             <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />            
             <b>Извещение: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
-            <span style="white-space: pre-line"><b>Изменения в запросе:</b><br /> @ProcedureVersionContext.ChangeLog</span>
           </p>
         </mj-text>
         <mj-button href="@ProcedureContext.Url">Перейти к запросу</mj-button>

@@ -61,7 +61,7 @@
             "country": {
               "header": "Şirkətin təsis olunduğu ölkə"
             },
-            "dadata": {
+            "service": {
               "approve": {
                 "address": "Hüquqi ünvan",
                 "cancel": "Digər şirkət",

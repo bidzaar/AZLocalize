@@ -93,5 +93,9 @@
     "ChangedProcedure": "Sifarişçi sorğuya dəyişikliklər etdi. Təklifinizin uyğunluğunu yoxlayın!",
     "ChangeTeamMemberRights": "{UserName} üçün rol dəyişildi",
     "DeleteTeamMember": "Əməkdaş komandadan uzaqlaşdırıldı: {UserName}.",
-    "ProcedureTariffChanged": "Cari Sorğu üçün Xidmət operatorunun haqqı dəyişdirildi. Təchizatçıların Sorğu prosedurunda davamlı iştirakı dəyişikliklərin qəbul edilməsi deməkdir, fikir ayrılığı olduqda Təchizatçı Sorğuda iştirakdan imtina etməlidir."
+    "ProcedureTariffChanged": "Cari Sorğu üçün Xidmət operatorunun haqqı dəyişdirildi. Təchizatçıların Sorğu prosedurunda davamlı iştirakı dəyişikliklərin qəbul edilməsi deməkdir, fikir ayrılığı olduqda Təchizatçı Sorğuda iştirakdan imtina etməlidir.",
+    "ProposalRejected": "Müştəri \"{ProposalType}\" təklifinizi rədd etdi. Səbəb: {Səbəb}.",
+    "ProposalRejected.ProposalType.Alternative": "Alternativ",
+    "ProposalRejected.ProposalType.Main": "Əsas",
+    "ProcedureEndedBroadcastWithoutOrder": "Sorğu qalib seçilmədən başa çatdı. Səbəb: {səbəb}. Bütün iştirakçılara təşəkkür edirik!"
 }

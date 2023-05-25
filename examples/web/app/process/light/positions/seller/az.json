@@ -52,106 +52,28 @@
       }
     },
     "positions": {
-      "header": {
-        "close": "Təklifə keç",
-        "title": "Maddələrin spesifikasiyası"
-      },
+      "total": "Bu: <b>{{ price }} {{ currency }}</b>",
       "forbidden": {
         "notice": "",
         "text": "",
         "title": "Məlumat hazırda mövcud deyil"
       },
-      "common": {
-        "currency": {
-          "participant": "iştirakçının valyutasında",
-          "request": "sorğunun valyutasında"
-        },
-        "vat": {
-          "false": "ƏDV-siz",
-          "null": "",
-          "true": "ƏDV daxil",
-          "none": "Pulsuz"
-        }
-      },
-      "summary": {
-        "actions": {
-          "submit": "Təklifi yenilə"
-        },
-        "best": {
-          "title": "Ən yaxşı təklif",
-          "tooltip": "Bütün təqdim olunan təkliflər arasında"
-        },
-        "current": {
-          "title": {
-            "false": "Alternativ",
-            "true": "Mənim təklifim"
-          },
-          "tooltip": "Sorğunun əsas valyutasında təklif qiyməti"
-        },
-        "previous": {
-          "title": "Əvvəlki",
-          "tooltip": "Daha öncə təqdim edilmiş təklifin qiyməti"
-        },
-        "timer": {
-          "title": "Vaxt qalıb",
-          "tooltip": "Təklifin bitməyinə"
-        },
-        "reference_price": {
-          "title": "[AT] Qiymət dəyişikliyi addımı",
-          "tooltip": "[AT] Təklif qiymətini dəyişdirə biləcəyiniz addım"
-        }
-      },
       "filters": {
         "empty": "Kateqoriyada maddə yoxdur",
         "options": {
           "0": "Bütün maddələr",
-          "1": "Mövcud",
-          "2": "Aşağı dərəcə",
-          "3": "Mövcud deyil"
+          "1": "[AT] Tenderə daxildir",
+          "2": "[AT] Tenderə daxil deyil",
+          "3": "[AT] Qiymətlər rəqiblərdən daha pisdir"
         }
       },
       "actions": {
         "download": "Şablonu endir",
         "import": "Mövqeləri idxal et",
-        "upload": "Fayldan yüklə"
+        "upload": "Fayldan yüklə",
+        "patch": "Не подавать предложение по группе"
       },
       "table": {
-        "groups": {
-          "position": "[AT] Təşkilatçı sütunları",
-          "proposal": "[AT] Satıcı sütunları"
-        },
-        "columns": {
-          "position": {
-            "index": "№",
-            "name": "Ad",
-            "description": "Təsvir",
-            "count": "Miqdar",
-            "unit": "Ölçü vahidi",
-            "target_price": "Vahid başına hədəf dəyəri, {{ value }}",
-            "max_price": "Vahid başına maksimum xərc, {{ value }}",
-            "min_price": "Vahid üçün minimum xərc, {{ value }}",
-            "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
-            "best_price": "[AT] Vahid başına ən yaxşı qiymət, {{ value }}",
-            "documents": "Sənədlər"
-          },
-          "proposal": {
-            "availability": "Mövcudluq",
-            "count": "Miqdar",
-            "rank": "[AT] Rütbə",
-            "total": "[AT] Ümumi, {{ value }}",
-            "vat": "ƏDV dərəcəsi",
-            "price_none_vat": "Vahid başına qiymət",
-            "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
-            "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
-            "currency": "Valyuta",
-            "comment": "Şərh" ,
-            "documents": "Sənədlər",
-            "prev_price": "[AT] Əvvəlki vahid qiyməti"
-          }
-        },
-        "tooltips": {
-
-        },
         "validation": {
           "currency": {
             "invalid": "[AT] Valyuta sorğunun qaydalarında göstərilən valyutaların siyahısına daxil edilməyib"
@@ -173,11 +95,16 @@
             "not_equal_to_position": "[AT] Sorğudakı kəmiyyətdən sapma"
           },
           "price": {
+            "lt_minimum": "Отрицательная цена недопустима",
+            "gt_maximum": "Укажите цену меньше 99 млрд",
             "equal_to_zero": "[AT] Qiyməti qeyd olunmayıb",
             "equal_to_zero_count_gte_zero": "[AT] Qiyməti qeyd olunmayıb. Mövqe yoxdursa, \"Stokda yoxdur\" yazın",
-            "start_price_auction": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
-            "start_price_reduction": "Vahid qiymətiniz {{currency}}({{price}} {{currency}}) Müştəri tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
-            "refer_price_step": "[AT] Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə Müştəri tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})"
+            "start_price_auction": "[AT] Vahid başına qiymət ilkin minimumdan böyük və ya ona bərabər olmalıdır: {{price}} {{currency}}",
+            "start_price_reduction": "[AT] Vahid başına qiymət ilkin maksimumdan az və ya ona bərabər olmalıdır: {{price}} {{currency}}",
+            "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
+            "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
+            "refer_price_auction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
+            "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az."
           }
         }
       }

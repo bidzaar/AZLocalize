@@ -53,36 +53,36 @@
       },
       "participant_business_status": {
         "0": {
-          "name": "Order received",
-          "tooltip": "The requester chose a supplier offer"
+          "name": "Winner",
+          "tooltip": "The customer chose the supplier's offer"
         },
         "1": {
           "name": "Submitted bid",
-          "tooltip": "The supplier submitted an offer for request"
+          "tooltip": ""
         },
         "2": {
           "name": "Prepared bid",
-          "tooltip": "The supplier prepares an offer for request"
+          "tooltip": ""
         },
         "3": {
-          "name": "Provided NDA Documents ",
-          "tooltip": "Supplier has applied for prequalification / NDA and is awaiting your decision"
+          "name": "Application submitted (NDA/prequalification)",
+          "tooltip": "The participant is waiting for your decision on admission"
         },
         "4": {
-          "name": "Prequalification preparation",
+          "name": "Application preparation (NDA/prequalification)",
           "tooltip": "The supplier prepares documents for prequalification / NDA"
         },
         "5": {
           "name": "Viewed the request",
-          "tooltip": "The supplier opened the request description using the link from the invitation letter"
+          "tooltip": "The participant moved to the request from the invitation"
         },
         "6": {
           "name": "Viewed the invitation",
-          "tooltip": "The supplier opened the invitation letter"
+          "tooltip": "The participant opened the invitation"
         },
         "7": {
           "name": "Invited",
-          "tooltip": "An invitation has been sent to the supplier's email"
+          "tooltip": "The invitation has been sent to the participant's email"
         },
         "8": {
           "name": "Added",
@@ -90,15 +90,15 @@
         },
         "9": {
           "name": "Rejected participation",
-          "tooltip": "The supplier declined to submit a bid in the request"
+          "tooltip": ""
         },
         "10": {
           "name": "Blocked",
-          "tooltip": "The requester of the request has blocked the supplier"
+          "tooltip": "The customer has blocked the participant"
         },
         "11": {
           "name": "Invited by email",
-          "tooltip": "Invitation Letter has been sent to supplier's email"
+          "tooltip": "The invitation has been sent to the participant's email"
         }
       },
       "proposal_deviation_type": {
@@ -151,7 +151,10 @@
         "3": "Request completed",
         "4": "Request canceled",
         "until": "until {{ date }}",
-        "tooltip": "Corresponds to the date and time on your computer"
+        "pretext": "from {{ date }}",
+        "tooltip": "Corresponds to the date and time on your computer",
+        "tooltip_timer": "Until the end of the request",
+        "publish": "Publish {{ value }}"
       },
       "verification": {
         "action": "Order service",
@@ -186,7 +189,7 @@
           "table": "Table"
         },
         "answer_cell": {
-          "hidden": "Information is hidden",
+          "hidden": "Not available",
           "no_answer": "No answer given",
           "no_attachment": "No file uploaded",
           "private": "The answer to the question is Private and is visible only to you, as the Organizer",
@@ -207,7 +210,7 @@
             "multiple": {
               "more": "more"
             }
-          },          
+          },
           "custom": {
             "true": "Yes",
             "false": "No"
@@ -221,13 +224,13 @@
         "change_proposal_price_dialog": {
           "best_proposal": "Best bid",
           "cancel": "Cancel",
-          "change_step": "Changing step",
+          "change_step": "Change from current",
           "down": "Down",
           "important": "Important:",
           "info": "the price will be changed proportionally for each item. Subject to rounding, a deviation from the indicated New Price is possible. To change prices for individual items, go to the Items Specification in your offer.",
           "new_price": "New price",
-          "reduction_step": "Reduction step",
-          "auction_step": "Price increase step",
+          "reduction_step": "Decrease from the current",
+          "auction_step": "Increase relative to the current",
           "title": "bid price changing",
           "title_reduction": "Decrease in the offer price",
           "title_auction": "Increase in the offer price",
@@ -279,21 +282,19 @@
         },
         "header_cells": {
           "menu": {
-            "permit": {
-              "reduction": "Allow price increase",
-              "auction": "Allow price reduction"
-            },
+            "permit": "Allow price change rule to be violated",
             "chat_participant": "Chat with a participant",
             "deselect_positions": "Deselect bids",
             "remove_from_procedure": "Block participant",
             "remove_from_procedure_info": "Reversible action",
             "select_all_positions": "Select all bids",
-            "show_profile": "Open supplier profile"
+            "show_profile": "Open supplier profile",
+            "reject": "Reject a bidTəklifi rədd edin"
           },
           "not_full": "Variance in buyer requested quantity on some items",
           "vat_title": "VAT",
           "proposals": "BID SUMMARY",
-          "alternative": "Alternative",
+          "alternative": "Alternative bid {{value}}",
           "actions": "Actions",
           "verified_tooltip": "Company is accredited in your company registry",
           "best_price": {
@@ -334,8 +335,11 @@
           "rank_tooltip": "Bid rank",
           "add_to_order": "Choose",
           "in_order": "In order: {{count}} {{unit}} ",
-          "empty": "Not available",
-          "details": "Show details"
+          "empty": "Not filed",
+          "details": "Show details",
+          "full_description_tooltip": "Click to see full description",
+          "best_price_tooltip": "Best price per unit",
+          "target_price_tooltip": "Target price per unit"
         },
         "position_info_dialog": {
           "has_vat": "price incl. VAT",
@@ -344,39 +348,29 @@
           "price_for_unit": "Target cost per unit in request currency",
           "price_not_specified": "Price is not specified",
           "request": "Request",
-          "description": "Description"
+          "description": "Description",
+          "target_price_label": "Target price per unit",
+          "target_price_help": "Your guideline when choosing. Hidden from participants.",
+          "documents": "Documents",
+          "up_to": "up to {{value}} billion"
         },
         "position_proposal_dialog": {
-          "files": "Files",
           "proposal": {
-            "title": "Bid:",
+            "title": "Bid",
             "at_the_price_of": "by",
             "per_unit": "per unit"
           },
+          "selected": {
+            "title": "Selected",
+            "all": "Choose all ({{value}})"
+          },
+          "total": "Total, {{currency}}",
           "with_vat": "incl. VAT",
           "without_vat": "excl. VAT",
-          "total": "Total",
-          "in_order": "Selected:",
-          "add_all": "Add all",
-          "cancel": "Cancel",
-          "save": "Save",
+          "submit": "Select",
           "comment": "Comment",
-          "info": "Info",
+          "documents": "Documents",
           "float_count_warning": "Ensure fractional delivery is possible",
-          
-          "add": "Add to the order",
-          "added_to_order": "Added to the order",
-          "delete": "Remove from the order",
-          "details_hidden": "Comments and competitor files are hidden",
-          "for_unit": "for a unit",
-          "has_vat": "prices incl. VAT",
-          "my_request": "My request",
-          "no_price": "Price is not specified",
-          "no_vat": "prices excl. VAT",
-          "order": "Order",
-          "update": "Update",
-          "error_count": "Order must be greater than 0",
-          "error_max_count": "Order more offer",
           "success_snack": "Data saved"
         },
         "position_proposal_total_dialog": {
@@ -423,7 +417,7 @@
           "positions": "Item specification",
           "questionnaire": "Non-price criteria"
         },
-        "hidden_proposals_info": "Competitors' offers are hidden\nrequest settings",
+        "hidden_proposals_info": "Competitors' offers are hidden",
         "change_price": "Change price",
         "fast_price_change_not_available_dialog": {
           "title": "Fast price change not available",
@@ -432,12 +426,18 @@
           "cancel": "Cancel"
         },
         "sorting": {
-          "button": "Proposals",
+          "button": "Sorting",
           "tooltip": "Customize order of offers",
-          "0": "First with the best price",
-          "1": "First with complete satisfaction",
-          "2": "First with the highest ranks by position",
-          "3": "First with order"
+          "0": {
+            "1": "Initially with a minimum bid price",
+            "2": "First with the maximum bid price"
+          },
+          "1": "First with order",
+          "2": "First with complete satisfaction",
+          "3_false": "First rank first",
+          "3_true": "At the beginning with the first ranks by positions",
+          "4": "Last updated first",
+          "all_groups": "In all groups"
         },
         "group": {
           "settings": "Settings"
@@ -463,18 +463,21 @@
         "paginator": {
           "title": "Bids",
           "from": "from",
-          "info": "use navigator\nto view other offers"
+          "info": "use navigator\nto view other offers",
+          "placeholder": "Bids: {{value}}"
         },
         "basis": {
           "button": "Price comparison",
-          "target_price": "Relative to target value",
+          "target_price": "Relative to target price",
           "first_price": "Relative to the original offer",
-          "best_price": "Relative to the best offer"
+          "best_price": "Relative to the best price",
+          "tooltip": "Price comparison of participants' bids"
         },
         "participants_filter": {
-          "button": "Suppliers",
+          "button": "Filter",
           "tooltip": "Filter suppliers"
-        },"companies_filter_dialog": {
+        },
+        "companies_filter_dialog": {
           "selected": "Selected: {{value}}",
           "tin": "TIN",
           "search": "Search:",
@@ -483,6 +486,27 @@
           "submit": "Submit",
           "supplier_not_found": "Supplier not found",
           "supplier_not_found_help": "Make sure the supplier has submitted an offer.\nSearch by name or TIN."
+        },
+        "position_group_cell": {
+          "best_price_tooltip": "Best bid price",
+          "select_group": "Select group",
+          "change_price": "Change price",
+          "selected": "Selected",
+          "selected_count": "{{value}} from {{count}}",
+          "downt_have_any": "not filed",
+          "fake_group_name": "Bid price",
+          "select_bid": "Select bid"
+        },
+        "total_row": {
+          "total": "Total, {{currency}}",
+          "positions": "(for positions in the bid)",
+          "filled": "({{value}} from {{total}})"
+        },
+        "positions_filters": {
+          "all": "All positions",
+          "less_prices": "Prices are worse than competitors",
+          "have_any": "Included in the offer",
+          "menu_title": "Show positions"
         }
       },
       "dialogs": {
@@ -559,12 +583,13 @@
         },
         "finish_round": {
           "cancel": "Cancel",
-          "header": "Complete the bidding round ahead of schedule",
+          "header": "Finish accepting offers ahead of schedule?",
           "message": "Participants will not be able to submit or modify their proposals. After summarizing the round, you can announce a new bidding round.",
           "next": "Complete round",
-          "success": "Bidding round completed",
+          "success": "Acceptance of offers is completed",
           "time_tooltip": "end of the round",
-          "time": "End of the current bidding round:"
+          "time": "Current deadline for accepting offers:",
+          "pretext_time": "via"
         },
         "leave": {
           "header": "Decline to submit a bid",
@@ -654,9 +679,13 @@
               "title": "Request's documents"
             },
             "NdaEnabled": {
-              "NoData": {
-                "notice": "description or documents of the stage are not specified",
-                "title": "Prequalification / NDA"
+              "NoDescription": {
+                "title": "Prequalification / NDA",
+                "notice": "specify the description of the pre-qualification / NDA"
+              },
+              "NoFiles": {
+                "title": "Prequalification / NDA",
+                "notice": "add documents of the pre-qualification / NDA"
               }
             },
             "Positions": {
@@ -672,15 +701,19 @@
               "title": "Requirements for participants and conditions of request"
             },
             "ReductionStep": {
-              "notice": "invalid settings",
+              "notice": "specify the correct minimum step of price change",
               "title": "Minimum price increment"
             },
             "ReductionStepAbsolute": {
-              "notice": "invalid settings",
+              "notice": "specify the correct minimum step of price change",
               "title": "Minimum price increment"
             },
             "ReductionStepPercent": {
-              "notice": "invalid settings",
+              "notice": "specify the correct minimum step of price change",
+              "title": "Minimum price increment"
+            },
+            "ReductionStepMoreThanPriceAbsolute": {
+              "notice": "minimum step of price change exceeds the starting price",
               "title": "Minimum price increment"
             },
             "VatEnabled": {
@@ -715,6 +748,24 @@
               "NdaCannotBeEnabled": {
                 "notice": "magic doesn't work if the prequalification stage is enabled / NDA",
                 "title": "Gold request"
+              }
+            },
+            "ProcedurePositionGroup": {
+              "Empty": {
+                "title": "There are no positions in the group {{ name }}",
+                "notice": ""
+              },
+              "Name.Empty": {
+                "title": "The group name is not specified",
+                "notice": ""
+              },
+              "AcceptanceEndNotificationHours.OutOfRange": {
+                "title": "Напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
+                "notice": ""
+              },
+              "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+                "title": "Дополнительное напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
+                "notice": ""
               }
             }
           },
@@ -797,19 +848,20 @@
         },
         "nda_decision": {
           "title": "Participant admission decision",
+          "warning": "A solution for selected participants who have submitted applications. Other participants are ignored.",
           "accept": {
-            "title": "Admit participant",
-            "text": "The participant will have access to the specification and request documents",
+            "title": "Allow to participate in the request",
+            "text": "Access to the specification and the request documents will be open",
             "result": "Participant admitted"
           },
           "reject": {
-            "title": "Reject a participant's request",
-            "text": "A repeated request for access is possible after the request is corrected",
-            "result": "The participant's request has been sent for correction"
+            "title": "Reject the application",
+            "text": "Re-submission is possible after the correction of the application",
+            "result": "Application rejected"
           },
           "comment_placeholder": "Chatting with a participant ...",
           "cancel": "Cancel",
-          "submit": "Make a decision"
+          "submit": "Confirm the decision"
         },
         "returnToSummary": {
           "title": "Returning a summary request",
@@ -827,13 +879,54 @@
               "true": "You can add your message to our letter to the winning participants"
             }
           }
+        },
+        "reject_proposal": {
+          "title": "Reject a participant's bid",
+          "label": "Message to the participant",
+          "placeholder": "Specify the reason for the rejection",
+          "permit_rise": "Allow a bidder to violate the price change rule once when submitting an amended bid",
+          "cancel": "Cancel",
+          "submit": "Reject"
+        },
+        "block_participants": {
+          "title": {
+            "true": "Block participants",
+            "false": "Block participant"
+          },
+          "success": {
+            "true": "Participants are blocked",
+            "false": "Participant is blocked"
+          },
+          "actions": {
+            "submit": "Block",
+            "cancel": "Cancel"
+          },
+          "text": {
+            "count": "Participants will be blocked: <b>{{count }}.</b>",
+            "block": {
+              "true": "After blocking:\n• Offers of blocked participants will be deleted\n• Blocked participants will not be able to submit offers",
+              "false": "After blocking:\n• The participant's offer will be deleted\n• The participant cannot submit an offer"
+            },
+            "undo": "You can cancel the blocking at the stage of accepting offers"
+          }
         }
       },
       "header": {
         "back": "Done",
         "editing": "(Editing)",
         "positions": "Goods and services",
-        "questionnaire": "Non-price estimates"
+        "questionnaire": {
+          "title": "Non-price estimates",
+          "actions_template": {
+            "save": "Save template",
+            "list": "List of templates",
+            "import_export": "Import/ Export"
+          }
+        },
+        "import_export": {
+          "export": "Download file to fill in",
+          "import": "Uploading a questionnaire from a file"
+        }
       },
       "number": "Code",
       "participant": {
@@ -1057,7 +1150,7 @@
               "success": "Bid changed"
             },
             "submit": {
-              "default": {
+              "confirmation": {
                 "actions": {
                   "cancel": {
                     "primary": "Cancel",
@@ -1092,7 +1185,6 @@
                 "helper_auction": {
                   "label": "How to submit a bid, which violate the rights of the price change?",
                   "description": {
-                    "label": "You can request a one-time permission to submit an offer that violates the established price change rules. To do this:",
                     "1": "Request permission from the Customer in the Request chat",
                     "2": "The customer will inform you of his decision",
                     "3": "Once approved, you will be able to submit a bid that violates the price change rule once."
@@ -1105,7 +1197,7 @@
                     "1": {
                       "1_1": "Go to the",
                       "1_2": "Proposal",
-                      "1_3": "tab and click Change Offer"
+                      "1_3": "tab and click Improve the bid"
                     },
                     "2": "Change the prices for items and update the offer",
                     "3": "Remember that the updated price must comply with the price change rule"
@@ -1161,7 +1253,7 @@
                 "status_summarize": "Acceptance of proposals is completed, the request is at the \"Summing up\" stage",
                 "status_finished": "Request completed",
                 "status_canceled": "Request canceled",
-                "private": "The circle of participants in the request is limited. Contact the Customer to receive",
+                "private": "The number of participants in the request is limited. Contact the Customer to receive an invitation to the request",
                 "unknown": "Please contact tech support, we will help you"
               }
             }
@@ -1170,7 +1262,12 @@
             "title": "We invite you to participate",
             "info": "Participate to submit an offer and chat with the customer in the request chat",
             "submit": "Participate",
-            "cancel": "I will think about it"
+            "cancel": "I will think about it",
+            "agreements": {
+              "order": "Согласен с оплатой комиссии при выборе моего предложения Заказчиком",
+              "users": "Нажимая кнопку \"Принять участие\", вы принимаете условия <a href=\"{{value}}\" target=\"_blank\">Пользовательского соглашения</a>",
+              "tooltip": "Оплачивается только участниками, выбранными Заказчиком и не зависит от подписания договора между Заказчиком и Участником. Размер комиссии зависит от суммы выбранных Заказчиком позиций."
+            }
           },
           "verification": {
             "text": "The organizer gives preference to verified suppliers.",
@@ -1238,7 +1335,8 @@
               "draft": "Invitations will be sent after the publication of the request."
             },
             "errors": {
-              "duplicate": "This email is already in the list"
+              "duplicate": "This email is already in the list",
+              "invalid": "Incorrect email specified. Sample: myemail@email.com"
             },
             "success": {
               "default": "Invitation sent",
@@ -1320,15 +1418,18 @@
               "button": "Actions"
             },
             "block_many": {
-              "button": "Block participants",
+              "button": "Block",
               "tooltip": "Block selected participants. This action is reversible."
             },
             "block_others": {
               "button": "Block all participants except selected ones"
             },
             "block_one": {
-              "button": "Block participant",
+              "button": "Block",
               "notice": "Reversible action"
+            },
+            "block_stage": {
+              "button": "Block those who have not submitted an offer at the current stage"
             },
             "invite_email": {
               "button": "By email"
@@ -1360,7 +1461,7 @@
               "button": "Send invitation"
             },
             "remove_many": {
-              "button": "Remove participants",
+              "button": "Remove",
               "tooltip": "Remove selected participants"
             },
             "remove_one": {
@@ -1373,9 +1474,13 @@
             "archive_nda": {
               "title": "Download current prequalification applications/NDA",
               "tooltip": "Download current prequalification applications/NDA"
-              },
+            },
+            "block_participants": {
+              "title": "Block participants without an offer",
+              "tooltip": "Block participants without an offer"
+            },
             "unblock_many": {
-              "button": "Unblock participants",
+              "button": "Unblock",
               "tooltip": "Unblock selected participants"
             },
             "unblock_one": {
@@ -1384,7 +1489,8 @@
             "nda": {
               "title": "Prequalification / NDA",
               "request": "Prequalification / NDA documents",
-              "decision": "Admission decision"
+              "decision": "Admission decision",
+              "open": "Open an application"
             },
             "permit_change": {
               "reduction": {
@@ -1395,10 +1501,10 @@
               }
             },
             "chat": {
-              "button": "Chat with members"
+              "button": "Write to the chat"
             },
             "chat_group": {
-              "button": "Write message to chat",
+              "button": "Message to chat",
               "dialog": {
                 "title": "Write a message to the chat",
                 "label": "Message to participants",
@@ -1426,10 +1532,10 @@
           "empty": "Add participants. Participants will receive invitations after the request is submitted.\nYou can also add participants at the bid submission window",
           "filters": {
             "status": {
-              "title": "Participant status"
+              "title": "Status"
             },
             "invited_by": {
-              "title": "Invited by"
+              "title": "Invited by whom"
             }
           },
           "forbidden": {
@@ -1933,7 +2039,6 @@
             "tooltip": "Add request description, specifications, draft contract. The maximum file size is {{value}} MB."
           },
           "guest": {
-            "stub": "Information is available only to company employees.\nLog in or register your company for free on the site.",
             "stub_contact": "Information is available after the start of work on the proposal."
           },
           "name": {
@@ -2182,7 +2287,7 @@
               "title": "Role changing",
               "yes": "Accept",
               "no": "Cancel",
-              "text": "Viewer and Auditor have limited rights. Only the other owner of the request can set owner status."              
+              "text": "Viewer and Auditor have limited rights. Only the other owner of the request can set owner status."
             }
           }
         },

@@ -52,54 +52,11 @@
             }
         },
         "positions": {
-            "header": {
-                "close": "Təklifə keç",
-                "title": "Maddələrin spesifikasiyası"
-            },
+            "total": "Bu: <b>{{ price }} {{ currency }}</b>",
             "forbidden": {
                 "notice": "",
                 "text": "",
                 "title": "Məlumat hazırda mövcud deyil"
-            },
-            "common": {
-                "currency": {
-                    "participant": "iştirakçının valyutasında",
-                    "request": "sorğunun valyutasında"
-                },
-                "vat": {
-                    "false": "ƏDV-siz",
-                    "null": "",
-                    "true": "ƏDV daxil",
-                    "none": ""
-                }
-            },
-            "summary": {
-                "actions": {
-                    "submit": "Təklifi yenilə"
-                },
-                "best": {
-                    "title": "Ən yaxşı təklif",
-                    "tooltip": "Bütün təqdim olunan təkliflər arasında"
-                },
-                "current": {
-                    "title": {
-                        "false": "Alternativ",
-                        "true": "Mənim təklifim"
-                    },
-                    "tooltip": "Sorğunun əsas valyutasında təklif qiyməti"
-                },
-                "previous": {
-                    "title": "Əvvəlki",
-                    "tooltip": "Daha öncə təqdim edilmiş təklifin qiyməti"
-                },
-                "timer": {
-                    "title": "Vaxt qalıb",
-                    "tooltip": "Təklifin bitməyinə"
-                },
-                "reference_price": {
-                    "title": " Qiymət dəyişikliyi addımı",
-                    "tooltip": "Təklif qiymətini dəyişdirə biləcəyiniz addım"
-                }
             },
             "filters": {
                 "empty": "",
@@ -113,43 +70,10 @@
             "actions": {
                 "download": "Şablonu endir",
                 "import": "Maddələri endir",
-                "upload": "Fayldan yüklə"
+                "upload": "Fayldan yüklə",
+                "patch": "Не подавать предложение по группе"
             },
             "table": {
-                "groups": {
-                    "position": "Satınalan təşkilatın sütunları",
-                    "proposal": "Təchizatçı sütunları"
-                },
-                "columns": {
-                    "position": {
-                        "index": "№",
-                        "name": "Ad",
-                        "description": "Təsvir",
-                        "count": "Miqdar",
-                        "unit": "Ölçü vahidi",
-                        "target_price": "Vahidin qiyməti, {{ value }}",
-                        "max_price": "Vahidin maksimum qiyməti, {{ value }}",
-                        "min_price": "Vahidin minimum qiyməti, {{ value }}",
-                        "expected_price": "Gözlənilən qiymət, {{ value }}",
-                        "best_price": "Vahid üçün ən yaxşı qiymət, {{ value }}",
-                        "documents": "Sənədlər"
-                    },
-                    "proposal": {
-                        "availability": "Mövcudluq",
-                        "count": "Miqdar",
-                        "rank": "dərəcə",
-                        "total": "Ümumi, {{ value }}",
-                        "vat": "ƏDV dərəcəsi",
-                        "price_none_vat": "Vahidin qiyməti",
-                        "price_incl_vat": "Vahidin qiyməti, ƏDV daxil",
-                        "price_excl_vat": "Vahidin qiyməti, ƏDV-siz",
-                        "currency": "Valyuta",
-                        "comment": "Şərh",
-                        "documents": "Sənədlər",
-                        "prev_price": "Vahidin əvvəlki qiyməti"
-                    }
-                },
-                "tooltips": {},
                 "validation": {
                     "currency": {
                         "invalid": "Valyuta sorğunun qaydalarında göstərilən valyutaların siyahısına daxil edilməyib"
@@ -171,11 +95,16 @@
                         "not_equal_to_position": "Sorğudakı miqdardan yayınma"
                     },
                     "price": {
+                        "lt_minimum": "Отрицательная цена недопустима",
+                        "gt_maximum": "Укажите цену меньше 99 млрд",
                         "equal_to_zero": "Qiyməti qeyd olunmayıb",
                         "equal_to_zero_count_gte_zero": "Qiyməti qeyd olunmayıb. Mövqe yoxdursa, \"Stokda yoxdur\" yazın",
                         "start_price_auction": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
                         "start_price_reduction": "Vahid qiymətiniz {{currency}}({{price}} {{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
-                        "refer_price_step": "Vahid qiymətiniz {{valyuta}} ({{price}} {{currency}}) ilə Sifarişçi tərəfindən müəyyən edilmiş qiymət dəyişikliyi addımını pozur ({{rule}})"
+                        "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
+                        "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
+                        "refer_price_auction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
+                        "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az."
                     }
                 }
             }

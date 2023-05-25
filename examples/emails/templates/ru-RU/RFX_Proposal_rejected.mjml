@@ -28,7 +28,7 @@
           <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
             <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
-            <span style="white-space: pre-line"><b>Изменения в запросе:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>
+           </p>
           <!--<h2><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></h2>
           <p><b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />

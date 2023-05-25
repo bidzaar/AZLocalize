@@ -1,7 +1,8 @@
 {
   "bdz.req.events": {
     "table": {
-      "empty": "No results were found for your request",
+      "empty": "No entries in the journal yet...",
+      "notfound": "No results were found for your request...",
       "search": "",
       "total": "Total: {{ value }}",
       "columns": {
@@ -14,7 +15,7 @@
       "filters": {
         "title": "Filters",
         "date": {
-          "title": "Event's date"
+          "title": "Event's date" 
         },
         "users": {
           "title": "Employee",
@@ -45,7 +46,7 @@
       "procedure": {
         "reason": {
           "label": "Reason:",
-          "default": "The customer has made significant changes to the request"
+          "default": "The customer made major changes to the request or rejected bids when the changes were published"
         },
         "summing": "Participants with an offer: {{ participants }}",
         "prolongation": "(before {{ date}})",
@@ -56,20 +57,21 @@
         },
         "completed": {
           "common": {
-            "empty": "No order",
+            "distribution": "Distribution:",
+            "empty": "There are no winners. Reason: {{value}}",
             "order": "Order",
-            "price": "{{ price }} {{ currency }}",
-            "orderFor": "Order for {{value }}"
+            "price": "{{ price }} {{ currency }}"
           },
           "participant": {
             "winner": "The customer chose you as the winner",
             "loser": "The customer chose another company as the winner",
-            "nobody": "The request is completed without selecting a winner"
+            "nobody": "There are no winners. Reason: {{value}}"
           }
         },
         "tariff": "Tariff: {{ value }}"
       },
       "proposals": {
+        "text": "Bid:",
         "price": "{{ price }} {{ currency }}",
         "primary": "Sentence",
         "alternative": "Alternative {{index }}",
@@ -83,10 +85,10 @@
       "1": "Request is published",
       "2": "Request is changed",
       "3": "All bids are rejected",
-      "4": "Acceptance of bids is closed.",
+      "4": "Acceptance of bids is closed",
       "5": "Auto-renewal of bid acceptance",
       "6": "New stage is published",
-      "7": "Request is completed.",
+      "7": "Request is completed",
       "8": "Completed request is returned to conclusion stage",
       "9": "Participation is confirmed",
       "10": "Invalid proposal is submitted",
@@ -100,7 +102,8 @@
       "18": "Request Team. User is removed",
       "19": "Request Team. User role is changed",
       "20": "The tariff is changed",
-      "21": "Promo code applied"
+      "21": "Promo code applied",
+      "22": "Proposal is rejected"
     }
   }
 }

@@ -5,7 +5,13 @@
         "reason": {
           "0": "web/app/process/light/conclusion: pl.cnc.enums.reason.0",
           "1": "web/app/process/light/conclusion: pl.cnc.enums.reason.1",
-          "2": "web/app/process/light/conclusion: pl.cnc.enums.reason.2"
+          "2": "web/app/process/light/conclusion: pl.cnc.enums.reason.2",
+          "3": "web/app/process/light/conclusion: pl.cnc.enums.reason.3",
+          "4": "web/app/process/light/conclusion: pl.cnc.enums.reason.4",
+          "5": "web/app/process/light/conclusion: pl.cnc.enums.reason.5",
+          "6": "web/app/process/light/conclusion: pl.cnc.enums.reason.6",
+          "7": "web/app/process/light/conclusion: pl.cnc.enums.reason.7",
+          "null":"web/app/process/light/conclusion: pl.cnc.enums.reason.null"
         },
         "commission": {
           "0": "web/app/process/light/conclusion: pl.cnc.enums.commission.0",
@@ -59,7 +65,11 @@
               "nobody": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.nobody",
               "comment": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.comment",
               "questions": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.questions",
-              "message": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.message"
+              "message": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.message",
+              "last_winner": {
+                "title":"web/app/process/light/conclusion: pl.cnc.content.common.message.orders.last_winner.title",
+                "text": "web/app/process/light/conclusion: pl.cnc.content.common.message.orders.last_winner.text"
+              }
             }
           },
           "requests": {
@@ -203,7 +213,8 @@
             "broadcast": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.broadcast",
             "team": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.team",
             "participants": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.participants",
-            "empty": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.empty"
+            "empty": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.empty",
+            "all": "web/app/process/light/conclusion: pl.cnc.content.dialogs.messages_reports.all"
           },
           "versions_reports": {
             "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.versions_reports.header",
@@ -235,7 +246,8 @@
               "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.header",
               "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.text",
               "reason": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.reason",
-              "comment": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.comment"
+              "comment": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.comment",
+              "empty": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.empty"
             },
             "vat": {
               "true": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.vat.true",

@@ -91,7 +91,8 @@
                     "list": "web/admin/companies/users: cmp.users.list.preview.rights.list",
                     "empty": "web/admin/companies/users: cmp.users.list.preview.rights.empty"
                 },
-                "approve": "web/admin/companies/users: cmp.users.list.preview.approve"
+                "confirm": "web/admin/companies/users: cmp.users.list.preview.confirm",
+                "give_admin": "web/admin/companies/users: cmp.users.list.preview.give_admin"
             }
         }
     }

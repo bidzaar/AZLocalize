@@ -1,5 +1,46 @@
 {
   "req.shared": {
-
+    "markers": {
+      "nda": "NDA",
+      "verify": "Для проверенных",
+      "private": "Закрытый запрос"
+    },
+    "status": {
+      "until": "до",
+      "since": "с",
+      "orders": "Завершен без победителя"
+    },
+    "timer": {
+      "minutes": "мин",
+      "hours": "ч",
+      "days": "дн",
+      "past": "назад"
+    },
+    "comment": {
+      "add": "Добавить комментарий"
+    },
+    "responsible": {
+      "change": "Изменить",
+      "remove": "Удалить",
+      "assign": "Оператор не назначен"
+    },
+    "header": {
+      "back": "Возврат к списку",
+      "publish": "Опубликован {{ date }}",
+      "details": "Детали",
+      "stats": {
+        "proposals": "Участники с предложением",
+        "participants": "Приняли участие"
+      }
+    },
+    "dialogs": {
+      "comment": {
+        "header": "Комментарий",
+        "label": "Ваш комментарий",
+        "cancel": "Отмена",
+        "submit": "Сохранить",
+        "success": "Комментарий обновлен"
+      }
+    }
   }
 }

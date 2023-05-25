@@ -1,5 +1,8 @@
 {
     "CompleteReason.DontNeedAnyMore": "Sorğunun aparılması ehtiyacı aradan qaldırıldı",
     "CompleteReason.NoSuitableProposalFound": "Uyğun təklif yoxdur",
-    "Custom.OwnerMessage": "Müraciət edənin mesajı:"
+    "Custom.OwnerMessage": "Müraciət edənin mesajı:",
+    "Proposal.Alternative": "Alternativ",
+    "Proposal.Main": "Əsas",
+    "ReportType.NdaArchive": "cari ilkin kvalifikasiya/NDA tətbiqləri"
 }

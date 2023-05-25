@@ -136,7 +136,7 @@
       "change_role_dialog": {
         "apply": "Save",
         "cancel": "Cancel",
-        "title": "Setting up access rights"
+        "title": "Employee rights"
       },
       "delete_user": {
         "dialog": {
@@ -151,10 +151,14 @@
         "add_tooltip": "add user",
         "empty": "users not found",
         "filters": {
-          "rights": "Rights",
-          "status": "Status",
+          "rights": "Rights employee",
+          "status": "Status employee",
           "statusChangedOn": "Status changed on"
         },
+        "sorting": {
+          "name": "Employee name",
+          "date_change": "Status change date"
+                  },
         "preview": {
           "grant_access": "approve",
           "reject": "reject",
@@ -163,15 +167,23 @@
         },
         "search": {
           "email": "user email",
-          "name": "full name"
+          "name": "The search is carried out by fields:\nfull name"
         },
         "status": {
-          "0": "wait for approve",
-          "1": "invited",
-          "2": "active",
-          "3": "blocked"
+          "0": "Wait for approve",
+          "1": "Invited",
+          "2": "Active",
+          "3": "Blocked"
         },
-        "title": "company users"
+        "title": "Users",
+        "rights": {
+          "list": "Rights ({{value}})",
+          "empty": "Rights not assigned",
+          "approve": "Request for the rights of an employee of the company",
+          "invited": "Invited by email",
+          "wait_for_approve": "Request for the rights of an employee of the company",
+          "no_rights": "Rights not assigned"
+        }
       },
       "restore_user": {
         "dialog": {
@@ -391,10 +403,10 @@
       "purchases": "requests:"
     },
     "invitations": {
-      "title": "Important information",
+      "title": "Your applications",
       "text": "Your account is activated upon approval by company administrator.",
       "number": "ID {{ value }}",
-      "admin": "Administrator",
+      "admin": "Company Administrator",
       "access": "Request access to the company profile"
     },
     "no_procedures": {
@@ -826,6 +838,7 @@
             "comparison-archive": "comparison table",
             "all-receipt": "order",
             "all-receipt-archive": "order",
+            "chats-archive": "archive of messages",
             "my-proposal-archive": "your order",
             "proposal-archive": "participant's bid",
             "receipt-archive": "participant's order",
@@ -998,9 +1011,10 @@
           "required": "Answer is required",
           "description": "Description",
           "hidden": {
-            "owner": "The answer is available only to the requester",
+            "owner": "The answer is hidden from other participants",
             "participant": "The answer will not be available to other participants.",
-            "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information"
+            "tooltip": "We recommend hiding sensitive or confidential information",
+            "info": "The answer is available to the participants with the appropriate setting of the request parameter \"After submitting the proposal, the participants see\""
           }
         },
         "actions": {
@@ -1713,7 +1727,12 @@
         "cancel": "Cancel",
         "header": "New request",
         "next": "Create",
-        "placeholder": "Name"
+        "name": "Name",
+        "type": "Type of the request",
+        "options": {
+          "1": "Закупка",
+          "2": "Продажа"
+        }
       },
       "invite": {
         "dialog": {
@@ -1930,7 +1949,9 @@
       }
     },
     "tooltips": {
-      "add": "add"
+      "add": "add",
+      "expand": "Show all tags",
+      "collapse": "Hide tags"
     }
   },
   "template": {
@@ -2376,64 +2397,23 @@
     },
     "rights": {
       "comment": "permissions are set by the user with the \"Company Management\" permission",
-      "items": {
-        "0": {
-          "short": "Rights are not defined",
-          "long": "Rights are not defined"
-        },
-        "1": {
-          "short": "RFx",
-          "long": "RFx"
-        },
-        "2": {
-          "short": "Supplier",
-          "long": "Supplier"
-        },
-        "4": {
-          "short": "Accreditations",
-          "long": "Request Accreditation"
-        },
-        "8": {
-          "short": "Accreditation Pools",
-          "long": "Manage Accreditation Pools"
-        },
-        "16": {
-          "short": "Manage Company",
-          "long": "Manage Company"
-        },
-        "128": {
-          "short": "Chief",
-          "long": "Chief Procurement Officer"
-        },
-        "256": {
-          "short": "Manage groups",
-          "long": "Manage groups"
-        },
-        "512": {
-          "short": "Vendor Lists",
-          "long": "Vendor Lists"
-        },
-        "1024": {
-          "short": "Chief",
-          "long": "Chief Vendor Officer"
-        },
-        "2048": {
-          "short": "Request pool",
-          "long": "Request Accreditation Pool"
-        }
-      },
       "role": {
-        "title": "Role in request loading",
-        "tooltip": "Role in default download request",
+        "title": "Role in the request team",
+        "text": "Default",
         "items": {
-          "0": "Auditor",
-          "1": "Editor",
-          "2": "Owner"
+          "0": {
+            "title": "Auditor",
+            "text": "Viewing request"
+          },
+          "1": {
+            "title": "Editor",
+            "text": "Edits draft request"
+          },
+          "2": {
+            "title": "Owner",
+            "text": "Publishes, modifies and completes the request"
+          }
         }
-      },
-      "state": {
-        "empty": "Set up user rights",
-        "filled": "User permissions"
       }
     },
     "shared": {
@@ -2523,7 +2503,7 @@
       "search": "Search...",
       "cancel": "Cancel",
       "submit": "Submit",
-      "not-found": "No employees were found."
+      "not-found": "There are no employees with the necessary rights. Contact the company manager to assign rights to employees"
     }
   },
   "user_menu": {
@@ -2538,7 +2518,7 @@
   },
   "validation": {
     "already_exists": "User with the specified email is already registered",
-    "email": "Incorrect email specified. Example: myemail@email.com",
+    "email": "Incorrect email",
     "file_too_large": "File is to large",
     "greater_than": "Value must be greater than {{value}}",
     "invalid_date_format": "Invalid date format",

@@ -3,11 +3,9 @@
     "rights": {
       "1": "Sifarişçi",
       "2": "Təchizatçı",
-      "4": "Akkreditasiyalar",
-      "8": "Qrupların idrarə edilməsi",
-      "256": "Qrupların idarə olunması",
-      "512": "Reyestrlar",
-      "2048": "[AT] Hovuz akkreditasiya"
+      "4": "[AT] Akkreditasiya ərizəçisi",
+      "256": "[AT] Qrup administratoru",
+      "512": "[AT] Qeydiyyat administratoru"
     }
   },
   "controls": {

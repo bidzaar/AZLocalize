@@ -2,7 +2,8 @@
     "pl": {
         "journal": {
             "header": "Sorğu jurnalı",
-            "search": "Axtarış şətrlər üzrə aparılır: Sorğunun adı"
+            "search": "Axtarış şətrlər üzrə aparılır: Sorğunun adı",
+            "download": "Download"
         }
     }
 }

@@ -11,10 +11,10 @@
                     "orderFor": "{{ value }} üçün sifariş",
                     "price": "{{ price }} {{ currency }}",
                     "common": {
+                        "distribution": "Distribution",
                         "empty": "Sifarişsiz",
                         "order": "Sifariş ",
-                        "price": "{{ price }} {{ currency }}",
-                        "orderFor": "Заказ для {{ value }}"
+                        "price": "{{ price }} {{ currency }}"
                     },
                     "participant": {
                         "winner": "Müştəri sizi qalib seçdi",
@@ -24,8 +24,8 @@
                 },
                 "prolongation": "({{ date}} tarixinə kimi)",
                 "reason": {
-                    "default": "Sifarişçi sorğuda əhəmiyyətli dəyişikliklər etdi",
-                    "label": "Səbəb:"
+                    "label": "Səbəb:",
+                    "default": "Sifarişçi sorğuda əhəmiyyətli dəyişikliklər etdi"
                 },
                 "reports": {
                     "changes": "Dəyişikliklər",
@@ -36,9 +36,9 @@
                 "tariff": "Tariff: {{ value }}"
             },
             "proposals": {
+                "text": "Bid:",
                 "alternative": "Alternativ {{ index }}",
                 "errors": "\"{{value}}\" təklifində səhvlər var:",
-                "price": "{{ price }} {{ currency }}",
                 "primary": "Təklif"
             }
         },
@@ -51,6 +51,7 @@
                 "stage": "Mərhələ"
             },
             "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+            "notfound": "Sorğunuz üçün heç bir nəticə tapılmadı...",
             "filters": {
                 "companies": {
                     "choose": "Şirkət",
@@ -104,7 +105,8 @@
             "18": "Müraciət komandası. İşçi silinib",
             "19": "Müraciət komandası. İşçi rolu dəyişdirilir",
             "20": "The tariff is changed",
-            "21": "Promo kodu tətbiq olundu"
+            "21": "Promo kodu tətbiq olundu",
+            "22": "Proposal is rejected"
         }
     }
 }

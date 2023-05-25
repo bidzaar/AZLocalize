@@ -2,6 +2,7 @@
     "bdz.req.events": {
         "table": {
             "empty": "No results were found for your request",
+            "notfound": "No results were found for your request...",
             "search": "",
             "total": "Total: {{ value }}",
             "columns": {
@@ -56,10 +57,10 @@
                 },
                 "completed": {
                     "common": {
+                        "distribution": "Distribution:",
                         "empty": "No order",
                         "order": "Order",
-                        "price": "{{ price }} {{ currency }}",
-                        "orderFor": "Order for {{value }}"
+                        "price": "{{ price }} {{ currency }}"
                     },
                     "participant": {
                         "winner": "The customer chose you as the winner",
@@ -70,6 +71,7 @@
                 "tariff": "Tariff: {{ value }}"
             },
             "proposals": {
+                "text": "Bid:",
                 "price": "{{ price }} {{ currency }}",
                 "primary": "Sentence",
                 "alternative": "Alternative {{index }}",
@@ -100,7 +102,8 @@
             "18": "Request Team. User is removed",
             "19": "Request Team. User role is changed",
             "20": "The tariff is changed",
-            "21": "Promo code applied"
+            "21": "Promo code applied",
+            "22": "Proposal is rejected"
         }
     }
 }

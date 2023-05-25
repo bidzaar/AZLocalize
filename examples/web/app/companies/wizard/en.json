@@ -11,7 +11,7 @@
             "manual": {
               "header": "Your company details"
             },
-            "dadata": {
+            "service": {
               "search": {
                 "header": "Search for company",
                 "title": "Company name or TIN",

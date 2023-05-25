@@ -9,11 +9,11 @@
         "4": "Cancelled"
       },
       "participant_business_status": {
-        "0": "Received orders",
+        "0": "Winner",
         "1": "Submitted bids",
         "2": "Prepared Bids",
-        "3": "Provided NDA Documents",
-        "4": "Prequalification preparation",
+        "3": "Application submitted (NDA/prequalification)",
+        "4": "Application preparation (NDA/prequalification)",
         "5": "Viewed requests",
         "6": "Viewed invitations",
         "7": "Invited",
@@ -48,6 +48,9 @@
       "finish_date": {
         "title": "Completion date"
       },
+      "responsible": {
+        "title": "Responsible"
+      },
       "team": {
         "title": "Team"
       },
@@ -64,7 +67,7 @@
         "title": "Bid due date"
       },
       "favorite": {
-        "title": "★ Favorites first"
+        "title": "★ Favorites only"
       },
       "participants_quantity": {
         "title": "Number of participants"
@@ -78,16 +81,14 @@
       "location": {
         "title": "Place of delivery"
       },
-      "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Customer",
+      "search_tooltip": "Search is carried out by fields:\n• Number\n• Name\n• Description\n• Request tags\n• Item names",
       "default": "Default",
       "mytags": "My tags",
       "acceptance": "Acceptance of proposals",
-      "type_of_change": {
+      "procedure_type": {
         "title": "Request type",
-        "labels": {
-          "true": "Purchase",
-          "false": "Sales"
-        }
+        "true": "Purchase",
+        "false": "Sales"
       }
     },
     "dates": {
@@ -104,19 +105,21 @@
       "export": "Export",
       "manager_title": "All requests of the company",
       "download": "Download",
+      "download_mobile": "Download report",
       "report": {
         "period": "Report period",
         "cancel": "Cancel",
         "download": "Download",
         "type": {
           "0": "Vendors report",
-          "1": "All requests",
-          "2": "Completed requests"
+          "1": "All company requests",
+          "2": "Completed requests",
+          "3": "My requests"
         }
       }
     },
     "manager": {
-      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags\n• Customer"
+      "search_tooltip": "The search is carried out by the fields:\n• Number\n• Name\n• Description\n• Query tags\n• Customer\n• Item names"
     },
     "participantions": {
       "title": "Manage my bids",
@@ -127,6 +130,7 @@
       "until": "before",
       "from": "from",
       "left": "{{value}} left",
+      "passed": "{{value}} passed",
       "tarrifs_popover": {
         "title": "Request only for verified suppliers",
         "text": "At the request of the customer, participants must have the status of \"Verified Supplier\"",

@@ -1,0 +1,65 @@
+{
+  "pl_com": {
+    "positions": {
+      "header": "{{ number }} • {{ name }}",
+      "table": {
+        "groups": {
+          "position": "[AT] Təşkilatçı sütunları",
+          "proposal": "[AT] Satıcı sütunları"
+        },
+        "columns": {
+          "position": {
+            "index": "№",
+            "name": "Ad",
+            "description": "Təsvir",
+            "count": "Miqdar",
+            "unit": "Ölçü vahidi",
+            "target_price": "Vahid başına hədəf dəyəri, {{ value }}",
+            "max_price": "Vahid başına maksimum xərc, {{ value }}",
+            "min_price": "Vahid üçün minimum xərc, {{ value }}",
+            "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
+            "documents": "Sənədlər"
+          },
+          "proposal": {
+            "availability": "Mövcudluq",
+            "count": "Miqdar",
+            "vat": "ƏDV dərəcəsi",
+            "total": "[AT] Ümumi, {{ value }}",
+            "price_none_vat": "Vahid başına qiymət",
+            "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
+            "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
+            "best_price": "[AT] Vahid başına ən yaxşı qiymət, {{ value }}",
+            "currency": "Valyuta",
+            "comment": "Şərh" ,
+            "documents": "Sənədlər"
+          }
+        },
+        "tooltips": {
+          "insert": "Daxil edin",
+          "remove": "Sil",
+          "availability": "[AT] Sorğu parametri Təchizat həcmi mövqelər tərəfindən icazə verilən sapma kimi təyin edilərsə, sahə mövcuddur",
+          "best_price": "[AT] Rəqiblər arasında ən yaxşı qiymət",
+          "target_price": "[AT] Seçim üçün təlimatınız. İştirakçılardan gizlədilib.",
+          "max_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
+          "min_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
+          "expected_price": "[AT] Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
+        }
+      },
+      "common": {
+        "currency": {
+          "participant": "iştirakçının valyutasında",
+          "request": "sorğunun valyutasında"
+        },
+        "vat": {
+          "false": "ƏDV-siz",
+          "null": "",
+          "true": "ƏDV daxil",
+          "none": "Pulsuz"
+        }
+      },
+      "disabled": "Goods and services are not included in the bid of the participant",
+      "to_proposal": "Təklifə gedin",
+      "to_request": "Xahiş etmək"
+    }
+  }
+}

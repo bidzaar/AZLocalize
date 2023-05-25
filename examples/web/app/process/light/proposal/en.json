@@ -2,40 +2,34 @@
   "pl": {
     "proposal": {
       "nda": {
-        "title": {
-          "draft": "Prequalification / NDA",
-          "submitted": "Prequalification / NDA: application pending",
-          "rejected": "Prequalification / NDA: application rejected",
-          "accepted": "Prequalification / NDA passed",
-          "failed": "Prequalification / NDA failed",
+        "banner": {
+          "draft": "Пройдите предквалификацию и подайте предложение до завершения приёма предложений.",
+          "submitted": "Заявка на рассмотрении. Связь с заказчиком – в чате запроса."
+        },
+        "header": {
+          "title": "Заявка на предквалификацию / NDA",
           "status": {
-            "0": "Application not submitted",
-            "1": "Application submitted",
-            "2": "Application rejected",
-            "3": "Completed"
+            "0": "Заявка не подана",
+            "1": "Заявка подана",
+            "2": "Заявка отклонена",
+            "3": "Заявка одобрена"
           }
         },
-        "description": "Description of prequalification",
-        "files_title": "NDA prequalification application documents",
-        "files_info": "Upload the documents for review/filling out",
-        "your_application": "Your application for prequalification / NDA",
-        "add_files_text": "Add the application documents",
-        "add_files_update_text": "Add updated agreement and other required documents",
-        "send": "Send",
-        "errors": {
-          "empty": "Documents have not been uploaded",
-          "correct": "Correct and update the application"
+        "action": {
+          "title": "Подать заявку на предквалификацию / NDA",
+          "text": "Убедитесь, что заявка содержит полный комплект документов. Изменить заявку после подачи невозможно.",
+          "cancel": "Отмена",
+          "submit": "Подать заявку"
         },
-        "manual": {
-          "title": "Application for prequalification / NDA",
-          "message": {
-            "1": "Application under consideration by the customer",
-            "2": "Prepare and submit the application again"
-          },
-          "description": {
-            "text": "Go through prequalification / NDA to get acquainted with the documentation of the request. ",
-            "explanation": "It is required to complete prequalification and submit an offer before the deadline for accepting offers. Communication with the customer is in the request chat."
-          }
+        "description": {
+          "title": "Описание и документы",
+          "notice": "Ознакомьтесь с требованиями Заказчика на вкладке \"Запрос\"",
+          "open": "Перейти"
+        },
+        "documents": {
+          "title": "Документы заявки",
+          "notice": "Прикрепите комплект документов",
+          "append": "Прикрепить"
         }
       },
       "registries": {
@@ -55,55 +49,53 @@
       },
       "card": {
         "banner": {
-          "draft": "<strong class=\"banner-bold\">Submit an offer</strong> before the deadline for accepting offers",
-          "submitted": {
-            "text": "<strong class=\"banner-bold\">Change the sentence</strong> to increase the chance of winning.",
-            "button": "Start change"
-          },
-          "edit": "<strong class=\"banner-bold\">Submit a modified offer.</strong> Now your old offer is available to the Customer:",
-          "summarizing": "<strong class=\"banner-bold\">Update the documents</strong> in the \"Commercial offer and documentation\" section"
+          "changing": "<b>Submit a modified bid.</b> The customer is considering your previous bid.",
+          "draft": "<b>Submit an bid</b> before the deadline for accepting offers",
+          "submitted": "<b>Change the bid</b> to increase the chance of winning.",
+          "summarize": "<b>Update the documents</b> in the \"Commercial offer and documentation\" section",
+          "improve": "Improve the bid"
         },
         "title": {
-          "my": "My bid",
-          "alternative": "My alternative bid"
+          "true": "My bid",
+          "false": "My alternative bid №{{value}}"
         },
-        "rank": {
-          "by_proposal": {
-            "text": "Proposal rank",
-            "label": "Offer rank among competitors' offers"
-          },
-          "by_position": {
-            "text": "Position rank",
-            "label": "Quantity with ranks: 1 (green positions), 2 (yellow), 3 or lower (red)"
-          }
+        "status": {
+          "submitted": "Submitted",
+          "draft": "Not submitted",
+          "changing": "Changing"
         },
         "price": {
-          "title": "Price of your proposal",
-          "info": "Total price of your offer"
+          "title": {
+            "true": "Price of your proposal, incl. VAT",
+            "false": "Price of your proposal, excl. VAT"
+          }
         },
         "positions": {
           "title": "Items specification",
-          "action": "Edit",
-          "view_action": "Watch",
+          "action": {
+            "true": "Edit",
+            "false": "View"
+          },
           "statistics": {
-            "total": "Positions: {{value}} from {{count}}",
-            "dont_have_any": "out of stock: {{value}}"
+            "complete": "Positions: {{value}}",
+            "incomplete": "Positions: {{value}} from {{count}}",
+            "excluded": "Positions: {{value}} from {{count}}, excluded: {{excluded}}"
           }
         },
         "questionnaire": {
           "title": "Non-price criteria",
-          "action": "Edit",
-          "view_action": "Watch",
+          "action": {
+            "true": "Edit",
+            "false": "View"
+          },
           "statistics": {
-            "answers": "Answers:",
-            "answer_count": "{{value}} from {{count}}"
+            "complete": "Answers: {{value}}",
+            "incomplete": "Answers: {{value}} from {{count}}"
           }
         },
         "documents": {
           "title": "Commercial bid and documentation",
-          "sub_title": "Documents: {{value}}",
           "action": "Attach",
-          "empty": "You can add all the documentation at the summing up.\nCustomers welcome the availability of a commercial offer.",
           "text": "You can also attach documents after receiving offers"
         },
         "actions": {
@@ -115,8 +107,10 @@
           "recall": "Withdraw the offer",
           "order_service": "Order service"
         },
-        "with_vat": "incl. VAT",
-        "without_vat": "excl. VAT"
+        "competitors_ahead": {
+          "true": "Competitors are ahead of you on some positions",
+          "false": "Competitors are ahead of you"
+        }
       },
       "alternative": {
         "title": "Alternative proposal",

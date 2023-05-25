@@ -12,11 +12,10 @@
                 "1": "Buyer",
                 "2": "Supplier",
                 "4": "Accreditation",
-                "8": "Pool management",
                 "16": "CC",
                 "128": "Hands. procurement",
-                "512": "Registries",
-                "2048": "Accreditation in pools"
+                "256": "Group Administrator",
+                "512": "Registries"
             }
         },
         "invite": {

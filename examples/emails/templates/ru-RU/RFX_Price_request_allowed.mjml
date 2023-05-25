@@ -1,0 +1,31 @@
+<mjml>
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 class="bb">Изменение цены предложения разрешено</h1>
+          <p>Заказчик разрешил вам однократно изменить предложение с нарушением правила изменения цены.</p>
+          <p>
+            <b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <br />
+            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate (осталось часов: @SummingUpProcedureReminderPrecontext.Hours)
+          </p>
+          <p>
+          </p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url/proposal">Перейти к предложению</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

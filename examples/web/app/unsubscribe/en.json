@@ -19,9 +19,10 @@
           "ProposalChangedEvent": "The supplier has updated the previously submitted bid",
           "PublishProcedureEventOrg": "Publishing a purchase",
           "RemindCompleteProfileNotification": "Receive notifications to completely fill the profile.",
-          "SummingUpProcedureReminderEvent": "48 hours before the end of accepting bids",
+          "SummingUpProcedureReminderEvent": "Prompt closing of proposals",
           "SummingUpProcedureOrgEvent": "Acceptance of bids is completed, the request has moved to the stages of summing up",
-          "SummingUpProcedureEvent": "Acceptance of bids is completed, the request has moved to the stages of summing up"
+          "SummingUpProcedureEvent": "Acceptance of bids is completed, the request has moved to the stages of summing up",
+          "ProcedureStagePublishedEvent": "New Request Stage Announced"
         },
         "groups": {
           "BuyerActions": "Actions of team members, changing the status of the purchase",

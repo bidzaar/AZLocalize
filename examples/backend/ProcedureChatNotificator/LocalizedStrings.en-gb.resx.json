@@ -58,7 +58,7 @@
     "MaxAlternativeProposalCountChanged": "• The ability to submit alternative proposals has been changed",
     "IzmenenieOrientirovochnogoSrokaPodvedeniyaItogov": "• Changes in the approximate deadline for summing up",
     "AcceptanceExpired": "The call for proposals has ended. Check the relevance and update the submitted commercial offer.",
-    "AcceptanceExpiringBroadcast": "The call for proposals ends in 48 hours.",
+    "AcceptanceExpiringBroadcast": "The call for proposals ends in {hours} hours.",
     "AddTeamMember": "New team member: {UserName}.",
     "ChangedFields": "{header} {fields.added}{fields.changed}{fields.deleted}",
     "ChangedGeneral": "Changed general information:\n{general}",
@@ -66,7 +66,7 @@
     "ChangedGroups": "{header} {groups.added}{groups.changed}{groups.deleted}",
     "ChangedParameters": "Request parameters changed:\n{parameters}",
     "ChangedPositions": "{header} {positions.added}{positions.changed}{positions.deleted}",
-    "ChangedProcedure": "The customer has made changes to the request. Check the relevance of your offer!",
+    "ChangedProcedure": "The customer has made changes to the request. <a href=\"{Url}\" target=\"_blank\">Check out the changes</a> and check if your offer is up to date!",
     "ChangeTeamMemberRights": "Role changed for {UserName}.",
     "DeleteTeamMember": "Employee removed from team: {UserName}.",
     "FileAddedToAlternativeProposal": "The participant has added a document to the proposal (Alternative {ProposalNumber}).",
@@ -85,7 +85,7 @@
     "ProcedureEndedWinner": "Congratulations! The customer has chosen you for further cooperation on the subject of the request. Details are on the Query Totals tab.",
     "ProcedureProlongated": "The deadline for submission of proposals has been extended by {ProlongationTermInMinutes} min. in connection with the submission of the proposal by the participant.",
     "ProcedureStagePublished": "The customer announced a new request stage: {Comment}.",
-    "ProposalCanceled": "The participant withdrew the offer.",
+    "ProposalCanceled": "The participant withdrew the offer \"{ProposalType}\".",
     "ProposalGoDraftDueToMajorChange": "Your offer has been rejected due to a request change or a new milestone being announced. Please update the offer.",
     "ProposalUpdated": "The offer has been updated.",
     "PublishProcedure": "Request published.",
@@ -93,5 +93,9 @@
     "RisePermitted": "You can change the price of your bid that violates the bidding rule once.",
     "RoundProcedure": "Attention, a new round of proposals has been announced! Improving the offer will increase your chances of winning!",
     "UnCompleteProcedure": "The customer has returned the request to the debriefing stage. Reason: \"{Comment}\".",
-    "ProcedureTariffChanged": "The Service operator's fee for the current Request has been changed. The continued participation of Suppliers in the Request procedure means acceptance of the changes, in case of disagreement, the Supplier must refuse to participate in the Request."
+    "ProcedureTariffChanged": "The Service operator's fee for the current Request has been changed. The continued participation of Suppliers in the Request procedure means acceptance of the changes, in case of disagreement, the Supplier must refuse to participate in the Request.",
+    "ProposalRejected": "The customer rejected your proposal \"{ProposalType}\". Reason: {Reason}.",
+    "ProposalRejected.ProposalType.Alternative": "Alternative",
+    "ProposalRejected.ProposalType.Main": "Main",
+    "ProcedureEndedBroadcastWithoutOrder": "The request has ended without a winner being selected. Reason: {reason}. Thanks to all participants!"
 }

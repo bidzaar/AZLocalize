@@ -1,5 +1,8 @@
 {
     "CompleteReason.DontNeedAnyMore": "There are no need to make a request",
     "CompleteReason.NoSuitableProposalFound": "There are no suitable offers",
-    "Custom.OwnerMessage": "Requester's message:"
+    "Custom.OwnerMessage": "Requester's message:",
+    "Proposal.Alternative": "Alternative",
+    "Proposal.Main": "Main",
+    "ReportType.NdaArchive": "current prequalification/NDA applications"
 }

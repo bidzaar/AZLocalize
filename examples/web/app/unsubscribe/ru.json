@@ -19,9 +19,10 @@
           "ProposalChangedEvent": "Поставщик обновил ранее поданное предложение",
           "PublishProcedureEventOrg": "Публикация закупки",
           "RemindCompleteProfileNotification": "Уведомлять о том, что профиль компании заполнен не полностью",
-          "SummingUpProcedureReminderEvent": "48 часов до завершения приёма предложений",
+          "SummingUpProcedureReminderEvent": "Скорое завершение приёма предложений",
           "SummingUpProcedureOrgEvent": "Приём предложений завершён, запрос перешел на этап подведения итогов",
-          "SummingUpProcedureEvent": "Приём предложений завершён, запрос перешел на этап подведения итогов"
+          "SummingUpProcedureEvent": "Приём предложений завершён, запрос перешел на этап подведения итогов",
+          "ProcedureStagePublishedEvent": "Объявлен новый этап запроса"
         },
         "groups": {
           "BuyerActions": "Действия членов команды, изменение статуса закупки",

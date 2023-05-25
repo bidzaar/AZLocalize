@@ -2,51 +2,73 @@
   "pl_pop": {
     "importer": {
       "cancel": "Ləğv et",
-      "items": {
-        "Process.Light.Import.Positions.FileHasErrors": {
-          "download": "Səhv təsvirləri olan faylı endir",
-          "title": "<b>Səhvləri olan maddələr yüklənmir. </b> Səhvləri düzəlt və yenidən endir."
-        },
-        "Process.Light.Import.Positions.InvalidFile": {
-          "title": "<b>[AT] Fayl sorğudakı mövqelərin spesifikasiyasına uyğun gəlmir.</b> Cari şablonu yükləyin və yenidən endirin."
-        },
-        "Process.Light.Import.Positions.InvalidFileExtension": {
-          "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
-        }
-      },
       "next": "Növbəti",
-      "count": "[AT] Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
-      "title": "Fayldan maddələri yüklə",
       "upload": "Növbəti",
       "close": "[AT] Yaxın",
-      "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək."
+      "positions": {
+        "title": "Fayldan maddələri yüklə",
+        "count": "[AT] Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+        "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək.",
+        "items": {
+          "Process.Light.Import.FileHasErrors": {
+            "download": "Səhv təsvirləri olan faylı endir",
+            "title": "<b>Səhvlər olan mövqelər yüklənmir.</b> Səhvləri düzəlt və yenidən endir."
+          },
+          "Process.Light.Import.InvalidFile": {
+            "owner": {
+              "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\nmümkün səbəb:\n • spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir.",
+              "download": "[AT] mövcud şablonu yükləyin və yükləməni təkrarlayın."
+            }, 
+            "participant": {
+              "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\n <b>Fayl nümunəyə uyğun gəlmir.</b> mümkün səbəblər:\n",
+              "text": "[AT]• faylda mövqe spesifikasiyası yoxdur\n• sorğu yeniləndi və təklifiniz köhnəldi\n• cədvəl sütunları və ya müştəri məlumatları dəyişdirildi\n• spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir",
+              "download": "[AT] təklif şablonunu yükləyin və yenidən yükləyin."
+            }
+          },
+          "Process.Light.Import.InvalidFileExtension": {
+            "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+          }  
+        }
+      },
+      "questionnaire": {
+        "title": "[AT] bir fayldan bir anket Yükləyin",
+        "warning": "[AT] əvvəllər daxil edilmiş suallar silinəcəkdir.",
+        "count": "[AT] hoproses: <b> {{ questions }}</b> of {{ total }}",
+        "count_failure": "[AT] Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
+        "items": {
+          "Process.Light.Import.InvalidFileExtension": {
+            "title": "[AT] <b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
+          },
+          "Process.Light.Import.InvalidFile": {
+            "title": "<b>[AT] Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
+          },
+          "Process.Light.Import.FileHasErrors": {
+            "title": "[AT] <b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
+            "download": "Səhv təsvirləri olan faylı endir"
+          }
+        }
+      }
     },
     "configurator": {
       "header": "[AT] Sütunların fərdiləşdirilməsi",
       "menu": "[AT] Sütun növünü seçin",
-      "defaults": {
-        "name": "[AT] Yeni sütun"
+      "name": "[AT] Yeni sütun",
+      "success": "[AT] Parametrlər yadda saxlandı",
+      "actions": {
+        "apply_and_close": "Apply and close",
+        "apply": "[AT] Tətbiq et",
+        "cancel": "[AT] Dəyişiklikləri ləğv et",
+        "append": "[AT] Sütun əlavə et",
+        "remove": "[AT] Sütunu sil",
+        "close": "[AT] Bağlayın"
       },
       "details": {
-        "name": "[AT] Sahənin adı",
-        "type": "[AT] Növ"
-      },
-      "actions": {
-        "done": "[AT] Bitdi",
-        "append": "[AT] Sütun əlavə edin",
-        "remove": "[AT] Sütunu çıxarın"
+        "name": "[AT] Sütun adı",
+        "type": "[AT] Sütun növü"
       },
       "empty": {
         "text": "[AT] Əlavə sütunlar əlavə edilməyib",
         "notice": "[AT] Başlamaq üçün Sütun Əlavə et klikləyin"
-      },
-      "errors": {
-        "name": "[AT] Adı dəqiqləşdirilməyib"
-      },
-      "remove": {
-        "text": "[AT] Sütunu silin",
-        "cancel": "[AT] Ləğv et",
-        "confirm": "[AT] Sil"
       },
       "types": {
         "string": "[AT] Mətn",
@@ -54,59 +76,37 @@
         "bool": "[AT] Hə / Yox",
         "datetime": "[AT] Tarix",
         "decimal": "[AT] Pul"
+      },
+      "dialogs": {
+        "changes": {
+          "title": "[AT] Dəyişiklikləri yadda saxlamamısınız",
+          "cancel": "[AT] Dəyişiklikləri ləğv edin",
+          "submit": "[AT] Quraşdırmaya davam edin"
+        },
+        "remove": {
+          "title": "[AT] Sütunu silin",
+          "cancel": "[AT] Ləğv et",
+          "submit": "[AT] Sil"
+        }
       }
     },
     "positions": {
+      "header": {
+        "import_export": {
+          "button": "[AT] İdxal ixrac",
+          "download": "[AT] Doldurmaq üçün şablonu Yükləyin",
+          "import": "[AT] Fayldan vəzifələrin yüklənməsi"
+        }
+      },
       "empty": {
         "text": "Maddələr əlavə olunmayıb"
       },
-      "header": {
-        "text": "Maddə üzrə spesifikasiya"
-      },
       "table": {
-        "groups": {
-          "position": "[AT] Təşkilatçı sütunları",
-          "proposal": "[AT] Satıcı sütunları"
-        },
-        "columns": {
-          "position": {
-            "index": "№",
-            "name": "Ad",
-            "description": "Təsvir",
-            "count": "Miqdar",
-            "unit": "Ölçü vahidi",
-            "target_price": "Vahid başına hədəf dəyəri, {{ value }}",
-            "max_price": "Vahid başına maksimum xərc, {{ value }}",
-            "min_price": "Vahid üçün minimum xərc, {{ value }}",
-            "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
-            "documents": "Sənədlər"
-          },
-          "proposal": {
-            "availability": "Mövcudluq",
-            "count": "Miqdar",
-            "vat": "ƏDV dərəcəsi",
-            "price_none_vat": "Vahid başına qiymət",
-            "price_incl_vat": "Vahid başına qiymət, ƏDV daxil",
-            "price_excl_vat": "Vahid başına qiymət, ƏDV-siz",
-            "currency": "Valyuta",
-            "comment": "Şərh" ,
-            "documents": "Sənədlər"
-          }
-        },
         "actions": {
           "documents": {
             "title": "[AT] Sənədləri bir vəzifəyə əlavə etməyə icazə verin",
             "text": "[AT] Aktivləşdirilmiş seçim üzvlərə sənədləri sətir elementlərinə əlavə etmək imkanı verir"
           }
-        },
-        "tooltips": {
-          "insert": "Daxil edin",
-          "remove": "Sil",
-          "deviation": "[AT] Tələb parametri Təchizat həcmi mövqelər və kəmiyyət tərəfindən icazə verilən sapma kimi təyin edilərsə, sahə əlçatandır.",
-          "target_price": "[AT] Seçərkən bələdçi olacaq qiyməti göstərin.\nQiymət yalnız sizə göstərilir - üzvlər onu görməyəcək.",
-          "max_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
-          "min_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
-          "expected_price": "[AT] Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
         }
       },
       "defaults": {
@@ -114,9 +114,7 @@
         "unit": "əd."
       },
       "actions": {
-        "append": "Maddə əlavə et",
-        "download": "Şablonu endir",
-        "upload": "Fayldan yüklə"
+        "append": "Maddə əlavə et"
       },
       "delete": {
         "text": "Maddə silinsin?",

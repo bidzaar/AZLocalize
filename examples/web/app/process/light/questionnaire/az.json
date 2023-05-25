@@ -2,17 +2,37 @@
   "pl": {
     "qst": {
       "templates": {
-        "buttons": {
-          "list": "Şablon siyahısı",
-          "save": "Şablonu yadda saxla"
-        },
         "dialogs": {
+          "list": {
+            "title":"[AT] saxlanılan şablonlar",
+            "search": {
+              "placeholder":"[AT] axtarış",
+              "empty" :"[AT] heç nə tapılmadı"
+            },
+            "empty": "Şablonlar yadda saxlanmayıb",
+            "actions": {
+              "cancel":"[AT] Ləğv et",
+              "submit":"[AT] şablon tətbiq edin"
+            }
+          },
+          "edit": {
+            "title":"[AT] şablonu düzəldin",
+            "label":"[AT] şablonun adı",
+            "actions": {
+              "cancel":"[AT] Ləğv et",
+              "save":"[AT] Saxla"
+            }
+          },
           "apply": {
             "cancel": "Ləğv et",
             "submit": "Yüklə",
             "success": "Şablon yükləndi",
             "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
-            "title": "Şablon yüklə"
+            "title": "[AT] Qeyri-qiymət meyarlarını daxil edin",
+            "options": {
+              "append":"[AT] siyahının sonuna əlavə et",
+              "replace": "[AT] mövcud meyarları dəyişdirin"
+            }
           },
           "create": {
             "cancel": "Ləğv et",
@@ -30,9 +50,6 @@
             "text": "Şablon dönməz şəkildə silinəcək",
             "title": "Şablon silinsin?"
           }
-        },
-        "list": {
-          "empty": "Şablonlar yadda saxlanmayıb"
         }
       }
     }

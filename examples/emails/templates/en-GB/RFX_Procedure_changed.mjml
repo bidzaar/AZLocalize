@@ -7,15 +7,15 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 class="bb">Request has been changed</b></h1>
-          <p>Please review the changes and update your bid if necessary.</p>
+          <h1 class="bb">Request changed</b></h1>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your proposal if necessary.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
+            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
           @CustomMailContext.Body
           <p>
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
-            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
+            <b>Notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
           </p>
         </mj-text>
         <mj-button href="@ProcedureContext.Url">Review changes</mj-button>

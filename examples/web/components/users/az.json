@@ -6,10 +6,68 @@
         "1": "Dəvət olunub",
         "2": "Aktiv",
         "3": "Blok edilib"
+      },
+      "rights": {
+        "0": {
+          "long": "Hüquqlar təyin edilməyib",
+          "short": "Hüquqlar təyin edilməyib"
+        },
+        "1": {
+          "short": "[AT] Alıcı",
+          "long": "[AT] Alıcı",
+          "description": "[AT] sorğuları dərc edir və aparır (satınalma prosedurları)"
+        },
+        "2": {
+          "long": "Təchizatçı",
+          "short": "Təchizatçı",
+          "description": "[AT] sorğulara kommersiya təklifləri hazırlayır və təqdim edir"
+        },
+        "4": {
+          "short": "Akkreditasiyaya sorğu",
+          "long": "[AT] akkreditasiya ərizəçisi",
+          "description": "[AT] Digər şirkətlərin qarşı tərəf reyestrlərində akkreditasiya üçün müraciət hazırlayır və təqdim edir"
+        },
+        "8": {
+          "long": "Akkreditasiya qruplarının idarə edilməsi",
+          "short": "Qrupların idarə edilməsi"
+        },
+        "16": {
+          "short": "[AT] şirkət administratoru",
+          "long": "[AT] şirkət administratoru",
+          "description": "[AT] İşçiləri, hüquqlarını idarə edir, şirkətin profilini düzəldir"
+        },
+        "128": {
+          "short": "[AT] Buyer (head of department)",
+          "long": "[AT] satınalma rəhbəri",
+          "description": "[AT] şirkətinin bütün tələblərini idarə edir"
+        },
+        "256": {
+          "short": "[AT] Qrup administratoru",
+          "long": "[AT] Qrup administratoru",
+          "description": "[AT] işçi qruplarını idarə edir"
+        },
+        "512": {
+          "short": "Reyestrlər",
+          "long": "[AT] qeydiyyat administratoru",
+          "description": "[AT] Şirkətinin tərəflərinin reyestrlərini aparır, alınan akkreditasiya müraciətlərini emal edir"
+        },
+        "1024": {
+          "short": "Reyestr rəhbəri",
+          "long": "[AT] qeydiyyat şöbəsinin müdiri",
+          "description": "[AT] öz şirkətinin kontragentlərinin bütün reyestrlərini idarə edir"
+        },
+        "2048": {
+          "short": "[AT] Akkreditivin tələbi. hovuz",
+          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+        }
       }
     },
     "roster": {
       "empty": "Tələb olunan hüquqlara malik işçilər yoxdur. İşçilərə hüquqlar təyin etmək üçün şirkət meneceri ilə əlaqə saxlayın."
+    },
+    "rights": {
+      "empty": "İstifadəçi hüquqlarını ayarla",
+      "filled": "İstifadəçi icazələri"
     }
   }
 }

@@ -17,6 +17,11 @@
                 "0": "web/components/requests/models: bdz.req.models.enums.open_type.0",
                 "1": "web/components/requests/models: bdz.req.models.enums.open_type.1"
             },
+            "deviation": {
+                "0": "web/components/requests/models: bdz.req.models.enums.deviation.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.deviation.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.deviation.2"
+            },
             "role": {
                 "0": {
                     "name": "web/components/requests/models: bdz.req.models.enums.role.0.name",
@@ -49,6 +54,7 @@
             "proposal": {
                 "Process.Light.Proposal.Answers.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Answers.Required",
                 "Process.Light.Proposal.MainProposalShouldBeSubmitted": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.MainProposalShouldBeSubmitted",
+                "Process.Light.Proposal.Specification": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Specification",
                 "Process.Light.Proposal.Price.InvalidProposalCurrency": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.InvalidProposalCurrency",
                 "Process.Light.Proposal.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MinValueSubceeded",
                 "Process.Light.Proposal.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MaxValueExceeded",
@@ -84,7 +90,8 @@
                 "proposal": "web/components/requests/models: bdz.req.models.reports.header.proposal",
                 "receipt": "web/components/requests/models: bdz.req.models.reports.header.receipt",
                 "all-receipt": "web/components/requests/models: bdz.req.models.reports.header.all-receipt",
-                "nda": "web/components/requests/models: bdz.req.models.reports.header.nda"
+                "nda": "web/components/requests/models: bdz.req.models.reports.header.nda",
+                "chats": "web/components/requests/models: bdz.req.models.reports.header.chats"
             },
             "single": {
                 "sync": {

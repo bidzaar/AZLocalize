@@ -8,25 +8,23 @@
       <mj-column>
         <mj-text>
           <h1 class="bb">Invitation to request</b></h1>
-          <p>Your company @TargetContext.CompanyName was invited to submit bids to the  request.</p>
+          <p>Your company @TargetContext.CompanyName was invited to participate in a request.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
-          </p>
-          @CustomMailContext.Body
-          <p class="mb-0">
+            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p> @CustomMailContext.Body <p class="mb-0">
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
             <b>Delivery to:</b> @ProcedureContext.PlaceOfDelivery<br />
             <b>Notice: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
           </p>
           <p style="white-space: pre-line"><b>Description:</b><br />@ProcedureContext.Description</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">View request</mj-button>
-        <mj-text>
-          <p class="small mb-0">Please submit your bid to @ConfigurationContext.ProjectName platform only.</p>
+        <mj-button padding-bottom="20px" href="@ProcedureContext.Url">View request</mj-button>
+        <mj-text container-background-color="#FEF7E0">
+          <p class="small mb-05"><b>Offer sumbission is free.</b> A supplier pays a commission if a requester chooses his offer. The commission fee is specified in the request.</p>
+          <p class="small mb-0">Please submit your offer at @ConfigurationContext.ProjectName platform only.</p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-include path="./__tpl/__spacer.mjml" />
     <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
     <mj-include path="./__tpl/__footer.mjml" />
 </mjml>

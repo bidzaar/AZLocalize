@@ -8,12 +8,9 @@
       <mj-column>
         <mj-text>
           <h1>Your company's rights was changed</h1>
-          <p>Current rights for <b>VECTOR LLC</b> at @ConfigurationContext.ProjectName:</p>
+          <p>Current rights for <b>@CompanyContext.CompanyName</b> at @ConfigurationContext.ProjectName:</p>
           <ul class="mb-1">
-            <li>✅ Publishing requests (purshasing procedures)</li>
-            <li>✅ Participating as a vendor in purshasing procedures</li>
-            <li>✅ Applying for accreditation in vendors registries</li>
-            <li>✅ Managing vendors registries</li>
+            @RightsPrecontext.RightsHints
           </ul>
           <p class="mb-0">Assign the rights for the appropriate employees.</p>
         </mj-text>

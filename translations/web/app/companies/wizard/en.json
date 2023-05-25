@@ -11,13 +11,13 @@
                         "manual": {
                             "header": "Your company details"
                         },
-                        "dadata": {
+                        "service": {
                             "search": {
                                 "header": "Search for company",
-                                "title": "Company name or INN",
+                                "title": "Company name or TIN",
                                 "notice": "Or full name for an IE",
-                                "placeholder": "Company name or INN",
-                                "requisites": "INN: {{ inn }}, KPP: {{ kpp }}",
+                                "placeholder": "Company name or TIN",
+                                "requisites": "TIN: {{ inn }}, KPP: {{ kpp }}",
                                 "empty": {
                                     "title": "Company hasn't been found",
                                     "text": "Change the search query\nor",
@@ -25,7 +25,7 @@
                                 }
                             },
                             "approve": {
-                                "inn": "INN",
+                                "inn": "TIN",
                                 "kpp": "KPP",
                                 "address": "Legal address",
                                 "cancel": "Other company",

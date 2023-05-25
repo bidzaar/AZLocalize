@@ -151,7 +151,10 @@
                 "3": "web/app/process/light: pl.view.status.3",
                 "4": "web/app/process/light: pl.view.status.4",
                 "until": "web/app/process/light: pl.view.status.until",
-                "tooltip": "web/app/process/light: pl.view.status.tooltip"
+                "pretext": "web/app/process/light: pl.view.status.pretext",
+                "tooltip": "web/app/process/light: pl.view.status.tooltip",
+                "tooltip_timer": "web/app/process/light: pl.view.status.tooltip_timer",
+                "publish": "web/app/process/light: pl.view.status.publish"
             },
             "verification": {
                 "action": "web/app/process/light: pl.view.verification.action",
@@ -564,7 +567,8 @@
                     "next": "web/app/process/light: pl.view.dialogs.finish_round.next",
                     "success": "web/app/process/light: pl.view.dialogs.finish_round.success",
                     "time_tooltip": "web/app/process/light: pl.view.dialogs.finish_round.time_tooltip",
-                    "time": "web/app/process/light: pl.view.dialogs.finish_round.time"
+                    "time": "web/app/process/light: pl.view.dialogs.finish_round.time",
+                    "pretext_time": "web/app/process/light: pl.view.dialogs.finish_round.pretext_time"
                 },
                 "leave": {
                     "header": "web/app/process/light: pl.view.dialogs.leave.header",
@@ -716,6 +720,16 @@
                                 "notice": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.notice",
                                 "title": "web/app/process/light: pl.view.dialogs.validation.items.Gold.NdaCannotBeEnabled.title"
                             }
+                        },
+                        "ProcedurePositionGroup": {
+                            "Empty": {
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.ProcedurePositionGroup.Empty.title",
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.ProcedurePositionGroup.Empty.notice"
+                            },
+                            "Name.Empty": {
+                                "title": "web/app/process/light: pl.view.dialogs.validation.items.ProcedurePositionGroup.Name.Empty.title",
+                                "notice": "web/app/process/light: pl.view.dialogs.validation.items.ProcedurePositionGroup.Name.Empty.notice"
+                            }
                         }
                     },
                     "comment": {
@@ -797,15 +811,18 @@
                 },
                 "nda_decision": {
                     "title": "web/app/process/light: pl.view.dialogs.nda_decision.title",
+                    "warning": "web/app/process/light: pl.view.dialogs.nda_decision.warning",
                     "accept": {
                         "title": "web/app/process/light: pl.view.dialogs.nda_decision.accept.title",
                         "text": "web/app/process/light: pl.view.dialogs.nda_decision.accept.text",
-                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.accept.result"
+                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.accept.result",
+                        "result_group": "web/app/process/light: pl.view.dialogs.nda_decision.accept.result_group"
                     },
                     "reject": {
                         "title": "web/app/process/light: pl.view.dialogs.nda_decision.reject.title",
                         "text": "web/app/process/light: pl.view.dialogs.nda_decision.reject.text",
-                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.reject.result"
+                        "result": "web/app/process/light: pl.view.dialogs.nda_decision.reject.result",
+                        "result_group": "web/app/process/light: pl.view.dialogs.nda_decision.reject.result_group"
                     },
                     "comment_placeholder": "web/app/process/light: pl.view.dialogs.nda_decision.comment_placeholder",
                     "cancel": "web/app/process/light: pl.view.dialogs.nda_decision.cancel",
@@ -833,7 +850,18 @@
                 "back": "web/app/process/light: pl.view.header.back",
                 "editing": "web/app/process/light: pl.view.header.editing",
                 "positions": "web/app/process/light: pl.view.header.positions",
-                "questionnaire": "web/app/process/light: pl.view.header.questionnaire"
+                "questionnaire": {
+                    "title": "web/app/process/light: pl.view.header.questionnaire.title",
+                    "actions_template": {
+                        "save": "web/app/process/light: pl.view.header.questionnaire.actions_template.save",
+                        "list": "web/app/process/light: pl.view.header.questionnaire.actions_template.list",
+                        "import_export": "web/app/process/light: pl.view.header.questionnaire.actions_template.import_export"
+                    }
+                },
+                "import_export": {
+                    "export": "web/app/process/light: pl.view.header.import_export.export",
+                    "import": "web/app/process/light: pl.view.header.import_export.import"
+                }
             },
             "number": "web/app/process/light: pl.view.number",
             "participant": {
@@ -1349,6 +1377,9 @@
                             "button": "web/app/process/light: pl.view.participants.list.actions.block_one.button",
                             "notice": "web/app/process/light: pl.view.participants.list.actions.block_one.notice"
                         },
+                        "block_stage": {
+                            "button": "web/app/process/light: pl.view.participants.list.actions.block_stage.button"
+                        },
                         "invite_blocked": {
                             "button": "web/app/process/light: pl.view.participants.list.actions.invite_blocked.button"
                         },
@@ -1393,6 +1424,10 @@
                             "title": "web/app/process/light: pl.view.participants.list.actions.archive_nda.title",
                             "tooltip": "web/app/process/light: pl.view.participants.list.actions.archive_nda.tooltip"
                         },
+                        "block_participants": {
+                            "title": "web/app/process/light: pl.view.participants.list.actions.block_participants.title",
+                            "tooltip": "web/app/process/light: pl.view.participants.list.actions.block_participants.tooltip"
+                        },
                         "unblock_many": {
                             "button": "web/app/process/light: pl.view.participants.list.actions.unblock_many.button",
                             "tooltip": "web/app/process/light: pl.view.participants.list.actions.unblock_many.tooltip"
@@ -1403,7 +1438,8 @@
                         "nda": {
                             "title": "web/app/process/light: pl.view.participants.list.actions.nda.title",
                             "request": "web/app/process/light: pl.view.participants.list.actions.nda.request",
-                            "decision": "web/app/process/light: pl.view.participants.list.actions.nda.decision"
+                            "decision": "web/app/process/light: pl.view.participants.list.actions.nda.decision",
+                            "open": "web/app/process/light: pl.view.participants.list.actions.nda.open"
                         },
                         "permit_change": {
                             "reduction": {
@@ -1924,7 +1960,6 @@
                         "tooltip": "web/app/process/light: pl.view.request.general.files.tooltip"
                     },
                     "guest": {
-                        "stub": "web/app/process/light: pl.view.request.general.guest.stub",
                         "stub_contact": "web/app/process/light: pl.view.request.general.guest.stub_contact"
                     },
                     "name": {

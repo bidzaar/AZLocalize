@@ -138,7 +138,7 @@
       "change_role_dialog": {
         "apply": "Yadda saxla",
         "cancel": "Ləğv et",
-        "title": "Giriş hüquqlarının qurulması"
+        "title": "[AT] İşçi hüquqları"
       },
       "delete_user": {
         "dialog": {
@@ -153,9 +153,13 @@
         "add_tooltip": "əməkdaş əlavə et",
         "empty": "əməkdaşlar tapılmadı",
         "filters": {
-          "rights": "Hüquqlar",
-          "status": "status",
+          "rights": "[AT] Hüquqlar işçi",
+          "status": "[AT] status işçi",
           "statusChangedOn": "Status dəyişdirildi"
+        },
+        "sorting": {
+          "name":"[AT] işçinin adı",
+          "date_change": "[AT] status dəyişikliyi Tarixi"
         },
         "preview": {
           "grant_access": "təsdiq et",
@@ -165,7 +169,7 @@
         },
         "search": {
           "email": "istifadəçi e-poçtu",
-          "name": "tam adı"
+          "name": "[AT] axtarış sahələri üzrə aparılır:\ntam adı"
         },
         "status": {
           "0": "təsdiqini gözləyir",
@@ -173,7 +177,15 @@
           "2": "aktiv",
           "3": "bloklanıb"
         },
-        "title": "şirkət əməkdaşları"
+        "title": "[AT] əməkdaşları",
+        "rights": {
+          "list": "[AT] hüquqlar ({{value}})",
+          "empty": "[AT] Hüquqlar təyin edilməyib",
+          "approve": "[AT] Şirkət işçisi hüquqları tələbi",
+          "invited": "E-poçtla dəvət olunub",
+          "wait_for_approve": "Şirkətin işçisinin hüquqlarının tələbi",
+          "no_rights": "Hüquqlar təyin edilməyib"
+        } 
       },
       "restore_user": {
         "dialog": {
@@ -396,10 +408,10 @@
     },
     "invitations": {
       "access": "Şirkət profilinə giriş izni sorğulamaq",
-      "admin": "İnzibatçı",
+      "admin": "[AT] Şirkət administratoru",
       "number": "ID {{ value }}",
       "text": "İnzibatçı tərəfindən təstiq aldıqdan sonra siz şirkətin əməkdaşı kimi işə başlaya bilərsiniz",
-      "title": "Vacib məlumat"
+      "title": "[AT] Müraciətləriniz"
     },
     "no_procedures": {
       "action": "Sorğu axtar",
@@ -870,6 +882,7 @@
           "types": {
             "all-receipt": "sifariş",
             "all-receipt-archive": "sifariş",
+            "chats-archive": "[AT] mesajlar arxivi",
             "comparison-archive": "müqayisə cədvəlini",
             "my-proposal-archive": "sizin təklifiniz",
             "proposal-archive": "iştirakçının təklifi",
@@ -1047,9 +1060,10 @@
           "description": "Təsvir",
           "header": "Sual",
           "hidden": {
-            "owner": "Cavab yalnız sorğuçuya əlçatandır",
-            "participant": "Cavab digər iştirakçılar üçün mövcud olmayacaq.",
-            "tooltip": "Təchizatçılar bu suala rəqiblərin cavablarına çıxış əldə edəcəklər. Həssas və ya məxfi məlumatları gizlətməyi tövsiyə edirik"
+            "owner": "[AT] cavab digər iştirakçılardan gizlədilib",
+            "participant": "[AT] Cavab digər iştirakçılar üçün mövcud olmayacaq.",
+            "tooltip": "[AT] həssas və ya məxfi məlumatları gizlətməyi məsləhət görürük",
+            "info": "[AT] Sorğu parametrinin müvafiq qəbulu ilə iştirakçılar üçün cavab mövcuddur \"təklif təqdim edildikdən sonra iştirakçılar\" görürlər"
           },
           "required": "Cavab məcburidir",
           "text": "Sual mətni",
@@ -1833,7 +1847,12 @@
         "cancel": "Ləğv et",
         "header": "Yeni sorğu",
         "next": "Yarat",
-        "placeholder": "Ad"
+        "name": "Ad",
+        "type": "Type of the request",
+        "options": {
+          "1": "Закупка",
+          "2": "Продажа"
+        }
       },
       "invite": {
         "dialog": {
@@ -2091,7 +2110,9 @@
       }
     },
     "tooltips": {
-      "add": "əlavə et"
+      "add": "əlavə et",
+      "expand": "Show all tags",
+      "collapse": "Hide tags"
     }
   },
   "template": {
@@ -2573,68 +2594,27 @@
       "search": "Search...",
       "cancel": "Cancel",
       "submit": "Submit",
-      "not-found": "No employees were found."
+      "not-found": "[AT] Lazımi hüquqları olan işçilər yoxdur. İşçilərin hüquqlarını təyin etmək üçün şirkət menecerinə müraciət edin"
     },
     "rights": {
       "comment": "hüquqlar \"şirkəti idarə etmək\" hüququ olan istifadəçi tərəfindən müəyyən edilir",
-      "items": {
-        "0": {
-          "long": "Hüquqlar təyin edilməyib",
-          "short": "Hüquqlar təyin edilməyib"
-        },
-        "1": {
-          "long": "RFx",
-          "short": "RFx"
-        },
-        "2": {
-          "long": "Təchizatçı",
-          "short": "Təchizatçı"
-        },
-        "4": {
-          "long": "Akkreditasiyaya müraciət",
-          "short": "Akkreditasiyaya sorğu"
-        },
-        "8": {
-          "long": "Akkreditasiya qruplarının idarə edilməsi",
-          "short": "Qrupların idarə edilməsi"
-        },
-        "16": {
-          "long": "Şirkəti idarə et",
-          "short": "Şirkəti idarə et"
-        },
-        "128": {
-          "long": "Satınalma şöbəsinin rəhbəri",
-          "short": "Satınalma şöbəsinin rəhbəri"
-        },
-        "256": {
-          "long": "Qrupları idarə et",
-          "short": "Qrupları idarə et"
-        },
-        "512": {
-          "long": "Reyestrlər",
-          "short": "Reyestrlər"
-        },
-        "1024": {
-          "long": "Reyestr şöbəsinin rəhbəri",
-          "short": "Reyestr rəhbəri"
-        },
-        "2048": {
-          "short": "[AT] Akkreditivin tələbi. hovuz",
-          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
-        }
-      },
       "role": {
+        "title": "sorğu komandasında rol",
+        "text": "[AT] default",
         "items": {
-          "0": "Auditor",
-          "1": "Redaktor",
-          "2": "Sahib"
-        },
-        "title": "Sorğuçu komandasında rol",
-        "tooltip": "Sorğuçu komandasında standart rol"
-      },
-      "state": {
-        "empty": "İstifadəçi hüquqlarını ayarla",
-        "filled": "İstifadəçi icazələri"
+          "0": {
+            "title": "Auditor",
+            "text": "[AT] sorğuya baxır"
+          },
+          "1": {
+            "title": "Redaktor",
+            "text": "[AT] sorğu layihəsini düzəldir"
+          },
+          "2": {
+            "title": "Sahib",
+            "text": "[AT] sorğu dərc edir, dəyişdirir və tamamlayır"
+          }
+        }
       }
     },
     "shared": {

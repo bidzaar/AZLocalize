@@ -7,40 +7,40 @@
           "short": "Hüquqlar təyin edilməyib"
         },
         "1": {
-          "long": "Sorğuların keçirilməsi",
-          "short": "Sorğuların keçirilməsi"
+          "short": "[AT] Alıcı",
+          "long": "[AT] Alıcı"
         },
         "2": {
-          "long": "Sorğuya təkliflərin verilməsi",
-          "short": "Təkliflərin təqdim edilməsi"
+          "long": "Təchizatçı",
+          "short": "Təchizatçı"
         },
         "4": {
-          "long": "Akkreditasiya üçün müraciət",
-          "short": "Akkreditasiyaya sorğu"
+          "short": "Akkreditasiyaya sorğu",
+          "long": "[AT] akkreditasiya ərizəçisi"
         },
         "8": {
           "long": "Akkreditasiya qruplarının idarə edilməsi",
-          "short": "Qrupların idarəçiliyi"
+          "short": "Qrupların idarə edilməsi"
         },
         "16": {
-          "long": "Təşkilatın idarə olunması",
-          "short": "УК"
+          "short": "[AT] şirkət administratoru",
+          "long": "[AT] şirkət administratoru"
         },
         "128": {
-          "long": "Satınalma şöbəsinin rəhbəri",
-          "short": "Satınalmalar üzrə rəhbər"
+          "short": "[AT] Buyer (head of department)",
+          "long": "[AT] satınalma rəhbəri"
         },
         "256": {
-          "long": "Qrup rəhbərliyi",
-          "short": "Qrupların idarə olunması"
+          "short": "[AT] Qrup administratoru",
+          "long": "[AT] Qrup administratoru"
         },
         "512": {
-          "long": "Reyestrlər",
-          "short": "Reyestrlər"
+          "short": "Reyestrlər",
+          "long": "[AT] qeydiyyat administratoru"
         },
         "1024": {
-          "long": "Reyestrlar şöbəsinin rəhbəri",
-          "short": "Reyestrlərin rəhbəri"
+          "short": "Reyestr rəhbəri",
+          "long": "[AT] qeydiyyat şöbəsinin müdiri"
         },
         "2048": {
           "short": "[AT] Akkreditivin tələbi. hovuz",
@@ -79,7 +79,8 @@
         "title": "Şirkət əməkdaşları"
       },
       "preview": {
-        "approve": "Qəbul etmək",
+        "confirm": "İstisna etmək",
+        "give_admin": "[AT] şirkətin administrator hüquqlarını verin",
         "rights": {
           "empty": "Hüquqlar təyin edilməyib",
           "list": "İstifadəçi hüquqları"

@@ -23,5 +23,19 @@
     "ProcedureContext.StageComment": "<Название этапа>",
     "ProcedureVersionContext.ChangeLog": "<Описание изменений в запросе>",
     "ProcedureResultContext.Reason": "<Причина завершения без выбора победителя>",
-    "ReportType.NdaArchive": "текущие заявки на предквалификацию/NDA"
+    "ReportType.NdaArchive": "текущие заявки на предквалификацию/NDA",
+    "Proposal.Alternative": "Альтернативное",
+    "Proposal.Main": "Основное",
+    "Rights.Accreditations": "Готовит и подаёт заявки на аккредитацию в реестрах контрагентов других компаний",
+    "Rights.CompanyManagement": "Управляет сотрудниками, их правами, редактирует профиль компании",
+    "Rights.GroupsManagement": "Управляет группами сотрудников",
+    "Rights.Purchases": "Публикует и проводит запросы (закупочные процедуры)",
+    "Rights.PurchasingManager": "Управляет всеми запросами своей компании",
+    "Rights.RegistryManagement": "Ведёт реестры контрагентов своей компании, обрабатывает полученные заявки на аккредитацию",
+    "Rights.RegistryManager": "Управляет всеми реестрами контрагентов своей компании",
+    "Rights.Sales": "Готовит и подаёт коммерческие предложения в запросы",
+    "String3": "Публикует, изменяет и завершает запрос",
+    "String4": "Редактирует черновик запроса",
+    "String5": "Просматривает запрос",
+    "ReportType.ChatsArchive": "историю сообщений по запросу "
 }

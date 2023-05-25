@@ -4,10 +4,8 @@
             "1": "Sifarişçi",
             "2": "Təchizatçı",
             "4": "Akkreditasiyalar",
-            "8": "Qrupların idarə edilməsi",
             "256": "Qrupların idarə olunması",
-            "512": "Reyestrlər",
-            "2048": "Qruplarda Akkreditasiyalar"
+            "512": "Reyestrlər"
         }
     },
     "controls": {

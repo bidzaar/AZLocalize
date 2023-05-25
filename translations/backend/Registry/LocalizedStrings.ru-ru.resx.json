@@ -22,5 +22,6 @@
     "ScoringRange.Prefered": "Предпочтительные",
     "ScoringRange.LowPriority": "Низкий приоритет",
     "ScoringRange.Disqualified": "Дисквалифицирован",
-    "DeclineParticipant.LowRateReason": "Заявка на аккредитацию получила низкую скоринг-оценку и была отклонена автоматически."
+    "DeclineParticipant.LowRateReason": "Заявка на аккредитацию получила низкую скоринг-оценку и была отклонена автоматически.",
+    "Catalog.TemplateFileName": "Шаблон справочника.xlsx"
 }

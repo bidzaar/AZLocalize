@@ -38,16 +38,12 @@
         },
         "marker_verify": {
             "false": {
-                "more": "Ətraflı məlumat",
-                "text": "Bu şirkət keyfiyyətə nəzarət xidməti tərəfindən yoxlanılmayıb.",
                 "title": "Məlumat yoxlanılmayıb"
             },
             "true": {
-                "more": "Ətraflı məlumat",
-                "notice": "Bu şirkət keyfiyyətə nəzarət xidməti tərəfindən yoxlanılıb",
-                "text": "Yoxlanılmış təchizatçılar daha etibarlıdırlar və daha tez-tez sifarişlər alırlar",
                 "title": "ProcureSaaS tərəfindən təsdiqlənmişdir"
-            }
+            },
+            "notice": "[AT] sorğuda qalib gəlmək üçün komissiya ödənildikdə şirkətin təfərrüatları təsdiqlənir"
         },
         "number": {
             "long": "Şirkət ID {{value}}",

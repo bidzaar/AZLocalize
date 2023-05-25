@@ -119,10 +119,8 @@
             "1": "web/admin: common.rights.1",
             "2": "web/admin: common.rights.2",
             "4": "web/admin: common.rights.4",
-            "8": "web/admin: common.rights.8",
             "256": "web/admin: common.rights.256",
-            "512": "web/admin: common.rights.512",
-            "2048": "web/admin: common.rights.2048"
+            "512": "web/admin: common.rights.512"
         }
     },
     "controls": {

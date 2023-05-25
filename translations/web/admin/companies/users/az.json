@@ -7,40 +7,40 @@
                     "short": "Hüquqlar təyin edilməyib"
                 },
                 "1": {
-                    "long": "Sorğuların keçirilməsi",
-                    "short": "Sorğuların keçirilməsi"
+                    "short": "Sorğuların keçirilməsi",
+                    "long": "Sorğuların keçirilməsi"
                 },
                 "2": {
                     "long": "Sorğuya təkliflərin verilməsi",
                     "short": "Təkliflərin təqdim edilməsi"
                 },
                 "4": {
-                    "long": "Akkreditasiya üçün müraciət",
-                    "short": "Akkreditasiyaya sorğu"
+                    "short": "Akkreditasiyaya sorğu",
+                    "long": "Akkreditasiya üçün müraciət"
                 },
                 "8": {
                     "long": "Akkreditasiya qruplarının idarə edilməsi",
                     "short": "Qrupların idarəçiliyi"
                 },
                 "16": {
-                    "long": "Təşkilatın idarə olunması",
-                    "short": "Təşkilatın idarə olunması"
+                    "short": "Təşkilatın idarə olunması",
+                    "long": "Təşkilatın idarə olunması"
                 },
                 "128": {
-                    "long": "Satınalma şöbəsinin rəhbəri",
-                    "short": "Satınalma üzrə rəhbər"
+                    "short": "Satınalma üzrə rəhbər",
+                    "long": "Satınalma şöbəsinin rəhbəri"
                 },
                 "256": {
-                    "long": "Qrupların idarə olunması",
-                    "short": "Qrupların idarə olunması"
+                    "short": "Qrupların idarə olunması",
+                    "long": "Qrupların idarə olunması"
                 },
                 "512": {
-                    "long": "Reyestrlər",
-                    "short": "Reyestrlər"
+                    "short": "Reyestrlər",
+                    "long": "Reyestrlər"
                 },
                 "1024": {
-                    "long": "Reyestrlər şöbəsinin rəhbəri",
-                    "short": "Reyestrlərin rəhbəri"
+                    "short": "Reyestrlərin rəhbəri",
+                    "long": "Reyestrlər şöbəsinin rəhbəri"
                 },
                 "2048": {
                     "short": "Qruplarda akkreditasiya üçün müraciət",
@@ -79,7 +79,8 @@
                 "title": "Şirkət əməkdaşları"
             },
             "preview": {
-                "approve": "Qəbul etmək",
+                "confirm": "İstisna etmək",
+                "give_admin": "[AT] şirkətin administrator hüquqlarını verin",
                 "rights": {
                     "empty": "Hüquqlar təyin edilməyib",
                     "list": "İstifadəçi hüquqları"

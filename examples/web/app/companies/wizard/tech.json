@@ -11,7 +11,7 @@
             "manual": {
               "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.manual.header"
             },
-            "dadata": {
+            "service": {
               "search": {
                 "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.header",
                 "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.title",

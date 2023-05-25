@@ -48,6 +48,9 @@
       "finish_date": {
         "title": "web/app/process/procedures: prs.filters.finish_date.title"
       },
+      "responsible": {
+        "title": "prs.filters.responsible.title"
+      },
       "team": {
         "title": "web/app/process/procedures: prs.filters.team.title"
       },
@@ -104,6 +107,7 @@
       "export": "web/app/process/procedures: prs.my.export",
       "manager_title": "web/app/process/procedures: prs.my.manager_title",
       "download": "web/app/process/procedures: prs.my.download",
+      "download_mobile": "web/app/process/procedures: prs.my.download_mobile",
       "report": {
         "period": "web/app/process/procedures: prs.my.report.period",
         "cancel": "web/app/process/procedures: prs.my.report.cancel",
@@ -111,7 +115,8 @@
         "type": {
           "0": "web/app/process/procedures: prs.my.report.type.0",
           "1": "web/app/process/procedures: prs.my.report.type.1",
-          "2": "web/app/process/procedures: prs.my.report.type.2"
+          "2": "web/app/process/procedures: prs.my.report.type.2",
+          "3": "web/app/process/procedures: prs.my.report.type.3"
         }
       }
     },
@@ -127,6 +132,7 @@
       "until": "web/app/process/procedures: prs.public.until",
       "from": "web/app/process/procedures: prs.public.from",
       "left": "web/app/process/procedures: prs.public.left",
+      "passed": "web/app/process/procedures: prs.public.passed",
       "tarrifs_popover": {
         "title": "web/app/process/procedures: prs.public.tarrifs_popover.title",
         "text": "web/app/process/procedures: prs.public.tarrifs_popover.text",

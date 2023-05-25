@@ -1,6 +1,23 @@
 {
   "pl": {
     "request": {
+      "editor": {
+        "headers": {
+          "h1": "web/app/process/light/request: pl.request.editor.headers.h1",
+          "h2": "web/app/process/light/request: pl.request.editor.headers.h2",
+          "h3": "web/app/process/light/request: pl.request.editor.headers.h3",
+          "h4": "web/app/process/light/request: pl.request.editor.headers.h4",
+          "h5": "web/app/process/light/request: pl.request.editor.headers.h5",
+          "h6": "web/app/process/light/request: pl.request.editor.headers.h6"
+        },
+        "remove": "web/app/process/light/request: pl.request.editor.remove",
+        "message": {
+          "error": "web/app/process/light/request: pl.request.editor.message.error",
+          "warning": "web/app/process/light/request: pl.request.editor.message.warning",
+          "warning-nda": "web/app/process/light/request: pl.request.editor.message.warning-nda",
+          "error-nda": "web/app/process/light/request: pl.request.editor.message.error-nda"
+        }
+      },
       "general": {
         "title": "web/app/process/light/request: pl.request.general.title",
         "nda": {
@@ -11,18 +28,7 @@
           "title": "web/app/process/light/request: pl.request.general.description_and_files.title",
           "placeholder": "web/app/process/light/request: pl.request.general.description_and_files.placeholder",
           "add_files": "web/app/process/light/request: pl.request.general.description_and_files.add_files",
-          "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text",
-          "editor": {
-            "headers": {
-              "h1": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h1",
-              "h2": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h2",
-              "h3": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h3",
-              "h4": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h4",
-              "h5": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h5",
-              "h6": "web/app/process/light/request: pl.request.general.description_and_files.editor.headers.h6"
-            },
-            "remove": "web/app/process/light/request: pl.request.general.description_and_files.editor.remove"
-          }
+          "warning_text": "web/app/process/light/request: pl.request.general.description_and_files.warning_text"
         },
         "contact_info": {
           "title": "web/app/process/light/request: pl.request.general.contact_info.title",
@@ -71,9 +77,6 @@
       },
       "rules": {
         "title": "web/app/process/light/request: pl.request.rules.title"
-      },
-      "participant_rules": {
-        "title": "web/app/process/light/request: pl.request.participant_rules.title"
       },
       "registries": {
         "title": "web/app/process/light/request: pl.request.registries.title",

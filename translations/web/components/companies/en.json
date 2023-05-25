@@ -30,16 +30,12 @@
         },
         "marker_verify": {
             "false": {
-                "title": "Information is not verified",
-                "text": "This company has not been checked by the quality control service.",
-                "more": "Learn more"
+                "title": "Information is not verified"
             },
             "true": {
-                "title": "Verified by ProcureSaaS",
-                "notice": "This company has been checked\nby quality control service",
-                "text": "Proven suppliers are more trustworthy and receive orders more often",
-                "more": "Learn more"
-            }
+                "title": "Verified by ProcureSaaS"
+            },
+            "notice": "Company details are confirmed when paying the commission for winning the request"
         },
         "marker_phantom": {
             "text": "phantom"

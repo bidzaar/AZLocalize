@@ -155,6 +155,10 @@
                     "status": "web/app: admin.users.list.filters.status",
                     "statusChangedOn": "web/app: admin.users.list.filters.statusChangedOn"
                 },
+                "sorting": {
+                    "name": "web/app: admin.users.list.sorting.name",
+                    "date_change": "web/app: admin.users.list.sorting.date_change"
+                },
                 "preview": {
                     "grant_access": "web/app: admin.users.list.preview.grant_access",
                     "reject": "web/app: admin.users.list.preview.reject",
@@ -171,7 +175,12 @@
                     "2": "web/app: admin.users.list.status.2",
                     "3": "web/app: admin.users.list.status.3"
                 },
-                "title": "web/app: admin.users.list.title"
+                "title": "web/app: admin.users.list.title",
+                "rights": {
+                    "list": "web/app: admin.users.list.rights.list",
+                    "empty": "web/app: admin.users.list.rights.empty",
+                    "approve": "web/app: admin.users.list.rights.approve"
+                }
             },
             "restore_user": {
                 "dialog": {
@@ -823,7 +832,8 @@
                         "my-proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.my-proposal-archive",
                         "proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.proposal-archive",
                         "receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.receipt-archive",
-                        "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive"
+                        "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive",
+                        "chats-archive": "web/app: notifications.list.templates.procedure_reports.types.chats-archive"
                     }
                 },
                 "registry_reports": {
@@ -994,7 +1004,8 @@
                     "hidden": {
                         "owner": "web/app: procedure.questionnaire.editor.item.hidden.owner",
                         "participant": "web/app: procedure.questionnaire.editor.item.hidden.participant",
-                        "tooltip": "web/app: procedure.questionnaire.editor.item.hidden.tooltip"
+                        "tooltip": "web/app: procedure.questionnaire.editor.item.hidden.tooltip",
+                        "info": "web/app: procedure.questionnaire.editor.item.hidden.info"
                     }
                 },
                 "actions": {
@@ -1975,7 +1986,8 @@
             }
         },
         "tooltips": {
-            "add": "web/app: tags.tooltips.add"
+            "add": "web/app: tags.tooltips.add",
+            "show_tags": "web/app: tags.tooltips.show_tags"
         }
     },
     "template": {

@@ -51,46 +51,6 @@
                 "text": "web/app/process/light/positions/seller: pl_prp.positions.forbidden.text",
                 "notice": "web/app/process/light/positions/seller: pl_prp.positions.forbidden.notice"
             },
-            "common": {
-                "vat": {
-                    "true": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.true",
-                    "false": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.false",
-                    "null": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.null",
-                    "none": "web/app/process/light/positions/seller: pl_prp.positions.common.vat.none"
-                },
-                "currency": {
-                    "request": "web/app/process/light/positions/seller: pl_prp.positions.common.currency.request",
-                    "participant": "web/app/process/light/positions/seller: pl_prp.positions.common.currency.participant"
-                }
-            },
-            "summary": {
-                "current": {
-                    "title": {
-                        "true": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.title.true",
-                        "false": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.title.false"
-                    },
-                    "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.current.tooltip"
-                },
-                "previous": {
-                    "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.previous.title",
-                    "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.previous.tooltip"
-                },
-                "best": {
-                    "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.best.title",
-                    "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.best.tooltip"
-                },
-                "timer": {
-                    "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.timer.title",
-                    "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.timer.tooltip"
-                },
-                "actions": {
-                    "submit": "web/app/process/light/positions/seller: pl_prp.positions.summary.actions.submit"
-                },
-                "reference_price": {
-                    "title": "web/app/process/light/positions/seller: pl_prp.positions.summary.reference_price.title",
-                    "tooltip": "web/app/process/light/positions/seller: pl_prp.positions.summary.reference_price.tooltip"
-                }
-            },
             "filters": {
                 "options": {
                     "0": "web/app/process/light/positions/seller: pl_prp.positions.filters.options.0",
@@ -105,39 +65,6 @@
                 "upload": "web/app/process/light/positions/seller: pl_prp.positions.actions.upload"
             },
             "table": {
-                "groups": {
-                    "position": "web/app/process/light/positions/seller: pl_prp.positions.table.groups.position",
-                    "proposal": "web/app/process/light/positions/seller: pl_prp.positions.table.groups.proposal"
-                },
-                "columns": {
-                    "position": {
-                        "index": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.index",
-                        "name": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.name",
-                        "description": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.description",
-                        "count": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.count",
-                        "unit": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.unit",
-                        "target_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.target_price",
-                        "max_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.max_price",
-                        "min_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.min_price",
-                        "expected_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.expected_price",
-                        "best_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.best_price",
-                        "documents": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.position.documents"
-                    },
-                    "proposal": {
-                        "availability": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.availability",
-                        "count": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.count",
-                        "rank": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.rank",
-                        "total": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.total",
-                        "vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.vat",
-                        "price_incl_vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.price_incl_vat",
-                        "price_excl_vat": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.price_excl_vat",
-                        "currency": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.currency",
-                        "comment": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.comment",
-                        "documents": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.documents",
-                        "prev_price": "web/app/process/light/positions/seller: pl_prp.positions.table.columns.proposal.prev_price"
-                    }
-                },
-                "tooltips": {},
                 "validation": {
                     "currency": {
                         "invalid": "web/app/process/light/positions/seller: pl_prp.positions.table.validation.currency.invalid"

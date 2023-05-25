@@ -15,6 +15,7 @@
                 "8": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.8",
                 "16": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.16",
                 "128": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.128",
+                "256": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.256",
                 "512": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.512",
                 "2048": "web/admin/tariffs/companies-list: trf.cms.list.enums.rights.2048"
             }

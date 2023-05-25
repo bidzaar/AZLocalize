@@ -2,16 +2,33 @@
   "pl": {
     "qst": {
       "templates": {
-        "buttons": {
-          "save": "Save templates",
-          "list": "Template list"
-        },
-        "list": {
-          "empty": "Templates not saved"
-        },
         "dialogs": {
+          "list": {
+            "title": "Saved templates",
+            "search": {
+              "placeholder": "Search",
+              "empty": "Nothing found"
+            },
+            "empty": "Templates not saved",
+            "actions": {
+              "cancel": "Cancel",
+              "submit": "Apply template"
+            }
+          },
+          "edit": {
+            "title": "New template name",
+            "label": "Template name",
+            "actions": {
+              "cancel": "Cancel",
+              "save": "Save"
+            }
+          },
           "apply": {
-            "title": "Apply template",
+            "title": "Insert non-price criteria",
+            "options": {
+              "append": "Add to the end of the list",
+              "replace": "Replace the current criteria"
+              },
             "text": "The current non-price criteria will be replaced",
             "cancel": "Cancel",
             "submit": "Apply",

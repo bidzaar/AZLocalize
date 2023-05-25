@@ -22,5 +22,6 @@
     "Report.Date": "Hesabat",
     "ScoringRange.Disqualified": "Diskvalifikasiya",
     "ScoringRange.LowPriority": "Aşağı prioritet",
-    "ScoringRange.Prefered": "Yüksək prioritet"
+    "ScoringRange.Prefered": "Yüksək prioritet",
+    "Catalog.TemplateFileName": "Təlimat şablonu.xlsx"
 }

@@ -18,7 +18,7 @@
       <mj-column>
         <mj-text>
           <h1>Вы запрашивали @ReportContext.TypeName</h1>
-          <p>Архив сформирован @ConfigurationContext.Date и доступен в течении 30 дней.</p>
+          <p>Архив сформирован @ConfigurationContext.Date и доступен в течение 30 дней.</p>
         </mj-text>
         <mj-button href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/async/@ReportPrecontext.ReportId">Скачать архив</mj-button>
       </mj-column>

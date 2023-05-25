@@ -70,7 +70,7 @@
     "ProcedureEndedWinner": "Təbrik edirik! Sifarişçi sorğunun mövzusu üzrə gələcək əməkdaşlıq üçün sizi seçdi. Təfərrüatlar - sorğunun Yekun Nəticələr bölməsində",
     "ProcedureProlongated": "İştirakçı tərəfindən təklifin təqdim edilməsi ilə əlaqədar təklif təqdim edilməsinin son tarixi {ProlongationTermInMinutes} dəq. uzadılıb",
     "ProcedureStagePublished": "Sifarişçi sorğunun yeni mərhələsini elan etdi: {Comment}.",
-    "ProposalCanceled": "İştirakçı təklifi geri qaytarıb.",
+    "ProposalCanceled": "İştirakçı təklifi geri qaytarıb \"{ProposalType}\".",
     "ProposalGoDraftDueToMajorChange": "Təklifiniz sorğu dəyişikliyi və ya yeni mərhələ elan edildiyi üçün imtina olundu. Zəhmət olmasa təklifi yeniləyin.",
     "ProposalUpdated": "Təklif yeniləndi.",
     "PublishProcedure": "Sorğu dərc olunub",
@@ -82,7 +82,7 @@
     "FileAddedToProposal": "İştirakçı təklifə sənəd əlavə etdi ",
     "FinishRoundProcedure": "Sifarişçi təklif təqdim olunma mərhələsini tamamladı. Uyğunluğu yoxlayın və təqdim edilmiş təklifi yeniləyin.",
     "AcceptanceExpired": "Təkliflər qəbulu bitib. Uyğunluğu yoxlayın və təqdim edilmiş təklifi yeniləyin.",
-    "AcceptanceExpiringBroadcast": "Təkliflər qəbulu 48 saatdan sonra bitir",
+    "AcceptanceExpiringBroadcast": "Təkliflər qəbulu {hours} saatdan sonra bitir",
     "AddTeamMember": "Komandada yeni əməkdaş: {UserName}.",
     "ChangedFields": "{header} {fields.added}{fields.changed}{fields.deleted}",
     "ChangedGeneral": "Ümumi məlumat dəyişdirildi: {general}",
@@ -90,8 +90,12 @@
     "ChangedGroups": "{header} {groups.added}{groups.changed}{groups.deleted}",
     "ChangedParameters": "Sorğu parametrləri dəyişdirildi: {parameters}",
     "ChangedPositions": "{header} {positions.added}{positions.changed}{positions.deleted}",
-    "ChangedProcedure": "Sifarişçi sorğuya dəyişikliklər etdi. Təklifinizin uyğunluğunu yoxlayın!",
+    "ChangedProcedure": "Müştəri sorğuya dəyişikliklər etdi. <a href=\"{Url}\" target=\"_blank\">Dəyişiklikləri yoxlayın</a> və təklifinizin yeni olub-olmadığını yoxlayın!",
     "ChangeTeamMemberRights": "{UserName} üçün rol dəyişildi",
     "DeleteTeamMember": "Əməkdaş komandadan uzaqlaşdırıldı: {UserName}.",
-    "ProcedureTariffChanged": "Cari Sorğu üçün Xidmət operatorunun haqqı dəyişdirildi. Təchizatçıların Sorğu prosedurunda davamlı iştirakı dəyişikliklərin qəbul edilməsi deməkdir, fikir ayrılığı olduqda Təchizatçı Sorğuda iştirakdan imtina etməlidir."
+    "ProcedureTariffChanged": "Cari Sorğu üçün Xidmət operatorunun haqqı dəyişdirildi. Təchizatçıların Sorğu prosedurunda davamlı iştirakı dəyişikliklərin qəbul edilməsi deməkdir, fikir ayrılığı olduqda Təchizatçı Sorğuda iştirakdan imtina etməlidir.",
+    "ProposalRejected": "Müştəri \"{ProposalType}\" təklifinizi rədd etdi. Səbəb: {Səbəb}.",
+    "ProposalRejected.ProposalType.Alternative": "Alternativ",
+    "ProposalRejected.ProposalType.Main": "Əsas",
+    "ProcedureEndedBroadcastWithoutOrder": "Sorğu qalib seçilmədən başa çatdı. Səbəb: {səbəb}. Bütün iştirakçılara təşəkkür edirik!"
 }

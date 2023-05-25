@@ -4,8 +4,14 @@
       "enums": {
         "reason": {
           "0": "Other",
-          "1": "There are no suitable offers",
-          "2": "There is no need to make a request"
+          "1": "Got the best deal off the platform",
+          "2": "The request does not involve the selection of a winner (price market analysis or prequalification)",
+          "3": "Refusal of the supplier from the terms of the contract",
+          "4": "Cancellation of a purchase requirement",
+          "5": "Changed terms of reference",
+          "6": "Wrong winner selected",
+          "7": "Not enough commercial offers",
+          "null": "No offers"
         },
         "commission": {
           "0": "Invoice preparation",
@@ -59,7 +65,11 @@
               "nobody": "Request completed without choosing a winner.",
               "comment": "The organiser's comment",
               "questions": "Do you have any questions?",
-              "message": "Contact the requester."
+              "message": "Contact the requester.",
+              "last_winner": {
+                "title": "The customer excluded you from the winners",
+                "text": "Nevertheless, according to the user agreement, the commission for the operation of the service must be paid"
+              }
             }
           },
           "requests": {
@@ -68,7 +78,7 @@
           },
           "payment": {
             "title": "Service operator's Commission",
-            "delay": "The invoice will be issued approximately {{ value }}",
+            "delay": "The invoice will be sent to e-mail {{ value }}",
             "email": "Invoice sent to your company email",
             "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"
           }
@@ -101,13 +111,24 @@
             },
             "finished": {
               "stub": {
-                "text": "The request is completed without selecting a winner"
+                "text": "The request is completed without selecting a winner",
+                "notice": "<b>Reason:</b> {{comment}}"
               }
             },
             "active": {
               "stub": {
-                "text": "The winner of the request has not been determined",
-                "notice": "Select the winner of the query on the Comparison tab"
+                "has_proposals": {
+                  "text": "No winner selected",
+                  "notice": "Select the winner of the query on the Comparison tab"
+                },
+                "proposal_status": {
+                  "text": "No bids yet",
+                  "notice": "Check out our <a href=\"{{link}}\" target=\"_blank\">best practices for effective purchasing</a>"
+                },
+                "summarize_status": {
+                  "text": "No bids",
+                  "notice": "Carry out a new inquiry step based on our <a href=\"{{link}}\" target=\"_blank\">recommendations for effective purchasing</a>"
+                }
               },
               "list": {
                 "title": "Choice",
@@ -147,38 +168,17 @@
           },
           "participations": {
             "title": "Participants",
-            "winners": "Winners",
-            "proposals": "Submitted bid",
-            "active": "Participated",
-            "total": "Total including invitees"
+            "stage": "Stage",
+            "participated": "Participated",
+            "participated_tooltip": "Including rejected and blocked",
+            "submitted_proposals": "Participants with an offer",
+            "submitted_requests": "Submitted requests"
           },
           "savings": {
-            "title": {
-              "completed": {
-                "text": "Savings"
-              },
-              "progress": {
-                "text": "Possible savings",
-                "tooltip": "In case of completion of the request with ordering"
-              }
-            },
-            "stubs": {
-              "budget": {
-                "notice": "Request budget is not set",
-                "text": "Savings on the requested budget"
-              },
-              "proposals": {
-                "notice": "Calculations are available if:\n(1) Bid quantity is marked with \"Full contentment with the items and their quantity\",\n(2) The order contains a bid from one participant only",
-                "text": "Savings in comparison to the prices of participants' bids"
-              }
-            },
-            "values": {
-              "average": "in comparison to the average price of the initial bid",
-              "best": "in comparison to the price of the best initial bid",
-              "budget": "in comparison to the requested budget ({{ value }} {{ currency }})",
-              "custom": "for the customer",
-              "winner": "in comparison to the price of the initial winner's bid"
-            }
+            "title": "Savings",
+            "stubs": "To indicate the savings, complete the request with a winner selection.",
+            "tooltip": "Specify savings",
+            "help": "Why don't we calculate savings automatically?"
           }
         },
         "participant": {
@@ -203,11 +203,12 @@
             "broadcast": "Channel with all participants",
             "team": "Team chat",
             "participants": "Chats with participants",
-            "empty": "There are no chats with participants"
+            "empty": "There are no chats with participants",
+            "all": "All Request Chats"
           },
           "versions_reports": {
             "header": "Request versions",
-            "history": "History of changes",
+            "history": "Changes in the request",
             "notice": "Request's notice",
             "draft": "draft",
             "active": "active",
@@ -215,27 +216,21 @@
           },
           "saving_editor": {
             "header": "Savings",
-            "editable": {
-              "hint": "In request currency",
-              "text": "Savings amounted to:",
-              "cancel": "Cancel",
-              "next": "Save"
-            },
-            "readonly": {
-              "text": "Savings are available after request completion.",
-              "cancel": "Next"
-            }
+            "cancel": "Cancel",
+            "submit": "Save",
+            "label": "Savings achieved"
           },
           "request_completion": {
             "true": {
-              "header": "Request completion",
               "text": "Your choice:"
             },
             "false": {
-              "header": "Request completion without an choice",
-              "text": "Your choice has not been formed.",
-              "reason": "Specify the reason:",
-              "comment": "Reason..."
+              "text": "Offers submitted: {{value}}. The winner has not been chosen.",
+              "reason": "Specify the reason please:",
+              "comment": "Reason...",
+              "comment_label": "Provide a detailed reason that participants can understand",
+              "chars_validation": "Please enter at least {{value}} characters without extra punctuation",
+              "empty": "At the moment there are no submitted proposals."
             },
             "vat": {
               "true": "incl. VAT",
@@ -249,7 +244,8 @@
             "mail": {
               "title": "We will notify vendors when the request is completed",
               "subtitle": "You can supplement our letter with your message to the participants"
-            }
+            },
+            "header": "Request completion"
           }
         }
       }

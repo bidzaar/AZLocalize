@@ -21,6 +21,7 @@
     "ImportExport.MinimumPricePerUnit": "Vahid üçün minimum qiymət",
     "ImportExport.MinimumProposalPrice": "Minimum təklif qiyməti",
     "ImportExport.Optional": "isteğe bağlıdır",
+    "ImportExport.PositionGroupName": "Group",
     "ImportExport.Positions.CommonDescription": "Əşyalar",
     "ImportExport.Positions.CommonDescription.Hint": "Elementlərin təsvirinin dəyişdirilməsi faylı yükləyərkən xətalara səbəb olacaq",
     "ImportExport.Positions.Count": "Məbləğ",

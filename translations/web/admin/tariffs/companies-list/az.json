@@ -12,11 +12,10 @@
                 "1": "Sifarişçi ",
                 "2": "Təchizatçı ",
                 "4": "Akkreditasiya",
-                "8": "Qrupların idarə edilməsi",
                 "16": "Şirkətin idarə edilməsi",
                 "128": "Satınalma sahibi",
-                "512": "Reyestrlər",
-                "2048": "Qruplarda akkreditasiya"
+                "256": "[AT] Qrup administratoru",
+                "512": "Reyestrlər"
             }
         },
         "invite": {

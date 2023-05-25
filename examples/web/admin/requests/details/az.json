@@ -1,14 +1,17 @@
 {
   "req.details": {
     "tabs": {
+      "open": "açıq",
       "nda": "sorğu məlumatları NİV proseduru ilə qorunur",
       "tags": "tags",
       "docs": "Sənədlər",
-      "positions": "mövqelər üzrə spesifikasiya",
-      "questionnaire": "qiymətsiz meyarlar",
-      "owner_rules": "sorğu Qaydaları",
-      "participant_rules": "sorğu iştirakçıları üçün qaydalar",
-      "open": "açıq"
+      "positions_on": "mövqelər üzrə spesifikasiya",
+      "positions_off": "[AT] Mövqe spesifikasiyası deaktiv edilib",
+      "questions_on": "qiymətsiz meyarlar",
+      "questions_off": "[AT] qeyri-qiymət meyarları müəyyən edilməyib",
+      "rules_general": "sorğu Qaydaları",
+      "rules_participant": "sorğu iştirakçıları üçün qaydalar",
+      "positions_off_notice": "[AT] İştirakçılar bütün sorğu üçün ümumi qiyməti göstərirlər"
     },
     "expansions": {
       "nda": {
@@ -52,74 +55,19 @@
     },
     "tariffs": {
       "title": "Qiymətləndirmə",
-      "view": "ətraflı",
-      "dialog": {
-        "edit": "sorğu tarifini dəyişdirin"
+      "free": {
+        "title": "[AT] Gediş haqqı tətbiq edilmir",
+        "text": "[AT] İştirak pulsuzdur",
+        "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
       },
-      "payment_fee": {
-        "seller": "[AT] Qazanan təchizatçı ödəyir",
+      "promo": {
+        "title": "[AT] Gediş haqqı tətbiq edilmir",
+        "text": "Tətbiq olunan promo kodu: {{value}}"
+      },
+      "tariff": {
+        "info": "[AT] Daha çox",
         "purchaser": "[AT] Müştəri ödəyir",
-        "fee": {
-          "title": "[AT] Gediş haqqı tətbiq edilmir",
-          "text": "[AT] İştirak pulsuzdur",
-          "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
-        }
-      },
-      "info": "[AT] Daha çox"
-    },
-    "owner_rules": {
-      "verified_only": {
-        "label": "təkliflərin Verilməsi",
-        "text": "yalnız təsdiq təchizatçıları",
-        "popover": {
-          "title": "təsdiq edilmiş təchizatçılar üçün sorğu",
-          "text": "təsdiq edilmiş hüquqi qeydiyyatı olan təchizatçılar təklif edə bilərlər",
-          "helper": "saytın mütəxəssisləri təchizatçıları yoxlayır və onları xüsusi bir simvolla qeyd edirlər"
-        }
-      },
-      "acceptance_end_date": {
-        "label": "təkliflərin qəbulu",
-        "time_left": "Qaldı"
-      },
-      "prolongation": {
-        "label": "təkliflərin qəbulunun Avtodayanması",
-        "minutes": "dəqiqə",
-        "time-left": "dəyirmi sonu",
-        "tooltip": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən"
-      },
-      "approximate_deadline_for_summing_up": {
-        "label": "Yekunlaşmanın təxmini müddəti",
-        "description": "təkliflərin qəbulu başa çatdıqdan sonra günlər",
-        "tooltip": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
-        "value_null": "müəyyən Deyil"
-      },
-      "currency": {
-        "label": "sorğu valyutası",
-        "show_all": "Hamısını göstər",
-        "hide": "Gizlət"
-      },
-      "vat": {
-        "label": "qalibi seçərkən nəzərə alınır",
-        "options": {
-          "false": "Qiymət ƏDV",
-          "none": "göstərilməyib",
-          "true": "ƏDV ilə qiymət"
-        }
-      },
-      "open_type": {
-        "label": "sorğu növü",
-        "tooltips": {
-          "0": "sorğu iştirakçılarının dairəsi məhdud deyil ",
-          "1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
-          "editable": "açıq – iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur –"
-        }
-      },
-      "owner_visibility": {
-        "label": "təkliflərin qəbulu mərhələsində təşkilatçı",
-        "enums": {
-          "0": "iştirakçıların təkliflərini görür",
-          "1": "iştirakçıların təklifinin məzmununu görmür"
-        }
+        "seller": "[AT] Qazanan təchizatçı ödəyir"
       }
     }
   }
