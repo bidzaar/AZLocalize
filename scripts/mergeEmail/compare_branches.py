@@ -26,7 +26,7 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
     # Copy the changed and added files to folder2, preserving the relative path
     for f in changed_files + list(added_files):
         src_path = os.path.join(repo_path, f)
-        dst_path = os.path.join(repo_path, folder2, f.replace(f"{folder1}/", ""))
+        dst_path = os.path.join(repo_path, f.replace(f"{folder1}/", f"{folder2}/"))
         os.makedirs(os.path.dirname(dst_path), exist_ok=True)
         shutil.copy2(src_path, dst_path)
 
@@ -41,4 +41,4 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
 
 
 if __name__ == "__main__":
-    compare_branches("../..", "releaseaz-3.18.2", "releaseaz-4.1.1", "examples/emails/templates/", "translations/emails/templates/")
+    compare_branches("../..", "releaseaz-3.18.2", "releaseaz-4.1.1", "examples/emails/templates", "translations/emails/templates")
