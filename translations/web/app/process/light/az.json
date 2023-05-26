@@ -2674,7 +2674,7 @@
                     "actions_template": {
                         "save": "Şablonu yadda saxla",
                         "list": "Şablon siyahısı",
-                        "import_export": "[AT] İdxal / İxrac"
+                        "import_export": "Endir/Yüklə"
                     }
                 },
                 "import_export": {

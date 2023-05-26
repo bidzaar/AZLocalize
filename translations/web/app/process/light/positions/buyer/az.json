@@ -93,7 +93,7 @@
         "positions": {
             "header": {
                 "import_export": {
-                    "button": "[AT] İdxal ixrac",
+                    "button": "Endir/Yüklə",
                     "download": "[AT] Doldurmaq üçün şablonu Yükləyin",
                     "import": "[AT] Fayldan vəzifələrin yüklənməsi"
                 }

@@ -16,13 +16,13 @@
                 "2": "Возможна подача на часть позиций"
             },
             "updown": {
-                "0": "Участники могут повышать и понижать цену",
-                "1": "Участники могут только понижать цену (редукцион)",
-                "2": "Участники могут только повышать цену (аукцион)"
+                "0": "İştirakçılar qiyməti qaldıra və ya endirə bilərlər",
+                "1": "Reduksion (iştirakçılar yalnız qiyməti endirə bilər)",
+                "2": "Auksion (iştirakçılar yalnız qiyməti qaldıra bilər)"
             },
             "reference": {
-                "0": "etibarən öz təkliflərini",
-                "1": "etibarən ən yaxşı təklif"
+                "0": "öz təklifindən",
+                "1": "ən yaxşı təklifdən"
             },
             "participant_business_status": {
                 "0": "Sifariş alındı",
