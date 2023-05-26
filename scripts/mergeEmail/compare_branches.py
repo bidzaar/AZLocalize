@@ -34,10 +34,10 @@ def compare_branches(repo_path, branch1, branch2, folder1, folder2, exceptions=[
     with open(readme_path, "w") as readme:
         readme.write("Files changed in the '{}' branch compared to the '{}' branch:\n\n".format(branch2, branch1))
         for f in sorted(changed_files, key=str.lower):
-            readme.write("- {}\n".format(f))
+            readme.write("- {}\n".format(f.replace(f"{folder1}/", f"{folder2}/")))
         readme.write("\nFiles added in the '{}' branch:\n\n".format(branch2))
         for f in sorted(added_files, key=str.lower):
-            readme.write("- {}\n".format(f))
+            readme.write("- {}\n".format(f.replace(f"{folder1}/", f"{folder2}/")))
 
 
 if __name__ == "__main__":
