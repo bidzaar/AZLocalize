@@ -151,9 +151,9 @@
             "positions": {
                 "enabled": {
                     "header": "Maddələr üzrə spesifikasiya ({{ count }})",
-                    "notice": "[AT] Qiymət dəyişiklikləri üçün mövqeləri və qaydaları göstərin",
+                    "notice": "Sorğunun maddələrini qeyd edin",
                     "open": "[AT] Bütün vəzifələrin tam spesifikasiyasını açın",
-                    "setup": "[AT] Spesifikasiyanı fərdiləşdirin",
+                    "setup": "Maddələr spesifikasiyasını ayarla",
                     "toggle": "[AT] Spesifikasiyanı söndürün"
                 },
                 "disabled": {
