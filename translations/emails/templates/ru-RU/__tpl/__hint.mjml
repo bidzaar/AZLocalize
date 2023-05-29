@@ -1,15 +1,15 @@
  <mj-section mj-class="section-hint">
-      <mj-column>
-        <mj-text>
-          <p class="small mb-05"><b>Тендер проводится на площадке @ConfigurationContext.ProjectName. У нас:</b></p>
-          <ol class="small mb-1">
-            <li><b>Быстрая регистрация</b>, без аккредитации и ЭЦП</li>
-            <li><b>Бесплатное участие</b> в тендерах</li>
-            <li><b>Проводят закупки</b> Билайн, Альфа-Банк, Додо Пицца, Глория Джинс и ещё 95 коммерческих компаний </li>
-          </ol>
-          <p class="small">
-            <a href="@ConfigurationContext.BaseUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">Посмотреть текущие запросы на @ConfigurationContext.ProjectName ►</a>
-          </p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
+   <mj-column>
+     <mj-text>
+       <p class="small mb-05">Тендер проводится на площадке @ConfigurationContext.ProjectName. У нас:</p>
+       <ol class="small mb-1">
+         <li><b>Быстрая регистрация</b>, без аккредитации и ЭЦП</li>
+         <li><b>Подача предложения бесплатна.</b> Участник оплачивает комиссию при выборе его предложения Заказчиком. Размер комиссии указан в запросе
+         <li><b>Проводят закупки</b> Билайн, Альфа-Банк, Додо Пицца, Глория Джинс и ещё 95 коммерческих компаний </li>
+       </ol>
+       <p class="small">
+         <a href="@ConfigurationContext.BaseUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">Посмотреть текущие тендеры на @ConfigurationContext.ProjectName ►</a>
+       </p>
+     </mj-text>
+   </mj-column>
+ </mj-section>

@@ -1,0 +1,25 @@
+    <!-- spacer -------------------------------------------- -->
+    <!--<mj-section padding-top="0" padding-bottom="0">
+      <mj-column>
+        <mj-spacer height="40px" />
+      </mj-column>
+    </mj-section>
+    <!-- /spacer -->
+    <!-- footer -------------------------------------------- -->
+    <mj-section mj-class="section-footer" css-class="footer">
+      <mj-column>
+        <mj-text align="center"><b>@ConfigurationContext.ProjectName</b><br /><span class="smallest"><a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a> • <a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a> • <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.BaseUrl</a></span>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-section mj-class="section-footer" css-class="footer" padding-top="0">
+      <mj-column>
+        <mj-text align="center">
+          <span class="smallest">You received this email in accordance with @ConfigurationContext.ProjectName User agreement.</span>
+          @PixelContext.Html
+        </mj-text>
+      </mj-column>
+    </mj-section>
+
+
+

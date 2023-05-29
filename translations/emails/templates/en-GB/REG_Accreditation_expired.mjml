@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Vendor accreditation is expired</h1>         
+          <h1>Vendor onboarding period is expired</h1>         
           <p> <b>@CompanyContext.CompanyName</b> accreditation in <b>"@RegistryContext.Name"</b> is expired.</p>
 
           <p><b>Owner of vendor pool:</b> @RegistryContext.OwnerCompanyName<br />

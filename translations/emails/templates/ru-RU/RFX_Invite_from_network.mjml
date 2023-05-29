@@ -11,22 +11,22 @@
           <p>Уважаемый поставщик! Вашу компанию @TargetContext.CompanyName пригласили к участию в запросе.</p>
           <p class="mb-0"><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
-          </p>
-          @CustomMailContext.Body
-          <p class="mb-0">
+          </p> @CustomMailContext.Body <p class="mb-0">
             <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
             <b>Место поставки:</b> @ProcedureContext.PlaceOfDelivery<br />
             <b>Извещение: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a>
           </p>
           <p style="white-space: pre-line"><b>Описание:</b><br> @ProcedureContext.Description</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Ознакомиться с запросом</mj-button>
-        <mj-text>
-          <p class="small mb-0">Прием предложений производится исключительно на площадке @ConfigurationContext.ProjectName</p>
+        <mj-button padding-bottom="20px" href="@ProcedureContext.Url">Ознакомиться с запросом</mj-button>
+        
+        <mj-text container-background-color="#FEF7E0">          
+          <p class="small mb-05"><b>Подача предложения бесплатна.</b> Участник оплачивает комиссию при выборе его предложения Заказчиком. Размер комиссии указан в запросе.</p>
+          <p class="small mb-0">Прием предложений – исключительно на площадке @ConfigurationContext.ProjectName</p>
         </mj-text>
       </mj-column>
     </mj-section>
-    <mj-include path="./__tpl/__spacer.mjml" />
+    <!--<mj-include path="./__tpl/__spacer.mjml" />-->
     <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
     <mj-include path="./__tpl/__footer.mjml" />
 </mjml>

@@ -9,7 +9,7 @@
         <mj-text>
           <h1 class="bb">Объявлен новый этап запроса</b></h1>
           <h2><b>Этап:</b> @ProcedureContext.StageComment</h2>
-          <p>Ознакомьтесь с условиями этапа и проверьте актуальность своего предложения.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Ознакомьтесь с изменениями</a> и проверьте актуальность своего предложения.</p>
           <p class="mb-0"><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>

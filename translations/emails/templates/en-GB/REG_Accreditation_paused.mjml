@@ -13,8 +13,8 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1> Accreditation is postponed</h1>         
-          <p>Accreditation <b>@CompanyContext.CompanyName</b> in <b>"@RegistryContext.Name"</b> is postponed.</p>
+          <h1> Onboarding is postponed</h1>         
+          <p>Onboarding <b>@CompanyContext.CompanyName</b> in <b>"@RegistryContext.Name"</b> is postponed.</p>
 
           <p><b>Owner of vendor pool:</b> @RegistryContext.OwnerCompanyName<br /><b> Reason for postponing:</b> @ReasonPrecontext.Reason</p>
           <a href="@RegistryContext.Url"> View the vendor pool</a>

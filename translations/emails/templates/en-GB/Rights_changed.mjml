@@ -7,20 +7,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Your company's rights was changed</h1>
-          <p>Current rights for <b>VECTOR LLC</b> at @ConfigurationContext.ProjectName:</p>
+          <h1>Your company's access rights has been changed</h1>
+          <p>Current rights for <b>@CompanyContext.CompanyName</b> at @ConfigurationContext.ProjectName:</p>
           <ul class="mb-1">
-            <li>✅ Publishing requests (purshasing procedures)</li>
-            <li>✅ Participating as a vendor in purshasing procedures</li>
-            <li>✅ Applying for accreditation in vendors registries</li>
-            <li>✅ Managing vendors registries</li>
+            @RightsPrecontext.RightsHints
           </ul>
-          <p class="mb-0">Assign the rights for the appropriate employees.</p>
+          <p class="mb-0">Assign the access rights for the relevant employees from your team.</p>
         </mj-text>
-        <mj-button href="https://bidzaar.com/users">Manage employees' rights</mj-button>
+        <mj-button href="https://bidzaar.com/users">Manage access rights</mj-button>
         <mj-text>
           <p class="small">
-            You have received this email because you are a Company Administrator at @ConfigurationContext.ProjectName and can manage employees and their access rights.</p>
+            You have received this email because you are a Company Administrator at @ConfigurationContext.ProjectName and can manage your team and their access rights on the platform.</p>
         </mj-text>
       </mj-column>
     </mj-section>

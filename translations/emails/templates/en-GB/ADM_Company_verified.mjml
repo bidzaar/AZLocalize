@@ -23,9 +23,9 @@
           <h2>@TargetContext.CompanyName is verified on @ConfigurationContext.ProjectName</h2>
           <p><br /><b>The benefits are:</b></p>
           <ul>
-            <li>Your company has a prominent icon (<img src="@ConfigurationContext.VerifiedImage" style="vertical-align:top" />) and get more visibility in search results</li>
+            <li>Your company has prominent icon and gets more visibility in search results</li>
             <li>Your company gets more trust and better ranking of activity</li>
-            <li>You can submit bids as a verified supplier</li>
+            <li>You can submit bids as a verified vendor</li>
           </ul>
           <p>Win more tenders on @ConfigurationContext.ProjectName!</p>
         </mj-text>
