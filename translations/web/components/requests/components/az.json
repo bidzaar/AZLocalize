@@ -55,33 +55,33 @@
                 }
             },
             "panel": {
-                "title": "[AT] Qruplar",
-                "collapse": "[AT] Paneli gizlət",
-                "expand": "[AT] Paneli genişləndirin",
+                "title": "Lotlar",
+                "collapse": "Paneli gizlət",
+                "expand": "Paneli genişləndirin",
                 "configure": "Ayarla",
-                "error": "[AT] Xəta aşkarlandı"
+                "error": "Xəta baş verdi"
             },
             "info": {
                 "action": {
                     "true": "Ayarla",
-                    "false": "[AT] Daha çox"
+                    "false": "Daha çox"
                 },
                 "deviation": {
-                    "0": "[AT] Tam məmnunluq",
+                    "0": "Maddələrə və miqdara görə yayınmağa icazə verilmir",
                     "1": "Maddələr və miqdara görə yayınmağa icazə verilir",
-                    "2": "[AT] Mövqe sapması"
+                    "2": "Maddələrə görə yayınmağa icazə verilir"
                 },
                 "step": {
-                    "0": "[AT] Qiymət addımı {{value}}{{unit}}",
+                    "0": "Qiymət dəyişikliyit addımı {{value}}{{unit}}",
                     "1": "Qiymət dəyişikliyi addımı {{value}}{{unit}}",
-                    "2": "[AT] Hərrac mərhələsi {{value}}{{unit}}"
+                    "2": "Auksion {{value}}{{unit}}"
                 },
                 "price_no_start": {
                     "1": "Qiymət dəyişikliyi",
-                    "2": "[AT] Hərrac"
+                    "2": "Auksion"
                 },
                 "price_with_start": {
-                    "0": "[AT] Gözlənilən qiymət {{ value }} {{ currency }}",
+                    "0": "Gözlənilən qiymət {{ value }} {{ currency }}",
                     "1": "[AT] {{ value }} {{ currency }} dəyərindən azalma",
                     "2": "[AT] {{ value }} {{ currency }}-dən hərrac"
                 }
