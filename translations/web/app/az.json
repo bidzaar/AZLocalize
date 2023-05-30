@@ -350,28 +350,28 @@
             "text": "Sorğulanan səhifəyə giriş məhduddur"
         },
         "request_forbidden": {
-            "hınt": "[AT] bu sorğu yalnız dəvət olunmuş üzvlər üçündür",
-            "text": "[AT] sorğuya giriş məhduddur",
+            "hınt": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür",
+            "text": "Sorğuya giriş məhduddur",
             "help": {
-                "action": "[AT] dəvət olunsanız nə etməli",
-                "text": "[AT] mümkün həllər:",
+                "action": "Dəvət olunsanız nə etməlisiniz?",
+                "text": "Mümkün həllər:",
                 "list": {
                     "item_1": {
-                        "text": "[AT] sayta daxil olun və dəvət olunan şirkət adından sorğunu açın"
+                        "text": "Platformaya daxil olun və dəvət olunan şirkət adından sorğunu açın"
                     },
                     "item_2": {
-                        "text": "[AT] bidzaar tərəfindən göndərilən dəvət məktubundan link vasitəsilə sorğu açın",
-                        "məlumat": "[AT] digər mənbələrdən bir sorğuya keçid dəvət deyil.",
-                        "info": "[AT] Başqa mənbələrdən gələn sorğuya keçid dəvət deyil."
+                        "text": "ProcureSaaS tərəfindən göndərilən dəvət məktubundan link vasitəsilə sorğunu açın",
+                        "məlumat": "Digər mənbələrdən gələn keçid etibarsızdır",
+                        "info": "Digər mənbələrdən gələn sorğuya keçid dəvət deyil."
                     },
                     "item_3": {
-                        "text": "[AT] müştəridən dəvəti təkrar etməsini xahiş et",
-                        "info": "[AT] müştərinin diqqətinə çatdırın ki, dəvət Üzvlər nişanından göndərilməlidir."
+                        "text": "Sifarişçidən təkrar dəvət göndərməsini xahiş et",
+                        "info": "Sifarişçinin diqqətinə çatdırın ki, dəvət teqlər vasitəsiylə göndərilməlidir."
                     }
                 },
-                "footer": "[AT] işləmədi? Texniki Dəstəklə əlaqə saxlayın."
+                "footer": "Hər hansı bir problem yaşandı? Texniki Dəstəklə əlaqə saxlayın."
             },
-            "hint": "[AT] Bu sorğu yalnız dəvət olunmuş üzvlər üçündür."
+            "hint": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür"
         }
     },
     "dashboard": {
@@ -1844,14 +1844,14 @@
         },
         "light": {
             "create": {
-                "cancel": "ləğv et",
-                "header": "yeni sorğu",
-                "next": "yarat",
+                "cancel": "Ləğv et",
+                "header": "Yeni sorğu",
+                "next": "Yarat",
                 "name": "Ad",
-                "type": "Type of the request",
+                "type": "Sorğunun növü",
                 "options": {
-                    "1": "Закупка",
-                    "2": "Продажа"
+                    "1": "Alış",
+                    "2": "Satış"
                 }
             },
             "invite": {

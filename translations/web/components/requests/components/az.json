@@ -6,19 +6,19 @@
             "proposals": "Təklifi olan iştirakçılar"
         },
         "currency": {
-            "duplicate": "[AT] Əsas valyuta əlavə ilə eynidir",
-            "update": "[AT] Baza valyutası yeniləndi. Əlavə valyutanın məzənnələrini dəyişdirin",
+            "duplicate": "Əsas valyuta əlavə valyuta ilə eynidir",
+            "update": "Əsas valyuta yeniləndi. Əlavə valyutanın məzənnələrini dəyişdirin",
             "actions": {
-                "remove": "[AT] Valyutanı çıxarın",
-                "change": "[AT] Valyuta məzənnəsini dəyişdirin",
-                "append": "[AT] Valyuta əlavə edin"
+                "remove": "Valyutanı ləğv edin",
+                "change": "Valyutanın məzənnəsini dəyişdirin",
+                "append": "Valyuta əlavə edin"
             },
             "editor": {
-                "header": "[AT] Valyuta parametrləri",
-                "rate": "[AT] dərəcəsi ilə",
-                "cancel": "[AT] Ləğv et",
-                "submit": "[AT] Yadda saxla",
-                "warning": "[AT] Yadda saxladıqdan sonra valyutanı silə bilməzsiniz, yalnız məzənnəni tənzimləyin"
+                "header": "Valyutanı ayarla",
+                "rate": "Kursa əsasən",
+                "cancel": "Ləğv et",
+                "submit": "Yadda saxla",
+                "warning": "Yadda saxladıqdan sonra valyutanı silə bilməzsiniz, yalnız məzənnəni tənzimləyin"
             }
         },
         "groups": {

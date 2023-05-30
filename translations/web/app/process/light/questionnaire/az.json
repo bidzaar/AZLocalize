@@ -4,23 +4,23 @@
             "templates": {
                 "dialogs": {
                     "list": {
-                        "title": "[AT] saxlanılan şablonlar",
+                        "title": "Saxlanılan şablonlar",
                         "search": {
-                            "placeholder": "[AT] axtarış",
-                            "empty": "[AT] heç nə tapılmadı"
+                            "placeholder": "Axtar",
+                            "empty": "Heçnə tapılmadı"
                         },
-                        "empty": "Şablonlar yadda saxlanmayıb",
+                        "empty": "Saxlanılmış şablon mövcüd deyil",
                         "actions": {
-                            "cancel": "[AT] Ləğv et",
-                            "submit": "[AT] şablon tətbiq edin"
+                            "cancel": "Ləğv et",
+                            "submit": "Şablonu tətbiq et"
                         }
                     },
                     "edit": {
-                        "title": "[AT] şablonu düzəldin",
-                        "label": "[AT] şablonun adı",
+                        "title": "Şablonu redaktə et",
+                        "label": "Şablonun adı",
                         "actions": {
-                            "cancel": "[AT] Ləğv et",
-                            "save": "[AT] Saxla"
+                            "cancel": "Ləğv et",
+                            "save": "Saxla"
                         }
                     },
                     "apply": {
@@ -30,8 +30,8 @@
                         "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
                         "title": "Şablon yüklə",
                         "options": {
-                            "append": "[AT] siyahının sonuna əlavə et",
-                            "replace": "[AT] mövcud meyarları dəyişdirin"
+                            "append": "Siyahının sonuna əlavə et",
+                            "replace": "Mövcud olan meyyarları dəyiş"
                         }
                     },
                     "create": {
@@ -39,9 +39,9 @@
                         "default_value": "Yeni şablon",
                         "label": "Şablonun adı",
                         "submit": "Yadda saxla",
-                        "success": "Şablon yadda saxla",
-                        "text": "Cari qeyri-qiymət meyyarlarını gələcək istifadə üçün şablon kimi yadda saxlayın. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
-                        "title": "Şablonu yadda saxlayın"
+                        "success": "Şablonu yadda saxla",
+                        "text": "Cari qeyri-qiymət meyyarlarını gələcəkdə istifadə üçün şablon kimi yadda saxla. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
+                        "title": "Şablonu yadda saxla"
                     },
                     "remove": {
                         "cancel": "Ləğv et",
