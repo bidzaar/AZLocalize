@@ -27,30 +27,30 @@
                     "true": "Lotların idarə edilməsi",
                     "false": "Lotlar"
                 },
-                "name": "[AT] Yeni qrup",
-                "success": "[AT] Parametrlər yadda saxlandı",
+                "name": "Yeni lot",
+                "success": "Parametrlər yadda saxlandı",
                 "actions": {
-                    "apply_and_close": "Apply and close",
-                    "apply": "[AT] Müraciət edin",
-                    "cancel": "[AT] Dəyişiklikləri ləğv edin",
-                    "append": "[AT] Qrup əlavə edin",
-                    "remove": "[AT] Qrupu silin",
-                    "close": "[AT] Yaxın"
+                    "apply_and_close": "Tədbiq et və bağla",
+                    "apply": "Tədbiq et",
+                    "cancel": "Dəyişiklikləri ləğv et",
+                    "append": "Lot əlavə et",
+                    "remove": "Lotu sil",
+                    "close": "Bağla"
                 },
                 "details": {
-                    "name": "[AT] Qrup adı"
+                    "name": "Lotun adı"
                 },
                 "dialogs": {
                     "changes": {
-                        "title": "[AT] Dəyişiklikləri yadda saxlamamısınız",
-                        "cancel": "[AT] Dəyişiklikləri ləğv edin",
-                        "submit": "[AT] Quraşdırmaya davam edin"
+                        "title": "Dəyişikliklər yadda saxlanılmadı",
+                        "cancel": "Dəyişiklikləri ləğv et",
+                        "submit": "Ayarlamanı davam etdir"
                     },
                     "remove": {
-                        "title": "[AT] Diqqət!",
-                        "text": "[AT] Qrup və onun mövqeləri silinəcək",
-                        "cancel": "[AT] Ləğv et",
-                        "submit": "[AT] Sil"
+                        "title": "Diqqət!",
+                        "text": "Lət və onun maddələri silinəcək",
+                        "cancel": "Ləğv et",
+                        "submit": "Sil"
                     }
                 }
             },

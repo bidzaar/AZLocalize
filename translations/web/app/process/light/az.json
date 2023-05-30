@@ -2997,8 +2997,8 @@
                                 }
                             },
                             "accreditation": {
-                                "title": "Təkliflər akkreditasiya keşmiş təchizatçılardan qəbul edilir",
-                                "text": "Təklifi təqdim etmək üçün Sifarişçinin reyestrlərində akkreditasiyadan kecməlisiniz"
+                                "title": "Təkliflər, akkreditasiyadan keçmiş təchizatçılardan qəbul edilir",
+                                "text": "Təklifi təqdim etmək üçün Sifarişçinin reyestrlərində akkreditasiyadan keçməlisiniz"
                             }
                         },
                         "no_company": {

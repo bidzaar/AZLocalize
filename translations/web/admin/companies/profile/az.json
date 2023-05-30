@@ -113,8 +113,8 @@
                 "esg": {
                     "change": "Ayarla",
                     "enabled": {
-                        "false": "Sönülüdür",
-                        "true": "Yanılıdır"
+                        "false": "Deaktivdir",
+                        "true": "Aktivdir"
                     },
                     "reports": {
                         "certificate": "ESG sertifikatı",

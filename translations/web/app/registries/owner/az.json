@@ -39,7 +39,7 @@
                             "false": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması qeyri-aktivdir",
                             "true": "Kateqoriyaya görə sıralama müraciətlərində hesablanma olan şirkətlərə aiddir. Kateqoriyaların yenidən hesablanması bir qədər vaxt apara bilər."
                         },
-                        "less": "",
+                        "less": "<",
                         "submit": "Təsdiqlə",
                         "title": "Reyestrdə şirkətlərin dərəcələrinin təyin olunması"
                     }

@@ -11,9 +11,9 @@
                 "1": "Bağlı"
             },
             "deviation": {
-                "0": "Лот: обязательная подача на все позиции",
-                "1": "Допускается отклонение количества по позиции",
-                "2": "Возможна подача на часть позиций"
+                "0": "Lot: Maddələrə və miqdara görə yayınmağa icazə verilmir",
+                "1": "Yalnız miqdara görə yayınmağa icazə verilir",
+                "2": "Yalnız maddələrə görə yayınmağa icazə verilir"
             },
             "updown": {
                 "0": "İştirakçılar qiyməti qaldıra və ya endirə bilərlər",

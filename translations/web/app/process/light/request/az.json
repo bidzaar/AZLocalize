@@ -152,28 +152,28 @@
                 "enabled": {
                     "header": "Maddələr üzrə spesifikasiya ({{ count }})",
                     "notice": "Sorğunun maddələrini qeyd edin",
-                    "open": "[AT] Bütün vəzifələrin tam spesifikasiyasını açın",
-                    "setup": "Maddələr spesifikasiyasını ayarla",
-                    "toggle": "[AT] Spesifikasiyanı söndürün"
+                    "open": "Maddələr üzrə spesifikasiyanı açın",
+                    "setup": "Ayarla",
+                    "toggle": "Spesifikasiyanı söndürün"
                 },
                 "disabled": {
                     "header": "Maddələr üzrə spesifikasiya",
-                    "toggle": "[AT] Spesifikasiyanı aktivləşdirin",
+                    "toggle": "Spesifikasiyanı aktivləşdirin",
                     "notice": {
-                        "true": "[AT] Vəzifələri dəqiqləşdirmədən iştirakçılar bütün təklifin ümumi qiymətini göstərirlər",
-                        "false": "[AT] Maddələr üçün spesifikasiya göstərilməyib. Bütün sorğu üçün təklifin ümumi məbləği tələb olunur"
+                        "true": "İştirakçılar maddələri qeyd etmədən təklifin ümumi qiymətini təqdim edirlər",
+                        "false": "Maddələr üçün spesifikasiya göstərilməyib. Sorğu üçün təklifin ümumi məbləği tələb olunur"
                     }
                 },
                 "toggle": {
                     "true": {
-                        "text": "[AT] Aktiv edildikdə, element spesifikasiyasını və qiymət dəyişikliyi qaydalarını konfiqurasiya etmək imkanı mövcud olacaq",
-                        "cancel": "[AT] Ləğv et",
-                        "submit": "[AT] Davam et"
+                        "text": "Aktiv edildikdə, maddələr spesifikasiyası və qiymət dəyişikliyi qaydalarını ayarlamaq mümkün olacaq",
+                        "cancel": "Ləğv et",
+                        "submit": "Davam et"
                     },
                     "false": {
-                        "text": "[AT] Əlil olduqda, iştirakçılar təklif üçün ümumi qiymət təqdim edə biləcəklər",
-                        "cancel": "[AT] Ləğv et",
-                        "submit": "[AT] Davam et"
+                        "text": "Deaktiv edildikdə, iştirakçılar sorğu üçün təklifin ümumi qiymətini təqdim edə biləcəklər",
+                        "cancel": "Ləğv et",
+                        "submit": "Davam et"
                     }
                 }
             },
@@ -182,8 +182,8 @@
                     "enabled": "Sorğunun qeyri-qiymət meyyarları ({{ value }})",
                     "disabled": "Sorğunun qeyri-qiymət meyyarları"
                 },
-                "open": "[AT] Açıq anket",
-                "setup": "[AT] quraşdırma sorğusu",
+                "open": "Anketi aç",
+                "setup": "Ayarla",
                 "empty": "İştirakçı anketini ayarla, təkliflərin qeyri-qiymət meyyarlarını təyin et",
                 "forbidden": "Məlumat təchizatçı şirkətlər üçün əlçatandır.\nGiriş edin və ya qeydiyyatdan keçin."
             },

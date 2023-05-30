@@ -51,42 +51,42 @@
         },
         "configurator": {
             "header": "Sütunların fərdiləşdirilməsi",
-            "menu": "[AT] Sütun növünü seçin",
-            "name": "[AT] Yeni sütun",
-            "success": "[AT] Parametrlər yadda saxlandı",
+            "menu": "Sütunun növünü seçin",
+            "name": "Yeni sütun",
+            "success": "Parametrlər yadda saxlanıldı",
             "actions": {
-                "apply_and_close": "Apply and close",
-                "apply": "[AT] Tətbiq et",
-                "cancel": "[AT] Dəyişiklikləri ləğv et",
+                "apply_and_close": "Tədbiq et və bağla",
+                "apply": "Tətbiq et",
+                "cancel": "Dəyişiklikləri ləğv et",
                 "append": "Sütun əlavə et",
                 "remove": "Sütunu sil",
-                "close": "[AT] Bağlayın"
+                "close": "Bağla"
             },
             "details": {
                 "name": "Sütunun adı",
-                "type": "[AT] Növ"
+                "type": "Sütunun növü"
             },
             "empty": {
-                "text": "Əlavə sütunlar əlavə edilməyib",
-                "notice": "Başlamaq üçün Sütun Əlavə et düyməsini klikləyin"
+                "text": "Sütunlar əlavə edilməyib",
+                "notice": "Başlamaq üçün Sütun əlavə et düyməsini klikləyin"
             },
             "types": {
-                "string": "[AT] Mətn",
-                "double": "[AT] Saymaq",
-                "bool": "[AT] Hə / Yox",
-                "datetime": "[AT] Tarix",
-                "decimal": "[AT] Pul"
+                "string": "Mətn",
+                "double": "Rəqəm",
+                "bool": "Bəli/Xeyir",
+                "datetime": "Tarix",
+                "decimal": "Məbləğ"
             },
             "dialogs": {
                 "changes": {
-                    "title": "[AT] Dəyişiklikləri yadda saxlamamısınız",
-                    "cancel": "[AT] Dəyişiklikləri ləğv edin",
-                    "submit": "[AT] Quraşdırmaya davam edin"
+                    "title": "Dəyişikliklər yadda saxlanılmadı",
+                    "cancel": "Dəyişiklikləri ləğv et",
+                    "submit": "Ayarlamanı davam etdir"
                 },
                 "remove": {
-                    "title": "[AT] Sütunu silin",
-                    "cancel": "[AT] Ləğv et",
-                    "submit": "[AT] Sil"
+                    "title": "Sütunu sil",
+                    "cancel": "Ləğv et",
+                    "submit": "Sil"
                 }
             }
         },
@@ -94,8 +94,8 @@
             "header": {
                 "import_export": {
                     "button": "Endir/Yüklə",
-                    "download": "[AT] Doldurmaq üçün şablonu Yükləyin",
-                    "import": "[AT] Fayldan vəzifələrin yüklənməsi"
+                    "download": "Doldurmaq üçün şablonu endir",
+                    "import": "Fayldan maddələri yüklə"
                 }
             },
             "empty": {
