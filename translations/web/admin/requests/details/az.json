@@ -68,6 +68,9 @@
                 "info": "[AT] Daha çox",
                 "purchaser": "[AT] Müştəri ödəyir",
                 "seller": "[AT] Qazanan təchizatçı ödəyir"
+            },
+            "dialog": {
+                "edit": "[AT] Sorğu dərəcəsini dəyişdirin"
             }
         }
     }

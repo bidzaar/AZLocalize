@@ -104,7 +104,8 @@
                         "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
                         "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
                         "refer_price_auction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
-                        "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az."
+                        "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az.",
+                        "refer_price_all": "[AT] Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{valyuta}} və yuxarı və ya {{min}} {{currency}} və aşağı."
                     }
                 }
             }

@@ -158,7 +158,8 @@
         },
         "suppliers": {
           "empty": "Şirkətlər-sifarişçilər göstərilməyib",
-          "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı"
+          "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı",
+          "add": "[AT] əlavə et"
         },
         "tags": {
           "text": "Teqlər:",
@@ -185,20 +186,20 @@
         },
         "csm": {
           "title": "[AT] məsul satış/CSM",
-          "pin":"[AT] Pin",
-          "unpin":"[AT] açın",
-          "empty":"[AT] təyin edilməyib",
-          "journal":"[AT] təyinatlar jurnalı",
+          "pin": "[AT] Pin",
+          "unpin": "[AT] açın",
+          "empty": "[AT] təyin edilməyib",
+          "journal": "[AT] təyinatlar jurnalı",
           "success": "[AT] işçi təyin edildi",
           "dialog": {
             "table": {
               "header": {
                 "size": "[AT] Qeydlər {{ value }}",
-                "role":"[AT] role",
+                "role": "[AT] role",
                 "employee": "[AT] işçi",
-                "event":"[AT] hadisə",
+                "event": "[AT] hadisə",
                 "initiator": "[AT] təşəbbüskar",
-                "date":"[AT] Tarix"
+                "date": "[AT] Tarix"
               },
               "role": {
                 "0": "[AT] CSM",
@@ -216,7 +217,8 @@
           "title": "[AT] Qələbə üçün ödəniş qaydaları",
           "fee": "[AT] Kim ödəyir",
           "free": "[AT] Qapalı sorğular pulsuz həyata keçirilir"
-        }
+        },
+        "change": "[AT] Tune"
       }
     },
     "enums": {

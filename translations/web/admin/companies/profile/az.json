@@ -158,7 +158,8 @@
                 },
                 "suppliers": {
                     "empty": "Şirkətlər-sifarişçilər göstərilməyib",
-                    "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı"
+                    "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı",
+                    "add": "[AT] əlavə et"
                 },
                 "tags": {
                     "text": "Teqlər:",
@@ -216,7 +217,8 @@
                     "title": "Qalib olduqda ödəniş qaydaları",
                     "fee": "Kim ödəyir",
                     "free": "Qapalı sorğular pulsuz həyata keçirilir"
-                }
+                },
+                "change": "[AT] Tune"
             }
         },
         "enums": {

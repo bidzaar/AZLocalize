@@ -4,23 +4,23 @@
       "templates": {
         "dialogs": {
           "list": {
-            "title":"[AT] saxlanılan şablonlar",
+            "title": "[AT] saxlanılan şablonlar",
             "search": {
-              "placeholder":"[AT] axtarış",
-              "empty" :"[AT] heç nə tapılmadı"
+              "placeholder": "[AT] axtarış",
+              "empty": "[AT] heç nə tapılmadı"
             },
             "empty": "Şablonlar yadda saxlanmayıb",
             "actions": {
-              "cancel":"[AT] Ləğv et",
-              "submit":"[AT] şablon tətbiq edin"
+              "cancel": "[AT] Ləğv et",
+              "submit": "[AT] şablon tətbiq edin"
             }
           },
           "edit": {
-            "title":"[AT] şablonu düzəldin",
-            "label":"[AT] şablonun adı",
+            "title": "[AT] şablonu düzəldin",
+            "label": "[AT] şablonun adı",
             "actions": {
-              "cancel":"[AT] Ləğv et",
-              "save":"[AT] Saxla"
+              "cancel": "[AT] Ləğv et",
+              "save": "[AT] Saxla"
             }
           },
           "apply": {
@@ -30,9 +30,10 @@
             "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
             "title": "[AT] Qeyri-qiymət meyarlarını daxil edin",
             "options": {
-              "append":"[AT] siyahının sonuna əlavə et",
+              "append": "[AT] siyahının sonuna əlavə et",
               "replace": "[AT] mövcud meyarları dəyişdirin"
-            }
+            },
+            "complement": "[AT] Əlavə"
           },
           "create": {
             "cancel": "Ləğv et",

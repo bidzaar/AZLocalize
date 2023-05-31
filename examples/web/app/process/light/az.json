@@ -168,7 +168,7 @@
         "until": "[AT] əvvəl {{Tarix}}",
         "pretext": "[AT] ilə {{ date }}",
         "tooltip": "[AT] kompüterinizdəki tarixə və saata uyğundur",
-        "tooltip_timer":"[AT] sorğunun sonuna qədər",
+        "tooltip_timer": "[AT] sorğunun sonuna qədər",
         "publish": "[AT] dərc et {{ value }} "
       },
       "request": {
@@ -882,6 +882,17 @@
             "change": "Change",
             "required": "A tariff is not selected",
             "archive": "The selected tariff is in the archive, please change the tariff"
+          },
+          "code": "[AT] Bu sorğuda Xidmət komissiyası tutulmur ({{code}} promosyon kodu tətbiq olunur).",
+          "promo": {
+            "label": "[AT] promo kodu",
+            "placeholder": "[AT] Promo kodu daxil edin",
+            "hint": "[AT] Format: X-XXX-XXX",
+            "cancel": "[AT] Ləğv et",
+            "submit": "[AT] Müraciət edin",
+            "change": "[AT] Promo kodu tətbiq edin",
+            "expired": "[AT] Promo kodu istifadə olunur",
+            "invalid": "[AT] Etibarsız promo kodu"
           }
         }
       },
@@ -1167,9 +1178,9 @@
           },
           "1": "Əvvəlcə seçimlə",
           "2": "Maksimum məmnuniyyətlə başlanğıcda",
+          "4": "Ən son yeniləndi",
           "3_false": "Birinci dərəcə birinci",
           "3_true": "Vəzifələrə görə ilk sıralarla başlanğıcda",
-          "4": "Ən son yeniləndi",
           "button": "Çeşidləmə",
           "tooltip": "Təkliflərin sifarişini fərdiləşdirin",
           "all_groups": "Bütün qruplarda"
@@ -1299,7 +1310,8 @@
           "success": "[AT] Təkliflərin qəbulu tamamlandı",
           "time_tooltip": "[AT] sona dəyirmi",
           "time": "[AT] təkliflərin qəbulu üçün cari son tarix:",
-          "pretext_time": "[AT] vasitəsilə"
+          "pretext_time": "[AT] vasitəsilə",
+          "message": "[AT] Təkliflərin qəbulunu davam etdirmək üçün sorğunun növbəti mərhələsini elan edin."
         },
         "leave": {
           "header": "Müraciətin imtina edilməsi",
@@ -1312,14 +1324,16 @@
           "accept": {
             "result": "İştirakçı qəbul edildi",
             "text": "[AT] Spesifikasiyaya və sorğu sənədlərinə giriş açıq olacaq",
-            "title": "[AT] Sorğuda iştirak etməyə icazə verin"
+            "title": "[AT] Sorğuda iştirak etməyə icazə verin",
+            "result_group": "[AT] İştirakçılara icazə verilir:"
           },
           "cancel": "Ləğv et",
           "comment_placeholder": "Çatda iştirakçıya mesaj",
           "reject": {
             "result": "[AT] Ərizə rədd edildi",
             "text": "[AT] Ərizə düzəldildikdən sonra yenidən müraciət etmək mümkündür",
-            "title": "[AT] Ərizəni rədd edin"
+            "title": "[AT] Ərizəni rədd edin",
+            "result_group": "[AT] Müraciətlər rədd edildi:"
           },
           "submit": "[AT] Qərarı təsdiqləyin",
           "title": "İştirakçının qəbulu haqqında qərar",
@@ -1444,7 +1458,7 @@
                 "title": "Sorğu sənədləri"
               },
               "NdaEnabled": {
-                "NoDescription":{
+                "NoDescription": {
                   "title": "Prequalification / NDA",
                   "notice": "specify the description of the pre-qualification / NDA"
                 },
@@ -1524,7 +1538,7 @@
                   "title": "[AT] Qrupun adı göstərilməyib",
                   "notice": ""
                 }
-              },            
+              },
               "AcceptanceEndNotificationHours.OutOfRange": {
                 "title": "Напоминание участникам о завершении приёма предложений установлено позже окончания приёма предложений",
                 "notice": ""
@@ -2468,6 +2482,14 @@
               "NoData": {
                 "notice": "[AT] mərhələ təsviri və ya sənədlər göstərilməmişdir",
                 "title": "[AT] Ön kvalifikasiya / NDA"
+              },
+              "NoDescription": {
+                "title": "[AT] Ön kvalifikasiya / NDA",
+                "notice": "[AT] ilkin kvalifikasiyanın təsvirini təqdim edin / NDA"
+              },
+              "NoFiles": {
+                "title": "[AT] Ön kvalifikasiya / NDA",
+                "notice": "[AT] ön kvalifikasiya / NDA sənədləri əlavə edin"
               }
             },
             "Positions": {
@@ -2527,6 +2549,28 @@
                 "notice": "[AT] ilkin kvalifikasiya / NDA mərhələsi aktiv olduqda sehr işləmir",
                 "title": "[AT] Qızıl tələb"
               }
+            },
+            "ReductionStepMoreThanPriceAbsolute": {
+              "notice": "[AT] dəyişiklik addımı ilkin qiyməti üstələyir",
+              "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+            },
+            "ProcedurePositionGroup": {
+              "Empty": {
+                "title": "[AT] {{ ad }} qrupundakı vəzifələr göstərilməyib",
+                "notice": ""
+              },
+              "Name.Empty": {
+                "title": "[AT] Qrup adı göstərilməyib",
+                "notice": ""
+              }
+            },
+            "AcceptanceEndNotificationHours.OutOfRange": {
+              "title": "[AT] İştirakçılara təkliflərin qəbulunun bitməsi barədə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+              "notice": ""
+            },
+            "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+              "title": "[AT] Təkliflərin qəbulunun başa çatması barədə iştirakçılara əlavə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+              "notice": ""
             }
           },
           "comment": {
@@ -2678,7 +2722,7 @@
           }
         },
         "import_export": {
-          "export":"[AT] doldurmaq üçün FAYLI yükləyin",
+          "export": "[AT] doldurmaq üçün FAYLI yükləyin",
           "import": "[AT] fayldan bir anket Yükləyin"
         }
       },
@@ -3039,7 +3083,12 @@
             "title": "[AT] Sizi iştirak etməyə dəvət edirik",
             "info": "[AT] Təklif təqdim etmək üçün iştirak edin və sorğu söhbətində müştəri ilə əlaqə saxlayın",
             "submit": "[AT] iştirak et",
-            "cancel": "[AT] Mən hələ də düşünürəm"
+            "cancel": "[AT] Mən hələ də düşünürəm",
+            "agreements": {
+              "order": "[AT] Müştəri tərəfindən təklifimi seçərkən komissiyanın ödənilməsi ilə razıyam",
+              "users": "[AT] \"İştirak et\" düyməsini klikləməklə, siz <a href=\"{{value}}\" target=\"_blank\">İstifadəçi Müqaviləsi</a>-nin şərtlərini qəbul edirsiniz.",
+              "tooltip": "[AT] Yalnız Müştəri tərəfindən seçilmiş iştirakçılar tərəfindən ödənilir və Müştəri ilə İştirakçı arasında müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Müştərinin seçdiyi vəzifələrin məbləğindən asılıdır."
+            }
           },
           "verification": {
             "text": "[AT] Təşkilatçı etibarlı təchizatçılara üstünlük verir.",
@@ -3255,7 +3304,8 @@
             "nda": {
               "title": "[AT] Ön kvalifikasiya / NDA",
               "request": "[AT] Ön Kvalifikasiya Sənədləri / NDA",
-              "decision": "[AT] Qəbul qərarı"
+              "decision": "[AT] Qəbul qərarı",
+              "open": "[AT] Tətbiqi açın"
             },
             "permit_change": {
               "reduction": {
@@ -3287,6 +3337,9 @@
               "success": "[AT] dəvət göndərilir",
               "mach_success": "[AT] Dəvətlər göndərildi",
               "error": "[AT] Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin"
+            },
+            "block_stage": {
+              "button": "[AT] Hazırkı mərhələdə təklif təqdim etməyənləri bloklayın"
             }
           },
           "gold": {

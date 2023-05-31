@@ -882,6 +882,17 @@
                         "change": "Tarifi dəyiş",
                         "required": "Tarif seçilməyib",
                         "archive": "Seçdiyiniz tarif arxivdədi, tarifi dəyişin"
+                    },
+                    "code": "[AT] Bu sorğuda Xidmət komissiyası tutulmur ({{code}} promosyon kodu tətbiq olunur).",
+                    "promo": {
+                        "label": "[AT] promo kodu",
+                        "placeholder": "[AT] Promo kodu daxil edin",
+                        "hint": "[AT] Format: X-XXX-XXX",
+                        "cancel": "[AT] Ləğv et",
+                        "submit": "[AT] Müraciət edin",
+                        "change": "[AT] Promo kodu tətbiq edin",
+                        "expired": "[AT] Promo kodu istifadə olunur",
+                        "invalid": "[AT] Etibarsız promo kodu"
                     }
                 }
             },
@@ -1167,9 +1178,9 @@
                     },
                     "1": "Öncə həcmi tam məmnuniyyətlə olan",
                     "2": "Öncə maddə üzrə ən yüksək dərəcə ilə ",
+                    "4": "Ən son yeniləndi",
                     "3_false": "Birinci dərəcə birinci",
                     "3_true": "Vəzifələrə görə ilk sıralarla başlanğıcda",
-                    "4": "Ən son yeniləndi",
                     "button": "Təkliflər",
                     "tooltip": "Təkliflərin sifarişini fərdiləşdirin",
                     "all_groups": "Bütün qruplarda"
@@ -1299,7 +1310,8 @@
                     "success": "Təklif mərhələsi başa çatdı",
                     "time_tooltip": "[AT] sona dəyirmi",
                     "time": "Təkliflərin cari mərhələsinin sonu:",
-                    "pretext_time": "[AT] vasitəsilə"
+                    "pretext_time": "[AT] vasitəsilə",
+                    "message": "[AT] Təkliflərin qəbulunu davam etdirmək üçün sorğunun növbəti mərhələsini elan edin."
                 },
                 "leave": {
                     "header": "Müraciətin imtina edilməsi",
@@ -1312,14 +1324,16 @@
                     "accept": {
                         "result": "İştirakçı qəbul edildi",
                         "text": "İştirakçı spesifikasiya və sorğu sənədlərinə giriş imkanı əldə edəcək",
-                        "title": "İştirakçını qəbul et"
+                        "title": "İştirakçını qəbul et",
+                        "result_group": "[AT] İştirakçılara icazə verilir:"
                     },
                     "cancel": "Ləğv et",
                     "comment_placeholder": "Çatda iştirakçıya mesaj",
                     "reject": {
                         "result": "İştirakçının müraciəti düzəliş üçün göndərilib",
                         "text": "Təchizatçı düzəlişlər etdikdən sonra yenidən sorğuya müraciət edə bilər",
-                        "title": "İştirakçının müraciətini imtina etmək"
+                        "title": "İştirakçının müraciətini imtina etmək",
+                        "result_group": "[AT] Müraciətlər rədd edildi:"
                     },
                     "submit": "Qərar ver",
                     "title": "İştirakçının qəbulu haqqında qərar",
@@ -2468,6 +2482,14 @@
                             "NoData": {
                                 "notice": "mərhələ təsviri və ya sənədlər göstərilməmişdir",
                                 "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
+                            },
+                            "NoDescription": {
+                                "title": "[AT] Ön kvalifikasiya / NDA",
+                                "notice": "[AT] ilkin kvalifikasiyanın təsvirini təqdim edin / NDA"
+                            },
+                            "NoFiles": {
+                                "title": "[AT] Ön kvalifikasiya / NDA",
+                                "notice": "[AT] ön kvalifikasiya / NDA sənədləri əlavə edin"
                             }
                         },
                         "Positions": {
@@ -2527,6 +2549,28 @@
                                 "notice": "ilkin kvalifikasiya mərhələsi aktiv olduqda sehr işləmir",
                                 "title": "Qızıl Sorğu"
                             }
+                        },
+                        "ReductionStepMoreThanPriceAbsolute": {
+                            "notice": "[AT] dəyişiklik addımı ilkin qiyməti üstələyir",
+                            "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+                        },
+                        "ProcedurePositionGroup": {
+                            "Empty": {
+                                "title": "[AT] {{ ad }} qrupundakı vəzifələr göstərilməyib",
+                                "notice": ""
+                            },
+                            "Name.Empty": {
+                                "title": "[AT] Qrup adı göstərilməyib",
+                                "notice": ""
+                            }
+                        },
+                        "AcceptanceEndNotificationHours.OutOfRange": {
+                            "title": "[AT] İştirakçılara təkliflərin qəbulunun bitməsi barədə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+                            "notice": ""
+                        },
+                        "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
+                            "title": "[AT] Təkliflərin qəbulunun başa çatması barədə iştirakçılara əlavə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+                            "notice": ""
                         }
                     },
                     "comment": {
@@ -3039,7 +3083,12 @@
                         "title": "Sizi iştirak etməyə dəvət edirik",
                         "info": "Təklif təqdim etmək və sorğu çatında sifarişçi ilə əlaqə saxlamaq üçün iştirak edin",
                         "submit": "iştirak et",
-                        "cancel": "Mən hələ düşünürəm"
+                        "cancel": "Mən hələ düşünürəm",
+                        "agreements": {
+                            "order": "[AT] Müştəri tərəfindən təklifimi seçərkən komissiyanın ödənilməsi ilə razıyam",
+                            "users": "[AT] \"İştirak et\" düyməsini klikləməklə, siz <a href=\"{{value}}\" target=\"_blank\">İstifadəçi Müqaviləsi</a>-nin şərtlərini qəbul edirsiniz.",
+                            "tooltip": "[AT] Yalnız Müştəri tərəfindən seçilmiş iştirakçılar tərəfindən ödənilir və Müştəri ilə İştirakçı arasında müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Müştərinin seçdiyi vəzifələrin məbləğindən asılıdır."
+                        }
                     },
                     "verification": {
                         "text": "Sifarişçi etibarlı təchizatçılara üstünlük verir.",
@@ -3255,7 +3304,8 @@
                         "nda": {
                             "title": "İlkin kvalifikasiya mərhələsi",
                             "request": "İlkin kvalifikasiya mərhələsi üçün sənədlər",
-                            "decision": "Qərar ver"
+                            "decision": "Qərar ver",
+                            "open": "[AT] Tətbiqi açın"
                         },
                         "permit_change": {
                             "reduction": {
@@ -3287,6 +3337,9 @@
                             "success": "Dəvət göndərildi",
                             "mach_success": "Dəvətlər göndərildi",
                             "error": "Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin"
+                        },
+                        "block_stage": {
+                            "button": "[AT] Hazırkı mərhələdə təklif təqdim etməyənləri bloklayın"
                         }
                     },
                     "gold": {

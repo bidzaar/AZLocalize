@@ -32,7 +32,8 @@
                         "options": {
                             "append": "Siyahının sonuna əlavə et",
                             "replace": "Mövcud olan meyyarları dəyiş"
-                        }
+                        },
+                        "complement": "[AT] Əlavə"
                     },
                     "create": {
                         "cancel": "Ləğv et",
