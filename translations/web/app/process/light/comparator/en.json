@@ -1,104 +1,104 @@
 {
     "pl_cpr": {
-        "enums": {
-            "groups": {
-                "0": "Этап предквалификации / NDA",
-                "1": "Описание и документы",
-                "2": "Правила проведения запроса",
-                "3": "Аккредитация участников",
-                "4": "Спецификация по позициям",
-                "5": "Неценовые критерии запроса"
-            },
-            "types": {
-                "0": "Этап",
-                "1": "Описание",
-                "2": "Документы",
-                "3": "Наименование запроса",
-                "4": "Описание",
-                "5": "Документы",
-                "6": "Место поставки",
-                "7": "Приём предложений до",
-                "8": "Вид запроса",
-                "9": "После подачи предложения участники видят",
-                "10": "При выборе победителя учитывается",
-                "11": "Альтернативных предложений",
-                "12": "Валюта запросa",
-                "13": "Автопродление приема предложений",
-                "14": "Напоминание участникам о завершении приема предложений за",
-                "15": "Дополнительное напоминание участникам о завершении приема предложений за",
-                "16": "Организатор на этапе приема предложений",
-                "17": "Ориентировочный срок подведения итогов",
-                "18": "Для подачи предложения требуется аккредитация в реестрах",
-                "19": "Кол-во позиций",
-                "20": "Группа {{index}}",
-                "21": "Наименование группы",
-                "22": "Объём предложения участника",
-                "23": "После подачи первого предложения",
-                "24": "Минимальный шаг изменения цены",
-                "25": "Ожидаемая сумма предложения",
-                "26": "Максимальная сумма предложения",
-                "27": "Минимальная сумма предложения",
-                "28": "Колонки поставщика",
-                "29": "Позиции",
-                "30": "Позиция {{index}}",
-                "31": "Кол-во вопросов",
-                "32": "Раздел {{index}}",
-                "33": "Наименование раздела",
-                "34": "Вопрос {{index}}"
-            }
+      "enums": {
+        "groups": {
+          "0": "[AT] Prequalification / NDA",
+          "1": "[AT] Description and documents",
+          "2": "[AT] Rules for making a request",
+          "3": "[AT] Accreditation of participants",
+          "4": "[AT] Position specification",
+          "5": "[AT] Non-Price Query Criteria"
         },
-        "forbidden": {
-            "text": "Требуется авторизация.",
-            "notice": "Сведения доступны участникам запроса, прошедшим предквалификацию / NDA\nили приглашённым в закрытый запрос"
-        },
-        "comparison": {
-            "header": "{{number}} • {{name}}",
-            "table": {
-                "filter": {
-                    "label": "Показать только изменения"
-                },
-                "version": {
-                    "draft": "Новая редакция (не опубликована)",
-                    "date": "Редакция от {{ value }} (MSK)",
-                    "current": "Стало",
-                    "previous": "Было"
-                },
-                "record": {
-                    "date": "{{value}} (MSK)",
-                    "summing_up": "{{ value }} дн",
-                    "prolongation_time": "{{value}} мин.",
-                    "notification_hours": "{{value}} ч",
-                    "price": "{{value}} {{currency}}",
-                    "nda": {
-                        "true": "Проводится",
-                        "false": "Не проводится"
-                    },
-                    "position": {
-                        "description": "Описание:",
-                        "documents": "Документы:",
-                        "count": "Количество:",
-                        "exp_price": "Ожидаемая цена за ед.,",
-                        "max_price": "Максимальная цена за ед.,",
-                        "min_price": "Минимальная цена за ед.,",
-                        "trg_price": "Целевая цена за ед.,"
-                    },
-                    "question": {
-                        "text": "Текст:",
-                        "type": "Тип ответа:",
-                        "required": "Ответ обязательный:",
-                        "hidden": "Ответ скрыт от других участников:",
-                        "true": "Да",
-                        "false": "Нет"
-                    }
-                },
-                "empty": {
-                    "text": "Нет изменений"
-                },
-                "soon": {
-                    "4": "Сравнение спецификаций по позициям запроса будет реализовано в ближайшее время",
-                    "5": "Сравнение неценовых критериев запроса будет реализовано в ближайшее время"
-                }
-            }
+        "types": {
+          "0": "[AT] Stage",
+          "1": "[AT] Description",
+          "2": "[AT] Documentation",
+          "3": "[AT] Request name",
+          "4": "[AT] Description",
+          "5": "[AT] Documentation",
+          "6": "[AT] Delivery address",
+          "7": "[AT] Accepting offers until",
+          "8": "[AT] Request type",
+          "9": "[AT] After submitting an offer, participants see",
+          "10": "[AT] When choosing a winner, take into account",
+          "11": "[AT] alternative proposals",
+          "12": "[AT] Request currency",
+          "13": "[AT] Auto-renewal of offers",
+          "14": "[AT] Reminder to participants of the end of the call for proposals",
+          "15": "[AT] Additional reminder to participants about the end of the call for proposals for",
+          "16": "[AT] Organizer at the stage of accepting proposals",
+          "17": "[AT] Approximate deadline for summing up",
+          "18": "[AT] Accreditation in registries is required to submit an offer",
+          "19": "[AT] Number of positions",
+          "20": "[AT] Group {{index}}",
+          "21": "[AT] Group name",
+          "22": "[AT] Participant's offer volume",
+          "23": "[AT] After submitting the first offer",
+          "24": "[AT] Minimum price change step",
+          "25": "[AT] Expected offer amount",
+          "26": "[AT] Maximum offer amount",
+          "27": "[AT] Minimum offer amount",
+          "28": "[AT] Vendor columns",
+          "29": "[AT] Positions",
+          "30": "[AT] Position {{index}}",
+          "31": "[AT] Number of questions",
+          "32": "[AT] Section {{index}}",
+          "33": "[AT] Section name",
+          "34": "[AT] Question {{index}}"
         }
+      },
+      "forbidden": {
+        "text": "[AT] Authorization required.",
+        "notice": "[AT] Details available to prequalified / NDA requesters\nor invited to a closed request"
+      },
+      "comparison": {
+        "header": "[AT] {{number}} • {{name}}",
+        "table": {
+          "filter": {
+            "label": "[AT] Show only changes"
+          },
+          "version": {
+            "draft": "[AT] New edition (not published)",
+            "date": "[AT] Edited by {{ value }} (MSK)",
+            "current": "[AT] It became",
+            "previous": "[AT] Was"
+          },
+          "record": {
+            "date": "[AT] {{value}} (MSK)",
+            "summing_up": "[AT] {{ value }} days",
+            "prolongation_time": "[AT] {{value}} min.",
+            "notification_hours": "[AT] {{value}} h",
+            "price": "[AT] {{value}} {{currency}}",
+            "nda": {
+              "true": "[AT] Held",
+              "false": "[AT] Not carried out"
+            },
+            "position": {
+              "description": "[AT] Description:",
+              "documents": "[AT] Documentation:",
+              "count": "[AT] Quantity:",
+              "exp_price": "[AT] Expected unit price,",
+              "max_price": "[AT] Maximum price per unit,",
+              "min_price": "[AT] Minimum price per unit,",
+              "trg_price": "[AT] Target price per unit,"
+            },
+            "question": {
+              "text": "[AT] Text:",
+              "type": "[AT] Response type:",
+              "required": "[AT] Mandatory answer:",
+              "hidden": "[AT] The answer is hidden from other members:",
+              "true": "[AT] Yes",
+              "false": "[AT] No"
+            }
+          },
+          "empty": {
+            "text": "[AT] No change"
+          },
+          "soon": {
+            "4": "[AT] Comparison of specifications by request items will be implemented in the near future",
+            "5": "[AT] Comparison of non-price request criteria will be implemented soon"
+          }
+        }
+      }
     }
-}
+  }
