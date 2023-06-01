@@ -798,7 +798,7 @@
                 },
                 "proposal_content": {
                     "documents": {
-                        "sub_title": "Kommersiya təklifi və digər sənədlər.",
+                        "sub_title": "Digər sənədlər.",
                         "title": "Sənədlər"
                     },
                     "open": "Aç",
@@ -1162,31 +1162,31 @@
                 "selected_participants": "Seçmək üçün təklif edir",
                 "sorting": {
                     "0": {
-                        "1": "Əvvəlcə minimum təklif qiyməti ilə",
-                        "2": "Əvvəlcə maksimum təklif qiyməti ilə"
+                        "1": "Öncə minimum təklif qiyməti ilə",
+                        "2": "Öncə maksimum təklif qiyməti ilə"
                     },
                     "1": "Öncə həcmi tam məmnuniyyətlə olan",
                     "2": "Öncə maddə üzrə ən yüksək dərəcə ilə ",
                     "3_false": "Birinci dərəcə birinci",
-                    "3_true": "Vəzifələrə görə ilk sıralarla başlanğıcda",
-                    "4": "Ən son yeniləndi",
+                    "3_true": "Maddələrə üzrə dərəcəsi ən yüksək olan",
+                    "4": "Ən son təqdim olunun təkliflər",
                     "button": "Təkliflər",
-                    "tooltip": "Təkliflərin sifarişini fərdiləşdirin",
-                    "all_groups": "Bütün qruplarda"
+                    "tooltip": "Təkliflərin sırasını fərdiləşdirin",
+                    "all_groups": "Bütün lotlarda"
                 },
                 "supplier_group": "Təchizatçı məlumatı",
                 "switcher": {
                     "list": "Siyahı",
                     "table": "Cədvəl"
                 },
-                "timer": "Qalıq",
+                "timer": "Qalıb",
                 "tooltips": {
                     "customize_view": "Ekran parametri",
                     "download_comparison_table": "Müqayisə cədvəlini yükləyin",
                     "download_my_proposal_table": "Təklifi endir",
                     "download_proposal": "Təklifi yükləyin"
                 },
-                "total_order_sum": "Seçim",
+                "total_order_sum": "Sifarişin toplam dəyəri",
                 "paginator": {
                     "title": "Təkliflər",
                     "from": "",
@@ -1216,7 +1216,7 @@
                 },
                 "position_group_cell": {
                     "best_price_tooltip": "Ən yaxşı təklif qiyməti",
-                    "select_group": "Qrup seçin",
+                    "select_group": "Lot-u seçin",
                     "change_price": "Qiyməti dəyişin",
                     "selected": "Seçildi",
                     "selected_count": "{{value}}/{{count}}",
@@ -1230,10 +1230,10 @@
                     "filled": "({{total}}-dən {{value}})"
                 },
                 "positions_filters": {
-                    "all": "Bütün vəzifələr",
-                    "less_prices": "Qiymətlər rəqiblərdən daha pisdir",
+                    "all": "Bütün maddələr",
+                    "less_prices": "Rəqiblərdən geri qalan təklifiniz/təklifləriniz  ",
                     "have_any": "Təklifə daxildir",
-                    "menu_title": "Mövqeləri göstərin"
+                    "menu_title": "Maddələri göstərin"
                 }
             },
             "dialogs": {
@@ -1270,15 +1270,15 @@
                     },
                     "columns": {
                         "8": "Sayı",
-                        "16": "vahid qiymət, {{ valyuta }}",
-                        "32": "ƏDV olmadan ümumi məbləğ, {{ valyuta }}",
+                        "16": "Vahidin qiyməti, {{ valyuta }}",
+                        "32": "Təklifin ƏDV-siz toplam dəyəri, {{ valyuta }}",
                         "64": "ƏDV Dərəcəsi",
-                        "128": "ƏDV ilə ümumi qiymət, {{ valyuta }}",
-                        "256": "şərh",
+                        "128": "Təklifin ƏDV daxil toplam dəyəri, {{ valyuta }}",
+                        "256": "Şərh",
                         "512": "iştirakçının valyutasında vahid qiyməti",
                         "1024": "valyuta",
                         "2048": "Valyuta Məzənnəsi",
-                        "4096": "maddə üzrə dərəcə",
+                        "4096": "Maddə üzrə dərəcə",
                         "16384": "ƏDV {{ valyuta }}"
                     },
                     "actions": {

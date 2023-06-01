@@ -129,8 +129,8 @@
                             },
                             "stub": {
                                 "has_proposals": {
-                                    "text": "[AT] Qalib seçilməyib",
-                                    "notice": "[AT] Müqayisə sekmesinde sorğu qalibini seçin"
+                                    "text": "Qalib seçilməyib",
+                                    "notice": "Müqayisə cədvəlində sorğu qalibini seçin"
                                 },
                                 "proposal_status": {
                                     "text": "Hələ təklif yoxdur",
@@ -170,14 +170,14 @@
                         "title": "İştirakçılar",
                         "stage": "Mərhələ",
                         "participated": "İştirak etmişdir",
-                        "participated_tooltip": "[AT] imtina edənlər və bloklananlar daxil olmaqla",
-                        "submitted_proposals": "[AT] Təklif iştirakçıları",
-                        "submitted_requests": "Təkliflər üçün zəng edin"
+                        "participated_tooltip": "İmtina edənlər və bloklananlar daxil olmaqla",
+                        "submitted_proposals": "Təklif təqdim etmiş iştirakçılar",
+                        "submitted_requests": "Təkliflər qəbulu"
                     },
                     "savings": {
                         "title": "Qənaət",
                         "stubs": "Qənaəti göstərmək üçün sorğunu qalib seçimi ilə tamamlayın.",
-                        "tooltip": "[AT] iqtisadiyyatı göstərin",
+                        "tooltip": "Qənaəti göstərin",
                         "help": "Niyə biz qənaətləri avtomatik hesablamırıq?"
                     },
                     "canceled": {

@@ -71,7 +71,7 @@
                 "initiator": {
                     "title": "Tədbirin təşkilatçısı",
                     "options": {
-                        "0": "Sahibi",
+                        "0": "Sahib",
                         "1": "Təchizatçı",
                         "2": "Platforma"
                     }

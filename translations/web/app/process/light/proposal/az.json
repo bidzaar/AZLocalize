@@ -78,10 +78,10 @@
                 },
                 "banner": {
                     "changing": "<b>dəyişdirilmiş təklifi verin.</b> Müştəri əvvəlki təklifinizi nəzərdən keçirir.",
-                    "draft": "<strong class=\"banner-bold\">Təklif verin</strong> təkliflərin qəbul müddəti başa çatanadək",
-                    "submitted": "<b>qələbə şansını artırmaq üçün </b> təklifini dəyişdirin.",
-                    "summarize": "<b>Sənədləri blokunda yeniləyin</b> \"kommersiya təklifi və sənədlər\"",
-                    "improve": "Təklifi təkmilləşdirin"
+                    "draft": "<strong class=\"banner-bold\"> Təkliflər qəbulu müddəti başa çatanadək təklif verin</strong>",
+                    "submitted": "<b>Qələbə şansını artırmaq üçün </b> təklifinizi dəyişdirin.",
+                    "summarize": "<b>Sənədləri yeniləyin</b> \"Sənədlər\"",
+                    "improve": "Təklifinizi təkmilləşdirin"
                 },
                 "title": {
                     "true": "Alternativ təklif",

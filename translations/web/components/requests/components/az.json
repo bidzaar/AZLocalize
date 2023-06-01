@@ -34,11 +34,11 @@
                     "apply": "Tədbiq et",
                     "cancel": "Dəyişiklikləri ləğv et",
                     "append": "Lot əlavə et",
-                    "remove": "Lotu sil",
+                    "remove": "Lot-u sil",
                     "close": "Bağla"
                 },
                 "details": {
-                    "name": "Lotun adı"
+                    "name": "Lot-un adı"
                 },
                 "dialogs": {
                     "changes": {
