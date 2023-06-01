@@ -98,8 +98,8 @@
             }
         },
         "timer": {
-            "value": "[AT] <b>{{ value }}</b> qaldı",
-            "finish": "[AT] <b>Qəbul başa çatdı</b>"
+            "value": "<b>{{ value }}</b> qaldı",
+            "finish": "<b>Təkliflər qəbulu başa çatdı</b>"
         },
         "rules": {
             "positions": {

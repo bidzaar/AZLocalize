@@ -1,3 +1,4 @@
+
 {
     "pl_prp": {
         "importer": {
@@ -52,7 +53,7 @@
             }
         },
         "positions": {
-            "total": "Bu: <b>{{ price }} {{ currency }}</b>",
+            "total": "Lot üzrə toplam təklif dəyəri: <b>{{ price }} {{ currency }}</b>",
             "forbidden": {
                 "notice": "",
                 "text": "",
@@ -71,7 +72,7 @@
                 "download": "Şablonu endir",
                 "import": "Maddələri endir",
                 "upload": "Fayldan yüklə",
-                "patch": "Lot üzrə təklifdən imtina"
+                "patch": "Lot üçün təklifdən imtina"
             },
             "table": {
                 "validation": {

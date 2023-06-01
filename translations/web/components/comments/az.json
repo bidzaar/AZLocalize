@@ -3,7 +3,7 @@
         "item": {
             "actions": {
                 "cancel": "Ləğv et",
-                "edit": "Redaktə etmək",
+                "edit": "Ayarla",
                 "remove": "Sil",
                 "save": "Yadda saxlamaq"
             },

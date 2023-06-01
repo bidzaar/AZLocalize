@@ -50,13 +50,13 @@
                 "positions": {
                     "title": "Maddələrin spesifikasiyası",
                     "action": {
-                        "true": "Ayarla",
-                        "false": "Aç"
+                        "true": "Ayarla ",
+                        "false": "Aç "
                     },
                     "statistics": {
-                        "complete": "Maddələr: {{count}}",
+                        "complete": "Maddələr:  {{count}}",
                         "incomplete": "Maddələr: {{count}}-dən {{value}}-i",
-                        "excluded": "Maddələr: {{count}}-dən {{value}}-i, stokda yoxdur: {{value}}"
+                        "excluded": "Maddələr:  {{count}}-dən {{value}}-i, stokda yoxdur: {{value}}"
                     }
                 },
                 "price": {
@@ -68,8 +68,8 @@
                 "questionnaire": {
                     "title": "Qeyri-qiymət meyyarları",
                     "action": {
-                        "true": "Ayarla",
-                        "false": "Aç"
+                        "true": "Ayarla ",
+                        "false": "Aç "
                     },
                     "statistics": {
                         "complete": "Cavablar: {{value}}",
@@ -88,9 +88,9 @@
                     "false": "Təklif  №{{value}}"
                 },
                 "status": {
-                    "submitted": "Göndərilib",
-                    "draft": "Göndərilməyib",
-                    "changing": "Dəyişiklik et"
+                    "submitted": "Göndərilib ",
+                    "draft": "Göndərilməyib ",
+                    "changing": "Dəyişiklik et "
                 },
                 "competitors_ahead": {
                     "true": "Bəzi maddələrdə rəqiblər sizi qabaqlayır",
@@ -98,7 +98,7 @@
                 }
             },
             "confirm_recall_dialog": {
-                "cancel": "Ləğv et",
+                "cancel": "Ləğv et ",
                 "submit": "Təklifi geri çəkin",
                 "text": "Sifarişçiyə və digər iştirakçılara bu təklif əlçatmaz olacaq.\nTəklifdə düzəliş etmək mümkündür və yekunlardan əvvəl yenidən təqdim edilə bilər",
                 "title": "Təklifi geri götürün?"
@@ -120,10 +120,10 @@
                 "header": {
                     "title": "İlkin kvalifikasiya mərhələsi",
                     "status": {
-                        "0": "MÜRACİƏT OLUNMAYIB",
-                        "1": "MÜRACİƏT OLUNUB",
-                        "2": "MÜRACİƏT İMTİNA OLUNUB",
-                        "3": "MÜRACİƏT QƏBUL OLUNDU"
+                        "0": "MÜRACİƏT OLUNMAYIB ",
+                        "1": "MÜRACİƏT OLUNUB ",
+                        "2": "MÜRACİƏT İMTİNA OLUNUB ",
+                        "3": "MÜRACİƏT QƏBUL OLUNDU "
                     }
                 },
                 "action": {

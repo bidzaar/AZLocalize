@@ -169,7 +169,7 @@
                 "pretext": "ilə {{ date }}",
                 "tooltip": "Kompüterinizdəki tarixə və saata uyğundur",
                 "tooltip_timer": "qalıb",
-                "publish": "Dərc edilib{{ value }} "
+                "publish": "Dərc edilib {{ value }} "
             },
             "request": {
                 "additional_settings": {
