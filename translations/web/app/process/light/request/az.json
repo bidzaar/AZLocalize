@@ -3,14 +3,14 @@
         "request": {
             "editor": {
                 "headers": {
-                    "h1": "[AT] Başlıq 1",
-                    "h2": "[AT] Başlıq 2",
-                    "h3": "[AT] Başlıq 3",
-                    "h4": "[AT] Başlıq 4",
-                    "h5": "[AT] Başlıq 5",
-                    "h6": "[AT] Başlıq 6"
+                    "h1": "Yazı tipi 1",
+                    "h2": "Yazı tipi 2",
+                    "h3": "Yazı tipi 3",
+                    "h4": "Yazı tipi 4",
+                    "h5": "Yazı tipi 5",
+                    "h6": "Yazı tipi 6"
                 },
-                "remove": "[AT] Sil",
+                "remove": "Sil",
                 "message": {
                     "error": "[AT] böyük təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
                     "warning": "[AT] böyük təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",

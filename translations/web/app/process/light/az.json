@@ -165,11 +165,11 @@
                 "2": "Təkliflər qəbulu bitdi, sorğu yekunlaşdırma mərhələsindədir",
                 "3": "Sorğu tamamlandı",
                 "4": "Sorğu ləğv edildi",
-                "until": "{{Tarix}}",
-                "pretext": "[AT] ilə {{ date }}",
+                "until": "{{}}",
+                "pretext": "ilə {{ date }}",
                 "tooltip": "Kompüterinizdəki tarixə və saata uyğundur",
-                "tooltip_timer": "[AT] sorğunun sonuna qədər",
-                "publish": "[AT] dərc et {{ value }} "
+                "tooltip_timer": "qalıb",
+                "publish": "Dərc edilib{{ value }} "
             },
             "request": {
                 "additional_settings": {
@@ -1934,7 +1934,7 @@
                                     "text": {
                                         "agreement": "istifadəçi müqaviləsinə",
                                         "confirmation": "Sorğuda qalib gəldiyim təqdirdə istifadəçi müqaviləsinə əsasən xidmətin ödənilməsi şərtləri ilə razıyam",
-                                        "primary": "[AT] Təklifləri qəbul etdikdən sonra təklifi dəyişə bilərsiniz.",
+                                        "primary": "Təklifləri qəbul etdikdən sonra təklifi dəyişə bilərsiniz.",
                                         "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq."
                                     }
                                 },
@@ -2933,23 +2933,23 @@
                             "confirmation": {
                                 "actions": {
                                     "cancel": {
-                                        "primary": "[AT] Ləğv et",
-                                        "repeated": "[AT] Ləğv et"
+                                        "primary": "Ləğv et",
+                                        "repeated": "Ləğv et"
                                     },
                                     "next": {
-                                        "primary": "[AT] Təklif göndərin",
-                                        "repeated": "[AT] Təklifi Yeniləyin"
+                                        "primary": "Təklif göndərin",
+                                        "repeated": "Təklifi Yeniləyin"
                                     }
                                 },
                                 "success": {
-                                    "primary": "[AT] Təklif təqdim edildi",
-                                    "repeated": "[AT] Təklif yeniləndi"
+                                    "primary": "Təklif təqdim edildi",
+                                    "repeated": "Təklif yeniləndi"
                                 },
                                 "text": {
-                                    "primary": "[AT] Təkliflərin qəbulu bitənə qədər təklifi dəyişə bilərsiniz.",
-                                    "repeated": "[AT] Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq.",
-                                    "confirmation": "[AT] Sorğuda qalib gəldiyim halda Xidmət operatorunun Komissiyasının ödəniş şərtləri ilə razıyam.",
-                                    "agreement": "[AT] İstifadə qaydaları."
+                                    "primary": "Təkliflərin qəbulu bitənə qədər təklifi dəyişə bilərsiniz.",
+                                    "repeated": "Təşkilatçı təklifinizin yeniləndiyi barədə bildiriş alacaq.",
+                                    "confirmation": "Sorğuda qalib gəldiyim halda Xidmət Komissiyasının ödəniş şərtləri ilə razıyam.",
+                                    "agreement": "İstifadə qaydaları."
                                 }
                             },
                             "failure": {

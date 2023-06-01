@@ -4,8 +4,8 @@
             "content": {
                 "events": {
                     "ChatMessageRequiresNotificationEvent": "Çatda yeni mesaj",
-                    "FinishRoundProcedureEvent": "Müştəri tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
-                    "FinishRoundProcedureOrgEvent": "Müştəri tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
+                    "FinishRoundProcedureEvent": "Sİfarişçi tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
+                    "FinishRoundProcedureOrgEvent": "Sİfarişçi tərəfindən təkliflərin qəbulunun vaxtından əvvəl başa çatdırılması",
                     "NoProposal24Event": "Tender təklifləri tenderin qəbulunun bitməsinə 24 saat qalmış satınalmaya təqdim edilməmişdir",
                     "NotifyCompaniesByProcedureTags": "Şirkət profilimin teqlərinə uyğun gələn teqlərlə dərc edilmiş sorğu",
                     "NotifyProcedureFinishedWithOrderOrg": "Sahib qalibləri seçməklə alış-verişi tamamladı",

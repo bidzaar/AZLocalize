@@ -50,13 +50,13 @@
                 "positions": {
                     "title": "Maddələrin spesifikasiyası",
                     "action": {
-                        "true": "[AT] Redaktə etmək",
-                        "false": "[AT] Bax"
+                        "true": "Ayarla",
+                        "false": "Aç"
                     },
                     "statistics": {
-                        "complete": "Vəzifələr: {{count}}",
-                        "incomplete": "Vəzifələr: {{count}}-dən {{value}}-i",
-                        "excluded": "Vəzifələr: {{count}}-dən {{value}}-i, stokda yoxdur: {{value}}"
+                        "complete": "Maddələr: {{count}}",
+                        "incomplete": "Maddələr: {{count}}-dən {{value}}-i",
+                        "excluded": "Maddələr: {{count}}-dən {{value}}-i, stokda yoxdur: {{value}}"
                     }
                 },
                 "price": {
@@ -68,8 +68,8 @@
                 "questionnaire": {
                     "title": "Qeyri-qiymət meyyarları",
                     "action": {
-                        "true": "[AT] Redaktə etmək",
-                        "false": "[AT] Bax"
+                        "true": "Ayarla",
+                        "false": "Aç"
                     },
                     "statistics": {
                         "complete": "Cavablar: {{value}}",
@@ -84,16 +84,16 @@
                     "improve": "Təklifi təkmilləşdirin"
                 },
                 "title": {
-                    "true": "Mənim alternativ təklifim",
-                    "false": "Mənim təklifim  №{{value}}"
+                    "true": "Alternativ təklif",
+                    "false": "Təklif  №{{value}}"
                 },
                 "status": {
-                    "submitted": "Submitted",
-                    "draft": "Not submitted",
-                    "changing": "Changing"
+                    "submitted": "Göndərilib",
+                    "draft": "Göndərilməyib",
+                    "changing": "Dəyişiklik et"
                 },
                 "competitors_ahead": {
-                    "true": "[AT] Bəzi mövqelərdə rəqiblər sizi qabaqlayır",
+                    "true": "Bəzi maddələrdə rəqiblər sizi qabaqlayır",
                     "false": "Rəqiblər sizi qabaqlayır"
                 }
             },
@@ -114,33 +114,33 @@
             },
             "nda": {
                 "banner": {
-                    "draft": "Пройдите предквалификацию и подайте предложение до завершения приёма предложений.",
-                    "submitted": "Заявка на рассмотрении. Связь с заказчиком – в чате запроса."
+                    "draft": "İlkin kvalifikasiya və təkliflər, təkliflər qəbulunun son tarixinə kimi təqdim olunmalıdır.",
+                    "submitted": "Sifarişçi ilə əlaqə üçün Botçat-a keçin"
                 },
                 "header": {
-                    "title": "Заявка на предквалификацию / NDA",
+                    "title": "İlkin kvalifikasiya mərhələsi",
                     "status": {
-                        "0": "Заявка не подана",
-                        "1": "Заявка подана",
-                        "2": "Заявка отклонена",
-                        "3": "Заявка одобрена"
+                        "0": "MÜRACİƏT OLUNMAYIB",
+                        "1": "MÜRACİƏT OLUNUB",
+                        "2": "MÜRACİƏT İMTİNA OLUNUB",
+                        "3": "MÜRACİƏT QƏBUL OLUNDU"
                     }
                 },
                 "action": {
-                    "title": "Подать заявку на предквалификацию / NDA",
-                    "text": "Убедитесь, что заявка содержит полный комплект документов. Изменить заявку после подачи невозможно.",
-                    "cancel": "Отмена",
-                    "submit": "Подать заявку"
+                    "title": "İlkin kvalifikasiya üçün müraciət",
+                    "text": "Müraciətdə bütün sənədlərin olduğundan əmin olun. Müraciət təqdim edildikdən sonra hər hansı bır dəyişilik mümkün olmayacaq",
+                    "cancel": "Ləğv et",
+                    "submit": "Müraciət et"
                 },
                 "description": {
-                    "title": "Описание и документы",
-                    "notice": "Ознакомьтесь с требованиями Заказчика на вкладке \"Запрос\"",
-                    "open": "Перейти"
+                    "title": "Təsvir və sənədlər",
+                    "notice": "Sifarişçinin tələbləri ilə 'Sorğu' tablosunda tanış ola bilərsiniz",
+                    "open": "Keçid et"
                 },
                 "documents": {
-                    "title": "Документы заявки",
-                    "notice": "Прикрепите комплект документов",
-                    "append": "Прикрепить"
+                    "title": "Müraciət üçün sənədlər",
+                    "notice": "Sənədlər toplusunu əlavə et",
+                    "append": "Əlavə et"
                 }
             },
             "nonexistent": {

@@ -71,7 +71,7 @@
                 "download": "Şablonu endir",
                 "import": "Maddələri endir",
                 "upload": "Fayldan yüklə",
-                "patch": "Не подавать предложение по группе"
+                "patch": "Lot üzrə təklifdən imtina"
             },
             "table": {
                 "validation": {
@@ -95,16 +95,16 @@
                         "not_equal_to_position": "Sorğudakı miqdardan yayınma"
                     },
                     "price": {
-                        "lt_minimum": "Отрицательная цена недопустима",
-                        "gt_maximum": "Укажите цену меньше 99 млрд",
+                        "lt_minimum": "Mənfi rəqəm qəbul olunmur",
+                        "gt_maximum": "",
                         "equal_to_zero": "Qiyməti qeyd olunmayıb",
                         "equal_to_zero_count_gte_zero": "Qiyməti qeyd olunmayıb. Mövqe yoxdursa, \"Stokda yoxdur\" yazın",
                         "start_price_auction": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
                         "start_price_reduction": "Vahid qiymətiniz {{currency}}({{price}} {{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün maksimum qiymətdən yuxarıdı ({{startPrice}} {{currency}})",
-                        "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
-                        "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
-                        "refer_price_auction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
-                        "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az."
+                        "new_price_worse_auction": "Vahidin qiyməti əvvəlki qiymətdən böyük və ya ona bərabər olmalıdır.",
+                        "new_price_worse_reduction": "Vahidin qiyməti əvvəlki qiymətdən az və ya ona bərabər olmalıdır.",
+                        "refer_price_auction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha çox.",
+                        "refer_price_reduction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha az."
                     }
                 }
             }

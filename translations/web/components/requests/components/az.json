@@ -162,7 +162,7 @@
                     "open_type.editable": "Açıq-iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
                     "alternative_proposals": "İştirakçının neçə alternativ təklif təqdim edə biləcəyini göstər",
                     "prolongation_time": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən",
-                    "notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids.",
+                    "notification_hours": "Təkliflərin qəbulu üçün son tarixdən əvvəl göstərilən vaxtda iştirakçılara təkliflər çağırışının tezliklə bağlanması barədə məktub göndəriləcəkdir.",
                     "extra_notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids. If a zero is specified, the reminder is not carried out"
                 }
             }

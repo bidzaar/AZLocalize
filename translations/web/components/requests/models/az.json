@@ -38,11 +38,11 @@
                 "9": "İştirakdan imtina"
             },
             "other_participants_visibility": {
-                "0": "Yalnız öz təklifiniz",
-                "1": "Təklifinizin yalnız dərəcəsi (yeri).",
-                "2": "Rəqiblərin təklifləri - bəli, adlar - xeyir",
-                "3": "Rəqiblərin təklifləri və adları",
-                "4": "Rəqiblərin təklifləri arasında ən yaxşı qiymətlər"
+                "0": "Yalnız öz təkliflərini",
+                "1": "Təkliflərin yalnız dərəcəsini ",
+                "2": "Rəqiblərin təkliflərini - görürlər, adlarını - görmürlər",
+                "3": "Rəqiblərin təkliflərini və adlarını",
+                "4": "Rəqiblərin təkliflərinin arasında ən yaxşı qiymətləri"
             },
             "role": {
                 "0": {
