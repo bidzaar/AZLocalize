@@ -15,7 +15,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Siz sorğulamışdınız @ReportContext.TypeName</h1>
+          <h1>Siz arxiv formalaşdırılması üçün sorğu etmişdiniz  @ReportContext.TypeName</h1>
           <p>Arxivin formalaşdırılmasında xəta baş verib. Əməliyyatı təkrar edin və ya texniki dəstəyə müraciət edin. </p>
         </mj-text>
       </mj-column>

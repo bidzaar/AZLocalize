@@ -15,7 +15,7 @@
         <mj-text>
           <h1>Sizin şirkət ProcureSaaS-ı tərk etdi</h1>
           <p>
-            <b>Şirkət: </b>@CompanyContext.CompanyName<br><br> Şirkətinizin inzibatçısı şirkəti Procure.SaaS platformasından silib. 😪.<br><br>Şirkəti bərpa etmək üçün <a href="@ConfigurationContext.BaseUrl">texniki dəstəyə</a> müraciət edin <br><br> <span class="small">Əməkdaşlığa görə təşəkkür edirik,<br>ProcureSaaS</span></p>
+            <b>Şirkət: </b>@CompanyContext.CompanyName<br><br> Şirkətinizin inzibatçısı şirkəti SaaSProcure.az platformasından silib😪<br><br>Şirkəti bərpa etmək üçün <a href="@ConfigurationContext.BaseUrl">texniki dəstəyə</a> müraciət edin <br><br> <span class="small">Əməkdaşlığa görə təşəkkür edirik,<br>SaaSProcure.az</span></p>
         </mj-text>
       </mj-column>
     </mj-section>

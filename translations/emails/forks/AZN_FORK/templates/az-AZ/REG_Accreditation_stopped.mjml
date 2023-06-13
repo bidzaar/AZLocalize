@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Sizin şirkət reyestrdan çıxardılıb</h1>         
+          <h1>Sizin şirkət reyestrdən çıxardılıb</h1>         
           <p>Reyestr sahibi <b>@CompanyContext.CompanyName</b> şirkətini <b>"@RegistryContext.Name"</b> reyestrindən çıxardıb.</p>
 
           <p><b>Reyestr sahibi:</b> @RegistryContext.OwnerCompanyName<br /><b>Səbəb:</b> @ReasonPrecontext.Reason</p>

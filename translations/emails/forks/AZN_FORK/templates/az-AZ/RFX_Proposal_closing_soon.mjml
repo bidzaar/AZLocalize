@@ -13,43 +13,24 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Təkliflər qəbulunun bitməsinə 48 saatdan daha az qalıb⏰</h1>
-          <p>Təklifinizi göndərmək və ya təkmilləşdirmək üçün sizin 48 saat vaxtınız qalib.</p>
-        </mj-text>
-      </mj-column>
-    </mj-section>
-    <!-- /intro -->
-    <!-- primary -------------------------------------------- -->
-    <mj-section mj-class="section-primary">
-      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
-        <mj-text mj-class="text-primary">
-          <h1 class="p75">@ProcedureContext.ProcedureName</h1>
-        </mj-text>
-        <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
-      </mj-column>
-    </mj-section>
-    <!-- /primary -->
-    <!-- secondary -------------------------------------------- -->
-    <mj-section>
-      <mj-column>
-        <mj-text>
-          <p><b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Çatdırılma yeri:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Təkliflər qəbulunun son tarixi:</b>
-            @ProcedureContext.AcceptanceEndDate</p>
-          <p style="white-space: pre-line"><b>Təsvir:</b> @ProcedureContext.Description</p>
-          <p><b>Təkliflər qəbulu yalnız ProcureSaaS platformasında aparılır</b></p>
+          <h1>Təkliflər qəbulu bitir</h1>
+          <p>Təklifinizi təkmilləşdirmək üçün çox az vaxtınız qalıb</p>
+          <p class="mb-0">
+            <b>Təkliflər qəbulu</b>  @ProcedureContext.AcceptanceEndDate tarixə qədərdir (<b>@SummingUpProcedureReminderPrecontext.Hours saat qalıb</b>) <br />
+            <b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Çatdırılma yeri:</b> @ProcedureContext.PlaceOfDelivery <br />
+          <p style="white-space: pre-line"><b>Təsvir:</b><br> @ProcedureContext.Description</p>
         </mj-text>
         <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /secondary -->  
-    <mj-include path="./__tpl/__spacer.mjml" />    
-     
-    <!-- help -------------------------------------------- -->
-    <mj-include path="./__tpl/__help.mjml" />
-    <!-- footer -------------------------------------------- -->
+    <!-- /intro -->
+    <!-- /secondary -->
     <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

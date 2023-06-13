@@ -14,9 +14,9 @@
       <mj-column>
         <mj-text>
           <h1>Sorğunun nəticələrinə yenidən baxılma </h1>
-          <p>Öncə sizin şirkət <b>@ProcedureContext.ProcedureOwnerCompanyName</b> sorğuda qalib olub: <b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></b>.</p>
-          <p>Sifarişçi sorğunu yenidən yekunlaşdırmaq üçün qaytarıb. Səbəb: @ReasonPrecontext.Reason</p>
-          <p class="mb0">Sifarişçiyə suallar- sorğunun çatında.</p>          
+          <p>Öncə sizin şirkət <b>@ProcedureContext.ProcedureOwnerCompanyName</b> sorğuda qalib oldu: <b><a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a></b>.</p>
+          <p>Lakin sifarişçi sorğunu yenidən yekunlaşdırmaq üçün qaytarıb. Səbəb: @ReasonPrecontext.Reason</p>
+          <p class="mb0">Sifarişçiyə suallarınızı sorğunun çatında verə bilərsiniz.</p>          
         </mj-text>
         <mj-button href="@ProcedureContext.Url">Sorğunu aç</mj-button>
         

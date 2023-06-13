@@ -1,0 +1,30 @@
+<mjml>
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Şirkətinizin hüquqları dəyişildi</h1>
+          <p>ProcureSaaS-da hal hazırda <b>@CompanyContext.CompanyName</b> </p>
+          <ul class="mb-1">
+            @RightsPrecontext.RightsHints hüququna malikdir
+          </ul>
+          <p class="mb-0">Bu hüquqların istifadəsi üçün müvafiq əməkdaşlarınızı əlavə edin
+</p>
+        </mj-text>
+        <mj-button href="https://bidzaar.com/users">Əməkdaşların hüquqlarını ayarla</mj-button>
+        <mj-text>
+          <p class="small"> @ConfigurationContext.ProjectName platformasında admin olduğunuz və əməkdaşların hüquqlarını idarə edə biləcəyiniz üçün bu məktubu alırsınız</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>    
+    <!-- /intro -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

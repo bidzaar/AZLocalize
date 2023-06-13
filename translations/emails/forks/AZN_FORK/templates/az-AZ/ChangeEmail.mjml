@@ -14,9 +14,9 @@
       <mj-column>
         <mj-text>
           <h1>E-poçt ünvanının dəyişdirilməsi</h1>
-          <p class="mb0">E-poçt ünvanının <b>@ChangeEmailPrecontext.NewEmail</b> ünvanına dəyişdirilməsini təstiq edin.</p><p>Qeyd olunan e-poçt ünvanı ProcureSaaS-a giriş və bildirişlərin qəbulu üçün istifadə olunacaq.</p>
+          <p class="mb0">E-poçt ünvanının <b>@ChangeEmailPrecontext.NewEmail</b> ünvanına dəyişdirilməsini təsdiq edin.</p><p>Qeyd olunan e-poçt ünvanı ProcureSaaS-a giriş və bildirişlərin qəbulu üçün istifadə olunacaq.</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl/login/confirm-changing?@ChangeEmailPrecontext.UrlParams">E-poçtun dəyişdirilməsini təstiq et</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl/login/confirm-changing?@ChangeEmailPrecontext.UrlParams">E-poçtun dəyişdirilməsini təsdiq et</mj-button>
         <mj-text>          
           <p class="small">Əgər siz ProcureSaaS-da qeydiyyatdan keçməmisinizsə və bu məktubu səhvən aldığınızı düşünürsünüzsə, lütfən, bu məktuba əhəmiyyət verməyin!</p>
         </mj-text>

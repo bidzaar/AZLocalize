@@ -1,0 +1,15 @@
+<mj-section mj-class="section-hint">
+  <mj-column>
+    <mj-text>
+      <p class="small mb-05">Sorğu @ConfigurationContext.ProjectName platformasında dərc olunub. Bizim üstünlüklərimiz:</p>
+      <ol class="small mb-1">
+        <li>Tez və asan qeydiyyat</li>
+        <li> Ödənişsiz təklifin təqdim olunması. Xidmət komissiyası qalib təchizatçı tərəfindən ödənilir. Komissiyanln dəyəri sorğuda göstərilir.</li>
+        <li>Ən böyük şirkətlərdən məhdudiyyətsiz sayda sorğular</li>
+      </ol>
+      <p class="small">
+        <a href="@ConfigurationContext.BaseUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">Daha çox sorğular @ConfigurationContext.ProjectName ►</a>
+      </p>
+    </mj-text>
+  </mj-column>
+</mj-section>

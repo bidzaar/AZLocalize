@@ -18,7 +18,7 @@
           <p><b>Sorğu:</b> @ProcedureContext.ProcedureName<br />
             <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br />
-            <b>Bildiriş:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğu haqqında bildirişi endir</a><br />
+            <b>Bildiriş:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğunun bildirişini endir</a><br />
             <span style="white-space: pre-line"><b>Sorğuda dəyişiklik:</b><br /> @ProcedureVersionContext.ChangeLog</span></p>
         </mj-text>
         <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>

@@ -17,7 +17,7 @@
           <p>
            <b>Stend:</b>  @ConfigurationContext.BaseUrl<br />
             <b>Xəta:</b> @ErrorPrecontext.Error</p>
-          <p>Proqramçıları xəbərdar etməyə dəyər.</p>
+          <p>Xahiş edirik proqramçılara müraciət edin.</p>
         </mj-text>
       </mj-column>
     </mj-section>
