@@ -1085,7 +1085,7 @@
                 "order_distribution": "Seçim paylanması",
                 "order_price": "Təklif qiyməti",
                 "position_cell": {
-                    "add_to_order": "seçin",
+                    "add_to_order": "Maddəni seç",
                     "details": "Detalları göstərin",
                     "empty": "Mövcud deyil",
                     "from": "-",
@@ -1216,7 +1216,7 @@
                 },
                 "position_group_cell": {
                     "best_price_tooltip": "Ən yaxşı təklif qiyməti",
-                    "select_group": "Lot-u seçin",
+                    "select_group": "Seç",
                     "change_price": "Qiyməti dəyişin",
                     "selected": "Seçildi",
                     "selected_count": "{{value}}/{{count}}",
@@ -1493,7 +1493,7 @@
                                     "notice": ""
                                 },
                                 "NotDefined": {
-                                    "title": "Tariff is not selected",
+                                    "title": "Tarif seçilməyib",
                                     "notice": ""
                                 }
                             },
@@ -1818,9 +1818,9 @@
                             "submit": "İştirak et",
                             "title": "Sizi iştirak etməyə dəvət edirik",
                             "agreements": {
-                                "order": "Согласен с оплатой комиссии при выборе моего предложения Заказчиком",
-                                "users": "Нажимая кнопку \"Принять участие\", вы принимаете условия <a href=\"{{value}}\" target=\"_blank\">Пользовательского соглашения</a>",
-                                "tooltip": "Оплачивается только участниками, выбранными Заказчиком и не зависит от подписания договора между Заказчиком и Участником. Размер комиссии зависит от суммы выбранных Заказчиком позиций."
+                                "order": "Qalib seçildiyim təqdirdə komissiyanın ödənilməsi ilə razıyam",
+                                "users": "\"İştirak et\" düyməsini klikləməklə <a href=\"{{value}}\" target=\"_blank\"> İstifadəçi müqaviləsinin şərtlərini qəbul edirsiniz</a>",
+                                "tooltip": "Komissiya yalnız qalib seçilmiş iştirakçılar tərəfindən ödənilir və komissiya məbləği Sifarişçi ilə İştirakçı arasında olan müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Sifarişçinin seçdiyi maddələrin məbləğindən asılıdır."
                             }
                         },
                         "content": {
