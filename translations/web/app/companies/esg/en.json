@@ -12,7 +12,7 @@
                 "title": "Certification Failed",
                 "button": "Get certificate",
                 "description": {
-                    "RUS_FORK": "ProcureSaas, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG supplier"
+                    "RUS_FORK": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG vendor"
                 }
             },
             "info": {
@@ -37,18 +37,47 @@
                 "statistics": {
                     "environmental": {
                         "title": "Environment",
-                        "letter": "e"
+                        "letter": "e",
+                        "label": "environmental"
                     },
                     "social": {
                         "title": "Social",
-                        "letter": "s"
+                        "letter": "s",
+                        "label": "social"
                     },
                     "corporate_governance": {
                         "title": "Corporate governance",
-                        "letter": "g"
+                        "letter": "g",
+                        "label": "corporate governance"
+                    },
+                    "popover": {
+                        "title": "The company is rated in the following areas:",
+                        "environmental": {
+                            "0": "✔️ Clean and green technologies",
+                            "1": "✔️ Impact on climate change",
+                            "2": "✔️ Degree of environmental pollution"
+                        },
+                        "social": {
+                            "0": "✔️ Human capital, working conditions",
+                            "1": "✔️ Relations with contractors",
+                            "2": "✔️ Social responsibility"
+                        },
+                        "corporate_governance": {
+                            "0": "✔️ Management efficiency",
+                            "1": "✔️ Transparency of operations",
+                            "2": "✔️ Quality business ethics"
+                        }
                     }
                 },
                 "documents": {
+                    "0": {
+                        "title": "ESG certificate",
+                        "description": "Company ESG status certificate"
+                    },
+                    "1": {
+                        "title": "ESG report",
+                        "description": "Detailed report on the work of the company"
+                    },
                     "title": "Certification reports",
                     "certificate": {
                         "title": "ESG-certificate",
@@ -74,7 +103,7 @@
                     },
                     "none": {
                         "title": "Certification has not been passed",
-                        "description": "ProcureSaas, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG supplier"
+                        "description": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG vendor"
                     }
                 }
             },

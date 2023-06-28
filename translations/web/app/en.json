@@ -15,43 +15,43 @@
                     "company_sales": "Company sells",
                     "default": "Default",
                     "employeesCount": "Number of employees",
-                    "labels": "Assigned labels",
+                    "labels": "Labels",
                     "location": {
                         "dialog": "Select location",
                         "title": "Location"
                     },
                     "areas": {
-                        "title": "Place of business"
+                        "title": "Region of business"
                     },
                     "participationsCount": "Number of bids",
-                    "pools": "Accreditations in my pools",
+                    "pools": "Onboarding to my vendor pools",
                     "registries": "Vendor onboarding",
                     "rating": {
-                        "title": "Site activity",
+                        "title": "Activity",
                         "high": "High",
                         "average": "Average",
                         "low": "Low"
                     },
                     "registrationDate": "Registration date",
                     "verified": {
-                        "title": "Verified by ProcureSaas",
+                        "title": "Verified companies",
                         "link": "How to pass the verification"
                     },
                     "accreditations": {
-                        "title": "Companies included in the registers of customers",
-                        "link": "More about Registries"
+                        "title": "Onboarded vendors in vendor pools",
+                        "link": "More about vendor pools"
                     }
                 },
                 "item": {
-                    "accredited_count": "the company is accredited by the customer ",
-                    "attempts_count": "Participations in the customer's requests"
+                    "accredited_count": "the company is onboarded by the buyer",
+                    "attempts_count": "Bids submission to the buyer's requests"
                 },
                 "search": {
                     "tooltip": "Search fields:\n• Code and company name\n• Activity\n• Location\n• Contacts and details of the company"
                 },
                 "selected_title": "Selected:",
                 "sorting": {
-                    "rating": "Site activity",
+                    "rating": "Activity",
                     "name": "Company name",
                     "participations": "Number of bids",
                     "registration": "Registration date"
@@ -99,20 +99,20 @@
                 "region": "region",
                 "save": "save",
                 "search": "search...",
-                "site": "site"
+                "site": "platform"
             }
         },
         "contractors": {
             "pools": {
                 "statuses": {
                     "active": "active",
-                    "adjustment_required": "adjustment required",
+                    "adjustment_required": "revision required",
                     "consideration": "consideration",
                     "draft": "draft",
                     "invited": "invited",
                     "is_blocked": "blocked",
                     "participant_refused": "refused",
-                    "rejected_by_owner": "accreditation revoked"
+                    "rejected_by_owner": "onboarding suspended"
                 }
             }
         },
@@ -189,10 +189,10 @@
                 "dialog": {
                     "no": "Cancel",
                     "text": "",
-                    "title": "Restore user",
-                    "yes": "Restore"
+                    "title": "Update user",
+                    "yes": "Update"
                 },
-                "tooltip": "Restore user"
+                "tooltip": "Update user"
             },
             "tooltips": {
                 "edit_rights": "edit user rights"
@@ -216,31 +216,31 @@
             "broadcast": {
                 "owner": {
                     "pool": {
-                        "empty": "Make general announcements to participants in the pool",
-                        "tooltip": "Make general announcements to participants in the pool. Participants can view this feed but cannot post to it"
+                        "empty": "Make general announcements to the vendors in the vendor pool",
+                        "tooltip": "Make general announcements to the vendors in the vendor pool. Vendors can view this feed but cannot post to it"
                     },
                     "procedure": {
-                        "empty": "Make general announcements to participants in the request",
-                        "tooltip": "Make general announcements to participants in the request. Participants can view this feed but cannot post to it"
+                        "empty": "Make general announcements to vendors in the tender",
+                        "tooltip": "Make general announcements to vendors in the tender. Vendors can view this feed but cannot post to it"
                     },
-                    "text": "Channel with all participant"
+                    "text": "Chat with all vendors"
                 },
                 "participant": {
                     "pool": {
-                        "tooltip": "This channel will display the announcements of the pool requester"
+                        "tooltip": "This chat will display the announcements of the vendor pool"
                     },
                     "procedure": {
-                        "tooltip": "This channel will display the announcements of the request requester"
+                        "tooltip": "This chat will display the announcements of the request"
                     },
-                    "text": "Public requester channel"
+                    "text": "Public chat of the buyer"
                 }
             },
             "participant": {
                 "empty": "Currently there are no messages",
                 "empty_description": "Send your first message",
                 "header": {
-                    "owner": "Chats with requester",
-                    "participant": "Chats with participants"
+                    "owner": "Chat with buyer",
+                    "participant": "Chat with vendors"
                 }
             },
             "team": {
@@ -250,7 +250,7 @@
                 }
             }
         },
-        "current_pool": "current pool",
+        "current_pool": "current vendor pool",
         "current_procedure": "current request",
         "drop_zone_text": "Move files here to send",
         "header": {
@@ -275,7 +275,7 @@
     "controls": {
         "grid": {
             "column_chooser_dialog": {
-                "choose_column": "Choose column"
+                "choose_column": "Select column"
             },
             "columns_settings": "Column settings",
             "filter": {
@@ -340,7 +340,7 @@
     },
     "cookie": {
         "action": "close",
-        "text": "ProcureSaas.com uses cookies to analyze and personalize your experience."
+        "text": "bidzaar.com uses cookies to analyze and personalize your experience."
     },
     "core": {
         "access_denied": {
@@ -348,22 +348,22 @@
             "text": "Access denied"
         },
         "request_forbidden": {
-            "hint": "This request is only for invited participants",
+            "hint": "This request is only for invited vendors",
             "text": "Access to the request is restricted",
             "help": {
                 "action": "What to do if you are invited",
                 "text": "Possible solutions:",
                 "list": {
                     "item_1": {
-                        "text": "Log in to the site and open a request on behalf of the invited company"
+                        "text": "Log in to the platform and open a request on behalf of the invited company"
                     },
                     "item_2": {
                         "text": "Open the request using the link from the invitation letter sent by Bidzaar",
                         "info": "The link to the request from other sources is not an invitation."
                     },
                     "item_3": {
-                        "text": "Ask the customer to repeat the invitation",
-                        "info": "Please note to the customer that the invitation must be sent from the \"Participants\" tab."
+                        "text": "Ask the buyer to repeat the invitation",
+                        "info": "Please note to the buyer that the invitation must be sent from the \"Vendors\" tab."
                     }
                 },
                 "footer": "Didn't work? Contact technical support."
@@ -390,14 +390,14 @@
                 "line_1": "I'll help you with work on this platform and also inform you about important events.",
                 "line_2": "If you have any difficulties using the system, then visit"
             },
-            "title": "Hello, I am Bot, your personal assistant!"
+            "title": "Hello, I am BotZaar, your personal assistant!"
         },
         "demo": {
             "soon": "Soon!",
             "text": "Widget is in demo mode"
         },
         "economy": {
-            "empty": "Purchases not found, please choose another period",
+            "empty": "Requests are not found, please select another period",
             "on": "on",
             "period": "Money saved",
             "purchases": "requests:"
@@ -411,16 +411,16 @@
         },
         "no_procedures": {
             "action": "Search bid requests",
-            "text": "Participate in tender requests and win new business",
+            "text": "Submit your bids and win new business",
             "title": "Get more customers"
         },
         "no_purchases": {
             "action": "Create request",
-            "text": "Purchasing with your own rules!",
+            "text": "Purchase with your own rules!",
             "title": "Buy to profit"
         },
         "no_tags": {
-            "action": "Add hashtags",
+            "action": "Add tags",
             "text": "Business partners will find you by #tags",
             "title": "Become more visible"
         },
@@ -430,13 +430,13 @@
             }
         },
         "orders": {
-            "count": "Your company received orders in",
-            "empty": "Orders not found, please choose another period",
+            "count": "Your company received orders",
+            "empty": "Orders are not found, please select another period",
             "from": "from",
             "sum": "Purchases in the amount of:"
         },
         "promo": {
-            "title": "Recommended suppliers"
+            "title": "Recommended vendors"
         }
     },
     "dialog": {
@@ -480,7 +480,7 @@
         "http": {
             "status": {
                 "0": "An error has occurred. Please, try again",
-                "400": "bad request",
+                "400": "wrong request",
                 "401": "Your session has expired. Please reload the page or login again",
                 "403": "access denied",
                 "404": "resource not found",
@@ -488,10 +488,10 @@
                 "408": "request timeout",
                 "409": "invalid data",
                 "413": "file is too large",
-                "414": "request-uri too long",
+                "414": "request-url too long",
                 "500": "internal server error",
                 "501": "not implemented",
-                "502": "bad gateway",
+                "502": "wrong gateway",
                 "503": "service unavailable",
                 "504": "gateway timeout"
             },
@@ -505,7 +505,7 @@
                     "WrongState": "Context changed by other users, updated the page to continue."
                 },
                 "User": {
-                    "NotInTeam": "Employee is not in the pool team"
+                    "NotInTeam": "Employee is not in the vendor pool team"
                 },
                 "WrongState": "The context has been changed by other users, refresh the page to continue."
             },
@@ -522,10 +522,10 @@
                     },
                     "Participant": {
                         "Add": {
-                            "AlreadyJoined": "participant already exists"
+                            "AlreadyJoined": "vendor already exists"
                         },
                         "Join": {
-                            "ParticipantNotFound": "participant not found"
+                            "ParticipantNotFound": "vendor not found"
                         }
                     },
                     "Procedure": {
@@ -535,20 +535,20 @@
                         "Deleted": "request deleted",
                         "EmptyChoices": "there is no order",
                         "Ended": "request finished",
-                        "Expired": "request at the stage of summarizing",
+                        "Expired": "request at the stage of summarizing final results",
                         "Internal": {
                             "UnknownField": "can not save"
                         },
                         "Participant": {
                             "Add": {
-                                "AddParticipant": "can not add participant",
-                                "MaxParticipantsCountExceeded": "you can not add more than 100 participants"
+                                "AddParticipant": "can not add vendor",
+                                "MaxParticipantsCountExceeded": "you can not add more than 100 vendors"
                             },
-                            "BlockedByOwner": "participant blocked by request owner",
+                            "BlockedByOwner": "vendor blocked by request owner",
                             "Check": {
-                                "NotActiveParticipant": "participant is not active; refresh page and join request",
-                                "NotParticipant": "participant not found",
-                                "Refused": "participant left the request"
+                                "NotActiveParticipant": "vendor is not active; refresh page and join request",
+                                "NotParticipant": "vendor not found",
+                                "Refused": "vendor left the request"
                             },
                             "Invite": {
                                 "TokenNotFound": "the invitation to the request is no longer valid"
@@ -562,25 +562,25 @@
                                 "Forbidden": "change of the bid is forbidden by the request owner"
                             }
                         },
-                        "Summarizing": "request at the stage of summarizing",
+                        "Summarizing": "request at the stage of summarizing final results",
                         "UnknownField": "can not save",
                         "User": {
                             "LastOwner": "the request must have at least one owner"
                         },
-                        "VersionMismatch": "The customer has changed the request. Review the changes and, if necessary, update your proposal.",
+                        "VersionMismatch": "The customer has changed the request. Review the changes and, if necessary, update your bid.",
                         "WrongState": "request has wrong status",
                         "WrongStatus": "request has wrong status"
                     },
                     "Proposal": {
-                        "AlreadyPublished": "bid already published",
-                        "HasDraft": "bid already published",
+                        "AlreadyPublished": "bid is already submitted",
+                        "HasDraft": "bid is already submitted",
                         "Import": {
                             "BrokenFile": "File damaged"
                         },
                         "PublicNotFound": "bid is not found",
-                        "CannotChangePrice": "Updating the price at the moment is not possible, you can submit an offer on the \"Proposal\" tab"
+                        "CannotChangePrice": "Updating the price at the moment is not possible, you can submit your bid on the \"Bid\" tab"
                     },
-                    "SendEmail": "can not send email"
+                    "SendEmail": "cannot send email"
                 }
             },
             "User": {
@@ -599,11 +599,11 @@
                     "Invited": "user's status is \"Invited\"",
                     "LastCompanyAdmin": "you are the only company administrator. Assign another company administrator and try again.",
                     "NotInvited": "user's status is \"Invited\"",
-                    "NotWaitingForApprove": "User's status is not \"Wait For Approve\"",
-                    "WaitingForApprove": "user's status is \"Wait For Approve\"",
+                    "NotWaitingForApprove": "User's status is not \"Wait For Approval\"",
+                    "WaitingForApprove": "user's status is \"Wait For Approval\"",
                     "AnotherUserExists": "The company has other employees. Creating a phantom is not possible."
                 },
-                "VerifiedCompanyAlreadyExists": "Company with this TIN/KPP already exists"
+                "VerifiedCompanyAlreadyExists": "Company with this TIN already exists"
             },
             "default": "An error has occurred. Please contact your administrator",
             "ShouldBeExcel": "Invalid file extension",
@@ -628,7 +628,9 @@
             "cancel": "cancel",
             "description": "file description",
             "placeholder": "description",
-            "save": "save"
+            "save": "save",
+            "label": "Description",
+            "title": "File Description"
         },
         "errors": {
             "ext": "Error. Unsupported file format.",
@@ -662,27 +664,27 @@
     "landing": {
         "cards": {
             "chat": "quick and comfortable communication via integrated chats",
-            "contractors": "find tried suppliers in business network",
+            "contractors": "discover vendors in business network",
             "new_clients": "improve your profile & find new customers in business network",
-            "on_flight": "holding electronic requests for bids (RFx) on-the-fly",
+            "on_flight": "holding electronic requests for bids (RFx)",
             "real_tender": "only real commercial tenders"
         },
         "footer": {
             "copyright": "e-marketplace © 2018 — 2019",
             "user_agreement": "user agreement"
         },
-        "logo": "ProcureSaas",
+        "logo": "bidzaar",
         "owner": {
             "text": "participate in fair tenders, improve your business reputation and find new customers",
-            "title": "for supplier"
+            "title": "for vendor"
         },
         "page_header": {
-            "text": "marketplace of a new type, created on the basis of the social network of suppliers and buyers",
+            "text": "marketplace of a new type, created on the basis of the social network of vendors and buyers",
             "title": "on-the-fly purchasing management"
         },
         "participant": {
-            "text": "start using the most advanced private company purchasing management tool",
-            "title": "for purchaser"
+            "text": "start using the most advanced eSoutcing tool for private companies",
+            "title": "for buyer"
         },
         "registration": {
             "free": "it's free",
@@ -721,7 +723,7 @@
         "changes_saved": "changes saved"
     },
     "navigation": {
-        "accreditations": "Accreditations",
+        "accreditations": "Vendor onboarding",
         "app_store": {
             "title": {
                 "download": "Download in",
@@ -749,31 +751,31 @@
         },
         "language_select": "Change language",
         "monetization": {
-            "title": "Tariffs"
+            "title": "Comissions"
         },
         "owner": {
             "pools": {
-                "title": "Pool management"
+                "title": "Vendor pool management"
             },
             "rfx": {
                 "title": "My requests"
             },
             "rfx_manager": {
-                "title": "Company requests"
+                "title": "My company's requests"
             },
             "registries": {
-                "title": "Registries"
+                "title": "My vendor pools"
             }
         },
         "participant": {
             "pools": {
-                "title": "Pools"
+                "title": "Vendor pools"
             },
             "rfx": {
-                "title": "Bids"
+                "title": "My bids"
             },
             "registries": {
-                "title": "My registries"
+                "title": "Onboarding status"
             }
         },
         "pools": "Pool management",
@@ -794,8 +796,8 @@
     "no_company": {
         "add": {
             "add_company": "find or create company",
-            "text": "Join your company as an employee. If your company is not yet registered - register in a few steps.",
-            "title": "Find your company or register on ProcureSaas"
+            "text": "Join your company as an employee. If your company is not registered yet - register in a few steps.",
+            "title": "Find your company or register on Bidzaar"
         },
         "welcome": {
             "text": "Let's continue!",
@@ -805,23 +807,23 @@
     "notifications": {
         "list": {
             "header": "notifications",
-            "load": "load more",
+            "load": "add more",
             "templates": {
                 "default": "unknown notification",
                 "pool": {
-                    "accreditation_passed": "You have been accredited in the pool \"{{pool}}\" of the company {{company}}",
+                    "accreditation_passed": "You have been onboarded to the vendor pool \"{{pool}}\" of the company {{company}}",
                     "invited": "You have been invited to the pool \"{{pool}}\""
                 },
                 "procedure": {
-                    "blocked": "You have been blocked in the request \"{{procedure}}\"",
+                    "blocked": "You have been blocked in the tender \"{{procedure}}\"",
                     "canceled": "Request cancelled \"{{procedure}}\"",
                     "completed": "Request \"{{procedure}}\" completed",
                     "invited": {
                         "company": "The company {{company}}",
                         "procedure": "has invited you to the request \"{{procedure}}\""
                     },
-                    "losed": "Request \"{{procedure}}\" completed, You lost",
-                    "published": "Request published: \"{{procedure}}\"",
+                    "losed": "Request \"{{procedure}}\" completed, You did not get the order",
+                    "published": "Request submitted: \"{{procedure}}\"",
                     "removed": "You have been removed from the request \"{{procedure}}\"",
                     "won": "You won the request \"{{procedure}}\""
                 },
@@ -840,16 +842,17 @@
                         "all-receipt-archive": "order",
                         "chats-archive": "archive of messages",
                         "my-proposal-archive": "your order",
-                        "proposal-archive": "participant's bid",
-                        "receipt-archive": "participant's order",
-                        "nda-archive": "current prequalification / NDA applications"
+                        "proposal-archive": "vendor's bid",
+                        "receipt-archive": "vendor's order",
+                        "nda-archive": "current prequalification / NDA applications",
+                        "comparison": "comparison table"
                     }
                 },
                 "registry_reports": {
-                    "failure": "You requested {{ type }} for the registry \"{{ registry }}\". An error occurred while generating the archive. Repeat the action or contact technical support.",
-                    "success": "You requested {{ type }} for the registry \"{{ registry }}\". The archive has been generated on {{date}} and will be available within 30 days.",
+                    "failure": "You requested {{ type }} for the vendor pool \"{{ vendor pool }}\". An error occurred while generating the archive. Repeat the action or contact technical support.",
+                    "success": "You requested {{ type }} for the vendor pool \"{{ vendor pool }}\". The archive has been generated on {{date}} and will be available within 30 days.",
                     "types": {
-                        "application-archive": "application for accreditation",
+                        "application-archive": "application for onboarding",
                         "registry-commission-protocol": "commision's protocol"
                     }
                 },
@@ -857,7 +860,7 @@
                     "approved": "You have been registered as an employee of the company {{company}}"
                 },
                 "user_company": {
-                    "complete_company_profile": "Fill the company profile in full, this will help new customers find you and increase confidence and interest",
+                    "complete_company_profile": "Fill the company profile in full, this will help new customers find you and increase trust and interest",
                     "request_to_join": "Application for joining the company from {{lastname}} {{firstname}}",
                     "rights_changed": "Your rights in the company have been changed. Details in user profile."
                 }
@@ -869,7 +872,7 @@
             "clear_order": "clear order",
             "complete": "complete request",
             "from": "from",
-            "positions": "positions",
+            "positions": "items",
             "total": "total"
         },
         "clone": {
@@ -877,18 +880,18 @@
             "name": "Request name",
             "generalInfo": "General information",
             "parameters": "Parameters",
-            "participants": "Participants",
+            "participants": "Vendors",
             "positions": "Goods and services",
-            "questionnaire": "Requirements for participants and conditions of request",
-            "team": "Users",
-            "nda": "Pre-qualification",
-            "registries": "Registries",
+            "questionnaire": "Non-pricing request criteria",
+            "team": "Team",
+            "nda": "NDA",
+            "registries": "Vendor pools",
             "cancel": "Cancel",
             "submit": "Duplicate"
         },
         "common": {
-            "documents": "document for supplier",
-            "documents_description": "Add documents with a description of the purchase.",
+            "documents": "document for vendor",
+            "documents_description": "Add documents with a description of the tender.",
             "general_information": "general information",
             "name": "request name",
             "save": "save"
@@ -900,7 +903,7 @@
         },
         "edit": {
             "procedure": "request",
-            "publish": "publish"
+            "publish": "submit"
         },
         "finish-round": {
             "success": "bidding round completed"
@@ -911,7 +914,7 @@
                 "item": {
                     "statistics": {
                         "joins_count": "Total bids",
-                        "participants_quantity": "Number of participants",
+                        "participants_quantity": "Number of vendors",
                         "total_active_proposals": "Active bids"
                     }
                 }
@@ -920,12 +923,12 @@
         "new_procedure": "New request",
         "parameters": {
             "actions": "actions",
-            "end_date": "end of acceptance of bids",
-            "list_of_participants": "list of participants",
-            "owner": "the owner sees the bids of the participants before the deadline for accepting offers",
+            "end_date": "end of bids acceptance",
+            "list_of_participants": "list of vendors",
+            "owner": "the owner sees the bids of the vendors before the deadline for accepting bids",
             "parameters": "parameters",
-            "participants_participants": "participants see the names of other participants",
-            "participants_suggestions": "participants see the suggestions of other participants",
+            "participants_participants": "vendors see the names of other vendors",
+            "participants_suggestions": "vendors see bids of other vendors",
             "procedure_currency": "request currency",
             "save": "save",
             "visibility": "visibility"
@@ -933,33 +936,33 @@
         "participants": {
             "add": "add",
             "invite": "invite",
-            "participants": "participants",
-            "total_participants": "participants:"
+            "participants": "vendors",
+            "total_participants": "vendors:"
         },
         "positions": {
             "add": "add",
-            "add_position": "add position",
+            "add_position": "add item",
             "change": "change",
-            "download_template": "download template for positions",
-            "import": "load position from file",
-            "import_success": "positions loaded: {{count}}",
-            "placeholder": "add positions to the request",
-            "position": "position",
+            "download_template": "download template for items",
+            "import": "add item from file",
+            "import_success": "items added: {{count}}",
+            "placeholder": "add items to the request",
+            "position": "item",
             "positions": "goods or services",
             "save": "save",
             "save_add": "save and add more",
             "saved": "data saved",
             "show_all": "show all",
-            "shown_positions": "positions: {{length}} from {{total}}.",
-            "total_positions": "positions"
+            "shown_positions": "items: {{length}} from {{total}}.",
+            "total_positions": "items"
         },
         "preview": {
             "details": "details",
             "documents": "documents",
             "finishDate": "acceptance of bids until",
             "header": "request",
-            "organizer": "requester",
-            "publishDate": "date of creation",
+            "organizer": "buyer",
+            "publishDate": "creation date",
             "status": "status"
         },
         "questionnaire": {
@@ -983,7 +986,7 @@
                     "add_option": "add option"
                 },
                 "options": {
-                    "title": "Participant's answer"
+                    "title": "Vendor's answer"
                 }
             },
             "item_types": {
@@ -1006,14 +1009,14 @@
                     "header": "Question",
                     "default_question_text": "New question",
                     "default_group_name": "New Section",
-                    "type": "Question type",
+                    "type": "Answer type",
                     "text": "Question text",
                     "required": "Answer is required",
                     "description": "Description",
                     "hidden": {
-                        "owner": "The answer is available only to the requester",
-                        "participant": "The answer will not be available to other participants.",
-                        "tooltip": "We recommend hiding sensitive or confidential information",
+                        "owner": "The answer is available only to the buyer",
+                        "participant": "The answer will not be available to other vendors.",
+                        "tooltip": "Vendors will have access to competitor responses to this question. We recommend hiding sensitive or confidential information",
                         "info": "The answer is available to the participants with the appropriate setting of the request parameter \"After submitting the proposal, the participants see\""
                     }
                 },
@@ -1047,7 +1050,7 @@
             "tooltips": {
                 "add_file": "Add file",
                 "add_group": "Group",
-                "add_item": "Item",
+                "add_item": "Question",
                 "remove": "Remove"
             }
         },
@@ -1077,10 +1080,10 @@
         "view": {
             "documents": "documents",
             "finishDate": "acceptance of bids until",
-            "organizer": "requester",
-            "positions": "positions",
+            "organizer": "buyer",
+            "positions": "items",
             "procedure": "request",
-            "publishDate": "date of creation",
+            "publishDate": "creation date",
             "status": "status"
         }
     },
@@ -1090,102 +1093,102 @@
                 "approve": "approve",
                 "approve_dialog": {
                     "no": "Cancel",
-                    "success": "Participant is accredited",
-                    "text": "Accredit company in pool?",
-                    "title": "",
-                    "yes": "Accredit"
+                    "success": "Vendor is onboarded",
+                    "text": "Onboard company in vendor pool?",
+                    "title": "Vendor onboarding",
+                    "yes": "Onboard"
                 },
                 "approved": "approved",
                 "block_dialog": {
                     "no": "cancel",
                     "reason": "message for company",
-                    "success": "participant is blocked",
-                    "text": "The action is reversible. The application will be saved. The application will be restored to the same status, with the exception of cases of withdrawal of accreditation, for example, due to the expiration of the accreditation period.",
-                    "title": "block participant",
+                    "success": "vendor is blocked",
+                    "text": "The action is reversible. The application will be saved. The application will be updated to the same status, with the exception of cases of withdrawal of onboarding status, for example, due to the expiration of the onboarding period.",
+                    "title": "block vendor",
                     "yes": "block"
                 },
                 "bot-zaar": {
                     "owner": {
                         "message": {
-                            "blocked_pool": "The pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
-                            "invited": "Participant invited.",
-                            "draft": "The participant accepted the invitation. Wait for application for accreditation.",
-                            "participant_refused": "Participant refused to be accredited.",
-                            "consideration": "The supplier has applied for accreditation. You can accredit, add a supplier to the pool if, from your point of view, the application is correct.",
-                            "adjustment_required": "Application returned for adjustment. Wait for a response from the participant.",
-                            "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
-                            "is_blocked": "Participant blocked • {{blockDate}}.\n{{blockReason}}.",
-                            "rejected_by_owner": "Company accreditation revoked • {{statusChangedDate}}.\n{{rejectReason}}."
+                            "blocked_pool": "The vendor pool was blocked by owner. Processing of applications and onboarding of the members of the management team is possible after unlocking the vendor pool.",
+                            "invited": "Vendor invited.",
+                            "draft": "The vendor accepted the invitation. Wait for application for onboarding.",
+                            "participant_refused": "Vendor refused to be onboarded.",
+                            "consideration": "The vendor has applied for onboarding. You can allow onboarding, add a vendor to the vendor pool if, from your point of view, the application is correct.",
+                            "adjustment_required": "Application has returned for revision. Wait for a response from the vendor.",
+                            "active": "Onboarded to {{accreditationEndDate}} • {{accreditationEndDays}}.",
+                            "is_blocked": "Vendor is blocked • {{blockDate}}.\n{{blockReason}}.",
+                            "rejected_by_owner": "Company onboarding is suspended • {{statusChangedDate}}.\n{{rejectReason}}."
                         },
                         "actions": {
                             "block": {
-                                "title": "Block participant",
-                                "description": "A blocked participant will not be able to participate in accreditation."
+                                "title": "Block vendor",
+                                "description": "A blocked vendor will not be able to apply for onboarding."
                             },
                             "unblock": {
                                 "title": "Unblock",
-                                "description": "Unblock the participant so that he can again participate in the accreditation."
+                                "description": "Unblock the vendor so that he can again apply for onboarding."
                             },
                             "revise": {
-                                "title": "Send for adjustment",
-                                "description": "Send the application for reprocessing by the participant."
+                                "title": "Send for revision",
+                                "description": "Send the application for revision by the vendor."
                             },
                             "approve": {
-                                "title": "Accredit",
-                                "description": "Accredit the participant in the pool."
+                                "title": "Onboard",
+                                "description": "Onboard the vendor to the vendor pool."
                             },
                             "reject": {
-                                "title": "Revoke accreditation",
-                                "description": "Accreditation of participants will be revoked."
+                                "title": "Suspend onboarding",
+                                "description": "Onboarding of vendor will be suspended."
                             }
                         }
                     },
                     "auditor": {
                         "message": {
-                            "blocked_pool": "The pool was blocked by owner. Processing of applications and accredited members of management are possible after unlocking the pool.",
-                            "invited": "Participant invited.",
-                            "draft": "The participant fills out an application for accreditation.",
-                            "participant_refused": "Participant refused to be accredited.",
-                            "consideration": "Participant's application is being processed.",
-                            "adjustment_required": "Application returned for adjustment.",
-                            "active": "Accredited to {{accreditationEndDate}} • {{accreditationEndDays}}.",
-                            "is_blocked": "Participant blocked • {{blockDate}}.\n{{blockReason}}",
-                            "rejected_by_owner": "Company accreditation revoked • {{statusChangedDate}}.\n{{rejectReason}}"
+                            "blocked_pool": "Processing of applications and onboarding of the members of the management team is possible after unlocking the vendor pool.",
+                            "invited": "Vendor invited.",
+                            "draft": "The vendor fills out an application for onboarding.",
+                            "participant_refused": "Vendor refused to be onboarded.",
+                            "consideration": "Vendor's application is being processed.",
+                            "adjustment_required": "Application returned for revision.",
+                            "active": "Onboarded to {{accreditationEndDate}} • {{accreditationEndDays}}.",
+                            "is_blocked": "Vendor is blocked • {{blockDate}}.\n{{blockReason}}",
+                            "rejected_by_owner": "Company onboarding is suspended • {{statusChangedDate}}.\n{{rejectReason}}"
                         }
                     },
                     "participant": {
                         "message": {
-                            "blocked_pool": "The pool was suspended by owner {{poolBlockedDate}}. Accreditation will again be valid only if the owner of the pool decides to renew the pool.",
-                            "invited": "For accreditation in the pool you need to fill out a questionnaire and send it to the owner of the pool for approval.",
-                            "draft": "Answer the questionnaire and send an application for accreditation.",
-                            "consideration": "Application sent for approval • {{statusChangedDate}}.\nWait for the decision of the accreditation commission.",
-                            "active": "Congratulations, you have successfully completed the accreditation process.\nYour company is accredited to {{accreditationEndDate}}.",
-                            "adjustment_required": "Application returned for adjustment. Correct the application and send again.",
-                            "participant_refused": "You have refused accreditation in the pool, but you can renew your participation. The status of your application will be retained, with the exception of the case of withdrawal at the initiative of the Pool Owner.",
-                            "is_blocked": "Accreditation in the pool blocked by Pool Owner • {{blockDate}}.\n{{blockReason}}",
-                            "rejected_by_owner": "Accreditation of your company in the pool revoked.\n{{rejectReason}}"
+                            "blocked_pool": "The vendor pool was suspended by owner {{poolBlockedDate}}. Onboarding will again be valid only if the owner of the vendor pool decides to update the vendor pool.",
+                            "invited": "For onboarding to the vendor pool you need to fill out a questionnaire and send it to the owner of the pool for approval.",
+                            "draft": "Answer the questionnaire and send an application for onboarding.",
+                            "consideration": "Application sent for approval • {{statusChangedDate}}.\nWait for the decision of the onboarding commission.",
+                            "active": "Congratulations, you have successfully completed the onboarding process.\nYour company is onboarded to {{accreditationEndDate}}.",
+                            "adjustment_required": "Application returned for revision. Correct the application and send again.",
+                            "participant_refused": "You have refused onboarding to the vendor pool, but you can renew your participation. The status of your application will be retained, with the exception of the case of withdrawal at the initiative of the Pool Owner.",
+                            "is_blocked": "Onboarding to the vendor pool blocked by Pool Owner • {{blockDate}}.\n{{blockReason}}",
+                            "rejected_by_owner": "Onboarding of your company to the vendor pool is suspended.\n{{rejectReason}}"
                         },
                         "actions": {
                             "publish": {
                                 "title": "Send",
-                                "description": "Send the completed application for consideration of accreditation to the pool of trusted suppliers."
+                                "description": "Send the completed application for onboarding to the vendor pool of trusted vendors."
                             },
                             "refuse": {
-                                "title": "refuse to participate",
-                                "description": "You can refuse accreditation or its passage at any time.\nThe requester will receive a notification of your refusal. The action is reversible.\nIn the future, renewal of participation is possible."
+                                "title": "refuse to onboarding",
+                                "description": "You can refuse onboarding or its passage at any time.\nThe buyer will receive a notification of your refusal. The action is reversible.\nIn the future, onboarding renewal is possible."
                             },
                             "renew": {
-                                "title": "Resume participation",
-                                "description": "Resume participation in the pool of trusted suppliers."
+                                "title": "Update onboarding",
+                                "description": "Update onboarding to the vendor pool of trusted vendors."
                             },
                             "rejoin": {
-                                "title": "Repeat accreditation",
-                                "description": "Change the application and send it for consideration for accreditation."
+                                "title": "Update onboarding",
+                                "description": "Change the application and send it for consideration for onboarding."
                             }
                         }
                     }
                 },
-                "pool": "pool",
+                "pool": "vendor pool",
                 "publish_dialog": {
                     "no": "Cancel",
                     "success": "Application sent for approval",
@@ -1194,11 +1197,11 @@
                     "yes": "Send"
                 },
                 "reason": "reason",
-                "refuse": "refuse accreditation",
+                "refuse": "refuse onboarding",
                 "refuse_dialog": {
                     "no": "Cancel",
-                    "success": "Accreditation cancelled",
-                    "text": "You will be able to resume participation in the future.",
+                    "success": "Onboarding is cancelled",
+                    "text": "You will be able to update onboarding in the future.",
                     "title": "Refuse to participate",
                     "yes": "Refuse"
                 },
@@ -1206,23 +1209,23 @@
                 "reject_dialog": {
                     "no": "Cancel",
                     "reason": "Reason",
-                    "success": "Accreditation revoked. The participant will be notified and will be able to go through the accreditation process again.",
-                    "text": "The participant will be notified and will be able to go through the accreditation process again. Leave a comment with a reason for revoke.",
-                    "title": "Revoke accreditation",
-                    "yes": "Revoke"
+                    "success": "Onboarding suspended. The vendor will be notified and will be able to go through the onboarding process again.",
+                    "text": "The vendor will be notified and will be able to go through the onboarding process again. Leave a comment with a reason for suspension.",
+                    "title": "Suspend onboarding",
+                    "yes": "Suspend"
                 },
                 "rejected": "rejected",
                 "rejoin_dialog": {
                     "no": "Cancel",
-                    "text": "Repeat accreditation?",
+                    "text": "Repeat onboarding?",
                     "title": "",
                     "yes": "Repeat"
                 },
                 "renew_dialog": {
                     "no": "Cancel",
-                    "text": "Resume participation in a supplier pool?",
+                    "text": "Update onboarding to a vendor pool?",
                     "title": "",
-                    "yes": "Resume participation"
+                    "yes": "Update onboarding"
                 },
                 "revert": "cancel the decision",
                 "revise": {
@@ -1232,52 +1235,52 @@
                 },
                 "revise_dialog": {
                     "no": "Cancel",
-                    "success": "Application sent for adjustment",
-                    "text": "Send an application for adjustment?",
+                    "success": "Application sent for revision",
+                    "text": "Send an application for revision?",
                     "title": "",
                     "yes": "Send"
                 },
                 "status": "request status",
-                "title": "accreditation",
+                "title": "onboarding",
                 "unblock_dialog": {
                     "no": "Cancel",
-                    "success": "Participant is unblocked",
-                    "text": "Restoring a blocked member. Upon restoration, the application will be restored in the same status, with the exception of the case of withdrawal of accreditation, for example, due to the expiration of the accreditation period.",
+                    "success": "Vendor is unblocked",
+                    "text": "Restoring a blocked member. The application will be updated in the same status, with the exception of the case of onboarding cancellation, for example, due to the expiration of the onboarding period.",
                     "title": "",
                     "yes": "Unblock"
                 },
                 "validity": "validity"
             },
             "accreditation_status": {
-                "active": "accreditation received",
+                "active": "onboarding completed",
                 "adjustment_required": "correction required",
                 "consideration": "under consideration",
                 "draft": "invitation accepted",
-                "invited": "invitation for accreditation",
+                "invited": "invitation for onboarding",
                 "is_blocked": "blocked",
                 "participant_refused": "you have declined to submit a bid",
-                "rejected_by_owner": "accreditation revoked"
+                "rejected_by_owner": "onboarding suspended"
             },
             "create": {
                 "cancel": "cancel",
-                "header": "new pool",
+                "header": "new vendor pool",
                 "next": "create",
-                "placeholder": "pool name"
+                "placeholder": "vendor pool name"
             },
             "edit": {
                 "bot-zaar": {
                     "auditor": {
                         "message": {
-                            "active": "Pool is published!",
-                            "blocked": "Pool is blocked • {{ blockDate }}.",
+                            "active": "Vendor pool is published!",
+                            "blocked": "Vendor is blocked • {{ blockDate }}.",
                             "changing": "The questionnaire has been changed. Changes will take effect after publication.",
-                            "draft": "Pool is in draft state."
+                            "draft": "Vendor pool is in draft state."
                         }
                     },
                     "owner": {
                         "actions": {
                             "block": {
-                                "description": "Participant questionnaires will not be available for viewing. Action is reversible.",
+                                "description": "Vendor questionnaires will not be available for viewing. Action is reversible.",
                                 "title": "block"
                             },
                             "cancelChanges": {
@@ -1289,27 +1292,27 @@
                                 "title": "delete draft"
                             },
                             "openParticipants": {
-                                "description": "Open the list of participants.",
-                                "title": "participants list"
+                                "description": "Open the list of vendors.",
+                                "title": "vendors list"
                             },
                             "publish": {
-                                "description": "The accreditation pool will be available to invite participants.",
+                                "description": "The vendor pool will be available to invite vendors.",
                                 "title": "publish"
                             },
                             "publishChanges": {
-                                "description": "Publish your changes to the questionnaire. Participants will need to provide answers to amended and new questions.",
-                                "title": "publish"
+                                "description": "Submit your changes to the questionnaire. Vendors will need to provide answers to amended and new questions.",
+                                "title": "submit"
                             },
                             "restore": {
-                                "description": "The pool will be restored. Participant questionnaires will be available.",
-                                "title": "restore"
+                                "description": "The vendor pool will be updated. Vendor questionnaires will be available.",
+                                "title": "update"
                             }
                         },
                         "message": {
-                            "active": "The pool is published! Invite companies for accreditation and create your own procurement channels.",
-                            "blocked": "Pool is blocked • {{ blockDate }}.",
-                            "changing": "Publish the questionnaire for the changes to take effect. Participants accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire.",
-                            "draft": "Create and publish a questionnaire. Then you can invite companies for accreditation."
+                            "active": "The vendor pool is published! Invite companies for onboarding and create your own vendor pools.",
+                            "blocked": "Vendor pool is blocked • {{ blockDate }}.",
+                            "changing": "Submit the questionnaire for the changes to take effect. Vendors onboarding will be cancelled, as this will require an answer to the amended and new questions in the questionnaire.",
+                            "draft": "Create and submit a questionnaire. Then you can invite companies for onboarding."
                         }
                     }
                 },
@@ -1321,38 +1324,38 @@
                     "files": {
                         "label": "related documents",
                         "upload": "Add document",
-                        "tooltip": "attach documents common to the accreditation pool. Documents will be available to participants."
+                        "tooltip": "attach documents common to the vendor pool. Documents will be available to vendors."
                     },
                     "tags": {
                         "dialog": {
                             "placeholder": "add tags",
                             "text": "describe your need with tags. Press Enter to add a tag",
-                            "title": "pool tags"
+                            "title": "vendor pool tags"
                         },
-                        "label": "pool tags",
+                        "label": "vendor pool tags",
                         "placeholder": "enter tags to describe your need.",
-                        "tooltip": "tag the category of your pool. This will help providers find, and you better categorize your pools."
+                        "tooltip": "tag the category of your vendor pool. This will help providers find, and you better categorize your pools."
                     },
                     "validity": {
-                        "label": "accreditation validity period for provider in pool, months",
-                        "tooltip": "indicate the period for which participants will be accredited after confirmation."
+                        "label": "onboarding validity period for provider in vendor pool, months",
+                        "tooltip": "indicate the period for which vendors will be onboarded after confirmation."
                     }
                 }
             },
             "my_accreditations": {
                 "filters": {
                     "company_name": "company name",
-                    "pool_name": "pool name",
+                    "pool_name": "vendor pool name",
                     "state": "request status"
                 },
                 "sorting": {
-                    "company_name_asc": "requester A → Z",
-                    "company_name_desc": "requester Z → A",
+                    "company_name_asc": "buyer A → Z",
+                    "company_name_desc": "buyer Z → A",
                     "pool_name_asc": "name A → Z",
                     "pool_name_desc": "name Z → A",
                     "status_changed": "status change date"
                 },
-                "title": "my accreditations"
+                "title": "onboarding status"
             },
             "participants": {
                 "actions": {
@@ -1361,85 +1364,86 @@
                     "settings": "go to settings"
                 },
                 "draft": {
-                    "message_primary": "Pool has not been published",
-                    "message_secondary": "Complete the pool configuration and publish it. After that you will be able to invite and accredit participants"
+                    "message_primary": "Vendor pool has not been published",
+                    "message_secondary": "Complete the vendor pool configuration and submit it. After that you will be able to invite and onboard vendors"
                 },
                 "empty": {
-                    "message_primary": "the list of participants is empty",
-                    "message_secondary": "Invite and accredit the companies you are interested in"
+                    "message_primary": "the list of vendors is empty",
+                    "message_secondary": "Invite and onboard the companies you are interested in"
                 },
                 "invite": {
                     "dialog": {
                         "hint": "press Ctrl + C to copy to clipboard",
-                        "text": "Any user with a link can apply for accreditation. Copy the link and send it to the participant.",
-                        "title": "Supplier pool link"
+                        "text": "Any user with a link can apply for onboarding. Copy the link and send it to the vendor.",
+                        "title": "Vendor pool link"
                     },
-                    "from_site": "from site",
+                    "from_site": "from platform",
                     "header": "invite company",
                     "share_link": "share link",
                     "site": {
-                        "title": "invite participants to accreditation pool"
+                        "title": "invite vendors to vendor pool"
                     }
                 },
                 "status": {
-                    "active": "accredicted",
-                    "adjustment_required": "adjustment required",
+                    "active": "onboarded",
+                    "adjustment_required": "revision required",
                     "consideration": "application filed",
                     "draft": "invitation accepted",
                     "invited": "invited",
                     "participant_refused": "refused",
-                    "rejected_by_owner": "accreditation revoked"
+                    "rejected_by_owner": "onboarding suspended",
+                    "blocked": "blocked"
                 },
-                "title": "Participants",
+                "title": "Vendors",
                 "tooltips": {
-                    "accreditations": "accreditations in my pools"
+                    "accreditations": "onboarding to my vendor pools"
                 }
             },
             "pool_view": {
                 "block_pool": {
                     "no": "Cancel",
-                    "success": "Pool is blocked",
-                    "text": "The pool and all information on it will become inaccessible to users. The action is reversible. You can resume the pool by performing one-click recovery. Pool members, their applications and accreditation received, will also be restored to their original form.",
-                    "title": "Block pool?",
+                    "success": "Vendor pool is blocked",
+                    "text": "The vendor pool and all information on it will become inaccessible to users. The action is reversible. You can resume the pool by performing one-click recovery. Vendor pool members, their applications and onboarding status, will also be updated to their original form.",
+                    "title": "Block vendor pool?",
                     "yes": "Block"
                 },
                 "botzaar": {
                     "owner": {
                         "blocked": {
                             "*": {
-                                "message": "Pool is blocked • {{blockDate}}"
+                                "message": "Vendor pool is blocked • {{blockDate}}"
                             }
                         },
                         "draft": {
                             "*": {
-                                "message": "Create and publish a questionnaire. Then you can invite companies for accreditation."
+                                "message": "Create and submit a questionnaire. Then you can invite companies for onboarding."
                             }
                         },
                         "active": {
                             "*": {
-                                "message": "The pool is published! Invite companies for accreditation and create your own procurement channels."
+                                "message": "The vendor pool is published! Invite companies for onboarding and create your own procurement channels."
                             }
                         },
                         "changing": {
                             "*": {
-                                "message": "Publish the questionnaire for the changes to take effect. Participants accreditation will be cancelled, as this will require an answer to the amended and new questions in the questionnaire."
+                                "message": "Submit the questionnaire for the changes to take effect. Vendors onboarding will be cancelled, as this will require an answer to the amended and new questions in the questionnaire."
                             }
                         }
                     },
                     "auditor": {
                         "blocked": {
                             "*": {
-                                "message": "Pool is blocked • {{ blockDate }}."
+                                "message": "Vendor pool is blocked • {{ blockDate }}."
                             }
                         },
                         "draft": {
                             "*": {
-                                "message": "Pool is in draft state."
+                                "message": "Vendor pool is in draft state."
                             }
                         },
                         "active": {
                             "*": {
-                                "message": "Pool is published!"
+                                "message": "Vendor pool is published!"
                             }
                         },
                         "changing": {
@@ -1451,93 +1455,143 @@
                     "participant": {
                         "blocked": {
                             "*": {
-                                "message": "Pool blocked by owner."
+                                "message": "Vendor pool blocked by owner."
                             }
                         },
                         "active": {
                             "*": {
-                                "message": "You are already in the pool."
+                                "message": "You are already in the vendor pool."
                             }
                         },
                         "changing": {
                             "*": {
-                                "message": "You are already in the pool."
+                                "message": "You are already in the vendor pool."
                             }
                         }
                     },
                     "guest": {
                         "blocked": {
                             "no_auth": {
-                                "message": "Pool accreditation terminated {{blockDate}}."
+                                "message": "Vendor pool onboarding is terminated {{blockDate}}."
                             },
                             "waiting": {
-                                "message": "Pool accreditation terminated {{blockDate}}."
+                                "message": "Vendor pool onboarding is terminated {{blockDate}}."
                             },
                             "no_company": {
-                                "message": "Pool accreditation terminated {{blockDate}}."
+                                "message": "Vendor pool  onboarding is terminated {{blockDate}}."
                             },
                             "no_rights": {
-                                "message": "Pool accreditation terminated {{blockDate}}."
+                                "message": "Vendor pool  onboarding is terminated {{blockDate}}."
                             },
                             "default": {
-                                "message": "Pool accreditation terminated {{blockDate}}."
+                                "message": "Vendor pool  onboarding is terminated {{blockDate}}."
                             }
                         },
                         "active": {
                             "no_auth": {
-                                "message": "We invite you to cooperation! Become our accredited supplier.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "We invite you to cooperation! Become our onboarded vendor.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "waiting": {
-                                "message": "You will be able to apply for accreditation after confirming you as an employee of the company. Contact your company administrator."
+                                "message": "You will be able to apply for onboarding after confirming you as an employee of the company. Contact your company administrator."
                             },
                             "no_company": {
-                                "message": "Register your company and apply for accreditation. Company registered? Contact your company administrator.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "Register your company and apply for onboarding. Company registered? Contact your company administrator.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "no_rights": {
-                                "message": "You do not have the right to apply for accreditation. Contact your company administrator to obtain the right.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "You do not have the right to apply for onboarding. Contact your company administrator to obtain the right.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "default": {
-                                "message": "We invite you to cooperation! Become our accredited supplier.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "We invite you to cooperation! Become our onboarded vendor.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             }
                         },
                         "changing": {
                             "no_auth": {
-                                "message": "We invite you to cooperation! Become our accredited supplier.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "We invite you to cooperation! Become our onboarded vendor.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "waiting": {
-                                "message": "You will be able to apply for accreditation after confirming you as an employee of the company. Contact your company administrator."
+                                "message": "You will be able to apply for onboarding after confirming you as an employee of the company. Contact your company administrator."
                             },
                             "no_company": {
-                                "message": "Register your company and apply for accreditation. Company registered? Contact your company administrator.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "Register your company and apply for onboarding. Company registered? Contact your company administrator.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "no_rights": {
-                                "message": "You do not have the right to apply for accreditation. Contact your company administrator to obtain the right.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "You do not have the right to apply for onboarding. Contact your company administrator to obtain the right.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
                             },
                             "default": {
-                                "message": "We invite you to cooperation! Become our accredited supplier.",
-                                "description": "Registered at the site of the company can be accredited at the companies that form pools of partners. To do this, you must create and submit a request for accreditation. You can refuse to participate in the accreditation procedure."
+                                "message": "We invite you to cooperation! Become our onboarded vendor.",
+                                "description": "Registered members at the platform can be onboarded to the companies that form pools of partners. To do this, you must create and submit a request for onboarding. You can refuse to apply for onboarding."
+                            }
+                        },
+                        "actions": {
+                            "authorize": {
+                                "description": "Register or login to onboard to the vendor pool and get the status of an onboarded vendor",
+                                "title": "Registration and login"
+                            },
+                            "blockPool": {
+                                "description": "Vendor questionnaires will not be available for viewing. The action is reversible.",
+                                "title": "Block Vendor Pool"
+                            },
+                            "cancelChanges": {
+                                "description": "All changes will be cancelled. The questionnaire will be returned to the last active state.",
+                                "title": "cancel changes"
+                            },
+                            "createCompany": {
+                                "description": "Register a company, or join a registered company if a member of your team has already done it.",
+                                "title": "Register a company"
+                            },
+                            "deletePool": {
+                                "description": "A draft, unlike a published vendor pool, is permanently deleted.",
+                                "title": "Delete draft"
+                            },
+                            "editPool": {
+                                "description": "When changing the questionnaire, vendors will lose the status of onboarded company in the vendor pool. To restore the status, vendors must submit applications, taking into account the changes made. Changes can be canceled, in which case the status of onboarded vendors will remain the same.",
+                                "title": "Change profile"
+                            },
+                            "joinPool": {
+                                "description": "Become a trusted vendor. Fill out the application and submit it for consideration.",
+                                "title": "Apply for onboarding"
+                            },
+                            "openParticipants": {
+                                "description": "Open a vendor pool",
+                                "title": "Vendor pool"
+                            },
+                            "openRequest": {
+                                "description": "Open your application for the vendor pool onboarding.",
+                                "title": "Open application"
+                            },
+                            "publishChanges": {
+                                "description": "Publish the changes to the questionnaire. Vendors will be required to provide answers to the revised and new questions in the questionnaire.",
+                                "title": "Publish"
+                            },
+                            "publishPool": {
+                                "description": "The vendor pool will be available to invite vendors.",
+                                "title": "Publish"
+                            },
+                            "restorePool": {
+                                "description": "The vendor pool will be restored. Vendor forms will become available.",
+                                "title": "Restore"
                             }
                         }
                     },
                     "actions": {
                         "publishPool": {
                             "title": "Publish",
-                            "description": "The accreditation pool will be available to invite participants."
+                            "description": "Vendor pool will be available to invite vendors."
                         },
                         "deletePool": {
                             "title": "Delete draft",
-                            "description": "The pool draft will be permanently deleted."
+                            "description": "The vendor pool draft will be permanently deleted."
                         },
                         "publishChanges": {
-                            "title": "Publish",
-                            "description": "Publish your changes to the questionnaire. Participants will need to provide answers to amended and new questions."
+                            "title": "Submit",
+                            "description": "Submit your changes to the questionnaire. Vendors will need to provide answers to amended and new questions."
                         },
                         "cancelChanges": {
                             "title": "Discard changes",
@@ -1545,46 +1599,46 @@
                         },
                         "blockPool": {
                             "title": "Block",
-                            "description": "Participant questionnaires will not be available for viewing. Action is reversible."
+                            "description": "Vendor questionnaires will not be available for viewing. Action is reversible."
                         },
                         "restorePool": {
                             "title": "Restore",
-                            "description": "The pool will be restored. Participant questionnaires will be available."
+                            "description": "The vendor pool will be restored. Vendor questionnaires will be available."
                         },
                         "editPool": {
                             "title": "Change questionnaire",
-                            "description": "If you change the questionnaire, participants will lose the status of accredited in the pool. To restore the status, participants must submit applications taking into account the changes made. Changes can be undone, in this case the status of accreditation of participants will remain the same."
+                            "description": "If you change the questionnaire, vendors will not receive the status of onboarded to the vendor pool. To renew the status, vendors must submit applications taking into account the changes made. Changes can be undone, in this case the onboarding status will remain the same."
                         },
                         "clonePool": {
-                            "title": "Dublicate pool",
-                            "description": "Create a copy of the pool."
+                            "title": "Dublicate vendor pool",
+                            "description": "Create a copy of the vendor pool."
                         },
                         "openParticipants": {
-                            "title": "Participants list",
-                            "description": "Open the list of participants."
+                            "title": "Vendor list",
+                            "description": "Open the list of vendors."
                         },
                         "openRequest": {
                             "title": "Open application",
-                            "description": "Open your accreditation application."
+                            "description": "Open your onboarding application."
                         },
                         "authorize": {
                             "title": "Login / Register",
-                            "description": "Register or log in to participate in the accreditation procedure and obtain the status of an accredited supplier"
+                            "description": "Register or log in to apply for onboarding and obtain the status of an onboarded vendor"
                         },
                         "createCompany": {
                             "title": "Register company",
                             "description": "Register a company, or join a registered company if your colleague previously did this."
                         },
                         "joinPool": {
-                            "title": "Begin accreditation",
-                            "description": "Become a trusted supplier. Fill out the application and submit it for consideration."
+                            "title": "Begin onboarding",
+                            "description": "Become a trusted vendor. Fill out the application and submit it for consideration."
                         }
                     }
                 },
                 "cancel_changes": {
                     "no": "No",
                     "success": "The changes have been cancelled",
-                    "text": "Changes made to the questionnaire will be cancelled. Accreditation received by participants will be retained.",
+                    "text": "Changes made to the questionnaire will be cancelled. Onboarding received by vendors will be retained.",
                     "title": "Cancel changes to the questionnaire?",
                     "yes": "Yes, cancel"
                 },
@@ -1597,46 +1651,46 @@
                 },
                 "edit_pool": {
                     "no": "Cancel",
-                    "text": "Changes to the questionnaire will take effect only after the publication of the changes. Until the publication, none of the participants in the pool will not see the changes made. Changes may be undone at any time prior to publication.",
+                    "text": "Changes to the questionnaire will take effect only after the publication of the changes. Until the publication, none of the vendors in the pool will not see the changes made. Changes may be undone at any time prior to publication.",
                     "title": "Start making changes?",
                     "yes": "Edit"
                 },
                 "clone_pool": {
-                    "header": "Dublicate pool",
-                    "notice": "The draft will be available in the Pool Management section",
-                    "redirect": "Go to the pool settings after duplicating",
+                    "header": "Dublicate vendor pool",
+                    "notice": "The draft will be available in the Vendor Pool Management section",
+                    "redirect": "Go to the vendor pool settings after duplicating",
                     "team": "Team",
                     "common": "General information",
                     "cancel": "Cancel",
                     "submit": "Dublicate",
-                    "success": "The draft is available in the Pool Management section"
+                    "success": "The draft is available in the Vendor Pool Management section"
                 },
                 "groups": {
                     "title": "questionnaire"
                 },
-                "header": "Pool Management",
+                "header": "Vendor Pool Management",
                 "publish_changes": {
                     "no": "Cancel",
                     "success": "Changes are posted",
-                    "text": "Accreditation received by participants will be revoked. Participants will need to re-go through the accreditation process.",
+                    "text": "Vendor onboarding will be suspended. Vendors will need to re-go through the onboarding process.",
                     "title": "Post a modified questionnaire?",
-                    "yes": "Publish"
+                    "yes": "Submit"
                 },
                 "publish_pool": {
                     "no": "Cancel",
-                    "success": "The pool has been published",
-                    "text": "You will be able to accept applications for accreditation to this pool.",
-                    "text_no_questionnaire": "The blank application form is suitable for formal accreditation. Participants only need to apply for accreditation.",
-                    "title": "Publish pool?",
-                    "title_no_questionnaire": "Start formal accreditation?",
+                    "success": "The vendor pool has been published",
+                    "text": "You will be able to accept applications for onboarding to this vendor pool.",
+                    "text_no_questionnaire": "The blank application form is suitable for formal onboarding. Vendors only need to apply for onboarding.",
+                    "title": "Publish vendor pool?",
+                    "title_no_questionnaire": "Start formal onboarding?",
                     "yes": "Publish"
                 },
                 "restore_pool": {
                     "no": "Cancel",
-                    "success": "Pool is restored",
-                    "text": "The pool will be restored in the form in which it was before blocking. Participants and accreditation will also be restored.",
-                    "title": "Restore pool?",
-                    "yes": "Restore"
+                    "success": "Vendor pool is restored",
+                    "text": "The vendor pool will be restored in the form in which it was before blocking. Vendors and onboarding will also be updated.",
+                    "title": "Update vendor pool?",
+                    "yes": "Update"
                 },
                 "team": {
                     "add": "add user",
@@ -1649,22 +1703,22 @@
                         },
                         "self": {
                             "no": "cancel",
-                            "text": "You are removing yourself.\nAccess to pool management will be lost",
+                            "text": "You are removing yourself.\nAccess to vendor pool management will be lost",
                             "yes": "confirm"
                         },
                         "tooltip": "remove user"
                     },
-                    "title": "accreditation team"
+                    "title": "onboarding team"
                 }
             },
             "pools": {
                 "actions": {
-                    "create": "create pool",
-                    "delete": "delete pool",
+                    "create": "create vendor pool",
+                    "delete": "delete vendor pool",
                     "settings": "settings"
                 },
                 "columns": {
-                    "accredited": "accredited",
+                    "accredited": "onboarded",
                     "name": "name",
                     "processing": "processing",
                     "rejected": "rejected",
@@ -1672,16 +1726,16 @@
                 },
                 "delete_dialog": {
                     "no": "cancel",
-                    "text": "information about companies in the pool will not be available",
-                    "title": "remove the pool?",
+                    "text": "information about companies in the vendor pool will not be available",
+                    "title": "remove the vendor pool?",
                     "yes": "remove"
                 },
                 "empty": {
-                    "message_primary": "Create your first pool and invite your suppliers",
+                    "message_primary": "Create your first vendor pool and invite your vendor",
                     "message_secondary": "Request required data, confirm and reject responses"
                 },
-                "new_pool": "New pool",
-                "placeholder": "add pools for accreditation",
+                "new_pool": "New vendor pool",
+                "placeholder": "add vendor pools for onboarding",
                 "status": {
                     "active": "published",
                     "blocked": "blocked",
@@ -1689,44 +1743,44 @@
                     "draft": "draft"
                 },
                 "team": {
-                    "header": "accreditation team ({{count}})"
+                    "header": "onboarding team ({{count}})"
                 },
-                "title": "accreditation pools",
+                "title": "onboarding to vendor pools",
                 "tooltips": {
                     "add_users": "add users",
-                    "create": "new pool",
+                    "create": "new vendor pool",
                     "edit": "edit",
                     "remove": "remove",
-                    "settings": "go to pool settings",
+                    "settings": "go to vendor pool settings",
                     "stats": {
-                        "accreditations": "Accredicted",
-                        "adjustments": "Adjustment required",
-                        "canceled": "Blocked or refused accreditation",
+                        "accreditations": "Onboarded",
+                        "adjustments": "Revision required",
+                        "canceled": "Blocked or refused onboarding",
                         "considerations": "Applications"
                     }
                 },
                 "update_required": "update required"
             },
             "pools_filter": {
-                "empty": "Your company has not published any pools. You can create and publish a pool in the pool management section.",
-                "no_pools_body": "Your company has not published any vendor pools. You can create and publish a pool in the pool management section",
-                "no_pools_title": "Participation in pools",
+                "empty": "Your company has not published any vendor pools. You can create and publish a vendor pool in the pool management section.",
+                "no_pools_body": "Your company has not published any vendor pools. You can create and publish a vendor pool in the pool management section",
+                "no_pools_title": "Onboarding in vendor pools",
                 "search": "Search...",
-                "search_empty": "Pools not found",
-                "show_pools": "Show pools"
+                "search_empty": "Vendor pools not found",
+                "show_pools": "Show vendor pools"
             },
             "pools_selector": {
                 "cancel": "cancel",
-                "empty": "your company does not have available accreditation pools",
-                "header": "accreditation pools",
+                "empty": "your company does not have available onboarding pools",
+                "header": "onboarding pools",
                 "next": "next"
             }
         },
         "light": {
             "create": {
-                "cancel": "cancel",
-                "header": "new request",
-                "next": "create",
+                "cancel": "Cancel",
+                "header": "New request",
+                "next": "Create",
                 "name": "Name",
                 "type": "Type of the request",
                 "options": {
@@ -1741,12 +1795,12 @@
                         "next": "Invite"
                     },
                     "empty": {
-                        "primary": "No matching purchases",
-                        "secondary": "You have no purchases  with the Draft or Bid status."
+                        "primary": "No matching requests",
+                        "secondary": "You have no requests with the Draft or Bidding status."
                     },
                     "header": {
-                        "notice": "Your purchases in which the company is not yet participate",
-                        "title": "Invite company to your purchase"
+                        "notice": "Requests with no involved companies",
+                        "title": "Invitation to Request"
                     },
                     "procedures": {
                         "draft": "Number: {{ value }} • Draft (invitations will be sent after publication)",
@@ -1754,13 +1808,13 @@
                     }
                 },
                 "success": {
-                    "message": "Company invited to purchase",
+                    "message": "Company invited to request",
                     "open": "Open"
                 }
             },
             "view": {
                 "actions": {
-                    "publish": "publish"
+                    "publish": "submit"
                 },
                 "authorize": {
                     "action": "registration and login",
@@ -1770,13 +1824,13 @@
                     "empty_text": "Place an order on the Comparison tab and complete the request"
                 },
                 "choose": {
-                    "hide_participants_name": "names of participants are hidden by the requester of the request",
-                    "hide_proposals": "participants' offers are hidden by the requester of the request",
+                    "hide_participants_name": "names of vendors are hidden by the buyer",
+                    "hide_proposals": "vendors' bids are hidden by the buyer",
                     "updated": "comparison tab was updated"
                 },
                 "code": "request code: {{value}}",
                 "company": {
-                    "about": "about requester"
+                    "about": "about buyer"
                 },
                 "join_dialog": {
                     "text": "user cannot join the request",
@@ -1787,11 +1841,11 @@
                     "title": "parameters"
                 },
                 "participants_conclusion": {
-                    "empty": "participants did not submit any offers",
-                    "header": "participants with submitted offers"
+                    "empty": "vendors did not submit any bids",
+                    "header": "vendors with submitted bids"
                 },
                 "pools": {
-                    "add": "add pool",
+                    "add": "add vendor pool",
                     "title": "preferences to pool members"
                 },
                 "proposal": {
@@ -1800,7 +1854,7 @@
                 "saved": "saved",
                 "snacks": {
                     "acceptanceEndDateChanged": "end of the bidding round is changed",
-                    "published": "request is published",
+                    "published": "request is submitted",
                     "statusChanged": "request status is changed"
                 },
                 "status": {
@@ -1811,7 +1865,7 @@
                     "summarize": "pending requests"
                 },
                 "summarizing_dialog": {
-                    "text": "request is on summarizing stage. Request denied",
+                    "text": "request is on stage of summarizing final results. Request denied",
                     "title": "request denied"
                 },
                 "tabs": {
@@ -1819,19 +1873,19 @@
                     "conclusion": "final summary",
                     "events": "events",
                     "general": "summary",
-                    "participants": "participants",
-                    "participants_conclusion": "participants",
+                    "participants": "vendors",
+                    "participants_conclusion": "vendors",
                     "proposal": "bid",
                     "request": "request",
                     "team": "team"
                 },
                 "tags": {
                     "dialog_empty_placeholder": "add tags",
-                    "dialog_header": "request hashtags",
+                    "dialog_header": "request tags",
                     "dialog_info_text": "Describe your need with tags. Press enter to add tag",
                     "empty_placeholder": "Enter tags to describe your need.",
-                    "label": "request hashtags",
-                    "tooltip": "List with tags what is in your need. By the entered tags, suppliers will be able to find you."
+                    "label": "request tags",
+                    "tooltip": "List with tags what is in your need. By the entered tags, vendors will be able to find you."
                 },
                 "team": {
                     "delete_dialog": {
@@ -1842,10 +1896,10 @@
                 },
                 "timer": {
                     "notice": "Notification will be sent in:",
-                    "text": "Participants see changes online immediately after they are made.\nParticipants will be informed about the change in request."
+                    "text": "Vendors see changes online immediately after they are made.\nVendors will be informed about the change in request."
                 },
                 "tooltips": {
-                    "economy": "Based on planned prices and average offers",
+                    "economy": "Based on planned prices and average bids",
                     "order": "order"
                 },
                 "version_mismatch_dialog": {
@@ -1932,12 +1986,12 @@
         "promo_tags": {
             "info_dialog": {
                 "how_to": "How to get promotags",
-                "info": "The company is included in the list of recommended suppliers for the selected tags."
+                "info": "The company is included in the list of recommended vendors for the selected tags."
             },
             "select_dialog": {
                 "apply": "Apply",
                 "cancel": "Cancel",
-                "choose": "Choose up to {{value}} promotags.",
+                "choose": "Select {{value}} promotags.",
                 "help": "What is promotags? How to get more promotogs?"
             },
             "title": "Promotags",
@@ -1978,7 +2032,7 @@
             "comment": "Comment",
             "email": "Email",
             "phone": "Phone",
-            "position": "Position",
+            "position": "Items",
             "title": "Employee profile"
         },
         "form": {
@@ -2027,12 +2081,12 @@
                 "company": {
                     "title": "In this case:",
                     "reasons": {
-                        "0": "The company will not appear in listings and search results, and cannot be invited to participate in a request",
-                        "1": "The facts of the company's participation in business processes on the site will be saved, but the mark \"Left the site\" will be added",
-                        "2": "You can resume working with ProcureSaas by re-registering"
+                        "0": "The company will not appear in listings and search results, and cannot be invited to participate in a tender",
+                        "1": "The facts of the company's participation in business processes on the platform will be saved, but the mark \"Left the platform\" will be added",
+                        "2": "You can resume working with Bidzaar by re-registering"
                     }
                 },
-                "success": "Your personal data has been deleted on ProcureSaas"
+                "success": "Your personal data has been deleted on Bidzaar"
             },
             "actions": {
                 "cancel": "Cancel",
@@ -2056,7 +2110,7 @@
             "preview": {
                 "email_placeholder": "email not specified",
                 "phone_placeholder": "phone not specified",
-                "position_placeholder": "position not specified"
+                "position_placeholder": "item is not specified"
             },
             "update": {
                 "success": "information updated"
@@ -2125,12 +2179,14 @@
                 },
                 "name": {
                     "header": "Brand",
-                    "label": "Company name on the site so to be recognized by your counterparties."
+                    "label": "Company name on the platform to be recognized by vendors.",
+                    "title": "The name of the company on the platfrom to be recognized among buyers."
                 },
                 "description": {
                     "header": "Company description",
                     "label": "Description",
-                    "placeholder": "Add a description of the company: what you do, area of expertise, work experience"
+                    "placeholder": "Add a description of the company: what you do, area of expertise, work experience",
+                    "title": "Add a description of the company: what you do, specialization, work experience"
                 },
                 "actions": {
                     "cancel": "Cancel",
@@ -2153,7 +2209,7 @@
             "self_invite": {
                 "info": "you can work on behalf of the company after processing the application for joining the administrator of the company.",
                 "no": "cancel",
-                "success": "joining application sent",
+                "success": "application sent",
                 "text": "you are joining to company",
                 "title": "join to company",
                 "yes": "join"
@@ -2187,8 +2243,8 @@
                             "tooltip": "Add regions of business"
                         },
                         "4": {
-                            "name": "Requisites",
-                            "tooltip": "Specify company requisites"
+                            "name": "Company details",
+                            "tooltip": "Specify company details"
                         },
                         "5": {
                             "name": "Logo",
@@ -2218,7 +2274,7 @@
                         "text": {
                             "RUS_FORK": {
                                 "compact": "Get certified and get your status\nESG provider",
-                                "default": "ProcureSaas, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Supplier"
+                                "default": "Bidzaar, together with the National Research University Higher School of Economics, were the first in Russia to develop a methodology for an accessible and quick check of companies for compliance with ESG principles.\nGet certified and become an ESG Vendor"
                             }
                         }
                     },
@@ -2238,7 +2294,7 @@
                         "report": "ESG-Report",
                         "questionnaire": "Questionnaire",
                         "copy_link": "Copy link for social networks",
-                        "site": "Place on the site"
+                        "site": "Place on the platform"
                     },
                     "dialogs": {
                         "share": {
@@ -2252,7 +2308,7 @@
                                 "badge": "Badge"
                             },
                             "show_points": "Show points",
-                            "info": "Copy the code below and place it in the required place on the site.",
+                            "info": "Copy the code below and place it in the required place on the platform.",
                             "hint": "The medals link leads to the page",
                             "link": "ESG certification",
                             "copy_snack": "Code copied"
@@ -2266,7 +2322,7 @@
                     "dialog": {
                         "header": "We sell",
                         "placeholder": "List items for sale",
-                        "text": "Use tags to list what your company is about to sell on the site."
+                        "text": "Use tags to list what your company is about to sell on the platform."
                     }
                 },
                 "photos": {
@@ -2278,7 +2334,7 @@
                     "title": "Regions of business",
                     "add": "Add country, region or city",
                     "empty": "Regions in which the company operates are not specified",
-                    "text": "The company provides services or supplies in the territory:"
+                    "text": "The company provides services or vendors in the territory:"
                 },
                 "contacts": {
                     "title": "Info",
@@ -2295,16 +2351,17 @@
                     }
                 },
                 "requisites": {
-                    "title": "Requisites",
+                    "title": "Company info",
                     "success": {
-                        "false": "The company requisites will be updated",
-                        "true": "The company requisites will be verified in the near future"
-                    }
+                        "false": "The company info will be updated",
+                        "true": "The company info will be verified in the near future"
+                    },
+                    "edit": "Edit"
                 },
                 "activity": {
                     "title": "Activity",
                     "on_site": "from {{value}}",
-                    "empty": "The company has not yet participated in purchases and sales",
+                    "empty": "The company has not submitted any bids yet",
                     "sales": {
                         "header": {
                             "title": "Sales"
@@ -2316,7 +2373,7 @@
                             },
                             "participations": {
                                 "title": "Completed",
-                                "tooltip": "Number of bids in which company has participated"
+                                "tooltip": "Number of bids which company submitted"
                             },
                             "orders": {
                                 "title": "Orders",
@@ -2343,11 +2400,11 @@
                 },
                 "partners": {
                     "title": "Our partners",
-                    "description": "The company is an accredited partner of organizations:"
+                    "description": "The company is an onboarded partner of organizations:"
                 },
                 "registers": {
-                    "title": "Registers",
-                    "description": "We invite you to cooperation! Become our accredited supplier in the following areas:"
+                    "title": "Vendor pools",
+                    "description": "We invite you to cooperation! Become our onboarded vendor in the following areas:"
                 },
                 "documents": {
                     "title": "Documents",
@@ -2356,7 +2413,7 @@
                     "max_size": "The maximum file size is {{value}} MB."
                 },
                 "deleted": {
-                    "date": "The company left the site {{value}}.",
+                    "date": "The company left the platform {{value}}.",
                     "irrelevant_information": "Information may not be relevant."
                 },
                 "actions": {
@@ -2366,7 +2423,7 @@
                     "manage": "Management and settings",
                     "invite": {
                         "request": "Invite to request",
-                        "registry": "Add to registry"
+                        "registry": "Add to the vendor pool"
                     },
                     "menu": {
                         "employees": "Users",
@@ -2376,8 +2433,8 @@
                         "public": "Public page",
                         "remove": "Delete company",
                         "phantom": "Create phantom",
-                        "smtp": "Invitations vendors to requests",
-                        "categories": "Category Reference"
+                        "smtp": "Invite vendors to requests",
+                        "categories": "Categories"
                     }
                 },
                 "dialogs": {
@@ -2387,9 +2444,9 @@
                         "cancel": "Cancel"
                     },
                     "registry": {
-                        "title": "Invite the company to the registry",
+                        "title": "Invite the company to the vendor pool",
                         "submit": "Invite",
-                        "empty": "There are no suitable registries. You can invite a company to the registry with an open acceptation of applications - contact the registry administrator",
+                        "empty": "There are no suitable vendor pools. You can invite a company to the vendor pool with an open applications - contact the vendor pool administrator",
                         "success": "Invitations have been sent"
                     }
                 }
@@ -2398,7 +2455,7 @@
         "rights": {
             "comment": "permissions are set by the user with the \"Company Management\" permission",
             "role": {
-                "title": "Role in request loading",
+                "title": "Role",
                 "text": "Default",
                 "items": {
                     "0": {
@@ -2417,23 +2474,23 @@
             }
         },
         "shared": {
-            "about_organizer": "about requester",
+            "about_organizer": "about buyer",
             "delete_company_dialog": {
                 "cancel": "cancel",
                 "delete": "delete company",
-                "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\nThe action is reversible, the company can be restored.\nTo restore, contact a technical support specialist.",
+                "description": "The company will be removed from the list of companies, but the facts of the company will remain available to other users.\n\nThe action is reversible, the company can be restored.\n\nTo restore, contact a technical support specialist.",
                 "success_snack": "company is deleted",
                 "title": "Company removal"
             },
             "process_invite": {
                 "invite": "Invite",
-                "pool": "Invite to pool",
+                "pool": "Invite to vendor pool",
                 "procedure": "Invite to request",
                 "tooltip": "Invite for cooperation"
             },
             "verified": {
-                "checked": "Verified by ProcureSaas",
-                "info": "Verified suppliers are more trusted and more likely to receive orders.",
+                "checked": "Verified by Bidzaar",
+                "info": "Verified vendors are more trusted and more likely to receive orders.",
                 "more": "Learn more",
                 "verified": "Information about the company was verified by the specialists of our service."
             }
@@ -2486,7 +2543,7 @@
         },
         "request_company_verification_dialog": {
             "header": "Request for verification",
-            "title_prefix": "ProcureSaas specialists will check the information specified in",
+            "title_prefix": "Bidzaar specialists will check the information specified in",
             "title_link": "your company profile",
             "title_postfix": ". Make sure this information is correct.",
             "info": "The profile is edited by an employee with the “Company management” permission.",
@@ -2504,6 +2561,121 @@
             "cancel": "Cancel",
             "submit": "Submit",
             "not-found": "No employees were found."
+        },
+        "public_profile": {
+            "actions": {
+                "create": "create a public page",
+                "link": "get the link",
+                "preview": "preview"
+            },
+            "defaults": {
+                "description": "Vendors are invited to participate in tenders if they have experience in the relevant field, experience in implementing similar projects, qualifications and resources necessary for the supply of relevant goods, performance of work, provision of services, as well as meeting other requirements specified in the tender documentation.",
+                "pools": {
+                    "placeholder": "The company did not publish vendor pools on Bidzaar :(",
+                    "title": "Company vendor pools"
+                },
+                "tenders": {
+                    "placeholder": "Currently there are no active requests from the company for Bidzaar :(",
+                    "title": "Public Requests"
+                },
+                "title": "Purchasing section for vendors"
+            },
+            "empty": {
+                "message_primary": "create a public company page",
+                "message_secondary": "show partners your public requests and vendor pools, indicate the rules and conditions for participation in tenders, what goods and services you buy, contacts of the tender commission..."
+            },
+            "profile": {
+                "editor": {
+                    "description": {
+                        "header": "Restrict Information for Vendors",
+                        "title": "Information for vendors"
+                    },
+                    "pools": {
+                        "header": "Vendor Pools Section",
+                        "placeholder": "Message if the list is empty",
+                        "show": "Show the section on public page",
+                        "show_if_empty": "Show tje section if list is empty",
+                        "title": "Vendor pools"
+                    },
+                    "tenders": {
+                        "header": "Public Requests Section",
+                        "placeholder": "Message if the list is empty",
+                        "show": "Show the section on public page",
+                        "show_if_empty": "Show the section if list is empty",
+                        "title": "Public Requests"
+                    },
+                    "title": {
+                        "header": "Page Title Section",
+                        "title": "Page Title"
+                    }
+                },
+                "viewer": {
+                    "description": {
+                        "empty": {
+                            "message_primary": "Information for vendors",
+                            "message_secondary": "Specify the rules and conditions for participation of vendors in tenders, which goods or services\nyou buy, contacts of the tender committee..."
+                        },
+                        "header": "information for potential vendors"
+                    },
+                    "files": {
+                        "empty": {
+                            "message_primary": "Add vendor documents",
+                            "message_secondary": "For example, Rules for participation and bids submission,\nOrder of requests..."
+                        },
+                        "header": "documents for vendors"
+                    },
+                    "links": {
+                        "header": "Link to public page",
+                        "iframe": {
+                            "action": {
+                                "copy": "Highlight the code and press Ctrl + C to copy to clipboard"
+                            },
+                            "options": {
+                                "page": "Public page",
+                                "pools": "Vendor pools",
+                                "tenders": "Public Requests"
+                            },
+                            "title": "code for iframe"
+                        },
+                        "page": {
+                            "action": {
+                                "copy": "Select the link and press Ctrl + C to copy to clipboard"
+                            },
+                            "title": "link to the page"
+                        }
+                    },
+                    "pools": {
+                        "empty": {
+                            "message_primary": "The section is not displayed on the public page",
+                            "message_secondary": "Display control - in the settings"
+                        },
+                        "header": "vendor pools",
+                        "notice": {
+                            "message": "The data is updated each time the page is opened. You can customize parameters. Use Preview to see the result.",
+                            "title": "Vendor pools published on Bidzaar."
+                        }
+                    },
+                    "tenders": {
+                        "empty": {
+                            "message_primary": "The section is not displayed on the public page",
+                            "message_secondary": "Display control - in the settings"
+                        },
+                        "header": "public requests",
+                        "notice": {
+                            "message": "The data is updated each time the page is opened. You can customize parameters. Use Preview to see the result.",
+                            "title": "Current public requests posted on Bidzaar."
+                        }
+                    },
+                    "title": {
+                        "empty": {
+                            "message_primary": "Specify the title of the page",
+                            "message_secondary": "For example, \"Purchasing section for the company's vendors.\"\nThe title is important for both users and search engines."
+                        },
+                        "header": "page title"
+                    }
+                }
+            },
+            "title": "public page"
         }
     },
     "user_menu": {
@@ -2514,7 +2686,8 @@
         "exit": "Exit",
         "my_profile": "My profile",
         "subscriptions": "Notification Settings",
-        "user_agreement": "User agreement"
+        "user_agreement": "User agreement",
+        "company_profile": "Company Profile"
     },
     "validation": {
         "already_exists": "User with the specified email is already registered",
@@ -2590,7 +2763,7 @@
     "lgn": {
         "confirm_changing": {
             "email_confirmed": "Email confirmed",
-            "info": "Log in to ProcureSaas with your new email address"
+            "info": "Log in to Bidzaar with your new email address"
         }
     },
     "ugr": {
