@@ -1441,13 +1441,13 @@
                             "button": "Invite"
                         },
                         "invite_site": {
-                            "button": "ProcureSaas platform"
+                            "button": "ProcureSaaS platform"
                         },
                         "invite_blocked": {
                             "button": "Blocked participants from past stages"
                         },
                         "invite_site_tags": {
-                            "button": "From ProcureSaas platform by request tags",
+                            "button": "From ProcureSaas platform by request`s tags",
                             "no": "Specify request tags",
                             "text": "Specify tags in the request description to invite members by tags.",
                             "title": "Request tags are not specified",
@@ -1525,7 +1525,7 @@
                         }
                     },
                     "gold": {
-                        "title": "Bidzaar magic is enabled",
+                        "title": "ProcureSaaS magic is enabled",
                         "text": "Submitted offers are on the \"Comparison\" tab",
                         "link": "How it works"
                     },
@@ -1547,7 +1547,7 @@
                     "search": {
                         "tooltip": "Company name"
                     },
-                    "invited_by_bidzaar": "Invited by Bidzaar",
+                    "invited_by_bidzaar": "Invited by ProcureSaaS",
                     "title": "Participants",
                     "selected": "Selected",
                     "search_tooltip": "Search is carried out by fields:\n• Company name\n• Company email\n• Internal comment",
