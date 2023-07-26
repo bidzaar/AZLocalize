@@ -83,5 +83,8 @@
     "ImportExport.RecommendationsToFixErrors": "Səhvlərin düzəldilməsi ilə bağlı tövsiyələr Səhvlər siyahısındadır",
     "ImportExport.Required": "Məcburidir",
     "ImportExport.Unknow": "Qeyd edilməmişdir",
-    "ImportExport.WithoutVat": "ƏDV olmadan"
+    "ImportExport.WithoutVat": "ƏDV olmadan",
+    "ImportExport.Positions.DontHaveAny": "Include in proposal",
+    "ImportExport.Positions.DontHaveAny.Hint": "1 – inclided, 0 – not included in proposal",
+    "ImportExport.Recommendations.DontHaveAny": "Included in proposal: enter \"1\" or \"0\". 1 – included, 0 – item not included in proposal"
 }

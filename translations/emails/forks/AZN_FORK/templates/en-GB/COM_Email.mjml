@@ -11,14 +11,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Здравствуйте, @TargetContext.FirstName!</h1>
+          <h1>Hi, @TargetContext.FirstName!</h1>
           <p style="white-space: pre-line; margin-bottom: 32px">@EmailPrecontext.Message</p>
-          <p class="small">Команда Procure.az 💗</p>
+          <p class="small">@ConfigurationContext.ProjectName Team 💗</p>
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer.mjml" />
     <!-- /footer -->
   </mj-body>

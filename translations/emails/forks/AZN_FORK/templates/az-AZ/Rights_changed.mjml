@@ -15,7 +15,7 @@
           <p class="mb-0">Bu hüquqların istifadəsi üçün müvafiq əməkdaşlarınızı əlavə edin
 </p>
         </mj-text>
-        <mj-button href="https://bidzaar.com/users">Əməkdaşların hüquqlarını ayarla</mj-button>
+        <mj-button href="https://saas.procure.az/users">Əməkdaşların hüquqlarını ayarla</mj-button>
         <mj-text>
           <p class="small"> @ConfigurationContext.ProjectName platformasında admin olduğunuz və əməkdaşların hüquqlarını idarə edə biləcəyiniz üçün bu məktubu alırsınız</p>
         </mj-text>

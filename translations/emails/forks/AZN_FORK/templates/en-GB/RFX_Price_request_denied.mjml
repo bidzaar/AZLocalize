@@ -7,15 +7,14 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Bid submission period is expiring soon</h1>
-          <p>You still have some time to submit or update your bid.</p>
-          <p class="mb-0">
-            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate (hours left: <b>@SummingUpProcedureReminderPrecontext.Hours</b>) <br />
+          <h1 class="bb">Bid price change is not allowed </h1>
+          <p>The buyer rejected your bid for a bid change in violation of the price change rule.</p>
+          <p>
             <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
             <br />
-            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
-            <b>Delivery to:</b> @ProcedureContext.PlaceOfDelivery <br />
-          <p style="white-space: pre-line"><b>Description:</b><br> @ProcedureContext.Description</p>
+            <b>Bids submission:</b> until @ProcedureContext.AcceptanceEndDate (hours left: @SummingUpProcedureReminderPrecontext.Hours)
+          </p>
+          <p>
           </p>
         </mj-text>
         <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>

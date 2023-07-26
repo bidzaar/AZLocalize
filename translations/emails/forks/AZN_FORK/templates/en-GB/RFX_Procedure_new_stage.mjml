@@ -9,7 +9,7 @@
         <mj-text>
           <h1 class="bb">New stage has been published</b></h1>
           <h2>Stage: @ProcedureContext.StageComment</h2>
-          <p>Please review the request and update your bid if needed.</p>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your bid if necessary.</p>
           <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
             <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
           </p>
@@ -17,7 +17,7 @@
           <p>
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
             <b>Delivery to:</b> @ProcedureContext.PlaceOfDelivery<br />
-            <b>Request notice: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
+            <b>Notice: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
           </p>
         </mj-text>
         <mj-button href="@ProcedureContext.Url">View request</mj-button>

@@ -1,3 +1,63 @@
 {
-    "rts": {}
+    "rts": {
+        "enums": {
+            "factors": {
+                "0": "Complete profile",
+                "1": "Number of participations in tenders",
+                "2": "Number of wins in tenders",
+                "3": "Number of active onboardings",
+                "4": "Verified company",
+                "5": "Reviews",
+                "6": "Badges"
+            }
+        },
+        "ratings": {
+            "header": {
+                "title": "Scoring"
+            },
+            "content": {
+                "statistics": {
+                    "header": {
+                        "title": "Vendor scoring",
+                        "date": "on"
+                    },
+                    "content": {
+                        "recalculate": {
+                            "tooltip": "Recalculate scoring",
+                            "snack": "The scoring recalculation has been started, it will take some time",
+                            "time": "The scoring will be updated at 01:00.",
+                            "hint": "Recalculating the scoring can slow down the service, update the scoring only when necessary."
+                        }
+                    }
+                },
+                "criteria": {
+                    "header": {
+                        "title": "Criteria"
+                    },
+                    "content": {
+                        "factor": "Criteria",
+                        "weight": "Weight"
+                    }
+                },
+                "editor": {
+                    "weight": "Weight",
+                    "low_bound": "From",
+                    "score": "score",
+                    "inconsistent_bounds": "Range boundaries must follow in ascending order",
+                    "cancel": "Cancel",
+                    "submit": "Save",
+                    "success": "Data is saved. Rating will be updated at 01:00"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "Cognitive": {
+                "Ratings": {
+                    "TaskInProgress": "Recalculation of the rating has already started"
+                }
+            }
+        }
+    }
 }

@@ -2,11 +2,11 @@
     <mj-section>
         <mj-column>
             <mj-text>
-                <h2>С чего начать:</h2>
+                <h2>How to start:</h2>
                 <ol>
-                    <li><a href="@ConfigurationContext.BaseUrl/home">Настройте профиль своей компании ►</a></li>
-                    <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Найдите подходящий запрос или разместите свой заказ ►</a></li>
-                    <li><a href="@ConfigurationContext.BaseUrl/companies/all">Посмотрите, кто уже использует Procure.az ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/home">Set up your company's profile ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Find a request to participate in, or publish your request ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/companies/all">See the companies which use @ConfigurationContext.ProjectName ►</a></li>
                 </ol>
             </mj-text>
         </mj-column>

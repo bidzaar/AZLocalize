@@ -6,7 +6,7 @@
 УК пригласил пользователя присоединиться к компании
 -->
   <mj-include path="./__tpl/__head.mjml" />
-  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+  <mj-body><!-- <mj-text><h1>en-GB</h1></mj-text> -->
     <!-- logo -------------------------------------------- -->
     <mj-include path="./__tpl/__logo.mjml" />
     <!-- primary -------------------------------------------- -->
@@ -24,8 +24,8 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <h2>@ConfigurationContext.ProjectName – это...</h2>
-          <p><b>@ConfigurationContext.ProjectName</b> – это торговая площадка нового типа, созданная по принципу социальной сети поставщиков и заказчиков.</p>
+          <h2>@ConfigurationContext.ProjectName - is...</h2>
+          <p><b>@ConfigurationContext.ProjectName</b> is a next-generation eSourcing platform matching the network of suppliers and buyers.</p>
         </mj-text>
       </mj-column>
     </mj-section>

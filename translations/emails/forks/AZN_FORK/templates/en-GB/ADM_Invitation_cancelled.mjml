@@ -6,7 +6,7 @@
 УК удалил приглашённого пользователя
 -->
   <mj-include path="./__tpl/__head.mjml" />
-  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+  <mj-body><!-- <mj-text><h1>en-GB</h1></mj-text> -->
     <!-- logo -------------------------------------------- -->
     <mj-include path="./__tpl/__logo.mjml" />
     <!-- primary -------------------------------------------- -->
@@ -24,7 +24,7 @@
     <mj-section>
       <mj-column>
         <mj-text>
-          <p>If it is a mistake, contact the support team of ProcureSaaS.</p>
+          <p>If it is a mistake, contact the support team of Company.</p>
         </mj-text>
       </mj-column>
     </mj-section>
