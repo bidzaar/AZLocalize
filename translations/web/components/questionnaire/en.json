@@ -30,8 +30,7 @@
                 "fields": {
                     "text": "Question text",
                     "comment": "Description (optional)",
-                    "type": "Answer type",
-                    "group": "Section name"
+                    "type": "Answer type"
                 },
                 "defaults": {
                     "group": "New group",
@@ -179,7 +178,7 @@
                 "number_range": "Number Range",
                 "attachment": "Attachment",
                 "formula": "Variable",
-                "tree": "Selection from the list"
+                "tree": "Selection from the directory"
             },
             "validation_types": {
                 "boolean": "",
@@ -248,15 +247,6 @@
                     },
                     "tree": {
                         "empty": "Select and add a value from the list..."
-                    },
-                    "input": {
-                        "placeholder": "Your Answer..."
-                    },
-                    "number": {
-                        "placeholder": "Number..."
-                    },
-                    "datetime": {
-                        "placeholder": "Date of..."
                     }
                 }
             }

@@ -32,8 +32,7 @@
                         "text": "The current non-price criteria will be replaced",
                         "cancel": "Cancel",
                         "submit": "Apply",
-                        "success": "The template has been applied",
-                        "complement": "Add"
+                        "success": "The template has been applied"
                     },
                     "remove": {
                         "title": "Remove template?",
