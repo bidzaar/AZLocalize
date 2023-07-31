@@ -76,11 +76,11 @@
         "false": "Price excl. VAT"
       },
       "custom": {
-        "string": "Текст",
-        "double": "Число",
-        "bool": "Да / Нет",
-        "datetime": "Дата",
-        "decimal": "Деньги"
+        "string": "[AT] Text",
+        "double": "[AT] Number",
+        "bool": "[AT] Not really",
+        "datetime": "[AT] date",
+        "decimal": "[AT] Money"
       },
       "owner_visibility": {
         "0": "Sees the participants' proposals",
@@ -94,9 +94,6 @@
         "Process.Light.Proposal.MainProposalShouldBeSubmitted": "An alternative bid can only be submitted after the primary bid.",
         "Process.Light.Proposal.NotSuitablePrice": "The bid price does not match the rules of the request",
         "Process.Light.Proposal.Specification": "The position specification contains errors. Go to Specification. Incorrectly filled fields are highlighted in red",
-        "Process.Light.Proposal.Price.MinValueSubceededFake": "Цена предложения должна быть больше нуля",
-        "Process.Light.Proposal.Price.MaxValueExceededFake": "Цена предложения должна быть меньше 99 млрд.",
-        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Требуется поставка либо в полном объёме, либо откажитесь от подачи предложения по группе",
         "Process.Light.Proposal.Price.InvalidProposalCurrency": "The bid currency ({{ Currency }}) is not included in the list of currencies specified in the request rules.",
         "Process.Light.Proposal.Price.MinValueSubceeded": "The bid price must be greater than zero.",
         "Process.Light.Proposal.Price.MaxValueExceeded": "The bid price must be less than 99 billions.",
@@ -125,7 +122,10 @@
         "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{ PositionName }}.</b> The price per unit in {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) is lower than the min price per unit specified by the Customer ({{ StartPrice }} {{ BaseCurrency }}).",
         "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> The price per unit in {{ BaseCurrency }} ({{ Price }} {{ BaseCurrency }}) is higher than the max price per unit specified by the Customer ({{ StartPrice }} {{ BaseCurrency }}).",
         "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> The price per unit must be greater than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
-        "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}"
+        "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
+        "Process.Light.Proposal.Price.MinValueSubceededFake": "[AT] Bid price must be greater than zero",
+        "Process.Light.Proposal.Price.MaxValueExceededFake": "[AT] The offer price must be less than 99 billion rubles.",
+        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "[AT] <b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group offer"
       },
       "price": {
         "lt_or_equal_to_minimum": "The bid price must be greater than zero.",
