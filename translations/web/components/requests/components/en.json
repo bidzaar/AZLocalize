@@ -110,7 +110,7 @@
           "min_price": "Minimum bid amount",
           "price_step": "Minimum price change step",
           "empty_price": "not set",
-          "updown": "[AT] After submitting the first offer"
+          "updown": "After submitting the first bid"
         },
         "errors": {
           "price_out_of_range": "Specify a value between 0.00 and 99,999,999,999.00",
@@ -119,7 +119,7 @@
           "max_price_gt_step": "The maximum price is less than the change step",
           "step_gt_max_price": "The change step exceeds the maximum price",
           "best_price_unavailable": "Value \"best offer\" is available if:\n • What the participants see = Competitors' offers\n • Price change rule = Reduction or Auction",
-          "abs_step_unavailable": "[AT] Permissible change in % when applying for part of the positions"
+          "abs_step_unavailable": "Permissible change in % when applying for part of the items"
         }
       },
       "general": {

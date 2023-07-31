@@ -76,11 +76,11 @@
         "false": "Price excl. VAT"
       },
       "custom": {
-        "string": "[AT] Text",
-        "double": "[AT] Number",
-        "bool": "[AT] Not really",
-        "datetime": "[AT] date",
-        "decimal": "[AT] Money"
+        "string": "Text",
+        "double": "Number",
+        "bool": "Not really",
+        "datetime": "Date",
+        "decimal": "Money"
       },
       "owner_visibility": {
         "0": "Sees the participants' proposals",
@@ -124,8 +124,8 @@
         "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> The price per unit must be greater than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
         "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
         "Process.Light.Proposal.Price.MinValueSubceededFake": "[AT] Bid price must be greater than zero",
-        "Process.Light.Proposal.Price.MaxValueExceededFake": "[AT] The offer price must be less than 99 billion rubles.",
-        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "[AT] <b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group offer"
+        "Process.Light.Proposal.Price.MaxValueExceededFake": "The bid price must be less than 99 billion rubles.",
+        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Requires either full delivery or refuse to submit a group quotation"
       },
       "price": {
         "lt_or_equal_to_minimum": "The bid price must be greater than zero.",
@@ -138,7 +138,7 @@
         "refer_price_all": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
         "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
         "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
-        "smth_no_deviation": "[AT] Full delivery required or refuse to submit an offer for the group"
+        "smth_no_deviation": "Full delivery required or refuse to submit an quotation for the group"
       }
     },
     "reports": {

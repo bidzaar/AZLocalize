@@ -1,57 +1,58 @@
 {
-    "pl": {
-        "qst": {
-            "templates": {
-                "dialogs": {
-                    "list": {
-                        "title": "Saxlanılan şablonlar",
-                        "search": {
-                            "placeholder": "Axtar",
-                            "empty": "Heçnə tapılmadı"
-                        },
-                        "empty": "Saxlanılmış şablon mövcüd deyil",
-                        "actions": {
-                            "cancel": "Ləğv et",
-                            "submit": "Şablonu tətbiq et"
-                        }
-                    },
-                    "edit": {
-                        "title": "Şablonu redaktə et",
-                        "label": "Şablonun adı",
-                        "actions": {
-                            "cancel": "Ləğv et",
-                            "save": "Saxla"
-                        }
-                    },
-                    "apply": {
-                        "cancel": "Ləğv et",
-                        "submit": "Yüklə",
-                        "success": "Şablon yükləndi",
-                        "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
-                        "title": "Şablon yüklə",
-                        "options": {
-                            "append": "Siyahının sonuna əlavə et",
-                            "replace": "Mövcud olan meyyarları dəyiş"
-                        }
-                    },
-                    "create": {
-                        "cancel": "Ləğv et",
-                        "default_value": "Yeni şablon",
-                        "label": "Şablonun adı",
-                        "submit": "Yadda saxla",
-                        "success": "Şablonu yadda saxla",
-                        "text": "Cari qeyri-qiymət meyyarlarını gələcəkdə istifadə üçün şablon kimi yadda saxla. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
-                        "title": "Şablonu yadda saxla"
-                    },
-                    "remove": {
-                        "cancel": "Ləğv et",
-                        "submit": "Sil",
-                        "success": "Şablon silindi",
-                        "text": "Şablon dönməz şəkildə silinəcək",
-                        "title": "Şablon silinsin?"
-                    }
-                }
+  "pl": {
+    "qst": {
+      "templates": {
+        "dialogs": {
+          "list": {
+            "title": "Saxlanılan şablonlar",
+            "search": {
+              "placeholder": "Axtar",
+              "empty": "Heçnə tapılmadı"
+            },
+            "empty": "Saxlanılmış şablon mövcüd deyil",
+            "actions": {
+              "cancel": "Ləğv et",
+              "submit": "Şablonu tətbiq et"
             }
+          },
+          "edit": {
+            "title": "Şablonu redaktə et",
+            "label": "Şablonun adı",
+            "actions": {
+              "cancel": "Ləğv et",
+              "save": "Saxla"
+            }
+          },
+          "apply": {
+            "cancel": "Ləğv et",
+            "submit": "Yüklə",
+            "success": "Şablon yükləndi",
+            "text": "Mövcud qeyri-qiymət meyarları əvəz olunacaq",
+            "title": "Şablon yüklə",
+            "options": {
+              "append": "Siyahının sonuna əlavə et",
+              "replace": "Mövcud olan meyyarları dəyiş"
+            },
+            "complement": "[AT] Əlavə"
+          },
+          "create": {
+            "cancel": "Ləğv et",
+            "default_value": "Yeni şablon",
+            "label": "Şablonun adı",
+            "submit": "Yadda saxla",
+            "success": "Şablonu yadda saxla",
+            "text": "Cari qeyri-qiymət meyyarlarını gələcəkdə istifadə üçün şablon kimi yadda saxla. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
+            "title": "Şablonu yadda saxla"
+          },
+          "remove": {
+            "cancel": "Ləğv et",
+            "submit": "Sil",
+            "success": "Şablon silindi",
+            "text": "Şablon dönməz şəkildə silinəcək",
+            "title": "Şablon silinsin?"
+          }
         }
+      }
     }
+  }
 }

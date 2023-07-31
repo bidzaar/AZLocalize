@@ -15,7 +15,7 @@
                 },
                 "deleted": {
                     "text": "Hər hansı bir sualınız var? Saytın texniki dəstək komandası ilə əlaqə saxlayın.",
-                    "title": "Şirkət {{ tarix }} tarixində saytı tərk etdi"
+                    "title": "Şirkət {{ date }} tarixində saytı tərk etdi"
                 },
                 "refused": {
                     "text": "Hər hansı bir sualınız var? Şirkətinizin administratoru ilə əlaqə saxlayın.",

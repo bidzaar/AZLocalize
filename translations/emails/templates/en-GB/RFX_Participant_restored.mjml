@@ -37,7 +37,7 @@
           <p><b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
             <b>Place of delivery:</b> @ProcedureContext.PlaceOfDelivery<br />
             <b>Bids submission:</b> due @ProcedureContext.AcceptanceEndDate<br />
-            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a>
+            <b>Request notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
           </p>
           <p style="white-space: pre-line"><b>Description:</b> @ProcedureContext.Description</p>
           <p><b>Bids for @ConfigurationContext.ProjectName are accepted on the platform only.</b></p>
