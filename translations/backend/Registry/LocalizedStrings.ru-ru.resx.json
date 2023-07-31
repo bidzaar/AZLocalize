@@ -2,7 +2,7 @@
     "Application.Date": "Дата подачи заявки",
     "Application.Representer": "Контактное лицо",
     "Application.Scoring": "Скоринг-оценка заявки",
-    "Page.Title": "Bidzaar",
+    "Page.Title": "ProcureSaas",
     "Participant.State.Accreditated": "Аккредитованный поставщик",
     "Participant.State.Active": "В процессе аккредитации",
     "Participant.State.Blocked": "Заблокирован",

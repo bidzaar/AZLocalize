@@ -14,7 +14,7 @@
           </ul>
           <p class="mb-0">Assign the access rights for the relevant employees from your team.</p>
         </mj-text>
-        <mj-button href="https://bidzaar.com/users">Manage access rights</mj-button>
+        <mj-button href="https://saas.procure.az/users">Manage access rights</mj-button>
         <mj-text>
           <p class="small">
             You have received this email because you are a Company Administrator at @ConfigurationContext.ProjectName and can manage your team and their access rights on the platform.</p>

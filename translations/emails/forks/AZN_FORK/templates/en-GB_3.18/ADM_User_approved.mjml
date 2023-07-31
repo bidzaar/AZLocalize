@@ -1,0 +1,30 @@
+<mjml>
+  <!-- 
+Тема: 👋 Добро пожаловать в @компания
+Получатель: сотрудник на имейл, указанный при логине
+
+УК заапрувил сотрудника
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body><mj-text><h1>en-GB</h1></mj-text>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- primary -------------------------------------------- -->
+    <mj-section mj-class="section-primary">
+      <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
+        <mj-text mj-class="text-primary">
+          <h1>@TargetContext.FirstName, welcome to @CompanyContext.CompanyName</h1>
+          <p class="p75">You are registered as a team member.</p>
+        </mj-text>
+        <mj-button href="@ConfigurationContext.BaseUrl">Start working with @ConfigurationContext.ProjectName</mj-button>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- /primary -->
+    <!-- help -------------------------------------------- -->
+    <mj-include path="./__tpl/__help.mjml" />
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

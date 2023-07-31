@@ -1242,7 +1242,7 @@
               },
               "verification": {
                 "text": "This request is only for verified vendors",
-                "notice": "To submit a bid go through the check on Bidzaar",
+                "notice": "To submit a bid go through the check on ProcureSaas",
                 "actions": {
                   "more": "Learn more",
                   "submit": "Request verification"
@@ -1254,19 +1254,19 @@
               }
             },
             "no_company": {
-              "title": "Find your company\nor register your business on Bidzaar",
-              "info": "Register your company on Bidzaar for free participation in tenders. Onboarding \nis not required",
+              "title": "Find your company\nor register your business on ProcureSaas",
+              "info": "Register your company on ProcureSaas for free participation in tenders. Onboarding \nis not required",
               "register": "Find or add company"
             },
             "no_user": {
-              "title": "Login or register on Bidzaar",
-              "info": "To submit bids to the request, please log into your Bidzaar profile or create a new one",
+              "title": "Login or register on ProcureSaas",
+              "info": "To submit bids to the request, please log into your ProcureSaas profile or create a new one",
               "register": "Login / Register"
             },
             "alerts": {
               "no_rights": {
                 "title": "No access for bid submission",
-                "text": "Contact your company administrator to get access to ubmit bids to the request. The right of your company to submit bids to the request is assigned by the administrator of Bidzaar"
+                "text": "Contact your company administrator to get access to ubmit bids to the request. The right of your company to submit bids to the request is assigned by the administrator of ProcureSaas"
               },
               "blocked": {
                 "title": "The owner excluded you from the request",
@@ -1470,13 +1470,13 @@
               "button": "Invite"
             },
             "invite_site": {
-              "button": "Bidzaar platform"
+              "button": "ProcureSaas platform"
             },
             "invite_blocked": {
               "button": "Blocked vendors from past stages"
             },
             "invite_site_tags": {
-              "button": "From Bidzaar platform by request tags",
+              "button": "From ProcureSaas platform by request tags",
               "no": "Specify request tags",
               "text": "Specify tags in the request description to invite members by tags.",
               "title": "Request tags are not specified",
@@ -1554,7 +1554,7 @@
             }
           },
           "gold": {
-            "title": "Bidzaar magic is enabled",
+            "title": "ProcureSaas magic is enabled",
             "text": "Submitted bids are on the \"Comparison\" tab",
             "link": "How it works"
           },
@@ -1576,7 +1576,7 @@
           "search": {
             "tooltip": "Company name"
           },
-          "invited_by_bidzaar": "Invited by Bidzaar",
+          "invited_by_ProcureSaas": "Invited by ProcureSaas",
           "title": "Vendors",
           "selected": "Selected",
           "search_tooltip": "Company name, Company email",
@@ -2257,7 +2257,7 @@
         "promo_participants": {
           "count": "{{ count }} vendors",
           "invite": "Invite",
-          "recommend": "Bidzaar recommends",
+          "recommend": "ProcureSaas recommends",
           "success": "Vendors are added to vendors' list"
         },
         "proposal_content": {
@@ -2267,11 +2267,11 @@
           },
           "open": "open",
           "positions_enabled": {
-            "sub_title": "Price, quantity and description of goods and services. The resulting specifications are conveniently compared in Bidzaar.",
+            "sub_title": "Price, quantity and description of goods and services. The resulting specifications are conveniently compared in ProcureSaas.",
             "title": "Goods and services"
           },
           "questionnaire_enabled": {
-            "sub_title": "Questionnaire with questions for the vendor. The resulting profiles are conveniently compared in Bidzaar.",
+            "sub_title": "Questionnaire with questions for the vendor. The resulting profiles are conveniently compared in ProcureSaas.",
             "title": "Vendor questionnaire"
           },
           "set_up": "create",
