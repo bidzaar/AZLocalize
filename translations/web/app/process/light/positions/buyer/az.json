@@ -7,7 +7,7 @@
             "close": "Bağla",
             "positions": {
                 "title": "Fayldan maddələri yüklə",
-                "count": "[AT] Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+                "count": "[AT]Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
                 "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək.",
                 "items": {
                     "Process.Light.Import.FileHasErrors": {
