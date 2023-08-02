@@ -69,7 +69,7 @@
                     }
                 },
                 "errors": {
-                    "max_length": "[AT] maksimum uzunluq {{dəyər}}",
+                    "max_length": "[AT] maksimum uzunluq {{ value }}",
                     "required": "[AT] məcburi Sahə"
                 }
             },

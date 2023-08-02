@@ -169,7 +169,7 @@
         "tooltip": "Kompüterinizdəki tarixə və saata uyğundur",
         "tooltip_timer": "qalıb",
         "publish": "Dərc edilib {{ value }} ",
-        "until": "[AT] {{ date }} əvvəl"
+        "until": "son tarix: {{ date }}"
       },
       "request": {
         "additional_settings": {
@@ -1100,7 +1100,7 @@
           "details": "Detalları göstərin",
           "empty": "Mövcud deyil",
           "from": "-",
-          "in_order": "Sifarişdə {{count}} {{vahid}}",
+          "in_order": "Sifarişdə {{count}} {{unit}}",
           "not_full_tooltip": "Maddə tam təqdim edilməyib",
           "rank_tooltip": "Təklif dərəcəsi",
           "full_description_tooltip": "Tam təsviri görmək üçün klikləyin",
@@ -1281,16 +1281,16 @@
           },
           "columns": {
             "8": "Sayı",
-            "16": "Vahidin qiyməti, {{ valyuta }}",
-            "32": "Təklifin ƏDV-siz toplam dəyəri, {{ valyuta }}",
+            "16": "Vahidin qiyməti, {{ currency }}",
+            "32": "Təklifin ƏDV-siz toplam dəyəri, {{ currency }}",
             "64": "ƏDV Dərəcəsi",
-            "128": "Təklifin ƏDV daxil toplam dəyəri, {{ valyuta }}",
+            "128": "Təklifin ƏDV daxil toplam dəyəri, {{ currency }}",
             "256": "Şərh",
             "512": "iştirakçının valyutasında vahid qiyməti",
             "1024": "valyuta",
             "2048": "Valyuta Məzənnəsi",
             "4096": "Maddə üzrə dərəcə",
-            "16384": "ƏDV {{ valyuta }}"
+            "16384": "ƏDV {{ currency }}"
           },
           "actions": {
             "cancel": "Ləğv et",
@@ -2760,7 +2760,7 @@
                   "false": "ƏDV-siz",
                   "true": "ƏDV daxil"
                 },
-                "hint": "Vahidin maksimum qiymət - {{ dəyər}}",
+                "hint": "Vahidin maksimum qiymət - {{ value }}",
                 "max": "Vahid qiyməti maksimumdan yuxarı"
               },
               "vat": {
@@ -3382,7 +3382,7 @@
           },
           "list": {
             "selected": {
-              "count": "Seçildi: {{ dəyər }}"
+              "count": "Seçildi: {{ value }}"
             },
             "search": {
               "placeholder": "Axtar"
@@ -3403,7 +3403,7 @@
       "sellers": {
         "empty": "İştirakçılar təklif təqdim etməyiblər",
         "header": {
-          "count": " ᛫ {{dəyər}}",
+          "count": " ᛫ {{value}}",
           "text": "Təkliflər verən iştirakçılar"
         },
         "unauthorized": {
@@ -3412,7 +3412,7 @@
         }
       },
       "seo": {
-        "description": "{{date}} tarixindən əvvəl {{şirkət}} sorğusu göndərin."
+        "description": "{{date}} tarixindən əvvəl {{company}} sorğusu göndərin."
       },
       "snacks": {
         "request_published": "Sorğu dərc edildi",
@@ -3443,9 +3443,9 @@
       },
       "notice": {
         "title": "Satınalma Bildirişi",
-        "stage": "MƏRHƏLƏ {{ indeks }}",
+        "stage": "MƏRHƏLƏ {{ index }}",
         "text": {
-          "0": "Layihələndirmə",
+          "0": "Layihələndirmə ({{ creationDate }})",
           "1": "Qüvvəyə minir ({{ publishDate }})",
           "2": "Qüvvəyə minir ({{ publishDate }})",
           "3": "Qüvvəyə minir ({{ publishDate }})",
