@@ -80,7 +80,7 @@
             },
             "preview": {
                 "confirm": "İstisna etmək",
-                "give_admin": "[AT] şirkətin administrator hüquqlarını verin",
+                "give_admin": "Şirkətin administrator hüquqlarını verin",
                 "rights": {
                     "empty": "Hüquqlar təyin edilməyib",
                     "list": "İstifadəçi hüquqları"
@@ -92,7 +92,7 @@
             "sorting": {
                 "name": "Ad",
                 "status": "Status",
-                "status_changed": "[AT] Status dəyişdirmə tarixi"
+                "status_changed": "Statusun dəyişdirmə tarixi"
             }
         }
     }

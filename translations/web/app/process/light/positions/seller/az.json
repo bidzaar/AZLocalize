@@ -59,7 +59,7 @@
         "title": "Məlumat hazırda mövcud deyil"
       },
       "filters": {
-        "empty": "[AT] Kateqoriyada element yoxdur",
+        "empty": "Kateqoriyada element yoxdur",
         "options": {
           "0": "Bütün maddələr",
           "1": "Mövcud",
@@ -96,7 +96,7 @@
           },
           "price": {
             "lt_minimum": "Mənfi rəqəm qəbul olunmur",
-            "gt_maximum": "[AT] 99 milyarddan aşağı qiymət göstərin",
+            "gt_maximum": "",
             "equal_to_zero": "Qiyməti qeyd olunmayıb",
             "equal_to_zero_count_gte_zero": "Qiyməti qeyd olunmayıb. Mövqe yoxdursa, \"Stokda yoxdur\" yazın",
             "start_price_auction": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
@@ -105,7 +105,7 @@
             "new_price_worse_reduction": "Vahidin qiyməti əvvəlki qiymətdən az və ya ona bərabər olmalıdır.",
             "refer_price_auction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha çox.",
             "refer_price_reduction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha az.",
-            "refer_price_all": "[AT] Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı."
+            "refer_price_all": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı."
           }
         }
       }

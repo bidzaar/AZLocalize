@@ -37,12 +37,12 @@
                 "tooltips": {
                     "insert": "Daxil edin",
                     "remove": "Sil",
-                    "availability": "[AT] Sorğu parametri Təchizat həcmi mövqelər tərəfindən icazə verilən sapma kimi təyin edilərsə, sahə mövcuddur",
-                    "best_price": "[AT] Rəqiblər arasında ən yaxşı qiymət",
-                    "target_price": "[AT] Seçim üçün təlimatınız. İştirakçılardan gizlədilib.",
-                    "max_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi maksimum qiymət.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
-                    "min_price": "[AT] Təchizatçının bir məhsul üçün təklif edə biləcəyi ən aşağı qiymət.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
-                    "expected_price": "[AT] Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\nMüştəri müəyyən və ya daha aşağı qiymət gözləyir"
+                    "availability": "Sorğunun parametri təklifin  həcmi maddələrə görə yayınma kimi təyin edilərsə, təchizatçı tərəfindən doldurulmalıdır",
+                    "best_price": "Rəqiblər arasında ən yaxşı qiymət",
+                    "target_price": "Vahidin hədəf qiyməti. İştirakçılardan gizlədilib.",
+                    "max_price": "Vahidin maksimal qiyməti.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
+                    "min_price": "Vahidin minimal qiyməti.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
+                    "expected_price": "Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\n Sifarişçi müəyyən olunmuş və ya daha aşağı qiymət gözləyir"
                 }
             },
             "common": {

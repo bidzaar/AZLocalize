@@ -12,10 +12,10 @@
                 },
                 "remove": "Sil",
                 "message": {
-                    "error": "[AT] böyük təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
-                    "warning": "[AT] böyük təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
-                    "warning-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
-                    "error-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
+                    "error": "Geniş təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
+                    "warning": "Geniş təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+                    "warning-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+                    "error-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
                 }
             },
             "acceptance_end_date": {

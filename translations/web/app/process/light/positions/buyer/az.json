@@ -7,7 +7,7 @@
             "close": "Bağla",
             "positions": {
                 "title": "Fayldan maddələri yüklə",
-                "count": "[AT]Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+                "count": "Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
                 "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək.",
                 "items": {
                     "Process.Light.Import.FileHasErrors": {
@@ -16,13 +16,13 @@
                     },
                     "Process.Light.Import.InvalidFile": {
                         "owner": {
-                            "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\nmümkün səbəb:\n • spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir.",
-                            "download": "[AT] mövcud şablonu yükləyin və yükləməni təkrarlayın."
+                            "title": "<b>fayl sorğudakı maddələr üzrə spesifikasiyaya uyğun gəlmir.</b>\n səbəb:\n • spesifikasiya başqa bir sorğu və ya maddə qrupu üçün verilmişdir.",
+                            "download": "Şablonu yükləyin və yükləməni təkrarlayın."
                         },
                         "participant": {
-                            "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\n <b>Fayl nümunəyə uyğun gəlmir.</b> mümkün səbəblər:\n",
-                            "text": "[AT]• faylda mövqe spesifikasiyası yoxdur\n• sorğu yeniləndi və təklifiniz köhnəldi\n• cədvəl sütunları və ya müştəri məlumatları dəyişdirildi\n• spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir",
-                            "download": "[AT] təklif şablonunu yükləyin və yenidən yükləyin."
+                            "title": "<b>fayl sorğudakı maddələr üzrə spesifikasiyaya uyğun gəlmir.</b>\n <b>Fayl nümunəyə uyğun gəlmir.</b> mümkün səbəblər:\n",
+                            "text": "• faylda maddələr spesifikasiyası yoxdur\n• sorğu yeniləndi və təklifiniz köhnəldi\n• cədvəl sütunları və ya müştəri məlumatları dəyişdirildi\n• spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir",
+                            "download": "Təklif şablonunu endirin və yenidən yükləyin."
                         }
                     },
                     "Process.Light.Import.InvalidFileExtension": {
@@ -31,20 +31,20 @@
                 }
             },
             "questionnaire": {
-                "title": "[AT] bir fayldan bir anket Yükləyin",
-                "warning": "[AT] əvvəllər daxil edilmiş suallar silinəcəkdir.",
-                "count": "[AT] hoproses: <b> {{ questions }}</b> of {{ total }}",
-                "count_failure": "[AT] Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
+                "title": "Anketi yüklə",
+                "warning": "Daha əvvəl daxil edilmiş suallar silinəcəkdir.",
+                "count": "Suallar: <b> {{ questions }}</b> of {{ total }}",
+                "count_failure": "Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
                 "items": {
                     "Process.Light.Import.InvalidFileExtension": {
-                        "title": "[AT] <b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
+                        "title": "<b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
                     },
                     "Process.Light.Import.InvalidFile": {
-                        "title": "<b>[AT] Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
+                        "title": "<b>Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
                     },
                     "Process.Light.Import.FileHasErrors": {
-                        "title": "[AT] <b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
-                        "download": "Səhv təsvirləri olan faylı endir"
+                        "title": "<b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
+                        "download": "Səhvlərin təsvirləri olan faylı endir"
                     }
                 }
             }

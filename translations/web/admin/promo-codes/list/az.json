@@ -1,25 +1,25 @@
 {
     "promo_codes.list": {
-        "create": "[AT] promokod yaradın",
+        "create": "Promokod yaradın",
         "header": {
-            "title": "[AT] promokodlar",
+            "title": "Promokodlar",
             "search": ""
         },
         "dates": {
-            "create": "[AT] yaradıldı: {{value}} {{time}}",
-            "apply": "[AT] tətbiq edildi: {{value}} {{time}}",
-            "link_tooltip": "[AT] açıq sorğu"
+            "create": "Yaradılıb: {{value}} {{time}}",
+            "apply": "Tətbiq edilib: {{value}} {{time}}",
+            "link_tooltip": "Açıq sorğu"
         },
         "empty": {
-            "text": "[AT] Neftçi tapılmadı"
+            "text": "Promokod tapılmadı"
         },
         "sorting": {
-            "createDate": "[AT] yaradılma tarixi",
-            "applicationDate": "[AT] tətbiq Tarixi"
+            "createDate": "Yaradılma tarixi",
+            "applicationDate": "Tətbiq olunma tarixi"
         },
         "filters": {
             "company": {
-                "title": "[AT] müştəri",
+                "title": "Sifarişçi",
                 "choose": "[AT] müştəriləri seçin"
             },
             "employee": {

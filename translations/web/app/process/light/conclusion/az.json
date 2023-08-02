@@ -11,7 +11,7 @@
                     "5": "Dəyişdirilmiş texniki tapşırıqlar",
                     "6": "Səhv qalib seçildi",
                     "7": "Kifayət qədər kommersiya təklifləri yoxdur",
-                    "null": "[AT] təkliflər yoxdur"
+                    "null": "Təkliflər yoxdur"
                 },
                 "commission": {
                     "0": "Faktura hazırlanması",
@@ -67,8 +67,8 @@
                             "questions": "Sualınız varmı?",
                             "message": "Sifarişçi ilə əlaqə saxlayın.",
                             "last_winner": {
-                                "title": "[AT] müştəri sizi qaliblərdən kənarlaşdırdı",
-                                "text": "[AT] buna baxmayaraq, istifadəçi müqaviləsinə əsasən, Xidmətin işinə görə komissiya ödənilməlidir"
+                                "title": "Sifarişçi sizi qaliblərdən kənarlaşdırdı",
+                                "text": "Buna baxmayaraq, istifadəçi müqaviləsinə əsasən, xidmət komissiyası ödənilməlidir"
                             }
                         }
                     },
@@ -193,7 +193,7 @@
                         "header": "Çatlardan gələn mesajlar",
                         "participants": "İştirakçılar ilə çat",
                         "team": "Komanda chatı",
-                        "all": "[AT] Bütün sorğu sohbetleri"
+                        "all": "Sorğunun bütün çatları"
                     },
                     "no_rights_to_complete": {
                         "text": "Yalnız sahibi sorğunu tamamlaya bilər.",
@@ -232,7 +232,7 @@
                             "comment": "Səbəb...",
                             "comment_label": "İştirakçıların başa düşə biləcəyi ətraflı səbəb göstərin",
                             "chars_validation": "Əlavə durğu işarələri olmadan ən azı {{value}} simvol daxil edin",
-                            "empty": "[AT] Hazırda təqdim olunan təkliflər yoxdur."
+                            "empty": " Hal hazırda təqdim olunan təkliflər yoxdur."
                         },
                         "vat": {
                             "true": "ƏDV ilə",

@@ -184,31 +184,31 @@
                     "title": "Tarif"
                 },
                 "csm": {
-                    "title": "[AT] məsul satış/CSM",
-                    "pin": "[AT] Pin",
-                    "unpin": "[AT] açın",
-                    "empty": "[AT] təyin edilməyib",
-                    "journal": "[AT] təyinatlar jurnalı",
-                    "success": "[AT] işçi təyin edildi",
+                    "title": "Məsul satış/CSM",
+                    "pin": "Pin",
+                    "unpin": "Aç",
+                    "empty": "Təyin edilməyib",
+                    "journal": "Təyinatlar jurnalı",
+                    "success": "İşçi təyin edildi",
                     "dialog": {
                         "table": {
                             "header": {
-                                "size": "[AT] Qeydlər {{ value }}",
-                                "role": "[AT] role",
-                                "employee": "[AT] işçi",
-                                "event": "[AT] hadisə",
-                                "initiator": "[AT] təşəbbüskar",
-                                "date": "[AT] Tarix"
+                                "size": "Qeydlər {{ value }}",
+                                "role": "Hüquq",
+                                "employee": "işçi",
+                                "event": "Tədbir",
+                                "initiator": "Təşəbbüskar",
+                                "date": "Tarix"
                             },
                             "role": {
-                                "0": "[AT] CSM",
-                                "1": "[AT] Sale"
+                                "0": "CSM",
+                                "1": "Satış"
                             },
                             "event": {
-                                "0": "[AT] açılmamış",
-                                "1": "[AT] sabit"
+                                "0": "Çıxarılmış",
+                                "1": "Əlavə olunmuş"
                             },
-                            "empty": "[AT] daha əvvəl heç-heçə"
+                            "empty": "Məsul şəxslər təyin olunmayıb"
                         }
                     }
                 },
