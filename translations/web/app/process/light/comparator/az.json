@@ -1,104 +1,104 @@
 {
-    "pl_cpr": {
-        "enums": {
-            "groups": {
-                "0": "Этап предквалификации / NDA",
-                "1": "Описание и документы",
-                "2": "Правила проведения запроса",
-                "3": "Аккредитация участников",
-                "4": "Спецификация по позициям",
-                "5": "Неценовые критерии запроса"
-            },
-            "types": {
-                "0": "Этап",
-                "1": "Описание",
-                "2": "Документы",
-                "3": "Наименование запроса",
-                "4": "Описание",
-                "5": "Документы",
-                "6": "Место поставки",
-                "7": "Приём предложений до",
-                "8": "Вид запроса",
-                "9": "После подачи предложения участники видят",
-                "10": "При выборе победителя учитывается",
-                "11": "Альтернативных предложений",
-                "12": "Валюта запросa",
-                "13": "Автопродление приема предложений",
-                "14": "Напоминание участникам о завершении приема предложений за",
-                "15": "Дополнительное напоминание участникам о завершении приема предложений за",
-                "16": "Организатор на этапе приема предложений",
-                "17": "Ориентировочный срок подведения итогов",
-                "18": "Для подачи предложения требуется аккредитация в реестрах",
-                "19": "Кол-во позиций",
-                "20": "Группа {{index}}",
-                "21": "Наименование группы",
-                "22": "Объём предложения участника",
-                "23": "После подачи первого предложения",
-                "24": "Минимальный шаг изменения цены",
-                "25": "Ожидаемая сумма предложения",
-                "26": "Максимальная сумма предложения",
-                "27": "Минимальная сумма предложения",
-                "28": "Колонки поставщика",
-                "29": "Позиции",
-                "30": "Позиция {{index}}",
-                "31": "Кол-во вопросов",
-                "32": "Раздел {{index}}",
-                "33": "Наименование раздела",
-                "34": "Вопрос {{index}}"
-            }
+  "pl_cpr": {
+    "enums": {
+      "groups": {
+        "0": "[AT] Ön kvalifikasiya / NDA",
+        "1": "[AT] Təsvir və sənədlər",
+        "2": "[AT] Müraciət etmək qaydaları",
+        "3": "[AT] İştirakçıların akkreditasiyası",
+        "4": "[AT] Vəzifə spesifikasiyası",
+        "5": "[AT] Qeyri-Qiymət Sorğu Meyarları"
+      },
+      "types": {
+        "0": "[AT] Mərhələ",
+        "1": "[AT] Təsvir",
+        "2": "[AT] Sənədlər",
+        "3": "[AT] Ad tələb edin",
+        "4": "[AT] Təsvir",
+        "5": "[AT] Sənədlər",
+        "6": "[AT] Çatdırılma ünvanı",
+        "7": "[AT] qədər təkliflər qəbul edilir",
+        "8": "[AT] Sorğu növü",
+        "9": "[AT] Təklif təqdim etdikdən sonra iştirakçılar baxır",
+        "10": "[AT] Qalib seçərkən, nəzərə alın",
+        "11": "[AT] alternativ təkliflər",
+        "12": "[AT] Valyuta tələb edin",
+        "13": "[AT] Təkliflərin avtomatik yenilənməsi",
+        "14": "[AT] İştirakçılara təkliflər çağırışının bitməsi barədə xatırlatma",
+        "15": "[AT] İştirakçılara təkliflər çağırışının bitməsi barədə əlavə xatırlatma",
+        "16": "[AT] Təşkilatçı təkliflərin qəbulu mərhələsində",
+        "17": "[AT] Ümumiləşdirmə üçün təxmini son tarix",
+        "18": "[AT] Təklif təqdim etmək üçün reyestrlərdə akkreditasiya tələb olunur",
+        "19": "[AT] Vəzifələrin sayı",
+        "20": "[AT] Qrup {{index}}",
+        "21": "[AT] Qrup adı",
+        "22": "[AT] İştirakçının təklif həcmi",
+        "23": "[AT] İlk təklifi təqdim etdikdən sonra",
+        "24": "[AT] Minimum qiymət dəyişikliyi addımı",
+        "25": "[AT] Gözlənilən təklif məbləği",
+        "26": "[AT] Maksimum təklif məbləği",
+        "27": "[AT] Minimum təklif məbləği",
+        "28": "[AT] Satıcı sütunları",
+        "29": "[AT] Vəzifələr",
+        "30": "[AT] Vəzifə {{index}}",
+        "31": "[AT] Sualların sayı",
+        "32": "[AT] Bölmə {{index}}",
+        "33": "[AT] Bölmə adı",
+        "34": "[AT] Sual {{index}}"
+      }
+    },
+    "forbidden": {
+      "text": "[AT] İcazə tələb olunur.",
+      "notice": "[AT] Təfərrüatlar əvvəlcədən təyin edilmiş / NDA sorğuçuları üçün mövcuddur\nvə ya qapalı sorğuya dəvət olunur"
+    },
+    "comparison": {
+      "header": "[AT] {{number}} • {{name}}",
+      "table": {
+        "filter": {
+          "label": "[AT] Yalnız dəyişiklikləri göstərin"
         },
-        "forbidden": {
-            "text": "Требуется авторизация.",
-            "notice": "Сведения доступны участникам запроса, прошедшим предквалификацию / NDA\nили приглашённым в закрытый запрос"
+        "version": {
+          "draft": "[AT] Yeni nəşr (dərc olunmayıb)",
+          "date": "[AT] {{ value }} (MSK) tərəfindən redaktə edilib",
+          "current": "[AT] oldu",
+          "previous": "[AT] idi"
         },
-        "comparison": {
-            "header": "{{number}} • {{name}}",
-            "table": {
-                "filter": {
-                    "label": "Показать только изменения"
-                },
-                "version": {
-                    "draft": "Новая редакция (не опубликована)",
-                    "date": "Редакция от {{ value }} (MSK)",
-                    "current": "Стало",
-                    "previous": "Было"
-                },
-                "record": {
-                    "date": "{{value}} (MSK)",
-                    "summing_up": "{{ value }} дн",
-                    "prolongation_time": "{{value}} мин.",
-                    "notification_hours": "{{value}} ч",
-                    "price": "{{value}} {{currency}}",
-                    "nda": {
-                        "true": "Проводится",
-                        "false": "Не проводится"
-                    },
-                    "position": {
-                        "description": "Описание:",
-                        "documents": "Документы:",
-                        "count": "Количество:",
-                        "exp_price": "Ожидаемая цена за ед.,",
-                        "max_price": "Максимальная цена за ед.,",
-                        "min_price": "Минимальная цена за ед.,",
-                        "trg_price": "Целевая цена за ед.,"
-                    },
-                    "question": {
-                        "text": "Текст:",
-                        "type": "Тип ответа:",
-                        "required": "Ответ обязательный:",
-                        "hidden": "Ответ скрыт от других участников:",
-                        "true": "Да",
-                        "false": "Нет"
-                    }
-                },
-                "empty": {
-                    "text": "Нет изменений"
-                },
-                "soon": {
-                    "4": "Сравнение спецификаций по позициям запроса будет реализовано в ближайшее время",
-                    "5": "Сравнение неценовых критериев запроса будет реализовано в ближайшее время"
-                }
-            }
+        "record": {
+          "date": "[AT] {{value}} (MSK)",
+          "summing_up": "[AT] {{ value }} gün",
+          "prolongation_time": "[AT] {{value}} dəq.",
+          "notification_hours": "[AT] {{value}} h",
+          "price": "[AT] {{value}} {{currency}}",
+          "nda": {
+            "true": "[AT] Keçirilib",
+            "false": "[AT] Həyata keçirilməyib"
+          },
+          "position": {
+            "description": "[AT] Təsvir:",
+            "documents": "[AT] Sənədlər:",
+            "count": "[AT] Miqdarı:",
+            "exp_price": "[AT] Gözlənilən vahid qiyməti,",
+            "max_price": "[AT] Vahid başına maksimum qiymət,",
+            "min_price": "[AT] Vahid üçün minimum qiymət,",
+            "trg_price": "[AT] Vahid üçün hədəf qiymət,"
+          },
+          "question": {
+            "text": "[AT] Mətn:",
+            "type": "[AT] Cavab növü:",
+            "required": "[AT] Məcburi cavab:",
+            "hidden": "[AT] Cavab digər üzvlərdən gizlidir:",
+            "true": "[AT] Bəli",
+            "false": "[AT] Yox"
+          }
+        },
+        "empty": {
+          "text": "[AT] Dəyişiklik yoxdur"
+        },
+        "soon": {
+          "4": "[AT] Tələb maddələri üzrə spesifikasiyaların müqayisəsi yaxın gələcəkdə həyata keçiriləcək",
+          "5": "[AT] Qeyri-qiymət tələbi meyarlarının müqayisəsi tezliklə həyata keçiriləcək"
         }
+      }
     }
+  }
 }
