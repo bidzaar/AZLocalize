@@ -158,8 +158,8 @@
                     "statusChangedOn": "Status dəyişdirildi"
                 },
                 "sorting": {
-                    "name": "[AT] işçinin adı",
-                    "date_change": "[AT] status dəyişikliyi Tarixi"
+                    "name": "işçinin adı",
+                    "date_change": "Status dəyişikliyi tarixi"
                 },
                 "preview": {
                     "grant_access": "təsdiq et",
@@ -179,9 +179,9 @@
                 },
                 "title": "şirkət əməkdaşları",
                 "rights": {
-                    "list": "[AT] hüquqlar ({{value}})",
-                    "empty": "[AT] Hüquqlar təyin edilməyib",
-                    "approve": "[AT] Şirkət işçisi hüquqları tələbi",
+                    "list": "Hüquqlar ({{value}})",
+                    "empty": "Hüquqlar təyin edilməyib",
+                    "approve": "Şirkət işçisi hüquqları tələbi",
                     "invited": "E-poçtla dəvət olunub",
                     "wait_for_approve": "Şirkətin işçisinin hüquqlarının tələbi",
                     "no_rights": "Hüquqlar təyin edilməyib"
@@ -882,7 +882,7 @@
                     "types": {
                         "all-receipt": "sifariş",
                         "all-receipt-archive": "sifariş",
-                        "chats-archive": "[AT] mesajlar arxivi",
+                        "chats-archive": " mesajlar arxivi",
                         "comparison-archive": "müqayisə cədvəlini",
                         "my-proposal-archive": "sizin təklifiniz",
                         "proposal-archive": "iştirakçının təklifi",
@@ -1063,7 +1063,7 @@
                         "owner": "Cavab yalnız sorğuçuya əlçatandır",
                         "participant": "Digər iştirakçılar cavabınızı görməyəcək",
                         "tooltip": "Həssas və ya məxfi məlumatları gizlətməyi tövsiyə edirik",
-                        "info": "[AT] Sorğu parametrinin müvafiq qəbulu ilə iştirakçılar üçün cavab mövcuddur \"təklif təqdim edildikdən sonra iştirakçılar\" görürlər"
+                        "info": "Sorğu parametrinin müvafiq qəbulu ilə iştirakçılar üçün cavab mövcuddur \"təklif təqdim edildikdən sonra iştirakçılar\" görürlər"
                     },
                     "required": "Cavab məcburidir",
                     "text": "Sual mətni",
@@ -2600,19 +2600,19 @@
             "comment": "hüquqlar \"şirkəti idarə etmək\" hüququ olan istifadəçi tərəfindən müəyyən edilir",
             "role": {
                 "title": "Sorğuçu komandasında rol",
-                "text": "[AT] default",
+                "text": "Default",
                 "items": {
                     "0": {
                         "title": "Auditor",
-                        "text": "[AT] sorğuya baxır"
+                        "text": "Sorğuya baxır"
                     },
                     "1": {
                         "title": "Redaktor",
-                        "text": "[AT] sorğu layihəsini düzəldir"
+                        "text": "Sorğunun layihəsini düzəldir"
                     },
                     "2": {
                         "title": "Sahib",
-                        "text": "[AT] sorğu dərc edir, dəyişdirir və tamamlayır"
+                        "text": "Sorğunu dərc edir, dəyişdirir və tamamlayır"
                     }
                 }
             }

@@ -20,70 +20,70 @@
         "filters": {
             "company": {
                 "title": "Sifarişçi",
-                "choose": "[AT] müştəriləri seçin"
+                "choose": "Sifarişçi seçin"
             },
             "employee": {
-                "title": "[AT] promokod yaradan işçi",
-                "choose": "[AT] işçiləri seçin"
+                "title": "Promokod yaradan işçi",
+                "choose": "İşçiləri seçin"
             },
             "type": {
-                "title": "[AT] promokod növü",
+                "title": "Promokodun növü",
                 "options": {
                     "A": "A",
                     "B": "B",
-                    "ANY": "[AT] Hər kəs"
+                    "ANY": "Hər kəs"
                 }
             },
             "was_applied": {
-                "title": "[AT] tətbiq olundu",
+                "title": "Tətbiq olundu",
                 "options": {
-                    "no": "[AT] yox",
-                    "yes": "[AT] Bəli"
+                    "no": "Xeyir",
+                    "yes": "Bəli"
                 }
             },
             "applicationDate": {
-                "title": "[AT] tətbiq Tarixi"
+                "title": "Tətbiq tarixi"
             },
             "createDate": {
-                "title": "[AT] yaradılma tarixi"
+                "title": "Yaradılma tarixi"
             }
         },
         "dialog": {
-            "title": "[AT] promokod generatoru",
+            "title": "Promokod generatoru",
             "fields": {
-                "reason": "[AT] verilişin əsası",
+                "reason": "Verilmənin əsası",
                 "customer": {
-                    "action": "[AT] müştəri seçimi",
-                    "remove_tooltip": "[AT] Sil",
+                    "action": "Sifarişçi seçimi",
+                    "remove_tooltip": "Sil",
                     "popover": {
-                        "empty": "[AT]  heç nə tapılmadı",
-                        "search": "[AT] Axtarış"
+                        "empty": "Heç nə tapılmadı",
+                        "search": "Axtar"
                     }
                 },
-                "count": "[AT] promo kodların sayı",
+                "count": "Promokodların sayı",
                 "type": {
-                    "title": "[AT] promokod növü",
+                    "title": "Promokod növü",
                     "options": {
                         "A": "A",
                         "B": "B"
                     }
                 },
                 "errors": {
-                    "max_length": "[AT] maksimum uzunluq {{ value }}",
-                    "required": "[AT] məcburi Sahə"
+                    "max_length": "Maksimal {{ value }}",
+                    "required": "Məcburi sahə"
                 }
             },
-            "codes": "[AT] promokodlar:",
+            "codes": "Promokodlar:",
             "actions": {
-                "generate": "[AT] Yarat",
-                "regenerate": "[AT] daha çox yaradın",
-                "cancel": "[AT] Ləğv et",
-                "copy": "[AT] Kopyala"
+                "generate": "Yarat",
+                "regenerate": "Daha çox yaradın",
+                "cancel": "Ləğv et",
+                "copy": "Kopyala"
             },
             "snack": {
-                "success": "[AT] promokodlar uğurla yaradılıb",
-                "copy": "[AT] promo kodları clipboard (panoya) kopyalanır",
-                "error": "[AT] promokodlar yaradılmayıb. Səhifəni yenidən yükləyin və yenidən cəhd edin"
+                "success": "Promokodlar uğurla yaradılıb",
+                "copy": "Promokodları clipboard (panoya) kopyalanır",
+                "error": "Promokodlar yaradılmayıb. Səhifəni yenidən yükləyin və yenidən cəhd edin"
             }
         }
     }

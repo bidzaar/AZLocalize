@@ -13,52 +13,52 @@
                     "short": "Hüquqlar təyin edilməyib"
                 },
                 "1": {
-                    "short": "[AT] Alıcı",
-                    "long": "[AT] Alıcı",
-                    "description": "[AT] sorğuları dərc edir və aparır (satınalma prosedurları)"
+                    "short": "Satınalan təşkilat",
+                    "long": "Satınalan təşkilat",
+                    "description": "Sorğuları dərc edir və aparır (satınalma prosedurları)"
                 },
                 "2": {
-                    "long": "Təchizatçı",
-                    "short": "Təchizatçı",
-                    "description": "[AT] sorğulara kommersiya təklifləri hazırlayır və təqdim edir"
+                    "long": "Təchizatçı təşkilat ",
+                    "short": "Təchizatçı təşkilat",
+                    "description": "Sorğulara kommersiya təklifləri hazırlayır və təqdim edir"
                 },
                 "4": {
-                    "short": "Akkreditasiyaya sorğu",
-                    "long": "[AT] akkreditasiya ərizəçisi",
-                    "description": "[AT] Digər şirkətlərin qarşı tərəf reyestrlərində akkreditasiya üçün müraciət hazırlayır və təqdim edir"
+                    "short": "Akkreditasiyaya müraciət",
+                    "long": "Akkreditasiyaya müraciət",
+                    "description": "Digər şirkətlərin qarşı tərəf reyestrlərində akkreditasiya üçün müraciət hazırlayır və təqdim edir"
                 },
                 "8": {
                     "long": "Akkreditasiya qruplarının idarə edilməsi",
                     "short": "Qrupların idarə edilməsi"
                 },
                 "16": {
-                    "short": "[AT] şirkət administratoru",
-                    "long": "[AT] şirkət administratoru",
-                    "description": "[AT] İşçiləri, hüquqlarını idarə edir, şirkətin profilini düzəldir"
+                    "short": "şirkət administratoru",
+                    "long": "şirkət administratoru",
+                    "description": "İşçiləri, hüquqlarını idarə edir, şirkətin profilini düzəldir"
                 },
                 "128": {
-                    "short": "[AT] Buyer (head of department)",
-                    "long": "[AT] satınalma rəhbəri",
-                    "description": "[AT] şirkətinin bütün tələblərini idarə edir"
+                    "short": "Satınalma rəhbəri",
+                    "long": "Satınalma rəhbəri",
+                    "description": "Şirkətinin bütün tələblərini idarə edir"
                 },
                 "256": {
-                    "short": "[AT] Qrup administratoru",
-                    "long": "[AT] Qrup administratoru",
-                    "description": "[AT] işçi qruplarını idarə edir"
+                    "short": "Qrup administratoru",
+                    "long": "Qrup administratoru",
+                    "description": "işçi qruplarını idarə edir"
                 },
                 "512": {
                     "short": "Reyestrlər",
-                    "long": "[AT] qeydiyyat administratoru",
-                    "description": "[AT] Şirkətinin tərəflərinin reyestrlərini aparır, alınan akkreditasiya müraciətlərini emal edir"
+                    "long": "Reyestr administratoru",
+                    "description": "Şirkətin reyestrlərini yaradır, alınan akkreditasiya müraciətlərini emal edir"
                 },
                 "1024": {
                     "short": "Reyestr rəhbəri",
-                    "long": "[AT] qeydiyyat şöbəsinin müdiri",
-                    "description": "[AT] öz şirkətinin kontragentlərinin bütün reyestrlərini idarə edir"
+                    "long": "Reyestr rəhbəri",
+                    "description": "Öz şirkətinin bütün reyestrlərini idarə edir"
                 },
                 "2048": {
-                    "short": "[AT] Akkreditivin tələbi. hovuz",
-                    "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+                    "short": "Akreditasiya üçün müraciət",
+                    "long": "Akreditasiya üçün müraciət"
                 }
             }
         },

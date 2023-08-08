@@ -82,8 +82,8 @@
                 },
                 "price_with_start": {
                     "0": "Gözlənilən qiymət {{ value }} {{ currency }}",
-                    "1": "[AT] {{ value }} {{ currency }} dəyərindən azalma",
-                    "2": "[AT] {{ value }} {{ currency }}-dən hərrac"
+                    "1": "{{ value }} {{ currency }} dəyərindən azalma",
+                    "2": "{{ value }} {{ currency }}-dən hərrac"
                 }
             }
         },

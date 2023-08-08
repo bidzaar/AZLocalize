@@ -58,7 +58,7 @@
                 "title": "Tamamlanma tarixi"
             },
             "responsible": {
-                "title": "[AT] Məsul"
+                "title": "Məsul"
             },
             "joins_count": {
                 "title": "iştirak edənlərin ümumi sayı"
@@ -116,7 +116,7 @@
             "manager_title": "Şirkətin bütün sorğuları",
             "title": "Mənim sorğularım",
             "download": "Yüklə",
-            "download_mobile": "[AT] hesabatı Yükləyin",
+            "download_mobile": "Hesabatı Yükləyin",
             "report": {
                 "period": "Hesabat dövrü",
                 "cancel": "Ləğv et",
@@ -137,7 +137,7 @@
         "public": {
             "from": "from\n",
             "left": "{{value}} qaldı",
-            "passed": "[AT] {{value}} keçdi",
+            "passed": "{{value}} keçdi",
             "tarrifs_popover": {
                 "button": "Status əldə etmək",
                 "button_verified": "Yoxlama bitdi",

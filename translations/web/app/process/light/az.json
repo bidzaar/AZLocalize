@@ -169,7 +169,7 @@
         "tooltip": "Kompüterinizdəki tarixə və saata uyğundur",
         "tooltip_timer": "qalıb",
         "publish": "Dərc edilib {{ value }} ",
-        "until": "son tarix: {{ date }}"
+        "until": "Son tarix: {{ date }}"
       },
       "request": {
         "additional_settings": {
@@ -883,16 +883,16 @@
             "required": "Tarif seçilməyib",
             "archive": "Seçdiyiniz tarif arxivdədi, tarifi dəyişin"
           },
-          "code": "[AT] Bu sorğuda Xidmət komissiyası tutulmur ({{code}} promosyon kodu tətbiq olunur).",
+          "code": "Bu sorğuda Xidmət komissiyası tutulmur ({{code}} promosyon kodu tətbiq olunur).",
           "promo": {
-            "label": "[AT] promo kodu",
-            "placeholder": "[AT] Promo kodu daxil edin",
-            "hint": "[AT] Format: X-XXX-XXX",
-            "cancel": "[AT] Ləğv et",
-            "submit": "[AT] Müraciət edin",
-            "change": "[AT] Promo kodu tətbiq edin",
-            "expired": "[AT] Promo kodu istifadə olunur",
-            "invalid": "[AT] Etibarsız promo kodu"
+            "label": "Promo kodu",
+            "placeholder": "Promokodu daxil edin",
+            "hint": "Format: X-XXX-XXX",
+            "cancel": "Ləğv et",
+            "submit": "Müraciət edin",
+            "change": "Promokodu tətbiq edin",
+            "expired": "Promokodu istifadə olunur",
+            "invalid": "Etibarsız promokod"
           }
         }
       },
@@ -1200,7 +1200,7 @@
         "total_order_sum": "Sifarişin toplam dəyəri",
         "paginator": {
           "title": "Təkliflər",
-          "from": "[AT] -dan",
+          "from": "-dan",
           "info": "Digər təkliflərə baxmaq üçün naviqatordan istifadə edin\ndigər təkliflərə baxmaq üçün",
           "placeholder": "Təkliflər: {{value}}"
         },
@@ -1305,13 +1305,13 @@
         "finish_round": {
           "cancel": "Ləğv et",
           "header": "Təklif mərhələsini erkən bitirin",
-          "mesaj": "[AT] təkliflərin qəbulunu davam etdirmək üçün sorğunun növbəti mərhələsini elan edin.",
+          "mesaj": "Təkliflərin qəbulunu davam etdirmək üçün sorğunun növbəti mərhələsini elan edin.",
           "next": "Mərhələni bitir",
           "success": "Təklif mərhələsi başa çatdı",
-          "time_tooltip": "[AT] sona dəyirmi",
+          "time_tooltip": "Mərhələnin sonu",
           "time": "Təkliflərin cari mərhələsinin sonu:",
-          "pretext_time": "[AT] vasitəsilə",
-          "message": "[AT] İştirakçılar öz təkliflərini təqdim edə və ya dəyişdirə bilməyəcəklər. Turun nəticələrini yekunlaşdırdıqdan sonra siz təkliflərin yeni mərhələsini elan edə bilərsiniz."
+          "pretext_time": "Vasitəsilə",
+          "message": "İştirakçılar öz təkliflərini təqdim edə və ya dəyişdirə bilməyəcəklər. Turun nəticələrini yekunlaşdırdıqdan sonra siz təkliflərin yeni mərhələsini elan edə bilərsiniz."
         },
         "leave": {
           "header": "Müraciətin imtina edilməsi",
@@ -1325,7 +1325,7 @@
             "result": "İştirakçı qəbul edildi",
             "text": "İştirakçı spesifikasiya və sorğu sənədlərinə giriş imkanı əldə edəcək",
             "title": "İştirakçını qəbul et",
-            "result_group": "[AT] İştirakçılara icazə verilir:"
+            "result_group": "İştirakçılara icazə verilir:"
           },
           "cancel": "Ləğv et",
           "comment_placeholder": "Çatda iştirakçıya mesaj",
@@ -1333,11 +1333,11 @@
             "result": "İştirakçının müraciəti düzəliş üçün göndərilib",
             "text": "Təchizatçı düzəlişlər etdikdən sonra yenidən sorğuya müraciət edə bilər",
             "title": "İştirakçının müraciətini imtina etmək",
-            "result_group": "[AT] Müraciətlər rədd edildi:"
+            "result_group": "Müraciətlər rədd edildi:"
           },
           "submit": "Qərar ver",
           "title": "İştirakçının qəbulu haqqında qərar",
-          "warning": "[AT] Müraciət edən seçilmiş üzvlər üçün həll. Digər iştirakçılar nəzərə alınmır."
+          "warning": "Müraciət edən seçilmiş üzvlər üçün həll. Digər iştirakçılar nəzərə alınmır."
         },
         "notification": {
           "canceled": {
@@ -1531,11 +1531,11 @@
               },
               "ProcedurePositionGroup": {
                 "Empty": {
-                  "title": "[AT] Qrupda vəzifə yoxdur {{ name }}",
+                  "title": "Lotda maddə yoxdur {{ name }}",
                   "notice": ""
                 },
                 "Name.Empty": {
-                  "title": "[AT] Qrupun adı göstərilməyib",
+                  "title": "Lotun adı göstərilməyib",
                   "notice": ""
                 }
               },
@@ -2221,7 +2221,7 @@
                 "notice": "Əməliyyat geri qaytarıla bilər"
               },
               "block_stage": {
-                "button": "[AT] Cari mərhələdə təklif verməyənləri bloklayın"
+                "button": "Cari mərhələdə təklif verməyənləri bloklayın"
               },
               "block_others": {
                 "button": "Seçilmişlərdən başqa hamısını blokla"
@@ -2271,7 +2271,7 @@
                 "decision": "Qəbul et",
                 "request": "İlkin Kvalifikasiya mərhələsi üçün sənədlər",
                 "title": "Təsvir və sənədlər",
-                "open": "[AT] ərizə açın"
+                "open": "Müraciəti aç"
               },
               "notify_many": {
                 "button": "Dəvət göndər",
@@ -2484,12 +2484,12 @@
                 "title": "İlkin kvalifikasiya mərhələsi üçün sənədlər"
               },
               "NoDescription": {
-                "title": "[AT] Ön kvalifikasiya / NDA",
-                "notice": "[AT] ilkin kvalifikasiyanın təsvirini təqdim edin / NDA"
+                "title": "İlkin kvalifikasiya ",
+                "notice": "ilkin kvalifikasiyanın təsvirini təqdim edin"
               },
               "NoFiles": {
-                "title": "[AT] Ön kvalifikasiya / NDA",
-                "notice": "[AT] ön kvalifikasiya / NDA sənədləri əlavə edin"
+                "title": "İlkin kvalifikasiya",
+                "notice": "İlkin kvalifikasiya sənədləri əlavə edin"
               }
             },
             "Positions": {
@@ -2551,25 +2551,25 @@
               }
             },
             "ReductionStepMoreThanPriceAbsolute": {
-              "notice": "[AT] dəyişiklik addımı ilkin qiyməti üstələyir",
-              "title": "[AT] Minimum qiymət dəyişikliyi addımı"
+              "notice": "Dəyişiklik addımı ilkin qiyməti üstələyir",
+              "title": "Minimum qiymət dəyişikliyi addımı"
             },
             "ProcedurePositionGroup": {
               "Empty": {
-                "title": "[AT] {{ name }} qrupundakı vəzifələr göstərilməyib",
+                "title": " {{ name }} lotdakı maddələr göstərilməyib",
                 "notice": ""
               },
               "Name.Empty": {
-                "title": "[AT] Qrup adı göstərilməyib",
+                "title": "Lotun adı göstərilməyib",
                 "notice": ""
               }
             },
             "AcceptanceEndNotificationHours.OutOfRange": {
-              "title": "[AT] İştirakçılara təkliflərin qəbulunun bitməsi barədə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+              "title": "İştirakçılara təkliflərin qəbulunun bitməsi barədə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
               "notice": ""
             },
             "AdditionalAcceptanceEndNotificationHours.OutOfRange": {
-              "title": "[AT] Təkliflərin qəbulunun başa çatması barədə iştirakçılara əlavə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
+              "title": "Təkliflərin qəbulunun başa çatması barədə iştirakçılara əlavə xatırlatma təkliflərin qəbulunun bitməsindən gec təyin edilir.",
               "notice": ""
             }
           },
@@ -2656,24 +2656,24 @@
         },
         "block_participants": {
           "title": {
-            "true": "[AT] İştirakçıları bloklayın",
-            "false": "[AT] İştirakçını bloklayın"
+            "true": "İştirakçıları bloklayın",
+            "false": "İştirakçını bloklayın"
           },
           "success": {
-            "true": "[AT] İştirakçılar bloklandı",
-            "false": "[AT] İştirakçı bloklandı"
+            "true": "İştirakçılar bloklandı",
+            "false": "İştirakçı bloklandı"
           },
           "actions": {
-            "submit": "[AT] Blok",
-            "cancel": "[AT] Ləğv et"
+            "submit": "Blok",
+            "cancel": "Ləğv et"
           },
           "text": {
-            "count": "[AT] İştirakçılar bloklanacaq: <b>{{ count }}.</b>",
+            "count": "İştirakçılar bloklanacaq: <b>{{ count }}.</b>",
             "block": {
-              "true": "[AT] bloklandıqdan sonra: \n• bloklanmış üzvlərin təklifləri silinəcək\n• bloklanmış üzvlər təklif verə bilməyəcəklər",
-              "false": "[AT] bloklandıqdan sonra:\n• iştirakçı təklifi silinəcək\n• iştirakçı təklifi təqdim edə bilməz"
+              "true": "bloklandıqdan sonra: \n• bloklanmış üzvlərin təklifləri silinəcək\n• bloklanmış üzvlər təklif verə bilməyəcəklər",
+              "false": "bloklandıqdan sonra:\n• iştirakçı təklifi silinəcək\n• iştirakçı təklifi təqdim edə bilməz"
             },
-            "undo": "[AT] Təklifləri qəbul etmə mərhələsində bloklamanı ləğv edə bilərsiniz"
+            "undo": "Təklifləri qəbul etmə mərhələsində bloklamanı ləğv edə bilərsiniz"
           }
         }
       },
@@ -2722,8 +2722,8 @@
           }
         },
         "import_export": {
-          "export": "[AT] doldurmaq üçün FAYLI yükləyin",
-          "import": "[AT] fayldan bir anket Yükləyin"
+          "export": "Endir",
+          "import": "Yüklə"
         }
       },
       "number": "Kod",
@@ -3037,7 +3037,7 @@
                 "notice": "Təklif təqdim etmək üçün ProcureSaaS-da yoxlayın",
                 "actions": {
                   "more": "Ətraflı",
-                  "submit": "[AT] Baxış tələb edin"
+                  "submit": "Yoxlanış sorğulayın"
                 }
               },
               "accreditation": {
@@ -3085,9 +3085,9 @@
             "submit": "iştirak et",
             "cancel": "Mən hələ düşünürəm",
             "agreements": {
-              "order": "[AT] Müştəri tərəfindən təklifimi seçərkən komissiyanın ödənilməsi ilə razıyam",
-              "users": "[AT] \"İştirak et\" düyməsini klikləməklə, siz <a href=\"{{value}}\" target=\"_blank\">İstifadəçi Müqaviləsi</a>-nin şərtlərini qəbul edirsiniz.",
-              "tooltip": "[AT] Yalnız Müştəri tərəfindən seçilmiş iştirakçılar tərəfindən ödənilir və Müştəri ilə İştirakçı arasında müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Müştərinin seçdiyi vəzifələrin məbləğindən asılıdır."
+              "order": "Sifarişçi tərəfindən təklifimi seçərkən komissiyanın ödənilməsi ilə razıyam",
+              "users": " \"İştirak et\" düyməsini klikləməklə, siz <a href=\"{{value}}\" target=\"_blank\">İstifadəçi Müqaviləsi</a>-nin şərtlərini qəbul edirsiniz.",
+              "tooltip": "Yalnız Sifarişçi tərəfindən seçilmiş iştirakçılar tərəfindən ödənilir və Müştəri ilə İştirakçı arasında müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Müştərinin seçdiyi vəzifələrin məbləğindən asılıdır."
             }
           },
           "verification": {
@@ -3291,8 +3291,8 @@
               "tooltip": "İlkin kvalifikasiya mərhələsini keçmək üçün müraciətləri yüklə"
             },
             "block_participants": {
-              "title": "[AT] iştirakçıları təklif olmadan bloklayın",
-              "tooltip": "[AT] iştirakçıları təklif olmadan bloklayın"
+              "title": "iştirakçıları təklif olmadan bloklayın",
+              "tooltip": "iştirakçıları təklif olmadan bloklayın"
             },
             "unblock_many": {
               "button": "Bloku aç seçildi",
@@ -3305,7 +3305,7 @@
               "title": "İlkin kvalifikasiya mərhələsi",
               "request": "İlkin kvalifikasiya mərhələsi üçün sənədlər",
               "decision": "Qərar ver",
-              "open": "[AT] Tətbiqi açın"
+              "open": "Tətbiqi açın"
             },
             "permit_change": {
               "reduction": {
@@ -3339,7 +3339,7 @@
               "error": "Dəvətlər göndərilmədi, səhifəni yenidən yükləyin və yenidən cəhd edin"
             },
             "block_stage": {
-              "button": "[AT] Hazırkı mərhələdə təklif təqdim etməyənləri bloklayın"
+              "button": "Hazırkı mərhələdə təklif təqdim etməyənləri bloklayın"
             }
           },
           "gold": {

@@ -43,7 +43,7 @@
             "true": {
                 "title": "ProcureSaaS tərəfindən təsdiqlənmişdir"
             },
-            "notice": "[AT] sorğuda qalib gəlmək üçün komissiya ödənildikdə şirkətin təfərrüatları təsdiqlənir"
+            "notice": "Sorğuda qalib gəlmək üçün komissiya ödənildikdə şirkətin təfərrüatları təsdiqlənir"
         },
         "number": {
             "long": "Şirkət ID {{value}}",

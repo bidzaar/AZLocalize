@@ -2,11 +2,11 @@
     "trf.list": {
         "header": "Sorğu tarifləri",
         "create": "Yeni tarif əlavə edin",
-        "participants": "[AT] Tarif iştirakçıları",
+        "participants": "Tarifin iştirakçıları",
         "status": "Tarifin statusu",
         "empty": "",
-        "empty_search": "[AT] Sizin sorğunuza görə heç bir şey tapılmadı...",
-        "search_tooltip": "[AT] Axtarış sahələr üzrə həyata keçirilir: tarifin adı, tarifin Kodu",
+        "empty_search": "Sizin sorğunuza görə heç bir şey tapılmadı...",
+        "search_tooltip": "Axtarış sahələr üzrə həyata keçirilir: tarifin adı, tarifin kodu",
         "dialogs": {
             "create": {
                 "header": "Yeni tarif yaratmaq",

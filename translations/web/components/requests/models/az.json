@@ -76,11 +76,11 @@
         "false": "ƏDV-siz qiymət"
       },
       "custom": {
-        "string": "[AT] Mətn",
-        "double": "[AT] Nömrə",
-        "bool": "[AT] Həqiqətən yox",
-        "datetime": "[AT] Tarix",
-        "decimal": "[AT] Pul"
+        "string": "Mətn",
+        "double": "Nömrə",
+        "bool": "Bəli/Xeyir",
+        "datetime": "Tarix",
+        "decimal": "Pul"
       },
       "owner_visibility": {
         "0": "iştirakçıların təkliflərini görür",
@@ -113,7 +113,7 @@
         "Process.Light.Proposal.Item.CurrencyIsNotValid": "b> {{PositionName}}. </b> Valyuta({{Currency}}) sorğu qaydalarında göstərilən valyutalar siyahısına daxil edilməyib.",
         "Process.Light.Proposal.Item.DeviationUnavailable": "<b>{{PositionName}}. </b> Miqdar sorğu tələblərinə uyğun deyil.",
         "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "<b>{{ PositionName }}.</b> Tam çatdırılma tələb olunur",
-        "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{PositionName}}. </b> [AT] Tam çatdırılma tələb olunur və ya \"Mövcud deyil\" qeyd edin.",
+        "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{PositionName}}. </b>  Tam çatdırılma tələb olunur və ya \"Mövcud deyil\" qeyd edin.",
         "Process.Light.Proposal.Item.ZeroCount": "<b>{{PositionName}}. </b> Yanlış miqdar. Heç bir maddə yoxdursa, “Mövcud deyil” seçin.",
         "Process.Light.Proposal.Item.NonZeroCount": "<b>{{PositionName}}. </b> Yanlış miqdar. Miqdarı qeyd edin = 0.",
         "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{PositionName}}. </b> Yanlış qiymət. Heç bir maddə yoxdursa, “Mövcud deyil” qeyd edin.",
@@ -124,21 +124,21 @@
         "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{PositionName}}. </b> {{BaseCurrency}} ({{Price}} {{BaseCurrency}}) vahid üzrə qiymət Sifarişçi tərəfindən göstərilən vahidin  maksimal qiymətindən ({{StartPrice}} {{BaseCurrency}}) yüksəkdir.",
         "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> The price per unit must be less than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
         "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> The price per unit must be greater than or equal to the previous price {{ PreviousPrice }} {{ BaseCurrency }}",
-        "Process.Light.Proposal.Price.MinValueSubceededFake": "[AT] Təklif qiyməti sıfırdan böyük olmalıdır",
-        "Process.Light.Proposal.Price.MaxValueExceededFake": "[AT] Təklifin qiyməti 99 milyard rubldan az olmalıdır."
+        "Process.Light.Proposal.Price.MinValueSubceededFake": "Təklif qiyməti sıfırdan çox olmalıdır",
+        "Process.Light.Proposal.Price.MaxValueExceededFake": "Təklifin qiyməti _ az olmalıdır."
       },
       "price": {
-        "lt_or_equal_to_minimum": "[AT] Təklif qiyməti sıfırdan böyük olmalıdır.",
-        "lt_minimum": "[AT] Təklif qiyməti sıfırdan böyük və ya ona bərabər olmalıdır.",
-        "gt_maximum": "[AT] Təklif qiyməti 99 milyarddan az olmalıdır.",
+        "lt_or_equal_to_minimum": "Təklif qiyməti sıfırdan böyük olmalıdır.",
+        "lt_minimum": "Təklif qiyməti sıfırdan böyük və ya ona bərabər olmalıdır.",
+        "gt_maximum": "Təklif qiyməti 99 milyarddan az olmalıdır.",
         "new_price_worse_auction": "The bid price must be greater than or equal to the previous price.",
         "new_price_worse_reduction": "The bid price must be less than or equal to the previous price.",
-        "start_price_auction": "[AT] Təklif qiyməti ilkin minimumdan böyük və ya ona bərabər olmalıdır: {{price}} {{currency}}.",
-        "start_price_reduction": "[AT] Təklif qiyməti ilkin maksimumdan az və ya ona bərabər olmalıdır: {{price}} {{currency}}.",
-        "refer_price_all": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və ya daha az {{min}} {{currency}} və ya daha çox.",
-        "refer_price_auction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
-        "refer_price_reduction": "[AT] Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az.",
-        "smth_no_deviation": "[AT] Tam çatdırılma tələb olunur və ya qrup üçün təklif təqdim etməkdən imtina edin"
+        "start_price_auction": "Təklif qiyməti ilkin minimumdan böyük və ya ona bərabər olmalıdır: {{price}} {{currency}}.",
+        "start_price_reduction": "Təklif qiyməti ilkin maksimumdan az və ya ona bərabər olmalıdır: {{price}} {{currency}}.",
+        "refer_price_all": "Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və ya daha az {{min}} {{currency}} və ya daha çox.",
+        "refer_price_auction": "Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha çox.",
+        "refer_price_reduction": "Təklif qiyməti qiymətin dəyişməsi qaydasını pozur. Tövsiyə olunan qiymət: {{price}} {{currency}} və ya daha az.",
+        "smth_no_deviation": "Tam çatdırılma tələb olunur və ya qrup üçün təklif təqdim etməkdən imtina edin"
       }
     },
     "reports": {
@@ -150,7 +150,7 @@
         "receipt": "Sifarişi yükləyin",
         "all-receipt": "Sifarişi yükləyin",
         "nda": "İlkin kvalifikasiya sənədlərini yüklə",
-        "chats": "[AT] Bütün sorğu söhbətlərini Yükləyin"
+        "chats": "Sorğunun bütün çatını yüklə"
       },
       "single": {
         "sync": {
