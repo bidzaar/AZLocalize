@@ -2,101 +2,101 @@
   "pl_cpr": {
     "enums": {
       "groups": {
-        "0": "[AT] Ön kvalifikasiya / NDA",
-        "1": "[AT] Təsvir və sənədlər",
-        "2": "[AT] Müraciət etmək qaydaları",
-        "3": "[AT] İştirakçıların akkreditasiyası",
-        "4": "[AT] Vəzifə spesifikasiyası",
-        "5": "[AT] Qeyri-Qiymət Sorğu Meyarları"
+        "0": "Ilkin kvalifikasiya",
+        "1": "Təsvir və sənədlər",
+        "2": "Müraciət qaydaları",
+        "3": "İştirakçıların akkreditasiyası",
+        "4": "Maddələr spesifikasiyası",
+        "5": "Qeyri-qiymət meyarları"
       },
       "types": {
-        "0": "[AT] Mərhələ",
-        "1": "[AT] Təsvir",
-        "2": "[AT] Sənədlər",
-        "3": "[AT] Ad tələb edin",
-        "4": "[AT] Təsvir",
-        "5": "[AT] Sənədlər",
-        "6": "[AT] Çatdırılma ünvanı",
-        "7": "[AT] qədər təkliflər qəbul edilir",
-        "8": "[AT] Sorğu növü",
-        "9": "[AT] Təklif təqdim etdikdən sonra iştirakçılar baxır",
-        "10": "[AT] Qalib seçərkən, nəzərə alın",
-        "11": "[AT] alternativ təkliflər",
-        "12": "[AT] Valyuta tələb edin",
-        "13": "[AT] Təkliflərin avtomatik yenilənməsi",
-        "14": "[AT] İştirakçılara təkliflər çağırışının bitməsi barədə xatırlatma",
-        "15": "[AT] İştirakçılara təkliflər çağırışının bitməsi barədə əlavə xatırlatma",
-        "16": "[AT] Təşkilatçı təkliflərin qəbulu mərhələsində",
-        "17": "[AT] Ümumiləşdirmə üçün təxmini son tarix",
-        "18": "[AT] Təklif təqdim etmək üçün reyestrlərdə akkreditasiya tələb olunur",
-        "19": "[AT] Vəzifələrin sayı",
-        "20": "[AT] Qrup {{index}}",
-        "21": "[AT] Qrup adı",
-        "22": "[AT] İştirakçının təklif həcmi",
-        "23": "[AT] İlk təklifi təqdim etdikdən sonra",
-        "24": "[AT] Minimum qiymət dəyişikliyi addımı",
-        "25": "[AT] Gözlənilən təklif məbləği",
-        "26": "[AT] Maksimum təklif məbləği",
-        "27": "[AT] Minimum təklif məbləği",
-        "28": "[AT] Satıcı sütunları",
-        "29": "[AT] Vəzifələr",
-        "30": "[AT] Vəzifə {{index}}",
-        "31": "[AT] Sualların sayı",
-        "32": "[AT] Bölmə {{index}}",
-        "33": "[AT] Bölmə adı",
-        "34": "[AT] Sual {{index}}"
+        "0": "Mərhələ",
+        "1": "Təsvir",
+        "2": "Sənədlər",
+        "3": "Sorğunun adı",
+        "4": "Təsvir",
+        "5": "Sənədlər",
+        "6": "Çatdırılma ünvanı",
+        "7": "Təkliflər qəbulunun son tarixi",
+        "8": "Sorğunun növü",
+        "9": "İştirakçılar nə görürlər",
+        "10": "Qalib seçərkən, nəzərə alınır",
+        "11": "Alternativ təkliflərin sayı",
+        "12": "Sorğunun valyutası",
+        "13": "Təkliflər qəbulunun avtomatik uzadılması",
+        "14": "Təkliflər qəbulunun başa çatması ilə bağlı iştirakçılara xatırlatma",
+        "15": "Təkliflər qəbulunun başa çatması ilə bağlı iştirakçılara əlavə xatırlatma",
+        "16": "Təşkilatçı təkliflərin qəbulu mərhələsində:",
+        "17": "Yekunlaşdırma üçün təxmini son tarix",
+        "18": "Təklif təqdim etmək üçün reyestrlərdə akkreditasiya tələb olunur",
+        "19": "Maddələrin  sayı",
+        "20": "Lot {{index}}",
+        "21": "Lotun adı",
+        "22": "İştirakçının təklif həcmi",
+        "23": "İlk təklifi təqdim etdikdən sonra",
+        "24": "Minimum qiymət dəyişikliyi addımı",
+        "25": "Gözlənilən təklif məbləği",
+        "26": "Maksimum təklif məbləği",
+        "27": "Minimum təklif məbləği",
+        "28": "Satınalan təşkilatın sütunları",
+        "29": "Maddələr",
+        "30": "Maddə {{index}}",
+        "31": "Sualların sayı",
+        "32": "Bölmə {{index}}",
+        "33": "Bölmə adı",
+        "34": "Sual {{index}}"
       }
     },
     "forbidden": {
-      "text": "[AT] İcazə tələb olunur.",
-      "notice": "[AT] Təfərrüatlar əvvəlcədən təyin edilmiş / NDA sorğuçuları üçün mövcuddur\nvə ya qapalı sorğuya dəvət olunur"
+      "text": "İcazə tələb olunur.",
+      "notice": "Təfərrüatlar əvvəlcədən təyin edilmiş sorğuçuları üçün mövcuddur\nvə ya qapalı sorğuya dəvət olunur"
     },
     "comparison": {
-      "header": "[AT] {{number}} • {{name}}",
+      "header": "{{number}} • {{name}}",
       "table": {
         "filter": {
-          "label": "[AT] Yalnız dəyişiklikləri göstərin"
+          "label": " Yalnız dəyişiklikləri göstərin"
         },
         "version": {
-          "draft": "[AT] Yeni nəşr (dərc olunmayıb)",
-          "date": "[AT] {{ value }} (MSK) tərəfindən redaktə edilib",
-          "current": "[AT] oldu",
-          "previous": "[AT] idi"
+          "draft": "Yeni redaktə (dərc olunmayıb)",
+          "date": " {{ value }} (MSK) tərəfindən redaktə edilib",
+          "current": "Hazırki versiya",
+          "previous": "İlkin versiya"
         },
         "record": {
-          "date": "[AT] {{value}} (MSK)",
-          "summing_up": "[AT] {{ value }} gün",
-          "prolongation_time": "[AT] {{value}} dəq.",
-          "notification_hours": "[AT] {{value}} h",
-          "price": "[AT] {{value}} {{currency}}",
+          "date": "{{value}} (MSK)",
+          "summing_up": "{{ value }} gün",
+          "prolongation_time": "{{value}} dəq.",
+          "notification_hours": "{{value}} saat",
+          "price": " {{value}} {{currency}}",
           "nda": {
-            "true": "[AT] Keçirilib",
-            "false": "[AT] Həyata keçirilməyib"
+            "true": "Keçirilib",
+            "false": "Keçirilməyib"
           },
           "position": {
-            "description": "[AT] Təsvir:",
-            "documents": "[AT] Sənədlər:",
-            "count": "[AT] Miqdarı:",
-            "exp_price": "[AT] Gözlənilən vahid qiyməti,",
-            "max_price": "[AT] Vahid başına maksimum qiymət,",
-            "min_price": "[AT] Vahid üçün minimum qiymət,",
-            "trg_price": "[AT] Vahid üçün hədəf qiymət,"
+            "description": "Təsvir:",
+            "documents": "Sənədlər:",
+            "count": "Miqdarı:",
+            "exp_price": "Vahidin gözlənilən qiyməti,",
+            "max_price": "Vahidin maksimal qiyməti,",
+            "min_price": "Vahidin minimal qiyməti,",
+            "trg_price": "Vahidin  hədəf qiyməti,"
           },
           "question": {
-            "text": "[AT] Mətn:",
-            "type": "[AT] Cavab növü:",
-            "required": "[AT] Məcburi cavab:",
-            "hidden": "[AT] Cavab digər üzvlərdən gizlidir:",
-            "true": "[AT] Bəli",
-            "false": "[AT] Yox"
+            "text": "Mətn:",
+            "type": "Cavab növü:",
+            "required": "Məcburi cavab:",
+            "hidden": "Cavab digər iştirakçılara gizlidir:",
+            "true": "Bəli",
+            "false": "Xeyir"
           }
         },
         "empty": {
-          "text": "[AT] Dəyişiklik yoxdur"
+          "text": "Dəyişiklik yoxdur"
         },
         "soon": {
-          "4": "[AT] Tələb maddələri üzrə spesifikasiyaların müqayisəsi yaxın gələcəkdə həyata keçiriləcək",
-          "5": "[AT] Qeyri-qiymət tələbi meyarlarının müqayisəsi tezliklə həyata keçiriləcək"
+          "4": "Sorğunun maddələri üzrə spesifikasiyaların müqayisəsi yaxın gələcəkdə həyata keçiriləcək",
+          "5": "Qeyri-qiymət meyarlarının müqayisəsi tezliklə həyata keçiriləcək"
         }
       }
     }
