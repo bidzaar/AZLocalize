@@ -327,9 +327,6 @@
     "Positions.HowManyPositionsCount": "Göndərilən vəzifələr",
     "Positions.PositionCountFrom": "-dan",
     "Positions.PriceInGroupPer": "vahid başına",
-    "ProposalGroupHeader.VatNullPriceColumnName": "Цены указаны в {0}",
-    "ProposalGroupHeader.WithoutVatPriceColumnName": "Цены указаны в {0} без НДС",
-    "ProposalGroupHeader.WithVatPriceColumnName": "Цены указаны в {0} с НДС",
     "CompanyProcedures.WithoutGroups": "Element spesifikasiyası yoxdur",
     "ProcedureEvents.Closed": "Bağlı",
     "ProcedureType.Buy": "Alış",
@@ -379,5 +376,8 @@
     "Positions": "Maddələr spesifikasiyası",
     "CompanyProcedures.PermitDown": "İştirakçılar yalnız qiyməti aşağı sala bilər (endirim)",
     "CompanyProcedures.PermitUp": "İştirakçılar yalnız qiyməti qaldıra bilər (hərrac)",
-    "CompanyProcedures.PermitUpDown": "İştirakçılar  qiyməti qaldıra və ya endirə bilərlər"
+    "CompanyProcedures.PermitUpDown": "İştirakçılar  qiyməti qaldıra və ya endirə bilərlər",
+    "ProposalGroupHeader.VatNullPriceColumnName": "[AT] Qiymətlər {0} daxilindədir",
+    "ProposalGroupHeader.WithoutVatPriceColumnName": "[AT] Qiymətlər ƏDV-siz {0} ilədir",
+    "ProposalGroupHeader.WithVatPriceColumnName": "[AT] Qiymətlər ƏDV ilə {0} ilədir"
 }
