@@ -84,8 +84,8 @@
                     "improve": "Təklifinizi təkmilləşdirin"
                 },
                 "title": {
-                    "true": "Alternativ təklif",
-                    "false": "Təklif  №{{value}}"
+                    "true": "Təklif  №{{value}}",
+                    "false": "Alternativ təklif"
                 },
                 "status": {
                     "submitted": "Göndərilib ",
