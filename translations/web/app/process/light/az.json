@@ -3085,7 +3085,7 @@
             "submit": "iştirak et",
             "cancel": "Mən hələ düşünürəm",
             "agreements": {
-              "order": "Sifarişçi tərəfindən təklifimi seçərkən komissiyanın ödənilməsi ilə razıyam",
+              "order": "Sifarişçi tərəfindən təklifimi seçərkən komissiya şərtləri ilə razıyam",
               "users": " \"İştirak et\" düyməsini klikləməklə, siz <a href=\"{{value}}\" target=\"_blank\">İstifadəçi Müqaviləsi</a>-nin şərtlərini qəbul edirsiniz.",
               "tooltip": "Yalnız Sifarişçi tərəfindən seçilmiş iştirakçılar tərəfindən ödənilir və Müştəri ilə İştirakçı arasında müqavilənin imzalanmasından asılı deyil. Komissiyanın məbləği Müştərinin seçdiyi vəzifələrin məbləğindən asılıdır."
             }
