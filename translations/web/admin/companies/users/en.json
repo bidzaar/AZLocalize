@@ -3,7 +3,96 @@
         "list": {
             "empty": {
                 "filtered": "Unfortunately, it was not possible to find employees for this request...",
-                "absolute": "The company has no registered employees on ProcureSaaS yet"
+                "absolute": "The company has no registered employees on Bidzaar yet"
+            },
+            "header": {
+                "title": "Company employees",
+                "search": "The search is carried out by the name of the employee and contact information"
+            },
+            "sorting": {
+                "name": "Name",
+                "status": "Status",
+                "status_changed": "Status change date"
+            },
+            "filters": {
+                "rights": {
+                    "title": "Access rights"
+                },
+                "status": {
+                    "title": "Status"
+                },
+                "statusChangedOn": {
+                    "title": "Status change date"
+                }
+            },
+            "card": {
+                "rights": {
+                    "empty": "No access rights"
+                }
+            },
+            "preview": {
+                "status": {
+                    "date": "with {{ value }}"
+                },
+                "rights": {
+                    "list": "User rights",
+                    "empty": "Access rights are not assigned"
+                },
+                "confirm": "Approve",
+                "give_admin": "Give company administrator rights"
+            }
+        },
+        "enums": {
+            "rights": {
+                "0": {
+                    "short": "Rights are not assigned",
+                    "long": "Rights are not assigned"
+                },
+                "1": {
+                    "short": "Buyer",
+                    "long": "Buyer"
+                },
+                "2": {
+                    "short": "Vendor",
+                    "long": "Vendor"
+                },
+                "4": {
+                    "short": "Applicant for onboarding",
+                    "long": "Applicant for onboarding"
+                },
+                "8": {
+                    "short": "Applicantion for onboarding",
+                    "long": "Management of vendor pools"
+                },
+                "16": {
+                    "short": "Company administrator",
+                    "long": "Company administrator"
+                },
+                "128": {
+                    "short": "Buyer (department manager)",
+                    "long": "Head of Purchasing Department"
+                },
+                "256": {
+                    "short": "Group admin",
+                    "long": "Group admin"
+                },
+                "512": {
+                    "short": "Vendor Pool Administrator",
+                    "long": "Vendor Pool Administrator"
+                },
+                "1024": {
+                    "short": "Vendor Pool Administrator Administrator (head of department)",
+                    "long": "Head of Vendor Department"
+                },
+                "2048": {
+                    "short": "Request for onboarding to the vendor pool",
+                    "long": "Applying for onboarding to the vendor pool"
+                }
+            },
+            "role": {
+                "0": "Auditor",
+                "1": "Editor",
+                "2": "Owner"
             }
         }
     }

@@ -1,3 +1,216 @@
 {
-    "cmp.profile": {}
+    "cmp.profile": {
+        "enums": {
+            "tariff_fee": {
+                "0": "Participation in the tender is free",
+                "1": "Vendor only",
+                "2": "Only the buyer",
+                "3": "Primarily vendor",
+                "4": "Mainly buyer"
+            }
+        },
+        "company": {
+            "viewer": {
+                "header": {
+                    "info": "ID: {{ number }} • Registration: {{ date }}",
+                    "actions": {
+                        "chat": "Chat with the company",
+                        "crm": "CRM",
+                        "profile": "Profile"
+                    }
+                },
+                "sections": {
+                    "general": "General information",
+                    "supplier": "Vendor comission",
+                    "purchaser": "Buyer Options",
+                    "company": "Company data"
+                },
+                "employees": {
+                    "title": "Employees"
+                },
+                "rights": {
+                    "title": "Company rights",
+                    "empty": "Access rights are not set"
+                },
+                "achievements": {
+                    "header": "Badges",
+                    "empty": "Badges are not set"
+                },
+                "tags": {
+                    "title": "Purchased tags",
+                    "text": "Tags:"
+                },
+                "suppliers": {
+                    "header": "Company visibility in customer widgets",
+                    "empty": "Companies of Buyers are not specified",
+                    "add": "Add"
+                },
+                "requisites": {
+                    "header": "Company details",
+                    "empty": "Details are not set",
+                    "edit": "Edit"
+                },
+                "groups": {
+                    "rights_visibility": "Company rights and visibility",
+                    "tariff": "Vendor comission",
+                    "buyer_options": "Buyer Options",
+                    "company": "Company data"
+                },
+                "is_shown": {
+                    "title": "Show in companies' lists",
+                    "shown": "The company is shown in the list",
+                    "hidden": "The company is hidden from the list"
+                },
+                "tariff_plan": {
+                    "title": "Vendor comission",
+                    "tax_free": {
+                        "true": "The company pays no commission",
+                        "false": "The company pays a commission"
+                    },
+                    "enabled": {
+                        "true": "Comission is included: “{{value}}”",
+                        "false": "Comission is disabled: “{{value}}”"
+                    }
+                },
+                "csm": {
+                    "title": "Responsible Sale/CSM",
+                    "pin": "Pin",
+                    "unpin": "Unpin",
+                    "empty": "Not assigned",
+                    "journal": "Assignments report",
+                    "success": "Employee is assigned",
+                    "dialog": {
+                        "table": {
+                            "header": {
+                                "size": "Records: {{ value }}",
+                                "role": "Role",
+                                "employee": "Employee",
+                                "event": "Event",
+                                "initiator": "Initiator",
+                                "date": "date"
+                            },
+                            "role": {
+                                "0": "CSM",
+                                "1": "Salesperson"
+                            },
+                            "event": {
+                                "0": "Unpinned",
+                                "1": "Pinned"
+                            },
+                            "empty": "Responsible person has not been previously assigned"
+                        }
+                    }
+                },
+                "esg": {
+                    "title": "ESG certification",
+                    "change": "Set",
+                    "enabled": {
+                        "true": "Enabled",
+                        "false": "Disabled"
+                    },
+                    "reports": {
+                        "certificate": "ESG Certificate",
+                        "report": "ESG Report"
+                    }
+                },
+                "payment_rules": {
+                    "title": "Purchasing company setup: pay-to-win rules",
+                    "fee": "Who pays",
+                    "free": "Private tenders are free"
+                },
+                "change": "Set"
+            },
+            "editor": {
+                "crm": {
+                    "header": "Link to profile in CRM",
+                    "label": "Link"
+                },
+                "chat": {
+                    "header": "Link to chat with the company",
+                    "label": "Link"
+                },
+                "tags": {
+                    "header": "Purchased tags",
+                    "label": "Quantity",
+                    "hint": "Up to 25 tags"
+                },
+                "rights": {
+                    "header": "Company rights"
+                },
+                "achievements": {
+                    "header": "Badges"
+                },
+                "suppliers": {
+                    "header": "Selecting a customer company",
+                    "label": "Company ID",
+                    "hint": "Profile ID: 000-0000",
+                    "not_found": "Company is not found. Copy ID from company profile"
+                },
+                "common": {
+                    "actions": {
+                        "cancel": "Cancel",
+                        "submit": "Apply",
+                        "save": "Save"
+                    }
+                },
+                "requisites": {
+                    "success": "Company details updated"
+                },
+                "tariff_plan": {
+                    "header": "Comission details",
+                    "name": "Tariff name",
+                    "dates": "Tariff validity period",
+                    "enabled": "Comission is included",
+                    "taxFree": "The company does not pay commission for winning",
+                    "cancel": "Cancel",
+                    "submit": "Save",
+                    "success": "Comission plan is updated",
+                    "already_exists": "A verified company with a similar TIN already exists"
+                },
+                "esg": {
+                    "header": "ESG certification",
+                    "enabled": "The company is certified",
+                    "category": "Specify a category",
+                    "certificate": {
+                        "title": "ESG Certificate",
+                        "upload": "Download Certificate"
+                    },
+                    "report": {
+                        "title": "ESG Report",
+                        "upload": "Download Report"
+                    },
+                    "rating": {
+                        "title": "ESG rating",
+                        "common": "Total score",
+                        "ecology": "(E) Environmental",
+                        "society": "(S) Scocial",
+                        "management": "(G) Governance"
+                    },
+                    "actions": {
+                        "cancel": "Cancel",
+                        "submit": "Save"
+                    }
+                },
+                "payment_rules": {
+                    "header": "Pay to Win Rules",
+                    "fee": "Who pays",
+                    "free": "Private requests are free"
+                }
+            },
+            "dialogs": {
+                "remove_supplier": {
+                    "text": "Exclude the visibility of the company in the customer's company widget?",
+                    "confirm": "Exclude",
+                    "cancel": "Cancel"
+                }
+            }
+        }
+    },
+    "errors": {
+        "logic": {
+            "UserManagement": {
+                "VerifiedCompanyAlreadyExists": "A verified company with the specified details already exists"
+            }
+        }
+    }
 }

@@ -1,3 +1,29 @@
 {
-    "merge": {}
+    "merge": {
+        "title": "Tags merge",
+        "description": "Enter tags or select from the cloud to merge",
+        "empty": "No tags added...",
+        "add_tags_actions": {
+            "manual_input": "Manual input",
+            "input_cloud": "Select from the cloud"
+        },
+        "actions": {
+            "clear": "Clear the list",
+            "merge": "Merge"
+        },
+        "success": "Tags merged",
+        "manual_tags_dialog": {
+            "title": "Enter tags",
+            "text": "Tags are separated by a comma or a line break. The # symbol is ignored",
+            "send": "Tag search",
+            "cancel": "Cancel"
+        },
+        "confirmation_dialog": {
+            "title": "Tags merge",
+            "text": "Tags in the group will be replaced with the resulting tag in requests and company profiles",
+            "cancel": "Cancel",
+            "merge": "Merge"
+        },
+        "tag_not_found": "Tag not found"
+    }
 }

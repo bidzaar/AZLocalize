@@ -1,8 +1,8 @@
 {
     "trf.cms.list": {
         "header": {
-            "title": "Tariff Packages",
-            "add": "Add Tariff Package",
+            "title": "Customers on the tariff package",
+            "add": "Add customer",
             "recordings": "Recordings: "
         },
         "remove": "Cancel the tariff package",
@@ -10,12 +10,12 @@
             "rights": {
                 "0": "Rights not assigned",
                 "1": "Buyer",
-                "2": "Supplier",
-                "4": "Accreditation",
+                "2": "Vendor",
+                "4": "Onboarding",
                 "16": "CC",
                 "128": "Hands. procurement",
                 "256": "Group Administrator",
-                "512": "Registries"
+                "512": "Vendor pools"
             }
         },
         "invite": {
@@ -43,7 +43,7 @@
                         "false": "Only not phantoms"
                     },
                     "verified": {
-                        "title": "Verified ProcureSaaS",
+                        "title": "Verified Bidzaar",
                         "true": "Verified only",
                         "false": "Unchecked only"
                     }
@@ -52,7 +52,7 @@
                     "registration_date": "Registration date"
                 },
                 "search": "TIN, Brand, Legal Name, Company Code, Description, Legal Address, Tags, Phone, Email",
-                "empty": "Nothing was found for your query...",
+                "empty": "Nothing was found for your request...",
                 "crm": "CRM",
                 "actions": {
                     "notify_users_tooltip": "Send email"
@@ -61,11 +61,11 @@
             "success": "Companies added"
         },
         "dialog": {
-            "title": "Tariff package",
-            "text": "The standard tariff package will be valid in the company's requests.",
+            "title": "Cancel the comission package",
+            "text": "The standard comission package will be valid in the company's requests.",
             "sub": "Apply",
             "cancel": "Cancel"
         },
-        "empty": "List is empty"
+        "empty": "Add customers for whom the comission package will be applied"
     }
 }

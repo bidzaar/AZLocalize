@@ -21,7 +21,7 @@
                 "placeholder": "Customer"
             },
             "index": {
-                "label": "Position on the board"
+                "label": "Item is represented"
             },
             "customers": {
                 "label": "Customer",

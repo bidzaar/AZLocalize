@@ -1,3 +1,77 @@
 {
-    "req.details": {}
+    "req.details": {
+        "tabs": {
+            "open": "View",
+            "nda": "Request data protected by NDA",
+            "tags": "Tags",
+            "docs": "Documentation",
+            "rules_general": "Request terms",
+            "rules_participant": "Conditions for Request Participants",
+            "questions_on": "Non-pricing criteria",
+            "questions_off": "Non-pricing criteria is not set",
+            "positions_on": "Item specification",
+            "positions_off": "Item specification is disabled",
+            "positions_off_notice": "Vendors indicate the total price for the entire request"
+        },
+        "expansions": {
+            "nda": {
+                "title": "NDA documents"
+            },
+            "docs": {
+                "title": "Documentation"
+            }
+        },
+        "description": {
+            "expand": "how all",
+            "collapse": "Hide",
+            "empty": "Description is not set"
+        },
+        "contacts": {
+            "title": "Contact person"
+        },
+        "owners": {
+            "title": "Request Owners"
+        },
+        "statistics": {
+            "stage": {
+                "label": "Stage"
+            },
+            "participants": {
+                "label": "Participated",
+                "tooltip": "Number of stage participants, including those who refused and blocked"
+            },
+            "proposals": {
+                "label": "Vendors with bid",
+                "tooltip": "Number of stage participants who submitted a bid within the stage"
+            }
+        },
+        "category": {
+            "title": "Request Category"
+        },
+        "comment": {
+            "title": "A comment",
+            "edit": "Change",
+            "add": "Add a comment"
+        },
+        "tariffs": {
+            "title": "Rate",
+            "free": {
+                "title": "Comission is not applicable",
+                "text": "Participation is free",
+                "closed": "No commission for private requests"
+            },
+            "promo": {
+                "title": "Comission is not applicable",
+                "text": "Promo code applied: {{value}}"
+            },
+            "tariff": {
+                "info": "More",
+                "purchaser": "Customer pays",
+                "seller": "Winning vendor pays"
+            },
+            "dialog": {
+                "edit": "Change request comission"
+            }
+        }
+    }
 }

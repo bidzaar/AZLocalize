@@ -1,3 +1,49 @@
 {
-    "req.prt": {}
+    "req.prt": {
+        "list": {
+            "header": {
+                "title": "Vendors",
+                "search": "Number, TIN, Name, Email, Description, Phone"
+            },
+            "empty": {
+                "text": "Nothing found for your search..."
+            },
+            "sorting": {
+                "status": "Status",
+                "statusDate": "Status change",
+                "overlapTagsCount": "Tag match"
+            },
+            "filters": {
+                "status": {
+                    "title": "Status"
+                },
+                "address": {
+                    "title": "Location"
+                },
+                "invited_by": {
+                    "title": "Who invited"
+                }
+            },
+            "card": {
+                "wins": {
+                    "tooltip": "Wins/Participations"
+                },
+                "tags": {
+                    "tooltip": "Number of matching tags"
+                },
+                "invite": {
+                    "no_profile": "Company profile not created"
+                }
+            },
+            "actions": {
+                "download_report": "Download the \"Vendors\" report",
+                "open_chat": "Chat with the buyer",
+                "open_request": "Public request",
+                "open_events": "Request report",
+                "invite": "Invite",
+                "invite_site": "Invite from the platform",
+                "invite_similar": "Invite from related requests"
+            }
+        }
+    }
 }

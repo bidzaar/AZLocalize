@@ -1,3 +1,20 @@
 {
-    "stop": {}
+    "stop": {
+        "header": {
+            "title": "Stop tags list"
+        },
+        "manual_tags_dialog": {
+            "title": "Enter tags",
+            "text": "Tags are separated by a comma or a line break.",
+            "cancel": "Cancel",
+            "send": "Add"
+        },
+        "confirmation_dialog": {
+            "title": "Add tags to stop tags list",
+            "text": "• Tags are already present in stop tags list will be ignored\n\n • Tags that were added to stop tags list will be removed from the cloud, requests, vendor pools, company profiles",
+            "cancel": "Cancel",
+            "add": "Add"
+        },
+        "empty_list": "No tags added"
+    }
 }

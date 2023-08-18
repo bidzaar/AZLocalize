@@ -1,3 +1,89 @@
 {
-    "req.side": {}
+    "req.side": {
+        "request": {
+            "header": {
+                "publish": "Published on {{ date }}"
+            },
+            "details": {
+                "participants": "List of vendors",
+                "site": "Public request"
+            },
+            "contacts": {
+                "title": "Customer contact person"
+            },
+            "owners": {
+                "title": "Request Owners"
+            },
+            "statistics": {
+                "stage": {
+                    "label": "Stage"
+                },
+                "participants": {
+                    "label": "Participated",
+                    "tooltip": "Number of stage participants, including those who refused and blocked"
+                },
+                "proposals": {
+                    "label": "Vendors with a bid",
+                    "tooltip": "Number of stage participants who submitted a bid within the stage"
+                }
+            }
+        },
+        "supplier": {
+            "header": {
+                "number": "ID: {{ number }}",
+                "date": "On platform since {{ date }}",
+                "invite": "Invited by email"
+            },
+            "invite": {
+                "additional": {
+                    "text": "Company data\nmissing"
+                }
+            },
+            "company": {
+                "categories": {
+                    "title": "Company categories"
+                },
+                "contacts": {
+                    "title": "About company",
+                    "placeholders": {
+                        "location": "Legal address is not specified",
+                        "email": "Email is not specified",
+                        "site": "Website is not specified",
+                        "phone": "Phone number is not listed",
+                        "employees": "Company size is not specified"
+                    }
+                },
+                "areas": {
+                    "title": "Business region",
+                    "text": "The company provides services or goods in the territory:",
+                    "empty": "Not specified"
+                },
+                "details": {
+                    "profile": "Company Profile",
+                    "manage": "View in admin panel"
+                },
+                "tags": {
+                    "title": "Company tags",
+                    "count": "Matched: {{ count }}",
+                    "expand": "Show all",
+                    "collapse": "Hide",
+                    "empty": "The company did not specify tags in the profile"
+                },
+                "additional": {
+                    "description": {
+                        "title": "Company Description",
+                        "placeholder": "Description is not provided"
+                    },
+                    "requisites": {
+                        "title": "Bank details"
+                    }
+                }
+            },
+            "participant": {
+                "contacts": {
+                    "title": "Vendor contact person"
+                }
+            }
+        }
+    }
 }
