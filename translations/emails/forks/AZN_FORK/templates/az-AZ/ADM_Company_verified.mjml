@@ -20,16 +20,16 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h2>İndi @TargetContext.CompanyName – ProcureSaaS - da yoxlanılmış şirkətdir</h2>
+          <h2>İndi @TargetContext.CompanyName – @ConfigurationContext.ProjectName - da yoxlanılmış şirkətdir</h2>
           <p><br /><b>Bu nə deməkdir?</b></p>
           <ul>
             <li> Şirkət təchizatçılar siyahısında seçilir və axtarış nəticələrində yüksəlir </li>
             <li> Şirkətin reputasiyası və fəaliyyət reytinqi yüksəlir</li>
             <li> Yalnız yoxlanılmış təchizatçılar üçün olan sorğularda iştirak etmək imkanı əldə edilir</li>
           </ul>
-          <p>ProcureSaaS-da sizə uğurlar və yeni qələbələr arzulayırıq!</p>
+          <p>@ConfigurationContext.ProjectName-da sizə uğurlar və yeni qələbələr arzulayırıq!</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl">ProcureSaaS-a keç</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl">@ConfigurationContext.ProjectName-a keç</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />
