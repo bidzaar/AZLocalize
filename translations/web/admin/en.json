@@ -32,7 +32,7 @@
             },
             "UserManagement": {
                 "Admin": {
-                    "LastAdmin": "You are the only employee with the \"Manage Bidzaar team\" rights. Transfer access rights to another employee and redo the action.",
+                    "LastAdmin": "You are the only employee with the \"Manage ProcureSaas team\" rights. Transfer access rights to another employee and redo the action.",
                     "BlockYourself": "You can't block yourself."
                 }
             }
@@ -64,7 +64,7 @@
     },
     "core": {
         "marketplace": {
-            "name": "BIDZAAR"
+            "name": "ProcureSaas"
         },
         "user_toolbar": {
             "login": "Login",
@@ -88,8 +88,8 @@
         "guest": {
             "request_access": {
                 "title": "Hello",
-                "text": "to access the administration you need to be a member of the Bidzaar team.",
-                "action": "I want to join the Bidzaar team"
+                "text": "to access the administration you need to be a member of the ProcureSaas team.",
+                "action": "I want to join the ProcureSaas team"
             },
             "wait_for_approval": {
                 "title": "Application is submitted",
