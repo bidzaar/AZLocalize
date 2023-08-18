@@ -2222,7 +2222,7 @@
               "label": "Buyer's viewing permission"
             },
             "prolongation": {
-              "label": "Auto extension of bids submission",
+              "label": "Prolongation of bids submission",
               "minutes": "min.",
               "time-left": "end of bids submission",
               "tooltip": "This is applied when vendors submit a bid before the close of the bid extension window. This window is open for up to 99 minutes."

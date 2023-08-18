@@ -348,7 +348,7 @@
     "SimplifiedEventType.ParticipantRefused": "Participant refused",
     "SimplifiedEventType.ParticipantUnblocked": "Participant is unblocked",
     "SimplifiedEventType.ProcedureCompleted": "Request is completed",
-    "SimplifiedEventType.ProcedureProlonged": "Auto-renewal of bid acceptance",
+    "SimplifiedEventType.ProcedureProlonged": "Prolongation of bids submission",
     "SimplifiedEventType.ProcedurePublished": "Request is published",
     "SimplifiedEventType.ProcedureTariffChanged": "The tariff is changed",
     "SimplifiedEventType.ProcedureUnCompleted": "Completed request is returned to conclusion stage",

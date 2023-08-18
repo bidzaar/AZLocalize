@@ -2,101 +2,101 @@
   "pl_cpr": {
     "enums": {
       "groups": {
-        "0": "[AT] Prequalification / NDA",
-        "1": "[AT] Description and documents",
-        "2": "[AT] Rules for making a request",
-        "3": "[AT] Accreditation of participants",
-        "4": "[AT] Position specification",
-        "5": "[AT] Non-Price Query Criteria"
+        "0": "Prequalification / NDA",
+        "1": "Description and documents",
+        "2": "Rules for making a request",
+        "3": "Oboarding of vendors",
+        "4": "Item specification",
+        "5": "Non-Pricing Criteria"
       },
       "types": {
-        "0": "[AT] Stage",
-        "1": "[AT] Description",
-        "2": "[AT] Documentation",
-        "3": "[AT] Request name",
-        "4": "[AT] Description",
-        "5": "[AT] Documentation",
-        "6": "[AT] Delivery address",
-        "7": "[AT] Accepting offers until",
-        "8": "[AT] Request type",
-        "9": "[AT] After submitting an offer, participants see",
-        "10": "[AT] When choosing a winner, take into account",
-        "11": "[AT] alternative proposals",
-        "12": "[AT] Request currency",
-        "13": "[AT] Auto-renewal of offers",
-        "14": "[AT] Reminder to participants of the end of the call for proposals",
-        "15": "[AT] Additional reminder to participants about the end of the call for proposals for",
-        "16": "[AT] Organizer at the stage of accepting proposals",
-        "17": "[AT] Approximate deadline for summing up",
-        "18": "[AT] Accreditation in registries is required to submit an offer",
-        "19": "[AT] Number of positions",
-        "20": "[AT] Group {{index}}",
-        "21": "[AT] Group name",
-        "22": "[AT] Participant's offer volume",
-        "23": "[AT] After submitting the first offer",
-        "24": "[AT] Minimum price change step",
-        "25": "[AT] Expected offer amount",
-        "26": "[AT] Maximum offer amount",
-        "27": "[AT] Minimum offer amount",
-        "28": "[AT] Vendor columns",
-        "29": "[AT] Positions",
-        "30": "[AT] Position {{index}}",
-        "31": "[AT] Number of questions",
-        "32": "[AT] Section {{index}}",
-        "33": "[AT] Section name",
-        "34": "[AT] Question {{index}}"
+        "0": "Stage",
+        "1": "Description",
+        "2": "Documentation",
+        "3": "Request name",
+        "4": "Description",
+        "5": "Documentation",
+        "6": "Delivery address",
+        "7": "Accepting bids until",
+        "8": "Request type",
+        "9": "After submitting a bid, vendors see",
+        "10": "When selecting a winner consider",
+        "11": "Alternative bids",
+        "12": "Request currency",
+        "13": "Prolongation of bids submission",
+        "14": "Reminder to vendors of the end of the bids submission",
+        "15": "Additional reminder to vendors about the end of the bids submission for",
+        "16": "Buyer at the stage of accepting bids",
+        "17": "Approximate deadline for summing up the tender results",
+        "18": "Onboarding to the vendor pools is required to submit a bid",
+        "19": "Number of items",
+        "20": "Group {{index}}",
+        "21": "Group name",
+        "22": "Participant's bid volume",
+        "23": "After submitting the first bid",
+        "24": "Minimum price change step",
+        "25": "xpected bid amount",
+        "26": "Maximum bid amount",
+        "27": "Minimum bid amount",
+        "28": "Vendor columns",
+        "29": "Items",
+        "30": "Item {{index}}",
+        "31": "Number of questions",
+        "32": "Section {{index}}",
+        "33": "Section name",
+        "34": "Question {{index}}"
       }
     },
     "forbidden": {
-      "text": "[AT] Authorization required.",
-      "notice": "[AT] Details available to prequalified / NDA requesters\nor invited to a closed request"
+      "text": "Authorization is required.",
+      "notice": "Details available to prequalified / NDA submitted companies \nor invited to a private request"
     },
     "comparison": {
-      "header": "[AT] {{number}} • {{name}}",
+      "header": "{{number}} • {{name}}",
       "table": {
         "filter": {
-          "label": "[AT] Show only changes"
+          "label": "Show the changes only"
         },
         "version": {
-          "draft": "[AT] New edition (not published)",
-          "date": "[AT] Edited by {{ value }} (MSK)",
-          "current": "[AT] It became",
-          "previous": "[AT] Was"
+          "draft": "New edition (not published)",
+          "date": "Edited by {{ value }} (MSK)",
+          "current": "It became",
+          "previous": "Was"
         },
         "record": {
-          "date": "[AT] {{value}} (MSK)",
-          "summing_up": "[AT] {{ value }} days",
-          "prolongation_time": "[AT] {{value}} min.",
-          "notification_hours": "[AT] {{value}} h",
-          "price": "[AT] {{value}} {{currency}}",
+          "date": "{{value}} (MSK)",
+          "summing_up": "{{ value }} days",
+          "prolongation_time": "{{value}} min.",
+          "notification_hours": "{{value}} h",
+          "price": "{{value}} {{currency}}",
           "nda": {
-            "true": "[AT] Held",
-            "false": "[AT] Not carried out"
+            "true": "Applied",
+            "false": "Not carried out"
           },
           "position": {
-            "description": "[AT] Description:",
-            "documents": "[AT] Documentation:",
-            "count": "[AT] Quantity:",
-            "exp_price": "[AT] Expected unit price,",
-            "max_price": "[AT] Maximum price per unit,",
-            "min_price": "[AT] Minimum price per unit,",
-            "trg_price": "[AT] Target price per unit,"
+            "description": "Description:",
+            "documents": "Documentation:",
+            "count": "Quantity:",
+            "exp_price": "Expected unit price,",
+            "max_price": "Maximum price per unit,",
+            "min_price": "Minimum price per unit,",
+            "trg_price": "Target price per unit,"
           },
           "question": {
-            "text": "[AT] Text:",
-            "type": "[AT] Response type:",
-            "required": "[AT] Mandatory answer:",
-            "hidden": "[AT] The answer is hidden from other members:",
-            "true": "[AT] Yes",
-            "false": "[AT] No"
+            "text": "Text:",
+            "type": "Response type:",
+            "required": "Mandatory answer:",
+            "hidden": "The answer is hidden from other vendors:",
+            "true": "Yes",
+            "false": "No"
           }
         },
         "empty": {
-          "text": "[AT] No change"
+          "text": " No change"
         },
         "soon": {
-          "4": "[AT] Comparison of specifications by request items will be implemented in the near future",
-          "5": "[AT] Comparison of non-price request criteria will be implemented soon"
+          "4": "Comparison of specifications by request items will be implemented in the near future",
+          "5": "Comparison of non-pricing request criteria will be implemented soon"
         }
       }
     }
