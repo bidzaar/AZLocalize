@@ -1,10 +1,4 @@
 <mjml>
-  <!-- 
-Mövzu:  @ProcedureContext.ProcedureOwnerCompanyName sizi əməkdaşlığa dəvət edir
-Kimə: məktubun sahibi
-
-Təşkilatçı iştirakçını sorğuya elektron məktubla dəvət etdi
--->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -27,10 +21,7 @@ Təşkilatçı iştirakçını sorğuya elektron məktubla dəvət etdi
         <mj-button href="@ProcedureContext.Url">Sorğuya keç</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /intro -->
     <mj-include path="./__tpl/__spacer.mjml" />
-    <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__footer_unsub.mjml" />
-    <!-- /footer -->
-  </mj-body>
+       <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
 </mjml>

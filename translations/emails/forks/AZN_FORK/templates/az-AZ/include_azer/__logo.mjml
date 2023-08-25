@@ -1,0 +1,5 @@
+    <mj-section mj-class="section-logo">
+      <mj-column>
+        <mj-image align="left" src="@ConfigurationContext.ImageLogo" href="@ConfigurationContext.BaseUrl" width="144px" height="44px" padding="0" />        
+      </mj-column>
+    </mj-section>

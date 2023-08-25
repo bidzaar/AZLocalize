@@ -1,9 +1,9 @@
 <mjml>
   <!-- 
-Тема: Участник отозвал предложение: "@ProcedureContext.ProcedureName"
-Получатель: члены команды запроса компании-организатора на имейлы, указанные при логине
+Mövzu: İştirakçı təklifi geri qaytardı: "@ProcedureContext.ProcedureName"
+Kimə: Qeydiyyatdan keçmiş əməkdəşlara
 
-Участник отозвал предложение
+İştirakçı sorğunu geri qaytardı
 -->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
@@ -22,12 +22,12 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <p class="mt0">İştirakçıya sualları sorğunun çatında verə bilərsiniz.</p>          
+          <p class="mt0">İştirakçılara sualınızı çatda verin.</p>
+          <br />
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

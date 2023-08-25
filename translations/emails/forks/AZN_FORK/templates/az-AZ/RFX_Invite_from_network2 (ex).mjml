@@ -1,0 +1,42 @@
+<mjml>
+  <!-- 
+Mövzu: 🔴<компания-организатор> şirkəti tərəfindən sorğuya dəvət
+
+Təşkilatçı iştirakçını sorğuya dəvət etdi
+https://cgnjira.cognitive.ru:8444/pages/viewpage.action?pageId=65177578
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 class="bb">Sorğuya dəvət</b></h1>
+          <p><название ко> şirkəti sorğuda iştirak etməyə dəvət olundu</p>
+          <p class="mb-0"><b>Sorğu:</b> <a href="@ProcedureContext.Url">Kompyuter texnikası sorğusu</a><br />
+            <b>Sifarişçi:</b> MMC "VEKTOR"
+          </p>
+          <div>
+            <p class="owner_msg_label"><b>Sifarişçinin mesajı:</b></p>
+            <p class="owner_msg_text">Salam! 
+              "Vektor" şirkəti sizi təkliflər sorğusunda iştirak etməyə dəvət edir. Sualınız yaranarsa Platformanın çatında sifarişçiyə yaza bilərsiniz
+              Əməkdaşlıq üçün təşəkkürümüzü bildiririk. </p>
+          </div>
+          <p>
+            <b>Təkliflər qəbulunun son tarixi:</b> 23.12.2022 15:45<br />
+            <b>Çatdırılma tarixi:</b> Bakı, Azərbaycan<br />            
+            <b>Bildiriş: </b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Sorğunun bildirişini endir</a>
+          </p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğu ilə tanış olun</mj-button>
+        <mj-text>
+          <p class="small mb-0">Təkliflər qəbulu yalnız @ConfigurationContext.ProjectName platformasında keçirilir</p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
+</mjml>
