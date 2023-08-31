@@ -64,7 +64,7 @@
             },
             "details": {
                 "name": "Field name",
-                "type": "Type:"
+                "type": "Column type"
             },
             "empty": {
                 "text": "No additional columns have been added",
@@ -104,23 +104,23 @@
             "table": {
                 "actions": {
                     "documents": {
-                        "title": "Allow attaching documents to a position",
-                        "text": "Enabled option gives members the ability to attach documents to positions"
+                        "title": "Allow attaching documents to the item",
+                        "text": "Enabled option gives members the ability to attach documents to items"
                     }
                 }
             },
             "defaults": {
-                "name": "New position",
+                "name": "New item",
                 "unit": "unit"
             },
             "actions": {
                 "append": "Add item"
             },
             "delete": {
-                "text": "Delete position?",
+                "text": "Delete item?",
                 "confirm": "Delete",
                 "cancel": "Cancel",
-                "success": "Position deleted"
+                "success": "Item deleted"
             }
         }
     }

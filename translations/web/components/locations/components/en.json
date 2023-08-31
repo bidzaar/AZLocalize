@@ -7,9 +7,9 @@
         },
         "fields": {
             "country": "Country",
-            "region": "Country, region or locality",
+            "region": "Country, region or location",
             "state": "Region / Area / Republic",
-            "locality": "City / Locality",
+            "locality": "City / Location",
             "address": "Street, house, office"
         },
         "validation": {

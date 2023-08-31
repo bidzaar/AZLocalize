@@ -2,19 +2,19 @@
     "hrch": {
         "list": {
             "title": {
-                "registry": "Registries"
+                "registry": "Vendor pools"
             },
             "empty": {
                 "title": "Folder is empty",
                 "text": {
-                    "registry": "Create a new registry or move an existing one"
+                    "registry": "Create a new vendor pool or move an existing one"
                 }
             },
-            "empty_list": "Sorry, no registries available",
+            "empty_list": "Sorry, no vendor pools are available",
             "create": "Create",
             "new_folder": "New folder",
             "new_item": {
-                "registry": "New registry"
+                "registry": "New vendor pool"
             },
             "folder_menu": {
                 "rename": "Rename",
@@ -24,12 +24,12 @@
                 "clone": "Clone"
             },
             "clone_dialog": {
-                "title": "Clone Registry",
-                "label": "Registry name",
-                "description": "The questionnaire, settings and access rights to the registry are transferred to the draft registry.\nThe registry is cloned without transferring companies and applications.",
+                "title": "Clone Vendor Pool",
+                "label": "Vendor pool name",
+                "description": "The questionnaire, settings and access rights to the vendor pool are transferred to the draft vendor pool.\nThe vendor pool is cloned without transferring companies and applications.",
                 "cancel": "Cancel",
                 "clone": "Clone",
-                "success": "Registry successfully cloned",
+                "success": "Vendor pool is successfully cloned",
                 "title_additive": " (copy)"
             },
             "selection_dialog": {
@@ -37,7 +37,7 @@
                 "cancel": "Cancel"
             },
             "new_registry_dialog": {
-                "title": "New registry",
+                "title": "New vendor pool",
                 "label": "Name",
                 "create": "Create",
                 "cancel": "Cancel"
@@ -64,7 +64,7 @@
                 "error": {
                     "title": "The folder cannot be deleted",
                     "info": "The <span class=\"breadcrumbs\">\"{{value}}\"</span> folder contains objects.\nMove the items to a different folder and repeat the action.",
-                    "close": "Закрыть"
+                    "close": "Close"
                 }
             },
             "move_dialog": {
@@ -77,12 +77,12 @@
             },
             "registry": {
                 "accreditations": {
-                    "tooltip": "Accredited companies"
+                    "tooltip": "Onboarded companies"
                 },
                 "applications": {
                     "tooltip": "Unprocessed applications "
                 },
-                "count": "Registries: {{ value }}"
+                "count": "Vendor pools: {{ value }}"
             },
             "access_denied": "Folder access denied",
             "groups_dialog": {
@@ -99,7 +99,7 @@
                     "empty": "Add groups and configure item permissions",
                     "empty_permissions": "No permissions assigned",
                     "admin_tooltip": "Group leader",
-                    "no_rights": "The employee is not assigned access rights to the registries"
+                    "no_rights": "The employee is not assigned access rights to the vendor pools"
                 }
             },
             "permissions_dialog": {
@@ -108,29 +108,29 @@
                 "override": "Override inherited permissions",
                 "cancel": "Cancel",
                 "submit": "Done",
-                "no_rights": "The employee does not have access to the Registry module. Setting permissions will be available after providing access by the company administrator",
+                "no_rights": "The employee does not have access to the Vendor Pool Module. Setting permissions will be available after providing access by the company administrator",
                 "no_permissions": "The available permissions for the group are not assigned. Contact the head of the department",
                 "allowed_permissions": "The list is limited by the allowed group permissions"
             },
             "registry_permissions": {
                 "1": {
                     "title": "View companies",
-                    "description": "View the list of companies included in the register"
+                    "description": "View the list of companies included in the vendor pool"
                 },
                 "2": {
                     "title": "View requests",
-                    "description": "Viewing companies requests. The visibility of blocks in the application is determined in the registry settings."
+                    "description": "Viewing companies requests. The visibility of sections in the application is determined in the vendor pools settings."
                 },
                 "4": {
                     "title": "Approve",
-                    "description": "Approve companies requests. The composition of the accreditation commission is determined in the registry settings."
+                    "description": "Approve companies requests. The composition of the onboarding commission is determined in the vendor pools settings."
                 },
                 "8": {
-                    "title": "Registry setting",
-                    "description": "Configuring the questionnaire and registry settings"
+                    "title": "Vendor pool setting",
+                    "description": "Configuring the questionnaire and vendor pools settings"
                 },
                 "16": {
-                    "title": "Registry management",
+                    "title": "Vendor pool management",
                     "description": "Publication, closing, approval of changes to the questionnaire"
                 }
             }

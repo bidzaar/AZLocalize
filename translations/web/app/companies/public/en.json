@@ -10,22 +10,22 @@
             },
             "empty": {
                 "message_primary": "Create a public company page",
-                "message_secondary": "Display your public tenders and vendor pools to your partners, set participation terms such as information regarding goods or services you purchase, contacts of the tender committee..."
+                "message_secondary": "Display your public requests and vendor pools to your partners, set application terms such as information regarding goods or services you purchase, contacts of the tender committee..."
             },
             "defaults": {
                 "title": "Section for vendors",
-                "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with experience in the relevant field, experience in implementing similar projects, and also meet other requirements specified in the tender documents.",
+                "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with the knowledge in the relevant field and experience in implementing similar projects, also meet other requirements specified in the tender documents.",
                 "pools": {
-                    "placeholder": "The company hasn't published any pools on ProcureSaas yet.",
+                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
                     "title": "Vendor pools"
                 },
                 "tenders": {
-                    "placeholder": "The company hasn't published any tenders on ProcureSaas yet.",
-                    "title": "Tenders"
+                    "placeholder": "The company hasn't published any requests on Bidzaar yet.",
+                    "title": "Requests"
                 },
                 "registries": {
-                    "placeholder": "The company hasn't published any registries on ProcureSaas yet.",
-                    "title": "Registries"
+                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
+                    "title": "Vendor pools"
                 }
             },
             "profile": {
@@ -35,8 +35,8 @@
                         "title": "Page title"
                     },
                     "description": {
-                        "header": "Block information for potential suppliers",
-                        "title": "Information for suppliers"
+                        "header": "Block information for potential vendors",
+                        "title": "Information for vendors"
                     },
                     "actions": {
                         "cancel": "Cancel",
@@ -47,17 +47,17 @@
                         "placeholder": "Message if the list is empty",
                         "show": "Show this section on the public page",
                         "show_if_empty": "Show sections if the list is empty",
-                        "title": "Vendor pools"
+                        "title": "List title"
                     },
                     "registries": {
-                        "header": "Registries section",
+                        "header": "Vendor pools section",
                         "placeholder": "Message if the list is empty",
                         "show": "Show this section on the public page",
                         "show_if_empty": "Show sections if the list is empty",
-                        "title": "Registries"
+                        "title": "List title"
                     },
                     "tenders": {
-                        "header": "Tender section",
+                        "header": "Requests section",
                         "placeholder": "Message if the list is empty",
                         "show": "Show this section on the public page",
                         "show_if_empty": "Show sections if the list is empty",
@@ -75,20 +75,20 @@
                         "header": "Page title",
                         "empty": {
                             "message_primary": "Specify a page title",
-                            "message_secondary": "For example, \"Purchasing section for company suppliers\".\nThe title is important for users and search engines."
+                            "message_secondary": "For example, \"Purchasing section for company vendors\".\nThe title is important for users and search engines."
                         }
                     },
                     "description": {
                         "header": "Information for potential vendors",
                         "empty": {
-                            "message_primary": "Information for suppliers",
-                            "message_secondary": "Specify the terms and conditions for the participation in tenders, the goods and services\nthat you buy, the contacts of the tender commission..."
+                            "message_primary": "Information for vendors",
+                            "message_secondary": "Specify the terms and conditions for the bid submission to the requests, the goods and services\nthat you buy, the contacts of the tender commission..."
                         }
                     },
                     "files": {
                         "empty": {
                             "message_primary": "Upload documents from vendors",
-                            "message_secondary": "For example, Participation terms and Bid submission,\nTender Events..."
+                            "message_secondary": "For example, participation terms and bid submission details,\nrequest events..."
                         },
                         "header": "Documents for vendors"
                     },
@@ -101,8 +101,8 @@
                             "options": {
                                 "page": "Public page",
                                 "pools": "Vendor pools",
-                                "tenders": "Tenders",
-                                "registries": "Registries"
+                                "tenders": "Requests",
+                                "registries": "Vendor pools"
                             },
                             "title": "Code for iframe"
                         },
@@ -117,7 +117,7 @@
                         "header": "Vendor pools",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Vendor pools are published on the ProcureSaas."
+                            "title": "Vendor pools are published on the Bidzaar."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",
@@ -125,10 +125,10 @@
                         }
                     },
                     "registries": {
-                        "header": "Registries",
+                        "header": "Vendor pools",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Registries are published on the ProcureSaas."
+                            "title": "Vendor pools are published on the Bidzaar."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",
@@ -136,10 +136,10 @@
                         }
                     },
                     "tenders": {
-                        "header": "Tenders",
+                        "header": "Requests",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Tenders are published on the ProcureSaas."
+                            "title": "Requests are published on the Bidzaar."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",

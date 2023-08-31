@@ -11,7 +11,8 @@
                 "title": "Remove comment?",
                 "submit": "Remove",
                 "cancel": "Cancel"
-            }
+            },
+            "text": "Comment"
         }
     }
 }

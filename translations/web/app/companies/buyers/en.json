@@ -2,7 +2,7 @@
     "cmp": {
         "brs": {
             "list": {
-                "title": "Purchasers",
+                "title": "Buyers",
                 "empty": "No results were found for your request..."
             },
             "search": {
@@ -12,7 +12,7 @@
                 "link": "Go to requests"
             },
             "footer": {
-                "all": "Show all customers"
+                "all": "Show all buyers"
             }
         }
     }

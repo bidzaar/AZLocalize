@@ -5,7 +5,7 @@
             "status": {
                 "waiting": {
                     "title": "Request to join has been sent",
-                    "text": "You will be able to work on behalf of this company when the administrator of the company has confirmed your request."
+                    "text": "You will be able to work on behalf of this company when the administrator of the company confirms your request."
                 },
                 "active": {
                     "title": "You are an employee of the company and can work on its behalf."
@@ -15,8 +15,8 @@
                     "text": "Do you have any questions? Contact your company administrator."
                 },
                 "deleted": {
-                    "title": "The company left the site on {{ date }}",
-                    "text": "Do you have any questions? Contact the site's technical support team."
+                    "title": "The company left the platform on {{ date }}",
+                    "text": "Do you have any questions? Contact the platform's technical support team."
                 },
                 "unauth": {
                     "title": "Login or register to accept the invitation",

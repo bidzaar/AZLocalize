@@ -377,7 +377,7 @@
     "ContactsInInterface": "Contacts are available on the interface",
     "ProposalHeader.OwnerRollback": "Rejected by the organizer",
     "ProposalItemsDeviationType.Acceptable": "Deviation by items and quantity is allowed",
-    "String1ParticipantBusinessStatus.Refused": "Refused to submit bids"
+    "String1ParticipantBusinessStatus.Refused": "Refused to submit bids",
     "Bot.Name": "ProcureSaaS",
     "ProposalItemsDeviationType.AcceptableByPosition": "Permissible deviation by items",
     "CompanyProcedures.PermitDown": "Vendors can only lower the price (reduction)",

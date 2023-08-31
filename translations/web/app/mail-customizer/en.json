@@ -12,7 +12,7 @@
             "success_tooltip": "Mail is sent"
         },
         "mails": {
-            "ProcedurePublishedParticipantsInvited": "Invitation to participants",
+            "ProcedurePublishedParticipantsInvited": "Invitation to vendors",
             "ProcedureChanged": "Request change notification",
             "ProcedureStagePublishedEvent": "Notification of the publication of a new stage",
             "ProcedureUnCompletedWinners": "Notification to deselected vendors",

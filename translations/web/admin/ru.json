@@ -11,12 +11,12 @@
         "navigation": {
             "all_companies": "Все компании",
             "team": "Команда",
-            "ratings": "Рейтинг",
+            "ratings": "Рейтинг компаний",
             "buyers": "Заказчики",
             "requests": "Запросы",
             "stop_list": "Стоп-лист тегов",
             "merge_tags": "Объединение тегов",
-            "tariffs": "Тарифные пакеты",
+            "tariffs": "Пакеты тарифов",
             "categories": "Справочник категорий",
             "promo_codes": "Промокоды"
         }

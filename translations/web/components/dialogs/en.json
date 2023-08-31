@@ -6,8 +6,8 @@
                 "submit": "YES"
             },
             "error": {
-                "title": "Не удалось выполнить действие",
-                "text": "Повторите действие еще раз. Если ошибка повторяется, то обратитесь в техподдержку"
+                "title": "Failed to perform an action",
+                "text": "Repeat the action one more time. If the error remains, contact technical support"
             }
         },
         "notification": {

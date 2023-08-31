@@ -22,7 +22,7 @@
                     "title": "Date of creation"
                 },
                 "count": {
-                    "title": "Number of participants"
+                    "title": "Number of vendors"
                 }
             },
             "filters": {
@@ -90,7 +90,7 @@
                         },
                         "default": {
                             "reason": "The group has not been created.",
-                            "notice": "Please try again or try again later. If the problem persists, contact technical support"
+                            "notice": "Please try again or try again later. If the problem remains, contact technical support"
                         }
                     },
                     "actions": {

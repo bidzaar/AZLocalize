@@ -6,18 +6,18 @@
                 "btn": "To profile"
             },
             "content": {
-                "title": "Customize how invitations are sent to requests",
+                "title": "Set criteria for requests' invitations",
                 "setting": {
                     "default": {
                         "title": "Invite via ProcureSaas",
                         "text": "Addressees receive invitations from ProcureSaas (noreply@procure.az in the Sender field)",
-                        "btn": "Send test message",
+                        "btn": "Send a test message",
                         "settings": "Server settings"
                     },
                     "custom": {
                         "title": "Invite via your mail server",
                         "text": "Addressees receive letters from your company (your company's mail in the Sender field).",
-                        "sub_text": "In the event of a failure of your server, ProcureSaas will notify you and send invitations to the addressees."
+                        "sub_text": "In case of a failure of your server, ProcureSaas will notify you and send invitations to the addressees."
                     }
                 }
             },
