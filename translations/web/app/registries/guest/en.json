@@ -4,7 +4,7 @@
       "botzaar": {
         "auth": {
           "title": "{{ value }} invites companies for cooperation.",
-          "text": "Login to Bidzaar to accept the invitation."
+          "text": "Login to ProcureSaas to accept the invitation."
         },
         "company": {
           "title": "{{ value }} invites companies for cooperation.",
@@ -14,7 +14,7 @@
           "title": "{{ value }} invites companies for cooperation."
         },
         "actions": {
-          "auth": "Login to Bidzaar",
+          "auth": "Login to ProcureSaas",
           "company": "Register the company",
           "join": "Accept invitation"
         }

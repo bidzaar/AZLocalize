@@ -43,7 +43,7 @@
                         "false": "Only not phantoms"
                     },
                     "verified": {
-                        "title": "Verified Bidzaar",
+                        "title": "Verified ProcureSaas",
                         "true": "Verified only",
                         "false": "Unchecked only"
                     }

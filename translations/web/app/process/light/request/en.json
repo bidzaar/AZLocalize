@@ -66,7 +66,7 @@
                 "forbidden": "The information is available to supplier companies.\nLogin or register a company on the site."
             },
             "gold": {
-                "title": "Bidzaar magic",
+                "title": "ProcureSaas magic",
                 "link": "How does it work?",
                 "text": {
                     "message": "Make the request simple, fast and efficient.",
@@ -157,7 +157,7 @@
                 "registries": "Accreditation of participants",
                 "tariff": "Service operator's Commission",
                 "team": "Team",
-                "magic": "Bidzaar magic",
+                "magic": "ProcureSaas magic",
                 "internal": "More",
                 "aggregators": "Tender aggregator websites",
                 "commission": "Service operator's Commission",

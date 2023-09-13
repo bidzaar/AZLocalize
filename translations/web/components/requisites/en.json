@@ -45,7 +45,7 @@
                 "duplicate": {
                     "header": "It is not possible to change the company details",
                     "admin": "The company with the specified details is already registered and verified on the platform.",
-                    "user": "The company with the specified details is already registered on the platform.\nIf this is your company - contact the Bidzaar support team.",
+                    "user": "The company with the specified details is already registered on the platform.\nIf this is your company - contact the ProcureSaas support team.",
                     "close": "Close"
                 }
             }

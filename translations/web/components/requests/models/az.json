@@ -6,8 +6,8 @@
                 "1": "Sahib",
                 "2": "ProcureSaaS tərəfindən dəvət olunub",
                 "3": "[AT] Klonlama yolu ilə təşkilatçı tərəfindən dəvət edildi",
-                "4": "[AT] Bidzaar oxşar sorğulardan dəvət edildi",
-                "5": "[AT] Bidzaar AI ilə dəvət edildi",
+                "4": "[AT] ProcureSaas oxşar sorğulardan dəvət edildi",
+                "5": "[AT] ProcureSaas AI ilə dəvət edildi",
                 "6": "[AT] bidzar saytdan dəvət edildi",
                 "7": "[AT] illik reyestrlərdən dəvət edildi",
                 "8": "Invited by the Organizer from a registry"
@@ -18,11 +18,11 @@
                 "2": "[AT] Təşkilatçı tərəfindən klonlaşdırma yolu ilə dəvət olunub",
                 "3": "[AT] Ödənişli etiket təşkilatçısı tərəfindən dəvət edilmişdir",
                 "4": "[AT] Qeydiyyatdan Təşkilatçı tərəfindən dəvət edilmişdir",
-                "5": "[AT] Qızıl reyestrlərindən Bidzaar dəvət edildi",
-                "6": "[AT] Bidzaar e-poçtla dəvət edildi",
-                "7": "[AT] Bidzaar məhkəmədən dəvət edildi",
-                "8": "[AT] Oxşar sorğulardan Bidzaar tərəfindən dəvət edilmişdir",
-                "9": "[AT] Bidzaar tərəfindən AI ilə dəvət olunub",
+                "5": "[AT] Qızıl reyestrlərindən ProcureSaas dəvət edildi",
+                "6": "[AT] ProcureSaas e-poçtla dəvət edildi",
+                "7": "[AT] ProcureSaas məhkəmədən dəvət edildi",
+                "8": "[AT] Oxşar sorğulardan ProcureSaas tərəfindən dəvət edilmişdir",
+                "9": "[AT] ProcureSaas tərəfindən AI ilə dəvət olunub",
                 "10": "[AT] Digər"
             },
             "open_type": {

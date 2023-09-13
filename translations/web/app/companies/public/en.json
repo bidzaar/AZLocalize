@@ -16,15 +16,15 @@
                 "title": "Section for vendors",
                 "description": "We invite vendors who have the necessary qualifications and resources to supply the relevant goods, perform work, provide services with the knowledge in the relevant field and experience in implementing similar projects, also meet other requirements specified in the tender documents.",
                 "pools": {
-                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
+                    "placeholder": "The company hasn't published any vendor pools on ProcureSaas yet.",
                     "title": "Vendor pools"
                 },
                 "tenders": {
-                    "placeholder": "The company hasn't published any requests on Bidzaar yet.",
+                    "placeholder": "The company hasn't published any requests on ProcureSaas yet.",
                     "title": "Requests"
                 },
                 "registries": {
-                    "placeholder": "The company hasn't published any vendor pools on Bidzaar yet.",
+                    "placeholder": "The company hasn't published any vendor pools on ProcureSaas yet.",
                     "title": "Vendor pools"
                 }
             },
@@ -117,7 +117,7 @@
                         "header": "Vendor pools",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Vendor pools are published on the Bidzaar."
+                            "title": "Vendor pools are published on the ProcureSaas."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",
@@ -128,7 +128,7 @@
                         "header": "Vendor pools",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Vendor pools are published on the Bidzaar."
+                            "title": "Vendor pools are published on the ProcureSaas."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",
@@ -139,7 +139,7 @@
                         "header": "Requests",
                         "notice": {
                             "message": "The data is refreshed every time the page is opened. You can customize the block parameters. Use Preview to preview the result.",
-                            "title": "Requests are published on the Bidzaar."
+                            "title": "Requests are published on the ProcureSaas."
                         },
                         "empty": {
                             "message_primary": "The section is not displayed on the public page",

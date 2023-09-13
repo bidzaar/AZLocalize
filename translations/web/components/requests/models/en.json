@@ -11,11 +11,11 @@
       "invited_by": {
         "0": "Other",
         "1": "Owner",
-        "2": "Bidzaar invited",
+        "2": "ProcureSaas invited",
         "3": "Invited by the Organizer through cloning",
-        "4": "Bidzaar invited from similar requests",
-        "5": "Bidzaar invited using AI",
-        "6": "Bidzaar invited from the site",
+        "4": "ProcureSaas invited from similar requests",
+        "5": "ProcureSaas invited using AI",
+        "6": "ProcureSaas invited from the site",
         "7": "Invited from the annual registers",
         "8": "Invited by the Organizer from a registry"
       },

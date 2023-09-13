@@ -2619,7 +2619,7 @@
                     },
                     "purchase": {
                         "title": "biz alırıq",
-                        "empty": "şirkətinizin satın almaq istədiyi məhsul və xidmətləri etiketləyin ki, müştərilər və Bidzaar sistemi Sizin üçün xüsusi olaraq sorğu ala bilsin"
+                        "empty": "şirkətinizin satın almaq istədiyi məhsul və xidmətləri etiketləyin ki, müştərilər və ProcureSaas sistemi Sizin üçün xüsusi olaraq sorğu ala bilsin"
                     },
                     "add": "Teqlər əlavə et",
                     "edit": "[AT] etiketləri dəyişdirin",
