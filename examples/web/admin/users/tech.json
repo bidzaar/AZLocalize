@@ -16,7 +16,10 @@
           "name_desc": "web/admin/users: usr.users.list.sorting.name_desc",
           "status": "web/admin/users: usr.users.list.sorting.status"
         },
-        "empty": "web/admin/users: usr.users.list.empty"
+        "empty": "web/admin/users: usr.users.list.empty",
+        "rights": "web/admin/users: usr.users.list.rights",
+        "no_rights": "web/admin/users: usr.users.list.no_rights",
+        "wait_for_approve": "web/admin/users: usr.users.list.wait_for_approve"
       },
       "status": {
         "0": "web/admin/users: usr.users.status.0",

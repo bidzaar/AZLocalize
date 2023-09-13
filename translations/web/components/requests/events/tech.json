@@ -2,6 +2,7 @@
     "bdz.req.events": {
         "table": {
             "empty": "web/components/requests/events: bdz.req.events.table.empty",
+            "notfound": "web/components/requests/events: bdz.req.events.table.notfound",
             "search": "web/components/requests/events: bdz.req.events.table.search",
             "total": "web/components/requests/events: bdz.req.events.table.total",
             "columns": {
@@ -44,6 +45,7 @@
         "data": {
             "procedure": {
                 "reason": {
+                    "nobody": "web/components/requests/events: bdz.req.events.data.procedure.reason.nobody",
                     "label": "web/components/requests/events: bdz.req.events.data.procedure.reason.label",
                     "default": "web/components/requests/events: bdz.req.events.data.procedure.reason.default"
                 },
@@ -56,10 +58,10 @@
                 },
                 "completed": {
                     "common": {
+                        "distribution": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.distribution",
                         "empty": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.empty",
                         "order": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.order",
-                        "price": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.price",
-                        "orderFor": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.orderFor"
+                        "price": "web/components/requests/events: bdz.req.events.data.procedure.completed.common.price"
                     },
                     "participant": {
                         "winner": "web/components/requests/events: bdz.req.events.data.procedure.completed.participant.winner",
@@ -70,13 +72,24 @@
                 "tariff": "web/components/requests/events: bdz.req.events.data.procedure.tariff"
             },
             "proposals": {
-                "price": "web/components/requests/events: bdz.req.events.data.proposals.price",
+                "text": "web/components/requests/events: bdz.req.events.data.proposals.text",
                 "primary": "web/components/requests/events: bdz.req.events.data.proposals.primary",
                 "alternative": "web/components/requests/events: bdz.req.events.data.proposals.alternative",
-                "errors": "web/components/requests/events: bdz.req.events.data.proposals.errors"
+                "errors": "web/components/requests/events: bdz.req.events.data.proposals.errors",
+                "rejected": {
+                    "reason": "web/components/requests/events: bdz.req.events.data.proposals.rejected.reason"
+                }
             },
             "participants": {
-                "contact": "web/components/requests/events: bdz.req.events.data.participants.contact"
+                "contact": "web/components/requests/events: bdz.req.events.data.participants.contact",
+                "forbidden": {
+                    "true": "web/components/requests/events: bdz.req.events.data.participants.forbidden.true",
+                    "false": "web/components/requests/events: bdz.req.events.data.participants.forbidden.false"
+                }
+            },
+            "toggle": {
+                "true": "web/components/requests/events: bdz.req.events.data.toggle.true",
+                "false": "web/components/requests/events: bdz.req.events.data.toggle.false"
             }
         },
         "types": {
@@ -100,7 +113,12 @@
             "18": "web/components/requests/events: bdz.req.events.types.18",
             "19": "web/components/requests/events: bdz.req.events.types.19",
             "20": "web/components/requests/events: bdz.req.events.types.20",
-            "21": "web/components/requests/events: bdz.req.events.types.21"
+            "21": "web/components/requests/events: bdz.req.events.types.21",
+            "22": "web/components/requests/events: bdz.req.events.types.22",
+            "23": "web/components/requests/events: bdz.req.events.types.23",
+            "24": "web/components/requests/events: bdz.req.events.types.24",
+            "25": "web/components/requests/events: bdz.req.events.types.25",
+            "26": "web/components/requests/events: bdz.req.events.types.26"
         }
     }
 }

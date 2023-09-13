@@ -2,14 +2,14 @@
     "bdz.req.events": {
         "data": {
             "participants": {
-                "contact": "Əlaqəli şəxs: {{ value }}"
+                "contact": "Əlaqəli şəxs: {{ value }}",
+                "forbidden": {
+                    "true": "Запрещена подача",
+                    "false": "Разрешена подача"
+                }
             },
             "procedure": {
                 "completed": {
-                    "empty": "Sifarişsiz",
-                    "order": "Sifariş",
-                    "orderFor": "{{ value }} üçün sifariş",
-                    "price": "{{ price }} {{ currency }}",
                     "common": {
                         "distribution": "Distribution",
                         "empty": "Sifarişsiz",
@@ -20,10 +20,15 @@
                         "winner": "Müştəri sizi qalib seçdi",
                         "loser": "Müştəri qalib kimi başqa şirkəti seçdi",
                         "nobody": "Müraciət qalib seçilmədən başa çatdı"
-                    }
+                    },
+                    "empty": "Sifarişsiz",
+                    "order": "Sifariş",
+                    "orderFor": "{{ value }} üçün sifariş",
+                    "price": "{{ price }} {{ currency }}"
                 },
                 "prolongation": "({{ date}} tarixinə kimi)",
                 "reason": {
+                    "nobody": "Ранее запрос был завершён без победителей",
                     "label": "Səbəb:",
                     "default": "Sifarişçi sorğuda əhəmiyyətli dəyişikliklər etdi"
                 },
@@ -39,7 +44,14 @@
                 "text": "Bid:",
                 "alternative": "Alternativ {{ index }}",
                 "errors": "\"{{value}}\" təklifində səhvlər var:",
-                "primary": "Təklif"
+                "primary": "Təklif",
+                "rejected": {
+                    "reason": "Сообщение участнику:"
+                }
+            },
+            "toggle": {
+                "true": "Показать больше",
+                "false": "Свернуть"
             }
         },
         "table": {
@@ -81,8 +93,8 @@
                 "ip": "IP: {{value}}",
                 "system": "Platforma"
             },
-            "search": "",
-            "total": "Qeydlər: {{value}}"
+            "total": "Qeydlər: {{value}}",
+            "search": ""
         },
         "types": {
             "1": "Sorğu dərc olunub",
@@ -106,7 +118,11 @@
             "19": "Müraciət komandası. İşçi rolu dəyişdirilir",
             "20": "The tariff is changed",
             "21": "Promo kodu tətbiq olundu",
-            "22": "Proposal is rejected"
+            "22": "Proposal is rejected",
+            "23": "Участник запросил разрешение у Организатора на изменение цены предложения с нарушением правила",
+            "24": "Организатор отклонил запрос Участника на изменение цены предложения с нарушением правила",
+            "25": "Участник приглашён",
+            "26": "Заказчик изменил запреты на подачу предложения по позициям"
         }
     }
 }

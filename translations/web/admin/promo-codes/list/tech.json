@@ -1,14 +1,21 @@
 {
     "promo_codes.list": {
+        "create": "web/admin/promo-codes/list: promo_codes.list.create",
         "header": {
             "title": "web/admin: promo_codes.list/header/title",
             "search": ""
+        },
+        "dates": {
+            "create": "web/admin/promo-codes/list: promo_codes.list.dates.create",
+            "apply": "web/admin/promo-codes/list: promo_codes.list.dates.apply",
+            "link_tooltip": "web/admin/promo-codes/list: promo_codes.list.dates.link_tooltip"
         },
         "empty": {
             "text": "web/admin: promo_codes.list/empty/text"
         },
         "sorting": {
-            "сreateDate": "web/admin: promo_codes.list/sorting/сreateDate"
+            "createDate": "web/admin/promo-codes/list: promo_codes.list.sorting.createDate",
+            "applicationDate": "web/admin/promo-codes/list: promo_codes.list.sorting.applicationDate"
         },
         "filters": {
             "company": {
@@ -19,11 +26,64 @@
                 "title": "web/admin: promo_codes.list/filters/employee/title",
                 "choose": "web/admin: promo_codes.list/filters/employee/choose"
             },
-            "type_code": {
+            "type": {
+                "title": "web/admin/promo-codes/list: promo_codes.list.filters.type.title",
                 "options": {
-                    "0": "web/admin: promo_codes.list/filters/type_code/options/0",
-                    "1": "web/admin: promo_codes.list/filters/type_code/options/1"
+                    "A": "web/admin/promo-codes/list: promo_codes.list.filters.type.options.A",
+                    "B": "web/admin/promo-codes/list: promo_codes.list.filters.type.options.B",
+                    "ANY": "web/admin/promo-codes/list: promo_codes.list.filters.type.options.ANY"
                 }
+            },
+            "was_applied": {
+                "title": "web/admin/promo-codes/list: promo_codes.list.filters.was_applied.title",
+                "options": {
+                    "no": "web/admin/promo-codes/list: promo_codes.list.filters.was_applied.options.no",
+                    "yes": "web/admin/promo-codes/list: promo_codes.list.filters.was_applied.options.yes"
+                }
+            },
+            "applicationDate": {
+                "title": "web/admin/promo-codes/list: promo_codes.list.filters.applicationDate.title"
+            },
+            "createDate": {
+                "title": "web/admin/promo-codes/list: promo_codes.list.filters.createDate.title"
+            }
+        },
+        "dialog": {
+            "title": "web/admin/promo-codes/list: promo_codes.list.dialog.title",
+            "fields": {
+                "reason": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.reason",
+                "customer": {
+                    "action": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.customer.action",
+                    "remove_tooltip": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.customer.remove_tooltip",
+                    "popover": {
+                        "empty": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.customer.popover.empty",
+                        "search": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.customer.popover.search"
+                    }
+                },
+                "count": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.count",
+                "type": {
+                    "title": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.type.title",
+                    "options": {
+                        "A": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.type.options.A",
+                        "B": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.type.options.B"
+                    }
+                },
+                "errors": {
+                    "max_length": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.errors.max_length",
+                    "required": "web/admin/promo-codes/list: promo_codes.list.dialog.fields.errors.required"
+                }
+            },
+            "codes": "web/admin/promo-codes/list: promo_codes.list.dialog.codes",
+            "actions": {
+                "generate": "web/admin/promo-codes/list: promo_codes.list.dialog.actions.generate",
+                "regenerate": "web/admin/promo-codes/list: promo_codes.list.dialog.actions.regenerate",
+                "cancel": "web/admin/promo-codes/list: promo_codes.list.dialog.actions.cancel",
+                "copy": "web/admin/promo-codes/list: promo_codes.list.dialog.actions.copy"
+            },
+            "snack": {
+                "success": "web/admin/promo-codes/list: promo_codes.list.dialog.snack.success",
+                "copy": "web/admin/promo-codes/list: promo_codes.list.dialog.snack.copy",
+                "error": "web/admin/promo-codes/list: promo_codes.list.dialog.snack.error"
             }
         }
     }

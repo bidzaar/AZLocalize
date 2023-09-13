@@ -7,18 +7,18 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Proposal submit term is expiring soon</h1>
-          <p>You still have some time to submit or update your proposal.</p>
+          <h1>Bid submission period is expiring soon</h1>
+          <p>You still have some time to submit or update your bid.</p>
           <p class="mb-0">
             <b>Due date:</b> @ProcedureContext.AcceptanceEndDate (hours left: <b>@SummingUpProcedureReminderPrecontext.Hours</b>) <br />
             <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
             <br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
-            <b>ВDelivery to:</b> @ProcedureContext.PlaceOfDelivery <br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Delivery to:</b> @ProcedureContext.PlaceOfDelivery <br />
           <p style="white-space: pre-line"><b>Description:</b><br> @ProcedureContext.Description</p>
           </p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">View bid request</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

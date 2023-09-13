@@ -15,6 +15,11 @@
         },
         "editor": {
             "form": {
+                "company_name": {
+                    "title": "Name on the site",
+                    "notice": "Your unique brand or abbreviated name without an organizational and legal form",
+                    "label": "Brand"
+                },
                 "name": {
                     "title": "Legal name of the company",
                     "notice": "As in the founding documents",

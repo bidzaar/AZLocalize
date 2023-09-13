@@ -22,10 +22,11 @@
         },
         "errors": {
             "title_size": "The file is too large",
+            "size": "Maximum file size - {{size}} MB",
             "title_length": "File upload is not possible",
-            "ext": "File(s) {{value}} not loaded. Upload a document, image or archive.",
             "length": "Maximum number of files to upload - {{count}}",
-            "size": "Maximum file size - {{size}} MB"
+            "title_ext": "File(s) {{names}} have not been uploaded.",
+            "ext": "File(s) {{value}} not loaded. Upload a document, image or archive."
         },
         "tooltips": {
             "edit": "Edit description",

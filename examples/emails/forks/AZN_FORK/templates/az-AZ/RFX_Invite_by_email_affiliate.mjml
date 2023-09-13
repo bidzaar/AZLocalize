@@ -18,8 +18,8 @@
         <!-- логотип из профиля компании -->
         <mj-image align="left" css-class="brand_logo" alt="Логотип компании"             src="@ProcedureContext.ProcedureOwnerCompanyLogoUrl"></mj-image>
         <mj-text padding-top=0>          
-          <p><b style="font-weight:900">@ProcedureContext.ProcedureOwnerCompanyName</b> sizin şirkəti təkliflər sorğusunda iştirak etməyə dəvət edir:</p>
-          <h1 style="font-weight:900">@ProcedureContext.ProcedureName</h1>
+          <p><b style="font-weight:900">@ProcedureContext.ProcedureOwnerCompanyName</b> sizi </p>
+          <h1 style="font-weight:900">@ProcedureContext.ProcedureName</h1> sorğusunda iştirak etməyə dəvət edir:
           <p>
             <!--<b>Заказчик:</b> ООО "Вектор"<br />-->
             <b>Çatdırılma ünvanı:</b> @ProcedureContext.PlaceOfDelivery<br />
@@ -41,7 +41,7 @@
             <li>100-dən çox iri və orta kommersiya şirkəti satınalma həyata keçirir </li>
           </ol>
           <p class="small">
-            <a href="@ConfigurationContext.Base100-dən çox iri və orta kommersiya şirkəti alışlar həyata keçirirUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">Cari sorğulara ProcureSaaS saytında baxın ►</a>
+            <a href="@ConfigurationContext.Base100-dən çox iri və orta kommersiya şirkəti alışlar həyata keçirirUrl/procedures/public?utm_source=affiliate&utm_medium=email&utm_campaign=tender&utm_term=procedures_public&utm_content=@ProcedureContext.ProcedureOwnerCompanyNumber">Cari sorğulara ProcureSaaS platformasında baxın ►</a>
           </p>
         </mj-text>
       </mj-column>

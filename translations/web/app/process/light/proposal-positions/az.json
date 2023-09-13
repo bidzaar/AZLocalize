@@ -9,8 +9,8 @@
                     },
                     "vat": {
                         "false": "ƏDV-siz",
-                        "null": "",
-                        "true": "ƏDV daxil"
+                        "true": "ƏDV daxil",
+                        "null": ""
                     }
                 },
                 "import": {
@@ -217,8 +217,8 @@
                     "toolbar": {
                         "actions": {
                             "download": "Şablonu endir",
-                            "import": "Mövqeləri idxal et",
-                            "upload": "Fayldan yüklə"
+                            "upload": "Fayldan yüklə",
+                            "import": "Mövqeləri idxal et"
                         },
                         "filters": {
                             "empty": "Bu kateqoriyada maddə yoxdur",
@@ -232,17 +232,17 @@
                     }
                 }
             },
-            "empty": {
-                "text": ""
-            },
             "forbidden": {
+                "title": "Məlumat hazırda mövcud deyil",
                 "notice": "",
-                "text": "",
-                "title": "Məlumat hazırda mövcud deyil"
+                "text": ""
             },
             "header": {
                 "close": "Təklifə keç",
                 "title": "Maddələrin spesifikasiyası"
+            },
+            "empty": {
+                "text": ""
             }
         }
     }

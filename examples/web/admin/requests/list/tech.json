@@ -24,6 +24,16 @@
         "acceptanceEndDate": {
           "title": "web/admin/requests/list: req.lst.list.filters.acceptanceEndDate.title"
         },
+        "finishDate": {
+          "title": "web/admin/requests/list: req.lst.list.filters.finishDate.title"
+        },
+        "orders": {
+          "title": "web/admin/requests/list: req.lst.list.filters.orders.title",
+          "options": {
+            "true": "web/admin/requests/list: req.lst.list.filters.orders.options.true",
+            "false": "web/admin/requests/list: req.lst.list.filters.orders.options.false"
+          }
+        },
         "proposals": {
           "title": "web/admin/requests/list: req.lst.list.filters.proposals.title"
         },

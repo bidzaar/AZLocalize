@@ -20,8 +20,8 @@
         "address": {
           "title": "web/admin/requests/participants: req.prt.list.filters.address.title"
         },
-        "invited_by": {
-          "title": "web/admin/requests/participants: req.prt.list.filters.invited_by.title"
+        "invitation": {
+          "title": "web/admin/requests/participants: req.prt.list.filters.invitation.title"
         }
       },
       "card": {
@@ -32,17 +32,22 @@
           "tooltip": "web/admin/requests/participants: req.prt.list.card.tags.tooltip"
         },
         "invite": {
-          "no_profile": "web/admin/requests/participants: req.prt.list.card.invite.no_profile"
+          "no_profile": "web/admin/requests/participants: req.prt.list.card.invite.no_profile",
+          "again": {
+            "action": "web/admin/requests/participants: req.prt.list.card.invite.again.action",
+            "success": "web/admin/requests/participants: req.prt.list.card.invite.again.success"
+          }
         }
       },
       "actions": {
         "download_report": "web/admin/requests/participants: req.prt.list.actions.download_report",
-        "open_chat": "web/admin/requests/participants: req.prt.list.actions.open_chat",
         "open_request": "web/admin/requests/participants: req.prt.list.actions.open_request",
         "open_events": "web/admin/requests/participants: req.prt.list.actions.open_events",
         "invite": "web/admin/requests/participants: req.prt.list.actions.invite",
         "invite_site": "web/admin/requests/participants: req.prt.list.actions.invite_site",
-        "invite_similar": "web/admin/requests/participants: req.prt.list.actions.invite_similar"
+        "invite_tags": "web/admin/requests/participants: req.prt.list.actions.invite_tags",
+        "invite_similar": "web/admin/requests/participants: req.prt.list.actions.invite_similar",
+        "invite_intelligence": "web/admin/requests/participants: req.prt.list.actions.invite_intelligence"
       }
     }
   }

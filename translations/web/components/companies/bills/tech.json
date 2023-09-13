@@ -1,0 +1,46 @@
+{
+    "bdz.cmp": {
+        "bills": {
+            "list": {
+                "header": {
+                    "title": "web/components/companies/bills: bdz.cmp.bills.list.header.title",
+                    "total": "web/components/companies/bills: bdz.cmp.bills.list.header.total",
+                    "search": "web/components/companies/bills: bdz.cmp.bills.list.header.search"
+                },
+                "empty": "web/components/companies/bills: bdz.cmp.bills.list.empty",
+                "notfound": "web/components/companies/bills: bdz.cmp.bills.list.notfound",
+                "sorting": {
+                    "date": "web/components/companies/bills: bdz.cmp.bills.list.sorting.date"
+                },
+                "filters": {
+                    "status": {
+                        "title": "web/components/companies/bills: bdz.cmp.bills.list.filters.status.title"
+                    },
+                    "date": {
+                        "title": "web/components/companies/bills: bdz.cmp.bills.list.filters.date.title"
+                    }
+                },
+                "item": {
+                    "code": "web/components/companies/bills: bdz.cmp.bills.list.item.code"
+                }
+            },
+            "enums": {
+                "status": {
+                    "0": "web/components/companies/bills: bdz.cmp.bills.enums.status.0",
+                    "1": "web/components/companies/bills: bdz.cmp.bills.enums.status.1"
+                }
+            },
+            "dialog": {
+                "title": "web/components/companies/bills: bdz.cmp.bills.dialog.title",
+                "label": "web/components/companies/bills: bdz.cmp.bills.dialog.label",
+                "description": "web/components/companies/bills: bdz.cmp.bills.dialog.description",
+                "submit": "web/components/companies/bills: bdz.cmp.bills.dialog.submit",
+                "cancel": "web/components/companies/bills: bdz.cmp.bills.dialog.cancel",
+                "submit_success": "web/components/companies/bills: bdz.cmp.bills.dialog.submit_success",
+                "errors": {
+                    "request": "web/components/companies/bills: bdz.cmp.bills.dialog.errors.request"
+                }
+            }
+        }
+    }
+}

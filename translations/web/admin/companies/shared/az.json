@@ -17,11 +17,11 @@
             "title": "Şirkətlər",
             "selected_title": "Seçildi:",
             "filters": {
-                "tags": "Teqlər",
                 "rights": "Hüquqlar",
                 "badges": "Nişanlar",
                 "location": "Məkan",
                 "areas": "Şirkətin fəaliyyət göstərdiyi yer",
+                "category": "Категория",
                 "shown": {
                     "title": "Görünüş",
                     "true": "Bəli",
@@ -41,7 +41,10 @@
                     "title": "Ləğv olunmuşları göstər",
                     "false": "Yalnız aktiv olanları",
                     "true": "Yalnız Ləğv olunmuşlar"
-                }
+                },
+                "tags": "Teqlər",
+                "sell_tags": "[AT] Şirkətlər satır",
+                "buy_tags": "[AT] Şirkətlər alır"
             },
             "sort": {
                 "registration_date": "Qeydiyyat tarixi"

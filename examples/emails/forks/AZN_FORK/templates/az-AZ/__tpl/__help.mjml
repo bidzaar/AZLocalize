@@ -1,7 +1,13 @@
-<mj-section>
-  <mj-column>
-    <mj-text>
-      <h2>Dəstəyə ehtiyyacınız var?</h2> Platformanın texniki dəstəyi: <a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a>
-    </mj-text>
-  </mj-column>
-</mj-section>
+    <!-- help -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Dəstəyə ehtiyacınız var??</h2>
+                <ul>
+                    <li><a href="@ConfigurationContext.HelpUrl">@ConfigurationContext.ProjectName-da necə işləmək olur? ►</a></li>
+                    <li>Platformanın texniki dəstəyi: <a href="tel:@ConfigurationContext.RawSupportPhone">@ConfigurationContext.FormattedSupportPhone</a></li>
+               </ul>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /help -->

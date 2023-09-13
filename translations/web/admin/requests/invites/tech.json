@@ -11,6 +11,7 @@
                     "title": "web/admin/requests/invites: req.inv.similar.list.header.title",
                     "search": "web/admin/requests/invites: req.inv.similar.list.header.search"
                 },
+                "title": "web/admin/requests/invites: req.inv.similar.list.title",
                 "empty": {
                     "text": "web/admin/requests/invites: req.inv.similar.list.empty.text"
                 },

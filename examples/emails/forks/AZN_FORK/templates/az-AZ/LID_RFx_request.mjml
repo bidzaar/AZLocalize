@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Sifarişçi stausunun alınması üçün sorğu</h1>
+          <h1>Sifarişçi statusunun alınması üçün sorğu</h1>
           <p>Şirkət platformada sorğular dərc etmək istəyir.</p>
                  <p><a href="@CurrentUserContext.CompanyUrl">@CurrentUserContext.CompanyNumber, @CurrentUserContext.CompanyName</a><br /> @CurrentUserContext.CompanyPhone, @CurrentUserContext.CompanyEmail<br /><br />
             <b>Əlaqəli şəxs:</b> @CurrentUserContext.UserName<br /> @CurrentUserContext.UserPhone, @CurrentUserContext.UserEmail 

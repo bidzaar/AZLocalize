@@ -10,18 +10,18 @@
         "16": "ŞT",
         "128": "Satınalmalar üzrə rəhbər",
         "512": "Reyestrlər",
-        "2048": "[AT] Hovuz akkreditasiya"
+        "2048": "Qruplarda Akkreditasiya"
       }
     },
     "list": {
       "title": "Şirkətlər",
       "selected_title": "Seçildi:",
       "filters": {
-        "tags": "Teqlər",
         "rights": "Hüquqlar",
         "badges": "Nişanlar",
         "location": "Məkan",
         "areas": "Şirkətin fəaliyyət göstərdiyi yer",
+        "category": "Категория",
         "shown": {
           "title": "Görünüş",
           "true": "Bəli",
@@ -38,10 +38,13 @@
           "false": "Yalnız yoxlanılmamış"
         },
         "deleted": {
-          "title": "[AT] Göstərin silindi",
-          "false": "[AT] Yalnız aktivdir",
-          "true": "[AT] Yalnız uzaqdan"
-        }
+          "title": "Ləğv olunmuşları göstər",
+          "false": "Yalnız aktiv olanları",
+          "true": "Yalnız Ləğv olunmuşlar"
+        },
+        "tags": "Teqlər",
+        "sell_tags": "[AT] Şirkətlər satır",
+        "buy_tags": "[AT] Şirkətlər alır"
       },
       "sort": {
         "registration_date": "Qeydiyyat tarixi"

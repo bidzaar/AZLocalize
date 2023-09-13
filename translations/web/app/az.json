@@ -22,12 +22,11 @@
                         "title": "Sifarişçilərin reyestrinə daxil edilən şirkətlər"
                     },
                     "areas": {
+                        "title": "İş yeri",
                         "add": "Ölkə, region və ya şəhər əlavə et",
-                        "dialog": "İş yeri",
-                        "title": "İş yeri"
+                        "dialog": "İş yeri"
                     },
                     "badges": "Nişanlar",
-                    "company_sales": "Şirkət satır",
                     "default": "Standart olaraq",
                     "employeesCount": "İşçilərin sayı",
                     "labels": "Təyin edilmiş etiketlər",
@@ -48,7 +47,10 @@
                     "verified": {
                         "link": "Yoxlamadan necə keçmək olar",
                         "title": "ProcureSaaS tərəfindən təsdiq edilmişdir"
-                    }
+                    },
+                    "company_sales": "Şirkət satır",
+                    "salesTags": "[AT] Şirkət satır",
+                    "purchaseTags": "[AT] Şirkət alır"
                 },
                 "item": {
                     "accredited_count": "şirkət sifarişçi tərəfindən akkreditə olunub",
@@ -123,9 +125,9 @@
             "block_user": {
                 "dialog": {
                     "no": "Ləğv et",
-                    "text": "",
                     "title": "İstifadəçini bloklayın",
-                    "yes": "Blokla"
+                    "yes": "Blokla",
+                    "text": ""
                 },
                 "tooltip": "İstifadəçini blokla"
             },
@@ -143,9 +145,9 @@
             "delete_user": {
                 "dialog": {
                     "no": "ləğv et",
-                    "text": "",
                     "title": "İstifadəçini sil",
-                    "yes": "Sil"
+                    "yes": "Sil",
+                    "text": ""
                 },
                 "tooltip": "İstifadəçini sil"
             },
@@ -190,9 +192,9 @@
             "restore_user": {
                 "dialog": {
                     "no": "Ləğv et",
-                    "text": "",
                     "title": "Əməkdaşı bərpa edin",
-                    "yes": "Bərpa et"
+                    "yes": "Bərpa et",
+                    "text": ""
                 },
                 "tooltip": "Əməkdaşı bərpa et"
             },
@@ -350,7 +352,6 @@
             "text": "Sorğulanan səhifəyə giriş məhduddur"
         },
         "request_forbidden": {
-            "hınt": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür",
             "text": "Sorğuya giriş məhduddur",
             "help": {
                 "action": "Dəvət olunsanız nə etməlisiniz?",
@@ -361,8 +362,8 @@
                     },
                     "item_2": {
                         "text": "ProcureSaaS tərəfindən göndərilən dəvət məktubundan link vasitəsilə sorğunu açın",
-                        "məlumat": "Digər mənbələrdən gələn keçid etibarsızdır",
-                        "info": "Digər mənbələrdən gələn sorğuya keçid dəvət deyil."
+                        "info": "Digər mənbələrdən gələn sorğuya keçid dəvət deyil.",
+                        "məlumat": "Digər mənbələrdən gələn keçid etibarsızdır"
                     },
                     "item_3": {
                         "text": "Sifarişçidən təkrar dəvət göndərməsini xahiş et",
@@ -371,7 +372,8 @@
                 },
                 "footer": "Hər hansı bir problem yaşandı? Texniki Dəstəklə əlaqə saxlayın."
             },
-            "hint": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür"
+            "hint": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür",
+            "hınt": "Bu sorğu yalnız dəvət olunmuş təchizatçılar üçündür"
         }
     },
     "dashboard": {
@@ -611,7 +613,8 @@
                 },
                 "VerifiedCompanyAlreadyExists": "Bu VÖEN-nə malik şirkət artıq mövcuddur"
             },
-            "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın"
+            "default": "Xəta baş verdi. Zəhmət olmasa administratorunuzla əlaqə saxlayın",
+            "FileStorage.Images.InvalidImage": "Неверный формат изображения. Загрузите jpg, png, gif или bmp"
         }
     },
     "files": {
@@ -623,16 +626,16 @@
         "remove": {
             "no": "Ləğv et",
             "text": "Sənəd silinsin?",
-            "title": "",
-            "yes": "Sil"
+            "yes": "Sil",
+            "title": ""
         },
         "rename": {
             "cancel": "Ləğv et",
-            "description": "fayl təsviri",
-            "placeholder": "təsviri",
             "save": "Yadda saxla",
             "label": "Təsvir",
-            "title": "Fayl təsviri"
+            "title": "Fayl təsviri",
+            "description": "fayl təsviri",
+            "placeholder": "təsviri"
         },
         "tooltips": {
             "add": "Əlavə et",
@@ -652,19 +655,12 @@
     "image": {
         "delete": "Sil",
         "error": {
-            "error_format": "Yanlış şəkil formatı. jpg, png, gif və ya bmp yükləyin",
             "extension": "Yanlış şəkil formatı. Jpg, png, gıf və ya bmp-ni yükləyin",
-            "size": "Maksimal fayl ölçüsü-1.5 MB"
+            "size": "Maksimal fayl ölçüsü-1.5 MB",
+            "error_format": "Yanlış şəkil formatı. jpg, png, gif və ya bmp yükləyin"
         },
         "replace": "Əvəz edin",
         "upload": "Yükləmək"
-    },
-    "labels": {
-        "assign_label": "Etiket təyin edin",
-        "empty": "Etiketlər tapılmadı",
-        "no_labels": "Sizin etiketiniz yoxdur",
-        "search": "Axtarış...",
-        "show_labels": "Etiketləri göstərin"
     },
     "landing": {
         "cards": {
@@ -873,12 +869,10 @@
                         "failure": "Siz “{{ procedure }}” sorğusu üçün {{ type }} sorğuladız. Arxiv yaradan zaman səhv baş verdi. Hərəkəti təkrarlayın və ya texniki dəstəklə əlaqə saxlayın.",
                         "success": "Siz “{{procedure}}” sorğusu üçün {{type}} sorğuladız. Arxiv {{date}} tarixində yaradılıb və 30 gün ərzində mövcud olacaq."
                     },
-                    "failure": "Siz “{{ procedure }}” sorğusu üçün {{ type }} sorğuladız. Arxiv yaradan zaman səhv baş verdi. Hərəkəti təkrarlayın və ya texniki dəstəklə əlaqə saxlayın.",
                     "file": {
                         "failure": "Siz “{{procedure}}” sorğusu üçün {{type}} müraciət etdiniz. Fayl yaradarkən  səhv baş verdi. Hərəkəti təkrarlayın və ya texniki dəstəklə əlaqə saxlayın.",
                         "success": "Siz “{{procedure}}” sorğusu üçün {{type}} müraciət etdiniz. Fayl {{date}} tarixində yaradılıb və 30 gün ərzində mövcud olacaq."
                     },
-                    "success": "Siz “{{procedure}}” sorğusu üçün {{type}} sorğuladız. Arxiv {{date}} tarixində yaradılıb və 30 gün ərzində mövcud olacaq.",
                     "types": {
                         "all-receipt": "sifariş",
                         "all-receipt-archive": "sifariş",
@@ -889,7 +883,9 @@
                         "receipt-archive": "iştirakçının sifarişi",
                         "comparison": "müqayisə cədvəlini",
                         "nda-archive": "ilkin kvalifilasiya üçün cari müraciətlər"
-                    }
+                    },
+                    "failure": "Siz “{{ procedure }}” sorğusu üçün {{ type }} sorğuladız. Arxiv yaradan zaman səhv baş verdi. Hərəkəti təkrarlayın və ya texniki dəstəklə əlaqə saxlayın.",
+                    "success": "Siz “{{procedure}}” sorğusu üçün {{type}} sorğuladız. Arxiv {{date}} tarixində yaradılıb və 30 gün ərzində mövcud olacaq."
                 },
                 "registry_reports": {
                     "failure": "Siz \"{{ registry }}\" reyestri üzrə {{ type }} sorğuladız. Arxiv yaradan zaman səhv baş verdi. Hərəkəti təkrarlayın və ya texniki dəstəklə əlaqə saxlayın.",
@@ -919,10 +915,23 @@
             "total": "cəmi"
         },
         "clone": {
+            "cancel": "Ləğv et",
+            "generalInfo": "Ümumi məlumat",
+            "docs": "[AT] sənədlər",
+            "header": "Sorğunu klonlaşdır",
+            "name": "Sorğunun adı",
+            "parameters": "Parametrlər",
+            "participants": "İştirakçılar",
+            "positions": "Maddələr üzrə spesifikasiya",
+            "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
+            "submit": "Klonlaşdırmaq",
+            "team": "Komanda",
+            "tags": "Теги",
+            "nda": "İlkin kvalifikasiya mərhələsi",
+            "registries": "Reyestrlər",
             "action": {
                 "success": "Yeni sorğu Mənim sorğularıma yerləşdirilib"
             },
-            "cancel": "Ləğv et",
             "dialog": {
                 "actions": {
                     "cancel": "Ləğv et",
@@ -937,18 +946,7 @@
                 "positions": "Maddələr üzrə spesifikasiya",
                 "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
                 "team": "Komanda"
-            },
-            "generalInfo": "Ümumi məlumat",
-            "header": "Sorğunu klonlaşdır",
-            "name": "Sorğunun adı",
-            "parameters": "Parametrlər",
-            "participants": "İştirakçılar",
-            "positions": "Maddələr üzrə spesifikasiya",
-            "questionnaire": "İştirakçılar üçün tələblər və sorğu şərtləri",
-            "submit": "Klonlaşdırmaq",
-            "team": "Komanda",
-            "nda": "İlkin kvalifikasiya mərhələsi",
-            "registries": "Reyestrlər"
+            }
         },
         "common": {
             "documents": "təchizatçı üçün sənədlər",
@@ -1037,8 +1035,8 @@
                 "item": {
                     "no": "Ləğv et",
                     "text": "Bu sual silinsin?",
-                    "title": "",
-                    "yes": "Sil"
+                    "yes": "Sil",
+                    "title": ""
                 }
             },
             "editor": {
@@ -1115,11 +1113,6 @@
                 }
             }
         },
-        "roles": {
-            "editor": "Redaktor",
-            "owner": "sahibi",
-            "viewer": "auditor"
-        },
         "start-round": {
             "success": "yeni sorğu mərhələsi elan edildi"
         },
@@ -1151,6 +1144,11 @@
             "procedure": "sorğu",
             "publishDate": "yaranma tarixi",
             "status": "status"
+        },
+        "roles": {
+            "editor": "Redaktor",
+            "owner": "sahibi",
+            "viewer": "auditor"
         }
     },
     "process": {
@@ -1161,8 +1159,8 @@
                     "no": "Ləğv et",
                     "success": "İştirakçı akkreditasiya olunub",
                     "text": "Şirkəti qrupda akkreditasiya edirsiniz?",
-                    "title": "",
-                    "yes": "Akkreditasiya etmək"
+                    "yes": "Akkreditasiya etmək",
+                    "title": ""
                 },
                 "approved": "təsdiq edilmişdir",
                 "block_dialog": {
@@ -1259,8 +1257,8 @@
                     "no": "Ləğv et",
                     "success": "Müraciət təsdiq üçün göndərildi",
                     "text": "Təsdiq üçün müraciət göndərilsin?",
-                    "title": "",
-                    "yes": "Göndər"
+                    "yes": "Göndər",
+                    "title": ""
                 },
                 "reason": "səbəb",
                 "refuse": "akkreditasiyadan imtina etmək",
@@ -1284,14 +1282,14 @@
                 "rejoin_dialog": {
                     "no": "Ləğv et",
                     "text": "Akkreditasiya təkrarlansın?",
-                    "title": "",
-                    "yes": "Təkrar keçmək"
+                    "yes": "Təkrar keçmək",
+                    "title": ""
                 },
                 "renew_dialog": {
                     "no": "Ləğv et",
                     "text": "Təchizatçı qrupunda iştirakı bərpa edək?",
-                    "title": "",
-                    "yes": "İştirakı davam etdirin"
+                    "yes": "İştirakı davam etdirin",
+                    "title": ""
                 },
                 "revert": "qərarı ləğv etmək",
                 "revise": {
@@ -1303,8 +1301,8 @@
                     "no": "Ləğv et",
                     "success": "Müraciət düzəliş üçün göndərildi",
                     "text": "Anket düzəlişə göndərilsin?",
-                    "title": "",
-                    "yes": "Göndər"
+                    "yes": "Göndər",
+                    "title": ""
                 },
                 "status": "sorğu statusu",
                 "title": "akkreditasiya",
@@ -1312,8 +1310,8 @@
                     "no": "Ləğv et",
                     "success": "İştirakçı blokdan çıxarılıb",
                     "text": "Bloklanmış iştirakçının bərpası. Akkreditasiyanın geri götürülməsi halları (məsələn: akkreditasiya müddətinin başa çatması ilə əlaqədar) istisna olmaqla bərpa edildikdən sonra müraciət eyni statusda bərpa olunacaq.",
-                    "title": "",
-                    "yes": "Blokdan çıxarın"
+                    "yes": "Blokdan çıxarın",
+                    "title": ""
                 },
                 "validity": "etibarlılıq müddəti"
             },
@@ -2239,6 +2237,8 @@
                     "more": "əlavə {{ count }} nişan"
                 },
                 "header": "Nişanlar",
+                "description": "[AT] Şirkət nişanları",
+                "how_get": "[AT] Necə əldə etmək olar?",
                 "popup": {
                     "how_get": "Necə almaq olar",
                     "message": "Nişanlar etibarı artırır və şirkəti rəqiblərdən fərqləndirir\n.",
@@ -2265,8 +2265,8 @@
                 "description": {
                     "header": "Şirkətin təsviri",
                     "label": "Təsvir",
-                    "placeholder": "Şirkətin təsvirini əlavə edin: fəaliyyət növü, təcrübə sahəsi",
-                    "title": "Şirkətin təsvirini əlavə edin: nə işlə məşğul olursunuz, ixtisaslaşma, iş təcrübəsi"
+                    "title": "Şirkətin təsvirini əlavə edin: nə işlə məşğul olursunuz, ixtisaslaşma, iş təcrübəsi",
+                    "placeholder": "Şirkətin təsvirini əlavə edin: fəaliyyət növü, təcrübə sahəsi"
                 },
                 "dialogs": {
                     "remove_image": {
@@ -2279,13 +2279,14 @@
                     "header": "Şirkət e-poçtu",
                     "label": "E-poçt"
                 },
-                "employees": {
+                "employeesCount": {
                     "header": "Şirkətdəki əməkdaşların sayı",
                     "label": "Əməkdaşların sayı"
                 },
-                "employeescount": {
-                    "header": "Şirkətdəki əməkdaşların sayı",
-                    "label": "Əməkdaşların sayı"
+                "edm": {
+                    "header": "[AT] Edo ID",
+                    "label": "[AT] tire və boşluq olmadan identifikatoru göstərin",
+                    "placeholder": "[AT] Edo ID"
                 },
                 "location": {
                     "header": "Hüquqi ünvan"
@@ -2295,11 +2296,6 @@
                     "label": "Şirkət adı.",
                     "title": "Kontragentlər sizi tanımaq üçün Platformada şirkətinizin adını qeyd edin"
                 },
-                "phone": {
-                    "comment": "Şərh",
-                    "header": "Şirkət telefonu",
-                    "number": "Telefon nömrəsi"
-                },
                 "registrationDate": {
                     "clear": "Şirkətin qeydiyyat tarixini silin",
                     "header": "Şirkətin qeydiyyat tarixi",
@@ -2308,6 +2304,19 @@
                 "site": {
                     "header": "Şirkətin internet səhifəsi",
                     "label": "İnternet səhifəsi"
+                },
+                "employees": {
+                    "header": "Şirkətdəki əməkdaşların sayı",
+                    "label": "Əməkdaşların sayı"
+                },
+                "employeescount": {
+                    "header": "Şirkətdəki əməkdaşların sayı",
+                    "label": "Əməkdaşların sayı"
+                },
+                "phone": {
+                    "comment": "Şərh",
+                    "header": "Şirkət telefonu",
+                    "number": "Telefon nömrəsi"
                 }
             },
             "select": {
@@ -2351,6 +2360,8 @@
                     }
                 },
                 "activity": {
+                    "title": "Fəaliyyət",
+                    "title_statistics": "Statistika",
                     "empty": "şirkət hələ alış və satışlarda iştirak etməyib",
                     "on_site": "{{value}}-dən platformadadır",
                     "purchases": {
@@ -2387,8 +2398,20 @@
                         "header": {
                             "title": "Satış"
                         }
+                    }
+                },
+                "notes": {
+                    "title": "[AT] şirkət haqqında qeydləriniz",
+                    "labels": {
+                        "Başlıq": "[AT] etiketlər",
+                        "empty": "[AT] Qısayollar əlavə edilməyib",
+                        "title": "[AT] Etiketlər",
+                        "text": "[AT] Ehtiyaclarınız üçün şirkətlərin siyahısını yaratmaq üçün şirkətə etiketlər əlavə edin."
                     },
-                    "title": "Fəaliyyət"
+                    "custom": {
+                        "title": "[AT] xüsusi parametrlər",
+                        "text": "[AT] tezliklə!"
+                    }
                 },
                 "contacts": {
                     "empty": {
@@ -2500,6 +2523,8 @@
                     "title": "Şəkillər"
                 },
                 "progress": {
+                    "title": "Daha çox sifariş əldə etmək üçün profilinizi doldurun",
+                    "sub_title": "[AT] şirkətiniz daha çox nəzərə çarpacaq və daha çox etibar yaradacaq",
                     "items": {
                         "0": {
                             "name": "Ümumi \nməlumat",
@@ -2529,14 +2554,51 @@
                             "name": "Şəkillər",
                             "tooltip": "Şəkillər yüklə"
                         }
-                    },
-                    "title": "Daha çox sifariş əldə etmək üçün profilinizi doldurun"
+                    }
                 },
                 "regions": {
                     "add": "Ölkə, region və ya şəhər əlavə et",
                     "empty": "Şirkətin fəaliyyət göstərdiyi bölgə(lər) göstərilməyib",
                     "text": "Şirkətin xidmət göstərdiyi və ya təchizat etdiyi ərazi:",
                     "title": "Biznes əhatə etdiyi bölgə"
+                },
+                "edm": {
+                    "title": "[AT] Edo ID",
+                    "empty": "[AT] identifikator göstərilməyib",
+                    "info": "[AT] identifikator Edo operatorunun elektron sənədlərin göndəricilərinə və alıcılarına təyin etdiyi elektron sənəd dövriyyəsi iştirakçısının unikal kodudur",
+                    "dialogs": {
+                        "add": {
+                            "title": "[AT] Edo ID",
+                            "description": "[AT] tire və boşluq olmadan identifikatoru göstərin",
+                            "placeholder": "[AT] Edo ID",
+                            "save": "[AT] Saxla",
+                            "cancel": "[AT] Ləğv et",
+                            "delete": "[AT] ID Sil",
+                            "validate": {
+                                "other_symbols": "[AT] yalnız latın əlifbasının nömrələri və hərfləri məqbuldur",
+                                "required": "[AT] məcburi Sahə"
+                            }
+                        },
+                        "delete": {
+                            "title": "[AT] identifikatoru silin",
+                            "submit": "[AT] Sil",
+                            "cancel": "[AT] Ləğv et"
+                        },
+                        "actions": {
+                            "save": "[AT] Saxla",
+                            "cancel": "[AT] Ləğv et",
+                            "delete": "[AT] Sil"
+                        }
+                    },
+                    "actions": {
+                        "copy": "[AT] panoya kopyalayın",
+                        "add": "[AT] ID əlavə et",
+                        "edit": "[AT] ID dəyişdirin"
+                    },
+                    "snacks": {
+                        "copy": "[AT] ID kopyalanır",
+                        "deleted": "[AT] ID silindi"
+                    }
                 },
                 "registers": {
                     "description": "Sizi əməkdaşlığa dəvət edirik! Aşağıdakı sahələrdə akkreditə olunmuş təchizatçımız olun:",
@@ -2551,7 +2613,16 @@
                     "edit": "Redaktə etmək"
                 },
                 "tags": {
+                    "sales": {
+                        "title": "Biz satırıq",
+                        "empty": "Müştərilərin sizi tapması üçün məhsul və xidmətlərinizi teqlər vasitəsi ilə təsvir edin"
+                    },
+                    "purchase": {
+                        "title": "biz alırıq",
+                        "empty": "şirkətinizin satın almaq istədiyi məhsul və xidmətləri etiketləyin ki, müştərilər və Bidzaar sistemi Sizin üçün xüsusi olaraq sorğu ala bilsin"
+                    },
                     "add": "Teqlər əlavə et",
+                    "edit": "[AT] etiketləri dəyişdirin",
                     "dialog": {
                         "header": "Ixtisas sahəsi",
                         "placeholder": "Satış üçün obyektalri sadalıyın",
@@ -2563,6 +2634,20 @@
                 "toolbar": {
                     "completed": "Profil doldurulub",
                     "toggle": "Partnyorlar profilinizi necə görür"
+                },
+                "menu": {
+                    "items": {
+                        "0": "[AT] rekvizitlər",
+                        "1": "[AT] işçilər",
+                        "2": "[AT] sayt üçün vidjetlər",
+                        "3": "[AT] kateqoriyalar Kataloqu",
+                        "4": "[AT] dəvətnamələrin qurulması",
+                        "5": "[AT] işçi qrupları",
+                        "6": "[AT] şirkətlər qrupları",
+                        "7": "[AT] qələbə üçün hesablar"
+                    },
+                    "bills_message": "[AT] ödənilməmiş hesablar var",
+                    "mobile_action": "[AT] menyu"
                 }
             }
         },
@@ -2841,7 +2926,8 @@
         "unsupported_file_format": "Dəstəklənməyən fayl formatı",
         "user_not_exists": "Göstərilən e-poçt ilə istifadəçi qeydiyyata alınmayıb",
         "wrong_code": "Səhv kod",
-        "wrong_format": "Səhv format"
+        "wrong_format": "Səhv format",
+        "range_max_gt_min": "[AT] Aralığın son dəyəri başlanğıc dəyərindən böyükdür"
     },
     "widgets": {
         "cropper": {
@@ -2851,5 +2937,32 @@
                 "save": "tətbiq et"
             }
         }
+    },
+    "ngx_editor": {
+        "headers": {
+            "h1": "[AT] Başlıq 1",
+            "h2": "[AT] Başlıq 2",
+            "h3": "[AT] Başlıq 3",
+            "h4": "[AT] Başlıq 4",
+            "h5": "[AT] Başlıq 5",
+            "h6": "[AT] Başlıq 6"
+        },
+        "remove": "[AT] Sil",
+        "message": {
+            "error": "[AT] böyük təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
+            "warning": "[AT] böyük təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+            "warning-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+            "error-nda": "[AT] qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
+        }
+    },
+    "subscribtions": {
+        "mail": "Подписка отменена"
+    },
+    "labels": {
+        "assign_label": "Etiket təyin edin",
+        "empty": "Etiketlər tapılmadı",
+        "no_labels": "Sizin etiketiniz yoxdur",
+        "search": "Axtarış...",
+        "show_labels": "Etiketləri göstərin"
     }
 }

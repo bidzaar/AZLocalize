@@ -1,0 +1,46 @@
+{
+    "bdz.cmp": {
+        "bills": {
+            "list": {
+                "header": {
+                    "title": "Victory accounts",
+                    "total": "Records {{value}}",
+                    "search": "The search is performed by fields:\n• The code and name of the request\n• Account number"
+                },
+                "empty": "The list is empty",
+                "notfound": "Nothing was found for your request...",
+                "sorting": {
+                    "date": "Invoice date"
+                },
+                "filters": {
+                    "status": {
+                        "title": "Account status"
+                    },
+                    "date": {
+                        "title": "Invoice date"
+                    }
+                },
+                "item": {
+                    "code": "Invoice {{ value }} from {{date }}"
+                }
+            },
+            "enums": {
+                "status": {
+                    "0": "Not paid",
+                    "1": "Paid"
+                }
+            },
+            "dialog": {
+                "title": "Receive invoice by email",
+                "label": "Email to send invoice",
+                "description": "We will send the invoice within two business days.",
+                "submit": "Receive",
+                "cancel": "Cancel",
+                "submit_success": "Invoice will be sent soon",
+                "errors": {
+                    "request": "The request was not sent. Try again later"
+                }
+            }
+        }
+    }
+}

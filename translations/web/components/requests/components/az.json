@@ -105,12 +105,12 @@
             "positions": {
                 "fields": {
                     "deviation_type": "Lota aid olan təklif həcmi",
-                    "updown": "Qiymət dəyişikliyi",
                     "expected_price": "Təklifin gözlənilən qiyməti",
                     "max_price": "Lot üçün maksimum təklif qiyməti",
                     "min_price": "Lot üçün minimum təklif qiyməti",
                     "price_step": "Minimum qiymət dəyişikliyi addımı",
-                    "empty_price": "qeyd olunmayıb"
+                    "empty_price": "qeyd olunmayıb",
+                    "updown": "Qiymət dəyişikliyi"
                 },
                 "errors": {
                     "price_out_of_range": "0,00 ilə 99,999,999,999,00 arasında dəyər daxil edin",
@@ -118,8 +118,8 @@
                     "step_range.1": "0,01 ilə 100 000 arasında dəyər daxil edin",
                     "max_price_gt_step": "Maksimum qiymət dəyişiklik addımından azdır",
                     "step_gt_max_price": "dəyişiklik addımı maksimum qiyməti aşır",
-                    "abs_step_unavailable": "Допустимо изменение в % при подаче на часть позиций",
-                    "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • iştirakçılar nə görür = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya hərrac"
+                    "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • iştirakçılar nə görür = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya hərrac",
+                    "abs_step_unavailable": "Допустимо изменение в % при подаче на часть позиций"
                 }
             },
             "general": {

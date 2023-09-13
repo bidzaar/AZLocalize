@@ -1,0 +1,14 @@
+{
+  "pl": {
+    "banned_positions": {
+      "header": "Fərdi elementlər üçün lent qadağalarının təyin edilməsi",
+      "header_tooltip": "Təqdim etmə qadağaları yalnız yeni iştirakçı təkliflərinə şamil olunacaq",
+      "banned_positions": "Qadağan olunmuş vəzifələr:",
+      "has_bid": "Təklif təqdim edildi",
+      "no_bid": "Təklif təqdim edilmədi",
+      "empty_group": "Vəzifələr göstərilməyib",
+      "total_tooltip":"[AT] Verilməsi qadağan olunmuş vəzifələr",
+      "participants_count": "Üzvlər: {{value}}"
+    }
+  }
+}

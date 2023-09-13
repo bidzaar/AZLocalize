@@ -50,16 +50,5 @@
     "Register.UserAggrement": "By pressing the \"Create account\" button, I accept conditions of the <a href=\"{0}\" target=\"_blank\">User agreement</a> and give your consent to the processing of your personal information on the terms determined by the <a href=\"{1}\" target=\"_blank\">Privacy Policy</a>",
     "ResetPassword.PasswordHint": "The password must consist of alphabetic, numeric and special characters, {0} or more characters long",
     "ResetPassword.SetPassword": "SET PASSWORD",
-    "ResetPassword.Title": "Set new password",
-    "Error.UserDoesntExist1": "User with specified email mail is not registered",
-    "Error.UserNotFound1": "User is not found",
-    "Error.WrongPassword1": "Wrong password entered",
-    "Notice.Company1": "Company registration -",
-    "Notice.Step1": "On the next step.",
-    "PasswordTooShort1": "The password must contain at least {1} characters.",
-    "Validation.IncorrectPassword1": "Incorrect username or password entered",
-    "Validation.PasswordsDontMatch1": "Password mismatch",
-    "Validation.RecoveryLinkIsUsed1": "The password reset link is no longer valid. Retry password recovery",
-    "Validation.UserAlreadyExists1": "The user with the specified email is already registered",
-    "Validation.UserDoesNotExists1": "The user with the specified email is not registered"
+    "ResetPassword.Title": "Set new password"
 }

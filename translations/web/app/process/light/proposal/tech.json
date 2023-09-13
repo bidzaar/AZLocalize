@@ -2,40 +2,34 @@
     "pl": {
         "proposal": {
             "nda": {
-                "title": {
-                    "draft": "web/app/process/light/proposal: pl.proposal.nda.title.draft",
-                    "submitted": "web/app/process/light/proposal: pl.proposal.nda.title.submitted",
-                    "rejected": "web/app/process/light/proposal: pl.proposal.nda.title.rejected",
-                    "accepted": "web/app/process/light/proposal: pl.proposal.nda.title.accepted",
-                    "failed": "web/app/process/light/proposal: pl.proposal.nda.title.failed",
+                "banner": {
+                    "draft": "web/app/process/light/proposal: pl.proposal.nda.banner.draft",
+                    "submitted": "web/app/process/light/proposal: pl.proposal.nda.banner.submitted"
+                },
+                "header": {
+                    "title": "web/app/process/light/proposal: pl.proposal.nda.header.title",
                     "status": {
-                        "0": "web/app/process/light/proposal: pl.proposal.nda.title.status.0",
-                        "1": "web/app/process/light/proposal: pl.proposal.nda.title.status.1",
-                        "2": "web/app/process/light/proposal: pl.proposal.nda.title.status.2",
-                        "3": "web/app/process/light/proposal: pl.proposal.nda.title.status.3"
+                        "0": "web/app/process/light/proposal: pl.proposal.nda.header.status.0",
+                        "1": "web/app/process/light/proposal: pl.proposal.nda.header.status.1",
+                        "2": "web/app/process/light/proposal: pl.proposal.nda.header.status.2",
+                        "3": "web/app/process/light/proposal: pl.proposal.nda.header.status.3"
                     }
                 },
-                "add_files_text": "web/app/process/light/proposal: pl.proposal.nda.add_files_text",
-                "description": "web/app/process/light/proposal: pl.proposal.nda.description",
-                "files_title": "web/app/process/light/proposal: pl.proposal.nda.files_title",
-                "files_info": "web/app/process/light/proposal: pl.proposal.nda.files_info",
-                "your_application": "web/app/process/light/proposal: pl.proposal.nda.your_application",
-                "add_files_update_text": "web/app/process/light/proposal: pl.proposal.nda.add_files_update_text",
-                "send": "web/app/process/light/proposal: pl.proposal.nda.send",
-                "errors": {
-                    "empty": "web/app/process/light/proposal: pl.proposal.nda.errors.empty",
-                    "correct": "web/app/process/light/proposal: pl.proposal.nda.errors.correct"
+                "action": {
+                    "title": "web/app/process/light/proposal: pl.proposal.nda.action.title",
+                    "text": "web/app/process/light/proposal: pl.proposal.nda.action.text",
+                    "cancel": "web/app/process/light/proposal: pl.proposal.nda.action.cancel",
+                    "submit": "web/app/process/light/proposal: pl.proposal.nda.action.submit"
                 },
-                "manual": {
-                    "title": "web/app/process/light/proposal: pl.proposal.nda.manual.title",
-                    "message": {
-                        "1": "web/app/process/light/proposal: pl.proposal.nda.manual.message.1",
-                        "2": "web/app/process/light/proposal: pl.proposal.nda.manual.message.2"
-                    },
-                    "description": {
-                        "text": "web/app/process/light/proposal: pl.proposal.nda.manual.description.text",
-                        "explanation": "web/app/process/light/proposal: pl.proposal.nda.manual.description.explanation"
-                    }
+                "description": {
+                    "title": "web/app/process/light/proposal: pl.proposal.nda.description.title",
+                    "notice": "web/app/process/light/proposal: pl.proposal.nda.description.notice",
+                    "open": "web/app/process/light/proposal: pl.proposal.nda.description.open"
+                },
+                "documents": {
+                    "title": "web/app/process/light/proposal: pl.proposal.nda.documents.title",
+                    "notice": "web/app/process/light/proposal: pl.proposal.nda.documents.notice",
+                    "append": "web/app/process/light/proposal: pl.proposal.nda.documents.append"
                 }
             },
             "registries": {
@@ -55,55 +49,53 @@
             },
             "card": {
                 "banner": {
+                    "changing": "web/app/process/light/proposal: pl.proposal.card.banner.changing",
                     "draft": "web/app/process/light/proposal: pl.proposal.card.banner.draft",
-                    "submitted": {
-                        "text": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.text",
-                        "button": "web/app/process/light/proposal: pl.proposal.card.banner.submitted.button"
-                    },
-                    "edit": "web/app/process/light/proposal: pl.proposal.card.banner.edit",
-                    "summarizing": "web/app/process/light/proposal: pl.proposal.card.banner.summarizing"
+                    "submitted": "web/app/process/light/proposal: pl.proposal.card.banner.submitted",
+                    "summarize": "web/app/process/light/proposal: pl.proposal.card.banner.summarize",
+                    "improve": "web/app/process/light/proposal: pl.proposal.card.banner.improve"
                 },
                 "title": {
-                    "my": "web/app/process/light/proposal: pl.proposal.card.title.my",
-                    "alternative": "web/app/process/light/proposal: pl.proposal.card.title.alternative"
+                    "true": "web/app/process/light/proposal: pl.proposal.card.title.true",
+                    "false": "web/app/process/light/proposal: pl.proposal.card.title.false"
                 },
-                "rank": {
-                    "by_proposal": {
-                        "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.text",
-                        "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_proposal.label"
-                    },
-                    "by_position": {
-                        "text": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.text",
-                        "label": "web/app/process/light/proposal: pl.proposal.card.rank.by_position.label"
-                    }
+                "status": {
+                    "submitted": "web/app/process/light/proposal: pl.proposal.card.status.submitted",
+                    "draft": "web/app/process/light/proposal: pl.proposal.card.status.draft",
+                    "changing": "web/app/process/light/proposal: pl.proposal.card.status.changing"
                 },
                 "price": {
-                    "title": "web/app/process/light/proposal: pl.proposal.card.price.title",
-                    "info": "web/app/process/light/proposal: pl.proposal.card.price.info"
+                    "title": {
+                        "true": "web/app/process/light/proposal: pl.proposal.card.price.title.true",
+                        "false": "web/app/process/light/proposal: pl.proposal.card.price.title.false"
+                    }
                 },
                 "positions": {
                     "title": "web/app/process/light/proposal: pl.proposal.card.positions.title",
-                    "action": "web/app/process/light/proposal: pl.proposal.card.positions.action",
-                    "view_action": "web/app/process/light/proposal: pl.proposal.card.positions.view_action",
+                    "action": {
+                        "true": "web/app/process/light/proposal: pl.proposal.card.positions.action.true",
+                        "false": "web/app/process/light/proposal: pl.proposal.card.positions.action.false"
+                    },
                     "statistics": {
-                        "total": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.total",
-                        "dont_have_any": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.dont_have_any"
+                        "complete": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.complete",
+                        "incomplete": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.incomplete",
+                        "excluded": "web/app/process/light/proposal: pl.proposal.card.positions.statistics.excluded"
                     }
                 },
                 "questionnaire": {
                     "title": "web/app/process/light/proposal: pl.proposal.card.questionnaire.title",
-                    "action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.action",
-                    "view_action": "web/app/process/light/proposal: pl.proposal.card.questionnaire.view_action",
+                    "action": {
+                        "true": "web/app/process/light/proposal: pl.proposal.card.questionnaire.action.true",
+                        "false": "web/app/process/light/proposal: pl.proposal.card.questionnaire.action.false"
+                    },
                     "statistics": {
-                        "answers": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answers",
-                        "answer_count": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.answer_count"
+                        "complete": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.complete",
+                        "incomplete": "web/app/process/light/proposal: pl.proposal.card.questionnaire.statistics.incomplete"
                     }
                 },
                 "documents": {
                     "title": "web/app/process/light/proposal: pl.proposal.card.documents.title",
-                    "sub_title": "web/app/process/light/proposal: pl.proposal.card.documents.sub_title",
                     "action": "web/app/process/light/proposal: pl.proposal.card.documents.action",
-                    "empty": "web/app/process/light/proposal: pl.proposal.card.documents.empty",
                     "text": "web/app/process/light/proposal: pl.proposal.card.documents.text"
                 },
                 "actions": {
@@ -115,8 +107,10 @@
                     "recall": "web/app/process/light/proposal: pl.proposal.card.actions.recall",
                     "order_service": "web/app/process/light/proposal: pl.proposal.card.actions.order_service"
                 },
-                "with_vat": "web/app/process/light/proposal: pl.proposal.card.with_vat",
-                "without_vat": "web/app/process/light/proposal: pl.proposal.card.without_vat"
+                "competitors_ahead": {
+                    "true": "web/app/process/light/proposal: pl.proposal.card.competitors_ahead.true",
+                    "false": "web/app/process/light/proposal: pl.proposal.card.competitors_ahead.false"
+                }
             },
             "alternative": {
                 "title": "web/app/process/light/proposal: pl.proposal.alternative.title",

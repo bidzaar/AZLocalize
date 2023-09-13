@@ -1,99 +1,99 @@
 {
-  "cmp.users": {
-    "enums": {
-      "rights": {
-        "0": {
-          "long": "Hüquqlar təyin edilməyib",
-          "short": "Hüquqlar təyin edilməyib"
+    "cmp.users": {
+        "enums": {
+            "rights": {
+                "0": {
+                    "long": "Hüquqlar təyin edilməyib",
+                    "short": "Hüquqlar təyin edilməyib"
+                },
+                "1": {
+                    "short": "Sorğuların keçirilməsi",
+                    "long": "Sorğuların keçirilməsi"
+                },
+                "2": {
+                    "long": "Sorğuya təkliflərin verilməsi",
+                    "short": "Təkliflərin təqdim edilməsi"
+                },
+                "4": {
+                    "short": "Akkreditasiyaya sorğu",
+                    "long": "Akkreditasiya üçün müraciət"
+                },
+                "8": {
+                    "long": "Akkreditasiya qruplarının idarə edilməsi",
+                    "short": "Qrupların idarəçiliyi"
+                },
+                "16": {
+                    "short": "Təşkilatın idarə olunması",
+                    "long": "Təşkilatın idarə olunması"
+                },
+                "128": {
+                    "short": "Satınalma üzrə rəhbər",
+                    "long": "Satınalma şöbəsinin rəhbəri"
+                },
+                "256": {
+                    "short": "Qrupların idarə olunması",
+                    "long": "Qrupların idarə olunması"
+                },
+                "512": {
+                    "short": "Reyestrlər",
+                    "long": "Reyestrlər"
+                },
+                "1024": {
+                    "short": "Reyestrlərin rəhbəri",
+                    "long": "Reyestrlər şöbəsinin rəhbəri"
+                },
+                "2048": {
+                    "short": "Qruplarda akkreditasiya üçün müraciət",
+                    "long": "Qruplarda akkreditasiya üçün müraciət"
+                }
+            },
+            "role": {
+                "0": "Auditor",
+                "1": "Redaktor",
+                "2": "Sahib"
+            }
         },
-        "1": {
-          "short": "[AT] Alıcı",
-          "long": "[AT] Alıcı"
-        },
-        "2": {
-          "long": "Təchizatçı",
-          "short": "Təchizatçı"
-        },
-        "4": {
-          "short": "Akkreditasiyaya sorğu",
-          "long": "[AT] akkreditasiya ərizəçisi"
-        },
-        "8": {
-          "long": "Akkreditasiya qruplarının idarə edilməsi",
-          "short": "Qrupların idarə edilməsi"
-        },
-        "16": {
-          "short": "[AT] şirkət administratoru",
-          "long": "[AT] şirkət administratoru"
-        },
-        "128": {
-          "short": "[AT] Buyer (head of department)",
-          "long": "[AT] satınalma rəhbəri"
-        },
-        "256": {
-          "short": "[AT] Qrup administratoru",
-          "long": "[AT] Qrup administratoru"
-        },
-        "512": {
-          "short": "Reyestrlər",
-          "long": "[AT] qeydiyyat administratoru"
-        },
-        "1024": {
-          "short": "Reyestr rəhbəri",
-          "long": "[AT] qeydiyyat şöbəsinin müdiri"
-        },
-        "2048": {
-          "short": "[AT] Akkreditivin tələbi. hovuz",
-          "long": "[AT] Poole-da akkreditə üçün ərizələrin verilməsi"
+        "list": {
+            "card": {
+                "rights": {
+                    "empty": "Hüquqları yoxdur"
+                }
+            },
+            "empty": {
+                "absolute": "Şirkətdə hələ ProcureSaas-da qeydiyyatdan keçmiş işçiləri yoxdur",
+                "filtered": "Üzr istəyirik, bu sorğu üçün heç bir işçi tapa bilmədik..."
+            },
+            "filters": {
+                "rights": {
+                    "title": "Hüquqlar"
+                },
+                "status": {
+                    "title": "Status"
+                },
+                "statusChangedOn": {
+                    "title": "Statusun dəyişmə tarixi"
+                }
+            },
+            "header": {
+                "search": "Axtarış işçinin adı və əlaqə məlumatları əsasında aparılır",
+                "title": "Şirkət əməkdaşları"
+            },
+            "preview": {
+                "confirm": "İstisna etmək",
+                "give_admin": "Şirkətin administrator hüquqlarını verin",
+                "rights": {
+                    "empty": "Hüquqlar təyin edilməyib",
+                    "list": "İstifadəçi hüquqları"
+                },
+                "status": {
+                    "date": "{{ value }} -dən"
+                }
+            },
+            "sorting": {
+                "name": "Ad",
+                "status": "Status",
+                "status_changed": "Statusun dəyişdirmə tarixi"
+            }
         }
-      },
-      "role": {
-        "0": "[AT] Auditor",
-        "1": "[AT] Redaktor",
-        "2": "[AT] Sahib"
-      }
-    },
-    "list": {
-      "card": {
-        "rights": {
-          "empty": "Hüquqları yoxdur"
-        }
-      },
-      "empty": {
-        "absolute": "Şirkətdə hələ ProcureSaas-da qeydiyyatdan keçmiş işçiləri yoxdur",
-        "filtered": "Üzr istəyirik, bu sorğu üçün heç bir işçi tapa bilmədik..."
-      },
-      "filters": {
-        "rights": {
-          "title": "Hüquqlar"
-        },
-        "status": {
-          "title": "Status"
-        },
-        "statusChangedOn": {
-          "title": "Statusun dəyişmə tarixi"
-        }
-      },
-      "header": {
-        "search": "Axtarış işçinin adı və əlaqə məlumatları əsasında aparılır",
-        "title": "Şirkət əməkdaşları"
-      },
-      "preview": {
-        "confirm": "İstisna etmək",
-        "give_admin": "[AT] şirkətin administrator hüquqlarını verin",
-        "rights": {
-          "empty": "Hüquqlar təyin edilməyib",
-          "list": "İstifadəçi hüquqları"
-        },
-        "status": {
-          "date": "{{ value }} -dən"
-        }
-      },
-      "sorting": {
-        "name": "Ad",
-        "status": "Status",
-        "status_changed": "[AT] Status dəyişdirmə tarixi"
-      }
     }
-  }
 }

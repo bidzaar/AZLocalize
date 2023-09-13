@@ -18,7 +18,10 @@
                         "max_price": "Max cost per unit, {{ value }}",
                         "min_price": "Min cost per unit, {{ value }}",
                         "expected_price": "Expected cost per unit, {{ value }}",
-                        "documents": "Documents"
+                        "documents": "Documents",
+                        "permission": "Request submission",
+                        "permission_true": "Allowed",
+                        "permission_false": "Forbidden"
                     },
                     "proposal": {
                         "availability": "Availability",
@@ -42,7 +45,8 @@
                     "target_price": "Your guideline for choosing. Hidden from participants.",
                     "max_price": "The maximum price a supplier can offer for an item.\nSupplier cannot exceed the specified price",
                     "min_price": "The lowest price a supplier can offer for an item.\nSupplier cannot offer a lower price",
-                    "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price"
+                    "expected_price": "The price per item expected from the supplier.\nThe customer expects a specified or lower price",
+                    "permission": "The buyer forbids you to submit new bis for some items of the request"
                 }
             },
             "common": {

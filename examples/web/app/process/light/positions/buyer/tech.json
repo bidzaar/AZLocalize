@@ -32,9 +32,9 @@
       },
       "questionnaire": {
         "title": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.title",
+        "warning": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.warning",
         "count": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.count",
         "count_failure": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.count_failure",
-        "warning": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.warning",
         "items": {
           "Process.Light.Import.InvalidFileExtension": {
             "title": "web/app/process/light/positions/buyer: pl_pop.importer.questionnaire.items.Process.Light.Import.InvalidFileExtension.title"
@@ -52,29 +52,23 @@
     "configurator": {
       "header": "web/app/process/light/positions/buyer: pl_pop.configurator.header",
       "menu": "web/app/process/light/positions/buyer: pl_pop.configurator.menu",
-      "defaults": {
-        "name": "web/app/process/light/positions/buyer: pl_pop.configurator.defaults.name"
+      "name": "web/app/process/light/positions/buyer: pl_pop.configurator.name",
+      "success": "web/app/process/light/positions/buyer: pl_pop.configurator.success",
+      "actions": {
+        "apply_and_close": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.apply_and_close",
+        "apply": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.apply",
+        "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.cancel",
+        "append": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.append",
+        "remove": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.remove",
+        "close": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.close"
       },
       "details": {
         "name": "web/app/process/light/positions/buyer: pl_pop.configurator.details.name",
         "type": "web/app/process/light/positions/buyer: pl_pop.configurator.details.type"
       },
-      "actions": {
-        "done": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.done",
-        "append": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.append",
-        "remove": "web/app/process/light/positions/buyer: pl_pop.configurator.actions.remove"
-      },
       "empty": {
         "text": "web/app/process/light/positions/buyer: pl_pop.configurator.empty.text",
         "notice": "web/app/process/light/positions/buyer: pl_pop.configurator.empty.notice"
-      },
-      "errors": {
-        "name": "web/app/process/light/positions/buyer: pl_pop.configurator.errors.name"
-      },
-      "remove": {
-        "text": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.text",
-        "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.cancel",
-        "confirm": "web/app/process/light/positions/buyer: pl_pop.configurator.remove.confirm"
       },
       "types": {
         "string": "web/app/process/light/positions/buyer: pl_pop.configurator.types.string",
@@ -82,6 +76,18 @@
         "bool": "web/app/process/light/positions/buyer: pl_pop.configurator.types.bool",
         "datetime": "web/app/process/light/positions/buyer: pl_pop.configurator.types.datetime",
         "decimal": "web/app/process/light/positions/buyer: pl_pop.configurator.types.decimal"
+      },
+      "dialogs": {
+        "changes": {
+          "title": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.changes.title",
+          "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.changes.cancel",
+          "submit": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.changes.submit"
+        },
+        "remove": {
+          "title": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.remove.title",
+          "cancel": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.remove.cancel",
+          "submit": "web/app/process/light/positions/buyer: pl_pop.configurator.dialogs.remove.submit"
+        }
       }
     },
     "positions": {
@@ -108,9 +114,7 @@
         "unit": "web/app/process/light/positions/buyer: pl_pop.positions.defaults.unit"
       },
       "actions": {
-        "append": "web/app/process/light/positions/buyer: pl_pop.positions.actions.append",
-        "download": "web/app/process/light/positions/buyer: pl_pop.positions.actions.download",
-        "upload": "web/app/process/light/positions/buyer: pl_pop.positions.actions.upload"
+        "append": "web/app/process/light/positions/buyer: pl_pop.positions.actions.append"
       },
       "delete": {
         "text": "web/app/process/light/positions/buyer: pl_pop.positions.delete.text",

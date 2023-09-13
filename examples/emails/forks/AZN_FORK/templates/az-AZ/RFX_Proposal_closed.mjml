@@ -21,7 +21,7 @@
             <!--<b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName-->
             <b>Sifarişçi:</b>@ProcedureContext.ProcedureOwnerCompanyName
 		  </p>
-          <p> <a href="@ProcedureContext.UrlProposal">"Təklif"</a> bölməsində son kommersiya təklifini əlavə edə və ya sənədləri yeniləyə bilərsiniz. "Kommersiya təklifi və sənədləri"nə baxın. </p>
+          <p> <a href="@ProcedureContext.UrlProposal">"Təklif"</a> bölməsində son kommersiya təklifini əlavə edə və ya sənədləri yeniləyə bilərsiniz. "Sənədlər"-ə baxın. </p>
         </mj-text>
       </mj-column>
     </mj-section>

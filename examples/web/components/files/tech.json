@@ -22,10 +22,11 @@
     },
     "errors": {
       "title_size": "web/components/files: bdz.fls.errors.title_size",
+      "size": "web/components/files: bdz.fls.errors.size",
       "title_length": "web/components/files: bdz.fls.errors.title_length",
-      "ext": "web/components/files: bdz.fls.errors.ext",
       "length": "web/components/files: bdz.fls.errors.length",
-      "size": "web/components/files: bdz.fls.errors.size"
+      "title_ext": "web/components/files: bdz.fls.errors.title_ext",
+      "ext": "web/components/files: bdz.fls.errors.ext"
     },
     "tooltips": {
       "edit": "web/components/files: bdz.fls.tooltips.edit",

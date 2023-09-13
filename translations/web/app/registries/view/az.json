@@ -19,8 +19,8 @@
                         "tooltip": "Əlaqə məlumatları reyestr iştirakçılarına dəvət qəbul olunandan sonra əlçatan olacaq"
                     },
                     "descr": {
-                        "placeholder": "",
-                        "title": "Təsvir"
+                        "title": "Təsvir",
+                        "placeholder": ""
                     },
                     "files": {
                         "title": "Sənədlər",

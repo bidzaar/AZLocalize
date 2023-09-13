@@ -17,15 +17,14 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Siz sorğulamışdınız @ReportContext.TypeName</h1>
-          <p>Arxiv formalaşıb @ConfigurationContext.Date və 30 gün ərzində əlçatandır.</p>
+          <h1>@ReportContext.TypeName</h1>
+          <p>Arxiv formalaşıb @ConfigurationContext.Date və 30 gün ərzində aktivdir.</p>
         </mj-text>
         <mj-button href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/async/@ReportPrecontext.ReportId">Arxivi endir</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer.mjml" />
     <!-- /footer -->
   </mj-body>

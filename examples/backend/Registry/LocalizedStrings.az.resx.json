@@ -17,6 +17,8 @@
     "Qst.Comment": "Şərh və faylla",
     "Qst.Empty": "Anket alınmad",
     "Qst.NoAnswer": "Cavab yoxdu",
+    "Qst.True": "Yes",
+    "Qst.False": "No",
     "Qst.Points": "Xalla",
     "Qst.Question": "Sua",
     "Report.Date": "Hesabat tarixi",

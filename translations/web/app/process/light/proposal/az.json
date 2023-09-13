@@ -112,6 +112,25 @@
                 "text": "Sertifikasiyanı keçin və ESG təchizatçısı statusunuzu əldə edin",
                 "title": "Biznesinizin davamlı inkişafı"
             },
+            "nonexistent": {
+                "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",
+                "title": "Mənim təklifim"
+            },
+            "refused": {
+                "return": "Sorğuya qayıt",
+                "sub_title": "Sorğuya qayıdıb təklif vermək, təkliflərin qəbulunun bitmə tarixinə kimi mümkündür {{value}}",
+                "title": "Sizin şirkət sorğuda iştrak etməkdən imtina edib"
+            },
+            "status": {
+                "0": "Təqdim edilməyib",
+                "1": "Göndərilib",
+                "2": "Geri çağrılıb",
+                "changing": "Dəyişiklik"
+            },
+            "unavailable": {
+                "message": "Sifarişçi ilə çat",
+                "title": "Sorğunun hazırkı statusunda təkliflərin təqdim edilməsi\nmümkün deyil"
+            },
             "nda": {
                 "banner": {
                     "draft": "İlkin kvalifikasiya və təkliflər, təkliflər qəbulunun son tarixinə kimi təqdim olunmalıdır.",
@@ -142,25 +161,6 @@
                     "notice": "Sənədlər toplusunu əlavə et",
                     "append": "Əlavə et"
                 }
-            },
-            "nonexistent": {
-                "info": "Sorğu tamamlandı, təklifin təqdim edilməsi mümkün deyil",
-                "title": "Mənim təklifim"
-            },
-            "refused": {
-                "return": "Sorğuya qayıt",
-                "sub_title": "Sorğuya qayıdıb təklif vermək, təkliflərin qəbulunun bitmə tarixinə kimi mümkündür {{value}}",
-                "title": "Sizin şirkət sorğuda iştrak etməkdən imtina edib"
-            },
-            "status": {
-                "0": "Təqdim edilməyib",
-                "1": "Göndərilib",
-                "2": "Geri çağrılıb",
-                "changing": "Dəyişiklik"
-            },
-            "unavailable": {
-                "message": "Sifarişçi ilə çat",
-                "title": "Sorğunun hazırkı statusunda təkliflərin təqdim edilməsi\nmümkün deyil"
             }
         }
     }

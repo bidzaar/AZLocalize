@@ -1,0 +1,14 @@
+{
+  "pl": {
+    "banned_positions": {
+      "header": "web/app/process/light/banned-positions: pl.banned_positions.header",
+      "header_tooltip": "web/app/process/light/banned-positions: pl.banned_positions.header_tooltip",
+      "banned_positions": "web/app/process/light/banned-positions: pl.banned_positions.banned_positions",
+      "has_bid": "web/app/process/light/banned-positions: pl.banned_positions.has_bid",
+      "no_bid": "web/app/process/light/banned-positions: pl.banned_positions.no_bid",
+      "empty_group": "web/app/process/light/banned-positions: pl.banned_positions.empty_group",
+      "total_tooltip": "web/app/process/light/banned-positions: pl.banned_positions.total_tooltip",
+      "participants_count": "web/app/process/light/banned-positions: pl.banned_positions.participants_count"
+    }
+  }
+}

@@ -67,6 +67,11 @@
                     "empty": "Şirkət profildə teqləri qeyd etməyib",
                     "expand": "Hamısını göstər",
                     "title": "Şirkətin teqləri"
+                },
+                "requests": {
+                    "title": "[AT] sorğularda iştirak",
+                    "label": "[AT] son",
+                    "empty": "[AT] şirkət hələ sorğularda iştirak etməyib"
                 }
             },
             "header": {

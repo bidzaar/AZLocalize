@@ -1,0 +1,14 @@
+    <!-- quick-start -------------------------------------------- -->
+    <mj-section>
+        <mj-column>
+            <mj-text>
+                <h2>Nədən başlayaq:</h2>
+                <ol>
+                    <li><a href="@ConfigurationContext.BaseUrl/home">Şirkətinizin profilini ayarlayın ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/procedures/all">Müvafiq sifariş tapın və ya sorğu dərc edin ►</a></li>
+                    <li><a href="@ConfigurationContext.BaseUrl/companies/all"> @ConfigurationContext.ProjectName-da kimlər var? ►</a></li>
+                </ol>
+            </mj-text>
+        </mj-column>
+    </mj-section>
+    <!-- /quick-start -->

@@ -6,18 +6,18 @@
 Сотрудник отправил заявку на присоединение к компании
 -->
   <mj-include path="./__tpl/__head.mjml" />
-  <mj-body>
+  <mj-body><!-- <mj-text><h1>en-GB</h1></mj-text> -->
     <!-- logo -------------------------------------------- -->
     <mj-include path="./__tpl/__logo.mjml" />
     <!-- primary -------------------------------------------- -->
     <mj-section mj-class="section-primary">
       <mj-column css-class="bgimage bgimage-ok" padding-bottom="20px">
         <mj-text mj-class="text-primary">
-          <h1>@UserContext.FirstName @UserContext.LastName хочет присоединиться к <b>@CompanyContext.CompanyName</b></h1>
-          <p class="p75">Подтвердите или отклоните заявку сотрудника.</p>
+          <h1>@UserContext.FirstName @UserContext.LastName wants to join <b>@CompanyContext.CompanyName</b></h1>
+          <p class="p75">Accept or reject the request.</p>
         </mj-text>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl/users">Обработать заявку</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl/users">See request</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />
@@ -25,7 +25,6 @@
     <!-- help -------------------------------------------- -->
     <mj-include path="./__tpl/__help.mjml" />
     <!-- footer -------------------------------------------- -->
-  <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer.mjml" />
     <!-- /footer -->
   </mj-body>

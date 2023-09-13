@@ -7,17 +7,18 @@
         "archive": "Bütün faylları endir (.zip)",
         "archive_snack": "Arxivin formalaşdırılması ... Əməliyyat bitdikdən sonra yükləmə başlayacaq",
         "errors": {
-            "ext": "{{value}} fayl(lar) yüklənməyib. Sənəd, şəkil və ya arxiv yükləyin.",
-            "length": "Yüklənəcək faylların maksimum sayı - {{count}}",
+            "title_size": "Fayl çox böyükdür",
             "size": "Faylın maksimal ölçüsü - {{size}} MB",
             "title_length": "Fayl yükləmək mümkün deyil",
-            "title_size": "Fayl çox böyükdür"
+            "length": "Yüklənəcək faylların maksimum sayı - {{count}}",
+            "title_ext": "[AT] fayl(lar) {{names}} yüklənməyib.",
+            "ext": "{{value}} fayl(lar) yüklənməyib. Sənəd, şəkil və ya arxiv yükləyin."
         },
         "remove": {
             "no": "Ləğv et",
             "text": "sənəd silinsin?",
-            "title": "",
-            "yes": "Sil"
+            "yes": "Sil",
+            "title": ""
         },
         "rename": {
             "cancel": "Ləğv et",

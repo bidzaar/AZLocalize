@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>          
-          <p><b>@TargetContext.CompanyName</b> sorğuda iştirak etməyə dəvət edirik</p>
+          <p><b>@TargetContext.CompanyName</b>, sizi sorğuda iştirak etməyə dəvət edirik</p>
         </mj-text>
       </mj-column>
     </mj-section>

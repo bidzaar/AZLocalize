@@ -17,6 +17,8 @@
     "Qst.Comment": "Şərh və fayllar",
     "Qst.Empty": "Müraciət göndərilməyib",
     "Qst.NoAnswer": "Cavab verilməyib",
+    "Qst.True": "Yes",
+    "Qst.False": "No",
     "Qst.Points": "Xallar",
     "Qst.Question": "Sual",
     "Report.Date": "Hesabat",

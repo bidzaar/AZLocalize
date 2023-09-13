@@ -22,7 +22,7 @@
   
   "FORK_CHATBOT_NAME": "BotZaar",
   "FORK_BRAND": "Bidzaar",
-  "FORK_TARIFFS_URL": "https://bidzaar.com/start/prices/",
+  "FORK_TARIFFS_URL": "https://bidzaar-supplier.notion.site/a10b086146754af5950020aea13625c0",
   "FORK_COMPANY_ACCESS_URL": "https://bidzaar.com/start/access-recovery/",
   "FORK_SUPPLIER_ORDER_URL": "https://bidzaar.com/start/forms/supplier-order-request",
   "FORK_GOLDEN_REGISTRIES_HELP": "https://bidzaar.com/start/gold-registries/",
@@ -34,7 +34,7 @@
   "FORK_BADGES_URL": "https://www.notion.so/a10b086146754af5950020aea13625c0",
   "FORK_RATING_URL": "https://www.notion.so/c33f7b92455f479c820dea185b83dc0a",
   "FORK_PROMO_TAGS_URL": "https://www.notion.so/9cb242e6cf384c47a61df7d37fcb2601",
-  "FORK_REGISTRIES_URL": "https://www.notion.so/VMS-674b73d9e73b43b19dbec131df629b13",
+  "FORK_REGISTRIES_URL": "https://bidzaar-purchaser.notion.site/VMS-d4ab2982900b4c2587048e6ddf7c4c8b",
   "FORK_EFFECTIVE_URL": "https://bidzaar.com/landing/effective-procurement",
   "FORK_SAVING_URL": "https://bidzaar-purchaser.notion.site/28cb37550318437b9fc47cfe1ac95a61"
 }

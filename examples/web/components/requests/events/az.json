@@ -1,112 +1,128 @@
 {
-  "bdz.req.events": {
-    "data": {
-      "participants": {
-        "contact": "Əlaqəli şəxs: {{ value }}"
-      },
-      "procedure": {
-        "completed": {
-          "empty": "Sifarişsiz",
-          "order": "Sifariş",
-          "orderFor": "{{ value }} üçün sifariş",
-          "price": "{{ price }} {{ currency }}",
-          "common": {
-            "distribution": "Distribution",
-            "empty": "There are no winners. Reason: {{value}}",
-            "order": "[AT] Sifariş verin",
-            "price": "[AT] {{ qiymət }} {{ valyuta }}"
-          },
-          "participant": {
-            "winner": "[AT] Müştəri sizi qalib seçdi",
-            "loser": "[AT] Müştəri qalib kimi başqa şirkəti seçdi",
-            "nobody": "There are no winners. Reason: {{value}}"
-          }
+    "bdz.req.events": {
+        "data": {
+            "participants": {
+                "contact": "Əlaqəli şəxs: {{ value }}",
+                "forbidden": {
+                    "true": "Запрещена подача",
+                    "false": "Разрешена подача"
+                }
+            },
+            "procedure": {
+                "completed": {
+                    "common": {
+                        "distribution": "Distribution",
+                        "empty": "Sifarişsiz",
+                        "order": "Sifariş ",
+                        "price": "{{ price }} {{ currency }}"
+                    },
+                    "participant": {
+                        "winner": "Müştəri sizi qalib seçdi",
+                        "loser": "Müştəri qalib kimi başqa şirkəti seçdi",
+                        "nobody": "Müraciət qalib seçilmədən başa çatdı"
+                    },
+                    "empty": "Sifarişsiz",
+                    "order": "Sifariş",
+                    "orderFor": "{{ value }} üçün sifariş",
+                    "price": "{{ price }} {{ currency }}"
+                },
+                "prolongation": "({{ date}} tarixinə kimi)",
+                "reason": {
+                    "nobody": "Ранее запрос был завершён без победителей",
+                    "label": "Səbəb:",
+                    "default": "Sifarişçi sorğuda əhəmiyyətli dəyişikliklər etdi"
+                },
+                "reports": {
+                    "changes": "Dəyişikliklər",
+                    "comparison": "Müqayisə cədvəli",
+                    "notice": "Bildiriş"
+                },
+                "summing": "Təklifi olan iştirakçılar: {{ participants }}",
+                "tariff": "Tariff: {{ value }}"
+            },
+            "proposals": {
+                "text": "Bid:",
+                "alternative": "Alternativ {{ index }}",
+                "errors": "\"{{value}}\" təklifində səhvlər var:",
+                "primary": "Təklif",
+                "rejected": {
+                    "reason": "Сообщение участнику:"
+                }
+            },
+            "toggle": {
+                "true": "Показать больше",
+                "false": "Свернуть"
+            }
         },
-        "prolongation": "({{ date}} tarixinə kimi)",
-        "reason": {
-          "label": "Səbəb:",
-          "default": "The customer made major changes to the request or rejected bids when the changes were published"
+        "table": {
+            "columns": {
+                "date": "Tarix",
+                "details": "Təfərrüatlar",
+                "initiator": "Təşəbbüskar",
+                "name": "Tədbir",
+                "stage": "Mərhələ"
+            },
+            "empty": "Sorğunuz üçün heç bir nəticə tapılmadı",
+            "notfound": "Sorğunuz üçün heç bir nəticə tapılmadı...",
+            "filters": {
+                "companies": {
+                    "choose": "Şirkət",
+                    "title": "Təşəbbüskar"
+                },
+                "date": {
+                    "title": "Tədbirin tarixi"
+                },
+                "stage": {
+                    "title": "Mərhələ"
+                },
+                "title": "Filtrlər",
+                "users": {
+                    "choose": "İşçi",
+                    "title": "İşçi"
+                },
+                "initiator": {
+                    "title": "Tədbirin təşkilatçısı",
+                    "options": {
+                        "0": "Sahib",
+                        "1": "Təchizatçı",
+                        "2": "Platforma"
+                    }
+                }
+            },
+            "item": {
+                "ip": "IP: {{value}}",
+                "system": "Platforma"
+            },
+            "total": "Qeydlər: {{value}}",
+            "search": ""
         },
-        "reports": {
-          "changes": "Dəyişikliklər",
-          "comparison": "Müqayisə cədvəli",
-          "notice": "Bildiriş"
-        },
-        "summing": "Təklifi olan iştirakçılar: {{ participants }}",
-        "tariff": "Tariff: {{ value }}"
-      },
-      "proposals": {
-        "text": "Bid:",
-        "alternative": "Alternativ {{ index }}",
-        "errors": "\"{{value}}\" təklifində səhvlər var:",
-        "primary": "Təklif"
-      }
-    },
-    "table": {
-      "columns": {
-        "date": "Tarix",
-        "details": "Təfərrüatlar",
-        "initiator": "Təşəbbüskar",
-        "name": "Tədbir",
-        "stage": "Mərhələ"
-      },
-      "empty": "No entries in the journal yet...",
-      "notfound": "Sorğunuz üçün heç bir nəticə tapılmadı...",
-      "filters": {
-        "companies": {
-          "choose": "Şirkət",
-          "title": "Təşəbbüskar"
-        },
-        "date": {
-          "title": "Tədbirin tarixi"
-        },
-        "stage": {
-          "title": "Mərhələ"
-        },
-        "title": "Filtrlər",
-        "users": {
-          "choose": "İşçi",
-          "title": "İşçi"
-        },
-        "initiator": {
-          "title": "[AT] Hadisə mənbəyi",
-          "options": {
-            "0": "[AT] Sahibi",
-            "1": "[AT] Təchizatçı",
-            "2": "[AT] Sayt"
-          }
+        "types": {
+            "1": "Sorğu dərc olunub",
+            "2": "Müraciət dəyişdirilib",
+            "3": "Bütün təkliflər imtina olunur",
+            "4": "Təkliflərin qəbulu bitib.",
+            "5": "Təklifin qəbulunun avtomatik uzadılması",
+            "6": "Yeni mərhələ dərc olunub",
+            "7": "Sorğu başa çatdı.",
+            "8": "Tamamlanmış sorğu yekunlaşdırma mərhələsinə qaytarılır",
+            "9": "İştirak təsdiqləndi",
+            "10": "Yanlış təklif təqdim olunub",
+            "11": "Təklif təqdim olunub",
+            "12": "Təklif geri çağırılıb",
+            "13": "İştirakçı bloklanıb",
+            "14": "İştirakçı blokdan çıxarılıb",
+            "15": "İştirakçı iştirak etməkdən imtina etdi",
+            "16": "Sifarişçi iddiaçı tərəfindən qiymət dəyişikliyi qaydasını pozmağa icazə verdi",
+            "17": "Müraciət komandası. İşçi əlavə olunub",
+            "18": "Müraciət komandası. İşçi silinib",
+            "19": "Müraciət komandası. İşçi rolu dəyişdirilir",
+            "20": "The tariff is changed",
+            "21": "Promo kodu tətbiq olundu",
+            "22": "Proposal is rejected",
+            "23": "Участник запросил разрешение у Организатора на изменение цены предложения с нарушением правила",
+            "24": "Организатор отклонил запрос Участника на изменение цены предложения с нарушением правила",
+            "25": "Участник приглашён",
+            "26": "Заказчик изменил запреты на подачу предложения по позициям"
         }
-      },
-      "item": {
-        "ip": "IP: {{value}}",
-        "system": "Platforma"
-      },
-      "search": "",
-      "total": "Qeydlər: {{value}}"
-    },
-    "types": {
-      "1": "Sorğu dərc olunub",
-      "2": "Müraciət dəyişdirilib",
-      "3": "Bütün təkliflər imtina olunur",
-      "4": "Təkliflərin qəbulu bitib.",
-      "5": "Təklifin qəbulunun avtomatik uzadılması",
-      "6": "Yeni mərhələ dərc olunub",
-      "7": "Sorğu başa çatdı.",
-      "8": "Tamamlanmış sorğu yekunlaşdırma mərhələsinə qaytarılır",
-      "9": "İştirak təsdiqləndi",
-      "10": "Yanlış təklif təqdim olunub",
-      "11": "Təklif təqdim olunub",
-      "12": "Təklif geri çağırılıb",
-      "13": "İştirakçı bloklanıb",
-      "14": "İştirakçı blokdan çıxarılıb",
-      "15": "İştirakçı iştirak etməkdən imtina etdi",
-      "16": "Sifarişçi iddiaçı tərəfindən qiymət dəyişikliyi qaydasını pozmağa icazə verdi",
-      "17": "Müraciət komandası. İşçi əlavə olunub",
-      "18": "Müraciət komandası. İşçi silinib",
-      "19": "Müraciət komandası. İşçi rolu dəyişdirilir",
-      "20": "The tariff is changed",
-      "21": "Promo kodu tətbiq olundu",
-      "22": "Proposal is rejected"
     }
-  }
 }

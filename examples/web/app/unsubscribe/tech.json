@@ -21,7 +21,8 @@
           "RemindCompleteProfileNotification": "web/app/unsubscribe: uns.subscriptions.content.events.RemindCompleteProfileNotification",
           "SummingUpProcedureReminderEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureReminderEvent",
           "SummingUpProcedureOrgEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureOrgEvent",
-          "SummingUpProcedureEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureEvent"
+          "SummingUpProcedureEvent": "web/app/unsubscribe: uns.subscriptions.content.events.SummingUpProcedureEvent",
+          "ProcedureStagePublishedEvent": "web/app/unsubscribe: uns.subscriptions.content.events.ProcedureStagePublishedEvent"
         },
         "groups": {
           "BuyerActions": "web/app/unsubscribe: uns.subscriptions.content.groups.BuyerActions",

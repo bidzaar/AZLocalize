@@ -13,15 +13,15 @@
             "participant_business_status": {
                 "0": "Sifarişlər alınıb",
                 "1": "Təklif təqdim olunub",
-                "10": "Bloklanıb",
                 "2": "Təkliflərin hazırlanması",
                 "3": " İlkin kvalifikasiya sənədləri təqdim olundu",
                 "4": "İlkin kvalifikasiya mərhələsinə hazırlıq",
                 "5": "Sorğuları nəzərdən keçirib",
                 "6": "Dəvətləri nəzərdən keçirib",
                 "7": "Dəvət edilib",
-                "8": "",
-                "9": "iştirakdan imtina"
+                "9": "iştirakdan imtina",
+                "10": "Bloklanıb",
+                "8": ""
             },
             "status": {
                 "0": "Layihələndirmə",

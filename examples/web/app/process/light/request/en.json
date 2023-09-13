@@ -1,198 +1,200 @@
 {
-  "pl": {
-    "request": {
-      "editor": {
-        "headers": {
-          "h1": "Header 1",
-          "h2": "Header 2",
-          "h3": "Header 3",
-          "h4": "Header 4",
-          "h5": "Header 5",
-          "h6": "Header 6"
-        },
-        "remove": "Delete",
-        "message": {
-          "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
-          "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
-          "warning-nda": "We recommend making a concise description, and attach the full one as a file",
-          "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
+    "pl": {
+        "request": {
+            "general": {
+                "title": "Summary",
+                "nda": {
+                    "title": "Enable prequalification/NDA signing step",
+                    "sub_title": "Vendors gain access to the request description after your confirmation"
+                },
+                "description_and_files": {
+                    "title": "Description and files",
+                    "placeholder": "Specify the subject of your request...",
+                    "add_files": "Add terms of reference, specifications, draft contract, etc.",
+                    "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the platform."
+                },
+                "contact_info": {
+                    "title": "The contact person",
+                    "add_contact": "Indicate a person for communication with vendors"
+                },
+                "delivery_address": {
+                    "title": "Delivery address",
+                    "add": "Place of delivery of goods or services"
+                },
+                "tags": {
+                    "title": "Tags",
+                    "add": "Describe the subject of your request with keywords"
+                }
+            },
+            "positions": {
+                "enabled": {
+                    "header": "Goods and services ({{ count }})",
+                    "notice": "Specify the positions and rules for price changes",
+                    "open": "Open full specification of all positions",
+                    "setup": "Customize specification",
+                    "toggle": "Disable specification"
+                },
+                "disabled": {
+                    "header": "Goods and services",
+                    "toggle": "Enable specification",
+                    "notice": {
+                        "true": "Without specification of positions participants indicate the total price for the entire bid",
+                        "false": "Specification for the items is not indicated. The total amount of the bid for the entire request is required"
+                    }
+                },
+                "toggle": {
+                    "true": {
+                        "text": "When enabled, the possibility to configure the item specification and price change rules will be available",
+                        "cancel": "Cancel",
+                        "submit": "Continue"
+                    },
+                    "false": {
+                        "text": "When disabled, participants will be able to submit a total price for the offer",
+                        "cancel": "Cancel",
+                        "submit": "Continue"
+                    }
+                }
+            },
+            "questionnaire": {
+                "header": {
+                    "enabled": "Questionnaire ({{ value }})",
+                    "disabled": "Questionnaire"
+                },
+                "open": "Open questionnaire",
+                "setup": "Setup questionnaire",
+                "empty": "Customize the vendor questionnaire, set non-price request conditions and criteria for comparison of bids",
+                "forbidden": "The information is available to supplier companies.\nLogin or register a company on the site."
+            },
+            "gold": {
+                "title": "Bidzaar magic",
+                "link": "How does it work?",
+                "text": {
+                    "message": "Make the request simple, fast and efficient.",
+                    "warning": "It is impossible to disable magic after submitting the request",
+                    "read": "Magic is up"
+                },
+                "select": {
+                    "label": "Specialization of vendors",
+                    "placeholder": "Specify the specialization of vendors"
+                },
+                "on": "Magic is enabled. The list of vendors is limited (the type of request is closed)",
+                "off": "Magic is disabled. The list of vendors is unlimited (the type of request is open)"
+            },
+            "general_rules": {
+                "header": "Request rules"
+            },
+            "registries": {
+                "title": "Vendors onboarding",
+                "text": {
+                    "1": "Only onboarded vendors in the following vendor pools can submit a bid",
+                    "2": "Onboarded vendors are automatically invited to the request when the request is published",
+                    "3": "Vendors may be onboarded and prepare a bid"
+                },
+                "add": "Add vendor pool",
+                "success": {
+                    "add": "Vendor pools added",
+                    "delete": "Vendor pools deleted"
+                },
+                "empty": "Vendor pools are not specified. Onboarding is not required to submit bids",
+                "item": {
+                    "open": "Enclose vendor pool",
+                    "remove": "Remove vendor pool"
+                },
+                "dialog": {
+                    "title": "Company Vendor Pools",
+                    "add": "Add Vendor Pool",
+                    "cancel": "Cancel",
+                    "empty": {
+                        "text": "Your company does not have published vendor pools.",
+                        "add": "Manage vendor pools",
+                        "close": "Understood"
+                    },
+                    "search": {
+                        "placeholder": "Find...",
+                        "remove": "Delete",
+                        "empty": "Vendor pools not found"
+                    }
+                }
+            },
+            "tariff": {
+                "title": "Service operator's Commission"
+            },
+            "collapse": "Collapse",
+            "acceptance_end_date": {
+                "title": "Bids acceptance before",
+                "time_left": "Left"
+            },
+            "actions": {
+                "more": "More actions",
+                "publish": "Submit request",
+                "start_change": "Change request",
+                "end_change": "Publish changes",
+                "cancel_change": "Cancel changes",
+                "delete": "Delete draft",
+                "clone": "Dublicate",
+                "notice_report": "Download notice",
+                "message": "Ask a question to the buyer",
+                "cancel": "Cancel request",
+                "change_acceptance_end_date": "Change the deadline for accepting bids",
+                "favourites": "Add to favorites",
+                "in_favourite": "Add to favourites",
+                "refuse": "Refuse to submit a bid",
+                "participate": "Start preparation\nbid",
+                "new_stage": "Set up a new stage",
+                "publish_stage": "Post new stage",
+                "cancel_stage": "Cancel new stage",
+                "view_summary": "View request summary",
+                "view_journal": "Open report",
+                "violate": "Rule violation",
+                "violate_warning": "You have already requested permission. Wait for the Organizer's decision",
+                "return_to_summary": "Return to summary",
+                "end_round": "Finish accepting bids"
+            },
+            "navigation": {
+                "title": "Request Content",
+                "content": "Content",
+                "general": "Summary",
+                "registries": "Accreditation of participants",
+                "tariff": "Service operator's Commission",
+                "team": "Team",
+                "magic": "Bidzaar magic",
+                "internal": "More",
+                "aggregators": "Tender aggregator websites",
+                "commission": "Service operator's Commission",
+                "rules_positions": "Goods and services",
+                "rules_questions": "Questionnaire",
+                "rules_general": "Request rules",
+                "rules_participant": "Rules for suppliers"
+            },
+            "blocked": {
+                "title": "Request details not available",
+                "sub_title": "The customer excluded you from the request. The request is limited to the number of vendors.\nHave questions? Contact the customer."
+            },
+            "message_payment": {
+                "text": "Bids submission is free, without deposits and funds blocking!",
+                "link": "What do I have to pay for?",
+                "start": "Start bid preparation"
+            },
+            "effective": {
+                "text": "Efficient Procurement Rules"
+            },
+            "editor": {
+                "headers": {
+                    "h1": "Header 1",
+                    "h2": "Header 2",
+                    "h3": "Header 3",
+                    "h4": "Header 4",
+                    "h5": "Header 5",
+                    "h6": "Header 6"
+                },
+                "remove": "Delete",
+                "message": {
+                    "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
+                    "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
+                    "warning-nda": "We recommend making a concise description, and attach the full one as a file",
+                    "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
+                }
+            }
         }
-      },
-      "general": {
-        "title": "Summary",
-        "nda": {
-          "title": "Enable prequalification/NDA signing step",
-          "sub_title": "Participants gain access to the request description after your confirmation"
-        },
-        "description_and_files": {
-          "title": "Description and files",
-          "placeholder": "Specify the subject of your request...",
-          "add_files": "Add terms of reference, specifications, draft contract, etc. (file up to 25 Mb)",
-          "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site."
-        },
-        "contact_info": {
-          "title": "The contact person",
-          "add_contact": "Indicate a person for communication with suppliers"
-        },
-        "delivery_address": {
-          "title": "Delivery address",
-          "add": "Place of delivery of goods or services"
-        },
-        "tags": {
-          "title": "Tags",
-          "add": "Describe the subject of your request with keywords"
-        }
-      },
-      "positions": {
-        "enabled": {
-          "header": "Goods and services ({{ count }})",
-          "notice": "Specify the positions and rules for price changes",
-          "open": "Open full specification of all positions",
-          "setup": "Customize specification",
-          "toggle": "Disable specification"
-        },
-        "disabled": {
-          "header": "Goods and services",
-          "toggle": "Enable specification",
-          "notice": {
-            "true": "Without specification of positions participants indicate the total price for the entire bid",
-            "false": "Specification for the items is not indicated. The total amount of the bid for the entire request is required"
-          }
-        },
-        "toggle": {
-          "true": {
-            "text": "When enabled, the possibility to configure the item specification and price change rules will be available",
-            "cancel": "Cancel",
-            "submit": "Continue"
-          },
-          "false": {
-            "text": "When disabled, participants will be able to submit a total price for the offer",
-            "cancel": "Cancel",
-            "submit": "Continue"
-          }
-        }
-      },
-      "questionnaire": {
-        "header": {
-          "enabled": "Questionnaire ({{ value }})",
-          "disabled": "Questionnaire"
-        },
-        "open": "Open questionnaire",
-        "setup": "Setup questionnaire",
-        "empty": "Non-price request criteria not defined",
-        "forbidden": "The information is available to supplier companies.\nLogin or register a company on the site."
-      },
-      "gold": {
-        "title": "Bidzaar magic",
-        "link": "How does it work?",
-        "text": {
-          "message": "Make the request simple, fast and efficient.",
-          "warning": "It is impossible to disable magic after publishing the request",
-          "read": "Magic is on"
-        },
-        "select": {
-          "label": "Specialization of participants",
-          "placeholder": "Specify the specialization of participants"
-        },
-        "on": "Magic is enabled. The circle of participants is limited (the type of request is closed)",
-        "off": "Magic is disabled. The circle of participants is unlimited (the type of request is open)"
-      },
-      "general_rules": {
-        "header": "Request rules"
-      },
-      "registries": {
-        "title": "Accreditation of participants",
-        "text": {
-          "1": "Only suppliers accredited in the following registries can submit a bid",
-          "2": "Accredited suppliers are automatically invited to the request when the request is published",
-          "3": "Non-accredited participants may simultaneously pass accreditation and prepare a proposal"
-        },
-        "add": "Add registry",
-        "success": {
-          "add": "Registries added",
-          "delete": "Registry deleted"
-        },
-        "empty": "Registries are not specified. Accreditation is not required to submit proposals",
-        "item": {
-          "open": "Open registry",
-          "remove": "Remove registry"
-        },
-        "dialog": {
-          "title": "Company Registries",
-          "add": "Add Registry",
-          "cancel": "Cancel",
-          "empty": {
-            "text": "Your company does not have published registries.",
-            "add": "Manage registries",
-            "close": "Understood"
-          },
-          "search": {
-            "placeholder": "Find...",
-            "remove": "Delete",
-            "empty": "Registries not found"
-          }
-        }
-      },
-      "tariff": {
-        "title": "Service operator's Commission"
-      },
-      "collapse": "Collapse",
-      "acceptance_end_date": {
-        "title": "Acceptance of proposals before",
-        "time_left": "Left"
-      },
-      "actions": {
-        "more": "More actions",
-        "publish": "Submit request",
-        "start_change": "Change request",
-        "end_change": "Publish changes",
-        "cancel_change": "Cancel changes",
-        "delete": "Delete draft",
-        "clone": "Dublicate",
-        "notice_report": "Download notice",
-        "message": "Ask a question to owner",
-        "cancel": "Cancel request",
-        "change_acceptance_end_date": "Change the deadline for accepting proposals",
-        "favourites": "Add to favorites",
-        "in_favourite": "In favourite",
-        "refuse": "Refuse to participate",
-        "participate": "Start preparation\nproposal",
-        "new_stage": "Set up a new stage",
-        "publish_stage": "Post new stage",
-        "cancel_stage": "Cancel new stage",
-        "view_summary": "View request summary",
-        "view_journal": "Open the journal",
-        "return_to_summary": "Return to summary",
-        "end_round": "Finish accepting offers"
-      },
-      "navigation": {
-        "title": "Request Content",
-        "content": "Content",
-        "general": "Summary",
-        "registries": "Accreditation of participants",
-        "tariff": "Service operator's Commission",
-        "team": "Team",
-        "magic": "Bidzaar magic",
-        "internal": "More",
-        "aggregators": "Tender aggregator websites",
-        "commission": "Service operator's Commission",
-        "rules_positions": "Goods and services",
-        "rules_questions": "Questionnaire",
-        "rules_general": "Request rules",
-        "rules_participant": "Rules for suppliers"
-      },
-      "blocked": {
-        "title": "Request details not available",
-        "sub_title": "The customer excluded you from the request. The request is limited to the number of participants.\nHave questions? Contact the customer."
-      },
-      "message_payment": {
-        "text": "Participation in the request is free, without deposits and funds blocking!",
-        "link": "What do I have to pay for?",
-        "start": "Start preparation proposal"
-      },
-      "effective": {
-        "text": "Efficient Procurement Rules"
-      }
     }
-  }
 }

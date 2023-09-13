@@ -98,10 +98,6 @@
                     "description": "Reyestrə daxil edilmiş şirkətlərin siyahısına baxın",
                     "title": "Şirkətlərə baxın"
                 },
-                "16": {
-                    "description": "Anketdə dəyişikliklərin icrası, təsdiqi",
-                    "title": "Reyestrin idarə edilməsi"
-                },
                 "2": {
                     "description": "Şirkət sorğularına baxmaq. Tətbiqdəki blokların görünməsi reyestr parametrlərində müəyyən edilir.",
                     "title": "Müraciətlərə bax"
@@ -113,6 +109,10 @@
                 "8": {
                     "description": "Anketin və reyestr parametrlərinin konfiqurasiyası",
                     "title": "Reyestr parametri"
+                },
+                "16": {
+                    "description": "Anketdə dəyişikliklərin icrası, təsdiqi",
+                    "title": "Reyestrin idarə edilməsi"
                 }
             },
             "registry_status": {

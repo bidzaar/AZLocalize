@@ -17,7 +17,7 @@
       "empty": {
         "button": "Sertifikat alın",
         "description": {
-          "RUS_FORK": "Bidzaar Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunu asan və tez yoxlamaq üçün metodologiya hazırlayan ilk şirkət oldu. Sertifikat alın və ESG təchizatçısı statusunuzu əldə edin"
+          "RUS_FORK": " "
         },
         "title": "Sertifikatlaşdırma uğursuz oldu"
       },
@@ -28,13 +28,14 @@
       "info": {
         "documents": {
           "0": {
-            "title": "[AT] ESG-sertifikat",
-            "description": "[AT] Şirkətin ESG statusu sertifikatı"
+            "title": "ESG-sertifikat",
+            "description": "Şirkətin ESG statusu sertifikatı"
           },
           "1": {
-            "title": "[AT] ESG-hesabat",
-            "description": "[AT] Şirkətin fəaliyyəti haqqında ətraflı hesabat"
+            "title": "ESG-hesabat",
+            "description": "Şirkətin fəaliyyəti haqqında ətraflı hesabat"
           },
+          "title": "Sertifikatlaşdırma hesabatları",
           "certificate": {
             "description": "ESG şirkət statusu sertifikatı",
             "title": "ESG Sertifikatı"
@@ -42,8 +43,7 @@
           "report": {
             "description": "Şirkətin işi haqqında ətraflı hesabat",
             "title": "ESG-hesabat"
-          },
-          "title": "Sertifikatlaşdırma hesabatları"
+          }
         },
         "statistics": {
           "popover": {
@@ -72,7 +72,7 @@
           "environmental": {
             "letter": "e",
             "title": "Ətraf-mühit",
-            "label": "environmental"
+            "label": "Ətraf-mühit"
           },
           "social": {
             "letter": "s",
@@ -89,7 +89,7 @@
             "2": "{{value}} şirkəti ESG meyarlarına cavab verir və ekoloji, sosial və idarəetmə məsələlərinin həllində iştirak edir"
           },
           "none": {
-            "description": "Bidzaar Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunu asan və tez yoxlamaq üçün metodologiya hazırlayan ilk şirkət oldu. Sertifikat alın və ESG təchizatçısı statusunuzu əldə edin",
+            "description": "[AT] Bidzaar Milli Tədqiqat Universiteti İqtisadiyyat Ali Məktəbi ilə birlikdə Rusiyada şirkətlərin ESG prinsiplərinə uyğunluğunun əlçatan və tez yoxlanılması üçün metodologiya hazırlayan ilk şirkət oldu.\n\nSertifikat alın və ESG provayderi statusunuzu əldə edin",
             "title": "Sertifikatlaşdırmadan keçməyib"
           },
           "title": "ESG-provayder"

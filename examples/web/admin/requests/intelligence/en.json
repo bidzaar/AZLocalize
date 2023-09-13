@@ -1,0 +1,14 @@
+{
+  "req.int": {
+    "header": "Invite using AI",
+    "empty": "Companies not found",
+    "invite": "Invite",
+    "total": "Total: {{ value }}",
+    "success": "Invitations sent",
+    "dislike": {
+      "true": "Mark as not relevant",
+      "null": "Mark as not relevant",
+      "false": "Remove the mismatch label"
+    }
+  }
+}

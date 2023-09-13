@@ -1,0 +1,14 @@
+{
+    "req.int": {
+        "header": "[AT] AI ilə dəvət et",
+        "empty": "Companies not found",
+        "invite": "[AT] dəvət et",
+        "total": "Total: {{ value }}",
+        "success": "[AT] dəvətnamələr göndərildi",
+        "dislike": {
+            "true": "[AT] uyğun olmayan kimi etiketləyin",
+            "null": "[AT] uyğun olmayan kimi etiketləyin",
+            "false": "[AT] uyğunsuzluq etiketini çıxarın"
+        }
+    }
+}

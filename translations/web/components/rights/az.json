@@ -9,41 +9,41 @@
                 "long": "Sorğular",
                 "short": "Sorğular"
             },
-            "1024": {
-                "long": "Reeystrlar şöbəsinin müdiri",
-                "short": "Reeystrlar şöbəsinin müdiri"
-            },
-            "128": {
-                "long": "Satınalmalar üzrə baş mütəxəssis",
-                "short": "Satınalmalar üzrə baş mütəxəssis"
-            },
-            "16": {
-                "long": "Şirkəti idarə etmək",
-                "short": "CM"
-            },
             "2": {
                 "long": "Təchizatçı",
                 "short": "Təchizatçı"
-            },
-            "2048": {
-                "long": "Chief Vendor Officer",
-                "short": "CVO"
-            },
-            "256": {
-                "long": "Qruplar idarəçiliyi",
-                "short": "Qruplar idarəçiliyi"
             },
             "4": {
                 "long": "Akkreditasiya sorğusu",
                 "short": "Akkreditasiya sorğusu"
             },
+            "8": {
+                "long": "Akkreditasiya qruplarını idarə etmək",
+                "short": "Akkreditasiyanı idarə etmək"
+            },
+            "16": {
+                "long": "Şirkəti idarə etmək",
+                "short": "CM"
+            },
+            "128": {
+                "long": "Satınalmalar üzrə baş mütəxəssis",
+                "short": "Satınalmalar üzrə baş mütəxəssis"
+            },
+            "256": {
+                "long": "Qruplar idarəçiliyi",
+                "short": "Qruplar idarəçiliyi"
+            },
             "512": {
                 "long": "Reyestrlər",
                 "short": "Reyestrlər"
             },
-            "8": {
-                "long": "Akkreditasiya qruplarını idarə etmək",
-                "short": "Akkreditasiyanı idarə etmək"
+            "1024": {
+                "long": "Reeystrlar şöbəsinin müdiri",
+                "short": "Reeystrlar şöbəsinin müdiri"
+            },
+            "2048": {
+                "long": "Chief Vendor Officer",
+                "short": "CVO"
             }
         }
     }

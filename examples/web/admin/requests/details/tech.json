@@ -1,14 +1,18 @@
 {
   "req.details": {
     "tabs": {
+      "open": "web/admin/requests/details: req.details.tabs.open",
       "nda": "web/admin/requests/details: req.details.tabs.nda",
       "tags": "web/admin/requests/details: req.details.tabs.tags",
+      "team": "web/admin/requests/details: req.details.tabs.team",
       "docs": "web/admin/requests/details: req.details.tabs.docs",
-      "positions": "web/admin/requests/details: req.details.tabs.positions",
-      "questionnaire": "web/admin/requests/details: req.details.tabs.questionnaire",
-      "owner_rules": "web/admin/requests/details: req.details.tabs.owner_rules",
-      "participant_rules": "web/admin/requests/details: req.details.tabs.participant_rules",
-      "open": "web/admin/requests/details: req.details.tabs.open"
+      "rules_general": "web/admin/requests/details: req.details.tabs.rules_general",
+      "rules_participant": "web/admin/requests/details: req.details.tabs.rules_participant",
+      "questions_on": "web/admin/requests/details: req.details.tabs.questions_on",
+      "questions_off": "web/admin/requests/details: req.details.tabs.questions_off",
+      "positions_on": "web/admin/requests/details: req.details.tabs.positions_on",
+      "positions_off": "web/admin/requests/details: req.details.tabs.positions_off",
+      "positions_off_notice": "web/admin/requests/details: req.details.tabs.positions_off_notice"
     },
     "expansions": {
       "nda": {
@@ -17,6 +21,11 @@
       "docs": {
         "title": "web/admin/requests/details: req.details.expansions.docs.title"
       }
+    },
+    "role": {
+      "0": "web/admin/requests/details: req.details.role.0",
+      "1": "web/admin/requests/details: req.details.role.1",
+      "2": "web/admin/requests/details: req.details.role.2"
     },
     "description": {
       "expand": "web/admin/requests/details: req.details.description.expand",
@@ -52,73 +61,22 @@
     },
     "tariffs": {
       "title": "web/admin/requests/details: req.details.tariffs.title",
-      "payment_fee": {
-        "seller": "web/admin/requests/details: req.details.tariffs.payment_fee.seller",
-        "purchaser": "web/admin/requests/details: req.details.tariffs.payment_fee.purchaser",
-        "fee": {
-          "title": "web/admin/requests/details: req.details.tariffs.payment_fee.fee.title",
-          "text": "web/admin/requests/details: req.details.tariffs.payment_fee.fee.text",
-          "closed": "web/admin/requests/details: req.details.tariffs.payment_fee.fee.closed"
-        }
+      "free": {
+        "title": "web/admin/requests/details: req.details.tariffs.free.title",
+        "text": "web/admin/requests/details: req.details.tariffs.free.text",
+        "closed": "web/admin/requests/details: req.details.tariffs.free.closed"
       },
-      "info": "web/admin/requests/details: req.details.tariffs.info",
+      "promo": {
+        "title": "web/admin/requests/details: req.details.tariffs.promo.title",
+        "text": "web/admin/requests/details: req.details.tariffs.promo.text"
+      },
+      "tariff": {
+        "info": "web/admin/requests/details: req.details.tariffs.tariff.info",
+        "purchaser": "web/admin/requests/details: req.details.tariffs.tariff.purchaser",
+        "seller": "web/admin/requests/details: req.details.tariffs.tariff.seller"
+      },
       "dialog": {
         "edit": "web/admin/requests/details: req.details.tariffs.dialog.edit"
-      }
-    },
-    "owner_rules": {
-      "verified_only": {
-        "label": "web/admin/requests/details: req.details.owner_rules.verified_only.label",
-        "text": "web/admin/requests/details: req.details.owner_rules.verified_only.text",
-        "popover": {
-          "title": "web/admin/requests/details: req.details.owner_rules.verified_only.popover.title",
-          "text": "web/admin/requests/details: req.details.owner_rules.verified_only.popover.text",
-          "helper": "web/admin/requests/details: req.details.owner_rules.verified_only.popover.helper"
-        }
-      },
-      "acceptance_end_date": {
-        "label": "web/admin/requests/details: req.details.owner_rules.acceptance_end_date.label",
-        "time_left": "web/admin/requests/details: req.details.owner_rules.acceptance_end_date.time_left"
-      },
-      "prolongation": {
-        "label": "web/admin/requests/details: req.details.owner_rules.prolongation.label",
-        "minutes": "web/admin/requests/details: req.details.owner_rules.prolongation.minutes",
-        "time-left": "web/admin/requests/details: req.details.owner_rules.prolongation.time-left",
-        "tooltip": "web/admin/requests/details: req.details.owner_rules.prolongation.tooltip"
-      },
-      "approximate_deadline_for_summing_up": {
-        "label": "web/admin/requests/details: req.details.owner_rules.approximate_deadline_for_summing_up.label",
-        "description": "web/admin/requests/details: req.details.owner_rules.approximate_deadline_for_summing_up.description",
-        "tooltip": "web/admin/requests/details: req.details.owner_rules.approximate_deadline_for_summing_up.tooltip",
-        "value_null": "web/admin/requests/details: req.details.owner_rules.approximate_deadline_for_summing_up.value_null"
-      },
-      "currency": {
-        "label": "web/admin/requests/details: req.details.owner_rules.currency.label",
-        "show_all": "web/admin/requests/details: req.details.owner_rules.currency.show_all",
-        "hide": "web/admin/requests/details: req.details.owner_rules.currency.hide"
-      },
-      "vat": {
-        "label": "web/admin/requests/details: req.details.owner_rules.vat.label",
-        "options": {
-          "false": "web/admin/requests/details: req.details.owner_rules.vat.options.false",
-          "none": "web/admin/requests/details: req.details.owner_rules.vat.options.none",
-          "true": "web/admin/requests/details: req.details.owner_rules.vat.options.true"
-        }
-      },
-      "open_type": {
-        "label": "web/admin/requests/details: req.details.owner_rules.open_type.label",
-        "tooltips": {
-          "0": "web/admin/requests/details: req.details.owner_rules.open_type.tooltips.0",
-          "1": "web/admin/requests/details: req.details.owner_rules.open_type.tooltips.1",
-          "editable": "web/admin/requests/details: req.details.owner_rules.open_type.tooltips.editable"
-        }
-      },
-      "owner_visibility": {
-        "label": "web/admin/requests/details: req.details.owner_rules.owner_visibility.label",
-        "enums": {
-          "0": "web/admin/requests/details: req.details.owner_rules.owner_visibility.enums.0",
-          "1": "web/admin/requests/details: req.details.owner_rules.owner_visibility.enums.1"
-        }
       }
     }
   }

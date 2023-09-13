@@ -1,0 +1,31 @@
+<mjml>
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1 class="bb">Təklif qiymətini dəyişdirmək üçün müraciət</h1>
+          <p>İştirakçı <b>@TargetContext.CompanyName</b> təklif qiymətini dəyişmək üçün müraciət etdi.<br /> Səbəb: @Reason.</p>
+          <p>
+            <b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <br />
+            <b>Təkliflər qəbulunun son tarixi:</b> @ProcedureContext.AcceptanceEndDate (@SummingUpProcedureReminderPrecontext.Hours)saat qalib
+          </p>
+          <p class="mb-0">İştirakçıya təklif qiymətini dəyişməyə icazə verin və ya müraciəti imtina edin.</p>
+        </mj-text>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğunu emal et</mj-button>
+      </mj-column>
+    </mj-section>
+    <!-- /intro -->
+    <!-- /secondary -->
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <mj-include path="./__tpl/__spacer.mjml" />
+    <!-- help -------------------------------------------- -->
+    <!-- footer -------------------------------------------- -->
+    <mj-include path="./__tpl/__footer_unsub.mjml" />
+    <!-- /footer -->
+  </mj-body>
+</mjml>

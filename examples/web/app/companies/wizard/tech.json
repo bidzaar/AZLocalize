@@ -13,23 +13,23 @@
             },
             "service": {
               "search": {
-                "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.header",
-                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.title",
-                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.notice",
-                "placeholder": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.placeholder",
-                "requisites": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.requisites",
+                "header": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.header",
+                "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.title",
+                "notice": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.notice",
+                "placeholder": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.placeholder",
+                "requisites": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.requisites",
                 "empty": {
-                  "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.title",
-                  "text": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.text",
-                  "switch": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.search.empty.switch"
+                  "title": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.empty.title",
+                  "text": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.empty.text",
+                  "switch": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.search.empty.switch"
                 }
               },
               "approve": {
-                "inn": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.inn",
-                "kpp": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.kpp",
-                "address": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.address",
-                "cancel": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.cancel",
-                "submit": "web/app/companies/wizard: cmp.wizard.register.steps.create.dadata.approve.submit"
+                "inn": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.approve.inn",
+                "kpp": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.approve.kpp",
+                "address": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.approve.address",
+                "cancel": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.approve.cancel",
+                "submit": "web/app/companies/wizard: cmp.wizard.register.steps.create.service.approve.submit"
               }
             },
             "search": {

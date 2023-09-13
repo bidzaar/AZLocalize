@@ -13,16 +13,14 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос завершен</h1>
-          <p><b>Запрос:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Завершена:</b> @ConfigurationContext.Date<br /><b>Цена заказа:</b> @ProcedureResultContext.OrderPrice @ProcedureContext.Currency</p>
-          <p class="mb0"><b>Победители:</b></p> @ProcedureResultContext.Winners
-        <br />
+          <h1>Request is completed</h1>
+          <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Completed on:</b> @ConfigurationContext.Date<br /><b>Bid price:</b> @ProcedureResultContext.OrderPrice @ProcedureContext.Currency</p>
+          <p class="mb0"><b>Winners:</b></p>@ProcedureResultContext.Winners <br /><br /> 
         </mj-text>
       </mj-column>
     </mj-section>
     <!-- /intro -->
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

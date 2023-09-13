@@ -7,17 +7,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="color:#CB0C00" class="bb">Requester has rejected your proposal</h1>
-          <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Rejected proposal:</b> @EmailPrecontext.Subject
+          <h1 style="color:#CB0C00" class="bb">Sifarişçi təklifinizi imtina etdi</h1>
+          <p class="mb-0"><b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
+            <b>İmtina olunmuş təkliflər:</b> @EmailPrecontext.Subject
           </p>
           <div>
-            <p class="owner_msg_label"><b>Requester's message:</b></p>
+            <p class="owner_msg_label"><b>Sifarişçinin mesajı:</b></p>
             <p class="owner_msg_text">@EmailPrecontext.Message</p>
           </div>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">View request</mj-button>
+        <mj-button href="@ProcedureContext.Url">Sorğunu aç</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />

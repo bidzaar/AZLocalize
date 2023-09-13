@@ -1,4 +1,10 @@
 <mjml>
+  <!-- 
+Mövzu: ⏰Təkliflərin qəbuluna 48 saat qalıb
+Kimə: Şirkətin qeydiyyatdan keçən əmakdaşına
+
+Təkliflər qəbulunun son tarixinə 48 saatdan az qalıb
+-->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -7,18 +13,17 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Proposal submit term is expiring soon</h1>
-          <p>You still have some time to submit or update your proposal.</p>
+          <h1>Təkliflər qəbulu bitir</h1>
+          <p>Təklifinizi təkmilləşdirmək üçün çox az vaxtınız qalıb</p>
           <p class="mb-0">
-            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate (hours left: <b>@SummingUpProcedureReminderPrecontext.Hours</b>) <br />
-            <b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
+            <b>Təkliflər qəbulunun son tarixi: </b>  @ProcedureContext.AcceptanceEndDate(<b>@SummingUpProcedureReminderPrecontext.Hours saat qalıb</b>) <br />
+            <b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a>
             <br />
-            <b>Requester:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
-            <b>ВDelivery to:</b> @ProcedureContext.PlaceOfDelivery <br />
-          <p style="white-space: pre-line"><b>Description:</b><br> @ProcedureContext.Description</p>
-          </p>
+            <b>Sifarişçi:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Çatdırılma yeri:</b> @ProcedureContext.PlaceOfDelivery <br />
+          <p style="white-space: pre-line"><b>Təsvir:</b><br> @ProcedureContext.Description</p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">View bid request</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğuya keç</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->

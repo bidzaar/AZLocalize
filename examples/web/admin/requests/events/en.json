@@ -1,5 +1,12 @@
 {
-  "req.evt": {
-
-  }
+    "req.evt": {
+        "header": "The event log",
+        "empty": "Events not found",
+        "search": "The search is carried out by the fields: Event name",
+        "actions": {
+            "open_request": "Public request",
+            "open_chat": "Chat with the buyer",
+            "open_participants": "Vendors"
+        }
+    }
 }

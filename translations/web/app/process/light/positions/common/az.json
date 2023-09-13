@@ -18,7 +18,10 @@
                         "max_price": "Vahidin maksimal qiyməti {{ value }}",
                         "min_price": "Vahidin minimum qiyməti, {{ value }}",
                         "expected_price": "Vahid üçün gözlənilən xərc, {{ value }}",
-                        "documents": "Sənədlər"
+                        "documents": "Sənədlər",
+                        "permission": "Подача",
+                        "permission_true": "Разрешена",
+                        "permission_false": "Запрещена"
                     },
                     "proposal": {
                         "availability": "Mövcudluq",
@@ -42,7 +45,8 @@
                     "target_price": "Vahidin hədəf qiyməti. İştirakçılardan gizlədilib.",
                     "max_price": "Vahidin maksimal qiyməti.\nTəchizatçı göstərilən qiymətdən artıq ola bilməz",
                     "min_price": "Vahidin minimal qiyməti.\nTəchizatçı daha aşağı qiymət təklif edə bilməz",
-                    "expected_price": "Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\n Sifarişçi müəyyən olunmuş və ya daha aşağı qiymət gözləyir"
+                    "expected_price": "Təchizatçıdan gözlənilən hər bir məhsulun qiyməti.\n Sifarişçi müəyyən olunmuş və ya daha aşağı qiymət gözləyir",
+                    "permission": "Организатор запретил Вам подавать новые предложения по некоторым позициям запроса"
                 }
             },
             "common": {
@@ -52,9 +56,9 @@
                 },
                 "vat": {
                     "false": "ƏDV-siz",
-                    "null": "",
                     "true": "ƏDV daxil",
-                    "none": "Pulsuz"
+                    "none": "Pulsuz",
+                    "null": ""
                 }
             },
             "disabled": "Goods and services are not included in the bid of the participant",

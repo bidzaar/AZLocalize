@@ -2,10 +2,36 @@
     "cmp.profile": {
         "company": {
             "dialogs": {
+                "recover": {
+                    "title": "[AT] şirkəti bərpa edin?",
+                    "text": "[AT] şirkət yenidən meydanda işləyə bilər",
+                    "cancel": "[AT] Ləğv et",
+                    "submit": "[AT] Bərpa et",
+                    "snack_success": "[AT] şirkət bərpa edildi"
+                },
                 "remove_supplier": {
                     "cancel": "Ləğv et",
                     "confirm": "İstisna etmək",
                     "text": "Sifarişçi şirkət vidcetində şirkətin olması istisna edilsin?"
+                },
+                "assignment_journal": {
+                    "title": "[AT] Görüş jurnalı",
+                    "columns": {
+                        "role": "[AT] Rol",
+                        "employee": "[AT] işçi",
+                        "event": "[AT] Hadisə",
+                        "initiator": "[AT] Təşəbbüskar",
+                        "date": "[AT] Tarix"
+                    },
+                    "role": {
+                        "0": "[AT] Satış",
+                        "1": "[AT] CSM"
+                    },
+                    "event": {
+                        "0": "[AT] Saxlanmış",
+                        "1": "[AT] Sancağı çıxarıldı"
+                    },
+                    "empty": "[AT] Əvvəllər məsul şəxs təyin olunmayıb"
                 }
             },
             "editor": {
@@ -68,6 +94,22 @@
                     "hint": "25 teqə qədər",
                     "label": "Kəmiyyət"
                 },
+                "tariff_plan": {
+                    "already_exists": "Oxşar VÖEN-i olan yoxlanılmış şirkət artıq mövcuddur",
+                    "cancel": "Ləğv et",
+                    "dates": "Tarifin qüvvədə olma müddəti",
+                    "enabled": "Tarif aktivdir",
+                    "header": "Tarif ayarları",
+                    "name": "Tarif adı",
+                    "submit": "Yadda saxla",
+                    "success": "Tarif planı yeniləndi",
+                    "taxFree": "Şirkət qalib gəldiyinə görə komissiya ödəmir"
+                },
+                "payment_rules": {
+                    "header": "Qalib olduqda ödəniş qaydaları",
+                    "fee": "Kim ödəyir",
+                    "free": "Qapalı sorğular pulsuz həyata keçirilir"
+                },
                 "tariff": {
                     "cancel": "Ləğv et",
                     "closed": "Qapalı sorğular pulsuzdur",
@@ -84,22 +126,6 @@
                     "sum": "Məbləğ",
                     "to": "",
                     "who_pays": "Kim ödəyir"
-                },
-                "tariff_plan": {
-                    "already_exists": "Oxşar VÖEN-i olan yoxlanılmış şirkət artıq mövcuddur",
-                    "cancel": "Ləğv et",
-                    "dates": "Tarifin qüvvədə olma müddəti",
-                    "enabled": "Tarif aktivdir",
-                    "header": "Tarif ayarları",
-                    "name": "Tarif adı",
-                    "submit": "Yadda saxla",
-                    "success": "Tarif planı yeniləndi",
-                    "taxFree": "Şirkət qalib gəldiyinə görə komissiya ödəmir"
-                },
-                "payment_rules": {
-                    "header": "Qalib olduqda ödəniş qaydaları",
-                    "fee": "Kim ödəyir",
-                    "free": "Qapalı sorğular pulsuz həyata keçirilir"
                 }
             },
             "viewer": {
@@ -132,7 +158,8 @@
                     "actions": {
                         "chat": "Şirkətlə çat",
                         "crm": "CRM",
-                        "profile": "Profil"
+                        "profile": "Profil",
+                        "recover": "[AT] Şirkəti bərpa edin"
                     },
                     "info": "ID: {{ number }} • Qeydiyyat: {{ date }}"
                 },
@@ -144,7 +171,15 @@
                 "requisites": {
                     "edit": "Redaktə et",
                     "empty": "Rekvezitlər təyin olunmayıb",
-                    "header": "Əlavə rekvezitlər"
+                    "header": "Əlavə rekvezitlər",
+                    "edit_confirm_tin": {
+                        "true": "[AT] tın təsdiqini Ləğv et",
+                        "false": "[AT] Tin Təsdiq"
+                    },
+                    "edit_сonfirm_tin": {
+                        "true": "[AT] VÖEN Təsdiqini ləğv edin",
+                        "false": "[AT] VÖEN-i təsdiq edin"
+                    }
                 },
                 "rights": {
                     "empty": "Hüquqlar təyin olunmayıb",
@@ -158,21 +193,14 @@
                 },
                 "suppliers": {
                     "empty": "Şirkətlər-sifarişçilər göstərilməyib",
-                    "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı"
+                    "header": "Sifarişçilərin vidjetlərində şirkətin iştirakı",
+                    "add": "[AT] əlavə et"
                 },
                 "tags": {
                     "text": "Teqlər:",
                     "title": "Satın alınan teqlər"
                 },
-                "tariff": {
-                    "closed": "Qapalı sorğular pulsuzdur",
-                    "from": ".",
-                    "title": "Qalib olduqda ödəniş qaydaları",
-                    "to": "",
-                    "who_pays": "Kim ödəyir"
-                },
                 "tariff_plan": {
-                    "change": "Ayarla",
                     "enabled": {
                         "false": "Söndürülüb",
                         "true": "Yanılıdır"
@@ -181,7 +209,8 @@
                         "false": "Şirkət komissiya ödəyir",
                         "true": "Şirkət heç bir komissiya ödəmir"
                     },
-                    "title": "Tarif"
+                    "title": "Tarif",
+                    "change": "Ayarla"
                 },
                 "csm": {
                     "title": "Məsul satış/CSM",
@@ -191,6 +220,7 @@
                     "journal": "Təyinatlar jurnalı",
                     "success": "İşçi təyin edildi",
                     "dialog": {
+                        "empty": "[AT] işçilər tapılmadı",
                         "table": {
                             "header": {
                                 "size": "Qeydlər {{ value }}",
@@ -216,6 +246,22 @@
                     "title": "Qalib olduqda ödəniş qaydaları",
                     "fee": "Kim ödəyir",
                     "free": "Qapalı sorğular pulsuz həyata keçirilir"
+                },
+                "change": "[AT] Tune",
+                "tariff": {
+                    "closed": "Qapalı sorğular pulsuzdur",
+                    "from": ".",
+                    "title": "Qalib olduqda ödəniş qaydaları",
+                    "to": "",
+                    "who_pays": "Kim ödəyir"
+                },
+                "sales": {
+                    "sale": "[AT] Məsuliyyətli satış",
+                    "csm": "[AT] Məsuliyyətli CSM",
+                    "attach": "[AT] təmir etmək",
+                    "detach": "[AT] boşaldın",
+                    "empty": "[AT] Təyin olunmayıb",
+                    "journal": "[AT] Görüş jurnalı"
                 }
             }
         },

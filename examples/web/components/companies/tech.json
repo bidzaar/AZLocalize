@@ -30,16 +30,12 @@
     },
     "marker_verify": {
       "true": {
-        "title": "web/components/companies: bdz.cmp.marker_verify.true.title",
-        "notice": "web/components/companies: bdz.cmp.marker_verify.true.notice",
-        "text": "web/components/companies: bdz.cmp.marker_verify.true.text",
-        "more": "web/components/companies: bdz.cmp.marker_verify.true.more"
+        "title": "web/components/companies: bdz.cmp.marker_verify.true.title"
       },
       "false": {
-        "title": "web/components/companies: bdz.cmp.marker_verify.false.title",
-        "text": "web/components/companies: bdz.cmp.marker_verify.false.text",
-        "more": "web/components/companies: bdz.cmp.marker_verify.false.more"
-      }
+        "title": "web/components/companies: bdz.cmp.marker_verify.false.title"
+      },
+      "notice": "web/components/companies: bdz.cmp.marker_verify.notice"
     },
     "marker_phantom": {
       "text": "web/components/companies: bdz.cmp.marker_phantom.text"

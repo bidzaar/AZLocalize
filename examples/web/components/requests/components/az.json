@@ -1,171 +1,171 @@
 {
-  "bdz.req.components": {
-    "funnel": {
-      "joins": "İştirak etmişdilər",
-      "participants": "Dəvət olunanlarla birlikdə iştirakçıların sayı",
-      "proposals": "Təklifi olan iştirakçılar"
-    },
-    "currency": {
-      "duplicate": "[AT] Əsas valyuta əlavə ilə eynidir",
-      "update": "[AT] Baza valyutası yeniləndi. Əlavə valyutanın məzənnələrini dəyişdirin",
-      "actions": {
-        "remove": "[AT] Valyutanı çıxarın",
-        "change": "[AT] Valyuta məzənnəsini dəyişdirin",
-        "append": "[AT] Valyuta əlavə edin"
-      },
-      "editor": {
-        "header": "[AT] Valyuta parametrləri",
-        "rate": "[AT] dərəcəsi ilə",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Yadda saxla",
-        "warning": "[AT] Yadda saxladıqdan sonra valyutanı silə bilməzsiniz, yalnız məzənnəni tənzimləyin"
-      }
-    },
-    "groups": {
-      "configurator": {
-        "header": {
-          "true": "[AT] Qrup rəhbərliyi",
-          "false": "[AT] Qruplar"
+    "bdz.req.components": {
+        "funnel": {
+            "joins": "İştirak etmişdilər",
+            "participants": "Dəvət olunanlarla birlikdə iştirakçıların sayı",
+            "proposals": "Təklifi olan iştirakçılar"
         },
-        "name": "[AT] Yeni qrup",
-        "success": "[AT] Parametrlər yadda saxlandı",
-        "actions": {
-          "apply_and_close": "Apply and close",
-          "apply": "[AT] Müraciət edin",
-          "cancel": "[AT] Dəyişiklikləri ləğv edin",
-          "append": "[AT] Qrup əlavə edin",
-          "remove": "[AT] Qrupu silin",
-          "close": "[AT] Yaxın"
+        "currency": {
+            "duplicate": "Əsas valyuta əlavə valyuta ilə eynidir",
+            "update": "Əsas valyuta yeniləndi. Əlavə valyutanın məzənnələrini dəyişdirin",
+            "actions": {
+                "remove": "Valyutanı ləğv edin",
+                "change": "Valyutanın məzənnəsini dəyişdirin",
+                "append": "Valyuta əlavə edin"
+            },
+            "editor": {
+                "header": "Valyutanı ayarla",
+                "rate": "Kursa əsasən",
+                "cancel": "Ləğv et",
+                "submit": "Yadda saxla",
+                "warning": "Yadda saxladıqdan sonra valyutanı silə bilməzsiniz, yalnız məzənnəni tənzimləyin"
+            }
         },
-        "details": {
-          "name": "[AT] Qrup adı"
+        "groups": {
+            "configurator": {
+                "header": {
+                    "true": "Lotların idarə edilməsi",
+                    "false": "Lotlar"
+                },
+                "name": "Yeni lot",
+                "success": "Parametrlər yadda saxlandı",
+                "actions": {
+                    "apply_and_close": "Tədbiq et və bağla",
+                    "apply": "Tədbiq et",
+                    "cancel": "Dəyişiklikləri ləğv et",
+                    "append": "Lot əlavə et",
+                    "remove": "Sil",
+                    "close": "Bağla"
+                },
+                "details": {
+                    "name": "Lot-un adı"
+                },
+                "dialogs": {
+                    "changes": {
+                        "title": "Dəyişikliklər yadda saxlanılmadı",
+                        "cancel": "Dəyişiklikləri ləğv et",
+                        "submit": "Ayarlamanı davam etdir"
+                    },
+                    "remove": {
+                        "title": "Diqqət!",
+                        "text": "Lət və onun maddələri silinəcək",
+                        "cancel": "Ləğv et",
+                        "submit": "Sil"
+                    }
+                }
+            },
+            "panel": {
+                "title": "Lotlar",
+                "collapse": "Paneli gizlət",
+                "expand": "Paneli genişləndirin",
+                "configure": "Ayarla",
+                "error": "Xəta baş verdi"
+            },
+            "info": {
+                "action": {
+                    "true": "Ayarla",
+                    "false": "Daha çox"
+                },
+                "deviation": {
+                    "0": "Maddələrə və miqdara görə yayınmağa icazə verilmir",
+                    "1": "Maddələr və miqdara görə yayınmağa icazə verilir",
+                    "2": "Maddələrə görə yayınmağa icazə verilir"
+                },
+                "step": {
+                    "0": "Qiymət dəyişikliyit addımı {{value}}{{unit}}",
+                    "1": "Qiymət dəyişikliyi addımı {{value}}{{unit}}",
+                    "2": "Auksion {{value}}{{unit}}"
+                },
+                "price_no_start": {
+                    "1": "Qiymət dəyişikliyi",
+                    "2": "Auksion"
+                },
+                "price_with_start": {
+                    "0": "Gözlənilən qiymət {{ value }} {{ currency }}",
+                    "1": "{{ value }} {{ currency }} dəyərindən azalma",
+                    "2": "{{ value }} {{ currency }}-dən hərrac"
+                }
+            }
         },
-        "dialogs": {
-          "changes": {
-            "title": "[AT] Dəyişiklikləri yadda saxlamamısınız",
-            "cancel": "[AT] Dəyişiklikləri ləğv edin",
-            "submit": "[AT] Quraşdırmaya davam edin"
-          },
-          "remove": {
-            "title": "[AT] Diqqət!",
-            "text": "[AT] Qrup və onun mövqeləri silinəcək",
-            "cancel": "[AT] Ləğv et",
-            "submit": "[AT] Sil"
-          }
+        "tariffs": {
+            "ranges": {
+                "to": "≤"
+            },
+            "select": {
+                "header": "Sorğunun tarifi",
+                "cancel": "Bağla",
+                "submit": "Təsdiqlə"
+            }
+        },
+        "timer": {
+            "value": "<b>{{ value }}</b> qaldı",
+            "finish": "<b>Təkliflər qəbulu başa çatdı</b>"
+        },
+        "rules": {
+            "positions": {
+                "fields": {
+                    "deviation_type": "Lota aid olan təklif həcmi",
+                    "expected_price": "Təklifin gözlənilən qiyməti",
+                    "max_price": "Lot üçün maksimum təklif qiyməti",
+                    "min_price": "Lot üçün minimum təklif qiyməti",
+                    "price_step": "Minimum qiymət dəyişikliyi addımı",
+                    "empty_price": "qeyd olunmayıb",
+                    "updown": "Qiymət dəyişikliyi"
+                },
+                "errors": {
+                    "price_out_of_range": "0,00 ilə 99,999,999,999,00 arasında dəyər daxil edin",
+                    "step_range.0": "0,01 ilə 10 arasında dəyər daxil edin",
+                    "step_range.1": "0,01 ilə 100 000 arasında dəyər daxil edin",
+                    "max_price_gt_step": "Maksimum qiymət dəyişiklik addımından azdır",
+                    "step_gt_max_price": "dəyişiklik addımı maksimum qiyməti aşır",
+                    "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • iştirakçılar nə görür = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya hərrac",
+                    "abs_step_unavailable": "Допустимо изменение в % при подаче на часть позиций"
+                }
+            },
+            "general": {
+                "toggle": {
+                    "title": "Əlavə ayarlar",
+                    "change": "Ayarla",
+                    "collapse": "Bağla"
+                },
+                "fields": {
+                    "acceptance_date": "Təkliflər qəbulunun son tarixi",
+                    "acceptance_date_timer": "Qalıb",
+                    "summing_up": "Yekunlaşdırma üçün təxmini son tarix",
+                    "summing_up_none": "Müəyyən deyil",
+                    "summing_up_unit": "gün",
+                    "summing_up_text": "{{ value }} gün təkliflərin qəbulu üçün son tarixdən sonra",
+                    "open_type": "Sorğu növü",
+                    "participants_visibility": "İştirakçılar nə görürlər",
+                    "vat": "Qalibi seçərkən nəzərə alınır",
+                    "alternative_proposals": "Alternativ təkliflərin sayı",
+                    "alternative_proposals_none": "Alternativ təkliflər vermək qadağandır",
+                    "currency": "Sorğunun valyutası",
+                    "prolongation_time": "Təkliflər qəbulunun avtomatik uzadılması",
+                    "prolongation_time_unit": "dəq",
+                    "prolongation_time_text": "{{ value}} dəq",
+                    "notification_hours": "Təkliflər qəbulunun başa çatması ilə bağlı iştirakçılara xatırlatma",
+                    "notification_hours_unit": "saat",
+                    "extra_notification_hours": "Təkliflər qəbulunun başa çatması ilə bağlı iştirakçılara əlavə xatırlatma",
+                    "extra_notification_hours_unit": "saat",
+                    "notification_hours_text_single": "{{ value }} saat",
+                    "notification_hours_text_double": "{{ value }} və {{ extra }} saat",
+                    "owner_visibility": "Təşkilatçı təkliflər qəbulu mərhələsində"
+                },
+                "errors": {
+                    "alternative_proposals_out_of_range": "0-dan 10-a qədər rəqəm daxil et"
+                },
+                "tooltips": {
+                    "summing_up": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
+                    "open_type.0": "sorğu iştirakçılarının dairəsi məhdud deyil",
+                    "open_type.1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
+                    "open_type.editable": "Açıq-iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
+                    "alternative_proposals": "İştirakçının neçə alternativ təklif təqdim edə biləcəyini göstər",
+                    "prolongation_time": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən",
+                    "notification_hours": "Təkliflərin qəbulu üçün son tarixdən əvvəl göstərilən vaxtda iştirakçılara təkliflər çağırışının tezliklə bağlanması barədə məktub göndəriləcəkdir.",
+                    "extra_notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids. If a zero is specified, the reminder is not carried out"
+                }
+            }
         }
-      },
-      "panel": {
-        "title": "[AT] Qruplar",
-        "collapse": "[AT] Paneli gizlət",
-        "expand": "[AT] Paneli genişləndirin",
-        "configure": "[AT] Qrupları idarə edin",
-        "error": "[AT] Xəta aşkarlandı"
-      },
-      "info": {
-        "action": {
-          "true": "[AT] Qurmaq",
-          "false": "[AT] Daha çox"
-        },
-        "deviation": {
-          "0": "[AT] Tam məmnunluq",
-          "1": "[AT] Mövqelərə və kəmiyyətə görə sapma",
-          "2": "[AT] Mövqe sapması"
-        },
-        "step": {
-          "0": "[AT] Qiymət addımı {{value}}{{unit}}",
-          "1": "[AT] Azaltma addımı {{value}}{{unit}}",
-          "2": "[AT] Hərrac mərhələsi {{value}}{{unit}}"
-        },
-        "price_no_start": {
-          "1": "[AT] Azaldılması",
-          "2": "[AT] Hərrac"
-        },
-        "price_with_start": {
-          "0": "[AT] Gözlənilən qiymət {{ value }} {{ currency }}",
-          "1": "[AT] {{ value }} {{ currency }} dəyərindən azalma",
-          "2": "[AT] {{ value }} {{ currency }}-dən hərrac"
-        }
-      }
-    },
-    "tariffs": {
-      "ranges": {
-        "to": "up to"
-      },
-      "select": {
-        "header": "Tariff of the request",
-        "cancel": "Cancel",
-        "submit": "Submit"
-      }
-    },
-    "timer": {
-      "value": "[AT] <b>{{ value }}</b> qaldı",
-      "finish": "[AT] <b>Qəbul başa çatdı</b>"
-    },
-    "rules": {
-      "positions": {
-        "fields": {
-          "deviation_type": "[AT] İştirakçının qrup üçün təklifinin həcmi",
-          "updown": "После подачи первого предложения",
-          "expected_price": "[AT] Bir qrup vəzifə üçün gözlənilən məbləğ",
-          "max_price": "[AT] Qrup üçün maksimum təklif məbləği",
-          "min_price": "[AT] Qrup üçün minimum təklif məbləği",
-          "price_step": "Qiymət dəyişikliyinin minimal addımı",
-          "empty_price": "göstərilməyib"
-        },
-        "errors": {
-          "price_out_of_range": "0,00 ilə 99,999,999,999,00 arasında dəyər daxil edin",
-          "step_range.0": "0,01 ilə 10 arasında dəyər daxil edin",
-          "step_range.1": "0,01 ilə 100 000 arasında dəyər daxil edin",
-          "max_price_gt_step": "[AT] Maksimum qiymət dəyişiklik addımından azdır",
-          "step_gt_max_price": "dəyişiklik addımı maksimum qiyməti aşır",
-          "abs_step_unavailable": "Допустимо изменение в % при подаче на часть позиций",
-          "best_price_unavailable": "dəyər \"ən yaxşı təklif\" əgər mövcuddur:\n • iştirakçılar nə görür = rəqiblərin təklifləri\n • qiymət dəyişikliyi Qaydası = reduksiya və ya hərrac"
-        }
-      },
-      "general": {
-        "toggle": {
-          "title": "Additional settings",
-          "change": "Change",
-          "collapse": "Collapse"
-        },
-        "fields": {
-          "acceptance_date": "təkliflərin qəbulu",
-          "acceptance_date_timer": "Qaldı",
-          "summing_up": "Yekunlaşmanın təxmini müddəti",
-          "summing_up_none": "müəyyən Deyil",
-          "summing_up_unit": "günlər",
-          "summing_up_text": "[AT] {{ value }} təkliflərin qəbulu başa çatdıqdan sonra günlər",
-          "open_type": "sorğu növü",
-          "participants_visibility": "İştirakçılar nə görürlər",
-          "vat": "qalibi seçərkən nəzərə alınır",
-          "alternative_proposals": "Alternativ təkliflərin",
-          "alternative_proposals_none": "Alternativ təkliflər vermək qadağandır",
-          "currency": "sorğu valyutası",
-          "prolongation_time": "təkliflərin qəbulunun Avtodayanması",
-          "prolongation_time_unit": "dəq",
-          "prolongation_time_text": "[AT] {{ value}} dəq",
-          "notification_hours": "A reminder to participants about the end of accepting proposals in",
-          "notification_hours_unit": "hours",
-          "extra_notification_hours": "An additional reminder to participants about the end of accepting proposals in",
-          "extra_notification_hours_unit": "hours",
-          "notification_hours_text_single": "{{ value }} hours",
-          "notification_hours_text_double": "{{ value }} və {{ extra }} hours",
-          "owner_visibility": "təkliflərin qəbulu mərhələsində təşkilatçı"
-        },
-        "errors": {
-          "alternative_proposals_out_of_range": "0-dan 10-a qədər rəqəm daxil et"
-        },
-        "tooltips": {
-          "summing_up": "sorğu iştirakçıları göstərilən müddətdə tender komissiyası tərəfindən qərar qəbul edilməsini gözləyəcəklər",
-          "open_type.0": "sorğu iştirakçılarının dairəsi məhdud deyil",
-          "open_type.1": "sorğu yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
-          "open_type.editable": "Açıq-iştirakçıların dairəsi məhdud deyil. Qapalı-yalnız dəvət olunmuş təchizatçılara baxmaq və iştirak etmək üçün mövcuddur",
-          "alternative_proposals": "İştirakçının neçə alternativ təklif təqdim edə biləcəyini göstər",
-          "prolongation_time": "təklifin qəbulu müddətinin bitməsinə qədər iştirakçı göstərilən müddət ərzində təklif verdikdə tətbiq edilir. Uzadılması 99 dəq., 0-yenilənmədən", 
-          "notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids.",
-          "extra_notification_hours": "A closing bid letter will be sent to bidders a specified time prior to the deadline for accepting bids. If a zero is specified, the reminder is not carried out"
-        }
-      }
     }
-  }
 }

@@ -2,9 +2,6 @@
     "req.lst": {
         "list": {
             "card": {
-                "link": {
-                    "open": ""
-                },
                 "links": {
                     "journal": "Sorğu jurnalı",
                     "open": "Platformada sorğu aç",
@@ -19,6 +16,9 @@
                 "stats": {
                     "participants": "İştirak etmişdir",
                     "proposals": "Təklifi olan iştirakçılar"
+                },
+                "link": {
+                    "open": ""
                 }
             },
             "empty": {
@@ -27,16 +27,6 @@
             "filters": {
                 "acceptanceEndDate": {
                     "title": "Təkliflər qəbulunun  son tarixi"
-                },
-                "finishDate": {
-                    "title": "Дата завершения"
-                },
-                "orders": {
-                    "title": "С победителем",
-                    "options": {
-                        "true": "Да",
-                        "false": "Нет"
-                    }
                 },
                 "address": {
                     "title": "Çatdırılma ünvanı"
@@ -66,6 +56,16 @@
                     "options": {
                         "0": "Yalnız açıq",
                         "1": "Yalnız qapalı"
+                    }
+                },
+                "finishDate": {
+                    "title": "Дата завершения"
+                },
+                "orders": {
+                    "title": "С победителем",
+                    "options": {
+                        "true": "Да",
+                        "false": "Нет"
                     }
                 }
             },

@@ -1,71 +1,71 @@
 {
-  "trf.cms.list": {
-    "header": {
-      "title": "[AT] Tariflər paketində sifarişçilər",
-      "add": "[AT] Müştəri əlavə et",
-      "recordings": "[AT] Qeydlər:"
-    },
-    "remove": "[AT] Tarif paketinin fəaliyyətini ləğv etmək",
-    "enums": {
-      "rights": {
-        "0": "[AT] hüquqlar təyin edilməyib",
-        "1": "[AT] Alıcı",
-        "2": "[AT] təchizatçı",
-        "4": "[AT] akkreditasiya ərizəçisi",
-        "16": "[AT] şirkət administratoru",
-        "128": "[AT] əl. satınalma",
-        "256": "[AT] Qrup administratoru",
-        "512": "[AT] qeydiyyat administratoru"
-      }
-    },
-    "invite": {
-      "header": {
-        "title": "[AT] şirkətlər",
-        "add": "[AT] əlavə et"
-      },
-      "list": {
-        "title": "[AT] şirkətlər",
-        "selected_title": "[AT] Seçilmiş:",
-        "filters": {
-          "tags": "[AT] Şirkət satır",
-          "rights": "[AT] Hüquq",
-          "badges": "[AT] Beyji",
-          "location": "[AT] Yer",
-          "areas": "[AT] Biznesin aparıldığı yer",
-          "shown": {
-            "title": "[AT] Ekran",
-            "true": "[AT] Bəli",
-            "false": "[AT] Xeyr"
-          },
-          "phantom": {
-            "title": "[AT] Phantoms",
-            "true": "[AT] Yalnız Phantoms",
-            "false": "[AT] Yalnız Phantoms"
-          },
-          "verified": {
-            "title": "[AT] Test Bidzaar",
-            "true": "[AT] Yalnız sübut",
-            "false": "[AT] Yalnız yoxlanılmamış"
-          }
+    "trf.cms.list": {
+        "header": {
+            "title": "Tarif paketinə aid olan sifarişçilər",
+            "add": "Sifarişçi əlavə et",
+            "recordings": "Qeydlər: "
         },
-        "sort": {
-          "registration_date": "[AT] Qeydiyyat tarixi"
+        "remove": "Tarif paketinin fəaliyyətini ləğv etmək",
+        "enums": {
+            "rights": {
+                "0": "Hüquqlar təyin olunmayıb ",
+                "1": "Sifarişçi ",
+                "2": "Təchizatçı ",
+                "4": "Akkreditasiya",
+                "16": "Şirkətin idarə edilməsi",
+                "128": "Satınalma sahibi",
+                "256": " Qrup administratoru",
+                "512": "Reyestrlər"
+            }
         },
-        "search": "[AT] TİN, marka, hüquqi adı, şirkətin Kodu, Təsviri, hüquqi ünvanı, Tags, telefon, e-poçt",
-        "empty": "[AT] Sorğunuza görə heç bir şey tapılmadı...",
-        "crm": "[AT] CRM",
-        "actions": {
-          "notify_users_tooltip": "[AT] E-poçt göndər"
-        }
-      },
-      "success": "[AT] Şirkətlər əlavə"
-    },
-    "dialog": {
-      "title": "[AT] Tarif paketinin fəaliyyətini ləğv etmək",
-      "text": "[AT] Şirkətin sorğularında standart tarif paketi fəaliyyət göstərəcəkdir.",
-      "sub": "[AT] Müraciət",
-      "cancel": "[AT] Ləğv et"
-    },
-    "empty": "[AT] Tarif paketinin tətbiq ediləcəyi sifarişçiləri əlavə edin"
-  }
+        "invite": {
+            "header": {
+                "title": "Şirkətlər",
+                "add": "Əlavə et"
+            },
+            "list": {
+                "title": "Şirkətlər",
+                "selected_title": "Seçilib:",
+                "filters": {
+                    "tags": "Şirkət satır:",
+                    "rights": "Hüquqlar",
+                    "badges": "Nişanlar",
+                    "location": "Yer",
+                    "areas": "Biznesin aparıldığı yer",
+                    "shown": {
+                        "title": "Görüntüsü",
+                        "true": "Bəli",
+                        "false": "Xeyr"
+                    },
+                    "phantom": {
+                        "title": "Fantomlar",
+                        "true": "Yalnız fantomlar",
+                        "false": "Yalnız fantomlar"
+                    },
+                    "verified": {
+                        "title": "ProcureSaas-la yoxlanılmışlar",
+                        "true": "Yalnız yoxlanılmışlar",
+                        "false": "Yalnız yoxlanılmamışlar"
+                    }
+                },
+                "sort": {
+                    "registration_date": "Qeydiyyat tarixi"
+                },
+                "search": "VÖEN, brend, hüquqi adı, şirkətin təsviri, hüquqi ünvanı, teqlər, telefon, e-poçt",
+                "empty": "Sorğunuza görə heç bir şey tapılmadı...",
+                "crm": "CRM",
+                "actions": {
+                    "notify_users_tooltip": "E-poçt göndər"
+                }
+            },
+            "success": "Şirkətlər əlavə olunub"
+        },
+        "dialog": {
+            "title": "Tarif paketinin fəaliyyətini ləğv etmək",
+            "text": "Şirkətin sorğularında standart tarif paketi fəaliyyət göstərəcəkdir.",
+            "sub": "Tətbiq et",
+            "cancel": "Ləğv et"
+        },
+        "empty": "Tarif paketinin tətbiq olunacağı sifarişçiləri əlavə edin"
+    }
 }

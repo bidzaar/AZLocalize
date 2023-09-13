@@ -16,7 +16,8 @@
           "actions": {
             "chat": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.chat",
             "crm": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.crm",
-            "profile": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.profile"
+            "profile": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.profile",
+            "recover": "web/admin/companies/profile: cmp.profile.company.viewer.header.actions.recover"
           }
         },
         "sections": {
@@ -42,12 +43,17 @@
         },
         "suppliers": {
           "header": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.header",
-          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.empty"
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.empty",
+          "add": "web/admin/companies/profile: cmp.profile.company.viewer.suppliers.add"
         },
         "requisites": {
           "header": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.header",
           "empty": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.empty",
-          "edit": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.edit"
+          "edit": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.edit",
+          "edit_сonfirm_tin": {
+            "true": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.edit_сonfirm_tin.true",
+            "false": "web/admin/companies/profile: cmp.profile.company.viewer.requisites.edit_сonfirm_tin.false"
+          }
         },
         "groups": {
           "rights_visibility": "web/admin/companies/profile: cmp.profile.company.viewer.groups.rights_visibility",
@@ -62,7 +68,6 @@
         },
         "tariff_plan": {
           "title": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.title",
-          "change": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.change",
           "tax_free": {
             "true": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.tax_free.true",
             "false": "web/admin/companies/profile: cmp.profile.company.viewer.tariff_plan.tax_free.false"
@@ -80,6 +85,7 @@
           "journal": "web/admin/companies/profile: cmp.profile.company.viewer.csm.journal",
           "success": "web/admin/companies/profile: cmp.profile.company.viewer.csm.success",
           "dialog": {
+            "empty": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.empty",
             "table": {
               "header": {
                 "size": "web/admin/companies/profile: cmp.profile.company.viewer.csm.dialog.table.header.size",
@@ -117,6 +123,15 @@
           "title": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.title",
           "fee": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.fee",
           "free": "web/admin/companies/profile: cmp.profile.company.viewer.payment_rules.free"
+        },
+        "change": "web/admin/companies/profile: cmp.profile.company.viewer.change",
+        "sales": {
+          "sale": "web/admin/companies/profile: cmp.profile.company.viewer.sales.sale",
+          "csm": "web/admin/companies/profile: cmp.profile.company.viewer.sales.csm",
+          "attach": "web/admin/companies/profile: cmp.profile.company.viewer.sales.attach",
+          "detach": "web/admin/companies/profile: cmp.profile.company.viewer.sales.detach",
+          "empty": "web/admin/companies/profile: cmp.profile.company.viewer.sales.empty",
+          "journal": "web/admin/companies/profile: cmp.profile.company.viewer.sales.journal"
         }
       },
       "editor": {
@@ -197,10 +212,36 @@
         }
       },
       "dialogs": {
+        "recover": {
+          "title": "web/admin/companies/profile: cmp.profile.company.dialogs.recover.title",
+          "text": "web/admin/companies/profile: cmp.profile.company.dialogs.recover.text",
+          "cancel": "web/admin/companies/profile: cmp.profile.company.dialogs.recover.cancel",
+          "submit": "web/admin/companies/profile: cmp.profile.company.dialogs.recover.submit",
+          "snack_success": "web/admin/companies/profile: cmp.profile.company.dialogs.recover.snack_success"
+        },
         "remove_supplier": {
           "text": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.text",
           "confirm": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.confirm",
           "cancel": "web/admin/companies/profile: cmp.profile.company.dialogs.remove_supplier.cancel"
+        },
+        "assignment_journal": {
+          "title": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.title",
+          "columns": {
+            "role": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.columns.role",
+            "employee": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.columns.employee",
+            "event": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.columns.event",
+            "initiator": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.columns.initiator",
+            "date": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.columns.date"
+          },
+          "role": {
+            "0": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.role.0",
+            "1": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.role.1"
+          },
+          "event": {
+            "0": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.event.0",
+            "1": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.event.1"
+          },
+          "empty": "web/admin/companies/profile: cmp.profile.company.dialogs.assignment_journal.empty"
         }
       }
     }

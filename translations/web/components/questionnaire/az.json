@@ -11,9 +11,9 @@
                 "lt": "Daha az",
                 "lte": "Daha az və ya bərabərdir",
                 "neq": "Bərabər deyil",
+                "outofrange": "Diapazonda deyil",
                 "notnull": "",
-                "null": "",
-                "outofrange": "Diapazonda deyil"
+                "null": ""
             },
             "conditions": {
                 "0": "Bərabərdir",
@@ -30,46 +30,64 @@
                 "11": "Cavab seçilməyib"
             },
             "editor": {
-                "actions": {
-                    "close": "Yadda saxla",
-                    "close_and_create": "Yadda saxla və sual əlavə et",
-                    "delete": "Sil"
-                },
-                "change_type_dialog": {
-                    "cancel": "Ləğv et",
-                    "change": "Dəyişmək",
-                    "text": "Sual növünün dəyişdirilməsi keçid məntiqi məlumatlarının itirilməsi ilə nəticələnəcək",
-                    "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
-                },
-                "defaults": {
-                    "group": "Yeni bölmə",
-                    "input": "Yeni sual",
-                    "select": "Yeni sual"
-                },
-                "fields": {
-                    "comment": "Təsvir (məcburi deyil)",
+                "content": {
+                    "title": "Redaktor",
+                    "group": "[AT] Bölmə adı",
                     "text": "Sualın mətni",
                     "type": "Cavab növü",
-                    "group": "Bölmənın adı"
+                    "comment": "Təsvir (məcburi deyil)",
+                    "upload": "Прикрепить файл"
+                },
+                "parameters": {
+                    "title": "Параметры",
+                    "required": {
+                        "title": "Обязательный",
+                        "descr": "Участник должен ответить на вопрос"
+                    },
+                    "private": {
+                        "title": "Приватный",
+                        "descr": "Ответ виден только организатору"
+                    },
+                    "comment": {
+                        "title": "Комментарий",
+                        "descr": "Участник может дополнить ответ комментарием"
+                    },
+                    "attaches": {
+                        "title": "Файлы",
+                        "descr": "К ответу можно прикрепить файл\t\n"
+                    },
+                    "comments": "Cavab haqqında şərh yazmağa icazə vermək",
+                    "files": "Cavab üçün faylların əlavə edilməsinə icazə vermək"
                 },
                 "logic": {
-                    "add_go_to": "Keçid əlavə edin",
-                    "default_next_question": "Başqa şərt göstərilməyibsə, keçin",
+                    "title": "Məntiq",
+                    "transition": "Переход",
+                    "answer": "Ответ",
+                    "append": "Добавить ответ",
+                    "remove": "Удалить",
+                    "default": "Другие ответы, кроме указанных выше",
                     "end_quiz": "Sorğunun növü",
-                    "go_to": "o zaman keçid etmək",
-                    "if_answer": "Cavab olarsa",
                     "next_question": "Növbəti sual",
                     "no_response_provided": "Cavab verilməyib",
-                    "question_selector_dialog": {
-                        "apply": "Tətbiq et",
-                        "cancel": "Ləğv et",
-                        "end_quiz": "Sorğunun sonu",
-                        "found": "Tapılmışdır",
-                        "go_to": "Keçmək",
-                        "next_question": "Növbəti sual",
-                        "next_questions": "Növbəti suallar",
-                        "questions": "Suallar",
-                        "search": "Axtarış..."
+                    "selector": {
+                        "header": "Перейти к...",
+                        "actions": {
+                            "cancel": "Отмена",
+                            "submit": "Применить"
+                        },
+                        "search": {
+                            "label": "Найти"
+                        },
+                        "total": {
+                            "false": "Вопросов: {{ value }}",
+                            "true": "Найдено: {{ value }}"
+                        },
+                        "list": {
+                            "title": "Доступные вопросы:",
+                            "next": "Следующий вопрос",
+                            "end": "Завершение опроса",
+                            "empty": "Вопросы не найдены"
+                        }
                     },
                     "validation": {
                         "wrong_target": "Keçid nöqtəsi mövcud sualın üstündədir. Keçid məntiqi looping qarşısını almaq üçün tətbiq edilmir."
@@ -81,59 +99,50 @@
                             "out": "əhatə dairəsi xaricində",
                             "to": " "
                         }
+                    },
+                    "add_go_to": "Keçid əlavə edin",
+                    "default_next_question": "Başqa şərt göstərilməyibsə, keçin",
+                    "go_to": "o zaman keçid etmək",
+                    "if_answer": "Cavab olarsa",
+                    "question_selector_dialog": {
+                        "apply": "Tətbiq et",
+                        "cancel": "Ləğv et",
+                        "end_quiz": "Sorğunun sonu",
+                        "found": "Tapılmışdır",
+                        "go_to": "Keçmək",
+                        "next_question": "Növbəti sual",
+                        "next_questions": "Növbəti suallar",
+                        "questions": "Suallar",
+                        "search": "Axtarış..."
                     }
                 },
-                "parameters": {
-                    "comments": "Cavab haqqında şərh yazmağa icazə vermək",
-                    "files": "Cavab üçün faylların əlavə edilməsinə icazə vermək"
-                },
                 "points": {
-                    "add_answer": "cavab əlavə etmək",
+                    "title": "Xal",
+                    "points": "xal",
                     "answer": "Cavab",
-                    "default_points": "Aşağıdakılardan başqa bütün cavablar üçün",
+                    "append": "cavab əlavə etmək",
+                    "remove": "Удалить",
+                    "default": "Другие ответы, кроме указанных выше",
                     "notice": {
                         "multiple": {
                             "text": "Ümumi xal = Seçilmiş cavabların xallarının cəmi",
                             "title": "Sual üçün ümumi xal"
                         }
                     },
+                    "add_answer": "cavab əlavə etmək",
+                    "default_points": "Aşağıdakılardan başqa bütün cavablar üçün",
                     "point": "xal"
                 },
-                "tabs": {
-                    "content": "Redaktor",
-                    "logic": "Məntiq",
-                    "parameters": "Parametrlər",
-                    "points": "Xal"
+                "actions": {
+                    "close": "Yadda saxla",
+                    "close_and_create": "Yadda saxla və sual əlavə et",
+                    "delete": "Sil",
+                    "append": "[AT] Növbəti sualı əlavə edin"
                 },
-                "validation": {
-                    "common": {
-                        "pattern": "{{value}} — qadağan olunmuş simvollar",
-                        "toggle": "Təsdiqləndirmə"
-                    },
-                    "number": {
-                        "is_integer": "Tam ədədlər"
-                    },
-                    "number_range": {
-                        "max": "Maksimal dəyər",
-                        "min": "Minimal dəyər"
-                    },
-                    "tree": {
-                        "required": "Cavab məcburidir"
-                    },
-                    "value_placeholders": {
-                        "range": {
-                            "end": " ",
-                            "start": " "
-                        },
-                        "value": {
-                            "boolean": "",
-                            "datetime": "Tarixi daxil edin...",
-                            "input": "",
-                            "multiple": "",
-                            "number": "Nömrəni daxil edin...",
-                            "select": ""
-                        }
-                    }
+                "defaults": {
+                    "group": "Yeni bölmə",
+                    "input": "Yeni sual",
+                    "select": "Yeni sual"
                 },
                 "widgets": {
                     "common": {
@@ -171,6 +180,20 @@
                         "text": "Seçim {{index}}"
                     },
                     "tree": {
+                        "import": "Yeni kataloq yükləmək",
+                        "export": "Export the catalog",
+                        "template": "Şablonu endir",
+                        "loading": "Kataloq yüklənir...",
+                        "errors": {
+                            "Process.Light.Import.InvalidFile": {
+                                "title": "Файл не загружен",
+                                "text": "Ознакомьтесь с шаблоном справочника и повторите попытку"
+                            },
+                            "Process.Light.Import.TooManyElements": {
+                                "title": "Файл не загружен",
+                                "text": "Справочник не может содержать более 500 элементов"
+                            }
+                        },
                         "download_template": "Şablonu endir",
                         "error": {
                             "info": "Referans şablonuna baxın və yenidən cəhd edin",
@@ -178,7 +201,83 @@
                         },
                         "loader_text": "Kataloq yüklənir...",
                         "upload": "Yeni kataloq yükləmək"
+                    },
+                    "agreement": {
+                        "placeholder": "Согласен"
                     }
+                },
+                "validation": {
+                    "common": {
+                        "pattern": "{{value}} — qadağan olunmuş simvollar",
+                        "toggle": "Təsdiqləndirmə"
+                    },
+                    "number": {
+                        "is_integer": "Tam ədədlər"
+                    },
+                    "number_range": {
+                        "max": "Maksimal dəyər",
+                        "min": "Minimal dəyər"
+                    },
+                    "tree": {
+                        "required": "Cavab məcburidir"
+                    },
+                    "value_placeholders": {
+                        "range": {
+                            "end": " ",
+                            "start": " "
+                        },
+                        "value": {
+                            "datetime": "Tarixi daxil edin...",
+                            "number": "Nömrəni daxil edin...",
+                            "boolean": "",
+                            "input": "",
+                            "multiple": "",
+                            "select": ""
+                        }
+                    }
+                },
+                "change_type_dialog": {
+                    "logic": {
+                        "cancel": "Ləğv et",
+                        "change": "Dəyişmək",
+                        "text": "Sual növünün dəyişdirilməsi keçid məntiqi məlumatlarının itirilməsi ilə nəticələnəcək",
+                        "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
+                    },
+                    "source": {
+                        "title": "Данные ответа будут удалены",
+                        "text": "",
+                        "cancel": "Отмена",
+                        "change": "Продолжить"
+                    },
+                    "cancel": "Ləğv et",
+                    "change": "Dəyişmək",
+                    "text": "Sual növünün dəyişdirilməsi keçid məntiqi məlumatlarının itirilməsi ilə nəticələnəcək",
+                    "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
+                },
+                "delete_item_dialog": {
+                    "confirm": {
+                        "header": "Удалить вопрос?",
+                        "text": "Восстановить вопрос будет нельзя",
+                        "submit": "Удалить",
+                        "cancel": "Отмена"
+                    },
+                    "failure": {
+                        "header": "Удаление вопроса запрещено",
+                        "text": "Чтобы удалить вопрос, удалите логические переходы на него из вопросов:",
+                        "submit": "Понятно"
+                    }
+                },
+                "fields": {
+                    "comment": "Təsvir (məcburi deyil)",
+                    "text": "Sualın mətni",
+                    "type": "Cavab növü",
+                    "group": "Bölmənın adı"
+                },
+                "tabs": {
+                    "content": "Redaktor",
+                    "logic": "Məntiq",
+                    "parameters": "Parametrlər",
+                    "points": "Xal"
                 }
             },
             "list": {
@@ -193,15 +292,20 @@
                 },
                 "formula": {
                     "tooltip": " Dəyişən sual növü"
+                },
+                "response": {
+                    "required": "Cavab tələb olunur",
+                    "private": "Cavab yalnız təşkilatçıya verilir",
+                    "public": "Digər üzvlər cavabı görəcəklər."
                 }
             },
             "validation_types": {
-                "boolean": "",
                 "datetime": "Tarix",
                 "input": "Xəttin uzunluğu",
                 "multiple": "Çoxsaylı seçim",
                 "number": "Rəqəm",
-                "select": "Tək seçim"
+                "select": "Tək seçim",
+                "boolean": ""
             },
             "visual_types": {
                 "attachment": "Fayl əlavə et",
@@ -215,7 +319,172 @@
                 "number_range": "Nömrə Aralığı",
                 "object": "Sual",
                 "select": "Tək seçim",
-                "tree": "Kataloqdan seçim"
+                "tree": "Kataloqdan seçim",
+                "agreement": "Согласие"
+            },
+            "dialog": {
+                "back": "Geri",
+                "actions": "Tədbirlər"
+            },
+            "parts": {
+                "panel": {
+                    "title": "Разделы",
+                    "collapse": "Свернуть",
+                    "expand": "Развернуть разделы",
+                    "configure": "Настроить"
+                },
+                "table": {
+                    "headers": {
+                        "question": "SUAL:",
+                        "answer": "CAVAB:",
+                        "points": "XALLAR",
+                        "logic": "MƏNTİQ"
+                    }
+                }
+            },
+            "dialogs": {
+                "groups": {
+                    "title": "Bölmə idarəetməsi",
+                    "add": "Yeni bölmə əlavə edin",
+                    "submit": "Hazır"
+                },
+                "delete_group": {
+                    "title": "Bölmə silinsin?",
+                    "text": "Bölmə ilə yanaşı, ona daxil olan bütün suallar silinəcək.",
+                    "submit": "Sil",
+                    "cancel": "Ləğv et"
+                },
+                "group_deletion_prohibited": {
+                    "title": "Bölmənin silinməsi qadağandır",
+                    "how_delete": "Bölməni silmək üçün məntiqi atlamaları çıxarın",
+                    "question": "suallardan “{{question}}” sualına:",
+                    "submit": "Aydındır"
+                },
+                "import_dialog_json": {
+                    "cancel": "Ləğv et",
+                    "choose": "Fayl seçin",
+                    "errors": {
+                        "default": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın.",
+                        "format": "“{{file}}” faylında anket mövcüd deyil. Profili yenidən ixrac edin və buraya idxal edin.",
+                        "parsing": "Fayl “{{file}}” zədələnmişdir. Profili yenidən ixrac edin və buraya idxal edin.",
+                        "version": "“{{file}}” faylı köhnəlmiş formatı ehtiva edir. Profili yenidən ixrac edin və buraya idxal edin."
+                    },
+                    "success": "Anket yükləndi",
+                    "text": "Anketi başqa sorğudan və ya reyestrdən ixrac edin və buraya idxal edin\n\nƏvvəllər yaradılmış bölmələr və suallar silinəcək",
+                    "title": "JSON faylından sorğu anketi yüklənir"
+                },
+                "import_dialog_excel": {
+                    "title": "[AT] bir fayldan bir anket Yükləyin",
+                    "success_text": "Data uğurla yükləndi",
+                    "warning": "[AT] əvvəllər daxil edilmiş suallar silinəcəkdir.",
+                    "questions": "[AT] hoproses: <b> {{ questions }}</b>",
+                    "groups": "Bölmələr: <b>{{ groups }}</b>",
+                    "count_failure": "[AT] Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
+                    "items": {
+                        "Process.Light.Import.InvalidFileExtension": {
+                            "title": "[AT] <b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
+                        },
+                        "Process.Light.Import.InvalidFile": {
+                            "title": "<b>[AT] Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
+                        },
+                        "Process.Light.Import.FileHasErrors": {
+                            "title": "[AT] <b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
+                            "download": "Səhv təsvirləri olan faylı endir"
+                        }
+                    },
+                    "cancel": "Ləğv et",
+                    "upload": "Növbəti",
+                    "close": "[AT] Yaxın"
+                }
+            },
+            "empty": {
+                "title": "Anket yaradılmayıb",
+                "text": "Fəaliyyətlərdə Sual əlavə edin və ya Anketi idxal edin",
+                "title_group": "Bölmə boşdur",
+                "add": "Sual əlavə edin"
+            },
+            "validation": {
+                "group_has_error": "Bölmədə səhvlər var",
+                "group_with_same_name_exists": "Bölmə adları eynidir",
+                "group_empty": "Bölmədə suallar yoxdur. Onu silin və ya suallar əlavə edin",
+                "item_with_same_name_exists": "Sual adları eynidir",
+                "wrong_target": "Keçid məntiqi yuxarıdakı suala uyğunlaşdırıla bilməz. Onu bu sualın altına köçürün."
+            },
+            "menu": {
+                "import_export": {
+                    "title": "İdxal ixrac",
+                    "template_excel": "Excel-də anket nümunəsini yükləyin",
+                    "import_excel": "Anketi Excel-dən idxal edin",
+                    "export_json": "Anketi JSON-a ixrac edin",
+                    "import_json": "JSON-dan sorğu vərəqəsini idxal edin"
+                },
+                "templates": {
+                    "title": "Şablonlar",
+                    "save_template": "Şablonu saxla",
+                    "list": "Saxlanmış şablonların siyahısı"
+                },
+                "divide_into_sections": {
+                    "title": "Bölmələrə bölün"
+                }
+            },
+            "templates": {
+                "dialogs": {
+                    "list": {
+                        "title": "[AT] saxlanılan şablonlar",
+                        "search": {
+                            "placeholder": "[AT] axtarış",
+                            "empty": "[AT] heç nə tapılmadı"
+                        },
+                        "empty": "Şablonlar yadda saxlanmayıb",
+                        "actions": {
+                            "cancel": "[AT] Ləğv et",
+                            "submit": "[AT] şablon tətbiq edin"
+                        }
+                    },
+                    "edit": {
+                        "title": "[AT] şablonu düzəldin",
+                        "label": "[AT] şablonun adı",
+                        "actions": {
+                            "cancel": "[AT] Ləğv et",
+                            "save": "[AT] Saxla"
+                        }
+                    },
+                    "apply": {
+                        "cancel": "Ləğv et",
+                        "submit": "Yüklə",
+                        "success": "Şablon yükləndi",
+                        "title": "[AT] Qeyri-qiymət meyarlarını daxil edin",
+                        "options": {
+                            "append": "[AT] siyahının sonuna əlavə et",
+                            "replace": "[AT] mövcud meyarları dəyişdirin"
+                        },
+                        "complement": "[AT] Əlavə"
+                    },
+                    "create": {
+                        "cancel": "Ləğv et",
+                        "default_value": "Yeni şablon",
+                        "label": "Şablonun adı",
+                        "submit": "Yadda saxla",
+                        "success": "Şablon yadda saxla",
+                        "text": "Cari qeyri-qiymət meyarlarını gələcək istifadə üçün şablon kimi yadda saxlayın. Şablon şirkətinizin əməkdaşları üçün əlçatan olacaq",
+                        "title": "Şablonu yadda saxlayın"
+                    },
+                    "remove": {
+                        "cancel": "Ləğv et",
+                        "submit": "Sil",
+                        "success": "Şablon silindi",
+                        "text": "Şablon dönməz şəkildə silinəcək",
+                        "title": "Şablon silinsin?"
+                    }
+                }
+            },
+            "filters": {
+                "title": "Filtr",
+                "all": "Bütün suallar",
+                "required": "Məcburi suallar",
+                "no_answer": "Вопросы без ответа",
+                "required_no_answer": "Məcburi cavabsız suallar",
+                "empty": "{{filtr}} filtrinə uyğun sual yoxdur"
             }
         },
         "response": {
@@ -256,8 +525,28 @@
                         "info": "Anket bloku tamamlandı"
                     },
                     "tree": {
-                        "empty": "Siyahıdan dəyər seçin və əlavə edin..."
+                        "empty_readonly": "Dəyərlər seçilməyib",
+                        "empty": "Siyahıdan dəyər seçin və əlavə edin...",
+                        "submit": "Hazır",
+                        "selected": "Seçildi: {{value}}"
                     }
+                }
+            },
+            "values": {
+                "agreement": {
+                    "true": "Razılaşmaq",
+                    "false": "Razı deyiləm"
+                },
+                "hidden": "Detallar gizlidir",
+                "empty": "Cavab verilməyib",
+                "private": "Şəxsi",
+                "files": {
+                    "title": "Fayllar: {{length}}"
+                },
+                "more": "daha çox {{dəyər}}",
+                "boolean": {
+                    "true": "Bəli",
+                    "false": "Yox"
                 }
             }
         }

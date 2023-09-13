@@ -17,7 +17,7 @@
           <p><b>"@RegistryContext.Name"</b> reyestirində <b>@CompanyContext.CompanyName</b>-nin akkreditasiyası dayandırılıb.</p>
 
           <p><b>Reyestirin sahibi:</b> @RegistryContext.OwnerCompanyName<br /><b>Dayandırılmanın səbəbi:</b> @ReasonPrecontext.Reason</p>
-          <a href="@RegistryContext.Url">Reyestra keç</a>
+          <a href="@RegistryContext.Url">Reyestrə keç</a>
         </mj-text>
       </mj-column>
     </mj-section>

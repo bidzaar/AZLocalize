@@ -49,7 +49,7 @@
         "title": "web/app/process/procedures: prs.filters.finish_date.title"
       },
       "responsible": {
-        "title": "prs.filters.responsible.title"
+        "title": "web/app/process/procedures: prs.filters.responsible.title"
       },
       "team": {
         "title": "web/app/process/procedures: prs.filters.team.title"
@@ -85,12 +85,10 @@
       "default": "web/app/process/procedures: prs.filters.default",
       "mytags": "web/app/process/procedures: prs.filters.mytags",
       "acceptance": "web/app/process/procedures: prs.filters.acceptance",
-      "type_of_change": {
-        "title": "web/app/process/procedures: prs.filters.type_of_change.title",
-        "labels": {
-          "true": "web/app/process/procedures: prs.filters.type_of_change.labels.true",
-          "false": "web/app/process/procedures: prs.filters.type_of_change.labels.false"
-        }
+      "procedure_type": {
+        "title": "web/app/process/procedures: prs.filters.procedure_type.title",
+        "true": "web/app/process/procedures: prs.filters.procedure_type.true",
+        "false": "web/app/process/procedures: prs.filters.procedure_type.false"
       }
     },
     "dates": {

@@ -1,46 +1,46 @@
 {
-  "req.shared": {
-    "markers": {
-      "nda": "NDA",
-      "verify": "For verified",
-      "private": "Private Request"
-    },
-    "status": {
-      "until": "before",
-      "since": "With",
-      "orders": "Completed without a winner"
-    },
-    "timer": {
-      "minutes": "min",
-      "hours": "h",
-      "days": "days",
-      "past": "ago"
-    },
-    "comment": {
-      "add": "Add a comment"
-    },
-    "responsible": {
-      "change": "Change",
-      "remove": "Delete",
-      "assign": "Reponsible person not assigned"
-    },
-    "header": {
-      "back": "Return to list",
-      "publish": "Published on {{ date }}",
-      "details": "Details",
-      "stats": {
-        "proposals": "Vendors with the submitted bid",
-        "participants": "Vendors who submitted bid"
-      }
-    },
-    "dialogs": {
-      "comment": {
-        "header": "A comment",
-        "label": "Your comment",
-        "cancel": "Cancel",
-        "submit": "Save",
-        "success": "Comment is updated"
-      }
+    "req.shared": {
+        "markers": {
+            "nda": "NDA",
+            "verify": "For verified",
+            "private": "Private Request"
+        },
+        "status": {
+            "until": "before",
+            "since": "With",
+            "orders": "Completed without a winner"
+        },
+        "timer": {
+            "minutes": "min",
+            "hours": "h",
+            "days": "days",
+            "past": "ago"
+        },
+        "comment": {
+            "add": "Add a comment"
+        },
+        "responsible": {
+            "change": "Change",
+            "remove": "Delete",
+            "assign": "Reponsible person not assigned"
+        },
+        "header": {
+            "back": "Return to list",
+            "publish": "Published on {{ date }}",
+            "details": "Details",
+            "stats": {
+                "proposals": "Vendors with the submitted bid",
+                "participants": "Vendors who submitted bid"
+            }
+        },
+        "dialogs": {
+            "comment": {
+                "header": "A comment",
+                "label": "Your comment",
+                "cancel": "Cancel",
+                "submit": "Save",
+                "success": "Comment is updated"
+            }
+        }
     }
-  }
 }

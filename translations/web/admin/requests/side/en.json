@@ -69,6 +69,11 @@
                     "collapse": "Hide",
                     "empty": "The company did not specify tags in the profile"
                 },
+                "requests": {
+                    "title": "Participation in requests",
+                    "label": "Recent",
+                    "empty": "The company has not participated in requests yet"
+                },
                 "additional": {
                     "description": {
                         "title": "Company Description",

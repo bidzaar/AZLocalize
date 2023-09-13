@@ -24,6 +24,11 @@
                     "notice": "Təsis sənədlərində olduğu kimi",
                     "title": "Şirkətin hüquqi adı"
                 },
+                "company_name": {
+                    "title": "[AT] saytda Başlıq",
+                    "notice": "[AT] təşkilati və hüquqi forma göstərilmədən unikal markanız və ya qısaldılmış adınız",
+                    "label": "[AT] marka"
+                },
                 "tin": {
                     "label": "VÖEN",
                     "notice": "Qeydiyyatdan keçdiyiniz ölkədə şirkətinizin vergi nömrəsi",

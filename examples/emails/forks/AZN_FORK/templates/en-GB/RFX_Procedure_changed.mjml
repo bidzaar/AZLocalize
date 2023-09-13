@@ -1,10 +1,4 @@
 <mjml>
-  <!-- 
-Тема: 🖐 @ProcedureContext.ProcedureOwnerCompanyName приглашает к сотрудничеству
-Получатель: владелец имейла, указанного при приглашении
-
-Организаьтор проигласил участника в запрос по имейлу
--->
   <mj-include path="./__tpl/__head.mjml" />
   <mj-body>
     <!-- logo -------------------------------------------- -->
@@ -13,21 +7,21 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1>Запрос изменён</h1>
-          <p>Ознакомьтесь с изменениями и проверьте актуальность своего предложения. </p>
-          <p><b>Запрос:</b> @ProcedureContext.ProcedureName<br />
-            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName<br />
-            <b>Приём предложений:</b> до @ProcedureContext.AcceptanceEndDate<br />
-            <b>Извещение:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Скачать извещение о запросе</a><br />
-            </p>
+          <h1 class="bb">Request has been changed</b></h1>
+          <p><a href="@ProcedureVersionContext.CompareUrl">Review the changes</a> and update your bid if necessary.</p>
+          <p class="mb-0"><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName
+          </p>
+          @CustomMailContext.Body
+          <p>
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate<br />
+            <b>Notice:</b> <a href="@ConfigurationContext.BaseUrl/api/reportgenerator/common/procedure-notice/sync?procedureId=@ProcedurePreContext.ProcedureId&token=@ProcedureContext.Token">Download request notice</a>
+          </p>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Перейти к запросу</mj-button>
+        <mj-button href="@ProcedureContext.Url">Review changes</mj-button>
       </mj-column>
     </mj-section>
-    <!-- /intro -->
     <mj-include path="./__tpl/__spacer.mjml" />
-    <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__footer_unsub.mjml" />
-    <!-- /footer -->
-  </mj-body>
+    <!--<mj-include path="./__tpl/__non_reg_company.mjml" />-->
+    <mj-include path="./__tpl/__footer.mjml" />
 </mjml>

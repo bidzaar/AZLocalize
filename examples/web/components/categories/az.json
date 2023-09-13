@@ -1,57 +1,57 @@
 {
-  "bdz.cat": {
-    "list": {
-      "empty": "[AT] Kateqoriya göstərilməyib",
-      "append": "[AT] Kateqoriya göstərin",
-      "remove": "[AT] Kateqoriyanı silin",
-      "dialogs": {
-        "remove": {
-          "title": "[AT] Kateqoriya silinsin?",
-          "cancel": "[AT] Ləğv et",
-          "submit": "[AT] Sil"
+    "bdz.cat": {
+        "list": {
+            "empty": "Kateqoriya qeyd olunmayıb",
+            "append": "Kateqoriya qeyd et",
+            "remove": "Kateqoriyanı silin",
+            "dialogs": {
+                "remove": {
+                    "title": "Kateqoriya silinsin?",
+                    "cancel": "Ləğv et",
+                    "submit": "Sil"
+                }
+            }
+        },
+        "filter": {
+            "choose": "Seçin >"
+        },
+        "tree": {
+            "title": "Kateqoriyalar",
+            "empty": "Kateqoriyalar müəyyən edilməyib",
+            "active": "Yalnız istifadə olunmuşlar",
+            "inactive": "Kateqoriya istifadə edilməyib",
+            "childless": "Alt kateqoriyalar yoxdur",
+            "actions": {
+                "menu": "Ayarlar",
+                "rename": "Adını dəyiş",
+                "create": "Kateqoriya əlavə et",
+                "append": "Alt kateqoriya əlavə et",
+                "up": "Yuxarı hərəkət et",
+                "down": "Aşağı hərəkət et",
+                "move": "Hərəkət et",
+                "move_to_root": "Siyahının kökünə",
+                "move_to_node": "Başqa kateqoriyaya",
+                "activate": "Kateqoriyanı istifadə et",
+                "deactivate": "Kateqoriyanı istifadə etmə"
+            },
+            "dialogs": {
+                "rename": {
+                    "title": "Kateqoriya",
+                    "cancel": "Ləğv et",
+                    "submit": "Yadda saxla",
+                    "placeholder": "Kateqoriyanın adı"
+                }
+            }
+        },
+        "selection": {
+            "text": "Kateqoriyalar müəyyən edilməyib",
+            "notice": "Kateqoriyalar kataloqu boşdur",
+            "submit": "Tamam"
         }
-      }
     },
-    "filter": {
-      "choose": "Seçin >"
-    },
-    "tree": {
-      "title": "[AT] Kateqoriyalar",
-      "empty": "[AT] Kateqoriyalar müəyyən edilməyib",
-      "active": "[AT] Yalnız istifadə olunub",
-      "inactive": "[AT] Kateqoriya istifadə edilməyib",
-      "childless": "[AT] İçəri daxil edilmiş kateqoriyalar yoxdur",
-      "actions": {
-        "menu": "[AT] Tədbirlər",
-        "rename": "[AT] Adını dəyişdirin",
-        "create": "[AT] Kateqoriya əlavə edin",
-        "append": "[AT] Alt kateqoriya əlavə edin",
-        "up": "[AT] Yuxarı hərəkət edin",
-        "down": "[AT] Aşağı hərəkət",
-        "move": "[AT] Hərəkət edin",
-        "move_to_root": "[AT] Ağacın kökündə",
-        "move_to_node": "[AT] Başqa kateqoriyaya",
-        "activate": "[AT] Kateqoriyadan istifadə edin",
-        "deactivate": "[AT] Kateqoriyadan istifadə etməyin"
-      },
-      "dialogs": {
-        "rename": {
-          "title": "[AT] Kateqoriya",
-          "cancel": "[AT] Ləğv et",
-          "submit": "[AT] Yadda saxla",
-          "placeholder": "[AT] Kateqoriya adı"
+    "errors": {
+        "logic": {
+            "Category.CycleDetected": "Əsas kateqoriyanı alt kateqoriyasına köçürmək mümkün deyil"
         }
-      }
-    },
-    "selection": {
-      "text": "[AT] Kateqoriyalar müəyyən edilməyib",
-      "notice": "[AT] Kateqoriyalar kataloqu boşdur",
-      "submit": "[AT] Aydın"
     }
-  },
-  "errors": {
-    "logic": {
-      "Category.CycleDetected": "[AT] Siz əsas kateqoriyanı uşaq kateqoriyasına köçürə bilməzsiniz"
-    }
-  }
 }

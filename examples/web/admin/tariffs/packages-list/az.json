@@ -1,26 +1,26 @@
 {
-  "trf.pcg.list": {
-    "header": {
-      "title": "[AT] tarif paketləri",
-      "add": "[AT] tarif paketini əlavə et",
-      "records": "[AT] Records: {{ value }}",
-      "search": "[AT] Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
-    },
-    "package": {
-      "customers": "[AT] müştərilər",
-      "label": "[AT] redaktə et"
-    },
-    "dialog": {
-      "title": "[AT] tariflər paketi",
-      "input": "[AT] Paket adı",
-      "add": "[AT] Bitti",
-      "cancel": "[AT] Ləğv et",
-      "error": {
-        "title": "[AT] Bu Paket adı artıq mövcuddur",
-        "text": "[AT] tarifin digər adını göstərin"
-      }
-    },
-    "empty": "[AT] tariflər əlavə edilmir",
-    "empty_search": "[AT] sizin sorğunuza görə heç bir şey tapılmadı..."
-  }
+    "trf.pcg.list": {
+        "header": {
+            "title": "Tarif paketləri",
+            "add": "Tarif paketləri əlavə et",
+            "records": "Qeydlər: {{ value }}",
+            "search": "Axtarış sahələr üzrə həyata keçirilir: •tariflər paketinin adı"
+        },
+        "package": {
+            "customers": "Sifarişçilər",
+            "label": "Redaktə et "
+        },
+        "dialog": {
+            "title": "Tarif paketləri",
+            "input": "Paketin adı",
+            "add": "HAZIRDIR",
+            "cancel": "LƏĞV ET",
+            "error": {
+                "title": "Bu Paket adı artıq mövcuddur",
+                "text": "Tarifin digər adını göstərin"
+            }
+        },
+        "empty": "Siyahı boşdu",
+        "empty_search": "Sizin sorğunuza görə heç bir şey tapılmadı..."
+    }
 }

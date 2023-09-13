@@ -10,6 +10,7 @@
                 "invite": "Dəvət"
             },
             "list": {
+                "title": "Все компании",
                 "card": {
                     "invite": "Dəvət et",
                     "link": "Sorğunu aç",

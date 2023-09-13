@@ -4,6 +4,7 @@
             "open": "Aç",
             "nda": "Sorğunun məlumatları Məxvilik haqqında Razılaşma ilə qorunur",
             "tags": "Teqlər",
+            "team": "[AT] sorğu komandası",
             "docs": "Sənədlər",
             "positions_on": "mövqelər üzrə spesifikasiya",
             "positions_off": "Maddə spesifikasiyası deaktiv edilib",
@@ -20,6 +21,11 @@
             "docs": {
                 "title": "Sənədlər"
             }
+        },
+        "role": {
+            "0": "[AT] Auditor",
+            "1": "[AT] Redaktor",
+            "2": "[AT] Sahib"
         },
         "description": {
             "expand": "Hamısını göstər",
@@ -68,6 +74,9 @@
                 "info": "Daha çox",
                 "purchaser": "Sifarişçi ödəyir",
                 "seller": "Qalib təchizatçı ödəyir"
+            },
+            "dialog": {
+                "edit": "[AT] Sorğu dərəcəsini dəyişdirin"
             }
         }
     }

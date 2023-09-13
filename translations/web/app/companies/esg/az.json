@@ -35,6 +35,7 @@
                         "title": "ESG-hesabat",
                         "description": "Şirkətin fəaliyyəti haqqında ətraflı hesabat"
                     },
+                    "title": "Sertifikatlaşdırma hesabatları",
                     "certificate": {
                         "description": "ESG şirkət statusu sertifikatı",
                         "title": "ESG Sertifikatı"
@@ -42,8 +43,7 @@
                     "report": {
                         "description": "Şirkətin işi haqqında ətraflı hesabat",
                         "title": "ESG-hesabat"
-                    },
-                    "title": "Sertifikatlaşdırma hesabatları"
+                    }
                 },
                 "statistics": {
                     "popover": {

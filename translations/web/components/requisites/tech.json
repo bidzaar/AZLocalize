@@ -15,6 +15,11 @@
         },
         "editor": {
             "form": {
+                "company_name": {
+                    "title": "web/components/requisites: bdz.rqs.editor.form.company_name.title",
+                    "notice": "web/components/requisites: bdz.rqs.editor.form.company_name.notice",
+                    "label": "web/components/requisites: bdz.rqs.editor.form.company_name.label"
+                },
                 "name": {
                     "title": "web/components/requisites: bdz.rqs.editor.form.name.title",
                     "notice": "web/components/requisites: bdz.rqs.editor.form.name.notice",

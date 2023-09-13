@@ -1,5 +1,17 @@
 {
-  "trf.shared": {
-
-  }
+    "trf.shared": {
+        "default": "Default rate",
+        "code": {
+            "value": "Code: {{ value }}",
+            "empty": "Code not specified"
+        },
+        "name": {
+            "empty": "Name not specified"
+        },
+        "status": {
+            "0": "Draft",
+            "1": "Current",
+            "2": "Not valid"
+        }
+    }
 }

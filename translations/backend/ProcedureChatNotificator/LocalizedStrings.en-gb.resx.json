@@ -44,7 +44,7 @@
     "ObyazatelnyyRoot": "Required: {Root}",
     "NeObyazatelnyyRoot": "Optional: {Root}",
     "IzmenenyGruppyVoprosov": "Changed question groups",
-"DobavlenyTrebovaniyaKUchastnikuIUsloviyamZaprosa": "Added requirements for the vendor and the conditions of the request",
+    "DobavlenyTrebovaniyaKUchastnikuIUsloviyamZaprosa": "Added requirements for the vendor and the conditions of the request",
     "UdalenyTrebovaniyaKUchastnikuIUsloviyamZaprosa": "Removed vendor requirements and request conditions",
     "IzmenenyTrebovaniyaKUchastnikuIUsloviyamZaprosa": "Changed the requirements for the vendor and the conditions of the request",
     "DobavlenaSpetsifikatsiyaTovarovIUslug": "Added specification of goods and services",

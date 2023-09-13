@@ -1,84 +1,84 @@
 {
-  "req.lst": {
-    "list": {
-      "header": {
-        "title": "Requests",
-        "search": "The search is carried out in the fields: Request code, Request name, Buyer company name"
-      },
-      "empty": {
-        "text": "Requests are not found"
-      },
-      "sorting": {
-        "publishDate": "Submitted",
-        "proposalsCount": "Bids",
-        "acceptanceEndDate": "Bid acceptance",
-        "finishDate": "Completed"
-      },
-      "filters": {
-        "status": {
-          "title": "Request Status"
-        },
-        "publishDate": {
-          "title": "Publication date"
-        },
-        "acceptanceEndDate": {
-          "title": "Bids due date"
-        },
-        "finishDate": {
-          "title": "Date of completion"
-        },
-        "orders": {
-          "title": "With the winner",
-          "options": {
-            "true": "Yes",
-            "false": "No"
-          }
-        },
-        "proposals": {
-          "title": "Bids"
-        },
-        "address": {
-          "title": "Delivery address"
-        },
-        "category": {
-          "title": "Category"
-        },
-        "company": {
-          "title": "Buyer",
-          "choose": "Select buyers"
-        },
-        "responsible": {
-          "title": "Responsible",
-          "choose": "Show command"
-        },
-        "open_type": {
-          "title": "Request type",
-          "options": {
-            "0": "Only public",
-            "1": "Only private"
-          }
+    "req.lst": {
+        "list": {
+            "header": {
+                "title": "Requests",
+                "search": "The search is carried out in the fields: Request code, Request name, Buyer company name"
+            },
+            "empty": {
+                "text": "Requests are not found"
+            },
+            "sorting": {
+                "publishDate": "Submitted",
+                "proposalsCount": "Bids",
+                "acceptanceEndDate": "Bid acceptance",
+                "finishDate": "Completed"
+            },
+            "filters": {
+                "status": {
+                    "title": "Request Status"
+                },
+                "publishDate": {
+                    "title": "Publication date"
+                },
+                "acceptanceEndDate": {
+                    "title": "Bids due date"
+                },
+                "finishDate": {
+                    "title": "Date of completion"
+                },
+                "orders": {
+                    "title": "With the winner",
+                    "options": {
+                        "true": "Yes",
+                        "false": "No"
+                    }
+                },
+                "proposals": {
+                    "title": "Bids"
+                },
+                "address": {
+                    "title": "Delivery address"
+                },
+                "category": {
+                    "title": "Category"
+                },
+                "company": {
+                    "title": "Buyer",
+                    "choose": "Select buyers"
+                },
+                "responsible": {
+                    "title": "Responsible",
+                    "choose": "Show command"
+                },
+                "open_type": {
+                    "title": "Request type",
+                    "options": {
+                        "0": "Only public",
+                        "1": "Only private"
+                    }
+                }
+            },
+            "card": {
+                "links": {
+                    "journal": "Request notice",
+                    "participants": "Vendors",
+                    "open": "View request on the platform"
+                },
+                "link": {
+                    "open": ""
+                },
+                "publish": {
+                    "date": "Published"
+                },
+                "category": {
+                    "empty": "Uncategorized"
+                },
+                "stats": {
+                    "proposals": "Vendors of the current stage with a bid",
+                    "participants": "Participated in the stage"
+                }
+            }
         }
-      },
-      "card": {
-        "links": {
-          "journal": "Request notice",
-          "participants": "Vendors",
-          "open": "View request on the platform"
-        },
-        "link": {
-          "open": ""
-        },
-        "publish": {
-          "date": "Published"
-        },
-        "category": {
-          "empty": "Uncategorized"
-        },
-        "stats": {
-          "proposals": "Vendors of the current stage with a bid",
-          "participants": "Participated in the stage"
-        }
-      }
     }
-  }
 }

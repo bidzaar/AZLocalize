@@ -25,9 +25,9 @@
             "dialog": {
                 "block": {
                     "no": "Ləğv et",
-                    "text": "",
                     "title": "İşçi bloklansın?",
-                    "yes": "Bloklamaq"
+                    "yes": "Bloklamaq",
+                    "text": ""
                 }
             },
             "list": {
@@ -45,7 +45,10 @@
                     "name_desc": "Administrator adı Z→A",
                     "status": "Statusun dəyişmə tarixi"
                 },
-                "title": "Administrator əmri"
+                "title": "Administrator əmri",
+                "rights": "[AT] İcazələr ({{value}})",
+                "no_rights": "[AT] Hüquqlar təyin edilməyib",
+                "wait_for_approve": "[AT] Administrator hüquqları üçün sorğu"
             },
             "rights": {
                 "0": "Hüquqlar təyin edilməyib",

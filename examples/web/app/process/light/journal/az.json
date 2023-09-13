@@ -1,9 +1,9 @@
 {
-  "pl": {
-    "journal": {
-      "header": "Sorğu jurnalı",
-      "search": "Axtarış sətrlər üzrə aparılır: Hadisənin adı",
-      "download": "Download"
+    "pl": {
+        "journal": {
+            "header": "Sorğu jurnalı",
+            "search": "Axtarış şətrlər üzrə aparılır: Sorğunun adı",
+            "download": "Endir"
+        }
     }
-  }
 }

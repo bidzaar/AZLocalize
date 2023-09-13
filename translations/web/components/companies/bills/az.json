@@ -1,0 +1,47 @@
+{
+    "bdz.cmp": {
+        "bills": {
+            "list": {
+                "header": {
+                    "title": "[AT] qələbə üçün hesablar",
+                    "total": "[AT] qeydlər {{dəyər}}",
+                    "search": "[AT] Axtarış sahələr üzrə aparılır:\n• Sorğunun kodu və adı\n• Hesab nömrəsi"
+                },
+                "empty": "[AT] siyahı boşdur",
+                "notfound": "[AT] istəyinizə görə heç bir şey tapılmadı...",
+                "sorting": {
+                    "date": "[AT] faturalandırma tarixi"
+                },
+                "filters": {
+                    "status": {
+                        "title": "[AT] hesab statusu"
+                    },
+                    "date": {
+                        "title": "[AT] hesab tarixi"
+                    }
+                },
+                "item": {
+                    "kod": "[AT] hesab {{ value }} {{ date }}",
+                    "code": "[AT] {{ value }} tarixindən {{ date }} hesabı"
+                }
+            },
+            "enums": {
+                "status": {
+                    "0": "[AT] ödənilməyib",
+                    "1": "[AT] ödənilmiş"
+                }
+            },
+            "dialog": {
+                "title": "[AT] e-poçt hesabı alın",
+                "label": "[AT] hesab göndərmək üçün e-poçt",
+                "description": "[AT] hesabı iki iş günü ərzində göndərəcəyik.",
+                "submit": "[AT] alın",
+                "cancel": "[AT] Ləğv",
+                "submit_success": "[AT] hesab yaxın vaxtlarda göndəriləcək",
+                "errors": {
+                    "request": "[AT] sorğu göndərilmədi. Daha sonra yenidən cəhd edin"
+                }
+            }
+        }
+    }
+}

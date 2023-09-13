@@ -41,7 +41,10 @@
                     "title": "Show deleted",
                     "false": "Only active",
                     "true": "Deleted only"
-                }
+                },
+                "sell_tags": "Companies sell",
+                "buy_tags": "Companies buy",
+                "category": "Category"
             },
             "sort": {
                 "registration_date": "Date of company registration"

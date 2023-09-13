@@ -1,9 +1,16 @@
 {
-  "request.view": {
-    "tabs": {
-      "query": "Query",
-      "participants": "Participants",
-      "events": "Events"
+    "request.view": {
+        "tabs": {
+            "query": "Query",
+            "participants": "Participants",
+            "events": "Events"
+        }
+    },
+    "req.view": {
+        "tabs": {
+            "details": "Request",
+            "participants": "Vendors",
+            "events": "Request report"
+        }
     }
-  }
 }

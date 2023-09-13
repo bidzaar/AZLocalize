@@ -17,11 +17,13 @@
             "title": "web/admin/companies/shared: cmp.shared.list.title",
             "selected_title": "web/admin/companies/shared: cmp.shared.list.selected_title",
             "filters": {
-                "tags": "web/admin/companies/shared: cmp.shared.list.filters.tags",
+                "sell_tags": "web/admin/companies/shared: cmp.shared.list.filters.sell_tags",
+                "buy_tags": "web/admin/companies/shared: cmp.shared.list.filters.buy_tags",
                 "rights": "web/admin/companies/shared: cmp.shared.list.filters.rights",
                 "badges": "web/admin/companies/shared: cmp.shared.list.filters.badges",
                 "location": "web/admin/companies/shared: cmp.shared.list.filters.location",
                 "areas": "web/admin/companies/shared: cmp.shared.list.filters.areas",
+                "category": "web/admin/companies/shared: cmp.shared.list.filters.category",
                 "shown": {
                     "title": "web/admin/companies/shared: cmp.shared.list.filters.shown.title",
                     "true": "web/admin/companies/shared: cmp.shared.list.filters.shown.true",

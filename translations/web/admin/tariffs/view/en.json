@@ -77,6 +77,9 @@
                 "cancel": "Cancel",
                 "submit": "Put into effect",
                 "validation": {
+                    "Tariff.Description.isEmpty": "No description specified",
+                    "Tariff.Name .isEmpty": "Name not specified",
+                    "Tariff.Code.isEmpty": "No code specified",
                     "Tariff.Code.IsNotUnique": "Not a unique code",
                     "Tariff.Conditions.HasNoActive": "The comission scheme is not configured",
                     "Tariff.Description.IsEmpty": "No description provided",

@@ -2,7 +2,8 @@
     "pl": {
         "journal": {
             "header": "web/app/process/light/journal: pl.journal.header",
-            "search": "web/app/process/light/journal: pl.journal.search"
+            "search": "web/app/process/light/journal: pl.journal.search",
+            "download": "web/app/process/light/journal: pl.journal.download"
         }
     }
 }

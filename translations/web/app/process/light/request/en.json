@@ -1,23 +1,6 @@
 {
     "pl": {
         "request": {
-            "editor": {
-                "headers": {
-                    "h1": "Header 1",
-                    "h2": "Header 2",
-                    "h3": "Header 3",
-                    "h4": "Header 4",
-                    "h5": "Header 5",
-                    "h6": "Header 6"
-                },
-                "remove": "Delete",
-                "message": {
-                    "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
-                    "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
-                    "warning-nda": "We recommend making a concise description, and attach the full one as a file",
-                    "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
-                }
-            },
             "general": {
                 "title": "Summary",
                 "nda": {
@@ -162,6 +145,8 @@
                 "cancel_stage": "Cancel new stage",
                 "view_summary": "View request summary",
                 "view_journal": "Open the journal",
+                "violate": "Rule violation",
+                "violate_warning": "You have already requested permission. Wait for the Organizer's decision",
                 "return_to_summary": "Return to summary",
                 "end_round": "Finish accepting offers"
             },
@@ -192,6 +177,23 @@
             },
             "effective": {
                 "text": "Efficient Procurement Rules"
+            },
+            "editor": {
+                "headers": {
+                    "h1": "Header 1",
+                    "h2": "Header 2",
+                    "h3": "Header 3",
+                    "h4": "Header 4",
+                    "h5": "Header 5",
+                    "h6": "Header 6"
+                },
+                "remove": "Delete",
+                "message": {
+                    "error": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file. The field has a length limit, make sure that the entire text fits",
+                    "warning": "A large description will not be displayed by aggregators. We recommend making a concise description, and attach the full one as a file",
+                    "warning-nda": "We recommend making a concise description, and attach the full one as a file",
+                    "error-nda": "We recommend making a concise description and attaching the full one as a file. The field has a length limit, make sure that all the text fits"
+                }
             }
         }
     }

@@ -1,0 +1,14 @@
+{
+  "pl": {
+    "banned_positions": {
+      "header": "Setting feed bans for individual items",
+      "header_tooltip": "Submission bans will only apply to new entrant proposals",
+      "banned_positions": "Forbidden positions:",
+      "has_bid": "Offer submitted",
+      "no_bid": "Offer not submitted",
+      "empty_group": "Positions not specified",
+      "total_tooltip": "Positions prohibited for submission",
+      "participants_count": "Participants: {{value}}"
+    }
+  }
+}

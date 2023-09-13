@@ -16,7 +16,7 @@
           <h1>Şirkət rekvizitlərini təstiqləyin</h1>          
           <p>
             <b>Şirkət:</b> @CompanyContext.CompanyName<br />
-            <b>Düəliş tarixi:</b> @ConfigurationContext.Date
+            <b>Düzəliş tarixi:</b> @ConfigurationContext.Date
           </p>
         </mj-text>
         <mj-button href="@CompanyContext.Url">Şirkət profilinə keç</mj-button>

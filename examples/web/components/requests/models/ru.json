@@ -10,8 +10,27 @@
       },
       "invited_by": {
         "0": "Другое",
-        "1": "Организатором",
-        "2": "Сотрудником Бидзара"
+        "1": "Приглашен Организатором c площадки",
+        "2": "Приглашен Организатором по емайл",
+        "3": "Приглашен Организатором через клонирование",
+        "4": "Приглашен Bidzaar из похожих запросов",
+        "5": "Приглашен Bidzaar с помощью ИИ",
+        "6": "Приглашен Bidzaar с площадки",
+        "7": "Приглашен из голдовых реестров",
+        "8": "Приглашен Организатором из реестра"
+      },
+      "invitation": {
+        "0": "Приглашен Организатором c площадки",
+        "1": "Приглашен Организатором по email",
+        "2": "Приглашен Организатором через клонирование",
+        "3": "Приглашен организатором по платные тегам",
+        "4": "Приглашен Организатором из реестра",
+        "5": "Приглашен Bidzaar из голдовых реестров",
+        "6": "Приглашен Bidzaar по email",
+        "7": "Приглашен Bidzaar с площадки",
+        "8": "Приглашен Bidzaar из похожих запросов",
+        "9": "Приглашен Bidzaar с помощью ИИ",
+        "10": "Другое"
       },
       "open_type": {
         "0": "Открытый",
@@ -34,7 +53,7 @@
       "role": {
         "0": {
           "name": "Аудитор",
-          "descr": "Просматривает запрос"
+          "descr": "Просматривает запрос в режиме чтения"
         },
         "1": {
           "name": "Редактор",
@@ -42,7 +61,7 @@
         },
         "2": {
           "name": "Владелец",
-          "descr": "Публикует, изменяет и завершает запрос"
+          "descr": "Редактирует, публикует и завершает запрос, просматривает предложения участников\n\n"
         }
       },
       "type": {
@@ -93,26 +112,29 @@
         "Process.Light.Proposal.Answers.Required": "Неценовые критерии предложения не заполнены.",
         "Process.Light.Proposal.MainProposalShouldBeSubmitted": "Альтернативное предложение подаётся после подачи основного предложения.",
         "Process.Light.Proposal.NotSuitablePrice": "Цена предложения не удовлетворяет правилам проведения запроса",
-        "Process.Light.Proposal.Specification": "Спецификация по позициям содержит ошибки. Перейдите в Спецификацию. Некорректно заполненные поля подсвечены красным",
+        "Process.Light.Proposal.Specification": "Спецификация по позициям содержит ошибки. Перейдите в Спецификацию. Некорректно заполненные поля подсвечены красным. Подробнее об ошибках см. Журнал событий запроса.",
         "Process.Light.Proposal.Price.MinValueSubceededFake": "Цена предложения должна быть больше нуля",
         "Process.Light.Proposal.Price.MaxValueExceededFake": "Цена предложения должна быть меньше 99 млрд.",
 
-        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Требуется поставка либо в полном объёме, либо откажитесь от подачи предложения по группе",
+        "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "<b>{{ GroupName }}.</b> Требуется поставка в полном объёме, либо откажитесь от подачи предложения по группе",
         "Process.Light.Proposal.Price.InvalidProposalCurrency": "<b>{{ GroupName }}.</b> Валюта ({{ Currency }}) не входит в перечень валют, указанных в правилах запроса.",
         "Process.Light.Proposal.Price.MinValueSubceeded": "<b>{{ GroupName }}.</b> Цена должна быть больше или равна нулю.",
         "Process.Light.Proposal.Price.MaxValueExceeded": "<b>{{ GroupName }}.</b> Цена должна быть меньше 99 млрд.",
-        "Process.Light.Proposal.Price.Worse.Auction": "<b>{{ GroupName }}.</b> Цена должна быть не меньше предыдущей ({{PreviousPrice}} {{BaseCurrency}})",
-        "Process.Light.Proposal.Price.Worse.Reduction": "<b>{{ GroupName }}.</b> Цена должна быть не больше предыдущей ({{PreviousPrice}} {{ BaseCurrency}})",
+        "Process.Light.Proposal.Price.Worse.Auction": "<b>{{ GroupName }}.</b> Цена должна быть не меньше ({{ReferencePrice}} {{BaseCurrency}})",
+        "Process.Light.Proposal.Price.Worse.Reduction": "<b>{{ GroupName }}.</b> Цена должна быть не больше ({{ReferencePrice}} {{ BaseCurrency}})",
         "Process.Light.Proposal.Price.StartPrice.Auction": "<b>{{ GroupName }}.</b> Цена должна быть больше или равна начальной минимальной: <b>{{ LowerThan }} {{ BaseCurrency }}</b>.",
         "Process.Light.Proposal.Price.StartPrice.Reduction": "<b>{{ GroupName }}.</b> Цена должна быть меньше или равна начальной максимальной: <b>{{ GreaterThan }} {{ BaseCurrency }}</b>.",
-        "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "<b>{{ GroupName }}.</b> Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ GreaterThan}} {{ BaseCurrency }} и выше или {{ LowerThan }} {{ BaseCurrency }} и ниже</b>. Допустимо подать предложение с прежней ценой.",
+        "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "<b>{{ GroupName }}.</b> Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ GreaterThan}} {{ BaseCurrency }} и выше или {{ LowerThan }} {{ BaseCurrency }} и ниже</b>.",
         "Process.Light.Proposal.Price.RuleMismatch.Reduction": "<b>{{ GroupName }}.</b> Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ LowerThan }} {{ BaseCurrency }} или ниже</b>. Допустимо подать предложение с прежней ценой.",
         "Process.Light.Proposal.Price.RuleMismatch.Auction": "<b>{{ GroupName }}.</b> Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ GreaterThan }} {{ BaseCurrency }} или выше</b>. Допустимо подать предложение с прежней ценой.",
         
+        "Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease": "<b>{{ GroupName }}.</b>. Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ GreaterThan }} {{ BaseCurrency }} и выше или {{ PreviousPrice }} {{ BaseCurrency }} и ниже.</b>.",
+        "Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease": "<b>{{ GroupName }}.</b>. Цена нарушает правило изменения цены. Рекомендуемая цена: <b>{{ PreviousPrice }} {{ BaseCurrency }} и выше или {{ LowerThan }} {{BaseCurrency}} и ниже.",
+        
         "Process.Light.Proposal.Item.ReferencePrice.Reduction": "<b>{{ PositionName }}.</b> Цена за единицу должна быть снижена до {{ LowerThan }} {{BaseCurrency}} или ниже, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
         "Process.Light.Proposal.Item.ReferencePrice.Auction": "<b>{{ PositionName }}.</b> Цена за единицу должна быть повышена до {{ GreaterThan }} {{BaseCurrency}} или выше, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
-        "Process.Light.Proposal.Item.ReferencePrice.UpDown": "<b>{{ PositionName }}.</b> Цена за единицу должна быть либо понижена до {{ LowerThan }} {{BaseCurrency}} или ниже, либо повышена {{ GreaterThan }} {{BaseCurrency}} или выше, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
-
+        "Process.Light.Proposal.Item.ReferencePrice.UpDown": "<b>{{ PositionName }}.</b> Цена за единицу нарушает правило изменения цены. Рекомендуемая цена: {{ GreaterThan }} {{BaseCurrency}} и выше или {{ LowerThan }} {{BaseCurrency}} и ниже, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
+        
         "Process.Light.Proposal.Item.VatIsNotValid": "<b>{{ PositionName }}.</b> Некорректное значение ставки НДС.",
         "Process.Light.Proposal.Item.CustomField.Required": "<b>{{ PositionName }}.</b> Значение \"{{ FieldName }}\" не заполнено",
         "Process.Light.Proposal.Item.CurrencyIsNotValid": "<b>{{ PositionName }}.</b> Валюта ({{ Currency }}) не входит в перечень валют, указанных в правилах запроса.",
@@ -121,28 +143,35 @@
         "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "<b>{{ PositionName }}.</b> Требуется поставка в полном объёме, либо укажите \"Не включена в предложение\".",
         "Process.Light.Proposal.Item.ZeroCount": "<b>{{ PositionName }}.</b> Некорректное количество. При отсутствии позиции укажите \"Не включена в предложение\" или укажите количество.",
         "Process.Light.Proposal.Item.NonZeroCount": "<b>{{ PositionName }}.</b> Некорректное количество. Укажите количество = 0.",
-        
+        "Process.Light.Proposal.Item.ExcludedPositionInProposal": "<b>{{ PositionName }}.</b> Организатор запретил подавать новые предложения по позиции. Укажите \"Не включена в предложение\".",
+        "Process.Light.Proposal.Item.PositionAreNotIncluded": "Спецификация не содержит позиций, включенных в предложение",
+
         "Process.Light.Proposal.Item.Price.MinValueSubceeded": "<b>{{ PositionName }}.</b> Отрицательная цена недопустима",
-        "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{ PositionName }}.</b> Укажите цену меньше 99 млрд.",
+        "Process.Light.Proposal.Item.Price.MaxValueExceeded": "<b>{{ PositionName }}.</b> Укажите цену меньше 9 999 999 999.00",
         "Process.Light.Proposal.Item.ZeroPrice": "<b>{{ PositionName }}.</b> Цена не указана.",
         "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "<b>{{ PositionName }}.</b> Цена не указана. При отсутствии позиции укажите \"Не включена в предложение\".",
         "Process.Light.Proposal.Item.StartPrice.Auction": "<b>{{ PositionName }}.</b> Цена за ед. {{ Price }} {{ BaseCurrency }} ниже минимальной цены за ед., указанной Заказчиком ({{ StartPrice }} {{ BaseCurrency }}).",
-        "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> Цена за ед. в {{ Price }} {{ BaseCurrency }} превышает максимальную цену за ед., указанную Заказчиком ({{ StartPrice }} {{ BaseCurrency }}).",
-        "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> Цена за ед. должна быть не меньше предыдущей {{ PreviousPrice }} {{ BaseCurrency }}",
-        "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> Цена за ед. должна быть не больше предыдущей {{ PreviousPrice }} {{ BaseCurrency }}"
+        "Process.Light.Proposal.Item.StartPrice.Reduction": "<b>{{ PositionName }}.</b> Цена за ед. {{ Price }} {{ BaseCurrency }} превышает максимальную цену за ед., указанную Заказчиком ({{ StartPrice }} {{ BaseCurrency }}).",
+        "Process.Light.Proposal.Item.Price.Worse.Auction": "<b>{{ PositionName }}.</b> Цена за ед. должна быть не меньше {{ ReferencePrice }} {{ BaseCurrency }}",
+        "Process.Light.Proposal.Item.Price.Worse.Reduction": "<b>{{ PositionName }}.</b> Цена за ед. должна быть не больше {{ ReferencePrice }} {{ BaseCurrency }}",
+        
+        "Process.Light.Proposal.Item.Auction.StepDownNotOvertaken": "<b>{{ PositionName }}.</b> Цена за единицу нарушает правило изменения цены. Рекомендуемая цена: {{ GreaterThan }} {{BaseCurrency}} и выше или {{ LowerThan }} {{BaseCurrency}} и ниже, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})",
+        "Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken": "<b>{{ PositionName }}.</b> Цена за единицу нарушает правило изменения цены. Рекомендуемая цена: {{ GreaterThan }} {{BaseCurrency}} и выше или {{ LowerThan }} {{BaseCurrency}} и ниже, либо укажите прежнюю цену ({{ PreviousPrice }} {{ BaseCurrency }})"
       },
       "price": {
-        "smth_no_deviation": "Требуется поставка в полном объёме либо откажитесь от подачи предложения по группе",
+        "smth_no_deviation": "Требуется поставка в полном объёме, либо откажитесь от подачи предложения по группе",
         "lt_or_equal_to_minimum": "Цена предложения должна быть больше нуля.",
         "lt_minimum": "Цена предложения должна быть больше или равна нулю.",
         "gt_maximum": "Цена предложения должна быть меньше 99 млрд.",
-        "new_price_worse_auction": "Цена предложения должна быть не меньше предыдущей.",
-        "new_price_worse_reduction": "Цена предложения должна быть не больше предыдущей.",
         "start_price_auction": "Цена предложения должна быть больше или равна начальной минимальной: {{price}} {{currency}}.",
         "start_price_reduction": "Цена предложения должна быть меньше или равна начальной максимальной: {{price}} {{currency}}.",
+        "new_price_worse_auction": "Цена предложения должна быть не меньше {{price}} {{currency}}.\nЧтобы изменить предложение с нарушением правила, запросите разрешение на вкладке Предложение.",
+        "new_price_worse_reduction": "Цена предложения должна быть не больше {{price}} {{currency}}.\nЧтобы изменить предложение с нарушением правила, запросите разрешение на вкладке Предложение.",
         "refer_price_all": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{max}} {{currency}} и выше или {{min}} {{currency}} и ниже.",
-        "refer_price_auction": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{price}} {{currency}} или выше.",
-        "refer_price_reduction": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{price}} {{currency}} или ниже."
+        "refer_price_auction": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{price}} {{currency}} или выше.\nЧтобы изменить предложение с нарушением правила, запросите разрешение на вкладке Предложение.",
+        "refer_price_reduction": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{price}} {{currency}} или ниже.\nЧтобы изменить предложение с нарушением правила, запросите разрешение на вкладке Предложение.",
+        "step_down_is_not_overtaken": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{max}} {{currency}} и выше или {{min}} {{currency}} и ниже.",
+        "step_up_is_not_overtaken": "Цена предложения нарушает правило изменения цены. Рекомендуемая цена: {{max}} {{currency}} и выше или {{min}} {{currency}} и ниже."
       }
     },
     "reports": {

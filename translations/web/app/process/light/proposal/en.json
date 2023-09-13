@@ -1,167 +1,167 @@
 {
-  "pl": {
-    "proposal": {
-      "nda": {
-        "banner": {
-          "draft": "Prequalify and submit your bid before the end of the bid submission.",
-          "submitted": "Application under consideration. Communication with the customer - in the request chat."
-        },
-        "header": {
-          "title": "Application for prequalification / NDA",
-          "status": {
-            "0": "Application is not submitted",
-            "1": "Application is submitted",
-            "2": "Application is rejected",
-            "3": "Application is approved"
-          }
-        },
-        "action": {
-          "title": "Apply for prequalification / NDA",
-          "text": "Make sure that the application contains a complete set of documents. It is not possible to change an application after it has been submitted.",
-          "cancel": "Cancel",
-          "submit": "Apply"
-        },
-        "description": {
-          "title": "Description and documents",
-          "notice": "Familiarize yourself with the requirements of the Customer on the \"Request\" tab",
-          "open": "View"
-        },
-        "documents": {
-          "title": "Application Documents",
-          "notice": "Attach a set of documents",
-          "append": "Attach"
+    "pl": {
+        "proposal": {
+            "nda": {
+                "banner": {
+                    "draft": "Prequalify and submit your bid before the end of the bid submission.",
+                    "submitted": "Application under consideration. Communication with the customer - in the request chat."
+                },
+                "header": {
+                    "title": "Application for prequalification / NDA",
+                    "status": {
+                        "0": "Application is not submitted",
+                        "1": "Application is submitted",
+                        "2": "Application is rejected",
+                        "3": "Application is approved"
+                    }
+                },
+                "action": {
+                    "title": "Apply for prequalification / NDA",
+                    "text": "Make sure that the application contains a complete set of documents. It is not possible to change an application after it has been submitted.",
+                    "cancel": "Cancel",
+                    "submit": "Apply"
+                },
+                "description": {
+                    "title": "Description and documents",
+                    "notice": "Familiarize yourself with the requirements of the Customer on the \"Request\" tab",
+                    "open": "View"
+                },
+                "documents": {
+                    "title": "Application Documents",
+                    "notice": "Attach a set of documents",
+                    "append": "Attach"
+                }
+            },
+            "registries": {
+                "title": "Onboarding",
+                "text": "To submit a bid, it is required to be onboarded in these Vendor Pools:",
+                "open": "Open the vendor pool",
+                "status": {
+                    "false": "Not onboarded",
+                    "true": "Onboarded"
+                },
+                "status_registry": {
+                    "accredited": "Onboarded",
+                    "accredited_date": "until {{value}}",
+                    "suspended": "In the process of onboarding",
+                    "not_accredited": "Not onboarded"
+                }
+            },
+            "card": {
+                "banner": {
+                    "changing": "<b>Submit a modified bid.</b> The customer is considering your previous bid.",
+                    "draft": "<strong class=\"banner-bold\">Submit a bid </strong> before the end for bids submission",
+                    "submitted": "<b>Change the bid</b> to increase the chance of winning.",
+                    "summarize": "<b>Update the documents</b> in the \"Commercial offer and documentation\" section",
+                    "improve": "Improve the bid"
+                },
+                "title": {
+                    "true": "My bid",
+                    "false": "My alternative bid №{{value}}"
+                },
+                "status": {
+                    "submitted": "Submitted",
+                    "draft": "Not submitted",
+                    "changing": "Changing"
+                },
+                "price": {
+                    "title": {
+                        "true": "Price of your proposal, incl. VAT",
+                        "false": "Price of your proposal, excl. VAT"
+                    }
+                },
+                "positions": {
+                    "title": "Items specification",
+                    "action": {
+                        "true": "Edit",
+                        "false": "View"
+                    },
+                    "statistics": {
+                        "complete": "Positions: {{value}}",
+                        "incomplete": "Positions: {{value}} from {{count}}",
+                        "excluded": "Positions: {{value}} from {{count}}, excluded: {{excluded}}"
+                    }
+                },
+                "questionnaire": {
+                    "title": "Non-price criteria",
+                    "action": {
+                        "true": "Edit",
+                        "false": "View"
+                    },
+                    "statistics": {
+                        "complete": "Answers: {{value}}",
+                        "incomplete": "Answers: {{value}} from {{count}}"
+                    }
+                },
+                "documents": {
+                    "title": "Quotation and documentation",
+                    "action": "Attach",
+                    "text": "You can also attach documents after receiving bids"
+                },
+                "actions": {
+                    "submit": "Submit bid",
+                    "more": "More",
+                    "change": "Change bid",
+                    "update": "Update bid",
+                    "cancel": "Cancel changes",
+                    "recall": "Cancel the bid",
+                    "order_service": "Order service"
+                },
+                "competitors_ahead": {
+                    "true": "Competitors are ahead of you on some positions",
+                    "false": "Competitors are ahead of you"
+                }
+            },
+            "alternative": {
+                "title": "Alternative bid",
+                "info": "To start preparing an alternative bid, click the button below.",
+                "prepare": "Prepare your bid"
+            },
+            "nonexistent": {
+                "title": "My bid",
+                "info": "Request completed, Bid submission not possible"
+            },
+            "acceptance_end_date": {
+                "title": "Bids acceptance due",
+                "time_left": "Left"
+            },
+            "contact_info": {
+                "title": "Vendor contact details",
+                "change": "Change"
+            },
+            "actions": {
+                "refuse": "Refuse to submit bid"
+            },
+            "refused": {
+                "title": "Your company has refused to submit bid",
+                "sub_title": "You can return to the request and submit a bid\nbefore the deadline for accepting bids {{value}}",
+                "return": "Return to the request"
+            },
+            "unavailable": {
+                "title": "Bids acceptance is completed",
+                "message": "Chat with the customer"
+            },
+            "blocked": {
+                "title": "The customer excluded you from the request",
+                "sub_title": "You cannot submit bids at the discretion of the customer.\nTo clarify the details, contact the customer"
+            },
+            "status": {
+                "0": "Not submitted",
+                "1": "Submitted",
+                "2": "Recalled",
+                "changing": "Changing"
+            },
+            "confirm_recall_dialog": {
+                "title": "Cancel the bid?",
+                "text": "This bid will be unavailable to the customer and other vendors.\nBid can be edited and submitted again before the end of submission period",
+                "cancel": "Cancel",
+                "submit": "Cancel the bid"
+            },
+            "esg": {
+                "title": "Sustainable growth of your business",
+                "text": "Certify and get your ESG vendor status",
+                "link": "More about ESG"
+            }
         }
-      },
-      "registries": {
-        "title": "Onboarding",
-        "text": "To submit a bid, it is required to be onboarded in these Vendor Pools:",
-        "open": "Open the vendor pool",
-        "status": {
-          "false": "Not onboarded",
-          "true": "Onboarded"
-        },
-        "status_registry": {
-          "accredited": "Onboarded",
-          "accredited_date": "until {{value}}",
-          "suspended": "In the process of onboarding",
-          "not_accredited": "Not onboarded"
-        }
-      },
-      "card": {
-        "banner": {
-          "changing": "<b>Submit a modified bid.</b> The customer is considering your previous bid.",
-          "draft": "<strong class=\"banner-bold\">Submit a bid </strong> before the end for bids submission",
-          "submitted": "<b>Change the bid</b> to increase the chance of winning.",
-          "summarize": "<b>Update the documents</b> in the \"Commercial offer and documentation\" section",
-          "improve": "Improve the bid"
-        },
-        "title": {
-          "true": "My bid",
-          "false": "My alternative bid №{{value}}"
-        },
-        "status": {
-          "submitted": "Submitted",
-          "draft": "Not submitted",
-          "changing": "Changing"
-        },
-        "price": {
-          "title": {
-            "true": "Price of your proposal, incl. VAT",
-            "false": "Price of your proposal, excl. VAT"
-          }
-        },
-        "positions": {
-          "title": "Items specification",
-          "action": {
-            "true": "Edit",
-            "false": "View"
-          },
-          "statistics": {
-            "complete": "Positions: {{value}}",
-            "incomplete": "Positions: {{value}} from {{count}}",
-            "excluded": "Positions: {{value}} from {{count}}, excluded: {{excluded}}"
-          }
-        },
-        "questionnaire": {
-          "title": "Non-price criteria",
-          "action": {
-            "true": "Edit",
-            "false": "View"
-          },
-          "statistics": {
-            "complete": "Answers: {{value}}",
-            "incomplete": "Answers: {{value}} from {{count}}"
-          }
-        },
-        "documents": {
-          "title": "Quotation and documentation",
-          "action": "Attach",
-          "text": "You can also attach documents after receiving bids"
-        },
-        "actions": {
-          "submit": "Submit bid",
-          "more": "More",
-          "change": "Change bid",
-          "update": "Update bid",
-          "cancel": "Cancel changes",
-          "recall": "Cancel the bid",
-          "order_service": "Order service"
-        },
-        "competitors_ahead": {
-          "true": "Competitors are ahead of you on some positions",
-          "false": "Competitors are ahead of you"
-        }
-      },
-      "alternative": {
-        "title": "Alternative bid",
-        "info": "To start preparing an alternative bid, click the button below.",
-        "prepare": "Prepare your bid"
-      },
-      "nonexistent": {
-        "title": "My bid",
-        "info": "Request completed, Bid submission not possible"
-      },
-      "acceptance_end_date": {
-        "title": "Bids acceptance due",
-        "time_left": "Left"
-      },
-      "contact_info": {
-        "title": "Vendor contact details",
-        "change": "Change"
-      },
-      "actions": {
-        "refuse": "Refuse to submit bid"
-      },
-      "refused": {
-        "title": "Your company has refused to submit bid",
-        "sub_title": "You can return to the request and submit a bid\nbefore the deadline for accepting bids {{value}}",
-        "return": "Return to the request"
-      },
-      "unavailable": {
-        "title": "Bids acceptance is completed",
-        "message": "Chat with the customer"
-      },
-      "blocked": {
-        "title": "The customer excluded you from the request",
-        "sub_title": "You cannot submit bids at the discretion of the customer.\nTo clarify the details, contact the customer"
-      },
-      "status": {
-        "0": "Not submitted",
-        "1": "Submitted",
-        "2": "Recalled",
-        "changing": "Changing"
-      },
-      "confirm_recall_dialog": {
-        "title": "Cancel the bid?",
-        "text": "This bid will be unavailable to the customer and other vendors.\nBid can be edited and submitted again before the end of submission period",
-        "cancel": "Cancel",
-        "submit": "Cancel the bid"
-      },
-      "esg": {
-        "title": "Sustainable growth of your business",
-        "text": "Certify and get your ESG vendor status",
-        "link": "More about ESG"
-      }
     }
-  }
 }

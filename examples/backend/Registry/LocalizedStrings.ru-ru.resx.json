@@ -16,6 +16,8 @@
     "Qst.Comment": "Комментарий и файлы",
     "Qst.Empty": "Анкета не получена",
     "Qst.NoAnswer": "Ответ не предоставлен",
+    "Qst.True": "Да",
+    "Qst.False": "Нет",
     "Qst.Points": "Баллы",
     "Qst.Question": "Вопрос",
     "Report.Date": "Отчет сформирован:",

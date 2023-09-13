@@ -16,6 +16,8 @@
     "Qst.Comment": "Comment and files",
     "Qst.Empty": "Questionnaire not received",
     "Qst.NoAnswer": "There is no answer",
+    "Qst.True": "Yes",
+    "Qst.False": "No",
     "Qst.Points": "Points",
     "Qst.Question": "Question",
     "Report.Date": "Report date:",

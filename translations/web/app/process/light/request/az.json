@@ -1,23 +1,6 @@
 {
     "pl": {
         "request": {
-            "editor": {
-                "headers": {
-                    "h1": "Yazı tipi 1",
-                    "h2": "Yazı tipi 2",
-                    "h3": "Yazı tipi 3",
-                    "h4": "Yazı tipi 4",
-                    "h5": "Yazı tipi 5",
-                    "h6": "Yazı tipi 6"
-                },
-                "remove": "Sil",
-                "message": {
-                    "error": "Geniş təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
-                    "warning": "Geniş təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
-                    "warning-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
-                    "error-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
-                }
-            },
             "acceptance_end_date": {
                 "time_left": "Qalıb",
                 "title": "Təkliflərin qəbulu "
@@ -44,7 +27,9 @@
                 "return_to_summary": "Yekun nəticələrə qayıt",
                 "start_change": "Sorğunu dəyişdir",
                 "view_summary": "Sorğunun yekun nəticələrinə bax",
-                "view_journal": "Sorğunun jurnalı"
+                "view_journal": "Sorğunun jurnalı",
+                "violate": "[AT] Qaydanın pozulmas",
+                "violate_warning": "[AT] artıq icazə istəmisiniz. Təşkilatçının qərarını gözləyin"
             },
             "blocked": {
                 "sub_title": "Sifarişçi sizi sorğusundan kənarlaşdırdı. Sorğu iştirakçıların sayı ilə məhduddur.\nSuallarınız var? Sifarişçi ilə əlaqə saxlayın.",
@@ -117,21 +102,6 @@
                     "open": "Reyestri aç",
                     "remove": "Sil"
                 },
-                "dialoq": {
-                    "title": "Şirkətin reyestrləri",
-                    "add": "Reyestr əlavə et",
-                    "cancel": "Ləğv et",
-                    "empty": {
-                        "text": "Şirkətinizin dərc edilmiş reyestrləri yoxdur.",
-                        "add": "Reyestrləri idarə et",
-                        "close": "Hazırdı"
-                    },
-                    "search": {
-                        "placeholder": "Axtar...",
-                        "remove": "Sil",
-                        "empty": "Reyestrlər tapılmadı"
-                    }
-                },
                 "dialog": {
                     "title": "Şirkətin reyestrləri",
                     "add": "Reyestr əlavə edin",
@@ -145,6 +115,21 @@
                         "placeholder": "Axtar...",
                         "remove": "Sil",
                         "empty": "Reyestr tapılmadı"
+                    }
+                },
+                "dialoq": {
+                    "title": "Şirkətin reyestrləri",
+                    "add": "Reyestr əlavə et",
+                    "cancel": "Ləğv et",
+                    "empty": {
+                        "text": "Şirkətinizin dərc edilmiş reyestrləri yoxdur.",
+                        "add": "Reyestrləri idarə et",
+                        "close": "Hazırdı"
+                    },
+                    "search": {
+                        "placeholder": "Axtar...",
+                        "remove": "Sil",
+                        "empty": "Reyestrlər tapılmadı"
                     }
                 }
             },
@@ -207,6 +192,23 @@
             },
             "effective": {
                 "text": "Effektiv Satınalma Qaydaları"
+            },
+            "editor": {
+                "headers": {
+                    "h1": "Yazı tipi 1",
+                    "h2": "Yazı tipi 2",
+                    "h3": "Yazı tipi 3",
+                    "h4": "Yazı tipi 4",
+                    "h5": "Yazı tipi 5",
+                    "h6": "Yazı tipi 6"
+                },
+                "remove": "Sil",
+                "message": {
+                    "error": "Geniş təsvir aqreqatorlar tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun",
+                    "warning": "Geniş təsvir aggregators tərəfindən göstərilməyəcək. Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+                    "warning-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük",
+                    "error-nda": "Qısa bir təsvir etməyi və tam bir fayl şəklində əlavə etməyi məsləhət görürük. Sahənin uzunluğu məhdudiyyəti var, Bütün mətnin uyğun olduğundan əmin olun"
+                }
             }
         }
     }

@@ -1,127 +1,127 @@
 {
-  "pl_pop": {
-    "importer": {
-      "cancel": "Ləğv et",
-      "next": "Növbəti",
-      "upload": "Növbəti",
-      "close": "[AT] Yaxın",
-      "positions": {
-        "title": "Fayldan maddələri yüklə",
-        "count": "[AT] Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
-        "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək.",
-        "items": {
-          "Process.Light.Import.FileHasErrors": {
-            "download": "Səhv təsvirləri olan faylı endir",
-            "title": "<b>Səhvlər olan mövqelər yüklənmir.</b> Səhvləri düzəlt və yenidən endir."
-          },
-          "Process.Light.Import.InvalidFile": {
-            "owner": {
-              "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\nmümkün səbəb:\n • spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir.",
-              "download": "[AT] mövcud şablonu yükləyin və yükləməni təkrarlayın."
-            }, 
-            "participant": {
-              "title": "[AT] <b>fayl sorğudakı mövqelər üzrə spesifikasiyaya uyğun gəlmir.</b>\n <b>Fayl nümunəyə uyğun gəlmir.</b> mümkün səbəblər:\n",
-              "text": "[AT]• faylda mövqe spesifikasiyası yoxdur\n• sorğu yeniləndi və təklifiniz köhnəldi\n• cədvəl sütunları və ya müştəri məlumatları dəyişdirildi\n• spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir",
-              "download": "[AT] təklif şablonunu yükləyin və yenidən yükləyin."
+    "pl_pop": {
+        "importer": {
+            "cancel": "Ləğv et",
+            "next": "Növbəti",
+            "upload": "Növbəti",
+            "close": "Bağla",
+            "positions": {
+                "title": "Fayldan maddələri yüklə",
+                "count": "Yüklənmiş maddələr: {{ total }}-dan <b>{{ count }}5-i</b>",
+                "warning": "Fayldan yükləmə artıq mövcud maddələri siləcək.",
+                "items": {
+                    "Process.Light.Import.FileHasErrors": {
+                        "download": "Səhv təsvirləri olan faylı endir",
+                        "title": "<b>Səhvlər olan mövqelər yüklənmir.</b> Səhvləri düzəlt və yenidən endir."
+                    },
+                    "Process.Light.Import.InvalidFile": {
+                        "owner": {
+                            "title": "<b>fayl sorğudakı maddələr üzrə spesifikasiyaya uyğun gəlmir.</b>\n səbəb:\n • spesifikasiya başqa bir sorğu və ya maddə qrupu üçün verilmişdir.",
+                            "download": "Şablonu yükləyin və yükləməni təkrarlayın."
+                        },
+                        "participant": {
+                            "title": "<b>fayl sorğudakı maddələr üzrə spesifikasiyaya uyğun gəlmir.</b>\n <b>Fayl nümunəyə uyğun gəlmir.</b> mümkün səbəblər:\n",
+                            "text": "• faylda maddələr spesifikasiyası yoxdur\n• sorğu yeniləndi və təklifiniz köhnəldi\n• cədvəl sütunları və ya müştəri məlumatları dəyişdirildi\n• spesifikasiya başqa bir sorğu və ya mövqe qrupu üçün verilmişdir",
+                            "download": "Təklif şablonunu endirin və yenidən yükləyin."
+                        }
+                    },
+                    "Process.Light.Import.InvalidFileExtension": {
+                        "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
+                    }
+                }
+            },
+            "questionnaire": {
+                "title": "Anketi yüklə",
+                "warning": "Daha əvvəl daxil edilmiş suallar silinəcəkdir.",
+                "count": "Suallar: <b> {{ questions }}</b> of {{ total }}",
+                "count_failure": "Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
+                "items": {
+                    "Process.Light.Import.InvalidFileExtension": {
+                        "title": "<b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
+                    },
+                    "Process.Light.Import.InvalidFile": {
+                        "title": "<b>Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
+                    },
+                    "Process.Light.Import.FileHasErrors": {
+                        "title": "<b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
+                        "download": "Səhvlərin təsvirləri olan faylı endir"
+                    }
+                }
             }
-          },
-          "Process.Light.Import.InvalidFileExtension": {
-            "title": "<b>Fayl formatı yanlışdır.</b> Maddənin təsviri ilə olan faylı \".xlsx\". genişlənməsində seçin"
-          }  
-        }
-      },
-      "questionnaire": {
-        "title": "[AT] bir fayldan bir anket Yükləyin",
-        "warning": "[AT] əvvəllər daxil edilmiş suallar silinəcəkdir.",
-        "count": "[AT] hoproses: <b> {{ questions }}</b> of {{ total }}",
-        "count_failure": "[AT] Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
-        "items": {
-          "Process.Light.Import.InvalidFileExtension": {
-            "title": "[AT] <b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
-          },
-          "Process.Light.Import.InvalidFile": {
-            "title": "<b>[AT] Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
-          },
-          "Process.Light.Import.FileHasErrors": {
-            "title": "[AT] <b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
-            "download": "Səhv təsvirləri olan faylı endir"
-          }
-        }
-      }
-    },
-    "configurator": {
-      "header": "[AT] Sütunların fərdiləşdirilməsi",
-      "menu": "[AT] Sütun növünü seçin",
-      "name": "[AT] Yeni sütun",
-      "success": "[AT] Parametrlər yadda saxlandı",
-      "actions": {
-        "apply_and_close": "Apply and close",
-        "apply": "[AT] Tətbiq et",
-        "cancel": "[AT] Dəyişiklikləri ləğv et",
-        "append": "[AT] Sütun əlavə et",
-        "remove": "[AT] Sütunu sil",
-        "close": "[AT] Bağlayın"
-      },
-      "details": {
-        "name": "[AT] Sütun adı",
-        "type": "[AT] Sütun növü"
-      },
-      "empty": {
-        "text": "[AT] Əlavə sütunlar əlavə edilməyib",
-        "notice": "[AT] Başlamaq üçün Sütun Əlavə et klikləyin"
-      },
-      "types": {
-        "string": "[AT] Mətn",
-        "double": "[AT] Saymaq",
-        "bool": "[AT] Hə / Yox",
-        "datetime": "[AT] Tarix",
-        "decimal": "[AT] Pul"
-      },
-      "dialogs": {
-        "changes": {
-          "title": "[AT] Dəyişiklikləri yadda saxlamamısınız",
-          "cancel": "[AT] Dəyişiklikləri ləğv edin",
-          "submit": "[AT] Quraşdırmaya davam edin"
         },
-        "remove": {
-          "title": "[AT] Sütunu silin",
-          "cancel": "[AT] Ləğv et",
-          "submit": "[AT] Sil"
+        "configurator": {
+            "header": "Sütunların fərdiləşdirilməsi",
+            "menu": "Sütunun növünü seçin",
+            "name": "Yeni sütun",
+            "success": "Parametrlər yadda saxlanıldı",
+            "actions": {
+                "apply_and_close": "Tədbiq et və bağla",
+                "apply": "Tətbiq et",
+                "cancel": "Dəyişiklikləri ləğv et",
+                "append": "Sütun əlavə et",
+                "remove": "Sütunu sil",
+                "close": "Bağla"
+            },
+            "details": {
+                "name": "Sütunun adı",
+                "type": "Sütunun növü"
+            },
+            "empty": {
+                "text": "Sütunlar əlavə edilməyib",
+                "notice": "Başlamaq üçün Sütun əlavə et düyməsini klikləyin"
+            },
+            "types": {
+                "string": "Mətn",
+                "double": "Rəqəm",
+                "bool": "Bəli/Xeyir",
+                "datetime": "Tarix",
+                "decimal": "Məbləğ"
+            },
+            "dialogs": {
+                "changes": {
+                    "title": "Dəyişikliklər yadda saxlanılmadı",
+                    "cancel": "Dəyişiklikləri ləğv et",
+                    "submit": "Ayarlamanı davam etdir"
+                },
+                "remove": {
+                    "title": "Sütunu sil",
+                    "cancel": "Ləğv et",
+                    "submit": "Sil"
+                }
+            }
+        },
+        "positions": {
+            "header": {
+                "import_export": {
+                    "button": "Endir/Yüklə",
+                    "download": "Doldurmaq üçün şablonu endir",
+                    "import": "Fayldan maddələri yüklə"
+                }
+            },
+            "empty": {
+                "text": "Maddələr əlavə olunmayıb"
+            },
+            "table": {
+                "actions": {
+                    "documents": {
+                        "title": "Maddələrə sənəd əlavə etməyə icazə verin",
+                        "text": "Aktivləşdirilmiş seçim iştirakçılara sənədləri maddələrə əlavə etmək imkanı verir"
+                    }
+                }
+            },
+            "defaults": {
+                "name": "Yeni maddə",
+                "unit": "əd."
+            },
+            "actions": {
+                "append": "Maddə əlavə et"
+            },
+            "delete": {
+                "text": "Maddə silinsin?",
+                "cancel": "Ləğv et",
+                "confirm": "Sil",
+                "success": "Maddə silindi"
+            }
         }
-      }
-    },
-    "positions": {
-      "header": {
-        "import_export": {
-          "button": "[AT] İdxal ixrac",
-          "download": "[AT] Doldurmaq üçün şablonu Yükləyin",
-          "import": "[AT] Fayldan vəzifələrin yüklənməsi"
-        }
-      },
-      "empty": {
-        "text": "Maddələr əlavə olunmayıb"
-      },
-      "table": {
-        "actions": {
-          "documents": {
-            "title": "[AT] Sənədləri bir vəzifəyə əlavə etməyə icazə verin",
-            "text": "[AT] Aktivləşdirilmiş seçim üzvlərə sənədləri sətir elementlərinə əlavə etmək imkanı verir"
-          }
-        }
-      },
-      "defaults": {
-        "name": "Yeni maddə",
-        "unit": "əd."
-      },
-      "actions": {
-        "append": "Maddə əlavə et"
-      },
-      "delete": {
-        "text": "Maddə silinsin?",
-        "cancel": "Ləğv et",
-        "confirm": "Sil",
-        "success": "Maddə silindi"
-      }
     }
-  }
 }

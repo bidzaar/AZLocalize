@@ -13,23 +13,19 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <p>Для вас – новое сообщение в чате<br />            
-            <b>
-              "@ChatSpaceContext.SpaceName"
-              <!--"Закупка серверов и комплектующих":--> 
-            </b> 
+          <p>You have new message in <br/>
+            <b>"@ChatSpaceContext.SpaceName":</b>
           </p>
-          
-          <!--<p>Добрый день!<span class="small"><br />Иван (ООО Вектор), 12.12.2020, 12:36</span></p>
+                    <!--<p>Добрый день!<span class="small"><br />Иван (ООО Вектор), 12.12.2020, 12:36</span></p>
           <p>Уточните срок поставки<br /><span class="small">Иван (ООО Вектор), 12.12.2020, 12:36</span></p>-->
-          @ChatMemberContext.UnreadMessages
+          @ChatMemberContext.UnreadMessages          
         </mj-text>
         <!-- ИД контекста в котором чат, чтобы при переходе по ссылке открыть контекст -->
-        <mj-button href="@ChatSpaceContext.Url" padding-top="0">Перейти к чату</mj-button>
+        <mj-button href="@ChatSpaceContext.Url" padding-top="0" padding-bottom="32px">Open chat</mj-button>
+        
       </mj-column>
     </mj-section>
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer_unsub.mjml" />
     <!-- /footer -->
   </mj-body>

@@ -4,6 +4,7 @@
             "open": "View",
             "nda": "Request data protected by NDA",
             "tags": "Tags",
+            "team": "Request team",
             "docs": "Documentation",
             "rules_general": "Request terms",
             "rules_participant": "Conditions for Request Participants",
@@ -20,6 +21,11 @@
             "docs": {
                 "title": "Documentation"
             }
+        },
+        "role": {
+            "0": "Auditor",
+            "1": "Editor",
+            "2": "Owner"
         },
         "description": {
             "expand": "how all",

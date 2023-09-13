@@ -83,8 +83,5 @@
     "ImportExport.RecommendationsToFixErrors": "Səhvlərin düzəldilməsi ilə bağlı tövsiyələr Səhvlər siyahısındadır",
     "ImportExport.Required": "Məcburidir",
     "ImportExport.Unknow": "Qeyd edilməmişdir",
-    "ImportExport.WithoutVat": "ƏDV-siz",
-    "ImportExport.Positions.DontHaveAny": "Təklifə əlavə olunub",
-    "ImportExport.Positions.DontHaveAny.Hint": "1 – əlavə olunub, 0 – təklifə əlavə olunmayıb",
-    "ImportExport.Recommendations.DontHaveAny": "Təklifə əlavə olunmayıb: enter \"1\" or \"0\". 1 – Əlavə olunub, 0 – maddə təklifə əlavə olunmayıb"
+    "ImportExport.WithoutVat": "ƏDV-siz"
 }

@@ -1,74 +1,83 @@
 {
-  "req.details": {
-    "tabs": {
-      "open": "açıq",
-      "nda": "sorğu məlumatları NİV proseduru ilə qorunur",
-      "tags": "tags",
-      "docs": "Sənədlər",
-      "positions_on": "mövqelər üzrə spesifikasiya",
-      "positions_off": "[AT] Mövqe spesifikasiyası deaktiv edilib",
-      "questions_on": "qiymətsiz meyarlar",
-      "questions_off": "[AT] qeyri-qiymət meyarları müəyyən edilməyib",
-      "rules_general": "sorğu Qaydaları",
-      "rules_participant": "sorğu iştirakçıları üçün qaydalar",
-      "positions_off_notice": "[AT] İştirakçılar bütün sorğu üçün ümumi qiyməti göstərirlər"
-    },
-    "expansions": {
-      "nda": {
-        "title": "NDA sənədlər"
-      },
-      "docs": {
-        "title": "Sənədlər"
-      }
-    },
-    "description": {
-      "expand": "tamamilə göstər",
-      "collapse": "Gizlətmək",
-      "empty": "[AT] Təsvir verilmir"
-    },
-    "contacts": {
-      "title": "Əlaqələndirici şəxs"
-    },
-    "owners": {
-      "title": "sorğu sahibləri"
-    },
-    "statistics": {
-      "stage": {
-        "label": "mərhələ"
-      },
-      "participants": {
-        "label": "iştirak Ediblər",
-        "tooltip": "mərhələ iştirakçılarının sayı, o cümlədən imtina edənlər və bloklananlar"
-      },
-      "proposals": {
-        "label": "təkliflə iştirakçılar",
-        "tooltip": "mərhələ çərçivəsində təklif verən mərhələ iştirakçılarının sayı"
-      }
-    },
-    "category": {
-      "title": "Sorğu Kateqoriya"
-    },
-    "comment": {
-      "title": "Şərh",
-      "edit": "dəyişdir",
-      "add": "şərh əlavə et"
-    },
-    "tariffs": {
-      "title": "Qiymətləndirmə",
-      "free": {
-        "title": "[AT] Gediş haqqı tətbiq edilmir",
-        "text": "[AT] İştirak pulsuzdur",
-        "closed": "[AT] Qapalı sorğular üçün komissiya yoxdur"
-      },
-      "promo": {
-        "title": "[AT] Gediş haqqı tətbiq edilmir",
-        "text": "Tətbiq olunan promo kodu: {{value}}"
-      },
-      "tariff": {
-        "info": "[AT] Daha çox",
-        "purchaser": "[AT] Müştəri ödəyir",
-        "seller": "[AT] Qazanan təchizatçı ödəyir"
-      }
+    "req.details": {
+        "tabs": {
+            "open": "Aç",
+            "nda": "Sorğunun məlumatları Məxvilik haqqında Razılaşma ilə qorunur",
+            "tags": "Teqlər",
+            "team": "[AT] sorğu komandası",
+            "docs": "Sənədlər",
+            "positions_on": "mövqelər üzrə spesifikasiya",
+            "positions_off": "Maddə spesifikasiyası deaktiv edilib",
+            "questions_on": "Qeyri-qiymət meyarları",
+            "questions_off": "Qeyri-qiymət meyarları müəyyən edilməyib",
+            "rules_general": "sorğu Qaydaları",
+            "rules_participant": "sorğu iştirakçıları üçün qaydalar",
+            "positions_off_notice": "İştirakçılar bütün sorğu üçün ümumi qiyməti göstərirlər"
+        },
+        "expansions": {
+            "nda": {
+                "title": "İlkin kvalifikasiya mərhələsinin sənədləri"
+            },
+            "docs": {
+                "title": "Sənədlər"
+            }
+        },
+        "role": {
+            "0": "[AT] Auditor",
+            "1": "[AT] Redaktor",
+            "2": "[AT] Sahib"
+        },
+        "description": {
+            "expand": "Hamısını göstər",
+            "collapse": "Gizlətmək",
+            "empty": "Təsvir verilmir"
+        },
+        "contacts": {
+            "title": "Əlaqələndirici şəxs"
+        },
+        "owners": {
+            "title": "Sorğu sahibləri"
+        },
+        "statistics": {
+            "stage": {
+                "label": "Mərhələ"
+            },
+            "participants": {
+                "label": "iştirak edənlər",
+                "tooltip": "mərhələ iştirakçılarının sayı, o cümlədən imtina edənlər və bloklananlar"
+            },
+            "proposals": {
+                "label": "Təklifi olan iştirakçılar",
+                "tooltip": "Mərhələ çərçivəsində təklif verən iştirakçıların sayı"
+            }
+        },
+        "category": {
+            "title": "Sorğunun Kateqoriyası"
+        },
+        "comment": {
+            "title": "Şərh",
+            "edit": "dəyişdir",
+            "add": "şərh əlavə et"
+        },
+        "tariffs": {
+            "title": "Qiymətləndirmə",
+            "free": {
+                "title": "Tarif tətbiq edilmir",
+                "text": "İştirak pulsuzdur",
+                "closed": "Qapalı sorğular üçün komissiya yoxdur"
+            },
+            "promo": {
+                "title": "Tarif tətbiq edilmir",
+                "text": "Tətbiq olunan promo kodu: {{value}}"
+            },
+            "tariff": {
+                "info": "Daha çox",
+                "purchaser": "Sifarişçi ödəyir",
+                "seller": "Qalib təchizatçı ödəyir"
+            },
+            "dialog": {
+                "edit": "[AT] Sorğu dərəcəsini dəyişdirin"
+            }
+        }
     }
-  }
 }

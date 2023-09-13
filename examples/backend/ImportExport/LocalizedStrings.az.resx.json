@@ -75,7 +75,7 @@
     "ImportExport.Recommendation.Vat": "ƏDV dərəcəsi: müsbət rəqəm və ya ƏDV yoxdursa 0 daxil edin",
     "ImportExport.Recommendations.CustomBoolField": "",
     "ImportExport.Recommendations.CustomDateTimeField": "",
-    "ImportExport.Recommendations.CustomDecimalField": "\"{0}\" sütunu: valyuta adı olmadan rəqəm (10 milyarda qədər), iki onluq yer daxil edin",
+    "ImportExport.Recommendations.CustomDecimalField": "\"{0}\" sətirləri: pul qazanın (10 milyarda qədər)",
     "ImportExport.Recommendations.CustomDoubleField": "\"{0}\" sütunu: nömrəni daxil edin",
     "ImportExport.Recommendations.CustomField": "\"{0}\" sütunu: sahəni doldurun",
     "ImportExport.Recommendations.CustomIntegerField": "",

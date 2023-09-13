@@ -13,13 +13,13 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <p><b>@ProcedureContext.ProcedureOwnerCompanyName</b> sizi tenderdə iştirak etməyə dəvət edir:</p>
+          <p><b>@ProcedureContext.ProcedureOwnerCompanyName</b>,sizi sorğuda iştirak etməyə dəvət edir:</p>
           <h1 style="font-weight:900">"@ProcedureContext.ProcedureName"</h1>
           <p>
             <!--<b>Заказчик:</b> ООО "Вектор"<br />-->
             <b>Çatdırılma ünvanı:</b> @ProcedureContext.PlaceOfDelivery<br />
             <b>Təkliflər qəbulunun son tarixi:</b>  @ProcedureContext.AcceptanceEndDate<br /><br />
-            <b><a href="@ProcedureContext.Url">Bildirişi və tender sənədlərini açın►</a>
+            <b><a href="@ProcedureContext.Url">Bildirişi və sorğunun sənədlərini açın►</a>
           </p>
           <!--<p style="white-space: pre-line"><b>Описание:</b> @ProcedureContext.Description</p>-->
           <!--<p><b>Прием предложений производится исключительно на площадке Procure.az.com</b></p>-->
@@ -29,12 +29,12 @@
     <mj-section mj-class="section-hint">
       <mj-column>
         <mj-text>
-          <p class="smal mb05">Tender ProcureSaaS platformasında keçirilir. Üstünlüklərimiz:</p>
+          <p class="smal mb05">Sorğu ProcureSaaS platformasında keçirilir. Üstünlüklərimiz:</p>
           <ol class="smal">
             <li><b>Sürətli qeydiyyat</b> (akkreditasiya və elektron imza tələb olmadan)</li>
             <li><b>Ödənişsiz iştirak</b></li>
         </mj-text>
-        <mj-button align="center" href="@ProcedureContext.Url">Tender ilə tanış olun</mj-button>
+        <mj-button align="center" href="@ProcedureContext.Url">Sorğu ilə tanış olun</mj-button>
         <mj-text> </mj-text>
       </mj-column>
     </mj-section>

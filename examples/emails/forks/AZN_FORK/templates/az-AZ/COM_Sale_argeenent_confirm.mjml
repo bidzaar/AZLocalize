@@ -1,0 +1,38 @@
+<mjml>
+  <!-- 
+Mövzu:  Əlavə istifadəçi razılaşması ilə razılıq
+Kimə: Əlavə istifadəçi razılaşmasına razılıq verən istifadəçiyə
+-->
+  <mj-include path="./__tpl/__head.mjml" />
+  <mj-body>
+    <!-- logo -------------------------------------------- -->
+    <mj-include path="./__tpl/__logo.mjml" />
+    <!-- intro -------------------------------------------- -->
+    <mj-section mj-class="section-intro" css-class="intro">
+      <mj-column>
+        <mj-text>
+          <h1>Salam!</h1>
+          <!--<p>Bidz@ConfigurationContext.ProjectNameaar-dan narahat edirik.</p>-->
+          <p style="font-size: 20px; font-weight: 600">"@UserAgreementSignAddedContext.CompanyShortName"şirkətindən əlavə istifadəçi razılaşmasına razılıq aldıq</p>
+          <p>Şirkət haqqında məlumat:</p>
+          <ul>
+            <li class="small">@ConfigurationContext.ProjectName-də şirkətin kodu: @UserAgreementSignAddedContext.CompanyBidzaarNumber</li>
+            <li class="small">Şirkətin adı: @UserAgreementSignAddedContext.CompanyShortName</li>
+            <li class="small">Şirkətin VÖEN-i: @UserAgreementSignAddedContext.CompanyUniqueNumber</li>
+          </ul>
+          <p>İstifadəçi:</p>
+          <ul>
+            <li class="small">İstifadəçinin adı: @UserAgreementSignAddedContext.UserLastName</li>
+            <li class="small">email: <a href='mailto:@UserAgreementSignAddedContext.EmailLogin'>@UserAgreementSignAddedContext.EmailLogin</a></li>
+          </ul>
+        </mj-text>
+        <mj-text>
+          <p class="small">Məlumat düzgün yazılmayıbsa, o zaman bu məktuba cavab verin, və ya bu ünvana yazın: <a href='mailto:@ConfigurationContext.SupportEmail'>@ConfigurationContext.SupportEmail</a></p>
+          <p class="small"><span class="small">Ticarət platforması <a href="@ConfigurationContext.BaseUrl?utm_source=support&utm_medium=email&utm_campaign=dodo_user_agreement" style="font-weight:400">@ConfigurationContext.ProjectName</a>
+            </span></p>
+        </mj-text>
+      </mj-column>
+    </mj-section>
+    <mj-include path="./__tpl/__footer_simple.mjml" />
+  </mj-body>
+</mjml>

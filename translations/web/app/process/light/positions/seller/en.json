@@ -1,103 +1,115 @@
 {
-  "pl_prp": {
-    "importer": {
-      "common": {
-        "header": "Import items from file"
-      },
-      "default": {
-        "download": "Download",
-        "template": "item bid template.",
-        "fill": "Fill the bids in Excel.",
-        "import": "Upload file with items. Previously entered data will be updated.",
-        "actions": {
-          "cancel": "Cancel",
-          "submit": "Select file"
-        }
-      },
-      "success": {
-        "count": "Items added:  {{ count }}.",
-        "actions": {
-          "close": "Close"
-        }
-      },
-      "failure": {
-        "total": "Items added:  {{ count }} from {{ total }}.",
-        "actions": {
-          "close": "Close"
+    "pl_prp": {
+        "importer": {
+            "common": {
+                "header": "Import items from file"
+            },
+            "default": {
+                "download": "Download",
+                "template": "item bid template.",
+                "fill": "Fill the bids in Excel.",
+                "import": "Upload file with items. Previously entered data will be updated.",
+                "actions": {
+                    "cancel": "Cancel",
+                    "submit": "Select file"
+                }
+            },
+            "success": {
+                "count": "Items added:  {{ count }}.",
+                "actions": {
+                    "close": "Close"
+                }
+            },
+            "failure": {
+                "total": "Items added:  {{ count }} from {{ total }}.",
+                "actions": {
+                    "close": "Close"
+                },
+                "items": {
+                    "Process.Light.Import.Positions.InvalidFileExtension": {
+                        "title": "<b>Invalid file format.</b> Select the file with the extension \".xlsx\"."
+                    },
+                    "Process.Light.Import.Positions.InvalidFile": {
+                        "title": "<b>The file does not match the template.</b> Possible reasons:",
+                        "text": "• The file does not contain the specifications of the items\n• The request has been updated and your bid is outdated\n• The table columns or customer data have been changed",
+                        "download": "Download the quotation template and upload it again."
+                    },
+                    "Process.Light.Import.Positions.FileHasErrors": {
+                        "title": "<b>Items with errors are not added.</b> Correct the errors and upload again.",
+                        "download": "Download a file with error descriptions"
+                    }
+                }
+            }
         },
-        "items": {
-          "Process.Light.Import.Positions.InvalidFileExtension": {
-            "title": "<b>Invalid file format.</b> Select the file with the extension \".xlsx\"."
-          },
-          "Process.Light.Import.Positions.InvalidFile": {
-            "title": "<b>The file does not match the template.</b> Possible reasons:",
-            "text": "• The file does not contain the specifications of the items\n• The request has been updated and your bid is outdated\n• The table columns or customer data have been changed",
-            "download": "Download the quotation template and upload it again."
-          },
-          "Process.Light.Import.Positions.FileHasErrors": {
-            "title": "<b>Items with errors are not added.</b> Correct the errors and upload again.",
-            "download": "Download a file with error descriptions"
-          }
+        "positions": {
+            "total": "Total: <b>{{ price }} {{ currency }}</b>",
+            "errors": "errors",
+            "forbidden": {
+                "title": "Information is not available right now",
+                "text": "",
+                "notice": ""
+            },
+            "filters": {
+                "options": {
+                    "all": "All positions",
+                    "available": "Included in the bid",
+                    "not_available": "Not included in the bid",
+                    "bad_prices": "Prices are worse than competitors",
+                    "forbidden": "Not allowed to submit",
+                    "permitted": "Allowed to submit",
+                    "invalid": "Items with errors",
+                    "0": "All items",
+                    "1": "Available",
+                    "2": "Low rank",
+                    "3": "Not available"
+                },
+                "menu": "Filters",
+                "empty": "No items in the category"
+            },
+            "actions": {
+                "download": "Download template",
+                "upload": "Upload from file",
+                "patch": "Do not submit a bid for the group"
+            },
+            "table": {
+                "validation": {
+                    "currency": {
+                        "invalid": "The currency is not included in the list of currencies specified in the rules of the request"
+                    },
+                    "vat": {
+                        "invalid": "The specified VAT rate is not included in the catalog"
+                    },
+                    "availability": {
+                        "invalid": "The owner requires the presence of all items",
+                        "banned": "The buyer forbids the submission of new bids for this position. Specify \"Not included in quotation\""
+                    },
+                    "custom": {
+                        "required": "Value is not specified"
+                    },
+                    "count": {
+                        "deviation_in_request": "Deviation from the quantity in the tender is not allowed",
+                        "deviation_in_position": "Deviations from the quantity in the tender are not allowed, or indicate \"Out of stock\"",
+                        "less_or_equal_zero": "If the item is out of stock, specify \"Out of stock\" or indicate the quantity",
+                        "greater_than_zero": "If there is no item, specify quantity = 0",
+                        "not_equal_to_position": "Deviation from the quantity in the tender"
+                    },
+                    "price": {
+                        "lt_minimum": "Negative price is unacceptable",
+                        "gt_maximum": "Indicate a price of less than 99 billion",
+                        "equal_to_zero": "The price is not specified",
+                        "equal_to_zero_count_gte_zero": "The price is not specified. If there is no item, specify \"Out of stock\"",
+                        "start_price_auction": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
+                        "start_price_reduction": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
+                        "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
+                        "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
+                        "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
+                        "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
+                        "refer_price_all": "The bid price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
+                        "step_down_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more.",
+                        "step_up_is_not_overtaken": "The bid price violates the rule of change in price. Recommended price: {{max}} {{currency}} or less or {{min}} {{currency}} or more."
+                    }
+                }
+            }
         }
-      }
-    },
-    "positions": {
-      "total": "Total: <b>{{ price }} {{ currency }}</b>",
-      "forbidden": {
-        "title": "Information is not available right now",
-        "text": "",
-        "notice": ""
-      },
-      "filters": {
-        "options": {
-          "0": "All items",
-          "1": "Available",
-          "2": "Low rank",
-          "3": "Not available"
-        },
-        "empty": "No items in the category"
-      },
-      "actions": {
-        "download": "Download template",
-        "upload": "Upload from file",
-        "patch": "Do not submit a bid for the group"
-      },
-      "table": {
-        "validation": {
-          "currency": {
-            "invalid": "The currency is not included in the list of currencies specified in the rules of the request"
-          },
-          "vat": {
-            "invalid": "The specified VAT rate is not included in the catalog"
-          },
-          "availability": {
-            "invalid": "The owner requires the presence of all items"
-          },
-          "custom": {
-            "required": "Value is not specified"
-          },
-          "count": {
-            "deviation_in_request": "Deviation from the quantity in the tender is not allowed",
-            "deviation_in_position": "Deviations from the quantity in the tender are not allowed, or indicate \"Out of stock\"",
-            "less_or_equal_zero": "If the item is out of stock, specify \"Out of stock\" or indicate the quantity",
-            "greater_than_zero": "If there is no item, specify quantity = 0",
-            "not_equal_to_position": "Deviation from the quantity in the tender"
-          },
-          "price": {
-            "equal_to_zero": "The price is not specified",
-            "equal_to_zero_count_gte_zero": "The price is not specified. If there is no item, specify \"Out of stock\"",
-            "start_price_auction": "Your unit price in {{currency}} ({{price}} {{currency}}) below the minimum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "start_price_reduction": "Your unit price in {{currency}} ({{price}} {{currency}}) exceeds the maximum price per unit specified by the Customer ({{startPrice}} {{currency}})",
-            "new_price_worse_auction": "The price per unit must be be greater than or equal to the previous price.",
-            "new_price_worse_reduction": "The price per unit must less than or equal to the previous price.",
-            "refer_price_auction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or more.",
-            "refer_price_reduction": "The bid price violates the rule of change in price. Recommended price: {{price}} {{currency}} or less.",
-            "refer_price_all": "The bid price violates the price change rule. Recommended price: {{max}} {{currency}} and above or {{min}} {{currency}} and below.",
-            "lt_minimum": "Negative price is unacceptable",
-            "gt_maximum": "Indicate a price of less than 99 billion"
-          }
-        }
-      }
     }
-  }
 }

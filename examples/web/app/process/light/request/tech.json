@@ -1,23 +1,6 @@
 {
   "pl": {
     "request": {
-      "editor": {
-        "headers": {
-          "h1": "web/app/process/light/request: pl.request.editor.headers.h1",
-          "h2": "web/app/process/light/request: pl.request.editor.headers.h2",
-          "h3": "web/app/process/light/request: pl.request.editor.headers.h3",
-          "h4": "web/app/process/light/request: pl.request.editor.headers.h4",
-          "h5": "web/app/process/light/request: pl.request.editor.headers.h5",
-          "h6": "web/app/process/light/request: pl.request.editor.headers.h6"
-        },
-        "remove": "web/app/process/light/request: pl.request.editor.remove",
-        "message": {
-          "error": "web/app/process/light/request: pl.request.editor.message.error",
-          "warning": "web/app/process/light/request: pl.request.editor.message.warning",
-          "warning-nda": "web/app/process/light/request: pl.request.editor.message.warning-nda",
-          "error-nda": "web/app/process/light/request: pl.request.editor.message.error-nda"
-        }
-      },
       "general": {
         "title": "web/app/process/light/request: pl.request.general.title",
         "nda": {
@@ -44,21 +27,46 @@
         }
       },
       "positions": {
-        "title": "web/app/process/light/request: pl.request.positions.title",
-        "settings": "web/app/process/light/request: pl.request.positions.settings",
-        "empty": "web/app/process/light/request: pl.request.positions.empty",
-        "expand": "web/app/process/light/request: pl.request.positions.expand",
-        "disabled": "web/app/process/light/request: pl.request.positions.disabled",
-        "open_editable": "web/app/process/light/request: pl.request.positions.open_editable",
-        "open_readonly": "web/app/process/light/request: pl.request.positions.open_readonly"
+        "enabled": {
+          "header": "web/app/process/light/request: pl.request.positions.enabled.header",
+          "notice": "web/app/process/light/request: pl.request.positions.enabled.notice",
+          "open": "web/app/process/light/request: pl.request.positions.enabled.open",
+          "setup": "web/app/process/light/request: pl.request.positions.enabled.setup",
+          "toggle": "web/app/process/light/request: pl.request.positions.enabled.toggle"
+        },
+        "disabled": {
+          "header": "web/app/process/light/request: pl.request.positions.disabled.header",
+          "toggle": "web/app/process/light/request: pl.request.positions.disabled.toggle",
+          "notice": {
+            "true": "web/app/process/light/request: pl.request.positions.disabled.notice.true",
+            "false": "web/app/process/light/request: pl.request.positions.disabled.notice.false"
+          }
+        },
+        "toggle": {
+          "true": {
+            "text": "web/app/process/light/request: pl.request.positions.toggle.true.text",
+            "cancel": "web/app/process/light/request: pl.request.positions.toggle.true.cancel",
+            "submit": "web/app/process/light/request: pl.request.positions.toggle.true.submit"
+          },
+          "false": {
+            "text": "web/app/process/light/request: pl.request.positions.toggle.false.text",
+            "cancel": "web/app/process/light/request: pl.request.positions.toggle.false.cancel",
+            "submit": "web/app/process/light/request: pl.request.positions.toggle.false.submit"
+          }
+        }
       },
       "questionnaire": {
-        "title": "web/app/process/light/request: pl.request.questionnaire.title",
-        "settings": "web/app/process/light/request: pl.request.questionnaire.settings",
+        "header": {
+          "enabled": "web/app/process/light/request: pl.request.questionnaire.header.enabled",
+          "disabled": "web/app/process/light/request: pl.request.questionnaire.header.disabled"
+        },
+        "open": "web/app/process/light/request: pl.request.questionnaire.open",
+        "setup": "web/app/process/light/request: pl.request.questionnaire.setup",
         "empty": "web/app/process/light/request: pl.request.questionnaire.empty",
-        "expand": "web/app/process/light/request: pl.request.questionnaire.expand",
-        "warning_text": "web/app/process/light/request: pl.request.questionnaire.warning_text",
-        "disabled": "web/app/process/light/request: pl.request.questionnaire.disabled"
+        "forbidden": "web/app/process/light/request: pl.request.questionnaire.forbidden"
+      },
+      "general_rules": {
+        "header": "web/app/process/light/request: pl.request.general_rules.header"
       },
       "gold": {
         "title": "web/app/process/light/request: pl.request.gold.title",
@@ -74,9 +82,6 @@
         },
         "on": "web/app/process/light/request: pl.request.gold.on",
         "off": "web/app/process/light/request: pl.request.gold.off"
-      },
-      "rules": {
-        "title": "web/app/process/light/request: pl.request.rules.title"
       },
       "registries": {
         "title": "web/app/process/light/request: pl.request.registries.title",
@@ -140,12 +145,26 @@
         "cancel_stage": "web/app/process/light/request: pl.request.actions.cancel_stage",
         "view_summary": "web/app/process/light/request: pl.request.actions.view_summary",
         "view_journal": "web/app/process/light/request: pl.request.actions.view_journal",
+        "violate": "web/app/process/light/request: pl.request.actions.violate",
+        "violate_warning": "web/app/process/light/request: pl.request.actions.violate_warning",
         "return_to_summary": "web/app/process/light/request: pl.request.actions.return_to_summary",
         "end_round": "web/app/process/light/request: pl.request.actions.end_round"
       },
       "navigation": {
         "title": "web/app/process/light/request: pl.request.navigation.title",
-        "content": "web/app/process/light/request: pl.request.navigation.content"
+        "content": "web/app/process/light/request: pl.request.navigation.content",
+        "general": "web/app/process/light/request: pl.request.navigation.general",
+        "registries": "web/app/process/light/request: pl.request.navigation.registries",
+        "tariff": "web/app/process/light/request: pl.request.navigation.tariff",
+        "team": "web/app/process/light/request: pl.request.navigation.team",
+        "magic": "web/app/process/light/request: pl.request.navigation.magic",
+        "internal": "web/app/process/light/request: pl.request.navigation.internal",
+        "aggregators": "web/app/process/light/request: pl.request.navigation.aggregators",
+        "commission": "web/app/process/light/request: pl.request.navigation.commission",
+        "rules_positions": "web/app/process/light/request: pl.request.navigation.rules_positions",
+        "rules_questions": "web/app/process/light/request: pl.request.navigation.rules_questions",
+        "rules_general": "web/app/process/light/request: pl.request.navigation.rules_general",
+        "rules_participant": "web/app/process/light/request: pl.request.navigation.rules_participant"
       },
       "blocked": {
         "title": "web/app/process/light/request: pl.request.blocked.title",
@@ -155,6 +174,9 @@
         "text": "web/app/process/light/request: pl.request.message_payment.text",
         "link": "web/app/process/light/request: pl.request.message_payment.link",
         "start": "web/app/process/light/request: pl.request.message_payment.start"
+      },
+      "effective": {
+        "text": "web/app/process/light/request: pl.request.effective.text"
       }
     }
   }

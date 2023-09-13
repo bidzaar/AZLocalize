@@ -13,15 +13,15 @@
     <mj-section mj-class="section-intro">
       <mj-column>
         <mj-text>
-          <h1>Заявка на участие в запросе отклонена</h1>
-          <h2>Заявка на предквалификацию от компании @TargetContext.CompanyName отклонена</h2>
+          <h1 style="color: #CB0C00">Prequalification request was rejected</h1>
+          <h2>@TargetContext.CompanyName's prequalification request was rejected</h2>
           <p>
-            <b>Запрос:</b> @ProcedureContext.ProcedureName <br />
-            <b>Заказчик:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
-            <b>Прием предложений:</b> до @ProcedureContext.AcceptanceEndDate </p>
-          <p>Причина отклонения указана в чате запроса. Повторная подача возможна после корректировки заявки.</p>
+            <b>Request:</b> @ProcedureContext.ProcedureName <br />
+            <b>Buyer:</b> @ProcedureContext.ProcedureOwnerCompanyName <br />
+            <b>Due date:</b> @ProcedureContext.AcceptanceEndDate </p>
+          <p>The reason for the rejection is specified in the chat for this request. Please update your prequalification application and send it again.</p>
         </mj-text>
-        <mj-button href="@ProcedureContext.Url">Перейти в запрос</mj-button>
+        <mj-button href="@ProcedureContext.Url">View request</mj-button>
       </mj-column>
     </mj-section>
     <!-- /primary -->

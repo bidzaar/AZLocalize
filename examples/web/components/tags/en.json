@@ -1,42 +1,42 @@
 {
-  "bdz.tags": {
-    "cloud": {
-      "content": {
-        "choose": {
-          "content": {
-            "empty": "Choose tags from cloud"
-          },
-          "header": {
-            "title": "Chosen tags: {{ value }}"
-          }
-        },
-        "list": {
-          "content": {
-            "create": "Add the tag",
-            "empty": {
-              "text": "Change search query or",
+    "bdz.tags": {
+        "cloud": {
+            "content": {
+                "choose": {
+                    "content": {
+                        "empty": "Select tags from cloud"
+                    },
+                    "header": {
+                        "title": "Selected tags: {{ value }}"
+                    }
+                },
+                "list": {
+                    "content": {
+                        "create": "Add the tag",
+                        "empty": {
+                            "text": "Change search query or",
               "title": "Tag not found"
+                        },
+                        "more": "Load more"
+                    },
+                    "header": {
+                        "search": "Search",
+                        "total": "Tags: {{ value }}"
+                    }
+                }
             },
-            "more": "Load more"
-          },
-          "header": {
-            "search": "Search",
-            "total": "Tags: {{ value }}"
-          }
+            "header": {
+                "accept": "Done",
+                "title": "Tag cloud"
+            },
+            "error": {
+                "Tags": {
+                    "TagHasInStopList": "The added tag is in the stop list."
+                },
+                "User": {
+                    "HasNoCompany": "The current company is not selected"
+                }
+            }
         }
-      },
-      "header": {
-        "accept": "Done",
-        "title": "Tag cloud"
-      },
-      "error": {
-        "Tags": {
-          "TagHasInStopList": "The added tag is in the stop list."
-        },
-        "User": {
-          "HasNoCompany": "The current company is not selected"
-        }
-      }
     }
-  }
 }

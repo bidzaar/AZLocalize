@@ -1,97 +1,97 @@
 {
-  "trf.view": {
-    "details": {
-      "actions": {
-        "activate": "[AT] Hərəkətə daxil olun",
-        "deactivate": "[AT] Hərəkəti dayandırın",
-        "default": "[AT] Default tarif kimi qurmaq",
-        "delete": "[AT] Sil"
-      },
-      "default": {
-        "title": "[AT] Default tender növü",
-        "text": "[AT] Default tender növü Yeni sorğu təyin olunacaq"
-      }
-    },
-    "tariff": {
-      "name": {
-        "placeholder": "[AT] Tarifin adı"
-      },
-      "code": {
-        "placeholder": "[AT] Kod (ID)"
-      },
-      "descr": {
-        "label": "[AT] Sifarişçi üçün təsvir",
-        "placeholder": "[AT] Sifarişçiyə bu tipin hansı şərtlərlə istifadə edildiyini anlamağa imkan verən tarifin qısa təsvirini verin..."
-      }
-    },
-    "conditions": {
-      "title": "[AT] Tarif şəbəkəsi",
-      "create": "[AT] Tarif gridini əlavə edin",
-      "empty": "[AT] Tarif grid əlavə deyil",
-      "card": {
-        "version": "[AT] Cari versiyası",
-        "to": "[AT] qədər"
-      },
-      "editor": {
-        "header": "[AT] Tarif şəbəkəsi",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Əlavə et",
-        "append": "[AT] Tarifi özelleştirin",
-        "to": "[AT] Qədər",
-        "sum": "[AT] Məbləğ"
-      }
-    },
-    "comment": {
-      "add": "[AT] şərh əlavə et",
-      "edit": "[AT] şərhini dəyişdirin"
-    },
-    "dialogs": {
-      "comment": {
-        "title": "[AT] şərh",
-        "hint": "[AT] şərh yalnız saytın administratorları üçün mövcuddur",
-        "placeholder": "[AT] Şərh daxil edin",
-        "save":"[AT] saxla",
-        "cancel": "[AT] Ləğv et",
-        "success": "[AT] şərh əlavə edildi"
-      },
-      "deactivate": {
-        "header": "[AT] Tarifə son qoyulsun",
-        "text": "[AT] Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Hərəkəti dayandırın"
-      },
-      "delete": {
-        "header": "[AT] Qaralama sil",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Sil"
-      },
-      "default": {
-        "header": "[AT] Diqqət!",
-        "text": "[AT] Tarif yeni sorğulara default olaraq tətbiq olunacaq.\nƏvvəlki default tarif tətbiq olunmayacaq",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Default siçan seçin"
-      },
-      "activate": {
-        "header": "[AT] Hərəkətə daxil olun",
-        "text": "[AT] Tarif nəşr olunacaq və istifadəçilər sorğuların konfiqurasiyasında istifadə edə biləcəklər",
-        "cancel": "[AT] Ləğv et",
-        "submit": "[AT] Hərəkətə daxil olun",
-        "validation": {
-          "Tariff.Description.IsEmpty": "[AT] Təsvir göstərilməyib",
-          "Tariff.Name.IsEmpty": "[AT] Adı göstərilməyib",
-          "Tariff.Code.IsEmpty": "[AT] Kod göstərilməyib",
-          "Tariff.Code.IsNotUnique": "The code is not unique",
-          "Tariff.Conditions.HasNoActive": "[AT] Tarif grid xüsusi deyil"
+    "trf.view": {
+        "details": {
+            "actions": {
+                "activate": "Aktiv et",
+                "deactivate": "Dayandır",
+                "default": "Standart tarif kimi ayarla",
+                "delete": "Sil"
+            },
+            "default": {
+                "title": "Standart tender növü",
+                "text": "Yeni tenderlərə standart tender növü təyin olunacaq"
+            }
+        },
+        "tariff": {
+            "name": {
+                "placeholder": "Tarifin adı"
+            },
+            "code": {
+                "placeholder": "Kod (ID)"
+            },
+            "descr": {
+                "label": "Sifarişçi üçün təsvir",
+                "placeholder": "Sifarişçiyə bu tipin hansı şərtlərlə istifadə edildiyini anlamağa imkan verən tarifin qısa təsvirini verin..."
+            }
+        },
+        "conditions": {
+            "title": "Tariflər cədvəli ",
+            "create": "Tariflər cədvəlini əlavə edin",
+            "empty": "Tariflər cədvəli əlavə olunmayıb",
+            "card": {
+                "version": "Cari versiya",
+                "to": " "
+            },
+            "editor": {
+                "header": "Tariflər cədvəli",
+                "cancel": "Ləğv et",
+                "submit": "Əlavə et",
+                "append": "Tarifi ayarlayın",
+                "to": " ",
+                "sum": "Məbləğ"
+            }
+        },
+        "comment": {
+            "add": "Şərh əlavə et",
+            "edit": "Şərh dəyişdirin"
+        },
+        "dialogs": {
+            "comment": {
+                "title": "Şərh",
+                "hint": "Şərh yalnız saytın administratorları üçün mövcuddur",
+                "placeholder": "Şərh daxil edin",
+                "save": "Yadda saxla",
+                "cancel": "Ləğv et",
+                "success": "Şərh əlavə edildi"
+            },
+            "deactivate": {
+                "header": "Tarifi ləğv edin",
+                "text": "Yeni sorgular konfiqurasiya edildikdə tarif istifadəçilər üçün mövcud olmayacaq",
+                "cancel": "Ləğv et",
+                "submit": "Hərəkəti dayandır"
+            },
+            "delete": {
+                "header": "Lahiləndirməni ləğv et",
+                "cancel": "Ləğv et",
+                "submit": "Sil"
+            },
+            "default": {
+                "header": "Diqqət!",
+                "text": "Tarif yeni sorğulara default olaraq tətbiq olunacaq.\nƏvvəlki default tarif tətbiq olunmayacaq",
+                "cancel": "Ləğv et",
+                "submit": "Default olaraq tarif ayarla"
+            },
+            "activate": {
+                "header": "Hərəkətə keçir",
+                "text": "Tarif dərc olunacaq və istifadəçilər sorğuların ayarlarında istifadə edə biləcəklər",
+                "cancel": "Ləğv et",
+                "submit": "Hərəkətə keçir",
+                "validation": {
+                    "Tariff.Description.IsEmpty": "Təsvir göstərilməyib",
+                    "Tariff.Name.IsEmpty": "Adı göstərilməyib",
+                    "Tariff.Code.IsEmpty": "Kod göstərilməyib",
+                    "Tariff.Code.IsNotUnique": "Kod unikal deyil",
+                    "Tariff.Conditions.HasNoActive": "Tariflər cədvəli ayarlanmayıb"
+                }
+            }
         }
-      }
+    },
+    "errors": {
+        "logic": {
+            "Tariffs": {
+                "HasNoCorrectStatus": "Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin.",
+                "IsNotUnique": "The tariff code must be unique."
+            }
+        }
     }
-  },
-  "errors": {
-    "logic": {
-      "Tariffs": {
-        "HasNoCorrectStatus": "[AT] Tarif statusu dəyişdi. Xahiş edirik səhifəni yeniləyin.",
-        "IsNotUnique": "The tariff code must be unique."
-      }
-    }
-  }
 }

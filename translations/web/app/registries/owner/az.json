@@ -203,19 +203,6 @@
                     "title": "Qaralamanı sil",
                     "yes": "Sil"
                 },
-                "import_questionnaire": {
-                    "cancel": "Ləğv et",
-                    "choose": "Fayl seçin",
-                    "errors": {
-                        "default": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın.",
-                        "format": "“{{file}}” faylında anket mövcüd deyil. Digər fayl seçin və ya anketi yenidən endirin və yenidən yükləyin",
-                        "parsing": "Fayl “{{file}}” zədələnmişdir. Anketi təkrar endirin və yenidən yükləyin",
-                        "version": "“{{file}}” faylı köhnəlmiş formatı ehtiva edir. Yeni bir format istifadə edin. Bunu etmək üçün anketi endirin və yenidən yükləyin"
-                    },
-                    "success": "Anket yükləndi",
-                    "text": "Əvvəlcədən yaradılmış bölmələr və suallar silinəcəkdir.",
-                    "title": "Anketi fayldan yükləyin"
-                },
                 "publish": {
                     "default": {
                         "actions": {
@@ -275,6 +262,19 @@
                     "validation": {
                         "text": "Dərcdən əvvəl yoxlama..."
                     }
+                },
+                "import_questionnaire": {
+                    "cancel": "Ləğv et",
+                    "choose": "Fayl seçin",
+                    "errors": {
+                        "default": "Xəta baş verdi. Xahiş edirik yenidən cəhd edin və ya daha sonra yenidən cəhd edin. Problem davam edərsə, texniki dəstəklə əlaqə saxlayın.",
+                        "format": "“{{file}}” faylında anket mövcüd deyil. Digər fayl seçin və ya anketi yenidən endirin və yenidən yükləyin",
+                        "parsing": "Fayl “{{file}}” zədələnmişdir. Anketi təkrar endirin və yenidən yükləyin",
+                        "version": "“{{file}}” faylı köhnəlmiş formatı ehtiva edir. Yeni bir format istifadə edin. Bunu etmək üçün anketi endirin və yenidən yükləyin"
+                    },
+                    "success": "Anket yükləndi",
+                    "text": "Əvvəlcədən yaradılmış bölmələr və suallar silinəcəkdir.",
+                    "title": "Anketi fayldan yükləyin"
                 }
             },
             "questionnaire_block": {

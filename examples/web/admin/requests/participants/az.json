@@ -6,13 +6,20 @@
         "invite": "Dəvət et",
         "invite_similar": "Oxşar sorğulardan dəvət edin",
         "invite_site": "Platformadan dəvət edin",
-        "open_chat": "Təşkilatçı ilə çat",
+        "invite_tags": "Пригласить по тегам запроса",
         "open_events": "Jurnal",
-        "open_request": "Sorğunu aç"
+        "open_request": "Sorğunu aç",
+        "open_chat": "Təşkilatçı ilə çat",
+        "invite_intelligence": "[AT] AI ilə dəvət edin"
       },
       "card": {
         "invite": {
-          "no_profile": "Şirkət profili yaradılmayıb"
+          "no_profile": "Şirkət profili yaradılmayıb",
+          "again": {
+            "action": "[AT] yenidən dəvət et",
+            "uğur": "[AT] dəvət göndərildi",
+            "success": "[AT] Dəvət göndərildi"
+          }
         },
         "tags": {
           "tooltip": "Uyğun teqlərin sayı"
@@ -22,21 +29,24 @@
         }
       },
       "empty": {
-        "text": "[AT] Axtarışınız üçün heç nə tapılmadı..."
+        "text": "İştirakçılar tapılmadı"
       },
       "filters": {
         "address": {
           "title": "Məkan"
         },
-        "invited_by": {
+        "invitation": {
           "title": "Kim dəvət edib"
         },
         "status": {
           "title": "Status"
+        },
+        "invited_by": {
+          "title": "Kim dəvət edib"
         }
       },
       "header": {
-        "search": "[AT] Nömrə, VÖEN, Ad, E-poçt, Təsvir, Telefon",
+        "search": "Axtarış aşağıdakı sahələr üzrə aparılır: Şirkətin ID, Şirkətin adı",
         "title": "İştirakçılar"
       },
       "sorting": {

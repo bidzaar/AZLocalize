@@ -1,0 +1,14 @@
+{
+  "req.int": {
+    "header": "web/admin/requests/intelligence: req.int.header",
+    "empty": "web/admin/requests/intelligence: req.int.empty",
+    "invite": "web/admin/requests/intelligence: req.int.invite",
+    "total": "web/admin/requests/intelligence: req.int.total",
+    "success": "web/admin/requests/intelligence: req.int.success",
+    "dislike": {
+      "true": "web/admin/requests/intelligence: req.int.dislike.true",
+      "null": "web/admin/requests/intelligence: req.int.dislike.null",
+      "false": "web/admin/requests/intelligence: req.int.dislike.false"
+    }
+  }
+}

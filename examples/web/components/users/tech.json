@@ -6,10 +6,68 @@
         "1": "web/components/users: bdz.usr.enums.status.1",
         "2": "web/components/users: bdz.usr.enums.status.2",
         "3": "web/components/users: bdz.usr.enums.status.3"
+      },
+      "rights": {
+        "0": {
+          "short": "web/components/users: bdz.usr.enums.rights.0.short",
+          "long": "web/components/users: bdz.usr.enums.rights.0.long"
+        },
+        "1": {
+          "short": "web/components/users: bdz.usr.enums.rights.1.short",
+          "long": "web/components/users: bdz.usr.enums.rights.1.long",
+          "description": "web/components/users: bdz.usr.enums.rights.1.description"
+        },
+        "2": {
+          "short": "web/components/users: bdz.usr.enums.rights.2.short",
+          "long": "web/components/users: bdz.usr.enums.rights.2.long",
+          "description": "web/components/users: bdz.usr.enums.rights.2.description"
+        },
+        "4": {
+          "short": "web/components/users: bdz.usr.enums.rights.4.short",
+          "long": "web/components/users: bdz.usr.enums.rights.4.long",
+          "description": "web/components/users: bdz.usr.enums.rights.4.description"
+        },
+        "8": {
+          "short": "web/components/users: bdz.usr.enums.rights.8.short",
+          "long": "web/components/users: bdz.usr.enums.rights.8.long"
+        },
+        "16": {
+          "short": "web/components/users: bdz.usr.enums.rights.16.short",
+          "long": "web/components/users: bdz.usr.enums.rights.16.long",
+          "description": "web/components/users: bdz.usr.enums.rights.16.description"
+        },
+        "128": {
+          "short": "web/components/users: bdz.usr.enums.rights.128.short",
+          "long": "web/components/users: bdz.usr.enums.rights.128.long",
+          "description": "web/components/users: bdz.usr.enums.rights.128.description"
+        },
+        "256": {
+          "short": "web/components/users: bdz.usr.enums.rights.256.short",
+          "long": "web/components/users: bdz.usr.enums.rights.256.long",
+          "description": "web/components/users: bdz.usr.enums.rights.256.description"
+        },
+        "512": {
+          "short": "web/components/users: bdz.usr.enums.rights.512.short",
+          "long": "web/components/users: bdz.usr.enums.rights.512.long",
+          "description": "web/components/users: bdz.usr.enums.rights.512.description"
+        },
+        "1024": {
+          "short": "web/components/users: bdz.usr.enums.rights.1024.short",
+          "long": "web/components/users: bdz.usr.enums.rights.1024.long",
+          "description": "web/components/users: bdz.usr.enums.rights.1024.description"
+        },
+        "2048": {
+          "short": "web/components/users: bdz.usr.enums.rights.2048.short",
+          "long": "web/components/users: bdz.usr.enums.rights.2048.long"
+        }
       }
     },
     "roster": {
       "empty": "web/components/users: bdz.usr.roster.empty"
+    },
+    "rights": {
+      "empty": "web/components/users: bdz.usr.rights.empty",
+      "filled": "web/components/users: bdz.usr.rights.filled"
     }
   }
 }

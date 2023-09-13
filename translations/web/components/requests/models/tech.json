@@ -11,7 +11,26 @@
             "invited_by": {
                 "0": "web/components/requests/models: bdz.req.models.enums.invited_by.0",
                 "1": "web/components/requests/models: bdz.req.models.enums.invited_by.1",
-                "2": "web/components/requests/models: bdz.req.models.enums.invited_by.2"
+                "2": "web/components/requests/models: bdz.req.models.enums.invited_by.2",
+                "3": "web/components/requests/models: bdz.req.models.enums.invited_by.3",
+                "4": "web/components/requests/models: bdz.req.models.enums.invited_by.4",
+                "5": "web/components/requests/models: bdz.req.models.enums.invited_by.5",
+                "6": "web/components/requests/models: bdz.req.models.enums.invited_by.6",
+                "7": "web/components/requests/models: bdz.req.models.enums.invited_by.7",
+                "8": "web/components/requests/models: bdz.req.models.enums.invited_by.8"
+            },
+            "invitation": {
+                "0": "web/components/requests/models: bdz.req.models.enums.invitation.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.invitation.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.invitation.2",
+                "3": "web/components/requests/models: bdz.req.models.enums.invitation.3",
+                "4": "web/components/requests/models: bdz.req.models.enums.invitation.4",
+                "5": "web/components/requests/models: bdz.req.models.enums.invitation.5",
+                "6": "web/components/requests/models: bdz.req.models.enums.invitation.6",
+                "7": "web/components/requests/models: bdz.req.models.enums.invitation.7",
+                "8": "web/components/requests/models: bdz.req.models.enums.invitation.8",
+                "9": "web/components/requests/models: bdz.req.models.enums.invitation.9",
+                "10": "web/components/requests/models: bdz.req.models.enums.invitation.10"
             },
             "open_type": {
                 "0": "web/components/requests/models: bdz.req.models.enums.open_type.0",
@@ -21,6 +40,15 @@
                 "0": "web/components/requests/models: bdz.req.models.enums.deviation.0",
                 "1": "web/components/requests/models: bdz.req.models.enums.deviation.1",
                 "2": "web/components/requests/models: bdz.req.models.enums.deviation.2"
+            },
+            "updown": {
+                "0": "web/components/requests/models: bdz.req.models.enums.updown.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.updown.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.updown.2"
+            },
+            "reference": {
+                "0": "web/components/requests/models: bdz.req.models.enums.reference.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.reference.1"
             },
             "role": {
                 "0": {
@@ -36,6 +64,10 @@
                     "descr": "web/components/requests/models: bdz.req.models.enums.role.2.descr"
                 }
             },
+            "type": {
+                "1": "web/components/requests/models: bdz.req.models.enums.type.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.type.2"
+            },
             "participant_business_status": {
                 "0": "web/components/requests/models: bdz.req.models.enums.participant_business_status.0",
                 "1": "web/components/requests/models: bdz.req.models.enums.participant_business_status.1",
@@ -48,38 +80,92 @@
                 "8": "web/components/requests/models: bdz.req.models.enums.participant_business_status.8",
                 "9": "web/components/requests/models: bdz.req.models.enums.participant_business_status.9",
                 "10": "web/components/requests/models: bdz.req.models.enums.participant_business_status.10"
+            },
+            "other_participants_visibility": {
+                "0": "web/components/requests/models: bdz.req.models.enums.other_participants_visibility.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.other_participants_visibility.1",
+                "2": "web/components/requests/models: bdz.req.models.enums.other_participants_visibility.2",
+                "3": "web/components/requests/models: bdz.req.models.enums.other_participants_visibility.3",
+                "4": "web/components/requests/models: bdz.req.models.enums.other_participants_visibility.4"
+            },
+            "vat": {
+                "null": "web/components/requests/models: bdz.req.models.enums.vat.null",
+                "none": "web/components/requests/models: bdz.req.models.enums.vat.none",
+                "true": "web/components/requests/models: bdz.req.models.enums.vat.true",
+                "false": "web/components/requests/models: bdz.req.models.enums.vat.false"
+            },
+            "custom": {
+                "string": "web/components/requests/models: bdz.req.models.enums.custom.string",
+                "double": "web/components/requests/models: bdz.req.models.enums.custom.double",
+                "bool": "web/components/requests/models: bdz.req.models.enums.custom.bool",
+                "datetime": "web/components/requests/models: bdz.req.models.enums.custom.datetime",
+                "decimal": "web/components/requests/models: bdz.req.models.enums.custom.decimal"
+            },
+            "owner_visibility": {
+                "0": "web/components/requests/models: bdz.req.models.enums.owner_visibility.0",
+                "1": "web/components/requests/models: bdz.req.models.enums.owner_visibility.1"
             }
         },
         "validation": {
             "proposal": {
+                "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch",
                 "Process.Light.Proposal.Answers.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Answers.Required",
                 "Process.Light.Proposal.MainProposalShouldBeSubmitted": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.MainProposalShouldBeSubmitted",
+                "Process.Light.Proposal.NotSuitablePrice": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.NotSuitablePrice",
                 "Process.Light.Proposal.Specification": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Specification",
+                "Process.Light.Proposal.Price.MinValueSubceededFake": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MinValueSubceededFake",
+                "Process.Light.Proposal.Price.MaxValueExceededFake": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MaxValueExceededFake",
+                "Process.Light.Proposal.DontHaveAnyOnNoneDeviation": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.DontHaveAnyOnNoneDeviation",
                 "Process.Light.Proposal.Price.InvalidProposalCurrency": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.InvalidProposalCurrency",
                 "Process.Light.Proposal.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MinValueSubceeded",
                 "Process.Light.Proposal.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.MaxValueExceeded",
+                "Process.Light.Proposal.Price.Worse.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.Worse.Auction",
+                "Process.Light.Proposal.Price.Worse.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.Worse.Reduction",
                 "Process.Light.Proposal.Price.StartPrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.StartPrice.Auction",
                 "Process.Light.Proposal.Price.StartPrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.StartPrice.Reduction",
-                "Process.Light.Proposal.Price.RuleMismatch.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Auction",
-                "Process.Light.Proposal.Price.RuleMismatch.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Reduction",
                 "Process.Light.Proposal.Price.RuleMismatch.RaiseReduce": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.RaiseReduce",
-                "Process.Light.Proposal.Item.CurrencyIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CurrencyIsNotValid",
+                "Process.Light.Proposal.Price.RuleMismatch.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Reduction",
+                "Process.Light.Proposal.Price.RuleMismatch.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Price.RuleMismatch.Auction",
+                "Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Group.Auction.StepDownNotPossiblePriceIncrease",
+                "Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Group.Auction.StepUpNotPossiblePriceDecrease",
+                "Process.Light.Proposal.Item.ReferencePrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Reduction",
+                "Process.Light.Proposal.Item.ReferencePrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Auction",
+                "Process.Light.Proposal.Item.ReferencePrice.UpDown": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.UpDown",
                 "Process.Light.Proposal.Item.VatIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.VatIsNotValid",
-                "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailableByPosition",
+                "Process.Light.Proposal.Item.CustomField.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CustomField.Required",
+                "Process.Light.Proposal.Item.CurrencyIsNotValid": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CurrencyIsNotValid",
                 "Process.Light.Proposal.Item.DeviationUnavailable": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailable",
-                "Process.Light.Proposal.Item.ZeroPrice": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPrice",
+                "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation",
+                "Process.Light.Proposal.Item.DeviationUnavailableByPosition": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DeviationUnavailableByPosition",
                 "Process.Light.Proposal.Item.ZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroCount",
                 "Process.Light.Proposal.Item.NonZeroCount": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.NonZeroCount",
+                "Process.Light.Proposal.Item.ExcludedPositionInProposal": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ExcludedPositionInProposal",
+                "Process.Light.Proposal.Item.PositionAreNotIncluded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.PositionAreNotIncluded",
+                "Process.Light.Proposal.Item.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MinValueSubceeded",
+                "Process.Light.Proposal.Item.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MaxValueExceeded",
+                "Process.Light.Proposal.Item.ZeroPrice": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPrice",
                 "Process.Light.Proposal.Item.ZeroPriceCountGteZero": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ZeroPriceCountGteZero",
                 "Process.Light.Proposal.Item.StartPrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.StartPrice.Auction",
                 "Process.Light.Proposal.Item.StartPrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.StartPrice.Reduction",
-                "Process.Light.Proposal.Item.Price.MinValueSubceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MinValueSubceeded",
-                "Process.Light.Proposal.Item.Price.MaxValueExceeded": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.MaxValueExceeded",
-                "Process.Light.Proposal.Item.CustomField.Required": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.CustomField.Required",
-                "Process.Light.Proposal.Item.ReferencePrice.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Reduction",
-                "Process.Light.Proposal.Item.ReferencePrice.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.ReferencePrice.Auction",
-                "Process.Light.Procedure.VersionMismatch": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Procedure.VersionMismatch",
-                "Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.DontHaveAnyOnNoneDeviation"
+                "Process.Light.Proposal.Item.Price.Worse.Auction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.Worse.Auction",
+                "Process.Light.Proposal.Item.Price.Worse.Reduction": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Price.Worse.Reduction",
+                "Process.Light.Proposal.Item.Auction.StepDownNotOvertaken": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Auction.StepDownNotOvertaken",
+                "Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken": "web/components/requests/models: bdz.req.models.validation.proposal.Process.Light.Proposal.Item.Reduction.StepUpNotOvertaken"
+            },
+            "price": {
+                "smth_no_deviation": "web/components/requests/models: bdz.req.models.validation.price.smth_no_deviation",
+                "lt_or_equal_to_minimum": "web/components/requests/models: bdz.req.models.validation.price.lt_or_equal_to_minimum",
+                "lt_minimum": "web/components/requests/models: bdz.req.models.validation.price.lt_minimum",
+                "gt_maximum": "web/components/requests/models: bdz.req.models.validation.price.gt_maximum",
+                "start_price_auction": "web/components/requests/models: bdz.req.models.validation.price.start_price_auction",
+                "start_price_reduction": "web/components/requests/models: bdz.req.models.validation.price.start_price_reduction",
+                "new_price_worse_auction": "web/components/requests/models: bdz.req.models.validation.price.new_price_worse_auction",
+                "new_price_worse_reduction": "web/components/requests/models: bdz.req.models.validation.price.new_price_worse_reduction",
+                "refer_price_all": "web/components/requests/models: bdz.req.models.validation.price.refer_price_all",
+                "refer_price_auction": "web/components/requests/models: bdz.req.models.validation.price.refer_price_auction",
+                "refer_price_reduction": "web/components/requests/models: bdz.req.models.validation.price.refer_price_reduction",
+                "step_down_is_not_overtaken": "web/components/requests/models: bdz.req.models.validation.price.step_down_is_not_overtaken",
+                "step_up_is_not_overtaken": "web/components/requests/models: bdz.req.models.validation.price.step_up_is_not_overtaken"
             }
         },
         "reports": {

@@ -28,16 +28,16 @@
                 "remove_user": {
                     "cancel": "Ləğv et",
                     "submit": "Sil",
-                    "text": "",
-                    "title": "İşçini qrupdan çıxartmaq"
+                    "title": "İşçini qrupdan çıxartmaq",
+                    "text": ""
                 },
                 "unblock": {
                     "cancel": "Ləğv et",
                     "error": "Qrupu bərpa etmək alınmadı. Yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstək ilə əlaqə saxlayın",
                     "submit": "Bərpa etmək",
                     "success": "Qrup bərpa olundu",
-                    "text": "",
-                    "title": "Qrupu bərpa etmək"
+                    "title": "Qrupu bərpa etmək",
+                    "text": ""
                 }
             },
             "general": {

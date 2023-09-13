@@ -13,34 +13,105 @@
           "create_object": "web/components/questionnaire: bdz.qst.request.list.actions.create_object",
           "create_group": "web/components/questionnaire: bdz.qst.request.list.actions.create_group",
           "more": "web/components/questionnaire: bdz.qst.request.list.actions.more"
+        },
+        "response": {
+          "required": "web/components/questionnaire: bdz.qst.request.list.response.required",
+          "private": "web/components/questionnaire: bdz.qst.request.list.response.private",
+          "public": "web/components/questionnaire: bdz.qst.request.list.response.public"
         }
       },
       "editor": {
-        "tabs": {
-          "content": "web/components/questionnaire: bdz.qst.request.editor.tabs.content",
-          "parameters": "web/components/questionnaire: bdz.qst.request.editor.tabs.parameters",
-          "logic": "web/components/questionnaire: bdz.qst.request.editor.tabs.logic",
-          "points": "web/components/questionnaire: bdz.qst.request.editor.tabs.points"
+        "content": {
+          "title": "web/components/questionnaire: bdz.qst.request.editor.content.title",
+          "group": "web/components/questionnaire: bdz.qst.request.editor.content.group",
+          "text": "web/components/questionnaire: bdz.qst.request.editor.content.text",
+          "type": "web/components/questionnaire: bdz.qst.request.editor.content.type",
+          "comment": "web/components/questionnaire: bdz.qst.request.editor.content.comment",
+          "upload": "web/components/questionnaire: bdz.qst.request.editor.content.upload"
+        },
+        "parameters": {
+          "title": "web/components/questionnaire: bdz.qst.request.editor.parameters.title",
+          "required": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.parameters.required.title",
+            "descr": "web/components/questionnaire: bdz.qst.request.editor.parameters.required.descr"
+          },
+          "private": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.parameters.private.title",
+            "descr": "web/components/questionnaire: bdz.qst.request.editor.parameters.private.descr"
+          },
+          "comment": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.parameters.comment.title",
+            "descr": "web/components/questionnaire: bdz.qst.request.editor.parameters.comment.descr"
+          },
+          "attaches": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.parameters.attaches.title",
+            "descr": "web/components/questionnaire: bdz.qst.request.editor.parameters.attaches.descr"
+          }
+        },
+        "logic": {
+          "title": "web/components/questionnaire: bdz.qst.request.editor.logic.title",
+          "transition": "web/components/questionnaire: bdz.qst.request.editor.logic.transition",
+          "answer": "web/components/questionnaire: bdz.qst.request.editor.logic.answer",
+          "append": "web/components/questionnaire: bdz.qst.request.editor.logic.append",
+          "remove": "web/components/questionnaire: bdz.qst.request.editor.logic.remove",
+          "default": "web/components/questionnaire: bdz.qst.request.editor.logic.default",
+          "next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.next_question",
+          "end_quiz": "web/components/questionnaire: bdz.qst.request.editor.logic.end_quiz",
+          "no_response_provided": "web/components/questionnaire: bdz.qst.request.editor.logic.no_response_provided",
+          "selector": {
+            "header": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.header",
+            "actions": {
+              "cancel": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.actions.cancel",
+              "submit": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.actions.submit"
+            },
+            "search": {
+              "label": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.search.label"
+            },
+            "total": {
+              "false": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.total.false",
+              "true": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.total.true"
+            },
+            "list": {
+              "title": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.list.title",
+              "next": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.list.next",
+              "end": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.list.end",
+              "empty": "web/components/questionnaire: bdz.qst.request.editor.logic.selector.list.empty"
+            }
+          },
+          "widgets": {
+            "number_range": {
+              "in": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.in",
+              "out": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.out",
+              "from": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.from",
+              "to": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.to"
+            }
+          },
+          "validation": {
+            "wrong_target": "web/components/questionnaire: bdz.qst.request.editor.logic.validation.wrong_target"
+          }
+        },
+        "points": {
+          "title": "web/components/questionnaire: bdz.qst.request.editor.points.title",
+          "answer": "web/components/questionnaire: bdz.qst.request.editor.points.answer",
+          "points": "web/components/questionnaire: bdz.qst.request.editor.points.points",
+          "append": "web/components/questionnaire: bdz.qst.request.editor.points.append",
+          "remove": "web/components/questionnaire: bdz.qst.request.editor.points.remove",
+          "default": "web/components/questionnaire: bdz.qst.request.editor.points.default",
+          "notice": {
+            "multiple": {
+              "title": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.title",
+              "text": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.text"
+            }
+          }
         },
         "actions": {
-          "close": "web/components/questionnaire: bdz.qst.request.editor.actions.close",
           "delete": "web/components/questionnaire: bdz.qst.request.editor.actions.delete",
-          "close_and_create": "web/components/questionnaire: bdz.qst.request.editor.actions.close_and_create"
-        },
-        "fields": {
-          "text": "web/components/questionnaire: bdz.qst.request.editor.fields.text",
-          "comment": "web/components/questionnaire: bdz.qst.request.editor.fields.comment",
-          "type": "web/components/questionnaire: bdz.qst.request.editor.fields.type",
-          "group": "web/components/questionnaire: bdz.qst.request.editor.fields.group"
+          "append": "web/components/questionnaire: bdz.qst.request.editor.actions.append"
         },
         "defaults": {
           "group": "web/components/questionnaire: bdz.qst.request.editor.defaults.group",
           "input": "web/components/questionnaire: bdz.qst.request.editor.defaults.input",
           "select": "web/components/questionnaire: bdz.qst.request.editor.defaults.select"
-        },
-        "parameters": {
-          "comments": "web/components/questionnaire: bdz.qst.request.editor.parameters.comments",
-          "files": "web/components/questionnaire: bdz.qst.request.editor.parameters.files"
         },
         "widgets": {
           "common": {
@@ -78,13 +149,23 @@
             }
           },
           "tree": {
-            "upload": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.upload",
-            "download_template": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.download_template",
-            "loader_text": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.loader_text",
-            "error": {
-              "title": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.error.title",
-              "info": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.error.info"
+            "import": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.import",
+            "export": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.export",
+            "template": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.template",
+            "loading": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.loading",
+            "errors": {
+              "Process.Light.Import.InvalidFile": {
+                "title": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.errors.Process.Light.Import.InvalidFile.title",
+                "text": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.errors.Process.Light.Import.InvalidFile.text"
+              },
+              "Process.Light.Import.TooManyElements": {
+                "title": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.errors.Process.Light.Import.TooManyElements.title",
+                "text": "web/components/questionnaire: bdz.qst.request.editor.widgets.tree.errors.Process.Light.Import.TooManyElements.text"
+              }
             }
+          },
+          "agreement": {
+            "placeholder": "web/components/questionnaire: bdz.qst.request.editor.widgets.agreement.placeholder"
           }
         },
         "validation": {
@@ -117,54 +198,32 @@
             "required": "web/components/questionnaire: bdz.qst.request.editor.validation.tree.required"
           }
         },
-        "logic": {
-          "default_next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.default_next_question",
-          "next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.next_question",
-          "end_quiz": "web/components/questionnaire: bdz.qst.request.editor.logic.end_quiz",
-          "if_answer": "web/components/questionnaire: bdz.qst.request.editor.logic.if_answer",
-          "go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.go_to",
-          "add_go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.add_go_to",
-          "no_response_provided": "web/components/questionnaire: bdz.qst.request.editor.logic.no_response_provided",
-          "question_selector_dialog": {
-            "go_to": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.go_to",
-            "search": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.search",
-            "questions": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.questions",
-            "found": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.found",
-            "next_question": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.next_question",
-            "end_quiz": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.end_quiz",
-            "next_questions": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.next_questions",
-            "cancel": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.cancel",
-            "apply": "web/components/questionnaire: bdz.qst.request.editor.logic.question_selector_dialog.apply"
-          },
-          "widgets": {
-            "number_range": {
-              "in": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.in",
-              "out": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.out",
-              "from": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.from",
-              "to": "web/components/questionnaire: bdz.qst.request.editor.logic.widgets.number_range.to"
-            }
-          },
-          "validation": {
-            "wrong_target": "web/components/questionnaire: bdz.qst.request.editor.logic.validation.wrong_target"
-          }
-        },
-        "points": {
-          "answer": "web/components/questionnaire: bdz.qst.request.editor.points.answer",
-          "point": "web/components/questionnaire: bdz.qst.request.editor.points.point",
-          "default_points": "web/components/questionnaire: bdz.qst.request.editor.points.default_points",
-          "add_answer": "web/components/questionnaire: bdz.qst.request.editor.points.add_answer",
-          "notice": {
-            "multiple": {
-              "title": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.title",
-              "text": "web/components/questionnaire: bdz.qst.request.editor.points.notice.multiple.text"
-            }
-          }
-        },
         "change_type_dialog": {
-          "title": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.title",
-          "text": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.text",
-          "cancel": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.cancel",
-          "change": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.change"
+          "logic": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.logic.title",
+            "text": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.logic.text",
+            "cancel": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.logic.cancel",
+            "change": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.logic.change"
+          },
+          "source": {
+            "title": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.source.title",
+            "text": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.source.text",
+            "cancel": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.source.cancel",
+            "change": "web/components/questionnaire: bdz.qst.request.editor.change_type_dialog.source.change"
+          }
+        },
+        "delete_item_dialog": {
+          "confirm": {
+            "header": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.confirm.header",
+            "text": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.confirm.text",
+            "submit": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.confirm.submit",
+            "cancel": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.confirm.cancel"
+          },
+          "failure": {
+            "header": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.failure.header",
+            "text": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.failure.text",
+            "submit": "web/components/questionnaire: bdz.qst.request.editor.delete_item_dialog.failure.submit"
+          }
         }
       },
       "visual_types": {
@@ -179,7 +238,8 @@
         "number_range": "web/components/questionnaire: bdz.qst.request.visual_types.number_range",
         "attachment": "web/components/questionnaire: bdz.qst.request.visual_types.attachment",
         "formula": "web/components/questionnaire: bdz.qst.request.visual_types.formula",
-        "tree": "web/components/questionnaire: bdz.qst.request.visual_types.tree"
+        "tree": "web/components/questionnaire: bdz.qst.request.visual_types.tree",
+        "agreement": "web/components/questionnaire: bdz.qst.request.visual_types.agreement"
       },
       "validation_types": {
         "boolean": "web/components/questionnaire: bdz.qst.request.validation_types.boolean",
@@ -216,6 +276,170 @@
         "9": "web/components/questionnaire: bdz.qst.request.conditions.9",
         "10": "web/components/questionnaire: bdz.qst.request.conditions.10",
         "11": "web/components/questionnaire: bdz.qst.request.conditions.11"
+      },
+      "dialog": {
+        "back": "web/components/questionnaire: bdz.qst.request.dialog.back",
+        "actions": "web/components/questionnaire: bdz.qst.request.dialog.actions"
+      },
+      "parts": {
+        "panel": {
+          "title": "web/components/questionnaire: bdz.qst.request.parts.panel.title",
+          "collapse": "web/components/questionnaire: bdz.qst.request.parts.panel.collapse",
+          "expand": "web/components/questionnaire: bdz.qst.request.parts.panel.expand",
+          "configure": "web/components/questionnaire: bdz.qst.request.parts.panel.configure"
+        },
+        "table": {
+          "headers": {
+            "question": "web/components/questionnaire: bdz.qst.request.parts.table.headers.question",
+            "answer": "web/components/questionnaire: bdz.qst.request.parts.table.headers.answer",
+            "points": "web/components/questionnaire: bdz.qst.request.parts.table.headers.points",
+            "logic": "web/components/questionnaire: bdz.qst.request.parts.table.headers.logic"
+          }
+        }
+      },
+      "dialogs": {
+        "groups": {
+          "title": "web/components/questionnaire: bdz.qst.request.dialogs.groups.title",
+          "add": "web/components/questionnaire: bdz.qst.request.dialogs.groups.add",
+          "submit": "web/components/questionnaire: bdz.qst.request.dialogs.groups.submit"
+        },
+        "delete_group": {
+          "title": "web/components/questionnaire: bdz.qst.request.dialogs.delete_group.title",
+          "text": "web/components/questionnaire: bdz.qst.request.dialogs.delete_group.text",
+          "submit": "web/components/questionnaire: bdz.qst.request.dialogs.delete_group.submit",
+          "cancel": "web/components/questionnaire: bdz.qst.request.dialogs.delete_group.cancel"
+        },
+        "group_deletion_prohibited": {
+          "title": "web/components/questionnaire: bdz.qst.request.dialogs.group_deletion_prohibited.title",
+          "how_delete": "web/components/questionnaire: bdz.qst.request.dialogs.group_deletion_prohibited.how_delete",
+          "question": "web/components/questionnaire: bdz.qst.request.dialogs.group_deletion_prohibited.question",
+          "submit": "web/components/questionnaire: bdz.qst.request.dialogs.group_deletion_prohibited.submit"
+        },
+        "import_dialog_json": {
+          "title": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.title",
+          "text": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.text",
+          "cancel": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.cancel",
+          "choose": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.choose",
+          "success": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.success",
+          "errors": {
+            "format": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.errors.format",
+            "parsing": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.errors.parsing",
+            "version": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.errors.version",
+            "default": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_json.errors.default"
+          }
+        },
+        "import_dialog_excel": {
+          "title": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.title",
+          "success_text": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.success_text",
+          "warning": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.warning",
+          "questions": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.questions",
+          "groups": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.groups",
+          "count_failure": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.count_failure",
+          "items": {
+            "Process.Light.Import.InvalidFileExtension": {
+              "title": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.items.Process.Light.Import.InvalidFileExtension.title"
+            },
+            "Process.Light.Import.InvalidFile": {
+              "title": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.items.Process.Light.Import.InvalidFile.title"
+            },
+            "Process.Light.Import.FileHasErrors": {
+              "title": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.items.Process.Light.Import.FileHasErrors.title",
+              "download": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.items.Process.Light.Import.FileHasErrors.download"
+            }
+          },
+          "cancel": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.cancel",
+          "upload": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.upload",
+          "close": "web/components/questionnaire: bdz.qst.request.dialogs.import_dialog_excel.close"
+        }
+      },
+      "empty": {
+        "title": "web/components/questionnaire: bdz.qst.request.empty.title",
+        "text": "web/components/questionnaire: bdz.qst.request.empty.text",
+        "title_group": "web/components/questionnaire: bdz.qst.request.empty.title_group",
+        "add": "web/components/questionnaire: bdz.qst.request.empty.add"
+      },
+      "validation": {
+        "group_has_error": "web/components/questionnaire: bdz.qst.request.validation.group_has_error",
+        "group_with_same_name_exists": "web/components/questionnaire: bdz.qst.request.validation.group_with_same_name_exists",
+        "group_empty": "web/components/questionnaire: bdz.qst.request.validation.group_empty",
+        "item_with_same_name_exists": "web/components/questionnaire: bdz.qst.request.validation.item_with_same_name_exists",
+        "wrong_target": "web/components/questionnaire: bdz.qst.request.validation.wrong_target"
+      },
+      "menu": {
+        "import_export": {
+          "title": "web/components/questionnaire: bdz.qst.request.menu.import_export.title",
+          "template_excel": "web/components/questionnaire: bdz.qst.request.menu.import_export.template_excel",
+          "import_excel": "web/components/questionnaire: bdz.qst.request.menu.import_export.import_excel",
+          "export_json": "web/components/questionnaire: bdz.qst.request.menu.import_export.export_json",
+          "import_json": "web/components/questionnaire: bdz.qst.request.menu.import_export.import_json"
+        },
+        "templates": {
+          "title": "web/components/questionnaire: bdz.qst.request.menu.templates.title",
+          "save_template": "web/components/questionnaire: bdz.qst.request.menu.templates.save_template",
+          "list": "web/components/questionnaire: bdz.qst.request.menu.templates.list"
+        },
+        "divide_into_sections": {
+          "title": "web/components/questionnaire: bdz.qst.request.menu.divide_into_sections.title"
+        }
+      },
+      "templates": {
+        "dialogs": {
+          "list": {
+            "title": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.title",
+            "search": {
+              "placeholder": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.search.placeholder",
+              "empty": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.search.empty"
+            },
+            "empty": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.empty",
+            "actions": {
+              "cancel": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.actions.cancel",
+              "submit": "web/components/questionnaire: bdz.qst.request.templates.dialogs.list.actions.submit"
+            }
+          },
+          "edit": {
+            "title": "web/components/questionnaire: bdz.qst.request.templates.dialogs.edit.title",
+            "label": "web/components/questionnaire: bdz.qst.request.templates.dialogs.edit.label",
+            "actions": {
+              "cancel": "web/components/questionnaire: bdz.qst.request.templates.dialogs.edit.actions.cancel",
+              "save": "web/components/questionnaire: bdz.qst.request.templates.dialogs.edit.actions.save"
+            }
+          },
+          "apply": {
+            "title": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.title",
+            "options": {
+              "append": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.options.append",
+              "replace": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.options.replace"
+            },
+            "cancel": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.cancel",
+            "complement": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.complement",
+            "submit": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.submit",
+            "success": "web/components/questionnaire: bdz.qst.request.templates.dialogs.apply.success"
+          },
+          "remove": {
+            "title": "web/components/questionnaire: bdz.qst.request.templates.dialogs.remove.title",
+            "text": "web/components/questionnaire: bdz.qst.request.templates.dialogs.remove.text",
+            "cancel": "web/components/questionnaire: bdz.qst.request.templates.dialogs.remove.cancel",
+            "submit": "web/components/questionnaire: bdz.qst.request.templates.dialogs.remove.submit",
+            "success": "web/components/questionnaire: bdz.qst.request.templates.dialogs.remove.success"
+          },
+          "create": {
+            "title": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.title",
+            "text": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.text",
+            "label": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.label",
+            "cancel": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.cancel",
+            "submit": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.submit",
+            "success": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.success",
+            "default_value": "web/components/questionnaire: bdz.qst.request.templates.dialogs.create.default_value"
+          }
+        }
+      },
+      "filters": {
+        "title": "web/components/questionnaire: bdz.qst.request.filters.title",
+        "all": "web/components/questionnaire: bdz.qst.request.filters.all",
+        "required": "web/components/questionnaire: bdz.qst.request.filters.required",
+        "no_answer": "web/components/questionnaire: bdz.qst.request.filters.no_answer",
+        "required_no_answer": "web/components/questionnaire: bdz.qst.request.filters.required_no_answer",
+        "empty": "web/components/questionnaire: bdz.qst.request.filters.empty"
       }
     },
     "response": {
@@ -256,8 +480,27 @@
             "info": "web/components/questionnaire: bdz.qst.response.wizard.item.final.info"
           },
           "tree": {
-            "empty": "web/components/questionnaire: bdz.qst.response.wizard.item.tree.empty"
+            "empty": "web/components/questionnaire: bdz.qst.response.wizard.item.tree.empty",
+            "submit": "web/components/questionnaire: bdz.qst.response.wizard.item.tree.submit",
+            "selected": "web/components/questionnaire: bdz.qst.response.wizard.item.tree.selected"
           }
+        }
+      },
+      "values": {
+        "agreement": {
+          "true": "web/components/questionnaire: bdz.qst.response.values.agreement.true",
+          "false": "web/components/questionnaire: bdz.qst.response.values.agreement.false"
+        },
+        "hidden": "web/components/questionnaire: bdz.qst.response.values.hidden",
+        "empty": "web/components/questionnaire: bdz.qst.response.values.empty",
+        "private": "web/components/questionnaire: bdz.qst.response.values.private",
+        "files": {
+          "title": "web/components/questionnaire: bdz.qst.response.values.files.title"
+        },
+        "more": "web/components/questionnaire: bdz.qst.response.values.more",
+        "boolean": {
+          "true": "web/components/questionnaire: bdz.qst.response.values.boolean.true",
+          "false": "web/components/questionnaire: bdz.qst.response.values.boolean.false"
         }
       }
     }

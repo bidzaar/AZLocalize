@@ -1,40 +1,41 @@
 {
-  "bdz.fls": {
-    "actions": {
-      "delete": "Sil",
-      "edit": "Təsviri redaktə et"
-    },
-    "archive": "Bütün faylları endir (.zip)",
-    "archive_snack": "Arxivin formalaşdırılması ... Əməliyyat bitdikdən sonra yükləmə başlayacaq",
-    "errors": {
-      "ext": "{{value}} fayl(lar) yüklənməyib. Sənəd, şəkil və ya arxiv yükləyin.",
-      "length": "Yüklənəcək faylların maksimum sayı - {{count}}",
-      "size": "Faylın maksimal ölçüsü - {{size}} MB",
-      "title_length": "Fayl yükləmək mümkün deyil",
-      "title_size": "Fayl çox böyükdür"
-    },
-    "remove": {
-      "no": "Ləğv et",
-      "text": "sənəd silinsin?",
-      "title": "",
-      "yes": "Sil"
-    },
-    "rename": {
-      "cancel": "Ləğv et",
-      "label": "Təsvir",
-      "save": "Yadda saxla",
-      "title": "Faylın təsviri"
-    },
-    "tooltips": {
-      "edit": "Təsviri redaktə etmək",
-      "remove": "Sil"
-    },
-    "with_value": {
-      "GB": "{{value}} GB",
-      "KB": "{{value}} KB",
-      "MB": "{{value}} MB",
-      "bytes": "{{value}} bayt"
-    },
-    "collapsed": "[AT] Bütün fayllar"
-  }
+    "bdz.fls": {
+        "actions": {
+            "delete": "Sil",
+            "edit": "Təsviri redaktə et"
+        },
+        "archive": "Bütün faylları endir (.zip)",
+        "archive_snack": "Arxivin formalaşdırılması ... Əməliyyat bitdikdən sonra yükləmə başlayacaq",
+        "errors": {
+            "title_size": "Fayl çox böyükdür",
+            "size": "Faylın maksimal ölçüsü - {{size}} MB",
+            "title_length": "Fayl yükləmək mümkün deyil",
+            "length": "Yüklənəcək faylların maksimum sayı - {{count}}",
+            "title_ext": "[AT] fayl(lar) {{names}} yüklənməyib.",
+            "ext": "{{value}} fayl(lar) yüklənməyib. Sənəd, şəkil və ya arxiv yükləyin."
+        },
+        "remove": {
+            "no": "Ləğv et",
+            "text": "sənəd silinsin?",
+            "yes": "Sil",
+            "title": ""
+        },
+        "rename": {
+            "cancel": "Ləğv et",
+            "label": "Təsvir",
+            "save": "Yadda saxla",
+            "title": "Faylın təsviri"
+        },
+        "tooltips": {
+            "edit": "Təsviri redaktə etmək",
+            "remove": "Sil"
+        },
+        "with_value": {
+            "GB": "{{value}} GB",
+            "KB": "{{value}} KB",
+            "MB": "{{value}} MB",
+            "bytes": "{{value}} bayt"
+        },
+        "collapsed": "Bütün fayllar"
+    }
 }

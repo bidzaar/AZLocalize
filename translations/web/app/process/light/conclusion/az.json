@@ -18,6 +18,10 @@
                     "1": "Ödəniş gözləyir",
                     "2": "Qismən ödənilmiş",
                     "3": "Evde cekilmis"
+                },
+                "responsibility": {
+                    "title": "Bidzaar не несет ответственности за заключение договора с заказчиком",
+                    "descr": "Свяжитесь с заказчиком через чат или напрямую, чтобы продолжить взаимодействие по вашему заказу"
                 }
             },
             "forbidden": {
@@ -84,11 +88,6 @@
                     }
                 },
                 "owner": {
-                    "canceled_orders": {
-                        "order_title": "Ləğv edilib",
-                        "reason": "Səbəb",
-                        "title": "Ləğv edilmiş sifarişlər"
-                    },
                     "documents": {
                         "title": "Mərhələ sənədləri",
                         "stages": {
@@ -184,6 +183,11 @@
                         "title": "Ləğv edilmiş sifarişlər",
                         "order_title": "Ləğv et",
                         "reason": "Səbəb"
+                    },
+                    "canceled_orders": {
+                        "order_title": "Ləğv edilib",
+                        "reason": "Səbəb",
+                        "title": "Ləğv edilmiş sifarişlər"
                     }
                 },
                 "dialogs": {
@@ -200,29 +204,6 @@
                         "title": "Yetərincə hüququ yoxdur"
                     },
                     "request_completion": {
-                        "cancel": "ləğv et",
-                        "order": {
-                            "false": {
-                                "notEmpty": "Xana boş olmamalıdır",
-                                "not_needed": "Sorğunun keçirilməsində ehtiyac yoxdur",
-                                "not_suitable": "Uyğun təkliflər yoxdur",
-                                "other": "Digər",
-                                "placeholder": "Səbəb",
-                                "reason": "Səbəbi göstərin:",
-                                "required": "Tələb edilən xana",
-                                "text": "Sifarişiniz formalaşmayıb."
-                            },
-                            "true": {
-                                "text": "Sifarişiniz: "
-                            },
-                            "vat": {
-                                "false": "ƏDV-siz",
-                                "true": "ƏDV daxil"
-                            }
-                        },
-                        "submit": "Tamamla",
-                        "success": "Sorğu başa çatdı. İştirakçılara mesajlar göndərildi",
-                        "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz",
                         "true": {
                             "text": "Sizin sifarişiniz:"
                         },
@@ -247,7 +228,30 @@
                             "title": "Sorğu tamamlandıqda iştirakçılara məlumat verəcəyik",
                             "subtitle": "E-poçtlarınıza baxın və iştirakçılara ismarıc göndərin"
                         },
-                        "header": "Sorğu başa"
+                        "header": "Sorğu başa",
+                        "cancel": "ləğv et",
+                        "order": {
+                            "false": {
+                                "notEmpty": "Xana boş olmamalıdır",
+                                "not_needed": "Sorğunun keçirilməsində ehtiyac yoxdur",
+                                "not_suitable": "Uyğun təkliflər yoxdur",
+                                "other": "Digər",
+                                "placeholder": "Səbəb",
+                                "reason": "Səbəbi göstərin:",
+                                "required": "Tələb edilən xana",
+                                "text": "Sifarişiniz formalaşmayıb."
+                            },
+                            "true": {
+                                "text": "Sifarişiniz: "
+                            },
+                            "vat": {
+                                "false": "ƏDV-siz",
+                                "true": "ƏDV daxil"
+                            }
+                        },
+                        "submit": "Tamamla",
+                        "success": "Sorğu başa çatdı. İştirakçılara mesajlar göndərildi",
+                        "text": "Tamamlandıqdan sonra çat aktiv qalır. Siz iştirakçılarla sonrakı atdımları razılaşdıra biləcəksiniz"
                     },
                     "saving_editor": {
                         "header": "Qənaət",
@@ -265,6 +269,16 @@
                     }
                 },
                 "participant": {
+                    "orders": {
+                        "title": "Sifariş",
+                        "my": "Mənim təklifim",
+                        "alter": "Alternativ {{ index }}"
+                    },
+                    "promo": {
+                        "title": "Sifarişi yerinə yetirmək üçün mal və xidmətləri alın",
+                        "text": "Bizim menecerlər sizə qısa zamanda satın alma etməyə kömək edəcəklər <b>pulsuz</b> !",
+                        "order": "Satın alma sifarişi"
+                    },
                     "message": {
                         "notice": {
                             "active": "Təşkilatçı tərəfindən sorğu yekunlaşdıqdan sonra hazır olacaq."
@@ -291,16 +305,6 @@
                         },
                         "questions": "Hər hansı bir sualınız var?",
                         "winner": "Təbrik edirik, sifariş aldınız!"
-                    },
-                    "orders": {
-                        "title": "Sifariş",
-                        "my": "Mənim təklifim",
-                        "alter": "Alternativ {{ index }}"
-                    },
-                    "promo": {
-                        "title": "Sifarişi yerinə yetirmək üçün mal və xidmətləri alın",
-                        "text": "Bizim menecerlər sizə qısa zamanda satın alma etməyə kömək edəcəklər <b>pulsuz</b> !",
-                        "order": "Satın alma sifarişi"
                     }
                 }
             }

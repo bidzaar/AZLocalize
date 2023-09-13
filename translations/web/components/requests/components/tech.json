@@ -5,127 +5,85 @@
             "participants": "web/components/requests/components: bdz.req.components.funnel.participants",
             "joins": "web/components/requests/components: bdz.req.components.funnel.joins"
         },
-        "parameters": {
-            "owner_rules": {
-                "verified_only": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.label",
-                    "text": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.text",
-                    "popover": {
-                        "title": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.title",
-                        "text": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.text",
-                        "helper": "web/components/requests/components: bdz.req.components.parameters.owner_rules.verified_only.popover.helper"
-                    }
+        "currency": {
+            "duplicate": "web/components/requests/components: bdz.req.components.currency.duplicate",
+            "update": "web/components/requests/components: bdz.req.components.currency.update",
+            "actions": {
+                "remove": "web/components/requests/components: bdz.req.components.currency.actions.remove",
+                "change": "web/components/requests/components: bdz.req.components.currency.actions.change",
+                "append": "web/components/requests/components: bdz.req.components.currency.actions.append"
+            },
+            "editor": {
+                "header": "web/components/requests/components: bdz.req.components.currency.editor.header",
+                "rate": "web/components/requests/components: bdz.req.components.currency.editor.rate",
+                "cancel": "web/components/requests/components: bdz.req.components.currency.editor.cancel",
+                "submit": "web/components/requests/components: bdz.req.components.currency.editor.submit",
+                "warning": "web/components/requests/components: bdz.req.components.currency.editor.warning"
+            }
+        },
+        "groups": {
+            "configurator": {
+                "header": {
+                    "true": "web/components/requests/components: bdz.req.components.groups.configurator.header.true",
+                    "false": "web/components/requests/components: bdz.req.components.groups.configurator.header.false"
                 },
-                "acceptance_end_date": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.acceptance_end_date.label",
-                    "time_left": "web/components/requests/components: bdz.req.components.parameters.owner_rules.acceptance_end_date.time_left"
+                "name": "web/components/requests/components: bdz.req.components.groups.configurator.name",
+                "success": "web/components/requests/components: bdz.req.components.groups.configurator.success",
+                "actions": {
+                    "apply_and_close": "web/components/requests/components: bdz.req.components.groups.configurator.actions.apply_and_close",
+                    "apply": "web/components/requests/components: bdz.req.components.groups.configurator.actions.apply",
+                    "cancel": "web/components/requests/components: bdz.req.components.groups.configurator.actions.cancel",
+                    "append": "web/components/requests/components: bdz.req.components.groups.configurator.actions.append",
+                    "remove": "web/components/requests/components: bdz.req.components.groups.configurator.actions.remove",
+                    "close": "web/components/requests/components: bdz.req.components.groups.configurator.actions.close"
                 },
-                "prolongation": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.label",
-                    "minutes": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.minutes",
-                    "time-left": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.time-left",
-                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.owner_rules.prolongation.tooltip"
+                "details": {
+                    "name": "web/components/requests/components: bdz.req.components.groups.configurator.details.name"
                 },
-                "approximate_deadline_for_summing_up": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.label",
-                    "description": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.description",
-                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.tooltip",
-                    "value_null": "web/components/requests/components: bdz.req.components.parameters.owner_rules.approximate_deadline_for_summing_up.value_null"
-                },
-                "currency": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.label",
-                    "show_all": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.show_all",
-                    "hide": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.hide",
-                    "change_rate_currency": "web/components/requests/components: bdz.req.components.parameters.owner_rules.currency.change_rate_currency"
-                },
-                "vat": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.label",
-                    "options": {
-                        "false": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.false",
-                        "none": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.none",
-                        "true": "web/components/requests/components: bdz.req.components.parameters.owner_rules.vat.options.true"
-                    }
-                },
-                "open_type": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.label",
-                    "tooltips": {
-                        "0": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.0",
-                        "1": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.1",
-                        "editable": "web/components/requests/components: bdz.req.components.parameters.owner_rules.open_type.tooltips.editable"
-                    }
-                },
-                "owner_visibility": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.label",
-                    "enums": {
-                        "0": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.enums.0",
-                        "1": "web/components/requests/components: bdz.req.components.parameters.owner_rules.owner_visibility.enums.1"
+                "dialogs": {
+                    "changes": {
+                        "title": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.changes.title",
+                        "cancel": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.changes.cancel",
+                        "submit": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.changes.submit"
+                    },
+                    "remove": {
+                        "title": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.remove.title",
+                        "text": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.remove.text",
+                        "cancel": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.remove.cancel",
+                        "submit": "web/components/requests/components: bdz.req.components.groups.configurator.dialogs.remove.submit"
                     }
                 }
             },
-            "bidding": {
-                "deviation_type": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.deviation_type.label"
+            "panel": {
+                "title": "web/components/requests/components: bdz.req.components.groups.panel.title",
+                "collapse": "web/components/requests/components: bdz.req.components.groups.panel.collapse",
+                "expand": "web/components/requests/components: bdz.req.components.groups.panel.expand",
+                "configure": "web/components/requests/components: bdz.req.components.groups.panel.configure",
+                "error": "web/components/requests/components: bdz.req.components.groups.panel.error"
+            },
+            "info": {
+                "action": {
+                    "true": "web/components/requests/components: bdz.req.components.groups.info.action.true",
+                    "false": "web/components/requests/components: bdz.req.components.groups.info.action.false"
                 },
-                "alternative_proposals": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.label",
-                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.tooltip",
-                    "error": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.error",
-                    "count": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.count",
-                    "none": "web/components/requests/components: bdz.req.components.parameters.bidding.alternative_proposals.none"
+                "deviation": {
+                    "0": "web/components/requests/components: bdz.req.components.groups.info.deviation.0",
+                    "1": "web/components/requests/components: bdz.req.components.groups.info.deviation.1",
+                    "2": "web/components/requests/components: bdz.req.components.groups.info.deviation.2"
                 },
-                "price_null": "web/components/requests/components: bdz.req.components.parameters.bidding.price_null",
-                "expected_price": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.label",
-                    "placeholder": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.placeholder",
-                    "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.expected_price.tooltip"
+                "step": {
+                    "0": "web/components/requests/components: bdz.req.components.groups.info.step.0",
+                    "1": "web/components/requests/components: bdz.req.components.groups.info.step.1",
+                    "2": "web/components/requests/components: bdz.req.components.groups.info.step.2"
                 },
-                "participants_visibility": {
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.participants_visibility.label"
+                "price_no_start": {
+                    "1": "web/components/requests/components: bdz.req.components.groups.info.price_no_start.1",
+                    "2": "web/components/requests/components: bdz.req.components.groups.info.price_no_start.2"
                 },
-                "reduction_price": {
-                    "errors": {
-                        "best_price_unavailable": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.best_price_unavailable",
-                        "step_over_start_price": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_over_start_price",
-                        "step_range_absolute": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_range_absolute",
-                        "step_range_percent": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.errors.step_range_percent"
-                    },
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.label",
-                    "of": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.of",
-                    "reference": {
-                        "0": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.0",
-                        "1": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.1",
-                        "2": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.2",
-                        "3": "web/components/requests/components: bdz.req.components.parameters.bidding.reduction_price.reference.3"
-                    }
-                },
-                "start_price": {
-                    "placeholder": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.placeholder",
-                    "reduction": {
-                        "label": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.reduction.label",
-                        "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.reduction.tooltip"
-                    },
-                    "auction": {
-                        "label": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.auction.label",
-                        "tooltip": "web/components/requests/components: bdz.req.components.parameters.bidding.start_price.auction.tooltip"
-                    }
-                },
-                "title": "web/components/requests/components: bdz.req.components.parameters.bidding.title",
-                "type_of_change": {
-                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.0",
-                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.1",
-                    "2": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.2",
-                    "label": "web/components/requests/components: bdz.req.components.parameters.bidding.type_of_change.label"
-                },
-                "proposal_deviation_type": {
-                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.proposal_deviation_type.0",
-                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.proposal_deviation_type.1"
-                },
-                "other_participants_visibility": {
-                    "0": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.0",
-                    "1": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.1",
-                    "2": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.2",
-                    "3": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.3",
-                    "4": "web/components/requests/components: bdz.req.components.parameters.bidding.other_participants_visibility.4"
+                "price_with_start": {
+                    "0": "web/components/requests/components: bdz.req.components.groups.info.price_with_start.0",
+                    "1": "web/components/requests/components: bdz.req.components.groups.info.price_with_start.1",
+                    "2": "web/components/requests/components: bdz.req.components.groups.info.price_with_start.2"
                 }
             }
         },
@@ -137,6 +95,76 @@
                 "header": "web/components/requests/components: bdz.req.components.tariffs.select.header",
                 "cancel": "web/components/requests/components: bdz.req.components.tariffs.select.cancel",
                 "submit": "web/components/requests/components: bdz.req.components.tariffs.select.submit"
+            }
+        },
+        "timer": {
+            "value": "web/components/requests/components: bdz.req.components.timer.value",
+            "finish": "web/components/requests/components: bdz.req.components.timer.finish"
+        },
+        "rules": {
+            "positions": {
+                "fields": {
+                    "deviation_type": "web/components/requests/components: bdz.req.components.rules.positions.fields.deviation_type",
+                    "updown": "web/components/requests/components: bdz.req.components.rules.positions.fields.updown",
+                    "expected_price": "web/components/requests/components: bdz.req.components.rules.positions.fields.expected_price",
+                    "max_price": "web/components/requests/components: bdz.req.components.rules.positions.fields.max_price",
+                    "min_price": "web/components/requests/components: bdz.req.components.rules.positions.fields.min_price",
+                    "price_step": "web/components/requests/components: bdz.req.components.rules.positions.fields.price_step",
+                    "empty_price": "web/components/requests/components: bdz.req.components.rules.positions.fields.empty_price"
+                },
+                "errors": {
+                    "price_out_of_range": "web/components/requests/components: bdz.req.components.rules.positions.errors.price_out_of_range",
+                    "step_range.0": "web/components/requests/components: bdz.req.components.rules.positions.errors.step_range.0",
+                    "step_range.1": "web/components/requests/components: bdz.req.components.rules.positions.errors.step_range.1",
+                    "max_price_gt_step": "web/components/requests/components: bdz.req.components.rules.positions.errors.max_price_gt_step",
+                    "step_gt_max_price": "web/components/requests/components: bdz.req.components.rules.positions.errors.step_gt_max_price",
+                    "abs_step_unavailable": "web/components/requests/components: bdz.req.components.rules.positions.errors.abs_step_unavailable",
+                    "best_price_unavailable": "web/components/requests/components: bdz.req.components.rules.positions.errors.best_price_unavailable"
+                }
+            },
+            "general": {
+                "toggle": {
+                    "title": "web/components/requests/components: bdz.req.components.rules.general.toggle.title",
+                    "change": "web/components/requests/components: bdz.req.components.rules.general.toggle.change",
+                    "collapse": "web/components/requests/components: bdz.req.components.rules.general.toggle.collapse"
+                },
+                "fields": {
+                    "acceptance_date": "web/components/requests/components: bdz.req.components.rules.general.fields.acceptance_date",
+                    "acceptance_date_timer": "web/components/requests/components: bdz.req.components.rules.general.fields.acceptance_date_timer",
+                    "summing_up": "web/components/requests/components: bdz.req.components.rules.general.fields.summing_up",
+                    "summing_up_none": "web/components/requests/components: bdz.req.components.rules.general.fields.summing_up_none",
+                    "summing_up_unit": "web/components/requests/components: bdz.req.components.rules.general.fields.summing_up_unit",
+                    "summing_up_text": "web/components/requests/components: bdz.req.components.rules.general.fields.summing_up_text",
+                    "open_type": "web/components/requests/components: bdz.req.components.rules.general.fields.open_type",
+                    "participants_visibility": "web/components/requests/components: bdz.req.components.rules.general.fields.participants_visibility",
+                    "vat": "web/components/requests/components: bdz.req.components.rules.general.fields.vat",
+                    "alternative_proposals": "web/components/requests/components: bdz.req.components.rules.general.fields.alternative_proposals",
+                    "alternative_proposals_none": "web/components/requests/components: bdz.req.components.rules.general.fields.alternative_proposals_none",
+                    "currency": "web/components/requests/components: bdz.req.components.rules.general.fields.currency",
+                    "prolongation_time": "web/components/requests/components: bdz.req.components.rules.general.fields.prolongation_time",
+                    "prolongation_time_unit": "web/components/requests/components: bdz.req.components.rules.general.fields.prolongation_time_unit",
+                    "prolongation_time_text": "web/components/requests/components: bdz.req.components.rules.general.fields.prolongation_time_text",
+                    "notification_hours": "web/components/requests/components: bdz.req.components.rules.general.fields.notification_hours",
+                    "notification_hours_unit": "web/components/requests/components: bdz.req.components.rules.general.fields.notification_hours_unit",
+                    "extra_notification_hours": "web/components/requests/components: bdz.req.components.rules.general.fields.extra_notification_hours",
+                    "extra_notification_hours_unit": "web/components/requests/components: bdz.req.components.rules.general.fields.extra_notification_hours_unit",
+                    "notification_hours_text_single": "web/components/requests/components: bdz.req.components.rules.general.fields.notification_hours_text_single",
+                    "notification_hours_text_double": "web/components/requests/components: bdz.req.components.rules.general.fields.notification_hours_text_double",
+                    "owner_visibility": "web/components/requests/components: bdz.req.components.rules.general.fields.owner_visibility"
+                },
+                "errors": {
+                    "alternative_proposals_out_of_range": "web/components/requests/components: bdz.req.components.rules.general.errors.alternative_proposals_out_of_range"
+                },
+                "tooltips": {
+                    "summing_up": "web/components/requests/components: bdz.req.components.rules.general.tooltips.summing_up",
+                    "open_type.0": "web/components/requests/components: bdz.req.components.rules.general.tooltips.open_type.0",
+                    "open_type.1": "web/components/requests/components: bdz.req.components.rules.general.tooltips.open_type.1",
+                    "open_type.editable": "web/components/requests/components: bdz.req.components.rules.general.tooltips.open_type.editable",
+                    "alternative_proposals": "web/components/requests/components: bdz.req.components.rules.general.tooltips.alternative_proposals",
+                    "prolongation_time": "web/components/requests/components: bdz.req.components.rules.general.tooltips.prolongation_time",
+                    "notification_hours": "web/components/requests/components: bdz.req.components.rules.general.tooltips.notification_hours",
+                    "extra_notification_hours": "web/components/requests/components: bdz.req.components.rules.general.tooltips.extra_notification_hours"
+                }
             }
         }
     }

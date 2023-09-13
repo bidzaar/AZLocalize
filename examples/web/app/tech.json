@@ -12,7 +12,8 @@
         "empty": "web/app: admin.companies.list.empty",
         "filters": {
           "badges": "web/app: admin.companies.list.filters.badges",
-          "company_sales": "web/app: admin.companies.list.filters.company_sales",
+          "salesTags": "web/app: admin.companies.list.filters.salesTags",
+          "purchaseTags": "web/app: admin.companies.list.filters.purchaseTags",
           "default": "web/app: admin.companies.list.filters.default",
           "employeesCount": "web/app: admin.companies.list.filters.employeesCount",
           "labels": "web/app: admin.companies.list.filters.labels",
@@ -179,7 +180,10 @@
         "rights": {
           "list": "web/app: admin.users.list.rights.list",
           "empty": "web/app: admin.users.list.rights.empty",
-          "approve": "web/app: admin.users.list.rights.approve"
+          "approve": "web/app: admin.users.list.rights.approve",
+          "invited": "web/app: admin.users.list.rights.invited",
+          "wait_for_approve": "web/app: admin.users.list.rights.wait_for_approve",
+          "no_rights": "web/app: admin.users.list.rights.no_rights"
         }
       },
       "restore_user": {
@@ -604,7 +608,8 @@
       },
       "default": "web/app: errors.logic.default",
       "ShouldBeExcel": "web/app: errors.logic.ShouldBeExcel",
-      "AlreadyExists": "web/app: errors.logic.AlreadyExists"
+      "AlreadyExists": "web/app: errors.logic.AlreadyExists",
+      "FileStorage.Images.InvalidImage": "web/app: errors.logic.FileStorage.Images.InvalidImage"
     }
   },
   "files": {
@@ -829,11 +834,11 @@
             "comparison-archive": "web/app: notifications.list.templates.procedure_reports.types.comparison-archive",
             "all-receipt": "web/app: notifications.list.templates.procedure_reports.types.all-receipt",
             "all-receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.all-receipt-archive",
+            "chats-archive": "web/app: notifications.list.templates.procedure_reports.types.chats-archive",
             "my-proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.my-proposal-archive",
             "proposal-archive": "web/app: notifications.list.templates.procedure_reports.types.proposal-archive",
             "receipt-archive": "web/app: notifications.list.templates.procedure_reports.types.receipt-archive",
-            "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive",
-            "chats-archive": "web/app: notifications.list.templates.procedure_reports.types.chats-archive"
+            "nda-archive": "web/app: notifications.list.templates.procedure_reports.types.nda-archive"
           }
         },
         "registry_reports": {
@@ -867,12 +872,14 @@
       "header": "web/app: procedure.clone.header",
       "name": "web/app: procedure.clone.name",
       "generalInfo": "web/app: procedure.clone.generalInfo",
+      "docs": "web/app: procedure.clone.docs",
       "parameters": "web/app: procedure.clone.parameters",
       "participants": "web/app: procedure.clone.participants",
       "positions": "web/app: procedure.clone.positions",
       "questionnaire": "web/app: procedure.clone.questionnaire",
       "team": "web/app: procedure.clone.team",
       "nda": "web/app: procedure.clone.nda",
+      "tags": "web/app: procedure.clone.tags",
       "registries": "web/app: procedure.clone.registries",
       "cancel": "web/app: procedure.clone.cancel",
       "submit": "web/app: procedure.clone.submit"
@@ -1769,7 +1776,12 @@
         "cancel": "web/app: process.light.create.cancel",
         "header": "web/app: process.light.create.header",
         "next": "web/app: process.light.create.next",
-        "placeholder": "web/app: process.light.create.placeholder"
+        "name": "web/app: process.light.create.name",
+        "type": "web/app: process.light.create.type",
+        "options": {
+          "1": "web/app: process.light.create.options.1",
+          "2": "web/app: process.light.create.options.2"
+        }
       },
       "invite": {
         "dialog": {
@@ -1987,7 +1999,8 @@
     },
     "tooltips": {
       "add": "web/app: tags.tooltips.add",
-      "show_tags": "web/app: tags.tooltips.show_tags"
+      "expand": "web/app: tags.tooltips.expand",
+      "collapse": "web/app: tags.tooltips.collapse"
     }
   },
   "template": {
@@ -2117,6 +2130,8 @@
     "company": {
       "achievements": {
         "header": "web/app: user_management.company.achievements.header",
+        "description": "web/app: user_management.company.achievements.description",
+        "how_get": "web/app: user_management.company.achievements.how_get",
         "popup": {
           "how_get": "web/app: user_management.company.achievements.popup.how_get",
           "message": "web/app: user_management.company.achievements.popup.message",
@@ -2152,9 +2167,14 @@
           "header": "web/app: user_management.company.editor.site.header",
           "label": "web/app: user_management.company.editor.site.label"
         },
-        "employeescount": {
-          "header": "web/app: user_management.company.editor.employeescount.header",
-          "label": "web/app: user_management.company.editor.employeescount.label"
+        "employeesCount": {
+          "header": "web/app: user_management.company.editor.employeesCount.header",
+          "label": "web/app: user_management.company.editor.employeesCount.label"
+        },
+        "edm": {
+          "header": "web/app: user_management.company.editor.edm.header",
+          "label": "web/app: user_management.company.editor.edm.label",
+          "placeholder": "web/app: user_management.company.editor.edm.placeholder"
         },
         "location": {
           "header": "web/app: user_management.company.editor.location.header"
@@ -2204,8 +2224,23 @@
           "completed": "web/app: user_management.company.viewer.toolbar.completed",
           "toggle": "web/app: user_management.company.viewer.toolbar.toggle"
         },
+        "menu": {
+          "items": {
+            "0": "web/app: user_management.company.viewer.menu.items.0",
+            "1": "web/app: user_management.company.viewer.menu.items.1",
+            "2": "web/app: user_management.company.viewer.menu.items.2",
+            "3": "web/app: user_management.company.viewer.menu.items.3",
+            "4": "web/app: user_management.company.viewer.menu.items.4",
+            "5": "web/app: user_management.company.viewer.menu.items.5",
+            "6": "web/app: user_management.company.viewer.menu.items.6",
+            "7": "web/app: user_management.company.viewer.menu.items.7"
+          },
+          "bills_message": "web/app: user_management.company.viewer.menu.bills_message",
+          "mobile_action": "web/app: user_management.company.viewer.menu.mobile_action"
+        },
         "progress": {
           "title": "web/app: user_management.company.viewer.progress.title",
+          "sub_title": "web/app: user_management.company.viewer.progress.sub_title",
           "items": {
             "0": {
               "name": "web/app: user_management.company.viewer.progress.items.0.name",
@@ -2297,14 +2332,16 @@
           }
         },
         "tags": {
-          "title": "web/app: user_management.company.viewer.tags.title",
+          "sales": {
+            "title": "web/app: user_management.company.viewer.tags.sales.title",
+            "empty": "web/app: user_management.company.viewer.tags.sales.empty"
+          },
+          "purchase": {
+            "title": "web/app: user_management.company.viewer.tags.purchase.title",
+            "empty": "web/app: user_management.company.viewer.tags.purchase.empty"
+          },
           "add": "web/app: user_management.company.viewer.tags.add",
-          "empty": "web/app: user_management.company.viewer.tags.empty",
-          "dialog": {
-            "header": "web/app: user_management.company.viewer.tags.dialog.header",
-            "placeholder": "web/app: user_management.company.viewer.tags.dialog.placeholder",
-            "text": "web/app: user_management.company.viewer.tags.dialog.text"
-          }
+          "edit": "web/app: user_management.company.viewer.tags.edit"
         },
         "photos": {
           "title": "web/app: user_management.company.viewer.photos.title",
@@ -2316,6 +2353,41 @@
           "add": "web/app: user_management.company.viewer.regions.add",
           "empty": "web/app: user_management.company.viewer.regions.empty",
           "text": "web/app: user_management.company.viewer.regions.text"
+        },
+        "edm": {
+          "title": "web/app: user_management.company.viewer.edm.title",
+          "empty": "web/app: user_management.company.viewer.edm.empty",
+          "info": "web/app: user_management.company.viewer.edm.info",
+          "dialogs": {
+            "add": {
+              "title": "web/app: user_management.company.viewer.edm.dialogs.add.title",
+              "description": "web/app: user_management.company.viewer.edm.dialogs.add.description",
+              "placeholder": "web/app: user_management.company.viewer.edm.dialogs.add.placeholder",
+              "validate": {
+                "other_symbols": "web/app: user_management.company.viewer.edm.dialogs.add.validate.other_symbols",
+                "required": "web/app: user_management.company.viewer.edm.dialogs.add.validate.required"
+              }
+            },
+            "delete": {
+              "title": "web/app: user_management.company.viewer.edm.dialogs.delete.title",
+              "submit": "web/app: user_management.company.viewer.edm.dialogs.delete.submit",
+              "cancel": "web/app: user_management.company.viewer.edm.dialogs.delete.cancel"
+            },
+            "actions": {
+              "save": "web/app: user_management.company.viewer.edm.dialogs.actions.save",
+              "cancel": "web/app: user_management.company.viewer.edm.dialogs.actions.cancel",
+              "delete": "web/app: user_management.company.viewer.edm.dialogs.actions.delete"
+            }
+          },
+          "actions": {
+            "copy": "web/app: user_management.company.viewer.edm.actions.copy",
+            "add": "web/app: user_management.company.viewer.edm.actions.add",
+            "edit": "web/app: user_management.company.viewer.edm.actions.edit"
+          },
+          "snacks": {
+            "copy": "web/app: user_management.company.viewer.edm.snacks.copy",
+            "deleted": "web/app: user_management.company.viewer.edm.snacks.deleted"
+          }
         },
         "contacts": {
           "title": "web/app: user_management.company.viewer.contacts.title",
@@ -2341,6 +2413,7 @@
         },
         "activity": {
           "title": "web/app: user_management.company.viewer.activity.title",
+          "title_statistics": "web/app: user_management.company.viewer.activity.title_statistics",
           "on_site": "web/app: user_management.company.viewer.activity.on_site",
           "empty": "web/app: user_management.company.viewer.activity.empty",
           "sales": {
@@ -2377,6 +2450,18 @@
                 "tooltip": "web/app: user_management.company.viewer.activity.purchases.blocks.total.tooltip"
               }
             }
+          }
+        },
+        "notes": {
+          "title": "web/app: user_management.company.viewer.notes.title",
+          "labels": {
+            "title": "web/app: user_management.company.viewer.notes.labels.title",
+            "text": "web/app: user_management.company.viewer.notes.labels.text",
+            "empty": "web/app: user_management.company.viewer.notes.labels.empty"
+          },
+          "custom": {
+            "title": "web/app: user_management.company.viewer.notes.custom.title",
+            "text": "web/app: user_management.company.viewer.notes.custom.text"
           }
         },
         "partners": {
@@ -2550,64 +2635,23 @@
     },
     "rights": {
       "comment": "web/app: user_management.rights.comment",
-      "items": {
-        "0": {
-          "short": "web/app: user_management.rights.items.0.short",
-          "long": "web/app: user_management.rights.items.0.long"
-        },
-        "1": {
-          "short": "web/app: user_management.rights.items.1.short",
-          "long": "web/app: user_management.rights.items.1.long"
-        },
-        "2": {
-          "short": "web/app: user_management.rights.items.2.short",
-          "long": "web/app: user_management.rights.items.2.long"
-        },
-        "4": {
-          "short": "web/app: user_management.rights.items.4.short",
-          "long": "web/app: user_management.rights.items.4.long"
-        },
-        "8": {
-          "short": "web/app: user_management.rights.items.8.short",
-          "long": "web/app: user_management.rights.items.8.long"
-        },
-        "16": {
-          "short": "web/app: user_management.rights.items.16.short",
-          "long": "web/app: user_management.rights.items.16.long"
-        },
-        "128": {
-          "short": "web/app: user_management.rights.items.128.short",
-          "long": "web/app: user_management.rights.items.128.long"
-        },
-        "256": {
-          "short": "web/app: user_management.rights.items.256.short",
-          "long": "web/app: user_management.rights.items.256.long"
-        },
-        "512": {
-          "short": "web/app: user_management.rights.items.512.short",
-          "long": "web/app: user_management.rights.items.512.long"
-        },
-        "1024": {
-          "short": "web/app: user_management.rights.items.1024.short",
-          "long": "web/app: user_management.rights.items.1024.long"
-        },
-        "2048": {
-          "short": "web/app: user_management.rights.items.2048.short",
-          "long": "web/app: user_management.rights.items.2048.long"
-        }
-      },
       "role": {
         "title": "web/app: user_management.rights.role.title",
-        "tooltip": "web/app: user_management.rights.role.tooltip",
+        "text": "web/app: user_management.rights.role.text",
         "items": {
-          "0": "web/app: user_management.rights.role.items.0",
-          "1": "web/app: user_management.rights.role.items.1",
-          "2": "web/app: user_management.rights.role.items.2"
+          "0": {
+            "title": "web/app: user_management.rights.role.items.0.title",
+            "text": "web/app: user_management.rights.role.items.0.text"
+          },
+          "1": {
+            "title": "web/app: user_management.rights.role.items.1.title",
+            "text": "web/app: user_management.rights.role.items.1.text"
+          },
+          "2": {
+            "title": "web/app: user_management.rights.role.items.2.title",
+            "text": "web/app: user_management.rights.role.items.2.text"
+          }
         }
-      },
-      "state": {
-        "empty": "web/app: user_management.rights.state.empty",
-        "filled": "web/app: user_management.rights.state.filled"
       }
     },
     "shared": {
@@ -2696,8 +2740,7 @@
       "empty": "web/app: user_management.users-selector-dialog.empty",
       "search": "web/app: user_management.users-selector-dialog.search",
       "cancel": "web/app: user_management.users-selector-dialog.cancel",
-      "submit": "web/app: user_management.users-selector-dialog.submit",
-      "not-found": "web/app: user_management.users-selector-dialog.not-found"
+      "submit": "web/app: user_management.users-selector-dialog.submit"
     }
   },
   "user_menu": {
@@ -2730,7 +2773,8 @@
     "user_not_exists": "web/app: validation.user_not_exists",
     "wrong_code": "web/app: validation.wrong_code",
     "wrong_format": "web/app: validation.wrong_format",
-    "pattern": "web/app: validation.pattern"
+    "pattern": "web/app: validation.pattern",
+    "range_max_gt_min": "web/app: validation.range_max_gt_min"
   },
   "widgets": {
     "cropper": {
@@ -2830,5 +2874,25 @@
       "10": "web/app: months.long.10",
       "11": "web/app: months.long.11"
     }
+  },
+  "ngx_editor": {
+    "headers": {
+      "h1": "web/app: ngx_editor.headers.h1",
+      "h2": "web/app: ngx_editor.headers.h2",
+      "h3": "web/app: ngx_editor.headers.h3",
+      "h4": "web/app: ngx_editor.headers.h4",
+      "h5": "web/app: ngx_editor.headers.h5",
+      "h6": "web/app: ngx_editor.headers.h6"
+    },
+    "remove": "web/app: ngx_editor.remove",
+    "message": {
+      "error": "web/app: ngx_editor.message.error",
+      "warning": "web/app: ngx_editor.message.warning",
+      "warning-nda": "web/app: ngx_editor.message.warning-nda",
+      "error-nda": "web/app: ngx_editor.message.error-nda"
+    }
+  },
+  "subscribtions": {
+    "mail": "web/app: subscribtions.mail"
   }
 }

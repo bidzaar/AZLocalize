@@ -69,6 +69,11 @@
                     "collapse": "web/admin/requests/side: req.side.supplier.company.tags.collapse",
                     "empty": "web/admin/requests/side: req.side.supplier.company.tags.empty"
                 },
+                "requests": {
+                    "title": "web/admin/requests/side: req.side.supplier.company.requests.title",
+                    "label": "web/admin/requests/side: req.side.supplier.company.requests.label",
+                    "empty": "web/admin/requests/side: req.side.supplier.company.requests.empty"
+                },
                 "additional": {
                     "description": {
                         "title": "web/admin/requests/side: req.side.supplier.company.additional.description.title",

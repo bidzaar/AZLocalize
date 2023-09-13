@@ -1,0 +1,8 @@
+    <mj-section mj-class="section-footer" css-class="footer">
+      <mj-column>
+        <mj-text align="left"><b>@ConfigurationContext.ProjectName</b><br />
+          <span class="smallest"><a href="tel:@ConfigurationContext.SupportPhone">@ConfigurationContext.FormattedSupportPhone</a><br /><a href="mailto:@ConfigurationContext.SupportEmail">@ConfigurationContext.SupportEmail</a>
+            <br />
+            <a href="@ConfigurationContext.BaseUrl">@ConfigurationContext.BaseUrl</a></span>
+        </mj-text>
+      </mj-column>

@@ -19,16 +19,16 @@
                 "remove_user": {
                     "cancel": "Ləğv et",
                     "submit": "Sil",
-                    "text": "",
-                    "title": "İşçini qrupdan çıxarın"
+                    "title": "İşçini qrupdan çıxarın",
+                    "text": ""
                 },
                 "unblock": {
                     "cancel": "Ləğv et",
                     "error": "Qrupu bərpa etmək alınmadı. Yenidən cəhd edin və ya daha sonra cəhd edin. Problem davam edərsə, texniki dəstək ilə əlaqə saxlayın",
                     "submit": "Bərpa edin",
                     "success": "Qrup bərpa olundu",
-                    "text": "",
-                    "title": "Qrupu bərpa edin"
+                    "title": "Qrupu bərpa edin",
+                    "text": ""
                 }
             },
             "general": {

@@ -375,12 +375,5 @@
     "SortType.ByRank.PositionDisabled": "First rank first",
     "SortType.ByRank.PositionEnabled": "At the beginning with the first ranks by positions",
     "ContactsInInterface": "Contacts are available on the interface",
-    "ProposalHeader.OwnerRollback": "Rejected by the organizer",
-    "ProposalItemsDeviationType.Acceptable": "Deviation by items and quantity is allowed",
-    "String1ParticipantBusinessStatus.Refused": "Refused to submit bids",
-    "Bot.Name": "ProcureSaaS",
-    "ProposalItemsDeviationType.AcceptableByPosition": "Permissible deviation by items",
-    "CompanyProcedures.PermitDown": "Vendors can only lower the price (reduction)",
-    "CompanyProcedures.PermitUp": "Vendors can only raise the price (auction)",
-    "CompanyProcedures.PermitUpDown": "Vendors can raise or lower the price"
+    "ProposalHeader.OwnerRollback": "Rejected by the organizer"
 }

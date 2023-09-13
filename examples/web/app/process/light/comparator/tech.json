@@ -1,0 +1,107 @@
+{
+  "pl_cpr": {
+    "enums": {
+      "groups": {
+        "0": "web/app/process/light/comparator: pl_cpr.enums.groups.0",
+        "1": "web/app/process/light/comparator: pl_cpr.enums.groups.1",
+        "2": "web/app/process/light/comparator: pl_cpr.enums.groups.2",
+        "3": "web/app/process/light/comparator: pl_cpr.enums.groups.3",
+        "4": "web/app/process/light/comparator: pl_cpr.enums.groups.4",
+        "5": "web/app/process/light/comparator: pl_cpr.enums.groups.5"
+      },
+      "types": {
+        "0": "web/app/process/light/comparator: pl_cpr.enums.types.0",
+        "1": "web/app/process/light/comparator: pl_cpr.enums.types.1",
+        "2": "web/app/process/light/comparator: pl_cpr.enums.types.2",
+        "3": "web/app/process/light/comparator: pl_cpr.enums.types.3",
+        "4": "web/app/process/light/comparator: pl_cpr.enums.types.4",
+        "5": "web/app/process/light/comparator: pl_cpr.enums.types.5",
+        "6": "web/app/process/light/comparator: pl_cpr.enums.types.6",
+        "7": "web/app/process/light/comparator: pl_cpr.enums.types.7",
+        "8": "web/app/process/light/comparator: pl_cpr.enums.types.8",
+        "9": "web/app/process/light/comparator: pl_cpr.enums.types.9",
+        "10": "web/app/process/light/comparator: pl_cpr.enums.types.10",
+        "11": "web/app/process/light/comparator: pl_cpr.enums.types.11",
+        "12": "web/app/process/light/comparator: pl_cpr.enums.types.12",
+        "13": "web/app/process/light/comparator: pl_cpr.enums.types.13",
+        "14": "web/app/process/light/comparator: pl_cpr.enums.types.14",
+        "15": "web/app/process/light/comparator: pl_cpr.enums.types.15",
+        "16": "web/app/process/light/comparator: pl_cpr.enums.types.16",
+        "17": "web/app/process/light/comparator: pl_cpr.enums.types.17",
+        "18": "web/app/process/light/comparator: pl_cpr.enums.types.18",
+        "19": "web/app/process/light/comparator: pl_cpr.enums.types.19",
+        "20": "web/app/process/light/comparator: pl_cpr.enums.types.20",
+        "21": "web/app/process/light/comparator: pl_cpr.enums.types.21",
+        "22": "web/app/process/light/comparator: pl_cpr.enums.types.22",
+        "23": "web/app/process/light/comparator: pl_cpr.enums.types.23",
+        "24": "web/app/process/light/comparator: pl_cpr.enums.types.24",
+        "25": "web/app/process/light/comparator: pl_cpr.enums.types.25",
+        "26": "web/app/process/light/comparator: pl_cpr.enums.types.26",
+        "27": "web/app/process/light/comparator: pl_cpr.enums.types.27",
+        "28": "web/app/process/light/comparator: pl_cpr.enums.types.28",
+        "29": "web/app/process/light/comparator: pl_cpr.enums.types.29",
+        "30": "web/app/process/light/comparator: pl_cpr.enums.types.30",
+        "31": "web/app/process/light/comparator: pl_cpr.enums.types.31",
+        "32": "web/app/process/light/comparator: pl_cpr.enums.types.32",
+        "33": "web/app/process/light/comparator: pl_cpr.enums.types.33",
+        "34": "web/app/process/light/comparator: pl_cpr.enums.types.34"
+      }
+    },
+    "forbidden": {
+      "text": "web/app/process/light/comparator: pl_cpr.forbidden.text",
+      "notice": "web/app/process/light/comparator: pl_cpr.forbidden.notice"
+    },
+    "comparison": {
+      "header": "web/app/process/light/comparator: pl_cpr.comparison.header",
+      "table": {
+        "filter": {
+          "label": "web/app/process/light/comparator: pl_cpr.comparison.table.filter.label"
+        },
+        "version": {
+          "draft": "web/app/process/light/comparator: pl_cpr.comparison.table.version.draft",
+          "date": "web/app/process/light/comparator: pl_cpr.comparison.table.version.date",
+          "current": "web/app/process/light/comparator: pl_cpr.comparison.table.version.current",
+          "previous": "web/app/process/light/comparator: pl_cpr.comparison.table.version.previous"
+        },
+        "record": {
+          "date": "web/app/process/light/comparator: pl_cpr.comparison.table.record.date",
+          "summing_up": "web/app/process/light/comparator: pl_cpr.comparison.table.record.summing_up",
+          "prolongation_time": "web/app/process/light/comparator: pl_cpr.comparison.table.record.prolongation_time",
+          "notification_hours": "web/app/process/light/comparator: pl_cpr.comparison.table.record.notification_hours",
+          "price": "web/app/process/light/comparator: pl_cpr.comparison.table.record.price",
+          "nda": {
+            "true": "web/app/process/light/comparator: pl_cpr.comparison.table.record.nda.true",
+            "false": "web/app/process/light/comparator: pl_cpr.comparison.table.record.nda.false"
+          },
+          "position": {
+            "description": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.description",
+            "documents": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.documents",
+            "count": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.count",
+            "exp_price": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.exp_price",
+            "max_price": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.max_price",
+            "min_price": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.min_price",
+            "trg_price": "web/app/process/light/comparator: pl_cpr.comparison.table.record.position.trg_price"
+          },
+          "question": {
+            "documents": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.documents",
+            "text": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.text",
+            "type": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.type",
+            "required": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.required",
+            "hidden": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.hidden",
+            "comment": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.comment",
+            "files": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.files",
+            "true": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.true",
+            "false": "web/app/process/light/comparator: pl_cpr.comparison.table.record.question.false"
+          }
+        },
+        "empty": {
+          "text": "web/app/process/light/comparator: pl_cpr.comparison.table.empty.text"
+        },
+        "soon": {
+          "4": "web/app/process/light/comparator: pl_cpr.comparison.table.soon.4",
+          "5": "web/app/process/light/comparator: pl_cpr.comparison.table.soon.5"
+        }
+      }
+    }
+  }
+}

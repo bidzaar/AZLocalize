@@ -18,6 +18,10 @@
                     "1": "web/app/process/light/conclusion: pl.cnc.enums.commission.1",
                     "2": "web/app/process/light/conclusion: pl.cnc.enums.commission.2",
                     "3": "web/app/process/light/conclusion: pl.cnc.enums.commission.3"
+                },
+                "responsibility": {
+                    "title": "web/app/process/light/conclusion: pl.cnc.enums.responsibility.title",
+                    "descr": "web/app/process/light/conclusion: pl.cnc.enums.responsibility.descr"
                 }
             },
             "forbidden": {
@@ -111,13 +115,24 @@
                         },
                         "finished": {
                             "stub": {
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.finished.stub.text"
+                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.finished.stub.text",
+                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.finished.stub.notice"
                             }
                         },
                         "active": {
                             "stub": {
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.text",
-                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.notice"
+                                "has_proposals": {
+                                    "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.has_proposals.text",
+                                    "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.has_proposals.notice"
+                                },
+                                "proposal_status": {
+                                    "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.proposal_status.text",
+                                    "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.proposal_status.notice"
+                                },
+                                "summarize_status": {
+                                    "text": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.summarize_status.text",
+                                    "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.stub.summarize_status.notice"
+                                }
                             },
                             "list": {
                                 "title": "web/app/process/light/conclusion: pl.cnc.content.owner.orders.active.list.title",
@@ -157,38 +172,17 @@
                     },
                     "participations": {
                         "title": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.title",
-                        "winners": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.winners",
-                        "proposals": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.proposals",
-                        "active": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.active",
-                        "total": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.total"
+                        "stage": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.stage",
+                        "participated": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.participated",
+                        "participated_tooltip": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.participated_tooltip",
+                        "submitted_proposals": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.submitted_proposals",
+                        "submitted_requests": "web/app/process/light/conclusion: pl.cnc.content.owner.participations.submitted_requests"
                     },
                     "savings": {
-                        "title": {
-                            "completed": {
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.completed.text"
-                            },
-                            "progress": {
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.progress.text",
-                                "tooltip": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title.progress.tooltip"
-                            }
-                        },
-                        "stubs": {
-                            "budget": {
-                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.budget.notice",
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.budget.text"
-                            },
-                            "proposals": {
-                                "notice": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.proposals.notice",
-                                "text": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs.proposals.text"
-                            }
-                        },
-                        "values": {
-                            "average": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.average",
-                            "best": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.best",
-                            "budget": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.budget",
-                            "custom": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.custom",
-                            "winner": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.values.winner"
-                        }
+                        "title": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.title",
+                        "stubs": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.stubs",
+                        "tooltip": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.tooltip",
+                        "help": "web/app/process/light/conclusion: pl.cnc.content.owner.savings.help"
                     }
                 },
                 "participant": {
@@ -226,27 +220,20 @@
                     },
                     "saving_editor": {
                         "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.header",
-                        "editable": {
-                            "hint": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.hint",
-                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.text",
-                            "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.cancel",
-                            "next": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.editable.next"
-                        },
-                        "readonly": {
-                            "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.readonly.text",
-                            "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.readonly.cancel"
-                        }
+                        "cancel": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.cancel",
+                        "submit": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.submit",
+                        "label": "web/app/process/light/conclusion: pl.cnc.content.dialogs.saving_editor.label"
                     },
                     "request_completion": {
                         "true": {
-                            "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.true.header",
                             "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.true.text"
                         },
                         "false": {
-                            "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.header",
                             "text": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.text",
                             "reason": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.reason",
                             "comment": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.comment",
+                            "comment_label": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.comment_label",
+                            "chars_validation": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.chars_validation",
                             "empty": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.false.empty"
                         },
                         "vat": {
@@ -261,7 +248,8 @@
                         "mail": {
                             "title": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.title",
                             "subtitle": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.mail.subtitle"
-                        }
+                        },
+                        "header": "web/app/process/light/conclusion: pl.cnc.content.dialogs.request_completion.header"
                     }
                 }
             }

@@ -1,52 +1,13 @@
 {
   "pl": {
     "qst": {
-      "templates": {
-        "dialogs": {
-          "list": {
-            "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.title",
-            "search": {
-              "placeholder": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.search.placeholder",
-              "empty": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.search.empty"
-            },
-            "empty": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.empty",
-            "actions": {
-              "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.actions.cancel",
-              "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.list.actions.submit"
-            }
-          },
-          "edit": {
-            "title":"web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.title",
-            "label":"web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.label",
-            "actions": {
-              "cancel":"web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.actions.cancel",
-              "save":"web/app/process/light/questionnaire: pl.qst.templates.dialogs.edit.actions.save"
-            }
-          },
-          "apply": {
-            "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.title",
-            "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.text",
-            "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.cancel",
-            "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.submit",
-            "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.apply.success"
-          },
-          "remove": {
-            "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.title",
-            "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.text",
-            "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.cancel",
-            "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.submit",
-            "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.remove.success"
-          },
-          "create": {
-            "title": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.title",
-            "text": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.text",
-            "label": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.label",
-            "cancel": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.cancel",
-            "submit": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.submit",
-            "success": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.success",
-            "default_value": "web/app/process/light/questionnaire: pl.qst.templates.dialogs.create.default_value"
-          }
-        }
+      "back": "web/app/process/light/questionnaire: pl.qst.back",
+      "disabled": "web/app/process/light/questionnaire: pl.qst.disabled",
+      "question_type": {
+        "title": "web/app/process/light/questionnaire: pl.qst.question_type.title"
+      },
+      "private": {
+        "tooltip": "web/app/process/light/questionnaire: pl.qst.private.tooltip"
       }
     }
   }

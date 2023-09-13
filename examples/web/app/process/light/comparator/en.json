@@ -1,104 +1,107 @@
 {
-  "pl_cpr": {
-    "enums": {
-      "groups": {
-        "0": "Этап предквалификации / NDA",
-        "1": "Описание и документы",
-        "2": "Правила проведения запроса",
-        "3": "Аккредитация участников",
-        "4": "Спецификация по позициям",
-        "5": "Неценовые критерии запроса"
-      },
-      "types": {
-        "0": "Этап",
-        "1": "Описание",
-        "2": "Документы",
-        "3": "Наименование запроса",
-        "4": "Описание",
-        "5": "Документы",
-        "6": "Место поставки",
-        "7": "Приём предложений до",
-        "8": "Вид запроса",
-        "9": "После подачи предложения участники видят",
-        "10": "При выборе победителя учитывается",
-        "11": "Альтернативных предложений",
-        "12": "Валюта запросa",
-        "13": "Автопродление приема предложений",
-        "14": "Напоминание участникам о завершении приема предложений за",
-        "15": "Дополнительное напоминание участникам о завершении приема предложений за",
-        "16": "Организатор на этапе приема предложений",
-        "17": "Ориентировочный срок подведения итогов",
-        "18": "Для подачи предложения требуется аккредитация в реестрах",
-        "19": "Кол-во позиций",
-        "20": "Группа {{index}}",
-        "21": "Наименование группы",
-        "22": "Объём предложения участника",
-        "23": "После подачи первого предложения",
-        "24": "Минимальный шаг изменения цены",
-        "25": "Ожидаемая сумма предложения",
-        "26": "Максимальная сумма предложения",
-        "27": "Минимальная сумма предложения",
-        "28": "Колонки поставщика",
-        "29": "Позиции",
-        "30": "Позиция {{index}}",
-        "31": "Кол-во вопросов",
-        "32": "Раздел {{index}}",
-        "33": "Наименование раздела",
-        "34": "Вопрос {{index}}"
-      }
-    },
-    "forbidden": {
-      "text": "Требуется авторизация.",
-      "notice": "Сведения доступны участникам запроса, прошедшим предквалификацию / NDA\nили приглашённым в закрытый запрос"
-    },
-    "comparison": {
-      "header": "{{number}} • {{name}}",
-      "table": {
-        "filter": {
-          "label": "Показать только изменения"
+    "pl_cpr": {
+        "enums": {
+            "groups": {
+                "0": "Prequalification / NDA",
+                "1": "Description and documents",
+                "2": "Rules for making a request",
+                "3": "Oboarding of vendors",
+                "4": "Item specification",
+                "5": "Non-Pricing Criteria"
+            },
+            "types": {
+                "0": "Stage",
+                "1": "Description",
+                "2": "Documentation",
+                "3": "Request name",
+                "4": "Description",
+                "5": "Documentation",
+                "6": "Delivery address",
+                "7": "Accepting bids until",
+                "8": "Request type",
+                "9": "After submitting a bid, vendors see",
+                "10": "When selecting a winner consider",
+                "11": "Alternative bids",
+                "12": "Request currency",
+                "13": "Prolongation of bids submission",
+                "14": "Reminder to vendors of the end of the bids submission",
+                "15": "Additional reminder to vendors about the end of the bids submission for",
+                "16": "Buyer at the stage of accepting bids",
+                "17": "Approximate deadline for summing up the tender results",
+                "18": "Onboarding to the vendor pools is required to submit a bid",
+                "19": "Number of items",
+                "20": "Group {{index}}",
+                "21": "Group name",
+                "22": "Participant's bid volume",
+                "23": "After submitting the first bid",
+                "24": "Minimum price change step",
+                "25": "xpected bid amount",
+                "26": "Maximum bid amount",
+                "27": "Minimum bid amount",
+                "28": "Vendor columns",
+                "29": "Items",
+                "30": "Item {{index}}",
+                "31": "Number of questions",
+                "32": "Section {{index}}",
+                "33": "Section name",
+                "34": "Question {{index}}"
+            }
         },
-        "version": {
-          "draft": "Новая редакция (не опубликована)",
-          "date": "Редакция от {{ value }} (MSK)",
-          "current": "Стало",
-          "previous": "Было"
+        "forbidden": {
+            "text": "Authorization is required.",
+            "notice": "Details available to prequalified / NDA submitted companies \nor invited to a private request"
         },
-        "record": {
-          "date": "{{value}} (MSK)",
-          "summing_up": "{{ value }} дн",
-          "prolongation_time": "{{value}} мин.",
-          "notification_hours": "{{value}} ч",
-          "price": "{{value}} {{currency}}",
-          "nda": {
-            "true": "Проводится",
-            "false": "Не проводится"
-          },
-          "position": {
-            "description": "Описание:",
-            "documents": "Документы:",
-            "count": "Количество:",
-            "exp_price": "Ожидаемая цена за ед.,",
-            "max_price": "Максимальная цена за ед.,",
-            "min_price": "Минимальная цена за ед.,",
-            "trg_price": "Целевая цена за ед.,"
-          },
-          "question": {
-            "text": "Текст:",
-            "type": "Тип ответа:",
-            "required": "Ответ обязательный:",
-            "hidden": "Ответ скрыт от других участников:",
-            "true": "Да",
-            "false": "Нет"
-          }
-        },
-        "empty": {
-          "text": "Нет изменений"
-        },
-        "soon": {
-          "4": "Сравнение спецификаций по позициям запроса будет реализовано в ближайшее время",
-          "5": "Сравнение неценовых критериев запроса будет реализовано в ближайшее время"
+        "comparison": {
+            "header": "{{number}} • {{name}}",
+            "table": {
+                "filter": {
+                    "label": "Show the changes only"
+                },
+                "version": {
+                    "draft": "New edition (not published)",
+                    "date": "Edited by {{ value }} (MSK)",
+                    "current": "It became",
+                    "previous": "Was"
+                },
+                "record": {
+                    "date": "{{value}} (MSK)",
+                    "summing_up": "{{ value }} days",
+                    "prolongation_time": "{{value}} min.",
+                    "notification_hours": "{{value}} h",
+                    "price": "{{value}} {{currency}}",
+                    "nda": {
+                        "true": "Applied",
+                        "false": "Not carried out"
+                    },
+                    "position": {
+                        "description": "Description:",
+                        "documents": "Documentation:",
+                        "count": "Quantity:",
+                        "exp_price": "Expected unit price,",
+                        "max_price": "Maximum price per unit,",
+                        "min_price": "Minimum price per unit,",
+                        "trg_price": "Target price per unit,"
+                    },
+                    "question": {
+                        "text": "Text:",
+                        "type": "Response type:",
+                        "required": "Mandatory answer:",
+                        "hidden": "The answer is hidden from other vendors:",
+                        "true": "Yes",
+                        "false": "No",
+                        "documents": "Documentation:",
+                        "comment": "Comment on the answer:",
+                        "files": "Files for the reply:"
+                    }
+                },
+                "empty": {
+                    "text": " No change"
+                },
+                "soon": {
+                    "4": "Comparison of specifications by request items will be implemented in the near future",
+                    "5": "Comparison of non-pricing request criteria will be implemented soon"
+                }
+            }
         }
-      }
     }
-  }
 }

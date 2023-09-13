@@ -1,28 +1,28 @@
 {
-  "bdz.dlg": {
-    "confirmation": {
-      "actions": {
-        "cancel": "NO",
-        "submit": "YES"
-      },
-      "error": {
-        "title": "Не удалось выполнить действие",
-        "text": "Повторите действие еще раз. Если ошибка повторяется, то обратитесь в техподдержку"
-      }
-    },
-    "notification": {
-      "actions": {
-        "confirm": "OK"
-      }
-    },
-    "date": {
-      "actions": {
-        "cancel": "Cancel",
-        "submit": "Save",
-        "clear": "Clear date",
-        "clearCancel": "Cancel",
-        "clearSubmit": "Clear"
-      }
+    "bdz.dlg": {
+        "confirmation": {
+            "actions": {
+                "cancel": "NO",
+                "submit": "YES"
+            },
+            "error": {
+                "title": "Failed to perform an action",
+                "text": "Repeat the action one more time. If the error remains, contact technical support"
+            }
+        },
+        "notification": {
+            "actions": {
+                "confirm": "OK"
+            }
+        },
+        "date": {
+            "actions": {
+                "cancel": "Cancel",
+                "submit": "Save",
+                "clear": "Clear date",
+                "clearCancel": "Cancel",
+                "clearSubmit": "Clear"
+            }
+        }
     }
-  }
 }

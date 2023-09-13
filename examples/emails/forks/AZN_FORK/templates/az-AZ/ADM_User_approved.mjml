@@ -16,7 +16,7 @@
           <h1>@TargetContext.FirstName, @CompanyContext.CompanyName şirkətinə xoş gəlmisiniz</h1>
           <p class="p75">Siz şirkətin əməkdaşı kimi qeydiyyatdan keçmisiniz.</p>
         </mj-text>
-        <mj-button href="@ConfigurationContext.BaseUrl">ProcureSaaS-da işə başla</mj-button>
+        <mj-button href="@ConfigurationContext.BaseUrl">@ConfigurationContext.ProjectName-da işə başla</mj-button>
       </mj-column>
     </mj-section>
     <mj-include path="./__tpl/__spacer.mjml" />
@@ -24,7 +24,6 @@
     <!-- help -------------------------------------------- -->
     <mj-include path="./__tpl/__help.mjml" />
     <!-- footer -------------------------------------------- -->
-    <mj-include path="./__tpl/__spacer.mjml" />
     <mj-include path="./__tpl/__footer.mjml" />
     <!-- /footer -->
   </mj-body>

@@ -7,6 +7,7 @@
                 "invite": "Invite"
             },
             "list": {
+                "title": "All companies",
                 "header": {
                     "title": "Requests",
                     "search": "The search is carried out by the name, description and tags of the request"

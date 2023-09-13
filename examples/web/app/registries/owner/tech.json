@@ -435,19 +435,6 @@
           "yes": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.yes",
           "no": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.no",
           "success_snack": "web/app/registries/owner: rgs.owner.dialogs.cancel_deferred.success_snack"
-        },
-        "import_questionnaire": {
-          "title": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.title",
-          "text": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.text",
-          "cancel": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.cancel",
-          "choose": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.choose",
-          "success": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.success",
-          "errors": {
-            "format": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.format",
-            "parsing": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.parsing",
-            "version": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.version",
-            "default": "web/app/registries/owner: rgs.owner.dialogs.import_questionnaire.errors.default"
-          }
         }
       }
     }
