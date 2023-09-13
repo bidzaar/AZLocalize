@@ -4,10 +4,10 @@
             "content": {
                 "choose": {
                     "content": {
-                        "empty": "Choose tags from cloud"
+                        "empty": "Select tags from cloud"
                     },
                     "header": {
-                        "title": "Chosen tags: {{ value }}"
+                        "title": "Selected tags: {{ value }}"
                     }
                 },
                 "list": {
@@ -15,7 +15,7 @@
                         "create": "Add the tag",
                         "empty": {
                             "text": "Change search query or",
-                            "title": "Tag not found"
+              "title": "Tag not found"
                         },
                         "more": "Load more"
                     },

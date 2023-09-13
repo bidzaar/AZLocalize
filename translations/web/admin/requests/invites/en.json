@@ -1,37 +1,37 @@
 {
-    "req.inv": {
-        "similar": {
-            "header": {
-                "title": "Invite vendors",
-                "done": "Ready",
-                "invite": "Invite"
-            },
-            "list": {
-                "title": "All companies",
-                "header": {
-                    "title": "Requests",
-                    "search": "The search is carried out by the name, description and tags of the request"
-                },
-                "empty": {
-                    "text": "Find related requests by title, description, items and tags"
-                },
-                "filters": {
-                    "address": {
-                        "title": "Delivery address"
-                    }
-                },
-                "sorting": {
-                    "participants": "Vendors"
-                },
-                "card": {
-                    "participants": "Vendors submitting bids",
-                    "link": "Public request",
-                    "invite": "Invite"
-                }
-            }
+  "req.inv": {
+    "similar": {
+      "header": {
+        "title": "Invite vendors",
+        "done": "Ready",
+        "invite": "Invite"
+      },
+      "list": {
+        "title": "All companies",
+        "header": {
+          "title": "Requests",
+          "search": "The search is carried out by the name, description and tags of the request"
         },
-        "companies": {
-            "success": "Invitations sent"
+        "empty": {
+          "text": "Find related requests by title, description, items and tags"
+        },
+        "filters": {
+          "address": {
+            "title": "Delivery address"
+          }
+        },
+        "sorting": {
+          "participants": "Vendors"
+        },
+        "card": {
+          "participants": "Vendors submitting bids",
+          "link": "Public request",
+          "invite": "Invite"
         }
+      }
+    },
+    "companies": {
+      "success": "Invitations sent"
     }
+  }
 }

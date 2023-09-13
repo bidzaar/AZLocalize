@@ -1,8 +1,8 @@
 {
     "bdz.req.components": {
         "funnel": {
-            "proposals": "Participants with an offer",
-            "participants": "Number of participants",
+            "proposals": "Vendors with a bid",
+            "participants": "Number of vendors",
             "joins": "Total bids"
         },
         "currency": {
@@ -92,9 +92,9 @@
                 "to": "up to"
             },
             "select": {
-                "header": "Tariff of the request",
+                "header": "Comission of the request",
                 "cancel": "Cancel",
-                "submit": "Done"
+                "submit": "Submit"
             }
         },
         "timer": {
@@ -141,7 +141,7 @@
                     "alternative_proposals": "Alternative bids",
                     "alternative_proposals_none": "Submission of alternative bids is prohibited",
                     "currency": "Request currency",
-                    "prolongation_time": "Auto-renewal of accepting offers",
+                    "prolongation_time": "Prolongation of bids submission",
                     "prolongation_time_unit": "min",
                     "prolongation_time_text": "{{ value}} min",
                     "notification_hours": "A reminder to participants about the end of accepting proposals in",

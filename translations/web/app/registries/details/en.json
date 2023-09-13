@@ -6,7 +6,7 @@
                     "actions": "Actions"
                 },
                 "general": {
-                    "title": "Registry \"{{ value }}\"",
+                    "title": "Vendor pool \"{{ value }}\"",
                     "representer": {
                         "label": "Representer"
                     },
@@ -21,7 +21,7 @@
                         "label": "Reason for refusal"
                     },
                     "accreditation": {
-                        "label": "Included in registry",
+                        "label": "Included in vendor pool",
                         "application": "Application",
                         "protocol": "Protocol of the commission work",
                         "open_application": "Open application",
@@ -46,13 +46,13 @@
                     "actions": "Actions"
                 },
                 "general": {
-                    "title": "Application for accreditation",
+                    "title": "Application for onboarding",
                     "application_status": {
                         "label": "Application status",
                         "reason": "Reason:"
                     },
                     "registry": {
-                        "label": "Registry"
+                        "label": "Vendor pool"
                     },
                     "participant": {
                         "label": "From company",
@@ -62,7 +62,7 @@
                         "label": "Representer"
                     },
                     "participant_status": {
-                        "label": "Status in the registry",
+                        "label": "Status in the vendor pool",
                         "details": "Go to detail"
                     },
                     "scoring": {
@@ -105,7 +105,7 @@
                         "title": "Stage {{ value }}"
                     },
                     "decision": {
-                        "title": "Decision on the company's accreditation in the registry",
+                        "title": "Decision on the company's onboarding to the vendor pool",
                         "auto": "Automatically, after all stages"
                     },
                     "group": {
@@ -127,10 +127,10 @@
                 "grade": {
                     "title": "Application evaluation",
                     "notice": "Your assessment of the application as a member of the group \"{{group}}\"",
-                    "unavailable": "The \"{{group}}\" group cannot evaluate the application at the current stage of the commission's work. We will notify you when grading is available."
+                    "unavailable": "The \"{{group}}\" group cannot evaluate the application at the current stage of the commission's work. We will notify you when scoring is available."
                 },
                 "final": {
-                    "title": "Accreditation decision",
+                    "title": "Onboarding decision",
                     "notice": "Your decision on the application as a member of the group \"{{group}}\"",
                     "unavailable": "The \"{{group}}\" group cannot make a decision at the current stage of the commission's work. We will let you know when a decision is available."
                 },
@@ -148,8 +148,8 @@
                             "title": "Rate the application"
                         },
                         "accept": {
-                            "title": "Accredit the company",
-                            "success": "The company is accredited"
+                            "title": "Onboard the company",
+                            "success": "The company is onboarded"
                         },
                         "reject": {
                             "title": "Reject the application",
@@ -160,7 +160,7 @@
                         "choice": {
                             "approve": "Approve the application",
                             "decline": "Reject the application",
-                            "accept": "Accredit the company",
+                            "accept": "Onboard the company",
                             "reject": "Reject the application"
                         },
                         "participant": {
@@ -178,8 +178,8 @@
                         },
                         "duration": {
                             "title": {
-                                "finite": "Period of accreditation in the registry, up to {{value}} months.",
-                                "infinite": "The period of accreditation in the register is not set, 0 - perpetual accreditation"
+                                "finite": "Period of onboarding to the vendor pool, up to {{value}} months.",
+                                "infinite": "The period of onboarding to the vendor pool is not set, 0 - perpetual onboarding"
                             },
                             "unit": "mont."
                         }

@@ -3,11 +3,11 @@
         "aps": {
             "list": {
                 "header": {
-                    "title": "Applications in registry"
+                    "title": "Applications for the vendor pool"
                 },
                 "empty": {
                     "title": "No applications have been received yet",
-                    "text": "All incoming accreditation applications will be shown in this list"
+                    "text": "All incoming onboarding applications will be shown in this list"
                 },
                 "search": {
                     "tooltip": "Search is carried out by fields:\n• Company name"

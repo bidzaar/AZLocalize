@@ -1,62 +1,62 @@
 {
-    "req.prt": {
-        "list": {
-            "header": {
-                "title": "Vendors",
-                "search": "Number, TIN, Name, Email, Description, Phone"
-            },
-            "empty": {
-                "text": "Nothing found for your search..."
-            },
-            "sorting": {
-                "status": "Status",
-                "statusDate": "Status change",
-                "overlapTagsCount": "Tag match"
-            },
-            "filters": {
-                "status": {
-                    "title": "Status"
-                },
-                "address": {
-                    "title": "Location"
-                },
-                "invitation": {
-                    "title": "Who invited"
-                },
-                "invited_by": {
-                    "title": "Who invited"
-                }
-            },
-            "card": {
-                "wins": {
-                    "tooltip": "Wins/Participations"
-                },
-                "tags": {
-                    "tooltip": "Number of matching tags"
-                },
-                "invite": {
-                    "no_profile": "Company profile not created",
-                    "again": {
-                        "action": "Invite again",
-                        "success": "Invitation sent"
-                    }
-                },
-                "invite_again": {
-                    "action": "Invite again",
-                    "success": "Invitation sent"
-                }
-            },
-            "actions": {
-                "download_report": "Download the \"Vendors\" report",
-                "open_request": "Public request",
-                "open_events": "Request report",
-                "invite": "Invite",
-                "invite_site": "Invite from the platform",
-                "invite_tags": "Invite by request tags",
-                "invite_similar": "Invite from related requests",
-                "invite_intelligence": "Invite with AI",
-                "open_chat": "Chat with the buyer"
-            }
+  "req.prt": {
+    "list": {
+      "header": {
+        "title": "Vendors",
+        "search": "Number, TIN, Name, Email, Description, Phone"
+      },
+      "empty": {
+        "text": "Nothing found for your search..."
+      },
+      "sorting": {
+        "status": "Status",
+        "statusDate": "Status change",
+        "overlapTagsCount": "Tag match"
+      },
+      "filters": {
+        "status": {
+          "title": "Status"
+        },
+        "address": {
+          "title": "Location"
+        },
+        "invitation": {
+          "title": "Who invited"
+        },
+        "invited_by": {
+          "title": "Who invited"
         }
+      },
+      "card": {
+        "wins": {
+          "tooltip": "Wins/Participations"
+        },
+        "tags": {
+          "tooltip": "Number of matching tags"
+        },
+        "invite": {
+          "no_profile": "Company profile not created",
+          "again": {
+            "action": "Invite again",
+            "success": "Invitation sent"
+          }
+        },
+        "invite_again": {
+          "action": "Invite again",
+          "success": "Invitation sent"
+        }
+      },
+      "actions": {
+        "download_report": "Download the \"Vendors\" report",
+        "open_request": "Public request",
+        "open_events": "Request report",
+        "invite": "Invite",
+        "invite_site": "Invite from the platform",
+        "invite_tags": "Invite by request tags",
+        "invite_similar": "Invite from related requests",
+        "invite_intelligence": "Invite with AI",
+        "open_chat": "Chat with the buyer"
+      }
     }
+  }
 }

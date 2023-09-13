@@ -11,10 +11,10 @@
             },
             "payment": {
                 "0": "Free participation",
-                "1": "Supplier only",
+                "1": "Vendor only",
                 "2": "Customer only",
-                "3": "Predominantly supplier",
-                "4": "Predominantly customer"
+                "3": "Mainly vendor",
+                "4": "Mainly customer"
             }
         },
         "number": {
@@ -22,18 +22,18 @@
             "long": "Company ID {{ value }}"
         },
         "stars": {
-            "text": "Assessment of the activity and reliability of the company. Customers consider rating when choosing suppliers",
+            "text": "Assessment of the activity and reliability of the company. Customers consider rating when selection vendors",
             "more": "Learn more"
         },
         "activity": {
-            "text": "Activity indicator. Companies with green activity respond to requests more often and are reliable suppliers"
+            "text": "Activity indicator. Companies with green activity respond to requests more often and are reliable vendors"
         },
         "marker_verify": {
             "false": {
                 "title": "Information is not verified"
             },
             "true": {
-                "title": "Verified by ProcureSaaS"
+                "title": "Verified by Bidzaar"
             },
             "notice": "Company details are confirmed when paying the commission for winning the request"
         },

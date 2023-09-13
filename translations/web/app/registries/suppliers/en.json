@@ -3,7 +3,7 @@
         "sup": {
             "list": {
                 "header": {
-                    "title": "Companies in registry",
+                    "title": "Companies in the vendor pool",
                     "selected": "Selected:"
                 },
                 "actions": {
@@ -11,8 +11,8 @@
                     "report": "Download companies list"
                 },
                 "empty": {
-                    "title": "Registry is empty",
-                    "text": "Invite companies to registry"
+                    "title": "Vendor pool is empty",
+                    "text": "Invite companies to vendor pool"
                 },
                 "search": {
                     "tooltip": "Search is carried out by fields:\n• Company name"
@@ -36,7 +36,7 @@
                         "title": "Status"
                     },
                     "expired_date": {
-                        "title": "Expiry date of accreditation",
+                        "title": "Expiry date of onboarding",
                         "options": {
                             "true": "Only expiring"
                         }

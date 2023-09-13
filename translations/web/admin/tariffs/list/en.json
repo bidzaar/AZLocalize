@@ -1,19 +1,19 @@
 {
-    "trf.list": {
-        "header": "Request rates",
-        "create": "Add a new rate",
-        "participants": "Tariff participants",
-        "status": "Tariff status",
-        "empty": "Tariffs not added",
-        "empty_search": "Nothing was found for your request...",
-        "search_tooltip": "The search is carried out by fields: Tariff name, Tariff code",
-        "dialogs": {
-            "create": {
-                "header": "Add a tariff",
-                "label": "Tariff name",
-                "cancel": "Cancel",
-                "submit": "Add"
-            }
-        }
+  "trf.list": {
+    "header": "Request rates",
+    "create": "Add a new rate",
+    "participants": "Tariff participants",
+    "status": "Tariff status",
+    "empty": "Tariffs not added",
+    "empty_search": "Nothing was found for your request...",
+    "search_tooltip": "The search is carried out by fields: Tariff name, Tariff code",
+    "dialogs": {
+      "create": {
+        "header": "Add a tariff",
+        "label": "Tariff name",
+        "cancel": "Cancel",
+        "submit": "Add"
+      }
     }
+  }
 }

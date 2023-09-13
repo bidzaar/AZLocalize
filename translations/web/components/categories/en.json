@@ -2,34 +2,34 @@
     "bdz.cat": {
         "list": {
             "empty": "No category is specified",
-            "append": "Specify a category",
-            "remove": "Remove the category",
+            "append": "Specify category",
+            "remove": "Remove category",
             "dialogs": {
                 "remove": {
-                    "title": "Remove the category",
+                    "title": "Remove category",
                     "cancel": "Cancel",
                     "submit": "Remove"
                 }
             }
         },
         "filter": {
-            "choose": "Choose >"
+            "choose": "Select >"
         },
         "tree": {
             "title": "Categories",
             "empty": "No categories are specified",
             "active": "Only active",
             "inactive": "The category is not active",
-            "childless": "There are no nested categories",
+            "childless": "There are no added categories",
             "actions": {
                 "menu": "Actions",
                 "rename": "Rename",
-                "create": "Add a category",
-                "append": "Add a sub-category",
+                "create": "Add category",
+                "append": "Add sub-category",
                 "up": "Move up",
                 "down": "Mode down",
                 "move": "Move",
-                "move_to_root": "To the root",
+                "move_to_root": "To the main category",
                 "move_to_node": "To another category",
                 "activate": "Set active",
                 "deactivate": "Set not active"
@@ -45,13 +45,13 @@
         },
         "selection": {
             "text": "No categories are specified",
-            "notice": "Categories directory is empty",
+            "notice": "Categories list is empty",
             "submit": "OK"
         }
     },
     "errors": {
         "logic": {
-            "Category.CycleDetected": "You cannot move a parent category to a child category"
+            "Category.CycleDetected": "You cannot move a main category to a sub-category"
         }
     }
 }

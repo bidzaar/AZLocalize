@@ -1,140 +1,140 @@
 {
-    "controls": {
-        "list": {
-            "total": "Всего: {{value}}"
-        }
-    },
-    "errors": {
-        "common": {
-            "default": "An error has occurred. Please contact your administrator"
-        },
-        "http": {
-            "status": {
-                "400": "bad request",
-                "401": "Your session has expired. Please reload the page or login again",
-                "403": "access denied",
-                "404": "resource not found",
-                "405": "method not allowed",
-                "408": "request timeout",
-                "409": "invalid data",
-                "413": "file is too large",
-                "500": "internal server error",
-                "501": "not implemented",
-                "502": "bad gateway",
-                "503": "service unavailable",
-                "504": "gateway timeout"
-            }
-        },
-        "logic": {
-            "default": "An error has occurred. Please contact your administrator",
-            "Tags": {
-                "TagHasInStopList": "The added tag is in the stop list."
-            },
-            "UserManagement": {
-                "Admin": {
-                    "LastAdmin": "You are the only employee with the \"Manage ProcureSaas team\" rights. Transfer access rights to another employee and redo the action.",
-                    "BlockYourself": "You can't block yourself."
-                }
-            }
-        }
-    },
-    "user_management": {
-        "badges": {
-            "filter": {
-                "empty": "Badges not found",
-                "search": "Search...",
-                "show": "Show badges"
-            }
-        }
-    },
-    "validation": {
-        "file_too_large": "File is to large",
-        "greater_than": "Value must be greater than {{value}}",
-        "invalid_date_format": "Invalid date format",
-        "less_than": "Value must be less than {{value}}",
-        "max": "Maximum value is {{value}}",
-        "max_length": "Maximum length is {{value}}",
-        "min": "Minimum value is {{value}}",
-        "min_length": "Minimum length is {{value}}",
-        "notEmpty": "Field must not be empty",
-        "required": "Required field",
-        "unsupported_file_format": "Unsupported file format",
-        "wrong_code": "Wrong code",
-        "wrong_format": "Wrong format"
-    },
-    "core": {
-        "marketplace": {
-            "name": "ProcureSaas"
-        },
-        "user_toolbar": {
-            "login": "Login",
-            "register": "Company Registration",
-            "logout": "Log out"
-        },
-        "navigation": {
-            "all_companies": "All companies",
-            "team": "Team",
-            "ratings": "Company ranking",
-            "buyers": "Buyers",
-            "requests": "Requests",
-            "stop_list": "Stop tag list",
-            "merge_tags": "Tag Merge",
-            "tariffs": "Comission packages",
-            "categories": "Categories",
-            "promo_codes": "Promo codes"
-        }
-    },
-    "dashboard": {
-        "guest": {
-            "request_access": {
-                "title": "Hello",
-                "text": "to access the administration you need to be a member of the ProcureSaas team.",
-                "action": "I want to join the ProcureSaas team"
-            },
-            "wait_for_approval": {
-                "title": "Application is submitted",
-                "text": "Wait for your admin status to be confirmed."
-            }
-        }
-    },
-    "filters": {
-        "clear": "Clear",
-        "clear_all": "Clear",
-        "filter": "Filter",
-        "more_filters": "More filters",
-        "operators": {
-            "date_after": "date after",
-            "date_before": "date before",
-            "equal": "equals",
-            "exact_date": "exact date",
-            "greater_than": "more",
-            "greater_than_or_equal": "more or equal",
-            "less_than": "less",
-            "less_than_or_equal": "less or equal",
-            "not_equal": "not equal",
-            "period": "period",
-            "range": "in the range"
-        },
-        "placeholders": {
-            "end": "end",
-            "enter_number": "enter the number",
-            "enter_text_value": "provide a text value",
-            "from": "from",
-            "to": "before"
-        },
-        "search": "find...",
-        "show": "show filters",
-        "hide": "hide filters",
-        "tooltip": "The search is performed on the following fields: {{value}}",
-        "sorting": "sort"
-    },
-    "common": {
-        "rights": {
-            "1": "Buyer",
-            "2": "Supplier",
-            "4": "Applicant for onboarding to the vendor pool",
-            "256": "Group admin",
-            "512": "Vendor Pool Administrator"
-        }
+  "controls": {
+    "list": {
+      "total": "Entries: {{value}}"
     }
+  },
+  "errors": {
+    "common": {
+      "default": "An error has occurred. Please contact your administrator"
+    },
+    "http": {
+      "status": {
+        "400": "bad request",
+        "401": "Your session has expired. Please reload the page or login again",
+        "403": "access denied",
+        "404": "resource not found",
+        "405": "method not allowed",
+        "408": "request timeout",
+        "409": "invalid data",
+        "413": "file is too large",
+        "500": "internal server error",
+        "501": "not implemented",
+        "502": "bad gateway",
+        "503": "service unavailable",
+        "504": "gateway timeout"
+      }
+    },
+    "logic": {
+      "default": "An error has occurred. Please contact your administrator",
+      "Tags": {
+        "TagHasInStopList": "The added tag is in the stop list."
+      },
+      "UserManagement": {
+        "Admin": {
+          "LastAdmin": "You are the only employee with the \"Manage Bidzaar team\" rights. Transfer access rights to another employee and redo the action.",
+          "BlockYourself": "You can't block yourself."
+        }
+      }
+    }
+  },
+  "user_management": {
+    "badges": {
+      "filter": {
+        "empty": "Badges not found",
+        "search": "Search...",
+        "show": "Show badges"
+      }
+    }
+  },
+  "validation": {
+    "file_too_large": "File is to large",
+    "greater_than": "Value must be greater than {{value}}",
+    "invalid_date_format": "Invalid date format",
+    "less_than": "Value must be less than {{value}}",
+    "max": "Maximum value is {{value}}",
+    "max_length": "Maximum length is {{value}}",
+    "min": "Minimum value is {{value}}",
+    "min_length": "Minimum length is {{value}}",
+    "notEmpty": "Field must not be empty",
+    "required": "Required field",
+    "unsupported_file_format": "Unsupported file format",
+    "wrong_code": "Wrong code",
+    "wrong_format": "Wrong format"
+  },
+  "core": {
+    "marketplace": {
+      "name": "BIDZAAR"
+    },
+    "user_toolbar": {
+      "login": "Login",
+      "register": "Company Registration",
+      "logout": "Log out"
+    },
+    "navigation": {
+      "all_companies": "All companies",
+      "team": "Team",
+      "ratings": "Company ranking",
+      "buyers": "Buyers",
+      "requests": "Requests",
+      "stop_list": "Stop tag list",
+      "merge_tags": "Tag Merge",
+      "tariffs": "Comission packages",
+      "categories": "Categories",
+      "promo_codes": "Promo codes"
+    }
+  },
+  "dashboard": {
+    "guest": {
+      "request_access": {
+        "title": "Hello",
+        "text": "to access the administration you need to be a member of the Bidzaar team.",
+        "action": "I want to join the Bidzaar team"
+      },
+      "wait_for_approval": {
+        "title": "Application is submitted",
+        "text": "Wait for your admin status to be confirmed."
+      }
+    }
+  },
+  "filters": {
+    "clear": "Clear",
+    "clear_all": "Clear",
+    "filter": "Filter",
+    "more_filters": "More filters",
+    "operators": {
+      "date_after": "date after",
+      "date_before": "date before",
+      "equal": "equals",
+      "exact_date": "exact date",
+      "greater_than": "more",
+      "greater_than_or_equal": "more or equal",
+      "less_than": "less",
+      "less_than_or_equal": "less or equal",
+      "not_equal": "not equal",
+      "period": "period",
+      "range": "in the range"
+    },
+    "placeholders": {
+      "end": "end",
+      "enter_number": "enter the number",
+      "enter_text_value": "provide a text value",
+      "from": "from",
+      "to": "before"
+    },
+    "search": "find...",
+    "show": "show filters",
+    "hide": "hide filters",
+    "tooltip": "The search is performed on the following fields: {{value}}",
+    "sorting": "sort"
+  },
+  "common": {
+    "rights": {
+      "1": "Buyer",
+      "2": "Vendor",
+      "4": "Applicant for onboarding to the vendor pool",
+      "256": "Group admin",
+      "512": "Vendor Pool Administrator"
+    }
+  }
 }

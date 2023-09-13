@@ -6,43 +6,43 @@
                 "long": "Rights are not defined"
             },
             "1": {
-                "short": "RFx",
-                "long": "RFx"
+                "short": "Request Submission",
+                "long": "Request Submission"
             },
             "2": {
-                "short": "Supplier",
-                "long": "Supplier"
+                "short": "Bids Submission",
+                "long": "Bids Submission"
             },
             "4": {
-                "short": "Request Accred.",
-                "long": "Request Accreditation"
+                "short": "Application for Onboarding",
+                "long": "Application for Onboarding"
             },
             "8": {
-                "short": "Manage Accred.",
-                "long": "Manage Accreditation Pools"
+                "short": "Vendor Pools Management",
+                "long": "Vendor Pools Management"
             },
             "16": {
-                "short": "CM",
-                "long": "Manage Company"
+                "short": "Company Management",
+                "long": "Company Management"
             },
             "128": {
                 "short": "CPO",
                 "long": "Chief Procurement Officer"
             },
             "256": {
-                "short": "Manage groups",
-                "long": "Manage groups"
+                "short": "Manage Groups",
+                "long": "Manage Groups"
             },
             "512": {
-                "short": "Vendor Registration",
-                "long": "Vendor Registration"
+                "short": "Vendor Management",
+                "long": "Vendor Management"
             },
             "1024": {
-                "short": "Vendor Lists",
-                "long": "Vendor Lists"
+                "short": "Vendor Pools",
+                "long": "Vendor Pools"
             },
             "2048": {
-                "short": "CVO",
+                "short": "Chief Vendor Officer",
                 "long": "Chief Vendor Officer"
             }
         }

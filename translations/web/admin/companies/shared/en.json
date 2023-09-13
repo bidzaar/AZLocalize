@@ -1,74 +1,74 @@
 {
-    "cmp.shared": {
-        "enums": {
-            "rights": {
-                "0": "Access rights are not assigned",
-                "1": "Buyer",
-                "2": "Vendor",
-                "4": "Onboardings",
-                "8": "Vendor Pool Management",
-                "16": "Company Administrator",
-                "128": "Procurement Manager",
-                "512": "Vendor pools",
-                "2048": "Onboarding in vendor pools"
-            }
+  "cmp.shared": {
+    "enums": {
+      "rights": {
+        "0": "Access rights are not assigned",
+        "1": "Buyer",
+        "2": "Vendor",
+        "4": "Onboardings",
+        "8": "Vendor Pool Management",
+        "16": "Company Administrator",
+        "128": "Procurement Manager",
+        "512": "Vendor pools",
+        "2048": "Onboarding in vendor pools"
+      }
+    },
+    "list": {
+      "title": "Companies",
+      "selected_title": "Selected:",
+      "filters": {
+        "tags": "Companies sell",
+        "rights": "Access rights",
+        "badges": "Badges",
+        "location": "Location",
+        "areas": "Business region",
+        "shown": {
+          "title": "Shown on platform",
+          "true": "Are shown",
+          "false": "Hidden"
         },
-        "list": {
-            "title": "Companies",
-            "selected_title": "Selected:",
-            "filters": {
-                "tags": "Companies sell",
-                "rights": "Access rights",
-                "badges": "Badges",
-                "location": "Location",
-                "areas": "Business region",
-                "shown": {
-                    "title": "Shown on platform",
-                    "true": "Are shown",
-                    "false": "Hidden"
-                },
-                "phantom": {
-                    "title": "Phantom accounts",
-                    "true": "Only phantom accounts",
-                    "false": "Not phantoms accounts"
-                },
-                "verified": {
-                    "title": "Verified",
-                    "true": "Only verified vendors",
-                    "false": "Only unverified vendors"
-                },
-                "deleted": {
-                    "title": "Show deleted",
-                    "false": "Only active",
-                    "true": "Deleted only"
-                },
-                "sell_tags": "Companies sell",
-                "buy_tags": "Companies buy",
-                "category": "Category"
-            },
-            "sort": {
-                "registration_date": "Date of company registration"
-            },
-            "search": "TIN, Brand, Legal name, Company code, Description, Legal address, Tags, Phone number, Email",
-            "empty": "Nothing found for your inquiry...",
-            "crm": "CRM",
-            "actions": {
-                "notify_users_tooltip": "Send email"
-            }
+        "phantom": {
+          "title": "Phantom accounts",
+          "true": "Only phantom accounts",
+          "false": "Not phantoms accounts"
         },
-        "email": {
-            "header": "to send a email",
-            "subject_label": "Subject:",
-            "subject_placeholder": "Email subject",
-            "message_placeholder": "Message",
-            "to_label": "To whom:",
-            "to_text": "Employees of companies (selected companies: {{value}})",
-            "from_label": "From:",
-            "success": "Message sent",
-            "actions": {
-                "cancel": "Cancel",
-                "submit": "to send a message"
-            }
-        }
+        "verified": {
+          "title": "Verified",
+          "true": "Only verified vendors",
+          "false": "Only unverified vendors"
+        },
+        "deleted": {
+          "title": "Show deleted",
+          "false": "Only active",
+          "true": "Deleted only"
+        },
+        "sell_tags": "Companies sell",
+        "buy_tags": "Companies buy",
+        "category": "Category"
+      },
+      "sort": {
+        "registration_date": "Date of company registration"
+      },
+      "search": "TIN, Brand, Legal name, Company code, Description, Legal address, Tags, Phone number, Email",
+      "empty": "Nothing found for your inquiry...",
+      "crm": "CRM",
+      "actions": {
+        "notify_users_tooltip": "Send email"
+      }
+    },
+    "email": {
+      "header": "to send a email",
+      "subject_label": "Subject:",
+      "subject_placeholder": "Email subject",
+      "message_placeholder": "Message",
+      "to_label": "To whom:",
+      "to_text": "Employees of companies (selected companies: {{value}})",
+      "from_label": "From:",
+      "success": "Message sent",
+      "actions": {
+        "cancel": "Cancel",
+        "submit": "to send a message"
+      }
     }
+  }
 }

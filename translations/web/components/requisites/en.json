@@ -34,18 +34,18 @@
             },
             "dialog": {
                 "confirmation": {
-                    "header": "Company requisites",
-                    "warning": "Changing the requisites will require a re-verification of the company. The status <b>\"Verified\"</b> will be removed for the time of verification.",
+                    "header": "Company details",
+                    "warning": "Changing company details will require a re-verification of the company. The status <b>\"Verified\"</b> will be removed for the time of verification.",
                     "cancel": "Cancel",
                     "submit": "Save"
                 },
                 "loading": {
-                    "header": "Company requisites"
+                    "header": "Company details"
                 },
                 "duplicate": {
-                    "header": "It is not possible to change the requisites",
-                    "admin": "The company with the specified requisites is already registered and verified on the site.",
-                    "user": "The company with the specified requisites is already registered on the site.\nIf this is your company - contact the ProcureSaas support team.",
+                    "header": "It is not possible to change the company details",
+                    "admin": "The company with the specified details is already registered and verified on the platform.",
+                    "user": "The company with the specified details is already registered on the platform.\nIf this is your company - contact the Bidzaar support team.",
                     "close": "Close"
                 }
             }

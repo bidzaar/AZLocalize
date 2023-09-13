@@ -10,7 +10,7 @@
         },
         "status": {
             "0": "Draft",
-            "1": "Сurrent",
+            "1": "Current",
             "2": "Not valid"
         }
     }

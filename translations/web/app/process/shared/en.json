@@ -5,7 +5,7 @@
             "dialog": {
                 "title": "Favorites",
                 "text": "Favorites are available for employees of companies registered on Bidzzar.",
-                "sign": "Sing in",
+                "sign": "Log in",
                 "register": "Register a company"
             },
             "blocked": {

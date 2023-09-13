@@ -4,18 +4,18 @@
             "general": {
                 "title": "Summary",
                 "nda": {
-                    "title": "Enable prequalification signing step",
-                    "sub_title": "Participants gain access to the request description after your confirmation"
+                    "title": "Enable prequalification/NDA signing step",
+                    "sub_title": "Vendors gain access to the request description after your confirmation"
                 },
                 "description_and_files": {
                     "title": "Description and files",
                     "placeholder": "Specify the subject of your request...",
                     "add_files": "Add terms of reference, specifications, draft contract, etc.",
-                    "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the site."
+                    "warning_text": "The documents are available to the supplying companies.\n Login or register a company on the platform."
                 },
                 "contact_info": {
                     "title": "The contact person",
-                    "add_contact": "Indicate a person for communication with suppliers"
+                    "add_contact": "Indicate a person for communication with vendors"
                 },
                 "delivery_address": {
                     "title": "Delivery address",
@@ -62,66 +62,66 @@
                 },
                 "open": "Open questionnaire",
                 "setup": "Setup questionnaire",
-                "empty": "Customize the participant questionnaire, set non-price request conditions and criteria for comparison of offers",
+                "empty": "Customize the vendor questionnaire, set non-price request conditions and criteria for comparison of bids",
                 "forbidden": "The information is available to supplier companies.\nLogin or register a company on the site."
             },
             "gold": {
-                "title": "ProcureSaaS magic",
+                "title": "Bidzaar magic",
                 "link": "How does it work?",
                 "text": {
                     "message": "Make the request simple, fast and efficient.",
-                    "warning": "It is impossible to disable magic after publishing the request",
-                    "read": "Magic is on"
+                    "warning": "It is impossible to disable magic after submitting the request",
+                    "read": "Magic is up"
                 },
                 "select": {
-                    "label": "Specialization of participants",
-                    "placeholder": "Specify the specialization of participants"
+                    "label": "Specialization of vendors",
+                    "placeholder": "Specify the specialization of vendors"
                 },
-                "on": "Magic is enabled. The circle of participants is limited (the type of request is closed)",
-                "off": "Magic is disabled. The circle of participants is unlimited (the type of request is open)"
+                "on": "Magic is enabled. The list of vendors is limited (the type of request is closed)",
+                "off": "Magic is disabled. The list of vendors is unlimited (the type of request is open)"
             },
             "general_rules": {
                 "header": "Request rules"
             },
             "registries": {
-                "title": "Accreditation of participants",
+                "title": "Vendors onboarding",
                 "text": {
-                    "1": "Only suppliers accredited in the following registries can submit a bid",
-                    "2": "Accredited suppliers are automatically invited to the request when the request is published",
-                    "3": "Non-accredited participants may simultaneously pass accreditation and prepare a proposal"
+                    "1": "Only onboarded vendors in the following vendor pools can submit a bid",
+                    "2": "Onboarded vendors are automatically invited to the request when the request is published",
+                    "3": "Vendors may be onboarded and prepare a bid"
                 },
-                "add": "Add registry",
+                "add": "Add vendor pool",
                 "success": {
-                    "add": "Registries added",
-                    "delete": "Registry deleted"
+                    "add": "Vendor pools added",
+                    "delete": "Vendor pools deleted"
                 },
-                "empty": "Registries are not specified. Accreditation is not required to submit proposals",
+                "empty": "Vendor pools are not specified. Onboarding is not required to submit bids",
                 "item": {
-                    "open": "Open registry",
-                    "remove": "Remove registry"
+                    "open": "Enclose vendor pool",
+                    "remove": "Remove vendor pool"
                 },
                 "dialog": {
-                    "title": "Company Registries",
-                    "add": "Add Registry",
+                    "title": "Company Vendor Pools",
+                    "add": "Add Vendor Pool",
                     "cancel": "Cancel",
                     "empty": {
-                        "text": "Your company does not have published registries.",
-                        "add": "Manage registries",
+                        "text": "Your company does not have published vendor pools.",
+                        "add": "Manage vendor pools",
                         "close": "Understood"
                     },
                     "search": {
                         "placeholder": "Find...",
                         "remove": "Delete",
-                        "empty": "Registries not found"
+                        "empty": "Vendor pools not found"
                     }
                 }
             },
             "tariff": {
-                "title": "Service commission"
+                "title": "Service operator's Commission"
             },
             "collapse": "Collapse",
             "acceptance_end_date": {
-                "title": "Acceptance of proposals before",
+                "title": "Bids acceptance before",
                 "time_left": "Left"
             },
             "actions": {
@@ -133,22 +133,22 @@
                 "delete": "Delete draft",
                 "clone": "Dublicate",
                 "notice_report": "Download notice",
-                "message": "Ask a question to owner",
+                "message": "Ask a question to the buyer",
                 "cancel": "Cancel request",
-                "change_acceptance_end_date": "Change the deadline for accepting proposals",
+                "change_acceptance_end_date": "Change the deadline for accepting bids",
                 "favourites": "Add to favorites",
-                "in_favourite": "In favourite",
-                "refuse": "Refuse to participate",
-                "participate": "Start preparation\nproposal",
+                "in_favourite": "Add to favourites",
+                "refuse": "Refuse to submit a bid",
+                "participate": "Start preparation\nbid",
                 "new_stage": "Set up a new stage",
                 "publish_stage": "Post new stage",
                 "cancel_stage": "Cancel new stage",
                 "view_summary": "View request summary",
-                "view_journal": "Open the journal",
+                "view_journal": "Open report",
                 "violate": "Rule violation",
                 "violate_warning": "You have already requested permission. Wait for the Organizer's decision",
                 "return_to_summary": "Return to summary",
-                "end_round": "Finish accepting offers"
+                "end_round": "Finish accepting bids"
             },
             "navigation": {
                 "title": "Request Content",
@@ -157,7 +157,7 @@
                 "registries": "Accreditation of participants",
                 "tariff": "Service operator's Commission",
                 "team": "Team",
-                "magic": "ProcureSaaS magic",
+                "magic": "Bidzaar magic",
                 "internal": "More",
                 "aggregators": "Tender aggregator websites",
                 "commission": "Service operator's Commission",
@@ -168,12 +168,12 @@
             },
             "blocked": {
                 "title": "Request details not available",
-                "sub_title": "The customer excluded you from the request. The request is limited to the number of participants.\nHave questions? Contact the customer."
+                "sub_title": "The customer excluded you from the request. The request is limited to the number of vendors.\nHave questions? Contact the customer."
             },
             "message_payment": {
-                "text": "Participation in the request is free, without deposits and funds blocking!",
+                "text": "Bids submission is free, without deposits and funds blocking!",
                 "link": "What do I have to pay for?",
-                "start": "Start preparation proposal"
+                "start": "Start bid preparation"
             },
             "effective": {
                 "text": "Efficient Procurement Rules"

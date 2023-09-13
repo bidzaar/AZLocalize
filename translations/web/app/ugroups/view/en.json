@@ -41,7 +41,7 @@
                     "cancel": "Cancel",
                     "submit": "Delete",
                     "success": "Group has been deleted",
-                    "error": "Failed to delete the group. Please try again or try again later. If the problem persists, contact technical support"
+                    "error": "Failed to delete the group. Please try again or try again later. If the problem remains, contact technical support"
                 },
                 "unblock": {
                     "title": "Restore group",
@@ -49,7 +49,7 @@
                     "cancel": "Cancel",
                     "submit": "Restore",
                     "success": "Group has been restored",
-                    "error": "Failed to restore the group. Please try again or try again later. If the problem persists, contact technical support"
+                    "error": "Failed to restore the group. Please try again or try again later. If the problem remains, contact technical support"
                 },
                 "remove_user": {
                     "title": "Remove employee from group",

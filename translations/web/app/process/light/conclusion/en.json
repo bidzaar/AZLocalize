@@ -1,258 +1,258 @@
 {
-    "pl": {
-        "cnc": {
-            "enums": {
-                "reason": {
-                    "0": "Other",
-                    "1": "There are no suitable bids",
-                    "2": "There is no need to make a request",
-                    "3": "Refusal of the supplier from the terms of the contract",
-                    "4": "Cancellation of a purchase requirement",
-                    "5": "Changed terms of reference",
-                    "6": "Wrong winner selected",
-                    "7": "Not enough commercial offers",
-                    "null": "No offers"
-                },
-                "commission": {
-                    "0": "Invoice preparation",
-                    "1": "Waiting for payment",
-                    "2": "Partially paid",
-                    "3": "Paid"
-                },
-                "responsibility": {
-                    "title": "Bidzaar is not responsible for the conclusion of the contract with the customer",
-                    "descr": "[Contact the customer via chat or directly to continue the interaction on your order"
-                }
-            },
-            "forbidden": {
-                "title": {
-                    "participant.canceled": "Tender summary",
-                    "owner.status": "Tender summary",
-                    "owner.version": "Tender summary"
-                },
-                "message": {
-                    "participant.canceled": "Unfortunately, this request was cancelled by owner.",
-                    "owner.version": "Final results will be available after completion of receiving bids.",
-                    "owner.status": "The buyer has denied access to the bids of the vendors at the stage of receiving bids."
-                }
-            },
-            "content": {
-                "common": {
-                    "protocols": {
-                        "title": "Public protocols and documents of the tender commission",
-                        "notice": "Documents are available to all users of the platform",
-                        "upload": "Publish minutes or other document",
-                        "empty": "Protocols and documents of the tender commission are not uploaded"
-                    },
-                    "message": {
-                        "default": {
-                            "1": {
-                                "header": "Tender results",
-                                "notice": "Will be available to vendors after buyer's summary."
-                            },
-                            "2": {
-                                "header": "Tender results",
-                                "notice": "Will be available to vendors after buyer's summary."
-                            },
-                            "3": {
-                                "header": "Request is completed",
-                                "notice": "The buyer summarized the results and completed the request"
-                            },
-                            "4": {
-                                "header": "Request is canceled",
-                                "notice": "The organiser has cancelled the request"
-                            }
-                        },
-                        "orders": {
-                            "winner": "Congratulations, уou have got an order!",
-                            "looser": "The customer has selected another company as the winner.",
-                            "nobody": "Request is completed without winner selection.",
-                            "comment": "Buyer's comment",
-                            "questions": "Do you have any questions?",
-                            "message": "Contact the buyer.",
-                            "last_winner": {
-                                "title": "The customer excluded you from the winners",
-                                "text": "Nevertheless, according to the user agreement, the commission for the operation of the service must be paid"
-                            }
-                        }
-                    },
-                    "requests": {
-                        "text": "Find other requests for your profile",
-                        "open": "Find requests"
-                    },
-                    "payment": {
-                        "title": "Service operator's commission",
-                        "delay": "The invoice will be issued approximately {{ value }}",
-                        "email": "Invoice sent to your company email",
-                        "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"
-                    }
-                },
-                "owner": {
-                    "canceled": {
-                        "title": "Cancelled total ({{value}})",
-                        "order_title": "Canceled",
-                        "reason": "Reason"
-                    },
-                    "documents": {
-                        "title": "Stage documents",
-                        "stages": {
-                            "title": "Stage {{ index }}",
-                            "active": "current stage"
-                        },
-                        "files": {
-                            "comparison": "Comparison list",
-                            "participants": "Vendors",
-                            "proposals": "Bidding history",
-                            "versions": "Versions of the requests",
-                            "messages": "Messages from chats"
-                        }
-                    },
-                    "orders": {
-                        "canceled": {
-                            "stub": {
-                                "text": "Request cancelled"
-                            }
-                        },
-                        "finished": {
-                            "stub": {
-                                "text": "The request is completed without selecting a winner",
-                                "notice": "<b>Reason:</b> {{comment}}"
-                            }
-                        },
-                        "active": {
-                            "stub": {
-                                "has_proposals": {
-                                    "text": "No winner selected",
-                                    "notice": "Select the winner of the query on the Comparison tab"
-                                },
-                                "proposal_status": {
-                                    "text": "No bids yet",
-                                    "notice": "Check out our <a href=\"{{link}}\" target=\"_blank\">best practices for effective purchasing</a>"
-                                },
-                                "summarize_status": {
-                                    "text": "No bids",
-                                    "notice": "Carry out a new inquiry step based on our <a href=\"{{link}}\" target=\"_blank\">recommendations for effective purchasing</a>"
-                                }
-                            },
-                            "list": {
-                                "title": "Selection",
-                                "contacts": {
-                                    "title": "Contact person"
-                                },
-                                "documents": {
-                                    "title": "Documents",
-                                    "order": "Order",
-                                    "proposal": "Bid",
-                                    "chat": "Chat with vendor"
-                                },
-                                "reports": {
-                                    "title": "Express reports",
-                                    "notice": "Express reports help you quickly and easily find out the most important things about the counterparty. Available only for verified vendors."
-                                }
-                            },
-                            "actions": {
-                                "clear": "Deselect",
-                                "with": "Finish request",
-                                "without": "Finish request without winner",
-                                "create": "Select winner"
-                            },
-                            "vat": {
-                                "true": "incl. VAT",
-                                "false": "excl. VAT"
-                            }
-                        },
-                        "alternative": {
-                            "tooltip": "Alternative bid - {{value}}",
-                            "icon": "a"
-                        },
-                        "docs": {
-                            "order": "Selected vendors",
-                            "sentence": "Bid"
-                        }
-                    },
-                    "participations": {
-                        "title": "Vendors",
-                        "stage": "Stage",
-                        "participated": "Participated",
-                        "participated_tooltip": "Including rejected and blocked",
-                        "submitted_proposals": "Participants with an offer",
-                        "submitted_requests": "Submitted requests"
-                    },
-                    "savings": {
-                        "title": "Savings",
-                        "stubs": "To indicate the savings, complete the request with a winner selection.",
-                        "tooltip": "Specify savings",
-                        "help": "Why don't we calculate savings automatically?"
-                    }
-                },
-                "participant": {
-                    "orders": {
-                        "title": "Order",
-                        "my": "My bid",
-                        "alter": "Alternative {{ index }}"
-                    },
-                    "promo": {
-                        "title": "Procure goods and services to fulfil the order",
-                        "text": "Our managers will help you complete your tender as quickly as possible <b>for free</b>!",
-                        "order": "Make an order"
-                    }
-                },
-                "dialogs": {
-                    "no_rights_to_complete": {
-                        "title": "Not enough rights",
-                        "text": "Only the owner can complete the request."
-                    },
-                    "messages_reports": {
-                        "header": "Messages from chats",
-                        "broadcast": "Chat with all vendors",
-                        "team": "Team chat",
-                        "participants": "Chats with vendors",
-                        "empty": "There are no chats with vendors",
-                        "all": "All Request Chats"
-                    },
-                    "versions_reports": {
-                        "header": "Request versions",
-                        "history": "History of changes",
-                        "notice": "Request's notice",
-                        "draft": "draft",
-                        "active": "active",
-                        "inactive": "inactive"
-                    },
-                    "saving_editor": {
-                        "header": "Savings",
-                        "cancel": "Cancel",
-                        "submit": "Save",
-                        "label": "Savings achieved"
-                    },
-                    "request_completion": {
-                        "true": {
-                            "text": "Your selection:"
-                        },
-                        "false": {
-                            "text": "Your selection has not been formed.",
-                            "reason": "Specify the reason:",
-                            "comment": "Reason...",
-                            "comment_label": "Provide a detailed reason that participants can understand",
-                            "chars_validation": "Please enter at least {{value}} characters without extra punctuation",
-                            "empty": "At the moment there are no submitted proposals."
-                        },
-                        "vat": {
-                            "true": "incl. VAT",
-                            "false": "excl. VAT"
-                        },
-                        "actions": {
-                            "cancel": "Cancel",
-                            "submit": "Complete",
-                            "success": "Request completed. Messages have been sent to vendors"
-                        },
-                        "mail": {
-                            "title": "We will notify vendors when the request is completed",
-                            "subtitle": "You can add our letter for your message to the vendors"
-                        },
-                        "header": "Request completion"
-                    }
-                }
-            }
+  "pl": {
+    "cnc": {
+      "enums": {
+        "reason": {
+          "0": "Other",
+          "1": "There are no suitable bids",
+          "2": "There is no need to make a request",
+          "3": "Refusal of the supplier from the terms of the contract",
+          "4": "Cancellation of a purchase requirement",
+          "5": "Changed terms of reference",
+          "6": "Wrong winner selected",
+          "7": "Not enough commercial offers",
+          "null": "No offers"
+        },
+        "commission": {
+          "0": "Invoice preparation",
+          "1": "Waiting for payment",
+          "2": "Partially paid",
+          "3": "Paid"
+        },
+        "responsibility": {
+          "title": "Bidzaar is not responsible for the conclusion of the contract with the customer",
+          "descr": "[Contact the customer via chat or directly to continue the interaction on your order"
         }
+      },
+      "forbidden": {
+        "title": {
+          "participant.canceled": "Tender summary",
+          "owner.status": "Tender summary",
+          "owner.version": "Tender summary"
+        },
+        "message": {
+          "participant.canceled": "Unfortunately, this request was cancelled by owner.",
+          "owner.version": "Final results will be available after completion of receiving bids.",
+          "owner.status": "The buyer has denied access to the bids of the vendors at the stage of receiving bids."
+        }
+      },
+      "content": {
+        "common": {
+          "protocols": {
+            "title": "Public protocols and documents of the tender commission",
+            "notice": "Documents are available to all users of the platform",
+            "upload": "Publish minutes or other document",
+            "empty": "Protocols and documents of the tender commission are not uploaded"
+          },
+          "message": {
+            "default": {
+              "1": {
+                "header": "Tender results",
+                "notice": "Will be available to vendors after buyer's summary."
+              },
+              "2": {
+                "header": "Tender results",
+                "notice": "Will be available to vendors after buyer's summary."
+              },
+              "3": {
+                "header": "Request is completed",
+                "notice": "The buyer summarized the results and completed the request"
+              },
+              "4": {
+                "header": "Request is canceled",
+                "notice": "The organiser has cancelled the request"
+              }
+            },
+            "orders": {
+              "winner": "Congratulations, уou have got an order!",
+              "looser": "The customer has selected another company as the winner.",
+              "nobody": "Request is completed without winner selection.",
+              "comment": "Buyer's comment",
+              "questions": "Do you have any questions?",
+              "message": "Contact the buyer.",
+              "last_winner": {
+                "title": "The customer excluded you from the winners",
+                "text": "Nevertheless, according to the user agreement, the commission for the operation of the service must be paid"
+              }
+            }
+          },
+          "requests": {
+            "text": "Find other requests for your profile",
+            "open": "Find requests"
+          },
+          "payment": {
+            "title": "Service operator's commission",
+            "delay": "The invoice will be issued approximately {{ value }}",
+            "email": "Invoice sent to your company email",
+            "agreement": "Commission in accordance with the <a href=\"{{value}}\" target=\"_blank\" rel=\"noopener noreferrer\">User agreement</a>"
+          }
+        },
+        "owner": {
+          "canceled": {
+            "title": "Cancelled total ({{value}})",
+            "order_title": "Canceled",
+            "reason": "Reason"
+          },
+          "documents": {
+            "title": "Stage documents",
+            "stages": {
+              "title": "Stage {{ index }}",
+              "active": "current stage"
+            },
+            "files": {
+              "comparison": "Comparison list",
+              "participants": "Vendors",
+              "proposals": "Bidding history",
+              "versions": "Versions of the requests",
+              "messages": "Messages from chats"
+            }
+          },
+          "orders": {
+            "canceled": {
+              "stub": {
+                "text": "Request cancelled"
+              }
+            },
+            "finished": {
+              "stub": {
+                "text": "The request is completed without selecting a winner",
+                "notice": "<b>Reason:</b> {{comment}}"
+              }
+            },
+            "active": {
+              "stub": {
+                "has_proposals": {
+                  "text": "No winner selected",
+                  "notice": "Select the winner of the query on the Comparison tab"
+                },
+                "proposal_status": {
+                  "text": "No bids yet",
+                  "notice": "Check out our <a href=\"{{link}}\" target=\"_blank\">best practices for effective purchasing</a>"
+                },
+                "summarize_status": {
+                  "text": "No bids",
+                  "notice": "Carry out a new inquiry step based on our <a href=\"{{link}}\" target=\"_blank\">recommendations for effective purchasing</a>"
+                }
+              },
+              "list": {
+                "title": "Selection",
+                "contacts": {
+                  "title": "Contact person"
+                },
+                "documents": {
+                  "title": "Documents",
+                  "order": "Order",
+                  "proposal": "Bid",
+                  "chat": "Chat with vendor"
+                },
+                "reports": {
+                  "title": "Express reports",
+                  "notice": "Express reports help you quickly and easily find out the most important things about the counterparty. Available only for verified vendors."
+                }
+              },
+              "actions": {
+                "clear": "Deselect",
+                "with": "Finish request",
+                "without": "Finish request without winner",
+                "create": "Select winner"
+              },
+              "vat": {
+                "true": "incl. VAT",
+                "false": "excl. VAT"
+              }
+            },
+            "alternative": {
+              "tooltip": "Alternative bid - {{value}}",
+              "icon": "a"
+            },
+            "docs": {
+              "order": "Selected vendors",
+              "sentence": "Bid"
+            }
+          },
+          "participations": {
+            "title": "Vendors",
+            "stage": "Stage",
+            "participated": "Participated",
+            "participated_tooltip": "Including rejected and blocked",
+            "submitted_proposals": "Participants with an offer",
+            "submitted_requests": "Submitted requests"
+          },
+          "savings": {
+            "title": "Savings",
+            "stubs": "To indicate the savings, complete the request with a winner selection.",
+            "tooltip": "Specify savings",
+            "help": "Why don't we calculate savings automatically?"
+          }
+        },
+        "participant": {
+          "orders": {
+            "title": "Order",
+            "my": "My bid",
+            "alter": "Alternative {{ index }}"
+          },
+          "promo": {
+            "title": "Procure goods and services to fulfil the order",
+            "text": "Our managers will help you complete your tender as quickly as possible <b>for free</b>!",
+            "order": "Make an order"
+          }
+        },
+        "dialogs": {
+          "no_rights_to_complete": {
+            "title": "Not enough rights",
+            "text": "Only the owner can complete the request."
+          },
+          "messages_reports": {
+            "header": "Messages from chats",
+            "broadcast": "Chat with all vendors",
+            "team": "Team chat",
+            "participants": "Chats with vendors",
+            "empty": "There are no chats with vendors",
+            "all": "All Request Chats"
+          },
+          "versions_reports": {
+            "header": "Request versions",
+            "history": "History of changes",
+            "notice": "Request's notice",
+            "draft": "draft",
+            "active": "active",
+            "inactive": "inactive"
+          },
+          "saving_editor": {
+            "header": "Savings",
+            "cancel": "Cancel",
+            "submit": "Save",
+            "label": "Savings achieved"
+          },
+          "request_completion": {
+            "true": {
+              "text": "Your selection:"
+            },
+            "false": {
+              "text": "Your selection has not been formed.",
+              "reason": "Specify the reason:",
+              "comment": "Reason...",
+              "comment_label": "Provide a detailed reason that participants can understand",
+              "chars_validation": "Please enter at least {{value}} characters without extra punctuation",
+              "empty": "At the moment there are no submitted proposals."
+            },
+            "vat": {
+              "true": "incl. VAT",
+              "false": "excl. VAT"
+            },
+            "actions": {
+              "cancel": "Cancel",
+              "submit": "Complete",
+              "success": "Request completed. Messages have been sent to vendors"
+            },
+            "mail": {
+              "title": "We will notify vendors when the request is completed",
+              "subtitle": "You can add our letter for your message to the vendors"
+            },
+            "header": "Request completion"
+          }
+        }
+      }
     }
+  }
 }

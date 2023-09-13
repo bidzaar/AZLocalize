@@ -6,7 +6,7 @@
             },
             "empty": {
                 "title": "There are no groups yet",
-                "text": "Groups allow to structure the company's employees and add them to the system elements "
+                "text": "Groups allow to structure the company's employees and add them to the system elements"
             },
             "search": {
                 "tooltip": "Search is carried out by fields:\n• Group name\n• User full name"
@@ -75,7 +75,7 @@
                         },
                         "default": {
                             "reason": "The group has not been created.",
-                            "notice": "Please try again or try again later. If the problem persists, contact technical support"
+                            "notice": "Please try again or try again later. If the problem remains, contact technical support"
                         }
                     },
                     "actions": {

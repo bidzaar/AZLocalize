@@ -12,7 +12,7 @@
                 "title": "Certification Failed",
                 "button": "Get certificate",
                 "description": {
-                    "RUS_FORK": "ProcureSaas, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG supplier"
+                    "RUS_FORK": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG vendor"
                 }
             },
             "info": {
@@ -103,7 +103,7 @@
                     },
                     "none": {
                         "title": "Certification has not been passed",
-                        "description": "ProcureSaas, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG vendor"
+                        "description": "Bidzaar, together with the National Research University Higher School of Economics, was the first in Russia to develop a methodology for easily and quickly checking companies for compliance with ESG principles. \nGet certified and get your status as an ESG vendor"
                     }
                 }
             },

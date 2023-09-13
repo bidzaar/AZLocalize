@@ -7,7 +7,7 @@
                         "profile": "Profile"
                     },
                     "name": {
-                        "placeholder": "Registry name"
+                        "placeholder": "Vendor pool name"
                     },
                     "descr": {
                         "title": "Description",
@@ -15,21 +15,21 @@
                     },
                     "files": {
                         "title": "Documents",
-                        "upload": "Upload registry documents"
+                        "upload": "Upload documents for the vendor pool"
                     },
                     "contact": {
                         "title": "Contact person",
                         "description": "Employee contacts not provided",
-                        "tooltip": "The contact will be available to registry members after accepting the invitation",
+                        "tooltip": "The contact will be available to the members of the vendor pool after accepting the invitation",
                         "edit": "Edit"
                     },
                     "related": {
                         "title": "Requirements",
-                        "description": "Before applying to the Vendor List, a vendor should be accredited in the related Vendors Lists",
-                        "upload": "Choose related published registries",
+                        "description": "Before applying to the Vendor Pool, a vendor should be onboarded to the related Vendors Pools",
+                        "upload": "Select related vendor pool",
                         "remove": "Remove",
                         "append": {
-                            "title": "Add published registry",
+                            "title": "Add vendor pool",
                             "submit": "Add"
                         }
                     }
@@ -37,10 +37,10 @@
                 "parameters": {
                     "title": "Settings",
                     "visibility": {
-                        "label": "Vendors List's Visibility"
+                        "label": "Vendors Pool's Visibility"
                     },
                     "validity": {
-                        "label": "Vendor's Accreditation Term",
+                        "label": "Vendor's Onboarding Term",
                         "unit": "months",
                         "notice": "0 for indefinitely",
                         "infinite": "Indefinitely"
@@ -55,8 +55,8 @@
                         "options": {
                             "scoring": {
                                 "score": {
-                                    "label": "Minimum scoring assessment for inclusion in the registry",
-                                    "value": "Minimum scoring assessment for inclusion in the registry: {{ value }}"
+                                    "label": "Minimum scoring assessment for inclusion to the vendor pool",
+                                    "value": "Minimum scoring assessment for inclusion to the vendor pool: {{ value }}"
                                 }
                             },
                             "accreditation": {
@@ -68,7 +68,7 @@
                                     "value": "Minimum scoring assessment for submitting an application for consideration by the Commission: {{ value }}"
                                 },
                                 "groups": {
-                                    "empty": "Accreditation commission is not set",
+                                    "empty": "Onboarding commission is not set",
                                     "configure": "Configure"
                                 }
                             }
@@ -78,9 +78,9 @@
             },
             "questionnaire_version_status": {
                 "1": "Draft",
-                "2": "Actual",
-                "3": "Acted",
-                "4": "Comes into force"
+                "2": "Active",
+                "3": "Used",
+                "4": "Becomes valid"
             }
         }
     }

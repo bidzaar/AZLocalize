@@ -5,7 +5,7 @@
                 "placeholder": "Search..."
             },
             "items": {
-                "empty": "There are no nested items",
+                "empty": "There are no added items",
                 "notfound": "No items were found"
             },
             "actions": {
