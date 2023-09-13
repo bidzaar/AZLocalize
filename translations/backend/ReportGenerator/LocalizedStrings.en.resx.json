@@ -94,7 +94,7 @@
     "Footer.Note": "Notes:",
     "Footer.NoteContent": "* VAT calculation is done using formulas and may differ in rounding error from the final one in the quotation",
     "Insight": "insight",
-    "InvitedBy.Bidzaar": "Bidzaar",
+    "InvitedBy.Bidzaar": "ProcureSaaS",
     "InvitedBy.Organizer": "Customer",
     "InvitedBy.Self": "Other",
     "MaxAlternativeProposalCountNotZero": "Allowed (count: {maxAlternativeProposalCount})",
