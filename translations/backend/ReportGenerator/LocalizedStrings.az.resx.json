@@ -367,5 +367,17 @@
     "ProcedureEvents.ProcedureCompleted.Participant.Winner": "Müştəri sizi qalib seçdi",
     "SortType.ByRank.PositionDisabled": "First rank first",
     "SortType.ByRank.PositionEnabled": "At the beginning with the first ranks by positions",
-    "ProposalHeader.OwnerRollback": "Təşkilatçı tərəfindən rədd edildi"
-}
+    "ProposalHeader.OwnerRollback": "Təşkilatçı tərəfindən rədd edildi",
+    "ProposalItemsDeviationType.Acceptable": "[AT] Mövqe və kəmiyyət üzrə sapma məqbuldur",
+    "Bot.Name": "[AT] ProcureSaas",
+    "ProposalItemsDeviationType.AcceptableByPosition": "[AT] Mövqeyə görə sapma məqbuldur",
+    "MessagesFromChats.ChannelWithAllParticipants": "[AT] Bütün iştirakçılarla kanal",
+    "MessagesFromChats.TeamChat": "[AT] Komanda Çatı tələb edin",
+    "ChatReport.FileName": "[AT] Söhbət",
+    "Comparision.DoNotHaveAny": "[AT] təqdim edilməyib",
+    "Position.StartPriceIfPositionDisable": "[AT] Vəzifə üzrə Spesifikasiyada göstərilmişdir",
+    "Positions": "[AT] Vəzifə üzrə spesifikasiya",
+    "CompanyProcedures.PermitDown": "[AT] İştirakçılar yalnız qiyməti aşağı sala bilər (endirim)",
+    "CompanyProcedures.PermitUp": "[AT] İştirakçılar yalnız qiyməti artıra bilər (hərrac)",
+    "CompanyProcedures.PermitUpDown": "[AT] İştirakçılar qiyməti qaldırıb aşağı sala bilərlər"
+  }
