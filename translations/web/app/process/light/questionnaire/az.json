@@ -1,8 +1,8 @@
 {
     "pl": {
         "qst": {
-            "back": "К запросу",
-            "disabled": "Неценовые критерии не включены в состав предложения участника",
+            "back": "Sorğuya qayıt",
+            "disabled": "Qeyri qiymət meyarları iştirakçının təklifinə daxil olunmayıb",
             "question_type": {
                 "title": "İştirakçının cavabı"
             },
