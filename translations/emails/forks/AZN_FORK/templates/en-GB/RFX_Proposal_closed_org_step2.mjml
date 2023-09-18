@@ -16,7 +16,7 @@
           <h1>Finalize the request and select a winner</h1>
           <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>End of bids submission:</b> from @ProcedureContext.AcceptanceEndDate</p>
           <div style="padding: 16px; background: #FFE0EE; border-radius:4px">
-            <p class="mb05 mt0" style="color:#AD1457;"><b>Why is it important to close a request? </b></p>
+            <p class="mb05 mt0" style="color:#05527C;"><b>Why is it important to close a request? </b></p>
             <ul class="small">
               <li>Increases the risk of contract disruption due to the long time required to finalize the results </li>
               <li>Vendor bid prices may become irrelevant</li>

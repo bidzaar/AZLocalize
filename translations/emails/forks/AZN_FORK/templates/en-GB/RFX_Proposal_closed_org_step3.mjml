@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="color:#AD1457">Finalize the request and select a winner</h1>
+          <h1 style="color:#05527C">Finalize the request and select a winner</h1>
           <p><b>Request:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>End of bids submission:</b> from @ProcedureContext.AcceptanceEndDate</p>
           <div style="padding: 16px; background: #CB0C00; color: #ffffff">
             <p class="mb05 mt0"><b>Why is it important to close a request? </b></p>

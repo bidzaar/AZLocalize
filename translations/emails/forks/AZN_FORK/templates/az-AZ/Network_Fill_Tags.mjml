@@ -13,12 +13,12 @@ Kimə:
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="font-size:120px;color:#AD1457;margin-bottom:0;font-weight:400">436</h1>
-          <p><span style="font-weight:700;color:#AD1457">— @ConfigurationContext.ProjectName-da 1 ay ərzində satınalmalarınızın sayı </span> Sizi dəvət etməyiblər?  <b> Sadəcə sizi tapmayıblar</b> 😢.</p>
+          <h1 style="font-size:120px;color:#05527C;margin-bottom:0;font-weight:400">436</h1>
+          <p><span style="font-weight:700;color:#05527C">— @ConfigurationContext.ProjectName-da 1 ay ərzində satınalmalarınızın sayı </span> Sizi dəvət etməyiblər?  <b> Sadəcə sizi tapmayıblar</b> 😢.</p>
           <p> @ConfigurationContext.ProjectName–da hər şey çox asan: Şirkətinizin fəaliyyət sahəsini qeyd edin. Teqlərlə istifadə edin. Hec bir yoxlanış etmirik.</p>
           <p> Teqləri qeyd etmək sadəcə 90 saniyə vaxtınızı alacaq🚀...</p>
         </mj-text>
-        <mj-button background-color="#AD1457" href="@ConfigurationContext.BaseUrl">Teqlərin ayarlalrı</mj-button>
+        <mj-button background-color="#05527C" href="@ConfigurationContext.BaseUrl">Teqlərin ayarlalrı</mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->
