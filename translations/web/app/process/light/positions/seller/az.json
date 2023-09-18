@@ -68,12 +68,12 @@
           "2": "Aşağı dərəcə",
           "3": "Mövcud deyil",
           "all": "Bütün maddələr",
-          "available": "[AT] Tenderə daxildir",
-          "not_available": "[AT] Tenderə daxil deyil",
-          "bad_prices": "[AT] Qiymətlər rəqiblərdən daha pisdir",
-          "forbidden": "Запрещены к подаче",
-          "permitted": "Разрешены к подаче",
-          "invalid": "Позиции с ошибками"
+          "available": "Təklifə daxildir",
+          "not_available": "Təklifə daxil deyil",
+          "bad_prices": "Qiymətlər rəqiblərdən daha pisdir",
+          "forbidden": "Təqdim etmək qadağandır",
+          "permitted": "Təqdim etməyə icazə var",
+          "invalid": "Səhv doldurulmuş maddə"
         }
       },
       "actions": {
@@ -106,7 +106,7 @@
           },
           "price": {
             "lt_minimum": "Mənfi rəqəm qəbul olunmur",
-            "gt_maximum": "[AT] 99 milyarddan aşağı qiymət göstərin",
+            "gt_maximum": "Aşağı qiymət göstərin",
             "equal_to_zero": "Qiyməti qeyd olunmayıb",
             "equal_to_zero_count_gte_zero": "Qiyməti qeyd olunmayıb. Mövqe yoxdursa, \"Stokda yoxdur\" yazın",
             "start_price_auction": "Vahid qiymətiniz  {{currency}}({{price}}{{currency}})Sifarişçi tərəfindən müəyyən edilmiş vahid üçün minimum qiymətdən ({{startPrice}} {{currency}}) aşağıdır",
@@ -116,8 +116,8 @@
             "refer_price_auction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha çox.",
             "refer_price_reduction": "Təklifin məbləği 'qiymət dəyişikliyi addımı' qaydasını pozur. Tövsiyə olunan məbləğ: {{price}} {{currency}} və ya daha az.",
             "refer_price_all": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı.",
-            "step_down_is_not_overtaken": "[AT] Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı. Qaydanı pozaraq təklifi dəyişdirmək üçün təklif sekmesinde icazə istəyin",
-            "step_up_is_not_overtaken": "[AT] Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı. Qaydanı pozaraq təklifi dəyişdirmək üçün təklif sekmesinde icazə istəyin"
+            "step_down_is_not_overtaken": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı. Qaydanı pozaraq təklifi dəyişdirmək üçün təklif bölməsində icazə istəyin",
+            "step_up_is_not_overtaken": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı. Qaydanı pozaraq təklifi dəyişdirmək üçün təklif bölməsində icazə istəyin"
           }
         }
       }

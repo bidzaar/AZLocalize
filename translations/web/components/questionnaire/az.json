@@ -32,61 +32,61 @@
             "editor": {
                 "content": {
                     "title": "Redaktor",
-                    "group": "[AT] Bölmə adı",
+                    "group": "Bölmənin adı",
                     "text": "Sualın mətni",
                     "type": "Cavab növü",
                     "comment": "Təsvir (məcburi deyil)",
-                    "upload": "Прикрепить файл"
+                    "upload": "Fayl əlavə et"
                 },
                 "parameters": {
-                    "title": "Параметры",
+                    "title": "Seçimlər",
                     "required": {
-                        "title": "Обязательный",
-                        "descr": "Участник должен ответить на вопрос"
+                        "title": "Məcburi",
+                        "descr": "İştirakçı suala cavab verməlidir"
                     },
                     "private": {
-                        "title": "Приватный",
-                        "descr": "Ответ виден только организатору"
+                        "title": "Özəl",
+                        "descr": "Cavabı yalnız təşkilatçı görür"
                     },
                     "comment": {
-                        "title": "Комментарий",
-                        "descr": "Участник может дополнить ответ комментарием"
+                        "title": "Şəhr",
+                        "descr": "İştirakçı şərh əlavə edə bilər"
                     },
                     "attaches": {
-                        "title": "Файлы",
-                        "descr": "К ответу можно прикрепить файл\t\n"
+                        "title": "Faylar",
+                        "descr": "Cavaba fayl əlavə etmək olar\t\n"
                     },
                     "comments": "Cavab haqqında şərh yazmağa icazə vermək",
                     "files": "Cavab üçün faylların əlavə edilməsinə icazə vermək"
                 },
                 "logic": {
                     "title": "Məntiq",
-                    "transition": "Переход",
-                    "answer": "Ответ",
-                    "append": "Добавить ответ",
-                    "remove": "Удалить",
-                    "default": "Другие ответы, кроме указанных выше",
+                    "transition": "Keçid",
+                    "answer": "Cavab",
+                    "append": "Cavab əlavə et",
+                    "remove": "Sil",
+                    "default": "Digər cavablar",
                     "end_quiz": "Sorğunun növü",
                     "next_question": "Növbəti sual",
                     "no_response_provided": "Cavab verilməyib",
                     "selector": {
-                        "header": "Перейти к...",
+                        "header": "Keçid al",
                         "actions": {
-                            "cancel": "Отмена",
-                            "submit": "Применить"
+                            "cancel": "Ləğv et",
+                            "submit": "Təsdiq et"
                         },
                         "search": {
-                            "label": "Найти"
+                            "label": "Axtar"
                         },
                         "total": {
-                            "false": "Вопросов: {{ value }}",
-                            "true": "Найдено: {{ value }}"
+                            "false": "Suallar: {{ value }}",
+                            "true": "Tapıldı: {{ value }}"
                         },
                         "list": {
-                            "title": "Доступные вопросы:",
-                            "next": "Следующий вопрос",
-                            "end": "Завершение опроса",
-                            "empty": "Вопросы не найдены"
+                            "title": "Mövcud suallar:",
+                            "next": "Növbəti sual",
+                            "end": "Anketin sonu",
+                            "empty": "Suallar tapılmadı"
                         }
                     },
                     "validation": {
@@ -94,7 +94,7 @@
                     },
                     "widgets": {
                         "number_range": {
-                            "from": "from",
+                            "from": " ",
                             "in": "Aralıqda",
                             "out": "əhatə dairəsi xaricində",
                             "to": " "
@@ -121,8 +121,8 @@
                     "points": "xal",
                     "answer": "Cavab",
                     "append": "cavab əlavə etmək",
-                    "remove": "Удалить",
-                    "default": "Другие ответы, кроме указанных выше",
+                    "remove": "Sil",
+                    "default": "Digər cavablar",
                     "notice": {
                         "multiple": {
                             "text": "Ümumi xal = Seçilmiş cavabların xallarının cəmi",
@@ -137,7 +137,7 @@
                     "close": "Yadda saxla",
                     "close_and_create": "Yadda saxla və sual əlavə et",
                     "delete": "Sil",
-                    "append": "[AT] Növbəti sualı əlavə edin"
+                    "append": "Növbəti sualı əlavə edin"
                 },
                 "defaults": {
                     "group": "Yeni bölmə",
@@ -181,35 +181,35 @@
                     },
                     "tree": {
                         "import": "Yeni kataloq yükləmək",
-                        "export": "Export the catalog",
+                        "export": "Katalogu endir",
                         "template": "Şablonu endir",
                         "loading": "Kataloq yüklənir...",
                         "errors": {
                             "Process.Light.Import.InvalidFile": {
-                                "title": "Файл не загружен",
-                                "text": "Ознакомьтесь с шаблоном справочника и повторите попытку"
+                                "title": "Fayl yüklənməyib",
+                                "text": "Kataloqun nümunəsi ilə tanış olun və yenidən cəhd edin"
                             },
                             "Process.Light.Import.TooManyElements": {
-                                "title": "Файл не загружен",
-                                "text": "Справочник не может содержать более 500 элементов"
+                                "title": "Fayl yüklənmədi",
+                                "text": "Kataloq 500-dən çox simvol qəbul etmir"
                             }
                         },
                         "download_template": "Şablonu endir",
                         "error": {
-                            "info": "Referans şablonuna baxın və yenidən cəhd edin",
+                            "info": "Kataloq şablonuna baxın və yenidən cəhd edin",
                             "title": "Fayl yüklənməyib."
                         },
                         "loader_text": "Kataloq yüklənir...",
                         "upload": "Yeni kataloq yükləmək"
                     },
                     "agreement": {
-                        "placeholder": "Согласен"
+                        "placeholder": "Razıyam"
                     }
                 },
                 "validation": {
                     "common": {
                         "pattern": "{{value}} — qadağan olunmuş simvollar",
-                        "toggle": "Təsdiqləndirmə"
+                        "toggle": "Təsdiq"
                     },
                     "number": {
                         "is_integer": "Tam ədədlər"
@@ -244,10 +244,10 @@
                         "title": "Sual üçün keçid məntiqi konfiqurasiya edilmişdir"
                     },
                     "source": {
-                        "title": "Данные ответа будут удалены",
+                        "title": "Cavablar ləğv olunacaq",
                         "text": "",
-                        "cancel": "Отмена",
-                        "change": "Продолжить"
+                        "cancel": "Ləğv et",
+                        "change": "Davam et"
                     },
                     "cancel": "Ləğv et",
                     "change": "Dəyişmək",
@@ -256,15 +256,15 @@
                 },
                 "delete_item_dialog": {
                     "confirm": {
-                        "header": "Удалить вопрос?",
-                        "text": "Восстановить вопрос будет нельзя",
-                        "submit": "Удалить",
-                        "cancel": "Отмена"
+                        "header": "Sual silinsin?",
+                        "text": "Sualı bərpa etmək olmayacaq",
+                        "submit": "Sil",
+                        "cancel": "Ləğv et"
                     },
                     "failure": {
-                        "header": "Удаление вопроса запрещено",
-                        "text": "Чтобы удалить вопрос, удалите логические переходы на него из вопросов:",
-                        "submit": "Понятно"
+                        "header": "Sualın ləğv edilməsi mümkün deyil",
+                        "text": "Sualı silmək üçün məntiqi keçidləri silin:",
+                        "submit": "Aydındır"
                     }
                 },
                 "fields": {
@@ -320,7 +320,7 @@
                 "object": "Sual",
                 "select": "Tək seçim",
                 "tree": "Kataloqdan seçim",
-                "agreement": "Согласие"
+                "agreement": "Razılığın verilməsi"
             },
             "dialog": {
                 "back": "Geri",
@@ -328,10 +328,10 @@
             },
             "parts": {
                 "panel": {
-                    "title": "Разделы",
-                    "collapse": "Свернуть",
-                    "expand": "Развернуть разделы",
-                    "configure": "Настроить"
+                    "title": "Bölmələr",
+                    "collapse": "Gizlət",
+                    "expand": "Bölmələri aç",
+                    "configure": "Ayarla"
                 },
                 "table": {
                     "headers": {
@@ -374,27 +374,27 @@
                     "title": "JSON faylından sorğu anketi yüklənir"
                 },
                 "import_dialog_excel": {
-                    "title": "[AT] bir fayldan bir anket Yükləyin",
+                    "title": "Anketi yüklə",
                     "success_text": "Data uğurla yükləndi",
-                    "warning": "[AT] əvvəllər daxil edilmiş suallar silinəcəkdir.",
-                    "questions": "[AT] hoproses: <b> {{ questions }}</b>",
+                    "warning": "Öncə daxil edilmiş suallar silinəcəkdir.",
+                    "questions": "Suallar: <b> {{ questions }}</b>",
                     "groups": "Bölmələr: <b>{{ groups }}</b>",
-                    "count_failure": "[AT] Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
+                    "count_failure": "Yüklənmiş suallar: <b>{{ questions }}</b> из {{ total }}",
                     "items": {
                         "Process.Light.Import.InvalidFileExtension": {
-                            "title": "[AT] <b>səhv fayl formatı.</b> uzantısı olan anket sənədini seçin \".xlsx\"."
+                            "title": "<b>format uyğun deyil.</b> anketi seçin \".xlsx\"."
                         },
                         "Process.Light.Import.InvalidFile": {
-                            "title": "<b>[AT] Fayl şablona uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
+                            "title": "<b>Fayl uyğun gəlmir.</b>\ncari şablonu yükləyin və yükləməni təkrarlayın."
                         },
                         "Process.Light.Import.FileHasErrors": {
-                            "title": "[AT] <b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
+                            "title": "<b>səhv suallar yüklənmir.</b> səhvləri düzəldin və yükləməni təkrarlayın.",
                             "download": "Səhv təsvirləri olan faylı endir"
                         }
                     },
                     "cancel": "Ləğv et",
                     "upload": "Növbəti",
-                    "close": "[AT] Yaxın"
+                    "close": "Bağlı"
                 }
             },
             "empty": {
@@ -412,11 +412,12 @@
             },
             "menu": {
                 "import_export": {
-                    "title": "İdxal ixrac",
-                    "template_excel": "Excel-də anket nümunəsini yükləyin",
-                    "import_excel": "Anketi Excel-dən idxal edin",
-                    "export_json": "Anketi JSON-a ixrac edin",
-                    "import_json": "JSON-dan sorğu vərəqəsini idxal edin"
+                    "title": "Yüklə/Endir",
+                    "template_excel": "Anket nümunəsini excel formatında endir",
+            "refer_price_all": "Təklif qiyməti qiymət dəyişikliyi qaydasını pozur. Tövsiyə olunan qiymət: {{max}} {{currency}} və yuxarı və ya {{min}} {{currency}} və aşağı.",
+                    "import_excel": "Excel fayldan anket nümunəsini yüklə",
+                    "export_json": "Anket nümunəsini JSON formatında endir",
+                    "import_json": "JSON fayldan anketi yüklə"
                 },
                 "templates": {
                     "title": "Şablonlar",
@@ -430,35 +431,35 @@
             "templates": {
                 "dialogs": {
                     "list": {
-                        "title": "[AT] saxlanılan şablonlar",
+                        "title": "Saxlanılan şablonlar",
                         "search": {
-                            "placeholder": "[AT] axtarış",
-                            "empty": "[AT] heç nə tapılmadı"
+                            "placeholder": "Axtar",
+                            "empty": "Heç nə tapılmadı"
                         },
                         "empty": "Şablonlar yadda saxlanmayıb",
                         "actions": {
-                            "cancel": "[AT] Ləğv et",
-                            "submit": "[AT] şablon tətbiq edin"
+                            "cancel": "Ləğv et",
+                            "submit": "Şablon tətbiq edin"
                         }
                     },
                     "edit": {
-                        "title": "[AT] şablonu düzəldin",
-                        "label": "[AT] şablonun adı",
+                        "title": "Şablonun yeni adı",
+                        "label": "Şablonun adı",
                         "actions": {
-                            "cancel": "[AT] Ləğv et",
-                            "save": "[AT] Saxla"
+                            "cancel": "Ləğv et",
+                            "save": "Yadda saxla"
                         }
                     },
                     "apply": {
                         "cancel": "Ləğv et",
                         "submit": "Yüklə",
                         "success": "Şablon yükləndi",
-                        "title": "[AT] Qeyri-qiymət meyarlarını daxil edin",
+                        "title": "Qeyri-qiymət meyarlarını daxil edin",
                         "options": {
-                            "append": "[AT] siyahının sonuna əlavə et",
-                            "replace": "[AT] mövcud meyarları dəyişdirin"
+                            "append": "Siyahının sonuna əlavə et",
+                            "replace": "Mövcud meyarları dəyişdirin"
                         },
-                        "complement": "[AT] Əlavə"
+                        "complement": "Əlavə"
                     },
                     "create": {
                         "cancel": "Ləğv et",
@@ -482,7 +483,7 @@
                 "title": "Filtr",
                 "all": "Bütün suallar",
                 "required": "Məcburi suallar",
-                "no_answer": "Вопросы без ответа",
+                "no_answer": "Cavabsız suallar",
                 "required_no_answer": "Məcburi cavabsız suallar",
                 "empty": "{{filtr}} filtrinə uyğun sual yoxdur"
             }
