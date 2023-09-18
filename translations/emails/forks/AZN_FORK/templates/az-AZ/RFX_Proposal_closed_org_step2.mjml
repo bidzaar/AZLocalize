@@ -16,7 +16,7 @@
           <h1>Sorğunu yekunlaşdırın və tamamlayın</h1>
           <p><b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Yekunlaşdırma:</b> @ProcedureContext.AcceptanceEndDate</p>
           <div style="padding: 16px; background: #FFE0EE; border-radius:4px">
-            <p class="mb05 mt0" style="color:#AD1457;"><b>Niyə sorğunu tamamlamaq vacibdir?</b></p>
+            <p class="mb05 mt0" style="color:#05527C;"><b>Niyə sorğunu tamamlamaq vacibdir?</b></p>
             <ul class="small">
               <li>Müqavilənin pozulması riski yekunlaşdırma uzun müddət sürdüyü zaman artır</li>
               <li>Təchizatçıların qiymət teklifləri öz aktuallığını itirə bilər</li>

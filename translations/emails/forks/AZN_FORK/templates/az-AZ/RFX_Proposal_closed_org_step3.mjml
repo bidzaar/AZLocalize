@@ -13,7 +13,7 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="color:#AD1457">Sorğunu yekunlaşdırın və tamamlayın</h1>
+          <h1 style="color:#05527C">Sorğunu yekunlaşdırın və tamamlayın</h1>
           <p><b>Sorğu:</b> <a href="@ProcedureContext.Url">@ProcedureContext.ProcedureName</a><br /><b>Yekunlaşdırma:</b>@ProcedureContext.AcceptanceEndDate</p>
           <div style="padding: 16px; background: #CB0C00; color: #ffffff">
             <p class="mb05 mt0"><b>Niyə sorğunu tamamlamaq vacibdir?</b></p>

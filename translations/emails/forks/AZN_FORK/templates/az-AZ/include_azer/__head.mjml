@@ -8,7 +8,7 @@
     <mj-button font-size="18px" font-weight="900" background-color="#1976D2" inner-padding="16px 32px" border-radius="4px" color="white" align="left" padding-top="10px" css-class="btnFullWidth" />
     <mj-class name="section-logo" padding-top="20px" padding-bottom="20px" background-color="#f9f9f9" />
     <mj-class name="section-intro" padding-top="10px" padding-bottom="0px" font-size="18px" />
-    <mj-class name="section-primary" background-color="#AD1457" />
+    <mj-class name="section-primary" background-color="#05527C" />
     <mj-class name="text-primary" font-size="18px" color="white" />
     <mj-class name="section-hint" color="#656565" border-top="1px solid #dadec0" background-color="#FEF7E0" padding-top="10px" padding-bottom="10px" />
     <mj-class name="section-footer" background-color="#EFEFEF" padding-bottom="10px" font-size="14px" />

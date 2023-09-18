@@ -13,12 +13,12 @@
     <mj-section mj-class="section-intro" css-class="intro">
       <mj-column>
         <mj-text>
-          <h1 style="font-size:120px;color:#AD1457;margin-bottom:0;font-weight:400">436</h1>
-          <p><span style="font-weight:700;color:#AD1457"> This is the tenders' number of @ConfigurationContext.ProjectName for the last month.</span> Were you not invited? Probably, <b>did not find</b> 😢.</p>
+          <h1 style="font-size:120px;color:#05527C;margin-bottom:0;font-weight:400">436</h1>
+          <p><span style="font-weight:700;color:#05527C"> This is the tenders' number of @ConfigurationContext.ProjectName for the last month.</span> Were you not invited? Probably, <b>did not find</b> 😢.</p>
           <p>It is very easy with @ConfigurationContext.ProjectName just describe what your company does. Use tags like in Instagram 🔥. We are not using difficult catalogs or databases.</p>
           <p> Tags setting for company profile will take 90 seconds 🚀...</p>
         </mj-text>
-        <mj-button background-color="#AD1457" href="@ConfigurationContext.BaseUrl"> Set tags </mj-button>
+        <mj-button background-color="#05527C" href="@ConfigurationContext.BaseUrl"> Set tags </mj-button>
       </mj-column>
     </mj-section>
     <!-- /intro -->
