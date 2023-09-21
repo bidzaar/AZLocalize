@@ -28,8 +28,8 @@
                 "start_change": "Sorğunu dəyişdir",
                 "view_summary": "Sorğunun yekun nəticələrinə bax",
                 "view_journal": "Sorğunun jurnalı",
-                "violate": "[AT] Qaydanın pozulmas",
-                "violate_warning": "[AT] artıq icazə istəmisiniz. Təşkilatçının qərarını gözləyin"
+                "violate": "Qaydanın pozulması",
+                "violate_warning": "Artıq icazə istəmisiniz. Təşkilatçının qərarını gözləyin"
             },
             "blocked": {
                 "sub_title": "Sifarişçi sizi sorğusundan kənarlaşdırdı. Sorğu iştirakçıların sayı ilə məhduddur.\nSuallarınız var? Sifarişçi ilə əlaqə saxlayın.",

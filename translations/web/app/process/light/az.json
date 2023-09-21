@@ -1280,8 +1280,8 @@
                     },
                     "options": {
                         "attachment": "Əlavə sənədlərlə yükləmə",
-                        "order_filter": "[AT] yalnız süzülmüş iştirakçıların təklifləri ilə ({{select}}/{{all}})",
-                        "questionnaire": "[AT] qiymətsiz meyarlarla",
+                        "order_filter": "Yalnız seçilmiş iştirakçıların təklifləri ilə ({{select}}/{{all}})",
+                        "questionnaire": "Qeyri-qiymət meyarları ilə",
                         "selectable": "Yükləmək üçün təklif sahələrini seçin"
                     },
                     "columns": {
@@ -1731,12 +1731,12 @@
                         },
                         "Questionnaire": {
                             "Empty": {
-                                "notice": "Задайте неценовые критерии запроса или отключите блок",
-                                "title": "Требования к участнику и условиям запроса"
+                                "notice": "Sorğunun qeyri-qiymət meyarlarını qeyd edin və ya deaktiv edin",
+                                "title": "Sorğunun şərtləri və iştirakçıya tələblər"
                             },
                             "HasErrors": {
-                                "notice": "Неценовые критерии запроса содержат ошибки.",
-                                "title": "Требования к участнику и условиям запроса"
+                                "notice": "Sorğunun qeyri-qiymət meyarlarında səhvlər var .",
+                                "title": "İştirakçıya dair tələblər və sorğunun şərtləri"
                             },
                             "notice": "",
                             "title": "İştirakçıya dair tələblər və sorğunun şərtləri"
@@ -1847,8 +1847,8 @@
                         "text": "Zəhmət olmasa səhifəni yeniləyin və yekunlaşdırmanı təkrarlayın."
                     },
                     "deleted": {
-                        "title": "[AT] ploadkanı tərk etmək üçün seçilmiş kampaniya",
-                        "text": "[AT] kampaniya <b>{{name}}</b> ploadkanı tərk etdi. Başqa bir şirkət seçin"
+                        "title": "Platformanı tərk etmək üçün seçilmiş şirkət",
+                        "text": "Şirkət <b>{{name}}</b> Platformanı tərk etdi. Başqa bir şirkət seçin"
                     }
                 },
                 "wrong_status": {
@@ -2700,14 +2700,14 @@
                 },
                 "keywords": "sorğu, satınalma, tender, təchizat, xidmətlər",
                 "allow_change_price": {
-                    "title": "[AT] Üzvə qiyməti dəyişməyə icazə verilsin?",
-                    "text": "[AT] İştirakçı qaydanı pozaraq təklif qiymətinin dəyişdirilməsinə icazə verilməsini xahiş edir",
-                    "reason": "[AT] İştirakçı tərəfindən verilən səbəb:",
-                    "reject": "[AT] Rədd edin",
-                    "allow": "[AT] icazə verin",
+                    "title": "İştirakçıya qiyməti dəyişməyə icazə verilsin?",
+                    "text": "İştirakçı qaydanı pozaraq təklif qiymətinin dəyişdirilməsinə icazə verilməsini xahiş edir",
+                    "reason": "İştirakçı tərəfindən verilən səbəb:",
+                    "reject": "İmtina  edin",
+                    "allow": "icazə verin",
                     "snack": {
-                        "allow": "[AT] İcazə verildi",
-                        "reject": "[AT] Sorğu rədd edildi"
+                        "allow": "İcazə verildi",
+                        "reject": "Sorğu imtina olundu"
                     }
                 }
             },
@@ -3325,8 +3325,8 @@
                             "tooltip": "İlkin kvalifikasiya mərhələsini keçmək üçün müraciətləri yüklə"
                         },
                         "block_participants": {
-                            "title": "iştirakçıları təklif olmadan bloklayın",
-                            "tooltip": "iştirakçıları təklif olmadan bloklayın"
+                            "title": "İştirakçıları təklif olmadan bloklayın",
+                            "tooltip": "İştirakçıları təklif olmadan bloklayın"
                         },
                         "unblock_many": {
                             "button": "Bloku aç seçildi",
@@ -3376,20 +3376,20 @@
                             "button": "Hazırkı mərhələdə təklif təqdim etməyənləri bloklayın"
                         },
                         "block_selected": {
-                            "title": "[AT] Üzvləri bloklayın",
+                            "title": "Iştirakçıları bloklayın bloklayın",
                             "block_many": {
-                                "button": "[AT] Blok Seçildi",
-                                "tooltip": "[AT] Seçilmiş üzvləri bloklayın. Fəaliyyət geri qaytarılır",
-                                "text": "[AT] Seçdiyiniz üzvlər bloklanacaq"
+                                "button": "Seçilmiş iştirakçıları bloklayın",
+                                "tooltip": "Seçilmiş iştirakçıları bloklayın. Fəaliyyət geri qaytarılır",
+                                "text": "Seçdiyiniz iştirakçı bloklanacaq"
                             },
                             "block_others": {
-                                "button": "[AT] Seçilmişlərdən başqa hamısını bloklayın",
-                                "text": "[AT] Yalnız seçdiyiniz iştirakçılar qalacaq, qalanları bloklanacaq"
+                                "button": "Seçilmişlərdən başqa hamısını bloklayın",
+                                "text": "Yalnız seçdiyiniz iştirakçılar qalacaq, digərlər bloklanacaq"
                             }
                         },
                         "ban_individual_positions": {
-                            "title": "[AT] Fərdi maddələr üçün təqdim qadağaları təyin edin",
-                            "tooltip": "[AT] Fərdi maddələr üçün təqdim qadağaları təyin edin"
+                            "title": "Maddələr üçün təkliflə bağlı qadağaları təyin edin",
+                            "tooltip": "Maddələr üçün təkliflə bağlı qadağaları təyin edin"
                         }
                     },
                     "gold": {
@@ -3422,8 +3422,8 @@
                     "verified": "Şirkət şirkətinizin reyestrində akkreditə olunub",
                     "allow_violate": {
                         "banner": {
-                            "title": "[AT] Qiymət dəyişikliyi tələbi",
-                            "text": "[AT] İştirakçı qaydanı pozaraq təklif qiymətinin dəyişdirilməsinə icazə verilməsini xahiş edir"
+                            "title": "Qiymət dəyişikliyi sorğusu",
+                            "text": "İştirakçı qaydanı pozaraq təklif qiymətinin dəyişdirilməsinə icazə verilməsini xahiş edir"
                         },
                         "dialog": ""
                     }
@@ -3453,14 +3453,14 @@
                     }
                 },
                 "allow_change_price": {
-                    "title": "[AT] iştirakçıya qiyməti dəyişdirməyə icazə verin?",
-                    "text": "[AT] iştirakçı təklifin qiymətini qaydanı pozaraq dəyişdirməsinə icazə verməsini xahiş edir",
-                    "reason": "[AT] iştirakçı tərəfindən göstərilən səbəb:",
-                    "reject": "[AT] rədd et",
-                    "allow": "[AT] icazə ver",
+                    "title": "iştirakçıya qiyməti dəyişdirməyə icazə verilsin?",
+                    "text": "iştirakçı təklifin qiymətini qaydanı pozaraq dəyişdirməsinə icazə verməsini xahiş edir",
+                    "reason": "iştirakçı tərəfindən göstərilən səbəb:",
+                    "reject": "İmtina et",
+                    "allow": "icazə ver",
                     "snack": {
-                        "allow": "[AT] icazə verildi",
-                        "reject": "[AT] sorğu rədd edildi"
+                        "allow": "icazə verildi",
+                        "reject": "Sorğu imtina olundu"
                     }
                 }
             },
@@ -3521,13 +3521,13 @@
                 }
             },
             "violate": {
-                "title": "[AT] qayda pozuntusu ilə təklif qiymətini necə dəyişdirmək olar?",
-                "text": "[AT] 1. Təşkilatçıdan\n2 səbəbini göstərərək icazə istəyin. Baxılmanın nəticələrinə əsasən, onun\n3 qərarı ilə bir məktub alacaqsınız. Təşkilatçı icazə verərsə, qaydanı pozaraq təklif qiymətini bir dəfə dəyişə bilərsiniz",
-                "placeholder": "[AT] səbəb",
-                "success": "[AT] sorğu müştəriyə göndərildi",
+                "title": "Qayda pozuntusu ilə təklif qiymətini necə dəyişdirmək olar?",
+                "text": "1. Təşkilatçıdan\n2 səbəbini göstərərək icazə istəyin. Baxılmanın nəticələrinə əsasən, onun\n3 qərarı ilə bir məktub alacaqsınız. Təşkilatçı icazə verərsə, qaydanı pozaraq təklif qiymətini bir dəfə dəyişə bilərsiniz",
+                "placeholder": "Səbəb",
+                "success": "Sorğu müştəriyə göndərildi",
                 "actions": {
                     "cancel": "Ləğv et",
-                    "submit": "[AT] seçin"
+                    "submit": "Təsdiq et"
                 }
             },
             "owner": {
@@ -3537,8 +3537,8 @@
             },
             "keywords": "sorğu, satınalma, tender, təchizat, xidmətlər",
             "autoupdate_indicator": {
-                "online": "[AT] Məlumat avtomatik olaraq yenilənir",
-                "offline": "[AT] Bağlantı dayandırıldı...\nSəhifəni yenidən yükləyin"
+                "online": "Məlumat avtomatik olaraq yenilənir",
+                "offline": "Bağlantı dayandırıldı...\nSəhifəni yenidən yükləyin"
             }
         }
     }

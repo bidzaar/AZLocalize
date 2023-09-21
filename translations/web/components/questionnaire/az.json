@@ -399,7 +399,7 @@
             },
             "empty": {
                 "title": "Anket yaradılmayıb",
-                "text": "Fəaliyyətlərdə Sual əlavə edin və ya Anketi idxal edin",
+                "text": "Sualları tərdib edin və anketi yaradın",
                 "title_group": "Bölmə boşdur",
                 "add": "Sual əlavə edin"
             },
@@ -421,7 +421,7 @@
                 },
                 "templates": {
                     "title": "Şablonlar",
-                    "save_template": "Şablonu saxla",
+                    "save_template": "Şablonu yadda saxla",
                     "list": "Saxlanmış şablonların siyahısı"
                 },
                 "divide_into_sections": {
@@ -484,7 +484,7 @@
                 "all": "Bütün suallar",
                 "required": "Məcburi suallar",
                 "no_answer": "Cavabsız suallar",
-                "required_no_answer": "Məcburi cavabsız suallar",
+                "required_no_answer": "Cavabsız suallar",
                 "empty": "{{filtr}} filtrinə uyğun sual yoxdur"
             }
         },
