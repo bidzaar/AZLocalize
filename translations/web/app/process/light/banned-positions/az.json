@@ -1,7 +1,7 @@
 {
     "pl": {
         "banned_positions": {
-            "header": "Fərdi elementlər üçün lent qadağalarının təyin edilməsi",
+            "header": "Maddələr üçün qadağaların təyin edilməsi",
             "header_tooltip": "Təqdim etmə qadağaları yalnız yeni iştirakçı təkliflərinə şamil olunacaq",
             "banned_positions": "Qadağan olunmuş maddələr:",
             "has_bid": "Təklif təqdim edildi",
