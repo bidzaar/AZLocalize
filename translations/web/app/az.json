@@ -2524,7 +2524,7 @@
                 },
                 "progress": {
                     "title": "Daha çox sifariş əldə etmək üçün profilinizi doldurun",
-                    "sub_title": "[AT] şirkətiniz daha çox nəzərə çarpacaq və daha çox etibar yaradacaq",
+                    "sub_title": "Şirkətiniz platformada ön plana çıxacaq və daha çox etibar yaradacaq",
                     "items": {
                         "0": {
                             "name": "Ümumi \nməlumat",
@@ -2622,7 +2622,7 @@
                         "empty": "şirkətinizin satın almaq istədiyi məhsul və xidmətləri etiketləyin ki, müştərilər və ProcureSaas sistemi Sizin üçün xüsusi olaraq sorğu ala bilsin"
                     },
                     "add": "Teqlər əlavə et",
-                    "edit": "[AT] etiketləri dəyişdirin",
+                    "edit": "Nişanları dəyişdirin",
                     "dialog": {
                         "header": "Ixtisas sahəsi",
                         "placeholder": "Satış üçün obyektalri sadalıyın",
@@ -2637,17 +2637,17 @@
                 },
                 "menu": {
                     "items": {
-                        "0": "[AT] rekvizitlər",
-                        "1": "[AT] işçilər",
-                        "2": "[AT] sayt üçün vidjetlər",
-                        "3": "[AT] kateqoriyalar Kataloqu",
-                        "4": "[AT] dəvətnamələrin qurulması",
-                        "5": "[AT] işçi qrupları",
-                        "6": "[AT] şirkətlər qrupları",
-                        "7": "[AT] qələbə üçün hesablar"
+                        "0": "Rekvizitlər",
+                        "1": "İşçilər",
+                        "2": "Sayt üçün vidjetlər",
+                        "3": "Kateqoriyalar Kataloqu",
+                        "4": "Dəvətnamələrin qurulması",
+                        "5": "işçi qrupları",
+                        "6": "Şirkətlər qrupları",
+                        "7": "Qələbə üçün hesablar"
                     },
-                    "bills_message": "[AT] ödənilməmiş hesablar var",
-                    "mobile_action": "[AT] menyu"
+                    "bills_message": "Ödənilməmiş hesablar var",
+                    "mobile_action": "Menyu"
                 }
             }
         },
