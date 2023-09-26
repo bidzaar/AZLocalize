@@ -1,13 +1,13 @@
 {
     "ImportExport.Comment": "Şərh",
-    "ImportExport.CustomField.Bool": "[AT] Boolean (bəli və ya yox)",
+    "ImportExport.CustomField.Bool": "Məntiqi (bəli və ya yox)",
     "ImportExport.CustomField.BoolFalseValue": "yox",
     "ImportExport.CustomField.BoolTrueValue": "bəli",
-    "ImportExport.CustomField.DateTime": "[AT] Tarix",
-    "ImportExport.CustomField.Decimal": "[AT] valyutasız nömrə",
-    "ImportExport.CustomField.Double": "[AT] nömrə",
+    "ImportExport.CustomField.DateTime": "Tarix",
+    "ImportExport.CustomField.Decimal": "valyutasız nömrə",
+    "ImportExport.CustomField.Double": "nömrə",
     "ImportExport.CustomField.HideToOthers": "başqasına gizlədilib",
-    "ImportExport.CustomField.Integer": "[AT] nömrə",
+    "ImportExport.CustomField.Integer": "nömrə",
     "ImportExport.CustomField.NotRequired": "Məcburi deyil",
     "ImportExport.CustomField.Required": "Məcburidir",
     "ImportExport.CustomField.String": "",
@@ -84,7 +84,7 @@
     "ImportExport.Required": "Məcburidir",
     "ImportExport.Unknow": "Qeyd edilməmişdir",
     "ImportExport.WithoutVat": "ƏDV-siz",
-    "ImportExport.Positions.DontHaveAny": "[AT] Təklifə daxildir",
-    "ImportExport.Positions.DontHaveAny.Hint": "[AT] 1 – daxildir, 0 – təklifə daxil deyil",
-    "ImportExport.Recommendations.DontHaveAny": "[AT] Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil"
+    "ImportExport.Positions.DontHaveAny": "Təklifə daxildir",
+    "ImportExport.Positions.DontHaveAny.Hint": "1 – daxildir, 0 – təklifə daxil deyil",
+    "ImportExport.Recommendations.DontHaveAny": "Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil"
   }
