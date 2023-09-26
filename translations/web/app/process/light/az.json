@@ -1812,7 +1812,7 @@
                     },
                     "comment": {
                         "title": "Mərhələ iştirakçıları üçün şərh:",
-                        "placeholder": "Şəhr",
+                        "placeholder": "Şərh",
                         "error": "Tələb olunan xana",
                         "hint": "Məsələn: \"Son təkliflərin təqdim edilməsi\""
                     },

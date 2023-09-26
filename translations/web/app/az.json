@@ -2284,9 +2284,9 @@
                     "label": "Əməkdaşların sayı"
                 },
                 "edm": {
-                    "header": "[AT] Edo ID",
-                    "label": "[AT] tire və boşluq olmadan identifikatoru göstərin",
-                    "placeholder": "[AT] Edo ID"
+                    "header": "ESD ID",
+                    "label": "Tire və boşluq olmadan identifikatoru göstərin",
+                    "placeholder": "ESD ID"
                 },
                 "location": {
                     "header": "Hüquqi ünvan"
@@ -2638,11 +2638,11 @@
                 "menu": {
                     "items": {
                         "0": "Rekvizitlər",
-                        "1": "İşçilər",
+                        "1": "Əməkdaşlar",
                         "2": "Sayt üçün vidjetlər",
                         "3": "Kateqoriyalar Kataloqu",
                         "4": "Dəvətnamələrin qurulması",
-                        "5": "işçi qrupları",
+                        "5": "Əməkdaşlar qrupları",
                         "6": "Şirkətlər qrupları",
                         "7": "Qələbə üçün hesablar"
                     },
