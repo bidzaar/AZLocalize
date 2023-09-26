@@ -100,5 +100,8 @@
     "ProposalRejected": "Müştəri \"{ProposalType}\" təklifinizi rədd etdi. Səbəb: {Səbəb}.",
     "ProposalRejected.ProposalType.Alternative": "Alternativ",
     "ProposalRejected.ProposalType.Main": "Əsas",
-    "ProcedureEndedBroadcastWithoutOrder": "Sorğu qalib seçilmədən başa çatdı. Səbəb: {səbəb}. Bütün iştirakçılara təşəkkür edirik!"
+    "ProcedureEndedBroadcastWithoutOrder": "Sorğu qalib seçilmədən başa çatdı. Səbəb: {səbəb}. Bütün iştirakçılara təşəkkür edirik!",
+    "ChangePricePermitted": "[AT] Təşkilatçı qaydanı pozaraq sizə təklifin qiymətini bir dəfə dəyişməyə icazə verib",
+    "ChangePriceForbidden": "[AT] Təşkilatçı qaydaları pozaraq təklif qiymətinin dəyişdirilməsi tələbinizi rədd etdi",
+    "RequestChangePricePermission": "[AT] İştirakçı qaydanı pozaraq təklif qiymətinin dəyişdirilməsinə icazə verilməsini xahiş edir\n\n<a href=\"{Url}\" target=\"_blank\">-də icazə verin və ya sorğunu rədd edin</a>"
 }

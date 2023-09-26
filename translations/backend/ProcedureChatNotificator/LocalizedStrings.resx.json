@@ -100,5 +100,8 @@
     "ProposalRejected": "Заказчик отклонил ваше предложение \"{ProposalType}\". Причина: {Reason}.",
     "ProposalRejected.ProposalType.Alternative": "Альтернативное",
     "ProposalRejected.ProposalType.Main": "Основное",
-    "ProcedureEndedBroadcastWithoutOrder": "Запрос завершен без выбора победителя. Причина: {reason}. Благодарим всех участников!"
+    "ProcedureEndedBroadcastWithoutOrder": "Запрос завершен без выбора победителя. Причина: {reason}. Благодарим всех участников!",
+    "ChangePricePermitted": "Организатор выдал Вам разрешение на однократное изменение цены предложения с нарушением правила",
+    "ChangePriceForbidden": "Организатор отклонил Ваш запрос на изменение цены предложения с нарушением правила",
+    "RequestChangePricePermission": "Участник просит разрешить ему изменить цену предложения с нарушением правила\n\nВыдайте разрешение или отклоните запрос в <a href=\"{Url}\" target=\"_blank\">списке участников</a>"
 }

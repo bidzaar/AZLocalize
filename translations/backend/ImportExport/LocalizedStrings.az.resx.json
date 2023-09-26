@@ -84,7 +84,15 @@
     "ImportExport.Required": "Məcburidir",
     "ImportExport.Unknow": "Qeyd edilməmişdir",
     "ImportExport.WithoutVat": "ƏDV-siz",
-    "ImportExport.Positions.DontHaveAny": "[AT] Təklifə daxildir",
+    "ImportExport.QuestionnaireDataSource.TemplateFileName": "[AT] Template.xlsx",
     "ImportExport.Positions.DontHaveAny.Hint": "[AT] 1 – daxildir, 0 – təklifə daxil deyil",
-    "ImportExport.Recommendations.DontHaveAny": "[AT] Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil"
-  }
+    "ImportExport.Positions.DontHaveAny": "[AT] Təklifə daxildir",
+    "ImportExport.Recommendations.DontHaveAny": "[AT] Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil",
+    "ImportExport.Questionnaire.Description": "[AT] Təsvir",
+    "ImportExport.Questionnaire.Description.Hint": "[AT] lazım deyil",
+    "ImportExport.Questionnaire.Group": "[AT] Fəsil",
+    "ImportExport.Questionnaire.Group.Hint": "[AT] hər sual üçün qeyd edin",
+    "ImportExport.Questionnaire.Question": "[AT] Sual",
+    "ImportExport.Questionnaire.Question.Hint": "[AT] Mütləq",
+    "ImportExport.Questionnaire.WorksheetName": "[AT] AZ"
+}

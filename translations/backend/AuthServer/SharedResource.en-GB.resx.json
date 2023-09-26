@@ -50,5 +50,12 @@
     "Register.UserAggrement": "By pressing the \"Create account\" button, I accept conditions of the <a href=\"{0}\" target=\"_blank\">User agreement</a> and give your consent to the processing of your personal information on the terms determined by the <a href=\"{1}\" target=\"_blank\">Privacy Policy</a>",
     "ResetPassword.PasswordHint": "The password must consist of alphabetic, numeric and special characters, {0} or more characters long",
     "ResetPassword.SetPassword": "SET PASSWORD",
-    "ResetPassword.Title": "Set new password"
+    "ResetPassword.Title": "Set new password",
+    "Error.SsoOnly": "Use your company's authentication server",
+    "Login.Sso": "login via SSO",
+    "Sso.Title": "SSO authentication for your company",
+    "Sso.Text": "Find your company in the search for authorization",
+    "Sso.SearchPlaceholder": "Enter the name of the organization",
+    "Sso.NoData": "No data",
+    "Sso.BidzaarSignIn": "login via ProcureSaas account"
 }

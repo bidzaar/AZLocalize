@@ -86,5 +86,13 @@
     "ImportExport.RecommendationsToFixErrors": "Рекомендации по исправлению ошибок – на листе \"Ошибки\"",
     "ImportExport.Required": "обязательно",
     "ImportExport.Unknow": "Не указано",
-    "ImportExport.WithoutVat": "Без НДС"
+    "ImportExport.WithoutVat": "Без НДС",
+    "ImportExport.Questionnaire.Description": "Описание",
+    "ImportExport.Questionnaire.Description.Hint": "необязательно",
+    "ImportExport.Questionnaire.Group": "Раздел",
+    "ImportExport.Questionnaire.Group.Hint": "укажите для каждого вопроса",
+    "ImportExport.Questionnaire.Question": "Вопрос",
+    "ImportExport.Questionnaire.Question.Hint": "обязательно",
+    "ImportExport.Questionnaire.WorksheetName": "RU",
+    "ImportExport.QuestionnaireDataSource.TemplateFileName": "Шаблон справочника.xlsx"
 }

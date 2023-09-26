@@ -61,5 +61,12 @@
     "Validation.Required": "Обязательное поле",
     "Validation.UserAlreadyExists1": "Пользователь с указанным email уже зарегистрирован",
     "Validation.UserDoesNotExists1": "Пользователь с указанным email не зарегистрирован",
-    "Validation.WrongFormat": "Используйте буквенные символы"
+    "Validation.WrongFormat": "Используйте буквенные символы",
+    "Error.SsoOnly": "Используйте сервер аутентификации своей компани",
+    "Login.Sso": "войти по SSO",
+    "Sso.Title": "Аутентификация по SSO вашей компании",
+    "Sso.Text": "Найдите свою компанию в поиске для авторизации",
+    "Sso.SearchPlaceholder": "Введите название организации",
+    "Sso.NoData": "Нет данных",
+    "Sso.BidzaarSignIn": "войти через аккаунт ProcureSaas"
 }

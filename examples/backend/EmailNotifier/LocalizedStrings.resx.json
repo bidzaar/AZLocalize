@@ -37,5 +37,7 @@
     "String3": "Публикует, изменяет и завершает запрос",
     "String4": "Редактирует черновик запроса",
     "String5": "Просматривает запрос",
-    "ReportType.ChatsArchive": "историю сообщений по запросу "
+    "ReportType.ChatsArchive": "историю сообщений по запросу ",
+    "ReportType.RegistryApplication": "документы участника реестра",
+    "ReportType.CompanyProceduresArchive": "список запросов"
 }

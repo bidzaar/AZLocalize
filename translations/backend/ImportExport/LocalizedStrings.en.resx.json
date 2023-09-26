@@ -86,5 +86,13 @@
     "ImportExport.RecommendationsToFixErrors": "Recommendations of error fixes are on the Errors list",
     "ImportExport.Required": "required",
     "ImportExport.Unknow": "Not specified",
-    "ImportExport.WithoutVat": "Without VAT"
+    "ImportExport.WithoutVat": "Without VAT",
+    "ImportExport.QuestionnaireDataSource.TemplateFileName": "Template.xlsx",
+    "ImportExport.Questionnaire.Description": "Description",
+    "ImportExport.Questionnaire.Description.Hint": "optional",
+    "ImportExport.Questionnaire.Group": "Section",
+    "ImportExport.Questionnaire.Group.Hint": "required for each question",
+    "ImportExport.Questionnaire.Question": "Question",
+    "ImportExport.Questionnaire.Question.Hint": "required",
+    "ImportExport.Questionnaire.WorksheetName": "EN"
 }
