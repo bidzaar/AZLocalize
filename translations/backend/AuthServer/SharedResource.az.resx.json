@@ -51,15 +51,10 @@
     "Validation.UserAlreadyExists": "Göstərilən e-poçtu olan istifadəçi artıq qeydiyyatdan keçib",
     "Validation.UserDoesNotExists": "Göstərilən e-poçtu olan istifadəçi qeydiyyatdan keçməyib",
     "Validation.WrongFormat": "Hərfi simvollardan istifadə edin",
-    "Error.UserDoesntExist1": "[AT] Göstərilən e-poçtu olan istifadəçi. poçt qeydiyyata alınmayıb",
-    "Error.UserNotFound1": "[AT] İstifadəçi tapılmadı",
-    "Error.WrongPassword1": "[AT] Yanlış parol daxil edilib",
-    "Notice.Company1": "[AT] Şirkətin qeydiyyatı -",
-    "Notice.Step1": "[AT] növbəti addımda.",
-    "PasswordTooShort1": "[AT] Parol ən azı {1} simvoldan ibarət olmalıdır.",
-    "Validation.IncorrectPassword1": "[AT] Səhv giriş və ya parol daxil edilib",
-    "Validation.PasswordsDontMatch1": "[AT] Parol uyğunsuzluğu",
-    "Validation.RecoveryLinkIsUsed1": "[AT] Parolun bərpası linki artıq etibarlı deyil. Parolunuzu yenidən sıfırlayın",
-    "Validation.UserAlreadyExists1": "[AT] Göstərilən e-poçtu olan istifadəçi artıq qeydiyyatdan keçib",
-    "Validation.UserDoesNotExists1": "[AT] Göstərilən e-poçtu olan istifadəçi qeydiyyatdan keçməyib"
-  }
+    "Login.Sso": "[AT] SSO vasitəsilə daxil olun",
+    "Sso.Title": "[AT] Şirkətiniz üçün SSO identifikasiyası",
+    "Sso.Text": "[AT] Avtorizasiya axtarışında şirkətinizi tapın",
+    "Sso.SearchPlaceholder": "[AT] Təşkilatın adını daxil edin",
+    "Sso.NoData": "[AT] Məlumat yoxdur",
+    "Sso.BidzaarSignIn": "[AT] ProcureSaas hesabı vasitəsilə daxil olun"
+}

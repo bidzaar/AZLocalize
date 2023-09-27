@@ -32,5 +32,12 @@
     "SortType.Default": "Вначале с лучшей ценой",
     "SortType.LastProposalsFirst": "Вначале последние обновлённые",
     "SortType.WithNoDeviationFirst": "Вначале с максимальным удовлетворением",
-    "SortType.WithOrderFirst": "Вначале с выбором"
+    "SortType.WithOrderFirst": "Вначале с выбором",
+    "SimplifiedEventType.ChangePriceForbidden": "Организатор отклонил запрос Участника на изменение цены предложения с нарушением правила",
+    "SimplifiedEventType.ChangePricePermissionRequested": "Участник запросил разрешение у Организатора на изменение цены предложения с нарушением правила",
+    "SimplifiedEventType.ProcedureArchived": "Запрос перенесен в архив",
+    "SimplifiedEventType.ProcedureParticipantInvited": "Участник приглашён",
+    "SimplifiedEventType.ProcedureUnArchived": "Запрос возвращен из архива",
+    "SimplifiedEventType.ProcedureTradingTypeChanged": "Тип торгов изменён",
+    "SimplifiedEventType.ProposalRankMethodChanged": "Изменён способ ранжирования предложений"
 }

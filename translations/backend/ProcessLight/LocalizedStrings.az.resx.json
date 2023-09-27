@@ -32,5 +32,10 @@
     "SortType.WithOrderFirst": "Əvvəlcə seçimlə",
     "ProcedureType.Buy": "Alış",
     "ProcedureType.Sell": "Satılır",
-    "ProcedureType.Unknown": "Naməlum"
+    "ProcedureType.Unknown": "Naməlum",
+    "SimplifiedEventType.ChangePricePermissionRequested": "[AT] İştirakçı qaydanı pozaraq təklifin qiymətini dəyişmək üçün Təşkilatçıdan icazə istəyib",
+    "SimplifiedEventType.ProcedureArchived": "[AT] Sorğu arxivə köçürüldü",
+    "SimplifiedEventType.ProcedureUnArchived": "[AT] Sorğu arxivdən qaytarıldı",
+    "SimplifiedEventType.ChangePriceForbidden": "[AT] Təşkilatçı qaydanı pozaraq İştirakçının təklif qiymətinin dəyişdirilməsi tələbini rədd etdi",
+    "SimplifiedEventType.ProcedureParticipantInvited": "[AT] İştirakçı dəvət olunur"
 }

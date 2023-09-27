@@ -32,5 +32,11 @@
     "SortType.WithOrderFirst": "First with a choice",
     "ProcedureType.Buy": "Buying",
     "ProcedureType.Sell": "Selling",
-    "ProcedureType.Unknown": "Unknown"
+    "ProcedureType.Unknown": "Unknown",
+    "SimplifiedEventType.ChangePricePermissionRequested": "The participant requested permission from the Organizer to change the offer price in violation of the rule",
+    "SimplifiedEventType.ProcedureTradingTypeChanged": "Trade type has been changed",
+    "SimplifiedEventType.ProcedureArchived": "The request has been moved to the archive",
+    "SimplifiedEventType.ProcedureUnArchived": "Request returned from archive",
+    "SimplifiedEventType.ChangePriceForbidden": "The Organizer rejected the Participant's request to change the offer price in violation of the rule",
+    "SimplifiedEventType.ProcedureParticipantInvited": "Participant invited"
 }

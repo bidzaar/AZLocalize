@@ -100,5 +100,8 @@
     "ProposalRejected": "The customer rejected your proposal \"{ProposalType}\". Reason: {Reason}.",
     "ProposalRejected.ProposalType.Alternative": "Alternative",
     "ProposalRejected.ProposalType.Main": "Main",
-    "ProcedureEndedBroadcastWithoutOrder": "The request has ended without a winner being selected. Reason: {reason}. Thanks to all participants!"
+    "ProcedureEndedBroadcastWithoutOrder": "The request has ended without a winner being selected. Reason: {reason}. Thanks to all participants!",
+    "ChangePriceForbidden": "The organizer rejected your request to change the offer price in violation of the rules",
+    "ChangePricePermitted": "The organizer has given you permission to change the offer price once in violation of the rule",
+    "RequestChangePricePermission": "The participant asks to be allowed to change the offer price in violation of the rule\n\nGrant permission or deny the request in <a href=\"{Url}\" target=\"_blank\">list of participants</a>"
 }

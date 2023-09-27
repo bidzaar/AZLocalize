@@ -86,5 +86,13 @@
     "ImportExport.WithoutVat": "ƏDV-siz",
     "ImportExport.Positions.DontHaveAny": "Təklifə daxildir",
     "ImportExport.Positions.DontHaveAny.Hint": "1 – daxildir, 0 – təklifə daxil deyil",
-    "ImportExport.Recommendations.DontHaveAny": "Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil"
+    "ImportExport.Recommendations.DontHaveAny": "Təklifə daxildir: Zəhmət olmasa \"1\" və ya \"0\" göstərin. 1 – daxildir, 0 – təklifə daxil deyil",
+    "ImportExport.QuestionnaireDataSource.TemplateFileName": "Şablon.xlsx",
+    "ImportExport.Questionnaire.Description": "Təsvir",
+    "ImportExport.Questionnaire.Description.Hint": "Zəruri deyil",
+    "ImportExport.Questionnaire.Group": "Bölmə",
+    "ImportExport.Questionnaire.Group.Hint": "hər sual üçün qeyd edin",
+    "ImportExport.Questionnaire.Question": "Sual",
+    "ImportExport.Questionnaire.Question.Hint": "Zəruridir",
+    "ImportExport.Questionnaire.WorksheetName": "AZ"
   }

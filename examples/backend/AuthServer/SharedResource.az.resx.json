@@ -50,5 +50,11 @@
     "Validation.Required": "Tələb olunan xana",
     "Validation.UserAlreadyExists": "Göstərilən e-poçtu olan istifadəçi artıq qeydiyyatdan keçib",
     "Validation.UserDoesNotExists": "Göstərilən e-poçtu olan istifadəçi qeydiyyatdan keçməyib",
-    "Validation.WrongFormat": "Hərfi simvollardan istifadə edin"
+    "Validation.WrongFormat": "Hərfi simvollardan istifadə edin",
+    "Login.Sso": "[AT] SSO vasitəsilə daxil olun",
+    "Sso.Title": "[AT] Şirkətiniz üçün SSO identifikasiyası",
+    "Sso.Text": "[AT] Avtorizasiya axtarışında şirkətinizi tapın",
+    "Sso.SearchPlaceholder": "[AT] Təşkilatın adını daxil edin",
+    "Sso.NoData": "[AT] Məlumat yoxdur",
+    "Sso.BidzaarSignIn": "[AT] Bidzaar hesabı vasitəsilə daxil olun"
 }
